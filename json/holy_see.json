@@ -1,0 +1,99 @@
+{
+  "country": "Holy See",
+  "iso3": "VAT",
+  "metrics": {
+    "access_to_electricity_percent": {
+      "values_by_year": {}
+    },
+    "basic_drinking_water_percent": {
+      "values_by_year": {}
+    },
+    "basic_sanitation_percent": {
+      "values_by_year": {}
+    },
+    "internet_users_percent": {
+      "values_by_year": {}
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "values_by_year": {}
+    },
+    "transport_infrastructure_quality_lpi": {
+      "values_by_year": {}
+    },
+    "government_effectiveness": {
+      "values_by_year": {}
+    },
+    "rule_of_law": {
+      "values_by_year": {}
+    },
+    "control_of_corruption": {
+      "values_by_year": {}
+    },
+    "political_stability": {
+      "values_by_year": {}
+    },
+    "regulatory_quality": {
+      "values_by_year": {}
+    },
+    "gdp_per_capita_ppp": {
+      "values_by_year": {}
+    },
+    "unemployment_percent": {
+      "values_by_year": {}
+    },
+    "inflation_percent": {
+      "values_by_year": {}
+    },
+    "secondary_school_enrollment_gross": {
+      "values_by_year": {}
+    },
+    "tertiary_school_enrollment_gross": {
+      "values_by_year": {}
+    },
+    "central_government_debt_percent_gdp": {
+      "values_by_year": {}
+    },
+    "external_debt_percent_gni": {
+      "values_by_year": {}
+    },
+    "debt_service_percent_exports": {
+      "values_by_year": {}
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "values_by_year": {}
+    },
+    "intentional_homicides_per_100k": {
+      "values_by_year": {}
+    },
+    "life_expectancy_years": {
+      "values_by_year": {}
+    },
+    "under_5_mortality_per_1000": {
+      "values_by_year": {}
+    },
+    "current_health_expenditure_percent_gdp": {
+      "values_by_year": {}
+    },
+    "physicians_per_1000_people": {
+      "values_by_year": {}
+    },
+    "agriculture_value_added_percent_gdp": {
+      "values_by_year": {}
+    },
+    "industry_value_added_percent_gdp": {
+      "values_by_year": {}
+    },
+    "services_value_added_percent_gdp": {
+      "values_by_year": {}
+    },
+    "trade_percent_gdp": {
+      "values_by_year": {}
+    },
+    "exports_percent_gdp": {
+      "values_by_year": {}
+    },
+    "imports_percent_gdp": {
+      "values_by_year": {}
+    }
+  }
+}

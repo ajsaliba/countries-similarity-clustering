@@ -1,0 +1,195 @@
+{
+  "country": "Switzerland",
+  "iso3": "CHE",
+  "metrics": {
+    "access_to_electricity_percent": {
+      "value": 100,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "EG.ELC.ACCS.ZS"
+    },
+    "basic_drinking_water_percent": {
+      "value": 99.9999967819997,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "SH.H2O.BASW.ZS"
+    },
+    "basic_sanitation_percent": {
+      "value": 99.8998709349206,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "SH.STA.BASS.ZS"
+    },
+    "internet_users_percent": {
+      "value": 97.3444,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "IT.NET.USER.ZS"
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 47.6963,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "IT.NET.BBND.P2"
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": 4.4,
+      "year": 2022,
+      "source": "world_bank",
+      "indicator_code": "LP.LPI.INFR.XQ"
+    },
+    "government_effectiveness": {
+      "value": 2.13492703437805,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "GE.EST"
+    },
+    "rule_of_law": {
+      "value": 1.76172566413879,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "RL.EST"
+    },
+    "control_of_corruption": {
+      "value": 2.02199912071228,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "CC.EST"
+    },
+    "political_stability": {
+      "value": 1.07144391536713,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "PV.EST"
+    },
+    "regulatory_quality": {
+      "value": 1.72938001155853,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "RQ.EST"
+    },
+    "gdp_per_capita_ppp": {
+      "value": 96497.6947971323,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NY.GDP.PCAP.PP.CD"
+    },
+    "unemployment_percent": {
+      "value": 4.873,
+      "year": 2025,
+      "source": "world_bank",
+      "indicator_code": "SL.UEM.TOTL.ZS"
+    },
+    "inflation_percent": {
+      "value": 1.06234041976595,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "FP.CPI.TOTL.ZG"
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 0.628699475474558,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NV.AGR.TOTL.ZS"
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 24.7247192539882,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NV.IND.TOTL.ZS"
+    },
+    "services_value_added_percent_gdp": {
+      "value": 72.0298166155219,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NV.SRV.TOTL.ZS"
+    },
+    "trade_percent_gdp": {
+      "value": 134.09514852061,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NE.TRD.GNFS.ZS"
+    },
+    "exports_percent_gdp": {
+      "value": 72.1589447667905,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NE.EXP.GNFS.ZS"
+    },
+    "imports_percent_gdp": {
+      "value": 61.9362037538192,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NE.IMP.GNFS.ZS"
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 170.385550398773,
+      "year": 2016,
+      "source": "world_bank",
+      "indicator_code": "FS.AST.PRVT.GD.ZS"
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 102.965591430664,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SE.SEC.ENRR"
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": 74.0060882568359,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SE.TER.ENRR"
+    },
+    "central_government_debt_percent_gdp": {
+      "value": 19.8822985290733,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "GC.DOD.TOTL.GD.ZS"
+    },
+    "external_debt_percent_gni": {
+      "value": null,
+      "year": null,
+      "source": "world_bank",
+      "indicator_code": "DT.DOD.DECT.GN.ZS"
+    },
+    "debt_service_percent_exports": {
+      "value": null,
+      "year": null,
+      "source": "world_bank",
+      "indicator_code": "DT.TDS.DECT.EX.ZS"
+    },
+    "intentional_homicides_per_100k": {
+      "value": 0.597481940544685,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "VC.IHR.PSRC.P5"
+    },
+    "life_expectancy_years": {
+      "value": 84.0560975609756,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SP.DYN.LE00.IN"
+    },
+    "under_5_mortality_per_1000": {
+      "value": 3.9,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SH.DYN.MORT"
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 11.69096088,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SH.XPD.CHEX.GD.ZS"
+    },
+    "physicians_per_1000_people": {
+      "value": 4.477,
+      "year": 2022,
+      "source": "world_bank",
+      "indicator_code": "SH.MED.PHYS.ZS"
+    }
+  },
+  "world_bank_country_name": [
+    "Switzerland"
+  ]
+}

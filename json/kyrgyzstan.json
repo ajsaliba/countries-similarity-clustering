@@ -1,0 +1,195 @@
+{
+  "country": "Kyrgyzstan",
+  "iso3": "KGZ",
+  "metrics": {
+    "access_to_electricity_percent": {
+      "value": 100,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "EG.ELC.ACCS.ZS"
+    },
+    "basic_drinking_water_percent": {
+      "value": 94.9430591604871,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "SH.H2O.BASW.ZS"
+    },
+    "basic_sanitation_percent": {
+      "value": 98.5398995968815,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "SH.STA.BASS.ZS"
+    },
+    "internet_users_percent": {
+      "value": 88.4701,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "IT.NET.USER.ZS"
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 6.44653,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "IT.NET.BBND.P2"
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": 2.4,
+      "year": 2022,
+      "source": "world_bank",
+      "indicator_code": "LP.LPI.INFR.XQ"
+    },
+    "government_effectiveness": {
+      "value": -0.890727877616882,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "GE.EST"
+    },
+    "rule_of_law": {
+      "value": -1.1741224527359,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "RL.EST"
+    },
+    "control_of_corruption": {
+      "value": -1.22109532356262,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "CC.EST"
+    },
+    "political_stability": {
+      "value": -0.48121976852417,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "PV.EST"
+    },
+    "regulatory_quality": {
+      "value": -0.616720378398895,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "RQ.EST"
+    },
+    "gdp_per_capita_ppp": {
+      "value": 8012.45464442194,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NY.GDP.PCAP.PP.CD"
+    },
+    "unemployment_percent": {
+      "value": 3.526,
+      "year": 2025,
+      "source": "world_bank",
+      "indicator_code": "SL.UEM.TOTL.ZS"
+    },
+    "inflation_percent": {
+      "value": 10.7532770416742,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "FP.CPI.TOTL.ZG"
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 8.60760362906387,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NV.AGR.TOTL.ZS"
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 24.7426957796029,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NV.IND.TOTL.ZS"
+    },
+    "services_value_added_percent_gdp": {
+      "value": 52.1398197179977,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NV.SRV.TOTL.ZS"
+    },
+    "trade_percent_gdp": {
+      "value": 127.650577802859,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NE.TRD.GNFS.ZS"
+    },
+    "exports_percent_gdp": {
+      "value": 43.4429915578402,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NE.EXP.GNFS.ZS"
+    },
+    "imports_percent_gdp": {
+      "value": 84.2075862450187,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NE.IMP.GNFS.ZS"
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 23.1629552991392,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "FS.AST.PRVT.GD.ZS"
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 91.7258848952929,
+      "year": 2025,
+      "source": "world_bank",
+      "indicator_code": "SE.SEC.ENRR"
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": 53.8761747562613,
+      "year": 2025,
+      "source": "world_bank",
+      "indicator_code": "SE.TER.ENRR"
+    },
+    "central_government_debt_percent_gdp": {
+      "value": 40.2318478859281,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "GC.DOD.TOTL.GD.ZS"
+    },
+    "external_debt_percent_gni": {
+      "value": 69.2449937236268,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "DT.DOD.DECT.GN.ZS"
+    },
+    "debt_service_percent_exports": {
+      "value": 13.953203049199,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "DT.TDS.DECT.EX.ZS"
+    },
+    "intentional_homicides_per_100k": {
+      "value": 1.74734308054439,
+      "year": 2020,
+      "source": "world_bank",
+      "indicator_code": "VC.IHR.PSRC.P5"
+    },
+    "life_expectancy_years": {
+      "value": 72.2487804878049,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SP.DYN.LE00.IN"
+    },
+    "under_5_mortality_per_1000": {
+      "value": 17,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SH.DYN.MORT"
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 4.50344467,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SH.XPD.CHEX.GD.ZS"
+    },
+    "physicians_per_1000_people": {
+      "value": 1.568,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SH.MED.PHYS.ZS"
+    }
+  },
+  "world_bank_country_name": [
+    "Kyrgyz Republic"
+  ]
+}

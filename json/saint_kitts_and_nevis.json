@@ -1,0 +1,195 @@
+{
+  "country": "Saint Kitts and Nevis",
+  "iso3": "KNA",
+  "metrics": {
+    "access_to_electricity_percent": {
+      "value": 100,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "EG.ELC.ACCS.ZS"
+    },
+    "basic_drinking_water_percent": {
+      "value": 98.6118541324065,
+      "year": 2017,
+      "source": "world_bank",
+      "indicator_code": "SH.H2O.BASW.ZS"
+    },
+    "basic_sanitation_percent": {
+      "value": 94.9535945166888,
+      "year": 2017,
+      "source": "world_bank",
+      "indicator_code": "SH.STA.BASS.ZS"
+    },
+    "internet_users_percent": {
+      "value": 76.4208,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "IT.NET.USER.ZS"
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 46.7447,
+      "year": 2022,
+      "source": "world_bank",
+      "indicator_code": "IT.NET.BBND.P2"
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": null,
+      "year": null,
+      "source": "world_bank",
+      "indicator_code": "LP.LPI.INFR.XQ"
+    },
+    "government_effectiveness": {
+      "value": 0.380410820245743,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "GE.EST"
+    },
+    "rule_of_law": {
+      "value": 0.479547560214996,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "RL.EST"
+    },
+    "control_of_corruption": {
+      "value": 0.413433611392975,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "CC.EST"
+    },
+    "political_stability": {
+      "value": 0.923393249511719,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "PV.EST"
+    },
+    "regulatory_quality": {
+      "value": 0.541928887367249,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "RQ.EST"
+    },
+    "gdp_per_capita_ppp": {
+      "value": 34846.6035342828,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NY.GDP.PCAP.PP.CD"
+    },
+    "unemployment_percent": {
+      "value": null,
+      "year": null,
+      "source": "world_bank",
+      "indicator_code": "SL.UEM.TOTL.ZS"
+    },
+    "inflation_percent": {
+      "value": 3.55711230848243,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "FP.CPI.TOTL.ZG"
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 1.28792753551453,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NV.AGR.TOTL.ZS"
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 20.8513587091026,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NV.IND.TOTL.ZS"
+    },
+    "services_value_added_percent_gdp": {
+      "value": 66.1311026415219,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "NV.SRV.TOTL.ZS"
+    },
+    "trade_percent_gdp": {
+      "value": null,
+      "year": null,
+      "source": "world_bank",
+      "indicator_code": "NE.TRD.GNFS.ZS"
+    },
+    "exports_percent_gdp": {
+      "value": null,
+      "year": null,
+      "source": "world_bank",
+      "indicator_code": "NE.EXP.GNFS.ZS"
+    },
+    "imports_percent_gdp": {
+      "value": null,
+      "year": null,
+      "source": "world_bank",
+      "indicator_code": "NE.IMP.GNFS.ZS"
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 63.7069742117507,
+      "year": 2024,
+      "source": "world_bank",
+      "indicator_code": "FS.AST.PRVT.GD.ZS"
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 137.513208876365,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SE.SEC.ENRR"
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": null,
+      "year": null,
+      "source": "world_bank",
+      "indicator_code": "SE.TER.ENRR"
+    },
+    "central_government_debt_percent_gdp": {
+      "value": null,
+      "year": null,
+      "source": "world_bank",
+      "indicator_code": "GC.DOD.TOTL.GD.ZS"
+    },
+    "external_debt_percent_gni": {
+      "value": null,
+      "year": null,
+      "source": "world_bank",
+      "indicator_code": "DT.DOD.DECT.GN.ZS"
+    },
+    "debt_service_percent_exports": {
+      "value": null,
+      "year": null,
+      "source": "world_bank",
+      "indicator_code": "DT.TDS.DECT.EX.ZS"
+    },
+    "intentional_homicides_per_100k": {
+      "value": 64.1601437187219,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "VC.IHR.PSRC.P5"
+    },
+    "life_expectancy_years": {
+      "value": 72.145,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SP.DYN.LE00.IN"
+    },
+    "under_5_mortality_per_1000": {
+      "value": 16.3,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SH.DYN.MORT"
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 5.73595428,
+      "year": 2023,
+      "source": "world_bank",
+      "indicator_code": "SH.XPD.CHEX.GD.ZS"
+    },
+    "physicians_per_1000_people": {
+      "value": 3.085,
+      "year": 2018,
+      "source": "world_bank",
+      "indicator_code": "SH.MED.PHYS.ZS"
+    }
+  },
+  "world_bank_country_name": [
+    "St. Kitts and Nevis"
+  ]
+}

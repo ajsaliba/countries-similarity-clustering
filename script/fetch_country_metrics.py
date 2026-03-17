@@ -413,7 +413,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Fetch Stage 1 metrics for UN-recognized countries.")
     parser.add_argument(
         "--out-dir",
-        default="country_json",
+        default="../Data/JSON",
         help="Directory where per-country JSON files will be written.",
     )
     parser.add_argument(

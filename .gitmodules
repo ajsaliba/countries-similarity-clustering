@@ -1,4 +1,0 @@
-[submodule "data-collection"]
-	path = data-collection
-	url = https://github.com/ajsaliba/wiki-infobox-similarity-clustering.git
-	branch = data-collection

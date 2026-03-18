@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Israel</country>
+  <url>https://en.wikipedia.org/wiki/Israel</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Jerusalem ( limited recognition ) 31°47′N 35°13′E ﻿ / ﻿ 31.783°N 35.217°E ﻿ / 31.783; 35.217</Capital_and_largest_city>
+      <Official_language>Hebrew</Official_language>
+      <Special_status>Arabic</Special_status>
+      <Ethnic_groups__2025_est__>
+        <Jews>71.9%</Jews>
+        <Arabs>21%</Arabs>
+        <others>7.1%</others>
+      </Ethnic_groups__2025_est__>
+      <Religion__2023_est__>
+        <Judaism>73.7%</Judaism>
+        <Islam>18.3%</Islam>
+        <Christianity>
+          <percentage>1.9%</percentage>
+          <breakdown>
+            <Druze_faith>1.6%</Druze_faith>
+          </breakdown>
+        </Christianity>
+        <others>4.5%</others>
+      </Religion__2023_est__>
+      <Demonym>Israeli</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Isaac Herzog</President>
+      <Prime_Minister>Benjamin Netanyahu</Prime_Minister>
+      <Knesset_Speaker>Amir Ohana</Knesset_Speaker>
+      <Chief_Justice>Yitzhak Amit</Chief_Justice>
+      <Legislature>Knesset</Legislature>
+    </Government>
+    <History>
+      <Declaration_of_independence>14 May 1948</Declaration_of_independence>
+    </History>
+    <Area>
+      <Total>22,072 or 20,770 km 2 (8,522 or 8,019 sq mi) ( 148th )</Total>
+      <Water____>2.71</Water____>
+    </Area>
+    <Population>
+      <n_2026_estimate>10,147,200 ( 93rd )</n_2026_estimate>
+      <n_2022_census>9,601,720</n_2022_census>
+      <Density>463/km 2 (1,199.2/sq mi) ( 30th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$567.55 billion ( 48th )</Total>
+        <Per_capita>$55,770 ( 35th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$610.75 billion ( 26th )</Total>
+        <Per_capita>$60,010 ( 14th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2021_>37.9 medium inequality</Gini__2021_>
+      <HDI__2023_>0.919 very high ( 27th )</HDI__2023_>
+      <Currency>New shekel ( ₪ ) ( ILS )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2:00 ( IST )</Time_zone>
+      <Summer___DST__>UTC +3:00 ( IDT )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+972</Calling_code>
+      <ISO_3166_code>IL</ISO_3166_code>
+      <Internet_TLD>.il</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

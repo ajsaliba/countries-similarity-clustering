@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Ivory Coast</country>
+  <url>https://en.wikipedia.org/wiki/Ivory_Coast</url>
+  <infobox>
+    <General>
+      <Capital>Yamoussoukro 6°51′N 5°18′W ﻿ / ﻿ 6.850°N 5.300°W ﻿ / 6.850; -5.300</Capital>
+      <Largest_city>Abidjan</Largest_city>
+      <Official_languages>French</Official_languages>
+      <Vernacular_languages>English French Arabic Bété Dyula Baoulé Abron Agni Senoufo others</Vernacular_languages>
+      <Ethnic_groups__2021_census_>
+        <Ivorian>78%</Ivorian>
+        <Akan>38%</Akan>
+        <Northern_Mande>22%</Northern_Mande>
+        <Voltaiques_Gur>22%</Voltaiques_Gur>
+        <Kru>9.1%</Kru>
+        <Southern_Mande>8.6%</Southern_Mande>
+        <Naturalized_Ivorian>0.3%</Naturalized_Ivorian>
+        <non_Ivorian_a>22%</non_Ivorian_a>
+      </Ethnic_groups__2021_census_>
+      <Religion__2021_census_>
+        <Islam>42.5%</Islam>
+        <Christianity>39.8%</Christianity>
+        <no_religion>12.6%</no_religion>
+        <traditional_faiths>2.2%</traditional_faiths>
+        <unanswered>2.2%</unanswered>
+        <other_religions>0.7%</other_religions>
+      </Religion__2021_census_>
+      <Demonyms>Ivorian Ivory Coasters</Demonyms>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic under an authoritarian regime</Government>
+      <President>Alassane Ouattara</President>
+      <Vice_President>Tiémoko Meyliet Koné</Vice_President>
+      <Prime_Minister>Robert Beugré Mambé</Prime_Minister>
+      <Deputy_Vice_Prime_Minister>Téné Birahima Ouattara</Deputy_Vice_Prime_Minister>
+      <Legislature>Parliament of Ivory Coast</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>National Assembly</Lower_house>
+    </Government>
+    <History>
+      <Republic_established>4 December 1958</Republic_established>
+      <Independence_from_France>7 August 1960</Independence_from_France>
+    </History>
+    <Area>
+      <Total>322,462 km 2 (124,503 sq mi) ( 68th )</Total>
+      <Water____>1.4</Water____>
+    </Area>
+    <Population>
+      <July_2024_estimate>31,500,000 ( 49th )</July_2024_estimate>
+      <December_2021_census>29,389,150</December_2021_census>
+      <Density>97.7/km 2 (253.0/sq mi) ( 139th )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2023 estimate</Details>
+        <Total>$202.647 billion ( 78th )</Total>
+        <Per_capita>$6,960 ( 138th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2023 estimate</Details>
+        <Total>$79.430 billion ( 84th )</Total>
+        <Per_capita>$2,728 ( 141st )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2021_>35.3 medium inequality</Gini__2021_>
+      <HDI__2023_>0.582 medium ( 157th )</HDI__2023_>
+      <Currency>West African CFA franc ( XOF )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC ±00:00 ( GMT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+225</Calling_code>
+      <ISO_3166_code>CI</ISO_3166_code>
+      <Internet_TLD>.ci</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

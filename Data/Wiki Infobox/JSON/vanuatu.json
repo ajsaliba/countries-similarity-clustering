@@ -1,0 +1,66 @@
+{
+    "country": "Vanuatu",
+    "url": "https://en.wikipedia.org/wiki/Vanuatu",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Port Vila 17°S 168°E ﻿ / ﻿ 17°S 168°E ﻿ / -17; 168",
+            "Official languages": "Bislama English French",
+            "Ethnic groups (2020)": {
+                "Ni-Vanuatu": "98.5%",
+                "others": "1.5%"
+            },
+            "Religion (2020)": {
+                "Christianity": {
+                    "percentage": "93.4%",
+                    "breakdown": {
+                        "Protestantism": "75.1%",
+                        "Catholicism": "13.5%",
+                        "other Christian": "4.8%"
+                    }
+                },
+                "Animism": "4.6%",
+                "Baháʼí Faith": "1.4%",
+                "other / none": "0.6%"
+            },
+            "Demonym": "Ni-Vanuatu (or rarely: Vanuatuan )"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic",
+            "President": "Nikenike Vurobaravu",
+            "Prime Minister": "Jotham Napat",
+            "Legislature": "Parliament",
+            "from the United Kingdom and France": "30 July 1980"
+        },
+        "Area": {
+            "Total": "12,189 km 2 (4,706 sq mi) ( 157th )"
+        },
+        "Population": {
+            "2023 estimate": "335,908 ( 182nd )",
+            "2020 census": "300,019",
+            "Density": "27.6/km 2 (71.5/sq mi) ( 188th )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2023 estimate",
+                "Total": "$1.002 billion",
+                "Per capita": "$3,001"
+            },
+            "GDP (nominal)": {
+                "Details": "2023 estimate",
+                "Total": "$1.064 billion",
+                "Per capita": "$3,188"
+            },
+            "Gini (2019)": "32.3 medium inequality",
+            "HDI (2023)": "0.621 medium ( 146th )",
+            "Currency": "Vatu ( VUV )"
+        },
+        "Time": {
+            "Time zone": "UTC +11 (VUT ( Vanuatu Time ))"
+        },
+        "Codes": {
+            "Calling code": "+678",
+            "ISO 3166 code": "VU",
+            "Internet TLD": ".vu"
+        }
+    }
+}

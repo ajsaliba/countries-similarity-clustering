@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Yemen</country>
+  <url>https://en.wikipedia.org/wiki/Yemen</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Sanaa 15°20′54″N 44°12′23″E ﻿ / ﻿ 15.34833°N 44.20639°E ﻿ / 15.34833; 44.20639</Capital_and_largest_city>
+      <Official_language_and_national_language>Arabic</Official_language_and_national_language>
+      <Ethnic_groups__2000_>
+        <Arabs>92.8%</Arabs>
+        <Somalis>3.7%</Somalis>
+        <Afro_Arabs>1.1%</Afro_Arabs>
+        <Indo___Pakistani>1%</Indo___Pakistani>
+        <other>1.4%</other>
+      </Ethnic_groups__2000_>
+      <Religion__2020_>
+        <Islam___official__>99.1%</Islam___official__>
+        <Sunni>65%</Sunni>
+        <Zaydi__>35%</Zaydi__>
+        <other>0.9%</other>
+      </Religion__2020_>
+      <Demonyms>Yemeni Yemenite</Demonyms>
+    </General>
+    <Government>
+      <Government_seat>Aden</Government_seat>
+      <Government>Unitary semi-presidential republic under a provisional government</Government>
+      <President_of_the_Presidential_Leadership_Council>Rashad al-Alimi</President_of_the_Presidential_Leadership_Council>
+      <Prime_Minister>Shaea al-Zindani</Prime_Minister>
+      <President_of_the_House_of_Representatives>Sultan al-Barakani</President_of_the_House_of_Representatives>
+      <Speaker_of_the_Shura_Council>Ahmed Obaid Bin Dagher</Speaker_of_the_Shura_Council>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Shura Council</Upper_house>
+      <Lower_house>House of Representatives</Lower_house>
+    </Government>
+    <History>
+      <Unification>22 May 1990</Unification>
+      <Current_constitution>16 May 1991</Current_constitution>
+    </History>
+    <Area>
+      <Total>455,503 km 2 (175,871 sq mi) ( 54th )</Total>
+      <Water____>Negligible</Water____>
+    </Area>
+    <Population>
+      <n_2023_estimate>32,684,503 ( 48th )</n_2023_estimate>
+      <Density>71.8/km 2 (186.0/sq mi) ( 143rd )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$69.960 billion ( 117th )</Total>
+        <Per_capita>$1,670 ( 183rd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$17.400 billion ( 135th )</Total>
+        <Per_capita>$416 ( 190th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2014_>36.7 medium inequality</Gini__2014_>
+      <HDI__2023_>0.470 low ( 184th )</HDI__2023_>
+      <Currency>Yemeni rial ( YER )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +3 ( AST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+967</Calling_code>
+      <ISO_3166_code>YE</ISO_3166_code>
+      <Internet_TLD>List .ye اليمن.</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

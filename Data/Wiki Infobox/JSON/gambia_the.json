@@ -1,0 +1,70 @@
+{
+    "country": "Gambia, The",
+    "url": "https://en.wikipedia.org/wiki/The_Gambia",
+    "infobox": {
+        "General": {
+            "Capital": "Banjul 13°27′00″N 16°34′30″W ﻿ / ﻿ 13.45000°N 16.57500°W ﻿ / 13.45000; -16.57500",
+            "Official languages": "English",
+            "National languages": "List: Mandinka Pulaar Wolof Serer Jola English Balanta Arabic Jola-Fonyi Mandjak Mankanya Noon Dyula Soninke Fula Karon Kassonke Cangin Gambian Sign Language",
+            "Ethnic groups (2024 Population and Housing Census)": {
+                "Mandinka": "34.4%",
+                "Fula": "25%",
+                "Wolof": "15.4%",
+                "Jola": "9.5%",
+                "Soninke": "8.2%",
+                "Serer": "2.9%",
+                "other": "4.6%"
+            },
+            "Religion (2024)": {
+                "Islam": "95.7%",
+                "Christianity": "4.2%",
+                "others": "0.1%"
+            },
+            "Demonym": "Gambian"
+        },
+        "Area": {
+            "Largest metropolitan area": "Serrekunda",
+            "Total": "11,300 km 2 (4,400 sq mi) ( 159th )",
+            "Water (%)": "11.5"
+        },
+        "Government": {
+            "Government": "Unitary presidential republic",
+            "President": "Adama Barrow",
+            "Vice President": "Muhammad B. S. Jallow",
+            "Speaker of the National Assembly": "Fabakary Tombong Jatta",
+            "Chief Justice": "Hassan Bubacar Jallow",
+            "Legislature": "National Assembly",
+            "from the United Kingdom": "18 February 1965"
+        },
+        "Independence": {
+            "dissolution of the Senegambia Confederation": "30 September 1989"
+        },
+        "Population": {
+            "2024 census": "2,422,712 ( 142th )",
+            "Density": "227/km 2 (587.9/sq mi) ( 51th )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2026 estimate",
+                "Total": "$11.050 billion ( 166th )",
+                "Per capita": "$3,820 ( 175th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2026 estimate",
+                "Total": "$2.670 billion ( 185th )",
+                "Per capita": "$924 ( 180th )"
+            },
+            "Gini (2015)": "35.9 medium inequality",
+            "HDI (2023)": "0.524 low ( 170th )",
+            "Currency": "Gambian dalasi ( GMD )"
+        },
+        "Time": {
+            "Time zone": "UTC ±00:00 ( GMT )"
+        },
+        "Codes": {
+            "Calling code": "+220",
+            "ISO 3166 code": "GM",
+            "Internet TLD": ".gm"
+        }
+    }
+}

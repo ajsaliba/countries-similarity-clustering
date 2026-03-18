@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Thailand</country>
+  <url>https://en.wikipedia.org/wiki/Thailand</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Bangkok 13°48′N 100°33′E ﻿ / ﻿ 13.800°N 100.550°E ﻿ / 13.800; 100.550</Capital_and_largest_city>
+      <Official_languages>Thai</Official_languages>
+      <Other_languages>Isan Northern Thai Southern Thai Karen Pattani Malay Bangkok Malay Teochew Hokkien</Other_languages>
+      <Ethnic_groups>
+        <Thai>80%</Thai>
+        <Central_Thai>37%</Central_Thai>
+        <Isan>25%</Isan>
+        <Northern_Thai>8%</Northern_Thai>
+        <Southern_Thai>8%</Southern_Thai>
+        <Western_Thai>2%</Western_Thai>
+        <Thai_Chinese>12%</Thai_Chinese>
+        <Northern_Khmer>4%</Northern_Khmer>
+        <Thai_Malays>4%</Thai_Malays>
+      </Ethnic_groups>
+      <Religion__2018_census_>
+        <Buddhism>93.46%</Buddhism>
+        <Islam>5.37%</Islam>
+        <Christianity>1.13%</Christianity>
+        <other>0.03%</other>
+      </Religion__2018_census_>
+      <Demonym>Thai</Demonym>
+      <Monarch>Vajiralongkorn (Rama X)</Monarch>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Prime_Minister>Anutin Charnvirakul</Prime_Minister>
+      <Legislature>National Assembly</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>House of Representatives</Lower_house>
+      <Sukhothai_Kingdom>1238–1438</Sukhothai_Kingdom>
+      <Ayutthaya_Kingdom>1351–1767</Ayutthaya_Kingdom>
+      <Thonburi_Kingdom>1767–1782</Thonburi_Kingdom>
+      <Rattanakosin_Kingdom>6 April 1782</Rattanakosin_Kingdom>
+    </Government>
+    <History>
+      <Constitutional_monarchy>24 June 1932</Constitutional_monarchy>
+      <Current_constitution>6 April 2017</Current_constitution>
+    </History>
+    <Area>
+      <Total>513,120 km 2 (198,120 sq mi) ( 50th )</Total>
+      <Water____>0.4 (2,230 km 2 )</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>65,975,198 ( 22nd )</n_2024_estimate>
+      <n_2010_census>64,785,909 ( 21st )</n_2010_census>
+      <Density>132.1/km 2 (342.1/sq mi) ( 88th )</Density>
+      <Date_format>dd/mm/yyyy ( BE )</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$1.853 trillion ( 23rd )</Total>
+        <Per_capita>$26,358 ( 75th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$558.573 billion ( 31rd )</Total>
+        <Per_capita>$7,942 ( 97th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>33.5 medium inequality</Gini__2023_>
+      <HDI__2023_>0.798 high ( 76th )</HDI__2023_>
+      <Currency>Thai baht (฿) ( THB )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +7 ( ICT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+66</Calling_code>
+      <ISO_3166_code>TH</ISO_3166_code>
+      <Internet_TLD>.th .ไทย</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

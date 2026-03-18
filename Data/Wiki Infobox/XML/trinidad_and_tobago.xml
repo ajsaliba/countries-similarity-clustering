@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Trinidad and Tobago</country>
+  <url>https://en.wikipedia.org/wiki/Trinidad_and_Tobago</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Port of Spain 10°40′01″N 61°30′27″W ﻿ / ﻿ 10.667°N 61.5075°W ﻿ / 10.667; -61.5075</Capital_and_largest_city>
+      <Official_languages>English</Official_languages>
+      <Vernacular_languages>Trinidad and Tobago creole</Vernacular_languages>
+      <Ethnic_groups__2011_>
+        <Indian>35.4%</Indian>
+        <African>34.2%</African>
+        <Mixed>22.8%</Mixed>
+        <other>1.3%</other>
+        <unspecified>6.2%</unspecified>
+      </Ethnic_groups__2011_>
+      <Religion__2011_Census_>
+        <Christianity>55.2%</Christianity>
+        <Hinduism>18.2%</Hinduism>
+        <Islam>5%</Islam>
+        <Other>8.3%</Other>
+        <Irreligion__Not_stated>13.3%</Irreligion__Not_stated>
+      </Religion__2011_Census_>
+      <Demonyms>Trinidadians and Tobagonians Trini or Trinbagonian (colloquial)</Demonyms>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Christine Kangaloo</President>
+      <Prime_Minister>Kamla Persad-Bissessar</Prime_Minister>
+      <House_Speaker>Jagdeo Singh</House_Speaker>
+      <Senate_President>Wade Mark</Senate_President>
+      <Chief_Justice>Ronnie Boodoosingh</Chief_Justice>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>House of Representatives</Lower_house>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <Province_of_the_West_Indies_Federation>3 January 1958 – 14 January 1962</Province_of_the_West_Indies_Federation>
+      <Joined_the_Caribbean_Community_at_the_Treaty_of_Chaguaramas>1 August 1973</Joined_the_Caribbean_Community_at_the_Treaty_of_Chaguaramas>
+      <Republic>1 August 1976</Republic>
+    </Independence_from_the_United_Kingdom>
+    <History>
+      <Independence>31 August 1962</Independence>
+    </History>
+    <Area>
+      <Total>5,131 km 2 (1,981 sq mi) ( 164th )</Total>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>1,512,779 ( 154th )</n_2025_estimate>
+      <Density>294/km 2 (761.5/sq mi) ( 34th )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2023 estimate</Details>
+        <Total>$43.658 billion ( 126th )</Total>
+        <Per_capita>$30,718 ( 58th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2023 estimate</Details>
+        <Total>$27.887 billion ( 107th )</Total>
+        <Per_capita>$19,621 ( 47th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2012_>39.0 medium inequality</Gini__2012_>
+      <HDI__2023_>0.807 very high ( 72nd )</HDI__2023_>
+      <Currency>Trinidad and Tobago dollar ( TTD )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC -4 ( AST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+1</Calling_code>
+      <ISO_3166_code>TT</ISO_3166_code>
+      <Internet_TLD>.tt</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Cuba</country>
+  <url>https://en.wikipedia.org/wiki/Cuba</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Havana 23°8′N 82°23′W ﻿ / ﻿ 23.133°N 82.383°W ﻿ / 23.133; -82.383</Capital_and_largest_city>
+      <Official_languages>Spanish</Official_languages>
+      <Religion__2020_>
+        <Christianity>58.9%</Christianity>
+        <no_religion>23.2%</no_religion>
+        <folk_religions>17.6%</folk_religions>
+        <other>0.3%</other>
+      </Religion__2020_>
+      <Demonym>Cuban</Demonym>
+      <Recognized__sovereignty_relinquished_by_Spain_>
+        <Details>10 December 1898</Details>
+        <Republic_declared__end_of_United_States_occupation__>20 May 1902</Republic_declared__end_of_United_States_occupation__>
+        <Cuban_Revolution>26 July 1953 – 1 January 1959</Cuban_Revolution>
+        <Current_constitution>10 April 2019</Current_constitution>
+      </Recognized__sovereignty_relinquished_by_Spain_>
+    </General>
+    <Government>
+      <Government>Communist state</Government>
+      <First_Secretary_and_President>Miguel Díaz-Canel</First_Secretary_and_President>
+      <Vice_President>Salvador Valdés Mesa</Vice_President>
+      <Prime_Minister>Manuel Marrero Cruz</Prime_Minister>
+      <President_of_the_National_Assembly>Esteban Lazo Hernández</President_of_the_National_Assembly>
+      <Legislature>National Assembly of People's Power</Legislature>
+    </Government>
+    <History>
+      <Declaration_of_Independence>10 October 1868</Declaration_of_Independence>
+      <War_of_Independence>24 February 1895</War_of_Independence>
+    </History>
+    <Area>
+      <Total>110,860 km 2 (42,800 sq mi) ( 104th )</Total>
+      <Water____>0.94</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>9,748,007 ( 95th )</n_2024_estimate>
+      <n_2022_census>11,089,511</n_2022_census>
+      <Density>89.8/km 2 (232.6/sq mi) ( 125th )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2015 estimate</Details>
+        <Total>$254.865 billion</Total>
+        <Per_capita>$22,237</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2024 estimate</Details>
+        <Total>$252.063 billion ( 59th )</Total>
+        <Per_capita>$22,957 ( 60th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2000_>38.0 medium inequality</Gini__2000_>
+      <HDI__2023_>0.762 high ( 97th )</HDI__2023_>
+      <Currency>Cuban peso ( CUP )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC −05:00 ( CST )</Time_zone>
+      <Summer___DST__>UTC −04:00 ( CDT )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+53</Calling_code>
+      <ISO_3166_code>CU</ISO_3166_code>
+      <Internet_TLD>.cu</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

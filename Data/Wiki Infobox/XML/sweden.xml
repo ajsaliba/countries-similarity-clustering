@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Sweden</country>
+  <url>https://en.wikipedia.org/wiki/Sweden</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Stockholm 59°21′N 18°4′E ﻿ / ﻿ 59.350°N 18.067°E ﻿ / 59.350; 18.067</Capital_and_largest_city>
+      <Official_languages>Swedish</Official_languages>
+      <National_minority_languages>Sámi Finnish Meänkieli Romani Yiddish</National_minority_languages>
+      <Demonyms>Swedish Swede</Demonyms>
+      <Monarch>Carl XVI Gustaf</Monarch>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Riksdag_Speaker>Andreas Norlén</Riksdag_Speaker>
+      <Prime_Minister>Ulf Kristersson</Prime_Minister>
+      <Legislature>Riksdag</Legislature>
+      <A_unified_Swedish_kingdom_established>By the late 10th century</A_unified_Swedish_kingdom_established>
+    </Government>
+    <History>
+      <Part_of_the_Kalmar_Union>17 June 1397 – 6 June 1523</Part_of_the_Kalmar_Union>
+      <Swedish_Empire>1611–1721</Swedish_Empire>
+    </History>
+    <Area>
+      <Total>450,295 km 2 (173,860 sq mi) ( 55th )</Total>
+      <Water____>8.97 (2022)</Water____>
+    </Area>
+    <Population>
+      <October_2025_estimate>10,610,485 ( 90th )</October_2025_estimate>
+      <Density>25/km 2 (64.7/sq mi) ( 198th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$799.68 billion ( 41st )</Total>
+        <Per_capita>$74,900 ( 17th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$620.30 billion ( 24th )</Total>
+        <Per_capita>$58,100 ( 14th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>27.6 low inequality</Gini__2022_>
+      <HDI__2023_>0.959 very high ( 5th )</HDI__2023_>
+      <Currency>Swedish krona ( SEK )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 ( CET )</Time_zone>
+      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+46</Calling_code>
+      <ISO_3166_code>SE</ISO_3166_code>
+      <Internet_TLD>.se</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

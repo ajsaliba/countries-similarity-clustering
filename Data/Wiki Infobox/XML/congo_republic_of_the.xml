@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Congo, Republic of the</country>
+  <url>https://en.wikipedia.org/wiki/Republic_of_the_Congo</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Brazzaville 4°16′S 15°17′E ﻿ / ﻿ 4.267°S 15.283°E ﻿ / -4.267; 15.283</Capital_and_largest_city>
+      <Official_languages>French</Official_languages>
+      <Recognised_national_languages>Kituba Lingala</Recognised_national_languages>
+      <Ethnic_groups>
+        <Bakongo>41%</Bakongo>
+        <Bateke>16.9%</Bateke>
+        <Mbochi>13.1%</Mbochi>
+        <Sangha>5.6%</Sangha>
+        <Mbenga_Pygmies_and_others>2%</Mbenga_Pygmies_and_others>
+      </Ethnic_groups>
+      <Religion__2020_>
+        <Christianity>87.1%</Christianity>
+        <no_religion>8%</no_religion>
+        <traditional_faiths>2.7%</traditional_faiths>
+        <Islam>
+          <percentage>1.2%</percentage>
+          <breakdown>
+            <others>1%</others>
+          </breakdown>
+        </Islam>
+      </Religion__2020_>
+      <Demonyms>Congolese Congo</Demonyms>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic under a dictatorship</Government>
+      <President>Denis Sassou Nguesso</President>
+      <Prime_Minister>Anatole Collinet Makosso</Prime_Minister>
+      <President_of_Senate>Pierre Ngolo</President_of_Senate>
+      <President_of_the_National_Assembly>Isidore Mvouba</President_of_the_National_Assembly>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>National Assembly</Lower_house>
+    </Government>
+    <Independence>
+      <from_France>15 August 1960</from_France>
+    </Independence>
+    <History>
+      <Republic_established>28 November 1958</Republic_established>
+    </History>
+    <Area>
+      <Total>342,000 km 2 (132,000 sq mi) ( 64th )</Total>
+      <Water____>3.3</Water____>
+    </Area>
+    <Population>
+      <n_2023_estimate>6,228,784 ( 116th )</n_2023_estimate>
+      <n_2023_census>6,142,180</n_2023_census>
+      <Density>19/km 2 (49.2/sq mi) ( 212th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$42.760 billion ( 140th )</Total>
+        <Per_capita>$6,590 ( 143rd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$15.281 billion ( 141st )</Total>
+        <Per_capita>$2,360 ( 151st )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2011_>40.2 medium inequality</Gini__2011_>
+      <HDI__2023_>0.649 medium ( 138th )</HDI__2023_>
+      <Currency>Central African CFA franc ( XAF )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 ( WAT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+242</Calling_code>
+      <ISO_3166_code>CG</ISO_3166_code>
+      <Internet_TLD>.cg</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

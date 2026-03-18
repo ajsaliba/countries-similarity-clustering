@@ -1,0 +1,76 @@
+{
+    "country": "Mauritius",
+    "url": "https://en.wikipedia.org/wiki/Mauritius",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Port Louis 20°12′S 57°30′E ﻿ / ﻿ 20.2°S 57.5°E ﻿ / -20.2; 57.5",
+            "Official languages": "None ( de jure ) English French ( de facto )",
+            "Language spoken at home (2022)": {
+                "Mauritian Creole": "90%",
+                "Bhojpuri": "5.1%",
+                "French": "4.4%",
+                "English": "0.6%"
+            },
+            "Ethnic groups": {
+                "Indian": "67%",
+                "Creole": "28%",
+                "Chinese": "3%",
+                "French": "2%"
+            },
+            "Religion (2022)": {
+                "Hinduism": "47.9%",
+                "Christianity": "32.3%",
+                "Islam": "18.2%",
+                "others / none": "1.6%"
+            },
+            "Demonym": "Mauritian"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic",
+            "President": "Dharam Gokhool",
+            "Vice-President": "Robert Hungley",
+            "Prime Minister": "Navin Ramgoolam",
+            "Deputy Prime Minister": "Paul Bérenger",
+            "Speaker of the National Assembly": "Shirin Aumeeruddy-Cziffra",
+            "Legislature": "National Assembly"
+        },
+        "Independence from the United Kingdom": {
+            "Republic": "12 March 1992"
+        },
+        "History": {
+            "Constitution of Mauritius": "12 March 1968"
+        },
+        "Area": {
+            "Total": "2,040 km 2 (790 sq mi) ( 169th )",
+            "Water (%)": "0.07"
+        },
+        "Population": {
+            "2022 census": "1,235,260",
+            "Density": "605.5/km 2 (1,568.2/sq mi) ( 18th )",
+            "Date format": "dd/mm/yyyy ( AD )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$42.810 billion ( 137th )",
+                "Per capita": "$33,954 ( 60th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$16.515 billion ( 133rd )",
+                "Per capita": "$13,099 ( 69th )"
+            },
+            "Gini (2017)": "36.8 medium inequality",
+            "HDI (2023)": "0.806 very high ( 73rd )",
+            "Currency": "Mauritian rupee ( MUR )"
+        },
+        "Time": {
+            "Time zone": "UTC +4 ( MUT )"
+        },
+        "Codes": {
+            "Calling code": "+230",
+            "ISO 3166 code": "MU",
+            "Internet TLD": ".mu"
+        }
+    }
+}

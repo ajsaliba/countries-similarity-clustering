@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Greece</country>
+  <url>https://en.wikipedia.org/wiki/Greece</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Athens 37°58′N 23°43′E ﻿ / ﻿ 37.967°N 23.717°E ﻿ / 37.967; 23.717</Capital_and_largest_city>
+      <Official_language>Greek</Official_language>
+      <Religion__2017_>
+        <Christianity>
+          <percentage>93%</percentage>
+          <breakdown>
+            <Greek_Orthodoxy___official__>90%</Greek_Orthodoxy___official__>
+            <other_Christian>3%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <No_religion>4%</No_religion>
+        <Islam>2%</Islam>
+        <Others>1%</Others>
+      </Religion__2017_>
+      <Demonyms>Greek Hellene</Demonyms>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Konstantinos Tasoulas</President>
+      <Prime_Minister>Kyriakos Mitsotakis</Prime_Minister>
+      <President_of_the_Parliament>Nikitas Kaklamanis</President_of_the_Parliament>
+      <Legislature>Hellenic Parliament</Legislature>
+    </Government>
+    <History>
+      <Greek_War_of_Independence_against_the_Ottoman_Empire>25 March 1821 (traditional starting date)</Greek_War_of_Independence_against_the_Ottoman_Empire>
+      <Official_declaration>1 January 1822</Official_declaration>
+    </History>
+    <Economy>
+      <Recognition>
+        <Details>3 February 1830</Details>
+        <Third_Hellenic_Republic>24 July 1974</Third_Hellenic_Republic>
+        <Current_constitution>11 June 1975</Current_constitution>
+      </Recognition>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$466.945 billion ( 54th )</Total>
+        <Per_capita>$44,985 ( 48th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$282.019 billion ( 50th )</Total>
+        <Per_capita>$27,170 ( 45th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2024_>31.8 medium inequality</Gini__2024_>
+      <HDI__2023_>0.908 very high ( 34th )</HDI__2023_>
+      <Currency>Euro ( € ) ( EUR )</Currency>
+    </Economy>
+    <Area>
+      <Total>131,957 km 2 (50,949 sq mi) ( 95th )</Total>
+      <Water____>1.51 (2015)</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>10,372,335 (1 January 2025) ( 90th )</n_2025_estimate>
+      <n_2021_census>10,432,481</n_2021_census>
+      <Density>78.9/km 2 (204.4/sq mi) ( 136th )</Density>
+    </Population>
+    <Time>
+      <Time_zone>UTC +02:00 ( EET )</Time_zone>
+      <Summer___DST__>UTC +03:00 ( EEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+30</Calling_code>
+      <ISO_3166_code>GR</ISO_3166_code>
+      <Internet_TLD>.gr .ελ</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

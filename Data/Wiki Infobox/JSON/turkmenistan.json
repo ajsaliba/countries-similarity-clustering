@@ -1,0 +1,69 @@
+{
+    "country": "Turkmenistan",
+    "url": "https://en.wikipedia.org/wiki/Turkmenistan",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Ashgabat 37°58′N 58°20′E ﻿ / ﻿ 37.967°N 58.333°E ﻿ / 37.967; 58.333",
+            "Official languages": "Turkmen",
+            "Ethnic groups (2022)": {
+                "Turkmens": "86.7%",
+                "Uzbeks": "9.1%",
+                "Russians": "1.6%",
+                "Baloch": "1.2%",
+                "others": "1.3%"
+            },
+            "Religion (2020)": {
+                "Islam": "95.8%",
+                "no religion": "3%",
+                "Christianity": "1.1%",
+                "other": "0.1%"
+            },
+            "Demonyms": "Turkmenistani Turkmen",
+            "Deputy Chairman of the Cabinet of Ministers": "Raşit Meredow",
+            "Chairman of the People's Council": "Gurbanguly Berdimuhamedow",
+            "Chairperson of the Assembly": "Dünýägözel Gulmanowa",
+            "Chairman of the Supreme Court": "Begenç Hojamgulyýew",
+            "Recognized": "26 December 1991"
+        },
+        "Government": {
+            "Government": "Unitary presidential republic under a totalitarian hereditary dictatorship",
+            "President": "Serdar Berdimuhamedow",
+            "Legislature": "Assembly"
+        },
+        "Independence from the Soviet Union": {
+            "Declared": "22 August 1990"
+        },
+        "Area": {
+            "Total": "491,210 km 2 (189,660 sq mi) ( 52nd )",
+            "Water": "24,069 km 2 (9,293 sq mi)",
+            "Water (%)": "4.9"
+        },
+        "Population": {
+            "2022 census": "7,057,841 ( 105th )",
+            "Density": "14.4/km 2 (37.3/sq mi) ( 221st )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$186.11 billion ( 83rd )",
+                "Per capita": "$27,887 ( 74th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$89.05 billion ( 78th )",
+                "Per capita": "$13,334 ( 72nd )"
+            },
+            "Gini (1998)": "40.8 medium inequality",
+            "HDI (2023)": "0.764 high ( 95th )",
+            "Currency": "Manat ( TMT )"
+        },
+        "Time": {
+            "Time zone": "UTC +05:00 ( TMT )"
+        },
+        "Codes": {
+            "Calling code": "+993",
+            "ISO 3166 code": "TM",
+            "Internet TLD": ".tm"
+        }
+    }
+}

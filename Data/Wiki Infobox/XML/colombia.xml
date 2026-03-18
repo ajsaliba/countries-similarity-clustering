@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Colombia</country>
+  <url>https://en.wikipedia.org/wiki/Colombia</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Bogotá 4°35′N 74°4′W ﻿ / ﻿ 4.583°N 74.067°W ﻿ / 4.583; -74.067</Capital_and_largest_city>
+      <Official_languages>Spanish</Official_languages>
+      <Recognized_regional_languages>Creole English (in San Andrés and Providencia ) 64 other languages</Recognized_regional_languages>
+      <Ethnic_groups__2018_census__>
+        <Mestizo___White>84.99%</Mestizo___White>
+        <Black>9.34%</Black>
+        <Indigenous>4.31%</Indigenous>
+        <Romanis>0.01%</Romanis>
+        <not_specified>1.35%</not_specified>
+      </Ethnic_groups__2018_census__>
+      <Religion__2022_>
+        <Catholicism>70%</Catholicism>
+        <other_Christian>17%</other_Christian>
+        <no_religion>11%</no_religion>
+        <other>1.9%</other>
+      </Religion__2022_>
+      <Demonym>Colombian</Demonym>
+      <Recognized>
+        <Details>7 August 1819</Details>
+        <Last_unitisation>5 August 1886</Last_unitisation>
+        <Secession_of_Panama>6 November 1903</Secession_of_Panama>
+        <Current_Constitution>4 July 1991</Current_Constitution>
+      </Recognized>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+      <President>Gustavo Petro</President>
+      <Vice_President>Francia Márquez</Vice_President>
+      <Legislature>Congress</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>Chamber of Representatives</Lower_house>
+    </Government>
+    <Independence_from_Spain>
+      <Declared>20 July 1810</Declared>
+    </Independence_from_Spain>
+    <Area>
+      <Total>1,141,748 km 2 (440,831 sq mi) ( 25th )</Total>
+      <Water____>2.1 (as of 2015)</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>52,695,952 ( 27th )</n_2024_estimate>
+      <Density>46.15/km 2 (119.5/sq mi) ( 174th )</Density>
+      <Date_format>DMY</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2024 estimate</Details>
+        <Total>$1.042 trillion ( 32nd )</Total>
+        <Per_capita>$19,770 ( 82nd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2024 estimate</Details>
+        <Total>$386.076 billion ( 46th )</Total>
+        <Per_capita>$7,327 ( 97th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>53.9 high inequality</Gini__2023_>
+      <HDI__2023_>0.788 high ( 83rd )</HDI__2023_>
+      <Currency>Colombian peso ( COP )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC −5 ( COT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+57</Calling_code>
+      <ISO_3166_code>CO</ISO_3166_code>
+      <Internet_TLD>.co</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

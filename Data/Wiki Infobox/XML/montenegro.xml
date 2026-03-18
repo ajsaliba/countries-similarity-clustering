@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Montenegro</country>
+  <url>https://en.wikipedia.org/wiki/Montenegro</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Podgorica 42°47′N 19°28′E ﻿ / ﻿ 42.783°N 19.467°E ﻿ / 42.783; 19.467</Capital_and_largest_city>
+      <Official_languages>Montenegrin</Official_languages>
+      <Languages_in_official_use>Albanian Bosnian Croatian Serbian</Languages_in_official_use>
+      <Ethnic_groups__2023_census_>
+        <Montenegrins>41.1%</Montenegrins>
+        <Serbs>32.9%</Serbs>
+        <Bosniaks_or_Muslims>11.1%</Bosniaks_or_Muslims>
+        <Albanians>5%</Albanians>
+        <Russians>2.1%</Russians>
+        <others_or_undeclared>5.8%</others_or_undeclared>
+      </Ethnic_groups__2023_census_>
+      <Religion__2023_census_>
+        <Christianity>
+          <percentage>74.9%</percentage>
+          <breakdown>
+            <Eastern_Orthodoxy>71.1%</Eastern_Orthodoxy>
+            <Catholicism>3.2%</Catholicism>
+            <other_Christian>0.6%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <Islam>19.9%</Islam>
+        <no_religion>
+          <percentage>2.7%</percentage>
+          <breakdown>
+            <other>0.3%</other>
+            <not_stated>2.2%</not_stated>
+          </breakdown>
+        </no_religion>
+      </Religion__2023_census_>
+      <Demonym>Montenegrin</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Jakov Milatović</President>
+      <Prime_Minister>Milojko Spajić</Prime_Minister>
+      <President_of_the_Parliament>Andrija Mandić</President_of_the_Parliament>
+      <Legislature>Parliament</Legislature>
+      <Kingdom_of_Montenegro>28 August 1910</Kingdom_of_Montenegro>
+      <Kingdom_of_Yugoslavia>26 November 1918</Kingdom_of_Yugoslavia>
+    </Government>
+    <History>
+      <Duklja>10th century</Duklja>
+      <Zeta>1356</Zeta>
+      <Prince_Bishopric_of_Montenegro>1516</Prince_Bishopric_of_Montenegro>
+      <Principality_of_Montenegro>13 March 1852</Principality_of_Montenegro>
+      <Treaty_of_Berlin>13 July 1878</Treaty_of_Berlin>
+      <SFR_Yugoslavia>29 November 1945</SFR_Yugoslavia>
+      <Serbia_and_Montenegro>27 April 1992</Serbia_and_Montenegro>
+      <Independence_declared>3 June 2006</Independence_declared>
+    </History>
+    <Area>
+      <Total>13,883 km 2 (5,360 sq mi) ( 156th )</Total>
+      <Water____>3.1</Water____>
+    </Area>
+    <Population>
+      <January_2025_estimate>623,327 ( 164th )</January_2025_estimate>
+      <n_2023_census>623,633</n_2023_census>
+      <Density>43.6/km 2 (112.9/sq mi) ( 173rd )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$21.480 billion ( 149th )</Total>
+        <Per_capita>$34,410 ( 63rd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$9.350 billion ( 153rd )</Total>
+        <Per_capita>$14,990 ( 73rd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>29.4 low inequality</Gini__2023_>
+      <HDI__2023_>0.862 very high ( 48th )</HDI__2023_>
+      <Currency>Euro ( € ) a ( EUR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 ( CET )</Time_zone>
+      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+382</Calling_code>
+      <ISO_3166_code>ME</ISO_3166_code>
+      <Internet_TLD>.me</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

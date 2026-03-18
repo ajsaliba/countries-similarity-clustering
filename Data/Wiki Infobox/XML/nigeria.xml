@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Nigeria</country>
+  <url>https://en.wikipedia.org/wiki/Nigeria</url>
+  <infobox>
+    <General>
+      <Hausa>
+        <item>Jamhuriyar Tarayyar Najeriya</item>
+        <item>Jamhuriyar Tarayyar Najeriya</item>
+      </Hausa>
+      <Igbo>Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà</Igbo>
+      <Yoruba>Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà</Yoruba>
+      <Capital>Abuja 9°4′N 7°29′E ﻿ / ﻿ 9.067°N 7.483°E ﻿ / 9.067; 7.483</Capital>
+      <Largest_city>Lagos</Largest_city>
+      <Official_languages>English</Official_languages>
+      <Recognised_languages>List Hausa Yoruba Igbo</Recognised_languages>
+      <Regional_languages>Over 525 languages</Regional_languages>
+      <Ethnic_groups__2018_>
+        <Hausa>30%</Hausa>
+        <Yoruba>15.5%</Yoruba>
+        <Igbo>15.2%</Igbo>
+        <Fulani>6%</Fulani>
+        <Tiv>2.4%</Tiv>
+        <Kanuri>2.4%</Kanuri>
+        <Ibibio>1.8%</Ibibio>
+        <Ijaw>1.8%</Ijaw>
+        <other>24.7%</other>
+      </Ethnic_groups__2018_>
+      <Religion__2018_>
+        <Islam>53.5%</Islam>
+        <Christianity>
+          <percentage>45.9%</percentage>
+          <breakdown>
+            <Protestants>35.3%</Protestants>
+            <Catholics>10.6%</Catholics>
+          </breakdown>
+        </Christianity>
+        <other>0.6%</other>
+      </Religion__2018_>
+      <Demonym>Nigerian</Demonym>
+    </General>
+    <Government>
+      <Government>Federal presidential republic</Government>
+      <President>Bola Tinubu</President>
+      <Vice_President>Kashim Shettima</Vice_President>
+      <Senate_President>Godswill Akpabio</Senate_President>
+      <House_Speaker>Tajudeen Abbas</House_Speaker>
+      <Chief_Justice>Kudirat Kekere-Ekun</Chief_Justice>
+      <Legislature>National Assembly</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>House of Representatives</Lower_house>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <Northern_Nigeria_Protectorate>1 January 1900</Northern_Nigeria_Protectorate>
+      <Southern_Nigeria_Protectorate>1 January 1900</Southern_Nigeria_Protectorate>
+      <Declared_independent_as_a_sovereign_state>1 October 1960</Declared_independent_as_a_sovereign_state>
+      <Became_a_republic>1 October 1963</Became_a_republic>
+    </Independence_from_the_United_Kingdom>
+    <History>
+      <Unification_of_Nigeria>1 January 1914</Unification_of_Nigeria>
+      <Current_constitution>29 May 1999</Current_constitution>
+    </History>
+    <Area>
+      <Total>923,769 km 2 (356,669 sq mi) ( 31st )</Total>
+      <Water____>1.4</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>236,747,130 ( 6th )</n_2024_estimate>
+      <Density>249.8/km 2 (647.0/sq mi) ( 57th )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$2.254 trillion ( 19th )</Total>
+        <Per_capita>$9,488 ( 135th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$285.003 billion ( 52nd )</Total>
+        <Per_capita>$1,200 ( 173rd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2020_>35.1 medium inequality</Gini__2020_>
+      <HDI__2023_>0.560 medium ( 164th )</HDI__2023_>
+      <Currency>Naira (₦) ( NGN )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +01:00 ( WAT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+234</Calling_code>
+      <ISO_3166_code>NG</ISO_3166_code>
+      <Internet_TLD>.ng</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

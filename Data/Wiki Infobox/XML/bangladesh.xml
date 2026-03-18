@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Bangladesh</country>
+  <url>https://en.wikipedia.org/wiki/Bangladesh</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Dhaka 23°45′50″N 90°23′20″E ﻿ / ﻿ 23.76389°N 90.38889°E ﻿ / 23.76389; 90.38889</Capital_and_largest_city>
+      <Official_language_and_national_language>Bengali</Official_language_and_national_language>
+      <Other_common_language>English</Other_common_language>
+      <Ethnic_groups__2022_>
+        <Bengali>99%</Bengali>
+        <others_Chakmas_Garos_Khasis_Khumis_Manipuris_Marmas_Mizos_Arakanese_Mrus_Santals_Tanchangyas_Tripuris_Bishnupriyas>1%</others_Chakmas_Garos_Khasis_Khumis_Manipuris_Marmas_Mizos_Arakanese_Mrus_Santals_Tanchangyas_Tripuris_Bishnupriyas>
+      </Ethnic_groups__2022_>
+      <Religion__2022_>
+        <Islam___official__>91.04%</Islam___official__>
+        <Hinduism>7.94%</Hinduism>
+        <Buddhism>
+          <percentage>0.6%</percentage>
+          <breakdown>
+            <Christianity>0.3%</Christianity>
+          </breakdown>
+        </Buddhism>
+        <other>0.12%</other>
+      </Religion__2022_>
+      <Demonym>Bangladeshi</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Mohammed Shahabuddin</President>
+      <Prime_Minister>Tarique Rahman</Prime_Minister>
+      <Speaker>Hafiz Uddin Ahmad</Speaker>
+      <Chief_Justice>Zubayer Rahman Chowdhury</Chief_Justice>
+      <Legislature>Jatiya Sangsad</Legislature>
+      <Provisional_government>10 April 1971</Provisional_government>
+    </Government>
+    <Independence_from_Pakistan>
+      <East_Bengal>15 August 1947</East_Bengal>
+      <East_Pakistan>29 February 1956</East_Pakistan>
+      <Victory_in_the_Liberation_War>16 December 1971</Victory_in_the_Liberation_War>
+    </Independence_from_Pakistan>
+    <History>
+      <Proclamation_of_independence>26 March 1971</Proclamation_of_independence>
+      <Current_constitution>16 December 1972</Current_constitution>
+    </History>
+    <Area>
+      <Total>148,460 km 2 (57,320 sq mi) ( 93rd )</Total>
+      <Water____>6.4</Water____>
+      <Land_area>130,170 km 2</Land_area>
+      <Water_area>18,290 km 2</Water_area>
+    </Area>
+    <Population>
+      <n_2024_estimate>173,562,364 ( 8th )</n_2024_estimate>
+      <n_2022_census>169,828,911 ( 8th )</n_2022_census>
+      <Density>1,165/km 2 (3,017.3/sq mi) ( 13th )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2026 estimate</Details>
+        <Total>$1.9 trillion ( 26th )</Total>
+        <Per_capita>$10,850 ( 127th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2026 estimate</Details>
+        <Total>$519.3 billion ( 33rd )</Total>
+        <Per_capita>$2,960 ( 142nd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2025_>33.4 medium inequality</Gini__2025_>
+      <HDI__2023_>0.685 medium ( 130th )</HDI__2023_>
+      <Currency>Taka ( ৳ ) ( BDT )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +6 ( BST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+880</Calling_code>
+      <ISO_3166_code>BD</ISO_3166_code>
+      <Internet_TLD>.bd .বাংলা</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

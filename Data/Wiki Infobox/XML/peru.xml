@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Peru</country>
+  <url>https://en.wikipedia.org/wiki/Peru</url>
+  <infobox>
+    <General>
+      <Quechua>
+        <item>Piruw Ripuwlika</item>
+        <item>Piruw Ripuwlika</item>
+      </Quechua>
+      <Aymara>Piruwxa Ripuwlika</Aymara>
+      <Capital_and_largest_city>Lima 12°2.6′S 77°1.7′W ﻿ / ﻿ 12.0433°S 77.0283°W ﻿ / -12.0433; -77.0283</Capital_and_largest_city>
+      <Official_languages>Spanish</Official_languages>
+      <Co_official_languages>Quechua Aymara Other Indigenous languages</Co_official_languages>
+      <Ethnic_groups__2017_>
+        <Mestizo>60.2%</Mestizo>
+        <Native>25.75%</Native>
+        <White>5.89%</White>
+        <Black>3.57%</Black>
+        <East_Asian>0.16%</East_Asian>
+        <other>1.1%</other>
+        <no_answer>3.32%</no_answer>
+      </Ethnic_groups__2017_>
+      <Religion__2017__>
+        <Christianity>
+          <percentage>94.5%</percentage>
+          <breakdown>
+            <Catholicism>76%</Catholicism>
+            <other_Christian>18.5%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>5.1%</no_religion>
+        <other>0.4%</other>
+      </Religion__2017__>
+      <Demonym>Peruvian</Demonym>
+      <Recognized>14 August 1879</Recognized>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic</Government>
+      <President>José María Balcázar</President>
+      <First_Vice_President>Vacant</First_Vice_President>
+      <Prime_Minister>Denisse Miralles</Prime_Minister>
+      <President_of_Congress>Fernando Rospigliosi (acting)</President_of_Congress>
+      <Legislature>Congress of the Republic</Legislature>
+    </Government>
+    <Independence_from_Spain>
+      <Declared>28 July 1821</Declared>
+      <Consolidated>9 December 1824</Consolidated>
+    </Independence_from_Spain>
+    <Area>
+      <Total>1,285,216 km 2 (496,225 sq mi) ( 19th )</Total>
+      <Water____>0.41</Water____>
+    </Area>
+    <Population>
+      <n_2023_estimate>34,352,720 ( 43rd )</n_2023_estimate>
+      <Density>23/km 2 (59.6/sq mi) ( 198th )</Density>
+      <Date_format>dd/mm/yyyy ( CE )</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$653.090 billion ( 47th )</Total>
+        <Per_capita>$18,980 ( 99th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$318.480 billion ( 47th )</Total>
+        <Per_capita>$9,260 ( 86th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>40.2 medium inequality</Gini__2022_>
+      <HDI__2023_>0.794 high ( 79th )</HDI__2023_>
+      <Currency>Peruvian sol ( PEN )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC −05:00 ( PET )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+51</Calling_code>
+      <ISO_3166_code>PE</ISO_3166_code>
+      <Internet_TLD>.pe</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

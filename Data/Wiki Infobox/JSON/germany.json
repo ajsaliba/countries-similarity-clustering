@@ -1,0 +1,51 @@
+{
+    "country": "Germany",
+    "url": "https://en.wikipedia.org/wiki/Germany",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Berlin 52°31′N 13°23′E ﻿ / ﻿ 52.517°N 13.383°E ﻿ / 52.517; 13.383",
+            "Official languages": "German",
+            "Demonym": "German",
+            "Chancellor": "Friedrich Merz"
+        },
+        "Government": {
+            "Government": "Federal parliamentary republic",
+            "President": "Frank-Walter Steinmeier",
+            "Legislature": "Bundestag Bundesrat"
+        },
+        "Area": {
+            "Total": "357,022 km 2 (137,847 sq mi) ( 63rd )",
+            "Water (%)": "1.27"
+        },
+        "Population": {
+            "Q3 2025 estimate": "83,497,147",
+            "2022 census": "82,719,540 ( 19th )",
+            "Density": "233/km 2 (603.5/sq mi) ( 63rd )",
+            "Date format": "Day, month, year Year, month, day"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$6.154 trillion ( 6th )",
+                "Per capita": "$73,553 ( 23rd )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$5.014 trillion ( 3rd )",
+                "Per capita": "$59,925 ( 19th )"
+            },
+            "Gini (2023)": "29.4 low inequality",
+            "HDI (2023)": "0.959 very high ( 5th )",
+            "Currency": "Euro ( € ) ( EUR )"
+        },
+        "Time": {
+            "Time zone": "UTC +1 ( CET )",
+            "Summer ( DST )": "UTC +2 ( CEST )"
+        },
+        "Codes": {
+            "Calling code": "+49",
+            "ISO 3166 code": "DE",
+            "Internet TLD": ".de"
+        }
+    }
+}

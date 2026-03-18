@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Argentina</country>
+  <url>https://en.wikipedia.org/wiki/Argentina</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Buenos Aires 34°36′S 58°23′W ﻿ / ﻿ 34.600°S 58.383°W ﻿ / -34.600; -58.383</Capital_and_largest_city>
+      <National_language>Spanish</National_language>
+      <Regional_languages>Guaraní in Corrientes Quechua in Santiago del Estero Qom , Mocoví , and Wichí in Chaco</Regional_languages>
+      <Religion__2019_>
+        <Christianity>
+          <percentage>78.2%</percentage>
+          <breakdown>
+            <Catholicism>62.9%</Catholicism>
+            <other_Christian>15.3%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>20.5%</no_religion>
+        <other>1.3%</other>
+      </Religion__2019_>
+      <Demonyms>Argentine Argentinian Argentinean</Demonyms>
+      <Chief_of_the_Cabinet_of_Ministers>Manuel Adorni</Chief_of_the_Cabinet_of_Ministers>
+    </General>
+    <Government>
+      <Government>Federal presidential republic</Government>
+      <President>Javier Milei</President>
+      <Vice_President>Victoria Villarruel</Vice_President>
+      <President_of_the_Chamber_of_Deputies>Martín Menem</President_of_the_Chamber_of_Deputies>
+      <President_of_Supreme_Court>Horacio Rosatti</President_of_Supreme_Court>
+      <Legislature>National Congress</Legislature>
+      <Upper_house>Chamber of Senators</Upper_house>
+      <Lower_house>Chamber of Deputies</Lower_house>
+    </Government>
+    <Independence_from_Spain>
+      <May_Revolution>25 May 1810</May_Revolution>
+      <Declared>9 July 1816</Declared>
+    </Independence_from_Spain>
+    <History>
+      <Constitution>1 May 1853</Constitution>
+    </History>
+    <Area>
+      <Total>2,780,085 km 2 (1,073,397 sq mi) ( 8th )</Total>
+      <Water____>1.57</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>46,735,004 ( 33rd )</n_2025_estimate>
+      <n_2022_census>46,044,703 ( 32nd )</n_2022_census>
+      <Density>16.8/km 2 (43.5/sq mi) ( 214th )</Density>
+      <Date_format>dd / mm / yyyy ( CE )</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$1.493 trillion ( 28th )</Total>
+        <Per_capita>$31,379 ( 68th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$683.533 billion ( 23rd )</Total>
+        <Per_capita>$14,362 ( 66th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>40.7 medium inequality</Gini__2022_>
+      <HDI__2023_>0.865 very high ( 47th )</HDI__2023_>
+      <Currency>Argentine peso ( $ ) ( ARS )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC – 03:00 ( ART )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+54</Calling_code>
+      <ISO_3166_code>AR</ISO_3166_code>
+      <Internet_TLD>.ar</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

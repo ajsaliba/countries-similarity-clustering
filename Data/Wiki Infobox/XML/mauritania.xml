@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Mauritania</country>
+  <url>https://en.wikipedia.org/wiki/Mauritania</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Nouakchott 18°09′N 15°58′W ﻿ / ﻿ 18.150°N 15.967°W ﻿ / 18.150; -15.967</Capital_and_largest_city>
+      <Official_languages>Arabic</Official_languages>
+      <Recognised_national_languages>Arabic Pulaar Soninke Wolof</Recognised_national_languages>
+      <Ethnic_groups>
+        <Haratin>40%</Haratin>
+        <Beidane>30%</Beidane>
+        <Halpulaar___Fulani___Sonink____and_Wolof>30%</Halpulaar___Fulani___Sonink____and_Wolof>
+      </Ethnic_groups>
+      <Religion>Sunni Islam ( official )</Religion>
+      <Demonym>Mauritanian</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential Islamic republic</Government>
+      <President>Mohamed Ould Ghazouani</President>
+      <Prime_Minister>Mokhtar Ould Djay</Prime_Minister>
+      <President_of_the_National_Assembly>Mohamed Ould Meguett</President_of_the_National_Assembly>
+      <Legislature>National Assembly</Legislature>
+    </Government>
+    <History>
+      <Republic_established>28 November 1958</Republic_established>
+      <Independence_from_France>28 November 1960</Independence_from_France>
+      <Current_constitution>12 July 1991</Current_constitution>
+    </History>
+    <Area>
+      <Total>1,030,000 km 2 (400,000 sq mi) ( 28th )</Total>
+    </Area>
+    <Population>
+      <n_2026_estimate>5,461,319‎ ( 123th )</n_2026_estimate>
+      <Density>3.4/km 2 (8.8/sq mi)</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$40.060 billion ( 143rd )</Total>
+        <Per_capita>$8,650 ( 130th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$11.470 billion ( 149th )</Total>
+        <Per_capita>$2,480 ( 144th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2014_>32.6 medium inequality</Gini__2014_>
+      <HDI__2023_>0.563 medium ( 163rd )</HDI__2023_>
+      <Currency>Ouguiya ( MRU )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC ±00:00 ( GMT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+222</Calling_code>
+      <ISO_3166_code>MR</ISO_3166_code>
+      <Internet_TLD>.mr</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

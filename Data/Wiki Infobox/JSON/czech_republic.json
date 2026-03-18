@@ -1,0 +1,80 @@
+{
+    "country": "Czech Republic",
+    "url": "https://en.wikipedia.org/wiki/Czech_Republic",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Prague 50°05′N 14°28′E ﻿ / ﻿ 50.083°N 14.467°E ﻿ / 50.083; 14.467",
+            "Official languages": "Czech",
+            "Officially recognized minority languages": "Belarusian Bulgarian Croatian German Greek Hungarian Polish Romani Russian Rusyn Serbian Slovak Ukrainian Vietnamese As of 2022",
+            "Ethnic groups (2021)": {
+                "Czechs": "89%",
+                "Moravians": "3.3%",
+                "Slovaks": "0.9%",
+                "Ukrainians": "0.7%",
+                "other": "2.1%",
+                "two nationalities": "4%"
+            },
+            "Religion (2021)": {
+                "no religion": "56.9%",
+                "Christianity": {
+                    "percentage": "11.7%",
+                    "breakdown": {
+                        "Catholicism": "9.3%",
+                        "other Christian": "2.4%"
+                    }
+                },
+                "other": "1.2%",
+                "unanswered": "30.1%"
+            },
+            "Demonym": "Czech"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic",
+            "President": "Petr Pavel",
+            "Prime Minister": "Andrej Babiš",
+            "Legislature": "Parliament",
+            "Upper house": "Senate",
+            "Lower house": "Chamber of Deputies",
+            "Kingdom of Bohemia": "1198"
+        },
+        "Establishment": {
+            "Duchy of Bohemia": "c. 870",
+            "Czechoslovakia": "28 October 1918",
+            "Czech Republic": "1 January 1993"
+        },
+        "Area": {
+            "Total": "78,871 km 2 (30,452 sq mi) ( 115th )",
+            "Water (%)": "2.16 (as of 2022)"
+        },
+        "Population": {
+            "2024 estimate": "10,900,555 ( 85th )",
+            "2021 census": "10,524,167",
+            "Density": "133/km 2 (344.5/sq mi) ( 91st )",
+            "Date format": "d. m. yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2024 estimate",
+                "Total": "$619.881 billion ( 46th )",
+                "Per capita": "$56,686 ( 38th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2024 estimate",
+                "Total": "$342.992 billion ( 47th )",
+                "Per capita": "$31,365 ( 38th )"
+            },
+            "Gini (2023)": "24.4 low inequality",
+            "HDI (2023)": "0.915 very high ( 29th )",
+            "Currency": "Czech koruna ( CZK )"
+        },
+        "Time": {
+            "Time zone": "UTC +1 ( CET )",
+            "Summer ( DST )": "UTC +2 ( CEST )"
+        },
+        "Codes": {
+            "Calling code": "+420",
+            "ISO 3166 code": "CZ",
+            "Internet TLD": ".cz"
+        }
+    }
+}

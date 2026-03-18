@@ -1,0 +1,79 @@
+{
+    "country": "Poland",
+    "url": "https://en.wikipedia.org/wiki/Poland",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Warsaw 52°13′N 21°02′E ﻿ / ﻿ 52.217°N 21.033°E ﻿ / 52.217; 21.033",
+            "Official language": "Polish",
+            "Ethnic groups (2021)": {
+                "Polish": "98.8%",
+                "only Polish": "96.3%",
+                "Polish and others": "2.6%",
+                "only non-Polish": "1.1%"
+            },
+            "Religion (2021 )": {
+                "Christianity": {
+                    "percentage": "72.4%",
+                    "breakdown": {
+                        "Catholicism": "71.3%",
+                        "other Christian": "1.1%"
+                    }
+                },
+                "no religion": "6.9%",
+                "other": "0.1%",
+                "unanswered": "20.6%"
+            },
+            "Demonyms": "Polish Pole"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic",
+            "President": "Karol Nawrocki",
+            "Prime Minister": "Donald Tusk",
+            "Legislature": "Parliament",
+            "Upper house": "Senate",
+            "Lower house": "Sejm",
+            "Kingdom of Poland": "18 April 1025",
+            "Government-in-exile": "17 September 1939"
+        },
+        "History": {
+            "Baptism of Poland": "14 April 966",
+            "Polish–Lithuanian Commonwealth": "1 July 1569",
+            "Second Republic": "11 November 1918",
+            "People's Republic": "22 July 1944",
+            "Third Republic": "31 December 1989"
+        },
+        "Area": {
+            "Total": "312,696 km 2 (120,733 sq mi) ( 69th )",
+            "Water (%)": "1.48 (2015)"
+        },
+        "Population": {
+            "2026 census": "37,893,970 ( 38th )",
+            "Density": "126/km 2 (326.3/sq mi) ( 98th )",
+            "Date format": "dd.mm.yyyy ( CE )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$2.019 trillion ( 19th )",
+                "Per capita": "$55,340 ( 37th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$1.039 trillion ( 20th )",
+                "Per capita": "$28,484 ( 44th )"
+            },
+            "Gini (2022)": "26.3 low inequality",
+            "HDI (2023)": "0.906 very high ( 35th )",
+            "Currency": "Złoty ( PLN )"
+        },
+        "Time": {
+            "Time zone": "UTC +1 ( CET )",
+            "Summer ( DST )": "UTC +2 ( CEST )"
+        },
+        "Codes": {
+            "Calling code": "+48",
+            "ISO 3166 code": "PL",
+            "Internet TLD": ".pl"
+        }
+    }
+}

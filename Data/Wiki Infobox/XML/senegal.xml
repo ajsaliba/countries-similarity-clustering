@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Senegal</country>
+  <url>https://en.wikipedia.org/wiki/Senegal</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Dakar 14°40′N 17°25′W ﻿ / ﻿ 14.667°N 17.417°W ﻿ / 14.667; -17.417</Capital_and_largest_city>
+      <Official_languages>French</Official_languages>
+      <National_languages>Wolof Serer Diola Pulaar Soninke Mandinka</National_languages>
+      <Ethnic_groups__2019_>
+        <Wolof>39.7%</Wolof>
+        <Fula>27.5%</Fula>
+        <Serer>16%</Serer>
+        <Mandinka>4.9%</Mandinka>
+        <Jola>4.2%</Jola>
+        <Soninke>2.4%</Soninke>
+        <others>5.4%</others>
+      </Ethnic_groups__2019_>
+      <Religion__2019_>
+        <Islam>97.2%</Islam>
+        <Christianity>2.7%</Christianity>
+        <other>0.1%</other>
+      </Religion__2019_>
+      <Demonym>Senegalese</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+      <President>Bassirou Diomaye Faye</President>
+      <Prime_Minister>Ousmane Sonko</Prime_Minister>
+      <President_of_the_National_Assembly>Malick Ndiaye</President_of_the_National_Assembly>
+      <Legislature>National Assembly</Legislature>
+    </Government>
+    <Independence>
+      <Withdrawal_from_the_Mali_Federation>20 August 1960</Withdrawal_from_the_Mali_Federation>
+      <Dissolution_of_the_Senegambia_Confederation>30 September 1989</Dissolution_of_the_Senegambia_Confederation>
+    </Independence>
+    <History>
+      <Republic_established>25 November 1958</Republic_established>
+      <Independence_from_France>20 June 1960</Independence_from_France>
+    </History>
+    <Area>
+      <Total>196,722 km 2 (75,955 sq mi) ( 86th )</Total>
+      <Water____>2.1</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>18,847,519 ( 68th )</n_2024_estimate>
+      <Density>96/km 2 (248.6/sq mi)</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$105.428 billion ( 100th )</Total>
+        <Per_capita>$5,498 ( 150th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$34.728 billion ( 103rd )</Total>
+        <Per_capita>$1,811 ( 154th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2011_>40.3 medium inequality</Gini__2011_>
+      <HDI__2023_>0.530 low ( 169th )</HDI__2023_>
+      <Currency>West African CFA franc ( XOF )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC ±00:00 ( GMT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+221</Calling_code>
+      <ISO_3166_code>SN</ISO_3166_code>
+      <Internet_TLD>.sn</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

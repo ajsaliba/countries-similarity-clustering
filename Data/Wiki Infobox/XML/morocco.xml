@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Morocco</country>
+  <url>https://en.wikipedia.org/wiki/Morocco</url>
+  <infobox>
+    <General>
+      <Capital>Rabat 34°02′N 6°51′W ﻿ / ﻿ 34.033°N 6.850°W ﻿ / 34.033; -6.850</Capital>
+      <Largest_city>Casablanca 33°32′N 7°35′W ﻿ / ﻿ 33.533°N 7.583°W ﻿ / 33.533; -7.583</Largest_city>
+      <Official_languages>Arabic Tamazight</Official_languages>
+      <Spoken_languages__2024_>
+        <Arabic>92.7%</Arabic>
+        <Moroccan_Arabic>91.9%</Moroccan_Arabic>
+        <Hassaniya_Arabic>0.8%</Hassaniya_Arabic>
+        <Berber_languages>24.8%</Berber_languages>
+        <Tashelhit>14.2%</Tashelhit>
+        <Tamazight>7.4%</Tamazight>
+        <Tarifit>3.2%</Tarifit>
+      </Spoken_languages__2024_>
+      <Foreign_languages>French English Spanish</Foreign_languages>
+      <Ethnic_groups>See Ethnic groups</Ethnic_groups>
+      <Religion__2020_>
+        <Islam___official__>
+          <percentage>99.68%</percentage>
+          <breakdown>
+            <Sunni>99.23%</Sunni>
+            <Shia>0.45%</Shia>
+          </breakdown>
+        </Islam___official__>
+        <Others>
+          <percentage>0.3%</percentage>
+          <breakdown>
+            <Agnostics>0.13%</Agnostics>
+          </breakdown>
+        </Others>
+        <Bah___s>
+          <percentage>0.1%</percentage>
+          <breakdown>
+            <Christians>0.09%</Christians>
+          </breakdown>
+        </Bah___s>
+        <Jews>0.01%</Jews>
+      </Religion__2020_>
+      <Demonym>Moroccan</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary semi-constitutional monarchy</Government>
+      <King>Mohammed VI</King>
+      <Prime_Minister>Aziz Akhannouch</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>House of Councillors</Upper_house>
+      <Lower_house>House of Representatives</Lower_house>
+    </Government>
+    <Establishment>
+      <Idrisid_dynasty>788</Idrisid_dynasty>
+      <__Alawi_dynasty__current_dynasty_>1631</__Alawi_dynasty__current_dynasty_>
+      <French_protectorate>30 March 1912</French_protectorate>
+    </Establishment>
+    <History>
+      <Independence>2 March 1956</Independence>
+    </History>
+    <Area>
+      <Total>446,550 km 2 (172,410 sq mi) ( 57th )</Total>
+      <Water____>0.056 (250 km 2 )</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>37,493,183 ( 38th )</n_2024_estimate>
+      <n_2024_census>36,828,330</n_2024_census>
+      <Density>79.0/km 2 (204.6/sq mi)</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$424.870 billion ( 57th )</Total>
+        <Per_capita>$11,270 ( 122nd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$165.840 billion ( 58th )</Total>
+        <Per_capita>$4,440 ( 123rd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2015_>40.3 medium inequality</Gini__2015_>
+      <HDI__2023_>0.710 high ( 120th )</HDI__2023_>
+      <Currency>Moroccan dirham ( MAD )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 UTC+0 (during Ramadan )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+212</Calling_code>
+      <ISO_3166_code>MA</ISO_3166_code>
+      <Internet_TLD>.ma .المغرب</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

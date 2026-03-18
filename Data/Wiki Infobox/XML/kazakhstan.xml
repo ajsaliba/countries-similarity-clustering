@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Kazakhstan</country>
+  <url>https://en.wikipedia.org/wiki/Kazakhstan</url>
+  <infobox>
+    <General>
+      <Capital>Astana 51°8′N 71°26′E ﻿ / ﻿ 51.133°N 71.433°E ﻿ / 51.133; 71.433</Capital>
+      <Largest_city>Almaty 43°14′N 76°57′E ﻿ / ﻿ 43.233°N 76.950°E ﻿ / 43.233; 76.950</Largest_city>
+      <Official_languages>Kazakh Russian</Official_languages>
+      <Ethnic_groups__2025_>
+        <Kazakh>71.3%</Kazakh>
+        <Russian>14.6%</Russian>
+        <Uzbek>3.3%</Uzbek>
+        <Ukrainian>1.8%</Ukrainian>
+        <Uyghur>1.5%</Uyghur>
+        <German>1.1%</German>
+        <Tatar>1.1%</Tatar>
+        <others>5.3%</others>
+      </Ethnic_groups__2025_>
+      <Religion__2021_>
+        <Islam>69.3%</Islam>
+        <Christianity>17.2%</Christianity>
+        <no_religion>2.3%</no_religion>
+        <other>0.2%</other>
+        <unanswered>11%</unanswered>
+      </Religion__2021_>
+      <Demonyms>Kazakh Kazakhstani</Demonyms>
+      <Recognized>
+        <Details>26 December 1991</Details>
+        <Current_constitution>30 August 1995</Current_constitution>
+      </Recognized>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic under an authoritarian government</Government>
+      <President>Kassym-Jomart Tokayev</President>
+      <Prime_Minister>Oljas Bektenov</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>Mäjilis</Lower_house>
+    </Government>
+    <History>
+      <Kazakh_Khanate>c. 1465</Kazakh_Khanate>
+      <Kazakh_ASSR>26 August 1920</Kazakh_ASSR>
+      <Kazakh_SSR>5 December 1936</Kazakh_SSR>
+      <Independence_from_the_Soviet_Union>16 December 1991</Independence_from_the_Soviet_Union>
+    </History>
+    <Area>
+      <Total>2,724,900 km 2 (1,052,100 sq mi) ( 9th )</Total>
+      <Water____>1.7</Water____>
+    </Area>
+    <Population>
+      <n_2026_estimate>20,495,975 ( 65th )</n_2026_estimate>
+      <Density>7.44/km 2 (19.3/sq mi) ( 236th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$904.500 billion ( 37th )</Total>
+        <Per_capita>$44,450 ( 49th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$300.540 billion ( 48th )</Total>
+        <Per_capita>$14,770 ( 64th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2018_>27.8 low inequality</Gini__2018_>
+      <HDI__2023_>0.837 very high ( 60th )</HDI__2023_>
+      <Currency>Tenge (₸) ( KZT )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +5</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+7</Calling_code>
+      <ISO_3166_code>KZ</ISO_3166_code>
+      <Internet_TLD>.kz .қаз</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

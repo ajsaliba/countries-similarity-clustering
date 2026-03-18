@@ -1,0 +1,81 @@
+{
+    "country": "Croatia",
+    "url": "https://en.wikipedia.org/wiki/Croatia",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Zagreb 45°48′47″N 15°58′39″E ﻿ / ﻿ 45.81306°N 15.97750°E ﻿ / 45.81306; 15.97750",
+            "Official languages": "Croatian",
+            "Writing system": "Latin",
+            "Ethnic groups (2021)": {
+                "Croats": "91.6%",
+                "Serbs": "3.2%",
+                "others": "5.2%"
+            },
+            "Religion (2021)": {
+                "Christianity": {
+                    "percentage": "87.4%",
+                    "breakdown": {
+                        "Catholicism": "79%",
+                        "Orthodoxy": "3.3%",
+                        "other Christian": "5.1%"
+                    }
+                },
+                "no religion": "6.4%",
+                "Islam": "1.3%",
+                "other": "1.9%",
+                "undeclared": "3.9%"
+            },
+            "Demonym": "Croatian"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic",
+            "President": "Zoran Milanović",
+            "Prime Minister": "Andrej Plenković",
+            "Speaker of the Parliament": "Gordan Jandroković",
+            "Legislature": "Sabor",
+            "Kingdom": "925"
+        },
+        "History": {
+            "Duchy": "7th century",
+            "Croatia in personal union with Hungary": "1102",
+            "Joined Habsburg Monarchy": "1 January 1527",
+            "Secession from Austria-Hungary": "29 October 1918",
+            "Creation of Yugoslavia": "4 December 1918",
+            "Socialist Republic of Croatia of Yugoslavia": "9 May 1944",
+            "Declaration of independence": "25 June 1991"
+        },
+        "Area": {
+            "Total": "56,561 km 2 (21,838 sq mi) ( 124th )",
+            "Water (%)": "1.09"
+        },
+        "Population": {
+            "2024 estimate": "3,866,233 ( 128th )",
+            "2021 census": "3,871,833 ( 128th )",
+            "Density": "68.4/km 2 (177.2/sq mi) ( 152nd )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2026 estimate",
+                "Total": "$207.40 billion ( 79th )",
+                "Per capita": "$53,840 ( 39th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2026 estimate",
+                "Total": "$113.13 billion ( 74th )",
+                "Per capita": "$29,370 ( 47th )"
+            },
+            "Gini (2026)": "30.0 medium inequality",
+            "HDI (2023)": "0.889 very high ( 41st )",
+            "Currency": "Euro ( € ) ( EUR )"
+        },
+        "Time": {
+            "Time zone": "UTC +1 ( CET )",
+            "Summer ( DST )": "UTC +2 ( CEST )"
+        },
+        "Codes": {
+            "Calling code": "+385",
+            "ISO 3166 code": "HR",
+            "Internet TLD": ".hr and .eu"
+        }
+    }
+}

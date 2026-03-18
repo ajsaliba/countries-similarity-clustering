@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>South Africa</country>
+  <url>https://en.wikipedia.org/wiki/South_Africa</url>
+  <infobox>
+    <General>
+      <Afrikaans>
+        <item>Republiek van Suid-Afrika</item>
+        <item>Republiek van Suid-Afrika</item>
+      </Afrikaans>
+      <Zulu>iRiphabhuliki yaseNingizimu Afrika</Zulu>
+      <Xhosa>iRiphabhlikhi yoMzantsi Afrika</Xhosa>
+      <Pedi>Repabliki ya Afrika-Borwa</Pedi>
+      <Southern_Sotho>Rephaboliki ya Afrika Borwa</Southern_Sotho>
+      <Tswana>Rephaboliki ya Aforika Borwa</Tswana>
+      <Tsonga>Riphabliki ya Afrika Dzonga</Tsonga>
+      <Swati>iRiphabhulikhi yaseNingizimu-Afrika</Swati>
+      <Venda>Riphabuḽiki ya Afurika Tshipembe</Venda>
+      <Southern_Ndebele>iRiphabliki yeSewula Afrika</Southern_Ndebele>
+      <Capital>Pretoria (executive) Cape Town (legislative) Bloemfontein (judicial)</Capital>
+      <Largest_city>Johannesburg</Largest_city>
+      <Official_languages>12 languages Afrikaans English Ndebele Sepedi Sesotho Setswana South African Sign Language Swazi Tshivenda Xhosa Xitsonga Zulu Languages with special status Khoe languages Nama Khoisan languages German Greek Gujarati Hindi Portuguese Telugu Tamil Urdu Arabic Hebrew Sanskrit</Official_languages>
+      <Ethnic_groups__2022__>
+        <Black>81.4%</Black>
+        <Coloured>8.2%</Coloured>
+        <White>7.3%</White>
+        <Indian_or_Asian>2.7%</Indian_or_Asian>
+        <other>0.4%</other>
+      </Ethnic_groups__2022__>
+      <Religion__2022_>
+        <Christianity>85.3%</Christianity>
+        <Traditional_faiths>7.8%</Traditional_faiths>
+        <No_religion>3.1%</No_religion>
+        <Islam>1.6%</Islam>
+        <Hinduism>1.1%</Hinduism>
+        <other>1.1%</other>
+      </Religion__2022_>
+      <Demonym>South African</Demonym>
+      <Chairperson_of_the_National_Council_of_Provinces>Refilwe Mtsweni-Tsipane</Chairperson_of_the_National_Council_of_Provinces>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic with an executive presidency</Government>
+      <President>Cyril Ramaphosa</President>
+      <Deputy_President>Paul Mashatile</Deputy_President>
+      <Speaker_of_the_National_Assembly>Thoko Didiza</Speaker_of_the_National_Assembly>
+      <Chief_Justice>Mandisa Maya</Chief_Justice>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>National Council of Provinces</Upper_house>
+      <Lower_house>National Assembly</Lower_house>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <Union>31 May 1910</Union>
+      <Statute_of_Westminster>11 December 1931</Statute_of_Westminster>
+      <Republic>31 May 1961</Republic>
+    </Independence_from_the_United_Kingdom>
+    <History>
+      <Current_constitution>4 February 1997</Current_constitution>
+    </History>
+    <Area>
+      <Total>1,221,037 km 2 (471,445 sq mi) ( 24th )</Total>
+      <Water____>0.380</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>63,015,904 ( 23rd )</n_2024_estimate>
+      <n_2022_census>62,027,503 ( 23rd )</n_2022_census>
+      <Density>50.8/km 2 (131.6/sq mi) ( 169th )</Density>
+      <Date_format>Short formats: yyyy/mm/dd yyyy-mm-dd</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2026 estimate</Details>
+        <Total>$1.060 trillion ( 33rd )</Total>
+        <Per_capita>$16,280 ( 107th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2026 estimate</Details>
+        <Total>$443.64 billion ( 38th )</Total>
+        <Per_capita>$6,830 ( 107th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>63.0 very high inequality</Gini__2023_>
+      <HDI__2023_>0.741 high ( 106th )</HDI__2023_>
+      <Currency>South African rand ( ZAR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2 ( SAST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+27</Calling_code>
+      <ISO_3166_code>ZA</ISO_3166_code>
+      <Internet_TLD>.za</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

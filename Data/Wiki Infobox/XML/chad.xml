@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Chad</country>
+  <url>https://en.wikipedia.org/wiki/Chad</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>N'Djamena 12°06′19″N 15°02′41″E ﻿ / ﻿ 12.10528°N 15.04472°E ﻿ / 12.10528; 15.04472</Capital_and_largest_city>
+      <Official_languages>Arabic French</Official_languages>
+      <Religion__2020_>
+        <Islam>55.1%</Islam>
+        <Christianity>41.1%</Christianity>
+        <no_religion>2.4%</no_religion>
+        <Animism>1.3%</Animism>
+        <others>0.1%</others>
+      </Religion__2020_>
+      <Demonym>Chadian</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic under a hereditary dictatorship</Government>
+      <President>Mahamat Déby</President>
+      <Prime_Minister>Allamaye Halina</Prime_Minister>
+      <Legislature>Bicameral parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>National Assembly</Lower_house>
+    </Government>
+    <Independence_from_France>
+      <Autonomy_granted>28 November 1958</Autonomy_granted>
+      <Sovereign_state>11 August 1960</Sovereign_state>
+    </Independence_from_France>
+    <History>
+      <Colony_established>5 September 1900</Colony_established>
+    </History>
+    <Area>
+      <Total>1,280,000 km 2 (490,000 sq mi) ( 20th )</Total>
+      <Water____>1.9</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>19,093,595 ( 66th )</n_2024_estimate>
+      <Density>14.4/km 2 (37.3/sq mi) ( 218th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2026 estimate</Details>
+        <Total>$63.070 billion ( 147th )</Total>
+        <Per_capita>$3,240 ( 179th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2026 estimate</Details>
+        <Total>$23.560 billion ( 145th )</Total>
+        <Per_capita>$1,210 ( 183rd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>37.4 medium inequality</Gini__2022_>
+      <HDI__2023_>0.416 low ( 190th )</HDI__2023_>
+      <Currency>Central African CFA franc ( XAF )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +01:00 ( WAT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+235</Calling_code>
+      <ISO_3166_code>TD</ISO_3166_code>
+      <Internet_TLD>.td</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

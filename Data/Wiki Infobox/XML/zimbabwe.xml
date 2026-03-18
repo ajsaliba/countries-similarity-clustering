@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Zimbabwe</country>
+  <url>https://en.wikipedia.org/wiki/Zimbabwe</url>
+  <infobox>
+    <General>
+      <Shona>
+        <item>Nyika yeZimbabwe</item>
+        <item>Nyika yeZimbabwe</item>
+      </Shona>
+      <Ndebele>Ilizwe laseZimbabwe</Ndebele>
+      <Chewa>Dziko la Zimbabwe</Chewa>
+      <Tswana>Lefatshe la Zimbabwe</Tswana>
+      <Xitsonga>Tiko ra Zimbabwe</Xitsonga>
+      <Venda>Riphabuḽiki ya Zimbabwe</Venda>
+      <Xhosa>IRiphabhulikhi yaseZimbabwe</Xhosa>
+      <Sotho>Rephabliki ea Zimbabwe</Sotho>
+      <Ndau>Nyika yeZimbabwe</Ndau>
+      <Capital_and_largest_city>Harare 17°49′45″S 31°03′08″E ﻿ / ﻿ 17.82917°S 31.05222°E ﻿ / -17.82917; 31.05222</Capital_and_largest_city>
+      <Official_languages>16 languages : Chewa Chibarwe English Kalanga Khoisan Nambya Ndau Ndebele Shangani Shona Sotho Tonga Tswana Venda Xhosa Zimbabwean sign language</Official_languages>
+      <Ethnic_groups__2022_census_>
+        <Zimbabwean>99.6%</Zimbabwean>
+        <European>0.2%</European>
+        <Coloured>0.1%</Coloured>
+        <other>0.1%</other>
+      </Ethnic_groups__2022_census_>
+      <Religion__2017_>
+        <Christianity>
+          <percentage>84.1%</percentage>
+          <breakdown>
+            <Protestantism>69.2%</Protestantism>
+            <other_Christian>14.9%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>10.2%</no_religion>
+        <traditional_faiths>4.5%</traditional_faiths>
+        <others>1.2%</others>
+      </Religion__2017_>
+      <Demonyms>Zimbabwean Zimbo (colloquial)</Demonyms>
+      <Independence_recognised>
+        <Details>18 April 1980</Details>
+        <Current_constitution>15 May 2013</Current_constitution>
+      </Independence_recognised>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+      <President>Emmerson Mnangagwa</President>
+      <First_Vice_President>Constantino Chiwenga</First_Vice_President>
+      <Second_Vice_President>Kembo Mohadi</Second_Vice_President>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>National Assembly</Lower_house>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <Declared>11 November 1965</Declared>
+      <Republic>2 March 1970</Republic>
+      <Zimbabwe_Rhodesia>1 June 1979</Zimbabwe_Rhodesia>
+    </Independence_from_the_United_Kingdom>
+    <Area>
+      <Total>390,757 km 2 (150,872 sq mi) ( 60th )</Total>
+      <Water____>1</Water____>
+    </Area>
+    <Population>
+      <February_2026_estimate>17,166,852 ( 74th )</February_2026_estimate>
+      <n_2022_census>15,178,957</n_2022_census>
+      <Density>45/km 2 (116.5/sq mi) ( 179th )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$93.870 billion ( 104th )</Total>
+        <Per_capita>$5,410 ( 151st )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$53.310 billion ( 101st )</Total>
+        <Per_capita>$3,070 ( 152nd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2019_>45.5 medium inequality</Gini__2019_>
+      <HDI__2023_>0.598 medium ( 153rd )</HDI__2023_>
+      <Currency>De jure : Zimbabwe Gold ( ZWG ) De facto : United States dollar ( USD ) South African rand ( ZAR ); Other currencies</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2 ( CAT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+263</Calling_code>
+      <ISO_3166_code>ZW</ISO_3166_code>
+      <Internet_TLD>.zw</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

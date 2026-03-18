@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Ghana</country>
+  <url>https://en.wikipedia.org/wiki/Ghana</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Accra 05°33′18″N 00°11′33″W ﻿ / ﻿ 5.55500°N 0.19250°W ﻿ / 5.55500; -0.19250</Capital_and_largest_city>
+      <Official_languages>English</Official_languages>
+      <Ethnic_groups__2021_>
+        <Akan>45.7%</Akan>
+        <Mole_Dagbon>18.5%</Mole_Dagbon>
+        <Ewe>12.8%</Ewe>
+        <Ga_Adangbe>7.1%</Ga_Adangbe>
+        <Gurma>6.4%</Gurma>
+        <Guan>3.2%</Guan>
+        <Gurunsi>2.7%</Gurunsi>
+        <Mande>2%</Mande>
+        <other>1.6%</other>
+      </Ethnic_groups__2021_>
+      <Religion__2021_>
+        <Christianity>71.3%</Christianity>
+        <Islam>19.9%</Islam>
+        <traditional_faiths>3.2%</traditional_faiths>
+        <irreligion>1.1%</irreligion>
+        <other>4.5%</other>
+      </Religion__2021_>
+      <Demonym>Ghanaian</Demonym>
+    </General>
+    <Government>
+      <Government_sponsored_languages>Twi Fante Ewe Dagaare Dagbanli Adangme Ga Gonja Kasem Nzema</Government_sponsored_languages>
+      <Working_languages>English French Hindi Arabic Ghanaian English Ghanaian Pidgin English</Working_languages>
+      <Government>Unitary presidential republic</Government>
+      <President>John Mahama</President>
+      <Vice_President>Jane Naana Opoku-Agyemang</Vice_President>
+      <Speaker_of_Parliament>Alban Bagbin</Speaker_of_Parliament>
+      <Chief_Justice>Justice Paul Baffoe-Bonnie</Chief_Justice>
+      <Legislature>Parliament</Legislature>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <Dominion>6 March 1957</Dominion>
+      <Republic>1 July 1960</Republic>
+    </Independence_from_the_United_Kingdom>
+    <Area>
+      <Total>240,000 km 2 (93,000 sq mi) ( 80th )</Total>
+      <Water____>4.61 (11,000 km 2 ; 4,247 mi 2 )</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>35,039,451 ( 46th )</n_2025_estimate>
+      <Density>151/km 2 (391.1/sq mi) ( 90th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$295.12 billion ( 68th )</Total>
+        <Per_capita>$8,042 ( 132nd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$88.033 billion ( 79th )</Total>
+        <Per_capita>$2,520 ( 143rd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2024_>44 medium inequality</Gini__2024_>
+      <HDI__2023_>0.628 medium ( 143rd )</HDI__2023_>
+      <Currency>Cedi ( GHS )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC ±00:00 ( GMT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+233</Calling_code>
+      <ISO_3166_code>GH</ISO_3166_code>
+      <Internet_TLD>.gh</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

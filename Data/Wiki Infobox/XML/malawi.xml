@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Malawi</country>
+  <url>https://en.wikipedia.org/wiki/Malawi</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Lilongwe 13°57′S 33°42′E ﻿ / ﻿ 13.950°S 33.700°E ﻿ / -13.950; 33.700</Capital_and_largest_city>
+      <Official_languages>English</Official_languages>
+      <Recognised_national_languages>( none at national level)</Recognised_national_languages>
+      <Recognised_regional_languages>Chichewa Chitumbuka</Recognised_regional_languages>
+      <Ethnic_groups__2024_census_>
+        <Chewa>25.2%</Chewa>
+        <Tumbuka>20.4%</Tumbuka>
+        <Lomwe>16.4%</Lomwe>
+        <Yao>15.3%</Yao>
+        <Ngoni>6.4%</Ngoni>
+        <Sena>5.9%</Sena>
+        <Mang_anja>3.8%</Mang_anja>
+        <Tonga>1.8%</Tonga>
+        <Ngonde>1.5%</Ngonde>
+        <Lambya>0.6%</Lambya>
+        <Sukwa>0.5%</Sukwa>
+        <other>1.1%</other>
+      </Ethnic_groups__2024_census_>
+      <Religion__2018_census_>
+        <Christianity>
+          <percentage>82.3%</percentage>
+          <breakdown>
+            <Protestantism>58.5%</Protestantism>
+            <Catholicism>17.2%</Catholicism>
+            <other_Christian>6.6%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <Islam>13.8%</Islam>
+        <none>2.1%</none>
+        <traditional_faiths>1.2%</traditional_faiths>
+        <other>0.6%</other>
+      </Religion__2018_census_>
+      <Demonym>Malawian</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+      <President>Peter Mutharika</President>
+      <Vice_President>Jane Ansah</Vice_President>
+      <House_Speaker>Sameer Suleman</House_Speaker>
+      <Chief_Justice>Rizine Mzikamanda</Chief_Justice>
+      <Legislature>National Assembly</Legislature>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <Dominion>6 July 1964</Dominion>
+      <Republic>6 July 1966</Republic>
+    </Independence_from_the_United_Kingdom>
+    <History>
+      <Current_constitution>18 May 1994</Current_constitution>
+    </History>
+    <Area>
+      <Total>118,484 km 2 (45,747 sq mi) ( 98th )</Total>
+      <Water____>20.6%</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>21,240,689 ( 62nd )</n_2024_estimate>
+      <n_2018_census>17,563,749</n_2018_census>
+      <Density>153.1/km 2 (396.5/sq mi) ( 56th )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2023 estimate</Details>
+        <Total>$37.919 billion ( 137th )</Total>
+        <Per_capita>$1,668 ( 186th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2023 estimate</Details>
+        <Total>$13.176 billion ( 149th )</Total>
+        <Per_capita>$579 ( 190th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2016_>44.7 medium inequality</Gini__2016_>
+      <HDI__2023_>0.517 low ( 172nd )</HDI__2023_>
+      <Currency>Malawian kwacha (D) ( MWK )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2 ( CAT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+265</Calling_code>
+      <ISO_3166_code>MW</ISO_3166_code>
+      <Internet_TLD>.mw</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

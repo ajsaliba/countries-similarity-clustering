@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Georgia</country>
+  <url>https://en.wikipedia.org/wiki/Georgia_(country)</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Tbilisi 41°43′N 44°47′E ﻿ / ﻿ 41.717°N 44.783°E ﻿ / 41.717; 44.783</Capital_and_largest_city>
+      <Official_languages>Georgian</Official_languages>
+      <Recognized_regional_languages>Abkhaz</Recognized_regional_languages>
+      <Ethnic_groups__2014__>
+        <Georgians>86.8%</Georgians>
+        <Azerbaijanis>6.2%</Azerbaijanis>
+        <Armenians>4.5%</Armenians>
+        <Russians>0.7%</Russians>
+        <other>2.1%</other>
+      </Ethnic_groups__2014__>
+      <Religion__2014_>
+        <Christianity>
+          <percentage>87.3%</percentage>
+          <breakdown>
+            <Georgian_Orthodoxy>83.4%</Georgian_Orthodoxy>
+            <other_Christian>3.9%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <Islam>10.7%</Islam>
+        <other___none>2%</other___none>
+      </Religion__2014_>
+      <Demonym>Georgian</Demonym>
+      <Chairperson_of_the_Parliament>Shalva Papuashvili</Chairperson_of_the_Parliament>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Mikheil Kavelashvili</President>
+      <Prime_Minister>Irakli Kobakhidze</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Kingdom_of_Abkhazia_and_Kingdom_of_the_Iberians>786–1008</Kingdom_of_Abkhazia_and_Kingdom_of_the_Iberians>
+    </Government>
+    <History>
+      <Colchis_and_Iberia>13th c. BC – AD 580 ( 580 )</Colchis_and_Iberia>
+      <Unification_of_Georgia>1008</Unification_of_Georgia>
+      <The_Tripartite_division>1463–1810</The_Tripartite_division>
+      <Russian_annexation>1801–1858</Russian_annexation>
+      <Independence_from_Russia>26 May 1918</Independence_from_Russia>
+      <Russian_invasion>12 February 1921</Russian_invasion>
+      <Soviet_annexation>25 February 1921</Soviet_annexation>
+      <Independence_from_the_Soviet_Union___Declared___Finalized>9 April 1991 26 December 1991 ( 1991-12-26 )</Independence_from_the_Soviet_Union___Declared___Finalized>
+      <Current_constitution>24 August 1995</Current_constitution>
+    </History>
+    <Area>
+      <Total>69,700 km 2 (26,900 sq mi) ( 119th )</Total>
+    </Area>
+    <Population>
+      <n_2024_census>3,657,000 ( 129th )</n_2024_census>
+      <Density>56.3/km 2 (145.8/sq mi) ( 165th )</Density>
+      <Date_format>dd.mm.yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2026 estimate</Details>
+        <Total>$123,049 billion ( 98th )</Total>
+        <Per_capita>$33,340 ( 67th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2026 estimate</Details>
+        <Total>$35.350 billion ( 103th )</Total>
+        <Per_capita>$10,886 ( 83rd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2021_>34.2 medium inequality</Gini__2021_>
+      <HDI__2023_>0.844 very high ( 57th )</HDI__2023_>
+      <Currency>Georgian lari (₾) ( GEL )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +4 ( GET )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+995</Calling_code>
+      <ISO_3166_code>GE</ISO_3166_code>
+      <Internet_TLD>.ge , .გე</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

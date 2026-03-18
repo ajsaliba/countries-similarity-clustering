@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Syria</country>
+  <url>https://en.wikipedia.org/wiki/Syria</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Damascus 33°30′N 36°18′E ﻿ / ﻿ 33.500°N 36.300°E ﻿ / 33.500; 36.300</Capital_and_largest_city>
+      <Official_languages>Arabic</Official_languages>
+      <Recognized_national_languages>Kurdish</Recognized_national_languages>
+      <Spoken_languages>Predominantly Arabic List Kurdish Turkish Neo-Aramaic Syriac Circassian Chechen Armenian Greek Domari</Spoken_languages>
+      <Ethnic_groups__2021_>
+        <Arabs_9_>90%</Arabs_9_>
+        <Kurds_1_>10%</Kurds_1_>
+        <others>10%</others>
+      </Ethnic_groups__2021_>
+      <Religion__2020_>
+        <Islam>94.17%</Islam>
+        <Sunni>79.19%</Sunni>
+        <Shia_10_>14.1%</Shia_10_>
+        <Alawites>13%</Alawites>
+        <Christianity>3.84%</Christianity>
+        <other>1.99%</other>
+      </Religion__2020_>
+      <Demonym>Syrian</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic under a provisional government</Government>
+      <President>Ahmed al-Sharaa</President>
+      <Legislature>People's Assembly</Legislature>
+      <Arab_Kingdom_of_Syria>8 March 1920</Arab_Kingdom_of_Syria>
+      <Current_provisional_government_established>29 March 2025</Current_provisional_government_established>
+    </Government>
+    <Establishment>
+      <State_of_Syria_under_French_mandate>1 December 1924</State_of_Syria_under_French_mandate>
+      <First_Syrian_Republic>14 May 1930</First_Syrian_Republic>
+      <End_of_the_French_mandate>17 April 1946</End_of_the_French_mandate>
+      <Part_of_the_United_Arab_Republic>22 February 1958 – 28 September 1961</Part_of_the_United_Arab_Republic>
+      <Ba_athist_Syria>8 March 1963 – 8 December 2024</Ba_athist_Syria>
+    </Establishment>
+    <Area>
+      <Total>185,180 km 2 (71,500 sq mi) ( 87th )</Total>
+      <Water____>1.1</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>26,019,711 ( 56th )</n_2025_estimate>
+      <Density>118.3/km 2 (306.4/sq mi) ( 70th )</Density>
+      <Date_format>dd-mm-yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2021 estimate</Details>
+        <Total>$50.28 billion</Total>
+        <Per_capita>$3,300</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2022 estimate</Details>
+        <Total>$9.8 billion</Total>
+        <Per_capita>$800</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>26.6 low inequality</Gini__2022_>
+      <Currency>Syrian pound ( SYP/LS )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +03:00 ( AST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+963</Calling_code>
+      <ISO_3166_code>SY</ISO_3166_code>
+      <Internet_TLD>.sy سوريا.</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

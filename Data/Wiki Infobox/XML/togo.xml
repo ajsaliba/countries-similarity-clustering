@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Togo</country>
+  <url>https://en.wikipedia.org/wiki/Togo</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Lomé 6°8′N 1°13′E ﻿ / ﻿ 6.133°N 1.217°E ﻿ / 6.133; 1.217</Capital_and_largest_city>
+      <Official_languages>French</Official_languages>
+      <Spoken_languages>List: English French Ewe Gbe Gur Kwa Kabiye Talensi Wasa Aguna Aja Ngangam Ntcham Tammari Tem Ifè Yoruba</Spoken_languages>
+      <Ethnic_groups>
+        <__Aja___Ewe_and_Mina__>94.4%</__Aja___Ewe_and_Mina__>
+        <__Kabye_and_Tem__>42.4%</__Kabye_and_Tem__>
+        <__Akan_and_Gurma__>25.9%</__Akan_and_Gurma__>
+        <__Kposo_and_Akebu__>17.1%</__Kposo_and_Akebu__>
+        <__Ana_Ife__>4.1%</__Ana_Ife__>
+        <__Other_West_African_groups__>3.2%</__Other_West_African_groups__>
+        <__non_African__>1.7%</__non_African__>
+        <_>5.6%</_>
+      </Ethnic_groups>
+      <Religion__2025_>
+        <Christianity>
+          <percentage>50%</percentage>
+          <breakdown>
+            <traditional_faiths>33%</traditional_faiths>
+            <Islam>16%</Islam>
+            <Bah____faith>1%</Bah____faith>
+          </breakdown>
+        </Christianity>
+      </Religion__2025_>
+      <Demonym>Togolese</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Jean-Lucien Savi de Tové</President>
+      <Prime_Minister>Faure Gnassingbé</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>National Assembly</Lower_house>
+    </Government>
+    <History>
+      <German_Togoland>5 July 1884</German_Togoland>
+      <French_Togoland>27 August 1914</French_Togoland>
+      <Independence_from_France>27 April 1960</Independence_from_France>
+      <Admission_to_the_UNO>20 September 1960</Admission_to_the_UNO>
+      <Current_constitution>6 May 2024</Current_constitution>
+    </History>
+    <Area>
+      <Total>56,785 km 2 (21,925 sq mi) ( 123rd )</Total>
+      <Water____>4.2</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>9,583,381 ( 101st )</n_2024_estimate>
+      <n_2022_census>8,095,498</n_2022_census>
+      <Density>125.9/km 2 (326.1/sq mi)</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$33.050 billion ( 147th )</Total>
+        <Per_capita>$3,470 ( 166th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$10.020 billion ( 151st )</Total>
+        <Per_capita>$1,050 ( 171st )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2015_>43.1 medium inequality</Gini__2015_>
+      <HDI__2023_>0.571 medium ( 161st )</HDI__2023_>
+      <Currency>West African CFA franc ( XOF )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +00:00 ( GMT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+228</Calling_code>
+      <ISO_3166_code>TG</ISO_3166_code>
+      <Internet_TLD>.tg</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

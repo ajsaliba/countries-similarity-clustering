@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Singapore</country>
+  <url>https://en.wikipedia.org/wiki/Singapore</url>
+  <infobox>
+    <General>
+      <Capital>Singapore ( city-state ) 1°17′N 103°50′E ﻿ / ﻿ 1.283°N 103.833°E ﻿ / 1.283; 103.833</Capital>
+      <Official_languages>English Malay Mandarin Tamil</Official_languages>
+      <National_language>Malay</National_language>
+      <Ethnic_groups__2023_>
+        <Chinese>74.3%</Chinese>
+        <Malay>13.5%</Malay>
+        <Indian>9%</Indian>
+        <Other>3.2%</Other>
+      </Ethnic_groups__2023_>
+      <Religion__2020_>
+        <Buddhism>31.1%</Buddhism>
+        <No_religion>20%</No_religion>
+        <Christianity>18.9%</Christianity>
+        <Islam>15.6%</Islam>
+        <Taoism>8.8%</Taoism>
+        <Hinduism>5%</Hinduism>
+        <Sikhism>0.3%</Sikhism>
+        <Other>0.3%</Other>
+      </Religion__2020_>
+      <Demonym>Singaporean</Demonym>
+    </General>
+    <Area>
+      <Largest_planning_area_by_population>Tampines</Largest_planning_area_by_population>
+      <Total>744.3 km 2 (287.4 sq mi) ( 176th )</Total>
+      <Water____>1.43%</Water____>
+    </Area>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Tharman Shanmugaratnam</President>
+      <Prime_Minister>Lawrence Wong</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+    </Government>
+    <Independence_from_the_United_Kingdom_and_Malaysia>
+      <Self_governance>3 June 1959</Self_governance>
+      <Malaysia_Agreement>16 September 1963</Malaysia_Agreement>
+      <Proclamation_of_Singapore>9 August 1965</Proclamation_of_Singapore>
+    </Independence_from_the_United_Kingdom_and_Malaysia>
+    <Population>
+      <n_2025_estimate>6,110,200 ( 111th )</n_2025_estimate>
+      <Density>8,290/km 2 (21,471.0/sq mi) ( 3rd )</Density>
+      <Date_format>dd-mm-yyyy ( AD )</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$952.600 billion ( 34th )</Total>
+        <Per_capita>$156,755 ( 1st )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$564.700 billion ( 27th )</Total>
+        <Per_capita>$93,956 ( 4th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>43.3 medium inequality</Gini__2023_>
+      <HDI__2023_>0.946 very high ( 13th )</HDI__2023_>
+      <Currency>Singapore dollar (S$) ( SGD )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +8 ( SGT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+65</Calling_code>
+      <ISO_3166_code>SG</ISO_3166_code>
+      <Internet_TLD>.sg</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

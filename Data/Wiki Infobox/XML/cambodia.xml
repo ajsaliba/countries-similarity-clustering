@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Cambodia</country>
+  <url>https://en.wikipedia.org/wiki/Cambodia</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Phnom Penh 11°34′10″N 104°55′16″E ﻿ / ﻿ 11.56944°N 104.92111°E ﻿ / 11.56944; 104.92111</Capital_and_largest_city>
+      <Official_languages>Khmer</Official_languages>
+      <Official_script>Khmer</Official_script>
+      <Ethnic_groups__2019_20__>
+        <Khmer>95.4%</Khmer>
+        <Cham>2.4%</Cham>
+        <Chinese>1.5%</Chinese>
+        <others>0.8%</others>
+      </Ethnic_groups__2019_20__>
+      <Religion__2024__>
+        <Buddhism___official__>96.5%</Buddhism___official__>
+        <Islam>2.6%</Islam>
+        <Christianity>0.3%</Christianity>
+        <others>0.5%</others>
+      </Religion__2024__>
+      <Demonym>Cambodian</Demonym>
+      <Monarch>Norodom Sihamoni</Monarch>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional elective monarchy under a hereditary dictatorship</Government>
+      <Prime_Minister>Hun Manet</Prime_Minister>
+      <President_of_the_Senate>Hun Sen</President_of_the_Senate>
+      <President_of_the_National_Assembly>Khuon Sodary</President_of_the_National_Assembly>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>National Assembly</Lower_house>
+    </Government>
+    <History>
+      <Funan>68–550</Funan>
+      <Chenla>550–802</Chenla>
+      <Khmer_Empire>802–1431</Khmer_Empire>
+      <Middle_period>1431–1863</Middle_period>
+      <French_protectorate>11 August 1863</French_protectorate>
+      <Independence_from_France>9 November 1953</Independence_from_France>
+      <Khmer_Republic>9 October 1970</Khmer_Republic>
+      <Democratic_Kampuchea>5 January 1976</Democratic_Kampuchea>
+      <People_s_Republic_of_Kampuchea>8 January 1979</People_s_Republic_of_Kampuchea>
+      <State_of_Cambodia>30 April 1989</State_of_Cambodia>
+      <United_Nations_Administered_Cambodia>28 February 1992</United_Nations_Administered_Cambodia>
+      <Monarchy_restored>24 September 1993</Monarchy_restored>
+    </History>
+    <Area>
+      <Total>181,035 km 2 (69,898 sq mi) ( 88th )</Total>
+      <Water____>2.5</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>17,638,801 ( 71st )</n_2024_estimate>
+      <Density>94.4/km 2 (244.5/sq mi)</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$150.050 billion ( 89th )</Total>
+        <Per_capita>$8,650 ( 131st )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$49.800 billion ( 93rd )</Total>
+        <Per_capita>$2,870 ( 140th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2024_>23.6 low inequality</Gini__2024_>
+      <HDI__2023_>0.606 medium ( 151st )</HDI__2023_>
+      <Currency>Riel (៛) ( KHR ; de jure and de facto ) United States dollar ($) ( USD ; de facto )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +07:00 ( ICT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+855</Calling_code>
+      <ISO_3166_code>KH</ISO_3166_code>
+      <Internet_TLD>.kh</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

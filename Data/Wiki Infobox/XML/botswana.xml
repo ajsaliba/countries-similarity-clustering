@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Botswana</country>
+  <url>https://en.wikipedia.org/wiki/Botswana</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Gaborone 24°39.5′S 25°54.5′E ﻿ / ﻿ 24.6583°S 25.9083°E ﻿ / -24.6583; 25.9083</Capital_and_largest_city>
+      <Official_languages>English</Official_languages>
+      <National_language>Tswana</National_language>
+      <Ethnic_groups__2024_>
+        <Tswana>79%</Tswana>
+        <Kalanga>11%</Kalanga>
+        <San>3%</San>
+        <others>7%</others>
+      </Ethnic_groups__2024_>
+      <Religion__2021_>
+        <Christianity>
+          <percentage>79.1%</percentage>
+          <breakdown>
+            <Protestantism>70.2%</Protestantism>
+            <other_Christian>8.9%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>15.2%</no_religion>
+        <Badimo>4.1%</Badimo>
+        <others>1.4%</others>
+        <unspecified>0.3%</unspecified>
+      </Religion__2021_>
+      <Demonyms>Batswana (plural) Motswana (singular)</Demonyms>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic with an executive presidency</Government>
+      <President>Duma Boko</President>
+      <Vice_President>Ndaba Gaolathe</Vice_President>
+      <National_Assembly_Speaker>Dithapelo Keorapetse</National_Assembly_Speaker>
+      <Legislature>Parliament ( National Assembly )</Legislature>
+    </Government>
+    <History>
+      <Established___Constitution__>30 September 1966</Established___Constitution__>
+    </History>
+    <Area>
+      <Total>581,730 km 2 (224,610 sq mi) ( 47th )</Total>
+      <Water____>2.7</Water____>
+    </Area>
+    <Population>
+      <n_2022_census>2,359,609 ( 143rd )</n_2022_census>
+      <Density>4.1/km 2 (10.6/sq mi) ( 231st )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2026 estimate</Details>
+        <Total>$54.820 billion ( 124th )</Total>
+        <Per_capita>$19,540 ( 83rd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2026 estimate</Details>
+        <Total>$20.710 billion ( 122nd )</Total>
+        <Per_capita>$7,380 ( 87th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2016_>45.5 medium inequality</Gini__2016_>
+      <HDI__2023_>0.731 high ( 111th )</HDI__2023_>
+      <Currency>Pula ( BWP )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2 ( Central Africa Time )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+267</Calling_code>
+      <ISO_3166_code>BW</ISO_3166_code>
+      <Internet_TLD>.bw</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

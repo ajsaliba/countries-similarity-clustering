@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>North Korea</country>
+  <url>https://en.wikipedia.org/wiki/North_Korea</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Pyongyang 39°2′N 125°45′E ﻿ / ﻿ 39.033°N 125.750°E ﻿ / 39.033; 125.750</Capital_and_largest_city>
+      <Official_languages>Korean ( Munhwaŏ )</Official_languages>
+      <Official_script>Chosŏn'gŭl</Official_script>
+      <Religion__2020_>
+        <no_religion>73%</no_religion>
+        <Chondoism>13%</Chondoism>
+        <Shamanism>12%</Shamanism>
+        <Buddhism>1.5%</Buddhism>
+        <other>0.5%</other>
+      </Religion__2020_>
+      <Demonyms>North Korean Korean</Demonyms>
+      <Premier>Pak Thae-song</Premier>
+      <SPA_Chairman>Vacant</SPA_Chairman>
+    </General>
+    <Government>
+      <Government>Unitary communist state</Government>
+      <WPK_General_Secretary_and_SAC_President>Kim Jong Un</WPK_General_Secretary_and_SAC_President>
+      <SPA_Standing_Committee_Chairman_and_SAC_First_Vice_President>Choe Ryong-hae</SPA_Standing_Committee_Chairman_and_SAC_First_Vice_President>
+      <Legislature>Supreme People's Assembly</Legislature>
+      <n_1st_provisional_government>8 February 1946</n_1st_provisional_government>
+    </Government>
+    <History>
+      <Surrender_of_Japan>2 September 1945</Surrender_of_Japan>
+      <Soviet_administration_north_of_the_38th_parallel>3 October 1945</Soviet_administration_north_of_the_38th_parallel>
+      <DPRK_established>10 July 1948</DPRK_established>
+      <Current_constitution>27 December 1972</Current_constitution>
+    </History>
+    <Area>
+      <Total>120,538 km 2 (46,540 sq mi) ( 98th )</Total>
+      <Water____>0.11</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>26,298,666 ( 54th )</n_2024_estimate>
+      <n_2008_census>24,052,231</n_2008_census>
+      <Density>212/km 2 (549.1/sq mi) ( 68th )</Density>
+      <Date_format>yy, yyyy년 mm월 dd일 yy, yyyy/mm/dd ( AD )</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2023 estimate</Details>
+        <Total>$15.416 billion</Total>
+        <Per_capita>$600</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2024 estimate</Details>
+        <Total>$32.036 billion</Total>
+        <Per_capita>$1,261</Per_capita>
+      </GDP__nominal_>
+      <Gini__2020_>16.6 low inequality</Gini__2020_>
+      <Currency>Korean People's won (₩) ( KPW )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +09:00 ( PYT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+850</Calling_code>
+      <ISO_3166_code>KP</ISO_3166_code>
+      <Internet_TLD>.kp</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

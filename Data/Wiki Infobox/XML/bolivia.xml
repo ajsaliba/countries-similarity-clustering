@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Bolivia</country>
+  <url>https://en.wikipedia.org/wiki/Bolivia</url>
+  <infobox>
+    <General>
+      <Capital>Sucre</Capital>
+      <Administrative_center>La Paz</Administrative_center>
+      <Largest_city>Santa Cruz 17°48′S 63°10′W ﻿ / ﻿ 17.800°S 63.167°W ﻿ / -17.800; -63.167</Largest_city>
+      <Official_languages>Spanish Quechua Aymara Guarani Other indigenous languages</Official_languages>
+      <Religion__2020_>
+        <Christianity>
+          <percentage>92.8%</percentage>
+          <breakdown>
+            <Catholicism>81.4%</Catholicism>
+            <other_Christian>11.4%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>6.5%</no_religion>
+        <other>0.7%</other>
+      </Religion__2020_>
+      <Demonym>Bolivian</Demonym>
+      <Recognized>
+        <Details>21 July 1847</Details>
+        <Current_constitution>7 February 2009</Current_constitution>
+      </Recognized>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+      <President>Rodrigo Paz</President>
+      <Vice_President>Edmand Lara</Vice_President>
+      <President_of_the_Senate>Diego Ávila</President_of_the_Senate>
+      <President_of_the_Chamber_of_Deputies>Roberto Castro Salazar</President_of_the_Chamber_of_Deputies>
+      <Legislature>Plurinational Legislative Assembly</Legislature>
+      <Upper_house>Chamber of Senators</Upper_house>
+      <Lower_house>Chamber of Deputies</Lower_house>
+    </Government>
+    <Independence_from_Spain>
+      <Declared>6 August 1825</Declared>
+    </Independence_from_Spain>
+    <Area>
+      <Total>1,098,581 km 2 (424,164 sq mi) ( 27th )</Total>
+      <Water____>1.29</Water____>
+    </Area>
+    <Population>
+      <n_2024_census>11,365,333 ( 84th )</n_2024_census>
+      <Density>10.4/km 2 (26.9/sq mi) ( 224th )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$144.098 billion ( 94th )</Total>
+        <Per_capita>$11,574 ( 120th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$56.339 billion ( 94th )</Total>
+        <Per_capita>$4,525 ( 126th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2021_>40.9 medium inequality</Gini__2021_>
+      <HDI__2023_>0.733 high ( 108th )</HDI__2023_>
+      <Currency>Boliviano ( BOB )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC −04:00 ( BOT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+591</Calling_code>
+      <ISO_3166_code>BO</ISO_3166_code>
+      <Internet_TLD>.bo</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

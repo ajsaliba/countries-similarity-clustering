@@ -1,0 +1,89 @@
+{
+    "country": "Lebanon",
+    "url": "https://en.wikipedia.org/wiki/Lebanon",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Beirut 33°54′N 35°32′E ﻿ / ﻿ 33.900°N 35.533°E ﻿ / 33.900; 35.533",
+            "Official languages": "Arabic",
+            "Local vernacular": "Lebanese Arabic",
+            "Recognised minority language": "French",
+            "Ethnic groups (2021)": {
+                "Arab": "95%",
+                "Armenian": "4%",
+                "others": "1%"
+            },
+            "Religion (2024)": {
+                "Islam": "53.31%",
+                "Shia": "26.84%",
+                "Alawite": "0.64%",
+                "Sunni": "26.55%",
+                "Christianity": {
+                    "percentage": "41.4%",
+                    "breakdown": {
+                        "Catholic": "28.11%",
+                        "Orthodox": "8.3%",
+                        "Armenian Apostolic": "2.92%",
+                        "Protestant": "0.53%",
+                        "Other Christians": "1.64%"
+                    }
+                },
+                "Druze": "5.21%",
+                "No religion": "0.08%"
+            },
+            "Demonym": "Lebanese"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic under confessionalism",
+            "President": "Joseph Aoun",
+            "Prime Minister": "Nawaf Salam",
+            "Speaker of the Parliament": "Nabih Berri",
+            "Legislature": "Parliament",
+            "Emirate of Mount Lebanon": "1516"
+        },
+        "Establishment": {
+            "Double Qaim-Maqamate of Mount Lebanon": "1 December 1843",
+            "Mount Lebanon Mutasarrifate": "9 June 1861",
+            "Greater Lebanon": "1 September 1920",
+            "French mandate ended": "24 October 1945",
+            "Withdrawal of French forces": "17 April 1946",
+            "Israeli troops withdrawn": "24 May 2000",
+            "Syrian troops withdrawn": "30 April 2005"
+        },
+        "History": {
+            "Constitution": "23 May 1926",
+            "Independence declared": "22 November 1943"
+        },
+        "Area": {
+            "Total": "10,452 km 2 (4,036 sq mi) ( 161st )",
+            "Water (%)": "1.8"
+        },
+        "Population": {
+            "2024 estimate": "5,364,482 ( 117th )",
+            "Density": "513/km 2 (1,328.7/sq mi)"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2022 estimate",
+                "Total": "$78.233 billion ( 108th )",
+                "Per capita": "$11,793 ( 114th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2022 estimate",
+                "Total": "$21.780 billion ( 103rd )",
+                "Per capita": "$3,283 ( 133rd )"
+            },
+            "Gini (2011)": "31.8 medium inequality",
+            "HDI (2023)": "0.752 high ( 102nd )",
+            "Currency": "Lebanese pound ( LBP )"
+        },
+        "Time": {
+            "Time zone": "UTC +2 ( EET )",
+            "Summer ( DST )": "UTC +3 ( EEST )"
+        },
+        "Codes": {
+            "Calling code": "+961",
+            "ISO 3166 code": "LB",
+            "Internet TLD": ".lb .لبنان"
+        }
+    }
+}

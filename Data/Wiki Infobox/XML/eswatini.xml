@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Eswatini</country>
+  <url>https://en.wikipedia.org/wiki/Eswatini</url>
+  <infobox>
+    <General>
+      <Capital>Mbabane (executive) Lobamba (legislative) 26°30′S 31°30′E ﻿ / ﻿ 26.500°S 31.500°E ﻿ / -26.500; 31.500</Capital>
+      <Largest_city>Mbabane</Largest_city>
+      <Official_languages>Swazi English</Official_languages>
+      <Ethnic_groups__2017_>
+        <Swazi>84%</Swazi>
+        <Zulu>10%</Zulu>
+        <others>6%</others>
+      </Ethnic_groups__2017_>
+      <Religion__2017_>
+        <Christianity>
+          <percentage>89.3%</percentage>
+          <breakdown>
+            <Protestantism>84.2%</Protestantism>
+            <Roman_Catholic>3.7%</Roman_Catholic>
+            <other_Christian>1.4%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>7.4%</no_religion>
+        <traditional_faiths>2.5%</traditional_faiths>
+        <others>0.8%</others>
+      </Religion__2017_>
+      <Demonym>Swazi</Demonym>
+      <Queen_Mother>Ntfombi</Queen_Mother>
+    </General>
+    <Government>
+      <Government>Unitary diarchic absolute monarchy</Government>
+      <King>Mswati III</King>
+      <Prime_Minister>Russell Dlamini</Prime_Minister>
+      <Chief_Justice>Bheki Maphalala</Chief_Justice>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>House of Assembly</Lower_house>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <United_Nations_membership>24 September 1968</United_Nations_membership>
+      <Renaming>19 April 2018</Renaming>
+    </Independence_from_the_United_Kingdom>
+    <History>
+      <Independence_granted>6 September 1968</Independence_granted>
+      <Current_constitution>2005</Current_constitution>
+    </History>
+    <Area>
+      <Total>17,364 km 2 (6,704 sq mi) ( 153rd )</Total>
+      <Water____>0.9</Water____>
+    </Area>
+    <Population>
+      <n_2023_estimate>1,236,126 ( 155th )</n_2023_estimate>
+      <n_2017_census>1,093,238</n_2017_census>
+      <Density>66.8/km 2 (173.0/sq mi) ( 135th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2023 estimate</Details>
+        <Total>$13.797 billion ( 158th )</Total>
+        <Per_capita>$11,858 ( 113th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2023 estimate</Details>
+        <Total>$4.648 billion ( 168th )</Total>
+        <Per_capita>$3,995 ( 122nd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2016_>54.6 high inequality</Gini__2016_>
+      <HDI__2023_>0.695 medium ( 126th )</HDI__2023_>
+      <Currency>Lilangeni (SZL) South African rand (ZAR)</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2 ( SAST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+268</Calling_code>
+      <ISO_3166_code>SZ</ISO_3166_code>
+      <Internet_TLD>.sz</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

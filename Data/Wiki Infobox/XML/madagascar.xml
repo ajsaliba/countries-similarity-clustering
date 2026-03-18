@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Madagascar</country>
+  <url>https://en.wikipedia.org/wiki/Madagascar</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Antananarivo 18°55′S 47°31′E ﻿ / ﻿ 18.917°S 47.517°E ﻿ / -18.917; 47.517</Capital_and_largest_city>
+      <Official_languages>Malagasy French</Official_languages>
+      <Ethnic_groups__2017_>
+        <Merina>26%</Merina>
+        <Betsimisaraka>15%</Betsimisaraka>
+        <Betsileo>12%</Betsileo>
+        <Tsimihety>7%</Tsimihety>
+        <Sakalava>6%</Sakalava>
+        <Antaisaka>5%</Antaisaka>
+        <Antandroy>5%</Antandroy>
+        <others>24%</others>
+      </Ethnic_groups__2017_>
+      <Religion__2020_>
+        <Christianity>
+          <percentage>84.7%</percentage>
+          <breakdown>
+            <Protestantism>45.8%</Protestantism>
+            <Catholicism>38.1%</Catholicism>
+            <other_Christian>0.8%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>7.3%</no_religion>
+        <traditional_faiths>4.7%</traditional_faiths>
+        <Islam>3.1%</Islam>
+        <others>0.3%</others>
+      </Religion__2020_>
+      <Demonym>Malagasy</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic under a transitional government</Government>
+      <President>Michael Randrianirina</President>
+      <Prime_Minister>Mamitiana Rajaonarison</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate (suspended)</Upper_house>
+      <Lower_house>National Assembly</Lower_house>
+      <Kingdom>c. 1540</Kingdom>
+    </Government>
+    <History>
+      <French_protectorate>c. 1882</French_protectorate>
+      <French_colony>6 August 1896</French_colony>
+      <Republic_proclaimed>14 October 1958</Republic_proclaimed>
+      <Declaration_of_independence>26 June 1960</Declaration_of_independence>
+      <Referendum>
+        <item>21 December 1975</item>
+        <item>17 November 2010</item>
+      </Referendum>
+      <Socialist_state>30 December 1975 – 12 January 1992</Socialist_state>
+      <Third_Republic>12 January 1992 – 11 December 2010</Third_Republic>
+      <Current_constitution>11 December 2010</Current_constitution>
+      <n_2025_Malagasy_protests>25 September – 14 October 2025</n_2025_Malagasy_protests>
+      <Coup_d_etat>12–14 October 2025</Coup_d_etat>
+    </History>
+    <Area>
+      <Total>592,796 km 2 (228,880 sq mi) ( 46th )</Total>
+      <Water>5,501 km 2 (2,124 sq mi)</Water>
+      <Water____>0.9%</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>31,964,956 ( 49th )</n_2024_estimate>
+      <Density>55/km 2 (142.4/sq mi) ( 164th )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2026 estimate</Details>
+        <Total>$68.110 billion ( 117th )</Total>
+        <Per_capita>$2,110 ( 182nd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2026 estimate</Details>
+        <Total>$21.090 billion ( 139th )</Total>
+        <Per_capita>$652 ( 188th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2012_>42.6 medium inequality</Gini__2012_>
+      <HDI__2023_>0.487 low ( 183rd )</HDI__2023_>
+      <Currency>Ariary ( MGA )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +3 ( EAT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+261</Calling_code>
+      <ISO_3166_code>MG</ISO_3166_code>
+      <Internet_TLD>.mg</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

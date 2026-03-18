@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Myanmar</country>
+  <url>https://en.wikipedia.org/wiki/Myanmar</url>
+  <infobox>
+    <General>
+      <Capital>Naypyidaw 21°00′N 96°00′E ﻿ / ﻿ 21.000°N 96.000°E ﻿ / 21.000; 96.000</Capital>
+      <Largest_city>Yangon</Largest_city>
+      <Official_language>Burmese</Official_language>
+      <Recognised_regional_languages>Chin Kachin Karen Kayah Mon Rakhine Shan</Recognised_regional_languages>
+      <Ethnic_groups__2019__>
+        <Bamar>68.78%</Bamar>
+        <Karen>6.69%</Karen>
+        <Rakhine>4.61%</Rakhine>
+        <Shan>4.51%</Shan>
+        <Mon>2.19%</Mon>
+        <Chin>2.09%</Chin>
+        <Kachin>1.5%</Kachin>
+        <Karenni>0.39%</Karenni>
+      </Ethnic_groups__2019__>
+      <Religion___2014__>
+        <Buddhism___official__>87.9%</Buddhism___official__>
+        <Christianity>
+          <percentage>6.2%</percentage>
+          <breakdown>
+            <Protestantism>4.91%</Protestantism>
+            <Catholicism>1.29%</Catholicism>
+          </breakdown>
+        </Christianity>
+        <Islam>4.3%</Islam>
+        <folk_religion>
+          <percentage>0.8%</percentage>
+          <breakdown>
+            <Hinduism>0.5%</Hinduism>
+            <no_religion>0.1%</no_religion>
+          </breakdown>
+        </folk_religion>
+        <other>0.2%</other>
+      </Religion___2014__>
+      <Demonyms>Burmese Myanmar Myanma</Demonyms>
+      <SSPC_Chairman>Min Aung Hlaing</SSPC_Chairman>
+      <SSPC_Vice_Chairman>Soe Win</SSPC_Vice_Chairman>
+    </General>
+    <Government>
+      <Government>Unitary assembly-independent republic under a military junta</Government>
+      <President>Vacant ( Min Aung Hlaing serving Pro Tem On Duty)</President>
+      <Prime_Minister>Nyo Saw</Prime_Minister>
+      <Legislature>Pyidaungsu Hluttaw</Legislature>
+      <Upper_house>Amyotha Hluttaw (dissolved)</Upper_house>
+      <Lower_house>Pyithu Hluttaw</Lower_house>
+      <Independence_from_the_United_Kingdom>4 January 1948</Independence_from_the_United_Kingdom>
+    </Government>
+    <History>
+      <Pagan_era>23 December 849</Pagan_era>
+      <Taungoo_era>16 October 1510</Taungoo_era>
+      <Konbaung_era>29 February 1752</Konbaung_era>
+      <Colonial_era>1 January 1886</Colonial_era>
+      <n_1962_coup_d__tat>2 March 1962</n_1962_coup_d__tat>
+      <n_1988_coup_d__tat>18 September 1988</n_1988_coup_d__tat>
+      <Current_constitution>29 May 2008</Current_constitution>
+      <n_2021_coup_d__tat>1 February 2021</n_2021_coup_d__tat>
+    </History>
+    <Area>
+      <Total>676,579 km 2 (261,229 sq mi) ( 39th )</Total>
+      <Water____>3.06</Water____>
+    </Area>
+    <Population>
+      <n_2022_estimate>55,770,232 ( 26th )</n_2022_estimate>
+      <Density>217/sq mi (83.8/km 2 ) ( 127th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$273.200 billion ( 64th )</Total>
+        <Per_capita>$4,950 ( 146th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$60.560 billion ( 87th )</Total>
+        <Per_capita>$1,110 ( 164th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2017_>30.7 medium inequality</Gini__2017_>
+      <HDI__2023_>0.609 medium ( 150th )</HDI__2023_>
+      <Currency>Myanmar kyat (K) ( MMK )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +06:30 ( MMT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+95</Calling_code>
+      <ISO_3166_code>MM</ISO_3166_code>
+      <Internet_TLD>.mm</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

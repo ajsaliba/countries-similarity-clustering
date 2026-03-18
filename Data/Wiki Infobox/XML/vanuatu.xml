@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Vanuatu</country>
+  <url>https://en.wikipedia.org/wiki/Vanuatu</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Port Vila 17°S 168°E ﻿ / ﻿ 17°S 168°E ﻿ / -17; 168</Capital_and_largest_city>
+      <Official_languages>Bislama English French</Official_languages>
+      <Ethnic_groups__2020_>
+        <Ni_Vanuatu>98.5%</Ni_Vanuatu>
+        <others>1.5%</others>
+      </Ethnic_groups__2020_>
+      <Religion__2020_>
+        <Christianity>
+          <percentage>93.4%</percentage>
+          <breakdown>
+            <Protestantism>75.1%</Protestantism>
+            <Catholicism>13.5%</Catholicism>
+            <other_Christian>4.8%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <Animism>4.6%</Animism>
+        <Bah____Faith>1.4%</Bah____Faith>
+        <other___none>0.6%</other___none>
+      </Religion__2020_>
+      <Demonym>Ni-Vanuatu (or rarely: Vanuatuan )</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Nikenike Vurobaravu</President>
+      <Prime_Minister>Jotham Napat</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <from_the_United_Kingdom_and_France>30 July 1980</from_the_United_Kingdom_and_France>
+    </Government>
+    <Area>
+      <Total>12,189 km 2 (4,706 sq mi) ( 157th )</Total>
+    </Area>
+    <Population>
+      <n_2023_estimate>335,908 ( 182nd )</n_2023_estimate>
+      <n_2020_census>300,019</n_2020_census>
+      <Density>27.6/km 2 (71.5/sq mi) ( 188th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2023 estimate</Details>
+        <Total>$1.002 billion</Total>
+        <Per_capita>$3,001</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2023 estimate</Details>
+        <Total>$1.064 billion</Total>
+        <Per_capita>$3,188</Per_capita>
+      </GDP__nominal_>
+      <Gini__2019_>32.3 medium inequality</Gini__2019_>
+      <HDI__2023_>0.621 medium ( 146th )</HDI__2023_>
+      <Currency>Vatu ( VUV )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +11 (VUT ( Vanuatu Time ))</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+678</Calling_code>
+      <ISO_3166_code>VU</ISO_3166_code>
+      <Internet_TLD>.vu</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

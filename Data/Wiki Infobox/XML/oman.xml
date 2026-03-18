@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Oman</country>
+  <url>https://en.wikipedia.org/wiki/Oman</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Muscat 23°35′20″N 58°24′30″E ﻿ / ﻿ 23.58889°N 58.40833°E ﻿ / 23.58889; 58.40833</Capital_and_largest_city>
+      <Official_languages>Arabic</Official_languages>
+      <Religion__2023_>
+        <Islam___official__>95%</Islam___official__>
+        <Hinduism>1.67%</Hinduism>
+        <Christianity>
+          <percentage>1.67%</percentage>
+          <breakdown>
+            <others>1.66%</others>
+          </breakdown>
+        </Christianity>
+      </Religion__2023_>
+      <Demonym>Omani</Demonym>
+      <Sultan>Haitham bin Tariq</Sultan>
+      <Crown_Prince>Theyazin bin Haitham</Crown_Prince>
+    </General>
+    <Government>
+      <Government>Unitary Islamic absolute monarchy</Government>
+      <Legislature>Council of Oman</Legislature>
+      <Upper_house>Council of State</Upper_house>
+      <Lower_house>Consultative Assembly</Lower_house>
+    </Government>
+    <Establishment>
+      <Magan_Civilization>3000 BCE</Magan_Civilization>
+      <Azd_tribe_migration>130</Azd_tribe_migration>
+      <Nabhani_dynasty>1154</Nabhani_dynasty>
+      <Portuguese_rule>1507–1656</Portuguese_rule>
+      <Ya_rubi_dynasty>1624</Ya_rubi_dynasty>
+      <Omani_Empire>1696</Omani_Empire>
+      <Al_Bu_Said_dynasty>20 November 1744</Al_Bu_Said_dynasty>
+      <Muscat_and_Oman>8 January 1856</Muscat_and_Oman>
+      <Sultanate_of_Oman>9 August 1970</Sultanate_of_Oman>
+      <Basic_Statute>6 November 1996</Basic_Statute>
+    </Establishment>
+    <History>
+      <Imamate_established>751</Imamate_established>
+    </History>
+    <Area>
+      <Total>315,331 km 2 (121,750 sq mi) ( 69th )</Total>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>5,494,691 ( 122nd )</n_2025_estimate>
+      <n_2010_census>2,773,479</n_2010_census>
+      <Density>15/km 2 (38.8/sq mi) ( 177th )</Density>
+      <Date_format>dd.mm.yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$231.16 billion ( 76th )</Total>
+        <Per_capita>$42,010 ( 53rd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$104.35 billion ( 70th )</Total>
+        <Per_capita>$18,097 ( 55th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2018_>30.75 medium inequality</Gini__2018_>
+      <HDI__2023_>0.858 very high ( 50th )</HDI__2023_>
+      <Currency>Omani rial ( OMR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +4 ( GST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+968</Calling_code>
+      <ISO_3166_code>OM</ISO_3166_code>
+      <Internet_TLD>.om , عمان.</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

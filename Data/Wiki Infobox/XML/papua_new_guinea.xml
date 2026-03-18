@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Papua New Guinea</country>
+  <url>https://en.wikipedia.org/wiki/Papua_New_Guinea</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Port Moresby 09°28′44″S 147°08′58″E ﻿ / ﻿ 9.47889°S 147.14944°E ﻿ / -9.47889; 147.14944</Capital_and_largest_city>
+      <Official_languages>English Hiri Motu PNG Sign Language Tok Pisin</Official_languages>
+      <Indigenous_languages>839 languages</Indigenous_languages>
+      <Religion__2011_>
+        <Christianity___official__>
+          <percentage>95.5%</percentage>
+          <breakdown>
+            <Protestantism>64.3%</Protestantism>
+            <Catholicism>26%</Catholicism>
+            <other_Christian>5.2%</other_Christian>
+          </breakdown>
+        </Christianity___official__>
+        <unspecified>3.1%</unspecified>
+        <others_or_none>1.4%</others_or_none>
+      </Religion__2011_>
+      <Demonym>Papua New Guinean</Demonym>
+      <Monarch>Charles III</Monarch>
+      <Governor_General>Bob Dadae</Governor_General>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Prime_Minister>James Marape</Prime_Minister>
+      <Legislature>National Parliament</Legislature>
+    </Government>
+    <Independence_from_Australia>
+      <Administrative_union>1 July 1949</Administrative_union>
+    </Independence_from_Australia>
+    <History>
+      <Independence>16 September 1975</Independence>
+    </History>
+    <Area>
+      <Total>462,840 km 2 (178,700 sq mi) ( 54th )</Total>
+      <Water____>2.2</Water____>
+    </Area>
+    <Population>
+      <n_2021_estimate>11,781,559 ( 82nd )</n_2021_estimate>
+      <n_2024_census>10,185,363</n_2024_census>
+      <Density>25.5/km 2 (66.0/sq mi)</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$41.810 billion ( 135th )</Total>
+        <Per_capita>$3,760 ( 162th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$32.840 billion ( 108th )</Total>
+        <Per_capita>$2,560 ( 142th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2009_>41.9 medium inequality</Gini__2009_>
+      <HDI__2023_>0.576 medium ( 160th )</HDI__2023_>
+      <Currency>Kina ( PGK )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +10, +11 ( PNGST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+675</Calling_code>
+      <ISO_3166_code>PG</ISO_3166_code>
+      <Internet_TLD>.pg</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Iran</country>
+  <url>https://en.wikipedia.org/wiki/Iran</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Tehran 35°41′N 51°25′E ﻿ / ﻿ 35.683°N 51.417°E ﻿ / 35.683; 51.417</Capital_and_largest_city>
+      <Official_languages>Persian</Official_languages>
+      <Demonym>Iranian</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary presidential theocratic Islamic republic under an authoritarian dictatorship</Government>
+      <Supreme_Leader>Mojtaba Khamenei</Supreme_Leader>
+      <President>Masoud Pezeshkian</President>
+      <Vice_President>Mohammad Reza Aref</Vice_President>
+      <Speaker_of_the_Assembly>Mohammad Bagher Ghalibaf</Speaker_of_the_Assembly>
+      <Chief_Justice>Gholam-Hossein Mohseni-Eje'i</Chief_Justice>
+      <Legislature>Islamic Consultative Assembly</Legislature>
+      <Median_kingdom>c. 678 BC</Median_kingdom>
+    </Government>
+    <History>
+      <Achaemenid_Empire>550 BC</Achaemenid_Empire>
+      <Parthian_Empire>247 BC</Parthian_Empire>
+      <Sasanian_Empire>224 AD</Sasanian_Empire>
+      <Iranian_Intermezzo>821</Iranian_Intermezzo>
+      <Safavid_Iran>22 December 1501</Safavid_Iran>
+      <Afsharid_Iran>22 January 1736</Afsharid_Iran>
+      <Zand_Iran>1751</Zand_Iran>
+      <Qajar_Iran>20 March 1794</Qajar_Iran>
+      <Constitutional_Revolution>12 December 1905</Constitutional_Revolution>
+      <Pahlavi_Iran>15 December 1925</Pahlavi_Iran>
+      <Iranian_Revolution>11 February 1979</Iranian_Revolution>
+      <Islamic_Republic_established>1 April 1979</Islamic_Republic_established>
+      <Current_constitution>3 December 1979</Current_constitution>
+      <Constitutional_amendment>28 July 1989</Constitutional_amendment>
+    </History>
+    <Area>
+      <Total>1,648,195 km 2 (636,372 sq mi) ( 17th )</Total>
+      <Water____>1.63 (as of 2015)</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>92,417,681 ( 17th )</n_2025_estimate>
+      <Density>52/km 2 (134.7/sq mi) ( 163rd )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$1.879 trillion ( 22nd )</Total>
+        <Per_capita>$21,473 ( 88th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$356.513 billion ( 42nd )</Total>
+        <Per_capita>$4,074 ( 132nd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>35.9 medium inequality</Gini__2023_>
+      <HDI__2023_>0.799 high ( 75th )</HDI__2023_>
+      <Currency>Iranian rial ( ریال ) ( IRR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +3:30 ( IRST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+98</Calling_code>
+      <ISO_3166_code>IR</ISO_3166_code>
+      <Internet_TLD>.ir ایران.</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

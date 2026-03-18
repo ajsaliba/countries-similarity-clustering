@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Uruguay</country>
+  <url>https://en.wikipedia.org/wiki/Uruguay</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Montevideo 34°53′S 56°10′W ﻿ / ﻿ 34.883°S 56.167°W ﻿ / -34.883; -56.167</Capital_and_largest_city>
+      <Official_languages>Spanish Uruguayan Sign Language</Official_languages>
+      <Ethnic_groups__2023_>
+        <White>86%</White>
+        <Black>10.4%</Black>
+        <Indigenous>6.3%</Indigenous>
+        <East_Asian>0.7%</East_Asian>
+        <other>6.3%</other>
+      </Ethnic_groups__2023_>
+      <Demonym>Uruguayan</Demonym>
+      <Recognized>
+        <Details>27 August 1828</Details>
+        <Current_constitution>15 February 1967</Current_constitution>
+      </Recognized>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+      <President>Yamandú Orsi</President>
+      <Vice_President>Carolina Cosse</Vice_President>
+      <Legislature>General Assembly</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>Chamber of Representatives</Lower_house>
+    </Government>
+    <Independence_from_Brazil>
+      <Declared>25 August 1825</Declared>
+    </Independence_from_Brazil>
+    <Area>
+      <Total>176,215 km 2 (68,037 sq mi) ( 89th )</Total>
+      <Water____>1.5</Water____>
+    </Area>
+    <Population>
+      <n_2023_census>3,499,451 ( 132nd )</n_2023_census>
+      <Density>19.5/km 2 (50.5/sq mi) ( 206th )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2024 estimate</Details>
+        <Total>$107.946 billion ( 98th )</Total>
+        <Per_capita>$36,014 ( 59th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2024 estimate</Details>
+        <Total>$82.605 billion ( 77th )</Total>
+        <Per_capita>$23,088 ( 49th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>40.6 medium inequality</Gini__2022_>
+      <HDI__2023_>0.862 very high ( 48th )</HDI__2023_>
+      <Currency>Uruguayan peso ( UYU )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC −03:00 ( UYT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+598</Calling_code>
+      <ISO_3166_code>UY</ISO_3166_code>
+      <Internet_TLD>.uy</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

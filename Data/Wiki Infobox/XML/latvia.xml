@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Latvia</country>
+  <url>https://en.wikipedia.org/wiki/Latvia</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Riga 56°57′N 24°6′E ﻿ / ﻿ 56.950°N 24.100°E ﻿ / 56.950; 24.100</Capital_and_largest_city>
+      <Official_languages>Latvian a</Official_languages>
+      <Recognized_languages>Livonian Latgalian</Recognized_languages>
+      <Ethnic_groups__2025__>
+        <Latvians>65.5%</Latvians>
+        <Russians>24.1%</Russians>
+        <Belarusians>2.9%</Belarusians>
+        <Ukrainians>2.9%</Ukrainians>
+        <Poles>1.9%</Poles>
+        <Lithuanians>1.1%</Lithuanians>
+        <others>1.6%</others>
+      </Ethnic_groups__2025__>
+      <Religion__2018_>
+        <Christianity>
+          <percentage>64%</percentage>
+          <breakdown>
+            <Lutheranism>36%</Lutheranism>
+            <Catholicism>17%</Catholicism>
+            <Orthodoxy>9%</Orthodoxy>
+            <other_Christian>2%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>35%</no_religion>
+        <others>1%</others>
+      </Religion__2018_>
+      <Demonym>Latvian</Demonym>
+      <Recognised>
+        <Details>26 January 1921</Details>
+        <Constitution_adopted>7 November 1922</Constitution_adopted>
+        <Restored>21 August 1991</Restored>
+      </Recognised>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Edgars Rinkēvičs</President>
+      <Prime_Minister>Evika Siliņa</Prime_Minister>
+      <Speaker_of_the_Saeima>Daiga Mieriņa</Speaker_of_the_Saeima>
+      <Legislature>Saeima</Legislature>
+    </Government>
+    <Independence_from_Germany_and_Russia>
+      <Declared>18 November 1918</Declared>
+    </Independence_from_Germany_and_Russia>
+    <Area>
+      <Total>64,589 km 2 (24,938 sq mi) ( 122nd )</Total>
+      <Water____>2.09 (2015)</Water____>
+    </Area>
+    <Population>
+      <n_2022_estimate>1,842,226 ( 146th )</n_2022_estimate>
+      <Density>29.6/km 2 (76.7/sq mi) ( 147th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$82.400 billion ( 104th )</Total>
+        <Per_capita>$44,110 ( 51st )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$47.880 billion ( 96th )</Total>
+        <Per_capita>$25,630 ( 42nd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2021_>35.7 medium inequality</Gini__2021_>
+      <HDI__2023_>0.889 very high ( 41st )</HDI__2023_>
+      <Currency>Euro ( € ) ( EUR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2 ( EET )</Time_zone>
+      <Summer___DST__>UTC +3 ( EEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+371</Calling_code>
+      <ISO_3166_code>LV</ISO_3166_code>
+      <Internet_TLD>.lv</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

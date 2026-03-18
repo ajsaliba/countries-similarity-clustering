@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Bulgaria</country>
+  <url>https://en.wikipedia.org/wiki/Bulgaria</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Sofia 42°41′51″N 23°19′21″E ﻿ / ﻿ 42.69750°N 23.32250°E ﻿ / 42.69750; 23.32250 ﻿ ( Largo )</Capital_and_largest_city>
+      <Official_languages>Bulgarian</Official_languages>
+      <Official_script>Cyrillic</Official_script>
+      <Ethnic_groups__2021_census__>
+        <Bulgarians>85.7%</Bulgarians>
+        <Turks>8.5%</Turks>
+        <Roma>4.5%</Roma>
+        <others>1.3%</others>
+      </Ethnic_groups__2021_census__>
+      <Religion__2021_census_>
+        <Christianity>
+          <percentage>64.7%</percentage>
+          <breakdown>
+            <Bulgarian_Orthodoxy>62.7%</Bulgarian_Orthodoxy>
+            <other_Christian>2%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>15.9%</no_religion>
+        <Islam>
+          <percentage>9.8%</percentage>
+          <breakdown>
+            <other>0.1%</other>
+            <unanswered>9.5%</unanswered>
+          </breakdown>
+        </Islam>
+      </Religion__2021_census_>
+      <Demonym>Bulgarian</Demonym>
+      <Chairperson_of_the_National_Assembly>Raya Nazaryan</Chairperson_of_the_National_Assembly>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Iliana Iotova</President>
+      <Prime_Minister>Andrey Gyurov</Prime_Minister>
+      <Legislature>National Assembly</Legislature>
+    </Government>
+    <History>
+      <n_1st_Bulgarian_Empire>681–1018</n_1st_Bulgarian_Empire>
+      <n_2nd_Bulgarian_Empire>1185–1396</n_2nd_Bulgarian_Empire>
+      <Principality_of_Bulgaria>3 March 1878</Principality_of_Bulgaria>
+      <Independence_from_the_Ottoman_Empire>5 October 1908</Independence_from_the_Ottoman_Empire>
+      <Monarchy_abolished>15 September 1946</Monarchy_abolished>
+      <Current_state_form>15 November 1990</Current_state_form>
+    </History>
+    <Area>
+      <Total>110,993.6 km 2 (42,854.9 sq mi) ( 103rd )</Total>
+      <Water____>2.16</Water____>
+    </Area>
+    <Population>
+      <December_2024_estimate>6,437,360 ( 109th )</December_2024_estimate>
+      <n_2021_census>6,519,789</n_2021_census>
+      <Density>58/km 2 (150.2/sq mi) ( 154th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$264.699 billion ( 73rd )</Total>
+        <Per_capita>$41,901 ( 55th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$117.007 billion ( 68th )</Total>
+        <Per_capita>$18,522 ( 59th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>37.2 medium inequality</Gini__2023_>
+      <HDI__2023_>0.845 very high ( 55th )</HDI__2023_>
+      <Currency>Euro ( € ) ( EUR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2 ( EET )</Time_zone>
+      <Summer___DST__>UTC +3 ( EEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+359</Calling_code>
+      <ISO_3166_code>BG</ISO_3166_code>
+      <Internet_TLD>.bg .бг</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

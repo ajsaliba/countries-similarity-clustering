@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Czech Republic</country>
+  <url>https://en.wikipedia.org/wiki/Czech_Republic</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Prague 50°05′N 14°28′E ﻿ / ﻿ 50.083°N 14.467°E ﻿ / 50.083; 14.467</Capital_and_largest_city>
+      <Official_languages>Czech</Official_languages>
+      <Officially_recognized_minority_languages>Belarusian Bulgarian Croatian German Greek Hungarian Polish Romani Russian Rusyn Serbian Slovak Ukrainian Vietnamese As of 2022</Officially_recognized_minority_languages>
+      <Ethnic_groups__2021_>
+        <Czechs>89%</Czechs>
+        <Moravians>3.3%</Moravians>
+        <Slovaks>0.9%</Slovaks>
+        <Ukrainians>0.7%</Ukrainians>
+        <other>2.1%</other>
+        <two_nationalities>4%</two_nationalities>
+      </Ethnic_groups__2021_>
+      <Religion__2021_>
+        <no_religion>56.9%</no_religion>
+        <Christianity>
+          <percentage>11.7%</percentage>
+          <breakdown>
+            <Catholicism>9.3%</Catholicism>
+            <other_Christian>2.4%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <other>1.2%</other>
+        <unanswered>30.1%</unanswered>
+      </Religion__2021_>
+      <Demonym>Czech</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Petr Pavel</President>
+      <Prime_Minister>Andrej Babiš</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>Chamber of Deputies</Lower_house>
+      <Kingdom_of_Bohemia>1198</Kingdom_of_Bohemia>
+    </Government>
+    <Establishment>
+      <Duchy_of_Bohemia>c. 870</Duchy_of_Bohemia>
+      <Czechoslovakia>28 October 1918</Czechoslovakia>
+      <Czech_Republic>1 January 1993</Czech_Republic>
+    </Establishment>
+    <Area>
+      <Total>78,871 km 2 (30,452 sq mi) ( 115th )</Total>
+      <Water____>2.16 (as of 2022)</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>10,900,555 ( 85th )</n_2024_estimate>
+      <n_2021_census>10,524,167</n_2021_census>
+      <Density>133/km 2 (344.5/sq mi) ( 91st )</Density>
+      <Date_format>d. m. yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2024 estimate</Details>
+        <Total>$619.881 billion ( 46th )</Total>
+        <Per_capita>$56,686 ( 38th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2024 estimate</Details>
+        <Total>$342.992 billion ( 47th )</Total>
+        <Per_capita>$31,365 ( 38th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>24.4 low inequality</Gini__2023_>
+      <HDI__2023_>0.915 very high ( 29th )</HDI__2023_>
+      <Currency>Czech koruna ( CZK )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 ( CET )</Time_zone>
+      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+420</Calling_code>
+      <ISO_3166_code>CZ</ISO_3166_code>
+      <Internet_TLD>.cz</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

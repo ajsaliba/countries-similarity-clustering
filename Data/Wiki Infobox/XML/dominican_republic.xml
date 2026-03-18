@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Dominican Republic</country>
+  <url>https://en.wikipedia.org/wiki/Dominican_Republic</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Santo Domingo 18°27′N 69°56′W ﻿ / ﻿ 18.450°N 69.933°W ﻿ / 18.450; -69.933</Capital_and_largest_city>
+      <Official_languages>Spanish</Official_languages>
+      <Other_languages>See below</Other_languages>
+      <Ethnic_groups__2022_>
+        <Mixed>71.72%</Mixed>
+        <White>18.7%</White>
+        <Black>7.45%</Black>
+        <East_Asian>0.33%</East_Asian>
+        <other>0.37%</other>
+        <no_answer>1.43%</no_answer>
+      </Ethnic_groups__2022_>
+      <Religion__2020_>
+        <Christianity>
+          <percentage>74.6%</percentage>
+          <breakdown>
+            <Catholicism>52.5%</Catholicism>
+            <Protestantism>21%</Protestantism>
+            <other_Christian>1.1%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>22%</no_religion>
+        <other>1.4%</other>
+        <unspecified>2%</unspecified>
+      </Religion__2020_>
+      <Demonyms>Dominican Quisqueyan (colloquial)</Demonyms>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+      <President>Luis Abinader</President>
+      <Vice_President>Raquel Peña</Vice_President>
+      <Legislature>Congress</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>Chamber of Deputies</Lower_house>
+    </Government>
+    <History>
+      <Ephemeral_Independence>1821–1822</Ephemeral_Independence>
+      <First_Republic>1844–1861</First_Republic>
+      <Second_Republic>1865–1916</Second_Republic>
+      <Third_Republic>1924–1965</Third_Republic>
+      <Fourth_Republic>1966–present</Fourth_Republic>
+    </History>
+    <Area>
+      <Total>48,671 km 2 (18,792 sq mi) ( 128th )</Total>
+      <Water____>0.7</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>11,532,151 ( 88th )</n_2025_estimate>
+      <Density>220/km 2 (569.8/sq mi) ( 64th )</Density>
+      <Date_format>dd/mm/yyyy or dd-mm-yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$334.292 billion ( 64th )</Total>
+        <Per_capita>$30,710 ( 67th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$135.545 billion ( 64th )</Total>
+        <Per_capita>$12,452 ( 74th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2024_>39 medium inequality</Gini__2024_>
+      <HDI__2023_>0.776 high ( 89th )</HDI__2023_>
+      <Currency>Dominican peso ( DOP )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC -04:00 ( AST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+1</Calling_code>
+      <ISO_3166_code>DO</ISO_3166_code>
+      <Internet_TLD>.do</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

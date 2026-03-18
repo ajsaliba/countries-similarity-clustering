@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Antigua and Barbuda</country>
+  <url>https://en.wikipedia.org/wiki/Antigua_and_Barbuda</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>St. John's 17°7′N 61°51′W ﻿ / ﻿ 17.117°N 61.850°W ﻿ / 17.117; -61.850</Capital_and_largest_city>
+      <Official_languages>English</Official_languages>
+      <Vernacular_language>Antiguan and Barbudan Creole</Vernacular_language>
+      <Ethnic_groups__2011__>
+        <African>87.3%</African>
+        <Multiracial>4.7%</Multiracial>
+        <Hispanic>2.8%</Hispanic>
+        <European>1.7%</European>
+        <East_Indian>1.1%</East_Indian>
+        <Syrian_or_Lebanese>0.7%</Syrian_or_Lebanese>
+        <other>1.8%</other>
+      </Ethnic_groups__2011__>
+      <Religion__2020__>
+        <Christianity>
+          <percentage>92.7%</percentage>
+          <breakdown>
+            <Protestantism>66.6%</Protestantism>
+            <other_Christian>26.1%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <Rastafari>
+          <percentage>3.6%</percentage>
+          <breakdown>
+            <no_religion>
+              <percentage>1.9%</percentage>
+              <breakdown>
+                <Bah____Faith>1.1%</Bah____Faith>
+                <other>0.7%</other>
+              </breakdown>
+            </no_religion>
+          </breakdown>
+        </Rastafari>
+      </Religion__2020__>
+      <Demonym>Antiguan and Barbudan</Demonym>
+      <Monarch>Charles III</Monarch>
+      <Governor_General>Sir Rodney Williams</Governor_General>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Prime_Minister>Gaston Browne</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>House of Representatives</Lower_house>
+    </Government>
+    <History>
+      <Union>1 August 1860</Union>
+      <Redonda>26 March 1872</Redonda>
+      <Associated_state>27 February 1967</Associated_state>
+      <Independence>1 November 1981</Independence>
+    </History>
+    <Area>
+      <Total>440 km 2 (170 sq mi) ( 182nd )</Total>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <n_2026_estimate>106,365 ( 182nd )</n_2026_estimate>
+      <n_2011_census>84,816</n_2011_census>
+      <Density>186/km 2 (481.7/sq mi)</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$3.3 billion ( 180th )</Total>
+        <Per_capita>$31,781 ( 66th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$2.37 billion ( 171st )</Total>
+        <Per_capita>$22,630 ( 51st )</Per_capita>
+      </GDP__nominal_>
+      <HDI__2023_>0.851 very high ( 53rd )</HDI__2023_>
+      <Currency>Eastern Caribbean dollar ( XCD )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC -04:00 ( AST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+1</Calling_code>
+      <ISO_3166_code>AG</ISO_3166_code>
+      <Internet_TLD>.ag</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

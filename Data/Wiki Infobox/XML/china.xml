@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>China</country>
+  <url>https://en.wikipedia.org/wiki/China</url>
+  <infobox>
+    <General>
+      <Capital>Beijing 39°55′N 116°23′E ﻿ / ﻿ 39.917°N 116.383°E ﻿ / 39.917; 116.383</Capital>
+      <Official_languages>Standard Chinese (de facto)</Official_languages>
+      <Official_script>Simplified Chinese ( Mainland ), Traditional Chinese ( Hong Kong , Macau )</Official_script>
+      <Ethnic_groups__2020_>
+        <Han_Chinese>91.11%</Han_Chinese>
+        <Zhuang>1.39%</Zhuang>
+        <Uyghur>0.84%</Uyghur>
+        <Hui>0.81%</Hui>
+        <Miao>0.79%</Miao>
+        <Manchu>0.74%</Manchu>
+        <Yi>0.7%</Yi>
+        <Tujia>0.68%</Tujia>
+        <Tibetan>0.5%</Tibetan>
+        <others>2.44%</others>
+      </Ethnic_groups__2020_>
+      <Demonym>Chinese</Demonym>
+      <Premier>Li Qiang</Premier>
+      <Congress_Chairman>Zhao Leji</Congress_Chairman>
+      <CPPCC_Chairman>Wang Huning</CPPCC_Chairman>
+    </General>
+    <Population>
+      <Largest_city_by_municipal_population>Chongqing</Largest_city_by_municipal_population>
+      <Largest_city_by_urban_population>Shanghai</Largest_city_by_urban_population>
+      <n_2025_estimate>1,404,890,000 ( 2nd )</n_2025_estimate>
+      <Density>146/km 2 (378.1/sq mi) ( 83rd )</Density>
+    </Population>
+    <Government>
+      <Government>Unitary communist state</Government>
+      <CCP_General_Secretary_and_President>Xi Jinping</CCP_General_Secretary_and_President>
+      <Vice_President>Han Zheng</Vice_President>
+      <Legislature>National People's Congress</Legislature>
+    </Government>
+    <History>
+      <First_pre_imperial_dynasty>c. 2070 BCE</First_pre_imperial_dynasty>
+      <First_imperial_dynasty>221 BCE</First_imperial_dynasty>
+      <Establishment_of_the_Republic_of_China>1 January 1912</Establishment_of_the_Republic_of_China>
+      <Proclamation_of_the_People_s_Republic>1 October 1949</Proclamation_of_the_People_s_Republic>
+      <Current_constitution>4 December 1982</Current_constitution>
+    </History>
+    <Area>
+      <Total>9,596,961 km 2 (3,705,407 sq mi) ( 3rd/4th )</Total>
+      <Water____>2.8</Water____>
+    </Area>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$41.016 trillion ( 1st )</Total>
+        <Per_capita>$29,191 ( 74th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$19.399 trillion ( 2nd )</Total>
+        <Per_capita>$13,806 ( 75th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>36.0 medium inequality</Gini__2022_>
+      <HDI__2023_>0.797 high ( 78th )</HDI__2023_>
+      <Currency>Renminbi (元/¥) ( CNY )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +8 ( CST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+86 (Mainland) +852 (Hong Kong) +853 (Macau)</Calling_code>
+      <ISO_3166_code>CN</ISO_3166_code>
+      <Internet_TLD>.cn .中国 .中國 (Mainland) .hk .香港 (Hong Kong) .mo .澳门 .澳門 (Macau)</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

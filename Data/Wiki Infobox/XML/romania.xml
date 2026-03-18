@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Romania</country>
+  <url>https://en.wikipedia.org/wiki/Romania</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Bucharest 44°25′N 26°06′E ﻿ / ﻿ 44.417°N 26.100°E ﻿ / 44.417; 26.100</Capital_and_largest_city>
+      <Official_languages>Romanian</Official_languages>
+      <Ethnic_groups__2021_>
+        <Romanians>89.3%</Romanians>
+        <Hungarians>6%</Hungarians>
+        <Roma>3.4%</Roma>
+        <others>1.2%</others>
+      </Ethnic_groups__2021_>
+      <Religion__2021_>
+        <Christianity>84.7%</Christianity>
+        <Romanian_Orthodoxy>73.6%</Romanian_Orthodoxy>
+        <Protestantism>6.4%</Protestantism>
+        <Catholicism>4.4%</Catholicism>
+        <other_Christian>0.2%</other_Christian>
+        <no_religion>0.8%</no_religion>
+        <other>0.4%</other>
+        <unanswered>13.9%</unanswered>
+      </Religion__2021_>
+      <Demonym>Romanian</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic</Government>
+      <President>Nicușor Dan</President>
+      <Prime_Minister>Ilie Bolojan</Prime_Minister>
+      <President_of_the_Senate>Mircea Abrudean</President_of_the_Senate>
+      <President_of_the_Chamber_of_Deputies>Sorin Grindeanu</President_of_the_Chamber_of_Deputies>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>Chamber of Deputies</Lower_house>
+      <Kingdom_of_Romania>1881–1947</Kingdom_of_Romania>
+    </Government>
+    <History>
+      <Principality_of_Wallachia>1330–1862</Principality_of_Wallachia>
+      <Principality_of_Moldavia>1346–1862</Principality_of_Moldavia>
+      <United_Principalities>1859–1881</United_Principalities>
+      <Independence_from_the_Ottoman_Empire>10 May 1877</Independence_from_the_Ottoman_Empire>
+      <Great_Union>1 December 1918</Great_Union>
+      <Socialist_Romania>1947–1989</Socialist_Romania>
+      <Republic_established>8 December 1991</Republic_established>
+    </History>
+    <Area>
+      <Total>238,397 km 2 (92,046 sq mi) ( 81st )</Total>
+      <Water____>3</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>19,043,151 ( 65th )</n_2025_estimate>
+      <n_2021_census>19,053,815</n_2021_census>
+      <Density>83/km 2 (215.0/sq mi) ( 132th )</Density>
+      <Date_format>dd.mm.yyyy ( CE )</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2026 estimate</Details>
+        <Total>$949.332 billion ( 35th )</Total>
+        <Per_capita>$50,726 ( 44th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2026 estimate</Details>
+        <Total>$444.807 billion ( 38th )</Total>
+        <Per_capita>$23,767 ( 54th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2025_>27.3 low inequality</Gini__2025_>
+      <HDI__2023_>0.845 very high ( 55th )</HDI__2023_>
+      <Currency>Romanian leu ( RON )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2 ( EET )</Time_zone>
+      <Summer___DST__>UTC +3 ( EEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+40</Calling_code>
+      <ISO_3166_code>RO</ISO_3166_code>
+      <Internet_TLD>.ro</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

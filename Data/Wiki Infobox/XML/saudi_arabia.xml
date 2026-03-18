@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Saudi Arabia</country>
+  <url>https://en.wikipedia.org/wiki/Saudi_Arabia</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Riyadh 24°39′N 46°46′E ﻿ / ﻿ 24.650°N 46.767°E ﻿ / 24.650; 46.767</Capital_and_largest_city>
+      <Official_languages>Arabic</Official_languages>
+      <Religion>Sunni Islam ( official )</Religion>
+      <Demonyms>Saudi Saudi Arabian</Demonyms>
+    </General>
+    <Government>
+      <Government>Unitary Islamic absolute monarchy</Government>
+      <King>Salman</King>
+      <Crown_Prince_and_Prime_Minister>Mohammed bin Salman</Crown_Prince_and_Prime_Minister>
+      <Legislature>Consultative Assembly</Legislature>
+      <Emirate_of_Diriyah>22 February 1727</Emirate_of_Diriyah>
+      <Emirate_of_Nejd>1824</Emirate_of_Nejd>
+      <Emirate_of_Riyadh>13 January 1902</Emirate_of_Riyadh>
+      <Emirate_of_Nejd_and_Hasa>15 January 1913</Emirate_of_Nejd_and_Hasa>
+      <Kingdom_of_Hejaz_and_Nejd>8 January 1926</Kingdom_of_Hejaz_and_Nejd>
+      <Unification_and_Proclamation_of_the_Kingdom_of_Saudi_Arabia>23 September 1932</Unification_and_Proclamation_of_the_Kingdom_of_Saudi_Arabia>
+    </Government>
+    <Establishment>
+      <Sultanate_of_Nejd>29 November 1921</Sultanate_of_Nejd>
+    </Establishment>
+    <History>
+      <Current_constitution>31 January 1992</Current_constitution>
+    </History>
+    <Area>
+      <Total>2,149,690 km 2 (830,000 sq mi) ( 12th )</Total>
+      <Water____>0.7</Water____>
+    </Area>
+    <Population>
+      <n_2024_census>33,702,731 ( 42nd )</n_2024_census>
+      <Density>15/km 2 (38.8/sq mi) ( 218th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$2.690 trillion ( 17th )</Total>
+        <Per_capita>$74,670 ( 19th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$1.270 trillion ( 19th )</Total>
+        <Per_capita>$35,230 ( 37th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2013_>45.9 medium inequality</Gini__2013_>
+      <HDI__2023_>0.900 very high ( 37th )</HDI__2023_>
+      <Currency>Saudi riyal (SR) ( SAR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +3 ( SAST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+966</Calling_code>
+      <ISO_3166_code>SA</ISO_3166_code>
+      <Internet_TLD>.sa السعودية.</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

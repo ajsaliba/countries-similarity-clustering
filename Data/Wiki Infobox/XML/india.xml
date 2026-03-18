@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>India</country>
+  <url>https://en.wikipedia.org/wiki/India</url>
+  <infobox>
+    <General>
+      <Capital>New Delhi 28°36′50″N 77°12′30″E ﻿ / ﻿ 28.61389°N 77.20833°E ﻿ / 28.61389; 77.20833</Capital>
+      <Official_languages>Hindi English</Official_languages>
+      <Recognised_regional_languages>State level and Eighth Schedule Eighth Schedule Assamese Bengali Boro Dogri Gujarati Hindi Kannada Kashmiri Konkani Maithili Malayalam Manipuri Marathi Nepali Odia Punjabi Sanskrit Santali Sindhi Tamil Telugu Urdu State level Kokborok Lepcha Mizo Sikkimese all the 8th scheduled languages – except Sindhi , Kashmiri and Dogri</Recognised_regional_languages>
+      <Native_languages>424 languages</Native_languages>
+      <Religion__2011_>
+        <Hinduism>79.8%</Hinduism>
+        <Islam>14.2%</Islam>
+        <Christianity>
+          <percentage>2.3%</percentage>
+          <breakdown>
+            <Sikhism>1.7%</Sikhism>
+            <Buddhism>0.7%</Buddhism>
+          </breakdown>
+        </Christianity>
+        <Jainism>
+          <percentage>0.4%</percentage>
+          <breakdown>
+            <unaffiliated>0.23%</unaffiliated>
+          </breakdown>
+        </Jainism>
+        <other>0.65%</other>
+      </Religion__2011_>
+      <Demonyms>Indian others</Demonyms>
+    </General>
+    <Population>
+      <Largest_city_by_city_proper_population>Mumbai</Largest_city_by_city_proper_population>
+      <n_2023_estimate>1,428,627,663 ( 1st )</n_2023_estimate>
+      <n_2011_census>1,210,854,977 ( 2nd )</n_2011_census>
+      <Density>433.5/km 2 (1,122.8/sq mi) ( 30th )</Density>
+      <Date_format>dd - mm - yyyy</Date_format>
+    </Population>
+    <Area>
+      <Largest_city_by_metropolitan_area_population>Delhi</Largest_city_by_metropolitan_area_population>
+      <Total>3,287,263 km 2 (1,269,219 sq mi) ( 7th )</Total>
+      <Water____>9.6</Water____>
+    </Area>
+    <Government>
+      <Government>Federal parliamentary republic</Government>
+      <President>Droupadi Murmu</President>
+      <Vice_President>C. P. Radhakrishnan</Vice_President>
+      <Prime_Minister>Narendra Modi</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Rajya Sabha</Upper_house>
+      <Lower_house>Lok Sabha</Lower_house>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <Dominion>15 August 1947</Dominion>
+      <Republic>26 January 1950</Republic>
+    </Independence_from_the_United_Kingdom>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$17.647 trillion ( 3rd )</Total>
+        <Per_capita>$12,132 ( 119th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$4.187 trillion ( 4th )</Total>
+        <Per_capita>$2,878 ( 136th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>25.5 low inequality</Gini__2022_>
+      <HDI__2023_>0.685 medium ( 130th )</HDI__2023_>
+      <Currency>Indian rupee ( ₹ ) ( INR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +05:30 ( IST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+91</Calling_code>
+      <ISO_3166_code>IN</ISO_3166_code>
+      <Internet_TLD>.in ( others )</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

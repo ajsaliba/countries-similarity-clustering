@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Tuvalu</country>
+  <url>https://en.wikipedia.org/wiki/Tuvalu</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Funafuti 8°31′S 179°12′E ﻿ / ﻿ 8.517°S 179.200°E ﻿ / -8.517; 179.200</Capital_and_largest_city>
+      <Official_languages>Tuvaluan English</Official_languages>
+      <Ethnic_groups__2022_>
+        <Tuvaluans>96%</Tuvaluans>
+        <others>4%</others>
+      </Ethnic_groups__2022_>
+      <Religion__2022_>
+        <Christianity>
+          <percentage>96%</percentage>
+          <breakdown>
+            <Calvinism___official__>86%</Calvinism___official__>
+            <other_Christian>10%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <Other_religions_or_not_stated>3%</Other_religions_or_not_stated>
+        <Bah____Faith>1%</Bah____Faith>
+      </Religion__2022_>
+      <Demonym>Tuvaluan</Demonym>
+      <Monarch>Charles III</Monarch>
+      <Governor_General>Tofiga Vaevalu Falani</Governor_General>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Prime_Minister>Feleti Teo</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <from_the_United_Kingdom>1 October 1978</from_the_United_Kingdom>
+    </Government>
+    <Area>
+      <Total>26.26 km 2 (10.14 sq mi) ( 192nd )</Total>
+      <Water____>Negligible</Water____>
+    </Area>
+    <Population>
+      <n_2022_census>10,643 ( 194th )</n_2022_census>
+      <Density>423/km 2 (1,095.6/sq mi) ( 41st )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2023 estimate</Details>
+        <Total>$68.603 million</Total>
+        <Per_capita>$6,076</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2023 estimate</Details>
+        <Total>$63 million</Total>
+        <Per_capita>$6,113</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>39 medium inequality</Gini__2022_>
+      <HDI__2023_>0.689 medium ( 129th )</HDI__2023_>
+      <Currency>Tuvaluan dollar Australian dollar ( AUD )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +12</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+688</Calling_code>
+      <ISO_3166_code>TV</ISO_3166_code>
+      <Internet_TLD>.tv</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

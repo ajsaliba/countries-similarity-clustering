@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Suriname</country>
+  <url>https://en.wikipedia.org/wiki/Suriname</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Paramaribo 5°50′N 55°10′W ﻿ / ﻿ 5.833°N 55.167°W ﻿ / 5.833; -55.167</Capital_and_largest_city>
+      <Official_languages>Dutch</Official_languages>
+      <Recognised_regional_languages>8 indigenous languages Akurio Arawak-Lokono Carib-Kari'nja Sikiana-Kashuyana Tiro-Tiriyó Waiwai Warao Wayana</Recognised_regional_languages>
+      <Lingua_franca>Sranan Tongo</Lingua_franca>
+      <Other_languages>14 languages English Sarnámi Hindustáni Surinamese-Javanese Ndyuka Saramaccan Matawai Aluku Paramaccan Kwinti Chinese Lebanese Arabic French Brazilian Portuguese Spanish</Other_languages>
+      <Ethnic_groups__2012_>
+        <Asian_Surinamese>42.6%</Asian_Surinamese>
+        <Hindustani>27.4%</Hindustani>
+        <Javanese>13.7%</Javanese>
+        <Chinese>1.5%</Chinese>
+        <Afro_Surinamese>37.4%</Afro_Surinamese>
+        <Maroon>21.7%</Maroon>
+        <Creole>15.7%</Creole>
+        <Multiracial>13.4%</Multiracial>
+        <Indigenous>3.8%</Indigenous>
+        <European>0.3%</European>
+      </Ethnic_groups__2012_>
+      <Religion__2012_>
+        <Christianity_26_75_Protestantism>48.4%</Christianity_26_75_Protestantism>
+        <Roman_Catholicism>21.65%</Roman_Catholicism>
+        <Hinduism>
+          <percentage>22.3%</percentage>
+          <breakdown>
+            <San_tan_>17.97%</San_tan_>
+            <Arya_Samaj>3.08%</Arya_Samaj>
+            <Other_Hindu>1.23%</Other_Hindu>
+          </breakdown>
+        </Hinduism>
+        <Islam>
+          <percentage>13.9%</percentage>
+          <breakdown>
+            <Sunni>3.91%</Sunni>
+            <Ahmadiyya>2.61%</Ahmadiyya>
+            <Other_Muslim>7.34%</Other_Muslim>
+          </breakdown>
+        </Islam>
+        <Winti>1.8%</Winti>
+        <Kejaw_n>0.8%</Kejaw_n>
+        <Judaism>0.03%</Judaism>
+        <no_religion>7.52%</no_religion>
+        <Not_stated>
+          <percentage>2.04%</percentage>
+          <breakdown>
+            <Don_t_know>
+              <percentage>1.11%</percentage>
+              <breakdown>
+                <Others>0.85%</Others>
+              </breakdown>
+            </Don_t_know>
+          </breakdown>
+        </Not_stated>
+      </Religion__2012_>
+      <Demonym>Surinamese</Demonym>
+      <National_Assembly_Chairman>Ashwin Adhin</National_Assembly_Chairman>
+    </General>
+    <Government>
+      <Government>Unitary assembly-independent presidential republic</Government>
+      <President>Jennifer Geerlings-Simons</President>
+      <Vice_President>Gregory Rusland</Vice_President>
+      <High_Court_of_Justice_President>Iwan Rasoelbaks (acting)</High_Court_of_Justice_President>
+      <Legislature>National Assembly</Legislature>
+      <Constituent_country_within_the_Kingdom_of_the_Netherlands>15 December 1954</Constituent_country_within_the_Kingdom_of_the_Netherlands>
+      <Independence_from_the_Kingdom_of_the_Netherlands>25 November 1975</Independence_from_the_Kingdom_of_the_Netherlands>
+    </Government>
+    <Area>
+      <Total>165,940 km 2 (64,070 sq mi) ( 90th )</Total>
+      <Water____>1.1</Water____>
+    </Area>
+    <Population>
+      <n_2022_estimate>632,638 ( 170th )</n_2022_estimate>
+      <Density>3.9/km 2 (10.1/sq mi) ( 231st )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$14.743 billion ( 160th )</Total>
+        <Per_capita>$22,439 ( 91st )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$4.506 billion ( 173rd )</Total>
+        <Per_capita>$6,858 ( 106th )</Per_capita>
+      </GDP__nominal_>
+      <HDI__2023_>0.722 high ( 114th )</HDI__2023_>
+      <Currency>Surinamese dollar ( SRD )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC -03:00 ( SRT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+597</Calling_code>
+      <ISO_3166_code>SR</ISO_3166_code>
+      <Internet_TLD>.sr</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

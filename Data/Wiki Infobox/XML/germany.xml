@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Germany</country>
+  <url>https://en.wikipedia.org/wiki/Germany</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Berlin 52°31′N 13°23′E ﻿ / ﻿ 52.517°N 13.383°E ﻿ / 52.517; 13.383</Capital_and_largest_city>
+      <Official_languages>German</Official_languages>
+      <Demonym>German</Demonym>
+      <Chancellor>Friedrich Merz</Chancellor>
+    </General>
+    <Government>
+      <Government>Federal parliamentary republic</Government>
+      <President>Frank-Walter Steinmeier</President>
+      <Legislature>Bundestag Bundesrat</Legislature>
+    </Government>
+    <Area>
+      <Total>357,022 km 2 (137,847 sq mi) ( 63rd )</Total>
+      <Water____>1.27</Water____>
+    </Area>
+    <Population>
+      <Q3_2025_estimate>83,497,147</Q3_2025_estimate>
+      <n_2022_census>82,719,540 ( 19th )</n_2022_census>
+      <Density>233/km 2 (603.5/sq mi) ( 63rd )</Density>
+      <Date_format>Day, month, year Year, month, day</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$6.154 trillion ( 6th )</Total>
+        <Per_capita>$73,553 ( 23rd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$5.014 trillion ( 3rd )</Total>
+        <Per_capita>$59,925 ( 19th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>29.4 low inequality</Gini__2023_>
+      <HDI__2023_>0.959 very high ( 5th )</HDI__2023_>
+      <Currency>Euro ( € ) ( EUR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 ( CET )</Time_zone>
+      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+49</Calling_code>
+      <ISO_3166_code>DE</ISO_3166_code>
+      <Internet_TLD>.de</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

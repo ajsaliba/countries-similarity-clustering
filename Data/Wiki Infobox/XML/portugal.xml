@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Portugal</country>
+  <url>https://en.wikipedia.org/wiki/Portugal</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Lisbon 38°46′N 9°9′W ﻿ / ﻿ 38.767°N 9.150°W ﻿ / 38.767; -9.150</Capital_and_largest_city>
+      <Official_languages>Portuguese</Official_languages>
+      <Recognised_national_languages>Portuguese Sign Language</Recognised_national_languages>
+      <Recognised_regional_languages>Mirandese</Recognised_regional_languages>
+      <Demonym>Portuguese</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic</Government>
+      <President>António José Seguro</President>
+      <Prime_Minister>Luís Montenegro</Prime_Minister>
+      <Speaker>José Pedro Aguiar-Branco</Speaker>
+      <Legislature>Assembly of the Republic</Legislature>
+    </Government>
+    <Establishment>
+      <County>868</County>
+      <Sovereignty>24 June 1128</Sovereignty>
+      <Battle_of_Ourique>25 July 1139</Battle_of_Ourique>
+      <Conference_of_Zamora>4–5 October 1143</Conference_of_Zamora>
+      <Manifestis_Probatum>23 May 1179</Manifestis_Probatum>
+      <Restoration>1 December 1640</Restoration>
+      <Republic>5 October 1910</Republic>
+      <Democratisation>25 April 1974</Democratisation>
+    </Establishment>
+    <History>
+      <First_constitution>23 September 1822</First_constitution>
+      <Current_constitution>25 April 1976</Current_constitution>
+    </History>
+    <Area>
+      <Total>156,597 km 2 (60,462 sq mi) ( 92nd )</Total>
+      <Land>92,225 km 2 (35,608 sq mi)</Land>
+      <Water>64,372 km 2 (24,854 sq mi)</Water>
+      <Water____>1.2 (2015)</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>10,749,635 ( 87th )</n_2024_estimate>
+      <n_2021_census>10,343,066</n_2021_census>
+      <Density>116.6/km 2 (302.0/sq mi)</Density>
+      <Date_format>yyyy - mm - dd</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2026 estimate</Details>
+        <Total>$556.383 billion ( 50th )</Total>
+        <Per_capita>$51,853 ( 42nd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2026 estimate</Details>
+        <Total>$364.527 billion ( 44th )</Total>
+        <Per_capita>$33,972 ( 41st )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2024_>31.9 medium inequality</Gini__2024_>
+      <HDI__2023_>0.890 very high ( 40th )</HDI__2023_>
+      <Currency>Euro ( € ) ( EUR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +0 and -1</Time_zone>
+      <Summer___DST__>UTC +1 and +0</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+351</Calling_code>
+      <ISO_3166_code>PT</ISO_3166_code>
+      <Internet_TLD>.pt</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

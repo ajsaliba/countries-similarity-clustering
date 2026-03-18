@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>New Zealand</country>
+  <url>https://en.wikipedia.org/wiki/New_Zealand</url>
+  <infobox>
+    <General>
+      <Capital>Wellington 41°18′S 174°47′E ﻿ / ﻿ 41.300°S 174.783°E ﻿ / -41.300; 174.783</Capital>
+      <Largest_city>Auckland 36°52′S 174°45′E ﻿ / ﻿ 36.867°S 174.750°E ﻿ / -36.867; 174.750</Largest_city>
+      <Official_languages>English Māori NZ Sign Language</Official_languages>
+      <Ethnic_groups___2023__>
+        <European>67.8%</European>
+        <M_ori>19.6%</M_ori>
+        <Asian>17.3%</Asian>
+        <Pacific_peoples>8.9%</Pacific_peoples>
+        <ME___LA___African>1.9%</ME___LA___African>
+        <other>1.1%</other>
+      </Ethnic_groups___2023__>
+      <Religion__2023_>
+        <no_religion>51.6%</no_religion>
+        <Christianity>32.3%</Christianity>
+        <Hinduism>2.9%</Hinduism>
+        <other>6.3%</other>
+        <undeclared>6.9%</undeclared>
+      </Religion__2023_>
+      <Demonyms>New Zealander Kiwi (colloquial)</Demonyms>
+      <Monarch>Charles III</Monarch>
+      <Governor_General>Cindy Kiro</Governor_General>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Prime_Minister>Christopher Luxon</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Responsible_government>7 May 1856</Responsible_government>
+    </Government>
+    <Stages_of_independence_from_the_United_Kingdom>
+      <Treaty_of_Waitangi>6 February 1840</Treaty_of_Waitangi>
+      <Dominion>26 September 1907</Dominion>
+      <Statute_of_Westminster_Adoption_Act>25 November 1947</Statute_of_Westminster_Adoption_Act>
+    </Stages_of_independence_from_the_United_Kingdom>
+    <History>
+      <Constitution_Act_1986>1 January 1987</Constitution_Act_1986>
+    </History>
+    <Area>
+      <Total>263,310 km 2 (101,660 sq mi) ( 75th )</Total>
+      <Water____>1.6</Water____>
+    </Area>
+    <Population>
+      <March_2026_estimate>5,344,200 ( 121st )</March_2026_estimate>
+      <n_2023_census>4,993,923</n_2023_census>
+      <Density>19.9/km 2 (51.5/sq mi) ( 204th )</Density>
+      <Date_format>dd / mm / yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$298.93 billion ( 67th )</Total>
+        <Per_capita>$55,450 ( 36th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$248.67 billion ( 52nd )</Total>
+        <Per_capita>$46,013 ( 23rd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>30.0 medium inequality</Gini__2022_>
+      <HDI__2023_>0.938 very high ( 17th )</HDI__2023_>
+      <Currency>New Zealand dollar ($) ( NZD )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +12 ( NZST )</Time_zone>
+      <Summer___DST__>UTC +13 ( NZDT )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+64</Calling_code>
+      <ISO_3166_code>NZ</ISO_3166_code>
+      <Internet_TLD>.nz</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

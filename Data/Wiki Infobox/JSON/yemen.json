@@ -1,0 +1,70 @@
+{
+    "country": "Yemen",
+    "url": "https://en.wikipedia.org/wiki/Yemen",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Sanaa 15°20′54″N 44°12′23″E ﻿ / ﻿ 15.34833°N 44.20639°E ﻿ / 15.34833; 44.20639",
+            "Official language and national language": "Arabic",
+            "Ethnic groups (2000)": {
+                "Arabs": "92.8%",
+                "Somalis": "3.7%",
+                "Afro-Arabs": "1.1%",
+                "Indo - Pakistani": "1%",
+                "other": "1.4%"
+            },
+            "Religion (2020)": {
+                "Islam ( official )": "99.1%",
+                "Sunni": "65%",
+                "Zaydi ~": "35%",
+                "other": "0.9%"
+            },
+            "Demonyms": "Yemeni Yemenite"
+        },
+        "Government": {
+            "Government seat": "Aden",
+            "Government": "Unitary semi-presidential republic under a provisional government",
+            "President of the Presidential Leadership Council": "Rashad al-Alimi",
+            "Prime Minister": "Shaea al-Zindani",
+            "President of the House of Representatives": "Sultan al-Barakani",
+            "Speaker of the Shura Council": "Ahmed Obaid Bin Dagher",
+            "Legislature": "Parliament",
+            "Upper house": "Shura Council",
+            "Lower house": "House of Representatives"
+        },
+        "History": {
+            "Unification": "22 May 1990",
+            "Current constitution": "16 May 1991"
+        },
+        "Area": {
+            "Total": "455,503 km 2 (175,871 sq mi) ( 54th )",
+            "Water (%)": "Negligible"
+        },
+        "Population": {
+            "2023 estimate": "32,684,503 ( 48th )",
+            "Density": "71.8/km 2 (186.0/sq mi) ( 143rd )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$69.960 billion ( 117th )",
+                "Per capita": "$1,670 ( 183rd )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$17.400 billion ( 135th )",
+                "Per capita": "$416 ( 190th )"
+            },
+            "Gini (2014)": "36.7 medium inequality",
+            "HDI (2023)": "0.470 low ( 184th )",
+            "Currency": "Yemeni rial ( YER )"
+        },
+        "Time": {
+            "Time zone": "UTC +3 ( AST )"
+        },
+        "Codes": {
+            "Calling code": "+967",
+            "ISO 3166 code": "YE",
+            "Internet TLD": "List .ye اليمن."
+        }
+    }
+}

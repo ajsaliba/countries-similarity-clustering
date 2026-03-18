@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Brazil</country>
+  <url>https://en.wikipedia.org/wiki/Brazil</url>
+  <infobox>
+    <General>
+      <Capital>Brasília 15°47′S 47°52′W ﻿ / ﻿ 15.783°S 47.867°W ﻿ / -15.783; -47.867</Capital>
+      <Largest_city>São Paulo 23°33′S 46°38′W ﻿ / ﻿ 23.550°S 46.633°W ﻿ / -23.550; -46.633</Largest_city>
+      <Official_language_and_national_language>Portuguese</Official_language_and_national_language>
+      <Recognized_regional_languages>See regional official languages</Recognized_regional_languages>
+      <Ethnic_groups__2022_>
+        <Pardo>45.3%</Pardo>
+        <White>43.5%</White>
+        <Black>10.2%</Black>
+        <Indigenous>0.6%</Indigenous>
+        <East_Asian>0.4%</East_Asian>
+      </Ethnic_groups__2022_>
+      <Religion__2022_>
+        <Christianity>
+          <percentage>83.6%</percentage>
+          <breakdown>
+            <Catholicism>56.75%</Catholicism>
+            <Protestantism>26.85%</Protestantism>
+          </breakdown>
+        </Christianity>
+        <no_religion>9.28%</no_religion>
+        <Spiritism>1.84%</Spiritism>
+        <Afro_Brazilian_religions>1.05%</Afro_Brazilian_religions>
+        <other>4.07%</other>
+        <not_stated>0.17%</not_stated>
+      </Religion__2022_>
+      <Demonym>Brazilian</Demonym>
+    </General>
+    <Government>
+      <Government>Federal presidential republic</Government>
+      <President>Luiz Inácio Lula da Silva</President>
+      <Vice_President>Geraldo Alckmin</Vice_President>
+      <President_of_the_Chamber_of_Deputies>Hugo Motta</President_of_the_Chamber_of_Deputies>
+      <President_of_the_Federal_Senate>Davi Alcolumbre</President_of_the_Federal_Senate>
+      <President_of_the_Supreme_Federal_Court>Edson Fachin</President_of_the_Supreme_Federal_Court>
+      <Legislature>National Congress</Legislature>
+      <Upper_house>Federal Senate</Upper_house>
+      <Lower_house>Chamber of Deputies</Lower_house>
+    </Government>
+    <Independence_from_Portugal>
+      <Declaration>7 September 1822</Declaration>
+    </Independence_from_Portugal>
+    <Economy>
+      <Recognition>
+        <Details>29 August 1825</Details>
+        <Republic>15 November 1889</Republic>
+        <Current_constitution>5 October 1988</Current_constitution>
+      </Recognition>
+      <GDP___PPP__>
+        <Details>2026 estimate</Details>
+        <Total>$5.161 trillion ( 8th )</Total>
+        <Per_capita>$24,108 ( 82th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2026 estimate</Details>
+        <Total>$2.292 trillion ( 10th )</Total>
+        <Per_capita>$10,709 ( 84th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>51.6 high inequality</Gini__2023_>
+      <HDI__2023_>0.786 high ( 84th )</HDI__2023_>
+      <Currency>Real (R$) ( BRL )</Currency>
+    </Economy>
+    <Area>
+      <Total>8,515,767 km 2 (3,287,956 sq mi) ( 5th )</Total>
+      <Water____>0.65</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>213,421,037 ( 7th )</n_2025_estimate>
+      <n_2022_census>203,080,756 ( 7th )</n_2022_census>
+      <Density>23.8 /km 2 (61.6/sq mi) ( 193rd )</Density>
+      <Date_format>dd/mm/yyyy ( CE )</Date_format>
+    </Population>
+    <Time>
+      <Time_zone>UTC −02:00 to −05:00 ( BT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+55</Calling_code>
+      <ISO_3166_code>BR</ISO_3166_code>
+      <Internet_TLD>.br</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

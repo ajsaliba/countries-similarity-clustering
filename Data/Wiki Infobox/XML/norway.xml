@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Norway</country>
+  <url>https://en.wikipedia.org/wiki/Norway</url>
+  <infobox>
+    <General>
+      <Northern_Sami>
+        <item>Norgga gonagasriika</item>
+        <item>Norgga gonagasriika</item>
+      </Northern_Sami>
+      <Lule_Sami>Vuona gånågisrijkka</Lule_Sami>
+      <Southern_Sami>Nöörjen gånkarïjhke</Southern_Sami>
+      <Kven>Norjan kuninkhaanvaltakunta</Kven>
+      <Capital_and_largest_city>Oslo 59°56′N 10°41′E ﻿ / ﻿ 59.933°N 10.683°E ﻿ / 59.933; 10.683</Capital_and_largest_city>
+      <Official_languages>Norwegian Sámi</Official_languages>
+      <Recognised_national_languages>Kven Romani Scandoromani Norwegian Sign Language</Recognised_national_languages>
+      <Ethnic_groups__2025_>
+        <Norwegian>78.6%</Norwegian>
+        <non_Norwegian>21.4%</non_Norwegian>
+      </Ethnic_groups__2025_>
+      <Religion__2024_>
+        <Christianity>
+          <percentage>68.5%</percentage>
+          <breakdown>
+            <Church_of_Norway>61.7%</Church_of_Norway>
+            <other_Christian>6.8%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>27.3%</no_religion>
+        <Islam>3.4%</Islam>
+        <other>0.8%</other>
+      </Religion__2024_>
+      <Demonym>Norwegian</Demonym>
+      <Monarch>Harald V</Monarch>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Prime_Minister>Jonas Gahr Støre</Prime_Minister>
+      <President_of_the_Storting>Masud Gharahkhani</President_of_the_Storting>
+      <Chief_Justice>Toril Marie Øie</Chief_Justice>
+      <Legislature>Storting</Legislature>
+      <Peak_extent_of_the_Old_Kingdom>1263</Peak_extent_of_the_Old_Kingdom>
+      <Kingdoms_of_Sweden_Norway__personal_union_>4 November 1814</Kingdoms_of_Sweden_Norway__personal_union_>
+    </Government>
+    <Unification_of_the_petty_kingdoms>
+      <Kalmar_Union__personal_union_>1397</Kalmar_Union__personal_union_>
+      <Denmark_Norway__real_union_>1524</Denmark_Norway__real_union_>
+      <Union_dissolved>7 June 1905</Union_dissolved>
+    </Unification_of_the_petty_kingdoms>
+    <History>
+      <State_established>872</State_established>
+      <State_re_established>25 February 1814</State_re_established>
+      <Constitution>17 May 1814</Constitution>
+    </History>
+    <Area>
+      <Total>385,207 km 2 (148,729 sq mi) ( 61st b )</Total>
+      <Water____>5.32 (2015)</Water____>
+    </Area>
+    <Population>
+      <n_2026_estimate>5,627,400 ( 116th )</n_2026_estimate>
+      <Density>14.6/km 2 (37.8/sq mi) ( 224th )</Density>
+      <Date_format>dd . mm . yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$606.590 billion ( 49th )</Total>
+        <Per_capita>$107,890 ( 5th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$504.280 billion ( 31st )</Total>
+        <Per_capita>$89,690 ( 6th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2020_>25.3 low inequality</Gini__2020_>
+      <HDI__2023_>0.970 very high ( 2nd )</HDI__2023_>
+      <Currency>Norwegian krone ( NOK )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 ( CET )</Time_zone>
+      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+47</Calling_code>
+      <ISO_3166_code>NO</ISO_3166_code>
+      <Internet_TLD>.no d</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

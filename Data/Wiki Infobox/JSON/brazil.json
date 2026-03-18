@@ -1,0 +1,86 @@
+{
+    "country": "Brazil",
+    "url": "https://en.wikipedia.org/wiki/Brazil",
+    "infobox": {
+        "General": {
+            "Capital": "Brasília 15°47′S 47°52′W ﻿ / ﻿ 15.783°S 47.867°W ﻿ / -15.783; -47.867",
+            "Largest city": "São Paulo 23°33′S 46°38′W ﻿ / ﻿ 23.550°S 46.633°W ﻿ / -23.550; -46.633",
+            "Official language and national language": "Portuguese",
+            "Recognized regional languages": "See regional official languages",
+            "Ethnic groups (2022)": {
+                "Pardo": "45.3%",
+                "White": "43.5%",
+                "Black": "10.2%",
+                "Indigenous": "0.6%",
+                "East Asian": "0.4%"
+            },
+            "Religion (2022)": {
+                "Christianity": {
+                    "percentage": "83.6%",
+                    "breakdown": {
+                        "Catholicism": "56.75%",
+                        "Protestantism": "26.85%"
+                    }
+                },
+                "no religion": "9.28%",
+                "Spiritism": "1.84%",
+                "Afro-Brazilian religions": "1.05%",
+                "other": "4.07%",
+                "not stated": "0.17%"
+            },
+            "Demonym": "Brazilian"
+        },
+        "Government": {
+            "Government": "Federal presidential republic",
+            "President": "Luiz Inácio Lula da Silva",
+            "Vice President": "Geraldo Alckmin",
+            "President of the Chamber of Deputies": "Hugo Motta",
+            "President of the Federal Senate": "Davi Alcolumbre",
+            "President of the Supreme Federal Court": "Edson Fachin",
+            "Legislature": "National Congress",
+            "Upper house": "Federal Senate",
+            "Lower house": "Chamber of Deputies"
+        },
+        "Independence from Portugal": {
+            "Declaration": "7 September 1822"
+        },
+        "Economy": {
+            "Recognition": {
+                "Details": "29 August 1825",
+                "Republic": "15 November 1889",
+                "Current constitution": "5 October 1988"
+            },
+            "GDP ( PPP )": {
+                "Details": "2026 estimate",
+                "Total": "$5.161 trillion ( 8th )",
+                "Per capita": "$24,108 ( 82th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2026 estimate",
+                "Total": "$2.292 trillion ( 10th )",
+                "Per capita": "$10,709 ( 84th )"
+            },
+            "Gini (2023)": "51.6 high inequality",
+            "HDI (2023)": "0.786 high ( 84th )",
+            "Currency": "Real (R$) ( BRL )"
+        },
+        "Area": {
+            "Total": "8,515,767 km 2 (3,287,956 sq mi) ( 5th )",
+            "Water (%)": "0.65"
+        },
+        "Population": {
+            "2025 estimate": "213,421,037 ( 7th )",
+            "2022 census": "203,080,756 ( 7th )",
+            "Density": "23.8 /km 2 (61.6/sq mi) ( 193rd )",
+            "Date format": "dd/mm/yyyy ( CE )"
+        },
+        "Time": {
+            "Time zone": "UTC −02:00 to −05:00 ( BT )"
+        },
+        "Codes": {
+            "Calling code": "+55",
+            "ISO 3166 code": "BR",
+            "Internet TLD": ".br"
+        }
+    }
+}

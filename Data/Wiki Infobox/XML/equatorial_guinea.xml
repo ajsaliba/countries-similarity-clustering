@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Equatorial Guinea</country>
+  <url>https://en.wikipedia.org/wiki/Equatorial_Guinea</url>
+  <infobox>
+    <General>
+      <Capital>Ciudad de la Paz 1°35′20″N 10°49′21″E ﻿ / ﻿ 1.58889°N 10.82250°E ﻿ / 1.58889; 10.82250</Capital>
+      <Largest_city>Bata</Largest_city>
+      <Official_languages>Spanish French Portuguese</Official_languages>
+      <Recognised_regional_languages>List Fang Bube Annobonese Creole Kombe Kwasio</Recognised_regional_languages>
+      <Ethnic_groups__2020__>
+        <Fang>85.7%</Fang>
+        <Bubi>6.5%</Bubi>
+        <Ndowe>3.6%</Ndowe>
+        <Annobon>1.6%</Annobon>
+        <Bujeba>1.1%</Bujeba>
+        <others>1.1%</others>
+      </Ethnic_groups__2020__>
+      <Religion__2020_>
+        <Christianity>88.7%</Christianity>
+        <no_religion>5%</no_religion>
+        <Islam>4%</Islam>
+        <traditional_faiths>1.7%</traditional_faiths>
+        <others>0.6%</others>
+      </Religion__2020_>
+      <Demonyms>Equatoguinean Equatorial Guinean</Demonyms>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic under an authoritarian hereditary dictatorship</Government>
+      <President>Teodoro Obiang Nguema Mbasogo</President>
+      <Vice_President>Teodoro Nguema Obiang Mangue</Vice_President>
+      <Prime_Minister>Manuel Osa Nsue Nsua</Prime_Minister>
+      <Chief_Justice>Joaquín Asong Owono Mbang</Chief_Justice>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>Chamber of Deputies</Lower_house>
+    </Government>
+    <Independence_from_Spain>
+      <Declared>12 October 1968</Declared>
+      <n_1979_Equatorial_Guinea_coup_d__tat>3 August 1979</n_1979_Equatorial_Guinea_coup_d__tat>
+    </Independence_from_Spain>
+    <Area>
+      <Total>28,050 km 2 (10,830 sq mi) ( 141st )</Total>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>1,795,834 ( 154th )</n_2025_estimate>
+      <Density>67/km 2 (173.5/sq mi) ( 147th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$33.001 billion ( 149th )</Total>
+        <Per_capita>$20,017 ( 92nd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$12.680 billion ( 149th )</Total>
+        <Per_capita>$7,750 ( 95th )</Per_capita>
+      </GDP__nominal_>
+      <HDI__2023_>0.674 medium ( 133rd )</HDI__2023_>
+      <Currency>Central African CFA franc ( XAF )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 ( WAT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+240</Calling_code>
+      <ISO_3166_code>GQ</ISO_3166_code>
+      <Internet_TLD>.gq</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

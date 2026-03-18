@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Slovakia</country>
+  <url>https://en.wikipedia.org/wiki/Slovakia</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Bratislava 48°9′9″N 17°6′34″E ﻿ / ﻿ 48.15250°N 17.10944°E ﻿ / 48.15250; 17.10944</Capital_and_largest_city>
+      <Official_language>Slovak</Official_language>
+      <Regional_and_minority_languages>Bulgarian , Czech , Croatian , Hungarian , German , Polish , Romani , Russian , Ruthenian , Serbian , Ukrainian</Regional_and_minority_languages>
+      <Ethnic_groups__2021_>
+        <Slovaks>88.6%</Slovaks>
+        <Hungarians>8.2%</Hungarians>
+        <Romani>1.3%</Romani>
+        <others>1.9%</others>
+      </Ethnic_groups__2021_>
+      <Religion__2021_>
+        <Christianity>
+          <percentage>68.8%</percentage>
+          <breakdown>
+            <Catholicism>59.8%</Catholicism>
+            <Protestantism>7.6%</Protestantism>
+            <other_Christian>1.4%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>23.8%</no_religion>
+        <other>0.9%</other>
+        <unspecified>6.5%</unspecified>
+      </Religion__2021_>
+      <Demonym>Slovak</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Peter Pellegrini</President>
+      <Prime_Minister>Robert Fico</Prime_Minister>
+      <Speaker_of_the_National_Council>Richard Raši</Speaker_of_the_National_Council>
+      <Legislature>National Council</Legislature>
+    </Government>
+    <History>
+      <Independence_from_Austria_Hungary___First_Czechoslovak_Republic__>28 October 1918</Independence_from_Austria_Hungary___First_Czechoslovak_Republic__>
+      <Treaty_of_Trianon>4 June 1920</Treaty_of_Trianon>
+      <Second_Czechoslovak_Republic>30 September 1938</Second_Czechoslovak_Republic>
+      <First_Slovak_Republic>14 March 1939</First_Slovak_Republic>
+      <Third_Czechoslovak_Republic>24 October 1945</Third_Czechoslovak_Republic>
+      <Fourth_Czechoslovak_Republic>25 February 1948</Fourth_Czechoslovak_Republic>
+      <Czechoslovak_Socialist_Republic>11 July 1960</Czechoslovak_Socialist_Republic>
+      <Slovak_Socialist_Republic__within_Czechoslovak_Socialist_Republic__change_of_unitary_Czechoslovak_state_into_a_federation__>1 January 1969</Slovak_Socialist_Republic__within_Czechoslovak_Socialist_Republic__change_of_unitary_Czechoslovak_state_into_a_federation__>
+      <Slovak_Republic__change_of_name_within_established_Czech_and_Slovak_Federative_Republic__>1 March 1990</Slovak_Republic__change_of_name_within_established_Czech_and_Slovak_Federative_Republic__>
+      <Dissolution_of_Czechoslovakia>1 January 1993</Dissolution_of_Czechoslovakia>
+    </History>
+    <Area>
+      <Total>49,035 km 2 (18,933 sq mi) ( 127th )</Total>
+      <Water____>0.72 (2015)</Water____>
+    </Area>
+    <Population>
+      <n_30_June_2025_estimate>5,413,813 ( 120th )</n_30_June_2025_estimate>
+      <n_2021_census>5,449,270</n_2021_census>
+      <Density>110/km 2 (284.9/sq mi) ( 103rd )</Density>
+      <Date_format>d. m. yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$256.710 billion ( 70th )</Total>
+        <Per_capita>$47,440 ( 46th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$152.480 billion ( 61st )</Total>
+        <Per_capita>$28,180 ( 44th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>21.2 low inequality</Gini__2022_>
+      <HDI__2023_>0.880 very high ( 44th )</HDI__2023_>
+      <Currency>Euro ( € ) ( EUR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 ( CET )</Time_zone>
+      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+421</Calling_code>
+      <ISO_3166_code>SK</ISO_3166_code>
+      <Internet_TLD>.sk and .eu</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>South Sudan</country>
+  <url>https://en.wikipedia.org/wiki/South_Sudan</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Juba 04°51′N 31°34′E ﻿ / ﻿ 4.850°N 31.567°E ﻿ / 4.850; 31.567</Capital_and_largest_city>
+      <Official_languages>English</Official_languages>
+      <Recognised_national_languages>Dinka Nuer Bari Murle Luo (Anyuak, Acholi, Shilluk, Pari, Jur-Luo, others) Ma'di Otuho Zande and around 60 other languages</Recognised_national_languages>
+      <Spoken_languages>Dinka Bari Juba Arabic Nuer Zande Jur (Luo) Murle Shilluk various others</Spoken_languages>
+      <Religion__2020_>
+        <Christianity>60.5%</Christianity>
+        <traditional_faiths>32.9%</traditional_faiths>
+        <Islam>6.2%</Islam>
+        <others___none>0.4%</others___none>
+      </Religion__2020_>
+      <Demonym>South Sudanese</Demonym>
+      <Declared_and_recognised>9 July 2011</Declared_and_recognised>
+    </General>
+    <Government>
+      <Government>Federal presidential republic</Government>
+      <President>Salva Kiir Mayardit</President>
+      <First_Vice_President>Riek Machar</First_Vice_President>
+      <Legislature>Transitional National Legislature</Legislature>
+    </Government>
+    <Independence_from_Sudan>
+      <n_1st_autonomous_region>28 February 1972</n_1st_autonomous_region>
+      <n_2nd_autonomous_region>9 July 2005</n_2nd_autonomous_region>
+    </Independence_from_Sudan>
+    <Area>
+      <Total>644,329 km 2 (248,777 sq mi) ( 41st )</Total>
+    </Area>
+    <Population>
+      <n_2024_estimate>12,703,714 ( 80th )</n_2024_estimate>
+      <Density>19/km 2 (49.2/sq mi) ( 211th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$15.160 billion ( 157th )</Total>
+        <Per_capita>$953 ( 191st )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$4.980 billion ( 164th )</Total>
+        <Per_capita>$313 ( 194th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2016_>44.1 medium inequality</Gini__2016_>
+      <HDI__2023_>0.388 low ( 193rd )</HDI__2023_>
+      <Currency>South Sudanese pound ( SSP )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2 ( CAT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+211</Calling_code>
+      <ISO_3166_code>SS</ISO_3166_code>
+      <Internet_TLD>.ss</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

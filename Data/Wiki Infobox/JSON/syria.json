@@ -1,0 +1,71 @@
+{
+    "country": "Syria",
+    "url": "https://en.wikipedia.org/wiki/Syria",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Damascus 33°30′N 36°18′E ﻿ / ﻿ 33.500°N 36.300°E ﻿ / 33.500; 36.300",
+            "Official languages": "Arabic",
+            "Recognized national languages": "Kurdish",
+            "Spoken languages": "Predominantly Arabic List Kurdish Turkish Neo-Aramaic Syriac Circassian Chechen Armenian Greek Domari",
+            "Ethnic groups (2021)": {
+                "Arabs 9–": "90%",
+                "Kurds 1–": "10%",
+                "others": "10%"
+            },
+            "Religion (2020)": {
+                "Islam": "94.17%",
+                "Sunni": "79.19%",
+                "Shia 10–": "14.1%",
+                "Alawites": "13%",
+                "Christianity": "3.84%",
+                "other": "1.99%"
+            },
+            "Demonym": "Syrian"
+        },
+        "Government": {
+            "Government": "Unitary presidential republic under a provisional government",
+            "President": "Ahmed al-Sharaa",
+            "Legislature": "People's Assembly",
+            "Arab Kingdom of Syria": "8 March 1920",
+            "Current provisional government established": "29 March 2025"
+        },
+        "Establishment": {
+            "State of Syria under French mandate": "1 December 1924",
+            "First Syrian Republic": "14 May 1930",
+            "End of the French mandate": "17 April 1946",
+            "Part of the United Arab Republic": "22 February 1958 – 28 September 1961",
+            "Ba'athist Syria": "8 March 1963 – 8 December 2024"
+        },
+        "Area": {
+            "Total": "185,180 km 2 (71,500 sq mi) ( 87th )",
+            "Water (%)": "1.1"
+        },
+        "Population": {
+            "2025 estimate": "26,019,711 ( 56th )",
+            "Density": "118.3/km 2 (306.4/sq mi) ( 70th )",
+            "Date format": "dd-mm-yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2021 estimate",
+                "Total": "$50.28 billion",
+                "Per capita": "$3,300"
+            },
+            "GDP (nominal)": {
+                "Details": "2022 estimate",
+                "Total": "$9.8 billion",
+                "Per capita": "$800"
+            },
+            "Gini (2022)": "26.6 low inequality",
+            "Currency": "Syrian pound ( SYP/LS )"
+        },
+        "Time": {
+            "Time zone": "UTC +03:00 ( AST )"
+        },
+        "Codes": {
+            "Calling code": "+963",
+            "ISO 3166 code": "SY",
+            "Internet TLD": ".sy سوريا."
+        }
+    }
+}

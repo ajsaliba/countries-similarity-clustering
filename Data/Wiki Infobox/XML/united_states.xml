@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>United States</country>
+  <url>https://en.wikipedia.org/wiki/United_States</url>
+  <infobox>
+    <General>
+      <Capital>Washington, D.C. 38°53′N 77°1′W ﻿ / ﻿ 38.883°N 77.017°W ﻿ / 38.883; -77.017</Capital>
+      <Largest_city>New York City 40°43′N 74°0′W ﻿ / ﻿ 40.717°N 74.000°W ﻿ / 40.717; -74.000</Largest_city>
+      <Official_languages>English</Official_languages>
+      <Ethnic_groups__2020_>
+        <White>61.6%</White>
+        <Black>12.4%</Black>
+        <Asian>6%</Asian>
+        <Native_American>1.1%</Native_American>
+        <Pacific_Islander>0.2%</Pacific_Islander>
+        <two_or_more_races>10.2%</two_or_more_races>
+        <other_By_origin>8.4%</other_By_origin>
+        <non__Hispanic_or_Latino>81.3%</non__Hispanic_or_Latino>
+        <Hispanic_or_Latino>18.7%</Hispanic_or_Latino>
+      </Ethnic_groups__2020_>
+      <Religion__2025_>
+        <Christianity>
+          <percentage>65%</percentage>
+          <breakdown>
+            <Protestantism>
+              <percentage>32%</percentage>
+              <breakdown>
+                <Catholicism>20%</Catholicism>
+                <other_Christian>12%</other_Christian>
+              </breakdown>
+            </Protestantism>
+            <Mormonism>1%</Mormonism>
+          </breakdown>
+        </Christianity>
+        <unaffiliated>24%</unaffiliated>
+        <Judaism>2%</Judaism>
+        <other_religion>6%</other_religion>
+        <unanswered>3%</unanswered>
+      </Religion__2025_>
+      <Demonym>American</Demonym>
+    </General>
+    <Government>
+      <Government>Federal presidential republic</Government>
+      <President>Donald Trump</President>
+      <Vice_President>JD Vance</Vice_President>
+      <House_Speaker>Mike Johnson</House_Speaker>
+      <Chief_Justice>John Roberts</Chief_Justice>
+      <Legislature>Congress</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>House of Representatives</Lower_house>
+    </Government>
+    <Independence_from_Great_Britain>
+      <Declaration>July 4, 1776 ; 249 years ago ( 1776-07-04 )</Declaration>
+      <Confederation>March 1, 1781 ( 1781-03-01 )</Confederation>
+    </Independence_from_Great_Britain>
+    <Economy>
+      <Recognition>
+        <Details>September 3, 1783 ( 1783-09-03 )</Details>
+        <Constitution>March 4, 1789 ( 1789-03-04 )</Constitution>
+      </Recognition>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$30.616 trillion ( 2nd )</Total>
+        <Per_capita>$89,599 ( 10th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$30.616 trillion ( 1st )</Total>
+        <Per_capita>$89,599 ( 8th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2024_>41.8 medium inequality</Gini__2024_>
+      <HDI__2023_>0.938 very high ( 17th )</HDI__2023_>
+      <Currency>U.S. dollar ( $ ) ( USD )</Currency>
+    </Economy>
+    <Area>
+      <Total_area>3,796,742 sq mi (9,833,520 km 2 ) ( 3rd )</Total_area>
+      <Water____>7.0 (2010)</Water____>
+      <Land_area>3,531,905 sq mi (9,147,590 km 2 ) (3rd)</Land_area>
+    </Area>
+    <Population>
+      <n_2025_estimate>341,784,857</n_2025_estimate>
+      <n_2020_census>331,449,281 ( 3rd )</n_2020_census>
+      <Density>96.8/sq mi (37.4/km 2 ) ( 180th )</Density>
+      <Date_format>mm / dd / yyyy</Date_format>
+    </Population>
+    <Time>
+      <Time_zone>UTC −4 to −12 , +10 , +11</Time_zone>
+      <Summer___DST__>UTC −4 to −10</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+1</Calling_code>
+      <ISO_3166_code>US</ISO_3166_code>
+      <Internet_TLD>.com , .us</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

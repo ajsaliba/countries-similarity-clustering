@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Nauru</country>
+  <url>https://en.wikipedia.org/wiki/Nauru</url>
+  <infobox>
+    <General>
+      <Capital>Yaren ( de facto ) 0°32′51″S 166°55′3″E ﻿ / ﻿ 0.54750°S 166.91750°E ﻿ / -0.54750; 166.91750 ﻿ ( Government House )</Capital>
+      <Largest_city>Denigomodu</Largest_city>
+      <Official_languages>Nauruan English</Official_languages>
+      <Demonym>Nauruan</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic with an executive presidency under a non-partisan democracy</Government>
+      <President>David Adeang</President>
+      <Speaker_of_the_Parliament>Marcus Stephen</Speaker_of_the_Parliament>
+      <Minister_Assisting_the_President>Lionel Aingimea</Minister_Assisting_the_President>
+      <Legislature>Parliament</Legislature>
+    </Government>
+    <History>
+      <Declaration_of_independence>31 January 1968</Declaration_of_independence>
+    </History>
+    <Area>
+      <Total>21 km 2 (8.1 sq mi) ( 193rd )</Total>
+      <Water____>0.57</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>12,025 ( 239th )</n_2025_estimate>
+      <n_2011_census>12,000</n_2011_census>
+      <Density>480/km 2 (1,243.2/sq mi) ( 20th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$132 million ( 192nd )</Total>
+        <Per_capita>$10,962 ( 119th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$172 million ( 195th )</Total>
+        <Per_capita>$14,274 ( 75th )</Per_capita>
+      </GDP__nominal_>
+      <HDI__2023_>0.703 high ( 124th )</HDI__2023_>
+      <Currency>Australian dollar ( AUD )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC+12</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+674</Calling_code>
+      <ISO_3166_code>NR</ISO_3166_code>
+      <Internet_TLD>.nr</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

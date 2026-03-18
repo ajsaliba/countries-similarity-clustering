@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Italy</country>
+  <url>https://en.wikipedia.org/wiki/Italy</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Rome 41°54′N 12°29′E ﻿ / ﻿ 41.900°N 12.483°E ﻿ / 41.900; 12.483</Capital_and_largest_city>
+      <Official_languages>Italian a</Official_languages>
+      <Nationality__2021_>
+        <Italian>91%</Italian>
+        <other>9%</other>
+      </Nationality__2021_>
+      <Native_languages>See main article</Native_languages>
+      <Religion__2020_>
+        <Christianity>84%</Christianity>
+        <irreligion>12%</irreligion>
+        <other>4%</other>
+      </Religion__2020_>
+      <Demonym>Italian</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Sergio Mattarella</President>
+      <Prime_Minister>Giorgia Meloni</Prime_Minister>
+      <President_of_the_Senate>Ignazio La Russa</President_of_the_Senate>
+      <President_of_the_Chamber_of_Deputies>Lorenzo Fontana</President_of_the_Chamber_of_Deputies>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate of the Republic</Upper_house>
+      <Lower_house>Chamber of Deputies</Lower_house>
+      <Roman_Barbarian_kingdoms_Byzantine_Italy>Early Middle Ages</Roman_Barbarian_kingdoms_Byzantine_Italy>
+      <Kingdom_of_Italy>1861–1946 17 March 1861 ; 165 years ago ( 1861-03-17 )</Kingdom_of_Italy>
+    </Government>
+    <Historical_polities>
+      <Italic_peoples>Antiquity</Italic_peoples>
+      <Ancient_Rome_Roman_Italy>753 BC–476 AD</Ancient_Rome_Roman_Italy>
+      <Italian_city_states_and_regional_polities>Middle Ages and Modern period</Italian_city_states_and_regional_polities>
+      <Italian_Empire>1882–1960</Italian_Empire>
+      <Italian_Republic>2 June 1946 ; 79 years ago ( 1946-06-02 )</Italian_Republic>
+    </Historical_polities>
+    <Area>
+      <Total>301,340 km 2 (116,350 sq mi) ( 71st )</Total>
+      <Water____>1.24 (2015)</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>58,915,561 ( 25th )</n_2025_estimate>
+      <Density>195.5/km 2 (506.3/sq mi) ( 72nd )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$3.719 trillion ( 11th )</Total>
+        <Per_capita>$63,076 ( 29th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$2.423 trillion ( 8th )</Total>
+        <Per_capita>$41,091 ( 27th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2020_>32.5 medium inequality</Gini__2020_>
+      <HDI__2023_>0.915 very high ( 29th )</HDI__2023_>
+      <Currency>Euro (€) b ( EUR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 ( CET )</Time_zone>
+      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+39 c</Calling_code>
+      <ISO_3166_code>IT</ISO_3166_code>
+      <Internet_TLD>.it</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

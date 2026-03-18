@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Estonia</country>
+  <url>https://en.wikipedia.org/wiki/Estonia</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Tallinn 59°25′N 24°45′E ﻿ / ﻿ 59.417°N 24.750°E ﻿ / 59.417; 24.750</Capital_and_largest_city>
+      <Official_language>Estonian</Official_language>
+      <Ethnic_groups__2025_>
+        <Estonians>68.5%</Estonians>
+        <Russians>20.9%</Russians>
+        <Ukrainians>5.4%</Ukrainians>
+        <other>4.6%</other>
+        <undeclared>0.6%</undeclared>
+      </Ethnic_groups__2025_>
+      <Religion__2021__>
+        <irreligion>58.4%</irreligion>
+        <Christianity>
+          <percentage>26.7%</percentage>
+          <breakdown>
+            <Eastern_Orthodoxy>16.3%</Eastern_Orthodoxy>
+            <Lutheranism>7.7%</Lutheranism>
+            <other_Christian>2.7%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <undeclared>12.7%</undeclared>
+        <other>2.1%</other>
+      </Religion__2021__>
+      <Demonym>Estonian</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Alar Karis</President>
+      <Prime_Minister>Kristen Michal</Prime_Minister>
+      <Legislature>Riigikogu</Legislature>
+    </Government>
+    <Independence_from_Russian_and_German_Empires>
+      <German_and_Soviet_occupations>1940–1991</German_and_Soviet_occupations>
+    </Independence_from_Russian_and_German_Empires>
+    <History>
+      <Declaration_of_Independence>24 February 1918</Declaration_of_Independence>
+      <Restoration_of_Independence>20 August 1991</Restoration_of_Independence>
+    </History>
+    <Area>
+      <Total>45,335 km 2 (17,504 sq mi) ( 129th d )</Total>
+      <Water____>4.6</Water____>
+    </Area>
+    <Population>
+      <n_2026_estimate>1,362,954</n_2026_estimate>
+      <n_2021_census>1,331,824</n_2021_census>
+      <Density>30.3/km 2 (78.5/sq mi) ( 148th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2026 estimate</Details>
+        <Total>$68.240 billion ( 119th )</Total>
+        <Per_capita>$50,758 ( 42nd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2026 estimate</Details>
+        <Total>$45.00 billion ( 99th )</Total>
+        <Per_capita>$37,195 ( 37th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2021_>30.6 medium inequality</Gini__2021_>
+      <HDI__2023_>0.905 very high ( 36th )</HDI__2023_>
+      <Currency>Euro ( € ) ( EUR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +02:00 ( EET )</Time_zone>
+      <Summer___DST__>UTC +03:00 ( EEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+372</Calling_code>
+      <ISO_3166_code>EE</ISO_3166_code>
+      <Internet_TLD>.ee</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

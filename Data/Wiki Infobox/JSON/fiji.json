@@ -1,0 +1,79 @@
+{
+    "country": "Fiji",
+    "url": "https://en.wikipedia.org/wiki/Fiji",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Suva 18°10′S 178°27′E ﻿ / ﻿ 18.167°S 178.450°E ﻿ / -18.167; 178.450",
+            "Recognised national languages": "Fijian English Standard Hindi Fiji Hindi",
+            "Recognised regional languages": "Rotuman",
+            "Ethnic groups (2016)": {
+                "Indigenous Fijians": "56.8%",
+                "Indo-Fijians": "37.5%",
+                "Rotumans": "1.2%",
+                "others": "4.5%"
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": "64.4%",
+                    "breakdown": {
+                        "Methodism": "34.6%",
+                        "other Christian": "29.8%"
+                    }
+                },
+                "Hinduism": "27.9%",
+                "Islam": "6.3%",
+                "others / none": "1.4%"
+            },
+            "Demonym": "Fijian"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic",
+            "President": "Naiqama Lalabalavu",
+            "Prime Minister": "Sitiveni Rabuka",
+            "Deputy Prime Minister": "Viliame Gavoka",
+            "Parliament Speaker": "Filimone Jitoko",
+            "Chief Justice": "Salesi Temo",
+            "Legislature": "Parliament"
+        },
+        "Independence from the United Kingdom": {
+            "Republic": "6 October 1987"
+        },
+        "History": {
+            "Independence": "10 October 1970",
+            "Current constitution": "6 September 2013"
+        },
+        "Area": {
+            "Total": "18,274 km 2 (7,056 sq mi) ( 151st )",
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "2018 estimate": "926,276 ( 161st )",
+            "2017 census": "884,887",
+            "Density": "46.4/km 2 (120.2/sq mi) ( 148th )",
+            "Date format": "dd/mm/yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2023 estimate",
+                "Total": "$15.152 billion ( 158th )",
+                "Per capita": "$16,563 ( 102nd )"
+            },
+            "GDP (nominal)": {
+                "Details": "2023 estimate",
+                "Total": "$5.511 billion ( 164th )",
+                "Per capita": "$6,024 ( 106th )"
+            },
+            "Gini (2019)": "30.7 medium inequality",
+            "HDI (2023)": "0.731 high ( 111th )",
+            "Currency": "Fijian dollar ( FJD )"
+        },
+        "Time": {
+            "Time zone": "UTC +12 (FJT)"
+        },
+        "Codes": {
+            "Calling code": "+679",
+            "ISO 3166 code": "FJ",
+            "Internet TLD": ".fj"
+        }
+    }
+}

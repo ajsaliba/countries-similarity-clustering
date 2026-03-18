@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Lesotho</country>
+  <url>https://en.wikipedia.org/wiki/Lesotho</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Maseru 29°18′54″S 27°29′13″E ﻿ / ﻿ 29.31500°S 27.48694°E ﻿ / -29.31500; 27.48694</Capital_and_largest_city>
+      <Official_languages>Sesotho English</Official_languages>
+      <Ethnic_groups__2020_>
+        <Basotho>99.7%</Basotho>
+        <others>0.3%</others>
+      </Ethnic_groups__2020_>
+      <Religion__2020_>
+        <Christianity>92.1%</Christianity>
+        <traditional_faiths>6.6%</traditional_faiths>
+        <no_religion>1%</no_religion>
+        <others>0.3%</others>
+      </Religion__2020_>
+      <Demonyms>Mosotho (singular) Basotho (plural)</Demonyms>
+      <Monarch>Letsie III</Monarch>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Prime_Minister>Sam Matekane</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>National Assembly</Lower_house>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <Basutoland>18 March 1884</Basutoland>
+    </Independence_from_the_United_Kingdom>
+    <History>
+      <Independence_declared>4 October 1966</Independence_declared>
+    </History>
+    <Area>
+      <Total>30,355 km 2 (11,720 sq mi) ( 137th )</Total>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <n_2023_estimate>2,210,646 ( 147th )</n_2023_estimate>
+      <Density>68.1/km 2 (176.4/sq mi) ( 138th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2023 estimate</Details>
+        <Total>$6.915 billion ( 168th )</Total>
+        <Per_capita>$3,234 ( 164th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2023 estimate</Details>
+        <Total>$2.373 billion ( 184th )</Total>
+        <Per_capita>$1,110 ( 169th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2017_>44.9 medium inequality</Gini__2017_>
+      <HDI__2023_>0.550 medium ( 167th )</HDI__2023_>
+      <Currency>Lesotho loti (LSL) South African rand (ZAR)</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +02:00 ( SAST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+266</Calling_code>
+      <ISO_3166_code>LS</ISO_3166_code>
+      <Internet_TLD>.ls</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

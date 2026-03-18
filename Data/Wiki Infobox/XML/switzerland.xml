@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Switzerland</country>
+  <url>https://en.wikipedia.org/wiki/Switzerland</url>
+  <infobox>
+    <General>
+      <German>
+        <item>Schweizerische Eidgenossenschaft</item>
+        <item>Schweizerische Eidgenossenschaft</item>
+      </German>
+      <French>Confédération suisse</French>
+      <Italian>Confederazione Svizzera</Italian>
+      <Romansh>Confederaziun svizra</Romansh>
+      <Latin>Confoederatio helvetica (CH)</Latin>
+      <Capital>Bern ( de facto )</Capital>
+      <Federal_city>Bern</Federal_city>
+      <Largest_city>Zurich</Largest_city>
+      <Official_languages>
+        <___French__>62%</___French__>
+        <___Italian__>23%</___Italian__>
+        <___Romansh__>8%</___Romansh__>
+        <_>0.5%</_>
+      </Official_languages>
+      <Nationality__2024_>
+        <Swiss>72.6%</Swiss>
+        <foreign_nationals>27.4%</foreign_nationals>
+      </Nationality__2024_>
+      <Religion__2024_>
+        <Christianity>
+          <percentage>54.7%</percentage>
+          <breakdown>
+            <Catholicism>30%</Catholicism>
+            <Protestantism>18.7%</Protestantism>
+            <other_Christian>6%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>36.8%</no_religion>
+        <Islam>6%</Islam>
+        <other_religions>1.5%</other_religions>
+        <unanswered>0.9%</unanswered>
+      </Religion__2024_>
+      <Demonyms>English: Swiss German: Schweizer/Schweizerin French: Suisse/Suissesse Italian : svizzero/svizzera or elvetico/elvetica Romansh : Svizzer/Svizra</Demonyms>
+      <Federal_Council>Guy Parmelin ( President ) Ignazio Cassis ( Vice president ) Karin Keller-Sutter Albert Rösti Élisabeth Baume-Schneider Beat Jans Martin Pfister</Federal_Council>
+      <Federal_Chancellor>Viktor Rossi</Federal_Chancellor>
+      <Sovereignty_recognised___Peace_of_Westphalia__>
+        <Details>24 October 1648</Details>
+        <Federal_Treaty>7 August 1815</Federal_Treaty>
+        <Federal_state>12 September 1848</Federal_state>
+      </Sovereignty_recognised___Peace_of_Westphalia__>
+    </General>
+    <Government>
+      <Government>Federal assembly-independent directorial republic</Government>
+      <Legislature>Federal Assembly</Legislature>
+      <Upper_house>Council of States</Upper_house>
+      <Lower_house>National Council</Lower_house>
+    </Government>
+    <History>
+      <Founded>1 August 1291</Founded>
+    </History>
+    <Area>
+      <Total>41,291 km 2 (15,943 sq mi) ( 132th )</Total>
+      <Water____>4</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>9,060,598 ( 99th )</n_2025_estimate>
+      <n_2015_census>8,327,126</n_2015_census>
+      <Density>207/km 2 (536.1/sq mi) ( 67th )</Density>
+      <Date_format>dd.mm.yyyy ( AD )</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$881.083 billion ( 35th )</Total>
+        <Per_capita>$97,660 ( 6th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$1.003 trillion ( 20th )</Total>
+        <Per_capita>$111,047 ( 3rd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>31.5 medium inequality</Gini__2023_>
+      <HDI__2023_>0.970 very high ( 2nd )</HDI__2023_>
+      <Currency>Swiss franc ( CHF )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 ( CET )</Time_zone>
+      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+41</Calling_code>
+      <ISO_3166_code>CH</ISO_3166_code>
+      <Internet_TLD>.ch , .swiss</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

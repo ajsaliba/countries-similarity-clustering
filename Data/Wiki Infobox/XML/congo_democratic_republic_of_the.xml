@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Congo, Democratic Republic of the</country>
+  <url>https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Kinshasa 4°19′S 15°19′E ﻿ / ﻿ 4.317°S 15.317°E ﻿ / -4.317; 15.317 Country: 3°S 24°E ﻿ / ﻿ 3°S 24°E ﻿ / -3; 24</Capital_and_largest_city>
+      <Official_languages>French</Official_languages>
+      <Recognised_national_languages>Kikongo ya leta Lingala Swahili Luba-Kasai</Recognised_national_languages>
+      <Religion__2021_>
+        <Christianity>95.4%</Christianity>
+        <traditional_faiths>2.6%</traditional_faiths>
+        <Islam>1.5%</Islam>
+        <others___none>0.5%</others___none>
+      </Religion__2021_>
+      <Demonym>Congolese</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic</Government>
+      <President>Félix Tshisekedi</President>
+      <Prime_Minister>Judith Suminwa</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>National Assembly</Lower_house>
+    </Government>
+    <History>
+      <Colonised_by_Leopold_II_of_Belgium>17 November 1879</Colonised_by_Leopold_II_of_Belgium>
+      <Congo_Free_State>1 July 1885</Congo_Free_State>
+      <Belgian_Congo>15 November 1908</Belgian_Congo>
+      <Independence_from_Belgium>30 June 1960</Independence_from_Belgium>
+      <Admitted_to_the_United_Nations>20 September 1960</Admitted_to_the_United_Nations>
+      <Democratic_Republic>1 August 1964</Democratic_Republic>
+      <Republic_of_Zaire>27 October 1971</Republic_of_Zaire>
+      <First_Congo_War>17 May 1997</First_Congo_War>
+      <Current_constitution>18 February 2006</Current_constitution>
+    </History>
+    <Area>
+      <Total>2,345,409 km 2 (905,567 sq mi) ( 11th )</Total>
+      <Water____>3.32</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>124,388,160 ( 15th )</n_2025_estimate>
+      <Density>48/km 2 (124.3/sq mi) ( 168th )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$200.76 billion ( 79th )</Total>
+        <Per_capita>$1,881 ( 180th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$79.120 billion ( 83rd )</Total>
+        <Per_capita>$742 ( 182nd )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2012_>42.1 medium inequality</Gini__2012_>
+      <HDI__2023_>0.522 low ( 171st )</HDI__2023_>
+      <Currency>Congolese franc ( CDF )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 to +2 ( WAT and CAT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+243</Calling_code>
+      <ISO_3166_code>CD</ISO_3166_code>
+      <Internet_TLD>.cd</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

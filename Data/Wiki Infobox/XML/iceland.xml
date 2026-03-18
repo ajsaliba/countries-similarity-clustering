@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Iceland</country>
+  <url>https://en.wikipedia.org/wiki/Iceland</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Reykjavík 64°08′N 21°56′W ﻿ / ﻿ 64.133°N 21.933°W ﻿ / 64.133; -21.933</Capital_and_largest_city>
+      <Official_language>Icelandic</Official_language>
+      <Ethnic_groups__2021_>
+        <Icelandic>86%</Icelandic>
+        <Polish>6%</Polish>
+        <Lithuanian>1%</Lithuanian>
+        <Filipino>0.8%</Filipino>
+        <other>7%</other>
+      </Ethnic_groups__2021_>
+      <Religion__2022_>
+        <Christianity>
+          <percentage>72.4%</percentage>
+          <breakdown>
+            <Church_of_Iceland___official__>60.9%</Church_of_Iceland___official__>
+            <other_Christian>11.5%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>25.2%</no_religion>
+        <_satr_arf_lagi_>1.5%</_satr_arf_lagi_>
+        <other>0.9%</other>
+      </Religion__2022_>
+      <Demonyms>Icelander Icelandic</Demonyms>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+      <President>Halla Tómasdóttir</President>
+      <Prime_Minister>Kristrún Frostadóttir</Prime_Minister>
+      <Speaker_of_the_Althing>Þórunn Sveinbjarnardóttir</Speaker_of_the_Althing>
+      <Legislature>Althing</Legislature>
+    </Government>
+    <History>
+      <Settlement>9th century</Settlement>
+      <Commonwealth>930–1262</Commonwealth>
+      <Union_with_Norway>1262–1397</Union_with_Norway>
+      <Kalmar_Union>1397–1523</Kalmar_Union>
+      <Denmark_Norway>1523–1814</Denmark_Norway>
+      <Ceded_to_Denmark>14 January 1814</Ceded_to_Denmark>
+      <Constitution_and_limited_home_rule>5 January 1874</Constitution_and_limited_home_rule>
+      <Extended_home_rule>1 February 1904</Extended_home_rule>
+      <Sovereignty_and_personal_union_with_Denmark>1 December 1918</Sovereignty_and_personal_union_with_Denmark>
+      <Republic>17 June 1944 ; 81 years ago ( 17 June 1944 )</Republic>
+    </History>
+    <Area>
+      <Total>103,125 km 2 (39,817 sq mi) ( 106th )</Total>
+      <Water____>2.07 (as of 2015)</Water____>
+    </Area>
+    <Population>
+      <n_2025_census>394,530 ( 172nd )</n_2025_census>
+      <Density>3.78/km 2 (9.8/sq mi) ( 235th )</Density>
+      <Date_format>dd.mm.yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$31.076 billion ( 153rd )</Total>
+        <Per_capita>$81,220 ( 14th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$35.310 billion ( 105th )</Total>
+        <Per_capita>$90,280 ( 5th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2018_>23.2 low inequality</Gini__2018_>
+      <HDI__2023_>0.972 very high ( 1st )</HDI__2023_>
+      <Currency>Icelandic króna ( ISK )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC ±00:00 ( GMT / WET )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+354</Calling_code>
+      <ISO_3166_code>IS</ISO_3166_code>
+      <Internet_TLD>.is</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

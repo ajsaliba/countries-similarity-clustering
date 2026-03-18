@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Palestine</country>
+  <url>https://en.wikipedia.org/wiki/Palestine</url>
+  <infobox>
+    <General>
+      <Status>UN observer state under Israeli occupation Recognized by 157 UN member states</Status>
+      <Capital_Administrative_center>Jerusalem ( limited recognition ) Ramallah ( de facto )</Capital_Administrative_center>
+      <Largest_city>Gaza (before 2023), currently in flux</Largest_city>
+      <Official_languages>Arabic</Official_languages>
+      <Ethnic_groups__2007_>
+        <Palestinian_Arabs>91.2%</Palestinian_Arabs>
+        <Israeli_Jews>8.8%</Israeli_Jews>
+      </Ethnic_groups__2007_>
+      <Religion__2020_>
+        <Islam___official__>
+          <percentage>80.73%</percentage>
+          <breakdown>
+            <Sunni>71.21%</Sunni>
+            <Shia>0.09%</Shia>
+            <other>9.42%</other>
+          </breakdown>
+        </Islam___official__>
+        <Judaism>13.07%</Judaism>
+        <Christianity>0.88%</Christianity>
+        <Bah____Faith>0.05%</Bah____Faith>
+        <irreligion>5.27%</irreligion>
+      </Religion__2020_>
+      <Demonym>Palestinian</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary provisional semi-presidential republic</Government>
+      <President>Mahmoud Abbas</President>
+      <Vice_President>Hussein al-Sheikh</Vice_President>
+      <Prime_Minister>Mohammad Mustafa</Prime_Minister>
+      <Speaker_of_the_Parliament>Aziz Dweik</Speaker_of_the_Parliament>
+      <Legislature>Legislative Council</Legislature>
+    </Government>
+    <History>
+      <Declaration_of_Independence>15 November 1988</Declaration_of_Independence>
+      <Sovereignty_dispute_with_Israel>Ongoing</Sovereignty_dispute_with_Israel>
+    </History>
+    <Area>
+      <Total>6,020 km 2 (2,320 sq mi) ( 163rd )</Total>
+      <Water____>3.5</Water____>
+      <West_Bank>5,655 km 2</West_Bank>
+      <Gaza_Strip>365 km 2</Gaza_Strip>
+    </Area>
+    <Population>
+      <n_2023_estimate>5,483,450 ( 121st )</n_2023_estimate>
+      <Density>731/km 2 (1,893.3/sq mi)</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2023 estimate</Details>
+        <Total>$36.391 billion ( 138th )</Total>
+        <Per_capita>$6,642 ( 140th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2023 estimate</Details>
+        <Total>$18.109 billion ( 121st )</Total>
+        <Per_capita>$3,464 ( 131st )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2016_>33.7 medium inequality</Gini__2016_>
+      <HDI__2023_>0.674 medium ( 133rd )</HDI__2023_>
+      <Currency>Israeli new shekel Jordanian dinar Egyptian pound</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2 ( Palestine Standard Time )</Time_zone>
+      <Summer___DST__>UTC +3 ( Palestine Summer Time )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+970 , +972</Calling_code>
+      <ISO_3166_code>PS</ISO_3166_code>
+      <Internet_TLD>.ps</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

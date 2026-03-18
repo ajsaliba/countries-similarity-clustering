@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Bhutan</country>
+  <url>https://en.wikipedia.org/wiki/Bhutan</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Thimphu 27°28.0′N 89°38.5′E ﻿ / ﻿ 27.4667°N 89.6417°E ﻿ / 27.4667; 89.6417</Capital_and_largest_city>
+      <Official_languages>Dzongkha</Official_languages>
+      <Religion__2020_>
+        <Buddhism>74.7%</Buddhism>
+        <Hinduism>22.6%</Hinduism>
+        <Bon>1.9%</Bon>
+        <others>0.8%</others>
+      </Religion__2020_>
+      <Demonym>Bhutanese</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary semi-constitutional monarchy</Government>
+      <Dragon_King>Jigme Khesar Namgyel Wangchuck</Dragon_King>
+      <Prime_Minister>Tshering Tobgay</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>National Council</Upper_house>
+      <Lower_house>National Assembly</Lower_house>
+    </Government>
+    <History>
+      <Unification>1616–1634</Unification>
+      <Druk_Desi_period>1650–1905</Druk_Desi_period>
+      <Ascension_of_the_Wangchuk_dynasty>17 December 1907</Ascension_of_the_Wangchuk_dynasty>
+      <Bhutan_India_treaty>8 August 1949</Bhutan_India_treaty>
+      <Constitutional_monarchy>18 July 2008</Constitutional_monarchy>
+    </History>
+    <Area>
+      <Total>38,394 km 2 (14,824 sq mi) ( 133rd )</Total>
+      <Water____>1.1</Water____>
+    </Area>
+    <Population>
+      <n_2021_estimate>777,486 ( 159th )</n_2021_estimate>
+      <n_2022_census>727,145</n_2022_census>
+      <Density>20.5/km 2 (53.1/sq mi) ( 205th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$14.110 billion ( 160th )</Total>
+        <Per_capita>$17,774 ( 102nd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$3.420 billion ( 166th )</Total>
+        <Per_capita>$4,300 ( 127th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>28.5 low inequality</Gini__2022_>
+      <HDI__2023_>0.698 medium ( 125th )</HDI__2023_>
+      <Currency>Ngultrum (BTN) Indian rupee (₹)</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +06 ( BTT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+975</Calling_code>
+      <ISO_3166_code>BT</ISO_3166_code>
+      <Internet_TLD>.bt</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

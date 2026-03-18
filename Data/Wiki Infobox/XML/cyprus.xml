@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Cyprus</country>
+  <url>https://en.wikipedia.org/wiki/Cyprus</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Nicosia 35°10′N 33°22′E ﻿ / ﻿ 35.167°N 33.367°E ﻿ / 35.167; 33.367</Capital_and_largest_city>
+      <Official_languages>Greek Turkish</Official_languages>
+      <Minority_languages>Armenian Cypriot Arabic</Minority_languages>
+      <Vernaculars>Cypriot Greek Cypriot Turkish</Vernaculars>
+      <Ethnic_groups>Greek Cypriots Turkish Cypriots Armenian Cypriots Maronite Cypriots</Ethnic_groups>
+      <Religion__2020__including_Northern_Cyprus_>
+        <Christianity>72.3%</Christianity>
+        <Islam>25%</Islam>
+        <no_religion>1.9%</no_religion>
+        <other>0.8%</other>
+      </Religion__2020__including_Northern_Cyprus_>
+      <Demonym>Cypriot</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+      <President>Nikos Christodoulides</President>
+      <Vice_President>Vacant</Vice_President>
+      <President_of_the_House_of_Representatives>Annita Demetriou</President_of_the_House_of_Representatives>
+      <Legislature>House of Representatives</Legislature>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <London_Z_rich_Agreements>19 February 1959</London_Z_rich_Agreements>
+    </Independence_from_the_United_Kingdom>
+    <History>
+      <Independence_proclaimed>16 August 1960</Independence_proclaimed>
+      <Independence_Day>1 October 1960</Independence_Day>
+    </History>
+    <Area>
+      <Total>9,251 km 2 (3,572 sq mi) ( 162nd )</Total>
+      <Water____>0.11</Water____>
+    </Area>
+    <Population>
+      <n_2021_census>923,272</n_2021_census>
+      <Density>123.4 /km 2 (319.6/sq mi) ( 82nd )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$61.501 billion ( 126th )</Total>
+        <Per_capita>$65,304 ( 28th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$39.943 billion ( 102nd )</Total>
+        <Per_capita>$42,413 ( 28th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>29.4 low inequality</Gini__2022_>
+      <HDI__2023_>0.913 very high ( 32nd )</HDI__2023_>
+      <Currency>Euro ( € ) ( EUR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +02:00 ( EET )</Time_zone>
+      <Summer___DST__>UTC +03:00 ( EEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+357</Calling_code>
+      <ISO_3166_code>CY</ISO_3166_code>
+      <Internet_TLD>.cy</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

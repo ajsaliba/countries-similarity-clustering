@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Indonesia</country>
+  <url>https://en.wikipedia.org/wiki/Indonesia</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Jakarta 6°10′S 106°49′E ﻿ / ﻿ 6.167°S 106.817°E ﻿ / -6.167; 106.817</Capital_and_largest_city>
+      <Official_languages>Indonesian</Official_languages>
+      <Indigenous_languages>718 languages</Indigenous_languages>
+      <Writing_system>Latin (predominantly) Regional Balinese Batak Javanese Jawi - Pegon Lontara Makasar Sundanese Ulu</Writing_system>
+      <Ethnic_groups__2010_>
+        <Javanese>40.2%</Javanese>
+        <Sundanese>15.5%</Sundanese>
+        <Malay>3.7%</Malay>
+        <Batak>3.6%</Batak>
+        <Madurese>3%</Madurese>
+        <others___600__ethnic_groups__>34%</others___600__ethnic_groups__>
+      </Ethnic_groups__2010_>
+      <Religion__2024_>
+        <Islam>87.1%</Islam>
+        <Christianity>
+          <percentage>10.45%</percentage>
+          <breakdown>
+            <Protestantism>7.38%</Protestantism>
+            <Catholicism>3.07%</Catholicism>
+          </breakdown>
+        </Christianity>
+        <Hinduism>1.7%</Hinduism>
+        <Buddhism___Folk___Confucianism___and_others>0.8%</Buddhism___Folk___Confucianism___and_others>
+      </Religion__2024_>
+      <Demonym>Indonesian</Demonym>
+      <Supreme_Court>Sunarto</Supreme_Court>
+      <Recognised>27 December 1949</Recognised>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+      <President>Prabowo Subianto</President>
+      <Vice_President>Gibran Rakabuming Raka</Vice_President>
+      <House_Speaker>Puan Maharani</House_Speaker>
+      <Legislature>People's Consultative Assembly (MPR)</Legislature>
+      <Upper_house>Regional Representative Council (DPD)</Upper_house>
+      <Lower_house>House of Representatives (DPR)</Lower_house>
+    </Government>
+    <History>
+      <Constitutional_Court>Suhartoyo</Constitutional_Court>
+    </History>
+    <Independence_from_the_Netherlands>
+      <Proclaimed>17 August 1945</Proclaimed>
+    </Independence_from_the_Netherlands>
+    <Area>
+      <Total>1,904,569 km 2 (735,358 sq mi) ( 14th )</Total>
+      <Water____>4.85</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>288.315.089 ( 4th )</n_2025_estimate>
+      <n_2020_census>270,203,917</n_2020_census>
+      <Density>143/km 2 (370.4/sq mi) ( 88th )</Density>
+      <Date_format>DD/MM/YYYY</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$5.009 trillion ( 7th )</Total>
+        <Per_capita>$17,612 ( 103rd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$1.430 trillion ( 17th )</Total>
+        <Per_capita>$5,027 ( 116th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2024_>37.9 medium inequality</Gini__2024_>
+      <HDI__2023_>0.728 high ( 113th )</HDI__2023_>
+      <Currency>Indonesian rupiah (Rp) ( IDR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +7, +8, +9 ( WIB, WITA, WIT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+62</Calling_code>
+      <ISO_3166_code>ID</ISO_3166_code>
+      <Internet_TLD>.id</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

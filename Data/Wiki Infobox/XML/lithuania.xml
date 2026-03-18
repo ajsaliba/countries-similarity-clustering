@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Lithuania</country>
+  <url>https://en.wikipedia.org/wiki/Lithuania</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Vilnius 54°41′N 25°19′E ﻿ / ﻿ 54.683°N 25.317°E ﻿ / 54.683; 25.317</Capital_and_largest_city>
+      <Official_languages>Lithuanian</Official_languages>
+      <Ethnic_groups__2025__>
+        <Lithuanians>82.3%</Lithuanians>
+        <Poles>6.2%</Poles>
+        <Russians>5%</Russians>
+        <Ukrainians>2.2%</Ukrainians>
+        <Belarusians>2.1%</Belarusians>
+        <others>2.2%</others>
+      </Ethnic_groups__2025__>
+      <Religion__2021__>
+        <Christianity>
+          <percentage>79.4%</percentage>
+          <breakdown>
+            <Catholicism>74.2%</Catholicism>
+            <other_Christian>5.2%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>6.1%</no_religion>
+        <others>0.8%</others>
+        <no_answer>13.7%</no_answer>
+      </Religion__2021__>
+      <Demonym>Lithuanian</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic</Government>
+      <President>Gitanas Nausėda</President>
+      <Prime_Minister>Inga Ruginienė</Prime_Minister>
+      <Seimas_Speaker>Juozas Olekas</Seimas_Speaker>
+      <Legislature>Seimas</Legislature>
+    </Government>
+    <History>
+      <First_mentioned>9 March 1009</First_mentioned>
+      <Grand_Duchy>1236</Grand_Duchy>
+      <Coronation_of_Mindaugas>6 July 1253</Coronation_of_Mindaugas>
+      <Union_with_Poland>2 February 1386</Union_with_Poland>
+      <Commonwealth_created>1 July 1569</Commonwealth_created>
+      <Partitioned>24 October 1795</Partitioned>
+      <Independence_reinstated>16 February 1918</Independence_reinstated>
+      <Soviet_occupation>16 June 1940</Soviet_occupation>
+      <Independence_restored>11 March 1990</Independence_restored>
+    </History>
+    <Area>
+      <Total>65,300 km 2 (25,200 sq mi) ( 121st )</Total>
+      <Water____>1.98 (2015)</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>2,897,430 ( 137th )</n_2025_estimate>
+      <Density>46/km 2 (119.1/sq mi) ( 174th )</Density>
+      <Date_format>yyyy - mm - dd</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$165.23 billion ( 88th )</Total>
+        <Per_capita>$57,201 ( 39th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$95.27 billion ( 78th )</Total>
+        <Per_capita>$32,982 ( 40th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>35.7 medium inequality</Gini__2023_>
+      <HDI__2023_>0.895 very high ( 39th )</HDI__2023_>
+      <Currency>Euro ( € ) ( EUR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2 ( EET )</Time_zone>
+      <Summer___DST__>UTC +3 ( EEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+370</Calling_code>
+      <ISO_3166_code>LT</ISO_3166_code>
+      <Internet_TLD>.lt</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

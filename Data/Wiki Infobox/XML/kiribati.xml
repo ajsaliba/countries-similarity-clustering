@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Kiribati</country>
+  <url>https://en.wikipedia.org/wiki/Kiribati</url>
+  <infobox>
+    <General>
+      <Capital>Tarawa 1°28′N 173°2′E ﻿ / ﻿ 1.467°N 173.033°E ﻿ / 1.467; 173.033</Capital>
+      <Official_languages>English Gilbertese</Official_languages>
+      <Ethnic_groups__2020_census_>
+        <Gilbertese>95.7%</Gilbertese>
+        <other>4.3%</other>
+      </Ethnic_groups__2020_census_>
+      <Religion__2020_census_>
+        <Christianity>
+          <percentage>96.2%</percentage>
+          <breakdown>
+            <Catholic_Church>58.9%</Catholic_Church>
+            <Uniting_Church>21.2%</Uniting_Church>
+            <other_Christian>16.1%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <Bah____Faith>2.1%</Bah____Faith>
+        <other___none>1.7%</other___none>
+      </Religion__2020_census_>
+      <Demonym>I-Kiribati</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic with an executive president</Government>
+      <President>Taneti Maamau</President>
+      <Vice_President>Teuea Toatu</Vice_President>
+      <Speaker_of_the_House_of_Assembly>Willie Tokataake</Speaker_of_the_House_of_Assembly>
+      <Legislature>House of Assembly</Legislature>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <Granted>12 July 1979</Granted>
+      <Treaty_of_Tarawa>20 September 1979</Treaty_of_Tarawa>
+    </Independence_from_the_United_Kingdom>
+    <Area>
+      <Total>811.19 km 2 (313.20 sq mi) ( 172nd )</Total>
+    </Area>
+    <Population>
+      <n_2024_estimate>116,545 ( 192nd )</n_2024_estimate>
+      <n_2024_census>119,438</n_2024_census>
+      <Density>149.64/km 2 (387.6/sq mi)</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2023 estimate</Details>
+        <Total>$297 million</Total>
+        <Per_capita>$2,381</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2023 estimate</Details>
+        <Total>$248 million</Total>
+        <Per_capita>$1,989</Per_capita>
+      </GDP__nominal_>
+      <Gini__2019_>27.8 low inequality</Gini__2019_>
+      <HDI__2023_>0.644 medium ( 140th )</HDI__2023_>
+      <Currency>Australian dollar ($) ( AUD )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +12 , +13 , +14</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+686</Calling_code>
+      <ISO_3166_code>KI</ISO_3166_code>
+      <Internet_TLD>.ki</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

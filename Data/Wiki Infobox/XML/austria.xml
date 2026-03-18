@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Austria</country>
+  <url>https://en.wikipedia.org/wiki/Austria</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Vienna 48°12′N 16°21′E ﻿ / ﻿ 48.200°N 16.350°E ﻿ / 48.200; 16.350</Capital_and_largest_city>
+      <Official_language>German</Official_language>
+      <Official_regional_languages>Hungarian Slovene Burgenland Croatian</Official_regional_languages>
+      <Ethnic_groups__2024_>
+        <Austrians>72.2%</Austrians>
+        <other>27.8%</other>
+      </Ethnic_groups__2024_>
+      <Religion__2021_>
+        <Christianity>
+          <percentage>68.2%</percentage>
+          <breakdown>
+            <Catholicism>55.2%</Catholicism>
+            <Orthodoxy>4.9%</Orthodoxy>
+            <Protestantism>3.8%</Protestantism>
+            <other_Christian>4.3%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>22.4%</no_religion>
+        <Islam>8.3%</Islam>
+        <other>1.1%</other>
+      </Religion__2021_>
+      <Demonym>Austrian</Demonym>
+      <Chancellor>Christian Stocker</Chancellor>
+    </General>
+    <Government>
+      <Government>Federal semi-presidential republic</Government>
+      <President>Alexander Van der Bellen</President>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Federal Council</Upper_house>
+      <Lower_house>National Council</Lower_house>
+    </Government>
+    <History>
+      <Margraviate___oldest_naming__>1 November 996</Margraviate___oldest_naming__>
+      <Duchy>17 September 1156</Duchy>
+      <Archduchy>6 January 1453</Archduchy>
+      <Imperial_circle>1512</Imperial_circle>
+      <Empire>11 August 1804</Empire>
+      <Austria_Hungary>30 March 1867</Austria_Hungary>
+      <First_Republic>10 September 1919</First_Republic>
+      <Federal_State>1 May 1934</Federal_State>
+      <Anschluss>13 March 1938</Anschluss>
+      <Second_Republic>27 April 1945</Second_Republic>
+      <State_Treaty>27 July 1955</State_Treaty>
+    </History>
+    <Area>
+      <Total>83,879 km 2 (32,386 sq mi) ( 113th )</Total>
+      <Water____>0.84 (2015)</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>9,110,079 ( 99th )</n_2024_estimate>
+      <Density>107.6/km 2 (278.7/sq mi) ( 106th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$682.86 billion ( 46th )</Total>
+        <Per_capita>$74,370 ( 18th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$534.30 billion ( 30th )</Total>
+        <Per_capita>$58,190 ( 13th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2023_>28.1 low inequality</Gini__2023_>
+      <HDI__2023_>0.930 very high ( 22nd )</HDI__2023_>
+      <Currency>Euro ( € ) ( EUR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 ( CET )</Time_zone>
+      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+43</Calling_code>
+      <ISO_3166_code>AT</ISO_3166_code>
+      <Internet_TLD>.at</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

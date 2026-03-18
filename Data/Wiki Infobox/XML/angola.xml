@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Angola</country>
+  <url>https://en.wikipedia.org/wiki/Angola</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Luanda 8°50′S 13°20′E ﻿ / ﻿ 8.833°S 13.333°E ﻿ / -8.833; 13.333</Capital_and_largest_city>
+      <Official_languages>Portuguese</Official_languages>
+      <National_languages>Chokwe , Kimbundu , Kikongo , Oshiwambo , Luchazi , Umbundu</National_languages>
+      <Ethnic_groups__2021_>
+        <Ovimbundu>37%</Ovimbundu>
+        <Ambundu>25%</Ambundu>
+        <Bakongo>13%</Bakongo>
+        <other_African>21%</other_African>
+        <Mesti_o__mixed_European_and_African_>2%</Mesti_o__mixed_European_and_African_>
+        <Asian>2%</Asian>
+        <European>1%</European>
+      </Ethnic_groups__2021_>
+      <Religion__2024_>
+        <Christianity>
+          <percentage>79.1%</percentage>
+          <breakdown>
+            <Catholic>44.2%</Catholic>
+            <Protestant>34.9%</Protestant>
+          </breakdown>
+        </Christianity>
+        <no_religion>11.5%</no_religion>
+        <other>9.4%</other>
+      </Religion__2024_>
+      <Demonym>Angolan</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+      <President>João Lourenço</President>
+      <Vice_President>Esperança da Costa</Vice_President>
+      <President_of_the_National_Assembly>Adão Correia de Almeida</President_of_the_National_Assembly>
+      <Chief_Justice>Ademilson Loboto</Chief_Justice>
+      <Legislature>National Assembly</Legislature>
+    </Government>
+    <Independence_from_Portugal>
+      <Granted>11 November 1975</Granted>
+      <United_Nations_full_membership>22 November 1976</United_Nations_full_membership>
+    </Independence_from_Portugal>
+    <History>
+      <Current_constitution>21 January 2010</Current_constitution>
+    </History>
+    <Area>
+      <Total>1,246,700 km 2 (481,400 sq mi) ( 22nd )</Total>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <n_2024_census>36,604,681 ( 41st )</n_2024_census>
+      <Density>29.4/km 2 (76.1/sq mi) ( 189th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$402.160 billion ( 58th )</Total>
+        <Per_capita>$10,230 ( 125th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$113.34 billion ( 68th )</Total>
+        <Per_capita>$2,880 ( 137th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2018_>51.3 high inequality</Gini__2018_>
+      <HDI__2023_>0.616 medium ( 148th )</HDI__2023_>
+      <Currency>Angolan kwanza ( AOA )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +1 ( WAT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+244</Calling_code>
+      <ISO_3166_code>AO</ISO_3166_code>
+      <Internet_TLD>.ao</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

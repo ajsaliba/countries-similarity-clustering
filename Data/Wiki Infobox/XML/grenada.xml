@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Grenada</country>
+  <url>https://en.wikipedia.org/wiki/Grenada</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>St. George's 12°3′14″N 61°44′43″W ﻿ / ﻿ 12.05389°N 61.74528°W ﻿ / 12.05389; -61.74528 ﻿ ( Grenada House of Parliament )</Capital_and_largest_city>
+      <Official_languages>English</Official_languages>
+      <Ethnic_groups__2020__>
+        <African>82.4%</African>
+        <Mixed>13.3%</Mixed>
+        <Indian>2.2%</Indian>
+        <other>1.3%</other>
+        <unspecified>0.9%</unspecified>
+      </Ethnic_groups__2020__>
+      <Religion__2020_>
+        <Christianity>
+          <percentage>96.6%</percentage>
+          <breakdown>
+            <Protestantism>48.8%</Protestantism>
+            <Catholicism>39.2%</Catholicism>
+            <other_Christian>8.6%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <Hinduism>1.3%</Hinduism>
+        <no_religion>
+          <percentage>1%</percentage>
+          <breakdown>
+            <Rastafari>
+              <percentage>0.7%</percentage>
+              <breakdown>
+                <other>0.4%</other>
+              </breakdown>
+            </Rastafari>
+          </breakdown>
+        </no_religion>
+      </Religion__2020_>
+      <Demonym>Grenadian</Demonym>
+      <Monarch>Charles III</Monarch>
+      <Governor_General>Cécile La Grenade</Governor_General>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Prime_Minister>Dickon Mitchell</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>House of Representatives</Lower_house>
+      <Independence_from_the_United_Kingdom>7 February 1974</Independence_from_the_United_Kingdom>
+    </Government>
+    <History>
+      <Associated_State>3 March 1967</Associated_State>
+      <Grenadian_Revolution>13 March 1979</Grenadian_Revolution>
+      <Constitution_Restoration>4 December 1984</Constitution_Restoration>
+    </History>
+    <Area>
+      <Total>344 km 2 (133 sq mi) ( 185th )</Total>
+      <Water____>1.6</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>114,621 ( 180th )</n_2024_estimate>
+      <Density>333/km 2 (862.5/sq mi) ( 38th )</Density>
+      <Date_format>dd/mm/yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2023 estimate</Details>
+        <Total>$2.3 billion</Total>
+        <Per_capita>$20,195</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2023 estimate</Details>
+        <Total>$1.3 billion</Total>
+        <Per_capita>$11,437</Per_capita>
+      </GDP__nominal_>
+      <Gini__2018_>43.8 medium inequality</Gini__2018_>
+      <HDI__2023_>0.791 high ( 80th )</HDI__2023_>
+      <Currency>Eastern Caribbean dollar ( XCD )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC −4 ( AST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+1</Calling_code>
+      <ISO_3166_code>GD</ISO_3166_code>
+      <Internet_TLD>.gd</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

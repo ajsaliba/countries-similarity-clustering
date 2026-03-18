@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Comoros</country>
+  <url>https://en.wikipedia.org/wiki/Comoros</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Moroni 11°41′S 43°16′E ﻿ / ﻿ 11.69°S 43.26°E ﻿ / -11.69; 43.26</Capital_and_largest_city>
+      <Official_languages>Comorian French Arabic</Official_languages>
+      <Ethnic_groups__2000_>
+        <Comorians>97.1%</Comorians>
+        <Makua>1.6%</Makua>
+        <Others>1.3%</Others>
+      </Ethnic_groups__2000_>
+      <Demonyms>Comorian Comorese</Demonyms>
+    </General>
+    <Government>
+      <Government>Federal presidential republic</Government>
+      <President>Azali Assoumani</President>
+      <President_of_the_Assembly>Moustadroine Abdou</President_of_the_Assembly>
+      <Legislature>Assembly of the Union</Legislature>
+    </Government>
+    <History>
+      <Discovery_by_Portuguese_explorers>1503</Discovery_by_Portuguese_explorers>
+      <Ngazidja___Ndzuwani___Mwali_under_French_rule>1886</Ngazidja___Ndzuwani___Mwali_under_French_rule>
+      <Protectorate_of_the_Comoros>6 September 1887</Protectorate_of_the_Comoros>
+      <Territory_under_French_Madagascar>9 April 1908</Territory_under_French_Madagascar>
+      <Overseas_territory>27 October 1946</Overseas_territory>
+      <State_of_Comoros>22 December 1961</State_of_Comoros>
+      <Independence_from_France>6 July 1975</Independence_from_France>
+      <Federal_Islamic_Republic_of_Comoros>1 October 1978</Federal_Islamic_Republic_of_Comoros>
+      <Union_of_the_Comoros>23 December 2001</Union_of_the_Comoros>
+      <Current_constitution>17 May 2009</Current_constitution>
+    </History>
+    <Area>
+      <Total>2,035 km 2 (786 sq mi) ( 170th )</Total>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>883,075 ( 159th )</n_2024_estimate>
+      <Density>457/km 2 (1,183.6/sq mi) ( 27th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2023 estimate</Details>
+        <Total>$3.432 billion</Total>
+        <Per_capita>$3,463</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2023 estimate</Details>
+        <Total>$1.364 billion</Total>
+        <Per_capita>$1,377</Per_capita>
+      </GDP__nominal_>
+      <Gini__2014_>45.3 medium inequality</Gini__2014_>
+      <HDI__2023_>0.603 medium ( 152nd )</HDI__2023_>
+      <Currency>Comorian franc ( KMF )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +3 ( EAT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+269</Calling_code>
+      <ISO_3166_code>KM</ISO_3166_code>
+      <Internet_TLD>.km</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Guinea</country>
+  <url>https://en.wikipedia.org/wiki/Guinea</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Conakry 9°31′N 13°42′W ﻿ / ﻿ 9.517°N 13.700°W ﻿ / 9.517; -13.700</Capital_and_largest_city>
+      <Official_languages>French</Official_languages>
+      <Spoken_languages>List: Guinea-Creole English French Arabic Portuguese Fula Malinké ( N'Ko ) Susu Kissi Kpelle Toma Badyara Baga Bambara Bassari Dan Dyula Landoma Limba Maninka Mano Pular Sua Wamey Yalunka Zialo</Spoken_languages>
+      <Ethnic_groups__2018_est__>
+        <Fula>33.4%</Fula>
+        <Mandinka>29.4%</Mandinka>
+        <Susu>21.2%</Susu>
+        <Kpelle>7.8%</Kpelle>
+        <Kissi>6.2%</Kissi>
+        <Loma>1.6%</Loma>
+        <others>0.4%</others>
+      </Ethnic_groups__2018_est__>
+      <Religion__2022_>
+        <Islam>85.2%</Islam>
+        <Christianity>13.4%</Christianity>
+        <animism>0.2%</animism>
+        <none>1.2%</none>
+      </Religion__2022_>
+      <Demonym>Guinean</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic under a dictatorship</Government>
+      <President>Mamady Doumbouya</President>
+      <Prime_Minister>Bah Oury</Prime_Minister>
+      <Legislature>National Council of the Transition</Legislature>
+    </Government>
+    <Independence>
+      <from_France>2 October 1958</from_France>
+      <Republic>2 October 1958</Republic>
+      <Second_Republic_Day>3 April 1984</Second_Republic_Day>
+      <n_2021_Guinean_coup_d__tat>5 September 2021</n_2021_Guinean_coup_d__tat>
+    </Independence>
+    <History>
+      <n_4th_constitution>2 October 1958</n_4th_constitution>
+    </History>
+    <Area>
+      <Total>245,857 km 2 (94,926 sq mi) ( 77th )</Total>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>13,986,179 ( 75th )</n_2024_estimate>
+      <Density>40.9/km 2 (105.9/sq mi) ( 164th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$75.050 billion ( 111th )</Total>
+        <Per_capita>$4,075 ( 155th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$30.090 billion ( 110th )</Total>
+        <Per_capita>$1,670 ( 151st )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2012_>33.7 medium inequality</Gini__2012_>
+      <HDI__2023_>0.500 low ( 181st )</HDI__2023_>
+      <Currency>Guinean franc ( GNF )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC ±00:00 ( GMT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+224</Calling_code>
+      <ISO_3166_code>GN</ISO_3166_code>
+      <Internet_TLD>.gn</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

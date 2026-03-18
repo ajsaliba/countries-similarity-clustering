@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Libya</country>
+  <url>https://en.wikipedia.org/wiki/Libya</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Tripoli 32°52′N 13°11′E ﻿ / ﻿ 32.867°N 13.183°E ﻿ / 32.867; 13.183</Capital_and_largest_city>
+      <Official_languages>Arabic</Official_languages>
+      <Local_vernacular>Libyan Arabic</Local_vernacular>
+      <Foreign_languages>Italian and English</Foreign_languages>
+      <Ethnic_groups__1999_>
+        <Arabs>92%</Arabs>
+        <Berbers>5%</Berbers>
+        <others>3%</others>
+      </Ethnic_groups__1999_>
+      <Religion__2020_>
+        <Islam___official__>96.6%</Islam___official__>
+        <Christianity>2.7%</Christianity>
+        <others>0.7%</others>
+      </Religion__2020_>
+      <Demonym>Libyan</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary republic under a provisional government ( GNU )</Government>
+      <Chairman_of_the_Presidential_Council>Mohamed al-Menfi</Chairman_of_the_Presidential_Council>
+      <Vice_Chairman_of_the_Presidential_Council>Musa Al-Koni</Vice_Chairman_of_the_Presidential_Council>
+      <Prime_Minister>Abdul Hamid Dbeibeh</Prime_Minister>
+      <Speaker_of_the_House_of_Representatives>Aguila Saleh Issa</Speaker_of_the_House_of_Representatives>
+      <Legislature>High Council of State House of Representatives</Legislature>
+      <Kingdom_of_Libya>24 December 1951</Kingdom_of_Libya>
+    </Government>
+    <Establishment>
+      <Ottoman_Tripolitania>1551</Ottoman_Tripolitania>
+      <Italian_invasion_of_Libya>1911</Italian_invasion_of_Libya>
+      <Libyan_resistance_movement>1911–1951</Libyan_resistance_movement>
+      <Tripolitanian_Republic>16 November 1918</Tripolitanian_Republic>
+      <Coup_d__tat_by_Muammar_Gaddafi>1 September 1969</Coup_d__tat_by_Muammar_Gaddafi>
+      <Great_Socialist_People_s_Libyan_Arab_Jamahiriya>2 March 1977</Great_Socialist_People_s_Libyan_Arab_Jamahiriya>
+      <First_Libyan_Civil_War>17 February 2011</First_Libyan_Civil_War>
+      <NATO_intervention_in_Libya>19 March 2011</NATO_intervention_in_Libya>
+      <End_of_Second_Libyan_Civil_War>23 October 2020</End_of_Second_Libyan_Civil_War>
+    </Establishment>
+    <Area>
+      <Total>1,759,541 km 2 (679,363 sq mi) ( 16th )</Total>
+    </Area>
+    <Population>
+      <n_2024_estimate>7,361,263 ( 103rd )</n_2024_estimate>
+      <Density>4.2/km 2 (10.9/sq mi)</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$123.990 billion ( 96th )</Total>
+        <Per_capita>$17,760 ( 101th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$47.480 billion ( 95th )</Total>
+        <Per_capita>$6,800 ( 102th )</Per_capita>
+      </GDP__nominal_>
+      <HDI__2023_>0.721 high ( 115th )</HDI__2023_>
+      <Currency>Libyan dinar ( LYD )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +2 ( EET )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+218</Calling_code>
+      <ISO_3166_code>LY</ISO_3166_code>
+      <Internet_TLD>.ly ليبيا.</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

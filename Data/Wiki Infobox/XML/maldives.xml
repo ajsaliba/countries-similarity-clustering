@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Maldives</country>
+  <url>https://en.wikipedia.org/wiki/Maldives</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Malé 4°10′31″N 73°30′32″E ﻿ / ﻿ 4.17528°N 73.50889°E ﻿ / 4.17528; 73.50889</Capital_and_largest_city>
+      <Official_language_and_national_language>Dhivehi</Official_language_and_national_language>
+      <Common_language>English</Common_language>
+      <Religion>Sunni Islam ( official )</Religion>
+      <Demonym>Maldivian</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+      <President>Mohamed Muizzu</President>
+      <Vice_President>Hussain Mohamed Latheef</Vice_President>
+      <Speaker>Abdul Raheem Abdulla</Speaker>
+      <Chief_Justice>Abdul Ghanee Mohamed</Chief_Justice>
+      <Legislature>People's Majlis</Legislature>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <Second_Republic>11 November 1968</Second_Republic>
+    </Independence_from_the_United_Kingdom>
+    <History>
+      <Independence_declared>26 July 1965</Independence_declared>
+      <Current_constitution>7 August 2008</Current_constitution>
+    </History>
+    <Area>
+      <Total>298 km 2 (115 sq mi) ( 187th )</Total>
+    </Area>
+    <Population>
+      <n_2024_estimate>601,269</n_2024_estimate>
+      <n_2022_census>515,132 ( 167th )</n_2022_census>
+      <Density>1,728.63/km 2 (4,477.1/sq mi) ( 8th )</Density>
+      <Date_format>dd / mm / yyyy</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2024 estimate</Details>
+        <Total>$13.867 billion ( 157th )</Total>
+        <Per_capita>$34,322 ( 54th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2024 estimate</Details>
+        <Total>$6.984 billion ( 161st )</Total>
+        <Per_capita>$17,287 ( 58th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2024_>31.3 medium inequality</Gini__2024_>
+      <HDI__2023_>0.766 high ( 93rd )</HDI__2023_>
+      <Currency>Maldivian rufiyaa ( MVR )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +5 ( MVT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+960</Calling_code>
+      <ISO_3166_code>MV</ISO_3166_code>
+      <Internet_TLD>.mv</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

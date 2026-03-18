@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Uzbekistan</country>
+  <url>https://en.wikipedia.org/wiki/Uzbekistan</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Tashkent 41°19′N 69°16′E ﻿ / ﻿ 41.317°N 69.267°E ﻿ / 41.317; 69.267</Capital_and_largest_city>
+      <Official_languages>Uzbek</Official_languages>
+      <Recognised_languages>Karakalpak</Recognised_languages>
+      <Ethnic_groups__2021_>
+        <Uzbeks>84.6%</Uzbeks>
+        <Tajiks>4.8%</Tajiks>
+        <Kazakhs>2.3%</Kazakhs>
+        <Karakalpaks>2.2%</Karakalpaks>
+        <Russians>2.1%</Russians>
+        <others>4%</others>
+      </Ethnic_groups__2021_>
+      <Religion__2020_>
+        <Islam>94.78%</Islam>
+        <Irreligion>3.89%</Irreligion>
+        <Christianity>1.04%</Christianity>
+        <other_religions>0.27%</other_religions>
+      </Religion__2020_>
+      <Demonym>Uzbek • Uzbekistani</Demonym>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic</Government>
+      <President>Shavkat Mirziyoyev</President>
+      <Prime_Minister>Abdulla Aripov</Prime_Minister>
+      <Legislature>Oliy Majlis</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>Legislative Chamber</Lower_house>
+    </Government>
+    <History>
+      <Uzbek_khanates>1500–1920</Uzbek_khanates>
+      <Turkestan_ASSR>30 April 1918</Turkestan_ASSR>
+      <Uzbek_SSR>27 October 1924</Uzbek_SSR>
+      <Republic>1 September 1991</Republic>
+      <Current_constitution>8 December 1992</Current_constitution>
+    </History>
+    <Area>
+      <Total>448,978 km 2 (173,351 sq mi) ( 55th )</Total>
+      <Water____>4.9</Water____>
+    </Area>
+    <Population>
+      <n_2026_estimate>38,236,704 ( 38th )</n_2026_estimate>
+      <Density>80.2/km 2 (207.7/sq mi) ( 138th )</Density>
+      <Date_format>dd/mm yyyy c</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$507.8 billion ( 53th )</Total>
+        <Per_capita>$12,596 ( 114th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$140.480 billion ( 60th )</Total>
+        <Per_capita>$3,945 ( 134th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2022_>31.2 medium inequality</Gini__2022_>
+      <HDI__2023_>0.740 high ( 107th )</HDI__2023_>
+      <Currency>Uzbek sum ( UZS )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +5 ( UZT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+998</Calling_code>
+      <ISO_3166_code>UZ</ISO_3166_code>
+      <Internet_TLD>.uz</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>United Arab Emirates</country>
+  <url>https://en.wikipedia.org/wiki/United_Arab_Emirates</url>
+  <infobox>
+    <General>
+      <Capital>Abu Dhabi 24°28′N 54°22′E ﻿ / ﻿ 24.467°N 54.367°E ﻿ / 24.467; 54.367</Capital>
+      <Largest_city>Dubai 25°15′N 55°18′E ﻿ / ﻿ 25.250°N 55.300°E ﻿ / 25.250; 55.300</Largest_city>
+      <Official_languages>Arabic</Official_languages>
+      <Common_languages>Emirati Arabic English</Common_languages>
+      <Ethnic_groups__2015_>
+        <South_Asian>59.4%</South_Asian>
+        <Indian>38.2%</Indian>
+        <Bangladeshi>9.5%</Bangladeshi>
+        <Pakistani>9.4%</Pakistani>
+        <other>12.4%</other>
+        <Emirati_Arab>12%</Emirati_Arab>
+        <Egyptian>10.2%</Egyptian>
+        <Filipino>6.1%</Filipino>
+      </Ethnic_groups__2015_>
+      <Religion__2020_>
+        <Islam___official__>
+          <percentage>74.5%</percentage>
+          <breakdown>
+            <Sunni_Islam>63.3%</Sunni_Islam>
+            <Shia_Islam>6.7%</Shia_Islam>
+            <other>4.4%</other>
+          </breakdown>
+        </Islam___official__>
+        <Christianity>12.9%</Christianity>
+        <Hinduism>
+          <percentage>6.2%</percentage>
+          <breakdown>
+            <Buddhism>
+              <percentage>3.2%</percentage>
+              <breakdown>
+                <Agnosticism>1.3%</Agnosticism>
+                <other>1.9%</other>
+              </breakdown>
+            </Buddhism>
+          </breakdown>
+        </Hinduism>
+      </Religion__2020_>
+      <Demonym>Emirati</Demonym>
+    </General>
+    <Government>
+      <Government>Federal semi-presidential elective semi-constitutional monarchy</Government>
+      <President>Mohamed bin Zayed Al Nahyan</President>
+      <Vice_Presidents>Mohammed bin Rashid Al Maktoum Mansour bin Zayed Al Nahyan</Vice_Presidents>
+      <Prime_Minister>Mohammed bin Rashid Al Maktoum</Prime_Minister>
+      <Legislature>Federal Supreme Council</Legislature>
+      <Independence_from_the_United_Kingdom>2 December 1971</Independence_from_the_United_Kingdom>
+    </Government>
+    <Establishment>
+      <British_protectorate_as_part_of_Trucial_States>1820 and 1892</British_protectorate_as_part_of_Trucial_States>
+      <Admission_of_Ras_Al_Khaimah>10 February 1972</Admission_of_Ras_Al_Khaimah>
+    </Establishment>
+    <Area>
+      <Total>83,600 km 2 (32,300 sq mi) ( 114th )</Total>
+      <Water____>Negligible</Water____>
+    </Area>
+    <Population>
+      <n_2024_estimate>11,027,129</n_2024_estimate>
+      <Density>132/km 2 (341.9/sq mi) ( 83rd )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$905.23 billion ( 36th )</Total>
+        <Per_capita>$81,680 ( 13th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$548.60 billion ( 28th )</Total>
+        <Per_capita>$49,550 ( 21st )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2018_>26 low inequality</Gini__2018_>
+      <HDI__2023_>0.940 very high ( 15th )</HDI__2023_>
+      <Currency>UAE dirham ( AED )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +04:00 ( GST )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+971</Calling_code>
+      <ISO_3166_code>AE</ISO_3166_code>
+      <Internet_TLD>.ae امارات.</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

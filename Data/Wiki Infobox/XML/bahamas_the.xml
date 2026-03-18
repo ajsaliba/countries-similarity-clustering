@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Bahamas, The</country>
+  <url>https://en.wikipedia.org/wiki/The_Bahamas</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Nassau 25°04′41″N 77°20′19″W ﻿ / ﻿ 25.07806°N 77.33861°W ﻿ / 25.07806; -77.33861</Capital_and_largest_city>
+      <Official_languages>English</Official_languages>
+      <Ethnic_groups__2020_>
+        <African>90.6%</African>
+        <White>4.7%</White>
+        <mixed>2.1%</mixed>
+        <other>1.9%</other>
+        <unspecified>0.7%</unspecified>
+      </Ethnic_groups__2020_>
+      <Religion__2020_>
+        <Christianity>
+          <percentage>93%</percentage>
+          <breakdown>
+            <Protestantism>75.1%</Protestantism>
+            <other_Christian>17.9%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>4.5%</no_religion>
+        <folk_religions>1.9%</folk_religions>
+        <other>0.6%</other>
+      </Religion__2020_>
+      <Demonym>Bahamian</Demonym>
+      <Monarch>Charles III</Monarch>
+      <Governor_General>Dame Cynthia A. Pratt</Governor_General>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Prime_Minister>Philip Davis</Prime_Minister>
+      <Legislature>Parliament</Legislature>
+      <Upper_house>Senate</Upper_house>
+      <Lower_house>House of Assembly</Lower_house>
+    </Government>
+    <Independence_from_the_United_Kingdom>
+      <Realm>10 July 1973</Realm>
+    </Independence_from_the_United_Kingdom>
+    <Area>
+      <Total>13,943 km 2 (5,383 sq mi) ( 155th )</Total>
+      <Water____>28%</Water____>
+    </Area>
+    <Population>
+      <n_2023_census>412,628</n_2023_census>
+      <Density>25.21/km 2 (65.3/sq mi) ( 181st )</Density>
+      <Date_format>dd.mm.yyyy ( CE )</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2024 estimate</Details>
+        <Total>$18.989 billion ( 153rd )</Total>
+        <Per_capita>$46,524 ( 46th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2024 estimate</Details>
+        <Total>$14.390 billion ( 146th )</Total>
+        <Per_capita>$35,257 ( 29th )</Per_capita>
+      </GDP__nominal_>
+      <HDI__2023_>0.820 very high ( 66th )</HDI__2023_>
+      <Currency>Bahamian dollar (BSD)</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC −05:00 ( EST )</Time_zone>
+      <Summer___DST__>UTC −04:00 ( EDT )</Summer___DST__>
+    </Time>
+    <Codes>
+      <Calling_code>+1</Calling_code>
+      <ISO_3166_code>BS</ISO_3166_code>
+      <Internet_TLD>.bs</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

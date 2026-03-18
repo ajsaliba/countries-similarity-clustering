@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Azerbaijan</country>
+  <url>https://en.wikipedia.org/wiki/Azerbaijan</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Baku 40°23′N 49°50′E ﻿ / ﻿ 40.383°N 49.833°E ﻿ / 40.383; 49.833</Capital_and_largest_city>
+      <Official_languages>Azerbaijani</Official_languages>
+      <Ethnic_groups__2019__>
+        <Azerbaijani>94.8%</Azerbaijani>
+        <Lezgin>1.7%</Lezgin>
+        <Talysh>0.9%</Talysh>
+        <Russian>0.7%</Russian>
+        <others>1.9%</others>
+      </Ethnic_groups__2019__>
+      <Religion__2020_>
+        <Islam>97.3%</Islam>
+        <Christianity__>2.6%</Christianity__>
+        <other_religion__>0.1%</other_religion__>
+        <unaffiliated>0.1%</unaffiliated>
+      </Religion__2020_>
+      <Demonyms>Azerbaijani Azeri</Demonyms>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic under an authoritarian hereditary dictatorship</Government>
+      <President>Ilham Aliyev</President>
+      <Vice_President>Mehriban Aliyeva</Vice_President>
+      <Prime_Minister>Ali Asadov</Prime_Minister>
+      <Legislature>National Assembly</Legislature>
+    </Government>
+    <History>
+      <People_s_Republic>28 May 1918</People_s_Republic>
+      <Soviet_Socialist_Republic>28 April 1920</Soviet_Socialist_Republic>
+      <Independence_from_the_Soviet_Union>18 October 1991 (declared) 26 December 1991 (recognized)</Independence_from_the_Soviet_Union>
+      <Constitution_adopted>12 November 1995</Constitution_adopted>
+    </History>
+    <Area>
+      <Total>86,600 km 2 (33,400 sq mi) ( 112th )</Total>
+      <Water____>1.6</Water____>
+    </Area>
+    <Population>
+      <n_2022_estimate>10,353,296 ( 90th )</n_2022_estimate>
+      <Density>117/km 2 (303.0/sq mi) ( 99th )</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2024 estimate</Details>
+        <Total>$272 billion ( 78th )</Total>
+        <Per_capita>$26,235 ( 88th )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2024 estimate</Details>
+        <Total>79 billion ( 82nd )</Total>
+        <Per_capita>$7,604 ( 90th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2008_>33.7 medium inequality</Gini__2008_>
+      <HDI__2023_>0.789 high ( 81st )</HDI__2023_>
+      <Currency>Manat (₼) ( AZN )</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC +4 ( AZT )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+994</Calling_code>
+      <ISO_3166_code>AZ</ISO_3166_code>
+      <Internet_TLD>.az</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

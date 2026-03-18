@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Venezuela</country>
+  <url>https://en.wikipedia.org/wiki/Venezuela</url>
+  <infobox>
+    <General>
+      <Capital_and_largest_city>Caracas 10°30′22″N 66°54′52″W ﻿ / ﻿ 10.50611°N 66.91444°W ﻿ / 10.50611; -66.91444</Capital_and_largest_city>
+      <Official_languages>Spanish</Official_languages>
+      <Recognized_regional_languages>26 languages Piapoco Baniwa Locono Wayúu Warao Pemón Panare Yek'uana Yukpa Carib Akawaio Japrería Mapoyo Yawarana Hodï Puinave Jivi Barí Uruak Sapé Pumé Piaroa Yanomamö Sanemá Yanam Yeral</Recognized_regional_languages>
+      <Ethnic_groups__2011_>
+        <Moreno>51.6%</Moreno>
+        <White>43.6%</White>
+        <Black>3.6%</Black>
+        <other>1.2%</other>
+      </Ethnic_groups__2011_>
+      <Religion__2020_>
+        <Christianity>
+          <percentage>92.6%</percentage>
+          <breakdown>
+            <Catholicism>80.5%</Catholicism>
+            <Protestantism>11.2%</Protestantism>
+            <other_Christian>0.9%</other_Christian>
+          </breakdown>
+        </Christianity>
+        <no_religion>5.5%</no_religion>
+        <Spiritism___Birongo>1.1%</Spiritism___Birongo>
+        <other>0.8%</other>
+      </Religion__2020_>
+      <Demonym>Venezuelan</Demonym>
+      <Recognized>
+        <Details>29 March 1845</Details>
+        <Current_constitution>20 December 1999</Current_constitution>
+      </Recognized>
+    </General>
+    <Government>
+      <Government>Federal presidential republic under an authoritarian dictatorship</Government>
+      <President>Delcy Rodríguez (acting) Nicolás Maduro (de jure)</President>
+      <Vice_President>Vacant</Vice_President>
+      <Legislature>National Assembly</Legislature>
+    </Government>
+    <Independence_from_Spain>
+      <Declared>5 July 1811</Declared>
+      <from_Gran_Colombia>13 January 1830</from_Gran_Colombia>
+    </Independence_from_Spain>
+    <Area>
+      <Total>916,445 km 2 (353,841 sq mi) ( 32nd )</Total>
+      <Water____>3.2%</Water____>
+    </Area>
+    <Population>
+      <n_2025_estimate>31,800,000 ( 53rd )</n_2025_estimate>
+      <Density>32/km 2 (82.9/sq mi) ( 184th )</Density>
+      <Date_format>dd/mm/yyyy ( CE )</Date_format>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Details>2025 estimate</Details>
+        <Total>$234.340 billion ( 77th )</Total>
+        <Per_capita>$8,790 ( 133rd )</Per_capita>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Details>2025 estimate</Details>
+        <Total>$82.770 billion ( 69th )</Total>
+        <Per_capita>$3,100 ( 127th )</Per_capita>
+      </GDP__nominal_>
+      <Gini__2013_>44.8 medium inequality</Gini__2013_>
+      <HDI__2023_>0.709 high ( 121st )</HDI__2023_>
+      <Currency>Venezuelan bolívar (VED) (official)</Currency>
+    </Economy>
+    <Time>
+      <Time_zone>UTC −04:00 ( VET )</Time_zone>
+    </Time>
+    <Codes>
+      <Calling_code>+58</Calling_code>
+      <ISO_3166_code>VE</ISO_3166_code>
+      <Internet_TLD>.ve</Internet_TLD>
+    </Codes>
+  </infobox>
+</country>

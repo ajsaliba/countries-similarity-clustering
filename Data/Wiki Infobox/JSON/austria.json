@@ -1,0 +1,83 @@
+{
+    "country": "Austria",
+    "url": "https://en.wikipedia.org/wiki/Austria",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Vienna 48°12′N 16°21′E ﻿ / ﻿ 48.200°N 16.350°E ﻿ / 48.200; 16.350",
+            "Official language": "German",
+            "Official regional languages": "Hungarian Slovene Burgenland Croatian",
+            "Ethnic groups (2024)": {
+                "Austrians": "72.2%",
+                "other": "27.8%"
+            },
+            "Religion (2021)": {
+                "Christianity": {
+                    "percentage": "68.2%",
+                    "breakdown": {
+                        "Catholicism": "55.2%",
+                        "Orthodoxy": "4.9%",
+                        "Protestantism": "3.8%",
+                        "other Christian": "4.3%"
+                    }
+                },
+                "no religion": "22.4%",
+                "Islam": "8.3%",
+                "other": "1.1%"
+            },
+            "Demonym": "Austrian",
+            "Chancellor": "Christian Stocker"
+        },
+        "Government": {
+            "Government": "Federal semi-presidential republic",
+            "President": "Alexander Van der Bellen",
+            "Legislature": "Parliament",
+            "Upper house": "Federal Council",
+            "Lower house": "National Council"
+        },
+        "History": {
+            "Margraviate ( oldest naming )": "1 November 996",
+            "Duchy": "17 September 1156",
+            "Archduchy": "6 January 1453",
+            "Imperial circle": "1512",
+            "Empire": "11 August 1804",
+            "Austria-Hungary": "30 March 1867",
+            "First Republic": "10 September 1919",
+            "Federal State": "1 May 1934",
+            "Anschluss": "13 March 1938",
+            "Second Republic": "27 April 1945",
+            "State Treaty": "27 July 1955"
+        },
+        "Area": {
+            "Total": "83,879 km 2 (32,386 sq mi) ( 113th )",
+            "Water (%)": "0.84 (2015)"
+        },
+        "Population": {
+            "2024 estimate": "9,110,079 ( 99th )",
+            "Density": "107.6/km 2 (278.7/sq mi) ( 106th )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$682.86 billion ( 46th )",
+                "Per capita": "$74,370 ( 18th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$534.30 billion ( 30th )",
+                "Per capita": "$58,190 ( 13th )"
+            },
+            "Gini (2023)": "28.1 low inequality",
+            "HDI (2023)": "0.930 very high ( 22nd )",
+            "Currency": "Euro ( € ) ( EUR )"
+        },
+        "Time": {
+            "Time zone": "UTC +1 ( CET )",
+            "Summer ( DST )": "UTC +2 ( CEST )"
+        },
+        "Codes": {
+            "Calling code": "+43",
+            "ISO 3166 code": "AT",
+            "Internet TLD": ".at"
+        }
+    }
+}

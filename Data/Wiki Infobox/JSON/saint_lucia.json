@@ -1,0 +1,71 @@
+{
+    "country": "Saint Lucia",
+    "url": "https://en.wikipedia.org/wiki/Saint_Lucia",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Castries 13°53′00″N 60°58′00″W ﻿ / ﻿ 13.88333°N 60.96667°W ﻿ / 13.88333; -60.96667",
+            "Official languages": "English",
+            "Vernacular languages": "Saint Lucian French Creole",
+            "Ethnic groups (2020 )": {
+                "African": "85.3%",
+                "Mixed": "10.9%",
+                "Indian": "2.2%",
+                "other/ unspecified": "1.6%"
+            },
+            "Religion (2022)": {
+                "Christianity": "77.4%",
+                "no religion": "14.4%",
+                "Rastafari": "1.4%",
+                "other": "2.7%",
+                "not stated": "4.1%"
+            },
+            "Demonym": "Saint Lucian",
+            "Monarch": "Charles III",
+            "Governor-General": "Errol Charles"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Prime Minister": "Philip J. Pierre",
+            "Legislature": "Parliament",
+            "Upper house": "Senate",
+            "Lower house": "House of Assembly",
+            "Independence from the United Kingdom": "22 February 1979"
+        },
+        "Independence": {
+            "Associated State": "1 March 1967"
+        },
+        "Area": {
+            "Total": "617 km 2 (238 sq mi) ( 178th )",
+            "Water (%)": "1.6"
+        },
+        "Population": {
+            "2023 estimate": "184,100 ( 177th )",
+            "2010 census": "165,595",
+            "Density": "298/km 2 (771.8/sq mi) ( 29th )",
+            "Date format": "dd/mm/yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$3.769 billion ( 177nd )",
+                "Per capita": "$29,258 ( 73th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$2.715 billion ( 168th )",
+                "Per capita": "$14,647 ( 72th )"
+            },
+            "Gini (2016)": "51.2 high inequality",
+            "HDI (2023)": "0.748 high ( 103rd )",
+            "Currency": "East Caribbean dollar ( XCD )"
+        },
+        "Time": {
+            "Time zone": "UTC −4 ( AST )"
+        },
+        "Codes": {
+            "Calling code": "+1",
+            "ISO 3166 code": "LC",
+            "Internet TLD": ".lc"
+        }
+    }
+}

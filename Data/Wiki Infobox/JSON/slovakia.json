@@ -1,0 +1,84 @@
+{
+    "country": "Slovakia",
+    "url": "https://en.wikipedia.org/wiki/Slovakia",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Bratislava 48°9′9″N 17°6′34″E ﻿ / ﻿ 48.15250°N 17.10944°E ﻿ / 48.15250; 17.10944",
+            "Official language": "Slovak",
+            "Regional and minority languages": "Bulgarian , Czech , Croatian , Hungarian , German , Polish , Romani , Russian , Ruthenian , Serbian , Ukrainian",
+            "Ethnic groups (2021)": {
+                "Slovaks": "88.6%",
+                "Hungarians": "8.2%",
+                "Romani": "1.3%",
+                "others": "1.9%"
+            },
+            "Religion (2021)": {
+                "Christianity": {
+                    "percentage": "68.8%",
+                    "breakdown": {
+                        "Catholicism": "59.8%",
+                        "Protestantism": "7.6%",
+                        "other Christian": "1.4%"
+                    }
+                },
+                "no religion": "23.8%",
+                "other": "0.9%",
+                "unspecified": "6.5%"
+            },
+            "Demonym": "Slovak"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic",
+            "President": "Peter Pellegrini",
+            "Prime Minister": "Robert Fico",
+            "Speaker of the National Council": "Richard Raši",
+            "Legislature": "National Council"
+        },
+        "History": {
+            "Independence from Austria-Hungary ( First Czechoslovak Republic )": "28 October 1918",
+            "Treaty of Trianon": "4 June 1920",
+            "Second Czechoslovak Republic": "30 September 1938",
+            "First Slovak Republic": "14 March 1939",
+            "Third Czechoslovak Republic": "24 October 1945",
+            "Fourth Czechoslovak Republic": "25 February 1948",
+            "Czechoslovak Socialist Republic": "11 July 1960",
+            "Slovak Socialist Republic (within Czechoslovak Socialist Republic, change of unitary Czechoslovak state into a federation )": "1 January 1969",
+            "Slovak Republic (change of name within established Czech and Slovak Federative Republic )": "1 March 1990",
+            "Dissolution of Czechoslovakia": "1 January 1993"
+        },
+        "Area": {
+            "Total": "49,035 km 2 (18,933 sq mi) ( 127th )",
+            "Water (%)": "0.72 (2015)"
+        },
+        "Population": {
+            "30 June 2025 estimate": "5,413,813 ( 120th )",
+            "2021 census": "5,449,270",
+            "Density": "110/km 2 (284.9/sq mi) ( 103rd )",
+            "Date format": "d. m. yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$256.710 billion ( 70th )",
+                "Per capita": "$47,440 ( 46th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$152.480 billion ( 61st )",
+                "Per capita": "$28,180 ( 44th )"
+            },
+            "Gini (2022)": "21.2 low inequality",
+            "HDI (2023)": "0.880 very high ( 44th )",
+            "Currency": "Euro ( € ) ( EUR )"
+        },
+        "Time": {
+            "Time zone": "UTC +1 ( CET )",
+            "Summer ( DST )": "UTC +2 ( CEST )"
+        },
+        "Codes": {
+            "Calling code": "+421",
+            "ISO 3166 code": "SK",
+            "Internet TLD": ".sk and .eu"
+        }
+    }
+}

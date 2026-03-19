@@ -1,78 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Slovenia</country>
-  <url>https://en.wikipedia.org/wiki/Slovenia</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Ljubljana 46°03′05″N 14°30′22″E ﻿ / ﻿ 46.05139°N 14.50611°E ﻿ / 46.05139; 14.50611</Capital_and_largest_city>
       <Official_languages>Slovene</Official_languages>
-      <Recognised_regional_languages>Italian Hungarian</Recognised_regional_languages>
-      <Religion__2018_>
+      <Religion>
         <Christianity>
-          <percentage>77.9%</percentage>
+          <percentage>77.9</percentage>
           <breakdown>
-            <Catholicism>73.4%</Catholicism>
-            <Orthodoxy>3.7%</Orthodoxy>
-            <other_Christian>0.7%</other_Christian>
+            <Catholicism____>73.4</Catholicism____>
+            <Orthodoxy____>3.7</Orthodoxy____>
+            <other_Christian____>0.7</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>18.3%</no_religion>
-        <other>3.9%</other>
-      </Religion__2018_>
-      <Demonyms>Slovene Slovenian</Demonyms>
+        <no_religion____>18.3</no_religion____>
+        <other____>3.9</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Nataša Pirc Musar</President>
-      <Prime_Minister>Robert Golob</Prime_Minister>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>National Council</Upper_house>
-      <Lower_house>National Assembly</Lower_house>
-      <Kingdom_of_Serbs__Croats_and_Slovenes>1 December 1918</Kingdom_of_Serbs__Croats_and_Slovenes>
     </Government>
-    <Establishment>
-      <State_of_Slovenes__Croats_and_Serbs>29 October 1918</State_of_Slovenes__Croats_and_Serbs>
-      <Slovene_National_Liberation_Committee>19 February 1944</Slovene_National_Liberation_Committee>
-      <Socialist_Federal_Republic_of_Yugoslavia>29 July 1944</Socialist_Federal_Republic_of_Yugoslavia>
-      <Brioni_Agreement_signed>7 July 1991</Brioni_Agreement_signed>
-    </Establishment>
-    <History>
-      <Independence_from_Yugoslavia>25 June 1991</Independence_from_Yugoslavia>
-      <Current_constitution>24 December 1991</Current_constitution>
-    </History>
     <Area>
-      <Total>20,272 km 2 (7,827 sq mi) ( 150th )</Total>
+      <Total__km2_>20272</Total__km2_>
       <Water____>0.7</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>2,130,850 ( 145th )</n_2023_estimate>
-      <n_2002_census>1,964,036</n_2002_census>
-      <Density>103 /km 2 (266.8/sq mi) ( 114th )</Density>
-      <Date_format>dd. mm. yyyy (Slovene) dd/mm/yyyy (Italian) yyyy. mm. dd. (Hungarian)</Date_format>
+      <Estimate>2130850</Estimate>
+      <Census>1964036</Census>
+      <Density___km2_>103</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$122,985 billion ( 99th )</Total>
-        <Per_capita>$57,716 ( 36th )</Per_capita>
+        <Total____>122985000000000</Total____>
+        <Per_capita____>57716</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$79,222 billion ( 86th )</Total>
-        <Per_capita>$37,178 ( 36th )</Per_capita>
+        <Total____>79222000000000</Total____>
+        <Per_capita____>37178</Per_capita____>
       </GDP__nominal_>
-      <Gini__2023_>23.4 low inequality</Gini__2023_>
-      <HDI__2023_>0.931 very high ( 21st )</HDI__2023_>
-      <Currency>Euro ( € ) ( EUR )</Currency>
+      <Gini>23.4</Gini>
+      <HDI>0.931</HDI>
+      <Currency>Euro</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+386</Calling_code>
-      <ISO_3166_code>SI</ISO_3166_code>
-      <Internet_TLD>.si</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

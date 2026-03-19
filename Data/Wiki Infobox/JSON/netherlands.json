@@ -1,63 +1,30 @@
 {
     "country": "Netherlands",
-    "url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands",
     "infobox": {
         "General": {
-            "Capital and largest city": "Amsterdam 52°22′N 4°53′E ﻿ / ﻿ 52.367°N 4.883°E ﻿ / 52.367; 4.883",
-            "Official languages": "Dutch",
-            "Official regional languages": "English Papiamento West Frisian",
-            "Recognised languages": "Dutch Low Saxon Dutch Sign Language Limburgish Sinte Romani Yiddish",
-            "Demonym": "Dutch",
-            "Countries (non‑sovereign parts)": "Netherlands Aruba Curaçao Sint Maarten",
-            "Monarch": "Willem-Alexander",
-            "Minister Plenipotentiary of Aruba": "Ady Thijsen",
-            "Minister Plenipotentiary of Curaçao": "Carlson Manuel",
-            "Minister Plenipotentiary of Sint Maarten": "Rene Violenus"
+            "Official languages": "Dutch"
         },
         "Government": {
-            "Government seat": "The Hague",
-            "Government": "Devolved unitary parliamentary constitutional monarchy",
-            "Prime Minister": "Rob Jetten",
-            "Kingdom of Holland": "5 June 1806",
-            "Kingdom of the Netherlands": "16 March 1815",
-            "Charter for the Kingdom ( colonial inclusion )": "15 December 1954"
-        },
-        "Independence from Spain and France": {
-            "Batavian Republic": "19 January 1795",
-            "Annexation by First French Empire": "1 July 1810",
-            "Secession of Belgium": "4 October 1830 ( declared ) 19 April 1839 ( recognised )",
-            "Admitted to the United Nations": "24 October 1945"
-        },
-        "Time": {
-            "Dutch Republic": "26 July 1581 ( declared ) 30 January 1648 ( recognised )",
-            "Time zone": "European Netherlands: CET ( UTC +1) CEST ( UTC +2) (DST) Caribbean Netherlands: AST ( UTC -4) DST not observed"
+            "Government": "Devolved unitary parliamentary constitutional monarchy"
         },
         "Area": {
-            "Total": "42,531 km 2 (16,421 sq mi) ( 131st )",
-            "Water (%)": "18.96"
+            "Total (km2)": 42531,
+            "Water (%)": 18.96
         },
         "Population": {
-            "2026 estimate": "18,290,379 ( 69th )",
-            "Density": "532/km 2 (1,377.9/sq mi)",
-            "Date format": "dd-mm-yyyy"
+            "Estimate": 18290379,
+            "Density (/km2)": 532
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2026 estimate",
-                "Total": "$1.581 trillion ( 28th )",
-                "Per capita": "$87,173 ( 10th )"
+                "Total ($)": 1581000000000,
+                "Per capita ($)": 87173
             },
             "GDP (nominal)": {
-                "Details": "2026 estimate",
-                "Total": "$1.326 trillion ( 18th )",
-                "Per capita": "$73,091 ( 10th )"
+                "Total ($)": 1326000000000,
+                "Per capita ($)": 73091
             },
-            "Currency": "4 currencies Euro ( EUR ) ( Europe ) United States dollar ( USD ) ( Caribbean Netherlands ) Caribbean guilder ( XCG ) ( Curaçao / Sint Maarten ) Aruban florin ( AWG ) ( Aruba )"
-        },
-        "Codes": {
-            "Calling code": "4 codes +31 (Netherlands) +297 (Aruba) +599 (Curaçao / Caribbean) +1 721 (Sint Maarten)",
-            "ISO 3166 code": "NL",
-            "Internet TLD": "6 TLDs .nl (Netherlands) .frl (Fryslân) .aw (Aruba) .cw (Curaçao) .sx (Sint Maarten) .bq (Caribbean Netherlands)"
+            "Currency": "4 currencies Euro United States dollar Caribbean guilder Aruban florin"
         }
     }
 }

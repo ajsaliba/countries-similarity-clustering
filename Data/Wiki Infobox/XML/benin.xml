@@ -1,74 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Benin</country>
-  <url>https://en.wikipedia.org/wiki/Benin</url>
   <infobox>
     <General>
-      <Capital>Porto-Novo</Capital>
-      <Largest_city>Cotonou</Largest_city>
       <Official_languages>French</Official_languages>
-      <National_languages>List: Arabic English Aguna Aja Alada Fon Gbe Gen Gun Pherá Phla Tofin Tɔli Waci Berba Kabye Lama Lukpa Mbelime Mossi Nateni Ngangam Tammari Tem Waama Yom Kwa Chakosi Foodo Ede Ifè Mokole Yoruba Yoruboid Bariba Dendi Fula Hausa</National_languages>
-      <Ethnic_groups__2013__>
-        <Fon>38.4%</Fon>
-        <Adja_and_Mina>15.1%</Adja_and_Mina>
-        <Yoruba>12%</Yoruba>
-        <Bariba>9.6%</Bariba>
-        <Fula>8.6%</Fula>
-        <Ottamari>6.1%</Ottamari>
-        <Yoa_Lokpa>4.3%</Yoa_Lokpa>
-        <Dendi>2.9%</Dendi>
-        <other>2.8%</other>
-      </Ethnic_groups__2013__>
-      <Religion__2020_>
-        <Christianity>52.2%</Christianity>
-        <Islam>24.6%</Islam>
-        <traditional_faiths>17.9%</traditional_faiths>
-        <no_religion>5.2%</no_religion>
-        <other>0.1%</other>
-      </Religion__2020_>
-      <Demonyms>Beninese Beninoise</Demonyms>
+      <Ethnic_groups>
+        <Fon____>38.4</Fon____>
+        <Adja_and_Mina____>15.1</Adja_and_Mina____>
+        <Yoruba____>12</Yoruba____>
+        <Bariba____>9.6</Bariba____>
+        <Fula____>8.6</Fula____>
+        <Ottamari____>6.1</Ottamari____>
+        <Yoa_Lokpa____>4.3</Yoa_Lokpa____>
+        <Dendi____>2.9</Dendi____>
+        <other____>2.8</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>52.2</Christianity____>
+        <Islam____>24.6</Islam____>
+        <traditional_faiths____>17.9</traditional_faiths____>
+        <no_religion____>5.2</no_religion____>
+        <other____>0.1</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Patrice Talon</President>
-      <Vice_President>Mariam Chabi Talata</Vice_President>
-      <Legislature>National Assembly</Legislature>
     </Government>
-    <History>
-      <Republic_of_Dahomey_established_within_the_French_Community>11 December 1958</Republic_of_Dahomey_established_within_the_French_Community>
-      <Independence>1 August 1960</Independence>
-    </History>
     <Area>
-      <Total>114,763 km 2 (44,310 sq mi) ( 100th )</Total>
-      <Water____>0.4%</Water____>
+      <Total__km2_>114763</Total__km2_>
+      <Water____>0.4</Water____>
     </Area>
     <Population>
-      <n_2022_estimate>13,754,688 ( 77th )</n_2022_estimate>
-      <Density>94.8/km 2 (245.5/sq mi) ( 98th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>13754688</Estimate>
+      <Density___km2_>94.8</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$76.510 billion ( 137th )</Total>
-        <Per_capita>$4,980 ( 163rd )</Per_capita>
+        <Total____>76510000000</Total____>
+        <Per_capita____>4980</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$27.450 billion ( 141st )</Total>
-        <Per_capita>$1,790 ( 163rd )</Per_capita>
+        <Total____>27450000000</Total____>
+        <Per_capita____>1790</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>34.4 medium inequality</Gini__2021_>
-      <HDI__2023_>0.515 low ( 173rd )</HDI__2023_>
-      <Currency>West African CFA franc ( XOF )</Currency>
+      <Gini>34.4</Gini>
+      <HDI>0.515</HDI>
+      <Currency>West African CFA franc</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( WAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+229</Calling_code>
-      <ISO_3166_code>BJ</ISO_3166_code>
-      <Internet_TLD>.bj</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

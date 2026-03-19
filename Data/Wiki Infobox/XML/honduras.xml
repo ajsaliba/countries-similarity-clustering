@@ -1,62 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Honduras</country>
-  <url>https://en.wikipedia.org/wiki/Honduras</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Tegucigalpa 14°6′N 87°13′W ﻿ / ﻿ 14.100°N 87.217°W ﻿ / 14.100; -87.217</Capital_and_largest_city>
       <Official_languages>Spanish</Official_languages>
-      <Ethnic_groups__2013_>
-        <Mestizo>82.93%</Mestizo>
-        <White>7.87%</White>
-        <Indigenous>7.25%</Indigenous>
-        <Black>1.39%</Black>
-        <other>0.55%</other>
-      </Ethnic_groups__2013_>
-      <Demonyms>Honduran Catracho</Demonyms>
+      <Ethnic_groups>
+        <Mestizo____>82.93</Mestizo____>
+        <White____>7.87</White____>
+        <Indigenous____>7.25</Indigenous____>
+        <Black____>1.39</Black____>
+        <other____>0.55</other____>
+      </Ethnic_groups>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Nasry Asfura</President>
-      <Vice_Presidents>María Antonieta Mejía Carlos Flores Guifarro Diana Herrera</Vice_Presidents>
-      <President_of_National_Congress>Tomás Zambrano</President_of_National_Congress>
-      <Legislature>National Congress</Legislature>
     </Government>
-    <Independence>
-      <Declared_from_Spain>15 September 1821</Declared_from_Spain>
-      <Declared_from_the_First_Mexican_Empire>1 July 1823</Declared_from_the_First_Mexican_Empire>
-      <Declared__as_Honduras__from_the_Federal_Republic_of_Central_America>5 November 1838</Declared__as_Honduras__from_the_Federal_Republic_of_Central_America>
-    </Independence>
     <Area>
-      <Total>112,492 km 2 (43,433 sq mi) ( 101st )</Total>
+      <Total__km2_>112492</Total__km2_>
     </Area>
     <Population>
-      <n_2023_estimate>9,571,352 ( 95th )</n_2023_estimate>
-      <Density>85/km 2 (220.1/sq mi) ( 128th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>9571352</Estimate>
+      <Density___km2_>85</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$86.290 billion</Total>
-        <Per_capita>$7,960</Per_capita>
+        <Total____>86290000000</Total____>
+        <Per_capita____>7960</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$39.450 billion</Total>
-        <Per_capita>$3,640</Per_capita>
+        <Total____>39450000000</Total____>
+        <Per_capita____>3640</Per_capita____>
       </GDP__nominal_>
-      <Gini__2018_>52.1 high inequality</Gini__2018_>
-      <HDI__2023_>0.645 medium ( 139th )</HDI__2023_>
-      <Currency>Lempira ( HNL )</Currency>
+      <Gini>52.1</Gini>
+      <HDI>0.645</HDI>
+      <Currency>Lempira</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC −6 ( CST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+504</Calling_code>
-      <ISO_3166_code>HN</ISO_3166_code>
-      <Internet_TLD>.hn</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

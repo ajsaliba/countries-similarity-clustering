@@ -1,75 +1,49 @@
 {
     "country": "Belize",
-    "url": "https://en.wikipedia.org/wiki/Belize",
     "infobox": {
         "General": {
-            "Capital": "Belmopan 17°15′N 88°46′W ﻿ / ﻿ 17.250°N 88.767°W ﻿ / 17.250; -88.767",
-            "Largest city": "Belize City 17°29′N 88°11′W ﻿ / ﻿ 17.483°N 88.183°W ﻿ / 17.483; -88.183",
             "Official languages": "English",
-            "Spoken languages": "Belizean Creole Spanish Mayan",
-            "Ethnic groups (2010)": {
-                "Mestizo": "52.9%",
-                "Creole": "25.9%",
-                "Mayan": "11.3%",
-                "Garifuna": "6.1%",
-                "East Indian": "3.9%",
-                "Mennonite": "3.6%",
-                "White": "1.2%",
-                "Asian": "1%",
-                "Other": "1.2%",
-                "Unknown": "0.3%"
+            "Ethnic groups": {
+                "Mestizo (%)": 52.9,
+                "Creole (%)": 25.9,
+                "Mayan (%)": 11.3,
+                "Garifuna (%)": 6.1,
+                "East Indian (%)": 3.9,
+                "Mennonite (%)": 3.6,
+                "White (%)": 1.2,
+                "Asian (%)": 1,
+                "Other (%)": 1.2,
+                "Unknown (%)": 0.3
             },
-            "Religion (2022)": {
-                "Christianity": "61.9%",
-                "no religion": "31.8%",
-                "other": "6.3%"
-            },
-            "Demonym": "Belizean",
-            "Monarch": "Charles III",
-            "Governor-General": "Froyla Tzalam"
+            "Religion": {
+                "Christianity (%)": 61.9,
+                "no religion (%)": 31.8,
+                "other (%)": 6.3
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy",
-            "Prime Minister": "Johnny Briceño",
-            "Legislature": "National Assembly",
-            "Upper house": "Senate",
-            "Lower house": "House of Representatives"
-        },
-        "Independence from the United Kingdom": {
-            "Self-governance": "January 1964",
-            "Realm": "21 September 1981"
+            "Government": "Unitary parliamentary constitutional monarchy"
         },
         "Area": {
-            "Total": "22,966 km 2 (8,867 sq mi) ( 147th )",
-            "Water (%)": "0.8"
+            "Total (km2)": 22966,
+            "Water (%)": 0.8
         },
         "Population": {
-            "2022 census": "397,483",
-            "Density": "17.31/km 2 (44.8/sq mi)",
-            "Date format": "dd / mm / yyyy ( AD )"
+            "Census": 397483,
+            "Density (/km2)": 17.31
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$6.414 billion ( 180th )",
-                "Per capita": "$15,363 ( 123rd )"
+                "Total ($)": 6414000000,
+                "Per capita ($)": 15363
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$3.488 billion ( 179th )",
-                "Per capita": "$8,355 ( 98th )"
+                "Total ($)": 3488000000,
+                "Per capita ($)": 8355
             },
-            "Gini (2013)": "53.1 high inequality",
-            "HDI (2023)": "0.721 high ( 115th )",
-            "Currency": "Belize dollar ($) ( BZD )"
-        },
-        "Time": {
-            "Time zone": "UTC −06:00 ( CST )"
-        },
-        "Codes": {
-            "Calling code": "+501",
-            "ISO 3166 code": "BZ",
-            "Internet TLD": ".bz"
+            "Gini": 53.1,
+            "HDI": 0.721,
+            "Currency": "Belize dollar"
         }
     }
 }

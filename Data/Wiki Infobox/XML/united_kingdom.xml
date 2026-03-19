@@ -1,85 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>United Kingdom</country>
-  <url>https://en.wikipedia.org/wiki/United_Kingdom</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>London 51°30′N 0°7′W ﻿ / ﻿ 51.500°N 0.117°W ﻿ / 51.500; -0.117</Capital_and_largest_city>
-      <National_language>English</National_language>
-      <Regional_and_minority_languages>Scots Ulster Scots Welsh Cornish Scottish Gaelic Irish British Sign Language</Regional_and_minority_languages>
-      <Ethnic_groups___2021_2022__>
-        <White>83%</White>
-        <Asian>8.6%</Asian>
-        <Black>3.7%</Black>
-        <Mixed>2.7%</Mixed>
-        <other>2%</other>
-      </Ethnic_groups___2021_2022__>
-      <Religion__2021_2022_>
+      <Ethnic_groups>
+        <White____>83</White____>
+        <Asian____>8.6</Asian____>
+        <Black____>3.7</Black____>
+        <Mixed____>2.7</Mixed____>
+        <other____>2</other____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>46.5%</percentage>
+          <percentage>46.5</percentage>
           <breakdown>
-            <no_religion>37.8%</no_religion>
-            <Islam>6%</Islam>
-            <Hinduism>1.6%</Hinduism>
-            <Sikhism>0.8%</Sikhism>
-            <Buddhism>0.4%</Buddhism>
+            <no_religion____>37.8</no_religion____>
+            <Islam____>6</Islam____>
+            <Hinduism____>1.6</Hinduism____>
+            <Sikhism____>0.8</Sikhism____>
+            <Buddhism____>0.4</Buddhism____>
           </breakdown>
         </Christianity>
-        <Judaism>0.4%</Judaism>
-        <other>0.6%</other>
-        <not_stated>5.9%</not_stated>
-      </Religion__2021_2022_>
-      <Demonyms>British Briton Brit (colloquial)</Demonyms>
-      <Monarch>Charles III</Monarch>
+        <Judaism____>0.4</Judaism____>
+        <other____>0.6</other____>
+        <not_stated____>5.9</not_stated____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
-      <Prime_Minister>Keir Starmer</Prime_Minister>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>House of Lords</Upper_house>
-      <Lower_house>House of Commons</Lower_house>
     </Government>
-    <History>
-      <Laws_in_Wales_Acts>1535 and 1542</Laws_in_Wales_Acts>
-      <Union_of_the_Crowns>24 March 1603</Union_of_the_Crowns>
-      <Treaty_of_Union>22 July 1706</Treaty_of_Union>
-      <Acts_of_Union_of_England_and_Scotland>1 May 1707</Acts_of_Union_of_England_and_Scotland>
-      <Acts_of_Union_of_Great_Britain_and_Ireland>1 January 1801</Acts_of_Union_of_Great_Britain_and_Ireland>
-      <Irish_Free_State_Constitution_Act>6 December 1922</Irish_Free_State_Constitution_Act>
-    </History>
     <Area>
-      <Total>244,376 km 2 (94,354 sq mi) ( 78th )</Total>
-      <Land>242,741 km 2 (93,723 sq mi)</Land>
+      <Total__km2_>244376</Total__km2_>
+      <Land__km2_>242741</Land__km2_>
     </Area>
     <Population>
-      <n_2024_estimate>69,281,437 ( 20th )</n_2024_estimate>
-      <n_2021_census>66,940,559</n_2021_census>
-      <Density>285/km 2 (738.1/sq mi) ( 48th )</Density>
-      <Date_format>dd / mm / yyyy ( AD )</Date_format>
+      <Estimate>69281437</Estimate>
+      <Census>66940559</Census>
+      <Density___km2_>285</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$4.455 trillion ( 10th )</Total>
-        <Per_capita>$63,759 ( 33rd )</Per_capita>
+        <Total____>4455000000000</Total____>
+        <Per_capita____>63759</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$3.959 trillion ( 6th )</Total>
-        <Per_capita>$56,661 ( 21st )</Per_capita>
+        <Total____>3959000000000</Total____>
+        <Per_capita____>56661</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>35.4 medium inequality</Gini__2021_>
-      <HDI__2023_>0.946 very high ( 13th )</HDI__2023_>
-      <Currency>Pound sterling ( £ ) ( GBP )</Currency>
+      <Gini>35.4</Gini>
+      <HDI>0.946</HDI>
+      <Currency>Pound sterling</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +0 ( GMT )</Time_zone>
-      <Summer___DST__>UTC +1 ( BST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+44</Calling_code>
-      <ISO_3166_code>GB</ISO_3166_code>
-      <Internet_TLD>.uk</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

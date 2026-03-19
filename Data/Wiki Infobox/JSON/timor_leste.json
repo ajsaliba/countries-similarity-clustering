@@ -1,74 +1,48 @@
 {
     "country": "Timor-Leste",
-    "url": "https://en.wikipedia.org/wiki/Timor-Leste",
     "infobox": {
         "General": {
-            "Capital and largest city": "Dili 8°33′S 125°34′E ﻿ / ﻿ 8.55°S 125.56°E ﻿ / -8.55; 125.56",
             "Official languages": "Portuguese Tetum",
-            "Recognised languages": "15 national languages : Atauru Baikeno Bekais Bunak Fataluku Galoli Habun Idalaka Kawaimina Kemak Makalero Makasae Makuva Mambai Tokodede 2 working languages : English Indonesian",
-            "Religion (2015 census)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "99.53%",
+                    "percentage": 99.53,
                     "breakdown": {
-                        "Catholicism": "97.57%",
-                        "Protestantism": "1.96%"
+                        "Catholicism (%)": 97.57,
+                        "Protestantism (%)": 1.96
                     }
                 },
                 "Islam": {
-                    "percentage": "0.24%",
+                    "percentage": 0.24,
                     "breakdown": {
-                        "other": "0.23%"
+                        "other (%)": 0.23
                     }
                 }
-            },
-            "Demonyms": "East Timorese Timorese Maubere (informal)"
+            }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic",
-            "President": "José Ramos-Horta",
-            "Prime Minister": "Xanana Gusmão",
-            "Legislature": "National Parliament"
-        },
-        "Independence from Portugal , Indonesia , and United Nations Administered East Timor": {
-            "Portuguese Timor": "Early 18th century",
-            "Annexation by Indonesia": "17 July 1976",
-            "Administered by UNTAET": "25 October 1999"
-        },
-        "History": {
-            "Independence declared": "28 November 1975",
-            "Independence restored": "20 May 2002"
+            "Government": "Unitary semi-presidential republic"
         },
         "Area": {
-            "Total": "14,950 km 2 (5,770 sq mi) ( 154th )",
+            "Total (km2)": 14950,
             "Water (%)": "Negligible"
         },
         "Population": {
-            "2023 estimate": "1,354,662 ( 153rd )",
-            "2022 census": "1,341,737",
-            "Density": "94/km 2 (243.5/sq mi) ( 120th )"
+            "Estimate": 1354662,
+            "Census": 1341737,
+            "Density (/km2)": 94
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$6.970 billion ( 169th )",
-                "Per capita": "$4,920 ( 152nd )"
+                "Total ($)": 6970000000,
+                "Per capita ($)": 4920
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$2.120 billion ( 176th )",
-                "Per capita": "$1,490 ( 157th )"
+                "Total ($)": 2120000000,
+                "Per capita ($)": 1490
             },
-            "Gini (2014)": "28.7 low inequality",
-            "HDI (2023)": "0.634 medium ( 142nd )",
-            "Currency": "United States dollar Timor-Leste centavo ( USD )"
-        },
-        "Time": {
-            "Time zone": "UTC +9 ( Timor-Leste Time )"
-        },
-        "Codes": {
-            "Calling code": "+670",
-            "ISO 3166 code": "TL",
-            "Internet TLD": ".tl"
+            "Gini": 28.7,
+            "HDI": 0.634,
+            "Currency": "United States dollar Timor-Leste centavo"
         }
     }
 }

@@ -1,102 +1,78 @@
 {
     "country": "Suriname",
-    "url": "https://en.wikipedia.org/wiki/Suriname",
     "infobox": {
         "General": {
-            "Capital and largest city": "Paramaribo 5°50′N 55°10′W ﻿ / ﻿ 5.833°N 55.167°W ﻿ / 5.833; -55.167",
             "Official languages": "Dutch",
-            "Recognised regional languages": "8 indigenous languages Akurio Arawak-Lokono Carib-Kari'nja Sikiana-Kashuyana Tiro-Tiriyó Waiwai Warao Wayana",
-            "Lingua franca": "Sranan Tongo",
-            "Other languages": "14 languages English Sarnámi Hindustáni Surinamese-Javanese Ndyuka Saramaccan Matawai Aluku Paramaccan Kwinti Chinese Lebanese Arabic French Brazilian Portuguese Spanish",
-            "Ethnic groups (2012)": {
-                "Asian Surinamese": "42.6%",
-                "Hindustani": "27.4%",
-                "Javanese": "13.7%",
-                "Chinese": "1.5%",
-                "Afro-Surinamese": "37.4%",
-                "Maroon": "21.7%",
-                "Creole": "15.7%",
-                "Multiracial": "13.4%",
-                "Indigenous": "3.8%",
-                "European": "0.3%"
+            "Ethnic groups": {
+                "Asian Surinamese (%)": 42.6,
+                "Hindustani (%)": 27.4,
+                "Javanese (%)": 13.7,
+                "Chinese (%)": 1.5,
+                "Afro-Surinamese (%)": 37.4,
+                "Maroon (%)": 21.7,
+                "Creole (%)": 15.7,
+                "Multiracial (%)": 13.4,
+                "Indigenous (%)": 3.8,
+                "European (%)": 0.3
             },
-            "Religion (2012)": {
-                "Christianity 26.75 Protestantism": "48.4%",
-                "Roman Catholicism": "21.65%",
+            "Religion": {
+                "Christianity 26.75 Protestantism (%)": 48.4,
+                "Roman Catholicism (%)": 21.65,
                 "Hinduism": {
-                    "percentage": "22.3%",
+                    "percentage": 22.3,
                     "breakdown": {
-                        "Sanātanī": "17.97%",
-                        "Arya Samaj": "3.08%",
-                        "Other Hindu": "1.23%"
+                        "Sanātanī (%)": 17.97,
+                        "Arya Samaj (%)": 3.08,
+                        "Other Hindu (%)": 1.23
                     }
                 },
                 "Islam": {
-                    "percentage": "13.9%",
+                    "percentage": 13.9,
                     "breakdown": {
-                        "Sunni": "3.91%",
-                        "Ahmadiyya": "2.61%",
-                        "Other Muslim": "7.34%"
+                        "Sunni (%)": 3.91,
+                        "Ahmadiyya (%)": 2.61,
+                        "Other Muslim (%)": 7.34
                     }
                 },
-                "Winti": "1.8%",
-                "Kejawèn": "0.8%",
-                "Judaism": "0.03%",
-                "no religion": "7.52%",
+                "Winti (%)": 1.8,
+                "Kejawèn (%)": 0.8,
+                "Judaism (%)": 0.03,
+                "no religion (%)": 7.52,
                 "Not stated": {
-                    "percentage": "2.04%",
+                    "percentage": 2.04,
                     "breakdown": {
                         "Don't know": {
-                            "percentage": "1.11%",
+                            "percentage": 1.11,
                             "breakdown": {
-                                "Others": "0.85%"
+                                "Others (%)": 0.85
                             }
                         }
                     }
                 }
-            },
-            "Demonym": "Surinamese",
-            "National Assembly Chairman": "Ashwin Adhin"
+            }
         },
         "Government": {
-            "Government": "Unitary assembly-independent presidential republic",
-            "President": "Jennifer Geerlings-Simons",
-            "Vice President": "Gregory Rusland",
-            "High Court of Justice President": "Iwan Rasoelbaks (acting)",
-            "Legislature": "National Assembly",
-            "Constituent country within the Kingdom of the Netherlands": "15 December 1954",
-            "Independence from the Kingdom of the Netherlands": "25 November 1975"
+            "Government": "Unitary assembly-independent presidential republic"
         },
         "Area": {
-            "Total": "165,940 km 2 (64,070 sq mi) ( 90th )",
-            "Water (%)": "1.1"
+            "Total (km2)": 165940,
+            "Water (%)": 1.1
         },
         "Population": {
-            "2022 estimate": "632,638 ( 170th )",
-            "Density": "3.9/km 2 (10.1/sq mi) ( 231st )",
-            "Date format": "dd/mm/yyyy"
+            "Estimate": 632638,
+            "Density (/km2)": 3.9
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$14.743 billion ( 160th )",
-                "Per capita": "$22,439 ( 91st )"
+                "Total ($)": 14743000000,
+                "Per capita ($)": 22439
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$4.506 billion ( 173rd )",
-                "Per capita": "$6,858 ( 106th )"
+                "Total ($)": 4506000000,
+                "Per capita ($)": 6858
             },
-            "HDI (2023)": "0.722 high ( 114th )",
-            "Currency": "Surinamese dollar ( SRD )"
-        },
-        "Time": {
-            "Time zone": "UTC -03:00 ( SRT )"
-        },
-        "Codes": {
-            "Calling code": "+597",
-            "ISO 3166 code": "SR",
-            "Internet TLD": ".sr"
+            "HDI": 0.722,
+            "Currency": "Surinamese dollar"
         }
     }
 }

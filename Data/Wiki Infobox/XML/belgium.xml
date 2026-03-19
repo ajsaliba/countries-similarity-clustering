@@ -1,78 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Belgium</country>
-  <url>https://en.wikipedia.org/wiki/Belgium</url>
   <infobox>
     <General>
-      <Capital>City of Brussels 50°51′N 4°21′E ﻿ / ﻿ 50.850°N 4.350°E ﻿ / 50.850; 4.350</Capital>
-      <Largest_city>Brussels-Capital Region</Largest_city>
       <Official_languages>Dutch French German</Official_languages>
-      <Ethnic_groups__2025_>
-        <Belgians>86.1%</Belgians>
-        <Belgian_background>64%</Belgian_background>
-        <foreign_background>22.1%</foreign_background>
-        <non_Belgian>13.8%</non_Belgian>
-      </Ethnic_groups__2025_>
-      <Religion__2023__>
-        <no_religion>59%</no_religion>
+      <Ethnic_groups>
+        <Belgians____>86.1</Belgians____>
+        <Belgian_background____>64</Belgian_background____>
+        <foreign_background____>22.1</foreign_background____>
+        <non_Belgian____>13.8</non_Belgian____>
+      </Ethnic_groups>
+      <Religion>
+        <no_religion____>59</no_religion____>
         <Christianity>
-          <percentage>34%</percentage>
+          <percentage>34</percentage>
           <breakdown>
-            <Catholicism>31%</Catholicism>
-            <other_Christian>3%</other_Christian>
+            <Catholicism____>31</Catholicism____>
+            <other_Christian____>3</other_Christian____>
           </breakdown>
         </Christianity>
-        <Islam>6%</Islam>
-        <other>1%</other>
-      </Religion__2023__>
-      <Demonym>Belgian</Demonym>
-      <Monarch>Philippe</Monarch>
-      <Recognized>
-        <Details>19 April 1839</Details>
-        <Federal_state>1970</Federal_state>
-      </Recognized>
+        <Islam____>6</Islam____>
+        <other____>1</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary constitutional monarchy</Government>
-      <Prime_Minister>Bart De Wever</Prime_Minister>
-      <Legislature>Federal Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>Chamber of Representatives</Lower_house>
     </Government>
-    <Independence_from_the_Netherlands>
-      <Declared>4 October 1830</Declared>
-    </Independence_from_the_Netherlands>
     <Area>
-      <Total>30,689 km 2 (11,849 sq mi) ( 136th )</Total>
-      <Water____>0.64 (2022)</Water____>
+      <Total__km2_>30689</Total__km2_>
+      <Water____>0.64</Water____>
     </Area>
     <Population>
-      <n_2025_census>11,825,551</n_2025_census>
-      <Density>385 /km 2 (997.1/sq mi) ( 35th )</Density>
+      <Census>11825551</Census>
+      <Density___km2_>385</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$889.833 billion ( 37th )</Total>
-        <Per_capita>$75,187 ( 20th )</Per_capita>
+        <Total____>889833000000</Total____>
+        <Per_capita____>75187</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$689.364 billion ( 23rd )</Total>
-        <Per_capita>$58,248 ( 16th )</Per_capita>
+        <Total____>689364000000</Total____>
+        <Per_capita____>58248</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>24.9 low inequality</Gini__2022_>
-      <HDI__2023_>0.951 very high ( 10th )</HDI__2023_>
-      <Currency>Euro ( € ) ( EUR )</Currency>
+      <Gini>24.9</Gini>
+      <HDI>0.951</HDI>
+      <Currency>Euro</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+32</Calling_code>
-      <ISO_3166_code>BE</ISO_3166_code>
-      <Internet_TLD>.be</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

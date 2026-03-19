@@ -1,74 +1,44 @@
 {
     "country": "Tanzania",
-    "url": "https://en.wikipedia.org/wiki/Tanzania",
     "infobox": {
         "General": {
-            "Capital": "Dodoma 6°10′S 35°44′E ﻿ / ﻿ 6.167°S 35.733°E ﻿ / -6.167; 35.733",
-            "Largest city": "Dar es Salaam 06°48′S 39°16′E ﻿ / ﻿ 6.800°S 39.267°E ﻿ / -6.800; 39.267",
             "Official languages": "Swahili English",
-            "National language": "Swahili",
-            "Other languages": "Over 100 languages , including (1m+): Shambala Sukuma Nyamwezi Chagga Ha Bena Gogo Haya Dholuo Iraqw Makonde Nyaturu Maasai Jita Pare",
-            "Religion (2020)": {
-                "Christianity": "63.1%",
-                "Islam": "34.1%",
+            "Religion": {
+                "Christianity (%)": 63.1,
+                "Islam (%)": 34.1,
                 "no religion": {
-                    "percentage": "1.5%",
+                    "percentage": 1.5,
                     "breakdown": {
-                        "traditional faiths": "1.2%",
-                        "others": "0.1%"
+                        "traditional faiths (%)": 1.2,
+                        "others (%)": 0.1
                     }
                 }
-            },
-            "Demonym": "Tanzanian"
+            }
         },
         "Government": {
-            "Government": "Unitary dominant-party presidential republic",
-            "President": "Samia Suluhu Hassan",
-            "Vice-President": "Emmanuel Nchimbi",
-            "Prime Minister": "Mwigulu Nchemba",
-            "Speaker": "Mussa Zungu",
-            "Chief Justice": "George Mcheche Masaju",
-            "Legislature": "National Assembly"
-        },
-        "Independence from the United Kingdom": {
-            "Tanganyika": "9 December 1961",
-            "Zanzibar": "10 December 1963"
-        },
-        "History": {
-            "Unification of Tanganyika and Zanzibar": "26 April 1964",
-            "Current constitution": "25 April 1977"
+            "Government": "Unitary dominant-party presidential republic"
         },
         "Area": {
-            "Total": "947,303 km 2 (365,756 sq mi) ( 30th )",
-            "Water (%)": "6.4"
+            "Total (km2)": 947303,
+            "Water (%)": 6.4
         },
         "Population": {
-            "2024 estimate": "67,462,121 ( 22nd )",
-            "2022 census": "61,741,120",
-            "Density": "65.2/km 2 (168.9/sq mi) ( 147th )"
+            "Estimate": 67462121,
+            "Census": 61741120,
+            "Density (/km2)": 65.2
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$293.59 billion ( 69th )",
-                "Per capita": "$4,370 ( 158th )"
+                "Total ($)": 293590000000,
+                "Per capita ($)": 4370
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$88.980 billion ( 80th )",
-                "Per capita": "$1,280 ( 162nd )"
+                "Total ($)": 88980000000,
+                "Per capita ($)": 1280
             },
-            "Gini (2017)": "40.5 medium inequality",
-            "HDI (2023)": "0.555 medium ( 165th )",
-            "Currency": "Tanzanian shilling ( TZS )"
-        },
-        "Time": {
-            "Time zone": "UTC +3 ( East Africa Time )"
-        },
-        "Codes": {
-            "Calling code": "+255",
-            "ISO 3166 code": "TZ",
-            "Internet TLD": ".tz"
+            "Gini": 40.5,
+            "HDI": 0.555,
+            "Currency": "Tanzanian shilling"
         }
     }
 }

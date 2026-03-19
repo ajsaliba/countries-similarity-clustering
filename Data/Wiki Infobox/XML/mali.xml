@@ -1,83 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Mali</country>
-  <url>https://en.wikipedia.org/wiki/Mali</url>
   <infobox>
     <General>
-      <Bambara>
-        <item>Mali ka Fasojamana / ߡߊ߬ߟߌ ߞߊ ߝߊߛߏߖߊߡߊߣߊ</item>
-        <item>Mali ka Fasojamana / ߡߊ߬ߟߌ ߞߊ ߝߊߛߏߖߊߡߊߣߊ</item>
-      </Bambara>
-      <Fula>Republik bu Maali / 𞤈𞤫𞤨𞤵𞤦𞤤𞤭𞤳 𞤦𞤵 𞤃𞤢𞥄𞤤𞤭</Fula>
-      <Hassaniya>جُمْهُورِيَّةْ مَالِي ( Jumhūriyet Māli )</Hassaniya>
-      <Soninke>Mali Jamaane</Soninke>
-      <Tamasheq>Tagduda n Mali / ⵜⴰⴳⴷⵓⴷⴰ ⵏ ⵎⴰⵍⵉ</Tamasheq>
-      <Songhay>Mali Laamaa</Songhay>
-      <Capital_and_largest_city>Bamako 12°39′N 8°0′W ﻿ / ﻿ 12.650°N 8.000°W ﻿ / 12.650; -8.000</Capital_and_largest_city>
       <Official_languages>13 national languages Bambara Bobo Hassaniya Arabic Bozo Dogon, Toro So Fula Kassonke Maninke Minyanka Senufo, Senara Songhay, Koyraboro Senni Soninke Tamasheq</Official_languages>
-      <Spoken_languages>Bambara Fula Arabic Soninke Songhay Mandinka Minyanka Tamasheq Senufo Bobo Bozo Kassonke Samogo Dafing Dogon</Spoken_languages>
       <Ethnic_groups>
-        <Bambara>33.3%</Bambara>
-        <Fula>13.3%</Fula>
-        <Soninke>9.6%</Soninke>
-        <Senufo___Bwa>9.6%</Senufo___Bwa>
-        <Malinke>8.8%</Malinke>
-        <Dogon>8.7%</Dogon>
-        <Songhai>5.9%</Songhai>
-        <Tuareg>3.5%</Tuareg>
-        <Bobo>2.1%</Bobo>
-        <other>4.5%</other>
+        <Bambara____>33.3</Bambara____>
+        <Fula____>13.3</Fula____>
+        <Soninke____>9.6</Soninke____>
+        <Senufo___Bwa____>9.6</Senufo___Bwa____>
+        <Malinke____>8.8</Malinke____>
+        <Dogon____>8.7</Dogon____>
+        <Songhai____>5.9</Songhai____>
+        <Tuareg____>3.5</Tuareg____>
+        <Bobo____>2.1</Bobo____>
+        <other____>4.5</other____>
       </Ethnic_groups>
-      <Religion__2021_>
-        <Islam>95%</Islam>
-        <other>5%</other>
-      </Religion__2021_>
-      <Demonym>Malian</Demonym>
+      <Religion>
+        <Islam____>95</Islam____>
+        <other____>5</other____>
+      </Religion>
     </General>
     <Government>
-      <Working_language>French ( de facto )</Working_language>
       <Government>Unitary presidential republic under a military junta</Government>
-      <President>Assimi Goïta</President>
-      <Prime_Minister>Abdoulaye Maïga (interim)</Prime_Minister>
-      <Legislature>National Assembly</Legislature>
     </Government>
-    <History>
-      <Establishment_of_the_Sudanese_Republic>24 November 1958</Establishment_of_the_Sudanese_Republic>
-      <Merger_with_Senegal_to_create_the_Mali_Federation>4 April 1959</Merger_with_Senegal_to_create_the_Mali_Federation>
-      <Independence_from_France>20 June 1960</Independence_from_France>
-      <Dissolution_of_the_Mali_Federation>20 August 1960</Dissolution_of_the_Mali_Federation>
-      <Declaration_of_the_Republic_of_Mali>22 September 1960</Declaration_of_the_Republic_of_Mali>
-    </History>
     <Area>
-      <Total>1,240,192 km 2 (478,841 sq mi) ( 23rd )</Total>
+      <Total__km2_>1240192</Total__km2_>
       <Water____>1.6</Water____>
     </Area>
     <Population>
-      <n_2024_estimate>21,990,607 ( 61st )</n_2024_estimate>
-      <Density>11.7/km 2 (30.3/sq mi) ( 215th )</Density>
+      <Estimate>21990607</Estimate>
+      <Density___km2_>11.7</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$72.74 billion ( 115th )</Total>
-        <Per_capita>$2,930 ( 173rd )</Per_capita>
+        <Total____>72740000000</Total____>
+        <Per_capita____>2930</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$23.21 billion ( 121st )</Total>
-        <Per_capita>$936 ( 175th )</Per_capita>
+        <Total____>23210000000</Total____>
+        <Per_capita____>936</Per_capita____>
       </GDP__nominal_>
-      <Gini__2010_>33.0 medium inequality</Gini__2010_>
-      <HDI__2023_>0.419 low ( 188th )</HDI__2023_>
-      <Currency>West African CFA franc ( XOF )</Currency>
+      <Gini>33.0</Gini>
+      <HDI>0.419</HDI>
+      <Currency>West African CFA franc</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC ±00:00 ( GMT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+223</Calling_code>
-      <ISO_3166_code>ML</ISO_3166_code>
-      <Internet_TLD>.ml</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

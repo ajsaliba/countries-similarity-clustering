@@ -1,75 +1,52 @@
 {
     "country": "El Salvador",
-    "url": "https://en.wikipedia.org/wiki/El_Salvador",
     "infobox": {
         "General": {
-            "Capital and largest city": "San Salvador 13°42′N 89°12′W ﻿ / ﻿ 13.700°N 89.200°W ﻿ / 13.700; -89.200",
             "Official languages": "Spanish",
-            "Recognized languages": "Nawat",
-            "Ethnic groups (2007)": {
-                "Mestizo (mixed White and Indigenous )": "86.3%",
-                "White": "12.7%",
-                "Indigenous": "0.2%",
-                "Black": "0.1%",
-                "other": "0.6%"
+            "Ethnic groups": {
+                "Mestizo (mixed White and Indigenous ) (%)": 86.3,
+                "White (%)": 12.7,
+                "Indigenous (%)": 0.2,
+                "Black (%)": 0.1,
+                "other (%)": 0.6
             },
-            "Religion (2022)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "81.5%",
+                    "percentage": 81.5,
                     "breakdown": {
-                        "Catholicism": "42.2%",
-                        "Protestantism": "36.6%",
-                        "other Christian": "2.7%"
+                        "Catholicism (%)": 42.2,
+                        "Protestantism (%)": 36.6,
+                        "other Christian (%)": 2.7
                     }
                 },
-                "no religion": "17%",
-                "other": "1.5%"
-            },
-            "Demonym": "Salvadoran"
+                "no religion (%)": 17,
+                "other (%)": 1.5
+            }
         },
         "Government": {
-            "Government": "Unitary presidential republic",
-            "President": "Nayib Bukele",
-            "Vice President": "Félix Ulloa",
-            "Legislature": "Legislative Assembly"
-        },
-        "Independence": {
-            "Declared from Spain": "15 September 1821",
-            "Declared from the First Mexican Empire": "1 July 1823",
-            "Declared from the Federal Republic of Central America": "30 January 1841"
+            "Government": "Unitary presidential republic"
         },
         "Economy": {
             "International recognition": "18 February 1841",
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$88.323 billion ( 107th )",
-                "Per capita": "$13,753 ( 114th )"
+                "Total ($)": 88323000000,
+                "Per capita ($)": 13753
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$37.843 billion ( 104th )",
-                "Per capita": "$5,893 ( 108th )"
+                "Total ($)": 37843000000,
+                "Per capita ($)": 5893
             },
-            "Gini (2022)": "38.8 medium inequality",
-            "HDI (2023)": "0.678 medium ( 132nd )",
-            "Currency": "United States dollar ( USD ; since 2001) Salvadoran colón (no longer in circulation, still legal)"
+            "Gini": 38.8,
+            "HDI": 0.678,
+            "Currency": "United States dollar Salvadoran colón"
         },
         "Area": {
-            "Total": "21,041 km 2 (8,124 sq mi) ( 149th )",
-            "Water (%)": "1.5"
+            "Total (km2)": 21041,
+            "Water (%)": 1.5
         },
         "Population": {
-            "2024 census": "6,029,976 ( 114th )",
-            "Density": "286.6/km 2 (742.3/sq mi) ( 46th )",
-            "Date format": "dd/mm/yyyy"
-        },
-        "Time": {
-            "Time zone": "UTC −6 ( CST )"
-        },
-        "Codes": {
-            "Calling code": "+503",
-            "ISO 3166 code": "SV",
-            "Internet TLD": ".sv"
+            "Census": 6029976,
+            "Density (/km2)": 286.6
         }
     }
 }

@@ -1,81 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Liechtenstein</country>
-  <url>https://en.wikipedia.org/wiki/Liechtenstein</url>
   <infobox>
     <General>
-      <Capital>Vaduz</Capital>
-      <Largest_municipality>Schaan 47°10′00″N 9°30′35″E ﻿ / ﻿ 47.16667°N 9.50972°E ﻿ / 47.16667; 9.50972</Largest_municipality>
       <Official_languages>German</Official_languages>
-      <Nationality__2017_>
-        <Liechtensteiners>66.2%</Liechtensteiners>
-        <Swiss>9.5%</Swiss>
-        <Austrians>5.8%</Austrians>
-        <Germans>4.2%</Germans>
-        <Italians>3.1%</Italians>
-        <Portuguese>1.9%</Portuguese>
-        <Turks>1.6%</Turks>
-        <Albanians>1.1%</Albanians>
-        <Spaniards>1%</Spaniards>
-        <other>5.6%</other>
-      </Nationality__2017_>
-      <Religion__2020_>
+      <Religion>
         <Christianity>
-          <percentage>79.4%</percentage>
+          <percentage>79.4</percentage>
           <breakdown>
-            <Catholicism___official__>69.6%</Catholicism___official__>
-            <other_Christian>9.8%</other_Christian>
+            <Catholicism___official______>69.6</Catholicism___official______>
+            <other_Christian____>9.8</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>9.6%</no_religion>
-        <Islam>6%</Islam>
-        <other>5%</other>
-      </Religion__2020_>
-      <Demonym>Liechtensteiner</Demonym>
-      <Monarch>Hans-Adam II</Monarch>
-      <Regent_and_Heir_Apparent>Alois</Regent_and_Heir_Apparent>
+        <no_religion____>9.6</no_religion____>
+        <Islam____>6</Islam____>
+        <other____>5</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy</Government>
-      <Prime_Minister>Brigitte Haas</Prime_Minister>
-      <Deputy_Prime_Minister>Sabine Monauni</Deputy_Prime_Minister>
-      <Legislature>Landtag</Legislature>
     </Government>
-    <Independence_as_principality>
-      <Union_between_Vaduz_and_Schellenberg>23 January 1719</Union_between_Vaduz_and_Schellenberg>
-      <Treaty_of_Pressburg>12 July 1806</Treaty_of_Pressburg>
-      <Separation_from_German_Confederation>23 August 1866</Separation_from_German_Confederation>
-    </Independence_as_principality>
     <Area>
-      <Total>160.50 km 2 (61.97 sq mi) ( 190th )</Total>
+      <Total__km2_>160.5</Total__km2_>
       <Water____>2.7</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>41,232 ( 189th )</n_2023_estimate>
-      <Density>249/km 2 (644.9/sq mi) ( 56th )</Density>
+      <Estimate>41232</Estimate>
+      <Density___km2_>249</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2024 estimate</Details>
-        <Total>$7.172 billion ( 169th )</Total>
-        <Per_capita>$210,600</Per_capita>
+        <Total____>7172000000</Total____>
+        <Per_capita____>210600</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2023 estimate</Details>
-        <Total>$8.288 billion ( 155th )</Total>
-        <Per_capita>$207,974</Per_capita>
+        <Total____>8288000000</Total____>
+        <Per_capita____>207974</Per_capita____>
       </GDP__nominal_>
-      <HDI__2023_>0.938 very high ( 17th )</HDI__2023_>
-      <Currency>Swiss franc ( CHF )</Currency>
+      <HDI>0.938</HDI>
+      <Currency>Swiss franc</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +01:00 ( CET )</Time_zone>
-      <Summer___DST__>UTC +02:00 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+423</Calling_code>
-      <ISO_3166_code>LI</ISO_3166_code>
-      <Internet_TLD>.li</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

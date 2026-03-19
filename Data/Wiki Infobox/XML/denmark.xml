@@ -1,62 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Denmark</country>
-  <url>https://en.wikipedia.org/wiki/Danish_Realm</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Copenhagen</Capital_and_largest_city>
       <Official_languages>Danish ; locally: Faroese Greenlandic</Official_languages>
-      <Recognised_regional_languages>German</Recognised_regional_languages>
-      <Demonyms>Danish ; locally: Greenlander Faroe Islander</Demonyms>
-      <Constituent_territories__non_sovereign_parts_>Denmark (main) and separate parts: Faroe Islands Greenland</Constituent_territories__non_sovereign_parts_>
-      <Monarch>Frederik X</Monarch>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
-      <Prime_Minister>Mette Frederiksen</Prime_Minister>
-      <Prime_Minister_of_the_Faroe_Islands>Aksel V. Johannesen</Prime_Minister_of_the_Faroe_Islands>
-      <Prime_Minister_of_Greenland>Jens Frederik Nielsen</Prime_Minister_of_Greenland>
-      <Legislature>Folketing , with some authority devolved to Løgting ( Faroe Islands ) and Inatsisartut ( Greenland )</Legislature>
     </Government>
-    <History>
-      <Unification>c. 965</Unification>
-      <Faroese_home_rule>24 March 1948</Faroese_home_rule>
-      <Greenlandic_home_rule>1 May 1979</Greenlandic_home_rule>
-      <Faroese_takeover_act>29 July 2005</Faroese_takeover_act>
-      <Greenlandic_self_rule>21 June 2009</Greenlandic_self_rule>
-    </History>
     <Area>
-      <Denmark>42,926 km 2 (16,574 sq mi) ( 12th )</Denmark>
-      <Faroe_Islands>1,396 km 2 (538.999 sq mi)</Faroe_Islands>
-      <Greenland>2,166,086 km 2 (836,330 sq mi)</Greenland>
+      <Denmark__km2_>42926</Denmark__km2_>
+      <Faroe_Islands__km2_>1396</Faroe_Islands__km2_>
+      <Greenland__km2_>2166086</Greenland__km2_>
     </Area>
     <Population>
-      <Q2_2023_estimate>6,049,579 ( 112th )</Q2_2023_estimate>
-      <Denmark>5,941,388</Denmark>
-      <Greenland_and_Faroe_Islands>108,191</Greenland_and_Faroe_Islands>
+      <Estimate>6049579</Estimate>
+      <Denmark>5941388</Denmark>
+      <Greenland_and_Faroe_Islands>108191</Greenland_and_Faroe_Islands>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2022 estimate</Details>
         <Total>€380 billion</Total>
         <Per_capita>€62,814</Per_capita>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2019-2024 estimate</Details>
-        <Total>$418.659 billion</Total>
-        <Per_capita>$69,205</Per_capita>
+        <Total____>418659000000</Total____>
+        <Per_capita____>69205</Per_capita____>
       </GDP__nominal_>
-      <HDI__2021_>0.948 very high</HDI__2021_>
-      <Currency>Danish krone ( DKK ) Faroese króna</Currency>
+      <HDI>0.948</HDI>
+      <Currency>Danish krone Faroese króna</Currency>
     </Economy>
-    <Time>
-      <Time_zone>List UTC +1 ( CET ) (Denmark) UTC ( WET ) (Faroe Islands) UTC-4 to 0 ( AST , WGT , EGT , GMT ) (Greenland)</Time_zone>
-      <Summer___DST__>List UTC+2 ( CEST ) (Denmark) UTC+1 ( WEST ) (Faroe Islands) UTC-3 to 0 ( ADT , WGST , EGST , GMT) (Greenland)</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>3 codes +45 ( Denmark ) +298 ( Faroe Islands ) +299 ( Greenland )</Calling_code>
-      <ISO_3166_code>DK</ISO_3166_code>
-      <Internet_TLD>3 TLDs .dk (Denmark) .fo (Faroe Islands) .gl (Greenland)</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

@@ -1,79 +1,44 @@
 {
     "country": "Cambodia",
-    "url": "https://en.wikipedia.org/wiki/Cambodia",
     "infobox": {
         "General": {
-            "Capital and largest city": "Phnom Penh 11°34′10″N 104°55′16″E ﻿ / ﻿ 11.56944°N 104.92111°E ﻿ / 11.56944; 104.92111",
             "Official languages": "Khmer",
-            "Official script": "Khmer",
-            "Ethnic groups (2019/20 )": {
-                "Khmer": "95.4%",
-                "Cham": "2.4%",
-                "Chinese": "1.5%",
-                "others": "0.8%"
+            "Ethnic groups": {
+                "Khmer (%)": 95.4,
+                "Cham (%)": 2.4,
+                "Chinese (%)": 1.5,
+                "others (%)": 0.8
             },
-            "Religion (2024 )": {
-                "Buddhism ( official )": "96.5%",
-                "Islam": "2.6%",
-                "Christianity": "0.3%",
-                "others": "0.5%"
-            },
-            "Demonym": "Cambodian",
-            "Monarch": "Norodom Sihamoni"
+            "Religion": {
+                "Buddhism ( official ) (%)": 96.5,
+                "Islam (%)": 2.6,
+                "Christianity (%)": 0.3,
+                "others (%)": 0.5
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional elective monarchy under a hereditary dictatorship",
-            "Prime Minister": "Hun Manet",
-            "President of the Senate": "Hun Sen",
-            "President of the National Assembly": "Khuon Sodary",
-            "Legislature": "Parliament",
-            "Upper house": "Senate",
-            "Lower house": "National Assembly"
-        },
-        "History": {
-            "Funan": "68–550",
-            "Chenla": "550–802",
-            "Khmer Empire": "802–1431",
-            "Middle period": "1431–1863",
-            "French protectorate": "11 August 1863",
-            "Independence from France": "9 November 1953",
-            "Khmer Republic": "9 October 1970",
-            "Democratic Kampuchea": "5 January 1976",
-            "People's Republic of Kampuchea": "8 January 1979",
-            "State of Cambodia": "30 April 1989",
-            "United Nations Administered Cambodia": "28 February 1992",
-            "Monarchy restored": "24 September 1993"
+            "Government": "Unitary parliamentary constitutional elective monarchy under a hereditary dictatorship"
         },
         "Area": {
-            "Total": "181,035 km 2 (69,898 sq mi) ( 88th )",
-            "Water (%)": "2.5"
+            "Total (km2)": 181035,
+            "Water (%)": 2.5
         },
         "Population": {
-            "2024 estimate": "17,638,801 ( 71st )",
-            "Density": "94.4/km 2 (244.5/sq mi)"
+            "Estimate": 17638801,
+            "Density (/km2)": 94.4
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$150.050 billion ( 89th )",
-                "Per capita": "$8,650 ( 131st )"
+                "Total ($)": 150050000000,
+                "Per capita ($)": 8650
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$49.800 billion ( 93rd )",
-                "Per capita": "$2,870 ( 140th )"
+                "Total ($)": 49800000000,
+                "Per capita ($)": 2870
             },
-            "Gini (2024)": "23.6 low inequality",
-            "HDI (2023)": "0.606 medium ( 151st )",
-            "Currency": "Riel (៛) ( KHR ; de jure and de facto ) United States dollar ($) ( USD ; de facto )"
-        },
-        "Time": {
-            "Time zone": "UTC +07:00 ( ICT )"
-        },
-        "Codes": {
-            "Calling code": "+855",
-            "ISO 3166 code": "KH",
-            "Internet TLD": ".kh"
+            "Gini": 23.6,
+            "HDI": 0.606,
+            "Currency": "Riel United States dollar"
         }
     }
 }

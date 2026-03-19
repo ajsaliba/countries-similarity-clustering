@@ -1,68 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Solomon Islands</country>
-  <url>https://en.wikipedia.org/wiki/Solomon_Islands</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Honiara 9°25′55″S 159°57′20″E ﻿ / ﻿ 9.43194°S 159.95556°E ﻿ / -9.43194; 159.95556</Capital_and_largest_city>
       <Official_language>English</Official_language>
-      <Lingua_franca>Pijin</Lingua_franca>
-      <Ethnic_groups__2016_>
-        <Melanesian>95.3%</Melanesian>
-        <Polynesian>3.1%</Polynesian>
-        <Micronesian>1.2%</Micronesian>
-        <others>0.4%</others>
-      </Ethnic_groups__2016_>
-      <Religion__2016_>
-        <Christianity>97.4%</Christianity>
-        <Protestantism>78.6%</Protestantism>
-        <Catholicism>19.5%</Catholicism>
-        <other_Christian>1.9%</other_Christian>
-        <folk_religions>1.2%</folk_religions>
-        <others___none>1.4%</others___none>
-      </Religion__2016_>
-      <Demonyms>Solomon Islander Solomonese</Demonyms>
-      <Monarch>Charles III</Monarch>
-      <Governor_General>David Tiva Kapu</Governor_General>
+      <Ethnic_groups>
+        <Melanesian____>95.3</Melanesian____>
+        <Polynesian____>3.1</Polynesian____>
+        <Micronesian____>1.2</Micronesian____>
+        <others____>0.4</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>97.4</Christianity____>
+        <Protestantism____>78.6</Protestantism____>
+        <Catholicism____>19.5</Catholicism____>
+        <other_Christian____>1.9</other_Christian____>
+        <folk_religions____>1.2</folk_religions____>
+        <others___none____>1.4</others___none____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
-      <Prime_Minister>Jeremiah Manele</Prime_Minister>
-      <Legislature>National Parliament</Legislature>
-      <from_the_United_Kingdom>7 July 1978</from_the_United_Kingdom>
     </Government>
     <Area>
-      <Total>28,896 km 2 (11,157 sq mi) ( 139th )</Total>
-      <Water____>3.2%</Water____>
+      <Total__km2_>28896</Total__km2_>
+      <Water____>3.2</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>828,857 ( 167th )</n_2025_estimate>
-      <n_2019_census>721,956</n_2019_census>
-      <Density>24.2/km 2 (62.7/sq mi) ( 192th )</Density>
+      <Estimate>828857</Estimate>
+      <Census>721956</Census>
+      <Density___km2_>24.2</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2024 estimate</Details>
-        <Total>$1.68 billion</Total>
-        <Per_capita>$2,205.25</Per_capita>
+        <Total____>1680000000</Total____>
+        <Per_capita____>2205.25</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2024 estimate</Details>
-        <Total>$1.681 billion</Total>
-        <Per_capita>$2,205.25</Per_capita>
+        <Total____>1681000000</Total____>
+        <Per_capita____>2205.25</Per_capita____>
       </GDP__nominal_>
-      <Gini__2013_>37.1 medium inequality</Gini__2013_>
-      <HDI__2023_>0.584 medium ( 156th )</HDI__2023_>
-      <Currency>Solomon Islands dollar ( SBD )</Currency>
+      <Gini>37.1</Gini>
+      <HDI>0.584</HDI>
+      <Currency>Solomon Islands dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +11 (Solomon Islands Time)</Time_zone>
-      <Summer___DST__>Not observed</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+677</Calling_code>
-      <ISO_3166_code>SB</ISO_3166_code>
-      <Internet_TLD>.sb</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

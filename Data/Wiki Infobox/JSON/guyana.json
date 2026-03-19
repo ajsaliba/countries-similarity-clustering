@@ -1,80 +1,47 @@
 {
     "country": "Guyana",
-    "url": "https://en.wikipedia.org/wiki/Guyana",
     "infobox": {
         "General": {
-            "Capital and largest city": "Georgetown 6°48′04″N 58°09′18″W ﻿ / ﻿ 6.80111°N 58.15500°W ﻿ / 6.80111; -58.15500",
             "Official languages": "English",
-            "Recognised regional languages": "10 indigenous languages Akawaio Macushi Waiwai Arawak (Lokono) Patamona Warao Carib Wapishana Pemon (Arekuna) Mawayana",
-            "Vernacular language": "Guyanese Creole",
-            "Other languages": "6 languages Guyanese Hindustani Portuguese Dutch Spanish Chinese",
-            "Ethnic groups (2024)": {
-                "Indian": "44.4%",
-                "African": "32.3%",
-                "Mixed": "20%",
-                "Indigenous": "10.5%",
-                "European": "0.3%",
-                "Chinese": "0.2%"
+            "Ethnic groups": {
+                "Indian (%)": 44.4,
+                "African (%)": 32.3,
+                "Mixed (%)": 20,
+                "Indigenous (%)": 10.5,
+                "European (%)": 0.3,
+                "Chinese (%)": 0.2
             },
-            "Religion (2024)": {
-                "Christianity": "55.5%",
-                "Hinduism": "31%",
-                "Islam": "9.5%",
-                "no religion": "4.2%",
-                "others": "3.3%"
-            },
-            "Demonym": "Guyanese"
+            "Religion": {
+                "Christianity (%)": 55.5,
+                "Hinduism (%)": 31,
+                "Islam (%)": 9.5,
+                "no religion (%)": 4.2,
+                "others (%)": 3.3
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic with an executive presidency",
-            "President": "Irfaan Ali",
-            "Prime Minister & First Vice President": "Mark Phillips",
-            "Second Vice President": "Bharrat Jagdeo",
-            "Speaker of the National Assembly": "Manzoor Nadir",
-            "Acting Chief Justice": "Roxane George-Wiltshire",
-            "Legislature": "National Assembly",
-            "Independence from the United Kingdom as Guyana": "26 May 1966"
-        },
-        "Establishment": {
-            "British Guiana": "1831–1966",
-            "Republic": "23 February 1970",
-            "Joined CARICOM at the Treaty of Chaguaramas": "1 August 1973"
-        },
-        "Time": {
-            "Dutch control": "1667–1815",
-            "Time zone": "UTC -04:00 ( GYT )"
-        },
-        "History": {
-            "Current constitution": "6 October 1980"
+            "Government": "Unitary parliamentary republic with an executive presidency"
         },
         "Area": {
-            "Total": "214,969 km 2 (83,000 sq mi) ( 83rd )",
-            "Water (%)": "8.4"
+            "Total (km2)": 214969,
+            "Water (%)": 8.4
         },
         "Population": {
-            "2025 estimate": "950,986 ( 166th )",
-            "Density": "4.25/km 2 (11.0/sq mi) ( 235th )",
-            "Date format": "dd-mm-yyyy"
+            "Estimate": 950986,
+            "Density (/km2)": 4.25
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$75.294 billion ( 110th )",
-                "Per capita": "$94,258 ( 8th )"
+                "Total ($)": 75294000000,
+                "Per capita ($)": 94258
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$25.822 billion ( 119th )",
-                "Per capita": "$32,326 ( 37th )"
+                "Total ($)": 25822000000,
+                "Per capita ($)": 32326
             },
-            "Gini (2007)": "44.6 medium inequality",
-            "HDI (2023)": "0.776 high ( 89th )",
-            "Currency": "Guyanese dollar ( GYD )"
-        },
-        "Codes": {
-            "Calling code": "+592",
-            "ISO 3166 code": "GY",
-            "Internet TLD": ".gy"
+            "Gini": 44.6,
+            "HDI": 0.776,
+            "Currency": "Guyanese dollar"
         }
     }
 }

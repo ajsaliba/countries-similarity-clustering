@@ -1,75 +1,42 @@
 {
     "country": "Ukraine",
-    "url": "https://en.wikipedia.org/wiki/Ukraine",
     "infobox": {
         "General": {
-            "Capital and largest city": "Kyiv 50°27′N 30°31′E ﻿ / ﻿ 50.450°N 30.517°E ﻿ / 50.450; 30.517",
             "Official language and national language": "Ukrainian",
-            "Ethnic groups (2001)": {
-                "Ukrainians": "78%",
-                "Russians": "17%",
-                "other": "4.9%"
+            "Ethnic groups": {
+                "Ukrainians (%)": 78,
+                "Russians (%)": 17,
+                "other (%)": 4.9
             },
-            "Religion (2018)": {
-                "Christianity": "87.3%",
-                "no religion": "11%",
-                "other": "0.8%"
-            },
-            "Demonym": "Ukrainian"
+            "Religion": {
+                "Christianity (%)": 87.3,
+                "no religion (%)": 11,
+                "other (%)": 0.8
+            }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic",
-            "President": "Volodymyr Zelenskyy",
-            "Prime Minister": "Yulia Svyrydenko",
-            "Legislature": "Verkhovna Rada"
-        },
-        "History": {
-            "Kievan Rus'": "882",
-            "Galicia–Volhynia": "1199",
-            "Zaporozhian Sich": "1552",
-            "Cossack Hetmanate": "18 August 1649",
-            "People's republic": [
-                "20 November 1917",
-                "14 December 1918"
-            ],
-            "Second Hetmanate": "29 April 1918",
-            "Soviet republic": "10 March 1919",
-            "UN membership": "24 October 1945",
-            "Independence declared": "24 August 1991",
-            "Current constitution": "28 June 1996"
+            "Government": "Unitary semi-presidential republic"
         },
         "Area": {
-            "Total": "603,628 km 2 (233,062 sq mi) ( 45th )",
-            "Water (%)": "3.8"
+            "Total (km2)": 603628,
+            "Water (%)": 3.8
         },
         "Population": {
-            "April 2025 estimate": "32,862,000 ( 46th )",
-            "Density": "54.4/km 2 (140.9/sq mi) ( 156th )",
-            "Date format": "dd.mm.yyyy"
+            "Estimate": 32862000,
+            "Density (/km2)": 54.4
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$690.059 billion ( 45th )",
-                "Per capita": "$20,999 ( 89th )"
+                "Total ($)": 690059000000,
+                "Per capita ($)": 20999
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$205.742 billion ( 58th )",
-                "Per capita": "$6,261 ( 112th )"
+                "Total ($)": 205742000000,
+                "Per capita ($)": 6261
             },
-            "Gini (2020)": "25.6 low inequality",
-            "HDI (2023)": "0.779 high ( 87th )",
-            "Currency": "Ukrainian hryvnia ( ₴ ) ( UAH )"
-        },
-        "Time": {
-            "Time zone": "UTC +2 ( EET )",
-            "Summer ( DST )": "UTC +3 ( EEST )"
-        },
-        "Codes": {
-            "Calling code": "+380",
-            "ISO 3166 code": "UA",
-            "Internet TLD": ".ua .укр"
+            "Gini": 25.6,
+            "HDI": 0.779,
+            "Currency": "Ukrainian hryvnia"
         }
     }
 }

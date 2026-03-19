@@ -1,91 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Serbia</country>
-  <url>https://en.wikipedia.org/wiki/Serbia</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Belgrade 44°48′N 20°28′E ﻿ / ﻿ 44.800°N 20.467°E ﻿ / 44.800; 20.467</Capital_and_largest_city>
       <Official_languages>Serbian</Official_languages>
-      <Ethnic_groups__2022__>
-        <Serbs>80.6%</Serbs>
-        <Hungarians>2.8%</Hungarians>
-        <Bosniaks>2.3%</Bosniaks>
-        <Roma>2%</Roma>
-        <others>5.4%</others>
-        <undeclared_unknown>6.9%</undeclared_unknown>
-      </Ethnic_groups__2022__>
-      <Religion__2022__>
+      <Ethnic_groups>
+        <Serbs____>80.6</Serbs____>
+        <Hungarians____>2.8</Hungarians____>
+        <Bosniaks____>2.3</Bosniaks____>
+        <Roma____>2</Roma____>
+        <others____>5.4</others____>
+        <undeclared_unknown____>6.9</undeclared_unknown____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>86.6%</percentage>
+          <percentage>86.6</percentage>
           <breakdown>
-            <Serbian_Orthodoxy>81.1%</Serbian_Orthodoxy>
-            <Catholicism>3.9%</Catholicism>
-            <other>1.7%</other>
+            <Eastern_Orthodoxy____>81.1</Eastern_Orthodoxy____>
+            <Catholicism____>3.9</Catholicism____>
+            <other____>1.7</other____>
           </breakdown>
         </Christianity>
-        <Islam>4.2%</Islam>
-        <no_religion>1.1%</no_religion>
-        <undeclared_unknown>7.9%</undeclared_unknown>
-      </Religion__2022__>
-      <Demonym>Serbian</Demonym>
-      <Independence_recognised>
-        <Details>1878</Details>
-        <Kingdom_of_Serbia>1882</Kingdom_of_Serbia>
-        <Kingdom_of_Yugoslavia>1918</Kingdom_of_Yugoslavia>
-        <Socialist_Republic_of_Serbia_within_the_SFR_Yugoslavia>1945</Socialist_Republic_of_Serbia_within_the_SFR_Yugoslavia>
-        <Federal_Republic_of_Yugoslavia>1992</Federal_Republic_of_Yugoslavia>
-        <State_Union_of_Serbia_and_Montenegro>2003</State_Union_of_Serbia_and_Montenegro>
-        <Independence_restored>2006</Independence_restored>
-      </Independence_recognised>
+        <Islam____>4.2</Islam____>
+        <no_religion____>1.1</no_religion____>
+        <undeclared_unknown____>7.9</undeclared_unknown____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Aleksandar Vučić</President>
-      <Prime_Minister>Đuro Macut</Prime_Minister>
-      <President_of_the_National_Assembly>Ana Brnabić</President_of_the_National_Assembly>
-      <Legislature>National Assembly</Legislature>
-      <Kingdom>1217</Kingdom>
     </Government>
-    <History>
-      <Principality>7th century</Principality>
-      <Empire>1346</Empire>
-      <Independence_lost>1459</Independence_lost>
-      <Serbian_Revolution>1804</Serbian_Revolution>
-      <Principality_of_Serbia>1815</Principality_of_Serbia>
-    </History>
     <Area>
-      <Total>88,499 km 2 (34,170 sq mi) ( 111th )</Total>
-      <Excluding_Kosovo>77,589 km 2 (29,957 sq mi)</Excluding_Kosovo>
+      <Total__km2_>88499</Total__km2_>
+      <Excluding_Kosovo__km2_>77589</Excluding_Kosovo__km2_>
     </Area>
     <Population>
-      <n_2025_estimate>6,567,783 (excluding Kosovo) ( 107th )</n_2025_estimate>
-      <n_2022_census>6,647,003 (excluding Kosovo)</n_2022_census>
-      <Density>85/km 2 (220.1/sq mi) ( 127th )</Density>
-      <Date_format>mm/dd/yyyy ( AD )</Date_format>
+      <Estimate>6567783</Estimate>
+      <Census>6647003</Census>
+      <Density___km2_>85</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$225.55 billion ( 78th )</Total>
-        <Per_capita>$34,790 ( 65th )</Per_capita>
+        <Total____>225550000000</Total____>
+        <Per_capita____>34790</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$112.11 billion ( 71st )</Total>
-        <Per_capita>$17,290 ( 68th )</Per_capita>
+        <Total____>112110000000</Total____>
+        <Per_capita____>17290</Per_capita____>
       </GDP__nominal_>
-      <Gini__2024_>31.9 medium inequality</Gini__2024_>
-      <HDI__2023_>0.833 very high ( 62nd )</HDI__2023_>
-      <Currency>Serbian dinar ( RSD )</Currency>
+      <Gini>31.9</Gini>
+      <HDI>0.833</HDI>
+      <Currency>Serbian dinar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+381</Calling_code>
-      <ISO_3166_code>RS</ISO_3166_code>
-      <Internet_TLD>.rs .срб</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

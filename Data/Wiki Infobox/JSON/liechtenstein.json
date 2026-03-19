@@ -1,80 +1,43 @@
 {
     "country": "Liechtenstein",
-    "url": "https://en.wikipedia.org/wiki/Liechtenstein",
     "infobox": {
         "General": {
-            "Capital": "Vaduz",
-            "Largest municipality": "Schaan 47°10′00″N 9°30′35″E ﻿ / ﻿ 47.16667°N 9.50972°E ﻿ / 47.16667; 9.50972",
             "Official languages": "German",
-            "Nationality (2017)": {
-                "Liechtensteiners": "66.2%",
-                "Swiss": "9.5%",
-                "Austrians": "5.8%",
-                "Germans": "4.2%",
-                "Italians": "3.1%",
-                "Portuguese": "1.9%",
-                "Turks": "1.6%",
-                "Albanians": "1.1%",
-                "Spaniards": "1%",
-                "other": "5.6%"
-            },
-            "Religion (2020)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "79.4%",
+                    "percentage": 79.4,
                     "breakdown": {
-                        "Catholicism ( official )": "69.6%",
-                        "other Christian": "9.8%"
+                        "Catholicism ( official ) (%)": 69.6,
+                        "other Christian (%)": 9.8
                     }
                 },
-                "no religion": "9.6%",
-                "Islam": "6%",
-                "other": "5%"
-            },
-            "Demonym": "Liechtensteiner",
-            "Monarch": "Hans-Adam II",
-            "Regent and Heir Apparent": "Alois"
+                "no religion (%)": 9.6,
+                "Islam (%)": 6,
+                "other (%)": 5
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy",
-            "Prime Minister": "Brigitte Haas",
-            "Deputy Prime Minister": "Sabine Monauni",
-            "Legislature": "Landtag"
-        },
-        "Independence as principality": {
-            "Union between Vaduz and Schellenberg": "23 January 1719",
-            "Treaty of Pressburg": "12 July 1806",
-            "Separation from German Confederation": "23 August 1866"
+            "Government": "Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy"
         },
         "Area": {
-            "Total": "160.50 km 2 (61.97 sq mi) ( 190th )",
-            "Water (%)": "2.7"
+            "Total (km2)": 160.5,
+            "Water (%)": 2.7
         },
         "Population": {
-            "2023 estimate": "41,232 ( 189th )",
-            "Density": "249/km 2 (644.9/sq mi) ( 56th )"
+            "Estimate": 41232,
+            "Density (/km2)": 249
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2024 estimate",
-                "Total": "$7.172 billion ( 169th )",
-                "Per capita": "$210,600"
+                "Total ($)": 7172000000,
+                "Per capita ($)": 210600
             },
             "GDP (nominal)": {
-                "Details": "2023 estimate",
-                "Total": "$8.288 billion ( 155th )",
-                "Per capita": "$207,974"
+                "Total ($)": 8288000000,
+                "Per capita ($)": 207974
             },
-            "HDI (2023)": "0.938 very high ( 17th )",
-            "Currency": "Swiss franc ( CHF )"
-        },
-        "Time": {
-            "Time zone": "UTC +01:00 ( CET )",
-            "Summer ( DST )": "UTC +02:00 ( CEST )"
-        },
-        "Codes": {
-            "Calling code": "+423",
-            "ISO 3166 code": "LI",
-            "Internet TLD": ".li"
+            "HDI": 0.938,
+            "Currency": "Swiss franc"
         }
     }
 }

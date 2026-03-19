@@ -1,72 +1,49 @@
 {
     "country": "Singapore",
-    "url": "https://en.wikipedia.org/wiki/Singapore",
     "infobox": {
         "General": {
-            "Capital": "Singapore ( city-state ) 1°17′N 103°50′E ﻿ / ﻿ 1.283°N 103.833°E ﻿ / 1.283; 103.833",
             "Official languages": "English Malay Mandarin Tamil",
-            "National language": "Malay",
-            "Ethnic groups (2023)": {
-                "Chinese": "74.3%",
-                "Malay": "13.5%",
-                "Indian": "9%",
-                "Other": "3.2%"
+            "Ethnic groups": {
+                "Chinese (%)": 74.3,
+                "Malay (%)": 13.5,
+                "Indian (%)": 9,
+                "Other (%)": 3.2
             },
-            "Religion (2020)": {
-                "Buddhism": "31.1%",
-                "No religion": "20%",
-                "Christianity": "18.9%",
-                "Islam": "15.6%",
-                "Taoism": "8.8%",
-                "Hinduism": "5%",
-                "Sikhism": "0.3%",
-                "Other": "0.3%"
-            },
-            "Demonym": "Singaporean"
+            "Religion": {
+                "Buddhism (%)": 31.1,
+                "No religion (%)": 20,
+                "Christianity (%)": 18.9,
+                "Islam (%)": 15.6,
+                "Taoism (%)": 8.8,
+                "Hinduism (%)": 5,
+                "Sikhism (%)": 0.3,
+                "Other (%)": 0.3
+            }
         },
         "Area": {
             "Largest planning area by population": "Tampines",
-            "Total": "744.3 km 2 (287.4 sq mi) ( 176th )",
-            "Water (%)": "1.43%"
+            "Total (km2)": 744.3,
+            "Water (%)": 1.43
         },
         "Government": {
-            "Government": "Unitary parliamentary republic",
-            "President": "Tharman Shanmugaratnam",
-            "Prime Minister": "Lawrence Wong",
-            "Legislature": "Parliament"
-        },
-        "Independence from the United Kingdom and Malaysia": {
-            "Self-governance": "3 June 1959",
-            "Malaysia Agreement": "16 September 1963",
-            "Proclamation of Singapore": "9 August 1965"
+            "Government": "Unitary parliamentary republic"
         },
         "Population": {
-            "2025 estimate": "6,110,200 ( 111th )",
-            "Density": "8,290/km 2 (21,471.0/sq mi) ( 3rd )",
-            "Date format": "dd-mm-yyyy ( AD )"
+            "Estimate": 6110200,
+            "Density (/km2)": 8290
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$952.600 billion ( 34th )",
-                "Per capita": "$156,755 ( 1st )"
+                "Total ($)": 952600000000,
+                "Per capita ($)": 156755
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$564.700 billion ( 27th )",
-                "Per capita": "$93,956 ( 4th )"
+                "Total ($)": 564700000000,
+                "Per capita ($)": 93956
             },
-            "Gini (2023)": "43.3 medium inequality",
-            "HDI (2023)": "0.946 very high ( 13th )",
-            "Currency": "Singapore dollar (S$) ( SGD )"
-        },
-        "Time": {
-            "Time zone": "UTC +8 ( SGT )"
-        },
-        "Codes": {
-            "Calling code": "+65",
-            "ISO 3166 code": "SG",
-            "Internet TLD": ".sg"
+            "Gini": 43.3,
+            "HDI": 0.946,
+            "Currency": "Singapore dollar"
         }
     }
 }

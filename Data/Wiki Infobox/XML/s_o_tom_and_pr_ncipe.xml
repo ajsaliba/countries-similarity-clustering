@@ -1,64 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>São Tomé and Príncipe</country>
-  <url>https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>São Tomé 0°20′N 6°44′E ﻿ / ﻿ 0.333°N 6.733°E ﻿ / 0.333; 6.733</Capital_and_largest_city>
-      <Recognised_regional_languages>Forro Creole Angolar Creole Principense Creole</Recognised_regional_languages>
       <Official_language_and_national_language>Portuguese</Official_language_and_national_language>
-      <Religion__2020_>
-        <Christianity>81.1%</Christianity>
-        <no_religion>13.2%</no_religion>
-        <folk_religions>3.1%</folk_religions>
-        <others>2.4%</others>
-      </Religion__2020_>
-      <Demonyms>São Toméan Santomean</Demonyms>
+      <Religion>
+        <Christianity____>81.1</Christianity____>
+        <no_religion____>13.2</no_religion____>
+        <folk_religions____>3.1</folk_religions____>
+        <others____>2.4</others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
-      <President>Carlos Vila Nova</President>
-      <Prime_Minister>Américo Ramos</Prime_Minister>
-      <Legislature>National Assembly</Legislature>
     </Government>
-    <Independence_from_Portugal>
-      <Granted>12 July 1975</Granted>
-      <Admitted_to_the_United_Nations>16 September 1975</Admitted_to_the_United_Nations>
-    </Independence_from_Portugal>
-    <History>
-      <Constitutional_reform>22 August 1990</Constitutional_reform>
-    </History>
     <Area>
-      <Total>964 km 2 (372 sq mi) ( 171st )</Total>
+      <Total__km2_>964</Total__km2_>
       <Water____>negligible</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>220,372 ( 175th )</n_2023_estimate>
-      <Density>199.7/km 2 (517.2/sq mi) ( 69th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>220372</Estimate>
+      <Density___km2_>199.7</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2024 estimate</Details>
-        <Total>$1 billion</Total>
-        <Per_capita>$4,238</Per_capita>
+        <Total____>1000000000</Total____>
+        <Per_capita____>4238</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2024 estimate</Details>
-        <Total>$751 million</Total>
-        <Per_capita>$3,167</Per_capita>
+        <Total____>751000000</Total____>
+        <Per_capita____>3167</Per_capita____>
       </GDP__nominal_>
-      <Gini__2017_>40.7 medium inequality</Gini__2017_>
-      <HDI__2023_>0.637 medium ( 141st )</HDI__2023_>
-      <Currency>Dobra ( STN )</Currency>
+      <Gini>40.7</Gini>
+      <HDI>0.637</HDI>
+      <Currency>Dobra</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +0 ( GMT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+239</Calling_code>
-      <ISO_3166_code>ST</ISO_3166_code>
-      <Internet_TLD>.st</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

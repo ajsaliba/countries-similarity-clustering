@@ -1,80 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Nicaragua</country>
-  <url>https://en.wikipedia.org/wiki/Nicaragua</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Managua 12°6′N 86°14′W ﻿ / ﻿ 12.100°N 86.233°W ﻿ / 12.100; -86.233</Capital_and_largest_city>
       <Official_languages>Spanish</Official_languages>
-      <Recognised_regional_languages>English Miskito Rama Sumo Moskitian Creole Garifuna Rama Cay Creole</Recognised_regional_languages>
-      <Ethnic_groups__2023__>
-        <Mestizo__mixed_White_and_Indigenous__>69%</Mestizo__mixed_White_and_Indigenous__>
-        <White>17%</White>
-        <Black>9%</Black>
-        <Indigenous>5%</Indigenous>
-      </Ethnic_groups__2023__>
-      <Religion__2015_>
+      <Ethnic_groups>
+        <Mestizo__mixed_White_and_Indigenous______>69</Mestizo__mixed_White_and_Indigenous______>
+        <White____>17</White____>
+        <Black____>9</Black____>
+        <Indigenous____>5</Indigenous____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>84.4%</percentage>
+          <percentage>84.4</percentage>
           <breakdown>
-            <Catholicism>55%</Catholicism>
-            <Protestantism>27.2%</Protestantism>
-            <other_Christian>2.2%</other_Christian>
+            <Catholicism____>55</Catholicism____>
+            <Protestantism____>27.2</Protestantism____>
+            <other_Christian____>2.2</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>14.7%</no_religion>
-        <other>0.9%</other>
-      </Religion__2015_>
-      <Demonyms>Nicaraguan Pinolero/Pinolera (colloquial)</Demonyms>
-      <Recognized>
-        <Details>25 July 1850</Details>
-        <Nicaraguan_Revolution>19 July 1979</Nicaraguan_Revolution>
-        <Current_constitution>9 January 1987</Current_constitution>
-      </Recognized>
+        <no_religion____>14.7</no_religion____>
+        <other____>0.9</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary diarchic presidential socialist republic under an authoritarian dictatorship</Government>
-      <Co_Presidents>Daniel Ortega Rosario Murillo</Co_Presidents>
-      <President_of_the_National_Assembly>Gustavo Porras Cortés</President_of_the_National_Assembly>
-      <Chief_Justice>Alba Luz Ramos</Chief_Justice>
-      <Legislature>National Assembly</Legislature>
     </Government>
-    <Independence_from_Spain___Mexico_and_the_Federal_Republic_of_Central_America>
-      <From_New_Spain>15 September 1821</From_New_Spain>
-      <From_the_First_Mexican_Empire>1 July 1823</From_the_First_Mexican_Empire>
-      <From_the_Federal_Republic_of_Central_America>30 April 1838</From_the_Federal_Republic_of_Central_America>
-    </Independence_from_Spain___Mexico_and_the_Federal_Republic_of_Central_America>
     <Area>
-      <Total>130,375 km 2 (50,338 sq mi) ( 96th )</Total>
+      <Total__km2_>130375</Total__km2_>
       <Water____>7.14</Water____>
     </Area>
     <Population>
-      <n_2024_estimate>6,676,948 ( 106th )</n_2024_estimate>
-      <Density>51/km 2 (132.1/sq mi) ( 155th )</Density>
-      <Date_format>dd-mm-yyyy</Date_format>
+      <Estimate>6676948</Estimate>
+      <Density___km2_>51</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2024 estimate</Details>
-        <Total>$56.697 billion ( 115th )</Total>
-        <Per_capita>$8,492 ( 129th )</Per_capita>
+        <Total____>56697000000</Total____>
+        <Per_capita____>8492</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2024 estimate</Details>
-        <Total>$17.843 billion ( 127th )</Total>
-        <Per_capita>$2,673 ( 134th )</Per_capita>
+        <Total____>17843000000</Total____>
+        <Per_capita____>2673</Per_capita____>
       </GDP__nominal_>
-      <Gini__2014_>46.2 high inequality</Gini__2014_>
-      <HDI__2023_>0.706 high ( 123rd )</HDI__2023_>
-      <Currency>Córdoba ( NIO )</Currency>
+      <Gini>46.2</Gini>
+      <HDI>0.706</HDI>
+      <Currency>Córdoba</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC −6 ( CST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+505</Calling_code>
-      <ISO_3166_code>NI</ISO_3166_code>
-      <Internet_TLD>.ni</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

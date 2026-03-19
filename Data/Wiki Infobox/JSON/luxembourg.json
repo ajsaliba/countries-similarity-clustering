@@ -1,72 +1,44 @@
 {
     "country": "Luxembourg",
-    "url": "https://en.wikipedia.org/wiki/Luxembourg",
     "infobox": {
         "General": {
-            "Capital and largest city": "Luxembourg 49°36′38″N 6°07′58″E ﻿ / ﻿ 49.6106°N 6.1328°E ﻿ / 49.6106; 6.1328",
             "Official languages": "National language: Luxembourgish Administrative languages: Luxembourgish German French",
-            "Nationality (2025)": {
-                "Luxembourgers": "53%",
-                "Portuguese e": "13.2%",
-                "French e": "7.2%",
-                "Italians e": "3.7%",
-                "other e": "23%"
-            },
-            "Religion (2021 )": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "53%",
+                    "percentage": 53,
                     "breakdown": {
-                        "Catholicism": "46%",
-                        "other Christian": "7%"
+                        "Catholicism (%)": 46,
+                        "other Christian (%)": 7
                     }
                 },
-                "no religion": "38%",
-                "other": "9%"
-            },
-            "Demonyms": "Luxembourger Luxembourgish",
-            "Grand Duke": "Guillaume V"
+                "no religion (%)": 38,
+                "other (%)": 9
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy",
-            "Prime Minister": "Luc Frieden",
-            "Legislature": "Chamber of Deputies",
-            "End of personal union with the Kingdom of the Netherlands": "23 November 1890"
-        },
-        "Establishment": {
-            "From the French Empire and elevation to Grand Duchy of Luxembourg": "9 June 1815",
-            "Liberation from the Greater German Reich": "1944/1945"
-        },
-        "History": {
-            "Independence in personal Union with the Netherlands ( Treaty of London )": "19 April 1839"
+            "Government": "Unitary parliamentary constitutional monarchy"
         },
         "Area": {
-            "Total": "2,586.4 km 2 (998.6 sq mi) ( 168th )",
-            "Water (%)": "0.23 (2015)"
+            "Total (km2)": 2586.4,
+            "Water (%)": 0.23
         },
         "Population": {
-            "December 2025 estimate": "690,947 ( 163rd )",
-            "2021 census": "643,941",
-            "Density": "264/km 2 (683.8/sq mi) ( 55th )"
+            "Estimate": 690947,
+            "Census": 643941,
+            "Density (/km2)": 264
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$106.505 billion ( 100th )",
-                "Per capita": "$154,914 ( 1st )"
+                "Total ($)": 106505000000,
+                "Per capita ($)": 154914
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$96.993 billion ( 73rd )",
-                "Per capita": "$141,079 ( 1st )"
+                "Total ($)": 96993000000,
+                "Per capita ($)": 141079
             },
-            "Gini (2023)": "30.6 medium inequality",
-            "HDI (2023)": "0.922 very high ( 25th )",
-            "Currency": "Euro ( € ) ( EUR )"
-        },
-        "Codes": {
-            "Calling code": "+352",
-            "ISO 3166 code": "LU",
-            "Internet TLD": ".lu b"
+            "Gini": 30.6,
+            "HDI": 0.922,
+            "Currency": "Euro"
         }
     }
 }

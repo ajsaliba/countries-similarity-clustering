@@ -1,82 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Afghanistan</country>
-  <url>https://en.wikipedia.org/wiki/Afghanistan</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Kabul 34°31′N 69°11′E ﻿ / ﻿ 34.517°N 69.183°E ﻿ / 34.517; 69.183</Capital_and_largest_city>
       <Official_languages>Pashto Dari</Official_languages>
-      <Ethnic_groups__2010__unofficial_estimates_>
-        <Pashtun>42%</Pashtun>
-        <Tajik>27%</Tajik>
-        <Hazara>9%</Hazara>
-        <Uzbek>9%</Uzbek>
-        <Aimaq>4%</Aimaq>
-        <Turkmen>3%</Turkmen>
-        <Baloch>2%</Baloch>
-        <other>4%</other>
-      </Ethnic_groups__2010__unofficial_estimates_>
-      <Religion__2020_>
+      <Ethnic_groups>
+        <Pashtun____>42</Pashtun____>
+        <Tajik____>27</Tajik____>
+        <Hazara____>9</Hazara____>
+        <Uzbek____>9</Uzbek____>
+        <Aimaq____>4</Aimaq____>
+        <Turkmen____>3</Turkmen____>
+        <Baloch____>2</Baloch____>
+        <other____>4</other____>
+      </Ethnic_groups>
+      <Religion>
         <Islam>
-          <percentage>99.9%</percentage>
+          <percentage>99.9</percentage>
           <breakdown>
-            <Sunni___official__>89.1%</Sunni___official__>
-            <Shia>10.8%</Shia>
+            <Sunni___official______>89.1</Sunni___official______>
+            <Shia____>10.8</Shia____>
           </breakdown>
         </Islam>
-        <other>0.1%</other>
-      </Religion__2020_>
-      <Demonym>Afghan</Demonym>
+        <other____>0.1</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary totalitarian theocratic Islamic emirate</Government>
-      <Supreme_Leader>Hibatullah Akhundzada</Supreme_Leader>
-      <Prime_Minister>Hasan Akhund</Prime_Minister>
-      <Chief_Justice>Abdul Hakim Haqqani</Chief_Justice>
-      <Legislature>None</Legislature>
-      <Hotak_Emirate>21 April 1709</Hotak_Emirate>
-      <Barakzai_Emirate>1823</Barakzai_Emirate>
-      <Kingdom>9 June 1926</Kingdom>
-      <Islamic_Emirate>27 September 1996</Islamic_Emirate>
-      <Restoration_of_Islamic_Emirate>15 August 2021</Restoration_of_Islamic_Emirate>
     </Government>
-    <History>
-      <Durrani_Empire>June 1747</Durrani_Empire>
-      <Unification>27 May 1863</Unification>
-      <Independence>19 August 1919</Independence>
-      <Republic>17 July 1973</Republic>
-      <Democratic_Republic>30 April 1978</Democratic_Republic>
-      <Islamic_State>28 April 1992</Islamic_State>
-      <Islamic_Republic>26 January 2004</Islamic_Republic>
-    </History>
     <Area>
-      <Total>652,864 km 2 (252,072 sq mi) ( 40th )</Total>
+      <Total__km2_>652864</Total__km2_>
       <Water____>negligible</Water____>
     </Area>
     <Population>
-      <mid_2024_2025_estimate>35–50 million ( 36th )</mid_2024_2025_estimate>
-      <Density>64/km 2 (165.8/sq mi)</Density>
+      <Estimate>35–50 million</Estimate>
+      <Density___km2_>64</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2023 estimate</Details>
-        <Total>$91.668 billion</Total>
-        <Per_capita>$2,174 ( 179th )</Per_capita>
+        <Total____>91668000000</Total____>
+        <Per_capita____>2174</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2023 estimate</Details>
-        <Total>$17.329 billion</Total>
-        <Per_capita>$411 ( 190th )</Per_capita>
+        <Total____>17329000000</Total____>
+        <Per_capita____>411</Per_capita____>
       </GDP__nominal_>
-      <HDI__2023_>0.496 low ( 181st )</HDI__2023_>
-      <Currency>Afghani ( افغانى ) ( AFN )</Currency>
+      <HDI>0.496</HDI>
+      <Currency>Afghani</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +4:30 Lunar Hijri calendar ( Afghanistan Time )</Time_zone>
-    </Time>
-    <Codes>
-      <ISO_3166_code>AF</ISO_3166_code>
-      <Internet_TLD>.af</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

@@ -1,72 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Saint Lucia</country>
-  <url>https://en.wikipedia.org/wiki/Saint_Lucia</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Castries 13°53′00″N 60°58′00″W ﻿ / ﻿ 13.88333°N 60.96667°W ﻿ / 13.88333; -60.96667</Capital_and_largest_city>
       <Official_languages>English</Official_languages>
-      <Vernacular_languages>Saint Lucian French Creole</Vernacular_languages>
-      <Ethnic_groups__2020__>
-        <African>85.3%</African>
-        <Mixed>10.9%</Mixed>
-        <Indian>2.2%</Indian>
-        <other__unspecified>1.6%</other__unspecified>
-      </Ethnic_groups__2020__>
-      <Religion__2022_>
-        <Christianity>77.4%</Christianity>
-        <no_religion>14.4%</no_religion>
-        <Rastafari>1.4%</Rastafari>
-        <other>2.7%</other>
-        <not_stated>4.1%</not_stated>
-      </Religion__2022_>
-      <Demonym>Saint Lucian</Demonym>
-      <Monarch>Charles III</Monarch>
-      <Governor_General>Errol Charles</Governor_General>
+      <Ethnic_groups>
+        <African____>85.3</African____>
+        <Mixed____>10.9</Mixed____>
+        <Indian____>2.2</Indian____>
+        <other__unspecified____>1.6</other__unspecified____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>77.4</Christianity____>
+        <no_religion____>14.4</no_religion____>
+        <Rastafari____>1.4</Rastafari____>
+        <other____>2.7</other____>
+        <not_stated____>4.1</not_stated____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
-      <Prime_Minister>Philip J. Pierre</Prime_Minister>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>House of Assembly</Lower_house>
-      <Independence_from_the_United_Kingdom>22 February 1979</Independence_from_the_United_Kingdom>
     </Government>
-    <Independence>
-      <Associated_State>1 March 1967</Associated_State>
-    </Independence>
     <Area>
-      <Total>617 km 2 (238 sq mi) ( 178th )</Total>
+      <Total__km2_>617</Total__km2_>
       <Water____>1.6</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>184,100 ( 177th )</n_2023_estimate>
-      <n_2010_census>165,595</n_2010_census>
-      <Density>298/km 2 (771.8/sq mi) ( 29th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>184100</Estimate>
+      <Census>165595</Census>
+      <Density___km2_>298</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$3.769 billion ( 177nd )</Total>
-        <Per_capita>$29,258 ( 73th )</Per_capita>
+        <Total____>3769000000</Total____>
+        <Per_capita____>29258</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$2.715 billion ( 168th )</Total>
-        <Per_capita>$14,647 ( 72th )</Per_capita>
+        <Total____>2715000000</Total____>
+        <Per_capita____>14647</Per_capita____>
       </GDP__nominal_>
-      <Gini__2016_>51.2 high inequality</Gini__2016_>
-      <HDI__2023_>0.748 high ( 103rd )</HDI__2023_>
-      <Currency>East Caribbean dollar ( XCD )</Currency>
+      <Gini>51.2</Gini>
+      <HDI>0.748</HDI>
+      <Currency>East Caribbean dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC −4 ( AST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+1</Calling_code>
-      <ISO_3166_code>LC</ISO_3166_code>
-      <Internet_TLD>.lc</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

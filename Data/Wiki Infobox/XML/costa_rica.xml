@@ -1,81 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Costa Rica</country>
-  <url>https://en.wikipedia.org/wiki/Costa_Rica</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>San José 9°56′N 84°5′W ﻿ / ﻿ 9.933°N 84.083°W ﻿ / 9.933; -84.083</Capital_and_largest_city>
       <Official_languages>Spanish</Official_languages>
-      <Recognized_regional_languages>Mekatelyu Bribri Patois</Recognized_regional_languages>
-      <Ethnic_groups__2021__>
-        <White_or_Mestizo>83.6%</White_or_Mestizo>
-        <Mulatto__mixed_Black_and_White__>6.7%</Mulatto__mixed_Black_and_White__>
-        <Indigenous>2.4%</Indigenous>
-        <Black>1.1%</Black>
-        <others>6.2%</others>
-      </Ethnic_groups__2021__>
-      <Religion__2021_>
+      <Ethnic_groups>
+        <White_or_Mestizo____>83.6</White_or_Mestizo____>
+        <Mulatto__mixed_Black_and_White______>6.7</Mulatto__mixed_Black_and_White______>
+        <Indigenous____>2.4</Indigenous____>
+        <Black____>1.1</Black____>
+        <others____>6.2</others____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>72.6%</percentage>
+          <percentage>72.6</percentage>
           <breakdown>
-            <Catholicism___official__>47.5%</Catholicism___official__>
-            <Protestantism>22.5%</Protestantism>
-            <other_Christian>2.6%</other_Christian>
+            <Catholicism___official______>47.5</Catholicism___official______>
+            <Protestantism____>22.5</Protestantism____>
+            <other_Christian____>2.6</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>27%</no_religion>
-        <others>0.4%</others>
-      </Religion__2021_>
-      <Demonyms>Costa Rican Tico(a)</Demonyms>
-      <Recognized_by_Spain>10 May 1850</Recognized_by_Spain>
+        <no_religion____>27</no_religion____>
+        <others____>0.4</others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Rodrigo Chaves</President>
-      <First_Vice_President>Mary Munive</First_Vice_President>
-      <Second_Vice_President>Vacant</Second_Vice_President>
-      <Legislature>Legislative Assembly</Legislature>
     </Government>
-    <Independence_from>
-      <from_Spain>15 September 1821</from_Spain>
-      <from_First_Mexican_Empire>1 July 1823</from_First_Mexican_Empire>
-      <from_the_Federal_Republic_of_Central_America>14 November 1838</from_the_Federal_Republic_of_Central_America>
-    </Independence_from>
-    <History>
-      <Current_constitution>7 November 1949</Current_constitution>
-    </History>
     <Area>
-      <Total>51,179.92 km 2 (19,760.68 sq mi) ( 126th )</Total>
-      <Water____>1.05 (as of 2015)</Water____>
+      <Total__km2_>51179.92</Total__km2_>
+      <Water____>1.05</Water____>
     </Area>
     <Population>
-      <n_2026_estimate>5,160,700 ( 127th )</n_2026_estimate>
-      <n_2022_census>5,044,197</n_2022_census>
-      <Density>220/sq mi (84.9/km 2 ) ( 107th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>5160700</Estimate>
+      <Census>5044197</Census>
+      <Density>220/sq mi</Density>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$169.034 billion ( 90th )</Total>
-        <Per_capita>$31,462 ( 66th )</Per_capita>
+        <Total____>169034000000</Total____>
+        <Per_capita____>31462</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$102.591 billion ( 85th )</Total>
-        <Per_capita>$19,095 ( 64th )</Per_capita>
+        <Total____>102591000000</Total____>
+        <Per_capita____>19095</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>47.2 high inequality</Gini__2022_>
-      <HDI__2023_>0.833 very high ( 62nd )</HDI__2023_>
-      <Currency>Costa Rican colón ( CRC )</Currency>
+      <Gini>47.2</Gini>
+      <HDI>0.833</HDI>
+      <Currency>Costa Rican colón</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC −6 ( CST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+506</Calling_code>
-      <ISO_3166_code>CR</ISO_3166_code>
-      <Internet_TLD>.cr .co.cr</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

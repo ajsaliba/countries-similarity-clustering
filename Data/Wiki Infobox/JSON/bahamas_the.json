@@ -1,74 +1,50 @@
 {
     "country": "Bahamas, The",
-    "url": "https://en.wikipedia.org/wiki/The_Bahamas",
     "infobox": {
         "General": {
-            "Capital and largest city": "Nassau 25°04′41″N 77°20′19″W ﻿ / ﻿ 25.07806°N 77.33861°W ﻿ / 25.07806; -77.33861",
             "Official languages": "English",
-            "Ethnic groups (2020)": {
-                "African": "90.6%",
-                "White": "4.7%",
-                "mixed": "2.1%",
-                "other": "1.9%",
-                "unspecified": "0.7%"
+            "Ethnic groups": {
+                "African (%)": 90.6,
+                "White (%)": 4.7,
+                "mixed (%)": 2.1,
+                "other (%)": 1.9,
+                "unspecified (%)": 0.7
             },
-            "Religion (2020)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "93%",
+                    "percentage": 93,
                     "breakdown": {
-                        "Protestantism": "75.1%",
-                        "other Christian": "17.9%"
+                        "Protestantism (%)": 75.1,
+                        "other Christian (%)": 17.9
                     }
                 },
-                "no religion": "4.5%",
-                "folk religions": "1.9%",
-                "other": "0.6%"
-            },
-            "Demonym": "Bahamian",
-            "Monarch": "Charles III",
-            "Governor-General": "Dame Cynthia A. Pratt"
+                "no religion (%)": 4.5,
+                "folk religions (%)": 1.9,
+                "other (%)": 0.6
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy",
-            "Prime Minister": "Philip Davis",
-            "Legislature": "Parliament",
-            "Upper house": "Senate",
-            "Lower house": "House of Assembly"
-        },
-        "Independence from the United Kingdom": {
-            "Realm": "10 July 1973"
+            "Government": "Unitary parliamentary constitutional monarchy"
         },
         "Area": {
-            "Total": "13,943 km 2 (5,383 sq mi) ( 155th )",
-            "Water (%)": "28%"
+            "Total (km2)": 13943,
+            "Water (%)": 28
         },
         "Population": {
-            "2023 census": "412,628",
-            "Density": "25.21/km 2 (65.3/sq mi) ( 181st )",
-            "Date format": "dd.mm.yyyy ( CE )"
+            "Census": 412628,
+            "Density (/km2)": 25.21
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2024 estimate",
-                "Total": "$18.989 billion ( 153rd )",
-                "Per capita": "$46,524 ( 46th )"
+                "Total ($)": 18989000000,
+                "Per capita ($)": 46524
             },
             "GDP (nominal)": {
-                "Details": "2024 estimate",
-                "Total": "$14.390 billion ( 146th )",
-                "Per capita": "$35,257 ( 29th )"
+                "Total ($)": 14390000000,
+                "Per capita ($)": 35257
             },
-            "HDI (2023)": "0.820 very high ( 66th )",
-            "Currency": "Bahamian dollar (BSD)"
-        },
-        "Time": {
-            "Time zone": "UTC −05:00 ( EST )",
-            "Summer ( DST )": "UTC −04:00 ( EDT )"
-        },
-        "Codes": {
-            "Calling code": "+1",
-            "ISO 3166 code": "BS",
-            "Internet TLD": ".bs"
+            "HDI": 0.82,
+            "Currency": "Bahamian dollar"
         }
     }
 }

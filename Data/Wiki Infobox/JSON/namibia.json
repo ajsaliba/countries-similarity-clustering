@@ -1,90 +1,51 @@
 {
     "country": "Namibia",
-    "url": "https://en.wikipedia.org/wiki/Namibia",
     "infobox": {
         "General": {
-            "Afrikaans": [
-                "Republiek van Namibië",
-                "Republiek van Namibië"
-            ],
-            "German": "Republik Namibia",
-            "Khoekhoegowab": "Republiki Namibiab dib",
-            "Oshiwambo": "Orepublika yaNamibia",
-            "Otjiherero": "Orepublika yaNamibia",
-            "RuKwangali": "Republika zaNamibia",
-            "Setswana": "Rephaboliki ya Namibia",
-            "siLozi": "Namibia ye Lukuluhile",
-            "Capital and largest city": "Windhoek 22°34′S 17°5′E ﻿ / ﻿ 22.567°S 17.083°E ﻿ / -22.567; 17.083",
             "Official languages": "English",
-            "Recognised national languages": "Afrikaans German Khoekhoegowab Oshiwambo Otjiherero RuKwangali Setswana siLozi",
-            "Recognised regional languages": "ǃKung Gciriku Thimbukushu",
-            "Ethnic groups (2023)": {
-                "Indigenous African": "93.2%",
-                "Coloured and Basters": "3.6%",
-                "White": "1.8%",
-                "Asian / other": "1.4%"
+            "Ethnic groups": {
+                "Indigenous African (%)": 93.2,
+                "Coloured and Basters (%)": 3.6,
+                "White (%)": 1.8,
+                "Asian / other (%)": 1.4
             },
-            "Religion (2023)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "87.9%",
+                    "percentage": 87.9,
                     "breakdown": {
-                        "Lutheranism": "43.7%",
-                        "Catholicism": "22.8%",
-                        "Anglicanism": "17%",
-                        "other Christian": "4.4%"
+                        "Lutheranism (%)": 43.7,
+                        "Catholicism (%)": 22.8,
+                        "Anglicanism (%)": 17,
+                        "other Christian (%)": 4.4
                     }
                 },
-                "other": "10.5%",
-                "no religion": "1.6%"
-            },
-            "Demonym": "Namibian"
+                "other (%)": 10.5,
+                "no religion (%)": 1.6
+            }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic",
-            "President": "Netumbo Nandi-Ndaitwah",
-            "Vice President": "Lucia Witbooi",
-            "Prime Minister": "Elijah Ngurare",
-            "Deputy Prime Minister": "Vacant",
-            "Chief Justice": "Peter Shivute",
-            "Legislature": "Parliament",
-            "Upper house": "National Council",
-            "Lower house": "National Assembly"
-        },
-        "History": {
-            "Constitution": "9 February 1990",
-            "Independence": "21 March 1990"
+            "Government": "Unitary semi-presidential republic"
         },
         "Area": {
-            "Total": "825,615 km 2 (318,772 sq mi) ( 34th )",
+            "Total (km2)": 825615,
             "Water (%)": "Negligible"
         },
         "Population": {
-            "2025 census": "3,022,401 ( 136th )",
-            "Density": "3.7/km 2 (9.6/sq mi)",
-            "Date format": "dd/mm/yyyy"
+            "Census": 3022401,
+            "Density (/km2)": 3.7
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$37.73 billion ( 145th )",
-                "Per capita": "$12,370 ( 117th )"
+                "Total ($)": 37730000000,
+                "Per capita ($)": 12370
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$14.21 billion ( 145th )",
-                "Per capita": "$4,660 ( 120th )"
+                "Total ($)": 14210000000,
+                "Per capita ($)": 4660
             },
-            "Gini (2015)": "59.1 high inequality",
-            "HDI (2023)": "0.665 medium ( 136th )",
-            "Currency": "Namibian dollar (NAD) South African rand (ZAR)"
-        },
-        "Time": {
-            "Time zone": "UTC +2 ( CAT )"
-        },
-        "Codes": {
-            "Calling code": "+264",
-            "ISO 3166 code": "NA",
-            "Internet TLD": ".na"
+            "Gini": 59.1,
+            "HDI": 0.665,
+            "Currency": "Namibian dollar South African rand"
         }
     }
 }

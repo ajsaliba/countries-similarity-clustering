@@ -1,82 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Croatia</country>
-  <url>https://en.wikipedia.org/wiki/Croatia</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Zagreb 45°48′47″N 15°58′39″E ﻿ / ﻿ 45.81306°N 15.97750°E ﻿ / 45.81306; 15.97750</Capital_and_largest_city>
       <Official_languages>Croatian</Official_languages>
-      <Writing_system>Latin</Writing_system>
-      <Ethnic_groups__2021_>
-        <Croats>91.6%</Croats>
-        <Serbs>3.2%</Serbs>
-        <others>5.2%</others>
-      </Ethnic_groups__2021_>
-      <Religion__2021_>
+      <Ethnic_groups>
+        <Croats____>91.6</Croats____>
+        <Serbs____>3.2</Serbs____>
+        <others____>5.2</others____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>87.4%</percentage>
+          <percentage>87.4</percentage>
           <breakdown>
-            <Catholicism>79%</Catholicism>
-            <Orthodoxy>3.3%</Orthodoxy>
-            <other_Christian>5.1%</other_Christian>
+            <Catholicism____>79</Catholicism____>
+            <Orthodoxy____>3.3</Orthodoxy____>
+            <other_Christian____>5.1</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>6.4%</no_religion>
-        <Islam>1.3%</Islam>
-        <other>1.9%</other>
-        <undeclared>3.9%</undeclared>
-      </Religion__2021_>
-      <Demonym>Croatian</Demonym>
+        <no_religion____>6.4</no_religion____>
+        <Islam____>1.3</Islam____>
+        <other____>1.9</other____>
+        <undeclared____>3.9</undeclared____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Zoran Milanović</President>
-      <Prime_Minister>Andrej Plenković</Prime_Minister>
-      <Speaker_of_the_Parliament>Gordan Jandroković</Speaker_of_the_Parliament>
-      <Legislature>Sabor</Legislature>
-      <Kingdom>925</Kingdom>
     </Government>
-    <History>
-      <Duchy>7th century</Duchy>
-      <Croatia_in_personal_union_with_Hungary>1102</Croatia_in_personal_union_with_Hungary>
-      <Joined_Habsburg_Monarchy>1 January 1527</Joined_Habsburg_Monarchy>
-      <Secession_from_Austria_Hungary>29 October 1918</Secession_from_Austria_Hungary>
-      <Creation_of_Yugoslavia>4 December 1918</Creation_of_Yugoslavia>
-      <Socialist_Republic_of_Croatia_of_Yugoslavia>9 May 1944</Socialist_Republic_of_Croatia_of_Yugoslavia>
-      <Declaration_of_independence>25 June 1991</Declaration_of_independence>
-    </History>
     <Area>
-      <Total>56,561 km 2 (21,838 sq mi) ( 124th )</Total>
+      <Total__km2_>56561</Total__km2_>
       <Water____>1.09</Water____>
     </Area>
     <Population>
-      <n_2024_estimate>3,866,233 ( 128th )</n_2024_estimate>
-      <n_2021_census>3,871,833 ( 128th )</n_2021_census>
-      <Density>68.4/km 2 (177.2/sq mi) ( 152nd )</Density>
+      <Estimate>3866233</Estimate>
+      <Census>3871833</Census>
+      <Density___km2_>68.4</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$207.40 billion ( 79th )</Total>
-        <Per_capita>$53,840 ( 39th )</Per_capita>
+        <Total____>207400000000</Total____>
+        <Per_capita____>53840</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$113.13 billion ( 74th )</Total>
-        <Per_capita>$29,370 ( 47th )</Per_capita>
+        <Total____>113130000000</Total____>
+        <Per_capita____>29370</Per_capita____>
       </GDP__nominal_>
-      <Gini__2026_>30.0 medium inequality</Gini__2026_>
-      <HDI__2023_>0.889 very high ( 41st )</HDI__2023_>
-      <Currency>Euro ( € ) ( EUR )</Currency>
+      <Gini>30.0</Gini>
+      <HDI>0.889</HDI>
+      <Currency>Euro</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+385</Calling_code>
-      <ISO_3166_code>HR</ISO_3166_code>
-      <Internet_TLD>.hr and .eu</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

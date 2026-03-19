@@ -1,81 +1,56 @@
 {
     "country": "Burkina Faso",
-    "url": "https://en.wikipedia.org/wiki/Burkina_Faso",
     "infobox": {
         "General": {
-            "Capital and largest city": "Ouagadougou 12°22′N 1°32′W ﻿ / ﻿ 12.367°N 1.533°W ﻿ / 12.367; -1.533",
             "Official languages": "Mooré , Dyula and Fula , alongside any other languages so recognized by law",
-            "Ethnic groups (2024 est.)": {
-                "Mossi": "53.7%",
-                "Fula": "6.8%",
-                "Gurunsi": "5.9%",
-                "or": "5.4%",
-                "Bissa": "1.5%",
-                "Gurma": "5.2%",
-                "Bobo": "3.4%",
-                "Senufo": "2.2%",
-                "Lobi": "1.5%",
-                "Tuareg and Bella": "0.1%"
+            "Ethnic groups": {
+                "Mossi (%)": 53.7,
+                "Fula (%)": 6.8,
+                "Gurunsi (%)": 5.9,
+                "or (%)": 5.4,
+                "Bissa (%)": 1.5,
+                "Gurma (%)": 5.2,
+                "Bobo (%)": 3.4,
+                "Senufo (%)": 2.2,
+                "Lobi (%)": 1.5,
+                "Tuareg and Bella (%)": 0.1
             },
-            "Religion (2019 census)": {
-                "Islam": "63.8%",
+            "Religion": {
+                "Islam (%)": 63.8,
                 "Christianity": {
-                    "percentage": "26.3%",
+                    "percentage": 26.3,
                     "breakdown": {
-                        "Catholicism": "20.1%",
-                        "Protestantism": "6.2%"
+                        "Catholicism (%)": 20.1,
+                        "Protestantism (%)": 6.2
                     }
                 },
-                "Animism": "9%",
-                "irreligion": "0.7%"
-            },
-            "Demonym": "Burkinabé"
+                "Animism (%)": 9,
+                "irreligion (%)": 0.7
+            }
         },
         "Government": {
-            "Working languages": "English French",
-            "Government": "Unitary semi-presidential republic under a military junta",
-            "President": "Ibrahim Traoré (interim)",
-            "Prime Minister": "Jean Emmanuel Ouédraogo (interim)",
-            "Legislature": "National Assembly"
-        },
-        "History": {
-            "Republic of Upper Volta proclaimed": "11 December 1958",
-            "Independence from France": "5 August 1960",
-            "1966 Upper Voltan coup d'état": "3 January 1966",
-            "2014 Burkina Faso uprising": "28 October – 3 November 2014",
-            "Jan 2022 Burkina Faso coup d'état": "23–24 January 2022",
-            "Sep 2022 Burkina Faso coup d'état": "30 September 2022"
+            "Government": "Unitary semi-presidential republic under a military junta"
         },
         "Area": {
-            "Total": "274,223 km 2 (105,878 sq mi) ( 74th )",
-            "Water (%)": "0.148%"
+            "Total (km2)": 274223,
+            "Water (%)": 0.148
         },
         "Population": {
-            "2023 estimate": "22,489,126 ( 58th )",
-            "Density": "86/km 2 (222.7/sq mi) ( 126th )"
+            "Estimate": 22489126,
+            "Density (/km2)": 86
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$72.820 billion ( 114th )",
-                "Per capita": "$2,980 ( 172nd )"
+                "Total ($)": 72820000000,
+                "Per capita ($)": 2980
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$27.06 billion ( 114th )",
-                "Per capita": "$1,110 ( 166th )"
+                "Total ($)": 27060000000,
+                "Per capita ($)": 1110
             },
-            "Gini (2021)": "37.4 medium inequality",
-            "HDI (2023)": "0.459 low ( 186th )",
-            "Currency": "West African CFA franc ( XOF )"
-        },
-        "Time": {
-            "Time zone": "UTC ±00:00 ( GMT )"
-        },
-        "Codes": {
-            "Calling code": "+226",
-            "ISO 3166 code": "BF",
-            "Internet TLD": ".bf"
+            "Gini": 37.4,
+            "HDI": 0.459,
+            "Currency": "West African CFA franc"
         }
     }
 }

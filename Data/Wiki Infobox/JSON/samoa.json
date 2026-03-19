@@ -1,78 +1,51 @@
 {
     "country": "Samoa",
-    "url": "https://en.wikipedia.org/wiki/Samoa",
     "infobox": {
         "General": {
-            "Capital and largest city": "Apia 13°50′00″S 171°45′44″W ﻿ / ﻿ 13.83333°S 171.76222°W ﻿ / -13.83333; -171.76222",
             "Official languages": "Samoan , English",
-            "Ethnic groups (2021)": {
-                "Samoans": "92.6%",
-                "Euronesians": "7%",
-                "Europeans": "0.3%",
-                "others": "0.1%"
+            "Ethnic groups": {
+                "Samoans (%)": 92.6,
+                "Euronesians (%)": 7,
+                "Europeans (%)": 0.3,
+                "others (%)": 0.1
             },
-            "Religion (2021)": {
+            "Religion": {
                 "Christianity ( official )": {
-                    "percentage": "97.9%",
+                    "percentage": 97.9,
                     "breakdown": {
-                        "Protestantism": "54.9%",
-                        "Catholicism": "18.8%",
-                        "Mormonism": "16.9%",
-                        "other Christian": "7.3%"
+                        "Protestantism (%)": 54.9,
+                        "Catholicism (%)": 18.8,
+                        "Mormonism (%)": 16.9,
+                        "other Christian (%)": 7.3
                     }
                 },
-                "no religion": "1.7%",
-                "others": "0.4%"
-            },
-            "Demonym": "Samoan",
-            "O le Ao o le Malo": "Tuimalealiʻifano Vaʻaletoʻa Sualauvi II"
+                "no religion (%)": 1.7,
+                "others (%)": 0.4
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic",
-            "Prime Minister": "Laʻauli Leuatea Schmidt",
-            "Assembly Speaker": "Auapaʻau Mulipola Aloitafua",
-            "Legislature": "Legislative Assembly"
-        },
-        "Independence from New Zealand": {
-            "Treaty of Berlin": "14 June 1889",
-            "Tripartite Convention": "16 February 1900",
-            "Colonisation by Germany": "1 March 1900",
-            "Occupied by New Zealand": "30 August 1914",
-            "League mandate": "17 December 1920",
-            "UN trusteeship": "13 December 1946",
-            "Western Samoa Act 1961": "1 January 1962"
+            "Government": "Unitary parliamentary republic"
         },
         "Area": {
-            "Total": "2,831 km 2 (1,093 sq mi) ( 167th )",
-            "Water (%)": "0.3"
+            "Total (km2)": 2831,
+            "Water (%)": 0.3
         },
         "Population": {
-            "November 2021 census": "205,557 ( 176th )",
-            "Density": "70/km 2 (181.3/sq mi)",
-            "Date format": "dd/mm/yyyy"
+            "Census": 205557,
+            "Density (/km2)": 70
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2024 estimate",
-                "Total": "$1.225 billion",
-                "Per capita": "$5,962"
+                "Total ($)": 1225000000,
+                "Per capita ($)": 5962
             },
             "GDP (nominal)": {
-                "Details": "2024 estimate",
-                "Total": "$908.561 million",
-                "Per capita": "$4,420"
+                "Total ($)": 908561000,
+                "Per capita ($)": 4420
             },
-            "Gini (2013)": "38.7 medium inequality",
-            "HDI (2023)": "0.708 high ( 122nd )",
-            "Currency": "Tālā (WS $ ) ( WST )"
-        },
-        "Time": {
-            "Time zone": "UTC +13 ( WST )"
-        },
-        "Codes": {
-            "Calling code": "+685",
-            "ISO 3166 code": "WS",
-            "Internet TLD": ".ws"
+            "Gini": 38.7,
+            "HDI": 0.708,
+            "Currency": "Tālā"
         }
     }
 }

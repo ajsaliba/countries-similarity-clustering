@@ -1,92 +1,48 @@
 {
     "country": "South Africa",
-    "url": "https://en.wikipedia.org/wiki/South_Africa",
     "infobox": {
         "General": {
-            "Afrikaans": [
-                "Republiek van Suid-Afrika",
-                "Republiek van Suid-Afrika"
-            ],
-            "Zulu": "iRiphabhuliki yaseNingizimu Afrika",
-            "Xhosa": "iRiphabhlikhi yoMzantsi Afrika",
-            "Pedi": "Repabliki ya Afrika-Borwa",
-            "Southern Sotho": "Rephaboliki ya Afrika Borwa",
-            "Tswana": "Rephaboliki ya Aforika Borwa",
-            "Tsonga": "Riphabliki ya Afrika Dzonga",
-            "Swati": "iRiphabhulikhi yaseNingizimu-Afrika",
-            "Venda": "Riphabuḽiki ya Afurika Tshipembe",
-            "Southern Ndebele": "iRiphabliki yeSewula Afrika",
-            "Capital": "Pretoria (executive) Cape Town (legislative) Bloemfontein (judicial)",
-            "Largest city": "Johannesburg",
             "Official languages": "12 languages Afrikaans English Ndebele Sepedi Sesotho Setswana South African Sign Language Swazi Tshivenda Xhosa Xitsonga Zulu Languages with special status Khoe languages Nama Khoisan languages German Greek Gujarati Hindi Portuguese Telugu Tamil Urdu Arabic Hebrew Sanskrit",
-            "Ethnic groups (2022 )": {
-                "Black": "81.4%",
-                "Coloured": "8.2%",
-                "White": "7.3%",
-                "Indian or Asian": "2.7%",
-                "other": "0.4%"
+            "Ethnic groups": {
+                "Black (%)": 81.4,
+                "Coloured (%)": 8.2,
+                "White (%)": 7.3,
+                "Indian or Asian (%)": 2.7,
+                "other (%)": 0.4
             },
-            "Religion (2022)": {
-                "Christianity": "85.3%",
-                "Traditional faiths": "7.8%",
-                "No religion": "3.1%",
-                "Islam": "1.6%",
-                "Hinduism": "1.1%",
-                "other": "1.1%"
-            },
-            "Demonym": "South African",
-            "Chairperson of the National Council of Provinces": "Refilwe Mtsweni-Tsipane"
+            "Religion": {
+                "Christianity (%)": 85.3,
+                "Traditional faiths (%)": 7.8,
+                "No religion (%)": 3.1,
+                "Islam (%)": 1.6,
+                "Hinduism (%)": 1.1,
+                "other (%)": 1.1
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic with an executive presidency",
-            "President": "Cyril Ramaphosa",
-            "Deputy President": "Paul Mashatile",
-            "Speaker of the National Assembly": "Thoko Didiza",
-            "Chief Justice": "Mandisa Maya",
-            "Legislature": "Parliament",
-            "Upper house": "National Council of Provinces",
-            "Lower house": "National Assembly"
-        },
-        "Independence from the United Kingdom": {
-            "Union": "31 May 1910",
-            "Statute of Westminster": "11 December 1931",
-            "Republic": "31 May 1961"
-        },
-        "History": {
-            "Current constitution": "4 February 1997"
+            "Government": "Unitary parliamentary republic with an executive presidency"
         },
         "Area": {
-            "Total": "1,221,037 km 2 (471,445 sq mi) ( 24th )",
-            "Water (%)": "0.380"
+            "Total (km2)": 1221037,
+            "Water (%)": 0.38
         },
         "Population": {
-            "2024 estimate": "63,015,904 ( 23rd )",
-            "2022 census": "62,027,503 ( 23rd )",
-            "Density": "50.8/km 2 (131.6/sq mi) ( 169th )",
-            "Date format": "Short formats: yyyy/mm/dd yyyy-mm-dd"
+            "Estimate": 63015904,
+            "Census": 62027503,
+            "Density (/km2)": 50.8
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2026 estimate",
-                "Total": "$1.060 trillion ( 33rd )",
-                "Per capita": "$16,280 ( 107th )"
+                "Total ($)": 1060000000000,
+                "Per capita ($)": 16280
             },
             "GDP (nominal)": {
-                "Details": "2026 estimate",
-                "Total": "$443.64 billion ( 38th )",
-                "Per capita": "$6,830 ( 107th )"
+                "Total ($)": 443640000000,
+                "Per capita ($)": 6830
             },
-            "Gini (2023)": "63.0 very high inequality",
-            "HDI (2023)": "0.741 high ( 106th )",
-            "Currency": "South African rand ( ZAR )"
-        },
-        "Time": {
-            "Time zone": "UTC +2 ( SAST )"
-        },
-        "Codes": {
-            "Calling code": "+27",
-            "ISO 3166 code": "ZA",
-            "Internet TLD": ".za"
+            "Gini": 63.0,
+            "HDI": 0.741,
+            "Currency": "South African rand"
         }
     }
 }

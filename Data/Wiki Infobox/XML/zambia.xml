@@ -1,121 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Zambia</country>
-  <url>https://en.wikipedia.org/wiki/Zambia</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Lusaka 15°25′S 28°17′E ﻿ / ﻿ 15.417°S 28.283°E ﻿ / -15.417; 28.283</Capital_and_largest_city>
       <Official_languages>English</Official_languages>
-      <Recognised_regional_languages>
-        <Bemba>28.5%</Bemba>
-        <Nyanja>13.8%</Nyanja>
-        <Tonga>11.4%</Tonga>
-        <Tumbuka>10.6%</Tumbuka>
-        <Lozi>5.5%</Lozi>
-        <Chewa>4.5%</Chewa>
-        <Nsenga>3%</Nsenga>
-        <Lunda>1.9%</Lunda>
-        <Kaonde>1.9%</Kaonde>
-        <Lala>1.8%</Lala>
-        <Lamba>1.8%</Lamba>
-        <English>1.7%</English>
-        <Luvale>1.5%</Luvale>
-        <Mambwe>1.3%</Mambwe>
-        <Lenje>1.2%</Lenje>
-        <Namwanga>1.2%</Namwanga>
-        <Bisa>1%</Bisa>
-        <Ushi>0.9%</Ushi>
-        <Ila>0.7%</Ila>
-        <Mbunda>0.7%</Mbunda>
-        <Ngoni>0.7%</Ngoni>
-        <Senga>0.7%</Senga>
-        <Lungu>0.6%</Lungu>
-        <Toka_Leya>0.5%</Toka_Leya>
-        <others>4.7%</others>
-      </Recognised_regional_languages>
-      <Ethnic_groups__2010__>
-        <Bemba>19%</Bemba>
-        <Tonga>13.6%</Tonga>
-        <Tumbuka>7.5%</Tumbuka>
-        <Chewa>6%</Chewa>
-        <Lozi>5.7%</Lozi>
-        <Nsenga>5.3%</Nsenga>
-        <Ngoni>3%</Ngoni>
-        <Lala>3.1%</Lala>
-        <Kaonde>3.9%</Kaonde>
-        <Namwanga>2.8%</Namwanga>
-        <Lunda__Northern_>2.6%</Lunda__Northern_>
-        <Mambwe>2.5%</Mambwe>
-        <Luvale>2.2%</Luvale>
-        <Lamba>2.4%</Lamba>
-        <Ushi>1.9%</Ushi>
-        <Bisa>1.6%</Bisa>
-        <Lenje>1.6%</Lenje>
-        <Mbunda>1.2%</Mbunda>
-        <Lunda__Luapula_>0.9%</Lunda__Luapula_>
-        <Senga>0.9%</Senga>
-        <Ila>0.8%</Ila>
-        <Lungu>0.8%</Lungu>
-        <Tabwa>0.7%</Tabwa>
-        <Soli>0.7%</Soli>
-        <Kunda>0.7%</Kunda>
-        <Ngumbo>0.6%</Ngumbo>
-        <Chishinga>0.5%</Chishinga>
-        <Chokwe>0.5%</Chokwe>
-        <Nkoya>0.5%</Nkoya>
-        <other_ethnics>5.4%</other_ethnics>
-        <major_racial>0.8%</major_racial>
-        <unclassified>0.4%</unclassified>
-      </Ethnic_groups__2010__>
-      <Religion__2023_>
-        <Christianity___official__>95.5%</Christianity___official__>
-        <Islam>2.7%</Islam>
-        <other___none>1.8%</other___none>
-      </Religion__2023_>
-      <Demonym>Zambian</Demonym>
+      <Ethnic_groups>
+        <Bemba____>19</Bemba____>
+        <Tonga____>13.6</Tonga____>
+        <Tumbuka____>7.5</Tumbuka____>
+        <Chewa____>6</Chewa____>
+        <Lozi____>5.7</Lozi____>
+        <Nsenga____>5.3</Nsenga____>
+        <Ngoni____>3</Ngoni____>
+        <Lala____>3.1</Lala____>
+        <Kaonde____>3.9</Kaonde____>
+        <Namwanga____>2.8</Namwanga____>
+        <Lunda__Northern_____>2.6</Lunda__Northern_____>
+        <Mambwe____>2.5</Mambwe____>
+        <Luvale____>2.2</Luvale____>
+        <Lamba____>2.4</Lamba____>
+        <Ushi____>1.9</Ushi____>
+        <Bisa____>1.6</Bisa____>
+        <Lenje____>1.6</Lenje____>
+        <Mbunda____>1.2</Mbunda____>
+        <Lunda__Luapula_____>0.9</Lunda__Luapula_____>
+        <Senga____>0.9</Senga____>
+        <Ila____>0.8</Ila____>
+        <Lungu____>0.8</Lungu____>
+        <Tabwa____>0.7</Tabwa____>
+        <Soli____>0.7</Soli____>
+        <Kunda____>0.7</Kunda____>
+        <Ngumbo____>0.6</Ngumbo____>
+        <Chishinga____>0.5</Chishinga____>
+        <Chokwe____>0.5</Chokwe____>
+        <Nkoya____>0.5</Nkoya____>
+        <other_ethnics____>5.4</other_ethnics____>
+        <major_racial____>0.8</major_racial____>
+        <unclassified____>0.4</unclassified____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity___official______>95.5</Christianity___official______>
+        <Islam____>2.7</Islam____>
+        <other___none____>1.8</other___none____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Hakainde Hichilema</President>
-      <Vice_President>Mutale Nalumango</Vice_President>
-      <Speaker>Nelly Mutti</Speaker>
-      <Chief_Justice>Mumba Malila</Chief_Justice>
-      <Legislature>National Assembly of Zambia</Legislature>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Declared>24 October 1964</Declared>
-    </Independence_from_the_United_Kingdom>
     <Area>
-      <Total>752,617 km 2 (290,587 sq mi) ( 38th )</Total>
+      <Total__km2_>752617</Total__km2_>
       <Water____>1</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>20,216,029 ( 64th )</n_2023_estimate>
-      <Density>17.2/km 2 (44.5/sq mi) ( 191st )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>20216029</Estimate>
+      <Density___km2_>17.2</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2023 estimate</Details>
-        <Total>$83.687 billion ( 100th )</Total>
-        <Per_capita>$4,068 ( 155th )</Per_capita>
+        <Total____>83687000000</Total____>
+        <Per_capita____>4068</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2023 estimate</Details>
-        <Total>$29.536 billion ( 113th )</Total>
-        <Per_capita>$1,435 ( 159th )</Per_capita>
+        <Total____>29536000000</Total____>
+        <Per_capita____>1435</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>51.5 high inequality</Gini__2022_>
-      <HDI__2023_>0.595 medium ( 154th )</HDI__2023_>
-      <Currency>Zambian kwacha ( ZMW )</Currency>
+      <Gini>51.5</Gini>
+      <HDI>0.595</HDI>
+      <Currency>Zambian kwacha</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( CAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+260</Calling_code>
-      <ISO_3166_code>ZM</ISO_3166_code>
-      <Internet_TLD>.zm</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

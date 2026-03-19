@@ -1,64 +1,43 @@
 {
     "country": "Seychelles",
-    "url": "https://en.wikipedia.org/wiki/Seychelles",
     "infobox": {
         "General": {
-            "Capital and largest city": "Victoria 4°37′S 55°27′E ﻿ / ﻿ 4.617°S 55.450°E ﻿ / -4.617; 55.450",
-            "Official languages": "Seychellois Creole (national language) English French",
-            "Minority language": "Tamil",
+            "Official languages": "Seychellois Creole English French",
             "Ethnic groups": {
-                "Seychellois Creoles": "97%",
-                "others": "3%"
+                "Seychellois Creoles (%)": 97,
+                "others (%)": 3
             },
-            "Religion (2022)": {
-                "Christianity": "74.9%",
-                "Hinduism": "5.4%",
-                "Islam": "2.4%",
-                "others": "5.1%",
-                "unanswered": "12.2%"
-            },
-            "Demonyms": "Seychellois Seychelloise Seselwa (Creole)"
+            "Religion": {
+                "Christianity (%)": 74.9,
+                "Hinduism (%)": 5.4,
+                "Islam (%)": 2.4,
+                "others (%)": 5.1,
+                "unanswered (%)": 12.2
+            }
         },
         "Government": {
-            "Government": "Unitary presidential republic",
-            "President": "Patrick Herminie",
-            "Vice-President": "Sebastien Pillay",
-            "Speaker of the National Assembly": "Azarel Ernesta",
-            "Legislature": "National Assembly"
-        },
-        "History": {
-            "Independence declared": "29 June 1976"
+            "Government": "Unitary presidential republic"
         },
         "Area": {
-            "Total": "457 km 2 (176 sq mi) ( 181st )",
+            "Total (km2)": 457,
             "Water (%)": "Negligible"
         },
         "Population": {
-            "2024 estimate": "121,355 ( 200th )",
-            "Density": "262.3/km 2 (679.4/sq mi) ( 67th )"
+            "Estimate": 121355,
+            "Density (/km2)": 262.3
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2026 estimate",
-                "Total": "$4.490 billion ( 177th )",
-                "Per capita": "$43,850 ( 49th )"
+                "Total ($)": 4490000000,
+                "Per capita ($)": 43850
             },
             "GDP (nominal)": {
-                "Details": "2026 estimate",
-                "Total": "$2.250 billion ( 186th )",
-                "Per capita": "$21,940 ( 50th )"
+                "Total ($)": 2250000000,
+                "Per capita ($)": 21940
             },
-            "Gini (2019)": "32.1 medium inequality",
-            "HDI (2023)": "0.848 very high ( 54th )",
-            "Currency": "Seychellois rupee ( SCR )"
-        },
-        "Time": {
-            "Time zone": "UTC +04:00 ( SCT )"
-        },
-        "Codes": {
-            "Calling code": "+248",
-            "ISO 3166 code": "SC",
-            "Internet TLD": ".sc"
+            "Gini": 32.1,
+            "HDI": 0.848,
+            "Currency": "Seychellois rupee"
         }
     }
 }

@@ -1,76 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Mongolia</country>
-  <url>https://en.wikipedia.org/wiki/Mongolia</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Ulaanbaatar 48°N 106°E ﻿ / ﻿ 48°N 106°E ﻿ / 48; 106</Capital_and_largest_city>
-      <Official_languages>Mongolian ( Buriat Khalkha Oirat )</Official_languages>
-      <Official_scripts>Mongolian Cyrillic</Official_scripts>
-      <Ethnic_groups__2020__>
-        <Mongols>95.6%</Mongols>
-        <Kazakhs>3.8%</Kazakhs>
-        <other>0.6%</other>
-      </Ethnic_groups__2020__>
-      <Religion__2020__>
-        <Buddhism>51.7%</Buddhism>
-        <No_religion>40.6%</No_religion>
-        <Islam>3.2%</Islam>
-        <Shamanism>2.5%</Shamanism>
-        <Christianity>1.3%</Christianity>
-        <other>0.7%</other>
-      </Religion__2020__>
-      <Demonyms>Mongolian , Mongol</Demonyms>
-      <Chairman_of_the_State_Great_Khural>Nyam-Osoryn Uchral</Chairman_of_the_State_Great_Khural>
+      <Official_languages>Mongolian</Official_languages>
+      <Ethnic_groups>
+        <Mongols____>95.6</Mongols____>
+        <Kazakhs____>3.8</Kazakhs____>
+        <other____>0.6</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Buddhism____>51.7</Buddhism____>
+        <No_religion____>40.6</No_religion____>
+        <Islam____>3.2</Islam____>
+        <Shamanism____>2.5</Shamanism____>
+        <Christianity____>1.3</Christianity____>
+        <other____>0.7</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
-      <President>Ukhnaagiin Khürelsükh</President>
-      <Prime_Minister>Gombojavyn Zandanshatar</Prime_Minister>
-      <Legislature>State Great Khural</Legislature>
     </Government>
-    <History>
-      <Xianbei>209 BC</Xianbei>
-      <Rouran_Khaganate>330 AD</Rouran_Khaganate>
-      <Khamag_Mongol>1125</Khamag_Mongol>
-      <Mongol_Empire>1206</Mongol_Empire>
-      <Yuan_Dynasty>1260</Yuan_Dynasty>
-      <Northern_Yuan>1368</Northern_Yuan>
-      <Completion_of_Qing_conquest>1696, 1758</Completion_of_Qing_conquest>
-      <Bogd_Khanate>29 December 1911</Bogd_Khanate>
-      <Mongolian_People_s_Republic>26 November 1924</Mongolian_People_s_Republic>
-      <Current_constitution>12 February 1992</Current_constitution>
-    </History>
     <Area>
-      <Total>1,564,116 km 2 (603,909 sq mi) ( 18th )</Total>
+      <Total__km2_>1564116</Total__km2_>
       <Water____>0.67</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>3,504,741 ( 131st )</n_2023_estimate>
-      <Density>2.24/km 2 (5.8/sq mi) ( 238th )</Density>
+      <Estimate>3504741</Estimate>
+      <Density___km2_>2.24</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$73.280 billion ( 113th )</Total>
-        <Per_capita>$20,450 ( 90th )</Per_capita>
+        <Total____>73280000000</Total____>
+        <Per_capita____>20450</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$25.800 billion ( 118th )</Total>
-        <Per_capita>$7,200 ( 97th )</Per_capita>
+        <Total____>25800000000</Total____>
+        <Per_capita____>7200</Per_capita____>
       </GDP__nominal_>
-      <Gini__2018_>32.7 medium inequality</Gini__2018_>
-      <HDI__2023_>0.747 high ( 104th )</HDI__2023_>
-      <Currency>Tögrög ( MNT )</Currency>
+      <Gini>32.7</Gini>
+      <HDI>0.747</HDI>
+      <Currency>Tögrög</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +7/+8</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+976</Calling_code>
-      <ISO_3166_code>MN</ISO_3166_code>
-      <Internet_TLD>.mn , .мон</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

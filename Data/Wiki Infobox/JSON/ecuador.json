@@ -1,83 +1,53 @@
 {
     "country": "Ecuador",
-    "url": "https://en.wikipedia.org/wiki/Ecuador",
     "infobox": {
         "General": {
-            "Capital": "Quito 00°13′12″S 78°30′43″W ﻿ / ﻿ 0.22000°S 78.51194°W ﻿ / -0.22000; -78.51194",
-            "Largest city": "Guayaquil",
             "Official languages": "Spanish",
-            "Recognized regional languages": "Kichwa , Shuar and others \"are in official use for indigenous peoples\"",
-            "Ethnic groups (2022 )": {
-                "Mestizo (mixed White & Indigenous )": "77.47%",
-                "Montubio (coastal Mestizo )": "7.7%",
-                "Indigenous": "7.69%",
-                "Black": "4.81%",
-                "White": "2.21%",
-                "other": "0.12%"
+            "Ethnic groups": {
+                "Mestizo (mixed White & Indigenous ) (%)": 77.47,
+                "Montubio (coastal Mestizo ) (%)": 7.7,
+                "Indigenous (%)": 7.69,
+                "Black (%)": 4.81,
+                "White (%)": 2.21,
+                "other (%)": 0.12
             },
-            "Religion (2023)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "89.3%",
+                    "percentage": 89.3,
                     "breakdown": {
-                        "Catholic": "68.2%",
-                        "Evangelical": "18%",
-                        "other": "3.1%"
+                        "Catholic (%)": 68.2,
+                        "Evangelical (%)": 18,
+                        "other (%)": 3.1
                     }
                 },
-                "no religion": "8.9%",
-                "other": "2%"
-            },
-            "Demonym": "Ecuadorian",
-            "Recognized by Spain": {
-                "Details": "16 February 1840",
-                "Liberal Revolution": "5 June 1895",
-                "Current constitution": "28 September 2008"
+                "no religion (%)": 8.9,
+                "other (%)": 2
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic",
-            "President": "Daniel Noboa",
-            "Vice President": "María José Pinto",
-            "President of the National Assembly": "Niels Olsen Peet",
-            "Legislature": "National Assembly"
-        },
-        "Independence": {
-            "Declared": "10 August 1809",
-            "from Spain": "24 May 1822",
-            "from Gran Colombia": "13 May 1830"
+            "Government": "Unitary presidential republic"
         },
         "Area": {
-            "Total": "283,561 km 2 (109,484 sq mi) ( 73rd )",
-            "Excluding the Galapagos Islands": "276,841 km 2 (106,889 sq mi)"
+            "Total (km2)": 283561,
+            "Excluding the Galapagos Islands (km2)": 276841
         },
         "Population": {
-            "2023 estimate": "17,483,326",
-            "2022 census": "16,938,986 ( 73rd )",
-            "Density": "69/km 2 (178.7/sq mi) ( 148th )",
-            "Date format": "dd/mm/yyyy"
+            "Estimate": 17483326,
+            "Census": 16938986,
+            "Density (/km2)": 69
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$304.230 billion ( 66th )",
-                "Per capita": "$16,180 ( 109th )"
+                "Total ($)": 304230000000,
+                "Per capita ($)": 16180
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$130.530 billion ( 63rd )",
-                "Per capita": "$7,210 ( 95th )"
+                "Total ($)": 130530000000,
+                "Per capita ($)": 7210
             },
-            "Gini (2024)": "45.2 medium inequality",
-            "HDI (2023)": "0.777 high ( 88th )",
-            "Currency": "United States dollar a ( USD )"
-        },
-        "Time": {
-            "Time zone": "UTC −5 / −6 ( ECT / GALT )"
-        },
-        "Codes": {
-            "Calling code": "+593",
-            "ISO 3166 code": "EC",
-            "Internet TLD": ".ec"
+            "Gini": 45.2,
+            "HDI": 0.777,
+            "Currency": "United States dollar a"
         }
     }
 }

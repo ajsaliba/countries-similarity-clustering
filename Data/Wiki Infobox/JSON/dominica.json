@@ -1,70 +1,45 @@
 {
     "country": "Dominica",
-    "url": "https://en.wikipedia.org/wiki/Dominica",
     "infobox": {
         "General": {
-            "Capital and largest city": "Roseau 15°18′N 61°23′W ﻿ / ﻿ 15.300°N 61.383°W ﻿ / 15.300; -61.383",
             "Official languages": "English",
-            "Vernacular languages": "Dominican Creole French , Kokoy",
-            "Ethnic groups (2014 )": {
-                "African": "75%",
-                "multiracial": "19%",
-                "Kalinago": "4%",
-                "European or other": "0.8%",
-                "unspecified": "0.2%"
+            "Ethnic groups": {
+                "African (%)": 75,
+                "multiracial (%)": 19,
+                "Kalinago (%)": 4,
+                "European or other (%)": 0.8,
+                "unspecified (%)": 0.2
             },
-            "Religion (2020)": {
-                "Christianity": "94.4%",
-                "folk religions": "3%",
-                "other": "1.7%",
-                "none": "0.9%"
-            },
-            "Demonyms": "Dominican (pronounced / ˌ d ɒ m ɪ ˈ n iː k ə n / )"
+            "Religion": {
+                "Christianity (%)": 94.4,
+                "folk religions (%)": 3,
+                "other (%)": 1.7,
+                "none (%)": 0.9
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic",
-            "President": "Sylvanie Burton",
-            "Prime Minister": "Roosevelt Skerrit",
-            "Speaker of the House of Assembly": "Joseph Isaac",
-            "Legislature": "House of Assembly"
-        },
-        "Independence from the United Kingdom": {
-            "West Indies Associated States": "1 March 1967"
-        },
-        "History": {
-            "Sovereignty and constitution": "3 November 1978"
+            "Government": "Unitary parliamentary republic"
         },
         "Area": {
-            "Total": "750 km 2 (290 sq mi) ( 174th )",
-            "Water (%)": "1.6"
+            "Total (km2)": 750,
+            "Water (%)": 1.6
         },
         "Population": {
-            "2021 estimate": "72,412 ( 186th )",
-            "2011 census": "71,293",
-            "Density": "105/km 2 (271.9/sq mi) ( 95th )",
-            "Date format": "dd/mm/yyyy"
+            "Estimate": 72412,
+            "Census": 71293,
+            "Density (/km2)": 105
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2018 estimate",
-                "Total": "$688 million",
-                "Per capita": "$9,726"
+                "Total ($)": 688000000,
+                "Per capita ($)": 9726
             },
             "GDP (nominal)": {
-                "Details": "2018 estimate",
-                "Total": "$485 million",
-                "Per capita": "$7,860"
+                "Total ($)": 485000000,
+                "Per capita ($)": 7860
             },
-            "HDI (2023)": "0.761 high ( 98th )",
-            "Currency": "East Caribbean dollar ( XCD )"
-        },
-        "Time": {
-            "Time zone": "UTC –4 ( AST )"
-        },
-        "Codes": {
-            "Calling code": "+1",
-            "ISO 3166 code": "DM",
-            "Internet TLD": ".dm"
+            "HDI": 0.761,
+            "Currency": "East Caribbean dollar"
         }
     }
 }

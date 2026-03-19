@@ -1,78 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Palestine</country>
-  <url>https://en.wikipedia.org/wiki/Palestine</url>
   <infobox>
     <General>
-      <Status>UN observer state under Israeli occupation Recognized by 157 UN member states</Status>
-      <Capital_Administrative_center>Jerusalem ( limited recognition ) Ramallah ( de facto )</Capital_Administrative_center>
-      <Largest_city>Gaza (before 2023), currently in flux</Largest_city>
       <Official_languages>Arabic</Official_languages>
-      <Ethnic_groups__2007_>
-        <Palestinian_Arabs>91.2%</Palestinian_Arabs>
-        <Israeli_Jews>8.8%</Israeli_Jews>
-      </Ethnic_groups__2007_>
-      <Religion__2020_>
+      <Ethnic_groups>
+        <Palestinian_Arabs____>91.2</Palestinian_Arabs____>
+        <Israeli_Jews____>8.8</Israeli_Jews____>
+      </Ethnic_groups>
+      <Religion>
         <Islam___official__>
-          <percentage>80.73%</percentage>
+          <percentage>80.73</percentage>
           <breakdown>
-            <Sunni>71.21%</Sunni>
-            <Shia>0.09%</Shia>
-            <other>9.42%</other>
+            <Sunni____>71.21</Sunni____>
+            <Shia____>0.09</Shia____>
+            <other____>9.42</other____>
           </breakdown>
         </Islam___official__>
-        <Judaism>13.07%</Judaism>
-        <Christianity>0.88%</Christianity>
-        <Bah____Faith>0.05%</Bah____Faith>
-        <irreligion>5.27%</irreligion>
-      </Religion__2020_>
-      <Demonym>Palestinian</Demonym>
+        <Judaism____>13.07</Judaism____>
+        <Christianity____>0.88</Christianity____>
+        <Bah____Faith____>0.05</Bah____Faith____>
+        <irreligion____>5.27</irreligion____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary provisional semi-presidential republic</Government>
-      <President>Mahmoud Abbas</President>
-      <Vice_President>Hussein al-Sheikh</Vice_President>
-      <Prime_Minister>Mohammad Mustafa</Prime_Minister>
-      <Speaker_of_the_Parliament>Aziz Dweik</Speaker_of_the_Parliament>
-      <Legislature>Legislative Council</Legislature>
     </Government>
-    <History>
-      <Declaration_of_Independence>15 November 1988</Declaration_of_Independence>
-      <Sovereignty_dispute_with_Israel>Ongoing</Sovereignty_dispute_with_Israel>
-    </History>
     <Area>
-      <Total>6,020 km 2 (2,320 sq mi) ( 163rd )</Total>
+      <Total__km2_>6020</Total__km2_>
       <Water____>3.5</Water____>
-      <West_Bank>5,655 km 2</West_Bank>
-      <Gaza_Strip>365 km 2</Gaza_Strip>
+      <West_Bank__km2_>5655</West_Bank__km2_>
+      <Gaza_Strip__km2_>365</Gaza_Strip__km2_>
     </Area>
     <Population>
-      <n_2023_estimate>5,483,450 ( 121st )</n_2023_estimate>
-      <Density>731/km 2 (1,893.3/sq mi)</Density>
+      <Estimate>5483450</Estimate>
+      <Density___km2_>731</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2023 estimate</Details>
-        <Total>$36.391 billion ( 138th )</Total>
-        <Per_capita>$6,642 ( 140th )</Per_capita>
+        <Total____>36391000000</Total____>
+        <Per_capita____>6642</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2023 estimate</Details>
-        <Total>$18.109 billion ( 121st )</Total>
-        <Per_capita>$3,464 ( 131st )</Per_capita>
+        <Total____>18109000000</Total____>
+        <Per_capita____>3464</Per_capita____>
       </GDP__nominal_>
-      <Gini__2016_>33.7 medium inequality</Gini__2016_>
-      <HDI__2023_>0.674 medium ( 133rd )</HDI__2023_>
+      <Gini>33.7</Gini>
+      <HDI>0.674</HDI>
       <Currency>Israeli new shekel Jordanian dinar Egyptian pound</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( Palestine Standard Time )</Time_zone>
-      <Summer___DST__>UTC +3 ( Palestine Summer Time )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+970 , +972</Calling_code>
-      <ISO_3166_code>PS</ISO_3166_code>
-      <Internet_TLD>.ps</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

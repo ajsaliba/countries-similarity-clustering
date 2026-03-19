@@ -1,89 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Andorra</country>
-  <url>https://en.wikipedia.org/wiki/Andorra</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Andorra la Vella 42°30′23″N 1°31′17″E ﻿ / ﻿ 42.50639°N 1.52139°E ﻿ / 42.50639; 1.52139</Capital_and_largest_city>
       <Official_languages>Catalan 44.1%</Official_languages>
-      <Other_languages>
-        <Portuguese>13.5%</Portuguese>
-        <French>10%</French>
-        <English>3%</English>
-        <other>6.8%</other>
-      </Other_languages>
-      <Ethnic_groups__2024_>
-        <Spaniards>34.3%</Spaniards>
-        <Andorrans>32.1%</Andorrans>
-        <Portuguese>10%</Portuguese>
-        <French>5.6%</French>
-        <others>18%</others>
-      </Ethnic_groups__2024_>
-      <Religion__2020_>
+      <Ethnic_groups>
+        <Spaniards____>34.3</Spaniards____>
+        <Andorrans____>32.1</Andorrans____>
+        <Portuguese____>10</Portuguese____>
+        <French____>5.6</French____>
+        <others____>18</others____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>90.8%</percentage>
+          <percentage>90.8</percentage>
           <breakdown>
-            <Catholicism___official__>85.5%</Catholicism___official__>
-            <other_Christian>5.3%</other_Christian>
+            <Catholicism___official______>85.5</Catholicism___official______>
+            <other_Christian____>5.3</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>6.9%</no_religion>
-        <others>2.3%</others>
-      </Religion__2020_>
-      <Demonyms>Andorran</Demonyms>
+        <no_religion____>6.9</no_religion____>
+        <others____>2.3</others____>
+      </Religion>
     </General>
     <Economy>
       <Significant_language>
-        <Details>Spanish 40.3%</Details>
         <Co_princes>Josep-Lluís Serrano Pentinat Emmanuel Macron</Co_princes>
         <Representatives>Eduard Ibáñez Patrice Faure</Representatives>
         <Prime_minister>Xavier Espot Zamora</Prime_minister>
         <General_syndic>Carles Ensenyat Reig</General_syndic>
       </Significant_language>
       <GDP___PPP__>
-        <Details>2024 estimate</Details>
-        <Total>$6.001 billion ( 168th )</Total>
-        <Per_capita>$69,146 ( 18th )</Per_capita>
+        <Total____>6001000000</Total____>
+        <Per_capita____>69146</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2024 estimate</Details>
-        <Total>$3.897 billion ( 159th )</Total>
-        <Per_capita>$44,900 ( 24th )</Per_capita>
+        <Total____>3897000000</Total____>
+        <Per_capita____>44900</Per_capita____>
       </GDP__nominal_>
-      <Gini__2023_>40.0 medium inequality</Gini__2023_>
-      <HDI__2023_>0.913 very high ( 32nd )</HDI__2023_>
-      <Currency>Euro ( € ) ( EUR )</Currency>
+      <Gini>40.0</Gini>
+      <HDI>0.913</HDI>
+      <Currency>Euro</Currency>
     </Economy>
     <Government>
       <Government>Unitary parliamentary constitutional co-principality</Government>
-      <Legislature>General Council</Legislature>
-      <From_the_Kingdom_of_France>12 October 1652</From_the_Kingdom_of_France>
     </Government>
-    <Independence>
-      <First_Par_age>8 September 1278</First_Par_age>
-      <From_the_Principality_of_Catalonia>1715</From_the_Principality_of_Catalonia>
-      <From_the_French_Empire>1814</From_the_French_Empire>
-    </Independence>
-    <History>
-      <Constitution>2 February 1993</Constitution>
-    </History>
     <Area>
-      <Total>467.63 km 2 (180.55 sq mi) ( 178th )</Total>
-      <Water____>0.26 (121.4 ha )</Water____>
+      <Total__km2_>467.63</Total__km2_>
+      <Water____>0.26</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>89,058 ( 185th )</n_2025_estimate>
-      <Density>187.1/km 2 (484.6/sq mi) ( 71st )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>89058</Estimate>
+      <Density___km2_>187.1</Density___km2_>
     </Population>
-    <Time>
-      <Time_zone>UTC +01:00 ( CET )</Time_zone>
-      <Summer___DST__>UTC +02:00 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+376</Calling_code>
-      <ISO_3166_code>AD</ISO_3166_code>
-      <Internet_TLD>.ad</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

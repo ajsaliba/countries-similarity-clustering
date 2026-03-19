@@ -1,103 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Albania</country>
-  <url>https://en.wikipedia.org/wiki/Albania</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Tirana 41°19′N 19°49′E ﻿ / ﻿ 41.317°N 19.817°E ﻿ / 41.317; 19.817 Country: 41°N 20°E ﻿ / ﻿ 41°N 20°E ﻿ / 41; 20</Capital_and_largest_city>
       <Official_languages>Albanian</Official_languages>
-      <Recognised_minority_languages>Greek Aromanian Macedonian</Recognised_minority_languages>
-      <Ethnic_groups__2023__>
-        <Albanians>97.7%</Albanians>
-        <Greeks>1%</Greeks>
-        <others>1.3%</others>
-      </Ethnic_groups__2023__>
-      <Religion__2023_>
+      <Ethnic_groups>
+        <Albanians____>97.7</Albanians____>
+        <Greeks____>1</Greeks____>
+        <others____>1.3</others____>
+      </Ethnic_groups>
+      <Religion>
         <Islam>
-          <percentage>50.67%</percentage>
+          <percentage>50.67</percentage>
           <breakdown>
-            <Sunni>45.86%</Sunni>
-            <Bektashism>4.81%</Bektashism>
+            <Sunni____>45.86</Sunni____>
+            <Bektashism____>4.81</Bektashism____>
           </breakdown>
         </Islam>
         <Christianity>
-          <percentage>16.02%</percentage>
+          <percentage>16.02</percentage>
           <breakdown>
-            <Catholicism>8.39%</Catholicism>
-            <Orthodoxy>7.23%</Orthodoxy>
-            <Protestantism>0.4%</Protestantism>
+            <Catholicism____>8.39</Catholicism____>
+            <Orthodoxy____>7.23</Orthodoxy____>
+            <Protestantism____>0.4</Protestantism____>
           </breakdown>
         </Christianity>
         <Irreligion>
-          <percentage>17.37%</percentage>
+          <percentage>17.37</percentage>
           <breakdown>
-            <Believers_without_religion>13.83%</Believers_without_religion>
-            <Atheism>3.55%</Atheism>
+            <Believers_without_religion____>13.83</Believers_without_religion____>
+            <Atheism____>3.55</Atheism____>
           </breakdown>
         </Irreligion>
-        <Undeclared>15.92%</Undeclared>
-      </Religion__2023_>
-      <Demonym>Albanian</Demonym>
+        <Undeclared____>15.92</Undeclared____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Bajram Begaj</President>
-      <Prime_Minister>Edi Rama</Prime_Minister>
-      <Parliament_Speaker>Niko Peleshi</Parliament_Speaker>
-      <Legislature>Kuvendi</Legislature>
-      <Kingdom_of_Albania>
-        <item>February 1272</item>
-        <item>1 September 1928</item>
-      </Kingdom_of_Albania>
     </Government>
-    <History>
-      <Principality_of_Arbanon>1190</Principality_of_Arbanon>
-      <Albanian_principalities>12th–15th centuries</Albanian_principalities>
-      <Principality_of_Albania>
-        <item>1359</item>
-        <item>29 July 1913</item>
-      </Principality_of_Albania>
-      <League_of_Lezh_>2 March 1444</League_of_Lezh_>
-      <Pashalik_of_Scutari___Janina___Berat>1757/1787</Pashalik_of_Scutari___Janina___Berat>
-      <League_of_Prizren>10 June 1878</League_of_Prizren>
-      <Independent_Albania>28 November 1912</Independent_Albania>
-      <n_1st_Republic_of_Albania>31 January 1925</n_1st_Republic_of_Albania>
-      <n_2nd_Republic_of_Albania>10 January 1946</n_2nd_Republic_of_Albania>
-      <n_3rd_Republic_of_Albania>28 December 1976</n_3rd_Republic_of_Albania>
-      <n_4th_Republic_of_Albania>29 April 1991</n_4th_Republic_of_Albania>
-      <Current_constitution>28 November 1998</Current_constitution>
-    </History>
     <Area>
-      <Total>28,748 km 2 (11,100 sq mi) ( 140th )</Total>
+      <Total__km2_>28748</Total__km2_>
       <Water____>4.7</Water____>
     </Area>
     <Population>
-      <n_2023_census>2,402,113 ( 142nd )</n_2023_census>
-      <Density>83.6 /km 2 (216.5/sq mi)</Density>
+      <Census>2402113</Census>
+      <Density___km2_>83.6</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$66.290 billion ( 118th )</Total>
-        <Per_capita>$24,840 ( 80th )</Per_capita>
+        <Total____>66290000000</Total____>
+        <Per_capita____>24840</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$32.410 billion ( 125th )</Total>
-        <Per_capita>$12,150 ( 79th )</Per_capita>
+        <Total____>32410000000</Total____>
+        <Per_capita____>12150</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>29.4 low inequality</Gini__2021_>
-      <HDI__2023_>0.810 very high ( 71st )</HDI__2023_>
-      <Currency>Lek ( ALL )</Currency>
+      <Gini>29.4</Gini>
+      <HDI>0.81</HDI>
+      <Currency>Lek</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+355</Calling_code>
-      <ISO_3166_code>AL</ISO_3166_code>
-      <Internet_TLD>.al</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

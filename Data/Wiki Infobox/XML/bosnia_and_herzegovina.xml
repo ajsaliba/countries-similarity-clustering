@@ -1,79 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Bosnia and Herzegovina</country>
-  <url>https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Sarajevo 43°52′N 18°25′E ﻿ / ﻿ 43.867°N 18.417°E ﻿ / 43.867; 18.417</Capital_and_largest_city>
       <Official_language__federal_level_>None</Official_language__federal_level_>
-      <Religion__2013_census_>
-        <Islam>51.3%</Islam>
+      <Religion>
+        <Islam____>51.3</Islam____>
         <Christianity>
-          <percentage>46.1%</percentage>
+          <percentage>46.1</percentage>
           <breakdown>
-            <Eastern_Orthodox>30.7%</Eastern_Orthodox>
-            <Catholicism>15.4%</Catholicism>
+            <Eastern_Orthodox____>30.7</Eastern_Orthodox____>
+            <Catholicism____>15.4</Catholicism____>
           </breakdown>
         </Christianity>
-        <Others>2.6%</Others>
-      </Religion__2013_census_>
-      <Demonyms>Bosnian Herzegovinian</Demonyms>
-      <High_Representative>Christian Schmidt</High_Representative>
-      <Chairman_of_the_Presidency>Denis Bećirović</Chairman_of_the_Presidency>
-      <Members_of_the_Presidency>Željka Cvijanović Željko Komšić</Members_of_the_Presidency>
-      <Chairwoman_of_the_Council_of_Ministers>Borjana Krišto</Chairwoman_of_the_Council_of_Ministers>
+        <Others____>2.6</Others____>
+      </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary directorial republic</Government>
-      <Legislature>Parliamentary Assembly</Legislature>
-      <Upper_house>House of Peoples</Upper_house>
-      <Lower_house>House of Representatives</Lower_house>
-      <Kingdom_of_Bosnia>1377</Kingdom_of_Bosnia>
     </Government>
-    <History>
-      <Early_medieval_Bosnia>9th century</Early_medieval_Bosnia>
-      <Banate_of_Bosnia>1154</Banate_of_Bosnia>
-      <Ottoman_conquest>1463</Ottoman_conquest>
-      <Austro_Hungarian_conquest_and_1908_annexation>1878</Austro_Hungarian_conquest_and_1908_annexation>
-      <Creation_of_Yugoslavia>1 December 1918</Creation_of_Yugoslavia>
-      <ZAVNOBiH>25 November 1943</ZAVNOBiH>
-      <SR_Bosnia_and_Herzegovina_within_SFR_Yugoslavia>29 November 1945</SR_Bosnia_and_Herzegovina_within_SFR_Yugoslavia>
-      <Independence_from_Yugoslavia>3 March 1992</Independence_from_Yugoslavia>
-      <Washington_Agreement>18 March 1994</Washington_Agreement>
-      <Dayton_Agreement>14 December 1995</Dayton_Agreement>
-    </History>
     <Area>
-      <Total>51,209 km 2 (19,772 sq mi) ( 125th )</Total>
-      <Water____>1.4%</Water____>
+      <Total__km2_>51209</Total__km2_>
+      <Water____>1.4</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>2,904,256 ( 137th )</n_2023_estimate>
-      <n_2013_census>3,531,159</n_2013_census>
-      <Density>61/km 2 (158.0/sq mi) ( 156th )</Density>
+      <Estimate>2904256</Estimate>
+      <Census>3531159</Census>
+      <Density___km2_>61</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$82.23 billion ( 108th )</Total>
-        <Per_capita>$23,930 ( 84th )</Per_capita>
+        <Total____>82230000000</Total____>
+        <Per_capita____>23930</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$36.24 billion ( 107th )</Total>
-        <Per_capita>$10,546 ( 85th )</Per_capita>
+        <Total____>36240000000</Total____>
+        <Per_capita____>10546</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>27.1 low inequality</Gini__2022_>
-      <HDI__2023_>0.804 very high ( 74th )</HDI__2023_>
-      <Currency>Convertible mark ( BAM )</Currency>
+      <Gini>27.1</Gini>
+      <HDI>0.804</HDI>
+      <Currency>Convertible mark</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +01 ( CET )</Time_zone>
-      <Summer___DST__>UTC +02 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+387</Calling_code>
-      <ISO_3166_code>BA</ISO_3166_code>
-      <Internet_TLD>.ba</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

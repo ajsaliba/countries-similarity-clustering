@@ -1,70 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Bahrain</country>
-  <url>https://en.wikipedia.org/wiki/Bahrain</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Manama 26°13′N 50°35′E ﻿ / ﻿ 26.217°N 50.583°E ﻿ / 26.217; 50.583</Capital_and_largest_city>
       <Official_language_and_national_language>Arabic</Official_language_and_national_language>
-      <Ethnic_groups__2020_>
-        <Arabs>53.2%</Arabs>
-        <South_Asians>43.4%</South_Asians>
-        <Africans>1.4%</Africans>
-        <North_Americans>1.1%</North_Americans>
-        <others>0.1%</others>
-      </Ethnic_groups__2020_>
-      <Religion__2020_>
-        <Islam___official__>74%</Islam___official__>
-        <non_Muslim>26%</non_Muslim>
-      </Religion__2020_>
-      <Demonym>Bahraini</Demonym>
+      <Ethnic_groups>
+        <Arabs____>53.2</Arabs____>
+        <South_Asians____>43.4</South_Asians____>
+        <Africans____>1.4</Africans____>
+        <North_Americans____>1.1</North_Americans____>
+        <others____>0.1</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam___official______>74</Islam___official______>
+        <non_Muslim____>26</non_Muslim____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-constitutional monarchy under an authoritarian government</Government>
-      <King>Hamad bin Isa Al Khalifa</King>
-      <Crown_Prince_and_Prime_Minister>Salman bin Hamad Al Khalifa</Crown_Prince_and_Prime_Minister>
-      <Legislature>National Assembly</Legislature>
-      <Upper_house>Consultative Council</Upper_house>
-      <Lower_house>Council of Representatives</Lower_house>
-      <Independence_from_United_Kingdom>15 August 1971</Independence_from_United_Kingdom>
-      <Kingdom_of_Bahrain>14 February 2002</Kingdom_of_Bahrain>
     </Government>
-    <Establishment>
-      <Al_Khalifa_dynasty>1783</Al_Khalifa_dynasty>
-    </Establishment>
-    <History>
-      <Declared_independence>14 August 1971</Declared_independence>
-    </History>
     <Area>
-      <Total>786.8 km 2 (303.8 sq mi) ( 173rd )</Total>
+      <Total__km2_>786.8</Total__km2_>
       <Water____>negligible</Water____>
     </Area>
     <Population>
-      <n_2021_estimate>1,463,265 ( 149th )</n_2021_estimate>
-      <n_2020_census>1,501,635</n_2020_census>
-      <Density>1,864/km 2 (4,827.7/sq mi) ( 6th )</Density>
+      <Estimate>1463265</Estimate>
+      <Census>1501635</Census>
+      <Density___km2_>1864</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$118.060 billion ( 98th )</Total>
-        <Per_capita>$71,460 ( 23rd )</Per_capita>
+        <Total____>118060000000</Total____>
+        <Per_capita____>71460</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$49.190 billion ( 95th )</Total>
-        <Per_capita>$29,780 ( 40th )</Per_capita>
+        <Total____>49190000000</Total____>
+        <Per_capita____>29780</Per_capita____>
       </GDP__nominal_>
-      <HDI__2023_>0.899 very high ( 38th )</HDI__2023_>
-      <Currency>Bahraini dinar ( BHD )</Currency>
+      <HDI>0.899</HDI>
+      <Currency>Bahraini dinar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +3 ( AST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+973</Calling_code>
-      <ISO_3166_code>BH</ISO_3166_code>
-      <Internet_TLD>.bh</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

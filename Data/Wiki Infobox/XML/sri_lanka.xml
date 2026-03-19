@@ -1,84 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Sri Lanka</country>
-  <url>https://en.wikipedia.org/wiki/Sri_Lanka</url>
   <infobox>
     <General>
-      <Sinhala>
-        <item>Śrī Laṅkā Prajātāntrika Samājavādī Janarajaya</item>
-        <item>Śrī Laṅkā Prajātāntrika Samājavādī Janarajaya</item>
-      </Sinhala>
-      <Tamil>Ilaṅkai Caṉanāyaka Cōcalicak Kuṭiyaracu</Tamil>
-      <Capital>Sri Jayawardenepura Kotte (legislative) Colombo (executive and judicial) 6°56′N 79°52′E ﻿ / ﻿ 6.933°N 79.867°E ﻿ / 6.933; 79.867</Capital>
-      <Largest_city>Colombo</Largest_city>
       <Official_languages_and_recognised_national_languages>Sinhala Tamil</Official_languages_and_recognised_national_languages>
-      <Recognised_language>English</Recognised_language>
-      <Ethnic_groups__2024__>
-        <Sinhalese>74.1%</Sinhalese>
-        <Sri_Lankan_Tamils>12.3%</Sri_Lankan_Tamils>
-        <Sri_Lankan_Moors>10.5%</Sri_Lankan_Moors>
-        <Indian_Tamils>2.8%</Indian_Tamils>
-        <other>0.3%</other>
-      </Ethnic_groups__2024__>
-      <Religion__2024_>
-        <Buddhism___official__>69.8%</Buddhism___official__>
-        <Hinduism>12.6%</Hinduism>
-        <Islam>10.7%</Islam>
-        <Christianity>6.9%</Christianity>
-        <other_none>0.1%</other_none>
-      </Religion__2024_>
-      <Demonym>Sri Lankan</Demonym>
+      <Ethnic_groups>
+        <Sinhalese____>74.1</Sinhalese____>
+        <Sri_Lankan_Tamils____>12.3</Sri_Lankan_Tamils____>
+        <Sri_Lankan_Moors____>10.5</Sri_Lankan_Moors____>
+        <Indian_Tamils____>2.8</Indian_Tamils____>
+        <other____>0.3</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Buddhism___official______>69.8</Buddhism___official______>
+        <Hinduism____>12.6</Hinduism____>
+        <Islam____>10.7</Islam____>
+        <Christianity____>6.9</Christianity____>
+        <other_none____>0.1</other_none____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
-      <President>Anura Kumara Dissanayake</President>
-      <Prime_Minister>Harini Amarasuriya</Prime_Minister>
-      <Speaker_of_the_Parliament>Jagath Wickramaratne</Speaker_of_the_Parliament>
-      <Chief_Justice>Padman Surasena</Chief_Justice>
-      <Legislature>Parliament</Legislature>
-      <Sinhala_Kingdom_established>543 BCE</Sinhala_Kingdom_established>
     </Government>
-    <History>
-      <Anuradhapura_period>377 BCE – 1017 CE</Anuradhapura_period>
-      <Polonnaruwa_period>1017–1232</Polonnaruwa_period>
-      <Transitional_period>1232–1592</Transitional_period>
-      <Kandyan_period>1592–1815</Kandyan_period>
-      <British_Ceylon_period>1815–1948</British_Ceylon_period>
-      <Independence>4 February 1948</Independence>
-      <Republic>22 May 1972</Republic>
-      <Current_constitution>7 September 1978</Current_constitution>
-    </History>
     <Area>
-      <Total>67,240 km 2 (25,960 sq mi) ( 120th )</Total>
+      <Total__km2_>67240</Total__km2_>
       <Water____>4.4</Water____>
     </Area>
     <Population>
-      <n_2026_estimate>23,300,000 ( 60th )</n_2026_estimate>
-      <n_2024_census>21,781,800</n_2024_census>
-      <Density>337.7/km 2 (874.6/sq mi) ( 36th )</Density>
+      <Estimate>23300000</Estimate>
+      <Census>21781800</Census>
+      <Density___km2_>337.7</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$342.6 billion ( 62nd )</Total>
-        <Per_capita>$15,632 ( 111th )</Per_capita>
+        <Total____>342600000000</Total____>
+        <Per_capita____>15632</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$98.9 billion ( 71st )</Total>
-        <Per_capita>$4,516 ( 120th )</Per_capita>
+        <Total____>98900000000</Total____>
+        <Per_capita____>4516</Per_capita____>
       </GDP__nominal_>
-      <Gini__2023_>39.8 medium inequality</Gini__2023_>
-      <HDI__2023_>0.776 high ( 89th )</HDI__2023_>
-      <Currency>Sri Lankan rupee ( Rs ) ( LKR )</Currency>
+      <Gini>39.8</Gini>
+      <HDI>0.776</HDI>
+      <Currency>Sri Lankan rupee</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +5:30 ( SLST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+94</Calling_code>
-      <ISO_3166_code>LK</ISO_3166_code>
-      <Internet_TLD>.lk .ලංකා .இலங்கை</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

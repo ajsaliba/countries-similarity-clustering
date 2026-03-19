@@ -1,66 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Djibouti</country>
-  <url>https://en.wikipedia.org/wiki/Djibouti</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Djibouti City 11°36′N 43°10′E ﻿ / ﻿ 11.600°N 43.167°E ﻿ / 11.600; 43.167</Capital_and_largest_city>
       <Official_languages>Arabic French</Official_languages>
-      <National_languages>Somali Afar</National_languages>
       <Ethnic_groups>
-        <Afar>60%</Afar>
-        <Arabs>35%</Arabs>
+        <Afar____>60</Afar____>
+        <Arabs____>35</Arabs____>
       </Ethnic_groups>
       <Religion>
-        <Islam___official__>94%</Islam___official__>
-        <Sunni>87%</Sunni>
-        <Non_denominational>8%</Non_denominational>
-        <Shia>2%</Shia>
-        <Other>3%</Other>
-        <Christianity>6%</Christianity>
+        <Islam___official______>94</Islam___official______>
+        <Sunni____>87</Sunni____>
+        <Non_denominational____>8</Non_denominational____>
+        <Shia____>2</Shia____>
+        <Other____>3</Other____>
+        <Christianity____>6</Christianity____>
       </Religion>
-      <Demonym>Djiboutian</Demonym>
     </General>
     <Government>
       <Government>Unitary dominant-party presidential republic under a hereditary dictatorship</Government>
-      <President>Ismaïl Omar Guelleh</President>
-      <Prime_Minister>Abdoulkader Kamil Mohamed</Prime_Minister>
-      <Legislature>National Assembly</Legislature>
     </Government>
-    <History>
-      <Independence_from_France>27 June 1977</Independence_from_France>
-      <Current_constitution>4 September 1992</Current_constitution>
-    </History>
     <Area>
-      <Total>23,200 km 2 (9,000 sq mi) ( 146th )</Total>
-      <Water____>0.09 (20 km² / 7.7 sq mi)</Water____>
+      <Total__km2_>23200</Total__km2_>
+      <Water____>0.09</Water____>
     </Area>
     <Population>
-      <n_2024_census>1,066,809</n_2024_census>
-      <Density>46.0/km 2 (119.1/sq mi) ( 168th )</Density>
+      <Census>1066809</Census>
+      <Density___km2_>46.0</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2023 estimate</Details>
-        <Total>$7.193 billion ( 167th )</Total>
-        <Per_capita>$6,985 ( 137th )</Per_capita>
+        <Total____>7193000000</Total____>
+        <Per_capita____>6985</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2023 estimate</Details>
-        <Total>$3.873 billion ( 172nd )</Total>
-        <Per_capita>$3,761 ( 126th )</Per_capita>
+        <Total____>3873000000</Total____>
+        <Per_capita____>3761</Per_capita____>
       </GDP__nominal_>
-      <Gini__2017_>41.6 medium inequality</Gini__2017_>
-      <HDI__2023_>0.513 low ( 175th )</HDI__2023_>
-      <Currency>Djiboutian franc ( DJF )</Currency>
+      <Gini>41.6</Gini>
+      <HDI>0.513</HDI>
+      <Currency>Djiboutian franc</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +3 ( EAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+253</Calling_code>
-      <ISO_3166_code>DJ</ISO_3166_code>
-      <Internet_TLD>.dj</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

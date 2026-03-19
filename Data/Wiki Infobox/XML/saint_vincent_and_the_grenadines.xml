@@ -1,83 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Saint Vincent and the Grenadines</country>
-  <url>https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Kingstown 13°10′N 61°14′W ﻿ / ﻿ 13.167°N 61.233°W ﻿ / 13.167; -61.233</Capital_and_largest_city>
       <Official_languages>English</Official_languages>
-      <Vernacular_language>Vincentian Creole</Vernacular_language>
-      <Ethnic_groups__2020_>
-        <African>66%</African>
-        <Mixed>19%</Mixed>
-        <Indian>6%</Indian>
-        <European>4%</European>
-        <Kalinago>2%</Kalinago>
-        <others>3%</others>
-      </Ethnic_groups__2020_>
-      <Religion__2020_>
+      <Ethnic_groups>
+        <African____>66</African____>
+        <Mixed____>19</Mixed____>
+        <Indian____>6</Indian____>
+        <European____>4</European____>
+        <Kalinago____>2</Kalinago____>
+        <others____>3</others____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>88.6%</percentage>
+          <percentage>88.6</percentage>
           <breakdown>
-            <Protestantism>70.2%</Protestantism>
-            <Other_Christian>18.4%</Other_Christian>
+            <Protestantism____>70.2</Protestantism____>
+            <Other_Christian____>18.4</Other_Christian____>
           </breakdown>
         </Christianity>
-        <Hinduism>3.4%</Hinduism>
-        <Irreligion>2.5%</Irreligion>
+        <Hinduism____>3.4</Hinduism____>
+        <Irreligion____>2.5</Irreligion____>
         <Rastafari>
-          <percentage>1.8%</percentage>
+          <percentage>1.8</percentage>
           <breakdown>
-            <Bah____Faith>1.6%</Bah____Faith>
+            <Bah____Faith____>1.6</Bah____Faith____>
           </breakdown>
         </Rastafari>
-        <Islam>1.5%</Islam>
-        <Other>0.5%</Other>
-      </Religion__2020_>
-      <Demonyms>Vincentian Grenadinian Saint Vincentian Vincy (colloquial)</Demonyms>
-      <Monarch>Charles III</Monarch>
-      <Governor_General>Sir Stanley John</Governor_General>
+        <Islam____>1.5</Islam____>
+        <Other____>0.5</Other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
-      <Prime_Minister>Godwin Friday</Prime_Minister>
-      <Legislature>House of Assembly</Legislature>
-      <from_the_United_Kingdom>27 October 1979</from_the_United_Kingdom>
     </Government>
-    <Independence>
-      <Associated_State>27 October 1969</Associated_State>
-    </Independence>
     <Area>
-      <Total>389 km 2 (150 sq mi) ( 184th )</Total>
+      <Total__km2_>389</Total__km2_>
       <Water____>negligible</Water____>
     </Area>
     <Population>
-      <n_2022_estimate>110,872 ( 180th )</n_2022_estimate>
-      <n_2012_census>109,991</n_2012_census>
-      <Density>307/km 2 (795.1/sq mi) ( 39th )</Density>
-      <Date_format>mm/dd/yyyy</Date_format>
+      <Estimate>110872</Estimate>
+      <Census>109991</Census>
+      <Density___km2_>307</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2023 estimate</Details>
-        <Total>$2 billion</Total>
-        <Per_capita>$17,840</Per_capita>
+        <Total____>2000000000</Total____>
+        <Per_capita____>17840</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2023 estimate</Details>
-        <Total>$1 billion</Total>
-        <Per_capita>$9,360</Per_capita>
+        <Total____>1000000000</Total____>
+        <Per_capita____>9360</Per_capita____>
       </GDP__nominal_>
-      <HDI__2023_>0.798 high ( 76th )</HDI__2023_>
-      <Currency>East Caribbean dollar ( XCD )</Currency>
+      <HDI>0.798</HDI>
+      <Currency>East Caribbean dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC -4 ( AST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+1</Calling_code>
-      <ISO_3166_code>VC</ISO_3166_code>
-      <Internet_TLD>.vc</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

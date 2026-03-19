@@ -1,67 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>France</country>
-  <url>https://en.wikipedia.org/wiki/France</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Paris 48°51′N 2°21′E ﻿ / ﻿ 48.850°N 2.350°E ﻿ / 48.850; 2.350</Capital_and_largest_city>
       <Official_language_and_national_language>French</Official_language_and_national_language>
-      <Regional_languages>See languages of France</Regional_languages>
-      <Religion__2021_>
-        <Christianity>50%</Christianity>
-        <irreligion>33%</irreligion>
-        <Islam>4%</Islam>
-        <other_religions>4%</other_religions>
-      </Religion__2021_>
-      <Demonym>French</Demonym>
+      <Religion>
+        <Christianity____>50</Christianity____>
+        <irreligion____>33</irreligion____>
+        <Islam____>4</Islam____>
+        <other_religions____>4</other_religions____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
-      <President>Emmanuel Macron</President>
-      <Prime_Minister>Sébastien Lecornu</Prime_Minister>
-      <President_of_the_Senate>Gérard Larcher</President_of_the_Senate>
-      <President_of_the_National_Assembly>Yaël Braun-Pivet</President_of_the_National_Assembly>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>National Assembly</Lower_house>
     </Government>
     <Area>
-      <Total>632,702.3 km 2 (244,287.7 sq mi) (including metropolitan France and overseas France and excluding Terre Adelie ) ( 42nd )</Total>
+      <Total__km2_>632702.3</Total__km2_>
       <Water____>0.86</Water____>
-      <Metropolitan_France___DGCL__>543,941 km 2 (210,017 sq mi) ( 50th )</Metropolitan_France___DGCL__>
-      <Metropolitan_France___INSEE__>543,908.3 km 2 (210,004.2 sq mi) ( 50th )</Metropolitan_France___INSEE__>
+      <Metropolitan_France___DGCL____km2_>543941</Metropolitan_France___DGCL____km2_>
+      <Metropolitan_France___INSEE____km2_>543908.3</Metropolitan_France___INSEE____km2_>
     </Area>
     <Population>
-      <January_2026_estimate>69,081,996 ( 21st )</January_2026_estimate>
+      <Estimate>69081996</Estimate>
       <Density>
-        <item>109/km 2 (283/sq mi) ( 106th )</item>
-        <item>123/km 2 (318.6/sq mi) ( 97th )</item>
+        <item>109/km 2</item>
+        <item>123/km 2</item>
       </Density>
-      <Metropolitan_France__estimate_as_of_January_2026>66,792,845 ( 21st )</Metropolitan_France__estimate_as_of_January_2026>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$4.504 trillion ( 9th )</Total>
-        <Per_capita>$65,626 ( 25th )</Per_capita>
+        <Total____>4504000000000</Total____>
+        <Per_capita____>65626</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$3.211 trillion ( 7th )</Total>
-        <Per_capita>$46,792 ( 22nd )</Per_capita>
+        <Total____>3211000000000</Total____>
+        <Per_capita____>46792</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>29.8 low inequality</Gini__2022_>
-      <HDI__2023_>0.920 very high ( 26th )</HDI__2023_>
-      <Currency>Euro ( € ) ( EUR ) CFP franc (XPF)</Currency>
+      <Gini>29.8</Gini>
+      <HDI>0.92</HDI>
+      <Currency>Euro CFP franc</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+33</Calling_code>
-      <ISO_3166_code>FR</ISO_3166_code>
-      <Internet_TLD>.fr</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

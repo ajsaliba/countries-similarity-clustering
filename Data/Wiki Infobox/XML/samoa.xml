@@ -1,79 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Samoa</country>
-  <url>https://en.wikipedia.org/wiki/Samoa</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Apia 13°50′00″S 171°45′44″W ﻿ / ﻿ 13.83333°S 171.76222°W ﻿ / -13.83333; -171.76222</Capital_and_largest_city>
       <Official_languages>Samoan , English</Official_languages>
-      <Ethnic_groups__2021_>
-        <Samoans>92.6%</Samoans>
-        <Euronesians>7%</Euronesians>
-        <Europeans>0.3%</Europeans>
-        <others>0.1%</others>
-      </Ethnic_groups__2021_>
-      <Religion__2021_>
+      <Ethnic_groups>
+        <Samoans____>92.6</Samoans____>
+        <Euronesians____>7</Euronesians____>
+        <Europeans____>0.3</Europeans____>
+        <others____>0.1</others____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity___official__>
-          <percentage>97.9%</percentage>
+          <percentage>97.9</percentage>
           <breakdown>
-            <Protestantism>54.9%</Protestantism>
-            <Catholicism>18.8%</Catholicism>
-            <Mormonism>16.9%</Mormonism>
-            <other_Christian>7.3%</other_Christian>
+            <Protestantism____>54.9</Protestantism____>
+            <Catholicism____>18.8</Catholicism____>
+            <Mormonism____>16.9</Mormonism____>
+            <other_Christian____>7.3</other_Christian____>
           </breakdown>
         </Christianity___official__>
-        <no_religion>1.7%</no_religion>
-        <others>0.4%</others>
-      </Religion__2021_>
-      <Demonym>Samoan</Demonym>
-      <O_le_Ao_o_le_Malo>Tuimalealiʻifano Vaʻaletoʻa Sualauvi II</O_le_Ao_o_le_Malo>
+        <no_religion____>1.7</no_religion____>
+        <others____>0.4</others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <Prime_Minister>Laʻauli Leuatea Schmidt</Prime_Minister>
-      <Assembly_Speaker>Auapaʻau Mulipola Aloitafua</Assembly_Speaker>
-      <Legislature>Legislative Assembly</Legislature>
     </Government>
-    <Independence_from_New_Zealand>
-      <Treaty_of_Berlin>14 June 1889</Treaty_of_Berlin>
-      <Tripartite_Convention>16 February 1900</Tripartite_Convention>
-      <Colonisation_by_Germany>1 March 1900</Colonisation_by_Germany>
-      <Occupied_by_New_Zealand>30 August 1914</Occupied_by_New_Zealand>
-      <League_mandate>17 December 1920</League_mandate>
-      <UN_trusteeship>13 December 1946</UN_trusteeship>
-      <Western_Samoa_Act_1961>1 January 1962</Western_Samoa_Act_1961>
-    </Independence_from_New_Zealand>
     <Area>
-      <Total>2,831 km 2 (1,093 sq mi) ( 167th )</Total>
+      <Total__km2_>2831</Total__km2_>
       <Water____>0.3</Water____>
     </Area>
     <Population>
-      <November_2021_census>205,557 ( 176th )</November_2021_census>
-      <Density>70/km 2 (181.3/sq mi)</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Census>205557</Census>
+      <Density___km2_>70</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2024 estimate</Details>
-        <Total>$1.225 billion</Total>
-        <Per_capita>$5,962</Per_capita>
+        <Total____>1225000000</Total____>
+        <Per_capita____>5962</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2024 estimate</Details>
-        <Total>$908.561 million</Total>
-        <Per_capita>$4,420</Per_capita>
+        <Total____>908561000</Total____>
+        <Per_capita____>4420</Per_capita____>
       </GDP__nominal_>
-      <Gini__2013_>38.7 medium inequality</Gini__2013_>
-      <HDI__2023_>0.708 high ( 122nd )</HDI__2023_>
-      <Currency>Tālā (WS $ ) ( WST )</Currency>
+      <Gini>38.7</Gini>
+      <HDI>0.708</HDI>
+      <Currency>Tālā</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +13 ( WST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+685</Calling_code>
-      <ISO_3166_code>WS</ISO_3166_code>
-      <Internet_TLD>.ws</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

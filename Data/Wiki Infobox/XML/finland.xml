@@ -1,76 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Finland</country>
-  <url>https://en.wikipedia.org/wiki/Finland</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Helsinki 60°10′15″N 24°56′15″E ﻿ / ﻿ 60.17083°N 24.93750°E ﻿ / 60.17083; 24.93750</Capital_and_largest_city>
       <Official_languages>Finnish Swedish</Official_languages>
-      <Recognized_national_languages>Sámi Karelian Finnish Kalo Finnish Sign Language Finland-Swedish Sign Language</Recognized_national_languages>
-      <Ethnic_groups__2024_>
-        <Finns>88.9%</Finns>
-        <others>11.1%</others>
-      </Ethnic_groups__2024_>
-      <Religion__2024_>
+      <Ethnic_groups>
+        <Finns____>88.9</Finns____>
+        <others____>11.1</others____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>64.2%</percentage>
+          <percentage>64.2</percentage>
           <breakdown>
-            <Lutheranism>62.2%</Lutheranism>
-            <Eastern_Orthodoxy>1%</Eastern_Orthodoxy>
-            <other_Christian>1%</other_Christian>
+            <Lutheranism____>62.2</Lutheranism____>
+            <Eastern_Orthodoxy____>1</Eastern_Orthodoxy____>
+            <other_Christian____>1</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>34.9%</no_religion>
-        <other>2%</other>
-      </Religion__2024_>
-      <Demonyms>Finnish Finn</Demonyms>
+        <no_religion____>34.9</no_religion____>
+        <other____>2</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Alexander Stubb</President>
-      <Prime_Minister>Petteri Orpo</Prime_Minister>
-      <Speaker_of_the_Parliament>Jussi Halla-aho</Speaker_of_the_Parliament>
-      <Legislature>Parliament</Legislature>
     </Government>
-    <Independence_from_Soviet_Russia>
-      <Establishment_of_Grand_Duchy_of_Finland>29 March 1809 (from Sweden)</Establishment_of_Grand_Duchy_of_Finland>
-    </Independence_from_Soviet_Russia>
-    <History>
-      <Declaration_of_independence>6 December 1917</Declaration_of_independence>
-      <Constitution_established>17 July 1919</Constitution_established>
-    </History>
     <Area>
-      <Total>338,455 km 2 (130,678 sq mi) ( 65th )</Total>
-      <Water____>9.71 (2015)</Water____>
+      <Total__km2_>338455</Total__km2_>
+      <Water____>9.71</Water____>
     </Area>
     <Population>
-      <n_2024_census>5,635,971</n_2024_census>
-      <Density>18.4/km 2 (47.7/sq mi) ( 210th )</Density>
-      <Date_format>dd . mm . yyyy</Date_format>
+      <Census>5635971</Census>
+      <Density___km2_>18.4</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$373.16 billion ( 61st )</Total>
-        <Per_capita>$66,500 ( 23rd )</Per_capita>
+        <Total____>373160000000</Total____>
+        <Per_capita____>66500</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$303.95 billion ( 46th )</Total>
-        <Per_capita>$54,160 ( 19th )</Per_capita>
+        <Total____>303950000000</Total____>
+        <Per_capita____>54160</Per_capita____>
       </GDP__nominal_>
-      <Gini__2023_>26.6 low inequality</Gini__2023_>
-      <HDI__2023_>0.948 very high ( 12th )</HDI__2023_>
-      <Currency>Euro ( € ) ( EUR )</Currency>
+      <Gini>26.6</Gini>
+      <HDI>0.948</HDI>
+      <Currency>Euro</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( EET )</Time_zone>
-      <Summer___DST__>UTC +3 ( EEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+358</Calling_code>
-      <ISO_3166_code>FI</ISO_3166_code>
-      <Internet_TLD>.fi , .ax a</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

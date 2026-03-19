@@ -1,80 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Kyrgyzstan</country>
-  <url>https://en.wikipedia.org/wiki/Kyrgyzstan</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Bishkek 42°52′N 74°36′E ﻿ / ﻿ 42.867°N 74.600°E ﻿ / 42.867; 74.600</Capital_and_largest_city>
-      <Official_languages>Kyrgyz (state) Russian (official)</Official_languages>
-      <Official_script>Cyrillic</Official_script>
-      <Ethnic_groups__2025_>
-        <Kyrgyz>77.8%</Kyrgyz>
-        <Uzbeks>14.3%</Uzbeks>
-        <Russians>3.7%</Russians>
-        <Dungans>1%</Dungans>
-        <Tajiks>0.9%</Tajiks>
-        <Others>2.3%</Others>
-      </Ethnic_groups__2025_>
-      <Religion__2026_>
-        <Islam>91%</Islam>
-        <Christianity>8%</Christianity>
-        <Others>1%</Others>
-      </Religion__2026_>
-      <Demonyms>Kyrgyz Kyrgyzstani</Demonyms>
-      <Chairman_of_the_Cabinet_of_Ministers>Adylbek Kasymaliev</Chairman_of_the_Cabinet_of_Ministers>
-      <Independence_recognized>
-        <Details>26 December 1991</Details>
-        <Current_constitution>11 April 2021</Current_constitution>
-      </Independence_recognized>
+      <Official_languages>Kyrgyz Russian</Official_languages>
+      <Ethnic_groups>
+        <Kyrgyz____>77.8</Kyrgyz____>
+        <Uzbeks____>14.3</Uzbeks____>
+        <Russians____>3.7</Russians____>
+        <Dungans____>1</Dungans____>
+        <Tajiks____>0.9</Tajiks____>
+        <Others____>2.3</Others____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>91</Islam____>
+        <Christianity____>8</Christianity____>
+        <Others____>1</Others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Sadyr Japarov</President>
-      <Speaker_of_the_Supreme_Council>Marlen Mamataliev</Speaker_of_the_Supreme_Council>
-      <Legislature>Supreme Council</Legislature>
     </Government>
-    <History>
-      <Kyrgyz_Khaganate>840</Kyrgyz_Khaganate>
-      <Kara_Kyrgyz_Khanate>1842–1867</Kara_Kyrgyz_Khanate>
-      <Annexed_by_the_Russian_Empire>1876</Annexed_by_the_Russian_Empire>
-      <Kara_Kirghiz_AO>14 October 1924</Kara_Kirghiz_AO>
-      <Kirghiz_ASSR>11 February 1926</Kirghiz_ASSR>
-      <Kirghiz_SSR>5 December 1936</Kirghiz_SSR>
-      <Sovereignty_declared>30 December 1990</Sovereignty_declared>
-      <Independence_declared_from_USSR>31 August 1991</Independence_declared_from_USSR>
-    </History>
     <Area>
-      <Total>200,105 km 2 (77,261 sq mi) ( 85th )</Total>
-      <Water>7,198 km 2 (2,779 sq mi)</Water>
+      <Total__km2_>200105</Total__km2_>
+      <Water__km2_>7198</Water__km2_>
       <Water____>3.6</Water____>
     </Area>
     <Population>
-      <n_2026_estimate>7.4 million ( 107th )</n_2026_estimate>
-      <Density>37/km 2 (95.8/sq mi) ( 109th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>7400000</Estimate>
+      <Density___km2_>37</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$64.110 billion ( 128th )</Total>
-        <Per_capita>$8,870 ( 136th )</Per_capita>
+        <Total____>64110000000</Total____>
+        <Per_capita____>8870</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$22.587 billion ( 126th )</Total>
-        <Per_capita>$3,101 ( 139th )</Per_capita>
+        <Total____>22587000000</Total____>
+        <Per_capita____>3101</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>26.4 low inequality</Gini__2022_>
-      <HDI__2023_>0.720 high ( 117th )</HDI__2023_>
-      <Currency>Kyrgyzstani som ( c ) ( KGS )</Currency>
+      <Gini>26.4</Gini>
+      <HDI>0.72</HDI>
+      <Currency>Kyrgyzstani som</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +6 ( KGT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+996</Calling_code>
-      <ISO_3166_code>KG</ISO_3166_code>
-      <Internet_TLD>.kg</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

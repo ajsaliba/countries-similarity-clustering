@@ -1,83 +1,56 @@
 {
     "country": "Bulgaria",
-    "url": "https://en.wikipedia.org/wiki/Bulgaria",
     "infobox": {
         "General": {
-            "Capital and largest city": "Sofia 42°41′51″N 23°19′21″E ﻿ / ﻿ 42.69750°N 23.32250°E ﻿ / 42.69750; 23.32250 ﻿ ( Largo )",
             "Official languages": "Bulgarian",
-            "Official script": "Cyrillic",
-            "Ethnic groups (2021 census )": {
-                "Bulgarians": "85.7%",
-                "Turks": "8.5%",
-                "Roma": "4.5%",
-                "others": "1.3%"
+            "Ethnic groups": {
+                "Bulgarians (%)": 85.7,
+                "Turks (%)": 8.5,
+                "Roma (%)": 4.5,
+                "others (%)": 1.3
             },
-            "Religion (2021 census)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "64.7%",
+                    "percentage": 64.7,
                     "breakdown": {
-                        "Bulgarian Orthodoxy": "62.7%",
-                        "other Christian": "2%"
+                        "Bulgarian Orthodoxy (%)": 62.7,
+                        "other Christian (%)": 2
                     }
                 },
-                "no religion": "15.9%",
+                "no religion (%)": 15.9,
                 "Islam": {
-                    "percentage": "9.8%",
+                    "percentage": 9.8,
                     "breakdown": {
-                        "other": "0.1%",
-                        "unanswered": "9.5%"
+                        "other (%)": 0.1,
+                        "unanswered (%)": 9.5
                     }
                 }
-            },
-            "Demonym": "Bulgarian",
-            "Chairperson of the National Assembly": "Raya Nazaryan"
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic",
-            "President": "Iliana Iotova",
-            "Prime Minister": "Andrey Gyurov",
-            "Legislature": "National Assembly"
-        },
-        "History": {
-            "1st Bulgarian Empire": "681–1018",
-            "2nd Bulgarian Empire": "1185–1396",
-            "Principality of Bulgaria": "3 March 1878",
-            "Independence from the Ottoman Empire": "5 October 1908",
-            "Monarchy abolished": "15 September 1946",
-            "Current state form": "15 November 1990"
+            "Government": "Unitary parliamentary republic"
         },
         "Area": {
-            "Total": "110,993.6 km 2 (42,854.9 sq mi) ( 103rd )",
-            "Water (%)": "2.16"
+            "Total (km2)": 110993.6,
+            "Water (%)": 2.16
         },
         "Population": {
-            "December 2024 estimate": "6,437,360 ( 109th )",
-            "2021 census": "6,519,789",
-            "Density": "58/km 2 (150.2/sq mi) ( 154th )"
+            "Estimate": 6437360,
+            "Census": 6519789,
+            "Density (/km2)": 58
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$264.699 billion ( 73rd )",
-                "Per capita": "$41,901 ( 55th )"
+                "Total ($)": 264699000000,
+                "Per capita ($)": 41901
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$117.007 billion ( 68th )",
-                "Per capita": "$18,522 ( 59th )"
+                "Total ($)": 117007000000,
+                "Per capita ($)": 18522
             },
-            "Gini (2023)": "37.2 medium inequality",
-            "HDI (2023)": "0.845 very high ( 55th )",
-            "Currency": "Euro ( € ) ( EUR )"
-        },
-        "Time": {
-            "Time zone": "UTC +2 ( EET )",
-            "Summer ( DST )": "UTC +3 ( EEST )"
-        },
-        "Codes": {
-            "Calling code": "+359",
-            "ISO 3166 code": "BG",
-            "Internet TLD": ".bg .бг"
+            "Gini": 37.2,
+            "HDI": 0.845,
+            "Currency": "Euro"
         }
     }
 }

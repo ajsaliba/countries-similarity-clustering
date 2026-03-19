@@ -1,88 +1,48 @@
 {
     "country": "Norway",
-    "url": "https://en.wikipedia.org/wiki/Norway",
     "infobox": {
         "General": {
-            "Northern Sami": [
-                "Norgga gonagasriika",
-                "Norgga gonagasriika"
-            ],
-            "Lule Sami": "Vuona gånågisrijkka",
-            "Southern Sami": "Nöörjen gånkarïjhke",
-            "Kven": "Norjan kuninkhaanvaltakunta",
-            "Capital and largest city": "Oslo 59°56′N 10°41′E ﻿ / ﻿ 59.933°N 10.683°E ﻿ / 59.933; 10.683",
             "Official languages": "Norwegian Sámi",
-            "Recognised national languages": "Kven Romani Scandoromani Norwegian Sign Language",
-            "Ethnic groups (2025)": {
-                "Norwegian": "78.6%",
-                "non-Norwegian": "21.4%"
+            "Ethnic groups": {
+                "Norwegian (%)": 78.6,
+                "non-Norwegian (%)": 21.4
             },
-            "Religion (2024)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "68.5%",
+                    "percentage": 68.5,
                     "breakdown": {
-                        "Church of Norway": "61.7%",
-                        "other Christian": "6.8%"
+                        "Church of Norway (%)": 61.7,
+                        "other Christian (%)": 6.8
                     }
                 },
-                "no religion": "27.3%",
-                "Islam": "3.4%",
-                "other": "0.8%"
-            },
-            "Demonym": "Norwegian",
-            "Monarch": "Harald V"
+                "no religion (%)": 27.3,
+                "Islam (%)": 3.4,
+                "other (%)": 0.8
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy",
-            "Prime Minister": "Jonas Gahr Støre",
-            "President of the Storting": "Masud Gharahkhani",
-            "Chief Justice": "Toril Marie Øie",
-            "Legislature": "Storting",
-            "Peak extent of the Old Kingdom": "1263",
-            "Kingdoms of Sweden–Norway (personal union)": "4 November 1814"
-        },
-        "Unification of the petty kingdoms": {
-            "Kalmar Union (personal union)": "1397",
-            "Denmark–Norway (real union)": "1524",
-            "Union dissolved": "7 June 1905"
-        },
-        "History": {
-            "State established": "872",
-            "State re-established": "25 February 1814",
-            "Constitution": "17 May 1814"
+            "Government": "Unitary parliamentary constitutional monarchy"
         },
         "Area": {
-            "Total": "385,207 km 2 (148,729 sq mi) ( 61st b )",
-            "Water (%)": "5.32 (2015)"
+            "Total (km2)": 385207,
+            "Water (%)": 5.32
         },
         "Population": {
-            "2026 estimate": "5,627,400 ( 116th )",
-            "Density": "14.6/km 2 (37.8/sq mi) ( 224th )",
-            "Date format": "dd . mm . yyyy"
+            "Estimate": 5627400,
+            "Density (/km2)": 14.6
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$606.590 billion ( 49th )",
-                "Per capita": "$107,890 ( 5th )"
+                "Total ($)": 606590000000,
+                "Per capita ($)": 107890
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$504.280 billion ( 31st )",
-                "Per capita": "$89,690 ( 6th )"
+                "Total ($)": 504280000000,
+                "Per capita ($)": 89690
             },
-            "Gini (2020)": "25.3 low inequality",
-            "HDI (2023)": "0.970 very high ( 2nd )",
-            "Currency": "Norwegian krone ( NOK )"
-        },
-        "Time": {
-            "Time zone": "UTC +1 ( CET )",
-            "Summer ( DST )": "UTC +2 ( CEST )"
-        },
-        "Codes": {
-            "Calling code": "+47",
-            "ISO 3166 code": "NO",
-            "Internet TLD": ".no d"
+            "Gini": 25.3,
+            "HDI": 0.97,
+            "Currency": "Norwegian krone"
         }
     }
 }

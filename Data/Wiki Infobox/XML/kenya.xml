@@ -1,83 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Kenya</country>
-  <url>https://en.wikipedia.org/wiki/Kenya</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Nairobi 1°16′S 36°48′E ﻿ / ﻿ 1.267°S 36.800°E ﻿ / -1.267; 36.800 1°N 38°E ﻿ / ﻿ 1°N 38°E ﻿ / 1; 38</Capital_and_largest_city>
       <Official_languages>Swahili English</Official_languages>
-      <National_language>Swahili</National_language>
-      <Ethnic_groups__2019_census_>
-        <Kikuyu>17.13%</Kikuyu>
-        <Luhya>14.35%</Luhya>
-        <Kalenjin>13.37%</Kalenjin>
-        <Luo>10.65%</Luo>
-        <Kamba>9.81%</Kamba>
-        <Somali>5.85%</Somali>
-        <Kisii>5.68%</Kisii>
-        <Mijikenda>5.23%</Mijikenda>
-        <Meru>4.15%</Meru>
-        <others>13.78%</others>
-      </Ethnic_groups__2019_census_>
-      <Religion__2019_census_>
-        <Christianity>85.5%</Christianity>
-        <Islam>10.9%</Islam>
-        <no_religion>1.5%</no_religion>
-        <traditional_faiths>0.7%</traditional_faiths>
-        <others>1.3%</others>
-      </Religion__2019_census_>
-      <Demonym>Kenyan</Demonym>
+      <Ethnic_groups>
+        <Kikuyu____>17.13</Kikuyu____>
+        <Luhya____>14.35</Luhya____>
+        <Kalenjin____>13.37</Kalenjin____>
+        <Luo____>10.65</Luo____>
+        <Kamba____>9.81</Kamba____>
+        <Somali____>5.85</Somali____>
+        <Kisii____>5.68</Kisii____>
+        <Mijikenda____>5.23</Mijikenda____>
+        <Meru____>4.15</Meru____>
+        <others____>13.78</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>85.5</Christianity____>
+        <Islam____>10.9</Islam____>
+        <no_religion____>1.5</no_religion____>
+        <traditional_faiths____>0.7</traditional_faiths____>
+        <others____>1.3</others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>William Ruto</President>
-      <Deputy_President>Kithure Kindiki</Deputy_President>
-      <Senate_Speaker>Amason Kingi</Senate_Speaker>
-      <Assembly_Speaker>Moses Wetangula</Assembly_Speaker>
-      <Chief_Justice>Martha Koome</Chief_Justice>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>National Assembly</Lower_house>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Dominion>12 December 1963</Dominion>
-      <Republic>12 December 1964</Republic>
-    </Independence_from_the_United_Kingdom>
-    <History>
-      <Current_Constitution>27 August 2010</Current_Constitution>
-    </History>
     <Area>
-      <Total>580,367 km 2 (224,081 sq mi) ( 48th )</Total>
+      <Total__km2_>580367</Total__km2_>
       <Water____>2.3</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>53,330,978 ( 28th )</n_2025_estimate>
-      <n_2019_census>47,564,296</n_2019_census>
-      <Density>82/km 2 (212.4/sq mi) ( 124th )</Density>
-      <Date_format>dd/mm/yy ( AD )</Date_format>
+      <Estimate>53330978</Estimate>
+      <Census>47564296</Census>
+      <Density___km2_>82</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$430.22 billion ( 59th )</Total>
-        <Per_capita>$7,930 ( 142nd )</Per_capita>
+        <Total____>430220000000</Total____>
+        <Per_capita____>7930</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$140.87 billion ( 59th )</Total>
-        <Per_capita>$2,600 ( 150th )</Per_capita>
+        <Total____>140870000000</Total____>
+        <Per_capita____>2600</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>38.7 medium inequality</Gini__2021_>
-      <HDI__2023_>0.628 medium ( 143rd )</HDI__2023_>
-      <Currency>Kenyan shilling ( KES )</Currency>
+      <Gini>38.7</Gini>
+      <HDI>0.628</HDI>
+      <Currency>Kenyan shilling</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +3 ( East Africa Time )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+254</Calling_code>
-      <ISO_3166_code>KE</ISO_3166_code>
-      <Internet_TLD>.ke</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

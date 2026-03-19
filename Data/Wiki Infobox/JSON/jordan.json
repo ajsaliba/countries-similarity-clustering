@@ -1,67 +1,44 @@
 {
     "country": "Jordan",
-    "url": "https://en.wikipedia.org/wiki/Jordan",
     "infobox": {
         "General": {
-            "Capital and largest city": "Amman 31°57′N 35°56′E ﻿ / ﻿ 31.950°N 35.933°E ﻿ / 31.950; 35.933",
             "Official languages": "Arabic",
             "Ethnic groups": {
-                "Arab": "95%",
-                "Circassian , Chechen": "3%",
-                "Armenian and others": "2%"
+                "Arab (%)": 95,
+                "Circassian , Chechen (%)": 3,
+                "Armenian and others (%)": 2
             },
             "Religion": {
-                "Islam ( official )": "95%",
-                "Christianity": "3%",
-                "Druze , Baháʼí": "1%",
-                "others": "1%"
-            },
-            "Demonym": "Jordanian",
-            "Monarch": "Abdullah II"
+                "Islam ( official ) (%)": 95,
+                "Christianity (%)": 3,
+                "Druze , Baháʼí (%)": 1,
+                "others (%)": 1
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy",
-            "Prime Minister": "Jafar Hassan",
-            "Legislature": "Parliament",
-            "Upper house": "Senate",
-            "Lower house": "House of Representatives",
-            "Emirate": "11 April 1921"
-        },
-        "History": {
-            "Independence": "25 May 1946",
-            "Current constitution": "11 January 1952"
+            "Government": "Unitary parliamentary constitutional monarchy"
         },
         "Area": {
-            "Total": "89,342 km 2 (34,495 sq mi) ( 110th )",
-            "Water (%)": "0.6"
+            "Total (km2)": 89342,
+            "Water (%)": 0.6
         },
         "Population": {
-            "2023 estimate": "11,484,805 ( 84th )",
-            "2015 census": "9,531,712",
-            "Density": "114/km 2 (295.3/sq mi) ( 70th )"
+            "Estimate": 11484805,
+            "Census": 9531712,
+            "Density (/km2)": 114
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2023 estimate",
-                "Total": "$132.092 billion ( 91st )",
-                "Per capita": "$12,809 ( 112th )"
+                "Total ($)": 132092000000,
+                "Per capita ($)": 12809
             },
             "GDP (nominal)": {
-                "Details": "2023 estimate",
-                "Total": "$50.022 billion ( 93rd )",
-                "Per capita": "$4,850 ( 114th )"
+                "Total ($)": 50022000000,
+                "Per capita ($)": 4850
             },
-            "Gini (2011)": "35.4 medium inequality",
-            "HDI (2023)": "0.754 high ( 100th )",
-            "Currency": "Jordanian dinar ( JOD )"
-        },
-        "Time": {
-            "Time zone": "UTC +03:00 ( AST )"
-        },
-        "Codes": {
-            "Calling code": "+962",
-            "ISO 3166 code": "JO",
-            "Internet TLD": ".jo .الاردن"
+            "Gini": 35.4,
+            "HDI": 0.754,
+            "Currency": "Jordanian dinar"
         }
     }
 }

@@ -1,65 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Seychelles</country>
-  <url>https://en.wikipedia.org/wiki/Seychelles</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Victoria 4°37′S 55°27′E ﻿ / ﻿ 4.617°S 55.450°E ﻿ / -4.617; 55.450</Capital_and_largest_city>
-      <Official_languages>Seychellois Creole (national language) English French</Official_languages>
-      <Minority_language>Tamil</Minority_language>
+      <Official_languages>Seychellois Creole English French</Official_languages>
       <Ethnic_groups>
-        <Seychellois_Creoles>97%</Seychellois_Creoles>
-        <others>3%</others>
+        <Seychellois_Creoles____>97</Seychellois_Creoles____>
+        <others____>3</others____>
       </Ethnic_groups>
-      <Religion__2022_>
-        <Christianity>74.9%</Christianity>
-        <Hinduism>5.4%</Hinduism>
-        <Islam>2.4%</Islam>
-        <others>5.1%</others>
-        <unanswered>12.2%</unanswered>
-      </Religion__2022_>
-      <Demonyms>Seychellois Seychelloise Seselwa (Creole)</Demonyms>
+      <Religion>
+        <Christianity____>74.9</Christianity____>
+        <Hinduism____>5.4</Hinduism____>
+        <Islam____>2.4</Islam____>
+        <others____>5.1</others____>
+        <unanswered____>12.2</unanswered____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Patrick Herminie</President>
-      <Vice_President>Sebastien Pillay</Vice_President>
-      <Speaker_of_the_National_Assembly>Azarel Ernesta</Speaker_of_the_National_Assembly>
-      <Legislature>National Assembly</Legislature>
     </Government>
-    <History>
-      <Independence_declared>29 June 1976</Independence_declared>
-    </History>
     <Area>
-      <Total>457 km 2 (176 sq mi) ( 181st )</Total>
+      <Total__km2_>457</Total__km2_>
       <Water____>Negligible</Water____>
     </Area>
     <Population>
-      <n_2024_estimate>121,355 ( 200th )</n_2024_estimate>
-      <Density>262.3/km 2 (679.4/sq mi) ( 67th )</Density>
+      <Estimate>121355</Estimate>
+      <Density___km2_>262.3</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$4.490 billion ( 177th )</Total>
-        <Per_capita>$43,850 ( 49th )</Per_capita>
+        <Total____>4490000000</Total____>
+        <Per_capita____>43850</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$2.250 billion ( 186th )</Total>
-        <Per_capita>$21,940 ( 50th )</Per_capita>
+        <Total____>2250000000</Total____>
+        <Per_capita____>21940</Per_capita____>
       </GDP__nominal_>
-      <Gini__2019_>32.1 medium inequality</Gini__2019_>
-      <HDI__2023_>0.848 very high ( 54th )</HDI__2023_>
-      <Currency>Seychellois rupee ( SCR )</Currency>
+      <Gini>32.1</Gini>
+      <HDI>0.848</HDI>
+      <Currency>Seychellois rupee</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +04:00 ( SCT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+248</Calling_code>
-      <ISO_3166_code>SC</ISO_3166_code>
-      <Internet_TLD>.sc</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

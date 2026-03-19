@@ -1,79 +1,51 @@
 {
     "country": "Guatemala",
-    "url": "https://en.wikipedia.org/wiki/Guatemala",
     "infobox": {
         "General": {
-            "Capital and largest city": "Guatemala City 14°38′N 90°30′W ﻿ / ﻿ 14.633°N 90.500°W ﻿ / 14.633; -90.500",
             "Official languages": "Spanish",
-            "Recognised national languages": "Mayan",
-            "Recognised regional languages": "Garifuna Xinca",
-            "Ethnic groups (2018)": {
-                "Ladino (mixed)": "56.01%",
-                "Maya": "41.66%",
-                "Xinca": "1.77%",
-                "Black": "0.19%",
-                "Garifuna": "0.13%",
-                "other": "0.24%"
+            "Ethnic groups": {
+                "Ladino (mixed) (%)": 56.01,
+                "Maya (%)": 41.66,
+                "Xinca (%)": 1.77,
+                "Black (%)": 0.19,
+                "Garifuna (%)": 0.13,
+                "other (%)": 0.24
             },
-            "Religion (2023)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "88.1%",
+                    "percentage": 88.1,
                     "breakdown": {
-                        "Protestantism": "45.7%",
-                        "Catholicism": "42.4%"
+                        "Protestantism (%)": 45.7,
+                        "Catholicism (%)": 42.4
                     }
                 },
-                "no religion": "11%",
-                "other": "0.9%"
-            },
-            "Demonym": "Guatemalan"
+                "no religion (%)": 11,
+                "other (%)": 0.9
+            }
         },
         "Government": {
-            "Government": "Unitary presidential republic",
-            "President": "Bernardo Arévalo",
-            "Vice President": "Karin Herrera",
-            "President of the Congress": "Luis Contreras",
-            "Legislature": "Congress of the Republic"
-        },
-        "Independence": {
-            "Declared from the Spanish Empire": "15 September 1821",
-            "Declared from the First Mexican Empire": "1 July 1823",
-            "Declared from the Federal Republic of Central America": "17 April 1839"
-        },
-        "History": {
-            "Current constitution": "17 November 1993"
+            "Government": "Unitary presidential republic"
         },
         "Area": {
-            "Total": "108,889 km 2 (42,042 sq mi) ( 105th )",
-            "Water (%)": "0.4"
+            "Total (km2)": 108889,
+            "Water (%)": 0.4
         },
         "Population": {
-            "2024 estimate": "18,255,216 ( 70th )",
-            "Density": "166/km 2 (429.9/sq mi) ( 76th )",
-            "Date format": "dd/mm/yyyy"
+            "Estimate": 18255216,
+            "Density (/km2)": 166
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$278.508 billion ( 77th )",
-                "Per capita": "$15,386 ( 121nd )"
+                "Total ($)": 278508000000,
+                "Per capita ($)": 15386
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$120.964 billion ( 70th )",
-                "Per capita": "$6,682 ( 108th )"
+                "Total ($)": 120964000000,
+                "Per capita ($)": 6682
             },
-            "Gini (2023)": "45.2 medium inequality",
-            "HDI (2023)": "0.662 medium ( 137th )",
-            "Currency": "Quetzal ( GTQ )"
-        },
-        "Time": {
-            "Time zone": "UTC −6 ( CST )"
-        },
-        "Codes": {
-            "Calling code": "+502",
-            "ISO 3166 code": "GT",
-            "Internet TLD": ".gt"
+            "Gini": 45.2,
+            "HDI": 0.662,
+            "Currency": "Quetzal"
         }
     }
 }

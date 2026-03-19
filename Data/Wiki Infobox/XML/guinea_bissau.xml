@@ -1,73 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Guinea-Bissau</country>
-  <url>https://en.wikipedia.org/wiki/Guinea-Bissau</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Bissau 11°52′N 15°36′W ﻿ / ﻿ 11.867°N 15.600°W ﻿ / 11.867; -15.600</Capital_and_largest_city>
       <Official_languages>Portuguese</Official_languages>
-      <Spoken_languages>List: Guinea-Bissau Creole English French Balanta Hassaniya Jola-Fonyi Mandinka Mandjak Mankanya Noon Portuguese Pulaar Serer Soninke</Spoken_languages>
-      <Ethnic_groups__2019_>
-        <Balanta>30%</Balanta>
-        <Fula>30%</Fula>
-        <Manjak>14%</Manjak>
-        <Mandinka>13%</Mandinka>
-        <Papel>7%</Papel>
-        <other___unspecified>6%</other___unspecified>
-      </Ethnic_groups__2019_>
-      <Religion__2020_>
-        <Islam>46.1%</Islam>
-        <Traditional>30.6%</Traditional>
-        <Christianity>18.9%</Christianity>
-        <No_religion>3%</No_religion>
-        <others>1%</others>
-      </Religion__2020_>
-      <Demonyms>Guinean Bissau-Guinean</Demonyms>
-      <Head_of_the_HMCRNSPO>Horta Inta-A Na Man</Head_of_the_HMCRNSPO>
+      <Ethnic_groups>
+        <Balanta____>30</Balanta____>
+        <Fula____>30</Fula____>
+        <Manjak____>14</Manjak____>
+        <Mandinka____>13</Mandinka____>
+        <Papel____>7</Papel____>
+        <other___unspecified____>6</other___unspecified____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>46.1</Islam____>
+        <Traditional____>30.6</Traditional____>
+        <Christianity____>18.9</Christianity____>
+        <No_religion____>3</No_religion____>
+        <others____>1</others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under a military junta</Government>
-      <Transitional_President>Horta Inta-A Na Man</Transitional_President>
-      <Prime_Minister>Ilídio Vieira Té</Prime_Minister>
-      <Legislature>National Transitional Council (transitional) National People's Assembly (suspended)</Legislature>
     </Government>
-    <Independence_from_Portugal>
-      <Declaration>24 September 1973</Declaration>
-    </Independence_from_Portugal>
     <Economy>
       <Recognition>
-        <Details>10 September 1974</Details>
         <n_2025_Guinea_Bissau_coup_d__tat>26 November 2025</n_2025_Guinea_Bissau_coup_d__tat>
       </Recognition>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$6.620 billion ( 172th )</Total>
-        <Per_capita>$3,280 ( 168th )</Per_capita>
+        <Total____>6620000000</Total____>
+        <Per_capita____>3280</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$2.270 billion ( 174th )</Total>
-        <Per_capita>$1,130 ( 165th )</Per_capita>
+        <Total____>2270000000</Total____>
+        <Per_capita____>1130</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>33.4 medium inequality</Gini__2021_>
-      <HDI__2023_>0.514 low ( 174th )</HDI__2023_>
-      <Currency>West African CFA franc ( XOF )</Currency>
+      <Gini>33.4</Gini>
+      <HDI>0.514</HDI>
+      <Currency>West African CFA franc</Currency>
     </Economy>
     <Area>
-      <Total>36,125 km 2 (13,948 sq mi) ( 134th )</Total>
+      <Total__km2_>36125</Total__km2_>
       <Water____>22.4</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>2,080,000 ( 150th )</n_2023_estimate>
-      <Density>47/km 2 (121.7/sq mi) ( 154th )</Density>
+      <Estimate>2080000</Estimate>
+      <Density___km2_>47</Density___km2_>
     </Population>
-    <Time>
-      <Time_zone>UTC ±00:00 ( GMT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+245</Calling_code>
-      <ISO_3166_code>GW</ISO_3166_code>
-      <Internet_TLD>.gw</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

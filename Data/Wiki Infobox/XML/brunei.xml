@@ -1,69 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Brunei</country>
-  <url>https://en.wikipedia.org/wiki/Brunei</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Bandar Seri Begawan 4°53.417′N 114°56.533′E ﻿ / ﻿ 4.890283°N 114.942217°E ﻿ / 4.890283; 114.942217</Capital_and_largest_city>
       <Official_language>Malay</Official_language>
-      <Other_languages_and_dialects>Brunei Malay English Tutong Kedayan Belait Chinese ( Hokkien , Hakka Chinese , Standard Chinese and Cantonese ) Murut Dusun Brunei Bisaya</Other_languages_and_dialects>
-      <Official_scripts>Malay alphabet (Rumi) Jawi alphabet</Official_scripts>
-      <Ethnic_groups__2023_>
-        <Malay>73.7%</Malay>
-        <Chinese>9.6%</Chinese>
-        <others>16.6%</others>
-      </Ethnic_groups__2023_>
-      <Religion__2023_>
-        <Sunni_Islam___official__>80.7%</Sunni_Islam___official__>
-        <Christianity>10.7%</Christianity>
-        <Buddhism>7.8%</Buddhism>
-        <other__includes_Indigenous_beliefs__>0.8%</other__includes_Indigenous_beliefs__>
-      </Religion__2023_>
-      <Demonym>Bruneian</Demonym>
-      <Crown_Prince_and_Senior_Minister>Al-Muhtadee Billah</Crown_Prince_and_Senior_Minister>
+      <Ethnic_groups>
+        <Malay____>73.7</Malay____>
+        <Chinese____>9.6</Chinese____>
+        <others____>16.6</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Sunni_Islam___official______>80.7</Sunni_Islam___official______>
+        <Christianity____>10.7</Christianity____>
+        <Buddhism____>7.8</Buddhism____>
+        <other__includes_Indigenous_beliefs______>0.8</other__includes_Indigenous_beliefs______>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary Islamic absolute monarchy</Government>
-      <Sultan_and_Prime_Minister>Hassanal Bolkiah</Sultan_and_Prime_Minister>
-      <Legislature>Legislative Council</Legislature>
-      <Independence_from_United_Kingdom>1 January 1984</Independence_from_United_Kingdom>
     </Government>
-    <History>
-      <Sultanate_established>c. 1363 or 1368</Sultanate_established>
-      <British_protected_state>17 September 1888</British_protected_state>
-      <Constitution_adopted_and_self_governance>29 September 1959</Constitution_adopted_and_self_governance>
-      <Brunei_Revolt>8 December 1962</Brunei_Revolt>
-    </History>
     <Area>
-      <Total>5,765 km 2 (2,226 sq mi) ( 164th )</Total>
+      <Total__km2_>5765</Total__km2_>
       <Water____>8.6</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>466,227 ( 175th )</n_2025_estimate>
-      <n_2021_census>440,715</n_2021_census>
-      <Density>72.11/km 2 (186.8/sq mi) ( 134th )</Density>
+      <Estimate>466227</Estimate>
+      <Census>440715</Census>
+      <Density___km2_>72.11</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$43.830 billion ( 137th )</Total>
-        <Per_capita>$95,760 ( 7th )</Per_capita>
+        <Total____>43830000000</Total____>
+        <Per_capita____>95760</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$16.01 billion ( 139th )</Total>
-        <Per_capita>$34,970 ( 31st )</Per_capita>
+        <Total____>16010000000</Total____>
+        <Per_capita____>34970</Per_capita____>
       </GDP__nominal_>
-      <HDI__2023_>0.837 very high ( 60th )</HDI__2023_>
-      <Currency>Brunei dollar ( BND )</Currency>
+      <HDI>0.837</HDI>
+      <Currency>Brunei dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +8 ( Brunei Standard Time )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+673</Calling_code>
-      <ISO_3166_code>BN</ISO_3166_code>
-      <Internet_TLD>.bn</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

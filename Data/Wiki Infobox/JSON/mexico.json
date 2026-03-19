@@ -1,81 +1,47 @@
 {
     "country": "Mexico",
-    "url": "https://en.wikipedia.org/wiki/Mexico",
     "infobox": {
         "General": {
-            "Capital and largest city": "Mexico City 19°26′N 99°8′W ﻿ / ﻿ 19.433°N 99.133°W ﻿ / 19.433; -99.133",
             "Official language": "Spanish",
             "Co-official languages": "68 Indigenous languages",
             "Ethnic groups": "See below",
-            "Religion (2020)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "88.9%",
+                    "percentage": 88.9,
                     "breakdown": {
-                        "Catholicism": "77.7%",
-                        "Protestantism": "11.2%"
+                        "Catholicism (%)": 77.7,
+                        "Protestantism (%)": 11.2
                     }
                 },
-                "Irreligion": "8.1%",
-                "other religion": "2.4%",
-                "prefer not to say": "0.5%"
-            },
-            "Demonym": "Mexican",
-            "Recognized": {
-                "Details": "28 December 1836",
-                "First constitution": "4 October 1824",
-                "Second constitution": "5 February 1857",
-                "Current constitution": "5 February 1917"
+                "Irreligion (%)": 8.1,
+                "other religion (%)": 2.4,
+                "prefer not to say (%)": 0.5
             }
         },
         "Government": {
-            "Government": "Federal presidential republic",
-            "President": "Claudia Sheinbaum",
-            "President of the Senate": "Laura Itzel Castillo",
-            "President of the Chamber of Deputies": "Kenia López Rabadán",
-            "Chief Justice": "Hugo Aguilar Ortiz",
-            "Legislature": "Congress",
-            "Upper house": "Senate",
-            "Lower house": "Chamber of Deputies"
-        },
-        "Independence from Spain": {
-            "Declared": "27 September 1821"
-        },
-        "History": {
-            "Start of War of Independence": "16 September 1810"
+            "Government": "Federal presidential republic"
         },
         "Area": {
-            "Total": "1,972,550 km 2 (761,610 sq mi) ( 13th )",
-            "Water (%)": "1.58 (as of 2015)"
+            "Total (km2)": 1972550,
+            "Water (%)": 1.58
         },
         "Population": {
-            "2025 estimate": "131,946,900 ( 10th )",
-            "2020 census": "126,014,024",
-            "Density": "61/km 2 (158.0/sq mi) ( 142nd )",
-            "Date format": "dd/mm/yyyy"
+            "Estimate": 131946900,
+            "Census": 126014024,
+            "Density (/km2)": 61
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$3.396 trillion ( 13th )",
-                "Per capita": "$25,463 ( 77th )"
+                "Total ($)": 3396000000000,
+                "Per capita ($)": 25463
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$1.693 trillion ( 13th )",
-                "Per capita": "$12,692 ( 75th )"
+                "Total ($)": 1693000000000,
+                "Per capita ($)": 12692
             },
-            "Gini (2022)": "40.2 medium inequality",
-            "HDI (2023)": "0.789 high ( 81st )",
-            "Currency": "Mexican peso ( MXN )"
-        },
-        "Time": {
-            "Time zone": "UTC −8 to −5 ( See Time in Mexico )",
-            "Summer ( DST )": "UTC −7 to −5 (varies)"
-        },
-        "Codes": {
-            "Calling code": "+52",
-            "ISO 3166 code": "MX",
-            "Internet TLD": ".mx"
+            "Gini": 40.2,
+            "HDI": 0.789,
+            "Currency": "Mexican peso"
         }
     }
 }

@@ -1,66 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Central African Republic</country>
-  <url>https://en.wikipedia.org/wiki/Central_African_Republic</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Bangui 4°22′N 18°35′E ﻿ / ﻿ 4.367°N 18.583°E ﻿ / 4.367; 18.583</Capital_and_largest_city>
-      <Official_languages>French Sango (co-official)</Official_languages>
-      <Recognised_national_languages>Sango</Recognised_national_languages>
+      <Official_languages>French Sango</Official_languages>
       <Ethnic_groups>Baggara Arabs Baka Banda Bayaka Fula Gula Gbaya Kara Kresh Mbaka Mandja Ngbandi Runga Sara Vidiri Wodaabe Yakoma Yulu Kanuri Zande other</Ethnic_groups>
-      <Religion__2020_>
-        <Christianity>73.2%</Christianity>
-        <Islam>13.9%</Islam>
-        <traditional_faiths>12%</traditional_faiths>
-        <other___none>0.9%</other___none>
-      </Religion__2020_>
-      <Demonym>Central African</Demonym>
+      <Religion>
+        <Christianity____>73.2</Christianity____>
+        <Islam____>13.9</Islam____>
+        <traditional_faiths____>12</traditional_faiths____>
+        <other___none____>0.9</other___none____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Faustin-Archange Touadéra</President>
-      <Prime_Minister>Félix Moloua</Prime_Minister>
-      <President_of_the_National_Assembly>Simplice Sarandji</President_of_the_National_Assembly>
-      <Legislature>National Assembly</Legislature>
     </Government>
-    <Independence>
-      <from_France>13 August 1960</from_France>
-      <Coronation_of_Bokassa_I>4 December 1977</Coronation_of_Bokassa_I>
-      <Bokassa_I_s_overthrow_and_republic_restored>21 September 1979</Bokassa_I_s_overthrow_and_republic_restored>
-    </Independence>
-    <History>
-      <Republic_established>1 December 1958</Republic_established>
-      <Central_African_Empire_established>4 December 1976</Central_African_Empire_established>
-    </History>
     <Area>
-      <Total>622,984 km 2 (240,535 sq mi) ( 44th )</Total>
+      <Total__km2_>622984</Total__km2_>
     </Area>
     <Population>
-      <n_2024_estimate>5,650,957 ( 119th )</n_2024_estimate>
-      <Density>8.6/km 2 (22.3/sq mi) ( 221st )</Density>
+      <Estimate>5650957</Estimate>
+      <Density___km2_>8.6</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$7.940 billion ( 170th )</Total>
-        <Per_capita>$1,390 ( 190th )</Per_capita>
+        <Total____>7940000000</Total____>
+        <Per_capita____>1390</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$3.710 billion ( 182nd )</Total>
-        <Per_capita>$650 ( 191st )</Per_capita>
+        <Total____>3710000000</Total____>
+        <Per_capita____>650</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>43 medium inequality</Gini__2021_>
-      <HDI__2023_>0.414 low ( 191st )</HDI__2023_>
-      <Currency>Central African CFA franc (XAF)</Currency>
+      <Gini>43</Gini>
+      <HDI>0.414</HDI>
+      <Currency>Central African CFA franc</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +01:00 ( WAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+236</Calling_code>
-      <ISO_3166_code>CF</ISO_3166_code>
-      <Internet_TLD>.cf</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

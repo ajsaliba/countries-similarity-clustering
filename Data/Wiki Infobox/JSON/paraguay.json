@@ -1,73 +1,44 @@
 {
     "country": "Paraguay",
-    "url": "https://en.wikipedia.org/wiki/Paraguay",
     "infobox": {
         "General": {
-            "Capital and largest city": "Asunción 25°16′S 57°40′W ﻿ / ﻿ 25.267°S 57.667°W ﻿ / -25.267; -57.667",
             "Official languages": "Spanish Guarani",
-            "Religion (2020)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "95.5%",
+                    "percentage": 95.5,
                     "breakdown": {
-                        "Catholicism": "87.4%",
-                        "other Christian": "8.1%"
+                        "Catholicism (%)": 87.4,
+                        "other Christian (%)": 8.1
                     }
                 },
-                "no religion": "4.1%",
-                "other": "0.4%"
-            },
-            "Demonym": "Paraguayan",
-            "Recognized": {
-                "Details": "25 November 1842",
-                "Current constitution": "20 June 1992"
+                "no religion (%)": 4.1,
+                "other (%)": 0.4
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic",
-            "President": "Santiago Peña",
-            "Vice President": "Pedro Alliana",
-            "President of the Senate": "Silvio Ovelar",
-            "President of the Chamber of Deputies": "Raul Latorre",
-            "President of the Supreme Court": "César Diesel",
-            "Legislature": "Congress",
-            "Upper house": "Senate",
-            "Lower house": "Chamber of Deputies"
-        },
-        "Independence from Spain": {
-            "Declared": "14 May 1811"
+            "Government": "Unitary presidential republic"
         },
         "Area": {
-            "Total": "406,752 km 2 (157,048 sq mi) ( 59th )",
-            "Water (%)": "2.6"
+            "Total (km2)": 406752,
+            "Water (%)": 2.6
         },
         "Population": {
-            "2025 estimate": "6,413,627 ( 113th )",
-            "2022 census": "6,109,903",
-            "Density": "39/sq mi (15.1/km 2 ) ( 223rd )",
-            "Date format": "dd/mm/yyyy"
+            "Estimate": 6413627,
+            "Census": 6109903,
+            "Density": "39/sq mi"
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2026 estimate",
-                "Total": "$145.110 billion ( 92nd )",
-                "Per capita": "$22,462 ( 84th )"
+                "Total ($)": 145110000000,
+                "Per capita ($)": 22462
             },
             "GDP (nominal)": {
-                "Details": "2026 estimate",
-                "Total": "$51.670 billion ( 99th )",
-                "Per capita": "$7,990 ( 93rd )"
+                "Total ($)": 51670000000,
+                "Per capita ($)": 7990
             },
-            "Gini (2023)": "44.4 medium inequality",
-            "HDI (2023)": "0.756 high ( 99th )",
-            "Currency": "Guaraní ( PYG )"
-        },
-        "Time": {
-            "Time zone": "UTC –03:00 ( PYT )"
-        },
-        "Codes": {
-            "Calling code": "+595",
-            "ISO 3166 code": "PY",
-            "Internet TLD": ".py"
+            "Gini": 44.4,
+            "HDI": 0.756,
+            "Currency": "Guaraní"
         }
     }
 }

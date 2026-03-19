@@ -1,72 +1,49 @@
 {
     "country": "Israel",
-    "url": "https://en.wikipedia.org/wiki/Israel",
     "infobox": {
         "General": {
-            "Capital and largest city": "Jerusalem ( limited recognition ) 31°47′N 35°13′E ﻿ / ﻿ 31.783°N 35.217°E ﻿ / 31.783; 35.217",
             "Official language": "Hebrew",
-            "Special status": "Arabic",
-            "Ethnic groups (2025 est.)": {
-                "Jews": "71.9%",
-                "Arabs": "21%",
-                "others": "7.1%"
+            "Ethnic groups": {
+                "Jews (%)": 71.9,
+                "Arabs (%)": 21,
+                "others (%)": 7.1
             },
-            "Religion (2023 est.)": {
-                "Judaism": "73.7%",
-                "Islam": "18.3%",
+            "Religion": {
+                "Judaism (%)": 73.7,
+                "Islam (%)": 18.3,
                 "Christianity": {
-                    "percentage": "1.9%",
+                    "percentage": 1.9,
                     "breakdown": {
-                        "Druze faith": "1.6%"
+                        "Druze faith (%)": 1.6
                     }
                 },
-                "others": "4.5%"
-            },
-            "Demonym": "Israeli"
+                "others (%)": 4.5
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic",
-            "President": "Isaac Herzog",
-            "Prime Minister": "Benjamin Netanyahu",
-            "Knesset Speaker": "Amir Ohana",
-            "Chief Justice": "Yitzhak Amit",
-            "Legislature": "Knesset"
-        },
-        "History": {
-            "Declaration of independence": "14 May 1948"
+            "Government": "Unitary parliamentary republic"
         },
         "Area": {
-            "Total": "22,072 or 20,770 km 2 (8,522 or 8,019 sq mi) ( 148th )",
-            "Water (%)": "2.71"
+            "Total": "22,072 or 20,770 km 2",
+            "Water (%)": 2.71
         },
         "Population": {
-            "2026 estimate": "10,147,200 ( 93rd )",
-            "2022 census": "9,601,720",
-            "Density": "463/km 2 (1,199.2/sq mi) ( 30th )"
+            "Estimate": 10147200,
+            "Census": 9601720,
+            "Density (/km2)": 463
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$567.55 billion ( 48th )",
-                "Per capita": "$55,770 ( 35th )"
+                "Total ($)": 567550000000,
+                "Per capita ($)": 55770
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$610.75 billion ( 26th )",
-                "Per capita": "$60,010 ( 14th )"
+                "Total ($)": 610750000000,
+                "Per capita ($)": 60010
             },
-            "Gini (2021)": "37.9 medium inequality",
-            "HDI (2023)": "0.919 very high ( 27th )",
-            "Currency": "New shekel ( ₪ ) ( ILS )"
-        },
-        "Time": {
-            "Time zone": "UTC +2:00 ( IST )",
-            "Summer ( DST )": "UTC +3:00 ( IDT )"
-        },
-        "Codes": {
-            "Calling code": "+972",
-            "ISO 3166 code": "IL",
-            "Internet TLD": ".il"
+            "Gini": 37.9,
+            "HDI": 0.919,
+            "Currency": "New shekel"
         }
     }
 }

@@ -1,82 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Burkina Faso</country>
-  <url>https://en.wikipedia.org/wiki/Burkina_Faso</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Ouagadougou 12°22′N 1°32′W ﻿ / ﻿ 12.367°N 1.533°W ﻿ / 12.367; -1.533</Capital_and_largest_city>
       <Official_languages>Mooré , Dyula and Fula , alongside any other languages so recognized by law</Official_languages>
-      <Ethnic_groups__2024_est__>
-        <Mossi>53.7%</Mossi>
-        <Fula>6.8%</Fula>
-        <Gurunsi>5.9%</Gurunsi>
-        <or>5.4%</or>
-        <Bissa>1.5%</Bissa>
-        <Gurma>5.2%</Gurma>
-        <Bobo>3.4%</Bobo>
-        <Senufo>2.2%</Senufo>
-        <Lobi>1.5%</Lobi>
-        <Tuareg_and_Bella>0.1%</Tuareg_and_Bella>
-      </Ethnic_groups__2024_est__>
-      <Religion__2019_census_>
-        <Islam>63.8%</Islam>
+      <Ethnic_groups>
+        <Mossi____>53.7</Mossi____>
+        <Fula____>6.8</Fula____>
+        <Gurunsi____>5.9</Gurunsi____>
+        <or____>5.4</or____>
+        <Bissa____>1.5</Bissa____>
+        <Gurma____>5.2</Gurma____>
+        <Bobo____>3.4</Bobo____>
+        <Senufo____>2.2</Senufo____>
+        <Lobi____>1.5</Lobi____>
+        <Tuareg_and_Bella____>0.1</Tuareg_and_Bella____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>63.8</Islam____>
         <Christianity>
-          <percentage>26.3%</percentage>
+          <percentage>26.3</percentage>
           <breakdown>
-            <Catholicism>20.1%</Catholicism>
-            <Protestantism>6.2%</Protestantism>
+            <Catholicism____>20.1</Catholicism____>
+            <Protestantism____>6.2</Protestantism____>
           </breakdown>
         </Christianity>
-        <Animism>9%</Animism>
-        <irreligion>0.7%</irreligion>
-      </Religion__2019_census_>
-      <Demonym>Burkinabé</Demonym>
+        <Animism____>9</Animism____>
+        <irreligion____>0.7</irreligion____>
+      </Religion>
     </General>
     <Government>
-      <Working_languages>English French</Working_languages>
       <Government>Unitary semi-presidential republic under a military junta</Government>
-      <President>Ibrahim Traoré (interim)</President>
-      <Prime_Minister>Jean Emmanuel Ouédraogo (interim)</Prime_Minister>
-      <Legislature>National Assembly</Legislature>
     </Government>
-    <History>
-      <Republic_of_Upper_Volta_proclaimed>11 December 1958</Republic_of_Upper_Volta_proclaimed>
-      <Independence_from_France>5 August 1960</Independence_from_France>
-      <n_1966_Upper_Voltan_coup_d__tat>3 January 1966</n_1966_Upper_Voltan_coup_d__tat>
-      <n_2014_Burkina_Faso_uprising>28 October – 3 November 2014</n_2014_Burkina_Faso_uprising>
-      <Jan_2022_Burkina_Faso_coup_d__tat>23–24 January 2022</Jan_2022_Burkina_Faso_coup_d__tat>
-      <Sep_2022_Burkina_Faso_coup_d__tat>30 September 2022</Sep_2022_Burkina_Faso_coup_d__tat>
-    </History>
     <Area>
-      <Total>274,223 km 2 (105,878 sq mi) ( 74th )</Total>
-      <Water____>0.148%</Water____>
+      <Total__km2_>274223</Total__km2_>
+      <Water____>0.148</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>22,489,126 ( 58th )</n_2023_estimate>
-      <Density>86/km 2 (222.7/sq mi) ( 126th )</Density>
+      <Estimate>22489126</Estimate>
+      <Density___km2_>86</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$72.820 billion ( 114th )</Total>
-        <Per_capita>$2,980 ( 172nd )</Per_capita>
+        <Total____>72820000000</Total____>
+        <Per_capita____>2980</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$27.06 billion ( 114th )</Total>
-        <Per_capita>$1,110 ( 166th )</Per_capita>
+        <Total____>27060000000</Total____>
+        <Per_capita____>1110</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>37.4 medium inequality</Gini__2021_>
-      <HDI__2023_>0.459 low ( 186th )</HDI__2023_>
-      <Currency>West African CFA franc ( XOF )</Currency>
+      <Gini>37.4</Gini>
+      <HDI>0.459</HDI>
+      <Currency>West African CFA franc</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC ±00:00 ( GMT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+226</Calling_code>
-      <ISO_3166_code>BF</ISO_3166_code>
-      <Internet_TLD>.bf</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

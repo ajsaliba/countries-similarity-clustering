@@ -1,89 +1,56 @@
 {
     "country": "Vietnam",
-    "url": "https://en.wikipedia.org/wiki/Vietnam",
     "infobox": {
         "General": {
-            "Capital": "Hanoi 21°2′N 105°51′E ﻿ / ﻿ 21.033°N 105.850°E ﻿ / 21.033; 105.850",
-            "Largest city by municipal boundary": "Da Nang 16°20′N 107°35′E ﻿ / ﻿ 16.333°N 107.583°E ﻿ / 16.333; 107.583",
             "Official language": "Vietnamese",
-            "Ethnic groups (2019)": {
-                "Kinh Vietnamese": "85.32%",
-                "other": "14.68%"
+            "Ethnic groups": {
+                "Kinh Vietnamese (%)": 85.32,
+                "other (%)": 14.68
             },
-            "Religion (2019)": {
-                "no religion / folk": "86.32%",
+            "Religion": {
+                "no religion / folk (%)": 86.32,
                 "Catholicism": {
-                    "percentage": "6.1%",
+                    "percentage": 6.1,
                     "breakdown": {
-                        "Buddhism": "4.79%",
-                        "Hoahaoism": "1.02%"
+                        "Buddhism (%)": 4.79,
+                        "Hoahaoism (%)": 1.02
                     }
                 },
                 "Protestantism": {
-                    "percentage": "1%",
+                    "percentage": 1,
                     "breakdown": {
-                        "Caodaism": "0.58%",
-                        "Islam": "0.07%",
-                        "other": "0.12%"
+                        "Caodaism (%)": 0.58,
+                        "Islam (%)": 0.07,
+                        "other (%)": 0.12
                     }
                 }
-            },
-            "Demonyms": "Vietnamese Viet (colloquial)",
-            "General Secretary": "Tô Lâm",
-            "National Assembly Chairman": "Trần Thanh Mẫn"
+            }
         },
         "Population": {
             "Largest city by urban population": "Ho Chi Minh City 10°48′N 106°39′E ﻿ / ﻿ 10.800°N 106.650°E ﻿ / 10.800; 106.650",
-            "2025 estimate": "102,300,000 ( 16th )",
-            "2019 census": "96,208,984",
-            "Density": "309/km 2 (800.3/sq mi) ( 43th )"
+            "Estimate": 102300000,
+            "Census": 96208984,
+            "Density (/km2)": 309
         },
         "Government": {
-            "Government": "Unitary communist state",
-            "President": "Lương Cường",
-            "Prime Minister": "Phạm Minh Chính",
-            "Legislature": "National Assembly"
-        },
-        "History": {
-            "Văn Lang": "7th century BC",
-            "Âu Lạc": "3rd century BC",
-            "Han's annexation": "111 BC",
-            "Independence from China": "939",
-            "Regaining independence": "1428",
-            "Nguyễn 's unification": "1802",
-            "Protectorate Treaty": "25 August 1883",
-            "Declaration of independence": "2 September 1945",
-            "North–South partition": "21 July 1954",
-            "End of Vietnam War": "30 April 1975",
-            "Reunification": "2 July 1976",
-            "Current constitution": "28 November 2013"
+            "Government": "Unitary communist state"
         },
         "Area": {
-            "Total": "331,344.82 km 2 (127,932.95 sq mi) ( 66th )",
-            "Water (%)": "6.38"
+            "Total (km2)": 331344.82,
+            "Water (%)": 6.38
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$1.786 trillion ( 23rd )",
-                "Per capita": "$17,484 ( 104th )"
+                "Total ($)": 1786000000000,
+                "Per capita ($)": 17484
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$490.970 billion ( 33rd )",
-                "Per capita": "$4,806 ( 119th )"
+                "Total ($)": 490970000000,
+                "Per capita ($)": 4806
             },
-            "Gini (2022)": "36.1 medium inequality",
-            "HDI (2023)": "0.766 high ( 93rd )",
-            "Currency": "Vietnamese đồng (₫) ( VND )"
-        },
-        "Time": {
-            "Time zone": "UTC +07:00 ( Vietnam Standard Time )"
-        },
-        "Codes": {
-            "Calling code": "+84",
-            "ISO 3166 code": "VN",
-            "Internet TLD": ".vn"
+            "Gini": 36.1,
+            "HDI": 0.766,
+            "Currency": "Vietnamese đồng"
         }
     }
 }

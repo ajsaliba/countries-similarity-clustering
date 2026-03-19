@@ -1,74 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Sudan</country>
-  <url>https://en.wikipedia.org/wiki/Sudan</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Khartoum 15°38′N 32°32′E ﻿ / ﻿ 15.633°N 32.533°E ﻿ / 15.633; 32.533</Capital_and_largest_city>
       <Official_languages>Arabic English</Official_languages>
       <Ethnic_groups>
-        <Sudanese_Arab>70%</Sudanese_Arab>
-        <Beja>5.9%</Beja>
-        <Nuba>2.5%</Nuba>
-        <Fur>2%</Fur>
-        <Egyptian>2%</Egyptian>
-        <Nubian>1.3%</Nubian>
-        <others>16.3%</others>
+        <Sudanese_Arab____>70</Sudanese_Arab____>
+        <Beja____>5.9</Beja____>
+        <Nuba____>2.5</Nuba____>
+        <Fur____>2</Fur____>
+        <Egyptian____>2</Egyptian____>
+        <Nubian____>1.3</Nubian____>
+        <others____>16.3</others____>
       </Ethnic_groups>
-      <Religion__2022_>
-        <Sunni_Islam>97%</Sunni_Islam>
-        <Christianity>3%</Christianity>
-      </Religion__2022_>
-      <Demonym>Sudanese</Demonym>
+      <Religion>
+        <Sunni_Islam____>97</Sunni_Islam____>
+        <Christianity____>3</Christianity____>
+      </Religion>
     </General>
     <Government>
       <Government>Federal republic under a military junta</Government>
-      <President_of_the_Transitional_Sovereignty_Council>Abdel Fattah al-Burhan</President_of_the_Transitional_Sovereignty_Council>
-      <Vice_President_of_the_Transitional_Sovereignty_Council>Malik Agar</Vice_President_of_the_Transitional_Sovereignty_Council>
-      <Prime_Minister>Kamil Idris</Prime_Minister>
-      <Legislature>Transitional Legislative Authority</Legislature>
-      <Kingdom_of_Kerma>2500 BC</Kingdom_of_Kerma>
-      <Kingdom_of_Kush>780 BC</Kingdom_of_Kush>
     </Government>
-    <History>
-      <Turco_Egyptian_Sudan>1820</Turco_Egyptian_Sudan>
-      <Anglo_Egyptian_Condominium>1899</Anglo_Egyptian_Condominium>
-      <Independence>1 January 1956</Independence>
-      <Democratic_Republic_of_Sudan>25 May 1969</Democratic_Republic_of_Sudan>
-      <Republic_of_Sudan__1985_2019_>6 April 1985</Republic_of_Sudan__1985_2019_>
-      <Secession_of_South_Sudan>9 July 2011</Secession_of_South_Sudan>
-      <n_2019_Draft_Constitutional_Declaration_effective>20 August 2019</n_2019_Draft_Constitutional_Declaration_effective>
-    </History>
     <Economy>
       <Mahdist_State>1885</Mahdist_State>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$117.77 billion ( 98th )</Total>
-        <Per_capita>$2,034 ( 175th )</Per_capita>
+        <Total____>117770000000</Total____>
+        <Per_capita____>2034</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$31.510 billion ( 109th )</Total>
-        <Per_capita>$624 ( 182nd )</Per_capita>
+        <Total____>31510000000</Total____>
+        <Per_capita____>624</Per_capita____>
       </GDP__nominal_>
-      <Gini__2014_>34.2 medium inequality</Gini__2014_>
-      <HDI__2023_>0.511 low ( 176th )</HDI__2023_>
-      <Currency>Sudanese pound ( SDG )</Currency>
+      <Gini>34.2</Gini>
+      <HDI>0.511</HDI>
+      <Currency>Sudanese pound</Currency>
     </Economy>
     <Area>
-      <Total>1,886,068 km 2 (728,215 sq mi) ( 15th )</Total>
+      <Total__km2_>1886068</Total__km2_>
     </Area>
     <Population>
-      <n_2025_estimate>51,767,437 ( 30th )</n_2025_estimate>
-      <Density>21.3/km 2 (55.2/sq mi) ( 202nd )</Density>
+      <Estimate>51767437</Estimate>
+      <Density___km2_>21.3</Density___km2_>
     </Population>
-    <Time>
-      <Time_zone>UTC +2 ( CAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+249</Calling_code>
-      <ISO_3166_code>SD</ISO_3166_code>
-      <Internet_TLD>.sd .السودان</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

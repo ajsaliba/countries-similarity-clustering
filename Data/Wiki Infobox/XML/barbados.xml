@@ -1,81 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Barbados</country>
-  <url>https://en.wikipedia.org/wiki/Barbados</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Bridgetown 13°05′52″N 59°37′06″W ﻿ / ﻿ 13.09778°N 59.61833°W ﻿ / 13.09778; -59.61833</Capital_and_largest_city>
       <Official_languages>English</Official_languages>
-      <Vernacular_language>Bajan Creole</Vernacular_language>
-      <Ethnic_groups__2020__>
-        <African>92.4%</African>
-        <Mixed>3.1%</Mixed>
-        <White>2.7%</White>
-        <Indian>1.3%</Indian>
-        <others>0.3%</others>
-      </Ethnic_groups__2020__>
-      <Religion__2020_>
-        <Christianity>75.6%</Christianity>
-        <No_religion>20.6%</No_religion>
+      <Ethnic_groups>
+        <African____>92.4</African____>
+        <Mixed____>3.1</Mixed____>
+        <White____>2.7</White____>
+        <Indian____>1.3</Indian____>
+        <others____>0.3</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>75.6</Christianity____>
+        <No_religion____>20.6</No_religion____>
         <Bah____Faith>
-          <percentage>2%</percentage>
+          <percentage>2</percentage>
           <breakdown>
-            <Hinduism>1.1%</Hinduism>
-            <others>0.7%</others>
+            <Hinduism____>1.1</Hinduism____>
+            <others____>0.7</others____>
           </breakdown>
         </Bah____Faith>
-      </Religion__2020_>
-      <Demonyms>Barbadian Bajan</Demonyms>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Jeffrey Bostic</President>
-      <Prime_Minister>Mia Mottley</Prime_Minister>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>House of Assembly</Lower_house>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Part_of_the_West_Indies_Federation>3 January 1958 – 31 May 1962</Part_of_the_West_Indies_Federation>
-      <Admitted_to_the_UN>7 December 1966</Admitted_to_the_UN>
-      <Joined_CARICOM_at_the_Treaty_of_Chaguaramas>1 August 1973</Joined_CARICOM_at_the_Treaty_of_Chaguaramas>
-    </Independence_from_the_United_Kingdom>
-    <History>
-      <Barbados_Independence_Act_1966_as_a_Commonwealth_realm>30 November 1966</Barbados_Independence_Act_1966_as_a_Commonwealth_realm>
-      <Republic_established>30 November 2021</Republic_established>
-    </History>
     <Area>
-      <Total>439 km 2 (169 sq mi) ( 183rd )</Total>
+      <Total__km2_>439</Total__km2_>
       <Water____>Negligible</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>281,998 ( 174th )</n_2023_estimate>
-      <n_2021_census>269,090 ( 174th )</n_2021_census>
-      <Density>660/km 2 (1,709.4/sq mi) ( 17th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>281998</Estimate>
+      <Census>269090</Census>
+      <Density___km2_>660</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2023 estimate</Details>
-        <Total>$5.436 billion ( 175th )</Total>
-        <Per_capita>$18,738 ( 90th )</Per_capita>
+        <Total____>5436000000</Total____>
+        <Per_capita____>18738</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2023 estimate</Details>
-        <Total>$6.220 billion ( 165th )</Total>
-        <Per_capita>$21,442 ( 50th )</Per_capita>
+        <Total____>6220000000</Total____>
+        <Per_capita____>21442</Per_capita____>
       </GDP__nominal_>
-      <Gini__2016_>34.1 medium inequality</Gini__2016_>
-      <HDI__2023_>0.811 very high ( 69th )</HDI__2023_>
-      <Currency>Barbadian dollar ($) ( BBD )</Currency>
+      <Gini>34.1</Gini>
+      <HDI>0.811</HDI>
+      <Currency>Barbadian dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC −04:00 ( AST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+1</Calling_code>
-      <ISO_3166_code>BB</ISO_3166_code>
-      <Internet_TLD>.bb</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

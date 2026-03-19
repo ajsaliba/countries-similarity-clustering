@@ -1,88 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Philippines</country>
-  <url>https://en.wikipedia.org/wiki/Philippines</url>
   <infobox>
     <General>
-      <Capital>Manila ( de jure ) Metro Manila ( de facto ) 13°N 122°E ﻿ / ﻿ 13°N 122°E ﻿ / 13; 122</Capital>
-      <Largest_city>Quezon City</Largest_city>
       <Official_languages>Filipino English</Official_languages>
-      <Recognized_national_languages>Filipino</Recognized_national_languages>
-      <Recognized_regional_languages>19 languages</Recognized_regional_languages>
-      <National_sign_language>Filipino Sign Language</National_sign_language>
-      <Other_recognized_languages>Spanish and Arabic</Other_recognized_languages>
-      <Ethnic_groups__2020_>
-        <Tagalog>26%</Tagalog>
-        <Bisaya>14.3%</Bisaya>
-        <Ilocano>8%</Ilocano>
-        <Cebuano>8%</Cebuano>
-        <Ilonggo>7.9%</Ilonggo>
-        <Bicolano>6.5%</Bicolano>
-        <other>20.3%</other>
-      </Ethnic_groups__2020_>
-      <Religion__2020_>
+      <Ethnic_groups>
+        <Tagalog____>26</Tagalog____>
+        <Bisaya____>14.3</Bisaya____>
+        <Ilocano____>8</Ilocano____>
+        <Cebuano____>8</Cebuano____>
+        <Ilonggo____>7.9</Ilonggo____>
+        <Bicolano____>6.5</Bicolano____>
+        <other____>20.3</other____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>85.3%</percentage>
+          <percentage>85.3</percentage>
           <breakdown>
-            <Catholicism>78.8%</Catholicism>
-            <other_Christian>6.5%</other_Christian>
+            <Catholicism____>78.8</Catholicism____>
+            <other_Christian____>6.5</other_Christian____>
           </breakdown>
         </Christianity>
-        <Islam>6.4%</Islam>
-        <other>8.2%</other>
-      </Religion__2020_>
-      <Demonyms>Filipino ( neutral ) Filipina ( feminine ) Pinoy ( colloquial neutral ) Pinay ( colloquial feminine ) Philippine ( adjective for certain common nouns )</Demonyms>
-      <Recognized>
-        <Details>July 4, 1946</Details>
-        <Constitution>February 2, 1987</Constitution>
-      </Recognized>
+        <Islam____>6.4</Islam____>
+        <other____>8.2</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Bongbong Marcos</President>
-      <Vice_President>Sara Duterte</Vice_President>
-      <Senate_President>Tito Sotto</Senate_President>
-      <House_Speaker>Bojie Dy</House_Speaker>
-      <Chief_Justice>Alexander Gesmundo</Chief_Justice>
-      <Legislature>Congress</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>House of Representatives</Lower_house>
-      <Self_government>November 15, 1935</Self_government>
     </Government>
-    <Independence_from_Spain_and_the_United_States>
-      <Declaration>June 12, 1898</Declaration>
-      <Cession>April 11, 1899</Cession>
-    </Independence_from_Spain_and_the_United_States>
     <Area>
-      <Total>300,000 km 2 (120,000 sq mi) ( 72nd )</Total>
-      <Water____>0.61 (inland waters)</Water____>
+      <Total__km2_>300000</Total__km2_>
+      <Water____>0.61</Water____>
     </Area>
     <Population>
-      <n_2024_census>112,729,484</n_2024_census>
-      <Density>363.45/km 2 (941.3/sq mi) ( 34th )</Density>
+      <Census>112729484</Census>
+      <Density___km2_>363.45</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$1.488 trillion ( 30th )</Total>
-        <Per_capita>$12,930 ( 114th )</Per_capita>
+        <Total____>1488000000000</Total____>
+        <Per_capita____>12930</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$497.05 billion ( 32nd )</Total>
-        <Per_capita>$4,350 ( 125th )</Per_capita>
+        <Total____>497050000000</Total____>
+        <Per_capita____>4350</Per_capita____>
       </GDP__nominal_>
-      <Gini__2023_>39.3 medium inequality</Gini__2023_>
-      <HDI__2023_>0.720 high ( 117th )</HDI__2023_>
-      <Currency>Philippine peso ( ₱ ) ( PHP )</Currency>
+      <Gini>39.3</Gini>
+      <HDI>0.72</HDI>
+      <Currency>Philippine peso</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +8 ( PhST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+63</Calling_code>
-      <ISO_3166_code>PH</ISO_3166_code>
-      <Internet_TLD>.ph</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

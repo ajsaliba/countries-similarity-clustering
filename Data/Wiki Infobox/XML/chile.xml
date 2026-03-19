@@ -1,75 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Chile</country>
-  <url>https://en.wikipedia.org/wiki/Chile</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Santiago 33°26′S 70°40′W ﻿ / ﻿ 33.433°S 70.667°W ﻿ / -33.433; -70.667</Capital_and_largest_city>
-      <National_language>Spanish</National_language>
-      <Other_spoken_languages>Aymara Kawésqar Mapudungun Quechua Rapa Nui</Other_spoken_languages>
-      <Religion__2024_>
+      <Religion>
         <Christianity>
-          <percentage>70%</percentage>
+          <percentage>70</percentage>
           <breakdown>
-            <Catholicism>54%</Catholicism>
-            <Protestantism>16%</Protestantism>
+            <Catholicism____>54</Catholicism____>
+            <Protestantism____>16</Protestantism____>
           </breakdown>
         </Christianity>
-        <no_religion>26%</no_religion>
-        <other>4%</other>
-      </Religion__2024_>
-      <Demonym>Chilean</Demonym>
-      <Recognized>
-        <Details>25 April 1844</Details>
-        <Current_constitution>11 March 1981</Current_constitution>
-      </Recognized>
+        <no_religion____>26</no_religion____>
+        <other____>4</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>José Antonio Kast</President>
-      <President_of_the_Senate>Paulina Núñez</President_of_the_Senate>
-      <President_of_the_Chamber_of_Deputies>Jorge Alessandri</President_of_the_Chamber_of_Deputies>
-      <President_of_Supreme_Court>Gloria Ana Chevesich</President_of_Supreme_Court>
-      <Legislature>National Congress</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>Chamber of Deputies</Lower_house>
-      <Government_Junta>18 September 1810</Government_Junta>
     </Government>
-    <Independence_from_Spain>
-      <Declared>12 February 1818</Declared>
-    </Independence_from_Spain>
     <Area>
-      <Total>756,101.96 km 2 (291,932.60 sq mi) ( 37th )</Total>
-      <Water____>2.1 (as of 2015)</Water____>
+      <Total__km2_>756101.96</Total__km2_>
+      <Water____>2.1</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>19,629,588 ( 63rd )</n_2023_estimate>
-      <Density>24/km 2 (62.2/sq mi) ( 198th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>19629588</Estimate>
+      <Density___km2_>24</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$713.030 billion ( 45th )</Total>
-        <Per_capita>$35,290 ( 61st )</Per_capita>
+        <Total____>713030000000</Total____>
+        <Per_capita____>35290</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$347.170 billion ( 45th )</Total>
-        <Per_capita>$17,180 ( 66th )</Per_capita>
+        <Total____>347170000000</Total____>
+        <Per_capita____>17180</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>44.8 medium inequality</Gini__2022_>
-      <HDI__2023_>0.878 very high ( 45th )</HDI__2023_>
-      <Currency>Chilean peso ( CLP )</Currency>
+      <Gini>44.8</Gini>
+      <HDI>0.878</HDI>
+      <Currency>Chilean peso</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC −3, −4, −6 ( CLST, CLT, EAST )</Time_zone>
-      <Summer___DST__>UTC −3, −5 ( CLST, EASST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+56</Calling_code>
-      <ISO_3166_code>CL</ISO_3166_code>
-      <Internet_TLD>.cl</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

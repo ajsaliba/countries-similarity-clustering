@@ -1,82 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Mexico</country>
-  <url>https://en.wikipedia.org/wiki/Mexico</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Mexico City 19°26′N 99°8′W ﻿ / ﻿ 19.433°N 99.133°W ﻿ / 19.433; -99.133</Capital_and_largest_city>
       <Official_language>Spanish</Official_language>
       <Co_official_languages>68 Indigenous languages</Co_official_languages>
       <Ethnic_groups>See below</Ethnic_groups>
-      <Religion__2020_>
+      <Religion>
         <Christianity>
-          <percentage>88.9%</percentage>
+          <percentage>88.9</percentage>
           <breakdown>
-            <Catholicism>77.7%</Catholicism>
-            <Protestantism>11.2%</Protestantism>
+            <Catholicism____>77.7</Catholicism____>
+            <Protestantism____>11.2</Protestantism____>
           </breakdown>
         </Christianity>
-        <Irreligion>8.1%</Irreligion>
-        <other_religion>2.4%</other_religion>
-        <prefer_not_to_say>0.5%</prefer_not_to_say>
-      </Religion__2020_>
-      <Demonym>Mexican</Demonym>
-      <Recognized>
-        <Details>28 December 1836</Details>
-        <First_constitution>4 October 1824</First_constitution>
-        <Second_constitution>5 February 1857</Second_constitution>
-        <Current_constitution>5 February 1917</Current_constitution>
-      </Recognized>
+        <Irreligion____>8.1</Irreligion____>
+        <other_religion____>2.4</other_religion____>
+        <prefer_not_to_say____>0.5</prefer_not_to_say____>
+      </Religion>
     </General>
     <Government>
       <Government>Federal presidential republic</Government>
-      <President>Claudia Sheinbaum</President>
-      <President_of_the_Senate>Laura Itzel Castillo</President_of_the_Senate>
-      <President_of_the_Chamber_of_Deputies>Kenia López Rabadán</President_of_the_Chamber_of_Deputies>
-      <Chief_Justice>Hugo Aguilar Ortiz</Chief_Justice>
-      <Legislature>Congress</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>Chamber of Deputies</Lower_house>
     </Government>
-    <Independence_from_Spain>
-      <Declared>27 September 1821</Declared>
-    </Independence_from_Spain>
-    <History>
-      <Start_of_War_of_Independence>16 September 1810</Start_of_War_of_Independence>
-    </History>
     <Area>
-      <Total>1,972,550 km 2 (761,610 sq mi) ( 13th )</Total>
-      <Water____>1.58 (as of 2015)</Water____>
+      <Total__km2_>1972550</Total__km2_>
+      <Water____>1.58</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>131,946,900 ( 10th )</n_2025_estimate>
-      <n_2020_census>126,014,024</n_2020_census>
-      <Density>61/km 2 (158.0/sq mi) ( 142nd )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>131946900</Estimate>
+      <Census>126014024</Census>
+      <Density___km2_>61</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$3.396 trillion ( 13th )</Total>
-        <Per_capita>$25,463 ( 77th )</Per_capita>
+        <Total____>3396000000000</Total____>
+        <Per_capita____>25463</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$1.693 trillion ( 13th )</Total>
-        <Per_capita>$12,692 ( 75th )</Per_capita>
+        <Total____>1693000000000</Total____>
+        <Per_capita____>12692</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>40.2 medium inequality</Gini__2022_>
-      <HDI__2023_>0.789 high ( 81st )</HDI__2023_>
-      <Currency>Mexican peso ( MXN )</Currency>
+      <Gini>40.2</Gini>
+      <HDI>0.789</HDI>
+      <Currency>Mexican peso</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC −8 to −5 ( See Time in Mexico )</Time_zone>
-      <Summer___DST__>UTC −7 to −5 (varies)</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+52</Calling_code>
-      <ISO_3166_code>MX</ISO_3166_code>
-      <Internet_TLD>.mx</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

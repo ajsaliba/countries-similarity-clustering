@@ -1,71 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Australia</country>
-  <url>https://en.wikipedia.org/wiki/Australia</url>
   <infobox>
     <General>
-      <Capital>Canberra 35°18′29″S 149°07′28″E ﻿ / ﻿ 35.30806°S 149.12444°E ﻿ / -35.30806; 149.12444</Capital>
-      <Largest_city>Sydney (metropolitan) Melbourne (urban)</Largest_city>
-      <National_language>English</National_language>
-      <Religion___2021__>
-        <Christianity>43.9%</Christianity>
-        <no_religion>38.9%</no_religion>
-        <Islam>3.2%</Islam>
-        <Hinduism>2.7%</Hinduism>
-        <Buddhism>2.4%</Buddhism>
-        <other>1.7%</other>
-        <unanswered>7.2%</unanswered>
-      </Religion___2021__>
-      <Demonyms>Australian Aussie (colloquial)</Demonyms>
-      <Monarch>Charles III</Monarch>
-      <Governor_General>Sam Mostyn</Governor_General>
+      <Religion>
+        <Christianity____>43.9</Christianity____>
+        <no_religion____>38.9</no_religion____>
+        <Islam____>3.2</Islam____>
+        <Hinduism____>2.7</Hinduism____>
+        <Buddhism____>2.4</Buddhism____>
+        <other____>1.7</other____>
+        <unanswered____>7.2</unanswered____>
+      </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary constitutional monarchy</Government>
-      <Prime_Minister>Anthony Albanese</Prime_Minister>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>House of Representatives</Lower_house>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Federation>1 January 1901</Federation>
-      <Balfour_Declaration>15 November 1926</Balfour_Declaration>
-      <Statute_of_Westminster_Adoption_Act>9 October 1942</Statute_of_Westminster_Adoption_Act>
-      <Australia_Acts>3 March 1986</Australia_Acts>
-    </Independence_from_the_United_Kingdom>
     <Area>
-      <Total>7,688,287 km 2 (2,968,464 sq mi) ( 6th )</Total>
-      <Water____>1.79 (2015)</Water____>
+      <Total__km2_>7688287</Total__km2_>
+      <Water____>1.79</Water____>
     </Area>
     <Population>
-      <n_2026_estimate>27,840,775 ( 54th )</n_2026_estimate>
-      <n_2021_census>25,890,773</n_2021_census>
-      <Density>3.7/km 2 (9.6/sq mi) ( 237th )</Density>
-      <Date_format>dd / mm / yyyy</Date_format>
+      <Estimate>27840775</Estimate>
+      <Census>25890773</Census>
+      <Density___km2_>3.7</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$1.982 trillion ( 22nd )</Total>
-        <Per_capita>$71,431 ( 26th )</Per_capita>
+        <Total____>1982000000000</Total____>
+        <Per_capita____>71431</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$1.830 trillion ( 15th )</Total>
-        <Per_capita>$65,946 ( 13th )</Per_capita>
+        <Total____>1830000000000</Total____>
+        <Per_capita____>65946</Per_capita____>
       </GDP__nominal_>
-      <Gini__2020_>32.4 medium inequality</Gini__2020_>
-      <HDI__2023_>0.958 very high ( 7th )</HDI__2023_>
-      <Currency>Australian dollar ( $ ) ( AUD )</Currency>
+      <Gini>32.4</Gini>
+      <HDI>0.958</HDI>
+      <Currency>Australian dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +8; +9.5; +10 ( AWST, ACST, AEST )</Time_zone>
-      <Summer___DST__>UTC +10.5; +11 ( ACDT, AEDT )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+61</Calling_code>
-      <ISO_3166_code>AU</ISO_3166_code>
-      <Internet_TLD>.au</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

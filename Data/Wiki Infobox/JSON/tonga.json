@@ -1,72 +1,49 @@
 {
     "country": "Tonga",
-    "url": "https://en.wikipedia.org/wiki/Tonga",
     "infobox": {
         "General": {
-            "Capital and largest city": "Nukuʻalofa 21°8′S 175°12′W ﻿ / ﻿ 21.133°S 175.200°W ﻿ / -21.133; -175.200",
             "Official languages": "Tongan English",
-            "Ethnic groups (2021 )": {
-                "Tongan": "96.5%",
-                "others": "3.5%"
+            "Ethnic groups": {
+                "Tongan (%)": 96.5,
+                "others (%)": 3.5
             },
-            "Religion (2016)": {
+            "Religion": {
                 "Christianity —": {
-                    "percentage": "96.9%",
+                    "percentage": 96.9,
                     "breakdown": {
-                        "Protestantism —": "64.1%",
-                        "Mormonism —": "18.6%",
-                        "Catholicism": "14.2%"
+                        "Protestantism — (%)": 64.1,
+                        "Mormonism — (%)": 18.6,
+                        "Catholicism (%)": 14.2
                     }
                 },
-                "no religion": "0.5%",
-                "unspecified": "0.1%",
-                "others": "2.4%"
-            },
-            "Demonym": "Tongan",
-            "Monarch": "Tupou VI"
+                "no religion (%)": 0.5,
+                "unspecified (%)": 0.1,
+                "others (%)": 2.4
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary semi-constitutional monarchy",
-            "Prime Minister": "Fatafehi Fakafānua",
-            "Assembly Speaker": "ʻAlipate Tuʻivanuavou Vaea",
-            "Legislature": "Legislative Assembly",
-            "Independence from the United Kingdom": "4 June 1970"
-        },
-        "History": {
-            "Unification": "c. 1845",
-            "Treaty of Friendship": "18 May 1900"
+            "Government": "Unitary parliamentary semi-constitutional monarchy"
         },
         "Area": {
-            "Total": "748 km 2 (289 sq mi) ( 175th )",
-            "Water (%)": "4.0"
+            "Total (km2)": 748,
+            "Water (%)": 4.0
         },
         "Population": {
-            "2021 census": "100,209 ( 199th )",
-            "Density": "139/km 2 (360.0/sq mi) ( 92th )",
-            "Date format": "dd/mm/yyyy"
+            "Census": 100209,
+            "Density (/km2)": 139
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2019 estimate",
-                "Total": "$655 million",
-                "Per capita": "$6,496"
+                "Total ($)": 655000000,
+                "Per capita ($)": 6496
             },
             "GDP (nominal)": {
-                "Details": "2019 estimate",
-                "Total": "$493 million",
-                "Per capita": "$4,888"
+                "Total ($)": 493000000,
+                "Per capita ($)": 4888
             },
-            "Gini (2021)": "27.1 low inequality",
-            "HDI (2022)": "0.739 high ( 98th )",
-            "Currency": "Paʻanga ( TOP )"
-        },
-        "Time": {
-            "Time zone": "UTC +13"
-        },
-        "Codes": {
-            "Calling code": "+676",
-            "ISO 3166 code": "TO",
-            "Internet TLD": ".to"
+            "Gini": 27.1,
+            "HDI": 0.739,
+            "Currency": "Paʻanga"
         }
     }
 }

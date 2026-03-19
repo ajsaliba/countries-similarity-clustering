@@ -1,74 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Paraguay</country>
-  <url>https://en.wikipedia.org/wiki/Paraguay</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Asunción 25°16′S 57°40′W ﻿ / ﻿ 25.267°S 57.667°W ﻿ / -25.267; -57.667</Capital_and_largest_city>
       <Official_languages>Spanish Guarani</Official_languages>
-      <Religion__2020_>
+      <Religion>
         <Christianity>
-          <percentage>95.5%</percentage>
+          <percentage>95.5</percentage>
           <breakdown>
-            <Catholicism>87.4%</Catholicism>
-            <other_Christian>8.1%</other_Christian>
+            <Catholicism____>87.4</Catholicism____>
+            <other_Christian____>8.1</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>4.1%</no_religion>
-        <other>0.4%</other>
-      </Religion__2020_>
-      <Demonym>Paraguayan</Demonym>
-      <Recognized>
-        <Details>25 November 1842</Details>
-        <Current_constitution>20 June 1992</Current_constitution>
-      </Recognized>
+        <no_religion____>4.1</no_religion____>
+        <other____>0.4</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Santiago Peña</President>
-      <Vice_President>Pedro Alliana</Vice_President>
-      <President_of_the_Senate>Silvio Ovelar</President_of_the_Senate>
-      <President_of_the_Chamber_of_Deputies>Raul Latorre</President_of_the_Chamber_of_Deputies>
-      <President_of_the_Supreme_Court>César Diesel</President_of_the_Supreme_Court>
-      <Legislature>Congress</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>Chamber of Deputies</Lower_house>
     </Government>
-    <Independence_from_Spain>
-      <Declared>14 May 1811</Declared>
-    </Independence_from_Spain>
     <Area>
-      <Total>406,752 km 2 (157,048 sq mi) ( 59th )</Total>
+      <Total__km2_>406752</Total__km2_>
       <Water____>2.6</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>6,413,627 ( 113th )</n_2025_estimate>
-      <n_2022_census>6,109,903</n_2022_census>
-      <Density>39/sq mi (15.1/km 2 ) ( 223rd )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>6413627</Estimate>
+      <Census>6109903</Census>
+      <Density>39/sq mi</Density>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$145.110 billion ( 92nd )</Total>
-        <Per_capita>$22,462 ( 84th )</Per_capita>
+        <Total____>145110000000</Total____>
+        <Per_capita____>22462</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$51.670 billion ( 99th )</Total>
-        <Per_capita>$7,990 ( 93rd )</Per_capita>
+        <Total____>51670000000</Total____>
+        <Per_capita____>7990</Per_capita____>
       </GDP__nominal_>
-      <Gini__2023_>44.4 medium inequality</Gini__2023_>
-      <HDI__2023_>0.756 high ( 99th )</HDI__2023_>
-      <Currency>Guaraní ( PYG )</Currency>
+      <Gini>44.4</Gini>
+      <HDI>0.756</HDI>
+      <Currency>Guaraní</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC –03:00 ( PYT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+595</Calling_code>
-      <ISO_3166_code>PY</ISO_3166_code>
-      <Internet_TLD>.py</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

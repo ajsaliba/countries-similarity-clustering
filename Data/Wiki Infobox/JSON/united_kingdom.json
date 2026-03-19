@@ -1,84 +1,54 @@
 {
     "country": "United Kingdom",
-    "url": "https://en.wikipedia.org/wiki/United_Kingdom",
     "infobox": {
         "General": {
-            "Capital and largest city": "London 51°30′N 0°7′W ﻿ / ﻿ 51.500°N 0.117°W ﻿ / 51.500; -0.117",
-            "National language": "English",
-            "Regional and minority languages": "Scots Ulster Scots Welsh Cornish Scottish Gaelic Irish British Sign Language",
-            "Ethnic groups ( 2021/2022 )": {
-                "White": "83%",
-                "Asian": "8.6%",
-                "Black": "3.7%",
-                "Mixed": "2.7%",
-                "other": "2%"
+            "Ethnic groups": {
+                "White (%)": 83,
+                "Asian (%)": 8.6,
+                "Black (%)": 3.7,
+                "Mixed (%)": 2.7,
+                "other (%)": 2
             },
-            "Religion (2021/2022)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "46.5%",
+                    "percentage": 46.5,
                     "breakdown": {
-                        "no religion": "37.8%",
-                        "Islam": "6%",
-                        "Hinduism": "1.6%",
-                        "Sikhism": "0.8%",
-                        "Buddhism": "0.4%"
+                        "no religion (%)": 37.8,
+                        "Islam (%)": 6,
+                        "Hinduism (%)": 1.6,
+                        "Sikhism (%)": 0.8,
+                        "Buddhism (%)": 0.4
                     }
                 },
-                "Judaism": "0.4%",
-                "other": "0.6%",
-                "not stated": "5.9%"
-            },
-            "Demonyms": "British Briton Brit (colloquial)",
-            "Monarch": "Charles III"
+                "Judaism (%)": 0.4,
+                "other (%)": 0.6,
+                "not stated (%)": 5.9
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy",
-            "Prime Minister": "Keir Starmer",
-            "Legislature": "Parliament",
-            "Upper house": "House of Lords",
-            "Lower house": "House of Commons"
-        },
-        "History": {
-            "Laws in Wales Acts": "1535 and 1542",
-            "Union of the Crowns": "24 March 1603",
-            "Treaty of Union": "22 July 1706",
-            "Acts of Union of England and Scotland": "1 May 1707",
-            "Acts of Union of Great Britain and Ireland": "1 January 1801",
-            "Irish Free State Constitution Act": "6 December 1922"
+            "Government": "Unitary parliamentary constitutional monarchy"
         },
         "Area": {
-            "Total": "244,376 km 2 (94,354 sq mi) ( 78th )",
-            "Land": "242,741 km 2 (93,723 sq mi)"
+            "Total (km2)": 244376,
+            "Land (km2)": 242741
         },
         "Population": {
-            "2024 estimate": "69,281,437 ( 20th )",
-            "2021 census": "66,940,559",
-            "Density": "285/km 2 (738.1/sq mi) ( 48th )",
-            "Date format": "dd / mm / yyyy ( AD )"
+            "Estimate": 69281437,
+            "Census": 66940559,
+            "Density (/km2)": 285
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$4.455 trillion ( 10th )",
-                "Per capita": "$63,759 ( 33rd )"
+                "Total ($)": 4455000000000,
+                "Per capita ($)": 63759
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$3.959 trillion ( 6th )",
-                "Per capita": "$56,661 ( 21st )"
+                "Total ($)": 3959000000000,
+                "Per capita ($)": 56661
             },
-            "Gini (2021)": "35.4 medium inequality",
-            "HDI (2023)": "0.946 very high ( 13th )",
-            "Currency": "Pound sterling ( £ ) ( GBP )"
-        },
-        "Time": {
-            "Time zone": "UTC +0 ( GMT )",
-            "Summer ( DST )": "UTC +1 ( BST )"
-        },
-        "Codes": {
-            "Calling code": "+44",
-            "ISO 3166 code": "GB",
-            "Internet TLD": ".uk"
+            "Gini": 35.4,
+            "HDI": 0.946,
+            "Currency": "Pound sterling"
         }
     }
 }

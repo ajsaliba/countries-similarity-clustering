@@ -1,80 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>North Macedonia</country>
-  <url>https://en.wikipedia.org/wiki/North_Macedonia</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Skopje 42°0′N 21°26′E ﻿ / ﻿ 42.000°N 21.433°E ﻿ / 42.000; 21.433</Capital_and_largest_city>
       <Official_languages>Macedonian Albanian</Official_languages>
-      <Official_regional_languages>Turkish Romani Serbian Bosnian Aromanian</Official_regional_languages>
-      <Ethnic_groups___2021__>
-        <Macedonians>58.4%</Macedonians>
-        <Albanians>24.3%</Albanians>
-        <Turks>3.9%</Turks>
-        <Roma>2.5%</Roma>
-        <Serbs>1.3%</Serbs>
-        <Bosniaks>0.9%</Bosniaks>
-        <Aromanians__including_Megleno_Romanians__>0.5%</Aromanians__including_Megleno_Romanians__>
-        <other__including_undeclared_and_unknown_>1%</other__including_undeclared_and_unknown_>
-        <persons_for_whom_data_are_taken_from_administrative_sources>7.2%</persons_for_whom_data_are_taken_from_administrative_sources>
-      </Ethnic_groups___2021__>
-      <Religion___2021__>
+      <Ethnic_groups>
+        <Macedonians____>58.4</Macedonians____>
+        <Albanians____>24.3</Albanians____>
+        <Turks____>3.9</Turks____>
+        <Roma____>2.5</Roma____>
+        <Serbs____>1.3</Serbs____>
+        <Bosniaks____>0.9</Bosniaks____>
+        <Aromanians__including_Megleno_Romanians______>0.5</Aromanians__including_Megleno_Romanians______>
+        <other__including_undeclared_and_unknown_____>1</other__including_undeclared_and_unknown_____>
+        <persons_for_whom_data_are_taken_from_administrative_sources____>7.2</persons_for_whom_data_are_taken_from_administrative_sources____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>60.4%</percentage>
+          <percentage>60.4</percentage>
           <breakdown>
-            <Eastern_Orthodoxy>46.1%</Eastern_Orthodoxy>
-            <other_Christian>14.3%</other_Christian>
+            <Eastern_Orthodoxy____>46.1</Eastern_Orthodoxy____>
+            <other_Christian____>14.3</other_Christian____>
           </breakdown>
         </Christianity>
-        <Islam>32.2%</Islam>
-        <no_religion>0.1%</no_religion>
-        <other>0.1%</other>
-        <data_taken_from_administrative_sources>7.2%</data_taken_from_administrative_sources>
-      </Religion___2021__>
-      <Demonym>Macedonian</Demonym>
-      <Chairman_of_the_Assembly>Afrim Gashi</Chairman_of_the_Assembly>
+        <Islam____>32.2</Islam____>
+        <no_religion____>0.1</no_religion____>
+        <other____>0.1</other____>
+        <data_taken_from_administrative_sources____>7.2</data_taken_from_administrative_sources____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Gordana Siljanovska-Davkova</President>
-      <Prime_Minister>Hristijan Mickoski</Prime_Minister>
-      <Legislature>Assembly</Legislature>
     </Government>
-    <History>
-      <Socialist_Republic_of_Macedonia>2 August 1944</Socialist_Republic_of_Macedonia>
-      <Independence_referendum>8 September 1991</Independence_referendum>
-    </History>
     <Area>
-      <Total>25,436 km 2 (9,821 sq mi) ( 145th )</Total>
+      <Total__km2_>25436</Total__km2_>
       <Water____>1.1</Water____>
     </Area>
     <Population>
-      <n_2021_census>1,836,713</n_2021_census>
-      <Density>71.43/km 2 (185.0/sq mi) ( 122nd )</Density>
+      <Census>1836713</Census>
+      <Density___km2_>71.43</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$53.345 billion ( 134th )</Total>
-        <Per_capita>$29,475 ( 71st )</Per_capita>
+        <Total____>53345000000</Total____>
+        <Per_capita____>29475</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$17.885 billion ( 137th )</Total>
-        <Per_capita>$9,882 ( 81st )</Per_capita>
+        <Total____>17885000000</Total____>
+        <Per_capita____>9882</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>29.8 low inequality</Gini__2022_>
-      <HDI__2023_>0.815 very high ( 68th )</HDI__2023_>
-      <Currency>Macedonian denar ( MKD )</Currency>
+      <Gini>29.8</Gini>
+      <HDI>0.815</HDI>
+      <Currency>Macedonian denar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+389</Calling_code>
-      <ISO_3166_code>MK</ISO_3166_code>
-      <Internet_TLD>.mk .мкд</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

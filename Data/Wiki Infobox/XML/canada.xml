@@ -1,62 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Canada</country>
-  <url>https://en.wikipedia.org/wiki/Canada</url>
   <infobox>
     <General>
-      <Capital>Ottawa 45°24′N 75°40′W ﻿ / ﻿ 45.400°N 75.667°W ﻿ / 45.400; -75.667</Capital>
-      <Largest_city>Toronto</Largest_city>
       <Official_languages>English French</Official_languages>
-      <Demonym>Canadian</Demonym>
-      <Monarch>Charles III</Monarch>
-      <Governor_General>Mary Simon</Governor_General>
     </General>
     <Government>
       <Government>Federal parliamentary constitutional monarchy</Government>
-      <Prime_Minister>Mark Carney</Prime_Minister>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>House of Commons</Lower_house>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Confederation>July 1, 1867</Confederation>
-      <Balfour_Declaration>November 15, 1926</Balfour_Declaration>
-      <Statute_of_Westminster__1931>December 11, 1931</Statute_of_Westminster__1931>
-      <Patriation>April 17, 1982</Patriation>
-    </Independence_from_the_United_Kingdom>
     <Area>
-      <Total_area>9,984,670 km 2 (3,855,100 sq mi) ( 2nd )</Total_area>
-      <Water____>11.76 (2015)</Water____>
-      <Total_land_area>9,093,507 km 2 (3,511,023 sq mi)</Total_land_area>
+      <Total_area__km2_>9984670</Total_area__km2_>
+      <Water____>11.76</Water____>
+      <Total_land_area__km2_>9093507</Total_land_area__km2_>
     </Area>
     <Population>
-      <n_2025_Q4_estimate>41,575,585 ( 37th )</n_2025_Q4_estimate>
-      <n_2021_census>36,991,981</n_2021_census>
-      <Density>4.2/km 2 (10.9/sq mi) ( 230th )</Density>
+      <Estimate>41575585</Estimate>
+      <Census>36991981</Census>
+      <Density___km2_>4.2</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$2.723 trillion ( 16th )</Total>
-        <Per_capita>$65,500 ( 30th )</Per_capita>
+        <Total____>2723000000000</Total____>
+        <Per_capita____>65500</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$2.284 trillion ( 10th )</Total>
-        <Per_capita>$54,935 ( 23rd )</Per_capita>
+        <Total____>2284000000000</Total____>
+        <Per_capita____>54935</Per_capita____>
       </GDP__nominal_>
-      <Gini__2024_>29.2 low inequality</Gini__2024_>
-      <HDI__2023_>0.939 very high ( 16th )</HDI__2023_>
-      <Currency>Canadian dollar ($) ( CAD )</Currency>
+      <Gini>29.2</Gini>
+      <HDI>0.939</HDI>
+      <Currency>Canadian dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC −3.5 to −8</Time_zone>
-      <Summer___DST__>UTC −2.5 to −7</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+1</Calling_code>
-      <ISO_3166_code>CA</ISO_3166_code>
-      <Internet_TLD>.ca</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

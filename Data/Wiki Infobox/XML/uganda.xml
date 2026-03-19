@@ -1,90 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Uganda</country>
-  <url>https://en.wikipedia.org/wiki/Uganda</url>
   <infobox>
     <General>
-      <Luganda>
-        <item>Lipabuliika ya Uganda</item>
-        <item>Lipabuliika ya Uganda</item>
-      </Luganda>
-      <Lusoga>Uganda Eryetwala</Lusoga>
-      <Lumasaba>Linambo lya Uganda</Lumasaba>
-      <Capital_and_largest_city>Kampala</Capital_and_largest_city>
       <Official_languages>English Swahili</Official_languages>
-      <Other_languages>See Languages of Uganda</Other_languages>
-      <Dialect_of_English>Uglish</Dialect_of_English>
-      <Ethnic_groups__2024_census_>
-        <Baganda>15.3%</Baganda>
-        <Banyankole>9.1%</Banyankole>
-        <Basoga>8.1%</Basoga>
-        <Bakiga>6.4%</Bakiga>
-        <Iteso>6.8%</Iteso>
-        <Langi>5.9%</Langi>
-        <Bagisu>4.5%</Bagisu>
-        <Acholi>4.2%</Acholi>
-        <Lugbara>2.6%</Lugbara>
-        <others>37.1%</others>
-      </Ethnic_groups__2024_census_>
-      <Religion__2024_census_>
-        <Christianity>81.7%</Christianity>
+      <Ethnic_groups>
+        <Baganda____>15.3</Baganda____>
+        <Banyankole____>9.1</Banyankole____>
+        <Basoga____>8.1</Basoga____>
+        <Bakiga____>6.4</Bakiga____>
+        <Iteso____>6.8</Iteso____>
+        <Langi____>5.9</Langi____>
+        <Bagisu____>4.5</Bagisu____>
+        <Acholi____>4.2</Acholi____>
+        <Lugbara____>2.6</Lugbara____>
+        <others____>37.1</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>81.7</Christianity____>
         <Roman_Catholic>
-          <percentage>42%</percentage>
+          <percentage>42</percentage>
           <breakdown>
-            <Protestant>29%</Protestant>
-            <Islam>13.2%</Islam>
+            <Protestant____>29</Protestant____>
+            <Islam____>13.2</Islam____>
           </breakdown>
         </Roman_Catholic>
-        <unclassified>3.3%</unclassified>
-        <others>1.6%</others>
-        <no_religion>0.2%</no_religion>
-      </Religion__2024_census_>
-      <Demonym>Ugandan</Demonym>
+        <unclassified____>3.3</unclassified____>
+        <others____>1.6</others____>
+        <no_religion____>0.2</no_religion____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic under a dictatorship</Government>
-      <President>Yoweri Museveni</President>
-      <Vice_President>Jessica Alupo</Vice_President>
-      <Prime_Minister>Robinah Nabbanja</Prime_Minister>
-      <Legislature>Parliament</Legislature>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Dominion>9 October 1962</Dominion>
-      <Republic_declared>9 October 1963</Republic_declared>
-    </Independence_from_the_United_Kingdom>
-    <History>
-      <Current_constitution>8 October 1995</Current_constitution>
-    </History>
     <Area>
-      <Total>241,038 km 2 (93,065 sq mi) ( 79th )</Total>
+      <Total__km2_>241038</Total__km2_>
       <Water____>15.39</Water____>
     </Area>
     <Population>
-      <n_2024_census>= 45,905,417</n_2024_census>
-      <Density>157.1/km 2 (406.9/sq mi) ( 75th )</Density>
+      <Census>= 45,905,417</Census>
+      <Density___km2_>157.1</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$187.11 billion ( 82th )</Total>
-        <Per_capita>$3,900 ( 161st )</Per_capita>
+        <Total____>187110000000</Total____>
+        <Per_capita____>3900</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$64.280 billion ( 88th )</Total>
-        <Per_capita>$1,340 ( 160th )</Per_capita>
+        <Total____>64280000000</Total____>
+        <Per_capita____>1340</Per_capita____>
       </GDP__nominal_>
-      <Gini__2016_>42.0 medium inequality</Gini__2016_>
-      <HDI__2023_>0.582 medium ( 157th )</HDI__2023_>
-      <Currency>Ugandan shilling ( UGX )</Currency>
+      <Gini>42.0</Gini>
+      <HDI>0.582</HDI>
+      <Currency>Ugandan shilling</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +3 ( EAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+256</Calling_code>
-      <ISO_3166_code>UG</ISO_3166_code>
-      <Internet_TLD>.ug</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

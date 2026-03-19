@@ -1,82 +1,52 @@
 {
     "country": "Lithuania",
-    "url": "https://en.wikipedia.org/wiki/Lithuania",
     "infobox": {
         "General": {
-            "Capital and largest city": "Vilnius 54°41′N 25°19′E ﻿ / ﻿ 54.683°N 25.317°E ﻿ / 54.683; 25.317",
             "Official languages": "Lithuanian",
-            "Ethnic groups (2025 )": {
-                "Lithuanians": "82.3%",
-                "Poles": "6.2%",
-                "Russians": "5%",
-                "Ukrainians": "2.2%",
-                "Belarusians": "2.1%",
-                "others": "2.2%"
+            "Ethnic groups": {
+                "Lithuanians (%)": 82.3,
+                "Poles (%)": 6.2,
+                "Russians (%)": 5,
+                "Ukrainians (%)": 2.2,
+                "Belarusians (%)": 2.1,
+                "others (%)": 2.2
             },
-            "Religion (2021 )": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "79.4%",
+                    "percentage": 79.4,
                     "breakdown": {
-                        "Catholicism": "74.2%",
-                        "other Christian": "5.2%"
+                        "Catholicism (%)": 74.2,
+                        "other Christian (%)": 5.2
                     }
                 },
-                "no religion": "6.1%",
-                "others": "0.8%",
-                "no answer": "13.7%"
-            },
-            "Demonym": "Lithuanian"
+                "no religion (%)": 6.1,
+                "others (%)": 0.8,
+                "no answer (%)": 13.7
+            }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic",
-            "President": "Gitanas Nausėda",
-            "Prime Minister": "Inga Ruginienė",
-            "Seimas Speaker": "Juozas Olekas",
-            "Legislature": "Seimas"
-        },
-        "History": {
-            "First mentioned": "9 March 1009",
-            "Grand Duchy": "1236",
-            "Coronation of Mindaugas": "6 July 1253",
-            "Union with Poland": "2 February 1386",
-            "Commonwealth created": "1 July 1569",
-            "Partitioned": "24 October 1795",
-            "Independence reinstated": "16 February 1918",
-            "Soviet occupation": "16 June 1940",
-            "Independence restored": "11 March 1990"
+            "Government": "Unitary semi-presidential republic"
         },
         "Area": {
-            "Total": "65,300 km 2 (25,200 sq mi) ( 121st )",
-            "Water (%)": "1.98 (2015)"
+            "Total (km2)": 65300,
+            "Water (%)": 1.98
         },
         "Population": {
-            "2025 estimate": "2,897,430 ( 137th )",
-            "Density": "46/km 2 (119.1/sq mi) ( 174th )",
-            "Date format": "yyyy - mm - dd"
+            "Estimate": 2897430,
+            "Density (/km2)": 46
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$165.23 billion ( 88th )",
-                "Per capita": "$57,201 ( 39th )"
+                "Total ($)": 165230000000,
+                "Per capita ($)": 57201
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$95.27 billion ( 78th )",
-                "Per capita": "$32,982 ( 40th )"
+                "Total ($)": 95270000000,
+                "Per capita ($)": 32982
             },
-            "Gini (2023)": "35.7 medium inequality",
-            "HDI (2023)": "0.895 very high ( 39th )",
-            "Currency": "Euro ( € ) ( EUR )"
-        },
-        "Time": {
-            "Time zone": "UTC +2 ( EET )",
-            "Summer ( DST )": "UTC +3 ( EEST )"
-        },
-        "Codes": {
-            "Calling code": "+370",
-            "ISO 3166 code": "LT",
-            "Internet TLD": ".lt"
+            "Gini": 35.7,
+            "HDI": 0.895,
+            "Currency": "Euro"
         }
     }
 }

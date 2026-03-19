@@ -1,83 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Hungary</country>
-  <url>https://en.wikipedia.org/wiki/Hungary</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Budapest 47°26′N 19°15′E ﻿ / ﻿ 47.433°N 19.250°E ﻿ / 47.433; 19.250</Capital_and_largest_city>
       <Official_languages>Hungarian</Official_languages>
-      <Ethnic_groups__2022_census__>
-        <Hungarian>97.7%</Hungarian>
-        <Romani>2.4%</Romani>
-        <German>1.2%</German>
-        <other>1.3%</other>
-      </Ethnic_groups__2022_census__>
-      <Religion__2022_census_>
+      <Ethnic_groups>
+        <Hungarian____>97.7</Hungarian____>
+        <Romani____>2.4</Romani____>
+        <German____>1.2</German____>
+        <other____>1.3</other____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>42.5%</percentage>
+          <percentage>42.5</percentage>
           <breakdown>
-            <Catholicism>27.5%</Catholicism>
-            <other_Christian>15%</other_Christian>
+            <Catholicism____>27.5</Catholicism____>
+            <other_Christian____>15</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_answer>40.1%</no_answer>
-        <irreligion>16.1%</irreligion>
-        <others>1.3%</others>
-      </Religion__2022_census_>
-      <Demonym>Hungarian</Demonym>
+        <no_answer____>40.1</no_answer____>
+        <irreligion____>16.1</irreligion____>
+        <others____>1.3</others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Tamás Sulyok</President>
-      <Prime_Minister>Viktor Orbán</Prime_Minister>
-      <Speaker>László Kövér</Speaker>
-      <Legislature>National Assembly</Legislature>
-      <Christian_Kingdom>25 December 1000</Christian_Kingdom>
     </Government>
-    <History>
-      <Hungarian_conquest_of_the_Carpathian_Basin>862–895</Hungarian_conquest_of_the_Carpathian_Basin>
-      <Principality_of_Hungary>895</Principality_of_Hungary>
-      <Golden_Bull_of_1222>24 April 1222</Golden_Bull_of_1222>
-      <Battle_of_Moh_cs>29 August 1526</Battle_of_Moh_cs>
-      <Liberation_of_Buda>2 September 1686</Liberation_of_Buda>
-      <Revolution_of_1848>15 March 1848</Revolution_of_1848>
-      <Austria_Hungary>30 March 1867</Austria_Hungary>
-      <Restoration_of_Independence>31 October 1918</Restoration_of_Independence>
-      <Treaty_of_Trianon>4 June 1920</Treaty_of_Trianon>
-      <Third_Republic>23 October 1989</Third_Republic>
-    </History>
     <Area>
-      <Total>93,030 km 2 (35,920 sq mi) ( 108th )</Total>
+      <Total__km2_>93030</Total__km2_>
       <Water____>3.7</Water____>
     </Area>
     <Population>
-      <January_2024_estimate>9,584,627 ( 95th )</January_2024_estimate>
-      <n_2022_census>9,603,634</n_2022_census>
-      <Density>103/km 2 (266.8/sq mi) ( 111th )</Density>
+      <Estimate>9584627</Estimate>
+      <Census>9603634</Census>
+      <Density___km2_>103</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$460.380 billion ( 56th )</Total>
-        <Per_capita>$48,160 ( 46th )</Per_capita>
+        <Total____>460380000000</Total____>
+        <Per_capita____>48160</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$247.760 billion ( 56th )</Total>
-        <Per_capita>$25,920 ( 50th )</Per_capita>
+        <Total____>247760000000</Total____>
+        <Per_capita____>25920</Per_capita____>
       </GDP__nominal_>
-      <Gini__2023_>29.0 low inequality</Gini__2023_>
-      <HDI__2023_>0.870 very high ( 46th )</HDI__2023_>
-      <Currency>Forint ( HUF )</Currency>
+      <Gini>29.0</Gini>
+      <HDI>0.87</HDI>
+      <Currency>Forint</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+36</Calling_code>
-      <ISO_3166_code>HU</ISO_3166_code>
-      <Internet_TLD>.hu</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

@@ -1,73 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Tonga</country>
-  <url>https://en.wikipedia.org/wiki/Tonga</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Nukuʻalofa 21°8′S 175°12′W ﻿ / ﻿ 21.133°S 175.200°W ﻿ / -21.133; -175.200</Capital_and_largest_city>
       <Official_languages>Tongan English</Official_languages>
-      <Ethnic_groups__2021__>
-        <Tongan>96.5%</Tongan>
-        <others>3.5%</others>
-      </Ethnic_groups__2021__>
-      <Religion__2016_>
+      <Ethnic_groups>
+        <Tongan____>96.5</Tongan____>
+        <others____>3.5</others____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity__>
-          <percentage>96.9%</percentage>
+          <percentage>96.9</percentage>
           <breakdown>
-            <Protestantism__>64.1%</Protestantism__>
-            <Mormonism__>18.6%</Mormonism__>
-            <Catholicism>14.2%</Catholicism>
+            <Protestantism______>64.1</Protestantism______>
+            <Mormonism______>18.6</Mormonism______>
+            <Catholicism____>14.2</Catholicism____>
           </breakdown>
         </Christianity__>
-        <no_religion>0.5%</no_religion>
-        <unspecified>0.1%</unspecified>
-        <others>2.4%</others>
-      </Religion__2016_>
-      <Demonym>Tongan</Demonym>
-      <Monarch>Tupou VI</Monarch>
+        <no_religion____>0.5</no_religion____>
+        <unspecified____>0.1</unspecified____>
+        <others____>2.4</others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary semi-constitutional monarchy</Government>
-      <Prime_Minister>Fatafehi Fakafānua</Prime_Minister>
-      <Assembly_Speaker>ʻAlipate Tuʻivanuavou Vaea</Assembly_Speaker>
-      <Legislature>Legislative Assembly</Legislature>
-      <Independence_from_the_United_Kingdom>4 June 1970</Independence_from_the_United_Kingdom>
     </Government>
-    <History>
-      <Unification>c. 1845</Unification>
-      <Treaty_of_Friendship>18 May 1900</Treaty_of_Friendship>
-    </History>
     <Area>
-      <Total>748 km 2 (289 sq mi) ( 175th )</Total>
+      <Total__km2_>748</Total__km2_>
       <Water____>4.0</Water____>
     </Area>
     <Population>
-      <n_2021_census>100,209 ( 199th )</n_2021_census>
-      <Density>139/km 2 (360.0/sq mi) ( 92th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Census>100209</Census>
+      <Density___km2_>139</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2019 estimate</Details>
-        <Total>$655 million</Total>
-        <Per_capita>$6,496</Per_capita>
+        <Total____>655000000</Total____>
+        <Per_capita____>6496</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2019 estimate</Details>
-        <Total>$493 million</Total>
-        <Per_capita>$4,888</Per_capita>
+        <Total____>493000000</Total____>
+        <Per_capita____>4888</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>27.1 low inequality</Gini__2021_>
-      <HDI__2022_>0.739 high ( 98th )</HDI__2022_>
-      <Currency>Paʻanga ( TOP )</Currency>
+      <Gini>27.1</Gini>
+      <HDI>0.739</HDI>
+      <Currency>Paʻanga</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +13</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+676</Calling_code>
-      <ISO_3166_code>TO</ISO_3166_code>
-      <Internet_TLD>.to</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

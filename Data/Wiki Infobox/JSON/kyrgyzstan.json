@@ -1,79 +1,46 @@
 {
     "country": "Kyrgyzstan",
-    "url": "https://en.wikipedia.org/wiki/Kyrgyzstan",
     "infobox": {
         "General": {
-            "Capital and largest city": "Bishkek 42°52′N 74°36′E ﻿ / ﻿ 42.867°N 74.600°E ﻿ / 42.867; 74.600",
-            "Official languages": "Kyrgyz (state) Russian (official)",
-            "Official script": "Cyrillic",
-            "Ethnic groups (2025)": {
-                "Kyrgyz": "77.8%",
-                "Uzbeks": "14.3%",
-                "Russians": "3.7%",
-                "Dungans": "1%",
-                "Tajiks": "0.9%",
-                "Others": "2.3%"
+            "Official languages": "Kyrgyz Russian",
+            "Ethnic groups": {
+                "Kyrgyz (%)": 77.8,
+                "Uzbeks (%)": 14.3,
+                "Russians (%)": 3.7,
+                "Dungans (%)": 1,
+                "Tajiks (%)": 0.9,
+                "Others (%)": 2.3
             },
-            "Religion (2026)": {
-                "Islam": "91%",
-                "Christianity": "8%",
-                "Others": "1%"
-            },
-            "Demonyms": "Kyrgyz Kyrgyzstani",
-            "Chairman of the Cabinet of Ministers": "Adylbek Kasymaliev",
-            "Independence recognized": {
-                "Details": "26 December 1991",
-                "Current constitution": "11 April 2021"
+            "Religion": {
+                "Islam (%)": 91,
+                "Christianity (%)": 8,
+                "Others (%)": 1
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic",
-            "President": "Sadyr Japarov",
-            "Speaker of the Supreme Council": "Marlen Mamataliev",
-            "Legislature": "Supreme Council"
-        },
-        "History": {
-            "Kyrgyz Khaganate": "840",
-            "Kara-Kyrgyz Khanate": "1842–1867",
-            "Annexed by the Russian Empire": "1876",
-            "Kara-Kirghiz AO": "14 October 1924",
-            "Kirghiz ASSR": "11 February 1926",
-            "Kirghiz SSR": "5 December 1936",
-            "Sovereignty declared": "30 December 1990",
-            "Independence declared from USSR": "31 August 1991"
+            "Government": "Unitary presidential republic"
         },
         "Area": {
-            "Total": "200,105 km 2 (77,261 sq mi) ( 85th )",
-            "Water": "7,198 km 2 (2,779 sq mi)",
-            "Water (%)": "3.6"
+            "Total (km2)": 200105,
+            "Water (km2)": 7198,
+            "Water (%)": 3.6
         },
         "Population": {
-            "2026 estimate": "7.4 million ( 107th )",
-            "Density": "37/km 2 (95.8/sq mi) ( 109th )",
-            "Date format": "dd/mm/yyyy"
+            "Estimate": 7400000,
+            "Density (/km2)": 37
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$64.110 billion ( 128th )",
-                "Per capita": "$8,870 ( 136th )"
+                "Total ($)": 64110000000,
+                "Per capita ($)": 8870
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$22.587 billion ( 126th )",
-                "Per capita": "$3,101 ( 139th )"
+                "Total ($)": 22587000000,
+                "Per capita ($)": 3101
             },
-            "Gini (2022)": "26.4 low inequality",
-            "HDI (2023)": "0.720 high ( 117th )",
-            "Currency": "Kyrgyzstani som ( c ) ( KGS )"
-        },
-        "Time": {
-            "Time zone": "UTC +6 ( KGT )"
-        },
-        "Codes": {
-            "Calling code": "+996",
-            "ISO 3166 code": "KG",
-            "Internet TLD": ".kg"
+            "Gini": 26.4,
+            "HDI": 0.72,
+            "Currency": "Kyrgyzstani som"
         }
     }
 }

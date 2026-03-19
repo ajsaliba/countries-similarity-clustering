@@ -1,71 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Gambia, The</country>
-  <url>https://en.wikipedia.org/wiki/The_Gambia</url>
   <infobox>
     <General>
-      <Capital>Banjul 13°27′00″N 16°34′30″W ﻿ / ﻿ 13.45000°N 16.57500°W ﻿ / 13.45000; -16.57500</Capital>
       <Official_languages>English</Official_languages>
-      <National_languages>List: Mandinka Pulaar Wolof Serer Jola English Balanta Arabic Jola-Fonyi Mandjak Mankanya Noon Dyula Soninke Fula Karon Kassonke Cangin Gambian Sign Language</National_languages>
-      <Ethnic_groups__2024_Population_and_Housing_Census_>
-        <Mandinka>34.4%</Mandinka>
-        <Fula>25%</Fula>
-        <Wolof>15.4%</Wolof>
-        <Jola>9.5%</Jola>
-        <Soninke>8.2%</Soninke>
-        <Serer>2.9%</Serer>
-        <other>4.6%</other>
-      </Ethnic_groups__2024_Population_and_Housing_Census_>
-      <Religion__2024_>
-        <Islam>95.7%</Islam>
-        <Christianity>4.2%</Christianity>
-        <others>0.1%</others>
-      </Religion__2024_>
-      <Demonym>Gambian</Demonym>
+      <Ethnic_groups>
+        <Mandinka____>34.4</Mandinka____>
+        <Fula____>25</Fula____>
+        <Wolof____>15.4</Wolof____>
+        <Jola____>9.5</Jola____>
+        <Soninke____>8.2</Soninke____>
+        <Serer____>2.9</Serer____>
+        <other____>4.6</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>95.7</Islam____>
+        <Christianity____>4.2</Christianity____>
+        <others____>0.1</others____>
+      </Religion>
     </General>
     <Area>
       <Largest_metropolitan_area>Serrekunda</Largest_metropolitan_area>
-      <Total>11,300 km 2 (4,400 sq mi) ( 159th )</Total>
+      <Total__km2_>11300</Total__km2_>
       <Water____>11.5</Water____>
     </Area>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Adama Barrow</President>
-      <Vice_President>Muhammad B. S. Jallow</Vice_President>
-      <Speaker_of_the_National_Assembly>Fabakary Tombong Jatta</Speaker_of_the_National_Assembly>
-      <Chief_Justice>Hassan Bubacar Jallow</Chief_Justice>
-      <Legislature>National Assembly</Legislature>
-      <from_the_United_Kingdom>18 February 1965</from_the_United_Kingdom>
     </Government>
-    <Independence>
-      <dissolution_of_the_Senegambia_Confederation>30 September 1989</dissolution_of_the_Senegambia_Confederation>
-    </Independence>
     <Population>
-      <n_2024_census>2,422,712 ( 142th )</n_2024_census>
-      <Density>227/km 2 (587.9/sq mi) ( 51th )</Density>
+      <Census>2422712</Census>
+      <Density___km2_>227</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$11.050 billion ( 166th )</Total>
-        <Per_capita>$3,820 ( 175th )</Per_capita>
+        <Total____>11050000000</Total____>
+        <Per_capita____>3820</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$2.670 billion ( 185th )</Total>
-        <Per_capita>$924 ( 180th )</Per_capita>
+        <Total____>2670000000</Total____>
+        <Per_capita____>924</Per_capita____>
       </GDP__nominal_>
-      <Gini__2015_>35.9 medium inequality</Gini__2015_>
-      <HDI__2023_>0.524 low ( 170th )</HDI__2023_>
-      <Currency>Gambian dalasi ( GMD )</Currency>
+      <Gini>35.9</Gini>
+      <HDI>0.524</HDI>
+      <Currency>Gambian dalasi</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC ±00:00 ( GMT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+220</Calling_code>
-      <ISO_3166_code>GM</ISO_3166_code>
-      <Internet_TLD>.gm</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

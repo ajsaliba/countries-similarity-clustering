@@ -1,78 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Panama</country>
-  <url>https://en.wikipedia.org/wiki/Panama</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Panama City 8°58′N 79°32′W ﻿ / ﻿ 8.967°N 79.533°W ﻿ / 8.967; -79.533</Capital_and_largest_city>
       <Official_languages>Spanish</Official_languages>
-      <Recognised_regional_languages>Guaymí Buglere Emberá Wounaan Guna Teribe Bribri</Recognised_regional_languages>
-      <Ethnic_groups__2020_>
-        <Mestizo__mixed_White_and_Indigenous__>65%</Mestizo__mixed_White_and_Indigenous__>
-        <Indigenous>12.3%</Indigenous>
-        <Black>9.2%</Black>
-        <Mulatto__mixed_White_and_Black__>6.8%</Mulatto__mixed_White_and_Black__>
-        <White>6.7%</White>
-      </Ethnic_groups__2020_>
-      <Religion__2020_>
+      <Ethnic_groups>
+        <Mestizo__mixed_White_and_Indigenous______>65</Mestizo__mixed_White_and_Indigenous______>
+        <Indigenous____>12.3</Indigenous____>
+        <Black____>9.2</Black____>
+        <Mulatto__mixed_White_and_Black______>6.8</Mulatto__mixed_White_and_Black______>
+        <White____>6.7</White____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>91.5%</percentage>
+          <percentage>91.5</percentage>
           <breakdown>
-            <Catholicism>63.2%</Catholicism>
-            <Protestantism>25%</Protestantism>
-            <other_Christian>3.3%</other_Christian>
+            <Catholicism____>63.2</Catholicism____>
+            <Protestantism____>25</Protestantism____>
+            <other_Christian____>3.3</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>7.6%</no_religion>
-        <other>0.9%</other>
-      </Religion__2020_>
-      <Demonym>Panamanian</Demonym>
+        <no_religion____>7.6</no_religion____>
+        <other____>0.9</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>José Raúl Mulino</President>
-      <Vice_President>Vacant</Vice_President>
-      <Legislature>National Assembly</Legislature>
     </Government>
-    <Independence>
-      <from_Spanish_Empire>November 28, 1821</from_Spanish_Empire>
-      <union_with_Gran_Colombia>December 1821</union_with_Gran_Colombia>
-      <from_Republic_of_Colombia>November 3, 1903</from_Republic_of_Colombia>
-    </Independence>
-    <History>
-      <Current_constitution>October 11, 1972</Current_constitution>
-    </History>
     <Area>
-      <Total>75,417 km 2 (29,119 sq mi) ( 116th )</Total>
+      <Total__km2_>75417</Total__km2_>
       <Water____>2.9</Water____>
     </Area>
     <Population>
-      <n_2022_estimate>4,337,768 ( 127th )</n_2022_estimate>
-      <Density>56/km 2 (145.0/sq mi) ( 122nd )</Density>
-      <Date_format>mm/dd/yyyy dd/mm/yyyy</Date_format>
+      <Estimate>4337768</Estimate>
+      <Density___km2_>56</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$195.279 billion ( 80th )</Total>
-        <Per_capita>$42,772 ( 50th )</Per_capita>
+        <Total____>195279000000</Total____>
+        <Per_capita____>42772</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$91.731 billion ( 77th )</Total>
-        <Per_capita>$20,092 ( 55th )</Per_capita>
+        <Total____>91731000000</Total____>
+        <Per_capita____>20092</Per_capita____>
       </GDP__nominal_>
-      <Gini__2023_>48.9 high inequality</Gini__2023_>
-      <HDI__2023_>0.839 very high ( 59th )</HDI__2023_>
-      <Currency>Balboa ( PAB ) United States dollar ( USD )</Currency>
+      <Gini>48.9</Gini>
+      <HDI>0.839</HDI>
+      <Currency>Balboa United States dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC −5 ( EST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+507</Calling_code>
-      <ISO_3166_code>PA</ISO_3166_code>
-      <Internet_TLD>.pa</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

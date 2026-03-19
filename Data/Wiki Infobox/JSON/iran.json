@@ -1,68 +1,32 @@
 {
     "country": "Iran",
-    "url": "https://en.wikipedia.org/wiki/Iran",
     "infobox": {
         "General": {
-            "Capital and largest city": "Tehran 35°41′N 51°25′E ﻿ / ﻿ 35.683°N 51.417°E ﻿ / 35.683; 51.417",
-            "Official languages": "Persian",
-            "Demonym": "Iranian"
+            "Official languages": "Persian"
         },
         "Government": {
-            "Government": "Unitary presidential theocratic Islamic republic under an authoritarian dictatorship",
-            "Supreme Leader": "Mojtaba Khamenei",
-            "President": "Masoud Pezeshkian",
-            "Vice President": "Mohammad Reza Aref",
-            "Speaker of the Assembly": "Mohammad Bagher Ghalibaf",
-            "Chief Justice": "Gholam-Hossein Mohseni-Eje'i",
-            "Legislature": "Islamic Consultative Assembly",
-            "Median kingdom": "c. 678 BC"
-        },
-        "History": {
-            "Achaemenid Empire": "550 BC",
-            "Parthian Empire": "247 BC",
-            "Sasanian Empire": "224 AD",
-            "Iranian Intermezzo": "821",
-            "Safavid Iran": "22 December 1501",
-            "Afsharid Iran": "22 January 1736",
-            "Zand Iran": "1751",
-            "Qajar Iran": "20 March 1794",
-            "Constitutional Revolution": "12 December 1905",
-            "Pahlavi Iran": "15 December 1925",
-            "Iranian Revolution": "11 February 1979",
-            "Islamic Republic established": "1 April 1979",
-            "Current constitution": "3 December 1979",
-            "Constitutional amendment": "28 July 1989"
+            "Government": "Unitary presidential theocratic Islamic republic under an authoritarian dictatorship"
         },
         "Area": {
-            "Total": "1,648,195 km 2 (636,372 sq mi) ( 17th )",
-            "Water (%)": "1.63 (as of 2015)"
+            "Total (km2)": 1648195,
+            "Water (%)": 1.63
         },
         "Population": {
-            "2025 estimate": "92,417,681 ( 17th )",
-            "Density": "52/km 2 (134.7/sq mi) ( 163rd )"
+            "Estimate": 92417681,
+            "Density (/km2)": 52
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$1.879 trillion ( 22nd )",
-                "Per capita": "$21,473 ( 88th )"
+                "Total ($)": 1879000000000,
+                "Per capita ($)": 21473
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$356.513 billion ( 42nd )",
-                "Per capita": "$4,074 ( 132nd )"
+                "Total ($)": 356513000000,
+                "Per capita ($)": 4074
             },
-            "Gini (2023)": "35.9 medium inequality",
-            "HDI (2023)": "0.799 high ( 75th )",
-            "Currency": "Iranian rial ( ریال ) ( IRR )"
-        },
-        "Time": {
-            "Time zone": "UTC +3:30 ( IRST )"
-        },
-        "Codes": {
-            "Calling code": "+98",
-            "ISO 3166 code": "IR",
-            "Internet TLD": ".ir ایران."
+            "Gini": 35.9,
+            "HDI": 0.799,
+            "Currency": "Iranian rial"
         }
     }
 }

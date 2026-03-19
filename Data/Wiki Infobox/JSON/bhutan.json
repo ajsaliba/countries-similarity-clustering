@@ -1,64 +1,39 @@
 {
     "country": "Bhutan",
-    "url": "https://en.wikipedia.org/wiki/Bhutan",
     "infobox": {
         "General": {
-            "Capital and largest city": "Thimphu 27°28.0′N 89°38.5′E ﻿ / ﻿ 27.4667°N 89.6417°E ﻿ / 27.4667; 89.6417",
             "Official languages": "Dzongkha",
-            "Religion (2020)": {
-                "Buddhism": "74.7%",
-                "Hinduism": "22.6%",
-                "Bon": "1.9%",
-                "others": "0.8%"
-            },
-            "Demonym": "Bhutanese"
+            "Religion": {
+                "Buddhism (%)": 74.7,
+                "Hinduism (%)": 22.6,
+                "Bon (%)": 1.9,
+                "others (%)": 0.8
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary semi-constitutional monarchy",
-            "Dragon King": "Jigme Khesar Namgyel Wangchuck",
-            "Prime Minister": "Tshering Tobgay",
-            "Legislature": "Parliament",
-            "Upper house": "National Council",
-            "Lower house": "National Assembly"
-        },
-        "History": {
-            "Unification": "1616–1634",
-            "Druk Desi period": "1650–1905",
-            "Ascension of the Wangchuk dynasty": "17 December 1907",
-            "Bhutan–India treaty": "8 August 1949",
-            "Constitutional monarchy": "18 July 2008"
+            "Government": "Unitary parliamentary semi-constitutional monarchy"
         },
         "Area": {
-            "Total": "38,394 km 2 (14,824 sq mi) ( 133rd )",
-            "Water (%)": "1.1"
+            "Total (km2)": 38394,
+            "Water (%)": 1.1
         },
         "Population": {
-            "2021 estimate": "777,486 ( 159th )",
-            "2022 census": "727,145",
-            "Density": "20.5/km 2 (53.1/sq mi) ( 205th )"
+            "Estimate": 777486,
+            "Census": 727145,
+            "Density (/km2)": 20.5
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$14.110 billion ( 160th )",
-                "Per capita": "$17,774 ( 102nd )"
+                "Total ($)": 14110000000,
+                "Per capita ($)": 17774
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$3.420 billion ( 166th )",
-                "Per capita": "$4,300 ( 127th )"
+                "Total ($)": 3420000000,
+                "Per capita ($)": 4300
             },
-            "Gini (2022)": "28.5 low inequality",
-            "HDI (2023)": "0.698 medium ( 125th )",
-            "Currency": "Ngultrum (BTN) Indian rupee (₹)"
-        },
-        "Time": {
-            "Time zone": "UTC +06 ( BTT )"
-        },
-        "Codes": {
-            "Calling code": "+975",
-            "ISO 3166 code": "BT",
-            "Internet TLD": ".bt"
+            "Gini": 28.5,
+            "HDI": 0.698,
+            "Currency": "Ngultrum Indian rupee"
         }
     }
 }

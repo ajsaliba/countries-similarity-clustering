@@ -1,61 +1,33 @@
 {
     "country": "Saudi Arabia",
-    "url": "https://en.wikipedia.org/wiki/Saudi_Arabia",
     "infobox": {
         "General": {
-            "Capital and largest city": "Riyadh 24°39′N 46°46′E ﻿ / ﻿ 24.650°N 46.767°E ﻿ / 24.650; 46.767",
             "Official languages": "Arabic",
-            "Religion": "Sunni Islam ( official )",
-            "Demonyms": "Saudi Saudi Arabian"
+            "Religion": "Sunni Islam"
         },
         "Government": {
-            "Government": "Unitary Islamic absolute monarchy",
-            "King": "Salman",
-            "Crown Prince and Prime Minister": "Mohammed bin Salman",
-            "Legislature": "Consultative Assembly",
-            "Emirate of Diriyah": "22 February 1727",
-            "Emirate of Nejd": "1824",
-            "Emirate of Riyadh": "13 January 1902",
-            "Emirate of Nejd and Hasa": "15 January 1913",
-            "Kingdom of Hejaz and Nejd": "8 January 1926",
-            "Unification and Proclamation of the Kingdom of Saudi Arabia": "23 September 1932"
-        },
-        "Establishment": {
-            "Sultanate of Nejd": "29 November 1921"
-        },
-        "History": {
-            "Current constitution": "31 January 1992"
+            "Government": "Unitary Islamic absolute monarchy"
         },
         "Area": {
-            "Total": "2,149,690 km 2 (830,000 sq mi) ( 12th )",
-            "Water (%)": "0.7"
+            "Total (km2)": 2149690,
+            "Water (%)": 0.7
         },
         "Population": {
-            "2024 census": "33,702,731 ( 42nd )",
-            "Density": "15/km 2 (38.8/sq mi) ( 218th )"
+            "Census": 33702731,
+            "Density (/km2)": 15
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$2.690 trillion ( 17th )",
-                "Per capita": "$74,670 ( 19th )"
+                "Total ($)": 2690000000000,
+                "Per capita ($)": 74670
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$1.270 trillion ( 19th )",
-                "Per capita": "$35,230 ( 37th )"
+                "Total ($)": 1270000000000,
+                "Per capita ($)": 35230
             },
-            "Gini (2013)": "45.9 medium inequality",
-            "HDI (2023)": "0.900 very high ( 37th )",
-            "Currency": "Saudi riyal (SR) ( SAR )"
-        },
-        "Time": {
-            "Time zone": "UTC +3 ( SAST )"
-        },
-        "Codes": {
-            "Calling code": "+966",
-            "ISO 3166 code": "SA",
-            "Internet TLD": ".sa السعودية."
+            "Gini": 45.9,
+            "HDI": 0.9,
+            "Currency": "Saudi riyal"
         }
     }
 }

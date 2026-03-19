@@ -1,48 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Vatican City</country>
-  <url>https://en.wikipedia.org/wiki/Vatican_City</url>
   <infobox>
     <General>
-      <Capital>Vatican City ( city-state ) 41°54.2′N 12°27.2′E ﻿ / ﻿ 41.9033°N 12.4533°E ﻿ / 41.9033; 12.4533</Capital>
       <Official_languages>Italian</Official_languages>
-      <National_language>Italian ( de facto ) Latin ( de jure at Holy See )</National_language>
-      <Religion>Catholicism ( state religion )</Religion>
-      <Demonyms>None ( de jure ) Vatican ( de facto )</Demonyms>
-      <Sovereign_entity>Holy See</Sovereign_entity>
-      <Pope>Leo XIV</Pope>
+      <Religion>Catholicism</Religion>
     </General>
     <Government>
       <Government>Theocratic elective absolute monarchy</Government>
-      <President_of_the_Governorate>Raffaella Petrini</President_of_the_Governorate>
-      <Legislature>Pontifical Commission</Legislature>
     </Government>
-    <Independence_from_Italy>
-      <Lateran_Treaty>11 February 1929</Lateran_Treaty>
-    </Independence_from_Italy>
     <Area>
-      <Total>0.49 km 2 (0.19 sq mi) ( 195th )</Total>
+      <Total__km2_>0.49</Total__km2_>
     </Area>
     <Population>
-      <n_2024_estimate>882 ( 237th )</n_2024_estimate>
-      <Density>1,800/km 2 (4,662.0/sq mi) ( 7th )</Density>
+      <Estimate>882</Estimate>
+      <Density___km2_>1800</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2021 estimate</Details>
         <Total>€14,859,970</Total>
         <Per_capita>€19,450.22</Per_capita>
       </GDP___PPP__>
-      <Currency>Euro ( € ) ( EUR )</Currency>
+      <Currency>Euro</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+379</Calling_code>
-      <ISO_3166_code>VA</ISO_3166_code>
-      <Internet_TLD>.va</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

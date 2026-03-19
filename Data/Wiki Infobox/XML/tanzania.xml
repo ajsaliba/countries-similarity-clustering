@@ -1,75 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Tanzania</country>
-  <url>https://en.wikipedia.org/wiki/Tanzania</url>
   <infobox>
     <General>
-      <Capital>Dodoma 6°10′S 35°44′E ﻿ / ﻿ 6.167°S 35.733°E ﻿ / -6.167; 35.733</Capital>
-      <Largest_city>Dar es Salaam 06°48′S 39°16′E ﻿ / ﻿ 6.800°S 39.267°E ﻿ / -6.800; 39.267</Largest_city>
       <Official_languages>Swahili English</Official_languages>
-      <National_language>Swahili</National_language>
-      <Other_languages>Over 100 languages , including (1m+): Shambala Sukuma Nyamwezi Chagga Ha Bena Gogo Haya Dholuo Iraqw Makonde Nyaturu Maasai Jita Pare</Other_languages>
-      <Religion__2020_>
-        <Christianity>63.1%</Christianity>
-        <Islam>34.1%</Islam>
+      <Religion>
+        <Christianity____>63.1</Christianity____>
+        <Islam____>34.1</Islam____>
         <no_religion>
-          <percentage>1.5%</percentage>
+          <percentage>1.5</percentage>
           <breakdown>
-            <traditional_faiths>1.2%</traditional_faiths>
-            <others>0.1%</others>
+            <traditional_faiths____>1.2</traditional_faiths____>
+            <others____>0.1</others____>
           </breakdown>
         </no_religion>
-      </Religion__2020_>
-      <Demonym>Tanzanian</Demonym>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary dominant-party presidential republic</Government>
-      <President>Samia Suluhu Hassan</President>
-      <Vice_President>Emmanuel Nchimbi</Vice_President>
-      <Prime_Minister>Mwigulu Nchemba</Prime_Minister>
-      <Speaker>Mussa Zungu</Speaker>
-      <Chief_Justice>George Mcheche Masaju</Chief_Justice>
-      <Legislature>National Assembly</Legislature>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Tanganyika>9 December 1961</Tanganyika>
-      <Zanzibar>10 December 1963</Zanzibar>
-    </Independence_from_the_United_Kingdom>
-    <History>
-      <Unification_of_Tanganyika_and_Zanzibar>26 April 1964</Unification_of_Tanganyika_and_Zanzibar>
-      <Current_constitution>25 April 1977</Current_constitution>
-    </History>
     <Area>
-      <Total>947,303 km 2 (365,756 sq mi) ( 30th )</Total>
+      <Total__km2_>947303</Total__km2_>
       <Water____>6.4</Water____>
     </Area>
     <Population>
-      <n_2024_estimate>67,462,121 ( 22nd )</n_2024_estimate>
-      <n_2022_census>61,741,120</n_2022_census>
-      <Density>65.2/km 2 (168.9/sq mi) ( 147th )</Density>
+      <Estimate>67462121</Estimate>
+      <Census>61741120</Census>
+      <Density___km2_>65.2</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$293.59 billion ( 69th )</Total>
-        <Per_capita>$4,370 ( 158th )</Per_capita>
+        <Total____>293590000000</Total____>
+        <Per_capita____>4370</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$88.980 billion ( 80th )</Total>
-        <Per_capita>$1,280 ( 162nd )</Per_capita>
+        <Total____>88980000000</Total____>
+        <Per_capita____>1280</Per_capita____>
       </GDP__nominal_>
-      <Gini__2017_>40.5 medium inequality</Gini__2017_>
-      <HDI__2023_>0.555 medium ( 165th )</HDI__2023_>
-      <Currency>Tanzanian shilling ( TZS )</Currency>
+      <Gini>40.5</Gini>
+      <HDI>0.555</HDI>
+      <Currency>Tanzanian shilling</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +3 ( East Africa Time )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+255</Calling_code>
-      <ISO_3166_code>TZ</ISO_3166_code>
-      <Internet_TLD>.tz</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

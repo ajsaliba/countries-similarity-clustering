@@ -1,78 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Niger</country>
-  <url>https://en.wikipedia.org/wiki/Niger</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Niamey 13°30′49″N 2°06′32″E ﻿ / ﻿ 13.51361°N 2.10889°E ﻿ / 13.51361; 2.10889</Capital_and_largest_city>
       <Official_languages>Hausa</Official_languages>
-      <National_languages>Arabic Buduma Fulfulde Gourmanchéma Kanuri Songhai Tamasheq Tassawaq Tebu Zarma</National_languages>
-      <Ethnic_groups__2006_>
-        <Hausa>53.1%</Hausa>
-        <Zarma_and_Songhay>21.2%</Zarma_and_Songhay>
-        <Tuareg>11%</Tuareg>
-        <Fulani>6.5%</Fulani>
-        <Kanuri>5.9%</Kanuri>
-        <Gurma>0.8%</Gurma>
-        <Toubou>0.4%</Toubou>
-        <Arab>0.4%</Arab>
-        <others>0.9%</others>
-      </Ethnic_groups__2006_>
-      <Religion__2012_>
-        <Islam>99.3%</Islam>
+      <Ethnic_groups>
+        <Hausa____>53.1</Hausa____>
+        <Zarma_and_Songhay____>21.2</Zarma_and_Songhay____>
+        <Tuareg____>11</Tuareg____>
+        <Fulani____>6.5</Fulani____>
+        <Kanuri____>5.9</Kanuri____>
+        <Gurma____>0.8</Gurma____>
+        <Toubou____>0.4</Toubou____>
+        <Arab____>0.4</Arab____>
+        <others____>0.9</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>99.3</Islam____>
         <Christianity>
-          <percentage>0.3%</percentage>
+          <percentage>0.3</percentage>
           <breakdown>
-            <Animism>0.2%</Animism>
+            <Animism____>0.2</Animism____>
           </breakdown>
         </Christianity>
-        <irreligion>0.1%</irreligion>
-      </Religion__2012_>
-      <Demonym>Nigerien</Demonym>
+        <irreligion____>0.1</irreligion____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under a military junta</Government>
-      <President_and_President_of_the_National_Council_for_the_Safeguard_of_the_Homeland>Abdourahamane Tchiani</President_and_President_of_the_National_Council_for_the_Safeguard_of_the_Homeland>
-      <Vice_President_of_the_National_Council_for_the_Safeguard_of_the_Homeland>Salifou Modi</Vice_President_of_the_National_Council_for_the_Safeguard_of_the_Homeland>
-      <Prime_Minister>Ali Lamine Zeine</Prime_Minister>
-      <Legislature>National Council for the Safeguard of the Homeland</Legislature>
     </Government>
-    <Independence_from_France>
-      <Republic_proclaimed>18 December 1958</Republic_proclaimed>
-      <Declared>3 August 1960</Declared>
-      <n_2023_coup_d__tat>26 July 2023</n_2023_coup_d__tat>
-      <n_2025_transitional_charter>26 March 2025</n_2025_transitional_charter>
-    </Independence_from_France>
     <Area>
-      <Total>1,267,000 km 2 (489,000 sq mi) ( 21st )</Total>
+      <Total__km2_>1267000</Total__km2_>
       <Water____>0.02</Water____>
     </Area>
     <Population>
-      <n_2024_estimate>26,342,784 ( 56th )</n_2024_estimate>
-      <Density>21/km 2 (54.4/sq mi) ( 204th )</Density>
+      <Estimate>26342784</Estimate>
+      <Density___km2_>21</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$61.040 billion ( 128th )</Total>
-        <Per_capita>$2,100 ( 176th )</Per_capita>
+        <Total____>61040000000</Total____>
+        <Per_capita____>2100</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$21.870 billion ( 123rd )</Total>
-        <Per_capita>$751 ( 181st )</Per_capita>
+        <Total____>21870000000</Total____>
+        <Per_capita____>751</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>32.9 medium inequality</Gini__2021_>
-      <HDI__2023_>0.419 low ( 188th )</HDI__2023_>
-      <Currency>West African CFA franc ( XOF )</Currency>
+      <Gini>32.9</Gini>
+      <HDI>0.419</HDI>
+      <Currency>West African CFA franc</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( WAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+227</Calling_code>
-      <ISO_3166_code>NE</ISO_3166_code>
-      <Internet_TLD>.ne</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

@@ -1,60 +1,33 @@
 {
     "country": "Maldives",
-    "url": "https://en.wikipedia.org/wiki/Maldives",
     "infobox": {
         "General": {
-            "Capital and largest city": "Malé 4°10′31″N 73°30′32″E ﻿ / ﻿ 4.17528°N 73.50889°E ﻿ / 4.17528; 73.50889",
             "Official language and national language": "Dhivehi",
-            "Common language": "English",
-            "Religion": "Sunni Islam ( official )",
-            "Demonym": "Maldivian"
+            "Religion": "Sunni Islam"
         },
         "Government": {
-            "Government": "Unitary presidential republic",
-            "President": "Mohamed Muizzu",
-            "Vice President": "Hussain Mohamed Latheef",
-            "Speaker": "Abdul Raheem Abdulla",
-            "Chief Justice": "Abdul Ghanee Mohamed",
-            "Legislature": "People's Majlis"
-        },
-        "Independence from the United Kingdom": {
-            "Second Republic": "11 November 1968"
-        },
-        "History": {
-            "Independence declared": "26 July 1965",
-            "Current constitution": "7 August 2008"
+            "Government": "Unitary presidential republic"
         },
         "Area": {
-            "Total": "298 km 2 (115 sq mi) ( 187th )"
+            "Total (km2)": 298
         },
         "Population": {
-            "2024 estimate": "601,269",
-            "2022 census": "515,132 ( 167th )",
-            "Density": "1,728.63/km 2 (4,477.1/sq mi) ( 8th )",
-            "Date format": "dd / mm / yyyy"
+            "Estimate": 601269,
+            "Census": 515132,
+            "Density (/km2)": 1728.63
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2024 estimate",
-                "Total": "$13.867 billion ( 157th )",
-                "Per capita": "$34,322 ( 54th )"
+                "Total ($)": 13867000000,
+                "Per capita ($)": 34322
             },
             "GDP (nominal)": {
-                "Details": "2024 estimate",
-                "Total": "$6.984 billion ( 161st )",
-                "Per capita": "$17,287 ( 58th )"
+                "Total ($)": 6984000000,
+                "Per capita ($)": 17287
             },
-            "Gini (2024)": "31.3 medium inequality",
-            "HDI (2023)": "0.766 high ( 93rd )",
-            "Currency": "Maldivian rufiyaa ( MVR )"
-        },
-        "Time": {
-            "Time zone": "UTC +5 ( MVT )"
-        },
-        "Codes": {
-            "Calling code": "+960",
-            "ISO 3166 code": "MV",
-            "Internet TLD": ".mv"
+            "Gini": 31.3,
+            "HDI": 0.766,
+            "Currency": "Maldivian rufiyaa"
         }
     }
 }

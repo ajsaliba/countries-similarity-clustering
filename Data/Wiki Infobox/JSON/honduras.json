@@ -1,61 +1,38 @@
 {
     "country": "Honduras",
-    "url": "https://en.wikipedia.org/wiki/Honduras",
     "infobox": {
         "General": {
-            "Capital and largest city": "Tegucigalpa 14°6′N 87°13′W ﻿ / ﻿ 14.100°N 87.217°W ﻿ / 14.100; -87.217",
             "Official languages": "Spanish",
-            "Ethnic groups (2013)": {
-                "Mestizo": "82.93%",
-                "White": "7.87%",
-                "Indigenous": "7.25%",
-                "Black": "1.39%",
-                "other": "0.55%"
-            },
-            "Demonyms": "Honduran Catracho"
+            "Ethnic groups": {
+                "Mestizo (%)": 82.93,
+                "White (%)": 7.87,
+                "Indigenous (%)": 7.25,
+                "Black (%)": 1.39,
+                "other (%)": 0.55
+            }
         },
         "Government": {
-            "Government": "Unitary presidential republic",
-            "President": "Nasry Asfura",
-            "Vice Presidents": "María Antonieta Mejía Carlos Flores Guifarro Diana Herrera",
-            "President of National Congress": "Tomás Zambrano",
-            "Legislature": "National Congress"
-        },
-        "Independence": {
-            "Declared from Spain": "15 September 1821",
-            "Declared from the First Mexican Empire": "1 July 1823",
-            "Declared, as Honduras, from the Federal Republic of Central America": "5 November 1838"
+            "Government": "Unitary presidential republic"
         },
         "Area": {
-            "Total": "112,492 km 2 (43,433 sq mi) ( 101st )"
+            "Total (km2)": 112492
         },
         "Population": {
-            "2023 estimate": "9,571,352 ( 95th )",
-            "Density": "85/km 2 (220.1/sq mi) ( 128th )",
-            "Date format": "dd/mm/yyyy"
+            "Estimate": 9571352,
+            "Density (/km2)": 85
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$86.290 billion",
-                "Per capita": "$7,960"
+                "Total ($)": 86290000000,
+                "Per capita ($)": 7960
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$39.450 billion",
-                "Per capita": "$3,640"
+                "Total ($)": 39450000000,
+                "Per capita ($)": 3640
             },
-            "Gini (2018)": "52.1 high inequality",
-            "HDI (2023)": "0.645 medium ( 139th )",
-            "Currency": "Lempira ( HNL )"
-        },
-        "Time": {
-            "Time zone": "UTC −6 ( CST )"
-        },
-        "Codes": {
-            "Calling code": "+504",
-            "ISO 3166 code": "HN",
-            "Internet TLD": ".hn"
+            "Gini": 52.1,
+            "HDI": 0.645,
+            "Currency": "Lempira"
         }
     }
 }

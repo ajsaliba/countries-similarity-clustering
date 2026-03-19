@@ -1,94 +1,61 @@
 {
     "country": "Myanmar",
-    "url": "https://en.wikipedia.org/wiki/Myanmar",
     "infobox": {
         "General": {
-            "Capital": "Naypyidaw 21°00′N 96°00′E ﻿ / ﻿ 21.000°N 96.000°E ﻿ / 21.000; 96.000",
-            "Largest city": "Yangon",
             "Official language": "Burmese",
-            "Recognised regional languages": "Chin Kachin Karen Kayah Mon Rakhine Shan",
-            "Ethnic groups (2019 )": {
-                "Bamar": "68.78%",
-                "Karen": "6.69%",
-                "Rakhine": "4.61%",
-                "Shan": "4.51%",
-                "Mon": "2.19%",
-                "Chin": "2.09%",
-                "Kachin": "1.5%",
-                "Karenni": "0.39%"
+            "Ethnic groups": {
+                "Bamar (%)": 68.78,
+                "Karen (%)": 6.69,
+                "Rakhine (%)": 4.61,
+                "Shan (%)": 4.51,
+                "Mon (%)": 2.19,
+                "Chin (%)": 2.09,
+                "Kachin (%)": 1.5,
+                "Karenni (%)": 0.39
             },
-            "Religion ( 2014 )": {
-                "Buddhism ( official )": "87.9%",
+            "Religion": {
+                "Buddhism ( official ) (%)": 87.9,
                 "Christianity": {
-                    "percentage": "6.2%",
+                    "percentage": 6.2,
                     "breakdown": {
-                        "Protestantism": "4.91%",
-                        "Catholicism": "1.29%"
+                        "Protestantism (%)": 4.91,
+                        "Catholicism (%)": 1.29
                     }
                 },
-                "Islam": "4.3%",
+                "Islam (%)": 4.3,
                 "folk religion": {
-                    "percentage": "0.8%",
+                    "percentage": 0.8,
                     "breakdown": {
-                        "Hinduism": "0.5%",
-                        "no religion": "0.1%"
+                        "Hinduism (%)": 0.5,
+                        "no religion (%)": 0.1
                     }
                 },
-                "other": "0.2%"
-            },
-            "Demonyms": "Burmese Myanmar Myanma",
-            "SSPC Chairman": "Min Aung Hlaing",
-            "SSPC Vice Chairman": "Soe Win"
+                "other (%)": 0.2
+            }
         },
         "Government": {
-            "Government": "Unitary assembly-independent republic under a military junta",
-            "President": "Vacant ( Min Aung Hlaing serving Pro Tem On Duty)",
-            "Prime Minister": "Nyo Saw",
-            "Legislature": "Pyidaungsu Hluttaw",
-            "Upper house": "Amyotha Hluttaw (dissolved)",
-            "Lower house": "Pyithu Hluttaw",
-            "Independence from the United Kingdom": "4 January 1948"
-        },
-        "History": {
-            "Pagan era": "23 December 849",
-            "Taungoo era": "16 October 1510",
-            "Konbaung era": "29 February 1752",
-            "Colonial era": "1 January 1886",
-            "1962 coup d'état": "2 March 1962",
-            "1988 coup d'état": "18 September 1988",
-            "Current constitution": "29 May 2008",
-            "2021 coup d'état": "1 February 2021"
+            "Government": "Unitary assembly-independent republic under a military junta"
         },
         "Area": {
-            "Total": "676,579 km 2 (261,229 sq mi) ( 39th )",
-            "Water (%)": "3.06"
+            "Total (km2)": 676579,
+            "Water (%)": 3.06
         },
         "Population": {
-            "2022 estimate": "55,770,232 ( 26th )",
-            "Density": "217/sq mi (83.8/km 2 ) ( 127th )"
+            "Estimate": 55770232,
+            "Density": "217/sq mi"
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$273.200 billion ( 64th )",
-                "Per capita": "$4,950 ( 146th )"
+                "Total ($)": 273200000000,
+                "Per capita ($)": 4950
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$60.560 billion ( 87th )",
-                "Per capita": "$1,110 ( 164th )"
+                "Total ($)": 60560000000,
+                "Per capita ($)": 1110
             },
-            "Gini (2017)": "30.7 medium inequality",
-            "HDI (2023)": "0.609 medium ( 150th )",
-            "Currency": "Myanmar kyat (K) ( MMK )"
-        },
-        "Time": {
-            "Time zone": "UTC +06:30 ( MMT )"
-        },
-        "Codes": {
-            "Calling code": "+95",
-            "ISO 3166 code": "MM",
-            "Internet TLD": ".mm"
+            "Gini": 30.7,
+            "HDI": 0.609,
+            "Currency": "Myanmar kyat"
         }
     }
 }

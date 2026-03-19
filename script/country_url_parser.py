@@ -68,17 +68,28 @@ class CountryInfoboxExtractor:
             }
         )
 
+        # Sections to exclude entirely from the extracted infobox
+        self.excluded_sections: set[str] = {
+            "Establishment", "History", "Time", "Codes",
+        }
+
+        # Fields to exclude from the General section
+        self.excluded_general_fields: set[str] = {
+            "capital", "demonym", "largest city", "federal city",
+        }
+
+        # In the Government section, only keep the government type field itself
+        self.government_only_field: str = "government"
+
         self.section_rules: list[tuple[str, tuple[str, ...]]] = [
             (
                 "General",
                 (
-                    "capital",
                     "official language",
                     "recognized",
                     "recognised",
                     "ethnic",
                     "religion",
-                    "demonym",
                     "motto",
                     "anthem",
                 ),
@@ -116,20 +127,6 @@ class CountryInfoboxExtractor:
                     "debt",
                     "revenue",
                     "expenditure",
-                ),
-            ),
-            ("Time", ("time zone", "dst", "utc", "calendar")),
-            ("Codes", ("iso", "internet tld", "calling code", "driving side", "cctld")),
-            (
-                "History",
-                (
-                    "formation",
-                    "independence",
-                    "constitution",
-                    "established",
-                    "founded",
-                    "annexed",
-                    "unification",
                 ),
             ),
         ]
@@ -244,8 +241,47 @@ class CountryInfoboxExtractor:
         }
         return aliases.get(name.strip().lower(), name.strip())
 
+    # Only these fields are kept in the General section
+    _allowed_general_fields: tuple[str, ...] = (
+        "official language",
+        "ethnic group",
+        "religion",
+    )
+
+    def is_excluded_field(self, key: str, section: str) -> bool:
+        """Check if a field should be excluded based on section and key."""
+        if section == "General":
+            key_lower = key.lower()
+            # Only keep Official languages, Ethnic groups, and Religion
+            if not any(allowed in key_lower for allowed in self._allowed_general_fields):
+                return True
+        if section == "Government":
+            # Only keep the government type field, exclude all others
+            if key.lower() != self.government_only_field:
+                return True
+        if section == "Population":
+            if "date format" in key.lower():
+                return True
+        return False
+
+    # Keywords for fields that belong to excluded sections — used to skip them
+    _excluded_field_keywords: tuple[str, ...] = (
+        "time zone", "dst", "utc", "calendar",
+        "iso", "internet tld", "calling code", "driving side", "cctld",
+        "formation", "independence", "constitution", "established",
+        "founded", "annexed", "unification",
+    )
+
     def infer_section_for_key(self, key: str, fallback_section: str) -> str:
         key_lower = key.lower()
+        # Check if the field belongs to an excluded section by keyword
+        if any(kw in key_lower for kw in self._excluded_field_keywords):
+            # Route to the matching excluded section name so it gets filtered
+            if any(kw in key_lower for kw in ("time zone", "dst", "utc", "calendar")):
+                return "Time"
+            if any(kw in key_lower for kw in ("iso", "internet tld", "calling code", "driving side", "cctld")):
+                return "Codes"
+            return "History"
         for section, keywords in self.section_rules:
             if any(keyword in key_lower for keyword in keywords):
                 return section
@@ -294,6 +330,8 @@ class CountryInfoboxExtractor:
                 if not section_name:
                     section_name = "General"
                 current_section = self.normalize_section_name(section_name)
+                if current_section in self.excluded_sections:
+                    continue
                 ensure_section(current_section)
                 current_parent_by_section[current_section] = None
                 active_parent_section = None
@@ -320,6 +358,12 @@ class CountryInfoboxExtractor:
                 else:
                     target_section = self.infer_section_for_key(key, current_section)
                     parent_key = current_parent_by_section.get(target_section)
+
+                # Skip excluded sections and fields
+                if target_section in self.excluded_sections:
+                    continue
+                if self.is_excluded_field(key, target_section):
+                    continue
 
                 ensure_section(target_section)
                 section_payload = parsed[target_section]
@@ -368,7 +412,127 @@ class CountryInfoboxExtractor:
         if "General" in parsed and not parsed["General"]:
             del parsed["General"]
 
+        # Fallback: fill missing Religion / Ethnic groups from article body
+        general = parsed.get("General", {})
+        has_religion = "Religion" in general and not (
+            isinstance(general.get("Religion"), str)
+            and "see" in general.get("Religion", "").lower()
+        )
+        has_ethnic = any("ethnic" in k.lower() for k in general)
+
+        if not has_religion or not has_ethnic:
+            if "General" not in parsed:
+                parsed["General"] = {}
+            body_data = self._parse_demographics_from_body(soup)
+            if not has_religion and body_data.get("Religion"):
+                parsed["General"]["Religion"] = body_data["Religion"]
+            if not has_ethnic and body_data.get("Ethnic groups"):
+                parsed["General"]["Ethnic groups"] = body_data["Ethnic groups"]
+            # Remove "See X" placeholder if we got real data
+            if has_religion is False and isinstance(general.get("Religion"), str):
+                if body_data.get("Religion"):
+                    parsed["General"]["Religion"] = body_data["Religion"]
+
+        if "General" in parsed and not parsed["General"]:
+            del parsed["General"]
+
         return parsed
+
+    def _extract_section_text(self, soup: BeautifulSoup, section_id: str) -> str:
+        """Extract all paragraph text from an article body section until the next heading."""
+        heading = soup.find(id=section_id)
+        if heading is None:
+            return ""
+
+        # Go to the parent div wrapper (mw-heading) then iterate siblings
+        parent = heading.parent
+        if parent and "mw-heading" in " ".join(parent.get("class", [])):
+            start = parent
+        else:
+            start = heading
+
+        texts: list[str] = []
+        for sibling in start.next_siblings:
+            if sibling.name and re.match(r"h[1-4]", sibling.name):
+                break
+            if sibling.name and "mw-heading" in " ".join(sibling.get("class", [])):
+                break
+            if sibling.name in ("p", "ul", "ol", "div"):
+                texts.append(self.clean_text(self.remove_references(sibling.get_text(" ", strip=True))))
+
+        return " ".join(texts)
+
+    def _parse_percentages_from_text(self, text: str) -> dict[str, float]:
+        """Extract label-percentage pairs from article body text.
+
+        Handles formats like:
+            '49.7% Christianity', 'Islam 8.3%',
+            'Roman Catholics representing 29.9 percent',
+            'identified as Protestant at 23.1%'
+        """
+        results: dict[str, float] = {}
+        if not text:
+            return results
+
+        # Normalize "percent" to "%"
+        text = re.sub(r"(\d)\s+percent\b", r"\1%", text, flags=re.IGNORECASE)
+
+        # Pattern 1: "X% Label" — e.g., "49.7% Christianity"
+        for m in re.finditer(
+            r"(\d+(?:\.\d+)?)\s*%\s+(?:are\s+|identified\s+as\s+|of\s+the\s+population\s+)?([A-Z][a-zA-Zé\- ]{1,40})",
+            text,
+        ):
+            pct, label = float(m.group(1)), m.group(2).strip().rstrip(" .,;and")
+            if label and 0 < pct <= 100:
+                results[label] = pct
+
+        # Pattern 2: "Label X%" or "Label at X%" or "Label (X%)"
+        for m in re.finditer(
+            r"([A-Z][a-zA-Zé\- ]{1,40?})\s+(?:at\s+|represent(?:ing|s)?\s+|with\s+|comprising\s+)?(\d+(?:\.\d+)?)\s*%",
+            text,
+        ):
+            label, pct = m.group(1).strip().rstrip(" .,;and"), float(m.group(2))
+            if label and 0 < pct <= 100:
+                if label not in results:
+                    results[label] = pct
+
+        return results
+
+    def _parse_demographics_from_body(self, soup: BeautifulSoup) -> dict[str, Any]:
+        """Parse Religion and Ethnic group data from the article body as fallback."""
+        result: dict[str, Any] = {}
+
+        # Try multiple possible section IDs for religion
+        for section_id in ("Religion", "Religion_2", "Religions"):
+            religion_text = self._extract_section_text(soup, section_id)
+            if religion_text:
+                break
+
+        if religion_text:
+            pcts = self._parse_percentages_from_text(religion_text)
+            if pcts:
+                # Use parse_percentage_items + build_percentage_tree for consistency
+                items = [(v, k) for k, v in sorted(pcts.items(), key=lambda x: -x[1])]
+                if len(items) >= 2:
+                    result["Religion"] = self.build_percentage_tree(items)
+
+        # Try multiple possible section IDs for ethnic groups
+        for section_id in ("Ethnic_groups", "Ethnicity", "Demographics", "Ethnic_groups_2"):
+            ethnic_text = self._extract_section_text(soup, section_id)
+            if ethnic_text:
+                break
+
+        if ethnic_text:
+            pcts = self._parse_percentages_from_text(ethnic_text)
+            if pcts:
+                items = [(v, k) for k, v in sorted(pcts.items(), key=lambda x: -x[1])]
+                if len(items) >= 2:
+                    result["Ethnic groups"] = {
+                        label: self.format_percentage(percent)
+                        for percent, label in items
+                    }
+
+        return result
 
     def parse_percentage_items(self, text: str) -> list[tuple[float, str]]:
         pattern = re.compile(r"(\d+(?:\.\d+)?)\s*%\s*([^%]+?)(?=(?:\d+(?:\.\d+)?)\s*%|$)")
@@ -438,7 +602,11 @@ class CountryInfoboxExtractor:
 
     def normalize_value(self, field_key: str, raw_value: Any) -> Any:
         if isinstance(raw_value, dict):
-            return {self.clean_value_text(k): self.normalize_value(k, v) for k, v in raw_value.items() if self.clean_value_text(k)}
+            return {
+                self.clean_value_text(k): self.normalize_value(k, v)
+                for k, v in raw_value.items()
+                if self.clean_value_text(k) and self.clean_value_text(k) != "Details"
+            }
 
         if isinstance(raw_value, list):
             normalized_items = [self.normalize_value(field_key, item) for item in raw_value]
@@ -457,7 +625,176 @@ class CountryInfoboxExtractor:
                 return self.build_percentage_tree(percentage_items)
             return {label: self.format_percentage(percent) for percent, label in percentage_items}
 
+        # Remove all parenthetical content from values
+        text = re.sub(r"\s*\([^)]*\)", "", text).strip()
+        # Clean up any trailing/leading punctuation left over
+        text = re.sub(r"(?:^[,;:\s]+|[,;:\s]+$)", "", text).strip()
+
         return text
+
+    @staticmethod
+    def strip_year_from_field(field: str) -> str:
+        """Remove year-related parenthetical info from field names.
+
+        Examples:
+            'Ethnic groups (2024 est.)' -> 'Ethnic groups'
+            'Religion (2019 census)'    -> 'Religion'
+            'Gini (2021)'              -> 'Gini'
+            'HDI (2023)'               -> 'HDI'
+            '2024 estimate'            -> 'Estimate'
+            'January 2025 estimate'    -> 'Estimate'
+            'mid-2024/2025 estimate'   -> 'Estimate'
+            'Nationality (2024)'       -> 'Nationality'
+        """
+        # Remove parenthetical containing a year: "Field (2021)" -> "Field"
+        # Also handles "Field ( 2021 )", "Field (2021 census)", etc.
+        cleaned = re.sub(r"\s*\([^()]*\b(?:19|20)\d{2}\b[^()]*\)", "", field)
+        # Handle nested parens: "Gini (2022 (last available data))"
+        # If a year-containing paren still remains (nested case), strip it
+        if re.search(r"\(\s*(?:19|20)\d{2}", cleaned):
+            cleaned = re.sub(r"\s*\(.*\b(?:19|20)\d{2}\b.*\)", "", field)
+
+        # Handle fields that START with a year/date: "2024 estimate" -> "Estimate"
+        # Matches: "2024 estimate", "January 2025 estimate", "mid-2024/2025 estimate",
+        # "Q3 2025 estimate", "30 June 2025 estimate", etc.
+        if re.match(r"^[\w\-./,\s]*\b(?:19|20)\d{2}\b[\w\-./,\s]*$", cleaned):
+            # Extract the trailing descriptor (estimate, census)
+            match = re.search(r"(estimate|census)\s*$", cleaned, re.IGNORECASE)
+            if match:
+                cleaned = match.group(1).capitalize()
+            else:
+                cleaned = "Estimate"
+
+        return cleaned.strip()
+
+    @staticmethod
+    def _expand_number(raw: str) -> str:
+        """Convert word-based multipliers to full numbers.
+
+        Examples:
+            "682.86 billion" -> "682860000000"
+            "1.493 trillion" -> "1493000000000"
+            "31,379"         -> "31379"  (just strip commas)
+        """
+        multipliers = {
+            "trillion": 1_000_000_000_000,
+            "billion": 1_000_000_000,
+            "million": 1_000_000,
+            "thousand": 1_000,
+        }
+        raw = raw.strip()
+        for word, factor in multipliers.items():
+            m = re.match(
+                rf"^([\d,.\-–]+)\s*{word}$", raw, re.IGNORECASE
+            )
+            if m:
+                num_str = m.group(1).replace(",", "")
+                try:
+                    result = float(num_str) * factor
+                    # Return as integer string if it's a whole number
+                    if result == int(result):
+                        return str(int(result))
+                    return f"{result:.0f}"
+                except ValueError:
+                    return raw
+        # No multiplier word — just strip commas
+        return raw.replace(",", "")
+
+    @staticmethod
+    def extract_unit_from_value(key: str, value: Any) -> tuple[str, Any]:
+        """Extract units from numeric values and move them into the key.
+
+        Returns (new_key, new_value).
+        """
+        if not isinstance(value, str):
+            return key, value
+
+        # Area fields: "83,879 km 2" -> key "(km2)", value "83879"
+        m = re.match(r"^([\d,.\-–]+)\s+km\s*2\s*$", value)
+        if m:
+            return f"{key} (km2)", m.group(1).replace(",", "")
+
+        # Area fields: "3,531,905 sq mi" -> key "(sq mi)", value "3531905"
+        m = re.match(r"^([\d,.\-–]+)\s+sq\s+mi\s*$", value)
+        if m:
+            return f"{key} (sq mi)", m.group(1).replace(",", "")
+
+        # Density: "64/km 2" -> key "(/km2)", value "64"
+        m = re.match(r"^([\d,.\-–]+)\s*/\s*km\s*2\s*$", value)
+        if m:
+            return f"{key} (/km2)", m.group(1).replace(",", "")
+
+        # GDP Total/Per capita: "$91.668 billion" -> key "($)", value "91668000000"
+        m = re.match(r"^\$\s*([\d,.\-–]+\s*(?:trillion|billion|million)?)\s*$", value)
+        if m:
+            return f"{key} ($)", CountryInfoboxExtractor._expand_number(m.group(1).strip())
+
+        # Gini: "29.4 low inequality" -> value "29.4"
+        if key.lower() == "gini":
+            m = re.match(r"^([\d.]+)", value)
+            if m:
+                return key, m.group(1)
+
+        # HDI: "0.496 low" -> value "0.496"
+        if key.lower() == "hdi":
+            m = re.match(r"^([\d.]+)", value)
+            if m:
+                return key, m.group(1)
+
+        # Water (%): "28%" or "1.8" — strip % if present
+        if "water" in key.lower() and "%" in key.lower():
+            value = value.rstrip("%").strip()
+            return key, value
+
+        # Percentage values: "55.2%" -> key "(%), value "55.2"
+        # For the "percentage" key, just strip the % sign (key already implies it)
+        m = re.match(r"^([\d.]+)%$", value)
+        if m:
+            if key.lower() == "percentage":
+                return key, m.group(1)
+            return f"{key} (%)", m.group(1)
+
+        # General: pure comma-separated numbers "46,735,004" -> "46735004"
+        # Also handles "682.86 billion" -> "682860000000" for non-GDP fields
+        m = re.match(r"^[\d,.\-–]+\s*(?:trillion|billion|million|thousand)?$", value)
+        if m:
+            return key, CountryInfoboxExtractor._expand_number(value)
+
+        return key, value
+
+    def _extract_units_recursive(self, key: str, value: Any) -> tuple[str, Any]:
+        """Apply unit extraction recursively into dicts."""
+        if isinstance(value, dict):
+            new_dict: dict[str, Any] = {}
+            for k, v in value.items():
+                new_k, new_v = self._extract_units_recursive(k, v)
+                new_dict[new_k] = new_v
+            return key, new_dict
+        return self.extract_unit_from_value(key, value)
+
+    @staticmethod
+    def _convert_numeric(value: Any) -> Any:
+        """Recursively convert string values that represent numbers to int or float."""
+        if isinstance(value, dict):
+            return {k: CountryInfoboxExtractor._convert_numeric(v) for k, v in value.items()}
+        if isinstance(value, list):
+            return [CountryInfoboxExtractor._convert_numeric(v) for v in value]
+        if isinstance(value, str):
+            # Only convert pure numeric strings (int or float)
+            # Skip strings with ranges (–), text, or other non-numeric content
+            stripped = value.strip()
+            if not stripped:
+                return value
+            try:
+                # Try integer first
+                if re.fullmatch(r"-?\d+", stripped):
+                    return int(stripped)
+                # Try float
+                if re.fullmatch(r"-?\d+\.\d+", stripped):
+                    return float(stripped)
+            except (ValueError, OverflowError):
+                pass
+        return value
 
     def normalize_infobox_sections(self, infobox_sections: dict[str, dict[str, Any]]) -> dict[str, Any]:
         normalized: dict[str, Any] = {}
@@ -466,6 +803,12 @@ class CountryInfoboxExtractor:
             clean_section = self.clean_value_text(section_name)
             if not clean_section:
                 continue
+            if clean_section in self.excluded_sections:
+                continue
+            if "independence" in clean_section.lower() or "formation" in clean_section.lower():
+                continue
+            if "historical" in clean_section.lower() or "unification" in clean_section.lower():
+                continue
 
             normalized_section: dict[str, Any] = {}
             for field_name, field_value in section_payload.items():
@@ -473,16 +816,29 @@ class CountryInfoboxExtractor:
                 if not clean_field:
                     continue
 
+                # Strip year info from field names
+                clean_field = self.strip_year_from_field(clean_field)
+                if not clean_field:
+                    continue
+
                 normalized_value = self.normalize_value(clean_field, field_value)
                 if normalized_value in ("", None, [], {}):
                     continue
 
-                normalized_section[clean_field] = normalized_value
+                # Extract units from values into keys
+                clean_field, normalized_value = self._extract_units_recursive(
+                    clean_field, normalized_value
+                )
+
+                # First value wins for duplicate canonical names
+                if clean_field not in normalized_section:
+                    normalized_section[clean_field] = normalized_value
 
             if normalized_section:
                 normalized[clean_section] = normalized_section
 
-        return normalized
+        # Convert all numeric strings to actual int/float values
+        return self._convert_numeric(normalized)
 
     def fetch(self) -> None:
         try:
@@ -498,7 +854,6 @@ class CountryInfoboxExtractor:
                     self.data.append(
                         {
                             "country": country_name,
-                            "url": country_url,
                             "infobox": structured_infobox,
                         }
                     )
@@ -506,7 +861,6 @@ class CountryInfoboxExtractor:
                     self.data.append(
                         {
                             "country": country_name,
-                            "url": country_url,
                             "infobox": {},
                             "error": str(country_error),
                         }

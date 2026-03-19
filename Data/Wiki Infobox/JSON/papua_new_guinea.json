@@ -1,69 +1,45 @@
 {
     "country": "Papua New Guinea",
-    "url": "https://en.wikipedia.org/wiki/Papua_New_Guinea",
     "infobox": {
         "General": {
-            "Capital and largest city": "Port Moresby 09°28′44″S 147°08′58″E ﻿ / ﻿ 9.47889°S 147.14944°E ﻿ / -9.47889; 147.14944",
             "Official languages": "English Hiri Motu PNG Sign Language Tok Pisin",
-            "Indigenous languages": "839 languages",
-            "Religion (2011)": {
+            "Religion": {
                 "Christianity ( official )": {
-                    "percentage": "95.5%",
+                    "percentage": 95.5,
                     "breakdown": {
-                        "Protestantism": "64.3%",
-                        "Catholicism": "26%",
-                        "other Christian": "5.2%"
+                        "Protestantism (%)": 64.3,
+                        "Catholicism (%)": 26,
+                        "other Christian (%)": 5.2
                     }
                 },
-                "unspecified": "3.1%",
-                "others or none": "1.4%"
-            },
-            "Demonym": "Papua New Guinean",
-            "Monarch": "Charles III",
-            "Governor-General": "Bob Dadae"
+                "unspecified (%)": 3.1,
+                "others or none (%)": 1.4
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy",
-            "Prime Minister": "James Marape",
-            "Legislature": "National Parliament"
-        },
-        "Independence from Australia": {
-            "Administrative union": "1 July 1949"
-        },
-        "History": {
-            "Independence": "16 September 1975"
+            "Government": "Unitary parliamentary constitutional monarchy"
         },
         "Area": {
-            "Total": "462,840 km 2 (178,700 sq mi) ( 54th )",
-            "Water (%)": "2.2"
+            "Total (km2)": 462840,
+            "Water (%)": 2.2
         },
         "Population": {
-            "2021 estimate": "11,781,559 ( 82nd )",
-            "2024 census": "10,185,363",
-            "Density": "25.5/km 2 (66.0/sq mi)"
+            "Estimate": 11781559,
+            "Census": 10185363,
+            "Density (/km2)": 25.5
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$41.810 billion ( 135th )",
-                "Per capita": "$3,760 ( 162th )"
+                "Total ($)": 41810000000,
+                "Per capita ($)": 3760
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$32.840 billion ( 108th )",
-                "Per capita": "$2,560 ( 142th )"
+                "Total ($)": 32840000000,
+                "Per capita ($)": 2560
             },
-            "Gini (2009)": "41.9 medium inequality",
-            "HDI (2023)": "0.576 medium ( 160th )",
-            "Currency": "Kina ( PGK )"
-        },
-        "Time": {
-            "Time zone": "UTC +10, +11 ( PNGST )"
-        },
-        "Codes": {
-            "Calling code": "+675",
-            "ISO 3166 code": "PG",
-            "Internet TLD": ".pg"
+            "Gini": 41.9,
+            "HDI": 0.576,
+            "Currency": "Kina"
         }
     }
 }

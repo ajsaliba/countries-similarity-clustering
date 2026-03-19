@@ -1,92 +1,57 @@
 {
     "country": "Madagascar",
-    "url": "https://en.wikipedia.org/wiki/Madagascar",
     "infobox": {
         "General": {
-            "Capital and largest city": "Antananarivo 18°55′S 47°31′E ﻿ / ﻿ 18.917°S 47.517°E ﻿ / -18.917; 47.517",
             "Official languages": "Malagasy French",
-            "Ethnic groups (2017)": {
-                "Merina": "26%",
-                "Betsimisaraka": "15%",
-                "Betsileo": "12%",
-                "Tsimihety": "7%",
-                "Sakalava": "6%",
-                "Antaisaka": "5%",
-                "Antandroy": "5%",
-                "others": "24%"
+            "Ethnic groups": {
+                "Merina (%)": 26,
+                "Betsimisaraka (%)": 15,
+                "Betsileo (%)": 12,
+                "Tsimihety (%)": 7,
+                "Sakalava (%)": 6,
+                "Antaisaka (%)": 5,
+                "Antandroy (%)": 5,
+                "others (%)": 24
             },
-            "Religion (2020)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "84.7%",
+                    "percentage": 84.7,
                     "breakdown": {
-                        "Protestantism": "45.8%",
-                        "Catholicism": "38.1%",
-                        "other Christian": "0.8%"
+                        "Protestantism (%)": 45.8,
+                        "Catholicism (%)": 38.1,
+                        "other Christian (%)": 0.8
                     }
                 },
-                "no religion": "7.3%",
-                "traditional faiths": "4.7%",
-                "Islam": "3.1%",
-                "others": "0.3%"
-            },
-            "Demonym": "Malagasy"
+                "no religion (%)": 7.3,
+                "traditional faiths (%)": 4.7,
+                "Islam (%)": 3.1,
+                "others (%)": 0.3
+            }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic under a transitional government",
-            "President": "Michael Randrianirina",
-            "Prime Minister": "Mamitiana Rajaonarison",
-            "Legislature": "Parliament",
-            "Upper house": "Senate (suspended)",
-            "Lower house": "National Assembly",
-            "Kingdom": "c. 1540"
-        },
-        "History": {
-            "French protectorate": "c. 1882",
-            "French colony": "6 August 1896",
-            "Republic proclaimed": "14 October 1958",
-            "Declaration of independence": "26 June 1960",
-            "Referendum": [
-                "21 December 1975",
-                "17 November 2010"
-            ],
-            "Socialist state": "30 December 1975 – 12 January 1992",
-            "Third Republic": "12 January 1992 – 11 December 2010",
-            "Current constitution": "11 December 2010",
-            "2025 Malagasy protests": "25 September – 14 October 2025",
-            "Coup d'etat": "12–14 October 2025"
+            "Government": "Unitary semi-presidential republic under a transitional government"
         },
         "Area": {
-            "Total": "592,796 km 2 (228,880 sq mi) ( 46th )",
-            "Water": "5,501 km 2 (2,124 sq mi)",
-            "Water (%)": "0.9%"
+            "Total (km2)": 592796,
+            "Water (km2)": 5501,
+            "Water (%)": 0.9
         },
         "Population": {
-            "2024 estimate": "31,964,956 ( 49th )",
-            "Density": "55/km 2 (142.4/sq mi) ( 164th )",
-            "Date format": "dd/mm/yyyy"
+            "Estimate": 31964956,
+            "Density (/km2)": 55
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2026 estimate",
-                "Total": "$68.110 billion ( 117th )",
-                "Per capita": "$2,110 ( 182nd )"
+                "Total ($)": 68110000000,
+                "Per capita ($)": 2110
             },
             "GDP (nominal)": {
-                "Details": "2026 estimate",
-                "Total": "$21.090 billion ( 139th )",
-                "Per capita": "$652 ( 188th )"
+                "Total ($)": 21090000000,
+                "Per capita ($)": 652
             },
-            "Gini (2012)": "42.6 medium inequality",
-            "HDI (2023)": "0.487 low ( 183rd )",
-            "Currency": "Ariary ( MGA )"
-        },
-        "Time": {
-            "Time zone": "UTC +3 ( EAT )"
-        },
-        "Codes": {
-            "Calling code": "+261",
-            "ISO 3166 code": "MG",
-            "Internet TLD": ".mg"
+            "Gini": 42.6,
+            "HDI": 0.487,
+            "Currency": "Ariary"
         }
     }
 }

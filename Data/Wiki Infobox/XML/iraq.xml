@@ -1,75 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Iraq</country>
-  <url>https://en.wikipedia.org/wiki/Iraq</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Baghdad 33°20′N 44°23′E ﻿ / ﻿ 33.333°N 44.383°E ﻿ / 33.333; 44.383</Capital_and_largest_city>
       <Official_languages>Arabic Kurdish</Official_languages>
-      <Recognised_regional_languages>Assyrian Armenian Turkmen</Recognised_regional_languages>
-      <Ethnic_groups__1987_>
-        <Arabs_15_>80%</Arabs_15_>
-        <Kurds_5_>20%</Kurds_5_>
-        <Assyrians___Turkmen___Jews___Persians___Yazidis___Mandaeans___and_others>10%</Assyrians___Turkmen___Jews___Persians___Yazidis___Mandaeans___and_others>
-      </Ethnic_groups__1987_>
-      <Religion__2020_>
-        <Islam___official__>95%</Islam___official__>
-        <Shia>61%</Shia>
-        <Sunni_5_>35%</Sunni_5_>
-        <Christianity___Mandaeism___Yazidism___Judaism___Yarsanism___irreligion_and_others>10%</Christianity___Mandaeism___Yazidism___Judaism___Yarsanism___irreligion_and_others>
-      </Religion__2020_>
-      <Demonym>Iraqi</Demonym>
+      <Ethnic_groups>
+        <Arabs_15_____>80</Arabs_15_____>
+        <Kurds_5_____>20</Kurds_5_____>
+        <Assyrians___Turkmen___Jews___Persians___Yazidis___Mandaeans___and_others____>10</Assyrians___Turkmen___Jews___Persians___Yazidis___Mandaeans___and_others____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam___official______>95</Islam___official______>
+        <Shia____>61</Shia____>
+        <Sunni_5_____>35</Sunni_5_____>
+        <Christianity___Mandaeism___Yazidism___Judaism___Yarsanism___irreligion_and_others____>10</Christianity___Mandaeism___Yazidism___Judaism___Yarsanism___irreligion_and_others____>
+      </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary republic</Government>
-      <President>Abdul Latif Rashid</President>
-      <Prime_Minister>Mohammed Shia' al-Sudani</Prime_Minister>
-      <Speaker>Haibat al-Halbousi</Speaker>
-      <Legislature>Council of Representatives</Legislature>
-      <Upper_house>Federation Council</Upper_house>
-      <Lower_house>Council of Representatives</Lower_house>
     </Government>
-    <Establishment>
-      <Sumer>c. 3300 BC</Sumer>
-      <Akkadian_Empire>c. 2334 BC</Akkadian_Empire>
-      <Babylonia>c. 1890 BC</Babylonia>
-      <Abbasid_Caliphate>750 AD</Abbasid_Caliphate>
-      <Republic_declared>14 July 1958</Republic_declared>
-    </Establishment>
-    <History>
-      <Independence_declared>3 October 1932</Independence_declared>
-      <Current_constitution>15 October 2005</Current_constitution>
-    </History>
     <Area>
-      <Total>438,317 km 2 (169,235 sq mi) ( 58th )</Total>
-      <Water____>4.93 (as of 2024)</Water____>
+      <Total__km2_>438317</Total__km2_>
+      <Water____>4.93</Water____>
     </Area>
     <Population>
-      <n_2024_census>46,118,793 ( 34th )</n_2024_census>
-      <Density>82.7/km 2 (214.2/sq mi) ( 125th )</Density>
+      <Census>46118793</Census>
+      <Density___km2_>82.7</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$690.090 billion ( 44th )</Total>
-        <Per_capita>$15,180 ( 110th )</Per_capita>
+        <Total____>690090000000</Total____>
+        <Per_capita____>15180</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$258.020 billion ( 51st )</Total>
-        <Per_capita>$5,670 ( 112th )</Per_capita>
+        <Total____>258020000000</Total____>
+        <Per_capita____>5670</Per_capita____>
       </GDP__nominal_>
-      <Gini__2012_>29.5 low inequality</Gini__2012_>
-      <HDI__2024_>0.712 high ( 122nd )</HDI__2024_>
-      <Currency>Iraqi dinar ( IQD )</Currency>
+      <Gini>29.5</Gini>
+      <HDI>0.712</HDI>
+      <Currency>Iraqi dinar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +3 ( AST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+964</Calling_code>
-      <ISO_3166_code>IQ</ISO_3166_code>
-      <Internet_TLD>.iq .العراق</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

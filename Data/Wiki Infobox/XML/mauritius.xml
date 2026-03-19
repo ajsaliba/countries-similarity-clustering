@@ -1,77 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Mauritius</country>
-  <url>https://en.wikipedia.org/wiki/Mauritius</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Port Louis 20°12′S 57°30′E ﻿ / ﻿ 20.2°S 57.5°E ﻿ / -20.2; 57.5</Capital_and_largest_city>
-      <Official_languages>None ( de jure ) English French ( de facto )</Official_languages>
-      <Language_spoken_at_home__2022_>
-        <Mauritian_Creole>90%</Mauritian_Creole>
-        <Bhojpuri>5.1%</Bhojpuri>
-        <French>4.4%</French>
-        <English>0.6%</English>
-      </Language_spoken_at_home__2022_>
+      <Official_languages>None English French</Official_languages>
       <Ethnic_groups>
-        <Indian>67%</Indian>
-        <Creole>28%</Creole>
-        <Chinese>3%</Chinese>
-        <French>2%</French>
+        <Indian____>67</Indian____>
+        <Creole____>28</Creole____>
+        <Chinese____>3</Chinese____>
+        <French____>2</French____>
       </Ethnic_groups>
-      <Religion__2022_>
-        <Hinduism>47.9%</Hinduism>
-        <Christianity>32.3%</Christianity>
-        <Islam>18.2%</Islam>
-        <others___none>1.6%</others___none>
-      </Religion__2022_>
-      <Demonym>Mauritian</Demonym>
+      <Religion>
+        <Hinduism____>47.9</Hinduism____>
+        <Christianity____>32.3</Christianity____>
+        <Islam____>18.2</Islam____>
+        <others___none____>1.6</others___none____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Dharam Gokhool</President>
-      <Vice_President>Robert Hungley</Vice_President>
-      <Prime_Minister>Navin Ramgoolam</Prime_Minister>
-      <Deputy_Prime_Minister>Paul Bérenger</Deputy_Prime_Minister>
-      <Speaker_of_the_National_Assembly>Shirin Aumeeruddy-Cziffra</Speaker_of_the_National_Assembly>
-      <Legislature>National Assembly</Legislature>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Republic>12 March 1992</Republic>
-    </Independence_from_the_United_Kingdom>
-    <History>
-      <Constitution_of_Mauritius>12 March 1968</Constitution_of_Mauritius>
-    </History>
     <Area>
-      <Total>2,040 km 2 (790 sq mi) ( 169th )</Total>
+      <Total__km2_>2040</Total__km2_>
       <Water____>0.07</Water____>
     </Area>
     <Population>
-      <n_2022_census>1,235,260</n_2022_census>
-      <Density>605.5/km 2 (1,568.2/sq mi) ( 18th )</Density>
-      <Date_format>dd/mm/yyyy ( AD )</Date_format>
+      <Census>1235260</Census>
+      <Density___km2_>605.5</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$42.810 billion ( 137th )</Total>
-        <Per_capita>$33,954 ( 60th )</Per_capita>
+        <Total____>42810000000</Total____>
+        <Per_capita____>33954</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$16.515 billion ( 133rd )</Total>
-        <Per_capita>$13,099 ( 69th )</Per_capita>
+        <Total____>16515000000</Total____>
+        <Per_capita____>13099</Per_capita____>
       </GDP__nominal_>
-      <Gini__2017_>36.8 medium inequality</Gini__2017_>
-      <HDI__2023_>0.806 very high ( 73rd )</HDI__2023_>
-      <Currency>Mauritian rupee ( MUR )</Currency>
+      <Gini>36.8</Gini>
+      <HDI>0.806</HDI>
+      <Currency>Mauritian rupee</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +4 ( MUT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+230</Calling_code>
-      <ISO_3166_code>MU</ISO_3166_code>
-      <Internet_TLD>.mu</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

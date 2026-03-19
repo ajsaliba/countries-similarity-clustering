@@ -1,90 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Vietnam</country>
-  <url>https://en.wikipedia.org/wiki/Vietnam</url>
   <infobox>
     <General>
-      <Capital>Hanoi 21°2′N 105°51′E ﻿ / ﻿ 21.033°N 105.850°E ﻿ / 21.033; 105.850</Capital>
-      <Largest_city_by_municipal_boundary>Da Nang 16°20′N 107°35′E ﻿ / ﻿ 16.333°N 107.583°E ﻿ / 16.333; 107.583</Largest_city_by_municipal_boundary>
       <Official_language>Vietnamese</Official_language>
-      <Ethnic_groups__2019_>
-        <Kinh_Vietnamese>85.32%</Kinh_Vietnamese>
-        <other>14.68%</other>
-      </Ethnic_groups__2019_>
-      <Religion__2019_>
-        <no_religion___folk>86.32%</no_religion___folk>
+      <Ethnic_groups>
+        <Kinh_Vietnamese____>85.32</Kinh_Vietnamese____>
+        <other____>14.68</other____>
+      </Ethnic_groups>
+      <Religion>
+        <no_religion___folk____>86.32</no_religion___folk____>
         <Catholicism>
-          <percentage>6.1%</percentage>
+          <percentage>6.1</percentage>
           <breakdown>
-            <Buddhism>4.79%</Buddhism>
-            <Hoahaoism>1.02%</Hoahaoism>
+            <Buddhism____>4.79</Buddhism____>
+            <Hoahaoism____>1.02</Hoahaoism____>
           </breakdown>
         </Catholicism>
         <Protestantism>
-          <percentage>1%</percentage>
+          <percentage>1</percentage>
           <breakdown>
-            <Caodaism>0.58%</Caodaism>
-            <Islam>0.07%</Islam>
-            <other>0.12%</other>
+            <Caodaism____>0.58</Caodaism____>
+            <Islam____>0.07</Islam____>
+            <other____>0.12</other____>
           </breakdown>
         </Protestantism>
-      </Religion__2019_>
-      <Demonyms>Vietnamese Viet (colloquial)</Demonyms>
-      <General_Secretary>Tô Lâm</General_Secretary>
-      <National_Assembly_Chairman>Trần Thanh Mẫn</National_Assembly_Chairman>
+      </Religion>
     </General>
     <Population>
       <Largest_city_by_urban_population>Ho Chi Minh City 10°48′N 106°39′E ﻿ / ﻿ 10.800°N 106.650°E ﻿ / 10.800; 106.650</Largest_city_by_urban_population>
-      <n_2025_estimate>102,300,000 ( 16th )</n_2025_estimate>
-      <n_2019_census>96,208,984</n_2019_census>
-      <Density>309/km 2 (800.3/sq mi) ( 43th )</Density>
+      <Estimate>102300000</Estimate>
+      <Census>96208984</Census>
+      <Density___km2_>309</Density___km2_>
     </Population>
     <Government>
       <Government>Unitary communist state</Government>
-      <President>Lương Cường</President>
-      <Prime_Minister>Phạm Minh Chính</Prime_Minister>
-      <Legislature>National Assembly</Legislature>
     </Government>
-    <History>
-      <V_n_Lang>7th century BC</V_n_Lang>
-      <_u_L_c>3rd century BC</_u_L_c>
-      <Han_s_annexation>111 BC</Han_s_annexation>
-      <Independence_from_China>939</Independence_from_China>
-      <Regaining_independence>1428</Regaining_independence>
-      <Nguy_n__s_unification>1802</Nguy_n__s_unification>
-      <Protectorate_Treaty>25 August 1883</Protectorate_Treaty>
-      <Declaration_of_independence>2 September 1945</Declaration_of_independence>
-      <North_South_partition>21 July 1954</North_South_partition>
-      <End_of_Vietnam_War>30 April 1975</End_of_Vietnam_War>
-      <Reunification>2 July 1976</Reunification>
-      <Current_constitution>28 November 2013</Current_constitution>
-    </History>
     <Area>
-      <Total>331,344.82 km 2 (127,932.95 sq mi) ( 66th )</Total>
+      <Total__km2_>331344.82</Total__km2_>
       <Water____>6.38</Water____>
     </Area>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$1.786 trillion ( 23rd )</Total>
-        <Per_capita>$17,484 ( 104th )</Per_capita>
+        <Total____>1786000000000</Total____>
+        <Per_capita____>17484</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$490.970 billion ( 33rd )</Total>
-        <Per_capita>$4,806 ( 119th )</Per_capita>
+        <Total____>490970000000</Total____>
+        <Per_capita____>4806</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>36.1 medium inequality</Gini__2022_>
-      <HDI__2023_>0.766 high ( 93rd )</HDI__2023_>
-      <Currency>Vietnamese đồng (₫) ( VND )</Currency>
+      <Gini>36.1</Gini>
+      <HDI>0.766</HDI>
+      <Currency>Vietnamese đồng</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +07:00 ( Vietnam Standard Time )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+84</Calling_code>
-      <ISO_3166_code>VN</ISO_3166_code>
-      <Internet_TLD>.vn</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

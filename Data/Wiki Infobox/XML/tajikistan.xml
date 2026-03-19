@@ -1,70 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Tajikistan</country>
-  <url>https://en.wikipedia.org/wiki/Tajikistan</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Dushanbe 38°33′N 68°48′E ﻿ / ﻿ 38.550°N 68.800°E ﻿ / 38.550; 68.800</Capital_and_largest_city>
       <Official_languages>Tajik Russian</Official_languages>
-      <Ethnic_groups__2020_>
-        <Tajiks>86.1%</Tajiks>
-        <Uzbeks>11.3%</Uzbeks>
-        <Kyrgyz>0.4%</Kyrgyz>
-        <Russians>0.3%</Russians>
-        <other>1.9%</other>
-      </Ethnic_groups__2020_>
-      <Religion__2020_>
-        <Islam>97.5%</Islam>
-        <Christianity>0.7%</Christianity>
-        <irreligion>1.7%</irreligion>
-        <others>0.2%</others>
-      </Religion__2020_>
-      <Demonyms>Tajikistani Tajik</Demonyms>
-      <Recognised>26 December 1991</Recognised>
+      <Ethnic_groups>
+        <Tajiks____>86.1</Tajiks____>
+        <Uzbeks____>11.3</Uzbeks____>
+        <Kyrgyz____>0.4</Kyrgyz____>
+        <Russians____>0.3</Russians____>
+        <other____>1.9</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>97.5</Islam____>
+        <Christianity____>0.7</Christianity____>
+        <irreligion____>1.7</irreligion____>
+        <others____>0.2</others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic under an authoritarian dictatorship</Government>
-      <President>Emomali Rahmon</President>
-      <Prime_Minister>Kokhir Rasulzoda</Prime_Minister>
-      <Legislature>Supreme Assembly</Legislature>
-      <Upper_house>National Assembly</Upper_house>
-      <Lower_house>Assembly of Representatives</Lower_house>
     </Government>
-    <Independence_from_the_Soviet_Union>
-      <Declared>9 September 1991</Declared>
-    </Independence_from_the_Soviet_Union>
     <Area>
-      <Total>143,100 km 2 (55,300 sq mi) ( 94th )</Total>
-      <Water>2,575 km 2 (994 sq mi)</Water>
+      <Total__km2_>143100</Total__km2_>
+      <Water__km2_>2575</Water__km2_>
       <Water____>1.8</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>10,786,734</n_2025_estimate>
-      <Density>75.4/km 2 (195.3/sq mi)</Density>
-      <Date_format>dd.mm.yyyy</Date_format>
+      <Estimate>10786734</Estimate>
+      <Density___km2_>75.4</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2024 estimate</Details>
-        <Total>$59.415 billion ( 119th )</Total>
-        <Per_capita>$5,832 ( 145th )</Per_capita>
+        <Total____>59415000000</Total____>
+        <Per_capita____>5832</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2024 estimate</Details>
-        <Total>$12.953 billion ( 141st )</Total>
-        <Per_capita>$1,176 ( 163rd )</Per_capita>
+        <Total____>12953000000</Total____>
+        <Per_capita____>1176</Per_capita____>
       </GDP__nominal_>
-      <Gini__2015_>34 medium inequality</Gini__2015_>
-      <HDI__2023_>0.691 medium ( 128th )</HDI__2023_>
-      <Currency>Somoni ( TJS )</Currency>
+      <Gini>34</Gini>
+      <HDI>0.691</HDI>
+      <Currency>Somoni</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +5 ( TJT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+992</Calling_code>
-      <ISO_3166_code>TJ</ISO_3166_code>
-      <Internet_TLD>.tj</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

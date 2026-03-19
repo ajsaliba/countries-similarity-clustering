@@ -1,83 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Burundi</country>
-  <url>https://en.wikipedia.org/wiki/Burundi</url>
   <infobox>
     <General>
-      <Capital>Gitega 3°30′S 30°00′E ﻿ / ﻿ 3.500°S 30.000°E ﻿ / -3.500; 30.000</Capital>
-      <Largest_city>Bujumbura</Largest_city>
       <Official_languages>Kirundi French English</Official_languages>
-      <Recognised_national_languages>Kirundi</Recognised_national_languages>
       <Ethnic_groups>
-        <Barundi>100%</Barundi>
-        <Hutu>85%</Hutu>
-        <Tutsi>14%</Tutsi>
-        <Twa__>1%</Twa__>
-        <other>1%</other>
+        <Barundi____>100</Barundi____>
+        <Hutu____>85</Hutu____>
+        <Tutsi____>14</Tutsi____>
+        <Twa______>1</Twa______>
+        <other____>1</other____>
       </Ethnic_groups>
-      <Religion__2020_>
+      <Religion>
         <Christianity>
-          <percentage>93.4%</percentage>
+          <percentage>93.4</percentage>
           <breakdown>
-            <Catholicism>63.7%</Catholicism>
-            <Protestantism>25.2%</Protestantism>
-            <other_Christian>4.5%</other_Christian>
+            <Catholicism____>63.7</Catholicism____>
+            <Protestantism____>25.2</Protestantism____>
+            <other_Christian____>4.5</other_Christian____>
           </breakdown>
         </Christianity>
-        <traditional_faiths>4.3%</traditional_faiths>
-        <Islam>2.1%</Islam>
-        <other___none>0.2%</other___none>
-      </Religion__2020_>
-      <Demonym>Burundian</Demonym>
+        <traditional_faiths____>4.3</traditional_faiths____>
+        <Islam____>2.1</Islam____>
+        <other___none____>0.2</other___none____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary dominant-party presidential republic under an authoritarian dictatorship</Government>
-      <President>Évariste Ndayishimiye</President>
-      <Prime_Minister>Nestor Ntahontuye</Prime_Minister>
-      <Vice_President>Prosper Bazombanza</Vice_President>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>National Assembly</Lower_house>
-      <Kingdom_of_Urundi>1680–1966</Kingdom_of_Urundi>
     </Government>
-    <History>
-      <Part_of_German_East_Africa>1890–1916</Part_of_German_East_Africa>
-      <Part_of_Ruanda_Urundi>1916–1962</Part_of_Ruanda_Urundi>
-      <Independence_from_Belgium>1 July 1962</Independence_from_Belgium>
-      <Republic>28 November 1966</Republic>
-      <Burundian_Civil_War>21 October 1993 – 15 May 2005</Burundian_Civil_War>
-      <Current_constitution>17 May 2018</Current_constitution>
-    </History>
     <Area>
-      <Total>27,834 km 2 (10,747 sq mi) ( 142nd )</Total>
+      <Total__km2_>27834</Total__km2_>
       <Water____>10</Water____>
     </Area>
     <Population>
-      <n_2024_estimate>14,151,540 ( 78th )</n_2024_estimate>
-      <Density>565/km 2 (1,463.3/sq mi) ( 25th )</Density>
+      <Estimate>14151540</Estimate>
+      <Density___km2_>565</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$13.980 billion ( 161th )</Total>
-        <Per_capita>$1,020 ( 185th )</Per_capita>
+        <Total____>13980000000</Total____>
+        <Per_capita____>1020</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$6.750 billion ( 157th )</Total>
-        <Per_capita>$489 ( 186th )</Per_capita>
+        <Total____>6750000000</Total____>
+        <Per_capita____>489</Per_capita____>
       </GDP__nominal_>
-      <Gini__2020_>37.5 medium inequality</Gini__2020_>
-      <HDI__2023_>0.439 low ( 187th )</HDI__2023_>
-      <Currency>Burundian franc (FBu) ( BIF )</Currency>
+      <Gini>37.5</Gini>
+      <HDI>0.439</HDI>
+      <Currency>Burundian franc</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( CAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+257</Calling_code>
-      <ISO_3166_code>BI</ISO_3166_code>
-      <Internet_TLD>.bi</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

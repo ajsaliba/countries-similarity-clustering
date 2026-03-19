@@ -1,87 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Ireland</country>
-  <url>https://en.wikipedia.org/wiki/Republic_of_Ireland</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Dublin 53°20.65′N 6°16.05′W ﻿ / ﻿ 53.34417°N 6.26750°W ﻿ / 53.34417; -6.26750</Capital_and_largest_city>
       <Official_languages>Irish English</Official_languages>
-      <Ethnic_groups__2022__>
-        <White_Irish>76.6%</White_Irish>
-        <other_White>10.8%</other_White>
-        <Asian>3.3%</Asian>
-        <Black>1.5%</Black>
-        <other>1.7%</other>
-        <not_stated>6.2%</not_stated>
-      </Ethnic_groups__2022__>
-      <Religion__2022__>
+      <Ethnic_groups>
+        <White_Irish____>76.6</White_Irish____>
+        <other_White____>10.8</other_White____>
+        <Asian____>3.3</Asian____>
+        <Black____>1.5</Black____>
+        <other____>1.7</other____>
+        <not_stated____>6.2</not_stated____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>75.7%</percentage>
+          <percentage>75.7</percentage>
           <breakdown>
-            <Catholicism>69.1%</Catholicism>
-            <Anglicanism>2.5%</Anglicanism>
-            <other_Christian>4.1%</other_Christian>
+            <Catholicism____>69.1</Catholicism____>
+            <Anglicanism____>2.5</Anglicanism____>
+            <other_Christian____>4.1</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>14.5%</no_religion>
-        <other>3.1%</other>
-        <not_stated>6.7%</not_stated>
-      </Religion__2022__>
-      <Demonym>Irish</Demonym>
-      <Taoiseach>Micheál Martin</Taoiseach>
-      <T_naiste>Simon Harris</T_naiste>
+        <no_religion____>14.5</no_religion____>
+        <other____>3.1</other____>
+        <not_stated____>6.7</not_stated____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Catherine Connolly</President>
-      <Chief_Justice>Donal O'Donnell</Chief_Justice>
-      <Legislature>Oireachtas</Legislature>
-      <Upper_house>Seanad</Upper_house>
-      <Lower_house>Dáil</Lower_house>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Proclamation>24 April 1916</Proclamation>
-      <Declaration>21 January 1919</Declaration>
-      <Anglo_Irish_Treaty>6 December 1921</Anglo_Irish_Treaty>
-      <Republic_Act>18 April 1949</Republic_Act>
-    </Independence_from_the_United_Kingdom>
-    <History>
-      <n_1922_constitution>6 December 1922</n_1922_constitution>
-      <n_1937_constitution>29 December 1937</n_1937_constitution>
-    </History>
     <Area>
-      <Total>70,273 km 2 (27,133 sq mi) ( 118th )</Total>
-      <Water____>2.0%</Water____>
+      <Total__km2_>70273</Total__km2_>
+      <Water____>2.0</Water____>
     </Area>
     <Population>
-      <April_2025_estimate>5,458,600 ( 119th )</April_2025_estimate>
-      <n_2022_census>5,149,139</n_2022_census>
-      <Density>76.6/km 2 (198.4/sq mi) ( 113th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>5458600</Estimate>
+      <Census>5149139</Census>
+      <Density___km2_>76.6</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$736.73 billion ( 42nd )</Total>
-        <Per_capita>$134,000 ( 3rd )</Per_capita>
+        <Total____>736730000000</Total____>
+        <Per_capita____>134000</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$598.84 billion ( 25th )</Total>
-        <Per_capita>$108,920 ( 2nd )</Per_capita>
+        <Total____>598840000000</Total____>
+        <Per_capita____>108920</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>27.9 low inequality</Gini__2022_>
-      <HDI__2023_>0.949 very high ( 11th )</HDI__2023_>
-      <Currency>Euro ( € ) ( EUR )</Currency>
+      <Gini>27.9</Gini>
+      <HDI>0.949</HDI>
+      <Currency>Euro</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC ( GMT )</Time_zone>
-      <Summer___DST__>UTC +1 ( IST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+353</Calling_code>
-      <ISO_3166_code>IE</ISO_3166_code>
-      <Internet_TLD>.ie</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

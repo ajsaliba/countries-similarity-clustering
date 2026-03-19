@@ -1,66 +1,42 @@
 {
     "country": "Lesotho",
-    "url": "https://en.wikipedia.org/wiki/Lesotho",
     "infobox": {
         "General": {
-            "Capital and largest city": "Maseru 29°18′54″S 27°29′13″E ﻿ / ﻿ 29.31500°S 27.48694°E ﻿ / -29.31500; 27.48694",
             "Official languages": "Sesotho English",
-            "Ethnic groups (2020)": {
-                "Basotho": "99.7%",
-                "others": "0.3%"
+            "Ethnic groups": {
+                "Basotho (%)": 99.7,
+                "others (%)": 0.3
             },
-            "Religion (2020)": {
-                "Christianity": "92.1%",
-                "traditional faiths": "6.6%",
-                "no religion": "1%",
-                "others": "0.3%"
-            },
-            "Demonyms": "Mosotho (singular) Basotho (plural)",
-            "Monarch": "Letsie III"
+            "Religion": {
+                "Christianity (%)": 92.1,
+                "traditional faiths (%)": 6.6,
+                "no religion (%)": 1,
+                "others (%)": 0.3
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy",
-            "Prime Minister": "Sam Matekane",
-            "Legislature": "Parliament",
-            "Upper house": "Senate",
-            "Lower house": "National Assembly"
-        },
-        "Independence from the United Kingdom": {
-            "Basutoland": "18 March 1884"
-        },
-        "History": {
-            "Independence declared": "4 October 1966"
+            "Government": "Unitary parliamentary constitutional monarchy"
         },
         "Area": {
-            "Total": "30,355 km 2 (11,720 sq mi) ( 137th )",
+            "Total (km2)": 30355,
             "Water (%)": "negligible"
         },
         "Population": {
-            "2023 estimate": "2,210,646 ( 147th )",
-            "Density": "68.1/km 2 (176.4/sq mi) ( 138th )"
+            "Estimate": 2210646,
+            "Density (/km2)": 68.1
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2023 estimate",
-                "Total": "$6.915 billion ( 168th )",
-                "Per capita": "$3,234 ( 164th )"
+                "Total ($)": 6915000000,
+                "Per capita ($)": 3234
             },
             "GDP (nominal)": {
-                "Details": "2023 estimate",
-                "Total": "$2.373 billion ( 184th )",
-                "Per capita": "$1,110 ( 169th )"
+                "Total ($)": 2373000000,
+                "Per capita ($)": 1110
             },
-            "Gini (2017)": "44.9 medium inequality",
-            "HDI (2023)": "0.550 medium ( 167th )",
-            "Currency": "Lesotho loti (LSL) South African rand (ZAR)"
-        },
-        "Time": {
-            "Time zone": "UTC +02:00 ( SAST )"
-        },
-        "Codes": {
-            "Calling code": "+266",
-            "ISO 3166 code": "LS",
-            "Internet TLD": ".ls"
+            "Gini": 44.9,
+            "HDI": 0.55,
+            "Currency": "Lesotho loti South African rand"
         }
     }
 }

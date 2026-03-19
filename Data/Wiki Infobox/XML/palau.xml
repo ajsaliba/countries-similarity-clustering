@@ -1,86 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Palau</country>
-  <url>https://en.wikipedia.org/wiki/Palau</url>
   <infobox>
     <General>
-      <Status>UN member state under a Compact of Free Association with the United States</Status>
-      <Capital>Ngerulmud 7°30′N 134°37′E ﻿ / ﻿ 7.500°N 134.617°E ﻿ / 7.500; 134.617</Capital>
-      <Largest_city>Koror 7°20′N 134°29′E ﻿ / ﻿ 7.333°N 134.483°E ﻿ / 7.333; 134.483</Largest_city>
       <Official_languages>Palauan English</Official_languages>
-      <Recognized_regional_languages>Sonsorolese Tobian Japanese</Recognized_regional_languages>
-      <Ethnic_groups__2020_census__>
-        <Palauan>65.2%</Palauan>
-        <Asian>31.6%</Asian>
-        <Carolinian>1.2%</Carolinian>
-        <European>1%</European>
-        <other>0.9%</other>
-      </Ethnic_groups__2020_census__>
-      <Religion__2020_census_>
-        <Christianity>78.7%</Christianity>
+      <Ethnic_groups>
+        <Palauan____>65.2</Palauan____>
+        <Asian____>31.6</Asian____>
+        <Carolinian____>1.2</Carolinian____>
+        <European____>1</European____>
+        <other____>0.9</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>78.7</Christianity____>
         <no_religion>
-          <percentage>10.1%</percentage>
+          <percentage>10.1</percentage>
           <breakdown>
             <Modekngei>
-              <percentage>5.1%</percentage>
+              <percentage>5.1</percentage>
               <breakdown>
-                <Islam>4.9%</Islam>
+                <Islam____>4.9</Islam____>
               </breakdown>
             </Modekngei>
           </breakdown>
         </no_religion>
-        <other>1.2%</other>
-      </Religion__2020_census_>
-      <Demonym>Palauan</Demonym>
+        <other____>1.2</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic under a non-partisan democracy</Government>
-      <President>Surangel Whipps Jr.</President>
-      <Vice_President>Raynold Oilouch</Vice_President>
-      <Legislature>Palau National Congress</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>House of Delegates</Lower_house>
     </Government>
-    <Independence_from_the_United_States_and_Micronesia>
-      <Trusteeship>18 July 1947</Trusteeship>
-      <Establishment_of_the_Republic_of_Palau>1 January 1981</Establishment_of_the_Republic_of_Palau>
-      <Compact_of_Free_Association>1 October 1994</Compact_of_Free_Association>
-    </Independence_from_the_United_States_and_Micronesia>
-    <History>
-      <Constitution>2 April 1979</Constitution>
-    </History>
     <Area>
-      <Total>459 km 2 (177 sq mi) ( 180th )</Total>
+      <Total__km2_>459</Total__km2_>
       <Water____>negligible</Water____>
     </Area>
     <Population>
-      <As_of_August_2025_estimate>17,663 ( 221st )</As_of_August_2025_estimate>
-      <n_2021_census>16,766</n_2021_census>
-      <Density>38.375/km 2 (99.4/sq mi) ( 182th )</Density>
-      <Date_format>mm/dd/yyyy</Date_format>
+      <Estimate>17663</Estimate>
+      <Census>16766</Census>
+      <Density___km2_>38.375</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2024 estimate</Details>
-        <Total>$308 million</Total>
-        <Per_capita>$18,209 ( 81st )</Per_capita>
+        <Total____>308000000</Total____>
+        <Per_capita____>18209</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2024 estimate</Details>
-        <Total>$322 million</Total>
-        <Per_capita>$17,448</Per_capita>
+        <Total____>322000000</Total____>
+        <Per_capita____>17448</Per_capita____>
       </GDP__nominal_>
-      <HDI__2023_>0.786 high ( 84th )</HDI__2023_>
-      <Currency>United States dollar ( USD )</Currency>
+      <HDI>0.786</HDI>
+      <Currency>United States dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +9 (PWT)</Time_zone>
-      <Summer___DST__>not observed</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+680</Calling_code>
-      <ISO_3166_code>PW</ISO_3166_code>
-      <Internet_TLD>.pw</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

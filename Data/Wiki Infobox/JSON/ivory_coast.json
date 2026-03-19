@@ -1,78 +1,51 @@
 {
     "country": "Ivory Coast",
-    "url": "https://en.wikipedia.org/wiki/Ivory_Coast",
     "infobox": {
         "General": {
-            "Capital": "Yamoussoukro 6°51′N 5°18′W ﻿ / ﻿ 6.850°N 5.300°W ﻿ / 6.850; -5.300",
-            "Largest city": "Abidjan",
             "Official languages": "French",
-            "Vernacular languages": "English French Arabic Bété Dyula Baoulé Abron Agni Senoufo others",
-            "Ethnic groups (2021 census)": {
-                "Ivorian": "78%",
-                "Akan": "38%",
-                "Northern Mande": "22%",
-                "Voltaiques/Gur": "22%",
-                "Kru": "9.1%",
-                "Southern Mande": "8.6%",
-                "Naturalized Ivorian": "0.3%",
-                "non-Ivorian a": "22%"
+            "Ethnic groups": {
+                "Ivorian (%)": 78,
+                "Akan (%)": 38,
+                "Northern Mande (%)": 22,
+                "Voltaiques/Gur (%)": 22,
+                "Kru (%)": 9.1,
+                "Southern Mande (%)": 8.6,
+                "Naturalized Ivorian (%)": 0.3,
+                "non-Ivorian a (%)": 22
             },
-            "Religion (2021 census)": {
-                "Islam": "42.5%",
-                "Christianity": "39.8%",
-                "no religion": "12.6%",
-                "traditional faiths": "2.2%",
-                "unanswered": "2.2%",
-                "other religions": "0.7%"
-            },
-            "Demonyms": "Ivorian Ivory Coasters"
+            "Religion": {
+                "Islam (%)": 42.5,
+                "Christianity (%)": 39.8,
+                "no religion (%)": 12.6,
+                "traditional faiths (%)": 2.2,
+                "unanswered (%)": 2.2,
+                "other religions (%)": 0.7
+            }
         },
         "Government": {
-            "Government": "Unitary presidential republic under an authoritarian regime",
-            "President": "Alassane Ouattara",
-            "Vice President": "Tiémoko Meyliet Koné",
-            "Prime Minister": "Robert Beugré Mambé",
-            "Deputy/Vice-Prime Minister": "Téné Birahima Ouattara",
-            "Legislature": "Parliament of Ivory Coast",
-            "Upper house": "Senate",
-            "Lower house": "National Assembly"
-        },
-        "History": {
-            "Republic established": "4 December 1958",
-            "Independence from France": "7 August 1960"
+            "Government": "Unitary presidential republic under an authoritarian regime"
         },
         "Area": {
-            "Total": "322,462 km 2 (124,503 sq mi) ( 68th )",
-            "Water (%)": "1.4"
+            "Total (km2)": 322462,
+            "Water (%)": 1.4
         },
         "Population": {
-            "July 2024 estimate": "31,500,000 ( 49th )",
-            "December 2021 census": "29,389,150",
-            "Density": "97.7/km 2 (253.0/sq mi) ( 139th )",
-            "Date format": "dd/mm/yyyy"
+            "Estimate": 31500000,
+            "Census": 29389150,
+            "Density (/km2)": 97.7
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2023 estimate",
-                "Total": "$202.647 billion ( 78th )",
-                "Per capita": "$6,960 ( 138th )"
+                "Total ($)": 202647000000,
+                "Per capita ($)": 6960
             },
             "GDP (nominal)": {
-                "Details": "2023 estimate",
-                "Total": "$79.430 billion ( 84th )",
-                "Per capita": "$2,728 ( 141st )"
+                "Total ($)": 79430000000,
+                "Per capita ($)": 2728
             },
-            "Gini (2021)": "35.3 medium inequality",
-            "HDI (2023)": "0.582 medium ( 157th )",
-            "Currency": "West African CFA franc ( XOF )"
-        },
-        "Time": {
-            "Time zone": "UTC ±00:00 ( GMT )"
-        },
-        "Codes": {
-            "Calling code": "+225",
-            "ISO 3166 code": "CI",
-            "Internet TLD": ".ci"
+            "Gini": 35.3,
+            "HDI": 0.582,
+            "Currency": "West African CFA franc"
         }
     }
 }

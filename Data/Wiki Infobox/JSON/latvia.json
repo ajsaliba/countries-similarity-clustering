@@ -1,81 +1,54 @@
 {
     "country": "Latvia",
-    "url": "https://en.wikipedia.org/wiki/Latvia",
     "infobox": {
         "General": {
-            "Capital and largest city": "Riga 56°57′N 24°6′E ﻿ / ﻿ 56.950°N 24.100°E ﻿ / 56.950; 24.100",
             "Official languages": "Latvian a",
-            "Recognized languages": "Livonian Latgalian",
-            "Ethnic groups (2025 )": {
-                "Latvians": "65.5%",
-                "Russians": "24.1%",
-                "Belarusians": "2.9%",
-                "Ukrainians": "2.9%",
-                "Poles": "1.9%",
-                "Lithuanians": "1.1%",
-                "others": "1.6%"
+            "Ethnic groups": {
+                "Latvians (%)": 65.5,
+                "Russians (%)": 24.1,
+                "Belarusians (%)": 2.9,
+                "Ukrainians (%)": 2.9,
+                "Poles (%)": 1.9,
+                "Lithuanians (%)": 1.1,
+                "others (%)": 1.6
             },
-            "Religion (2018)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "64%",
+                    "percentage": 64,
                     "breakdown": {
-                        "Lutheranism": "36%",
-                        "Catholicism": "17%",
-                        "Orthodoxy": "9%",
-                        "other Christian": "2%"
+                        "Lutheranism (%)": 36,
+                        "Catholicism (%)": 17,
+                        "Orthodoxy (%)": 9,
+                        "other Christian (%)": 2
                     }
                 },
-                "no religion": "35%",
-                "others": "1%"
-            },
-            "Demonym": "Latvian",
-            "Recognised": {
-                "Details": "26 January 1921",
-                "Constitution adopted": "7 November 1922",
-                "Restored": "21 August 1991"
+                "no religion (%)": 35,
+                "others (%)": 1
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic",
-            "President": "Edgars Rinkēvičs",
-            "Prime Minister": "Evika Siliņa",
-            "Speaker of the Saeima": "Daiga Mieriņa",
-            "Legislature": "Saeima"
-        },
-        "Independence from Germany and Russia": {
-            "Declared": "18 November 1918"
+            "Government": "Unitary parliamentary republic"
         },
         "Area": {
-            "Total": "64,589 km 2 (24,938 sq mi) ( 122nd )",
-            "Water (%)": "2.09 (2015)"
+            "Total (km2)": 64589,
+            "Water (%)": 2.09
         },
         "Population": {
-            "2022 estimate": "1,842,226 ( 146th )",
-            "Density": "29.6/km 2 (76.7/sq mi) ( 147th )"
+            "Estimate": 1842226,
+            "Density (/km2)": 29.6
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$82.400 billion ( 104th )",
-                "Per capita": "$44,110 ( 51st )"
+                "Total ($)": 82400000000,
+                "Per capita ($)": 44110
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$47.880 billion ( 96th )",
-                "Per capita": "$25,630 ( 42nd )"
+                "Total ($)": 47880000000,
+                "Per capita ($)": 25630
             },
-            "Gini (2021)": "35.7 medium inequality",
-            "HDI (2023)": "0.889 very high ( 41st )",
-            "Currency": "Euro ( € ) ( EUR )"
-        },
-        "Time": {
-            "Time zone": "UTC +2 ( EET )",
-            "Summer ( DST )": "UTC +3 ( EEST )"
-        },
-        "Codes": {
-            "Calling code": "+371",
-            "ISO 3166 code": "LV",
-            "Internet TLD": ".lv"
+            "Gini": 35.7,
+            "HDI": 0.889,
+            "Currency": "Euro"
         }
     }
 }

@@ -1,85 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Armenia</country>
-  <url>https://en.wikipedia.org/wiki/Armenia</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Yerevan 40°11′N 44°31′E ﻿ / ﻿ 40.183°N 44.517°E ﻿ / 40.183; 44.517</Capital_and_largest_city>
       <Official_languages>Armenian</Official_languages>
-      <Recognized_languages>List : Assyrian German Greek Kurdish Russian Ukrainian</Recognized_languages>
-      <Official_script>Armenian alphabet</Official_script>
-      <Ethnic_groups__2022_>
-        <Armenians>98.1%</Armenians>
-        <Yazidis>1.1%</Yazidis>
-        <other>0.8%</other>
-      </Ethnic_groups__2022_>
-      <Religion__2022_>
+      <Ethnic_groups>
+        <Armenians____>98.1</Armenians____>
+        <Yazidis____>1.1</Yazidis____>
+        <other____>0.8</other____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>96.8%</percentage>
+          <percentage>96.8</percentage>
           <breakdown>
-            <Armenian_Apostolic_Church>95.2%</Armenian_Apostolic_Church>
-            <other_Christian>1.6%</other_Christian>
+            <Armenian_Apostolic_Church____>95.2</Armenian_Apostolic_Church____>
+            <other_Christian____>1.6</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>0.6%</no_religion>
-        <other>0.9%</other>
-        <unspecified>1.7%</unspecified>
-      </Religion__2022_>
-      <Demonym>Armenian</Demonym>
+        <no_religion____>0.6</no_religion____>
+        <other____>0.9</other____>
+        <unspecified____>1.7</unspecified____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Vahagn Khachaturyan</President>
-      <Prime_Minister>Nikol Pashinyan</Prime_Minister>
-      <President_of_the_National_Assembly>Alen Simonyan</President_of_the_National_Assembly>
-      <Legislature>National Assembly</Legislature>
-      <Kingdom_of_Armenia>331 BC–428 AD</Kingdom_of_Armenia>
-      <Armenian_Kingdom_of_Cilicia>1198/99–1375</Armenian_Kingdom_of_Cilicia>
     </Government>
-    <Establishment>
-      <Urartu>860 BC–547/90 BC</Urartu>
-      <Bagratid_Armenia>880s–1045</Bagratid_Armenia>
-      <Zakarid_Armenia>1201–1350</Zakarid_Armenia>
-      <First_Republic_of_Armenia>28 May 1918</First_Republic_of_Armenia>
-      <Armenian_Soviet_Socialist_Republic>29 November 1920</Armenian_Soviet_Socialist_Republic>
-      <CIS_accession>21 December 1991</CIS_accession>
-      <Admission_to_the_United_Nations>2 March 1992</Admission_to_the_United_Nations>
-    </Establishment>
-    <History>
-      <Independence_from_the_USSR>23 September 1991</Independence_from_the_USSR>
-      <Current_constitution>5 July 1995</Current_constitution>
-    </History>
     <Area>
-      <Total>29,743 km 2 (11,484 sq mi) ( 138th )</Total>
+      <Total__km2_>29743</Total__km2_>
       <Water____>4.71</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>3,081,100 ( 135th )</n_2025_estimate>
-      <Density>103.6/km 2 (268.3/sq mi)</Density>
-      <Date_format>dd.mm.yyyy</Date_format>
+      <Estimate>3081100</Estimate>
+      <Density___km2_>103.6</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$74.407 billion ( 111th )</Total>
-        <Per_capita>$23,954 ( 78th )</Per_capita>
+        <Total____>74407000000</Total____>
+        <Per_capita____>23954</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$27.859 billion ( 118th )</Total>
-        <Per_capita>$8,969 ( 88th )</Per_capita>
+        <Total____>27859000000</Total____>
+        <Per_capita____>8969</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>27.9 low inequality</Gini__2022_>
-      <HDI__2023_>0.811 very high ( 69th )</HDI__2023_>
-      <Currency>Dram ( ֏ ) ( AMD )</Currency>
+      <Gini>27.9</Gini>
+      <HDI>0.811</HDI>
+      <Currency>Dram</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +4 ( AMT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+374</Calling_code>
-      <ISO_3166_code>AM</ISO_3166_code>
-      <Internet_TLD>.am .հայ</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

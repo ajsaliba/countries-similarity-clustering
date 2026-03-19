@@ -1,74 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Uzbekistan</country>
-  <url>https://en.wikipedia.org/wiki/Uzbekistan</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Tashkent 41°19′N 69°16′E ﻿ / ﻿ 41.317°N 69.267°E ﻿ / 41.317; 69.267</Capital_and_largest_city>
       <Official_languages>Uzbek</Official_languages>
-      <Recognised_languages>Karakalpak</Recognised_languages>
-      <Ethnic_groups__2021_>
-        <Uzbeks>84.6%</Uzbeks>
-        <Tajiks>4.8%</Tajiks>
-        <Kazakhs>2.3%</Kazakhs>
-        <Karakalpaks>2.2%</Karakalpaks>
-        <Russians>2.1%</Russians>
-        <others>4%</others>
-      </Ethnic_groups__2021_>
-      <Religion__2020_>
-        <Islam>94.78%</Islam>
-        <Irreligion>3.89%</Irreligion>
-        <Christianity>1.04%</Christianity>
-        <other_religions>0.27%</other_religions>
-      </Religion__2020_>
-      <Demonym>Uzbek • Uzbekistani</Demonym>
+      <Ethnic_groups>
+        <Uzbeks____>84.6</Uzbeks____>
+        <Tajiks____>4.8</Tajiks____>
+        <Kazakhs____>2.3</Kazakhs____>
+        <Karakalpaks____>2.2</Karakalpaks____>
+        <Russians____>2.1</Russians____>
+        <others____>4</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>94.78</Islam____>
+        <Irreligion____>3.89</Irreligion____>
+        <Christianity____>1.04</Christianity____>
+        <other_religions____>0.27</other_religions____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
-      <President>Shavkat Mirziyoyev</President>
-      <Prime_Minister>Abdulla Aripov</Prime_Minister>
-      <Legislature>Oliy Majlis</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>Legislative Chamber</Lower_house>
     </Government>
-    <History>
-      <Uzbek_khanates>1500–1920</Uzbek_khanates>
-      <Turkestan_ASSR>30 April 1918</Turkestan_ASSR>
-      <Uzbek_SSR>27 October 1924</Uzbek_SSR>
-      <Republic>1 September 1991</Republic>
-      <Current_constitution>8 December 1992</Current_constitution>
-    </History>
     <Area>
-      <Total>448,978 km 2 (173,351 sq mi) ( 55th )</Total>
+      <Total__km2_>448978</Total__km2_>
       <Water____>4.9</Water____>
     </Area>
     <Population>
-      <n_2026_estimate>38,236,704 ( 38th )</n_2026_estimate>
-      <Density>80.2/km 2 (207.7/sq mi) ( 138th )</Density>
-      <Date_format>dd/mm yyyy c</Date_format>
+      <Estimate>38236704</Estimate>
+      <Density___km2_>80.2</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$507.8 billion ( 53th )</Total>
-        <Per_capita>$12,596 ( 114th )</Per_capita>
+        <Total____>507800000000</Total____>
+        <Per_capita____>12596</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$140.480 billion ( 60th )</Total>
-        <Per_capita>$3,945 ( 134th )</Per_capita>
+        <Total____>140480000000</Total____>
+        <Per_capita____>3945</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>31.2 medium inequality</Gini__2022_>
-      <HDI__2023_>0.740 high ( 107th )</HDI__2023_>
-      <Currency>Uzbek sum ( UZS )</Currency>
+      <Gini>31.2</Gini>
+      <HDI>0.74</HDI>
+      <Currency>Uzbek sum</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +5 ( UZT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+998</Calling_code>
-      <ISO_3166_code>UZ</ISO_3166_code>
-      <Internet_TLD>.uz</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

@@ -1,69 +1,46 @@
 {
     "country": "Tajikistan",
-    "url": "https://en.wikipedia.org/wiki/Tajikistan",
     "infobox": {
         "General": {
-            "Capital and largest city": "Dushanbe 38°33′N 68°48′E ﻿ / ﻿ 38.550°N 68.800°E ﻿ / 38.550; 68.800",
             "Official languages": "Tajik Russian",
-            "Ethnic groups (2020)": {
-                "Tajiks": "86.1%",
-                "Uzbeks": "11.3%",
-                "Kyrgyz": "0.4%",
-                "Russians": "0.3%",
-                "other": "1.9%"
+            "Ethnic groups": {
+                "Tajiks (%)": 86.1,
+                "Uzbeks (%)": 11.3,
+                "Kyrgyz (%)": 0.4,
+                "Russians (%)": 0.3,
+                "other (%)": 1.9
             },
-            "Religion (2020)": {
-                "Islam": "97.5%",
-                "Christianity": "0.7%",
-                "irreligion": "1.7%",
-                "others": "0.2%"
-            },
-            "Demonyms": "Tajikistani Tajik",
-            "Recognised": "26 December 1991"
+            "Religion": {
+                "Islam (%)": 97.5,
+                "Christianity (%)": 0.7,
+                "irreligion (%)": 1.7,
+                "others (%)": 0.2
+            }
         },
         "Government": {
-            "Government": "Unitary presidential republic under an authoritarian dictatorship",
-            "President": "Emomali Rahmon",
-            "Prime Minister": "Kokhir Rasulzoda",
-            "Legislature": "Supreme Assembly",
-            "Upper house": "National Assembly",
-            "Lower house": "Assembly of Representatives"
-        },
-        "Independence from the Soviet Union": {
-            "Declared": "9 September 1991"
+            "Government": "Unitary presidential republic under an authoritarian dictatorship"
         },
         "Area": {
-            "Total": "143,100 km 2 (55,300 sq mi) ( 94th )",
-            "Water": "2,575 km 2 (994 sq mi)",
-            "Water (%)": "1.8"
+            "Total (km2)": 143100,
+            "Water (km2)": 2575,
+            "Water (%)": 1.8
         },
         "Population": {
-            "2025 estimate": "10,786,734",
-            "Density": "75.4/km 2 (195.3/sq mi)",
-            "Date format": "dd.mm.yyyy"
+            "Estimate": 10786734,
+            "Density (/km2)": 75.4
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2024 estimate",
-                "Total": "$59.415 billion ( 119th )",
-                "Per capita": "$5,832 ( 145th )"
+                "Total ($)": 59415000000,
+                "Per capita ($)": 5832
             },
             "GDP (nominal)": {
-                "Details": "2024 estimate",
-                "Total": "$12.953 billion ( 141st )",
-                "Per capita": "$1,176 ( 163rd )"
+                "Total ($)": 12953000000,
+                "Per capita ($)": 1176
             },
-            "Gini (2015)": "34 medium inequality",
-            "HDI (2023)": "0.691 medium ( 128th )",
-            "Currency": "Somoni ( TJS )"
-        },
-        "Time": {
-            "Time zone": "UTC +5 ( TJT )"
-        },
-        "Codes": {
-            "Calling code": "+992",
-            "ISO 3166 code": "TJ",
-            "Internet TLD": ".tj"
+            "Gini": 34,
+            "HDI": 0.691,
+            "Currency": "Somoni"
         }
     }
 }

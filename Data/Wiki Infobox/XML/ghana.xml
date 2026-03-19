@@ -1,75 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Ghana</country>
-  <url>https://en.wikipedia.org/wiki/Ghana</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Accra 05°33′18″N 00°11′33″W ﻿ / ﻿ 5.55500°N 0.19250°W ﻿ / 5.55500; -0.19250</Capital_and_largest_city>
       <Official_languages>English</Official_languages>
-      <Ethnic_groups__2021_>
-        <Akan>45.7%</Akan>
-        <Mole_Dagbon>18.5%</Mole_Dagbon>
-        <Ewe>12.8%</Ewe>
-        <Ga_Adangbe>7.1%</Ga_Adangbe>
-        <Gurma>6.4%</Gurma>
-        <Guan>3.2%</Guan>
-        <Gurunsi>2.7%</Gurunsi>
-        <Mande>2%</Mande>
-        <other>1.6%</other>
-      </Ethnic_groups__2021_>
-      <Religion__2021_>
-        <Christianity>71.3%</Christianity>
-        <Islam>19.9%</Islam>
-        <traditional_faiths>3.2%</traditional_faiths>
-        <irreligion>1.1%</irreligion>
-        <other>4.5%</other>
-      </Religion__2021_>
-      <Demonym>Ghanaian</Demonym>
+      <Ethnic_groups>
+        <Akan____>45.7</Akan____>
+        <Mole_Dagbon____>18.5</Mole_Dagbon____>
+        <Ewe____>12.8</Ewe____>
+        <Ga_Adangbe____>7.1</Ga_Adangbe____>
+        <Gurma____>6.4</Gurma____>
+        <Guan____>3.2</Guan____>
+        <Gurunsi____>2.7</Gurunsi____>
+        <Mande____>2</Mande____>
+        <other____>1.6</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>71.3</Christianity____>
+        <Islam____>19.9</Islam____>
+        <traditional_faiths____>3.2</traditional_faiths____>
+        <irreligion____>1.1</irreligion____>
+        <other____>4.5</other____>
+      </Religion>
     </General>
     <Government>
-      <Government_sponsored_languages>Twi Fante Ewe Dagaare Dagbanli Adangme Ga Gonja Kasem Nzema</Government_sponsored_languages>
-      <Working_languages>English French Hindi Arabic Ghanaian English Ghanaian Pidgin English</Working_languages>
       <Government>Unitary presidential republic</Government>
-      <President>John Mahama</President>
-      <Vice_President>Jane Naana Opoku-Agyemang</Vice_President>
-      <Speaker_of_Parliament>Alban Bagbin</Speaker_of_Parliament>
-      <Chief_Justice>Justice Paul Baffoe-Bonnie</Chief_Justice>
-      <Legislature>Parliament</Legislature>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Dominion>6 March 1957</Dominion>
-      <Republic>1 July 1960</Republic>
-    </Independence_from_the_United_Kingdom>
     <Area>
-      <Total>240,000 km 2 (93,000 sq mi) ( 80th )</Total>
-      <Water____>4.61 (11,000 km 2 ; 4,247 mi 2 )</Water____>
+      <Total__km2_>240000</Total__km2_>
+      <Water____>4.61</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>35,039,451 ( 46th )</n_2025_estimate>
-      <Density>151/km 2 (391.1/sq mi) ( 90th )</Density>
+      <Estimate>35039451</Estimate>
+      <Density___km2_>151</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$295.12 billion ( 68th )</Total>
-        <Per_capita>$8,042 ( 132nd )</Per_capita>
+        <Total____>295120000000</Total____>
+        <Per_capita____>8042</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$88.033 billion ( 79th )</Total>
-        <Per_capita>$2,520 ( 143rd )</Per_capita>
+        <Total____>88033000000</Total____>
+        <Per_capita____>2520</Per_capita____>
       </GDP__nominal_>
-      <Gini__2024_>44 medium inequality</Gini__2024_>
-      <HDI__2023_>0.628 medium ( 143rd )</HDI__2023_>
-      <Currency>Cedi ( GHS )</Currency>
+      <Gini>44</Gini>
+      <HDI>0.628</HDI>
+      <Currency>Cedi</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC ±00:00 ( GMT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+233</Calling_code>
-      <ISO_3166_code>GH</ISO_3166_code>
-      <Internet_TLD>.gh</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

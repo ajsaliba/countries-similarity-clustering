@@ -1,74 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>San Marino</country>
-  <url>https://en.wikipedia.org/wiki/San_Marino</url>
   <infobox>
     <General>
-      <Capital>City of San Marino 43°56′N 12°26′E ﻿ / ﻿ 43.933°N 12.433°E ﻿ / 43.933; 12.433</Capital>
-      <Largest_settlement>Dogana 43°58′53″N 12°29′22″E ﻿ / ﻿ 43.98139°N 12.48944°E ﻿ / 43.98139; 12.48944</Largest_settlement>
       <Official_languages>Italian</Official_languages>
-      <Other_languages>Romagnol ( Sammarinese )</Other_languages>
       <Religion>
-        <Catholicism__2022_>90.3%</Catholicism__2022_>
-        <no_religion>7.5%</no_religion>
+        <Catholicism__2022_____>90.3</Catholicism__2022_____>
+        <no_religion____>7.5</no_religion____>
         <Other_Christian_denominations__2022_>
-          <percentage>1.1%</percentage>
+          <percentage>1.1</percentage>
           <breakdown>
-            <Judaism>0.1%</Judaism>
+            <Judaism____>0.1</Judaism____>
             <Islam__2015_>
-              <percentage>0.46%</percentage>
+              <percentage>0.46</percentage>
               <breakdown>
-                <other>0.34%</other>
+                <other____>0.34</other____>
               </breakdown>
             </Islam__2015_>
           </breakdown>
         </Other_Christian_denominations__2022_>
       </Religion>
-      <Demonym>Sammarinese</Demonym>
-      <Captains_Regent>Matteo Rossi Lorenzo Bugli</Captains_Regent>
-      <Secretary_of_State_for_Foreign_and_Political_Affairs>Luca Beccari</Secretary_of_State_for_Foreign_and_Political_Affairs>
     </General>
     <Government>
       <Government>Unitary parliamentary diarchic directorial republic</Government>
-      <Legislature>Grand and General Council</Legislature>
     </Government>
-    <Independence>
-      <From_the_Roman_Empire>3 September 301 (traditional)</From_the_Roman_Empire>
-      <From_the_Papal_States>1291</From_the_Papal_States>
-    </Independence>
-    <History>
-      <Constitution>8 October 1600 (Statutes) 8 July 1974 (Declaration of Citizen Rights)</Constitution>
-    </History>
     <Area>
-      <Total>61.19 km 2 (23.63 sq mi) ( 191st )</Total>
-      <Water____>0.0059%</Water____>
+      <Total__km2_>61.19</Total__km2_>
+      <Water____>0.0059</Water____>
     </Area>
     <Population>
-      <n_2026_estimate>34,172 ( 191st )</n_2026_estimate>
-      <Density>579/km 2 (1,499.6/sq mi) ( 24th )</Density>
+      <Estimate>34172</Estimate>
+      <Density___km2_>579</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2024 estimate</Details>
-        <Total>$2.978 billion ( 176th )</Total>
-        <Per_capita>$86,989 ( 12th )</Per_capita>
+        <Total____>2978000000</Total____>
+        <Per_capita____>86989</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2024 estimate</Details>
-        <Total>$2.034 billion ( 171st )</Total>
-        <Per_capita>$59,405 ( 12th )</Per_capita>
+        <Total____>2034000000</Total____>
+        <Per_capita____>59405</Per_capita____>
       </GDP__nominal_>
-      <HDI__2023_>0.915 very high ( 29th )</HDI__2023_>
-      <Currency>Euro ( € ) ( EUR )</Currency>
+      <HDI>0.915</HDI>
+      <Currency>Euro</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +01 ( CET )</Time_zone>
-      <Summer___DST__>UTC +02 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+378 (+39 0549 calling via Italy)</Calling_code>
-      <ISO_3166_code>SM</ISO_3166_code>
-      <Internet_TLD>.sm</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

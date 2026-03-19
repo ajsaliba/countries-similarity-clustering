@@ -1,70 +1,35 @@
 {
     "country": "Portugal",
-    "url": "https://en.wikipedia.org/wiki/Portugal",
     "infobox": {
         "General": {
-            "Capital and largest city": "Lisbon 38°46′N 9°9′W ﻿ / ﻿ 38.767°N 9.150°W ﻿ / 38.767; -9.150",
-            "Official languages": "Portuguese",
-            "Recognised national languages": "Portuguese Sign Language",
-            "Recognised regional languages": "Mirandese",
-            "Demonym": "Portuguese"
+            "Official languages": "Portuguese"
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic",
-            "President": "António José Seguro",
-            "Prime Minister": "Luís Montenegro",
-            "Speaker": "José Pedro Aguiar-Branco",
-            "Legislature": "Assembly of the Republic"
-        },
-        "Establishment": {
-            "County": "868",
-            "Sovereignty": "24 June 1128",
-            "Battle of Ourique": "25 July 1139",
-            "Conference of Zamora": "4–5 October 1143",
-            "Manifestis Probatum": "23 May 1179",
-            "Restoration": "1 December 1640",
-            "Republic": "5 October 1910",
-            "Democratisation": "25 April 1974"
-        },
-        "History": {
-            "First constitution": "23 September 1822",
-            "Current constitution": "25 April 1976"
+            "Government": "Unitary semi-presidential republic"
         },
         "Area": {
-            "Total": "156,597 km 2 (60,462 sq mi) ( 92nd )",
-            "Land": "92,225 km 2 (35,608 sq mi)",
-            "Water": "64,372 km 2 (24,854 sq mi)",
-            "Water (%)": "1.2 (2015)"
+            "Total (km2)": 156597,
+            "Land (km2)": 92225,
+            "Water (km2)": 64372,
+            "Water (%)": 1.2
         },
         "Population": {
-            "2024 estimate": "10,749,635 ( 87th )",
-            "2021 census": "10,343,066",
-            "Density": "116.6/km 2 (302.0/sq mi)",
-            "Date format": "yyyy - mm - dd"
+            "Estimate": 10749635,
+            "Census": 10343066,
+            "Density (/km2)": 116.6
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2026 estimate",
-                "Total": "$556.383 billion ( 50th )",
-                "Per capita": "$51,853 ( 42nd )"
+                "Total ($)": 556383000000,
+                "Per capita ($)": 51853
             },
             "GDP (nominal)": {
-                "Details": "2026 estimate",
-                "Total": "$364.527 billion ( 44th )",
-                "Per capita": "$33,972 ( 41st )"
+                "Total ($)": 364527000000,
+                "Per capita ($)": 33972
             },
-            "Gini (2024)": "31.9 medium inequality",
-            "HDI (2023)": "0.890 very high ( 40th )",
-            "Currency": "Euro ( € ) ( EUR )"
-        },
-        "Time": {
-            "Time zone": "UTC +0 and -1",
-            "Summer ( DST )": "UTC +1 and +0"
-        },
-        "Codes": {
-            "Calling code": "+351",
-            "ISO 3166 code": "PT",
-            "Internet TLD": ".pt"
+            "Gini": 31.9,
+            "HDI": 0.89,
+            "Currency": "Euro"
         }
     }
 }

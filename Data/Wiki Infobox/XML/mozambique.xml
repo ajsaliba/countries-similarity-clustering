@@ -1,74 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Mozambique</country>
-  <url>https://en.wikipedia.org/wiki/Mozambique</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Maputo 25°57′S 32°35′E ﻿ / ﻿ 25.950°S 32.583°E ﻿ / -25.950; 32.583</Capital_and_largest_city>
       <Official_languages>Portuguese</Official_languages>
-      <Recognised_regional_languages>Makhuwa , Sena , Tsonga , Lomwe , Swahili</Recognised_regional_languages>
-      <Ethnic_groups__2017_>
-        <African>99%</African>
-        <Mesti_o>0.8%</Mesti_o>
-        <White>0.1%</White>
-        <other>0.1%</other>
-      </Ethnic_groups__2017_>
-      <Religion__2017_>
-        <Christianity>62%</Christianity>
+      <Ethnic_groups>
+        <African____>99</African____>
+        <Mesti_o____>0.8</Mesti_o____>
+        <White____>0.1</White____>
+        <other____>0.1</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>62</Christianity____>
         <Islam>
-          <percentage>19.1%</percentage>
+          <percentage>19.1</percentage>
           <breakdown>
-            <no_religion>13.5%</no_religion>
-            <other>4.3%</other>
-            <unknown>1.2%</unknown>
+            <no_religion____>13.5</no_religion____>
+            <other____>4.3</other____>
+            <unknown____>1.2</unknown____>
           </breakdown>
         </Islam>
-      </Religion__2017_>
-      <Demonym>Mozambican</Demonym>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary dominant-party semi-presidential republic under an authoritarian government</Government>
-      <President>Daniel Chapo</President>
-      <Prime_Minister>Maria Benvinda Levy</Prime_Minister>
-      <Legislature>Assembly of the Republic</Legislature>
     </Government>
-    <Independence_from_Portugal>
-      <Granted>25 June 1975</Granted>
-      <Civil_War>1977–1992</Civil_War>
-    </Independence_from_Portugal>
-    <History>
-      <Current_constitution>21 December 2004</Current_constitution>
-    </History>
     <Area>
-      <Total>801,590 km 2 (309,500 sq mi) ( 35th )</Total>
+      <Total__km2_>801590</Total__km2_>
       <Water____>2.2</Water____>
     </Area>
     <Population>
-      <n_2024_estimate>34,881,007 ( 45th )</n_2024_estimate>
-      <Density>43.5/km 2 (112.7/sq mi) ( 176th )</Density>
+      <Estimate>34881007</Estimate>
+      <Density___km2_>43.5</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$61.950 billion ( 126th )</Total>
-        <Per_capita>$1,730 ( 182nd )</Per_capita>
+        <Total____>61950000000</Total____>
+        <Per_capita____>1730</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$23.770 billion ( 120th )</Total>
-        <Per_capita>$663 ( 183rd )</Per_capita>
+        <Total____>23770000000</Total____>
+        <Per_capita____>663</Per_capita____>
       </GDP__nominal_>
-      <Gini__2019_>50.4 high inequality</Gini__2019_>
-      <HDI__2023_>0.493 low ( 183rd )</HDI__2023_>
-      <Currency>Metical ( MZN )</Currency>
+      <Gini>50.4</Gini>
+      <HDI>0.493</HDI>
+      <Currency>Metical</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( CAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+258</Calling_code>
-      <ISO_3166_code>MZ</ISO_3166_code>
-      <Internet_TLD>.mz</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

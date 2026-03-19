@@ -1,74 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Botswana</country>
-  <url>https://en.wikipedia.org/wiki/Botswana</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Gaborone 24°39.5′S 25°54.5′E ﻿ / ﻿ 24.6583°S 25.9083°E ﻿ / -24.6583; 25.9083</Capital_and_largest_city>
       <Official_languages>English</Official_languages>
-      <National_language>Tswana</National_language>
-      <Ethnic_groups__2024_>
-        <Tswana>79%</Tswana>
-        <Kalanga>11%</Kalanga>
-        <San>3%</San>
-        <others>7%</others>
-      </Ethnic_groups__2024_>
-      <Religion__2021_>
+      <Ethnic_groups>
+        <Tswana____>79</Tswana____>
+        <Kalanga____>11</Kalanga____>
+        <San____>3</San____>
+        <others____>7</others____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>79.1%</percentage>
+          <percentage>79.1</percentage>
           <breakdown>
-            <Protestantism>70.2%</Protestantism>
-            <other_Christian>8.9%</other_Christian>
+            <Protestantism____>70.2</Protestantism____>
+            <other_Christian____>8.9</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>15.2%</no_religion>
-        <Badimo>4.1%</Badimo>
-        <others>1.4%</others>
-        <unspecified>0.3%</unspecified>
-      </Religion__2021_>
-      <Demonyms>Batswana (plural) Motswana (singular)</Demonyms>
+        <no_religion____>15.2</no_religion____>
+        <Badimo____>4.1</Badimo____>
+        <others____>1.4</others____>
+        <unspecified____>0.3</unspecified____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic with an executive presidency</Government>
-      <President>Duma Boko</President>
-      <Vice_President>Ndaba Gaolathe</Vice_President>
-      <National_Assembly_Speaker>Dithapelo Keorapetse</National_Assembly_Speaker>
-      <Legislature>Parliament ( National Assembly )</Legislature>
     </Government>
-    <History>
-      <Established___Constitution__>30 September 1966</Established___Constitution__>
-    </History>
     <Area>
-      <Total>581,730 km 2 (224,610 sq mi) ( 47th )</Total>
+      <Total__km2_>581730</Total__km2_>
       <Water____>2.7</Water____>
     </Area>
     <Population>
-      <n_2022_census>2,359,609 ( 143rd )</n_2022_census>
-      <Density>4.1/km 2 (10.6/sq mi) ( 231st )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Census>2359609</Census>
+      <Density___km2_>4.1</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$54.820 billion ( 124th )</Total>
-        <Per_capita>$19,540 ( 83rd )</Per_capita>
+        <Total____>54820000000</Total____>
+        <Per_capita____>19540</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$20.710 billion ( 122nd )</Total>
-        <Per_capita>$7,380 ( 87th )</Per_capita>
+        <Total____>20710000000</Total____>
+        <Per_capita____>7380</Per_capita____>
       </GDP__nominal_>
-      <Gini__2016_>45.5 medium inequality</Gini__2016_>
-      <HDI__2023_>0.731 high ( 111th )</HDI__2023_>
-      <Currency>Pula ( BWP )</Currency>
+      <Gini>45.5</Gini>
+      <HDI>0.731</HDI>
+      <Currency>Pula</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( Central Africa Time )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+267</Calling_code>
-      <ISO_3166_code>BW</ISO_3166_code>
-      <Internet_TLD>.bw</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

@@ -1,65 +1,38 @@
 {
     "country": "Central African Republic",
-    "url": "https://en.wikipedia.org/wiki/Central_African_Republic",
     "infobox": {
         "General": {
-            "Capital and largest city": "Bangui 4°22′N 18°35′E ﻿ / ﻿ 4.367°N 18.583°E ﻿ / 4.367; 18.583",
-            "Official languages": "French Sango (co-official)",
-            "Recognised national languages": "Sango",
+            "Official languages": "French Sango",
             "Ethnic groups": "Baggara Arabs Baka Banda Bayaka Fula Gula Gbaya Kara Kresh Mbaka Mandja Ngbandi Runga Sara Vidiri Wodaabe Yakoma Yulu Kanuri Zande other",
-            "Religion (2020)": {
-                "Christianity": "73.2%",
-                "Islam": "13.9%",
-                "traditional faiths": "12%",
-                "other / none": "0.9%"
-            },
-            "Demonym": "Central African"
+            "Religion": {
+                "Christianity (%)": 73.2,
+                "Islam (%)": 13.9,
+                "traditional faiths (%)": 12,
+                "other / none (%)": 0.9
+            }
         },
         "Government": {
-            "Government": "Unitary presidential republic",
-            "President": "Faustin-Archange Touadéra",
-            "Prime Minister": "Félix Moloua",
-            "President of the National Assembly": "Simplice Sarandji",
-            "Legislature": "National Assembly"
-        },
-        "Independence": {
-            "from France": "13 August 1960",
-            "Coronation of Bokassa I": "4 December 1977",
-            "Bokassa I's overthrow and republic restored": "21 September 1979"
-        },
-        "History": {
-            "Republic established": "1 December 1958",
-            "Central African Empire established": "4 December 1976"
+            "Government": "Unitary presidential republic"
         },
         "Area": {
-            "Total": "622,984 km 2 (240,535 sq mi) ( 44th )"
+            "Total (km2)": 622984
         },
         "Population": {
-            "2024 estimate": "5,650,957 ( 119th )",
-            "Density": "8.6/km 2 (22.3/sq mi) ( 221st )"
+            "Estimate": 5650957,
+            "Density (/km2)": 8.6
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2026 estimate",
-                "Total": "$7.940 billion ( 170th )",
-                "Per capita": "$1,390 ( 190th )"
+                "Total ($)": 7940000000,
+                "Per capita ($)": 1390
             },
             "GDP (nominal)": {
-                "Details": "2026 estimate",
-                "Total": "$3.710 billion ( 182nd )",
-                "Per capita": "$650 ( 191st )"
+                "Total ($)": 3710000000,
+                "Per capita ($)": 650
             },
-            "Gini (2021)": "43 medium inequality",
-            "HDI (2023)": "0.414 low ( 191st )",
-            "Currency": "Central African CFA franc (XAF)"
-        },
-        "Time": {
-            "Time zone": "UTC +01:00 ( WAT )"
-        },
-        "Codes": {
-            "Calling code": "+236",
-            "ISO 3166 code": "CF",
-            "Internet TLD": ".cf"
+            "Gini": 43,
+            "HDI": 0.414,
+            "Currency": "Central African CFA franc"
         }
     }
 }

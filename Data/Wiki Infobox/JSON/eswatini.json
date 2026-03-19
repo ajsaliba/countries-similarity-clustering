@@ -1,80 +1,51 @@
 {
     "country": "Eswatini",
-    "url": "https://en.wikipedia.org/wiki/Eswatini",
     "infobox": {
         "General": {
-            "Capital": "Mbabane (executive) Lobamba (legislative) 26°30′S 31°30′E ﻿ / ﻿ 26.500°S 31.500°E ﻿ / -26.500; 31.500",
-            "Largest city": "Mbabane",
             "Official languages": "Swazi English",
-            "Ethnic groups (2017)": {
-                "Swazi": "84%",
-                "Zulu": "10%",
-                "others": "6%"
+            "Ethnic groups": {
+                "Swazi (%)": 84,
+                "Zulu (%)": 10,
+                "others (%)": 6
             },
-            "Religion (2017)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "89.3%",
+                    "percentage": 89.3,
                     "breakdown": {
-                        "Protestantism": "84.2%",
-                        "Roman Catholic": "3.7%",
-                        "other Christian": "1.4%"
+                        "Protestantism (%)": 84.2,
+                        "Roman Catholic (%)": 3.7,
+                        "other Christian (%)": 1.4
                     }
                 },
-                "no religion": "7.4%",
-                "traditional faiths": "2.5%",
-                "others": "0.8%"
-            },
-            "Demonym": "Swazi",
-            "Queen Mother": "Ntfombi"
+                "no religion (%)": 7.4,
+                "traditional faiths (%)": 2.5,
+                "others (%)": 0.8
+            }
         },
         "Government": {
-            "Government": "Unitary diarchic absolute monarchy",
-            "King": "Mswati III",
-            "Prime Minister": "Russell Dlamini",
-            "Chief Justice": "Bheki Maphalala",
-            "Legislature": "Parliament",
-            "Upper house": "Senate",
-            "Lower house": "House of Assembly"
-        },
-        "Independence from the United Kingdom": {
-            "United Nations membership": "24 September 1968",
-            "Renaming": "19 April 2018"
-        },
-        "History": {
-            "Independence granted": "6 September 1968",
-            "Current constitution": "2005"
+            "Government": "Unitary diarchic absolute monarchy"
         },
         "Area": {
-            "Total": "17,364 km 2 (6,704 sq mi) ( 153rd )",
-            "Water (%)": "0.9"
+            "Total (km2)": 17364,
+            "Water (%)": 0.9
         },
         "Population": {
-            "2023 estimate": "1,236,126 ( 155th )",
-            "2017 census": "1,093,238",
-            "Density": "66.8/km 2 (173.0/sq mi) ( 135th )"
+            "Estimate": 1236126,
+            "Census": 1093238,
+            "Density (/km2)": 66.8
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2023 estimate",
-                "Total": "$13.797 billion ( 158th )",
-                "Per capita": "$11,858 ( 113th )"
+                "Total ($)": 13797000000,
+                "Per capita ($)": 11858
             },
             "GDP (nominal)": {
-                "Details": "2023 estimate",
-                "Total": "$4.648 billion ( 168th )",
-                "Per capita": "$3,995 ( 122nd )"
+                "Total ($)": 4648000000,
+                "Per capita ($)": 3995
             },
-            "Gini (2016)": "54.6 high inequality",
-            "HDI (2023)": "0.695 medium ( 126th )",
-            "Currency": "Lilangeni (SZL) South African rand (ZAR)"
-        },
-        "Time": {
-            "Time zone": "UTC +2 ( SAST )"
-        },
-        "Codes": {
-            "Calling code": "+268",
-            "ISO 3166 code": "SZ",
-            "Internet TLD": ".sz"
+            "Gini": 54.6,
+            "HDI": 0.695,
+            "Currency": "Lilangeni South African rand"
         }
     }
 }

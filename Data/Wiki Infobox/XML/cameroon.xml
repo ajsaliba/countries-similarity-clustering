@@ -1,85 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Cameroon</country>
-  <url>https://en.wikipedia.org/wiki/Cameroon</url>
   <infobox>
     <General>
-      <Capital>Yaoundé 3°51′41″N 11°31′14″E ﻿ / ﻿ 3.86139°N 11.52056°E ﻿ / 3.86139; 11.52056</Capital>
-      <Largest_city>Douala</Largest_city>
       <Official_languages>French • English</Official_languages>
-      <Recognised_regional_languages>Grassfield Languages • Beti • Fufulde • Sawa • Hausa • Baka • Bassa • Chadian Arabic • Bafia • Gbaya • Pidgin • Camfranglais • Mandara</Recognised_regional_languages>
-      <Ethnic_groups__2022_>
-        <Bamileke___Bamun>22.2%</Bamileke___Bamun>
-        <Biu_Mandara>16.4%</Biu_Mandara>
-        <Shuwa_Arab___Hausa_and_Kanuri>13.5%</Shuwa_Arab___Hausa_and_Kanuri>
-        <Beti___Bassa>13.1%</Beti___Bassa>
-        <Fulani>12%</Fulani>
-        <Tikar>9.9%</Tikar>
-        <Adamawa_Ubangi___Mbum___Gbaya__>9.8%</Adamawa_Ubangi___Mbum___Gbaya__>
-        <Sawa_people>4.6%</Sawa_people>
-        <Southwest_Bantu>4.3%</Southwest_Bantu>
-        <Pygmy_peoples>2.3%</Pygmy_peoples>
-        <others_foreigners>3.8%</others_foreigners>
-      </Ethnic_groups__2022_>
-      <Religion__2022_>
-        <Christianity>66.3%</Christianity>
-        <Islam>30.6%</Islam>
+      <Ethnic_groups>
+        <Bamileke___Bamun____>22.2</Bamileke___Bamun____>
+        <Biu_Mandara____>16.4</Biu_Mandara____>
+        <Shuwa_Arab___Hausa_and_Kanuri____>13.5</Shuwa_Arab___Hausa_and_Kanuri____>
+        <Beti___Bassa____>13.1</Beti___Bassa____>
+        <Fulani____>12</Fulani____>
+        <Tikar____>9.9</Tikar____>
+        <Adamawa_Ubangi___Mbum___Gbaya______>9.8</Adamawa_Ubangi___Mbum___Gbaya______>
+        <Sawa_people____>4.6</Sawa_people____>
+        <Southwest_Bantu____>4.3</Southwest_Bantu____>
+        <Pygmy_peoples____>2.3</Pygmy_peoples____>
+        <others_foreigners____>3.8</others_foreigners____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>66.3</Christianity____>
+        <Islam____>30.6</Islam____>
         <traditional_faiths>
-          <percentage>1.3%</percentage>
+          <percentage>1.3</percentage>
           <breakdown>
-            <no_religion>1.1%</no_religion>
+            <no_religion____>1.1</no_religion____>
           </breakdown>
         </traditional_faiths>
-        <others>0.7%</others>
-      </Religion__2022_>
-      <Demonym>Cameroonian</Demonym>
+        <others____>0.7</others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic under a dictatorship</Government>
-      <President>Paul Biya</President>
-      <Prime_Minister>Joseph Ngute</Prime_Minister>
-      <President_of_Senate>Marcel Niat Njifenji</President_of_Senate>
-      <President_of_National_Assembly>Cavayé Yéguié Djibril</President_of_National_Assembly>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>National Assembly</Lower_house>
-      <Independence_of_British_Southern_Cameroons_from_the_United_Kingdom_and_establishment_of_the_Federal_Republic_of_Cameroon>1 October 1961</Independence_of_British_Southern_Cameroons_from_the_United_Kingdom_and_establishment_of_the_Federal_Republic_of_Cameroon>
     </Government>
-    <History>
-      <Independence_of_French_Cameroons_from_France>1 January 1960</Independence_of_French_Cameroons_from_France>
-      <Cameroonian_constitutional_referendum_of_1972_and_establishment_of_the_Unitary_State>20 May 1972</Cameroonian_constitutional_referendum_of_1972_and_establishment_of_the_Unitary_State>
-      <Current_constitution>18 January 1996</Current_constitution>
-    </History>
     <Area>
-      <Total>475,442 km 2 (183,569 sq mi) ( 53rd )</Total>
+      <Total__km2_>475442</Total__km2_>
       <Water____>0.57</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>30,987,821 ( 51st )</n_2025_estimate>
-      <Density>39.7/km 2 (102.8/sq mi)</Density>
+      <Estimate>30987821</Estimate>
+      <Density___km2_>39.7</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$183.320 billion ( 86th )</Total>
-        <Per_capita>$5.960 ( 147th )</Per_capita>
+        <Total____>183320000000</Total____>
+        <Per_capita____>5.96</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$67.520 billion ( 91st )</Total>
-        <Per_capita>$2,200 ( 152nd )</Per_capita>
+        <Total____>67520000000</Total____>
+        <Per_capita____>2200</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>42.2 medium inequality</Gini__2021_>
-      <HDI__2023_>0.588 medium ( 155th )</HDI__2023_>
-      <Currency>Central African CFA franc ( XAF )</Currency>
+      <Gini>42.2</Gini>
+      <HDI>0.588</HDI>
+      <Currency>Central African CFA franc</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( WAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+237</Calling_code>
-      <ISO_3166_code>CM</ISO_3166_code>
-      <Internet_TLD>.cm</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

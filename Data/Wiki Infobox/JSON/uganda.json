@@ -1,89 +1,57 @@
 {
     "country": "Uganda",
-    "url": "https://en.wikipedia.org/wiki/Uganda",
     "infobox": {
         "General": {
-            "Luganda": [
-                "Lipabuliika ya Uganda",
-                "Lipabuliika ya Uganda"
-            ],
-            "Lusoga": "Uganda Eryetwala",
-            "Lumasaba": "Linambo lya Uganda",
-            "Capital and largest city": "Kampala",
             "Official languages": "English Swahili",
-            "Other languages": "See Languages of Uganda",
-            "Dialect of English": "Uglish",
-            "Ethnic groups (2024 census)": {
-                "Baganda": "15.3%",
-                "Banyankole": "9.1%",
-                "Basoga": "8.1%",
-                "Bakiga": "6.4%",
-                "Iteso": "6.8%",
-                "Langi": "5.9%",
-                "Bagisu": "4.5%",
-                "Acholi": "4.2%",
-                "Lugbara": "2.6%",
-                "others": "37.1%"
+            "Ethnic groups": {
+                "Baganda (%)": 15.3,
+                "Banyankole (%)": 9.1,
+                "Basoga (%)": 8.1,
+                "Bakiga (%)": 6.4,
+                "Iteso (%)": 6.8,
+                "Langi (%)": 5.9,
+                "Bagisu (%)": 4.5,
+                "Acholi (%)": 4.2,
+                "Lugbara (%)": 2.6,
+                "others (%)": 37.1
             },
-            "Religion (2024 census)": {
-                "Christianity": "81.7%",
+            "Religion": {
+                "Christianity (%)": 81.7,
                 "Roman Catholic": {
-                    "percentage": "42%",
+                    "percentage": 42,
                     "breakdown": {
-                        "Protestant": "29%",
-                        "Islam": "13.2%"
+                        "Protestant (%)": 29,
+                        "Islam (%)": 13.2
                     }
                 },
-                "unclassified": "3.3%",
-                "others": "1.6%",
-                "no religion": "0.2%"
-            },
-            "Demonym": "Ugandan"
+                "unclassified (%)": 3.3,
+                "others (%)": 1.6,
+                "no religion (%)": 0.2
+            }
         },
         "Government": {
-            "Government": "Unitary presidential republic under a dictatorship",
-            "President": "Yoweri Museveni",
-            "Vice-President": "Jessica Alupo",
-            "Prime Minister": "Robinah Nabbanja",
-            "Legislature": "Parliament"
-        },
-        "Independence from the United Kingdom": {
-            "Dominion": "9 October 1962",
-            "Republic declared": "9 October 1963"
-        },
-        "History": {
-            "Current constitution": "8 October 1995"
+            "Government": "Unitary presidential republic under a dictatorship"
         },
         "Area": {
-            "Total": "241,038 km 2 (93,065 sq mi) ( 79th )",
-            "Water (%)": "15.39"
+            "Total (km2)": 241038,
+            "Water (%)": 15.39
         },
         "Population": {
-            "2024 census": "= 45,905,417",
-            "Density": "157.1/km 2 (406.9/sq mi) ( 75th )"
+            "Census": "= 45,905,417",
+            "Density (/km2)": 157.1
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$187.11 billion ( 82th )",
-                "Per capita": "$3,900 ( 161st )"
+                "Total ($)": 187110000000,
+                "Per capita ($)": 3900
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$64.280 billion ( 88th )",
-                "Per capita": "$1,340 ( 160th )"
+                "Total ($)": 64280000000,
+                "Per capita ($)": 1340
             },
-            "Gini (2016)": "42.0 medium inequality",
-            "HDI (2023)": "0.582 medium ( 157th )",
-            "Currency": "Ugandan shilling ( UGX )"
-        },
-        "Time": {
-            "Time zone": "UTC +3 ( EAT )"
-        },
-        "Codes": {
-            "Calling code": "+256",
-            "ISO 3166 code": "UG",
-            "Internet TLD": ".ug"
+            "Gini": 42.0,
+            "HDI": 0.582,
+            "Currency": "Ugandan shilling"
         }
     }
 }

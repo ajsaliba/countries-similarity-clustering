@@ -1,81 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Guyana</country>
-  <url>https://en.wikipedia.org/wiki/Guyana</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Georgetown 6°48′04″N 58°09′18″W ﻿ / ﻿ 6.80111°N 58.15500°W ﻿ / 6.80111; -58.15500</Capital_and_largest_city>
       <Official_languages>English</Official_languages>
-      <Recognised_regional_languages>10 indigenous languages Akawaio Macushi Waiwai Arawak (Lokono) Patamona Warao Carib Wapishana Pemon (Arekuna) Mawayana</Recognised_regional_languages>
-      <Vernacular_language>Guyanese Creole</Vernacular_language>
-      <Other_languages>6 languages Guyanese Hindustani Portuguese Dutch Spanish Chinese</Other_languages>
-      <Ethnic_groups__2024_>
-        <Indian>44.4%</Indian>
-        <African>32.3%</African>
-        <Mixed>20%</Mixed>
-        <Indigenous>10.5%</Indigenous>
-        <European>0.3%</European>
-        <Chinese>0.2%</Chinese>
-      </Ethnic_groups__2024_>
-      <Religion__2024_>
-        <Christianity>55.5%</Christianity>
-        <Hinduism>31%</Hinduism>
-        <Islam>9.5%</Islam>
-        <no_religion>4.2%</no_religion>
-        <others>3.3%</others>
-      </Religion__2024_>
-      <Demonym>Guyanese</Demonym>
+      <Ethnic_groups>
+        <Indian____>44.4</Indian____>
+        <African____>32.3</African____>
+        <Mixed____>20</Mixed____>
+        <Indigenous____>10.5</Indigenous____>
+        <European____>0.3</European____>
+        <Chinese____>0.2</Chinese____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>55.5</Christianity____>
+        <Hinduism____>31</Hinduism____>
+        <Islam____>9.5</Islam____>
+        <no_religion____>4.2</no_religion____>
+        <others____>3.3</others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic with an executive presidency</Government>
-      <President>Irfaan Ali</President>
-      <Prime_Minister___First_Vice_President>Mark Phillips</Prime_Minister___First_Vice_President>
-      <Second_Vice_President>Bharrat Jagdeo</Second_Vice_President>
-      <Speaker_of_the_National_Assembly>Manzoor Nadir</Speaker_of_the_National_Assembly>
-      <Acting_Chief_Justice>Roxane George-Wiltshire</Acting_Chief_Justice>
-      <Legislature>National Assembly</Legislature>
-      <Independence_from_the_United_Kingdom_as_Guyana>26 May 1966</Independence_from_the_United_Kingdom_as_Guyana>
     </Government>
-    <Establishment>
-      <British_Guiana>1831–1966</British_Guiana>
-      <Republic>23 February 1970</Republic>
-      <Joined_CARICOM_at_the_Treaty_of_Chaguaramas>1 August 1973</Joined_CARICOM_at_the_Treaty_of_Chaguaramas>
-    </Establishment>
-    <Time>
-      <Dutch_control>1667–1815</Dutch_control>
-      <Time_zone>UTC -04:00 ( GYT )</Time_zone>
-    </Time>
-    <History>
-      <Current_constitution>6 October 1980</Current_constitution>
-    </History>
     <Area>
-      <Total>214,969 km 2 (83,000 sq mi) ( 83rd )</Total>
+      <Total__km2_>214969</Total__km2_>
       <Water____>8.4</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>950,986 ( 166th )</n_2025_estimate>
-      <Density>4.25/km 2 (11.0/sq mi) ( 235th )</Density>
-      <Date_format>dd-mm-yyyy</Date_format>
+      <Estimate>950986</Estimate>
+      <Density___km2_>4.25</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$75.294 billion ( 110th )</Total>
-        <Per_capita>$94,258 ( 8th )</Per_capita>
+        <Total____>75294000000</Total____>
+        <Per_capita____>94258</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$25.822 billion ( 119th )</Total>
-        <Per_capita>$32,326 ( 37th )</Per_capita>
+        <Total____>25822000000</Total____>
+        <Per_capita____>32326</Per_capita____>
       </GDP__nominal_>
-      <Gini__2007_>44.6 medium inequality</Gini__2007_>
-      <HDI__2023_>0.776 high ( 89th )</HDI__2023_>
-      <Currency>Guyanese dollar ( GYD )</Currency>
+      <Gini>44.6</Gini>
+      <HDI>0.776</HDI>
+      <Currency>Guyanese dollar</Currency>
     </Economy>
-    <Codes>
-      <Calling_code>+592</Calling_code>
-      <ISO_3166_code>GY</ISO_3166_code>
-      <Internet_TLD>.gy</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

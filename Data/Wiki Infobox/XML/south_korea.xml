@@ -1,75 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>South Korea</country>
-  <url>https://en.wikipedia.org/wiki/South_Korea</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Seoul 37°33′N 126°58′E ﻿ / ﻿ 37.550°N 126.967°E ﻿ / 37.550; 126.967</Capital_and_largest_city>
       <Official_languages>Korean Korean Sign Language</Official_languages>
-      <Official_script>Hangul</Official_script>
-      <Ethnic_groups__2024_>
-        <Korean>94.8%</Korean>
-        <other>5.2%</other>
-      </Ethnic_groups__2024_>
-      <Religion__2024_>
+      <Ethnic_groups>
+        <Korean____>94.8</Korean____>
+        <other____>5.2</other____>
+      </Ethnic_groups>
+      <Religion>
         <No_religion>
-          <percentage>51%</percentage>
+          <percentage>51</percentage>
           <breakdown>
-            <Christianity>31%</Christianity>
-            <Protestant>20%</Protestant>
+            <Christianity____>31</Christianity____>
+            <Protestant____>20</Protestant____>
           </breakdown>
         </No_religion>
-        <Catholic>11%</Catholic>
-        <Buddhism>17%</Buddhism>
-        <other>2%</other>
-      </Religion__2024_>
-      <Demonyms>South Korean Korean</Demonyms>
+        <Catholic____>11</Catholic____>
+        <Buddhism____>17</Buddhism____>
+        <other____>2</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Lee Jae Myung</President>
-      <Prime_Minister>Kim Min-seok</Prime_Minister>
-      <Speaker_of_the_National_Assembly>Woo Won-shik</Speaker_of_the_National_Assembly>
-      <Chief_Justice_of_the_Supreme_Court>Cho Hee-dae</Chief_Justice_of_the_Supreme_Court>
-      <President_of_the_Constitutional_Court>Kim Sanghwan</President_of_the_Constitutional_Court>
-      <Legislature>National Assembly</Legislature>
-      <Provisional_Government_in_exile>11 April 1919</Provisional_Government_in_exile>
     </Government>
-    <History>
-      <American_administration_south_of_the_38th_parallel>8 September 1945</American_administration_south_of_the_38th_parallel>
-      <Constitution_adopted>17 July 1948</Constitution_adopted>
-      <ROK_established>15 August 1948</ROK_established>
-    </History>
     <Area>
-      <Total>100,363 km 2 (38,750 sq mi) ( 107th )</Total>
+      <Total__km2_>100363</Total__km2_>
       <Water____>0.3</Water____>
     </Area>
     <Population>
-      <n_2024_estimate>52,081,799 ( 29th )</n_2024_estimate>
-      <Density>507/km 2 (1,313.1/sq mi) ( 27th )</Density>
+      <Estimate>52081799</Estimate>
+      <Density___km2_>507</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$3.363 trillion ( 14th )</Total>
-        <Per_capita>$65,080 ( 29th )</Per_capita>
+        <Total____>3363000000000</Total____>
+        <Per_capita____>65080</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$1.859 trillion ( 14th )</Total>
-        <Per_capita>$35,962 ( 33rd )</Per_capita>
+        <Total____>1859000000000</Total____>
+        <Per_capita____>35962</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>33.3 medium inequality</Gini__2021_>
-      <HDI__2023_>0.937 very high ( 20th )</HDI__2023_>
-      <Currency>Korean Republic won (₩) ( KRW )</Currency>
+      <Gini>33.3</Gini>
+      <HDI>0.937</HDI>
+      <Currency>Korean Republic won</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +9 ( Korea Standard Time )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+82</Calling_code>
-      <ISO_3166_code>KR</ISO_3166_code>
-      <Internet_TLD>.kr .한국</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

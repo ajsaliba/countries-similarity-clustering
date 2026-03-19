@@ -1,65 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Algeria</country>
-  <url>https://en.wikipedia.org/wiki/Algeria</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Algiers 36°42′N 3°13′E ﻿ / ﻿ 36.700°N 3.217°E ﻿ / 36.700; 3.217</Capital_and_largest_city>
       <Official_languages>Arabic Berber</Official_languages>
-      <National_vernacular>Algerian Arabic</National_vernacular>
-      <Foreign_languages>French English</Foreign_languages>
       <Ethnic_groups>See Ethnic groups</Ethnic_groups>
-      <Religion__2012_>
-        <Sunni_Islam___official____>99%</Sunni_Islam___official____>
-        <others>1%</others>
-      </Religion__2012_>
-      <Demonym>Algerian</Demonym>
+      <Religion>
+        <Sunni_Islam___official________>99</Sunni_Islam___official________>
+        <others____>1</others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
-      <President>Abdelmadjid Tebboune</President>
-      <Prime_Minister>Sifi Ghrieb</Prime_Minister>
-      <Council_President>Azouz Nasri</Council_President>
-      <Assembly_President>Ibrahim Boughali</Assembly_President>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Council of the Nation</Upper_house>
-      <Lower_house>People's National Assembly</Lower_house>
     </Government>
-    <History>
-      <Numidia>202 BC</Numidia>
-      <Regency_of_Algiers>1516</Regency_of_Algiers>
-      <French_Algeria>5 July 1830</French_Algeria>
-      <Independence>5 July 1962</Independence>
-    </History>
     <Area>
-      <Total>2,381,741 km 2 (919,595 sq mi) ( 10th )</Total>
+      <Total__km2_>2381741</Total__km2_>
     </Area>
     <Population>
-      <n_2025_estimate>47,400,000 ( 32nd )</n_2025_estimate>
-      <Density>19/km 2 (49.2/sq mi) ( 206th )</Density>
+      <Estimate>47400000</Estimate>
+      <Density___km2_>19</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$875.330 billion ( 40th )</Total>
-        <Per_capita>$18,530 ( 100th )</Per_capita>
+        <Total____>875330000000</Total____>
+        <Per_capita____>18530</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$268.890 billion ( 49th )</Total>
-        <Per_capita>$5,690 ( 111th )</Per_capita>
+        <Total____>268890000000</Total____>
+        <Per_capita____>5690</Per_capita____>
       </GDP__nominal_>
-      <Gini__2011_>27.6 low inequality</Gini__2011_>
-      <HDI__2023_>0.763 high ( 96th )</HDI__2023_>
-      <Currency>Algerian dinar ( DZD )</Currency>
+      <Gini>27.6</Gini>
+      <HDI>0.763</HDI>
+      <Currency>Algerian dinar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+213</Calling_code>
-      <ISO_3166_code>DZ</ISO_3166_code>
-      <Internet_TLD>.dz .الجزائر</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

@@ -1,91 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Namibia</country>
-  <url>https://en.wikipedia.org/wiki/Namibia</url>
   <infobox>
     <General>
-      <Afrikaans>
-        <item>Republiek van Namibië</item>
-        <item>Republiek van Namibië</item>
-      </Afrikaans>
-      <German>Republik Namibia</German>
-      <Khoekhoegowab>Republiki Namibiab dib</Khoekhoegowab>
-      <Oshiwambo>Orepublika yaNamibia</Oshiwambo>
-      <Otjiherero>Orepublika yaNamibia</Otjiherero>
-      <RuKwangali>Republika zaNamibia</RuKwangali>
-      <Setswana>Rephaboliki ya Namibia</Setswana>
-      <siLozi>Namibia ye Lukuluhile</siLozi>
-      <Capital_and_largest_city>Windhoek 22°34′S 17°5′E ﻿ / ﻿ 22.567°S 17.083°E ﻿ / -22.567; 17.083</Capital_and_largest_city>
       <Official_languages>English</Official_languages>
-      <Recognised_national_languages>Afrikaans German Khoekhoegowab Oshiwambo Otjiherero RuKwangali Setswana siLozi</Recognised_national_languages>
-      <Recognised_regional_languages>ǃKung Gciriku Thimbukushu</Recognised_regional_languages>
-      <Ethnic_groups__2023_>
-        <Indigenous_African>93.2%</Indigenous_African>
-        <Coloured_and_Basters>3.6%</Coloured_and_Basters>
-        <White>1.8%</White>
-        <Asian___other>1.4%</Asian___other>
-      </Ethnic_groups__2023_>
-      <Religion__2023_>
+      <Ethnic_groups>
+        <Indigenous_African____>93.2</Indigenous_African____>
+        <Coloured_and_Basters____>3.6</Coloured_and_Basters____>
+        <White____>1.8</White____>
+        <Asian___other____>1.4</Asian___other____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>87.9%</percentage>
+          <percentage>87.9</percentage>
           <breakdown>
-            <Lutheranism>43.7%</Lutheranism>
-            <Catholicism>22.8%</Catholicism>
-            <Anglicanism>17%</Anglicanism>
-            <other_Christian>4.4%</other_Christian>
+            <Lutheranism____>43.7</Lutheranism____>
+            <Catholicism____>22.8</Catholicism____>
+            <Anglicanism____>17</Anglicanism____>
+            <other_Christian____>4.4</other_Christian____>
           </breakdown>
         </Christianity>
-        <other>10.5%</other>
-        <no_religion>1.6%</no_religion>
-      </Religion__2023_>
-      <Demonym>Namibian</Demonym>
+        <other____>10.5</other____>
+        <no_religion____>1.6</no_religion____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
-      <President>Netumbo Nandi-Ndaitwah</President>
-      <Vice_President>Lucia Witbooi</Vice_President>
-      <Prime_Minister>Elijah Ngurare</Prime_Minister>
-      <Deputy_Prime_Minister>Vacant</Deputy_Prime_Minister>
-      <Chief_Justice>Peter Shivute</Chief_Justice>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>National Council</Upper_house>
-      <Lower_house>National Assembly</Lower_house>
     </Government>
-    <History>
-      <Constitution>9 February 1990</Constitution>
-      <Independence>21 March 1990</Independence>
-    </History>
     <Area>
-      <Total>825,615 km 2 (318,772 sq mi) ( 34th )</Total>
+      <Total__km2_>825615</Total__km2_>
       <Water____>Negligible</Water____>
     </Area>
     <Population>
-      <n_2025_census>3,022,401 ( 136th )</n_2025_census>
-      <Density>3.7/km 2 (9.6/sq mi)</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Census>3022401</Census>
+      <Density___km2_>3.7</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$37.73 billion ( 145th )</Total>
-        <Per_capita>$12,370 ( 117th )</Per_capita>
+        <Total____>37730000000</Total____>
+        <Per_capita____>12370</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$14.21 billion ( 145th )</Total>
-        <Per_capita>$4,660 ( 120th )</Per_capita>
+        <Total____>14210000000</Total____>
+        <Per_capita____>4660</Per_capita____>
       </GDP__nominal_>
-      <Gini__2015_>59.1 high inequality</Gini__2015_>
-      <HDI__2023_>0.665 medium ( 136th )</HDI__2023_>
-      <Currency>Namibian dollar (NAD) South African rand (ZAR)</Currency>
+      <Gini>59.1</Gini>
+      <HDI>0.665</HDI>
+      <Currency>Namibian dollar South African rand</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( CAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+264</Calling_code>
-      <ISO_3166_code>NA</ISO_3166_code>
-      <Internet_TLD>.na</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

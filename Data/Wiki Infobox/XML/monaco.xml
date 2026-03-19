@@ -1,78 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Monaco</country>
-  <url>https://en.wikipedia.org/wiki/Monaco</url>
   <infobox>
     <General>
-      <Capital>Monaco ( city-state ) 43°43′52″N 07°25′12″E ﻿ / ﻿ 43.73111°N 7.42000°E ﻿ / 43.73111; 7.42000</Capital>
-      <Largest_quarter>Monte Carlo</Largest_quarter>
-      <Official_languages>French ( Meridional )</Official_languages>
-      <Common_languages>Italian Monégasque Ligurian</Common_languages>
+      <Official_languages>French</Official_languages>
       <Ethnic_groups>Monégasques French Italians Occitans</Ethnic_groups>
       <Religion>
         <Christianity>
-          <percentage>86%</percentage>
+          <percentage>86</percentage>
           <breakdown>
-            <Catholicism___official__>80.9%</Catholicism___official__>
-            <other_Christian>5.1%</other_Christian>
+            <Catholicism___official______>80.9</Catholicism___official______>
+            <other_Christian____>5.1</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>11.7%</no_religion>
-        <Judaism>1.7%</Judaism>
+        <no_religion____>11.7</no_religion____>
+        <Judaism____>1.7</Judaism____>
         <Islam>
-          <percentage>0.4%</percentage>
+          <percentage>0.4</percentage>
           <breakdown>
-            <other>0.2%</other>
+            <other____>0.2</other____>
           </breakdown>
         </Islam>
       </Religion>
-      <Demonym>Monégasque</Demonym>
-      <Monarch>Albert II</Monarch>
-      <Minister_of_State>Christophe Mirmand</Minister_of_State>
     </General>
     <Government>
       <Government>Unitary parliamentary semi- constitutional monarchy</Government>
-      <Legislature>National Council</Legislature>
     </Government>
-    <Independence>
-      <House_of_Grimaldi__under_the_sovereignty_of_the_Republic_of_Genoa__>8 January 1297</House_of_Grimaldi__under_the_sovereignty_of_the_Republic_of_Genoa__>
-      <from_the_French_Empire>17 May 1814</from_the_French_Empire>
-      <from_occupation_of_the_Sixth_Coalition>17 June 1814</from_occupation_of_the_Sixth_Coalition>
-      <Franco_Mon_gasque_Treaty>11 February 1861</Franco_Mon_gasque_Treaty>
-    </Independence>
-    <History>
-      <Constitution>5 January 1911</Constitution>
-    </History>
     <Area>
-      <Total>2.084 km 2 (0.805 sq mi) ( 194th )</Total>
+      <Total__km2_>2.084</Total__km2_>
       <Water____>negligible</Water____>
     </Area>
     <Population>
-      <n_2024_census>38,423 ( 190th )</n_2024_census>
-      <Density>18,446/km 2 (47,774.9/sq mi) ( 1st )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Census>38423</Census>
+      <Density___km2_>18446</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2024 estimate</Details>
-        <Total>$8.924 billion ( 165th )</Total>
-        <Per_capita>$270,100</Per_capita>
+        <Total____>8924000000</Total____>
+        <Per_capita____>270100</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2024 estimate</Details>
-        <Total>$10.434 billion</Total>
-        <Per_capita>$315,800</Per_capita>
+        <Total____>10434000000</Total____>
+        <Per_capita____>315800</Per_capita____>
       </GDP__nominal_>
-      <Currency>Euro ( € ) ( EUR )</Currency>
+      <Currency>Euro</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+377</Calling_code>
-      <ISO_3166_code>MC</ISO_3166_code>
-      <Internet_TLD>.mc</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

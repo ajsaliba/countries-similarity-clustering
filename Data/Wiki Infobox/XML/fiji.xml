@@ -1,80 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Fiji</country>
-  <url>https://en.wikipedia.org/wiki/Fiji</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Suva 18°10′S 178°27′E ﻿ / ﻿ 18.167°S 178.450°E ﻿ / -18.167; 178.450</Capital_and_largest_city>
-      <Recognised_national_languages>Fijian English Standard Hindi Fiji Hindi</Recognised_national_languages>
-      <Recognised_regional_languages>Rotuman</Recognised_regional_languages>
-      <Ethnic_groups__2016_>
-        <Indigenous_Fijians>56.8%</Indigenous_Fijians>
-        <Indo_Fijians>37.5%</Indo_Fijians>
-        <Rotumans>1.2%</Rotumans>
-        <others>4.5%</others>
-      </Ethnic_groups__2016_>
+      <Ethnic_groups>
+        <Indigenous_Fijians____>56.8</Indigenous_Fijians____>
+        <Indo_Fijians____>37.5</Indo_Fijians____>
+        <Rotumans____>1.2</Rotumans____>
+        <others____>4.5</others____>
+      </Ethnic_groups>
       <Religion>
         <Christianity>
-          <percentage>64.4%</percentage>
+          <percentage>64.4</percentage>
           <breakdown>
-            <Methodism>34.6%</Methodism>
-            <other_Christian>29.8%</other_Christian>
+            <Methodism____>34.6</Methodism____>
+            <other_Christian____>29.8</other_Christian____>
           </breakdown>
         </Christianity>
-        <Hinduism>27.9%</Hinduism>
-        <Islam>6.3%</Islam>
-        <others___none>1.4%</others___none>
+        <Hinduism____>27.9</Hinduism____>
+        <Islam____>6.3</Islam____>
+        <others___none____>1.4</others___none____>
       </Religion>
-      <Demonym>Fijian</Demonym>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Naiqama Lalabalavu</President>
-      <Prime_Minister>Sitiveni Rabuka</Prime_Minister>
-      <Deputy_Prime_Minister>Viliame Gavoka</Deputy_Prime_Minister>
-      <Parliament_Speaker>Filimone Jitoko</Parliament_Speaker>
-      <Chief_Justice>Salesi Temo</Chief_Justice>
-      <Legislature>Parliament</Legislature>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Republic>6 October 1987</Republic>
-    </Independence_from_the_United_Kingdom>
-    <History>
-      <Independence>10 October 1970</Independence>
-      <Current_constitution>6 September 2013</Current_constitution>
-    </History>
     <Area>
-      <Total>18,274 km 2 (7,056 sq mi) ( 151st )</Total>
+      <Total__km2_>18274</Total__km2_>
       <Water____>negligible</Water____>
     </Area>
     <Population>
-      <n_2018_estimate>926,276 ( 161st )</n_2018_estimate>
-      <n_2017_census>884,887</n_2017_census>
-      <Density>46.4/km 2 (120.2/sq mi) ( 148th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>926276</Estimate>
+      <Census>884887</Census>
+      <Density___km2_>46.4</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2023 estimate</Details>
-        <Total>$15.152 billion ( 158th )</Total>
-        <Per_capita>$16,563 ( 102nd )</Per_capita>
+        <Total____>15152000000</Total____>
+        <Per_capita____>16563</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2023 estimate</Details>
-        <Total>$5.511 billion ( 164th )</Total>
-        <Per_capita>$6,024 ( 106th )</Per_capita>
+        <Total____>5511000000</Total____>
+        <Per_capita____>6024</Per_capita____>
       </GDP__nominal_>
-      <Gini__2019_>30.7 medium inequality</Gini__2019_>
-      <HDI__2023_>0.731 high ( 111th )</HDI__2023_>
-      <Currency>Fijian dollar ( FJD )</Currency>
+      <Gini>30.7</Gini>
+      <HDI>0.731</HDI>
+      <Currency>Fijian dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +12 (FJT)</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+679</Calling_code>
-      <ISO_3166_code>FJ</ISO_3166_code>
-      <Internet_TLD>.fj</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

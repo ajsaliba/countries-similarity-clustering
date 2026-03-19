@@ -1,68 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Egypt</country>
-  <url>https://en.wikipedia.org/wiki/Egypt</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Cairo 30°2′N 31°13′E ﻿ / ﻿ 30.033°N 31.217°E ﻿ / 30.033; 31.217</Capital_and_largest_city>
       <Official_languages>Arabic</Official_languages>
-      <National_language>Egyptian Arabic</National_language>
       <Religion>See Religion in Egypt</Religion>
-      <Demonym>Egyptian</Demonym>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under an authoritarian government</Government>
-      <President>Abdel Fattah el-Sisi</President>
-      <Prime_Minister>Mostafa Madbouly</Prime_Minister>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>House of Representatives</Lower_house>
     </Government>
-    <Establishment>
-      <Fatimid_Caliphate>c. 973</Fatimid_Caliphate>
-      <Ayyubid_dynasty_inaugurated>c. 1171</Ayyubid_dynasty_inaugurated>
-      <Mamluk_Egypt>c. 1261</Mamluk_Egypt>
-      <Alawiyya_dynasty_inaugurated>9 July 1805</Alawiyya_dynasty_inaugurated>
-      <Revolution_Day>23 July 1952</Revolution_Day>
-      <Republic_declared>18 June 1953</Republic_declared>
-    </Establishment>
-    <History>
-      <Unification_of_Upper_and_Lower_Egypt>c. 3150 BC</Unification_of_Upper_and_Lower_Egypt>
-      <Declaration_of_Independence>28 February 1922</Declaration_of_Independence>
-      <Current_constitution>18 January 2014</Current_constitution>
-    </History>
     <Area>
-      <Total>1,010,408 km 2 (390,121 sq mi) ( 29th )</Total>
+      <Total__km2_>1010408</Total__km2_>
       <Water____>0.632</Water____>
     </Area>
     <Population>
-      <July_2025_estimate>107,868,296 ( 15th )</July_2025_estimate>
-      <n_2017_census>94,798,827</n_2017_census>
-      <Density>106.8/km 2 (276.6/sq mi) ( 102nd )</Density>
+      <Estimate>107868296</Estimate>
+      <Census>94798827</Census>
+      <Density___km2_>106.8</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$2.372 trillion ( 18th )</Total>
-        <Per_capita>$21,668 ( 87th )</Per_capita>
+        <Total____>2372000000000</Total____>
+        <Per_capita____>21668</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$347.342 billion ( 44th )</Total>
-        <Per_capita>$3,174 ( 138th )</Per_capita>
+        <Total____>347342000000</Total____>
+        <Per_capita____>3174</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>28.5 low inequality</Gini__2021_>
-      <HDI__2023_>0.754 high ( 100th )</HDI__2023_>
-      <Currency>Egyptian pound (LE/E£/£E) ( EGP )</Currency>
+      <Gini>28.5</Gini>
+      <HDI>0.754</HDI>
+      <Currency>Egyptian pound</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( EET )</Time_zone>
-      <Summer___DST__>UTC +3 ( EEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+20</Calling_code>
-      <ISO_3166_code>EG</ISO_3166_code>
-      <Internet_TLD>.eg مصر.</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

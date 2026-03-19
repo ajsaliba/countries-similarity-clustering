@@ -1,66 +1,39 @@
 {
     "country": "North Korea",
-    "url": "https://en.wikipedia.org/wiki/North_Korea",
     "infobox": {
         "General": {
-            "Capital and largest city": "Pyongyang 39°2′N 125°45′E ﻿ / ﻿ 39.033°N 125.750°E ﻿ / 39.033; 125.750",
-            "Official languages": "Korean ( Munhwaŏ )",
-            "Official script": "Chosŏn'gŭl",
-            "Religion (2020)": {
-                "no religion": "73%",
-                "Chondoism": "13%",
-                "Shamanism": "12%",
-                "Buddhism": "1.5%",
-                "other": "0.5%"
-            },
-            "Demonyms": "North Korean Korean",
-            "Premier": "Pak Thae-song",
-            "SPA Chairman": "Vacant"
+            "Official languages": "Korean",
+            "Religion": {
+                "no religion (%)": 73,
+                "Chondoism (%)": 13,
+                "Shamanism (%)": 12,
+                "Buddhism (%)": 1.5,
+                "other (%)": 0.5
+            }
         },
         "Government": {
-            "Government": "Unitary communist state",
-            "WPK General Secretary and SAC President": "Kim Jong Un",
-            "SPA Standing Committee Chairman and SAC First Vice President": "Choe Ryong-hae",
-            "Legislature": "Supreme People's Assembly",
-            "1st provisional government": "8 February 1946"
-        },
-        "History": {
-            "Surrender of Japan": "2 September 1945",
-            "Soviet administration north of the 38th parallel": "3 October 1945",
-            "DPRK established": "10 July 1948",
-            "Current constitution": "27 December 1972"
+            "Government": "Unitary communist state"
         },
         "Area": {
-            "Total": "120,538 km 2 (46,540 sq mi) ( 98th )",
-            "Water (%)": "0.11"
+            "Total (km2)": 120538,
+            "Water (%)": 0.11
         },
         "Population": {
-            "2024 estimate": "26,298,666 ( 54th )",
-            "2008 census": "24,052,231",
-            "Density": "212/km 2 (549.1/sq mi) ( 68th )",
-            "Date format": "yy, yyyy년 mm월 dd일 yy, yyyy/mm/dd ( AD )"
+            "Estimate": 26298666,
+            "Census": 24052231,
+            "Density (/km2)": 212
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2023 estimate",
-                "Total": "$15.416 billion",
-                "Per capita": "$600"
+                "Total ($)": 15416000000,
+                "Per capita ($)": 600
             },
             "GDP (nominal)": {
-                "Details": "2024 estimate",
-                "Total": "$32.036 billion",
-                "Per capita": "$1,261"
+                "Total ($)": 32036000000,
+                "Per capita ($)": 1261
             },
-            "Gini (2020)": "16.6 low inequality",
-            "Currency": "Korean People's won (₩) ( KPW )"
-        },
-        "Time": {
-            "Time zone": "UTC +09:00 ( PYT )"
-        },
-        "Codes": {
-            "Calling code": "+850",
-            "ISO 3166 code": "KP",
-            "Internet TLD": ".kp"
+            "Gini": 16.6,
+            "Currency": "Korean People's won"
         }
     }
 }

@@ -1,103 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Suriname</country>
-  <url>https://en.wikipedia.org/wiki/Suriname</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Paramaribo 5°50′N 55°10′W ﻿ / ﻿ 5.833°N 55.167°W ﻿ / 5.833; -55.167</Capital_and_largest_city>
       <Official_languages>Dutch</Official_languages>
-      <Recognised_regional_languages>8 indigenous languages Akurio Arawak-Lokono Carib-Kari'nja Sikiana-Kashuyana Tiro-Tiriyó Waiwai Warao Wayana</Recognised_regional_languages>
-      <Lingua_franca>Sranan Tongo</Lingua_franca>
-      <Other_languages>14 languages English Sarnámi Hindustáni Surinamese-Javanese Ndyuka Saramaccan Matawai Aluku Paramaccan Kwinti Chinese Lebanese Arabic French Brazilian Portuguese Spanish</Other_languages>
-      <Ethnic_groups__2012_>
-        <Asian_Surinamese>42.6%</Asian_Surinamese>
-        <Hindustani>27.4%</Hindustani>
-        <Javanese>13.7%</Javanese>
-        <Chinese>1.5%</Chinese>
-        <Afro_Surinamese>37.4%</Afro_Surinamese>
-        <Maroon>21.7%</Maroon>
-        <Creole>15.7%</Creole>
-        <Multiracial>13.4%</Multiracial>
-        <Indigenous>3.8%</Indigenous>
-        <European>0.3%</European>
-      </Ethnic_groups__2012_>
-      <Religion__2012_>
-        <Christianity_26_75_Protestantism>48.4%</Christianity_26_75_Protestantism>
-        <Roman_Catholicism>21.65%</Roman_Catholicism>
+      <Ethnic_groups>
+        <Asian_Surinamese____>42.6</Asian_Surinamese____>
+        <Hindustani____>27.4</Hindustani____>
+        <Javanese____>13.7</Javanese____>
+        <Chinese____>1.5</Chinese____>
+        <Afro_Surinamese____>37.4</Afro_Surinamese____>
+        <Maroon____>21.7</Maroon____>
+        <Creole____>15.7</Creole____>
+        <Multiracial____>13.4</Multiracial____>
+        <Indigenous____>3.8</Indigenous____>
+        <European____>0.3</European____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity_26_75_Protestantism____>48.4</Christianity_26_75_Protestantism____>
+        <Roman_Catholicism____>21.65</Roman_Catholicism____>
         <Hinduism>
-          <percentage>22.3%</percentage>
+          <percentage>22.3</percentage>
           <breakdown>
-            <San_tan_>17.97%</San_tan_>
-            <Arya_Samaj>3.08%</Arya_Samaj>
-            <Other_Hindu>1.23%</Other_Hindu>
+            <San_tan_____>17.97</San_tan_____>
+            <Arya_Samaj____>3.08</Arya_Samaj____>
+            <Other_Hindu____>1.23</Other_Hindu____>
           </breakdown>
         </Hinduism>
         <Islam>
-          <percentage>13.9%</percentage>
+          <percentage>13.9</percentage>
           <breakdown>
-            <Sunni>3.91%</Sunni>
-            <Ahmadiyya>2.61%</Ahmadiyya>
-            <Other_Muslim>7.34%</Other_Muslim>
+            <Sunni____>3.91</Sunni____>
+            <Ahmadiyya____>2.61</Ahmadiyya____>
+            <Other_Muslim____>7.34</Other_Muslim____>
           </breakdown>
         </Islam>
-        <Winti>1.8%</Winti>
-        <Kejaw_n>0.8%</Kejaw_n>
-        <Judaism>0.03%</Judaism>
-        <no_religion>7.52%</no_religion>
+        <Winti____>1.8</Winti____>
+        <Kejaw_n____>0.8</Kejaw_n____>
+        <Judaism____>0.03</Judaism____>
+        <no_religion____>7.52</no_religion____>
         <Not_stated>
-          <percentage>2.04%</percentage>
+          <percentage>2.04</percentage>
           <breakdown>
             <Don_t_know>
-              <percentage>1.11%</percentage>
+              <percentage>1.11</percentage>
               <breakdown>
-                <Others>0.85%</Others>
+                <Others____>0.85</Others____>
               </breakdown>
             </Don_t_know>
           </breakdown>
         </Not_stated>
-      </Religion__2012_>
-      <Demonym>Surinamese</Demonym>
-      <National_Assembly_Chairman>Ashwin Adhin</National_Assembly_Chairman>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary assembly-independent presidential republic</Government>
-      <President>Jennifer Geerlings-Simons</President>
-      <Vice_President>Gregory Rusland</Vice_President>
-      <High_Court_of_Justice_President>Iwan Rasoelbaks (acting)</High_Court_of_Justice_President>
-      <Legislature>National Assembly</Legislature>
-      <Constituent_country_within_the_Kingdom_of_the_Netherlands>15 December 1954</Constituent_country_within_the_Kingdom_of_the_Netherlands>
-      <Independence_from_the_Kingdom_of_the_Netherlands>25 November 1975</Independence_from_the_Kingdom_of_the_Netherlands>
     </Government>
     <Area>
-      <Total>165,940 km 2 (64,070 sq mi) ( 90th )</Total>
+      <Total__km2_>165940</Total__km2_>
       <Water____>1.1</Water____>
     </Area>
     <Population>
-      <n_2022_estimate>632,638 ( 170th )</n_2022_estimate>
-      <Density>3.9/km 2 (10.1/sq mi) ( 231st )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>632638</Estimate>
+      <Density___km2_>3.9</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$14.743 billion ( 160th )</Total>
-        <Per_capita>$22,439 ( 91st )</Per_capita>
+        <Total____>14743000000</Total____>
+        <Per_capita____>22439</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$4.506 billion ( 173rd )</Total>
-        <Per_capita>$6,858 ( 106th )</Per_capita>
+        <Total____>4506000000</Total____>
+        <Per_capita____>6858</Per_capita____>
       </GDP__nominal_>
-      <HDI__2023_>0.722 high ( 114th )</HDI__2023_>
-      <Currency>Surinamese dollar ( SRD )</Currency>
+      <HDI>0.722</HDI>
+      <Currency>Surinamese dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC -03:00 ( SRT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+597</Calling_code>
-      <ISO_3166_code>SR</ISO_3166_code>
-      <Internet_TLD>.sr</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

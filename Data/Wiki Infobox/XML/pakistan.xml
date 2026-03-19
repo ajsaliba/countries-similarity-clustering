@@ -1,70 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Pakistan</country>
-  <url>https://en.wikipedia.org/wiki/Pakistan</url>
   <infobox>
     <General>
-      <Capital>Islamabad 33°41′30″N 73°3′0″E ﻿ / ﻿ 33.69167°N 73.05000°E ﻿ / 33.69167; 73.05000</Capital>
-      <Largest_city>Karachi 24°51′36″N 67°0′36″E ﻿ / ﻿ 24.86000°N 67.01000°E ﻿ / 24.86000; 67.01000</Largest_city>
       <Official_languages>Urdu English</Official_languages>
-      <Native_languages>Over 77 languages</Native_languages>
-      <Religion__2023_>
-        <Islam___official__>96.3%</Islam___official__>
-        <Hinduism>2.2%</Hinduism>
-        <Christianity>1.4%</Christianity>
-        <other>0.1%</other>
-      </Religion__2023_>
-      <Demonym>Pakistani</Demonym>
-      <Recognized_dominion>
-        <Details>14 August 1947</Details>
-        <Republic>23 March 1956</Republic>
-        <Last_territory_s_acquisition>8 December 1958</Last_territory_s_acquisition>
-        <Eastern_territory_withdrawn>16 December 1971</Eastern_territory_withdrawn>
-        <Current_constitution>14 August 1973</Current_constitution>
-      </Recognized_dominion>
+      <Religion>
+        <Islam___official______>96.3</Islam___official______>
+        <Hinduism____>2.2</Hinduism____>
+        <Christianity____>1.4</Christianity____>
+        <other____>0.1</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary Islamic republic</Government>
-      <President>Asif Ali Zardari</President>
-      <Prime_Minister>Shehbaz Sharif</Prime_Minister>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>National Assembly</Lower_house>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Declaration>23 March 1940</Declaration>
-    </Independence_from_the_United_Kingdom>
     <Area>
-      <Total>881,913 km 2 (340,509 sq mi) ( 33rd )</Total>
+      <Total__km2_>881913</Total__km2_>
       <Water____>2.86</Water____>
     </Area>
     <Population>
-      <n_2023_census>241,499,431 ( 5th )</n_2023_census>
-      <Density>273.8/km 2 (709.1/sq mi) ( 56th )</Density>
-      <Date_format>dd - mm - yyyy</Date_format>
+      <Census>241499431</Census>
+      <Density___km2_>273.8</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$1.67 trillion ( 27th )</Total>
-        <Per_capita>$6,950 ( 148th )</Per_capita>
+        <Total____>1670000000000</Total____>
+        <Per_capita____>6950</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$410.5 billion ( 42nd )</Total>
-        <Per_capita>$1,710 ( 160th )</Per_capita>
+        <Total____>410500000000</Total____>
+        <Per_capita____>1710</Per_capita____>
       </GDP__nominal_>
-      <Gini__2018_>29.6 low inequality</Gini__2018_>
-      <HDI__2023_>0.544 low ( 168th )</HDI__2023_>
-      <Currency>Pakistani rupee (₨) ( PKR )</Currency>
+      <Gini>29.6</Gini>
+      <HDI>0.544</HDI>
+      <Currency>Pakistani rupee</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +5 ( PKT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+92</Calling_code>
-      <ISO_3166_code>PK</ISO_3166_code>
-      <Internet_TLD>.pk پاکستان.</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

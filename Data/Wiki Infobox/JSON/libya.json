@@ -1,72 +1,40 @@
 {
     "country": "Libya",
-    "url": "https://en.wikipedia.org/wiki/Libya",
     "infobox": {
         "General": {
-            "Capital and largest city": "Tripoli 32°52′N 13°11′E ﻿ / ﻿ 32.867°N 13.183°E ﻿ / 32.867; 13.183",
             "Official languages": "Arabic",
-            "Local vernacular": "Libyan Arabic",
-            "Foreign languages": "Italian and English",
-            "Ethnic groups (1999)": {
-                "Arabs": "92%",
-                "Berbers": "5%",
-                "others": "3%"
+            "Ethnic groups": {
+                "Arabs (%)": 92,
+                "Berbers (%)": 5,
+                "others (%)": 3
             },
-            "Religion (2020)": {
-                "Islam ( official )": "96.6%",
-                "Christianity": "2.7%",
-                "others": "0.7%"
-            },
-            "Demonym": "Libyan"
+            "Religion": {
+                "Islam ( official ) (%)": 96.6,
+                "Christianity (%)": 2.7,
+                "others (%)": 0.7
+            }
         },
         "Government": {
-            "Government": "Unitary republic under a provisional government ( GNU )",
-            "Chairman of the Presidential Council": "Mohamed al-Menfi",
-            "Vice Chairman of the Presidential Council": "Musa Al-Koni",
-            "Prime Minister": "Abdul Hamid Dbeibeh",
-            "Speaker of the House of Representatives": "Aguila Saleh Issa",
-            "Legislature": "High Council of State House of Representatives",
-            "Kingdom of Libya": "24 December 1951"
-        },
-        "Establishment": {
-            "Ottoman Tripolitania": "1551",
-            "Italian invasion of Libya": "1911",
-            "Libyan resistance movement": "1911–1951",
-            "Tripolitanian Republic": "16 November 1918",
-            "Coup d'état by Muammar Gaddafi": "1 September 1969",
-            "Great Socialist People's Libyan Arab Jamahiriya": "2 March 1977",
-            "First Libyan Civil War": "17 February 2011",
-            "NATO intervention in Libya": "19 March 2011",
-            "End of Second Libyan Civil War": "23 October 2020"
+            "Government": "Unitary republic under a provisional government"
         },
         "Area": {
-            "Total": "1,759,541 km 2 (679,363 sq mi) ( 16th )"
+            "Total (km2)": 1759541
         },
         "Population": {
-            "2024 estimate": "7,361,263 ( 103rd )",
-            "Density": "4.2/km 2 (10.9/sq mi)"
+            "Estimate": 7361263,
+            "Density (/km2)": 4.2
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$123.990 billion ( 96th )",
-                "Per capita": "$17,760 ( 101th )"
+                "Total ($)": 123990000000,
+                "Per capita ($)": 17760
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$47.480 billion ( 95th )",
-                "Per capita": "$6,800 ( 102th )"
+                "Total ($)": 47480000000,
+                "Per capita ($)": 6800
             },
-            "HDI (2023)": "0.721 high ( 115th )",
-            "Currency": "Libyan dinar ( LYD )"
-        },
-        "Time": {
-            "Time zone": "UTC +2 ( EET )"
-        },
-        "Codes": {
-            "Calling code": "+218",
-            "ISO 3166 code": "LY",
-            "Internet TLD": ".ly ليبيا."
+            "HDI": 0.721,
+            "Currency": "Libyan dinar"
         }
     }
 }

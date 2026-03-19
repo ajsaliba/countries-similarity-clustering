@@ -1,73 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Luxembourg</country>
-  <url>https://en.wikipedia.org/wiki/Luxembourg</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Luxembourg 49°36′38″N 6°07′58″E ﻿ / ﻿ 49.6106°N 6.1328°E ﻿ / 49.6106; 6.1328</Capital_and_largest_city>
       <Official_languages>National language: Luxembourgish Administrative languages: Luxembourgish German French</Official_languages>
-      <Nationality__2025_>
-        <Luxembourgers>53%</Luxembourgers>
-        <Portuguese_e>13.2%</Portuguese_e>
-        <French_e>7.2%</French_e>
-        <Italians_e>3.7%</Italians_e>
-        <other_e>23%</other_e>
-      </Nationality__2025_>
-      <Religion__2021__>
+      <Religion>
         <Christianity>
-          <percentage>53%</percentage>
+          <percentage>53</percentage>
           <breakdown>
-            <Catholicism>46%</Catholicism>
-            <other_Christian>7%</other_Christian>
+            <Catholicism____>46</Catholicism____>
+            <other_Christian____>7</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>38%</no_religion>
-        <other>9%</other>
-      </Religion__2021__>
-      <Demonyms>Luxembourger Luxembourgish</Demonyms>
-      <Grand_Duke>Guillaume V</Grand_Duke>
+        <no_religion____>38</no_religion____>
+        <other____>9</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
-      <Prime_Minister>Luc Frieden</Prime_Minister>
-      <Legislature>Chamber of Deputies</Legislature>
-      <End_of_personal_union_with_the_Kingdom_of_the_Netherlands>23 November 1890</End_of_personal_union_with_the_Kingdom_of_the_Netherlands>
     </Government>
-    <Establishment>
-      <From_the_French_Empire_and_elevation_to_Grand_Duchy_of_Luxembourg>9 June 1815</From_the_French_Empire_and_elevation_to_Grand_Duchy_of_Luxembourg>
-      <Liberation_from_the_Greater_German_Reich>1944/1945</Liberation_from_the_Greater_German_Reich>
-    </Establishment>
-    <History>
-      <Independence_in_personal_Union_with_the_Netherlands___Treaty_of_London__>19 April 1839</Independence_in_personal_Union_with_the_Netherlands___Treaty_of_London__>
-    </History>
     <Area>
-      <Total>2,586.4 km 2 (998.6 sq mi) ( 168th )</Total>
-      <Water____>0.23 (2015)</Water____>
+      <Total__km2_>2586.4</Total__km2_>
+      <Water____>0.23</Water____>
     </Area>
     <Population>
-      <December_2025_estimate>690,947 ( 163rd )</December_2025_estimate>
-      <n_2021_census>643,941</n_2021_census>
-      <Density>264/km 2 (683.8/sq mi) ( 55th )</Density>
+      <Estimate>690947</Estimate>
+      <Census>643941</Census>
+      <Density___km2_>264</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$106.505 billion ( 100th )</Total>
-        <Per_capita>$154,914 ( 1st )</Per_capita>
+        <Total____>106505000000</Total____>
+        <Per_capita____>154914</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$96.993 billion ( 73rd )</Total>
-        <Per_capita>$141,079 ( 1st )</Per_capita>
+        <Total____>96993000000</Total____>
+        <Per_capita____>141079</Per_capita____>
       </GDP__nominal_>
-      <Gini__2023_>30.6 medium inequality</Gini__2023_>
-      <HDI__2023_>0.922 very high ( 25th )</HDI__2023_>
-      <Currency>Euro ( € ) ( EUR )</Currency>
+      <Gini>30.6</Gini>
+      <HDI>0.922</HDI>
+      <Currency>Euro</Currency>
     </Economy>
-    <Codes>
-      <Calling_code>+352</Calling_code>
-      <ISO_3166_code>LU</ISO_3166_code>
-      <Internet_TLD>.lu b</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

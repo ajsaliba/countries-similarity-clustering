@@ -1,76 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Ukraine</country>
-  <url>https://en.wikipedia.org/wiki/Ukraine</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Kyiv 50°27′N 30°31′E ﻿ / ﻿ 50.450°N 30.517°E ﻿ / 50.450; 30.517</Capital_and_largest_city>
       <Official_language_and_national_language>Ukrainian</Official_language_and_national_language>
-      <Ethnic_groups__2001_>
-        <Ukrainians>78%</Ukrainians>
-        <Russians>17%</Russians>
-        <other>4.9%</other>
-      </Ethnic_groups__2001_>
-      <Religion__2018_>
-        <Christianity>87.3%</Christianity>
-        <no_religion>11%</no_religion>
-        <other>0.8%</other>
-      </Religion__2018_>
-      <Demonym>Ukrainian</Demonym>
+      <Ethnic_groups>
+        <Ukrainians____>78</Ukrainians____>
+        <Russians____>17</Russians____>
+        <other____>4.9</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>87.3</Christianity____>
+        <no_religion____>11</no_religion____>
+        <other____>0.8</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
-      <President>Volodymyr Zelenskyy</President>
-      <Prime_Minister>Yulia Svyrydenko</Prime_Minister>
-      <Legislature>Verkhovna Rada</Legislature>
     </Government>
-    <History>
-      <Kievan_Rus_>882</Kievan_Rus_>
-      <Galicia_Volhynia>1199</Galicia_Volhynia>
-      <Zaporozhian_Sich>1552</Zaporozhian_Sich>
-      <Cossack_Hetmanate>18 August 1649</Cossack_Hetmanate>
-      <People_s_republic>
-        <item>20 November 1917</item>
-        <item>14 December 1918</item>
-      </People_s_republic>
-      <Second_Hetmanate>29 April 1918</Second_Hetmanate>
-      <Soviet_republic>10 March 1919</Soviet_republic>
-      <UN_membership>24 October 1945</UN_membership>
-      <Independence_declared>24 August 1991</Independence_declared>
-      <Current_constitution>28 June 1996</Current_constitution>
-    </History>
     <Area>
-      <Total>603,628 km 2 (233,062 sq mi) ( 45th )</Total>
+      <Total__km2_>603628</Total__km2_>
       <Water____>3.8</Water____>
     </Area>
     <Population>
-      <April_2025_estimate>32,862,000 ( 46th )</April_2025_estimate>
-      <Density>54.4/km 2 (140.9/sq mi) ( 156th )</Density>
-      <Date_format>dd.mm.yyyy</Date_format>
+      <Estimate>32862000</Estimate>
+      <Density___km2_>54.4</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$690.059 billion ( 45th )</Total>
-        <Per_capita>$20,999 ( 89th )</Per_capita>
+        <Total____>690059000000</Total____>
+        <Per_capita____>20999</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$205.742 billion ( 58th )</Total>
-        <Per_capita>$6,261 ( 112th )</Per_capita>
+        <Total____>205742000000</Total____>
+        <Per_capita____>6261</Per_capita____>
       </GDP__nominal_>
-      <Gini__2020_>25.6 low inequality</Gini__2020_>
-      <HDI__2023_>0.779 high ( 87th )</HDI__2023_>
-      <Currency>Ukrainian hryvnia ( ₴ ) ( UAH )</Currency>
+      <Gini>25.6</Gini>
+      <HDI>0.779</HDI>
+      <Currency>Ukrainian hryvnia</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( EET )</Time_zone>
-      <Summer___DST__>UTC +3 ( EEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+380</Calling_code>
-      <ISO_3166_code>UA</ISO_3166_code>
-      <Internet_TLD>.ua .укр</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

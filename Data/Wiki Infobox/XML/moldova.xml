@@ -1,86 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Moldova</country>
-  <url>https://en.wikipedia.org/wiki/Moldova</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Chișinău 47°0′N 28°55′E ﻿ / ﻿ 47.000°N 28.917°E ﻿ / 47.000; 28.917</Capital_and_largest_city>
       <Official_language_and_national_language>Romanian</Official_language_and_national_language>
-      <Recognised_minority_languages>See list Belarusian Bulgarian Gagauz German Hebrew Polish Romani Russian Ukrainian</Recognised_minority_languages>
-      <Ethnic_groups__2024__excl__Transnistria__>
-        <Moldovans>76.7%</Moldovans>
-        <Romanians>8%</Romanians>
-        <Ukrainians>5.1%</Ukrainians>
-        <Gagauz>4%</Gagauz>
-        <Russians>3.4%</Russians>
-        <Bulgarians>1.6%</Bulgarians>
-        <other>1.1%</other>
-      </Ethnic_groups__2024__excl__Transnistria__>
-      <Religion__2024__excl__Transnistria_>
+      <Ethnic_groups>
+        <Moldovans____>76.7</Moldovans____>
+        <Romanians____>8</Romanians____>
+        <Ukrainians____>5.1</Ukrainians____>
+        <Gagauz____>4</Gagauz____>
+        <Russians____>3.4</Russians____>
+        <Bulgarians____>1.6</Bulgarians____>
+        <other____>1.1</other____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>97.4%</percentage>
+          <percentage>97.4</percentage>
           <breakdown>
-            <Eastern_Orthodoxy>94.3%</Eastern_Orthodoxy>
-            <other_Christian>3.1%</other_Christian>
+            <Eastern_Orthodoxy____>94.3</Eastern_Orthodoxy____>
+            <other_Christian____>3.1</other_Christian____>
           </breakdown>
         </Christianity>
-        <other>0.3%</other>
-        <no_religion>1.5%</no_religion>
-        <unanswered>0.8%</unanswered>
-      </Religion__2024__excl__Transnistria_>
-      <Demonym>Moldovan</Demonym>
+        <other____>0.3</other____>
+        <no_religion____>1.5</no_religion____>
+        <unanswered____>0.8</unanswered____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Maia Sandu</President>
-      <Prime_Minister>Alexandru Munteanu</Prime_Minister>
-      <President_of_the_Parliament>Igor Grosu</President_of_the_Parliament>
-      <Legislature>Parliament</Legislature>
     </Government>
-    <History>
-      <Principality_of_Moldavia>1346</Principality_of_Moldavia>
-      <Bessarabia_Governorate>1812</Bessarabia_Governorate>
-      <Moldavian_Democratic_Republic>15 December 1917</Moldavian_Democratic_Republic>
-      <Union_with_Romania>9 April 1918</Union_with_Romania>
-      <Moldavian_ASSR>12 October 1924</Moldavian_ASSR>
-      <Moldavian_SSR>2 August 1940</Moldavian_SSR>
-      <Transnistria_War>2 November 1990</Transnistria_War>
-      <Independence_from_the_Soviet_Union>27 August 1991 a</Independence_from_the_Soviet_Union>
-      <Constitution_adopted>29 July 1994</Constitution_adopted>
-    </History>
     <Area>
-      <Incl__Transnistria>33,843 km 2 (13,067 sq mi) ( 135th )</Incl__Transnistria>
-      <Water____>1.4 (incl. Transnistria)</Water____>
-      <Excl__Transnistria>30,319 km 2 (11,706 sq mi)</Excl__Transnistria>
+      <Incl__Transnistria__km2_>33843</Incl__Transnistria__km2_>
+      <Water____>1.4</Water____>
+      <Excl__Transnistria__km2_>30319</Excl__Transnistria__km2_>
     </Area>
     <Population>
-      <January_2025_estimate>2,381,325 ( 140th )</January_2025_estimate>
-      <n_2024_census>2,409,207</n_2024_census>
-      <Density>78.5/km 2 (203.3/sq mi)</Density>
+      <Estimate>2381325</Estimate>
+      <Census>2409207</Census>
+      <Density___km2_>78.5</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$48.511 billion ( 135th )</Total>
-        <Per_capita>$20,731 ( 93th )</Per_capita>
+        <Total____>48511000000</Total____>
+        <Per_capita____>20731</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$21.024 billion ( 129th )</Total>
-        <Per_capita>$8,984 ( 89th )</Per_capita>
+        <Total____>21024000000</Total____>
+        <Per_capita____>8984</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>25.7 low inequality</Gini__2021_>
-      <HDI__2023_>0.785 high ( 86th )</HDI__2023_>
-      <Currency>Moldovan leu ( MDL )</Currency>
+      <Gini>25.7</Gini>
+      <HDI>0.785</HDI>
+      <Currency>Moldovan leu</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( EET )</Time_zone>
-      <Summer___DST__>UTC +3 ( EEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+373</Calling_code>
-      <ISO_3166_code>MD</ISO_3166_code>
-      <Internet_TLD>.md</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

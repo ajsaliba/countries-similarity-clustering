@@ -1,72 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Tunisia</country>
-  <url>https://en.wikipedia.org/wiki/Tunisia</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Tunis 36°49′N 10°11′E ﻿ / ﻿ 36.817°N 10.183°E ﻿ / 36.817; 10.183</Capital_and_largest_city>
       <Official_languages>Arabic</Official_languages>
-      <Local_vernacular>Tunisian Arabic</Local_vernacular>
-      <Foreign_languages>French and English</Foreign_languages>
-      <Ethnic_groups__2021_>
-        <Arabs>98%</Arabs>
-        <Berbers>1%</Berbers>
-        <Jews_and_others>1%</Jews_and_others>
-      </Ethnic_groups__2021_>
+      <Ethnic_groups>
+        <Arabs____>98</Arabs____>
+        <Berbers____>1</Berbers____>
+        <Jews_and_others____>1</Jews_and_others____>
+      </Ethnic_groups>
       <Religion>
-        <Sunni_Islam>99%</Sunni_Islam>
-        <others>1%</others>
+        <Sunni_Islam____>99</Sunni_Islam____>
+        <others____>1</others____>
       </Religion>
-      <Demonym>Tunisian</Demonym>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Kais Saied</President>
-      <Prime_Minister>Sara Zaafarani</Prime_Minister>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>National Council of Regions and Districts</Upper_house>
-      <Lower_house>Assembly of the Representatives of the People</Lower_house>
-      <Aghlabid_Emirate>800</Aghlabid_Emirate>
-      <Independence_and_Kingdom>20 March 1956</Independence_and_Kingdom>
     </Government>
-    <Establishment>
-      <Ancient_Carthage>814 BC</Ancient_Carthage>
-      <Hafsid_Sultanate>1229</Hafsid_Sultanate>
-      <Beylik_of_Tunis>15 July 1705</Beylik_of_Tunis>
-      <French_protectorate>12 May 1881</French_protectorate>
-      <Republic_declaration>25 July 1957</Republic_declaration>
-    </Establishment>
     <Area>
-      <Total>163,610 km 2 (63,170 sq mi) ( 91st )</Total>
+      <Total__km2_>163610</Total__km2_>
       <Water____>5.04</Water____>
     </Area>
     <Population>
-      <n_2024_census>11,972,169</n_2024_census>
-      <Density>79/km 2 (204.6/sq mi) ( 134th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Census>11972169</Census>
+      <Density___km2_>79</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$183.73 billion ( 84th )</Total>
-        <Per_capita>$14,780 ( 111th )</Per_capita>
+        <Total____>183730000000</Total____>
+        <Per_capita____>14780</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$56.290 billion ( 90th )</Total>
-        <Per_capita>$4,530 ( 121st )</Per_capita>
+        <Total____>56290000000</Total____>
+        <Per_capita____>4530</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>33.7 medium inequality</Gini__2021_>
-      <HDI__2023_>0.746 high ( 105th )</HDI__2023_>
-      <Currency>Tunisian dinar ( TND )</Currency>
+      <Gini>33.7</Gini>
+      <HDI>0.746</HDI>
+      <Currency>Tunisian dinar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+216</Calling_code>
-      <ISO_3166_code>TN</ISO_3166_code>
-      <Internet_TLD>.tn .تونس</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

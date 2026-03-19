@@ -1,71 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Dominica</country>
-  <url>https://en.wikipedia.org/wiki/Dominica</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Roseau 15°18′N 61°23′W ﻿ / ﻿ 15.300°N 61.383°W ﻿ / 15.300; -61.383</Capital_and_largest_city>
       <Official_languages>English</Official_languages>
-      <Vernacular_languages>Dominican Creole French , Kokoy</Vernacular_languages>
-      <Ethnic_groups__2014__>
-        <African>75%</African>
-        <multiracial>19%</multiracial>
-        <Kalinago>4%</Kalinago>
-        <European_or_other>0.8%</European_or_other>
-        <unspecified>0.2%</unspecified>
-      </Ethnic_groups__2014__>
-      <Religion__2020_>
-        <Christianity>94.4%</Christianity>
-        <folk_religions>3%</folk_religions>
-        <other>1.7%</other>
-        <none>0.9%</none>
-      </Religion__2020_>
-      <Demonyms>Dominican (pronounced / ˌ d ɒ m ɪ ˈ n iː k ə n / )</Demonyms>
+      <Ethnic_groups>
+        <African____>75</African____>
+        <multiracial____>19</multiracial____>
+        <Kalinago____>4</Kalinago____>
+        <European_or_other____>0.8</European_or_other____>
+        <unspecified____>0.2</unspecified____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>94.4</Christianity____>
+        <folk_religions____>3</folk_religions____>
+        <other____>1.7</other____>
+        <none____>0.9</none____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Sylvanie Burton</President>
-      <Prime_Minister>Roosevelt Skerrit</Prime_Minister>
-      <Speaker_of_the_House_of_Assembly>Joseph Isaac</Speaker_of_the_House_of_Assembly>
-      <Legislature>House of Assembly</Legislature>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <West_Indies_Associated_States>1 March 1967</West_Indies_Associated_States>
-    </Independence_from_the_United_Kingdom>
-    <History>
-      <Sovereignty_and_constitution>3 November 1978</Sovereignty_and_constitution>
-    </History>
     <Area>
-      <Total>750 km 2 (290 sq mi) ( 174th )</Total>
+      <Total__km2_>750</Total__km2_>
       <Water____>1.6</Water____>
     </Area>
     <Population>
-      <n_2021_estimate>72,412 ( 186th )</n_2021_estimate>
-      <n_2011_census>71,293</n_2011_census>
-      <Density>105/km 2 (271.9/sq mi) ( 95th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>72412</Estimate>
+      <Census>71293</Census>
+      <Density___km2_>105</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2018 estimate</Details>
-        <Total>$688 million</Total>
-        <Per_capita>$9,726</Per_capita>
+        <Total____>688000000</Total____>
+        <Per_capita____>9726</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2018 estimate</Details>
-        <Total>$485 million</Total>
-        <Per_capita>$7,860</Per_capita>
+        <Total____>485000000</Total____>
+        <Per_capita____>7860</Per_capita____>
       </GDP__nominal_>
-      <HDI__2023_>0.761 high ( 98th )</HDI__2023_>
-      <Currency>East Caribbean dollar ( XCD )</Currency>
+      <HDI>0.761</HDI>
+      <Currency>East Caribbean dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC –4 ( AST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+1</Calling_code>
-      <ISO_3166_code>DM</ISO_3166_code>
-      <Internet_TLD>.dm</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

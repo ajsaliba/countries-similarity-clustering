@@ -1,87 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Brazil</country>
-  <url>https://en.wikipedia.org/wiki/Brazil</url>
   <infobox>
     <General>
-      <Capital>Brasília 15°47′S 47°52′W ﻿ / ﻿ 15.783°S 47.867°W ﻿ / -15.783; -47.867</Capital>
-      <Largest_city>São Paulo 23°33′S 46°38′W ﻿ / ﻿ 23.550°S 46.633°W ﻿ / -23.550; -46.633</Largest_city>
       <Official_language_and_national_language>Portuguese</Official_language_and_national_language>
-      <Recognized_regional_languages>See regional official languages</Recognized_regional_languages>
-      <Ethnic_groups__2022_>
-        <Pardo>45.3%</Pardo>
-        <White>43.5%</White>
-        <Black>10.2%</Black>
-        <Indigenous>0.6%</Indigenous>
-        <East_Asian>0.4%</East_Asian>
-      </Ethnic_groups__2022_>
-      <Religion__2022_>
+      <Ethnic_groups>
+        <Pardo____>45.3</Pardo____>
+        <White____>43.5</White____>
+        <Black____>10.2</Black____>
+        <Indigenous____>0.6</Indigenous____>
+        <East_Asian____>0.4</East_Asian____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>83.6%</percentage>
+          <percentage>83.6</percentage>
           <breakdown>
-            <Catholicism>56.75%</Catholicism>
-            <Protestantism>26.85%</Protestantism>
+            <Catholicism____>56.75</Catholicism____>
+            <Protestantism____>26.85</Protestantism____>
           </breakdown>
         </Christianity>
-        <no_religion>9.28%</no_religion>
-        <Spiritism>1.84%</Spiritism>
-        <Afro_Brazilian_religions>1.05%</Afro_Brazilian_religions>
-        <other>4.07%</other>
-        <not_stated>0.17%</not_stated>
-      </Religion__2022_>
-      <Demonym>Brazilian</Demonym>
+        <no_religion____>9.28</no_religion____>
+        <Spiritism____>1.84</Spiritism____>
+        <Afro_Brazilian_religions____>1.05</Afro_Brazilian_religions____>
+        <other____>4.07</other____>
+        <not_stated____>0.17</not_stated____>
+      </Religion>
     </General>
     <Government>
       <Government>Federal presidential republic</Government>
-      <President>Luiz Inácio Lula da Silva</President>
-      <Vice_President>Geraldo Alckmin</Vice_President>
-      <President_of_the_Chamber_of_Deputies>Hugo Motta</President_of_the_Chamber_of_Deputies>
-      <President_of_the_Federal_Senate>Davi Alcolumbre</President_of_the_Federal_Senate>
-      <President_of_the_Supreme_Federal_Court>Edson Fachin</President_of_the_Supreme_Federal_Court>
-      <Legislature>National Congress</Legislature>
-      <Upper_house>Federal Senate</Upper_house>
-      <Lower_house>Chamber of Deputies</Lower_house>
     </Government>
-    <Independence_from_Portugal>
-      <Declaration>7 September 1822</Declaration>
-    </Independence_from_Portugal>
     <Economy>
       <Recognition>
-        <Details>29 August 1825</Details>
         <Republic>15 November 1889</Republic>
         <Current_constitution>5 October 1988</Current_constitution>
       </Recognition>
       <GDP___PPP__>
-        <Details>2026 estimate</Details>
-        <Total>$5.161 trillion ( 8th )</Total>
-        <Per_capita>$24,108 ( 82th )</Per_capita>
+        <Total____>5161000000000</Total____>
+        <Per_capita____>24108</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2026 estimate</Details>
-        <Total>$2.292 trillion ( 10th )</Total>
-        <Per_capita>$10,709 ( 84th )</Per_capita>
+        <Total____>2292000000000</Total____>
+        <Per_capita____>10709</Per_capita____>
       </GDP__nominal_>
-      <Gini__2023_>51.6 high inequality</Gini__2023_>
-      <HDI__2023_>0.786 high ( 84th )</HDI__2023_>
-      <Currency>Real (R$) ( BRL )</Currency>
+      <Gini>51.6</Gini>
+      <HDI>0.786</HDI>
+      <Currency>Real</Currency>
     </Economy>
     <Area>
-      <Total>8,515,767 km 2 (3,287,956 sq mi) ( 5th )</Total>
+      <Total__km2_>8515767</Total__km2_>
       <Water____>0.65</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>213,421,037 ( 7th )</n_2025_estimate>
-      <n_2022_census>203,080,756 ( 7th )</n_2022_census>
-      <Density>23.8 /km 2 (61.6/sq mi) ( 193rd )</Density>
-      <Date_format>dd/mm/yyyy ( CE )</Date_format>
+      <Estimate>213421037</Estimate>
+      <Census>203080756</Census>
+      <Density___km2_>23.8</Density___km2_>
     </Population>
-    <Time>
-      <Time_zone>UTC −02:00 to −05:00 ( BT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+55</Calling_code>
-      <ISO_3166_code>BR</ISO_3166_code>
-      <Internet_TLD>.br</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

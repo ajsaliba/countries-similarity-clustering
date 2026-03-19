@@ -1,102 +1,62 @@
 {
     "country": "Albania",
-    "url": "https://en.wikipedia.org/wiki/Albania",
     "infobox": {
         "General": {
-            "Capital and largest city": "Tirana 41°19′N 19°49′E ﻿ / ﻿ 41.317°N 19.817°E ﻿ / 41.317; 19.817 Country: 41°N 20°E ﻿ / ﻿ 41°N 20°E ﻿ / 41; 20",
             "Official languages": "Albanian",
-            "Recognised minority languages": "Greek Aromanian Macedonian",
-            "Ethnic groups (2023 )": {
-                "Albanians": "97.7%",
-                "Greeks": "1%",
-                "others": "1.3%"
+            "Ethnic groups": {
+                "Albanians (%)": 97.7,
+                "Greeks (%)": 1,
+                "others (%)": 1.3
             },
-            "Religion (2023)": {
+            "Religion": {
                 "Islam": {
-                    "percentage": "50.67%",
+                    "percentage": 50.67,
                     "breakdown": {
-                        "Sunni": "45.86%",
-                        "Bektashism": "4.81%"
+                        "Sunni (%)": 45.86,
+                        "Bektashism (%)": 4.81
                     }
                 },
                 "Christianity": {
-                    "percentage": "16.02%",
+                    "percentage": 16.02,
                     "breakdown": {
-                        "Catholicism": "8.39%",
-                        "Orthodoxy": "7.23%",
-                        "Protestantism": "0.4%"
+                        "Catholicism (%)": 8.39,
+                        "Orthodoxy (%)": 7.23,
+                        "Protestantism (%)": 0.4
                     }
                 },
                 "Irreligion": {
-                    "percentage": "17.37%",
+                    "percentage": 17.37,
                     "breakdown": {
-                        "Believers without religion": "13.83%",
-                        "Atheism": "3.55%"
+                        "Believers without religion (%)": 13.83,
+                        "Atheism (%)": 3.55
                     }
                 },
-                "Undeclared": "15.92%"
-            },
-            "Demonym": "Albanian"
+                "Undeclared (%)": 15.92
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic",
-            "President": "Bajram Begaj",
-            "Prime Minister": "Edi Rama",
-            "Parliament Speaker": "Niko Peleshi",
-            "Legislature": "Kuvendi",
-            "Kingdom of Albania": [
-                "February 1272",
-                "1 September 1928"
-            ]
-        },
-        "History": {
-            "Principality of Arbanon": "1190",
-            "Albanian principalities": "12th–15th centuries",
-            "Principality of Albania": [
-                "1359",
-                "29 July 1913"
-            ],
-            "League of Lezhë": "2 March 1444",
-            "Pashalik of Scutari / Janina / Berat": "1757/1787",
-            "League of Prizren": "10 June 1878",
-            "Independent Albania": "28 November 1912",
-            "1st Republic of Albania": "31 January 1925",
-            "2nd Republic of Albania": "10 January 1946",
-            "3rd Republic of Albania": "28 December 1976",
-            "4th Republic of Albania": "29 April 1991",
-            "Current constitution": "28 November 1998"
+            "Government": "Unitary parliamentary republic"
         },
         "Area": {
-            "Total": "28,748 km 2 (11,100 sq mi) ( 140th )",
-            "Water (%)": "4.7"
+            "Total (km2)": 28748,
+            "Water (%)": 4.7
         },
         "Population": {
-            "2023 census": "2,402,113 ( 142nd )",
-            "Density": "83.6 /km 2 (216.5/sq mi)"
+            "Census": 2402113,
+            "Density (/km2)": 83.6
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2026 estimate",
-                "Total": "$66.290 billion ( 118th )",
-                "Per capita": "$24,840 ( 80th )"
+                "Total ($)": 66290000000,
+                "Per capita ($)": 24840
             },
             "GDP (nominal)": {
-                "Details": "2026 estimate",
-                "Total": "$32.410 billion ( 125th )",
-                "Per capita": "$12,150 ( 79th )"
+                "Total ($)": 32410000000,
+                "Per capita ($)": 12150
             },
-            "Gini (2021)": "29.4 low inequality",
-            "HDI (2023)": "0.810 very high ( 71st )",
-            "Currency": "Lek ( ALL )"
-        },
-        "Time": {
-            "Time zone": "UTC +1 ( CET )",
-            "Summer ( DST )": "UTC +2 ( CEST )"
-        },
-        "Codes": {
-            "Calling code": "+355",
-            "ISO 3166 code": "AL",
-            "Internet TLD": ".al"
+            "Gini": 29.4,
+            "HDI": 0.81,
+            "Currency": "Lek"
         }
     }
 }

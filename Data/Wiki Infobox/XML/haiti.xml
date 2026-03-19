@@ -1,80 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Haiti</country>
-  <url>https://en.wikipedia.org/wiki/Haiti</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Port-au-Prince 18°32′10″N 72°20′47″W ﻿ / ﻿ 18.53611°N 72.34639°W ﻿ / 18.53611; -72.34639</Capital_and_largest_city>
       <Official_languages>Haitian Creole French</Official_languages>
       <Ethnic_groups>
-        <African>95%</African>
-        <other>5%</other>
+        <African____>95</African____>
+        <other____>5</other____>
       </Ethnic_groups>
-      <Religion__2020_>
-        <Christianity>87%</Christianity>
-        <no_religion>10.7%</no_religion>
-        <Haitian_Vodou>2.1%</Haitian_Vodou>
-        <other>0.2%</other>
-      </Religion__2020_>
-      <Demonym>Haitian</Demonym>
-      <Independence_recognized>
-        <Details>17 April 1825</Details>
-        <First_Empire>22 September 1804</First_Empire>
-        <Southern_Republic>17 October 1806</Southern_Republic>
-        <Northern_State>17 October 1806</Northern_State>
-        <Kingdom>28 March 1811</Kingdom>
-        <Unification_of_Hispaniola>9 February 1822</Unification_of_Hispaniola>
-        <Dissolution>27 February 1844</Dissolution>
-        <Second_Empire>26 August 1849</Second_Empire>
-        <Republic>15 January 1859</Republic>
-        <United_States_occupation>28 July 1915 – 1 August 1934</United_States_occupation>
-        <Independence_from_the_United_States>15 August 1934</Independence_from_the_United_States>
-        <Current_constitution>20 June 2012</Current_constitution>
-      </Independence_recognized>
+      <Religion>
+        <Christianity____>87</Christianity____>
+        <no_religion____>10.7</no_religion____>
+        <Haitian_Vodou____>2.1</Haitian_Vodou____>
+        <other____>0.2</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
-      <President>Alix Didier Fils-Aimé (acting)</President>
-      <Prime_Minister>Alix Didier Fils-Aimé (acting)</Prime_Minister>
-      <Legislature>National Assembly (vacant)</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>Chamber of Deputies</Lower_house>
     </Government>
-    <History>
-      <Independence_declared>1 January 1804</Independence_declared>
-    </History>
     <Area>
-      <Total>27,700 km 2 (10,700 sq mi) ( 143rd )</Total>
+      <Total__km2_>27700</Total__km2_>
       <Water____>0.7</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>11,470,261 ( 83rd )</n_2023_estimate>
-      <Density>417/km 2 (1,080.0/sq mi) ( 32nd )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>11470261</Estimate>
+      <Density___km2_>417</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$38.200 billion ( 144th )</Total>
-        <Per_capita>$3,040 ( 169th )</Per_capita>
+        <Total____>38200000000</Total____>
+        <Per_capita____>3040</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$33.550 billion ( 107th )</Total>
-        <Per_capita>$2,670 ( 141st )</Per_capita>
+        <Total____>33550000000</Total____>
+        <Per_capita____>2670</Per_capita____>
       </GDP__nominal_>
-      <Gini__2023_>41 medium inequality</Gini__2023_>
-      <HDI__2023_>0.554 medium ( 166th )</HDI__2023_>
-      <Currency>Gourde (G) ( HTG )</Currency>
+      <Gini>41</Gini>
+      <HDI>0.554</HDI>
+      <Currency>Gourde</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC −05:00 ( EST )</Time_zone>
-      <Summer___DST__>UTC −04:00 ( EDT )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+509</Calling_code>
-      <ISO_3166_code>HT</ISO_3166_code>
-      <Internet_TLD>.ht</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

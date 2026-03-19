@@ -1,93 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Zimbabwe</country>
-  <url>https://en.wikipedia.org/wiki/Zimbabwe</url>
   <infobox>
     <General>
-      <Shona>
-        <item>Nyika yeZimbabwe</item>
-        <item>Nyika yeZimbabwe</item>
-      </Shona>
-      <Ndebele>Ilizwe laseZimbabwe</Ndebele>
-      <Chewa>Dziko la Zimbabwe</Chewa>
-      <Tswana>Lefatshe la Zimbabwe</Tswana>
-      <Xitsonga>Tiko ra Zimbabwe</Xitsonga>
-      <Venda>Riphabuḽiki ya Zimbabwe</Venda>
-      <Xhosa>IRiphabhulikhi yaseZimbabwe</Xhosa>
-      <Sotho>Rephabliki ea Zimbabwe</Sotho>
-      <Ndau>Nyika yeZimbabwe</Ndau>
-      <Capital_and_largest_city>Harare 17°49′45″S 31°03′08″E ﻿ / ﻿ 17.82917°S 31.05222°E ﻿ / -17.82917; 31.05222</Capital_and_largest_city>
       <Official_languages>16 languages : Chewa Chibarwe English Kalanga Khoisan Nambya Ndau Ndebele Shangani Shona Sotho Tonga Tswana Venda Xhosa Zimbabwean sign language</Official_languages>
-      <Ethnic_groups__2022_census_>
-        <Zimbabwean>99.6%</Zimbabwean>
-        <European>0.2%</European>
-        <Coloured>0.1%</Coloured>
-        <other>0.1%</other>
-      </Ethnic_groups__2022_census_>
-      <Religion__2017_>
+      <Ethnic_groups>
+        <Zimbabwean____>99.6</Zimbabwean____>
+        <European____>0.2</European____>
+        <Coloured____>0.1</Coloured____>
+        <other____>0.1</other____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>84.1%</percentage>
+          <percentage>84.1</percentage>
           <breakdown>
-            <Protestantism>69.2%</Protestantism>
-            <other_Christian>14.9%</other_Christian>
+            <Protestantism____>69.2</Protestantism____>
+            <other_Christian____>14.9</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>10.2%</no_religion>
-        <traditional_faiths>4.5%</traditional_faiths>
-        <others>1.2%</others>
-      </Religion__2017_>
-      <Demonyms>Zimbabwean Zimbo (colloquial)</Demonyms>
-      <Independence_recognised>
-        <Details>18 April 1980</Details>
-        <Current_constitution>15 May 2013</Current_constitution>
-      </Independence_recognised>
+        <no_religion____>10.2</no_religion____>
+        <traditional_faiths____>4.5</traditional_faiths____>
+        <others____>1.2</others____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Emmerson Mnangagwa</President>
-      <First_Vice_President>Constantino Chiwenga</First_Vice_President>
-      <Second_Vice_President>Kembo Mohadi</Second_Vice_President>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>National Assembly</Lower_house>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Declared>11 November 1965</Declared>
-      <Republic>2 March 1970</Republic>
-      <Zimbabwe_Rhodesia>1 June 1979</Zimbabwe_Rhodesia>
-    </Independence_from_the_United_Kingdom>
     <Area>
-      <Total>390,757 km 2 (150,872 sq mi) ( 60th )</Total>
+      <Total__km2_>390757</Total__km2_>
       <Water____>1</Water____>
     </Area>
     <Population>
-      <February_2026_estimate>17,166,852 ( 74th )</February_2026_estimate>
-      <n_2022_census>15,178,957</n_2022_census>
-      <Density>45/km 2 (116.5/sq mi) ( 179th )</Density>
-      <Date_format>dd/mm/yyyy</Date_format>
+      <Estimate>17166852</Estimate>
+      <Census>15178957</Census>
+      <Density___km2_>45</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$93.870 billion ( 104th )</Total>
-        <Per_capita>$5,410 ( 151st )</Per_capita>
+        <Total____>93870000000</Total____>
+        <Per_capita____>5410</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$53.310 billion ( 101st )</Total>
-        <Per_capita>$3,070 ( 152nd )</Per_capita>
+        <Total____>53310000000</Total____>
+        <Per_capita____>3070</Per_capita____>
       </GDP__nominal_>
-      <Gini__2019_>45.5 medium inequality</Gini__2019_>
-      <HDI__2023_>0.598 medium ( 153rd )</HDI__2023_>
-      <Currency>De jure : Zimbabwe Gold ( ZWG ) De facto : United States dollar ( USD ) South African rand ( ZAR ); Other currencies</Currency>
+      <Gini>45.5</Gini>
+      <HDI>0.598</HDI>
+      <Currency>De jure : Zimbabwe Gold De facto : United States dollar South African rand; Other currencies</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( CAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+263</Calling_code>
-      <ISO_3166_code>ZW</ISO_3166_code>
-      <Internet_TLD>.zw</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

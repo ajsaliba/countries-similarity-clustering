@@ -1,90 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Lebanon</country>
-  <url>https://en.wikipedia.org/wiki/Lebanon</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Beirut 33°54′N 35°32′E ﻿ / ﻿ 33.900°N 35.533°E ﻿ / 33.900; 35.533</Capital_and_largest_city>
       <Official_languages>Arabic</Official_languages>
-      <Local_vernacular>Lebanese Arabic</Local_vernacular>
-      <Recognised_minority_language>French</Recognised_minority_language>
-      <Ethnic_groups__2021_>
-        <Arab>95%</Arab>
-        <Armenian>4%</Armenian>
-        <others>1%</others>
-      </Ethnic_groups__2021_>
-      <Religion__2024_>
-        <Islam>53.31%</Islam>
-        <Shia>26.84%</Shia>
-        <Alawite>0.64%</Alawite>
-        <Sunni>26.55%</Sunni>
+      <Ethnic_groups>
+        <Arab____>95</Arab____>
+        <Armenian____>4</Armenian____>
+        <others____>1</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>53.31</Islam____>
+        <Shia____>26.84</Shia____>
+        <Alawite____>0.64</Alawite____>
+        <Sunni____>26.55</Sunni____>
         <Christianity>
-          <percentage>41.4%</percentage>
+          <percentage>41.4</percentage>
           <breakdown>
-            <Catholic>28.11%</Catholic>
-            <Orthodox>8.3%</Orthodox>
-            <Armenian_Apostolic>2.92%</Armenian_Apostolic>
-            <Protestant>0.53%</Protestant>
-            <Other_Christians>1.64%</Other_Christians>
+            <Catholic____>28.11</Catholic____>
+            <Orthodox____>8.3</Orthodox____>
+            <Armenian_Apostolic____>2.92</Armenian_Apostolic____>
+            <Protestant____>0.53</Protestant____>
+            <Other_Christians____>1.64</Other_Christians____>
           </breakdown>
         </Christianity>
-        <Druze>5.21%</Druze>
-        <No_religion>0.08%</No_religion>
-      </Religion__2024_>
-      <Demonym>Lebanese</Demonym>
+        <Druze____>5.21</Druze____>
+        <No_religion____>0.08</No_religion____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic under confessionalism</Government>
-      <President>Joseph Aoun</President>
-      <Prime_Minister>Nawaf Salam</Prime_Minister>
-      <Speaker_of_the_Parliament>Nabih Berri</Speaker_of_the_Parliament>
-      <Legislature>Parliament</Legislature>
-      <Emirate_of_Mount_Lebanon>1516</Emirate_of_Mount_Lebanon>
     </Government>
-    <Establishment>
-      <Double_Qaim_Maqamate_of_Mount_Lebanon>1 December 1843</Double_Qaim_Maqamate_of_Mount_Lebanon>
-      <Mount_Lebanon_Mutasarrifate>9 June 1861</Mount_Lebanon_Mutasarrifate>
-      <Greater_Lebanon>1 September 1920</Greater_Lebanon>
-      <French_mandate_ended>24 October 1945</French_mandate_ended>
-      <Withdrawal_of_French_forces>17 April 1946</Withdrawal_of_French_forces>
-      <Israeli_troops_withdrawn>24 May 2000</Israeli_troops_withdrawn>
-      <Syrian_troops_withdrawn>30 April 2005</Syrian_troops_withdrawn>
-    </Establishment>
-    <History>
-      <Constitution>23 May 1926</Constitution>
-      <Independence_declared>22 November 1943</Independence_declared>
-    </History>
     <Area>
-      <Total>10,452 km 2 (4,036 sq mi) ( 161st )</Total>
+      <Total__km2_>10452</Total__km2_>
       <Water____>1.8</Water____>
     </Area>
     <Population>
-      <n_2024_estimate>5,364,482 ( 117th )</n_2024_estimate>
-      <Density>513/km 2 (1,328.7/sq mi)</Density>
+      <Estimate>5364482</Estimate>
+      <Density___km2_>513</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2022 estimate</Details>
-        <Total>$78.233 billion ( 108th )</Total>
-        <Per_capita>$11,793 ( 114th )</Per_capita>
+        <Total____>78233000000</Total____>
+        <Per_capita____>11793</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2022 estimate</Details>
-        <Total>$21.780 billion ( 103rd )</Total>
-        <Per_capita>$3,283 ( 133rd )</Per_capita>
+        <Total____>21780000000</Total____>
+        <Per_capita____>3283</Per_capita____>
       </GDP__nominal_>
-      <Gini__2011_>31.8 medium inequality</Gini__2011_>
-      <HDI__2023_>0.752 high ( 102nd )</HDI__2023_>
-      <Currency>Lebanese pound ( LBP )</Currency>
+      <Gini>31.8</Gini>
+      <HDI>0.752</HDI>
+      <Currency>Lebanese pound</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( EET )</Time_zone>
-      <Summer___DST__>UTC +3 ( EEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+961</Calling_code>
-      <ISO_3166_code>LB</ISO_3166_code>
-      <Internet_TLD>.lb .لبنان</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

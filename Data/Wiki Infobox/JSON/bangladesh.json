@@ -1,80 +1,50 @@
 {
     "country": "Bangladesh",
-    "url": "https://en.wikipedia.org/wiki/Bangladesh",
     "infobox": {
         "General": {
-            "Capital and largest city": "Dhaka 23°45′50″N 90°23′20″E ﻿ / ﻿ 23.76389°N 90.38889°E ﻿ / 23.76389; 90.38889",
             "Official language and national language": "Bengali",
-            "Other common language": "English",
-            "Ethnic groups (2022)": {
-                "Bengali": "99%",
-                "others Chakmas Garos Khasis Khumis Manipuris Marmas Mizos Arakanese Mrus Santals Tanchangyas Tripuris Bishnupriyas": "1%"
+            "Ethnic groups": {
+                "Bengali (%)": 99,
+                "others Chakmas Garos Khasis Khumis Manipuris Marmas Mizos Arakanese Mrus Santals Tanchangyas Tripuris Bishnupriyas (%)": 1
             },
-            "Religion (2022)": {
-                "Islam ( official )": "91.04%",
-                "Hinduism": "7.94%",
+            "Religion": {
+                "Islam ( official ) (%)": 91.04,
+                "Hinduism (%)": 7.94,
                 "Buddhism": {
-                    "percentage": "0.6%",
+                    "percentage": 0.6,
                     "breakdown": {
-                        "Christianity": "0.3%"
+                        "Christianity (%)": 0.3
                     }
                 },
-                "other": "0.12%"
-            },
-            "Demonym": "Bangladeshi"
+                "other (%)": 0.12
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic",
-            "President": "Mohammed Shahabuddin",
-            "Prime Minister": "Tarique Rahman",
-            "Speaker": "Hafiz Uddin Ahmad",
-            "Chief Justice": "Zubayer Rahman Chowdhury",
-            "Legislature": "Jatiya Sangsad",
-            "Provisional government": "10 April 1971"
-        },
-        "Independence from Pakistan": {
-            "East Bengal": "15 August 1947",
-            "East Pakistan": "29 February 1956",
-            "Victory in the Liberation War": "16 December 1971"
-        },
-        "History": {
-            "Proclamation of independence": "26 March 1971",
-            "Current constitution": "16 December 1972"
+            "Government": "Unitary parliamentary republic"
         },
         "Area": {
-            "Total": "148,460 km 2 (57,320 sq mi) ( 93rd )",
-            "Water (%)": "6.4",
-            "Land area": "130,170 km 2",
-            "Water area": "18,290 km 2"
+            "Total (km2)": 148460,
+            "Water (%)": 6.4,
+            "Land area (km2)": 130170,
+            "Water area (km2)": 18290
         },
         "Population": {
-            "2024 estimate": "173,562,364 ( 8th )",
-            "2022 census": "169,828,911 ( 8th )",
-            "Density": "1,165/km 2 (3,017.3/sq mi) ( 13th )",
-            "Date format": "dd/mm/yyyy"
+            "Estimate": 173562364,
+            "Census": 169828911,
+            "Density (/km2)": 1165
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2026 estimate",
-                "Total": "$1.9 trillion ( 26th )",
-                "Per capita": "$10,850 ( 127th )"
+                "Total ($)": 1900000000000,
+                "Per capita ($)": 10850
             },
             "GDP (nominal)": {
-                "Details": "2026 estimate",
-                "Total": "$519.3 billion ( 33rd )",
-                "Per capita": "$2,960 ( 142nd )"
+                "Total ($)": 519300000000,
+                "Per capita ($)": 2960
             },
-            "Gini (2025)": "33.4 medium inequality",
-            "HDI (2023)": "0.685 medium ( 130th )",
-            "Currency": "Taka ( ৳ ) ( BDT )"
-        },
-        "Time": {
-            "Time zone": "UTC +6 ( BST )"
-        },
-        "Codes": {
-            "Calling code": "+880",
-            "ISO 3166 code": "BD",
-            "Internet TLD": ".bd .বাংলা"
+            "Gini": 33.4,
+            "HDI": 0.685,
+            "Currency": "Taka"
         }
     }
 }

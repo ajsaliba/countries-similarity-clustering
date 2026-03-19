@@ -1,89 +1,62 @@
 {
     "country": "Antigua and Barbuda",
-    "url": "https://en.wikipedia.org/wiki/Antigua_and_Barbuda",
     "infobox": {
         "General": {
-            "Capital and largest city": "St. John's 17°7′N 61°51′W ﻿ / ﻿ 17.117°N 61.850°W ﻿ / 17.117; -61.850",
             "Official languages": "English",
-            "Vernacular language": "Antiguan and Barbudan Creole",
-            "Ethnic groups (2011 )": {
-                "African": "87.3%",
-                "Multiracial": "4.7%",
-                "Hispanic": "2.8%",
-                "European": "1.7%",
-                "East Indian": "1.1%",
-                "Syrian or Lebanese": "0.7%",
-                "other": "1.8%"
+            "Ethnic groups": {
+                "African (%)": 87.3,
+                "Multiracial (%)": 4.7,
+                "Hispanic (%)": 2.8,
+                "European (%)": 1.7,
+                "East Indian (%)": 1.1,
+                "Syrian or Lebanese (%)": 0.7,
+                "other (%)": 1.8
             },
-            "Religion (2020 )": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "92.7%",
+                    "percentage": 92.7,
                     "breakdown": {
-                        "Protestantism": "66.6%",
-                        "other Christian": "26.1%"
+                        "Protestantism (%)": 66.6,
+                        "other Christian (%)": 26.1
                     }
                 },
                 "Rastafari": {
-                    "percentage": "3.6%",
+                    "percentage": 3.6,
                     "breakdown": {
                         "no religion": {
-                            "percentage": "1.9%",
+                            "percentage": 1.9,
                             "breakdown": {
-                                "Baháʼí Faith": "1.1%",
-                                "other": "0.7%"
+                                "Baháʼí Faith (%)": 1.1,
+                                "other (%)": 0.7
                             }
                         }
                     }
                 }
-            },
-            "Demonym": "Antiguan and Barbudan",
-            "Monarch": "Charles III",
-            "Governor-General": "Sir Rodney Williams"
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy",
-            "Prime Minister": "Gaston Browne",
-            "Legislature": "Parliament",
-            "Upper house": "Senate",
-            "Lower house": "House of Representatives"
-        },
-        "History": {
-            "Union": "1 August 1860",
-            "Redonda": "26 March 1872",
-            "Associated state": "27 February 1967",
-            "Independence": "1 November 1981"
+            "Government": "Unitary parliamentary constitutional monarchy"
         },
         "Area": {
-            "Total": "440 km 2 (170 sq mi) ( 182nd )",
+            "Total (km2)": 440,
             "Water (%)": "negligible"
         },
         "Population": {
-            "2026 estimate": "106,365 ( 182nd )",
-            "2011 census": "84,816",
-            "Density": "186/km 2 (481.7/sq mi)",
-            "Date format": "dd/mm/yyyy"
+            "Estimate": 106365,
+            "Census": 84816,
+            "Density (/km2)": 186
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$3.3 billion ( 180th )",
-                "Per capita": "$31,781 ( 66th )"
+                "Total ($)": 3300000000,
+                "Per capita ($)": 31781
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$2.37 billion ( 171st )",
-                "Per capita": "$22,630 ( 51st )"
+                "Total ($)": 2370000000,
+                "Per capita ($)": 22630
             },
-            "HDI (2023)": "0.851 very high ( 53rd )",
-            "Currency": "Eastern Caribbean dollar ( XCD )"
-        },
-        "Time": {
-            "Time zone": "UTC -04:00 ( AST )"
-        },
-        "Codes": {
-            "Calling code": "+1",
-            "ISO 3166 code": "AG",
-            "Internet TLD": ".ag"
+            "HDI": 0.851,
+            "Currency": "Eastern Caribbean dollar"
         }
     }
 }

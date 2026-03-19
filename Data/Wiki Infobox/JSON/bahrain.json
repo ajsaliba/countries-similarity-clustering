@@ -1,69 +1,43 @@
 {
     "country": "Bahrain",
-    "url": "https://en.wikipedia.org/wiki/Bahrain",
     "infobox": {
         "General": {
-            "Capital and largest city": "Manama 26°13′N 50°35′E ﻿ / ﻿ 26.217°N 50.583°E ﻿ / 26.217; 50.583",
             "Official language and national language": "Arabic",
-            "Ethnic groups (2020)": {
-                "Arabs": "53.2%",
-                "South Asians": "43.4%",
-                "Africans": "1.4%",
-                "North Americans": "1.1%",
-                "others": "0.1%"
+            "Ethnic groups": {
+                "Arabs (%)": 53.2,
+                "South Asians (%)": 43.4,
+                "Africans (%)": 1.4,
+                "North Americans (%)": 1.1,
+                "others (%)": 0.1
             },
-            "Religion (2020)": {
-                "Islam ( official )": "74%",
-                "non-Muslim": "26%"
-            },
-            "Demonym": "Bahraini"
+            "Religion": {
+                "Islam ( official ) (%)": 74,
+                "non-Muslim (%)": 26
+            }
         },
         "Government": {
-            "Government": "Unitary semi-constitutional monarchy under an authoritarian government",
-            "King": "Hamad bin Isa Al Khalifa",
-            "Crown Prince and Prime Minister": "Salman bin Hamad Al Khalifa",
-            "Legislature": "National Assembly",
-            "Upper house": "Consultative Council",
-            "Lower house": "Council of Representatives",
-            "Independence from United Kingdom": "15 August 1971",
-            "Kingdom of Bahrain": "14 February 2002"
-        },
-        "Establishment": {
-            "Al Khalifa dynasty": "1783"
-        },
-        "History": {
-            "Declared independence": "14 August 1971"
+            "Government": "Unitary semi-constitutional monarchy under an authoritarian government"
         },
         "Area": {
-            "Total": "786.8 km 2 (303.8 sq mi) ( 173rd )",
+            "Total (km2)": 786.8,
             "Water (%)": "negligible"
         },
         "Population": {
-            "2021 estimate": "1,463,265 ( 149th )",
-            "2020 census": "1,501,635",
-            "Density": "1,864/km 2 (4,827.7/sq mi) ( 6th )"
+            "Estimate": 1463265,
+            "Census": 1501635,
+            "Density (/km2)": 1864
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2026 estimate",
-                "Total": "$118.060 billion ( 98th )",
-                "Per capita": "$71,460 ( 23rd )"
+                "Total ($)": 118060000000,
+                "Per capita ($)": 71460
             },
             "GDP (nominal)": {
-                "Details": "2026 estimate",
-                "Total": "$49.190 billion ( 95th )",
-                "Per capita": "$29,780 ( 40th )"
+                "Total ($)": 49190000000,
+                "Per capita ($)": 29780
             },
-            "HDI (2023)": "0.899 very high ( 38th )",
-            "Currency": "Bahraini dinar ( BHD )"
-        },
-        "Time": {
-            "Time zone": "UTC +3 ( AST )"
-        },
-        "Codes": {
-            "Calling code": "+973",
-            "ISO 3166 code": "BH",
-            "Internet TLD": ".bh"
+            "HDI": 0.899,
+            "Currency": "Bahraini dinar"
         }
     }
 }

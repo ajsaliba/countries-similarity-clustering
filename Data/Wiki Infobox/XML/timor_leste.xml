@@ -1,75 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Timor-Leste</country>
-  <url>https://en.wikipedia.org/wiki/Timor-Leste</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Dili 8°33′S 125°34′E ﻿ / ﻿ 8.55°S 125.56°E ﻿ / -8.55; 125.56</Capital_and_largest_city>
       <Official_languages>Portuguese Tetum</Official_languages>
-      <Recognised_languages>15 national languages : Atauru Baikeno Bekais Bunak Fataluku Galoli Habun Idalaka Kawaimina Kemak Makalero Makasae Makuva Mambai Tokodede 2 working languages : English Indonesian</Recognised_languages>
-      <Religion__2015_census_>
+      <Religion>
         <Christianity>
-          <percentage>99.53%</percentage>
+          <percentage>99.53</percentage>
           <breakdown>
-            <Catholicism>97.57%</Catholicism>
-            <Protestantism>1.96%</Protestantism>
+            <Catholicism____>97.57</Catholicism____>
+            <Protestantism____>1.96</Protestantism____>
           </breakdown>
         </Christianity>
         <Islam>
-          <percentage>0.24%</percentage>
+          <percentage>0.24</percentage>
           <breakdown>
-            <other>0.23%</other>
+            <other____>0.23</other____>
           </breakdown>
         </Islam>
-      </Religion__2015_census_>
-      <Demonyms>East Timorese Timorese Maubere (informal)</Demonyms>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
-      <President>José Ramos-Horta</President>
-      <Prime_Minister>Xanana Gusmão</Prime_Minister>
-      <Legislature>National Parliament</Legislature>
     </Government>
-    <Independence_from_Portugal___Indonesia___and_United_Nations_Administered_East_Timor>
-      <Portuguese_Timor>Early 18th century</Portuguese_Timor>
-      <Annexation_by_Indonesia>17 July 1976</Annexation_by_Indonesia>
-      <Administered_by_UNTAET>25 October 1999</Administered_by_UNTAET>
-    </Independence_from_Portugal___Indonesia___and_United_Nations_Administered_East_Timor>
-    <History>
-      <Independence_declared>28 November 1975</Independence_declared>
-      <Independence_restored>20 May 2002</Independence_restored>
-    </History>
     <Area>
-      <Total>14,950 km 2 (5,770 sq mi) ( 154th )</Total>
+      <Total__km2_>14950</Total__km2_>
       <Water____>Negligible</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>1,354,662 ( 153rd )</n_2023_estimate>
-      <n_2022_census>1,341,737</n_2022_census>
-      <Density>94/km 2 (243.5/sq mi) ( 120th )</Density>
+      <Estimate>1354662</Estimate>
+      <Census>1341737</Census>
+      <Density___km2_>94</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$6.970 billion ( 169th )</Total>
-        <Per_capita>$4,920 ( 152nd )</Per_capita>
+        <Total____>6970000000</Total____>
+        <Per_capita____>4920</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$2.120 billion ( 176th )</Total>
-        <Per_capita>$1,490 ( 157th )</Per_capita>
+        <Total____>2120000000</Total____>
+        <Per_capita____>1490</Per_capita____>
       </GDP__nominal_>
-      <Gini__2014_>28.7 low inequality</Gini__2014_>
-      <HDI__2023_>0.634 medium ( 142nd )</HDI__2023_>
-      <Currency>United States dollar Timor-Leste centavo ( USD )</Currency>
+      <Gini>28.7</Gini>
+      <HDI>0.634</HDI>
+      <Currency>United States dollar Timor-Leste centavo</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +9 ( Timor-Leste Time )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+670</Calling_code>
-      <ISO_3166_code>TL</ISO_3166_code>
-      <Internet_TLD>.tl</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

@@ -1,87 +1,52 @@
 {
     "country": "Philippines",
-    "url": "https://en.wikipedia.org/wiki/Philippines",
     "infobox": {
         "General": {
-            "Capital": "Manila ( de jure ) Metro Manila ( de facto ) 13°N 122°E ﻿ / ﻿ 13°N 122°E ﻿ / 13; 122",
-            "Largest city": "Quezon City",
             "Official languages": "Filipino English",
-            "Recognized national languages": "Filipino",
-            "Recognized regional languages": "19 languages",
-            "National sign language": "Filipino Sign Language",
-            "Other recognized languages": "Spanish and Arabic",
-            "Ethnic groups (2020)": {
-                "Tagalog": "26%",
-                "Bisaya": "14.3%",
-                "Ilocano": "8%",
-                "Cebuano": "8%",
-                "Ilonggo": "7.9%",
-                "Bicolano": "6.5%",
-                "other": "20.3%"
+            "Ethnic groups": {
+                "Tagalog (%)": 26,
+                "Bisaya (%)": 14.3,
+                "Ilocano (%)": 8,
+                "Cebuano (%)": 8,
+                "Ilonggo (%)": 7.9,
+                "Bicolano (%)": 6.5,
+                "other (%)": 20.3
             },
-            "Religion (2020)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "85.3%",
+                    "percentage": 85.3,
                     "breakdown": {
-                        "Catholicism": "78.8%",
-                        "other Christian": "6.5%"
+                        "Catholicism (%)": 78.8,
+                        "other Christian (%)": 6.5
                     }
                 },
-                "Islam": "6.4%",
-                "other": "8.2%"
-            },
-            "Demonyms": "Filipino ( neutral ) Filipina ( feminine ) Pinoy ( colloquial neutral ) Pinay ( colloquial feminine ) Philippine ( adjective for certain common nouns )",
-            "Recognized": {
-                "Details": "July 4, 1946",
-                "Constitution": "February 2, 1987"
+                "Islam (%)": 6.4,
+                "other (%)": 8.2
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic",
-            "President": "Bongbong Marcos",
-            "Vice President": "Sara Duterte",
-            "Senate President": "Tito Sotto",
-            "House Speaker": "Bojie Dy",
-            "Chief Justice": "Alexander Gesmundo",
-            "Legislature": "Congress",
-            "Upper house": "Senate",
-            "Lower house": "House of Representatives",
-            "Self-government": "November 15, 1935"
-        },
-        "Independence from Spain and the United States": {
-            "Declaration": "June 12, 1898",
-            "Cession": "April 11, 1899"
+            "Government": "Unitary presidential republic"
         },
         "Area": {
-            "Total": "300,000 km 2 (120,000 sq mi) ( 72nd )",
-            "Water (%)": "0.61 (inland waters)"
+            "Total (km2)": 300000,
+            "Water (%)": 0.61
         },
         "Population": {
-            "2024 census": "112,729,484",
-            "Density": "363.45/km 2 (941.3/sq mi) ( 34th )"
+            "Census": 112729484,
+            "Density (/km2)": 363.45
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$1.488 trillion ( 30th )",
-                "Per capita": "$12,930 ( 114th )"
+                "Total ($)": 1488000000000,
+                "Per capita ($)": 12930
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$497.05 billion ( 32nd )",
-                "Per capita": "$4,350 ( 125th )"
+                "Total ($)": 497050000000,
+                "Per capita ($)": 4350
             },
-            "Gini (2023)": "39.3 medium inequality",
-            "HDI (2023)": "0.720 high ( 117th )",
-            "Currency": "Philippine peso ( ₱ ) ( PHP )"
-        },
-        "Time": {
-            "Time zone": "UTC +8 ( PhST )"
-        },
-        "Codes": {
-            "Calling code": "+63",
-            "ISO 3166 code": "PH",
-            "Internet TLD": ".ph"
+            "Gini": 39.3,
+            "HDI": 0.72,
+            "Currency": "Philippine peso"
         }
     }
 }

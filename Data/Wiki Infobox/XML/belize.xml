@@ -1,76 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Belize</country>
-  <url>https://en.wikipedia.org/wiki/Belize</url>
   <infobox>
     <General>
-      <Capital>Belmopan 17°15′N 88°46′W ﻿ / ﻿ 17.250°N 88.767°W ﻿ / 17.250; -88.767</Capital>
-      <Largest_city>Belize City 17°29′N 88°11′W ﻿ / ﻿ 17.483°N 88.183°W ﻿ / 17.483; -88.183</Largest_city>
       <Official_languages>English</Official_languages>
-      <Spoken_languages>Belizean Creole Spanish Mayan</Spoken_languages>
-      <Ethnic_groups__2010_>
-        <Mestizo>52.9%</Mestizo>
-        <Creole>25.9%</Creole>
-        <Mayan>11.3%</Mayan>
-        <Garifuna>6.1%</Garifuna>
-        <East_Indian>3.9%</East_Indian>
-        <Mennonite>3.6%</Mennonite>
-        <White>1.2%</White>
-        <Asian>1%</Asian>
-        <Other>1.2%</Other>
-        <Unknown>0.3%</Unknown>
-      </Ethnic_groups__2010_>
-      <Religion__2022_>
-        <Christianity>61.9%</Christianity>
-        <no_religion>31.8%</no_religion>
-        <other>6.3%</other>
-      </Religion__2022_>
-      <Demonym>Belizean</Demonym>
-      <Monarch>Charles III</Monarch>
-      <Governor_General>Froyla Tzalam</Governor_General>
+      <Ethnic_groups>
+        <Mestizo____>52.9</Mestizo____>
+        <Creole____>25.9</Creole____>
+        <Mayan____>11.3</Mayan____>
+        <Garifuna____>6.1</Garifuna____>
+        <East_Indian____>3.9</East_Indian____>
+        <Mennonite____>3.6</Mennonite____>
+        <White____>1.2</White____>
+        <Asian____>1</Asian____>
+        <Other____>1.2</Other____>
+        <Unknown____>0.3</Unknown____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>61.9</Christianity____>
+        <no_religion____>31.8</no_religion____>
+        <other____>6.3</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
-      <Prime_Minister>Johnny Briceño</Prime_Minister>
-      <Legislature>National Assembly</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>House of Representatives</Lower_house>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Self_governance>January 1964</Self_governance>
-      <Realm>21 September 1981</Realm>
-    </Independence_from_the_United_Kingdom>
     <Area>
-      <Total>22,966 km 2 (8,867 sq mi) ( 147th )</Total>
+      <Total__km2_>22966</Total__km2_>
       <Water____>0.8</Water____>
     </Area>
     <Population>
-      <n_2022_census>397,483</n_2022_census>
-      <Density>17.31/km 2 (44.8/sq mi)</Density>
-      <Date_format>dd / mm / yyyy ( AD )</Date_format>
+      <Census>397483</Census>
+      <Density___km2_>17.31</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$6.414 billion ( 180th )</Total>
-        <Per_capita>$15,363 ( 123rd )</Per_capita>
+        <Total____>6414000000</Total____>
+        <Per_capita____>15363</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$3.488 billion ( 179th )</Total>
-        <Per_capita>$8,355 ( 98th )</Per_capita>
+        <Total____>3488000000</Total____>
+        <Per_capita____>8355</Per_capita____>
       </GDP__nominal_>
-      <Gini__2013_>53.1 high inequality</Gini__2013_>
-      <HDI__2023_>0.721 high ( 115th )</HDI__2023_>
-      <Currency>Belize dollar ($) ( BZD )</Currency>
+      <Gini>53.1</Gini>
+      <HDI>0.721</HDI>
+      <Currency>Belize dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC −06:00 ( CST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+501</Calling_code>
-      <ISO_3166_code>BZ</ISO_3166_code>
-      <Internet_TLD>.bz</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

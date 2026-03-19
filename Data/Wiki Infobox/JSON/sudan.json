@@ -1,73 +1,45 @@
 {
     "country": "Sudan",
-    "url": "https://en.wikipedia.org/wiki/Sudan",
     "infobox": {
         "General": {
-            "Capital and largest city": "Khartoum 15°38′N 32°32′E ﻿ / ﻿ 15.633°N 32.533°E ﻿ / 15.633; 32.533",
             "Official languages": "Arabic English",
             "Ethnic groups": {
-                "Sudanese Arab": "70%",
-                "Beja": "5.9%",
-                "Nuba": "2.5%",
-                "Fur": "2%",
-                "Egyptian": "2%",
-                "Nubian": "1.3%",
-                "others": "16.3%"
+                "Sudanese Arab (%)": 70,
+                "Beja (%)": 5.9,
+                "Nuba (%)": 2.5,
+                "Fur (%)": 2,
+                "Egyptian (%)": 2,
+                "Nubian (%)": 1.3,
+                "others (%)": 16.3
             },
-            "Religion (2022)": {
-                "Sunni Islam": "97%",
-                "Christianity": "3%"
-            },
-            "Demonym": "Sudanese"
+            "Religion": {
+                "Sunni Islam (%)": 97,
+                "Christianity (%)": 3
+            }
         },
         "Government": {
-            "Government": "Federal republic under a military junta",
-            "President of the Transitional Sovereignty Council": "Abdel Fattah al-Burhan",
-            "Vice-President of the Transitional Sovereignty Council": "Malik Agar",
-            "Prime Minister": "Kamil Idris",
-            "Legislature": "Transitional Legislative Authority",
-            "Kingdom of Kerma": "2500 BC",
-            "Kingdom of Kush": "780 BC"
-        },
-        "History": {
-            "Turco-Egyptian Sudan": "1820",
-            "Anglo-Egyptian Condominium": "1899",
-            "Independence": "1 January 1956",
-            "Democratic Republic of Sudan": "25 May 1969",
-            "Republic of Sudan (1985–2019)": "6 April 1985",
-            "Secession of South Sudan": "9 July 2011",
-            "2019 Draft Constitutional Declaration effective": "20 August 2019"
+            "Government": "Federal republic under a military junta"
         },
         "Economy": {
-            "Mahdist State": "1885",
+            "Mahdist State": 1885,
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$117.77 billion ( 98th )",
-                "Per capita": "$2,034 ( 175th )"
+                "Total ($)": 117770000000,
+                "Per capita ($)": 2034
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$31.510 billion ( 109th )",
-                "Per capita": "$624 ( 182nd )"
+                "Total ($)": 31510000000,
+                "Per capita ($)": 624
             },
-            "Gini (2014)": "34.2 medium inequality",
-            "HDI (2023)": "0.511 low ( 176th )",
-            "Currency": "Sudanese pound ( SDG )"
+            "Gini": 34.2,
+            "HDI": 0.511,
+            "Currency": "Sudanese pound"
         },
         "Area": {
-            "Total": "1,886,068 km 2 (728,215 sq mi) ( 15th )"
+            "Total (km2)": 1886068
         },
         "Population": {
-            "2025 estimate": "51,767,437 ( 30th )",
-            "Density": "21.3/km 2 (55.2/sq mi) ( 202nd )"
-        },
-        "Time": {
-            "Time zone": "UTC +2 ( CAT )"
-        },
-        "Codes": {
-            "Calling code": "+249",
-            "ISO 3166 code": "SD",
-            "Internet TLD": ".sd .السودان"
+            "Estimate": 51767437,
+            "Density (/km2)": 21.3
         }
     }
 }

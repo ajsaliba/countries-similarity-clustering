@@ -1,82 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Rwanda</country>
-  <url>https://en.wikipedia.org/wiki/Rwanda</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Kigali 1°56′38″S 30°3′34″E ﻿ / ﻿ 1.94389°S 30.05944°E ﻿ / -1.94389; 30.05944</Capital_and_largest_city>
       <Official_languages>Kinyarwanda English French Swahili</Official_languages>
-      <National_language>Kinyarwanda</National_language>
-      <Ethnic_groups__1994_>
-        <Banyarwanda>100%</Banyarwanda>
-        <Hutu>85%</Hutu>
-        <Tutsi>14%</Tutsi>
-        <Twa>1%</Twa>
-      </Ethnic_groups__1994_>
+      <Ethnic_groups>
+        <Banyarwanda____>100</Banyarwanda____>
+        <Hutu____>85</Hutu____>
+        <Tutsi____>14</Tutsi____>
+        <Twa____>1</Twa____>
+      </Ethnic_groups>
       <Religion>
-        <Christianity>93.8%</Christianity>
+        <Christianity____>93.8</Christianity____>
         <no_religion>
-          <percentage>3%</percentage>
+          <percentage>3</percentage>
           <breakdown>
-            <Islam>2.2%</Islam>
-            <other>1%</other>
+            <Islam____>2.2</Islam____>
+            <other____>1</other____>
           </breakdown>
         </no_religion>
       </Religion>
-      <Demonyms>Rwandan Rwandese</Demonyms>
     </General>
     <Government>
-      <Working_language>English</Working_language>
       <Government>Unitary semi-presidential republic under an authoritarian dictatorship</Government>
-      <President>Paul Kagame</President>
-      <Prime_Minister>Justin Nsengiyumva</Prime_Minister>
-      <Speaker_of_the_Chamber_of_Deputies>Gertrude Kazarwa</Speaker_of_the_Chamber_of_Deputies>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>Chamber of Deputies</Lower_house>
-      <Kingdom_of_Rwanda>15th century</Kingdom_of_Rwanda>
     </Government>
-    <History>
-      <Part_of_German_East_Africa>1897–1916</Part_of_German_East_Africa>
-      <Part_of_Ruanda_Urundi>1916–1962</Part_of_Ruanda_Urundi>
-      <Rwandan_Revolution>1959–1961</Rwandan_Revolution>
-      <Republic_declared>28 January 1961</Republic_declared>
-      <Independence_from_Belgium>1 July 1962</Independence_from_Belgium>
-      <Admitted_to_the_UN>18 September 1962</Admitted_to_the_UN>
-      <Current_constitution>26 May 2003</Current_constitution>
-    </History>
     <Area>
-      <Total>26,338 km 2 (10,169 sq mi) ( 144th )</Total>
+      <Total__km2_>26338</Total__km2_>
       <Water____>6.3</Water____>
     </Area>
     <Population>
-      <n_2025_estimate>14,104,969 ( 76th )</n_2025_estimate>
-      <n_2022_census>13,206,731</n_2022_census>
-      <Density>578/km 2 (1,497.0/sq mi) ( 21st )</Density>
-      <Date_format>dd/mm/yyyy ( AD )</Date_format>
+      <Estimate>14104969</Estimate>
+      <Census>13206731</Census>
+      <Density___km2_>578</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$58.120 billion ( 129th )</Total>
-        <Per_capita>$4,100 ( 159th )</Per_capita>
+        <Total____>58120000000</Total____>
+        <Per_capita____>4100</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$14.789 billion ( 144th )</Total>
-        <Per_capita>$1,040 ( 170th )</Per_capita>
+        <Total____>14789000000</Total____>
+        <Per_capita____>1040</Per_capita____>
       </GDP__nominal_>
-      <Gini__2023_>39.4 medium inequality</Gini__2023_>
-      <HDI__2023_>0.578 medium ( 159th )</HDI__2023_>
-      <Currency>Rwandan franc ( RWF )</Currency>
+      <Gini>39.4</Gini>
+      <HDI>0.578</HDI>
+      <Currency>Rwandan franc</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +2 ( CAT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+250</Calling_code>
-      <ISO_3166_code>RW</ISO_3166_code>
-      <Internet_TLD>.rw</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

@@ -1,75 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Sierra Leone</country>
-  <url>https://en.wikipedia.org/wiki/Sierra_Leone</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Freetown 08°30′00″N 12°06′00″W ﻿ / ﻿ 8.50000°N 12.10000°W ﻿ / 8.50000; -12.10000</Capital_and_largest_city>
       <Official_languages>English</Official_languages>
-      <Recognised_national_languages>Krio</Recognised_national_languages>
-      <Ethnic_groups__2015__>
-        <Temne>35.5%</Temne>
-        <Mende>33.2%</Mende>
-        <Limba>6.4%</Limba>
-        <Kono>4.4%</Kono>
-        <Fula>3.4%</Fula>
-        <Susu>2.9%</Susu>
-        <Loko>2.9%</Loko>
-        <Koranko>2.8%</Koranko>
-        <Sherbro>2.6%</Sherbro>
-        <Mandingo>2.4%</Mandingo>
-        <Krio>1.3%</Krio>
-      </Ethnic_groups__2015__>
-      <Religion__2020_>
-        <Islam>78%</Islam>
-        <Christianity>21%</Christianity>
-        <other>1%</other>
-      </Religion__2020_>
-      <Demonym>Sierra Leonean</Demonym>
-      <Chief_Minister>David Moinina Sengeh</Chief_Minister>
+      <Ethnic_groups>
+        <Temne____>35.5</Temne____>
+        <Mende____>33.2</Mende____>
+        <Limba____>6.4</Limba____>
+        <Kono____>4.4</Kono____>
+        <Fula____>3.4</Fula____>
+        <Susu____>2.9</Susu____>
+        <Loko____>2.9</Loko____>
+        <Koranko____>2.8</Koranko____>
+        <Sherbro____>2.6</Sherbro____>
+        <Mandingo____>2.4</Mandingo____>
+        <Krio____>1.3</Krio____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>78</Islam____>
+        <Christianity____>21</Christianity____>
+        <other____>1</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
-      <President>Julius Maada Bio</President>
-      <Vice_President>Mohamed Juldeh Jalloh</Vice_President>
-      <Speaker_of_Parliament>Segepoh Solomon Thomas</Speaker_of_Parliament>
-      <Chief_Justice>Osman Abdulai Turay</Chief_Justice>
-      <Legislature>Parliament</Legislature>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Dominion>27 April 1961</Dominion>
-      <Republic>19 April 1971</Republic>
-    </Independence_from_the_United_Kingdom>
     <Area>
-      <Total>73,252 km 2 (28,283 sq mi) ( 117th )</Total>
+      <Total__km2_>73252</Total__km2_>
       <Water____>1.1</Water____>
     </Area>
     <Population>
-      <n_2023_estimate>8,460,512 ( 100th )</n_2023_estimate>
-      <Density>124/km 2 (321.2/sq mi) ( 114th )</Density>
+      <Estimate>8460512</Estimate>
+      <Density___km2_>124</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$32.510 billion ( 150th )</Total>
-        <Per_capita>$3,550 ( 165th )</Per_capita>
+        <Total____>32510000000</Total____>
+        <Per_capita____>3550</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$8.390 billion ( 154th )</Total>
-        <Per_capita>$915 ( 176th )</Per_capita>
+        <Total____>8390000000</Total____>
+        <Per_capita____>915</Per_capita____>
       </GDP__nominal_>
-      <Gini__2024_>33.7 medium inequality</Gini__2024_>
-      <HDI__2023_>0.467 low ( 185th )</HDI__2023_>
-      <Currency>Leone ( SLE )</Currency>
+      <Gini>33.7</Gini>
+      <HDI>0.467</HDI>
+      <Currency>Leone</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC ±00:00 ( GMT )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+232</Calling_code>
-      <ISO_3166_code>SL</ISO_3166_code>
-      <Internet_TLD>.sl</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

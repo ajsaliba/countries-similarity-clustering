@@ -1,78 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Jamaica</country>
-  <url>https://en.wikipedia.org/wiki/Jamaica</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Kingston 17°58′17″N 76°47′35″W ﻿ / ﻿ 17.97139°N 76.79306°W ﻿ / 17.97139; -76.79306</Capital_and_largest_city>
       <Official_languages>English</Official_languages>
-      <Vernacular_language>Jamaican Patois</Vernacular_language>
       <Ethnic_groups>
-        <African>76.3%</African>
-        <Mixed>15.1%</Mixed>
-        <Indian>3.4%</Indian>
-        <White>3.2%</White>
-        <Chinese>1.2%</Chinese>
-        <others>0.8%</others>
+        <African____>76.3</African____>
+        <Mixed____>15.1</Mixed____>
+        <Indian____>3.4</Indian____>
+        <White____>3.2</White____>
+        <Chinese____>1.2</Chinese____>
+        <others____>0.8</others____>
       </Ethnic_groups>
       <Religion>
         <Christianity>
-          <percentage>68.9%</percentage>
+          <percentage>68.9</percentage>
           <breakdown>
-            <Protestantism>64.8%</Protestantism>
-            <other_Christian>4.1%</other_Christian>
+            <Protestantism____>64.8</Protestantism____>
+            <other_Christian____>4.1</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>21.3%</no_religion>
-        <Rastafari>1.1%</Rastafari>
-        <other>6.5%</other>
-        <unanswered>2.3%</unanswered>
+        <no_religion____>21.3</no_religion____>
+        <Rastafari____>1.1</Rastafari____>
+        <other____>6.5</other____>
+        <unanswered____>2.3</unanswered____>
       </Religion>
-      <Demonym>Jamaican</Demonym>
-      <Monarch>Charles III</Monarch>
-      <Governor_General>Patrick Allen</Governor_General>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
-      <Prime_Minister>Andrew Holness</Prime_Minister>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>House of Representatives</Lower_house>
     </Government>
-    <Independence_from_the_United_Kingdom>
-      <Granted>6 August 1962</Granted>
-    </Independence_from_the_United_Kingdom>
     <Area>
-      <Total>10,991 km 2 (4,244 sq mi) ( 160th )</Total>
+      <Total__km2_>10991</Total__km2_>
       <Water____>1.5</Water____>
     </Area>
     <Population>
-      <n_2024_estimate>2,824,913</n_2024_estimate>
-      <n_2011_census>2,697,983</n_2011_census>
-      <Density>266 /km 2 (688.9/sq mi) ( 54th )</Density>
+      <Estimate>2824913</Estimate>
+      <Census>2697983</Census>
+      <Density___km2_>266</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2024 estimate</Details>
-        <Total>$33.775 billion ( 143rd )</Total>
-        <Per_capita>$12,283 ( 134th )</Per_capita>
+        <Total____>33775000000</Total____>
+        <Per_capita____>12283</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2024 estimate</Details>
-        <Total>$20.586 billion ( 119th )</Total>
-        <Per_capita>$7,487 ( 95th )</Per_capita>
+        <Total____>20586000000</Total____>
+        <Per_capita____>7487</Per_capita____>
       </GDP__nominal_>
-      <Gini__2021_>40.2 medium inequality</Gini__2021_>
-      <HDI__2023_>0.720 high ( 117th )</HDI__2023_>
-      <Currency>Jamaican dollar ( JMD )</Currency>
+      <Gini>40.2</Gini>
+      <HDI>0.72</HDI>
+      <Currency>Jamaican dollar</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC -5:00 ( EST )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+1</Calling_code>
-      <ISO_3166_code>JM</ISO_3166_code>
-      <Internet_TLD>.jm</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

@@ -1,67 +1,34 @@
 {
     "country": "Egypt",
-    "url": "https://en.wikipedia.org/wiki/Egypt",
     "infobox": {
         "General": {
-            "Capital and largest city": "Cairo 30°2′N 31°13′E ﻿ / ﻿ 30.033°N 31.217°E ﻿ / 30.033; 31.217",
             "Official languages": "Arabic",
-            "National language": "Egyptian Arabic",
-            "Religion": "See Religion in Egypt",
-            "Demonym": "Egyptian"
+            "Religion": "See Religion in Egypt"
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic under an authoritarian government",
-            "President": "Abdel Fattah el-Sisi",
-            "Prime Minister": "Mostafa Madbouly",
-            "Legislature": "Parliament",
-            "Upper house": "Senate",
-            "Lower house": "House of Representatives"
-        },
-        "Establishment": {
-            "Fatimid Caliphate": "c. 973",
-            "Ayyubid dynasty inaugurated": "c. 1171",
-            "Mamluk Egypt": "c. 1261",
-            "Alawiyya dynasty inaugurated": "9 July 1805",
-            "Revolution Day": "23 July 1952",
-            "Republic declared": "18 June 1953"
-        },
-        "History": {
-            "Unification of Upper and Lower Egypt": "c. 3150 BC",
-            "Declaration of Independence": "28 February 1922",
-            "Current constitution": "18 January 2014"
+            "Government": "Unitary semi-presidential republic under an authoritarian government"
         },
         "Area": {
-            "Total": "1,010,408 km 2 (390,121 sq mi) ( 29th )",
-            "Water (%)": "0.632"
+            "Total (km2)": 1010408,
+            "Water (%)": 0.632
         },
         "Population": {
-            "July 2025 estimate": "107,868,296 ( 15th )",
-            "2017 census": "94,798,827",
-            "Density": "106.8/km 2 (276.6/sq mi) ( 102nd )"
+            "Estimate": 107868296,
+            "Census": 94798827,
+            "Density (/km2)": 106.8
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$2.372 trillion ( 18th )",
-                "Per capita": "$21,668 ( 87th )"
+                "Total ($)": 2372000000000,
+                "Per capita ($)": 21668
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$347.342 billion ( 44th )",
-                "Per capita": "$3,174 ( 138th )"
+                "Total ($)": 347342000000,
+                "Per capita ($)": 3174
             },
-            "Gini (2021)": "28.5 low inequality",
-            "HDI (2023)": "0.754 high ( 100th )",
-            "Currency": "Egyptian pound (LE/E£/£E) ( EGP )"
-        },
-        "Time": {
-            "Time zone": "UTC +2 ( EET )",
-            "Summer ( DST )": "UTC +3 ( EEST )"
-        },
-        "Codes": {
-            "Calling code": "+20",
-            "ISO 3166 code": "EG",
-            "Internet TLD": ".eg مصر."
+            "Gini": 28.5,
+            "HDI": 0.754,
+            "Currency": "Egyptian pound"
         }
     }
 }

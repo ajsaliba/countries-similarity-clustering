@@ -1,60 +1,37 @@
 {
     "country": "Mauritania",
-    "url": "https://en.wikipedia.org/wiki/Mauritania",
     "infobox": {
         "General": {
-            "Capital and largest city": "Nouakchott 18°09′N 15°58′W ﻿ / ﻿ 18.150°N 15.967°W ﻿ / 18.150; -15.967",
             "Official languages": "Arabic",
-            "Recognised national languages": "Arabic Pulaar Soninke Wolof",
             "Ethnic groups": {
-                "Haratin": "40%",
-                "Beidane": "30%",
-                "Halpulaar , Fulani , Soninké , and Wolof": "30%"
+                "Haratin (%)": 40,
+                "Beidane (%)": 30,
+                "Halpulaar , Fulani , Soninké , and Wolof (%)": 30
             },
-            "Religion": "Sunni Islam ( official )",
-            "Demonym": "Mauritanian"
+            "Religion": "Sunni Islam"
         },
         "Government": {
-            "Government": "Unitary semi-presidential Islamic republic",
-            "President": "Mohamed Ould Ghazouani",
-            "Prime Minister": "Mokhtar Ould Djay",
-            "President of the National Assembly": "Mohamed Ould Meguett",
-            "Legislature": "National Assembly"
-        },
-        "History": {
-            "Republic established": "28 November 1958",
-            "Independence from France": "28 November 1960",
-            "Current constitution": "12 July 1991"
+            "Government": "Unitary semi-presidential Islamic republic"
         },
         "Area": {
-            "Total": "1,030,000 km 2 (400,000 sq mi) ( 28th )"
+            "Total (km2)": 1030000
         },
         "Population": {
-            "2026 estimate": "5,461,319‎ ( 123th )",
-            "Density": "3.4/km 2 (8.8/sq mi)"
+            "Estimate": "5,461,319‎",
+            "Density (/km2)": 3.4
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$40.060 billion ( 143rd )",
-                "Per capita": "$8,650 ( 130th )"
+                "Total ($)": 40060000000,
+                "Per capita ($)": 8650
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$11.470 billion ( 149th )",
-                "Per capita": "$2,480 ( 144th )"
+                "Total ($)": 11470000000,
+                "Per capita ($)": 2480
             },
-            "Gini (2014)": "32.6 medium inequality",
-            "HDI (2023)": "0.563 medium ( 163rd )",
-            "Currency": "Ouguiya ( MRU )"
-        },
-        "Time": {
-            "Time zone": "UTC ±00:00 ( GMT )"
-        },
-        "Codes": {
-            "Calling code": "+222",
-            "ISO 3166 code": "MR",
-            "Internet TLD": ".mr"
+            "Gini": 32.6,
+            "HDI": 0.563,
+            "Currency": "Ouguiya"
         }
     }
 }

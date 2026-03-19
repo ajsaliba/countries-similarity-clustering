@@ -1,99 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Nepal</country>
-  <url>https://en.wikipedia.org/wiki/Nepal</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Kathmandu 28°10′N 84°15′E ﻿ / ﻿ 28.167°N 84.250°E ﻿ / 28.167; 84.250</Capital_and_largest_city>
       <Official_languages>Nepali</Official_languages>
-      <Recognised_national_languages>All mother-tongues (see Languages of Nepal )</Recognised_national_languages>
-      <Ethnic_groups__2021_>
-        <Janajati>35%</Janajati>
-        <Magar>6.9%</Magar>
-        <Tharu>6.2%</Tharu>
-        <Tamang>5.6%</Tamang>
-        <Newar>4.6%</Newar>
-        <Rai>2.2%</Rai>
-        <Gurung>1.8%</Gurung>
-        <Limbu>1.5%</Limbu>
-        <other>5.6%</other>
-        <Khas_Arya>30%</Khas_Arya>
-        <Chhetri>16.4%</Chhetri>
-        <Bahun>11.2%</Bahun>
-        <Thakuri>1.7%</Thakuri>
-        <Madheshi>16%</Madheshi>
-        <Yadav>4.2%</Yadav>
-        <Teli>1.4%</Teli>
-        <Chamar>1.3%</Chamar>
-        <Kushwaha>1.2%</Kushwaha>
-        <Dalit>14%</Dalit>
-        <Kami>5%</Kami>
-        <Damai>1.9%</Damai>
-        <Sarki>1.5%</Sarki>
-        <Musalman>5%</Musalman>
-      </Ethnic_groups__2021_>
-      <Religion__2021_>
-        <Hinduism>81%</Hinduism>
+      <Ethnic_groups>
+        <Janajati____>35</Janajati____>
+        <Magar____>6.9</Magar____>
+        <Tharu____>6.2</Tharu____>
+        <Tamang____>5.6</Tamang____>
+        <Newar____>4.6</Newar____>
+        <Rai____>2.2</Rai____>
+        <Gurung____>1.8</Gurung____>
+        <Limbu____>1.5</Limbu____>
+        <other____>5.6</other____>
+        <Khas_Arya____>30</Khas_Arya____>
+        <Chhetri____>16.4</Chhetri____>
+        <Bahun____>11.2</Bahun____>
+        <Thakuri____>1.7</Thakuri____>
+        <Madheshi____>16</Madheshi____>
+        <Yadav____>4.2</Yadav____>
+        <Teli____>1.4</Teli____>
+        <Chamar____>1.3</Chamar____>
+        <Kushwaha____>1.2</Kushwaha____>
+        <Dalit____>14</Dalit____>
+        <Kami____>5</Kami____>
+        <Damai____>1.9</Damai____>
+        <Sarki____>1.5</Sarki____>
+        <Musalman____>5</Musalman____>
+      </Ethnic_groups>
+      <Religion>
+        <Hinduism____>81</Hinduism____>
         <Buddhism>
-          <percentage>8%</percentage>
+          <percentage>8</percentage>
           <breakdown>
-            <Islam>5%</Islam>
-            <Kirat>3%</Kirat>
+            <Islam____>5</Islam____>
+            <Kirat____>3</Kirat____>
           </breakdown>
         </Buddhism>
-        <Christianity>2%</Christianity>
-        <other>1%</other>
-      </Religion__2021_>
-      <Demonyms>Nepali Nepalese</Demonyms>
+        <Christianity____>2</Christianity____>
+        <other____>1</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary republic under an interim government</Government>
-      <President>Ram Chandra Poudel</President>
-      <Vice_President>Ram Sahaya Yadav</Vice_President>
-      <Prime_Minister>Sushila Karki (interim)</Prime_Minister>
-      <Chief_Justice>Prakash Man Singh Raut</Chief_Justice>
-      <Legislature>Federal Parliament</Legislature>
-      <Upper_house>National Assembly</Upper_house>
-      <Lower_house>House of Representatives</Lower_house>
     </Government>
-    <History>
-      <Unification>25 September 1768</Unification>
-      <Treaty_of_Sugauli>4 March 1816</Treaty_of_Sugauli>
-      <Nepal_Britain_Treaty_of_1923>21 December 1923</Nepal_Britain_Treaty_of_1923>
-      <Federal_Republic>28 May 2008</Federal_Republic>
-      <Current_constitution>20 September 2015</Current_constitution>
-    </History>
     <Area>
-      <Total>147,516 km 2 (56,956 sq mi) ( 93rd )</Total>
-      <Water____>2.8%</Water____>
+      <Total__km2_>147516</Total__km2_>
+      <Water____>2.8</Water____>
     </Area>
     <Population>
-      <n_2024_estimate>31,122,387 ( 49th )</n_2024_estimate>
-      <Density>180/km 2 (466.2/sq mi) ( 72nd )</Density>
-      <Date_format>YYYY/MM/DD</Date_format>
+      <Estimate>31122387</Estimate>
+      <Density___km2_>180</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2024 estimate</Details>
-        <Total>$169.120 billion ( 85th )</Total>
-        <Per_capita>$5,348 ( 151st )</Per_capita>
+        <Total____>169120000000</Total____>
+        <Per_capita____>5348</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2024 estimate</Details>
-        <Total>$43.673 billion ( 100th )</Total>
-        <Per_capita>$1,381 ( 161st )</Per_capita>
+        <Total____>43673000000</Total____>
+        <Per_capita____>1381</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>30.0 medium inequality</Gini__2022_>
-      <HDI__2023_>0.622 medium ( 145th )</HDI__2023_>
-      <Currency>Nepalese rupee (Rs, रू ) ( NPR )</Currency>
+      <Gini>30.0</Gini>
+      <HDI>0.622</HDI>
+      <Currency>Nepalese rupee</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +05:45 ( Nepal Standard Time )</Time_zone>
-    </Time>
-    <Codes>
-      <Calling_code>+977</Calling_code>
-      <ISO_3166_code>NP</ISO_3166_code>
-      <Internet_TLD>.np</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

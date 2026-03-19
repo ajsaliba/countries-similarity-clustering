@@ -1,63 +1,32 @@
 {
     "country": "Turkey",
-    "url": "https://en.wikipedia.org/wiki/Turkey",
     "infobox": {
         "General": {
-            "Capital": "Ankara 39°55′N 32°51′E ﻿ / ﻿ 39.917°N 32.850°E ﻿ / 39.917; 32.850",
-            "Largest city": "Istanbul 41°1′N 28°57′E ﻿ / ﻿ 41.017°N 28.950°E ﻿ / 41.017; 28.950",
-            "Official languages": "Turkish",
-            "Spoken languages": "Predominantly Turkish List Kurdish Zaza Arabic Circassian Laz Greek Armenian Albanian Bosnian Bulgarian Other languages",
-            "Demonyms": "Turkish Turk"
+            "Official languages": "Turkish"
         },
         "Government": {
-            "Government": "Unitary presidential republic",
-            "President": "Recep Tayyip Erdoğan",
-            "Vice President": "Cevdet Yılmaz",
-            "Speaker": "Numan Kurtulmuş",
-            "Chief Justice": "Kadir Özkaya",
-            "Legislature": "Grand National Assembly",
-            "Government of the Grand National Assembly": "23 April 1920"
-        },
-        "Establishment": {
-            "Ottoman Empire": "c. 1299",
-            "Sultanate abolished": "1 November 1922",
-            "Treaty of Lausanne": "24 July 1923",
-            "Republic declared": "29 October 1923"
-        },
-        "History": {
-            "War of Independence": "19 May 1919",
-            "Current constitution": "9 November 1982"
+            "Government": "Unitary presidential republic"
         },
         "Area": {
-            "Total": "783,562 km 2 (302,535 sq mi) ( 36th )",
-            "Water (%)": "2.03"
+            "Total (km2)": 783562,
+            "Water (%)": 2.03
         },
         "Population": {
-            "December 2025 estimate": "86,092,168 ( 18th )",
-            "Density": "112 /km 2 (290.1/sq mi) ( 83rd )"
+            "Estimate": 86092168,
+            "Density (/km2)": 112
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$3.77 trillion ( 11th )",
-                "Per capita": "$43,790 ( 51st )"
+                "Total ($)": 3770000000000,
+                "Per capita ($)": 43790
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$1.57 trillion ( 16th )",
-                "Per capita": "$18,200 ( 62nd )"
+                "Total ($)": 1570000000000,
+                "Per capita ($)": 18200
             },
-            "Gini (2022)": "44.5 medium inequality",
-            "HDI (2023)": "0.853 very high ( 51st )",
-            "Currency": "Turkish lira ( ₺ ) ( TRY )"
-        },
-        "Time": {
-            "Time zone": "UTC +3 ( TRT )"
-        },
-        "Codes": {
-            "Calling code": "+90",
-            "ISO 3166 code": "TR",
-            "Internet TLD": ".tr"
+            "Gini": 44.5,
+            "HDI": 0.853,
+            "Currency": "Turkish lira"
         }
     }
 }

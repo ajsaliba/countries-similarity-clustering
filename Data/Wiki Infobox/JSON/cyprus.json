@@ -1,66 +1,39 @@
 {
     "country": "Cyprus",
-    "url": "https://en.wikipedia.org/wiki/Cyprus",
     "infobox": {
         "General": {
-            "Capital and largest city": "Nicosia 35°10′N 33°22′E ﻿ / ﻿ 35.167°N 33.367°E ﻿ / 35.167; 33.367",
             "Official languages": "Greek Turkish",
-            "Minority languages": "Armenian Cypriot Arabic",
-            "Vernaculars": "Cypriot Greek Cypriot Turkish",
             "Ethnic groups": "Greek Cypriots Turkish Cypriots Armenian Cypriots Maronite Cypriots",
-            "Religion (2020; including Northern Cyprus)": {
-                "Christianity": "72.3%",
-                "Islam": "25%",
-                "no religion": "1.9%",
-                "other": "0.8%"
-            },
-            "Demonym": "Cypriot"
+            "Religion": {
+                "Christianity (%)": 72.3,
+                "Islam (%)": 25,
+                "no religion (%)": 1.9,
+                "other (%)": 0.8
+            }
         },
         "Government": {
-            "Government": "Unitary presidential republic",
-            "President": "Nikos Christodoulides",
-            "Vice-President": "Vacant",
-            "President of the House of Representatives": "Annita Demetriou",
-            "Legislature": "House of Representatives"
-        },
-        "Independence from the United Kingdom": {
-            "London-Zürich Agreements": "19 February 1959"
-        },
-        "History": {
-            "Independence proclaimed": "16 August 1960",
-            "Independence Day": "1 October 1960"
+            "Government": "Unitary presidential republic"
         },
         "Area": {
-            "Total": "9,251 km 2 (3,572 sq mi) ( 162nd )",
-            "Water (%)": "0.11"
+            "Total (km2)": 9251,
+            "Water (%)": 0.11
         },
         "Population": {
-            "2021 census": "923,272",
-            "Density": "123.4 /km 2 (319.6/sq mi) ( 82nd )"
+            "Census": 923272,
+            "Density (/km2)": 123.4
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2025 estimate",
-                "Total": "$61.501 billion ( 126th )",
-                "Per capita": "$65,304 ( 28th )"
+                "Total ($)": 61501000000,
+                "Per capita ($)": 65304
             },
             "GDP (nominal)": {
-                "Details": "2025 estimate",
-                "Total": "$39.943 billion ( 102nd )",
-                "Per capita": "$42,413 ( 28th )"
+                "Total ($)": 39943000000,
+                "Per capita ($)": 42413
             },
-            "Gini (2022)": "29.4 low inequality",
-            "HDI (2023)": "0.913 very high ( 32nd )",
-            "Currency": "Euro ( € ) ( EUR )"
-        },
-        "Time": {
-            "Time zone": "UTC +02:00 ( EET )",
-            "Summer ( DST )": "UTC +03:00 ( EEST )"
-        },
-        "Codes": {
-            "Calling code": "+357",
-            "ISO 3166 code": "CY",
-            "Internet TLD": ".cy"
+            "Gini": 29.4,
+            "HDI": 0.913,
+            "Currency": "Euro"
         }
     }
 }

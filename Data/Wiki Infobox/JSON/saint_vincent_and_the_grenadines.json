@@ -1,82 +1,59 @@
 {
     "country": "Saint Vincent and the Grenadines",
-    "url": "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines",
     "infobox": {
         "General": {
-            "Capital and largest city": "Kingstown 13°10′N 61°14′W ﻿ / ﻿ 13.167°N 61.233°W ﻿ / 13.167; -61.233",
             "Official languages": "English",
-            "Vernacular language": "Vincentian Creole",
-            "Ethnic groups (2020)": {
-                "African": "66%",
-                "Mixed": "19%",
-                "Indian": "6%",
-                "European": "4%",
-                "Kalinago": "2%",
-                "others": "3%"
+            "Ethnic groups": {
+                "African (%)": 66,
+                "Mixed (%)": 19,
+                "Indian (%)": 6,
+                "European (%)": 4,
+                "Kalinago (%)": 2,
+                "others (%)": 3
             },
-            "Religion (2020)": {
+            "Religion": {
                 "Christianity": {
-                    "percentage": "88.6%",
+                    "percentage": 88.6,
                     "breakdown": {
-                        "Protestantism": "70.2%",
-                        "Other Christian": "18.4%"
+                        "Protestantism (%)": 70.2,
+                        "Other Christian (%)": 18.4
                     }
                 },
-                "Hinduism": "3.4%",
-                "Irreligion": "2.5%",
+                "Hinduism (%)": 3.4,
+                "Irreligion (%)": 2.5,
                 "Rastafari": {
-                    "percentage": "1.8%",
+                    "percentage": 1.8,
                     "breakdown": {
-                        "Baháʼí Faith": "1.6%"
+                        "Baháʼí Faith (%)": 1.6
                     }
                 },
-                "Islam": "1.5%",
-                "Other": "0.5%"
-            },
-            "Demonyms": "Vincentian Grenadinian Saint Vincentian Vincy (colloquial)",
-            "Monarch": "Charles III",
-            "Governor-General": "Sir Stanley John"
+                "Islam (%)": 1.5,
+                "Other (%)": 0.5
+            }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy",
-            "Prime Minister": "Godwin Friday",
-            "Legislature": "House of Assembly",
-            "from the United Kingdom": "27 October 1979"
-        },
-        "Independence": {
-            "Associated State": "27 October 1969"
+            "Government": "Unitary parliamentary constitutional monarchy"
         },
         "Area": {
-            "Total": "389 km 2 (150 sq mi) ( 184th )",
+            "Total (km2)": 389,
             "Water (%)": "negligible"
         },
         "Population": {
-            "2022 estimate": "110,872 ( 180th )",
-            "2012 census": "109,991",
-            "Density": "307/km 2 (795.1/sq mi) ( 39th )",
-            "Date format": "mm/dd/yyyy"
+            "Estimate": 110872,
+            "Census": 109991,
+            "Density (/km2)": 307
         },
         "Economy": {
             "GDP ( PPP )": {
-                "Details": "2023 estimate",
-                "Total": "$2 billion",
-                "Per capita": "$17,840"
+                "Total ($)": 2000000000,
+                "Per capita ($)": 17840
             },
             "GDP (nominal)": {
-                "Details": "2023 estimate",
-                "Total": "$1 billion",
-                "Per capita": "$9,360"
+                "Total ($)": 1000000000,
+                "Per capita ($)": 9360
             },
-            "HDI (2023)": "0.798 high ( 76th )",
-            "Currency": "East Caribbean dollar ( XCD )"
-        },
-        "Time": {
-            "Time zone": "UTC -4 ( AST )"
-        },
-        "Codes": {
-            "Calling code": "+1",
-            "ISO 3166 code": "VC",
-            "Internet TLD": ".vc"
+            "HDI": 0.798,
+            "Currency": "East Caribbean dollar"
         }
     }
 }

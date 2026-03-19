@@ -1,80 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <country>
   <country>Poland</country>
-  <url>https://en.wikipedia.org/wiki/Poland</url>
   <infobox>
     <General>
-      <Capital_and_largest_city>Warsaw 52°13′N 21°02′E ﻿ / ﻿ 52.217°N 21.033°E ﻿ / 52.217; 21.033</Capital_and_largest_city>
       <Official_language>Polish</Official_language>
-      <Ethnic_groups__2021_>
-        <Polish>98.8%</Polish>
-        <only_Polish>96.3%</only_Polish>
-        <Polish_and_others>2.6%</Polish_and_others>
-        <only_non_Polish>1.1%</only_non_Polish>
-      </Ethnic_groups__2021_>
-      <Religion__2021__>
+      <Ethnic_groups>
+        <Polish____>98.8</Polish____>
+        <only_Polish____>96.3</only_Polish____>
+        <Polish_and_others____>2.6</Polish_and_others____>
+        <only_non_Polish____>1.1</only_non_Polish____>
+      </Ethnic_groups>
+      <Religion>
         <Christianity>
-          <percentage>72.4%</percentage>
+          <percentage>72.4</percentage>
           <breakdown>
-            <Catholicism>71.3%</Catholicism>
-            <other_Christian>1.1%</other_Christian>
+            <Catholicism____>71.3</Catholicism____>
+            <other_Christian____>1.1</other_Christian____>
           </breakdown>
         </Christianity>
-        <no_religion>6.9%</no_religion>
-        <other>0.1%</other>
-        <unanswered>20.6%</unanswered>
-      </Religion__2021__>
-      <Demonyms>Polish Pole</Demonyms>
+        <no_religion____>6.9</no_religion____>
+        <other____>0.1</other____>
+        <unanswered____>20.6</unanswered____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
-      <President>Karol Nawrocki</President>
-      <Prime_Minister>Donald Tusk</Prime_Minister>
-      <Legislature>Parliament</Legislature>
-      <Upper_house>Senate</Upper_house>
-      <Lower_house>Sejm</Lower_house>
-      <Kingdom_of_Poland>18 April 1025</Kingdom_of_Poland>
-      <Government_in_exile>17 September 1939</Government_in_exile>
     </Government>
-    <History>
-      <Baptism_of_Poland>14 April 966</Baptism_of_Poland>
-      <Polish_Lithuanian_Commonwealth>1 July 1569</Polish_Lithuanian_Commonwealth>
-      <Second_Republic>11 November 1918</Second_Republic>
-      <People_s_Republic>22 July 1944</People_s_Republic>
-      <Third_Republic>31 December 1989</Third_Republic>
-    </History>
     <Area>
-      <Total>312,696 km 2 (120,733 sq mi) ( 69th )</Total>
-      <Water____>1.48 (2015)</Water____>
+      <Total__km2_>312696</Total__km2_>
+      <Water____>1.48</Water____>
     </Area>
     <Population>
-      <n_2026_census>37,893,970 ( 38th )</n_2026_census>
-      <Density>126/km 2 (326.3/sq mi) ( 98th )</Density>
-      <Date_format>dd.mm.yyyy ( CE )</Date_format>
+      <Census>37893970</Census>
+      <Density___km2_>126</Density___km2_>
     </Population>
     <Economy>
       <GDP___PPP__>
-        <Details>2025 estimate</Details>
-        <Total>$2.019 trillion ( 19th )</Total>
-        <Per_capita>$55,340 ( 37th )</Per_capita>
+        <Total____>2019000000000</Total____>
+        <Per_capita____>55340</Per_capita____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Details>2025 estimate</Details>
-        <Total>$1.039 trillion ( 20th )</Total>
-        <Per_capita>$28,484 ( 44th )</Per_capita>
+        <Total____>1039000000000</Total____>
+        <Per_capita____>28484</Per_capita____>
       </GDP__nominal_>
-      <Gini__2022_>26.3 low inequality</Gini__2022_>
-      <HDI__2023_>0.906 very high ( 35th )</HDI__2023_>
-      <Currency>Złoty ( PLN )</Currency>
+      <Gini>26.3</Gini>
+      <HDI>0.906</HDI>
+      <Currency>Złoty</Currency>
     </Economy>
-    <Time>
-      <Time_zone>UTC +1 ( CET )</Time_zone>
-      <Summer___DST__>UTC +2 ( CEST )</Summer___DST__>
-    </Time>
-    <Codes>
-      <Calling_code>+48</Calling_code>
-      <ISO_3166_code>PL</ISO_3166_code>
-      <Internet_TLD>.pl</Internet_TLD>
-    </Codes>
   </infobox>
 </country>

@@ -2,194 +2,278 @@
 <countries>
   <country>Iran</country>
   <iso3>IRN</iso3>
-  <metrics>
-    <access_to_electricity_percent>
-      <value>100</value>
-      <year>2023</year>
-      <source>world_bank</source>
-      <indicator_code>EG.ELC.ACCS.ZS</indicator_code>
-    </access_to_electricity_percent>
-    <basic_drinking_water_percent>
-      <value>97.8520635920898</value>
+  <demographics>
+    <total_population>
+      <value>91567738</value>
       <year>2024</year>
-      <source>world_bank</source>
-      <indicator_code>SH.H2O.BASW.ZS</indicator_code>
-    </basic_drinking_water_percent>
-    <basic_sanitation_percent>
-      <value>90.458288016159</value>
+    </total_population>
+    <population_density_per_sq_km>
+      <value>55.8451198767334</value>
+      <year>2023</year>
+    </population_density_per_sq_km>
+    <population_growth_rate_percent>
+      <value>1.05286922170537</value>
       <year>2024</year>
-      <source>world_bank</source>
-      <indicator_code>SH.STA.BASS.ZS</indicator_code>
-    </basic_sanitation_percent>
-    <internet_users_percent>
-      <value>79.6309</value>
-      <year>2023</year>
-      <source>world_bank</source>
-      <indicator_code>IT.NET.USER.ZS</indicator_code>
-    </internet_users_percent>
-    <fixed_broadband_subscriptions_per_100>
-      <value>12.0206</value>
-      <year>2023</year>
-      <source>world_bank</source>
-      <indicator_code>IT.NET.BBND.P2</indicator_code>
-    </fixed_broadband_subscriptions_per_100>
-    <transport_infrastructure_quality_lpi>
-      <value>2.4</value>
-      <year>2022</year>
-      <source>world_bank</source>
-      <indicator_code>LP.LPI.INFR.XQ</indicator_code>
-    </transport_infrastructure_quality_lpi>
-    <government_effectiveness>
-      <value>-1.02239692211151</value>
-      <year>2023</year>
-      <source>world_bank</source>
-      <indicator_code>GE.EST</indicator_code>
-    </government_effectiveness>
-    <rule_of_law>
-      <value>-1.06095492839813</value>
-      <year>2023</year>
-      <source>world_bank</source>
-      <indicator_code>RL.EST</indicator_code>
-    </rule_of_law>
-    <control_of_corruption>
-      <value>-1.23189043998718</value>
-      <year>2023</year>
-      <source>world_bank</source>
-      <indicator_code>CC.EST</indicator_code>
-    </control_of_corruption>
-    <political_stability>
-      <value>-1.6941009759903</value>
-      <year>2023</year>
-      <source>world_bank</source>
-      <indicator_code>PV.EST</indicator_code>
-    </political_stability>
-    <regulatory_quality>
-      <value>-1.68747353553772</value>
-      <year>2023</year>
-      <source>world_bank</source>
-      <indicator_code>RQ.EST</indicator_code>
-    </regulatory_quality>
+    </population_growth_rate_percent>
+    <urban_population_percent>
+      <value>77.0201263427734</value>
+      <year>2024</year>
+    </urban_population_percent>
+    <rural_population_percent>
+      <value>22.9798736572266</value>
+      <year>2024</year>
+    </rural_population_percent>
+    <age_dependency_ratio_percent>
+      <value>44.2576475929094</value>
+      <year>2024</year>
+    </age_dependency_ratio_percent>
+    <net_migration>
+      <value>116786</value>
+      <year>2025</year>
+    </net_migration>
+  </demographics>
+  <economy>
+    <gdp_current_usd>
+      <value>475252089215.416</value>
+      <year>2024</year>
+    </gdp_current_usd>
     <gdp_per_capita_ppp>
       <value>19873.8860853805</value>
       <year>2024</year>
-      <source>world_bank</source>
-      <indicator_code>NY.GDP.PCAP.PP.CD</indicator_code>
     </gdp_per_capita_ppp>
+    <gdp_per_capita_current_usd>
+      <value>5190.16959024821</value>
+      <year>2024</year>
+    </gdp_per_capita_current_usd>
+    <gdp_growth_rate_percent>
+      <value>3.66312056830718</value>
+      <year>2024</year>
+    </gdp_growth_rate_percent>
     <unemployment_percent>
       <value>8.301</value>
       <year>2025</year>
-      <source>world_bank</source>
-      <indicator_code>SL.UEM.TOTL.ZS</indicator_code>
     </unemployment_percent>
     <inflation_percent>
       <value>32.455871402917</value>
       <year>2024</year>
-      <source>world_bank</source>
-      <indicator_code>FP.CPI.TOTL.ZG</indicator_code>
     </inflation_percent>
     <agriculture_value_added_percent_gdp>
       <value>10.8003685937198</value>
       <year>2024</year>
-      <source>world_bank</source>
-      <indicator_code>NV.AGR.TOTL.ZS</indicator_code>
     </agriculture_value_added_percent_gdp>
+    <agricultural_land_percent>
+      <value>29.008936825886</value>
+      <year>2023</year>
+    </agricultural_land_percent>
     <industry_value_added_percent_gdp>
       <value>36.0697232843721</value>
       <year>2024</year>
-      <source>world_bank</source>
-      <indicator_code>NV.IND.TOTL.ZS</indicator_code>
     </industry_value_added_percent_gdp>
     <services_value_added_percent_gdp>
       <value>49.7874655706935</value>
       <year>2024</year>
-      <source>world_bank</source>
-      <indicator_code>NV.SRV.TOTL.ZS</indicator_code>
     </services_value_added_percent_gdp>
+    <domestic_credit_private_sector_percent_gdp>
+      <value>57.8313383703997</value>
+      <year>2016</year>
+    </domestic_credit_private_sector_percent_gdp>
+    <poverty_headcount_ratio_percent>
+      <value>2.5</value>
+      <year>2023</year>
+    </poverty_headcount_ratio_percent>
+    <gini_index>
+      <value>35.9</value>
+      <year>2023</year>
+    </gini_index>
+    <income_share_lowest_20_percent>
+      <value>7</value>
+      <year>2023</year>
+    </income_share_lowest_20_percent>
+  </economy>
+  <trade>
     <trade_percent_gdp>
       <value>52.0621306794348</value>
       <year>2024</year>
-      <source>world_bank</source>
-      <indicator_code>NE.TRD.GNFS.ZS</indicator_code>
     </trade_percent_gdp>
     <exports_percent_gdp>
       <value>23.5514720983508</value>
       <year>2024</year>
-      <source>world_bank</source>
-      <indicator_code>NE.EXP.GNFS.ZS</indicator_code>
     </exports_percent_gdp>
     <imports_percent_gdp>
       <value>28.5106585810839</value>
       <year>2024</year>
-      <source>world_bank</source>
-      <indicator_code>NE.IMP.GNFS.ZS</indicator_code>
     </imports_percent_gdp>
-    <domestic_credit_private_sector_percent_gdp>
-      <value>57.8313383703997</value>
-      <year>2016</year>
-      <source>world_bank</source>
-      <indicator_code>FS.AST.PRVT.GD.ZS</indicator_code>
-    </domestic_credit_private_sector_percent_gdp>
-    <secondary_school_enrollment_gross>
-      <value>85.1913986206055</value>
-      <year>2020</year>
-      <source>world_bank</source>
-      <indicator_code>SE.SEC.ENRR</indicator_code>
-    </secondary_school_enrollment_gross>
-    <tertiary_school_enrollment_gross>
-      <value>58.6677703857422</value>
+    <trade_balance_percent_gdp>
+      <value>-4.95918648273307</value>
+      <year>2024</year>
+    </trade_balance_percent_gdp>
+    <fdi_net_inflows_percent_gdp>
+      <value>0.304914200880697</value>
+      <year>2024</year>
+    </fdi_net_inflows_percent_gdp>
+    <food_imports_percent_of_merchandise>
+      <value>29.4601700206271</value>
       <year>2022</year>
-      <source>world_bank</source>
-      <indicator_code>SE.TER.ENRR</indicator_code>
-    </tertiary_school_enrollment_gross>
+    </food_imports_percent_of_merchandise>
+  </trade>
+  <debt>
     <central_government_debt_percent_gdp>
       <value/>
       <year/>
-      <source>world_bank</source>
-      <indicator_code>GC.DOD.TOTL.GD.ZS</indicator_code>
     </central_government_debt_percent_gdp>
     <external_debt_percent_gni>
       <value>2.21280566524888</value>
       <year>2024</year>
-      <source>world_bank</source>
-      <indicator_code>DT.DOD.DECT.GN.ZS</indicator_code>
     </external_debt_percent_gni>
     <debt_service_percent_exports>
       <value>0.284993582584259</value>
       <year>2024</year>
-      <source>world_bank</source>
-      <indicator_code>DT.TDS.DECT.EX.ZS</indicator_code>
     </debt_service_percent_exports>
-    <intentional_homicides_per_100k>
-      <value>2.37540050451863</value>
-      <year>2014</year>
-      <source>world_bank</source>
-      <indicator_code>VC.IHR.PSRC.P5</indicator_code>
-    </intentional_homicides_per_100k>
+  </debt>
+  <education>
+    <literacy_rate_percent>
+      <value>88.9233339833467</value>
+      <year>2023</year>
+    </literacy_rate_percent>
+    <primary_school_enrollment_gross>
+      <value>104.680130004883</value>
+      <year>2020</year>
+    </primary_school_enrollment_gross>
+    <secondary_school_enrollment_gross>
+      <value>85.1913986206055</value>
+      <year>2020</year>
+    </secondary_school_enrollment_gross>
+    <tertiary_school_enrollment_gross>
+      <value>58.6677703857422</value>
+      <year>2022</year>
+    </tertiary_school_enrollment_gross>
+    <education_expenditure_percent_gdp>
+      <value>2.82443290958712</value>
+      <year>2023</year>
+    </education_expenditure_percent_gdp>
+  </education>
+  <health>
     <life_expectancy_years>
       <value>77.654</value>
       <year>2023</year>
-      <source>world_bank</source>
-      <indicator_code>SP.DYN.LE00.IN</indicator_code>
     </life_expectancy_years>
+    <infant_mortality_per_1000>
+      <value>10.7</value>
+      <year>2023</year>
+    </infant_mortality_per_1000>
     <under_5_mortality_per_1000>
       <value>11.8</value>
       <year>2023</year>
-      <source>world_bank</source>
-      <indicator_code>SH.DYN.MORT</indicator_code>
     </under_5_mortality_per_1000>
     <current_health_expenditure_percent_gdp>
       <value>6.02542305</value>
       <year>2023</year>
-      <source>world_bank</source>
-      <indicator_code>SH.XPD.CHEX.GD.ZS</indicator_code>
     </current_health_expenditure_percent_gdp>
     <physicians_per_1000_people>
       <value>1.811</value>
       <year>2023</year>
-      <source>world_bank</source>
-      <indicator_code>SH.MED.PHYS.ZS</indicator_code>
     </physicians_per_1000_people>
-  </metrics>
+    <undernourishment_prevalence_percent>
+      <value>6.8</value>
+      <year>2023</year>
+    </undernourishment_prevalence_percent>
+  </health>
+  <infrastructure>
+    <access_to_electricity_percent>
+      <value>100</value>
+      <year>2023</year>
+    </access_to_electricity_percent>
+    <basic_drinking_water_percent>
+      <value>97.8520635920898</value>
+      <year>2024</year>
+    </basic_drinking_water_percent>
+    <basic_sanitation_percent>
+      <value>90.458288016159</value>
+      <year>2024</year>
+    </basic_sanitation_percent>
+    <internet_users_percent>
+      <value>79.6309</value>
+      <year>2023</year>
+    </internet_users_percent>
+    <fixed_broadband_subscriptions_per_100>
+      <value>12.0206</value>
+      <year>2023</year>
+    </fixed_broadband_subscriptions_per_100>
+    <mobile_subscriptions_per_100>
+      <value>166.28</value>
+      <year>2023</year>
+    </mobile_subscriptions_per_100>
+    <transport_infrastructure_quality_lpi>
+      <value>2.4</value>
+      <year>2022</year>
+    </transport_infrastructure_quality_lpi>
+  </infrastructure>
+  <energy_and_environment>
+    <renewable_energy_percent>
+      <value>0.9</value>
+      <year>2021</year>
+    </renewable_energy_percent>
+    <energy_use_per_capita_kg_oil_eq>
+      <value>3266.12248660454</value>
+      <year>2022</year>
+    </energy_use_per_capita_kg_oil_eq>
+    <forest_area_percent_land>
+      <value>6.64923611710324</value>
+      <year>2023</year>
+    </forest_area_percent_land>
+    <electricity_from_fossil_fuels_percent>
+      <value>93.9412895838376</value>
+      <year>2022</year>
+    </electricity_from_fossil_fuels_percent>
+    <electricity_from_hydroelectric_percent>
+      <value>3.4321631685021</value>
+      <year>2022</year>
+    </electricity_from_hydroelectric_percent>
+    <electricity_from_nuclear_percent>
+      <value>2.19871678058253</value>
+      <year>2022</year>
+    </electricity_from_nuclear_percent>
+    <electricity_from_renewables_excl_hydro_percent>
+      <value>0.79148438795092</value>
+      <year>2021</year>
+    </electricity_from_renewables_excl_hydro_percent>
+    <energy_imports_percent_of_use>
+      <value>-32.4944592767049</value>
+      <year>2022</year>
+    </energy_imports_percent_of_use>
+  </energy_and_environment>
+  <governance>
+    <government_effectiveness>
+      <value>-1.02239692211151</value>
+      <year>2023</year>
+    </government_effectiveness>
+    <rule_of_law>
+      <value>-1.06095492839813</value>
+      <year>2023</year>
+    </rule_of_law>
+    <control_of_corruption>
+      <value>-1.23189043998718</value>
+      <year>2023</year>
+    </control_of_corruption>
+    <political_stability>
+      <value>-1.6941009759903</value>
+      <year>2023</year>
+    </political_stability>
+    <regulatory_quality>
+      <value>-1.68747353553772</value>
+      <year>2023</year>
+    </regulatory_quality>
+  </governance>
+  <security>
+    <intentional_homicides_per_100k>
+      <value>2.37540050451863</value>
+      <year>2014</year>
+    </intentional_homicides_per_100k>
+    <battle_related_deaths>
+      <value>123</value>
+      <year>2024</year>
+    </battle_related_deaths>
+  </security>
   <world_bank_country_name>
     <item>Iran, Islamic Rep.</item>
   </world_bank_country_name>

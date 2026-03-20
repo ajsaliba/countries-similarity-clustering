@@ -226,38 +226,90 @@ UN_COUNTRIES = [
     {"iso3": "VAT", "name": "Holy See"},
 ]
 
-FINAL_STAGE1_METRICS = {
-    "access_to_electricity_percent": "EG.ELC.ACCS.ZS",
-    "basic_drinking_water_percent": "SH.H2O.BASW.ZS",
-    "basic_sanitation_percent": "SH.STA.BASS.ZS",
-    "internet_users_percent": "IT.NET.USER.ZS",
-    "fixed_broadband_subscriptions_per_100": "IT.NET.BBND.P2",
-    "transport_infrastructure_quality_lpi": "LP.LPI.INFR.XQ",
-    "government_effectiveness": "GE.EST",
-    "rule_of_law": "RL.EST",
-    "control_of_corruption": "CC.EST",
-    "political_stability": "PV.EST",
-    "regulatory_quality": "RQ.EST",
-    "gdp_per_capita_ppp": "NY.GDP.PCAP.PP.CD",
-    "unemployment_percent": "SL.UEM.TOTL.ZS",
-    "inflation_percent": "FP.CPI.TOTL.ZG",
-    "agriculture_value_added_percent_gdp": "NV.AGR.TOTL.ZS",
-    "industry_value_added_percent_gdp": "NV.IND.TOTL.ZS",
-    "services_value_added_percent_gdp": "NV.SRV.TOTL.ZS",
-    "trade_percent_gdp": "NE.TRD.GNFS.ZS",
-    "exports_percent_gdp": "NE.EXP.GNFS.ZS",
-    "imports_percent_gdp": "NE.IMP.GNFS.ZS",
-    "domestic_credit_private_sector_percent_gdp": "FS.AST.PRVT.GD.ZS",
-    "secondary_school_enrollment_gross": "SE.SEC.ENRR",
-    "tertiary_school_enrollment_gross": "SE.TER.ENRR",
-    "central_government_debt_percent_gdp": "GC.DOD.TOTL.GD.ZS",
-    "external_debt_percent_gni": "DT.DOD.DECT.GN.ZS",
-    "debt_service_percent_exports": "DT.TDS.DECT.EX.ZS",
-    "intentional_homicides_per_100k": "VC.IHR.PSRC.P5",
-    "life_expectancy_years": "SP.DYN.LE00.IN",
-    "under_5_mortality_per_1000": "SH.DYN.MORT",
-    "current_health_expenditure_percent_gdp": "SH.XPD.CHEX.GD.ZS",
-    "physicians_per_1000_people": "SH.MED.PHYS.ZS",
+CATEGORIZED_METRICS = {
+    "demographics": {
+        "total_population": "SP.POP.TOTL",
+        "population_density_per_sq_km": "EN.POP.DNST",
+        "population_growth_rate_percent": "SP.POP.GROW",
+        "urban_population_percent": "SP.URB.TOTL.IN.ZS",
+        "rural_population_percent": "SP.RUR.TOTL.ZS",
+        "age_dependency_ratio_percent": "SP.POP.DPND",
+        "net_migration": "SM.POP.NETM",
+    },
+    "economy": {
+        "gdp_current_usd": "NY.GDP.MKTP.CD",
+        "gdp_per_capita_ppp": "NY.GDP.PCAP.PP.CD",
+        "gdp_per_capita_current_usd": "NY.GDP.PCAP.CD",
+        "gdp_growth_rate_percent": "NY.GDP.MKTP.KD.ZG",
+        "unemployment_percent": "SL.UEM.TOTL.ZS",
+        "inflation_percent": "FP.CPI.TOTL.ZG",
+        "agriculture_value_added_percent_gdp": "NV.AGR.TOTL.ZS",
+        "agricultural_land_percent": "AG.LND.AGRI.ZS",
+        "industry_value_added_percent_gdp": "NV.IND.TOTL.ZS",
+        "services_value_added_percent_gdp": "NV.SRV.TOTL.ZS",
+        "domestic_credit_private_sector_percent_gdp": "FS.AST.PRVT.GD.ZS",
+        "poverty_headcount_ratio_percent": "SI.POV.DDAY",
+        "gini_index": "SI.POV.GINI",
+        "income_share_lowest_20_percent": "SI.DST.FRST.20",
+    },
+    "trade": {
+        "trade_percent_gdp": "NE.TRD.GNFS.ZS",
+        "exports_percent_gdp": "NE.EXP.GNFS.ZS",
+        "imports_percent_gdp": "NE.IMP.GNFS.ZS",
+        "trade_balance_percent_gdp": "NE.RSB.GNFS.ZS",
+        "fdi_net_inflows_percent_gdp": "BX.KLT.DINV.WD.GD.ZS",
+        "food_imports_percent_of_merchandise": "TM.VAL.FOOD.ZS.UN",
+    },
+    "debt": {
+        "central_government_debt_percent_gdp": "GC.DOD.TOTL.GD.ZS",
+        "external_debt_percent_gni": "DT.DOD.DECT.GN.ZS",
+        "debt_service_percent_exports": "DT.TDS.DECT.EX.ZS",
+    },
+    "education": {
+        "literacy_rate_percent": "SE.ADT.LITR.ZS",
+        "primary_school_enrollment_gross": "SE.PRM.ENRR",
+        "secondary_school_enrollment_gross": "SE.SEC.ENRR",
+        "tertiary_school_enrollment_gross": "SE.TER.ENRR",
+        "education_expenditure_percent_gdp": "SE.XPD.TOTL.GD.ZS",
+    },
+    "health": {
+        "life_expectancy_years": "SP.DYN.LE00.IN",
+        "infant_mortality_per_1000": "SP.DYN.IMRT.IN",
+        "under_5_mortality_per_1000": "SH.DYN.MORT",
+        "current_health_expenditure_percent_gdp": "SH.XPD.CHEX.GD.ZS",
+        "physicians_per_1000_people": "SH.MED.PHYS.ZS",
+        "undernourishment_prevalence_percent": "SN.ITK.DEFC.ZS",
+    },
+    "infrastructure": {
+        "access_to_electricity_percent": "EG.ELC.ACCS.ZS",
+        "basic_drinking_water_percent": "SH.H2O.BASW.ZS",
+        "basic_sanitation_percent": "SH.STA.BASS.ZS",
+        "internet_users_percent": "IT.NET.USER.ZS",
+        "fixed_broadband_subscriptions_per_100": "IT.NET.BBND.P2",
+        "mobile_subscriptions_per_100": "IT.CEL.SETS.P2",
+        "transport_infrastructure_quality_lpi": "LP.LPI.INFR.XQ",
+    },
+    "energy_and_environment": {
+        "renewable_energy_percent": "EG.FEC.RNEW.ZS",
+        "energy_use_per_capita_kg_oil_eq": "EG.USE.PCAP.KG.OE",
+        "forest_area_percent_land": "AG.LND.FRST.ZS",
+        "electricity_from_fossil_fuels_percent": "EG.ELC.FOSL.ZS",
+        "electricity_from_hydroelectric_percent": "EG.ELC.HYRO.ZS",
+        "electricity_from_nuclear_percent": "EG.ELC.NUCL.ZS",
+        "electricity_from_renewables_excl_hydro_percent": "EG.ELC.RNWX.ZS",
+        "energy_imports_percent_of_use": "EG.IMP.CONS.ZS",
+    },
+    "governance": {
+        "government_effectiveness": "GE.EST",
+        "rule_of_law": "RL.EST",
+        "control_of_corruption": "CC.EST",
+        "political_stability": "PV.EST",
+        "regulatory_quality": "RQ.EST",
+    },
+    "security": {
+        "intentional_homicides_per_100k": "VC.IHR.PSRC.P5",
+        "battle_related_deaths": "VC.BTL.DETH",
+    },
 }
 
 
@@ -344,12 +396,14 @@ def to_float(value: Any) -> float | None:
 def build_country_records(speed_csv: Path | None = None) -> list[dict[str, Any]]:
     un_by_iso3 = {item["iso3"]: item["name"] for item in UN_COUNTRIES}
 
+    # Fetch all indicators across all categories
     wb_data_by_metric: Dict[str, Dict[str, Dict[str, Any]]] = {}
-    for metric_name, code in FINAL_STAGE1_METRICS.items():
-        if code is None:
-            continue
-        print(f"Fetching {metric_name} ({code})...", file=sys.stderr)
-        wb_data_by_metric[metric_name] = fetch_world_bank_indicator(code)
+    for category, metrics in CATEGORIZED_METRICS.items():
+        for metric_name, code in metrics.items():
+            if code is None:
+                continue
+            print(f"Fetching {category}/{metric_name} ({code})...", file=sys.stderr)
+            wb_data_by_metric[metric_name] = fetch_world_bank_indicator(code)
 
     speed_data: Dict[str, Dict[str, Any]] = {}
     if speed_csv:
@@ -360,35 +414,32 @@ def build_country_records(speed_csv: Path | None = None) -> list[dict[str, Any]]
         country_obj: dict[str, Any] = {
             "country": un_name,
             "iso3": iso3,
-            "metrics": {},
         }
         wb_names_seen = set()
-        for metric_name, code in FINAL_STAGE1_METRICS.items():
-            if code is None:
-                value = speed_data.get(iso3, {}).get(metric_name)
-                country_obj["metrics"][metric_name] = {
-                    "value": value,
-                    "year": None,
-                    "source": "external_speed_csv" if value is not None else None,
-                }
-                continue
 
-            entry = wb_data_by_metric.get(metric_name, {}).get(iso3)
-            if entry:
-                wb_names_seen.add(entry.get("wb_country_name"))
-                country_obj["metrics"][metric_name] = {
-                    "value": entry.get("value"),
-                    "year": entry.get("year"),
-                    "source": "world_bank",
-                    "indicator_code": code,
-                }
-            else:
-                country_obj["metrics"][metric_name] = {
-                    "value": None,
-                    "year": None,
-                    "source": "world_bank",
-                    "indicator_code": code,
-                }
+        for category, metrics in CATEGORIZED_METRICS.items():
+            country_obj[category] = {}
+            for metric_name, code in metrics.items():
+                if code is None:
+                    value = speed_data.get(iso3, {}).get(metric_name)
+                    country_obj[category][metric_name] = {
+                        "value": value,
+                        "year": None,
+                    }
+                    continue
+
+                entry = wb_data_by_metric.get(metric_name, {}).get(iso3)
+                if entry:
+                    wb_names_seen.add(entry.get("wb_country_name"))
+                    country_obj[category][metric_name] = {
+                        "value": entry.get("value"),
+                        "year": entry.get("year"),
+                    }
+                else:
+                    country_obj[category][metric_name] = {
+                        "value": None,
+                        "year": None,
+                    }
 
         country_obj["world_bank_country_name"] = sorted(name for name in wb_names_seen if name)[:1] or None
         records.append(country_obj)

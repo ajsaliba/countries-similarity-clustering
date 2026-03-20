@@ -1,0 +1,279 @@
+{
+  "country": "Sri Lanka",
+  "iso3": "LKA",
+  "demographics": {
+    "total_population": {
+      "value": 21916000,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 356.239896540576,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": -0.550589519145017,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 20.2996997058686,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 79.7003002941314,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 51.8239202756772,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": -30724,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 98963185509.6499,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 15632.5924849848,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 4515.56787322732,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": 5.00871930957159,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": 4.005,
+      "year": 2025
+    },
+    "inflation_percent": {
+      "value": -0.42936004906973,
+      "year": 2024
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 8.2996858332285,
+      "year": 2024
+    },
+    "agricultural_land_percent": {
+      "value": 48.6081474296799,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 25.5288051289463,
+      "year": 2024
+    },
+    "services_value_added_percent_gdp": {
+      "value": 57.4695113471552,
+      "year": 2024
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 47.0084929450456,
+      "year": 2019
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": 2.7,
+      "year": 2019
+    },
+    "gini_index": {
+      "value": 37.7,
+      "year": 2019
+    },
+    "income_share_lowest_20_percent": {
+      "value": 7.4,
+      "year": 2019
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": 42.3975008711047,
+      "year": 2024
+    },
+    "exports_percent_gdp": {
+      "value": 19.8863207168995,
+      "year": 2024
+    },
+    "imports_percent_gdp": {
+      "value": 22.5111801542053,
+      "year": 2024
+    },
+    "trade_balance_percent_gdp": {
+      "value": -2.62485943730578,
+      "year": 2024
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 0.769118881748846,
+      "year": 2024
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 15.2925487801049,
+      "year": 2024
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": 73.5126591624451,
+      "year": 2015
+    },
+    "external_debt_percent_gni": {
+      "value": 58.8897020425324,
+      "year": 2024
+    },
+    "debt_service_percent_exports": {
+      "value": 23.7051670387884,
+      "year": 2024
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": 92.6600036621094,
+      "year": 2023
+    },
+    "primary_school_enrollment_gross": {
+      "value": 91.4511421235026,
+      "year": 2023
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 87.9534065332114,
+      "year": 2023
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": 20.7412633848006,
+      "year": 2023
+    },
+    "education_expenditure_percent_gdp": {
+      "value": 1.82774571561927,
+      "year": 2023
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 77.483,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 5.3,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 6.1,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 3.68313766,
+      "year": 2023
+    },
+    "physicians_per_1000_people": {
+      "value": 1.136,
+      "year": 2023
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 7.4,
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 100,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 90.2138440260395,
+      "year": 2024
+    },
+    "basic_sanitation_percent": {
+      "value": 95.3530207374149,
+      "year": 2024
+    },
+    "internet_users_percent": {
+      "value": 51.2,
+      "year": 2023
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 8.76545,
+      "year": 2023
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 142.277,
+      "year": 2023
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": 2.4,
+      "year": 2022
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 48.8,
+      "year": 2021
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": 473.920825625094,
+      "year": 2022
+    },
+    "forest_area_percent_land": {
+      "value": 34.0048496605238,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 49.7104247104247,
+      "year": 2022
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 40.7758204633205,
+      "year": 2022
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": 7.77126133363939,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": 60.0395802943756,
+      "year": 2022
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": -0.25227889418602,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": -0.0906768143177032,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": -0.383976995944977,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": -0.508541285991669,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": -0.507761836051941,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": 3.31094038448808,
+      "year": 2019
+    },
+    "battle_related_deaths": {
+      "value": null,
+      "year": null
+    }
+  },
+  "world_bank_country_name": [
+    "Sri Lanka"
+  ]
+}

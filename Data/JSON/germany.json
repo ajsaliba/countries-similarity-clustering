@@ -1,0 +1,279 @@
+{
+  "country": "Germany",
+  "iso3": "DEU",
+  "demographics": {
+    "total_population": {
+      "value": 83516593,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 238.351810090719,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": 0.274957829184881,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 82.0211432579125,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 17.9788567420875,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 58.9970399490838,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": -334072,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 4685592577804.69,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 73551.9347696836,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 56103.7323182554,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": -0.495851897260366,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": 3.711,
+      "year": 2025
+    },
+    "inflation_percent": {
+      "value": 2.2564981433876,
+      "year": 2024
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 0.914397651173374,
+      "year": 2024
+    },
+    "agricultural_land_percent": {
+      "value": 47.4658729931603,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 25.6229541900267,
+      "year": 2024
+    },
+    "services_value_added_percent_gdp": {
+      "value": 64.0456505820091,
+      "year": 2024
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 77.253484574492,
+      "year": 2023
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": 0.2,
+      "year": 2020
+    },
+    "gini_index": {
+      "value": 32.4,
+      "year": 2020
+    },
+    "income_share_lowest_20_percent": {
+      "value": 7.8,
+      "year": 2020
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": 79.0907305894936,
+      "year": 2024
+    },
+    "exports_percent_gdp": {
+      "value": 41.4340593720908,
+      "year": 2024
+    },
+    "imports_percent_gdp": {
+      "value": 37.6566712174028,
+      "year": 2024
+    },
+    "trade_balance_percent_gdp": {
+      "value": 3.77738815468807,
+      "year": 2024
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 1.01586176558023,
+      "year": 2024
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 9.16027792841592,
+      "year": 2024
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "external_debt_percent_gni": {
+      "value": null,
+      "year": null
+    },
+    "debt_service_percent_exports": {
+      "value": null,
+      "year": null
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": null,
+      "year": null
+    },
+    "primary_school_enrollment_gross": {
+      "value": 102.190689086914,
+      "year": 2023
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 100.603057861328,
+      "year": 2023
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": 78.5947494506836,
+      "year": 2023
+    },
+    "education_expenditure_percent_gdp": {
+      "value": 5.23916006088257,
+      "year": 2022
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 80.5414634146342,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 3.1,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 3.7,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 12.26655293,
+      "year": 2024
+    },
+    "physicians_per_1000_people": {
+      "value": 4.534,
+      "year": 2022
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 2.5,
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 100,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 100,
+      "year": 2024
+    },
+    "basic_sanitation_percent": {
+      "value": 99.2269528917777,
+      "year": 2024
+    },
+    "internet_users_percent": {
+      "value": 93.5,
+      "year": 2024
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 45.3805,
+      "year": 2023
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 124.663,
+      "year": 2023
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": 4.3,
+      "year": 2022
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 17.6,
+      "year": 2021
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": 2928.19658713867,
+      "year": 2023
+    },
+    "forest_area_percent_land": {
+      "value": 32.6789342643734,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 43.2012518534581,
+      "year": 2023
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 4.9497832504039,
+      "year": 2023
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 1.40970264573211,
+      "year": 2023
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": 35.618008802309,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": 70.4874265375658,
+      "year": 2023
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": 1.18541669845581,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": 1.55120778083801,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": 1.66416621208191,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": 0.586989283561707,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": 1.45697498321533,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": 0.910722780231795,
+      "year": 2023
+    },
+    "battle_related_deaths": {
+      "value": null,
+      "year": null
+    }
+  },
+  "world_bank_country_name": [
+    "Germany"
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "country": "Holy See",
+  "iso3": "VAT",
+  "demographics": {
+    "total_population": {
+      "value": null,
+      "year": null
+    },
+    "population_density_per_sq_km": {
+      "value": null,
+      "year": null
+    },
+    "population_growth_rate_percent": {
+      "value": null,
+      "year": null
+    },
+    "urban_population_percent": {
+      "value": null,
+      "year": null
+    },
+    "rural_population_percent": {
+      "value": null,
+      "year": null
+    },
+    "age_dependency_ratio_percent": {
+      "value": null,
+      "year": null
+    },
+    "net_migration": {
+      "value": null,
+      "year": null
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": null,
+      "year": null
+    },
+    "gdp_per_capita_ppp": {
+      "value": null,
+      "year": null
+    },
+    "gdp_per_capita_current_usd": {
+      "value": null,
+      "year": null
+    },
+    "gdp_growth_rate_percent": {
+      "value": null,
+      "year": null
+    },
+    "unemployment_percent": {
+      "value": null,
+      "year": null
+    },
+    "inflation_percent": {
+      "value": null,
+      "year": null
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "agricultural_land_percent": {
+      "value": null,
+      "year": null
+    },
+    "industry_value_added_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "services_value_added_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": null,
+      "year": null
+    },
+    "gini_index": {
+      "value": null,
+      "year": null
+    },
+    "income_share_lowest_20_percent": {
+      "value": null,
+      "year": null
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "exports_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "imports_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "trade_balance_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": null,
+      "year": null
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "external_debt_percent_gni": {
+      "value": null,
+      "year": null
+    },
+    "debt_service_percent_exports": {
+      "value": null,
+      "year": null
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": null,
+      "year": null
+    },
+    "primary_school_enrollment_gross": {
+      "value": null,
+      "year": null
+    },
+    "secondary_school_enrollment_gross": {
+      "value": null,
+      "year": null
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": null,
+      "year": null
+    },
+    "education_expenditure_percent_gdp": {
+      "value": null,
+      "year": null
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": null,
+      "year": null
+    },
+    "infant_mortality_per_1000": {
+      "value": null,
+      "year": null
+    },
+    "under_5_mortality_per_1000": {
+      "value": null,
+      "year": null
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "physicians_per_1000_people": {
+      "value": null,
+      "year": null
+    },
+    "undernourishment_prevalence_percent": {
+      "value": null,
+      "year": null
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": null,
+      "year": null
+    },
+    "basic_drinking_water_percent": {
+      "value": null,
+      "year": null
+    },
+    "basic_sanitation_percent": {
+      "value": null,
+      "year": null
+    },
+    "internet_users_percent": {
+      "value": null,
+      "year": null
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": null,
+      "year": null
+    },
+    "mobile_subscriptions_per_100": {
+      "value": null,
+      "year": null
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": null,
+      "year": null
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": null,
+      "year": null
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": null,
+      "year": null
+    },
+    "forest_area_percent_land": {
+      "value": null,
+      "year": null
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": null,
+      "year": null
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": null,
+      "year": null
+    },
+    "electricity_from_nuclear_percent": {
+      "value": null,
+      "year": null
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": null,
+      "year": null
+    },
+    "energy_imports_percent_of_use": {
+      "value": null,
+      "year": null
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": null,
+      "year": null
+    },
+    "rule_of_law": {
+      "value": null,
+      "year": null
+    },
+    "control_of_corruption": {
+      "value": null,
+      "year": null
+    },
+    "political_stability": {
+      "value": null,
+      "year": null
+    },
+    "regulatory_quality": {
+      "value": null,
+      "year": null
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": null,
+      "year": null
+    },
+    "battle_related_deaths": {
+      "value": null,
+      "year": null
+    }
+  },
+  "world_bank_country_name": null
+}

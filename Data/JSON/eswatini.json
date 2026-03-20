@@ -1,0 +1,279 @@
+{
+  "country": "Eswatini",
+  "iso3": "SWZ",
+  "demographics": {
+    "total_population": {
+      "value": 1242822,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 71.5410465116279,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": 0.995913343966098,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 26.2498461258639,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 73.7501538741361,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 60.2929796322665,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": -5775,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 4858885840.77236,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 11799.2028793201,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 3909.55892378182,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": 2.97391075973985,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": 34.202,
+      "year": 2025
+    },
+    "inflation_percent": {
+      "value": 2.59801620311077,
+      "year": 2019
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 6.477307702895,
+      "year": 2024
+    },
+    "agricultural_land_percent": {
+      "value": 69.4767441860465,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 34.7365662380883,
+      "year": 2024
+    },
+    "services_value_added_percent_gdp": {
+      "value": 51.3633744946129,
+      "year": 2024
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 21.6231408755943,
+      "year": 2024
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": 44.5,
+      "year": 2016
+    },
+    "gini_index": {
+      "value": 54.6,
+      "year": 2016
+    },
+    "income_share_lowest_20_percent": {
+      "value": 3.7,
+      "year": 2016
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": 107.480621053879,
+      "year": 2024
+    },
+    "exports_percent_gdp": {
+      "value": 53.7558918717287,
+      "year": 2024
+    },
+    "imports_percent_gdp": {
+      "value": 53.7247291821506,
+      "year": 2024
+    },
+    "trade_balance_percent_gdp": {
+      "value": 0.0311626895781123,
+      "year": 2024
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 1.55448906259813,
+      "year": 2024
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 19.5826390405392,
+      "year": 2023
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": 35.7240338809728,
+      "year": 2021
+    },
+    "external_debt_percent_gni": {
+      "value": 27.7538826674716,
+      "year": 2024
+    },
+    "debt_service_percent_exports": {
+      "value": 7.67187532890614,
+      "year": 2024
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": 90.75,
+      "year": 2022
+    },
+    "primary_school_enrollment_gross": {
+      "value": 116.527002594136,
+      "year": 2023
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 88.2913589477539,
+      "year": 2022
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": null,
+      "year": null
+    },
+    "education_expenditure_percent_gdp": {
+      "value": 6.03082905337534,
+      "year": 2024
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 64.123,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 43.5,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 45,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 7.49763966,
+      "year": 2023
+    },
+    "physicians_per_1000_people": {
+      "value": 0.557,
+      "year": 2023
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 14.7,
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 86.4,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 80.3737107191052,
+      "year": 2024
+    },
+    "basic_sanitation_percent": {
+      "value": 64.4605026249554,
+      "year": 2024
+    },
+    "internet_users_percent": {
+      "value": 57.62,
+      "year": 2023
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 2.76366,
+      "year": 2023
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 128.399,
+      "year": 2023
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": null,
+      "year": null
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 64.7,
+      "year": 2022
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": 958.916943750887,
+      "year": 2022
+    },
+    "forest_area_percent_land": {
+      "value": 29.1389534883721,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 2.70700636942675,
+      "year": 2022
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 60.3503184713376,
+      "year": 2022
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": 27.4765342960289,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": 20.5529558411835,
+      "year": 2022
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": -0.884958326816559,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": -0.597746074199677,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": -0.73498547077179,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": -0.357591271400452,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": -0.717471897602081,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": 12.5145709802017,
+      "year": 2021
+    },
+    "battle_related_deaths": {
+      "value": null,
+      "year": null
+    }
+  },
+  "world_bank_country_name": [
+    "Eswatini"
+  ]
+}

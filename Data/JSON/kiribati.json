@@ -1,0 +1,279 @@
+{
+  "country": "Kiribati",
+  "iso3": "KIR",
+  "demographics": {
+    "total_population": {
+      "value": 134518,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 163.617283950617,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": 1.48889841912877,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 62.4620431275642,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 37.5379568724358,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 63.7487979159819,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": -462,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 307862564.489711,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 3702.32594703115,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 2288.63471423684,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": 5.26689747917099,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": null,
+      "year": null
+    },
+    "inflation_percent": {
+      "value": 2.45545072159028,
+      "year": 2024
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 27.1870061420609,
+      "year": 2023
+    },
+    "agricultural_land_percent": {
+      "value": 41.9753086419753,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 11.4550652843384,
+      "year": 2023
+    },
+    "services_value_added_percent_gdp": {
+      "value": 67.1060228718493,
+      "year": 2023
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": 6.1,
+      "year": 2019
+    },
+    "gini_index": {
+      "value": 27.8,
+      "year": 2019
+    },
+    "income_share_lowest_20_percent": {
+      "value": 9.5,
+      "year": 2019
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": 107.603778509938,
+      "year": 2023
+    },
+    "exports_percent_gdp": {
+      "value": 5.92015763569494,
+      "year": 2023
+    },
+    "imports_percent_gdp": {
+      "value": 101.683620874243,
+      "year": 2023
+    },
+    "trade_balance_percent_gdp": {
+      "value": -95.7634632385484,
+      "year": 2023
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 2.62220169231084,
+      "year": 2024
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 41.4444062808522,
+      "year": 2021
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "external_debt_percent_gni": {
+      "value": null,
+      "year": null
+    },
+    "debt_service_percent_exports": {
+      "value": null,
+      "year": null
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": 98.6322966077083,
+      "year": 2020
+    },
+    "primary_school_enrollment_gross": {
+      "value": 95.2685003274394,
+      "year": 2024
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 90.2786712646484,
+      "year": 2024
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": 4.96087980270386,
+      "year": 2024
+    },
+    "education_expenditure_percent_gdp": {
+      "value": 16.39053,
+      "year": 2023
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 66.473,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 39.7,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 55.1,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 10.94525623,
+      "year": 2023
+    },
+    "physicians_per_1000_people": {
+      "value": null,
+      "year": null
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 4.1,
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 95.9,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 79.0683447485722,
+      "year": 2024
+    },
+    "basic_sanitation_percent": {
+      "value": 45.1735078207297,
+      "year": 2024
+    },
+    "internet_users_percent": {
+      "value": 88,
+      "year": 2023
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 0.0399909,
+      "year": 2023
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 51.2541,
+      "year": 2023
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": null,
+      "year": null
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 41.9,
+      "year": 2022
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": null,
+      "year": null
+    },
+    "forest_area_percent_land": {
+      "value": 1.45679012345679,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 83.6347197106691,
+      "year": 2021
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": 16.3652802893309,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": null,
+      "year": null
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": -0.096573106944561,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": 0.587936818599701,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": 0.411750495433807,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": 1.09988939762115,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": -0.278862416744232,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": null,
+      "year": null
+    },
+    "battle_related_deaths": {
+      "value": null,
+      "year": null
+    }
+  },
+  "world_bank_country_name": [
+    "Kiribati"
+  ]
+}

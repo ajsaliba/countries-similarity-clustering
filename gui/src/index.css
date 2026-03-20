@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #374151 #111827;
+  }
+
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #111827;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #374151;
+    border-radius: 3px;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-gray-900/60 backdrop-blur-sm border border-gray-800 rounded-xl;
+  }
+
+  .glass-card-hover {
+    @apply glass-card hover:border-primary-500/50 hover:bg-gray-900/80 transition-all duration-200;
+  }
+
+  .btn-primary {
+    @apply px-6 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg
+           transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed
+           focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-2.5 bg-gray-700 hover:bg-gray-600 text-gray-200 font-medium rounded-lg
+           transition-all duration-200 border border-gray-600;
+  }
+
+  .btn-accent {
+    @apply px-6 py-2.5 bg-accent-600 hover:bg-accent-700 text-white font-medium rounded-lg
+           transition-all duration-200;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white
+           placeholder-gray-500 focus:border-primary-500 focus:ring-1 focus:ring-primary-500
+           focus:outline-none transition-colors duration-200;
+  }
+
+  .tag {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 bg-primary-900/50 text-primary-300
+           border border-primary-700/50 rounded-full text-sm font-medium;
+  }
+
+  .tag-remove {
+    @apply hover:text-red-400 cursor-pointer transition-colors;
+  }
+}
+
+/* Tree visualization styles */
+.tree-node {
+  transition: all 0.3s ease;
+}
+
+.tree-node.highlighted {
+  filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.6));
+}
+
+.tree-line {
+  stroke: #4b5563;
+  stroke-width: 2;
+  fill: none;
+}
+
+.tree-line.active {
+  stroke: #3b82f6;
+  stroke-width: 2.5;
+  animation: dashFlow 1s linear infinite;
+}
+
+@keyframes dashFlow {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+
+/* Matrix cell animation */
+.matrix-cell {
+  transition: all 0.15s ease;
+}
+
+.matrix-cell.computing {
+  animation: cellPulse 0.5s ease;
+}
+
+@keyframes cellPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); background-color: rgba(59, 130, 246, 0.4); }
+  100% { transform: scale(1); }
+}
+
+/* XML/JSON code highlight */
+.code-highlight {
+  animation: highlightFade 1.5s ease;
+}
+
+@keyframes highlightFade {
+  0% { background-color: rgba(59, 130, 246, 0.3); }
+  100% { background-color: transparent; }
+}

@@ -1,7 +1,16 @@
-import React, { useState } from 'react';
-import { MapPin, Zap, Info, ArrowRight, Check } from 'lucide-react';
+import React, { useState, useCallback, useRef, useEffect } from 'react';
+import {
+  ComposableMap,
+  Geographies,
+  Geography,
+  Marker,
+  ZoomableGroup,
+} from 'react-simple-maps';
+import { Check, Zap, ArrowRight, Globe, Map, RotateCcw } from 'lucide-react';
 import { Country, AlgorithmConfig } from '../types';
 import { algorithms } from '../data/algorithms';
+
+const GEO_URL = 'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json';
 
 interface WorldMapViewProps {
   selectedCountries: Country[];
@@ -11,75 +20,6 @@ interface WorldMapViewProps {
   onPrev: () => void;
 }
 
-// Simple SVG world map with major country positions
-const countryPositions: Record<string, { x: number; y: number }> = {
-  AFG: { x: 625, y: 195 }, ALB: { x: 520, y: 175 }, DZA: { x: 475, y: 200 },
-  AND: { x: 472, y: 175 }, AGO: { x: 515, y: 310 }, ATG: { x: 320, y: 230 },
-  ARG: { x: 300, y: 380 }, ARM: { x: 590, y: 175 }, AUS: { x: 790, y: 370 },
-  AUT: { x: 510, y: 165 }, AZE: { x: 598, y: 175 }, BHS: { x: 280, y: 215 },
-  BHR: { x: 600, y: 215 }, BGD: { x: 670, y: 215 }, BRB: { x: 325, y: 240 },
-  BLR: { x: 535, y: 150 }, BEL: { x: 480, y: 155 }, BLZ: { x: 255, y: 230 },
-  BEN: { x: 478, y: 265 }, BTN: { x: 670, y: 205 }, BOL: { x: 295, y: 330 },
-  BIH: { x: 518, y: 170 }, BWA: { x: 530, y: 340 }, BRA: { x: 320, y: 310 },
-  BRN: { x: 730, y: 260 }, BGR: { x: 530, y: 170 }, BFA: { x: 470, y: 255 },
-  BDI: { x: 540, y: 295 }, CPV: { x: 425, y: 245 }, KHM: { x: 715, y: 245 },
-  CMR: { x: 500, y: 270 }, CAN: { x: 230, y: 120 }, CAF: { x: 520, y: 270 },
-  TCD: { x: 515, y: 250 }, CHL: { x: 285, y: 360 }, CHN: { x: 710, y: 195 },
-  COL: { x: 280, y: 260 }, COM: { x: 565, y: 315 }, COG: { x: 515, y: 290 },
-  COD: { x: 530, y: 295 }, CRI: { x: 260, y: 250 }, CIV: { x: 460, y: 265 },
-  HRV: { x: 515, y: 168 }, CUB: { x: 270, y: 220 }, CYP: { x: 555, y: 192 },
-  CZE: { x: 510, y: 158 }, DNK: { x: 498, y: 142 }, DJI: { x: 570, y: 255 },
-  DMA: { x: 322, y: 238 }, DOM: { x: 290, y: 225 }, ECU: { x: 270, y: 280 },
-  EGY: { x: 545, y: 210 }, SLV: { x: 252, y: 240 }, GNQ: { x: 498, y: 280 },
-  ERI: { x: 558, y: 245 }, EST: { x: 530, y: 138 }, SWZ: { x: 545, y: 345 },
-  ETH: { x: 558, y: 265 }, FJI: { x: 880, y: 330 }, FIN: { x: 530, y: 125 },
-  FRA: { x: 478, y: 163 }, GAB: { x: 505, y: 285 }, GMB: { x: 445, y: 250 },
-  GEO: { x: 585, y: 172 }, DEU: { x: 500, y: 155 }, GHA: { x: 470, y: 268 },
-  GRC: { x: 525, y: 180 }, GRD: { x: 322, y: 242 }, GTM: { x: 248, y: 238 },
-  GIN: { x: 450, y: 258 }, GNB: { x: 445, y: 255 }, GUY: { x: 315, y: 265 },
-  HTI: { x: 285, y: 225 }, HND: { x: 255, y: 238 }, HUN: { x: 520, y: 163 },
-  ISL: { x: 435, y: 110 }, IND: { x: 650, y: 225 }, IDN: { x: 735, y: 285 },
-  IRN: { x: 605, y: 195 }, IRQ: { x: 585, y: 195 }, IRL: { x: 460, y: 148 },
-  ISR: { x: 555, y: 200 }, ITA: { x: 505, y: 175 }, JAM: { x: 275, y: 228 },
-  JPN: { x: 780, y: 185 }, JOR: { x: 560, y: 200 }, KAZ: { x: 625, y: 160 },
-  KEN: { x: 555, y: 285 }, KIR: { x: 875, y: 280 }, PRK: { x: 745, y: 178 },
-  KOR: { x: 748, y: 185 }, KWT: { x: 592, y: 205 }, KGZ: { x: 640, y: 172 },
-  LAO: { x: 710, y: 230 }, LVA: { x: 528, y: 140 }, LBN: { x: 558, y: 195 },
-  LSO: { x: 538, y: 355 }, LBR: { x: 452, y: 268 }, LBY: { x: 510, y: 215 },
-  LIE: { x: 498, y: 163 }, LTU: { x: 528, y: 142 }, LUX: { x: 485, y: 157 },
-  MDG: { x: 570, y: 330 }, MWI: { x: 550, y: 320 }, MYS: { x: 720, y: 260 },
-  MDV: { x: 640, y: 260 }, MLI: { x: 468, y: 240 }, MLT: { x: 510, y: 185 },
-  MHL: { x: 860, y: 265 }, MRT: { x: 450, y: 232 }, MUS: { x: 585, y: 335 },
-  MEX: { x: 235, y: 225 }, FSM: { x: 830, y: 265 }, MDA: { x: 538, y: 162 },
-  MCO: { x: 488, y: 170 }, MNG: { x: 695, y: 160 }, MNE: { x: 520, y: 172 },
-  MAR: { x: 460, y: 200 }, MOZ: { x: 555, y: 330 }, MMR: { x: 690, y: 225 },
-  NAM: { x: 518, y: 340 }, NRU: { x: 855, y: 280 }, NPL: { x: 660, y: 205 },
-  NLD: { x: 483, y: 150 }, NZL: { x: 860, y: 395 }, NIC: { x: 258, y: 242 },
-  NER: { x: 490, y: 240 }, NGA: { x: 488, y: 265 }, MKD: { x: 525, y: 175 },
-  NOR: { x: 498, y: 125 }, OMN: { x: 610, y: 220 }, PAK: { x: 635, y: 205 },
-  PLW: { x: 800, y: 265 }, PAN: { x: 268, y: 252 }, PNG: { x: 820, y: 300 },
-  PRY: { x: 310, y: 345 }, PER: { x: 275, y: 310 }, PHL: { x: 745, y: 240 },
-  POL: { x: 520, y: 150 }, PRT: { x: 455, y: 178 }, QAT: { x: 600, y: 215 },
-  ROU: { x: 530, y: 165 }, RUS: { x: 630, y: 130 }, RWA: { x: 540, y: 290 },
-  KNA: { x: 320, y: 232 }, LCA: { x: 322, y: 240 }, VCT: { x: 322, y: 241 },
-  WSM: { x: 890, y: 310 }, SMR: { x: 507, y: 172 }, STP: { x: 488, y: 280 },
-  SAU: { x: 580, y: 218 }, SEN: { x: 445, y: 248 }, SRB: { x: 522, y: 170 },
-  SYC: { x: 590, y: 300 }, SLE: { x: 448, y: 264 }, SGP: { x: 720, y: 270 },
-  SVK: { x: 520, y: 160 }, SVN: { x: 510, y: 165 }, SLB: { x: 840, y: 300 },
-  SOM: { x: 575, y: 265 }, ZAF: { x: 535, y: 355 }, SSD: { x: 545, y: 270 },
-  ESP: { x: 465, y: 178 }, LKA: { x: 655, y: 248 }, SDN: { x: 545, y: 245 },
-  SUR: { x: 320, y: 262 }, SWE: { x: 510, y: 125 }, CHE: { x: 490, y: 162 },
-  SYR: { x: 565, y: 192 }, TJK: { x: 640, y: 178 }, TZA: { x: 550, y: 300 },
-  THA: { x: 710, y: 238 }, TLS: { x: 758, y: 298 }, TGO: { x: 475, y: 268 },
-  TON: { x: 893, y: 325 }, TTO: { x: 322, y: 248 }, TUN: { x: 498, y: 195 },
-  TUR: { x: 555, y: 178 }, TKM: { x: 615, y: 178 }, TUV: { x: 875, y: 298 },
-  UGA: { x: 545, y: 280 }, UKR: { x: 545, y: 155 }, ARE: { x: 605, y: 218 },
-  GBR: { x: 470, y: 148 }, USA: { x: 215, y: 185 }, URY: { x: 310, y: 365 },
-  UZB: { x: 625, y: 172 }, VUT: { x: 855, y: 320 }, VAT: { x: 505, y: 175 },
-  VEN: { x: 298, y: 258 }, VNM: { x: 720, y: 235 }, YEM: { x: 585, y: 238 },
-  ZMB: { x: 538, y: 320 }, ZWE: { x: 540, y: 335 },
-};
-
 export const WorldMapView: React.FC<WorldMapViewProps> = ({
   selectedCountries,
   selectedAlgorithm,
@@ -87,198 +27,344 @@ export const WorldMapView: React.FC<WorldMapViewProps> = ({
   onNext,
   onPrev,
 }) => {
-  const [hoveredAlgo, setHoveredAlgo] = useState<string | null>(null);
+  const [mapMode, setMapMode] = useState<'2d' | '3d'>('2d');
+  const [rotation, setRotation] = useState<[number, number, number]>([0, -20, 0]);
+  const [dragging, setDragging] = useState(false);
+  const [zoom, setZoom] = useState(1);
+  const dragStart = useRef<{ x: number; y: number; rot: [number, number, number] } | null>(null);
+  const animRef = useRef<number | null>(null);
+  const [autoRotate, setAutoRotate] = useState(true);
+
+  // Auto-rotate 3-D globe
+  useEffect(() => {
+    if (mapMode !== '3d' || !autoRotate || dragging) return;
+    animRef.current = requestAnimationFrame(function tick() {
+      setRotation(r => [r[0] - 0.15, r[1], r[2]]);
+      animRef.current = requestAnimationFrame(tick);
+    });
+    return () => { if (animRef.current) cancelAnimationFrame(animRef.current); };
+  }, [mapMode, autoRotate, dragging]);
+
+  const handleMouseDown = useCallback((e: React.MouseEvent) => {
+    if (mapMode !== '3d') return;
+    setDragging(true);
+    setAutoRotate(false);
+    dragStart.current = { x: e.clientX, y: e.clientY, rot: rotation };
+  }, [mapMode, rotation]);
+
+  const handleMouseMove = useCallback((e: React.MouseEvent) => {
+    if (!dragging || !dragStart.current) return;
+    const dx = e.clientX - dragStart.current.x;
+    const dy = e.clientY - dragStart.current.y;
+    setRotation([
+      dragStart.current.rot[0] + dx * 0.3,
+      Math.max(-90, Math.min(90, dragStart.current.rot[1] - dy * 0.3)),
+      0,
+    ]);
+  }, [dragging]);
+
+  const handleMouseUp = useCallback(() => setDragging(false), []);
+
+  const resetGlobe = () => {
+    setRotation([0, -20, 0]);
+    setAutoRotate(true);
+  };
 
   return (
     <div className="animate-fade-in flex flex-col h-full">
-      <div className="text-center mb-4">
-        <h2 className="text-2xl font-bold text-white mb-2">World Map & Algorithm Selection</h2>
-        <p className="text-gray-400">
-          Review your selected countries on the map and choose the comparison algorithm.
+      <div className="text-center mb-4 shrink-0">
+        <h2 className="text-2xl font-bold text-white mb-1">World Map &amp; Algorithm Selection</h2>
+        <p className="text-gray-400 text-sm">
+          Your selected countries are highlighted on the globe. Choose the comparison algorithm below.
         </p>
       </div>
 
       <div className="flex gap-4 flex-1 min-h-0">
-        {/* Map area */}
-        <div className="flex-1 glass-card p-4 flex flex-col">
-          <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-3">
-            Selected Countries on World Map
-          </h3>
-          <div className="flex-1 bg-gray-950 rounded-lg overflow-hidden relative">
-            <svg viewBox="380 80 560 350" className="w-full h-full" style={{ background: '#0a0f1a' }}>
-              {/* Simple world outline placeholder */}
-              <defs>
-                <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-                  <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.6" />
-                  <stop offset="100%" stopColor="#3b82f6" stopOpacity="0" />
-                </radialGradient>
-                <filter id="blur">
-                  <feGaussianBlur stdDeviation="2" />
-                </filter>
-              </defs>
-
-              {/* Grid lines */}
-              {[100, 150, 200, 250, 300, 350, 400].map(y => (
-                <line key={`h${y}`} x1="380" y1={y} x2="940" y2={y} stroke="#1e293b" strokeWidth="0.5" strokeDasharray="4 4" />
+        {/* ── Map panel ──────────────────────────────────────────── */}
+        <div className="flex-1 glass-card flex flex-col overflow-hidden">
+          {/* Toolbar */}
+          <div className="flex items-center gap-2 px-4 py-2 border-b border-gray-800 shrink-0">
+            <span className="text-xs text-gray-500 font-semibold uppercase tracking-wider">View:</span>
+            <div className="flex bg-gray-800 rounded-lg p-0.5 gap-0.5">
+              {(['2d', '3d'] as const).map(m => (
+                <button
+                  key={m}
+                  onClick={() => { setMapMode(m); if (m === '3d') setAutoRotate(true); }}
+                  className={`flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-semibold transition-all ${
+                    mapMode === m
+                      ? 'bg-primary-600 text-white'
+                      : 'text-gray-400 hover:text-white'
+                  }`}
+                >
+                  {m === '2d' ? <Map size={12} /> : <Globe size={12} />}
+                  {m.toUpperCase()}
+                </button>
               ))}
-              {[400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900].map(x => (
-                <line key={`v${x}`} x1={x} y1="80" x2={x} y2="430" stroke="#1e293b" strokeWidth="0.5" strokeDasharray="4 4" />
-              ))}
-
-              {/* Connection lines between selected countries */}
-              {selectedCountries.map((c1, i) =>
-                selectedCountries.slice(i + 1).map(c2 => {
-                  const p1 = countryPositions[c1.code];
-                  const p2 = countryPositions[c2.code];
-                  if (!p1 || !p2) return null;
-                  return (
-                    <line
-                      key={`${c1.code}-${c2.code}`}
-                      x1={p1.x}
-                      y1={p1.y}
-                      x2={p2.x}
-                      y2={p2.y}
-                      stroke="#3b82f6"
-                      strokeWidth="1"
-                      strokeOpacity="0.3"
-                      strokeDasharray="4 2"
-                    />
-                  );
-                })
-              )}
-
-              {/* Country markers */}
-              {selectedCountries.map(country => {
-                const pos = countryPositions[country.code];
-                if (!pos) return null;
-                return (
-                  <g key={country.code}>
-                    <circle cx={pos.x} cy={pos.y} r="12" fill="url(#glow)" />
-                    <circle cx={pos.x} cy={pos.y} r="5" fill="#3b82f6" stroke="#60a5fa" strokeWidth="1.5" />
-                    <text
-                      x={pos.x}
-                      y={pos.y - 10}
-                      textAnchor="middle"
-                      fill="#93c5fd"
-                      fontSize="7"
-                      fontWeight="600"
-                      fontFamily="Inter, sans-serif"
-                    >
-                      {country.name.length > 12 ? country.code : country.name}
-                    </text>
-                  </g>
-                );
-              })}
-            </svg>
-
-            {/* Legend */}
-            <div className="absolute bottom-3 left-3 bg-gray-900/90 px-3 py-2 rounded-lg border border-gray-800 text-xs">
-              <div className="flex items-center gap-2 text-gray-400">
-                <div className="w-2.5 h-2.5 rounded-full bg-primary-500" />
-                <span>{selectedCountries.length} countries selected</span>
-              </div>
-              <div className="flex items-center gap-2 text-gray-500 mt-1">
-                <div className="w-4 border-t border-dashed border-primary-500/50" />
-                <span>Comparison pairs</span>
-              </div>
             </div>
+            {mapMode === '3d' && (
+              <>
+                <button
+                  onClick={() => setAutoRotate(v => !v)}
+                  className={`px-3 py-1 rounded-md text-xs font-medium transition-all ${
+                    autoRotate ? 'bg-accent-700 text-accent-200' : 'bg-gray-700 text-gray-400'
+                  }`}
+                >
+                  {autoRotate ? '⟳ Auto' : '⟳ Paused'}
+                </button>
+                <button onClick={resetGlobe} title="Reset view" className="p-1 text-gray-500 hover:text-gray-300">
+                  <RotateCcw size={13} />
+                </button>
+                <span className="text-[10px] text-gray-600 ml-1">Drag to rotate</span>
+              </>
+            )}
+            <div className="ml-auto flex items-center gap-2 text-xs text-gray-500">
+              <span className="w-2 h-2 rounded-full bg-primary-500 inline-block" />
+              {selectedCountries.length} selected
+            </div>
+          </div>
+
+          {/* Map */}
+          <div
+            className="flex-1 overflow-hidden bg-[#060d1a]"
+            onMouseDown={handleMouseDown}
+            onMouseMove={handleMouseMove}
+            onMouseUp={handleMouseUp}
+            onMouseLeave={handleMouseUp}
+            style={{ cursor: mapMode === '3d' ? (dragging ? 'grabbing' : 'grab') : 'default' }}
+          >
+            {mapMode === '2d' ? (
+              <ComposableMap
+                projectionConfig={{ scale: 145, center: [0, 10] }}
+                style={{ width: '100%', height: '100%' }}
+              >
+                <ZoomableGroup zoom={zoom} onMoveEnd={({ zoom: z }) => setZoom(z)}>
+                  <Geographies geography={GEO_URL}>
+                    {({ geographies }) =>
+                      geographies.map(geo => {
+                        const iso3 = geoToIso3(geo.id);
+                        const isSelected = selectedCountries.some(c => c.code === iso3);
+                        return (
+                          <Geography
+                            key={geo.rsmKey}
+                            geography={geo}
+                            style={{
+                              default: {
+                                fill: isSelected ? '#2563eb' : '#1e293b',
+                                stroke: isSelected ? '#60a5fa' : '#334155',
+                                strokeWidth: isSelected ? 0.8 : 0.4,
+                                outline: 'none',
+                              },
+                              hover: {
+                                fill: isSelected ? '#3b82f6' : '#2d3f55',
+                                stroke: isSelected ? '#93c5fd' : '#475569',
+                                strokeWidth: 0.6,
+                                outline: 'none',
+                              },
+                              pressed: { fill: '#1d4ed8', outline: 'none' },
+                            }}
+                          />
+                        );
+                      })
+                    }
+                  </Geographies>
+                  {/* Connection lines */}
+                  {selectedCountries.map((c1, i) =>
+                    selectedCountries.slice(i + 1).map(c2 => (
+                      <line
+                        key={`${c1.code}-${c2.code}`}
+                        x1={0} y1={0} x2={0} y2={0}
+                        // SVG lines don't project easily; use Marker pair instead
+                      />
+                    ))
+                  )}
+                  {/* Country markers */}
+                  {selectedCountries.map(country => (
+                    <Marker key={country.code} coordinates={[country.lon, country.lat]}>
+                      <circle r={4} fill="#3b82f6" stroke="#93c5fd" strokeWidth={1.5} />
+                      <text
+                        textAnchor="middle"
+                        y={-8}
+                        style={{ fontSize: 6, fill: '#bfdbfe', fontWeight: 600 }}
+                      >
+                        {country.name.length > 12 ? country.code : country.name}
+                      </text>
+                    </Marker>
+                  ))}
+                </ZoomableGroup>
+              </ComposableMap>
+            ) : (
+              /* 3-D orthographic globe */
+              <ComposableMap
+                projection="geoOrthographic"
+                projectionConfig={{ rotate: rotation, scale: 230 }}
+                style={{ width: '100%', height: '100%' }}
+              >
+                {/* Ocean sphere */}
+                <circle cx="50%" cy="50%" r="230" fill="#0c1a2e" />
+                <Geographies geography={GEO_URL}>
+                  {({ geographies }) =>
+                    geographies.map(geo => {
+                      const iso3 = geoToIso3(geo.id);
+                      const isSelected = selectedCountries.some(c => c.code === iso3);
+                      return (
+                        <Geography
+                          key={geo.rsmKey}
+                          geography={geo}
+                          style={{
+                            default: {
+                              fill: isSelected ? '#2563eb' : '#1e3a5f',
+                              stroke: isSelected ? '#60a5fa' : '#1e40af',
+                              strokeWidth: isSelected ? 0.8 : 0.3,
+                              outline: 'none',
+                            },
+                            hover: {
+                              fill: isSelected ? '#3b82f6' : '#264d7a',
+                              outline: 'none',
+                            },
+                            pressed: { fill: '#1d4ed8', outline: 'none' },
+                          }}
+                        />
+                      );
+                    })
+                  }
+                </Geographies>
+                {selectedCountries.map(country => (
+                  <Marker key={country.code} coordinates={[country.lon, country.lat]}>
+                    <circle r={5} fill="#3b82f6" stroke="#93c5fd" strokeWidth={1.5} opacity={0.9} />
+                  </Marker>
+                ))}
+              </ComposableMap>
+            )}
+          </div>
+
+          {/* Bottom legend */}
+          <div className="px-4 py-2 border-t border-gray-800 flex items-center gap-4 text-[10px] text-gray-500 shrink-0">
+            <span className="flex items-center gap-1.5">
+              <span className="w-3 h-3 rounded-sm inline-block bg-primary-600 border border-primary-400" />
+              Selected country
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="w-3 h-3 rounded-sm inline-block bg-gray-700 border border-gray-600" />
+              Other country
+            </span>
+            {mapMode === '2d' && (
+              <span className="ml-auto">Scroll to zoom · drag to pan</span>
+            )}
           </div>
         </div>
 
-        {/* Algorithm selection */}
-        <div className="w-96 glass-card p-4 flex flex-col">
-          <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-3">
+        {/* ── Algorithm selection ─────────────────────────────────── */}
+        <div className="w-96 flex flex-col gap-3 min-h-0 overflow-y-auto">
+          <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider shrink-0">
             Choose Algorithm
           </h3>
 
-          <div className="flex-1 space-y-3">
-            {algorithms.map(algo => {
-              const isSelected = selectedAlgorithm?.type === algo.type;
-              const isHovered = hoveredAlgo === algo.type;
-
-              return (
-                <button
-                  key={algo.type}
-                  onClick={() => onSelectAlgorithm(algo)}
-                  onMouseEnter={() => setHoveredAlgo(algo.type)}
-                  onMouseLeave={() => setHoveredAlgo(null)}
-                  className={`w-full text-left p-4 rounded-xl transition-all duration-200 border ${
-                    isSelected
-                      ? 'bg-primary-900/40 border-primary-500 ring-1 ring-primary-500/30'
-                      : 'bg-gray-800/30 border-gray-800 hover:border-gray-600'
-                  }`}
-                >
-                  <div className="flex items-start gap-3">
-                    <div
-                      className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 mt-0.5 ${
-                        isSelected ? 'border-primary-500 bg-primary-600' : 'border-gray-600'
-                      }`}
-                    >
-                      {isSelected && <Check size={12} className="text-white" />}
-                    </div>
-                    <div className="flex-1">
-                      <h4 className="font-semibold text-white text-sm">{algo.name}</h4>
-                      <p className="text-xs text-gray-400 mt-1 leading-relaxed">
-                        {algo.description}
-                      </p>
-
-                      <div className="mt-3 space-y-2">
-                        <div className="flex items-center gap-2">
-                          <span className="text-[10px] font-mono px-2 py-0.5 bg-gray-800 rounded text-yellow-400">
-                            Time: {algo.timeComplexity}
-                          </span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <span className="text-[10px] font-mono px-2 py-0.5 bg-gray-800 rounded text-cyan-400">
-                            Space: {algo.spaceComplexity}
-                          </span>
-                        </div>
-                      </div>
-
-                      {(isSelected || isHovered) && (
-                        <div className="mt-3 border-t border-gray-700/50 pt-3">
-                          <h5 className="text-[10px] uppercase text-gray-500 font-semibold mb-1.5">
-                            Algorithm Steps
-                          </h5>
-                          <ol className="space-y-1">
-                            {algo.steps.map((step, i) => (
-                              <li key={i} className="flex items-start gap-2 text-xs text-gray-400">
-                                <span className="text-primary-500 font-mono shrink-0">
-                                  {i + 1}.
-                                </span>
-                                {step}
-                              </li>
-                            ))}
-                          </ol>
-                        </div>
-                      )}
+          {algorithms.map(algo => {
+            const isSelected = selectedAlgorithm?.type === algo.type;
+            return (
+              <button
+                key={algo.type}
+                onClick={() => onSelectAlgorithm(algo)}
+                className={`w-full text-left p-4 rounded-xl transition-all duration-200 border shrink-0 ${
+                  isSelected
+                    ? 'bg-primary-900/40 border-primary-500 ring-1 ring-primary-500/30'
+                    : 'bg-gray-800/30 border-gray-800 hover:border-gray-600'
+                }`}
+              >
+                <div className="flex items-start gap-3">
+                  <div
+                    className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 mt-0.5 ${
+                      isSelected ? 'border-primary-500 bg-primary-600' : 'border-gray-600'
+                    }`}
+                  >
+                    {isSelected && <Check size={12} className="text-white" />}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h4 className="font-semibold text-white text-sm">{algo.name}</h4>
+                    <p className="text-xs text-gray-400 mt-1 leading-relaxed">{algo.description}</p>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      <span className="text-[10px] font-mono px-2 py-0.5 bg-gray-800 rounded text-yellow-400">
+                        T: {algo.timeComplexity}
+                      </span>
+                      <span className="text-[10px] font-mono px-2 py-0.5 bg-gray-800 rounded text-cyan-400">
+                        S: {algo.spaceComplexity}
+                      </span>
                     </div>
                   </div>
-                </button>
-              );
-            })}
-          </div>
+                </div>
+              </button>
+            );
+          })}
 
           {selectedAlgorithm && (
-            <div className="mt-3 p-3 bg-accent-900/20 border border-accent-800/50 rounded-lg">
+            <div className="p-3 bg-accent-900/20 border border-accent-800/50 rounded-lg shrink-0">
               <div className="flex items-center gap-2 text-sm text-accent-400">
                 <Zap size={14} />
-                <span>Ready to process with {selectedAlgorithm.name}</span>
+                <span>
+                  Ready: <span className="font-semibold">{selectedAlgorithm.name}</span>
+                </span>
               </div>
             </div>
           )}
         </div>
       </div>
 
-      <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-800">
-        <button onClick={onPrev} className="btn-secondary">
-          Back
-        </button>
-        <button onClick={onNext} disabled={!selectedAlgorithm} className="btn-primary flex items-center gap-2">
-          Start Processing
+      <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-800 shrink-0">
+        <button onClick={onPrev} className="btn-secondary">Back</button>
+        <button
+          onClick={onNext}
+          disabled={!selectedAlgorithm}
+          className="btn-primary flex items-center gap-2"
+        >
+          Continue to Data Source
           <ArrowRight size={16} />
         </button>
       </div>
     </div>
   );
+};
+
+/**
+ * Map a TopoJSON numeric country id to ISO-3 alpha code.
+ * react-simple-maps exposes `geo.id` as the ISO numeric string.
+ */
+function geoToIso3(numericId: string | number): string {
+  return numericToIso3[String(numericId)] ?? '';
+}
+
+// ISO 3166-1 numeric → alpha-3  (selected subset covering all 195 UN states)
+const numericToIso3: Record<string, string> = {
+  '004':'AFG','008':'ALB','012':'DZA','020':'AND','024':'AGO','028':'ATG',
+  '032':'ARG','051':'ARM','036':'AUS','040':'AUT','031':'AZE','044':'BHS',
+  '048':'BHR','050':'BGD','052':'BRB','112':'BLR','056':'BEL','084':'BLZ',
+  '204':'BEN','064':'BTN','068':'BOL','070':'BIH','072':'BWA','076':'BRA',
+  '096':'BRN','100':'BGR','854':'BFA','108':'BDI','132':'CPV','116':'KHM',
+  '120':'CMR','124':'CAN','140':'CAF','148':'TCD','152':'CHL','156':'CHN',
+  '170':'COL','174':'COM','178':'COG','180':'COD','188':'CRI','384':'CIV',
+  '191':'HRV','192':'CUB','196':'CYP','203':'CZE','208':'DNK','262':'DJI',
+  '212':'DMA','214':'DOM','218':'ECU','818':'EGY','222':'SLV','226':'GNQ',
+  '232':'ERI','233':'EST','748':'SWZ','231':'ETH','242':'FJI','246':'FIN',
+  '250':'FRA','266':'GAB','270':'GMB','268':'GEO','276':'DEU','288':'GHA',
+  '300':'GRC','308':'GRD','320':'GTM','324':'GIN','624':'GNB','328':'GUY',
+  '332':'HTI','340':'HND','348':'HUN','352':'ISL','356':'IND','360':'IDN',
+  '364':'IRN','368':'IRQ','372':'IRL','376':'ISR','380':'ITA','388':'JAM',
+  '392':'JPN','400':'JOR','398':'KAZ','404':'KEN','296':'KIR','408':'PRK',
+  '410':'KOR','414':'KWT','417':'KGZ','418':'LAO','428':'LVA','422':'LBN',
+  '426':'LSO','430':'LBR','434':'LBY','438':'LIE','440':'LTU','442':'LUX',
+  '450':'MDG','454':'MWI','458':'MYS','462':'MDV','466':'MLI','470':'MLT',
+  '584':'MHL','478':'MRT','480':'MUS','484':'MEX','583':'FSM','498':'MDA',
+  '492':'MCO','496':'MNG','499':'MNE','504':'MAR','508':'MOZ','104':'MMR',
+  '516':'NAM','520':'NRU','524':'NPL','528':'NLD','554':'NZL','558':'NIC',
+  '562':'NER','566':'NGA','807':'MKD','578':'NOR','512':'OMN','586':'PAK',
+  '585':'PLW','591':'PAN','598':'PNG','600':'PRY','604':'PER','608':'PHL',
+  '616':'POL','620':'PRT','634':'QAT','642':'ROU','643':'RUS','646':'RWA',
+  '659':'KNA','662':'LCA','670':'VCT','882':'WSM','674':'SMR','678':'STP',
+  '682':'SAU','686':'SEN','688':'SRB','690':'SYC','694':'SLE','702':'SGP',
+  '703':'SVK','705':'SVN','090':'SLB','706':'SOM','710':'ZAF','728':'SSD',
+  '724':'ESP','144':'LKA','729':'SDN','740':'SUR','752':'SWE','756':'CHE',
+  '760':'SYR','762':'TJK','834':'TZA','764':'THA','626':'TLS','768':'TGO',
+  '776':'TON','780':'TTO','788':'TUN','792':'TUR','795':'TKM','798':'TUV',
+  '800':'UGA','804':'UKR','784':'ARE','826':'GBR','840':'USA','858':'URY',
+  '860':'UZB','548':'VUT','336':'VAT','862':'VEN','704':'VNM','887':'YEM',
+  '894':'ZMB','716':'ZWE',
 };

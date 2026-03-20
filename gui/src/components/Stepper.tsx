@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, Globe, BarChart3, Map, TreePine, Cpu, FileOutput, Clock, Database } from 'lucide-react';
+import { Check, Globe, BarChart3, Map, TreePine, Cpu, FileOutput, Clock, Database, FolderOpen } from 'lucide-react';
 
 interface StepperProps {
   currentPhase: number;
@@ -8,14 +8,15 @@ interface StepperProps {
 }
 
 const phaseInfo = [
-  { icon: Globe, label: 'Select Countries' },
-  { icon: BarChart3, label: 'Select Metrics' },
-  { icon: Map, label: 'Map & Algorithm' },
-  { icon: Database, label: 'Data Collection' },
-  { icon: TreePine, label: 'Tree Building' },
-  { icon: Cpu, label: 'Algorithm Execution' },
-  { icon: FileOutput, label: 'Results' },
-  { icon: Clock, label: 'Summary' },
+  { icon: Globe,       label: 'Select Countries' },
+  { icon: BarChart3,   label: 'Select Metrics' },
+  { icon: Map,         label: 'Map & Algorithm' },
+  { icon: FolderOpen,  label: 'Data Source' },
+  { icon: Database,    label: 'Data Collection' },
+  { icon: TreePine,    label: 'Tree Building' },
+  { icon: Cpu,         label: 'Algorithm Execution' },
+  { icon: FileOutput,  label: 'Results' },
+  { icon: Clock,       label: 'Summary' },
 ];
 
 export const Stepper: React.FC<StepperProps> = ({ currentPhase, totalPhases, onGoToPhase }) => {

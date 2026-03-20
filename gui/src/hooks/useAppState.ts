@@ -1,8 +1,8 @@
 import { useState, useCallback } from 'react';
-import { Country, CountryPair, AlgorithmConfig, SimulationState } from '../types';
+import { Country, CountryPair, AlgorithmConfig, SimulationState, DataSourceConfig } from '../types';
 import { getCommonMetrics } from '../data/metrics';
 
-const TOTAL_PHASES = 8;
+const TOTAL_PHASES = 9;
 
 const initialSimulation: SimulationState = {
   currentStep: 0,
@@ -10,11 +10,14 @@ const initialSimulation: SimulationState = {
   steps: [],
 };
 
+const initialDataSource: DataSourceConfig = { mode: null, format: 'json' };
+
 export function useAppState() {
   const [currentPhase, setCurrentPhase] = useState(0);
   const [selectedCountries, setSelectedCountries] = useState<Country[]>([]);
   const [countryPairs, setCountryPairs] = useState<CountryPair[]>([]);
   const [selectedAlgorithm, setSelectedAlgorithm] = useState<AlgorithmConfig | null>(null);
+  const [dataSource, setDataSource] = useState<DataSourceConfig>(initialDataSource);
   const [simulation, setSimulation] = useState<SimulationState>(initialSimulation);
 
   const addCountry = useCallback((country: Country) => {
@@ -88,12 +91,14 @@ export function useAppState() {
     selectedCountries,
     countryPairs,
     selectedAlgorithm,
+    dataSource,
     simulation,
     addCountry,
     removeCountry,
     generatePairs,
     updatePairMetrics,
     setSelectedAlgorithm,
+    setDataSource,
     setSimulation,
     nextPhase,
     prevPhase,

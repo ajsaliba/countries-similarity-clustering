@@ -3,6 +3,7 @@ import { Stepper } from './components/Stepper';
 import { CountrySelection } from './components/CountrySelection';
 import { MetricsSelection } from './components/MetricsSelection';
 import { WorldMapView } from './components/WorldMapView';
+import { DataSourceSelection } from './components/DataSourceSelection';
 import { DataCollection } from './components/DataCollection';
 import { TreeBuilding } from './components/TreeBuilding';
 import { AlgorithmExecution } from './components/AlgorithmExecution';
@@ -16,11 +17,13 @@ export default function App() {
     selectedCountries,
     countryPairs,
     selectedAlgorithm,
+    dataSource,
     addCountry,
     removeCountry,
     generatePairs,
     updatePairMetrics,
     setSelectedAlgorithm,
+    setDataSource,
     nextPhase,
     prevPhase,
     goToPhase,
@@ -101,14 +104,24 @@ export default function App() {
           )}
 
           {currentPhase === 3 && (
-            <DataCollection
-              selectedCountries={selectedCountries}
+            <DataSourceSelection
+              dataSource={dataSource}
+              onSetDataSource={setDataSource}
               onNext={nextPhase}
               onPrev={prevPhase}
             />
           )}
 
           {currentPhase === 4 && (
+            <DataCollection
+              selectedCountries={selectedCountries}
+              dataSource={dataSource}
+              onNext={nextPhase}
+              onPrev={prevPhase}
+            />
+          )}
+
+          {currentPhase === 5 && (
             <TreeBuilding
               selectedCountries={selectedCountries}
               countryPairs={countryPairs}
@@ -117,7 +130,7 @@ export default function App() {
             />
           )}
 
-          {currentPhase === 5 && (
+          {currentPhase === 6 && (
             <AlgorithmExecution
               selectedAlgorithm={selectedAlgorithm}
               onNext={nextPhase}
@@ -125,7 +138,7 @@ export default function App() {
             />
           )}
 
-          {currentPhase === 6 && (
+          {currentPhase === 7 && (
             <ResultsView
               selectedAlgorithm={selectedAlgorithm}
               onNext={nextPhase}
@@ -133,7 +146,7 @@ export default function App() {
             />
           )}
 
-          {currentPhase === 7 && (
+          {currentPhase === 8 && (
             <SummaryView
               selectedCountries={selectedCountries}
               countryPairs={countryPairs}

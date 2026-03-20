@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Download, Database, FileJson, Check, Loader2, ArrowRight } from 'lucide-react';
-import { Country } from '../types';
+import { Country, DataSourceConfig } from '../types';
 
 interface DataCollectionProps {
   selectedCountries: Country[];
+  dataSource: DataSourceConfig;
   onNext: () => void;
   onPrev: () => void;
 }
@@ -18,6 +19,7 @@ interface CollectionTask {
 
 export const DataCollection: React.FC<DataCollectionProps> = ({
   selectedCountries,
+  dataSource,
   onNext,
   onPrev,
 }) => {
@@ -48,11 +50,40 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
     }
   }, [logLines]);
 
+  const isExisting = dataSource.mode === 'existing';
+
   const startCollection = () => {
     setIsRunning(true);
     setLogLines([]);
-    addLog('Starting data collection process...');
-    simulateCollection(0);
+    if (isExisting) {
+      addLog(`Loading pre-extracted ${dataSource.format.toUpperCase()} files from Data/ directory...`);
+      loadExisting(0);
+    } else {
+      addLog('Starting live data extraction from World Bank API...');
+      simulateCollection(0);
+    }
+  };
+
+  const loadExisting = (taskIndex: number) => {
+    if (taskIndex >= tasks.length) {
+      addLog('All files loaded successfully.');
+      setIsRunning(false);
+      return;
+    }
+    const country = selectedCountries[taskIndex];
+    setCurrentTask(taskIndex);
+    addLog(`[${country.name}] Reading ${dataSource.format.toUpperCase()} file...`);
+    setTasks(prev =>
+      prev.map((t, i) => (i === taskIndex ? { ...t, status: 'parsing', progress: 50 } : t))
+    );
+    setTimeout(() => {
+      setXmlPreview(generateXmlPreview(country));
+      addLog(`[${country.name}] Loaded from Data/${dataSource.format.toUpperCase()}/${country.name.toLowerCase().replace(/ /g, '_')}.${dataSource.format}`);
+      setTasks(prev =>
+        prev.map((t, i) => (i === taskIndex ? { ...t, status: 'done', progress: 100 } : t))
+      );
+      setTimeout(() => loadExisting(taskIndex + 1), 200);
+    }, 400);
   };
 
   const simulateCollection = (taskIndex: number) => {
@@ -90,16 +121,15 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
         );
 
         // Phase 3: Parsing to XML/JSON
-        addLog(`[${country.name}] Parsing and converting to XML format...`);
+        addLog(`[${country.name}] Parsing and converting to ${dataSource.format.toUpperCase()} format...`);
         setTasks(prev =>
           prev.map((t, i) => (i === taskIndex ? { ...t, status: 'parsing', progress: 80 } : t))
         );
 
-        // Show XML preview
         setXmlPreview(generateXmlPreview(country));
 
         setTimeout(() => {
-          addLog(`[${country.name}] Data collection complete. XML document generated.`);
+          addLog(`[${country.name}] Data collection complete. ${dataSource.format.toUpperCase()} document generated.`);
           setTasks(prev =>
             prev.map((t, i) => (i === taskIndex ? { ...t, status: 'done', progress: 100 } : t))
           );
@@ -119,7 +149,9 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
       <div className="text-center mb-4">
         <h2 className="text-2xl font-bold text-white mb-2">Data Collection</h2>
         <p className="text-gray-400">
-          Fetching country infobox data from Wikipedia and World Bank for each selected country.
+          {isExisting
+            ? `Loading pre-extracted ${dataSource.format.toUpperCase()} files from Data/ for each selected country.`
+            : 'Fetching country data from the World Bank API and converting to the selected format.'}
         </p>
       </div>
 
@@ -244,7 +276,7 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
           {!isRunning && !allDone && (
             <button onClick={startCollection} className="btn-accent flex items-center gap-2">
               <Download size={16} />
-              Start Collection
+              {isExisting ? 'Load Files' : 'Start Collection'}
             </button>
           )}
           <button onClick={onNext} disabled={!allDone} className="btn-primary flex items-center gap-2">

@@ -34,6 +34,10 @@ MANIFEST
 .claude/
 .cursor/
 
+# File formats
+*.txt
+*.pdf
+
 # node modules (npm install)
 node_modules
 

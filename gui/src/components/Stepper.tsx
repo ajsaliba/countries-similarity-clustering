@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, Globe, BarChart3, Map, TreePine, Cpu, FileOutput, Clock, Database, FolderOpen } from 'lucide-react';
+import { Check, Globe, BarChart3, TreePine, Cpu, FileOutput, Clock, Database, FolderOpen } from 'lucide-react';
 
 interface StepperProps {
   currentPhase: number;
@@ -9,10 +9,9 @@ interface StepperProps {
 
 const phaseInfo = [
   { icon: Globe,       label: 'Select Countries' },
-  { icon: BarChart3,   label: 'Select Metrics' },
-  { icon: Map,         label: 'Map & Algorithm' },
   { icon: FolderOpen,  label: 'Data Source' },
   { icon: Database,    label: 'Data Collection' },
+  { icon: BarChart3,   label: 'Select Fields' },
   { icon: TreePine,    label: 'Tree Building' },
   { icon: Cpu,         label: 'Algorithm Execution' },
   { icon: FileOutput,  label: 'Results' },
@@ -44,15 +43,15 @@ export const Stepper: React.FC<StepperProps> = ({ currentPhase, totalPhases, onG
                     isCompleted
                       ? 'bg-accent-600 text-white'
                       : isCurrent
-                      ? 'bg-primary-600 text-white ring-2 ring-primary-400 ring-offset-2 ring-offset-gray-950'
-                      : 'bg-gray-800 text-gray-500 border border-gray-700'
+                      ? 'bg-primary-600 text-white ring-2 ring-primary-400 ring-offset-2 ring-offset-white'
+                      : 'bg-gray-100 text-gray-500 border border-gray-300'
                   }`}
                 >
                   {isCompleted ? <Check size={18} /> : <Icon size={18} />}
                 </div>
                 <span
                   className={`text-[10px] font-medium whitespace-nowrap ${
-                    isCurrent ? 'text-primary-400' : isCompleted ? 'text-accent-400' : 'text-gray-600'
+                    isCurrent ? 'text-primary-600' : isCompleted ? 'text-accent-600' : 'text-gray-500'
                   }`}
                 >
                   {phase.label}
@@ -62,7 +61,7 @@ export const Stepper: React.FC<StepperProps> = ({ currentPhase, totalPhases, onG
                 <div className="flex-1 h-px mx-1 mt-[-16px]">
                   <div
                     className={`h-full transition-colors duration-300 ${
-                      index < currentPhase ? 'bg-accent-600' : 'bg-gray-800'
+                      index < currentPhase ? 'bg-accent-600' : 'bg-gray-200'
                     }`}
                   />
                 </div>

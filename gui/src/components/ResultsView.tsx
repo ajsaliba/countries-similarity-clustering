@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import {
   ArrowRight,
   FileOutput,
@@ -11,11 +11,17 @@ import {
   PlusCircle,
   Pencil,
   MoveHorizontal,
+  Database,
 } from 'lucide-react';
-import { AlgorithmConfig, EditOperation } from '../types';
-import { sampleEditOperations, generateSampleMatrix } from '../data/sampleTrees';
+import { AlgorithmConfig, Country, CountryPair, EditOperation, SimilarityConfig, TreeNode } from '../types';
+import { computeSimilarity, computeEditScript, countNodes } from '../services/similarityService';
+import { filterTreeByMetrics } from '../services/dataService';
 
 interface ResultsViewProps {
+  selectedCountries: Country[];
+  countryPairs: CountryPair[];
+  loadedTrees: Record<string, TreeNode>;
+  similarityConfig: SimilarityConfig;
   selectedAlgorithm: AlgorithmConfig | null;
   onNext: () => void;
   onPrev: () => void;
@@ -23,62 +29,205 @@ interface ResultsViewProps {
 
 type Tab = 'similarity' | 'editscript' | 'patch' | 'diff' | 'postprocess';
 
+type DiffLineType = 'unchanged' | 'removed' | 'added' | 'modified';
+interface DiffLine {
+  text?: string;
+  source?: string;
+  target?: string;
+  type: DiffLineType;
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+
+function buildDiffLines(t1: TreeNode, t2: TreeNode): DiffLine[] {
+  const lines: DiffLine[] = [];
+  lines.push({ text: `<${t1.label}>`, type: 'unchanged' });
+
+  const cats1 = new Map(t1.children.map(c => [c.label, c]));
+  const cats2 = new Map(t2.children.map(c => [c.label, c]));
+  const allCats = [...new Set([...cats1.keys(), ...cats2.keys()])];
+
+  for (const cat of allCats) {
+    const c1 = cats1.get(cat);
+    const c2 = cats2.get(cat);
+    lines.push({ text: `  <${cat}>`, type: 'unchanged' });
+
+    const fields1 = new Map(c1?.children.map(n => [n.label, n.value ?? '']) ?? []);
+    const fields2 = new Map(c2?.children.map(n => [n.label, n.value ?? '']) ?? []);
+    const allFields = [...new Set([...fields1.keys(), ...fields2.keys()])];
+
+    for (const field of allFields) {
+      const v1 = fields1.get(field);
+      const v2 = fields2.get(field);
+      if (v1 !== undefined && v2 !== undefined) {
+        if (v1 === v2) {
+          lines.push({ text: `    <${field}>${v1}</${field}>`, type: 'unchanged' });
+        } else {
+          lines.push({ source: `    <${field}>${v1}</${field}>`, target: `    <${field}>${v2}</${field}>`, type: 'modified' });
+        }
+      } else if (v1 !== undefined) {
+        lines.push({ source: `    <${field}>${v1}</${field}>`, target: '', type: 'removed' });
+      } else {
+        lines.push({ source: '', target: `    <${field}>${v2}</${field}>`, type: 'added' });
+      }
+    }
+    lines.push({ text: `  </${cat}>`, type: 'unchanged' });
+  }
+
+  lines.push({ text: `</${t1.label}>`, type: 'unchanged' });
+  return lines;
+}
+
+function treeToXmlPreview(tree: TreeNode, maxFields = 10): string {
+  const lines: string[] = [`<${tree.label}>`];
+  let count = 0;
+  for (const cat of tree.children) {
+    if (count >= maxFields) { lines.push(`  <!-- … -->`); break; }
+    lines.push(`  <${cat.label}>`);
+    for (const field of cat.children) {
+      if (count >= maxFields) { lines.push(`    <!-- … -->`); break; }
+      lines.push(`    <${field.label}>${field.value ?? ''}</${field.label}>`);
+      count++;
+    }
+    lines.push(`  </${cat.label}>`);
+  }
+  lines.push(`</${tree.label}>`);
+  return lines.join('\n');
+}
+
+// ── Component ─────────────────────────────────────────────────────────────────
+
 export const ResultsView: React.FC<ResultsViewProps> = ({
+  selectedCountries,
+  countryPairs,
+  loadedTrees,
+  similarityConfig,
   selectedAlgorithm,
   onNext,
   onPrev,
 }) => {
   const [activeTab, setActiveTab] = useState<Tab>('similarity');
+  const [activePairIndex, setActivePairIndex] = useState(0);
   const [patchStep, setPatchStep] = useState(0);
   const [isPatching, setIsPatching] = useState(false);
 
-  const matrix = generateSampleMatrix(10, 11);
-  const tedValue = matrix[10][11].value;
-  const similarity = (1 - tedValue / Math.max(10, 11)) * 100;
+  const getCountryName = (code: string) =>
+    selectedCountries.find(c => c.code === code)?.name ?? code;
+
+  const activePair: CountryPair | undefined = countryPairs[activePairIndex];
+  const t1: TreeNode | undefined = activePair ? loadedTrees[activePair.country1] : undefined;
+  const t2: TreeNode | undefined = activePair ? loadedTrees[activePair.country2] : undefined;
+
+  const selectedMetrics = activePair?.selectedMetrics;
+
+  const simResult = useMemo(() => {
+    if (!t1 || !t2) return null;
+    return computeSimilarity(t1, t2, similarityConfig, selectedMetrics);
+  }, [t1, t2, similarityConfig, selectedMetrics]);
+
+  const editOps = useMemo((): EditOperation[] => {
+    if (!t1 || !t2) return [];
+    // Run edit script on the filtered tree so it reflects the user's metric selection
+    const ft1 = selectedMetrics?.length ? filterTreeByMetrics(t1, selectedMetrics) : t1;
+    const ft2 = selectedMetrics?.length ? filterTreeByMetrics(t2, selectedMetrics) : t2;
+    return computeEditScript(ft1, ft2);
+  }, [t1, t2, selectedMetrics]);
+
+  const diffLines = useMemo((): DiffLine[] => {
+    if (!t1 || !t2) return [];
+    const ft1 = selectedMetrics?.length ? filterTreeByMetrics(t1, selectedMetrics) : t1;
+    const ft2 = selectedMetrics?.length ? filterTreeByMetrics(t2, selectedMetrics) : t2;
+    return buildDiffLines(ft1, ft2);
+  }, [t1, t2, selectedMetrics]);
+
+  const nodes1 = useMemo(() => t1 ? countNodes(t1) : 0, [t1]);
+  const nodes2 = useMemo(() => t2 ? countNodes(t2) : 0, [t2]);
+
+  const simPct = (simResult?.sim ?? 0) * 100;
+
+  // Reset patch animation when pair changes
+  useEffect(() => {
+    setPatchStep(0);
+    setIsPatching(false);
+  }, [activePairIndex]);
 
   // Patching animation
   useEffect(() => {
     if (!isPatching) return;
     const timer = setInterval(() => {
       setPatchStep(prev => {
-        if (prev >= sampleEditOperations.length - 1) {
-          setIsPatching(false);
-          return prev;
-        }
+        if (prev >= editOps.length - 1) { setIsPatching(false); return prev; }
         return prev + 1;
       });
-    }, 600);
+    }, 400);
     return () => clearInterval(timer);
-  }, [isPatching]);
+  }, [isPatching, editOps.length]);
 
   const tabs: { id: Tab; label: string; icon: React.ReactNode }[] = [
-    { id: 'similarity', label: 'Similarity Score', icon: <Percent size={14} /> },
-    { id: 'editscript', label: 'Edit Script', icon: <FileOutput size={14} /> },
-    { id: 'patch', label: 'Patching', icon: <GitCompare size={14} /> },
-    { id: 'diff', label: 'Diff View', icon: <ArrowLeftRight size={14} /> },
-    { id: 'postprocess', label: 'Post-Processing', icon: <FileJson size={14} /> },
+    { id: 'similarity',  label: 'Similarity Score', icon: <Percent size={14} /> },
+    { id: 'editscript',  label: 'Edit Script',       icon: <FileOutput size={14} /> },
+    { id: 'patch',       label: 'Patching',           icon: <GitCompare size={14} /> },
+    { id: 'diff',        label: 'Diff View',          icon: <ArrowLeftRight size={14} /> },
+    { id: 'postprocess', label: 'Post-Processing',    icon: <FileJson size={14} /> },
   ];
 
   const getOpIcon = (type: EditOperation['type']) => {
     switch (type) {
-      case 'insert': return <PlusCircle size={12} className="text-green-400" />;
-      case 'delete': return <XCircle size={12} className="text-red-400" />;
-      case 'update': return <Pencil size={12} className="text-yellow-400" />;
-      case 'move': return <MoveHorizontal size={12} className="text-blue-400" />;
+      case 'insert': return <PlusCircle    size={12} className="text-green-400" />;
+      case 'delete': return <XCircle       size={12} className="text-red-400" />;
+      case 'update': return <Pencil        size={12} className="text-yellow-400" />;
+      case 'move':   return <MoveHorizontal size={12} className="text-blue-400" />;
     }
   };
 
+  // ── No data guard ─────────────────────────────────────────────────────────
+  if (countryPairs.length === 0 || Object.keys(loadedTrees).length === 0) {
+    return (
+      <div className="animate-fade-in flex flex-col h-full items-center justify-center gap-4">
+        <Database size={48} className="text-gray-300" />
+        <h2 className="text-xl font-bold text-gray-900">No Results Available</h2>
+        <p className="text-gray-500 text-center max-w-sm">
+          Complete the previous steps (data collection, field selection, algorithm execution) first.
+        </p>
+        <button onClick={onPrev} className="btn-secondary">Back</button>
+      </div>
+    );
+  }
+
+  const name1 = activePair ? getCountryName(activePair.country1) : '—';
+  const name2 = activePair ? getCountryName(activePair.country2) : '—';
+
   return (
     <div className="animate-fade-in flex flex-col h-full">
-      <div className="text-center mb-4">
-        <h2 className="text-2xl font-bold text-white mb-2">Results & Analysis</h2>
-        <p className="text-gray-400">
-          Explore the similarity score, edit script, patching process, and post-processed output.
+      <div className="text-center mb-3 shrink-0">
+        <h2 className="text-2xl font-bold text-gray-900 mb-1">Results &amp; Analysis</h2>
+        <p className="text-gray-500 text-sm">
+          Similarity score, edit script, patching, and diff for each country pair.
         </p>
       </div>
 
+      {/* Pair selector (only shown when >1 pair) */}
+      {countryPairs.length > 1 && (
+        <div className="flex items-center gap-2 mb-3 shrink-0 flex-wrap">
+          <span className="text-xs text-gray-500">Pair:</span>
+          {countryPairs.map((pair, i) => (
+            <button
+              key={`${pair.country1}-${pair.country2}`}
+              onClick={() => setActivePairIndex(i)}
+              className={`text-xs px-3 py-1.5 rounded-lg border transition-all ${
+                i === activePairIndex
+                  ? 'bg-primary-50 border-primary-600 text-gray-900'
+                  : 'bg-white border-gray-200 text-gray-500 hover:bg-gray-50'
+              }`}
+            >
+              {getCountryName(pair.country1)} vs {getCountryName(pair.country2)}
+            </button>
+          ))}
+        </div>
+      )}
+
       {/* Tabs */}
-      <div className="flex gap-1 mb-4 bg-gray-900/50 p-1 rounded-lg w-fit mx-auto">
+      <div className="flex gap-1 mb-3 bg-gray-100 p-1 rounded-lg w-fit shrink-0">
         {tabs.map(tab => (
           <button
             key={tab.id}
@@ -86,7 +235,7 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
             className={`flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
               activeTab === tab.id
                 ? 'bg-primary-600 text-white'
-                : 'text-gray-400 hover:text-gray-200 hover:bg-gray-800'
+                : 'text-gray-500 hover:text-gray-700 hover:bg-gray-200'
             }`}
           >
             {tab.icon}
@@ -97,22 +246,22 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
 
       {/* Tab content */}
       <div className="flex-1 min-h-0">
+
+        {/* ── Similarity tab ── */}
         {activeTab === 'similarity' && (
           <div className="grid grid-cols-3 gap-4 h-full">
-            {/* Similarity gauge */}
+            {/* Gauge */}
             <div className="col-span-1 glass-card p-6 flex flex-col items-center justify-center">
               <div className="relative w-44 h-44">
                 <svg viewBox="0 0 200 200" className="w-full h-full -rotate-90">
-                  <circle cx="100" cy="100" r="85" fill="none" stroke="#1f2937" strokeWidth="12" />
+                  <circle cx="100" cy="100" r="85" fill="none" stroke="#e5e7eb" strokeWidth="12" />
                   <circle
-                    cx="100"
-                    cy="100"
-                    r="85"
+                    cx="100" cy="100" r="85"
                     fill="none"
                     stroke="url(#gaugeGradient)"
                     strokeWidth="12"
                     strokeLinecap="round"
-                    strokeDasharray={`${(similarity / 100) * 534} 534`}
+                    strokeDasharray={`${(simPct / 100) * 534} 534`}
                     className="transition-all duration-1000"
                   />
                   <defs>
@@ -123,103 +272,105 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
                   </defs>
                 </svg>
                 <div className="absolute inset-0 flex flex-col items-center justify-center">
-                  <span className="text-4xl font-bold text-white">{similarity.toFixed(1)}%</span>
+                  <span className="text-4xl font-bold text-gray-900">{simPct.toFixed(1)}%</span>
                   <span className="text-xs text-gray-500">Similarity</span>
                 </div>
               </div>
               <div className="mt-4 text-center">
-                <div className="text-lg font-semibold text-white">Tree Edit Distance: {tedValue}</div>
+                {simResult?.ted !== undefined && (
+                  <div className="text-lg font-semibold text-gray-900">TED: {simResult.ted}</div>
+                )}
                 <div className="text-sm text-gray-500 mt-1">
-                  Using {selectedAlgorithm?.name || 'TED Algorithm'}
+                  {name1} vs {name2}
+                </div>
+                <div className="text-xs text-gray-600 mt-0.5">
+                  {selectedAlgorithm?.name ?? simResult?.label ?? 'Similarity'}
                 </div>
               </div>
             </div>
 
             {/* Stats */}
             <div className="col-span-2 glass-card p-4 flex flex-col">
-              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">
+              <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-4">
                 Comparison Summary
               </h3>
               <div className="grid grid-cols-2 gap-4 flex-1">
-                <StatCard label="Total Edit Operations" value={sampleEditOperations.length.toString()} color="text-yellow-400" />
-                <StatCard label="Insert Operations" value={sampleEditOperations.filter(o => o.type === 'insert').length.toString()} color="text-green-400" />
-                <StatCard label="Update Operations" value={sampleEditOperations.filter(o => o.type === 'update').length.toString()} color="text-blue-400" />
-                <StatCard label="Delete Operations" value={sampleEditOperations.filter(o => o.type === 'delete').length.toString()} color="text-red-400" />
-                <StatCard label="Tree 1 Nodes" value="18" color="text-primary-400" />
-                <StatCard label="Tree 2 Nodes" value="20" color="text-accent-400" />
-                <StatCard label="Matching Nodes" value="14" color="text-cyan-400" />
-                <StatCard label="Cost per Operation" value="1.0" color="text-gray-300" />
+                <StatCard label="Total Edit Operations" value={String(editOps.length)} color="text-yellow-400" />
+                <StatCard label="Insert Operations"     value={String(editOps.filter(o => o.type === 'insert').length)} color="text-green-400" />
+                <StatCard label="Update Operations"     value={String(editOps.filter(o => o.type === 'update').length)} color="text-blue-400" />
+                <StatCard label="Delete Operations"     value={String(editOps.filter(o => o.type === 'delete').length)} color="text-red-400" />
+                <StatCard label="Tree 1 Nodes"          value={String(nodes1)} color="text-primary-600" />
+                <StatCard label="Tree 2 Nodes"          value={String(nodes2)} color="text-accent-600" />
+                <StatCard label="Selected Fields"       value={String(activePair?.selectedMetrics.length ?? 0)} color="text-cyan-400" />
+                <StatCard label="Cost per Operation"    value="1.0"            color="text-gray-700" />
               </div>
             </div>
           </div>
         )}
 
+        {/* ── Edit Script tab ── */}
         {activeTab === 'editscript' && (
           <div className="flex gap-4 h-full">
             <div className="flex-1 glass-card p-4 flex flex-col">
-              <h3 className="text-sm font-semibold text-gray-400 mb-3">
-                Edit Script ({sampleEditOperations.length} operations, Total cost: {sampleEditOperations.reduce((s, o) => s + o.cost, 0)})
+              <h3 className="text-sm font-semibold text-gray-500 mb-3">
+                Edit Script ({editOps.length} operations · Total cost: {editOps.reduce((s, o) => s + o.cost, 0)})
               </h3>
               <div className="flex-1 overflow-auto space-y-1.5">
-                {sampleEditOperations.map((op, i) => (
-                  <div
-                    key={i}
-                    className="flex items-start gap-3 p-3 bg-gray-800/30 rounded-lg border border-gray-800"
-                  >
+                {editOps.slice(0, 300).map((op, i) => (
+                  <div key={i} className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg border border-gray-200">
                     <span className="text-xs text-gray-600 font-mono mt-0.5 w-5">{i + 1}</span>
                     {getOpIcon(op.type)}
                     <div className="flex-1">
                       <div className="flex items-center gap-2">
-                        <span
-                          className={`text-[10px] uppercase font-semibold px-1.5 py-0.5 rounded ${
-                            op.type === 'insert'
-                              ? 'bg-green-900/50 text-green-400'
-                              : op.type === 'delete'
-                              ? 'bg-red-900/50 text-red-400'
-                              : op.type === 'update'
-                              ? 'bg-yellow-900/50 text-yellow-400'
-                              : 'bg-blue-900/50 text-blue-400'
-                          }`}
-                        >
-                          {op.type}
-                        </span>
-                        <span className="text-sm text-gray-200 font-mono">{op.node}</span>
+                        <span className={`text-[10px] uppercase font-semibold px-1.5 py-0.5 rounded ${
+                          op.type === 'insert' ? 'bg-green-50 text-green-600'
+                          : op.type === 'delete' ? 'bg-red-50 text-red-600'
+                          : op.type === 'update' ? 'bg-yellow-50 text-yellow-600'
+                          : 'bg-blue-50 text-blue-600'
+                        }`}>{op.type}</span>
+                        <span className="text-sm text-gray-700 font-mono">{op.node}</span>
                       </div>
                       {op.from && (
                         <div className="mt-1 text-xs">
                           <span className="text-red-400 line-through">{op.from}</span>
-                          <span className="text-gray-600 mx-2">-&gt;</span>
+                          <span className="text-gray-600 mx-2">→</span>
                           <span className="text-green-400">{op.to}</span>
                         </div>
-                      )}
-                      {op.value && !op.from && (
-                        <div className="mt-1 text-xs text-green-400">+ {op.value}</div>
                       )}
                     </div>
                     <span className="text-[10px] text-gray-600 font-mono">cost: {op.cost}</span>
                   </div>
                 ))}
+                {editOps.length > 300 && (
+                  <p className="text-xs text-gray-600 text-center py-2">
+                    … {editOps.length - 300} more operations not shown
+                  </p>
+                )}
               </div>
             </div>
 
-            {/* XML diff format */}
+            {/* XML format */}
             <div className="w-96 glass-card p-4 flex flex-col">
-              <h3 className="text-sm font-semibold text-gray-400 mb-3">Edit Script (XML Format)</h3>
-              <div className="flex-1 overflow-auto bg-gray-950 rounded-lg p-3 font-mono text-[11px]">
-                <pre className="text-gray-400">
+              <h3 className="text-sm font-semibold text-gray-500 mb-3">Edit Script (XML Format)</h3>
+              <div className="flex-1 overflow-auto bg-gray-100 rounded-lg p-3 font-mono text-[11px]">
+                <pre className="text-gray-600">
 {`<?xml version="1.0" encoding="UTF-8"?>
 <edit_script>
   <metadata>
-    <source>Lebanon</source>
-    <target>France</target>
-    <algorithm>${selectedAlgorithm?.name || 'TED'}</algorithm>
-    <total_cost>${sampleEditOperations.reduce((s, o) => s + o.cost, 0)}</total_cost>
-    <operations_count>${sampleEditOperations.length}</operations_count>
+    <source>${name1}</source>
+    <target>${name2}</target>
+    <algorithm>${selectedAlgorithm?.name ?? 'Similarity'}</algorithm>
+    <total_cost>${editOps.reduce((s, o) => s + o.cost, 0)}</total_cost>
+    <operations_count>${editOps.length}</operations_count>
   </metadata>
   <operations>`}
-                  {sampleEditOperations.map((op, i) => (
-                    <div key={i} className={op.type === 'insert' ? 'text-green-400' : op.type === 'delete' ? 'text-red-400' : 'text-yellow-400'}>
-{`    <${op.type} path="${op.node}" cost="${op.cost}"${op.from ? ` old="${op.from}" new="${op.to}"` : ''}${op.value && !op.from ? ` value="${op.value}"` : ''}/>`}
+                  {editOps.slice(0, 100).map((op, i) => (
+                    <div key={i} className={
+                      op.type === 'insert' ? 'text-green-400'
+                      : op.type === 'delete' ? 'text-red-400'
+                      : 'text-yellow-400'
+                    }>
+{`    <${op.type} node="${op.node}" cost="${op.cost}"${op.from ? ` old="${op.from}" new="${op.to}"` : ''}/>`}
                     </div>
                   ))}
 {`  </operations>
@@ -230,173 +381,120 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
           </div>
         )}
 
+        {/* ── Patch tab ── */}
         {activeTab === 'patch' && (
           <div className="flex gap-4 h-full">
-            {/* Patching visualization */}
             <div className="flex-1 glass-card p-4 flex flex-col">
               <div className="flex items-center justify-between mb-3">
-                <h3 className="text-sm font-semibold text-gray-400">
-                  Patching: Applying Edit Script to Tree 1
+                <h3 className="text-sm font-semibold text-gray-500">
+                  Patching: Applying Edit Script to {name1}
                 </h3>
-                <div className="flex items-center gap-2">
-                  <button
-                    onClick={() => {
-                      setPatchStep(0);
-                      setIsPatching(true);
-                    }}
-                    disabled={isPatching}
-                    className="btn-accent text-xs py-1.5 px-3"
-                  >
-                    {isPatching ? `Applying ${patchStep + 1}/${sampleEditOperations.length}...` : 'Start Patching'}
-                  </button>
-                </div>
+                <button
+                  onClick={() => { setPatchStep(0); setIsPatching(true); }}
+                  disabled={isPatching || editOps.length === 0}
+                  className="btn-accent text-xs py-1.5 px-3"
+                >
+                  {isPatching ? `Applying ${patchStep + 1}/${editOps.length}…` : 'Start Patching'}
+                </button>
               </div>
 
               <div className="flex-1 overflow-auto">
                 <div className="space-y-2">
-                  {sampleEditOperations.map((op, i) => {
-                    const isApplied = i <= patchStep && (isPatching || patchStep === sampleEditOperations.length - 1);
+                  {editOps.slice(0, 150).map((op, i) => {
+                    const isApplied = i <= patchStep && (isPatching || patchStep === editOps.length - 1);
                     const isCurrent = i === patchStep && isPatching;
-
                     return (
-                      <div
-                        key={i}
-                        className={`flex items-center gap-3 p-3 rounded-lg border transition-all duration-300 ${
-                          isCurrent
-                            ? 'bg-primary-900/40 border-primary-600 ring-1 ring-primary-500/30'
-                            : isApplied
-                            ? 'bg-accent-900/20 border-accent-800/50'
-                            : 'bg-gray-800/20 border-gray-800/50 opacity-50'
-                        }`}
-                      >
+                      <div key={i} className={`flex items-center gap-3 p-3 rounded-lg border transition-all duration-300 ${
+                        isCurrent  ? 'bg-primary-50 border-primary-600 ring-1 ring-primary-500/30'
+                        : isApplied ? 'bg-accent-50 border-accent-200'
+                        : 'bg-gray-50 border-gray-100 opacity-50'
+                      }`}>
                         <div className="shrink-0">
-                          {isApplied ? (
-                            <CheckCircle2 size={16} className="text-accent-500" />
-                          ) : (
-                            <div className="w-4 h-4 rounded-full border border-gray-700" />
-                          )}
+                          {isApplied
+                            ? <CheckCircle2 size={16} className="text-accent-500" />
+                            : <div className="w-4 h-4 rounded-full border border-gray-300" />}
                         </div>
                         {getOpIcon(op.type)}
-                        <span className="text-sm font-mono text-gray-300">{op.node}</span>
+                        <span className="text-sm font-mono text-gray-700">{op.node}</span>
                         {op.from && (
                           <span className="text-xs text-gray-500">
-                            <span className="text-red-400">{op.from}</span> -&gt;{' '}
-                            <span className="text-green-400">{op.to}</span>
+                            <span className="text-red-400">{op.from}</span> → <span className="text-green-400">{op.to}</span>
                           </span>
                         )}
-                        {isCurrent && (
-                          <span className="ml-auto text-[10px] text-primary-400 animate-pulse">
-                            Applying...
-                          </span>
-                        )}
+                        {isCurrent && <span className="ml-auto text-[10px] text-primary-600 animate-pulse">Applying…</span>}
                       </div>
                     );
                   })}
+                  {editOps.length > 150 && (
+                    <p className="text-xs text-gray-600 text-center py-2">… {editOps.length - 150} more</p>
+                  )}
                 </div>
               </div>
 
-              {patchStep === sampleEditOperations.length - 1 && !isPatching && (
-                <div className="mt-3 p-3 bg-accent-900/20 border border-accent-800/50 rounded-lg flex items-center gap-2">
+              {patchStep === editOps.length - 1 && !isPatching && editOps.length > 0 && (
+                <div className="mt-3 p-3 bg-accent-50 border border-accent-200 rounded-lg flex items-center gap-2">
                   <CheckCircle2 size={16} className="text-accent-500" />
-                  <span className="text-sm text-accent-400">
-                    Patching complete! Tree 1 has been transformed to match Tree 2.
+                  <span className="text-sm text-accent-600">
+                    Patching complete! {name1} has been transformed to match {name2}.
                   </span>
                 </div>
               )}
             </div>
 
-            {/* Before/After preview */}
+            {/* Before / After */}
             <div className="w-80 flex flex-col gap-4">
               <div className="flex-1 glass-card p-4 flex flex-col">
-                <h3 className="text-sm font-semibold text-red-400 mb-2">Before (Source Tree)</h3>
-                <div className="flex-1 bg-gray-950 rounded-lg p-3 font-mono text-[10px] overflow-auto">
-                  <pre className="text-gray-500">{`<country>
-  <common_name>Lebanon</common_name>
-  <capital>
-    <name>Beirut</name>
-  </capital>
-  <government>
-    <type>Unitary parliamentary</type>
-    <president>Joseph Aoun</president>
-  </government>
-  <economy>
-    <gdp>$18.077 billion</gdp>
-    <currency>Lebanese pound</currency>
-  </economy>
-</country>`}</pre>
+                <h3 className="text-sm font-semibold text-red-600 mb-2">Before — {name1}</h3>
+                <div className="flex-1 bg-gray-100 rounded-lg p-3 font-mono text-[10px] overflow-auto">
+                  <pre className="text-gray-500">{t1 ? treeToXmlPreview(t1) : '(no data)'}</pre>
                 </div>
               </div>
               <div className="flex-1 glass-card p-4 flex flex-col">
-                <h3 className="text-sm font-semibold text-green-400 mb-2">After (Patched Tree)</h3>
-                <div className="flex-1 bg-gray-950 rounded-lg p-3 font-mono text-[10px] overflow-auto">
-                  <pre className="text-gray-500">{`<country>
-  <common_name>France</common_name>
-  <capital>
-    <name>Paris</name>
-  </capital>
-  <government>
-    <type>Unitary semi-presidential</type>
-    <president>Emmanuel Macron</president>
-    <legislature>Parliament</legislature>
-  </government>
-  <economy>
-    <gdp>$2.78 trillion</gdp>
-    <currency>Euro (EUR)</currency>
-    <hdi>0.903</hdi>
-  </economy>
-</country>`}</pre>
+                <h3 className="text-sm font-semibold text-green-600 mb-2">After — {name2}</h3>
+                <div className="flex-1 bg-gray-100 rounded-lg p-3 font-mono text-[10px] overflow-auto">
+                  <pre className="text-gray-500">{t2 ? treeToXmlPreview(t2) : '(no data)'}</pre>
                 </div>
               </div>
             </div>
           </div>
         )}
 
+        {/* ── Diff tab ── */}
         {activeTab === 'diff' && (
           <div className="glass-card p-4 h-full flex flex-col">
-            <h3 className="text-sm font-semibold text-gray-400 mb-3">
-              Side-by-Side Diff View (DeltaXML-style)
+            <h3 className="text-sm font-semibold text-gray-500 mb-3">
+              Side-by-Side Diff View — {name1} vs {name2}
             </h3>
             <div className="flex-1 overflow-auto">
               <div className="flex gap-4">
-                {/* Source */}
                 <div className="flex-1">
-                  <h4 className="text-xs text-red-400 font-semibold mb-2">Source: Lebanon</h4>
-                  <div className="bg-gray-950 rounded-lg p-3 font-mono text-[11px] space-y-0.5">
+                  <h4 className="text-xs text-red-600 font-semibold mb-2">Source: {name1}</h4>
+                  <div className="bg-gray-100 rounded-lg p-3 font-mono text-[11px] space-y-0.5">
                     {diffLines.map((line, i) => (
-                      <div
-                        key={i}
-                        className={`px-2 py-0.5 rounded ${
-                          line.type === 'removed'
-                            ? 'bg-red-900/20 text-red-400'
-                            : line.type === 'modified'
-                            ? 'bg-yellow-900/20 text-yellow-400'
-                            : 'text-gray-500'
-                        }`}
-                      >
-                        <span className="text-gray-700 mr-2">{String(i + 1).padStart(3)}</span>
-                        {line.source || line.text}
+                      <div key={i} className={`px-2 py-0.5 rounded ${
+                        line.type === 'removed'  ? 'bg-red-50 text-red-600'
+                        : line.type === 'modified' ? 'bg-yellow-50 text-yellow-600'
+                        : line.type === 'added'    ? 'bg-green-50/50 text-gray-400'
+                        : 'text-gray-500'
+                      }`}>
+                        <span className="text-gray-400 mr-2">{String(i + 1).padStart(3)}</span>
+                        {line.source !== undefined ? line.source : line.text}
                       </div>
                     ))}
                   </div>
                 </div>
-
-                {/* Target */}
                 <div className="flex-1">
-                  <h4 className="text-xs text-green-400 font-semibold mb-2">Target: France</h4>
-                  <div className="bg-gray-950 rounded-lg p-3 font-mono text-[11px] space-y-0.5">
+                  <h4 className="text-xs text-green-600 font-semibold mb-2">Target: {name2}</h4>
+                  <div className="bg-gray-100 rounded-lg p-3 font-mono text-[11px] space-y-0.5">
                     {diffLines.map((line, i) => (
-                      <div
-                        key={i}
-                        className={`px-2 py-0.5 rounded ${
-                          line.type === 'added'
-                            ? 'bg-green-900/20 text-green-400'
-                            : line.type === 'modified'
-                            ? 'bg-yellow-900/20 text-yellow-400'
-                            : 'text-gray-500'
-                        }`}
-                      >
-                        <span className="text-gray-700 mr-2">{String(i + 1).padStart(3)}</span>
-                        {line.target || line.text}
+                      <div key={i} className={`px-2 py-0.5 rounded ${
+                        line.type === 'added'    ? 'bg-green-50 text-green-600'
+                        : line.type === 'modified' ? 'bg-yellow-50 text-yellow-600'
+                        : line.type === 'removed'  ? 'bg-red-50/50 text-gray-400'
+                        : 'text-gray-500'
+                      }`}>
+                        <span className="text-gray-400 mr-2">{String(i + 1).padStart(3)}</span>
+                        {line.target !== undefined ? line.target : line.text}
                       </div>
                     ))}
                   </div>
@@ -406,81 +504,41 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
           </div>
         )}
 
+        {/* ── Postprocess tab ── */}
         {activeTab === 'postprocess' && (
           <div className="flex gap-4 h-full">
             <div className="flex-1 glass-card p-4 flex flex-col">
-              <h3 className="text-sm font-semibold text-gray-400 mb-3">
-                Post-Processing: Tree to Wikipedia Infobox Format
+              <h3 className="text-sm font-semibold text-gray-500 mb-1">
+                Post-Processing: Target Tree → Structured Output
               </h3>
-              <p className="text-xs text-gray-500 mb-3">
-                Converting the patched tree back to the original Wikipedia infobox format,
-                reconstructing the semi-structured document.
+              <p className="text-xs text-gray-400 mb-3">
+                The target country's tree data extracted and formatted as a flat key-value document.
               </p>
-              <div className="flex-1 grid grid-cols-2 gap-4">
-                <div>
-                  <h4 className="text-xs text-primary-400 font-semibold mb-2">Patched Tree (Internal)</h4>
-                  <div className="bg-gray-950 rounded-lg p-3 font-mono text-[10px] h-full overflow-auto">
-                    <pre className="text-gray-500">{`TreeNode {
-  label: "country"
-  children: [
-    TreeNode {
-      label: "common_name"
-      value: "France"
-    }
-    TreeNode {
-      label: "official_name"
-      value: "French Republic"
-    }
-    TreeNode {
-      label: "capital"
-      children: [
-        TreeNode {
-          label: "name"
-          value: "Paris"
-        }
-        TreeNode {
-          label: "coordinates"
-          value: "48.86°N 2.35°E"
-        }
-      ]
-    }
-    TreeNode {
-      label: "government"
-      children: [
-        { label: "type", value: "Unitary semi-presidential" }
-        { label: "president", value: "Emmanuel Macron" }
-        { label: "prime_minister", value: "François Bayrou" }
-        { label: "legislature", value: "Parliament" }
-      ]
-    }
-    ...
-  ]
-}`}</pre>
+              <div className="flex-1 grid grid-cols-2 gap-4 min-h-0">
+                <div className="flex flex-col">
+                  <h4 className="text-xs text-primary-600 font-semibold mb-2">Tree Structure ({name2})</h4>
+                  <div className="bg-gray-100 rounded-lg p-3 font-mono text-[10px] flex-1 overflow-auto">
+                    <pre className="text-gray-500">{t2 ? treeToXmlPreview(t2, 20) : '(no data)'}</pre>
                   </div>
                 </div>
-                <div>
-                  <h4 className="text-xs text-accent-400 font-semibold mb-2">Wikipedia Infobox Output</h4>
-                  <div className="bg-gray-950 rounded-lg p-3 font-mono text-[10px] h-full overflow-auto">
-                    <pre className="text-green-400/80">{`{{Infobox country
-| common_name            = France
-| official_name          = French Republic
-| capital                = Paris
-| coordinates            = {{coord|48.86|N|2.35|E}}
-| government_type        = Unitary semi-presidential
-| leader_title1          = President
-| leader_name1           = Emmanuel Macron
-| leader_title2          = Prime Minister
-| leader_name2           = François Bayrou
-| legislature            = Parliament
-| area_km2               = 640,679
-| area_rank              = 42nd
-| population_estimate    = 68,042,591
-| population_density_km2 = 106
-| GDP_nominal            = $2.78 trillion
-| GDP_nominal_per_capita = $40,886
-| currency               = Euro (EUR)
-| HDI                    = 0.903
-}}`}</pre>
+                <div className="flex flex-col">
+                  <h4 className="text-xs text-accent-600 font-semibold mb-2">Extracted Fields ({name2})</h4>
+                  <div className="flex-1 overflow-auto space-y-2">
+                    {t2 ? t2.children.map(cat => (
+                      <div key={cat.label} className="bg-gray-100 rounded-lg p-3">
+                        <div className="text-[10px] text-primary-600 font-semibold uppercase tracking-wider mb-1.5">
+                          {cat.label}
+                        </div>
+                        <div className="space-y-1">
+                          {cat.children.filter(f => f.value).map(field => (
+                            <div key={field.label} className="flex gap-2 text-[10px]">
+                              <span className="text-gray-500 w-40 truncate shrink-0">{field.label}</span>
+                              <span className="text-accent-600 font-mono truncate">{field.value}</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )) : <p className="text-gray-400 text-xs">No data loaded</p>}
                   </div>
                 </div>
               </div>
@@ -489,10 +547,11 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
         )}
       </div>
 
-      <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-800">
+      {/* Navigation */}
+      <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-200 shrink-0">
         <button onClick={onPrev} className="btn-secondary">Back</button>
         <button onClick={onNext} className="btn-primary flex items-center gap-2">
-          View Summary & Complexity
+          View Summary &amp; Complexity
           <ArrowRight size={16} />
         </button>
       </div>
@@ -501,41 +560,8 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
 };
 
 const StatCard: React.FC<{ label: string; value: string; color: string }> = ({ label, value, color }) => (
-  <div className="bg-gray-800/30 rounded-lg p-3 border border-gray-800">
+  <div className="bg-gray-50 rounded-lg p-3 border border-gray-200">
     <div className="text-[10px] text-gray-500 uppercase tracking-wider">{label}</div>
     <div className={`text-2xl font-bold mt-1 ${color}`}>{value}</div>
   </div>
 );
-
-type DiffLineType = 'unchanged' | 'removed' | 'added' | 'modified';
-interface DiffLine {
-  text?: string;
-  source?: string;
-  target?: string;
-  type: DiffLineType;
-}
-
-const diffLines: DiffLine[] = [
-  { text: '<country>', type: 'unchanged' },
-  { source: '  <common_name>Lebanon</common_name>', target: '  <common_name>France</common_name>', type: 'modified' },
-  { source: '  <official_name>Lebanese Republic</official_name>', target: '  <official_name>French Republic</official_name>', type: 'modified' },
-  { text: '  <capital>', type: 'unchanged' },
-  { source: '    <name>Beirut</name>', target: '    <name>Paris</name>', type: 'modified' },
-  { source: '    <coordinates>33.89°N 35.50°E</coordinates>', target: '    <coordinates>48.86°N 2.35°E</coordinates>', type: 'modified' },
-  { text: '  </capital>', type: 'unchanged' },
-  { text: '  <government>', type: 'unchanged' },
-  { source: '    <type>Unitary parliamentary</type>', target: '    <type>Unitary semi-presidential</type>', type: 'modified' },
-  { source: '    <president>Joseph Aoun</president>', target: '    <president>Emmanuel Macron</president>', type: 'modified' },
-  { source: '    <prime_minister>Nawaf Salam</prime_minister>', target: '    <prime_minister>François Bayrou</prime_minister>', type: 'modified' },
-  { source: '', target: '    <legislature>Parliament</legislature>', type: 'added' },
-  { text: '  </government>', type: 'unchanged' },
-  { text: '  <area>', type: 'unchanged' },
-  { source: '    <total_km2>10,452</total_km2>', target: '    <total_km2>640,679</total_km2>', type: 'modified' },
-  { text: '  </area>', type: 'unchanged' },
-  { text: '  <economy>', type: 'unchanged' },
-  { source: '    <gdp>$18.077 billion</gdp>', target: '    <gdp>$2.78 trillion</gdp>', type: 'modified' },
-  { source: '    <currency>Lebanese pound (LBP)</currency>', target: '    <currency>Euro (EUR)</currency>', type: 'modified' },
-  { source: '', target: '    <hdi>0.903</hdi>', type: 'added' },
-  { text: '  </economy>', type: 'unchanged' },
-  { text: '</country>', type: 'unchanged' },
-];

@@ -33,6 +33,7 @@ MANIFEST
 .vscode/
 .claude/
 .cursor/
+.idea/
 
 # File formats
 *.txt

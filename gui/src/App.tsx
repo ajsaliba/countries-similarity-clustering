@@ -1,8 +1,6 @@
-import React from 'react';
 import { Stepper } from './components/Stepper';
 import { CountrySelection } from './components/CountrySelection';
 import { MetricsSelection } from './components/MetricsSelection';
-import { WorldMapView } from './components/WorldMapView';
 import { DataSourceSelection } from './components/DataSourceSelection';
 import { DataCollection } from './components/DataCollection';
 import { TreeBuilding } from './components/TreeBuilding';
@@ -17,13 +15,15 @@ export default function App() {
     selectedCountries,
     countryPairs,
     selectedAlgorithm,
+    similarityConfig,
     dataSource,
     addCountry,
     removeCountry,
     generatePairs,
     updatePairMetrics,
-    setSelectedAlgorithm,
     setDataSource,
+    loadedTrees,
+    setLoadedTrees,
     nextPhase,
     prevPhase,
     goToPhase,
@@ -37,17 +37,17 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-950 text-white flex flex-col">
+    <div className="min-h-screen bg-gray-50 text-gray-900 flex flex-col">
       {/* Header */}
-      <header className="shrink-0 border-b border-gray-800 bg-gray-950/80 backdrop-blur-sm sticky top-0 z-50">
+      <header className="shrink-0 border-b border-gray-200 bg-white/90 shadow-sm backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-screen-2xl mx-auto px-6 py-3 flex items-center gap-4">
           <div className="flex items-center gap-3">
             {/* Logo */}
-            <div className="w-9 h-9 rounded-lg bg-primary-600 flex items-center justify-center font-bold text-sm">
+            <div className="w-9 h-9 rounded-lg bg-primary-600 flex items-center justify-center font-bold text-sm text-white">
               CS
             </div>
             <div>
-              <h1 className="text-base font-bold text-white leading-none">
+              <h1 className="text-base font-bold text-gray-900 leading-none">
                 Country Similarity &amp; Clustering
               </h1>
               <p className="text-[10px] text-gray-500 leading-none mt-0.5">
@@ -64,7 +64,7 @@ export default function App() {
             />
           </div>
 
-          <div className="text-xs text-gray-600 font-mono">
+          <div className="text-xs text-gray-400 font-mono">
             Phase {currentPhase + 1}/{totalPhases}
           </div>
         </div>
@@ -83,27 +83,6 @@ export default function App() {
           )}
 
           {currentPhase === 1 && (
-            <MetricsSelection
-              selectedCountries={selectedCountries}
-              countryPairs={countryPairs}
-              onUpdatePairMetrics={updatePairMetrics}
-              onGeneratePairs={generatePairs}
-              onNext={nextPhase}
-              onPrev={prevPhase}
-            />
-          )}
-
-          {currentPhase === 2 && (
-            <WorldMapView
-              selectedCountries={selectedCountries}
-              selectedAlgorithm={selectedAlgorithm}
-              onSelectAlgorithm={setSelectedAlgorithm}
-              onNext={nextPhase}
-              onPrev={prevPhase}
-            />
-          )}
-
-          {currentPhase === 3 && (
             <DataSourceSelection
               dataSource={dataSource}
               onSetDataSource={setDataSource}
@@ -112,26 +91,55 @@ export default function App() {
             />
           )}
 
-          {currentPhase === 4 && (
+          {currentPhase === 2 && (
             <DataCollection
               selectedCountries={selectedCountries}
               dataSource={dataSource}
+              onDataLoaded={setLoadedTrees}
+              onNext={nextPhase}
+              onPrev={prevPhase}
+            />
+          )}
+
+          {currentPhase === 3 && (
+            <MetricsSelection
+              selectedCountries={selectedCountries}
+              countryPairs={countryPairs}
+              loadedTrees={loadedTrees}
+              onUpdatePairMetrics={updatePairMetrics}
+              onGeneratePairs={generatePairs}
+              onNext={nextPhase}
+              onPrev={prevPhase}
+            />
+          )}
+
+          {currentPhase === 4 && (
+            <TreeBuilding
+              selectedCountries={selectedCountries}
+              countryPairs={countryPairs}
+              loadedTrees={loadedTrees}
               onNext={nextPhase}
               onPrev={prevPhase}
             />
           )}
 
           {currentPhase === 5 && (
-            <TreeBuilding
+            <AlgorithmExecution
+              similarityConfig={similarityConfig}
               selectedCountries={selectedCountries}
               countryPairs={countryPairs}
+              loadedTrees={loadedTrees}
               onNext={nextPhase}
               onPrev={prevPhase}
             />
           )}
 
           {currentPhase === 6 && (
-            <AlgorithmExecution
+            <ResultsView
+              selectedCountries={selectedCountries}
+              countryPairs={countryPairs}
+              loadedTrees={loadedTrees}
+              similarityConfig={similarityConfig}
               selectedAlgorithm={selectedAlgorithm}
               onNext={nextPhase}
               onPrev={prevPhase}
@@ -139,17 +147,11 @@ export default function App() {
           )}
 
           {currentPhase === 7 && (
-            <ResultsView
-              selectedAlgorithm={selectedAlgorithm}
-              onNext={nextPhase}
-              onPrev={prevPhase}
-            />
-          )}
-
-          {currentPhase === 8 && (
             <SummaryView
               selectedCountries={selectedCountries}
               countryPairs={countryPairs}
+              loadedTrees={loadedTrees}
+              similarityConfig={similarityConfig}
               selectedAlgorithm={selectedAlgorithm}
               onRestart={handleRestart}
             />

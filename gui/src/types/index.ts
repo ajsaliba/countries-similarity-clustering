@@ -21,7 +21,7 @@ export interface CountryPair {
   selectedMetrics: string[];
 }
 
-export type AlgorithmType = 'chawathe' | 'nierman-chagathe';
+export type AlgorithmType = 'chawathe' | 'nierman-chagathe' | 'zhang-shasha';
 
 export interface PseudocodeLine {
   line: number;
@@ -123,11 +123,42 @@ export interface CountryData {
   security: Record<string, MetricValue>;
 }
 
+// ── Similarity configuration (Ch.5, Ch.6) ────────────────────────────────────
+export type SimilarityCategory = 'ted' | 'approximation';
+export type TedMethod = 'chawathe' | 'nierman' | 'zhang-shasha';
+export type ApproxMethod = 'tag' | 'edge' | 'path-root' | 'path-all' | 'path-xpath' | 'fft';
+export type RepresentationVariant = 'set' | 'multiset' | 'vector';
+export type SetMeasure = 'intersection' | 'jaccard' | 'dice';
+export type VectorMeasure = 'cosine' | 'pcc' | 'euclidean' | 'manhattan' | 'tanimoto' | 'dice';
+export type NormalizationFormula = 'formula1' | 'formula2' | 'formula3';
+export type TFVariant = 'raw' | 'normalized' | 'log';
+
+export interface SimilarityConfig {
+  category: SimilarityCategory;
+  tedMethod?: TedMethod;
+  tedNormalization?: NormalizationFormula;
+  approxMethod?: ApproxMethod;
+  approxVariant?: RepresentationVariant;
+  approxMeasure?: SetMeasure | VectorMeasure;
+  tfVariant?: TFVariant;
+}
+
+export interface SimilarityResult {
+  sim: number;
+  ted?: number;
+  sizeA?: number;
+  sizeB?: number;
+  featuresA?: string[];
+  featuresB?: string[];
+  label: string;
+}
+
 export interface AppState {
   currentPhase: number;
   selectedCountries: Country[];
   countryPairs: CountryPair[];
   selectedAlgorithm: AlgorithmConfig | null;
+  similarityConfig: SimilarityConfig;
   dataSource: DataSourceConfig;
   loadedCountryData: Record<string, CountryData>;
   simulation: SimulationState;

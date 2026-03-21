@@ -6,24 +6,75 @@ import {
   Marker,
   ZoomableGroup,
 } from 'react-simple-maps';
-import { Check, Zap, ArrowRight, Globe, Map, RotateCcw } from 'lucide-react';
-import { Country, AlgorithmConfig } from '../types';
-import { algorithms } from '../data/algorithms';
+import { Check, ArrowRight, Globe, Map, RotateCcw } from 'lucide-react';
+import {
+  Country,
+  SimilarityConfig,
+  SimilarityCategory,
+  TedMethod,
+  NormalizationFormula,
+  ApproxMethod,
+  RepresentationVariant,
+  SetMeasure,
+  VectorMeasure,
+  TFVariant,
+} from '../types';
 
 const GEO_URL = 'https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json';
 
 interface WorldMapViewProps {
   selectedCountries: Country[];
-  selectedAlgorithm: AlgorithmConfig | null;
-  onSelectAlgorithm: (algo: AlgorithmConfig) => void;
+  similarityConfig: SimilarityConfig;
+  onSetSimilarityConfig: (cfg: SimilarityConfig) => void;
   onNext: () => void;
   onPrev: () => void;
 }
 
+// ── Pill button helper ─────────────────────────────────────────────────────
+const Pill: React.FC<{
+  active: boolean;
+  onClick: () => void;
+  children: React.ReactNode;
+  color?: 'primary' | 'accent';
+}> = ({ active, onClick, children, color = 'primary' }) => (
+  <button
+    onClick={onClick}
+    className={`px-2.5 py-1 rounded-lg text-xs font-medium border transition-all ${
+      active
+        ? color === 'accent'
+          ? 'bg-accent-700 border-accent-500 text-white'
+          : 'bg-primary-700 border-primary-500 text-white'
+        : 'bg-white border-gray-300 text-gray-500 hover:border-gray-400 hover:text-gray-700'
+    }`}
+  >
+    {children}
+  </button>
+);
+
+// ── Section header ─────────────────────────────────────────────────────────
+const SectionLabel: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+  <p className="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-1.5">
+    {children}
+  </p>
+);
+
+// ── Method info ────────────────────────────────────────────────────────────
+const METHOD_INFO: Record<string, { time: string; space: string; desc: string }> = {
+  chawathe:        { time: 'O(N²)',    space: 'O(N²)',    desc: 'Converts trees to (label,depth) LD-pair strings, then applies Wagner–Fisher DP. Efficient but heuristic depth condition can miss some structural matches.' },
+  nierman:         { time: 'O(N²)',    space: 'O(N²)',    desc: 'Recursive FLS-based TED that detects sub-tree containment. More accurate than Chawathe for trees with repeated sub-structure.' },
+  'zhang-shasha':  { time: 'O(N·M)',   space: 'O(N·M)',   desc: 'Classic 1989 algorithm. Uses postorder numbering, leftmost-leaf descendants, and keyroots to reduce TED to a series of forest-distance DP sub-problems. Provably optimal worst-case.' },
+  tag:         { time: 'O(kN)', space: 'O(N)',   desc: 'Represent each tree as a bag of node labels. Fast and simple filter; ignores structural relationships between labels.' },
+  edge:        { time: 'O(kN)', space: 'O(N)',   desc: 'Represent each tree as a bag of "parent/child" edge strings. Captures direct parent–child structure; misses deeper structural patterns.' },
+  'path-root': { time: 'O(kN)', space: 'O(N)',   desc: 'Bag of root-to-leaf paths. Strong structural signal; every leaf is uniquely addressed.' },
+  'path-all':  { time: 'O(kNl²)', space: 'O(N)', desc: 'Bag of root-to-every-node paths. More features than root paths; approaches TED accuracy as l grows.' },
+  'path-xpath':{ time: 'O(kN)', space: 'O(N)',   desc: 'XPaths augmented with sibling-position index (e.g. gov[1]/president[1]). Captures some sibling ordering beyond plain paths.' },
+  fft:         { time: 'O(N log N)', space: 'O(N)', desc: 'Build an open/close-tag time series, apply DFT, then compare magnitude spectra with cosine. Fast in theory but higher error rate in practice.' },
+};
+
 export const WorldMapView: React.FC<WorldMapViewProps> = ({
   selectedCountries,
-  selectedAlgorithm,
-  onSelectAlgorithm,
+  similarityConfig,
+  onSetSimilarityConfig,
   onNext,
   onPrev,
 }) => {
@@ -65,35 +116,63 @@ export const WorldMapView: React.FC<WorldMapViewProps> = ({
 
   const handleMouseUp = useCallback(() => setDragging(false), []);
 
-  const resetGlobe = () => {
-    setRotation([0, -20, 0]);
-    setAutoRotate(true);
+  // ── Config helpers ───────────────────────────────────────────────────────
+  const set = (patch: Partial<SimilarityConfig>) =>
+    onSetSimilarityConfig({ ...similarityConfig, ...patch });
+
+  const setCategory = (category: SimilarityCategory) => {
+    if (category === 'ted') {
+      // Default to formula3 (Rule 6 normalized distance) — gives meaningful [0,1] scores
+      onSetSimilarityConfig({ category, tedMethod: 'zhang-shasha', tedNormalization: 'formula3' });
+    } else {
+      onSetSimilarityConfig({
+        category,
+        approxMethod: 'tag',
+        approxVariant: 'set',
+        approxMeasure: 'jaccard',
+        tfVariant: 'raw',
+      });
+    }
   };
+
+  const cfg = similarityConfig;
+  const isTED   = cfg.category === 'ted';
+  const isApprox = cfg.category === 'approximation';
+  const isFFT   = cfg.approxMethod === 'fft';
+  const isVector = cfg.approxVariant === 'vector';
+
+  const currentInfoKey = isTED
+    ? (cfg.tedMethod ?? 'chawathe')
+    : (cfg.approxMethod ?? 'tag');
+  const info = METHOD_INFO[currentInfoKey] ?? METHOD_INFO['tag'];
+
+  // Is the configuration complete enough to proceed?
+  const canProceed = isTED
+    ? !!cfg.tedMethod && !!cfg.tedNormalization
+    : !!cfg.approxMethod && (isFFT || !!cfg.approxVariant && !!cfg.approxMeasure);
 
   return (
     <div className="animate-fade-in flex flex-col h-full">
-      <div className="text-center mb-4 shrink-0">
-        <h2 className="text-2xl font-bold text-white mb-1">World Map &amp; Algorithm Selection</h2>
-        <p className="text-gray-400 text-sm">
-          Your selected countries are highlighted on the globe. Choose the comparison algorithm below.
+      <div className="text-center mb-3 shrink-0">
+        <h2 className="text-2xl font-bold text-gray-900 mb-1">World Map &amp; Similarity Method</h2>
+        <p className="text-gray-500 text-sm">
+          Selected countries are highlighted on the globe. Choose the structural similarity method.
         </p>
       </div>
 
       <div className="flex gap-4 flex-1 min-h-0">
-        {/* ── Map panel ──────────────────────────────────────────── */}
+
+        {/* ── Map panel ───────────────────────────────────────────── */}
         <div className="flex-1 glass-card flex flex-col overflow-hidden">
-          {/* Toolbar */}
-          <div className="flex items-center gap-2 px-4 py-2 border-b border-gray-800 shrink-0">
+          <div className="flex items-center gap-2 px-4 py-2 border-b border-gray-200 shrink-0">
             <span className="text-xs text-gray-500 font-semibold uppercase tracking-wider">View:</span>
-            <div className="flex bg-gray-800 rounded-lg p-0.5 gap-0.5">
+            <div className="flex bg-gray-100 rounded-lg p-0.5 gap-0.5">
               {(['2d', '3d'] as const).map(m => (
                 <button
                   key={m}
                   onClick={() => { setMapMode(m); if (m === '3d') setAutoRotate(true); }}
                   className={`flex items-center gap-1.5 px-3 py-1 rounded-md text-xs font-semibold transition-all ${
-                    mapMode === m
-                      ? 'bg-primary-600 text-white'
-                      : 'text-gray-400 hover:text-white'
+                    mapMode === m ? 'bg-primary-600 text-white' : 'text-gray-500 hover:text-gray-900'
                   }`}
                 >
                   {m === '2d' ? <Map size={12} /> : <Globe size={12} />}
@@ -106,15 +185,16 @@ export const WorldMapView: React.FC<WorldMapViewProps> = ({
                 <button
                   onClick={() => setAutoRotate(v => !v)}
                   className={`px-3 py-1 rounded-md text-xs font-medium transition-all ${
-                    autoRotate ? 'bg-accent-700 text-accent-200' : 'bg-gray-700 text-gray-400'
+                    autoRotate ? 'bg-accent-700 text-accent-200' : 'bg-gray-200 text-gray-500'
                   }`}
                 >
                   {autoRotate ? '⟳ Auto' : '⟳ Paused'}
                 </button>
-                <button onClick={resetGlobe} title="Reset view" className="p-1 text-gray-500 hover:text-gray-300">
+                <button onClick={() => { setRotation([0,-20,0]); setAutoRotate(true); }}
+                  title="Reset" className="p-1 text-gray-500 hover:text-gray-300">
                   <RotateCcw size={13} />
                 </button>
-                <span className="text-[10px] text-gray-600 ml-1">Drag to rotate</span>
+                <span className="text-[10px] text-gray-400 ml-1">Drag to rotate</span>
               </>
             )}
             <div className="ml-auto flex items-center gap-2 text-xs text-gray-500">
@@ -123,7 +203,6 @@ export const WorldMapView: React.FC<WorldMapViewProps> = ({
             </div>
           </div>
 
-          {/* Map */}
           <div
             className="flex-1 overflow-hidden bg-[#060d1a]"
             onMouseDown={handleMouseDown}
@@ -142,94 +221,51 @@ export const WorldMapView: React.FC<WorldMapViewProps> = ({
                     {({ geographies }) =>
                       geographies.map(geo => {
                         const iso3 = geoToIso3(geo.id);
-                        const isSelected = selectedCountries.some(c => c.code === iso3);
+                        const sel  = selectedCountries.some(c => c.code === iso3);
                         return (
-                          <Geography
-                            key={geo.rsmKey}
-                            geography={geo}
-                            style={{
-                              default: {
-                                fill: isSelected ? '#2563eb' : '#1e293b',
-                                stroke: isSelected ? '#60a5fa' : '#334155',
-                                strokeWidth: isSelected ? 0.8 : 0.4,
-                                outline: 'none',
-                              },
-                              hover: {
-                                fill: isSelected ? '#3b82f6' : '#2d3f55',
-                                stroke: isSelected ? '#93c5fd' : '#475569',
-                                strokeWidth: 0.6,
-                                outline: 'none',
-                              },
-                              pressed: { fill: '#1d4ed8', outline: 'none' },
-                            }}
-                          />
+                          <Geography key={geo.rsmKey} geography={geo} style={{
+                            default: { fill: sel ? '#2563eb' : '#1e293b', stroke: sel ? '#60a5fa' : '#334155', strokeWidth: sel ? 0.8 : 0.4, outline: 'none' },
+                            hover:   { fill: sel ? '#3b82f6' : '#2d3f55', stroke: sel ? '#93c5fd' : '#475569', strokeWidth: 0.6, outline: 'none' },
+                            pressed: { fill: '#1d4ed8', outline: 'none' },
+                          }} />
                         );
                       })
                     }
                   </Geographies>
-                  {/* Connection lines */}
-                  {selectedCountries.map((c1, i) =>
-                    selectedCountries.slice(i + 1).map(c2 => (
-                      <line
-                        key={`${c1.code}-${c2.code}`}
-                        x1={0} y1={0} x2={0} y2={0}
-                        // SVG lines don't project easily; use Marker pair instead
-                      />
-                    ))
-                  )}
-                  {/* Country markers */}
-                  {selectedCountries.map(country => (
-                    <Marker key={country.code} coordinates={[country.lon, country.lat]}>
+                  {selectedCountries.map(c => (
+                    <Marker key={c.code} coordinates={[c.lon, c.lat]}>
                       <circle r={4} fill="#3b82f6" stroke="#93c5fd" strokeWidth={1.5} />
-                      <text
-                        textAnchor="middle"
-                        y={-8}
-                        style={{ fontSize: 6, fill: '#bfdbfe', fontWeight: 600 }}
-                      >
-                        {country.name.length > 12 ? country.code : country.name}
+                      <text textAnchor="middle" y={-8} style={{ fontSize: 6, fill: '#bfdbfe', fontWeight: 600 }}>
+                        {c.name.length > 12 ? c.code : c.name}
                       </text>
                     </Marker>
                   ))}
                 </ZoomableGroup>
               </ComposableMap>
             ) : (
-              /* 3-D orthographic globe */
               <ComposableMap
                 projection="geoOrthographic"
                 projectionConfig={{ rotate: rotation, scale: 230 }}
                 style={{ width: '100%', height: '100%' }}
               >
-                {/* Ocean sphere */}
                 <circle cx="50%" cy="50%" r="230" fill="#0c1a2e" />
                 <Geographies geography={GEO_URL}>
                   {({ geographies }) =>
                     geographies.map(geo => {
                       const iso3 = geoToIso3(geo.id);
-                      const isSelected = selectedCountries.some(c => c.code === iso3);
+                      const sel  = selectedCountries.some(c => c.code === iso3);
                       return (
-                        <Geography
-                          key={geo.rsmKey}
-                          geography={geo}
-                          style={{
-                            default: {
-                              fill: isSelected ? '#2563eb' : '#1e3a5f',
-                              stroke: isSelected ? '#60a5fa' : '#1e40af',
-                              strokeWidth: isSelected ? 0.8 : 0.3,
-                              outline: 'none',
-                            },
-                            hover: {
-                              fill: isSelected ? '#3b82f6' : '#264d7a',
-                              outline: 'none',
-                            },
-                            pressed: { fill: '#1d4ed8', outline: 'none' },
-                          }}
-                        />
+                        <Geography key={geo.rsmKey} geography={geo} style={{
+                          default: { fill: sel ? '#2563eb' : '#1e3a5f', stroke: sel ? '#60a5fa' : '#1e40af', strokeWidth: sel ? 0.8 : 0.3, outline: 'none' },
+                          hover:   { fill: sel ? '#3b82f6' : '#264d7a', outline: 'none' },
+                          pressed: { fill: '#1d4ed8', outline: 'none' },
+                        }} />
                       );
                     })
                   }
                 </Geographies>
-                {selectedCountries.map(country => (
-                  <Marker key={country.code} coordinates={[country.lon, country.lat]}>
+                {selectedCountries.map(c => (
+                  <Marker key={c.code} coordinates={[c.lon, c.lat]}>
                     <circle r={5} fill="#3b82f6" stroke="#93c5fd" strokeWidth={1.5} opacity={0.9} />
                   </Marker>
                 ))}
@@ -237,83 +273,275 @@ export const WorldMapView: React.FC<WorldMapViewProps> = ({
             )}
           </div>
 
-          {/* Bottom legend */}
-          <div className="px-4 py-2 border-t border-gray-800 flex items-center gap-4 text-[10px] text-gray-500 shrink-0">
+          <div className="px-4 py-2 border-t border-gray-200 flex items-center gap-4 text-[10px] text-gray-500 shrink-0">
             <span className="flex items-center gap-1.5">
-              <span className="w-3 h-3 rounded-sm inline-block bg-primary-600 border border-primary-400" />
-              Selected country
+              <span className="w-3 h-3 rounded-sm inline-block bg-primary-600 border border-primary-400" />Selected
             </span>
             <span className="flex items-center gap-1.5">
-              <span className="w-3 h-3 rounded-sm inline-block bg-gray-700 border border-gray-600" />
-              Other country
+              <span className="w-3 h-3 rounded-sm inline-block bg-gray-200 border border-gray-300" />Other
             </span>
-            {mapMode === '2d' && (
-              <span className="ml-auto">Scroll to zoom · drag to pan</span>
-            )}
+            {mapMode === '2d' && <span className="ml-auto">Scroll to zoom · drag to pan</span>}
           </div>
         </div>
 
-        {/* ── Algorithm selection ─────────────────────────────────── */}
-        <div className="w-96 flex flex-col gap-3 min-h-0 overflow-y-auto">
-          <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider shrink-0">
-            Choose Algorithm
-          </h3>
+        {/* ── Similarity Method selector ───────────────────────────── */}
+        <div className="w-[380px] flex flex-col gap-3 min-h-0 overflow-y-auto">
 
-          {algorithms.map(algo => {
-            const isSelected = selectedAlgorithm?.type === algo.type;
-            return (
+          {/* Category tabs */}
+          <div className="shrink-0">
+            <SectionLabel>Category</SectionLabel>
+            <div className="flex gap-2">
               <button
-                key={algo.type}
-                onClick={() => onSelectAlgorithm(algo)}
-                className={`w-full text-left p-4 rounded-xl transition-all duration-200 border shrink-0 ${
-                  isSelected
-                    ? 'bg-primary-900/40 border-primary-500 ring-1 ring-primary-500/30'
-                    : 'bg-gray-800/30 border-gray-800 hover:border-gray-600'
+                onClick={() => setCategory('ted')}
+                className={`flex-1 py-2 px-3 rounded-xl border text-xs font-semibold transition-all ${
+                  isTED
+                    ? 'bg-primary-50 border-primary-500 text-primary-700'
+                    : 'bg-white border-gray-200 text-gray-500 hover:border-gray-300'
                 }`}
               >
-                <div className="flex items-start gap-3">
-                  <div
-                    className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 mt-0.5 ${
-                      isSelected ? 'border-primary-500 bg-primary-600' : 'border-gray-600'
-                    }`}
-                  >
-                    {isSelected && <Check size={12} className="text-white" />}
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <h4 className="font-semibold text-white text-sm">{algo.name}</h4>
-                    <p className="text-xs text-gray-400 mt-1 leading-relaxed">{algo.description}</p>
-                    <div className="mt-2 flex flex-wrap gap-2">
-                      <span className="text-[10px] font-mono px-2 py-0.5 bg-gray-800 rounded text-yellow-400">
-                        T: {algo.timeComplexity}
-                      </span>
-                      <span className="text-[10px] font-mono px-2 py-0.5 bg-gray-800 rounded text-cyan-400">
-                        S: {algo.spaceComplexity}
-                      </span>
-                    </div>
+                TED-based (Ch.5)
+              </button>
+              <button
+                onClick={() => setCategory('approximation')}
+                className={`flex-1 py-2 px-3 rounded-xl border text-xs font-semibold transition-all ${
+                  isApprox
+                    ? 'bg-accent-50 border-accent-500 text-accent-700'
+                    : 'bg-white border-gray-200 text-gray-500 hover:border-gray-300'
+                }`}
+              >
+                Approx. Filter (Ch.6)
+              </button>
+            </div>
+          </div>
+
+          {/* ── TED section ─────────────────────────────────────────── */}
+          {isTED && (
+            <div className="glass-card p-3 space-y-3 shrink-0">
+              <div>
+                <SectionLabel>Algorithm</SectionLabel>
+                <div className="space-y-1.5">
+                  {([
+                    ['chawathe',     'Chawathe (1999)',           'LD-pair string + Wagner–Fisher DP'],
+                    ['nierman',      'Nierman & Jagadish (2002)', 'Recursive FLS TED with contained-in detection'],
+                    ['zhang-shasha', 'Zhang & Shasha (1989)',     'Keyroot forest-distance DP — provably optimal O(N·M)'],
+                  ] as [TedMethod, string, string][]).map(([val, name, sub]) => (
+                    <button
+                      key={val}
+                      onClick={() => set({ tedMethod: val })}
+                      className={`w-full text-left px-3 py-2.5 rounded-lg border transition-all flex items-start gap-2 ${
+                        cfg.tedMethod === val
+                          ? 'bg-primary-50 border-primary-600'
+                          : 'bg-white border-gray-200 hover:border-gray-300'
+                      }`}
+                    >
+                      <div className={`w-3.5 h-3.5 rounded-full border-2 mt-0.5 shrink-0 flex items-center justify-center ${
+                        cfg.tedMethod === val ? 'border-primary-400 bg-primary-600' : 'border-gray-300'
+                      }`}>
+                        {cfg.tedMethod === val && <div className="w-1.5 h-1.5 rounded-full bg-white" />}
+                      </div>
+                      <div>
+                        <div className="text-xs font-semibold text-gray-900">{name}</div>
+                        <div className="text-[10px] text-gray-500">{sub}</div>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <SectionLabel>Normalisation Formula</SectionLabel>
+                <div className="space-y-1">
+                  {([
+                    ['formula3', 'Formula 3 ★', 'Sim = 1 − TED / max(|A|,|B|)', '→ [0,1], Rule 6 recommended'],
+                    ['formula2', 'Formula 2',   'Sim = 1 − TED / (|A|+|B|)',    '→ [0,1], bounded'],
+                    ['formula1', 'Formula 1',   'Sim = 1 / (1 + TED)',           '→ ]0,1], unbounded'],
+                  ] as [NormalizationFormula, string, string, string][]).map(([val, name, formula, range]) => (
+                    <button
+                      key={val}
+                      onClick={() => set({ tedNormalization: val })}
+                      className={`w-full text-left px-3 py-2 rounded-lg border transition-all flex items-center gap-2 ${
+                        cfg.tedNormalization === val
+                          ? 'bg-primary-50 border-primary-600'
+                          : 'bg-white border-gray-200 hover:border-gray-300'
+                      }`}
+                    >
+                      <div className={`w-3.5 h-3.5 rounded-full border-2 shrink-0 flex items-center justify-center ${
+                        cfg.tedNormalization === val ? 'border-primary-400 bg-primary-600' : 'border-gray-300'
+                      }`}>
+                        {cfg.tedNormalization === val && <div className="w-1.5 h-1.5 rounded-full bg-white" />}
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <span className="text-xs font-semibold text-gray-900">{name}: </span>
+                        <span className="font-mono text-[10px] text-yellow-600">{formula}</span>
+                        <span className="text-[10px] text-gray-500 ml-1">{range}</span>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* ── Approximation section ────────────────────────────────── */}
+          {isApprox && (
+            <div className="glass-card p-3 space-y-3 shrink-0">
+              {/* Method */}
+              <div>
+                <SectionLabel>Method</SectionLabel>
+                <div className="grid grid-cols-3 gap-1.5">
+                  {([
+                    ['tag',        'Tag',        'Set of labels'],
+                    ['edge',       'Edge',       'Parent/child pairs'],
+                    ['path-root',  'Path Root',  'Root-to-leaf paths'],
+                    ['path-all',   'Path All',   'Root-to-any-node'],
+                    ['path-xpath', 'XPath',      'Paths with indices'],
+                    ['fft',        'FFT',        'Frequency spectrum'],
+                  ] as [ApproxMethod, string, string][]).map(([val, name, sub]) => (
+                    <button
+                      key={val}
+                      onClick={() => {
+                        const patch: Partial<SimilarityConfig> = { approxMethod: val };
+                        if (val === 'fft') {
+                          patch.approxVariant = undefined;
+                          patch.approxMeasure = undefined;
+                        } else if (!cfg.approxVariant) {
+                          patch.approxVariant = 'set';
+                          patch.approxMeasure = 'jaccard';
+                        }
+                        set(patch);
+                      }}
+                      className={`flex flex-col items-center py-2 px-1 rounded-lg border text-center transition-all ${
+                        cfg.approxMethod === val
+                          ? 'bg-accent-50 border-accent-500 text-accent-700'
+                          : 'bg-white border-gray-200 text-gray-500 hover:border-gray-300'
+                      }`}
+                    >
+                      {cfg.approxMethod === val && <Check size={10} className="mb-0.5" />}
+                      <span className="text-[10px] font-semibold">{name}</span>
+                      <span className="text-[8px] text-gray-400 leading-tight">{sub}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Representation */}
+              {!isFFT && (
+                <div>
+                  <SectionLabel>Representation</SectionLabel>
+                  <div className="flex gap-2">
+                    {(['set', 'multiset', 'vector'] as RepresentationVariant[]).map(v => (
+                      <Pill
+                        key={v}
+                        active={cfg.approxVariant === v}
+                        color="accent"
+                        onClick={() => {
+                          const defaultMeasure: SetMeasure | VectorMeasure =
+                            v === 'vector' ? 'cosine' : 'jaccard';
+                          set({ approxVariant: v, approxMeasure: defaultMeasure, tfVariant: 'raw' });
+                        }}
+                      >
+                        {v.charAt(0).toUpperCase() + v.slice(1)}
+                      </Pill>
+                    ))}
                   </div>
                 </div>
-              </button>
-            );
-          })}
+              )}
 
-          {selectedAlgorithm && (
-            <div className="p-3 bg-accent-900/20 border border-accent-800/50 rounded-lg shrink-0">
-              <div className="flex items-center gap-2 text-sm text-accent-400">
-                <Zap size={14} />
-                <span>
-                  Ready: <span className="font-semibold">{selectedAlgorithm.name}</span>
-                </span>
+              {/* Measure */}
+              {!isFFT && (
+                <div>
+                  <SectionLabel>
+                    {isVector ? 'Vector Measure' : 'Set Measure'}
+                  </SectionLabel>
+                  {!isVector ? (
+                    <div className="flex gap-2 flex-wrap">
+                      {(['intersection', 'jaccard', 'dice'] as SetMeasure[]).map(m => (
+                        <Pill key={m} active={cfg.approxMeasure === m} color="accent"
+                          onClick={() => set({ approxMeasure: m })}>
+                          {m.charAt(0).toUpperCase() + m.slice(1)}
+                        </Pill>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="flex gap-1.5 flex-wrap">
+                      {(['cosine', 'pcc', 'euclidean', 'manhattan', 'tanimoto', 'dice'] as VectorMeasure[]).map(m => (
+                        <Pill key={m} active={cfg.approxMeasure === m} color="accent"
+                          onClick={() => set({ approxMeasure: m })}>
+                          {m.charAt(0).toUpperCase() + m.slice(1)}
+                        </Pill>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* TF weighting for vector */}
+              {isVector && !isFFT && (
+                <div>
+                  <SectionLabel>TF Weighting (Ch.7)</SectionLabel>
+                  <div className="flex gap-2">
+                    {([
+                      ['raw',        'Raw',        'TF = freq(t)'],
+                      ['normalized', 'Normalised', 'TF = freq/max'],
+                      ['log',        'Log',        'TF = log(freq+1)'],
+                    ] as [TFVariant, string, string][]).map(([val, label, formula]) => (
+                      <button
+                        key={val}
+                        onClick={() => set({ tfVariant: val })}
+                        className={`flex-1 py-1.5 px-2 rounded-lg border text-center text-[10px] transition-all ${
+                          cfg.tfVariant === val
+                            ? 'bg-accent-50 border-accent-500 text-accent-700'
+                            : 'bg-white border-gray-200 text-gray-500 hover:border-gray-300'
+                        }`}
+                      >
+                        <div className="font-semibold">{label}</div>
+                        <div className="font-mono text-[8px] text-gray-400">{formula}</div>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* ── Method info card ─────────────────────────────────────── */}
+          <div className="glass-card p-3 shrink-0">
+            <div className="flex items-center gap-3 mb-2">
+              <span className="text-[10px] font-mono px-2 py-0.5 bg-gray-100 rounded text-yellow-600 border border-gray-200">
+                T: {info.time}
+              </span>
+              <span className="text-[10px] font-mono px-2 py-0.5 bg-gray-100 rounded text-cyan-600 border border-gray-200">
+                S: {info.space}
+              </span>
+            </div>
+            <p className="text-[10px] text-gray-400 leading-relaxed">{info.desc}</p>
+          </div>
+
+          {/* ── Current selection summary ────────────────────────────── */}
+          {canProceed && (
+            <div className="glass-card p-3 border border-accent-200 bg-accent-50 shrink-0">
+              <div className="flex items-center gap-2 text-accent-600 mb-1">
+                <Check size={13} />
+                <span className="text-xs font-semibold">Ready</span>
               </div>
+              <p className="text-[10px] text-gray-400 leading-relaxed">
+                {isTED
+                  ? `${cfg.tedMethod === 'nierman' ? 'Nierman & Jagadish' : cfg.tedMethod === 'zhang-shasha' ? 'Zhang-Shasha' : 'Chawathe'} TED with ${cfg.tedNormalization === 'formula1' ? 'Formula 1 (1/(1+TED))' : cfg.tedNormalization === 'formula2' ? 'Formula 2 (1−TED/(|A|+|B|))' : 'Formula 3 (1−TED/max(|A|,|B|))'}`
+                  : isFFT
+                    ? 'FFT spectrum cosine similarity'
+                    : `${cfg.approxMethod} · ${cfg.approxVariant}/${cfg.approxMeasure}${cfg.approxVariant === 'vector' ? `/${cfg.tfVariant}` : ''}`
+                }
+              </p>
             </div>
           )}
         </div>
       </div>
 
-      <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-800 shrink-0">
+      <div className="flex items-center justify-between mt-3 pt-3 border-t border-gray-200 shrink-0">
         <button onClick={onPrev} className="btn-secondary">Back</button>
         <button
           onClick={onNext}
-          disabled={!selectedAlgorithm}
+          disabled={!canProceed}
           className="btn-primary flex items-center gap-2"
         >
           Continue to Data Source
@@ -324,15 +552,10 @@ export const WorldMapView: React.FC<WorldMapViewProps> = ({
   );
 };
 
-/**
- * Map a TopoJSON numeric country id to ISO-3 alpha code.
- * react-simple-maps exposes `geo.id` as the ISO numeric string.
- */
 function geoToIso3(numericId: string | number): string {
   return numericToIso3[String(numericId)] ?? '';
 }
 
-// ISO 3166-1 numeric → alpha-3  (selected subset covering all 195 UN states)
 const numericToIso3: Record<string, string> = {
   '004':'AFG','008':'ALB','012':'DZA','020':'AND','024':'AGO','028':'ATG',
   '032':'ARG','051':'ARM','036':'AUS','040':'AUT','031':'AZE','044':'BHS',

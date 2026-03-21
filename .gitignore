@@ -37,6 +37,18 @@ MANIFEST
 *.manifest
 *.spec
 
+.claude/
+.vscode/
+.idea/
+.cursor/
+
+*.pdf
+*.txt
+
+gui/
+PDFs/
+txts/
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt

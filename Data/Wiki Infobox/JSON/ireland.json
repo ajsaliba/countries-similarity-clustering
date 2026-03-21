@@ -24,10 +24,8 @@
             "Ethnic groups": {
                 "Asian (%)": 3.3,
                 "Black (%)": 1.5,
-                "White Irish (%)": 76.6,
-                "not stated (%)": 6.2,
-                "other (%)": 1.7,
-                "other White (%)": 10.8
+                "Other (%)": 12.5,
+                "White Irish (%)": 76.6
             },
             "Primary Language": [
                 "English",
@@ -35,13 +33,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 75.7,
-                "no religion (%)": 14.5,
-                "not stated (%)": 6.7,
-                "other (%)": 3.1
+                "No religion (%)": 14.5,
+                "Other (%)": 3.1
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Oireachtas"
         },
         "Population": {
             "Count": 5458600.0,

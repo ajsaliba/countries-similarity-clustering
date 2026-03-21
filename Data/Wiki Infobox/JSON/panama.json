@@ -24,8 +24,8 @@
             "Ethnic groups": {
                 "Black (%)": 9.2,
                 "Indigenous (%)": 12.3,
-                "Mestizo (mixed White and Indigenous ) (%)": 65,
-                "Mulatto (mixed White and Black ) (%)": 6.8,
+                "Mestizo (%)": 65.0,
+                "Mulatto (%)": 6.8,
                 "White (%)": 6.7
             },
             "Primary Language": [
@@ -33,12 +33,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 91.5,
-                "no religion (%)": 7.6,
-                "other (%)": 0.9
+                "No religion (%)": 7.6,
+                "Other (%)": 0.9
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 4337768.0,

@@ -22,25 +22,23 @@
         },
         "General": {
             "Ethnic groups": {
-                "Arab (%)": 95,
-                "Armenian (%)": 4,
-                "others (%)": 1
+                "Arab (%)": 95.0,
+                "Armenian (%)": 4.0,
+                "Other (%)": 1.0
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
-                "Alawite (%)": 0.64,
                 "Christianity (%)": 41.4,
                 "Druze (%)": 5.21,
                 "Islam (%)": 53.31,
-                "No religion (%)": 0.08,
-                "Shia (%)": 26.84,
-                "Sunni (%)": 26.55
+                "No religion (%)": 0.08
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic under confessionalism"
+            "Government": "Unitary parliamentary republic under confessionalism",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 5364482.0,

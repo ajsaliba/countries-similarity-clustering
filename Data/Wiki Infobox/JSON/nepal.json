@@ -25,26 +25,26 @@
                 "Bahun (%)": 11.2,
                 "Chamar (%)": 1.3,
                 "Chhetri (%)": 16.4,
-                "Dalit (%)": 14,
+                "Dalit (%)": 14.0,
                 "Damai (%)": 1.9,
                 "Gurung (%)": 1.8,
-                "Janajati (%)": 35,
-                "Kami (%)": 5,
-                "Khas Arya (%)": 30,
+                "Janajati (%)": 35.0,
+                "Kami (%)": 5.0,
+                "Khas Arya (%)": 30.0,
                 "Kushwaha (%)": 1.2,
                 "Limbu (%)": 1.5,
-                "Madheshi (%)": 16,
+                "Madheshi (%)": 16.0,
                 "Magar (%)": 6.9,
-                "Musalman (%)": 5,
+                "Musalman (%)": 5.0,
                 "Newar (%)": 4.6,
+                "Other (%)": 5.6,
                 "Rai (%)": 2.2,
                 "Sarki (%)": 1.5,
                 "Tamang (%)": 5.6,
                 "Teli (%)": 1.4,
                 "Thakuri (%)": 1.7,
                 "Tharu (%)": 6.2,
-                "Yadav (%)": 4.2,
-                "other (%)": 5.6
+                "Yadav (%)": 4.2
             },
             "Primary Language": [
                 "Nepali"
@@ -53,11 +53,12 @@
                 "Buddhism (%)": 8.0,
                 "Christianity (%)": 2.0,
                 "Hinduism (%)": 81.0,
-                "other (%)": 1.0
+                "Other (%)": 1.0
             }
         },
         "Government": {
-            "Government": "Federal parliamentary republic under an interim government"
+            "Government": "Federal parliamentary republic under an interim government",
+            "Legislature": "Federal Parliament"
         },
         "Population": {
             "Count": 31122387.0,

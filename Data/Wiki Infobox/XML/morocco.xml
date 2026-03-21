@@ -23,21 +23,24 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <See_Ethnic_groups/>
+        <Arab____>44.0</Arab____>
+        <Arabised_Berbers____>24.0</Arabised_Berbers____>
+        <Berbers____>22.0</Berbers____>
+        <Mauritanian_Moors____>10.0</Mauritanian_Moors____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
         <item>Tamazight</item>
       </Primary_Language>
       <Religion>
-        <Bah___s____>0.1</Bah___s____>
-        <Islam___official______>99.68</Islam___official______>
-        <Jews____>0.01</Jews____>
-        <Others____>0.3</Others____>
+        <Islam____>99.68</Islam____>
+        <Judaism____>0.01</Judaism____>
+        <Other____>0.4</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary semi-constitutional monarchy</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>37493183.0</Count>

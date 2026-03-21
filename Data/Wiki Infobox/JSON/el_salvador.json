@@ -24,21 +24,22 @@
             "Ethnic groups": {
                 "Black (%)": 0.1,
                 "Indigenous (%)": 0.2,
-                "Mestizo (mixed White and Indigenous ) (%)": 86.3,
-                "White (%)": 12.7,
-                "other (%)": 0.6
+                "Mestizo (%)": 86.3,
+                "Other (%)": 0.6,
+                "White (%)": 12.7
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
                 "Christianity (%)": 81.5,
-                "no religion (%)": 17.0,
-                "other (%)": 1.5
+                "No religion (%)": 17.0,
+                "Other (%)": 1.5
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Legislative Assembly"
         },
         "Population": {
             "Count": 6029976.0,

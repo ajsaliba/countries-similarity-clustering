@@ -28,11 +28,12 @@
                 "Swedish"
             ],
             "Religion": {
-                "Unknown": 100
+                "Unknown": 100.0
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Riksdag"
         },
         "Population": {
             "Count": 10610485.0,

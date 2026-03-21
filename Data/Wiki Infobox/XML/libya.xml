@@ -23,21 +23,22 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Arabs____>92</Arabs____>
-        <Berbers____>5</Berbers____>
-        <others____>3</others____>
+        <Arabs____>92.0</Arabs____>
+        <Berbers____>5.0</Berbers____>
+        <Other____>3.0</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
       </Primary_Language>
       <Religion>
         <Christianity____>2.7</Christianity____>
-        <Islam___official______>96.6</Islam___official______>
-        <others____>0.7</others____>
+        <Islam____>96.6</Islam____>
+        <Other____>0.7</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary republic under a provisional government</Government>
+      <Legislature>Parliament and High Council of State</Legislature>
     </Government>
     <Population>
       <Count>7361263.0</Count>

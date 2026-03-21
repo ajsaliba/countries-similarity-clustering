@@ -22,15 +22,10 @@
         },
         "General": {
             "Ethnic groups": {
-                "Central Thai (%)": 37,
-                "Isan (%)": 25,
-                "Northern Khmer (%)": 4,
-                "Northern Thai (%)": 8,
-                "Southern Thai (%)": 8,
-                "Thai (%)": 80,
-                "Thai Chinese (%)": 12,
-                "Thai Malays (%)": 4,
-                "Western Thai (%)": 2
+                "Chinese (%)": 12.0,
+                "Malay (%)": 4.0,
+                "Other (%)": 4.0,
+                "Thai (%)": 80.0
             },
             "Primary Language": [
                 "Thai"
@@ -39,11 +34,12 @@
                 "Buddhism (%)": 93.46,
                 "Christianity (%)": 1.13,
                 "Islam (%)": 5.37,
-                "other (%)": 0.03
+                "Other (%)": 0.03
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 65975198.0,

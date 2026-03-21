@@ -32,12 +32,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>53.0</Christianity____>
-        <no_religion____>38.0</no_religion____>
-        <other____>9.0</other____>
+        <No_religion____>38.0</No_religion____>
+        <Other____>9.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Legislature>Chamber of Deputies</Legislature>
     </Government>
     <Population>
       <Count>690947.0</Count>

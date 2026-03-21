@@ -29,11 +29,12 @@
         <item>Swedish</item>
       </Primary_Language>
       <Religion>
-        <Unknown>100</Unknown>
+        <Unknown>100.0</Unknown>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Legislature>Riksdag</Legislature>
     </Government>
     <Population>
       <Count>10610485.0</Count>

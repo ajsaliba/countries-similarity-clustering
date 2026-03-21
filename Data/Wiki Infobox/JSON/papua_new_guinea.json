@@ -31,13 +31,13 @@
                 "Tok Pisin"
             ],
             "Religion": {
-                "Christianity ( official ) (%)": 95.5,
-                "others or none (%)": 1.4,
-                "unspecified (%)": 3.1
+                "Christianity (%)": 95.5,
+                "No religion (%)": 1.4
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "National Parliament"
         },
         "Population": {
             "Count": 11781559.0,

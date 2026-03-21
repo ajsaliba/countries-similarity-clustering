@@ -29,12 +29,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 77.9,
-                "no religion (%)": 18.3,
-                "other (%)": 3.9
+                "No religion (%)": 18.3,
+                "Other (%)": 3.9
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 2130850.0,

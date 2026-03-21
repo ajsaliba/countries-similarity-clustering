@@ -26,10 +26,10 @@
         <Fula____>27.5</Fula____>
         <Jola____>4.2</Jola____>
         <Mandinka____>4.9</Mandinka____>
-        <Serer____>16</Serer____>
+        <Other____>5.4</Other____>
+        <Serer____>16.0</Serer____>
         <Soninke____>2.4</Soninke____>
         <Wolof____>39.7</Wolof____>
-        <others____>5.4</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Diola</item>
@@ -43,11 +43,12 @@
       <Religion>
         <Christianity____>2.7</Christianity____>
         <Islam____>97.2</Islam____>
-        <other____>0.1</other____>
+        <Other____>0.1</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>18847519.0</Count>

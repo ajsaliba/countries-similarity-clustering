@@ -23,21 +23,21 @@
         "General": {
             "Ethnic groups": {
                 "Albanians (%)": 97.7,
-                "Greeks (%)": 1,
-                "others (%)": 1.3
+                "Greeks (%)": 1.0,
+                "Other (%)": 1.3
             },
             "Primary Language": [
                 "Albanian"
             ],
             "Religion": {
                 "Christianity (%)": 16.02,
-                "Irreligion (%)": 17.37,
                 "Islam (%)": 50.67,
-                "Undeclared (%)": 15.92
+                "No religion (%)": 17.37
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Kuvendi"
         },
         "Population": {
             "Count": 2402113.0,

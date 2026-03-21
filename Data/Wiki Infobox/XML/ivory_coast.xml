@@ -23,29 +23,27 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Akan____>38</Akan____>
-        <Ivorian____>78</Ivorian____>
+        <Akan____>38.0</Akan____>
         <Kru____>9.1</Kru____>
-        <Naturalized_Ivorian____>0.3</Naturalized_Ivorian____>
-        <Northern_Mande____>22</Northern_Mande____>
+        <Northern_Mande____>22.0</Northern_Mande____>
+        <Other____>0.3</Other____>
         <Southern_Mande____>8.6</Southern_Mande____>
-        <Voltaiques_Gur____>22</Voltaiques_Gur____>
-        <non_Ivorian_a____>22</non_Ivorian_a____>
+        <Voltaiques_Gur____>22.0</Voltaiques_Gur____>
       </Ethnic_groups>
       <Primary_Language>
         <item>French</item>
       </Primary_Language>
       <Religion>
         <Christianity____>39.8</Christianity____>
+        <Folk_Traditional____>2.2</Folk_Traditional____>
         <Islam____>42.5</Islam____>
-        <no_religion____>12.6</no_religion____>
-        <other_religions____>0.7</other_religions____>
-        <traditional_faiths____>2.2</traditional_faiths____>
-        <unanswered____>2.2</unanswered____>
+        <No_religion____>12.6</No_religion____>
+        <Other____>0.7</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic under an authoritarian regime</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>31500000.0</Count>

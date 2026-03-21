@@ -33,16 +33,13 @@
         <item>Somali</item>
       </Primary_Language>
       <Religion>
-        <Christianity____>6</Christianity____>
-        <Islam___official______>94</Islam___official______>
-        <Non_denominational____>8</Non_denominational____>
-        <Other____>3</Other____>
-        <Shia____>2</Shia____>
-        <Sunni____>87</Sunni____>
+        <Christianity____>6.0</Christianity____>
+        <Islam____>94.0</Islam____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary dominant-party presidential republic under a hereditary dictatorship</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>1066809.0</Count>

@@ -22,9 +22,9 @@
         },
         "General": {
             "Ethnic groups": {
-                "Asian / other (%)": 1.4,
                 "Coloured and Basters (%)": 3.6,
                 "Indigenous African (%)": 93.2,
+                "Other (%)": 1.4,
                 "White (%)": 1.8
             },
             "Primary Language": [
@@ -40,12 +40,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 87.9,
-                "no religion (%)": 1.6,
-                "other (%)": 10.5
+                "No religion (%)": 1.6,
+                "Other (%)": 10.5
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 3022401.0,

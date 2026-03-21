@@ -23,9 +23,9 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Dungans____>1</Dungans____>
+        <Dungans____>1.0</Dungans____>
         <Kyrgyz____>77.8</Kyrgyz____>
-        <Others____>2.3</Others____>
+        <Other____>2.3</Other____>
         <Russians____>3.7</Russians____>
         <Tajiks____>0.9</Tajiks____>
         <Uzbeks____>14.3</Uzbeks____>
@@ -35,13 +35,14 @@
         <item>Russian</item>
       </Primary_Language>
       <Religion>
-        <Christianity____>8</Christianity____>
-        <Islam____>91</Islam____>
-        <Others____>1</Others____>
+        <Christianity____>8.0</Christianity____>
+        <Islam____>91.0</Islam____>
+        <Other____>1.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Supreme Council</Legislature>
     </Government>
     <Population>
       <Count>7400000.0</Count>

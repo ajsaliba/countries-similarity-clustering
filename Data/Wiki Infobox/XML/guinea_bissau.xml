@@ -23,26 +23,26 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Balanta____>30</Balanta____>
-        <Fula____>30</Fula____>
-        <Mandinka____>13</Mandinka____>
-        <Manjak____>14</Manjak____>
-        <Papel____>7</Papel____>
-        <other___unspecified____>6</other___unspecified____>
+        <Balanta____>30.0</Balanta____>
+        <Fula____>30.0</Fula____>
+        <Mandinka____>13.0</Mandinka____>
+        <Manjak____>14.0</Manjak____>
+        <Papel____>7.0</Papel____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Portuguese</item>
       </Primary_Language>
       <Religion>
         <Christianity____>18.9</Christianity____>
+        <Folk_Traditional____>30.6</Folk_Traditional____>
         <Islam____>46.1</Islam____>
-        <No_religion____>3</No_religion____>
-        <Traditional____>30.6</Traditional____>
-        <others____>1</others____>
+        <No_religion____>3.0</No_religion____>
+        <Other____>1.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under a military junta</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>2080000.0</Count>

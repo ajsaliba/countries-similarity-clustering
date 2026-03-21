@@ -25,16 +25,16 @@
       <Ethnic_groups>
         <Batak____>3.6</Batak____>
         <Javanese____>40.2</Javanese____>
-        <Madurese____>3</Madurese____>
+        <Madurese____>3.0</Madurese____>
         <Malay____>3.7</Malay____>
+        <Others____>34.0</Others____>
         <Sundanese____>15.5</Sundanese____>
-        <others___600__ethnic_groups______>34</others___600__ethnic_groups______>
       </Ethnic_groups>
       <Primary_Language>
         <item>Indonesian</item>
       </Primary_Language>
       <Religion>
-        <Buddhism___Folk___Confucianism___and_others____>0.8</Buddhism___Folk___Confucianism___and_others____>
+        <Buddhism____>0.8</Buddhism____>
         <Christianity____>10.45</Christianity____>
         <Hinduism____>1.7</Hinduism____>
         <Islam____>87.1</Islam____>
@@ -42,6 +42,7 @@
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>People's Consultative Assembly (MPR)</Legislature>
     </Government>
     <Population>
       <Count>288315089.0</Count>

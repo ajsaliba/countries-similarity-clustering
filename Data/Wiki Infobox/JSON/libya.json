@@ -22,21 +22,22 @@
         },
         "General": {
             "Ethnic groups": {
-                "Arabs (%)": 92,
-                "Berbers (%)": 5,
-                "others (%)": 3
+                "Arabs (%)": 92.0,
+                "Berbers (%)": 5.0,
+                "Other (%)": 3.0
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
                 "Christianity (%)": 2.7,
-                "Islam ( official ) (%)": 96.6,
-                "others (%)": 0.7
+                "Islam (%)": 96.6,
+                "Other (%)": 0.7
             }
         },
         "Government": {
-            "Government": "Unitary republic under a provisional government"
+            "Government": "Unitary republic under a provisional government",
+            "Legislature": "Parliament and High Council of State"
         },
         "Population": {
             "Count": 7361263.0,

@@ -23,7 +23,14 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Mon_gasques_French_Italians_Occitans/>
+        <Belgian____>3.0</Belgian____>
+        <British____>8.0</British____>
+        <French____>29.0</French____>
+        <German____>3.0</German____>
+        <Italian____>19.0</Italian____>
+        <Mon_gasque____>22.0</Mon_gasque____>
+        <Other____>14.0</Other____>
+        <Swiss____>2.0</Swiss____>
       </Ethnic_groups>
       <Primary_Language>
         <item>French</item>
@@ -32,11 +39,12 @@
         <Christianity____>86.0</Christianity____>
         <Islam____>0.4</Islam____>
         <Judaism____>1.7</Judaism____>
-        <no_religion____>11.7</no_religion____>
+        <No_religion____>11.7</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary semi- constitutional monarchy</Government>
+      <Legislature>National Council</Legislature>
     </Government>
     <Population>
       <Count>38423.0</Count>

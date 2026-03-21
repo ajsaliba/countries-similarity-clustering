@@ -24,7 +24,7 @@
             "Ethnic groups": {
                 "Comorians (%)": 97.1,
                 "Makua (%)": 1.6,
-                "Others (%)": 1.3
+                "Other (%)": 1.3
             },
             "Primary Language": [
                 "Arabic",
@@ -32,11 +32,12 @@
                 "French"
             ],
             "Religion": {
-                "Unknown": 100
+                "Unknown": 100.0
             }
         },
         "Government": {
-            "Government": "Federal presidential republic"
+            "Government": "Federal presidential republic",
+            "Legislature": "Assembly of the Union"
         },
         "Population": {
             "Count": 883075.0,

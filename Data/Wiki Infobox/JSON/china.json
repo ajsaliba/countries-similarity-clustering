@@ -26,22 +26,23 @@
                 "Hui (%)": 0.81,
                 "Manchu (%)": 0.74,
                 "Miao (%)": 0.79,
+                "Other (%)": 2.44,
                 "Tibetan (%)": 0.5,
                 "Tujia (%)": 0.68,
                 "Uyghur (%)": 0.84,
                 "Yi (%)": 0.7,
-                "Zhuang (%)": 1.39,
-                "others (%)": 2.44
+                "Zhuang (%)": 1.39
             },
             "Primary Language": [
                 "Standard Chinese"
             ],
             "Religion": {
-                "Unknown": 100
+                "Unknown": 100.0
             }
         },
         "Government": {
-            "Government": "Unitary communist state"
+            "Government": "Unitary communist state",
+            "Legislature": "National People's Congress"
         },
         "Population": {
             "Count": 1404890000.0,

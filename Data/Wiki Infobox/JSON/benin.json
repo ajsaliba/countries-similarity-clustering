@@ -27,10 +27,10 @@
                 "Dendi (%)": 2.9,
                 "Fon (%)": 38.4,
                 "Fula (%)": 8.6,
+                "Other (%)": 2.8,
                 "Ottamari (%)": 6.1,
                 "Yoa-Lokpa (%)": 4.3,
-                "Yoruba (%)": 12,
-                "other (%)": 2.8
+                "Yoruba (%)": 12.0
             },
             "Primary Language": [
                 "Arabic",
@@ -43,14 +43,15 @@
             ],
             "Religion": {
                 "Christianity (%)": 52.2,
+                "Folk/Traditional (%)": 17.9,
                 "Islam (%)": 24.6,
-                "no religion (%)": 5.2,
-                "other (%)": 0.1,
-                "traditional faiths (%)": 17.9
+                "No religion (%)": 5.2,
+                "Other (%)": 0.1
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 13754688.0,

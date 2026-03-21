@@ -22,22 +22,23 @@
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 1,
+                "African (%)": 1.0,
                 "Arab (%)": 57.8,
-                "South Asian (%)": 40.3,
-                "other (%)": 0.9
+                "Other (%)": 0.9,
+                "South Asian (%)": 40.3
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
                 "Christianity (%)": 18.2,
-                "Islam ( official ) (%)": 74.6,
-                "other (%)": 7.2
+                "Islam (%)": 74.6,
+                "Other (%)": 7.2
             }
         },
         "Government": {
-            "Government": "Unitary semi-constitutional monarchy"
+            "Government": "Unitary semi-constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 4985716.0,

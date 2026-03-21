@@ -32,16 +32,15 @@
                 "Portuguese"
             ],
             "Religion": {
-                "Afro-Brazilian religions (%)": 1.05,
                 "Christianity (%)": 83.6,
-                "Spiritism (%)": 1.84,
-                "no religion (%)": 9.28,
-                "not stated (%)": 0.17,
-                "other (%)": 4.07
+                "Folk/Traditional (%)": 1.84,
+                "No religion (%)": 9.28,
+                "Other (%)": 5.12
             }
         },
         "Government": {
-            "Government": "Federal presidential republic"
+            "Government": "Federal presidential republic",
+            "Legislature": "National Congress"
         },
         "Population": {
             "Count": 213421037.0,

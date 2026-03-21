@@ -23,7 +23,11 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Greek_Cypriots_Turkish_Cypriots_Armenian_Cypriots_Maronite_Cypriots/>
+        <Armenian_Cypriots____>0.3</Armenian_Cypriots____>
+        <Foreigners____>10.0</Foreigners____>
+        <Greek_Cypriots____>71.0</Greek_Cypriots____>
+        <Maronite_Cypriots____>0.6</Maronite_Cypriots____>
+        <Turkish_Cypriots____>20.0</Turkish_Cypriots____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Greek</item>
@@ -31,13 +35,14 @@
       </Primary_Language>
       <Religion>
         <Christianity____>72.3</Christianity____>
-        <Islam____>25</Islam____>
-        <no_religion____>1.9</no_religion____>
-        <other____>0.8</other____>
+        <Islam____>25.0</Islam____>
+        <No_religion____>1.9</No_religion____>
+        <Other____>0.8</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>House of Representatives</Legislature>
     </Government>
     <Population>
       <Count>923272.0</Count>

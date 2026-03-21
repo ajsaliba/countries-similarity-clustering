@@ -23,7 +23,7 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Bosniaks_constitute____>50.1</Bosniaks_constitute____>
+        <Bosniaks____>50.1</Bosniaks____>
         <Croats____>15.5</Croats____>
         <Serbs____>30.8</Serbs____>
       </Ethnic_groups>
@@ -35,11 +35,12 @@
       <Religion>
         <Christianity____>46.1</Christianity____>
         <Islam____>51.3</Islam____>
-        <Others____>2.6</Others____>
+        <Other____>2.6</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary directorial republic</Government>
+      <Legislature>Parliamentary Assembly</Legislature>
     </Government>
     <Population>
       <Count>2904256.0</Count>

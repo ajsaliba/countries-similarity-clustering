@@ -22,7 +22,11 @@
         },
         "General": {
             "Ethnic groups": {
-                "Greek Cypriots Turkish Cypriots Armenian Cypriots Maronite Cypriots": null
+                "Armenian Cypriots (%)": 0.3,
+                "Foreigners (%)": 10.0,
+                "Greek Cypriots (%)": 71.0,
+                "Maronite Cypriots (%)": 0.6,
+                "Turkish Cypriots (%)": 20.0
             },
             "Primary Language": [
                 "Greek",
@@ -30,13 +34,14 @@
             ],
             "Religion": {
                 "Christianity (%)": 72.3,
-                "Islam (%)": 25,
-                "no religion (%)": 1.9,
-                "other (%)": 0.8
+                "Islam (%)": 25.0,
+                "No religion (%)": 1.9,
+                "Other (%)": 0.8
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "House of Representatives"
         },
         "Population": {
             "Count": 923272.0,

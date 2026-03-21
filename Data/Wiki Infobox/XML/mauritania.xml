@@ -23,9 +23,9 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Beidane____>30</Beidane____>
-        <Halpulaar___Fulani___Sonink____and_Wolof____>30</Halpulaar___Fulani___Sonink____and_Wolof____>
-        <Haratin____>40</Haratin____>
+        <Beidane____>30.0</Beidane____>
+        <Haratin____>40.0</Haratin____>
+        <Sub_Saharan_African____>30.0</Sub_Saharan_African____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
@@ -34,11 +34,12 @@
         <item>Wolof</item>
       </Primary_Language>
       <Religion>
-        <Sunni_Islam>100.0</Sunni_Islam>
+        <Islam____>100.0</Islam____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential Islamic republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>5461319.0</Count>

@@ -22,8 +22,8 @@
         },
         "General": {
             "Ethnic groups": {
-                "Bengali (%)": 99,
-                "others Chakmas Garos Khasis Khumis Manipuris Marmas Mizos Arakanese Mrus Santals Tanchangyas Tripuris Bishnupriyas (%)": 1
+                "Bengali (%)": 99.0,
+                "Other (%)": 1.0
             },
             "Primary Language": [
                 "Bengali"
@@ -31,12 +31,13 @@
             "Religion": {
                 "Buddhism (%)": 0.6,
                 "Hinduism (%)": 7.94,
-                "Islam ( official ) (%)": 91.04,
-                "other (%)": 0.12
+                "Islam (%)": 91.04,
+                "Other (%)": 0.12
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Jatiya Sangsad"
         },
         "Population": {
             "Count": 173562364.0,

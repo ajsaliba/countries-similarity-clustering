@@ -28,11 +28,12 @@
                 "Dhivehi"
             ],
             "Religion": {
-                "Sunni Islam": 100.0
+                "Islam (%)": 100.0
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "People's Majlis"
         },
         "Population": {
             "Count": 601269.0,

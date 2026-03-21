@@ -28,14 +28,15 @@
                 "French"
             ],
             "Religion": {
-                "Christianity (%)": 50,
-                "Islam (%)": 4,
-                "irreligion (%)": 33,
-                "other religions (%)": 4
+                "Christianity (%)": 50.0,
+                "Islam (%)": 4.0,
+                "No religion (%)": 33.0,
+                "Other (%)": 4.0
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 69081996.0,

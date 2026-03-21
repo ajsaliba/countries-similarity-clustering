@@ -25,19 +25,22 @@
                 "Africans (%)": 1.4,
                 "Arabs (%)": 53.2,
                 "North Americans (%)": 1.1,
-                "South Asians (%)": 43.4,
-                "others (%)": 0.1
+                "Other (%)": 0.1,
+                "South Asians (%)": 43.4
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
-                "Islam ( official ) (%)": 74,
-                "non-Muslim (%)": 26
+                "Christianity (%)": 9.3,
+                "Hinduism (%)": 9.8,
+                "Islam (%)": 73.7,
+                "Other (%)": 7.2
             }
         },
         "Government": {
-            "Government": "Unitary semi-constitutional monarchy under an authoritarian government"
+            "Government": "Unitary semi-constitutional monarchy under an authoritarian government",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 1463265.0,

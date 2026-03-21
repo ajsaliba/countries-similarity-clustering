@@ -30,11 +30,12 @@
             "Religion": {
                 "Christianity (%)": 1.67,
                 "Hinduism (%)": 1.67,
-                "Islam ( official ) (%)": 95.0
+                "Islam (%)": 95.0
             }
         },
         "Government": {
-            "Government": "Unitary Islamic absolute monarchy"
+            "Government": "Unitary Islamic absolute monarchy",
+            "Legislature": "Council of Oman"
         },
         "Population": {
             "Count": 5494691.0,

@@ -28,13 +28,15 @@
                 "German"
             ],
             "Religion": {
-                "Christians (%)": 48.5,
-                "Germany at (%)": 49.7,
-                "Protestant (%)": 25.1
+                "Christianity (%)": 48.0,
+                "Islam (%)": 5.5,
+                "No religion (%)": 43.8,
+                "Other (%)": 2.7
             }
         },
         "Government": {
-            "Government": "Federal parliamentary republic"
+            "Government": "Federal parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 83497147.0,

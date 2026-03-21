@@ -28,13 +28,14 @@
                 "Italian"
             ],
             "Religion": {
-                "Christianity (%)": 84,
-                "irreligion (%)": 12,
-                "other (%)": 4
+                "Christianity (%)": 84.0,
+                "No religion (%)": 12.0,
+                "Other (%)": 4.0
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 58915561.0,

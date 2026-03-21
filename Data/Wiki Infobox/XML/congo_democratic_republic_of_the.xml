@@ -34,13 +34,14 @@
       </Primary_Language>
       <Religion>
         <Christianity____>95.4</Christianity____>
+        <Folk_Traditional____>2.6</Folk_Traditional____>
         <Islam____>1.5</Islam____>
-        <others___none____>0.5</others___none____>
-        <traditional_faiths____>2.6</traditional_faiths____>
+        <No_religion____>0.5</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>124388160.0</Count>

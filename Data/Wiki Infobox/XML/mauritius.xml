@@ -36,11 +36,12 @@
         <Christianity____>32.3</Christianity____>
         <Hinduism____>47.9</Hinduism____>
         <Islam____>18.2</Islam____>
-        <others___none____>1.6</others___none____>
+        <No_religion____>1.6</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>1235260.0</Count>

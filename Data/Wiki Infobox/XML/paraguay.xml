@@ -32,12 +32,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>95.5</Christianity____>
-        <no_religion____>4.1</no_religion____>
-        <other____>0.4</other____>
+        <No_religion____>4.1</No_religion____>
+        <Other____>0.4</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Congress</Legislature>
     </Government>
     <Population>
       <Count>6413627.0</Count>

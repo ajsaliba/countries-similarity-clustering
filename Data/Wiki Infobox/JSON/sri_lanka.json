@@ -23,25 +23,26 @@
         "General": {
             "Ethnic groups": {
                 "Indian Tamils (%)": 2.8,
+                "Other (%)": 0.3,
                 "Sinhalese (%)": 74.1,
                 "Sri Lankan Moors (%)": 10.5,
-                "Sri Lankan Tamils (%)": 12.3,
-                "other (%)": 0.3
+                "Sri Lankan Tamils (%)": 12.3
             },
             "Primary Language": [
                 "Sinhala",
                 "Tamil"
             ],
             "Religion": {
-                "Buddhism ( official ) (%)": 69.8,
+                "Buddhism (%)": 69.8,
                 "Christianity (%)": 6.9,
                 "Hinduism (%)": 12.6,
                 "Islam (%)": 10.7,
-                "other/none (%)": 0.1
+                "No religion (%)": 0.1
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 23300000.0,

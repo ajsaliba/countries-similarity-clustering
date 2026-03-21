@@ -27,9 +27,8 @@
         <East_Asian____>0.16</East_Asian____>
         <Mestizo____>60.2</Mestizo____>
         <Native____>25.75</Native____>
+        <Other____>1.1</Other____>
         <White____>5.89</White____>
-        <no_answer____>3.32</no_answer____>
-        <other____>1.1</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Aymara</item>
@@ -38,12 +37,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>94.5</Christianity____>
-        <no_religion____>5.1</no_religion____>
-        <other____>0.4</other____>
+        <No_religion____>5.1</No_religion____>
+        <Other____>0.4</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
+      <Legislature>Congress of the Republic</Legislature>
     </Government>
     <Population>
       <Count>34352720.0</Count>

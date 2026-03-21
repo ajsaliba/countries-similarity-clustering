@@ -24,22 +24,21 @@
             "Ethnic groups": {
                 "Afro-Arabs (%)": 1.1,
                 "Arabs (%)": 92.8,
-                "Indo - Pakistani (%)": 1,
-                "Somalis (%)": 3.7,
-                "other (%)": 1.4
+                "Indo - Pakistani (%)": 1.0,
+                "Other (%)": 1.4,
+                "Somalis (%)": 3.7
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
-                "Islam ( official ) (%)": 99.1,
-                "Sunni (%)": 65,
-                "Zaydi ~ (%)": 35,
-                "other (%)": 0.9
+                "Islam (%)": 99.0,
+                "Other (%)": 1.0
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic under a provisional government"
+            "Government": "Unitary semi-presidential republic under a provisional government",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 32684503.0,

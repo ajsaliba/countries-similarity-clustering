@@ -22,13 +22,13 @@
         },
         "General": {
             "Ethnic groups": {
-                "Ambundu (%)": 25,
-                "Asian (%)": 2,
-                "Bakongo (%)": 13,
-                "European (%)": 1,
-                "Mestiço (mixed European and African) (%)": 2,
-                "Ovimbundu (%)": 37,
-                "other African (%)": 21
+                "Ambundu (%)": 25.0,
+                "Asian (%)": 2.0,
+                "Bakongo (%)": 13.0,
+                "European (%)": 1.0,
+                "Mestiço (%)": 2.0,
+                "Other African (%)": 21.0,
+                "Ovimbundu (%)": 37.0
             },
             "Primary Language": [
                 "Chokwe",
@@ -41,12 +41,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 79.1,
-                "no religion (%)": 11.5,
-                "other (%)": 9.4
+                "No religion (%)": 11.5,
+                "Other (%)": 9.4
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 36604681.0,

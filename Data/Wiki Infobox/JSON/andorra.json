@@ -24,21 +24,22 @@
             "Ethnic groups": {
                 "Andorrans (%)": 32.1,
                 "French (%)": 5.6,
-                "Portuguese (%)": 10,
-                "Spaniards (%)": 34.3,
-                "others (%)": 18
+                "Other (%)": 18.0,
+                "Portuguese (%)": 10.0,
+                "Spaniards (%)": 34.3
             },
             "Primary Language": [
                 "Catalan"
             ],
             "Religion": {
                 "Christianity (%)": 90.8,
-                "no religion (%)": 6.9,
-                "others (%)": 2.3
+                "No religion (%)": 6.9,
+                "Other (%)": 2.3
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional co-principality"
+            "Government": "Unitary parliamentary constitutional co-principality",
+            "Legislature": "General Council"
         },
         "Population": {
             "Count": 89058.0,

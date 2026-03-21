@@ -25,21 +25,22 @@
       <Ethnic_groups>
         <Black____>3.6</Black____>
         <Moreno____>51.6</Moreno____>
+        <Other____>1.2</Other____>
         <White____>43.6</White____>
-        <other____>1.2</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Spanish</item>
       </Primary_Language>
       <Religion>
         <Christianity____>92.6</Christianity____>
-        <Spiritism___Birongo____>1.1</Spiritism___Birongo____>
-        <no_religion____>5.5</no_religion____>
-        <other____>0.8</other____>
+        <Folk_Traditional____>1.1</Folk_Traditional____>
+        <No_religion____>5.5</No_religion____>
+        <Other____>0.8</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal presidential republic under an authoritarian dictatorship</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>31800000.0</Count>

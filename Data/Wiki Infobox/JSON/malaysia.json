@@ -24,9 +24,7 @@
             "Ethnic groups": {
                 "Bumiputera (%)": 70.5,
                 "Chinese (%)": 22.9,
-                "Indian (%)": 6.6,
-                "Malay (%)": 57.3,
-                "indigenous groups of Sabah , Sarawak , Orang Asli and other (%)": 13.2
+                "Indian (%)": 6.6
             },
             "Primary Language": [
                 "Malay"
@@ -34,11 +32,12 @@
             "Religion": {
                 "Buddhism (%)": 18.7,
                 "Christianity (%)": 9.1,
-                "Islam ( official ) (%)": 63.5
+                "Islam (%)": 63.5
             }
         },
         "Government": {
-            "Government": "Federal parliamentary constitutional elective monarchy"
+            "Government": "Federal parliamentary constitutional elective monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 34564810.0,

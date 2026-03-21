@@ -35,15 +35,16 @@
                 "Burmese"
             ],
             "Religion": {
-                "Buddhism ( official ) (%)": 87.9,
+                "Buddhism (%)": 87.9,
                 "Christianity (%)": 6.2,
+                "Folk/Traditional (%)": 0.8,
                 "Islam (%)": 4.3,
-                "folk religion (%)": 0.8,
-                "other (%)": 0.2
+                "Other (%)": 0.2
             }
         },
         "Government": {
-            "Government": "Unitary assembly-independent republic under a military junta"
+            "Government": "Unitary assembly-independent republic under a military junta",
+            "Legislature": "Pyidaungsu Hluttaw"
         },
         "Population": {
             "Count": 55770232.0,

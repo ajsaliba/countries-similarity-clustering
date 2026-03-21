@@ -22,23 +22,21 @@
         },
         "General": {
             "Ethnic groups": {
-                "Polish (%)": 98.8,
-                "Polish and others (%)": 2.6,
-                "only Polish (%)": 96.3,
-                "only non-Polish (%)": 1.1
+                "Other (%)": 3.7,
+                "Polish (%)": 96.3
             },
             "Primary Language": [
                 "Polish"
             ],
             "Religion": {
                 "Christianity (%)": 72.4,
-                "no religion (%)": 6.9,
-                "other (%)": 0.1,
-                "unanswered (%)": 20.6
+                "No religion (%)": 6.9,
+                "Other (%)": 0.1
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 37893970.0,

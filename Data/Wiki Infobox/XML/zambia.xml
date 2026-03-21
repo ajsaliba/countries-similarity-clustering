@@ -23,9 +23,9 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Bemba____>19</Bemba____>
+        <Bemba____>19.0</Bemba____>
         <Bisa____>1.6</Bisa____>
-        <Chewa____>6</Chewa____>
+        <Chewa____>6.0</Chewa____>
         <Chishinga____>0.5</Chishinga____>
         <Chokwe____>0.5</Chokwe____>
         <Ila____>0.8</Ila____>
@@ -35,38 +35,36 @@
         <Lamba____>2.4</Lamba____>
         <Lenje____>1.6</Lenje____>
         <Lozi____>5.7</Lozi____>
-        <Lunda__Luapula_____>0.9</Lunda__Luapula_____>
-        <Lunda__Northern_____>2.6</Lunda__Northern_____>
+        <Lunda____>3.5</Lunda____>
         <Lungu____>0.8</Lungu____>
         <Luvale____>2.2</Luvale____>
         <Mambwe____>2.5</Mambwe____>
         <Mbunda____>1.2</Mbunda____>
         <Namwanga____>2.8</Namwanga____>
-        <Ngoni____>3</Ngoni____>
+        <Ngoni____>3.0</Ngoni____>
         <Ngumbo____>0.6</Ngumbo____>
         <Nkoya____>0.5</Nkoya____>
         <Nsenga____>5.3</Nsenga____>
+        <Other____>5.4</Other____>
         <Senga____>0.9</Senga____>
         <Soli____>0.7</Soli____>
         <Tabwa____>0.7</Tabwa____>
         <Tonga____>13.6</Tonga____>
         <Tumbuka____>7.5</Tumbuka____>
         <Ushi____>1.9</Ushi____>
-        <major_racial____>0.8</major_racial____>
-        <other_ethnics____>5.4</other_ethnics____>
-        <unclassified____>0.4</unclassified____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
       </Primary_Language>
       <Religion>
-        <Christianity___official______>95.5</Christianity___official______>
+        <Christianity____>95.5</Christianity____>
         <Islam____>2.7</Islam____>
-        <other___none____>1.8</other___none____>
+        <No_religion____>1.8</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>National Assembly of Zambia</Legislature>
     </Government>
     <Population>
       <Count>20216029.0</Count>

@@ -23,9 +23,9 @@
         "General": {
             "Ethnic groups": {
                 "Bulgarians (%)": 85.7,
+                "Other (%)": 1.3,
                 "Roma (%)": 4.5,
-                "Turks (%)": 8.5,
-                "others (%)": 1.3
+                "Turks (%)": 8.5
             },
             "Primary Language": [
                 "Bulgarian"
@@ -33,11 +33,12 @@
             "Religion": {
                 "Christianity (%)": 64.7,
                 "Islam (%)": 9.8,
-                "no religion (%)": 15.9
+                "No religion (%)": 15.9
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 6437360.0,

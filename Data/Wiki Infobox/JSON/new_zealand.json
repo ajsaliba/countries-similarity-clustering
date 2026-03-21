@@ -26,8 +26,8 @@
                 "European (%)": 67.8,
                 "ME / LA / African (%)": 1.9,
                 "Māori (%)": 19.6,
-                "Pacific peoples (%)": 8.9,
-                "other (%)": 1.1
+                "Other (%)": 1.1,
+                "Pacific peoples (%)": 8.9
             },
             "Primary Language": [
                 "English",
@@ -37,13 +37,13 @@
             "Religion": {
                 "Christianity (%)": 32.3,
                 "Hinduism (%)": 2.9,
-                "no religion (%)": 51.6,
-                "other (%)": 6.3,
-                "undeclared (%)": 6.9
+                "No religion (%)": 51.6,
+                "Other (%)": 6.3
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 5344340.0,

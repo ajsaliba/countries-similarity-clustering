@@ -32,11 +32,12 @@
         <item>Greenlandic</item>
       </Primary_Language>
       <Religion>
-        <Unknown>100</Unknown>
+        <Unknown>100.0</Unknown>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>6049579.0</Count>

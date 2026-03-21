@@ -22,22 +22,23 @@
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 95,
-                "other (%)": 5
+                "African (%)": 95.0,
+                "Other (%)": 5.0
             },
             "Primary Language": [
                 "French",
                 "Haitian Creole"
             ],
             "Religion": {
-                "Christianity (%)": 87,
-                "Haitian Vodou (%)": 2.1,
-                "no religion (%)": 10.7,
-                "other (%)": 0.2
+                "Christianity (%)": 87.0,
+                "Folk/Traditional (%)": 2.1,
+                "No religion (%)": 10.7,
+                "Other (%)": 0.2
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 11470261.0,

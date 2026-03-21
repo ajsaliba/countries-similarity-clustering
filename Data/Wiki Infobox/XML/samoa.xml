@@ -23,23 +23,24 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Euronesians____>7</Euronesians____>
+        <Euronesians____>7.0</Euronesians____>
         <Europeans____>0.3</Europeans____>
+        <Other____>0.1</Other____>
         <Samoans____>92.6</Samoans____>
-        <others____>0.1</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
         <item>Samoan</item>
       </Primary_Language>
       <Religion>
-        <Christianity___official______>97.9</Christianity___official______>
-        <no_religion____>1.7</no_religion____>
-        <others____>0.4</others____>
+        <Christianity____>97.9</Christianity____>
+        <No_religion____>1.7</No_religion____>
+        <Other____>0.4</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Legislative Assembly</Legislature>
     </Government>
     <Population>
       <Count>205557.0</Count>

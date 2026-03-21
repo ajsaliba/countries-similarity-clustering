@@ -39,13 +39,14 @@
                 "Krio"
             ],
             "Religion": {
-                "Christianity (%)": 21,
-                "Islam (%)": 78,
-                "other (%)": 1
+                "Christianity (%)": 21.0,
+                "Islam (%)": 78.0,
+                "Other (%)": 1.0
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 8460512.0,

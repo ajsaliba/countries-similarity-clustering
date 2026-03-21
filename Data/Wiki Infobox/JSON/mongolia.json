@@ -24,7 +24,7 @@
             "Ethnic groups": {
                 "Kazakhs (%)": 3.8,
                 "Mongols (%)": 95.6,
-                "other (%)": 0.6
+                "Other (%)": 0.6
             },
             "Primary Language": [
                 "Mongolian"
@@ -32,14 +32,15 @@
             "Religion": {
                 "Buddhism (%)": 51.7,
                 "Christianity (%)": 1.3,
+                "Folk/Traditional (%)": 2.5,
                 "Islam (%)": 3.2,
                 "No religion (%)": 40.6,
-                "Shamanism (%)": 2.5,
-                "other (%)": 0.7
+                "Other (%)": 0.7
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "State Great Khural"
         },
         "Population": {
             "Count": 3504741.0,

@@ -22,14 +22,14 @@
         },
         "General": {
             "Ethnic groups": {
-                "Antaisaka (%)": 5,
-                "Antandroy (%)": 5,
-                "Betsileo (%)": 12,
-                "Betsimisaraka (%)": 15,
-                "Merina (%)": 26,
-                "Sakalava (%)": 6,
-                "Tsimihety (%)": 7,
-                "others (%)": 24
+                "Antaisaka (%)": 5.0,
+                "Antandroy (%)": 5.0,
+                "Betsileo (%)": 12.0,
+                "Betsimisaraka (%)": 15.0,
+                "Merina (%)": 26.0,
+                "Other (%)": 24.0,
+                "Sakalava (%)": 6.0,
+                "Tsimihety (%)": 7.0
             },
             "Primary Language": [
                 "French",
@@ -37,14 +37,15 @@
             ],
             "Religion": {
                 "Christianity (%)": 84.7,
+                "Folk/Traditional (%)": 4.7,
                 "Islam (%)": 3.1,
-                "no religion (%)": 7.3,
-                "others (%)": 0.3,
-                "traditional faiths (%)": 4.7
+                "No religion (%)": 7.3,
+                "Other (%)": 0.3
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic under a transitional government"
+            "Government": "Unitary semi-presidential republic under a transitional government",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 31964956.0,

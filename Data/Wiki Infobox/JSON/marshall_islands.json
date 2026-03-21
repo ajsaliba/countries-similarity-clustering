@@ -23,7 +23,7 @@
         "General": {
             "Ethnic groups": {
                 "Marshallese (%)": 95.6,
-                "others (%)": 4.4
+                "Other (%)": 4.4
             },
             "Primary Language": [
                 "English",
@@ -31,12 +31,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 96.2,
-                "no religion (%)": 1.1,
-                "others (%)": 2.7
+                "No religion (%)": 1.1,
+                "Other (%)": 2.7
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic with an executive president"
+            "Government": "Unitary parliamentary republic with an executive president",
+            "Legislature": "Nitijela"
         },
         "Population": {
             "Count": 42418.0,

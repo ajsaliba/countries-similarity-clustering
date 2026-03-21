@@ -24,25 +24,25 @@
     <General>
       <Ethnic_groups>
         <Bulgarians____>1.6</Bulgarians____>
-        <Gagauz____>4</Gagauz____>
+        <Gagauz____>4.0</Gagauz____>
         <Moldovans____>76.7</Moldovans____>
-        <Romanians____>8</Romanians____>
+        <Other____>1.1</Other____>
+        <Romanians____>8.0</Romanians____>
         <Russians____>3.4</Russians____>
         <Ukrainians____>5.1</Ukrainians____>
-        <other____>1.1</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Romanian</item>
       </Primary_Language>
       <Religion>
         <Christianity____>97.4</Christianity____>
-        <no_religion____>1.5</no_religion____>
-        <other____>0.3</other____>
-        <unanswered____>0.8</unanswered____>
+        <No_religion____>1.5</No_religion____>
+        <Other____>0.3</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>2381325.0</Count>

@@ -25,8 +25,8 @@
       <Ethnic_groups>
         <Black____>9.2</Black____>
         <Indigenous____>12.3</Indigenous____>
-        <Mestizo__mixed_White_and_Indigenous______>65</Mestizo__mixed_White_and_Indigenous______>
-        <Mulatto__mixed_White_and_Black______>6.8</Mulatto__mixed_White_and_Black______>
+        <Mestizo____>65.0</Mestizo____>
+        <Mulatto____>6.8</Mulatto____>
         <White____>6.7</White____>
       </Ethnic_groups>
       <Primary_Language>
@@ -34,12 +34,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>91.5</Christianity____>
-        <no_religion____>7.6</no_religion____>
-        <other____>0.9</other____>
+        <No_religion____>7.6</No_religion____>
+        <Other____>0.9</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>4337768.0</Count>

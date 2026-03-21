@@ -24,25 +24,26 @@
     <General>
       <Ethnic_groups>
         <Indian_Tamils____>2.8</Indian_Tamils____>
+        <Other____>0.3</Other____>
         <Sinhalese____>74.1</Sinhalese____>
         <Sri_Lankan_Moors____>10.5</Sri_Lankan_Moors____>
         <Sri_Lankan_Tamils____>12.3</Sri_Lankan_Tamils____>
-        <other____>0.3</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Sinhala</item>
         <item>Tamil</item>
       </Primary_Language>
       <Religion>
-        <Buddhism___official______>69.8</Buddhism___official______>
+        <Buddhism____>69.8</Buddhism____>
         <Christianity____>6.9</Christianity____>
         <Hinduism____>12.6</Hinduism____>
         <Islam____>10.7</Islam____>
-        <other_none____>0.1</other_none____>
+        <No_religion____>0.1</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>23300000.0</Count>

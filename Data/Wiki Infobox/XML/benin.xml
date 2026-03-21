@@ -28,10 +28,10 @@
         <Dendi____>2.9</Dendi____>
         <Fon____>38.4</Fon____>
         <Fula____>8.6</Fula____>
+        <Other____>2.8</Other____>
         <Ottamari____>6.1</Ottamari____>
         <Yoa_Lokpa____>4.3</Yoa_Lokpa____>
-        <Yoruba____>12</Yoruba____>
-        <other____>2.8</other____>
+        <Yoruba____>12.0</Yoruba____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
@@ -44,14 +44,15 @@
       </Primary_Language>
       <Religion>
         <Christianity____>52.2</Christianity____>
+        <Folk_Traditional____>17.9</Folk_Traditional____>
         <Islam____>24.6</Islam____>
-        <no_religion____>5.2</no_religion____>
-        <other____>0.1</other____>
-        <traditional_faiths____>17.9</traditional_faiths____>
+        <No_religion____>5.2</No_religion____>
+        <Other____>0.1</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>13754688.0</Count>

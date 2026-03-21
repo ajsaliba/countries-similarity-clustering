@@ -24,21 +24,22 @@
             "Ethnic groups": {
                 "Black (%)": 3.6,
                 "Moreno (%)": 51.6,
-                "White (%)": 43.6,
-                "other (%)": 1.2
+                "Other (%)": 1.2,
+                "White (%)": 43.6
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
                 "Christianity (%)": 92.6,
-                "Spiritism , Birongo (%)": 1.1,
-                "no religion (%)": 5.5,
-                "other (%)": 0.8
+                "Folk/Traditional (%)": 1.1,
+                "No religion (%)": 5.5,
+                "Other (%)": 0.8
             }
         },
         "Government": {
-            "Government": "Federal presidential republic under an authoritarian dictatorship"
+            "Government": "Federal presidential republic under an authoritarian dictatorship",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 31800000.0,

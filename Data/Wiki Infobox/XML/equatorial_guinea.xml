@@ -28,7 +28,7 @@
         <Bujeba____>1.1</Bujeba____>
         <Fang____>85.7</Fang____>
         <Ndowe____>3.6</Ndowe____>
-        <others____>1.1</others____>
+        <Other____>1.1</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>French</item>
@@ -37,14 +37,15 @@
       </Primary_Language>
       <Religion>
         <Christianity____>88.7</Christianity____>
-        <Islam____>4</Islam____>
-        <no_religion____>5</no_religion____>
-        <others____>0.6</others____>
-        <traditional_faiths____>1.7</traditional_faiths____>
+        <Folk_Traditional____>1.7</Folk_Traditional____>
+        <Islam____>4.0</Islam____>
+        <No_religion____>5.0</No_religion____>
+        <Other____>0.6</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic under an authoritarian hereditary dictatorship</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>1795834.0</Count>

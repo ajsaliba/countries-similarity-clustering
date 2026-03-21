@@ -30,11 +30,12 @@
         <item>Portuguese Sign Language</item>
       </Primary_Language>
       <Religion>
-        <Unknown>100</Unknown>
+        <Unknown>100.0</Unknown>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
+      <Legislature>Assembly of the Republic</Legislature>
     </Government>
     <Population>
       <Count>10749635.0</Count>

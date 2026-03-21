@@ -31,15 +31,16 @@
                 "Arabic"
             ],
             "Religion": {
-                "Baháʼí Faith (%)": 0.05,
                 "Christianity (%)": 0.88,
-                "Islam ( official ) (%)": 80.73,
+                "Islam (%)": 80.73,
                 "Judaism (%)": 13.07,
-                "irreligion (%)": 5.27
+                "No religion (%)": 5.27,
+                "Other (%)": 0.05
             }
         },
         "Government": {
-            "Government": "Unitary provisional semi-presidential republic"
+            "Government": "Unitary provisional semi-presidential republic",
+            "Legislature": "Legislative Council"
         },
         "Population": {
             "Count": 5483450.0,

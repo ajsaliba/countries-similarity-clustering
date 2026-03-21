@@ -33,13 +33,13 @@
         <Christianity____>43.9</Christianity____>
         <Hinduism____>2.7</Hinduism____>
         <Islam____>3.2</Islam____>
-        <no_religion____>38.9</no_religion____>
-        <other____>1.7</other____>
-        <unanswered____>7.2</unanswered____>
+        <No_religion____>38.9</No_religion____>
+        <Other____>1.7</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary constitutional monarchy</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>27840775.0</Count>

@@ -31,11 +31,12 @@
                 "Greenlandic"
             ],
             "Religion": {
-                "Unknown": 100
+                "Unknown": 100.0
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 6049579.0,

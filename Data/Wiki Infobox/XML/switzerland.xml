@@ -23,8 +23,8 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Immigrants____>65</Immigrants____>
-        <Migration_status_unknow____>7</Migration_status_unknow____>
+        <Foreign____>27.4</Foreign____>
+        <Swiss____>72.6</Swiss____>
       </Ethnic_groups>
       <Primary_Language>
         <item>French</item>
@@ -35,13 +35,13 @@
       <Religion>
         <Christianity____>54.7</Christianity____>
         <Islam____>6.0</Islam____>
-        <no_religion____>36.8</no_religion____>
-        <other_religions____>1.5</other_religions____>
-        <unanswered____>0.9</unanswered____>
+        <No_religion____>36.8</No_religion____>
+        <Other____>1.5</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal assembly-independent directorial republic</Government>
+      <Legislature>Federal Assembly</Legislature>
     </Government>
     <Population>
       <Count>9060598.0</Count>

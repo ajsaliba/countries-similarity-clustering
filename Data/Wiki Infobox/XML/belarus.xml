@@ -24,10 +24,10 @@
     <General>
       <Ethnic_groups>
         <Belarusians____>84.9</Belarusians____>
+        <Other____>2.8</Other____>
         <Poles____>3.1</Poles____>
         <Russians____>7.5</Russians____>
         <Ukrainians____>1.7</Ukrainians____>
-        <other____>2.8</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Belarusian</item>
@@ -35,12 +35,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>91.0</Christianity____>
-        <no_religion____>7.8</no_religion____>
-        <other____>1.2</other____>
+        <No_religion____>7.8</No_religion____>
+        <Other____>1.2</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under an authoritarian dictatorship</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>9109280.0</Count>

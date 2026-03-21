@@ -26,8 +26,7 @@
         <African____>82.4</African____>
         <Indian____>2.2</Indian____>
         <Mixed____>13.3</Mixed____>
-        <other____>1.3</other____>
-        <unspecified____>0.9</unspecified____>
+        <Other____>1.3</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
@@ -35,11 +34,12 @@
       <Religion>
         <Christianity____>96.6</Christianity____>
         <Hinduism____>1.3</Hinduism____>
-        <no_religion____>1.0</no_religion____>
+        <No_religion____>1.0</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>114621.0</Count>

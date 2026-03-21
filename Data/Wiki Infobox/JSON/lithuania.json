@@ -24,23 +24,23 @@
             "Ethnic groups": {
                 "Belarusians (%)": 2.1,
                 "Lithuanians (%)": 82.3,
+                "Other (%)": 2.2,
                 "Poles (%)": 6.2,
-                "Russians (%)": 5,
-                "Ukrainians (%)": 2.2,
-                "others (%)": 2.2
+                "Russians (%)": 5.0,
+                "Ukrainians (%)": 2.2
             },
             "Primary Language": [
                 "Lithuanian"
             ],
             "Religion": {
                 "Christianity (%)": 79.4,
-                "no answer (%)": 13.7,
-                "no religion (%)": 6.1,
-                "others (%)": 0.8
+                "No religion (%)": 6.1,
+                "Other (%)": 0.8
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "Seimas"
         },
         "Population": {
             "Count": 2897430.0,

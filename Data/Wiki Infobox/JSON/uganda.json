@@ -31,7 +31,7 @@
                 "Iteso (%)": 6.8,
                 "Langi (%)": 5.9,
                 "Lugbara (%)": 2.6,
-                "others (%)": 37.1
+                "Other (%)": 37.1
             },
             "Primary Language": [
                 "English",
@@ -39,14 +39,14 @@
             ],
             "Religion": {
                 "Christianity (%)": 81.7,
-                "Roman Catholic (%)": 42.0,
-                "no religion (%)": 0.2,
-                "others (%)": 1.6,
-                "unclassified (%)": 3.3
+                "Islam (%)": 13.2,
+                "No religion (%)": 0.2,
+                "Other (%)": 4.9
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic under a dictatorship"
+            "Government": "Unitary presidential republic under a dictatorship",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 45905417.0,

@@ -23,23 +23,22 @@
         "General": {
             "Ethnic groups": {
                 "Estonians (%)": 68.5,
+                "Other (%)": 4.6,
                 "Russians (%)": 20.9,
-                "Ukrainians (%)": 5.4,
-                "other (%)": 4.6,
-                "undeclared (%)": 0.6
+                "Ukrainians (%)": 5.4
             },
             "Primary Language": [
                 "Estonian"
             ],
             "Religion": {
                 "Christianity (%)": 26.7,
-                "irreligion (%)": 58.4,
-                "other (%)": 2.1,
-                "undeclared (%)": 12.7
+                "No religion (%)": 58.4,
+                "Other (%)": 2.1
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Riigikogu"
         },
         "Population": {
             "Count": 1362954.0,

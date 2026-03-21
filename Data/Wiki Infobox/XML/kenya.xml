@@ -31,8 +31,8 @@
         <Luo____>10.65</Luo____>
         <Meru____>4.15</Meru____>
         <Mijikenda____>5.23</Mijikenda____>
+        <Other____>13.78</Other____>
         <Somali____>5.85</Somali____>
-        <others____>13.78</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
@@ -40,14 +40,15 @@
       </Primary_Language>
       <Religion>
         <Christianity____>85.5</Christianity____>
+        <Folk_Traditional____>0.7</Folk_Traditional____>
         <Islam____>10.9</Islam____>
-        <no_religion____>1.5</no_religion____>
-        <others____>1.3</others____>
-        <traditional_faiths____>0.7</traditional_faiths____>
+        <No_religion____>1.5</No_religion____>
+        <Other____>1.3</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>53330978.0</Count>

@@ -32,7 +32,7 @@
         <Iteso____>6.8</Iteso____>
         <Langi____>5.9</Langi____>
         <Lugbara____>2.6</Lugbara____>
-        <others____>37.1</others____>
+        <Other____>37.1</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
@@ -40,14 +40,14 @@
       </Primary_Language>
       <Religion>
         <Christianity____>81.7</Christianity____>
-        <Roman_Catholic____>42.0</Roman_Catholic____>
-        <no_religion____>0.2</no_religion____>
-        <others____>1.6</others____>
-        <unclassified____>3.3</unclassified____>
+        <Islam____>13.2</Islam____>
+        <No_religion____>0.2</No_religion____>
+        <Other____>4.9</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic under a dictatorship</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>45905417.0</Count>

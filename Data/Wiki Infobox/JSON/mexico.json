@@ -22,7 +22,7 @@
         },
         "General": {
             "Ethnic groups": {
-                "See below": null
+                "Unknown": 100.0
             },
             "Primary Language": [
                 "Indigenous",
@@ -30,13 +30,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 88.9,
-                "Irreligion (%)": 8.1,
-                "other religion (%)": 2.4,
-                "prefer not to say (%)": 0.5
+                "No religion (%)": 8.1,
+                "Other (%)": 2.4
             }
         },
         "Government": {
-            "Government": "Federal presidential republic"
+            "Government": "Federal presidential republic",
+            "Legislature": "Congress"
         },
         "Population": {
             "Count": 131946900.0,

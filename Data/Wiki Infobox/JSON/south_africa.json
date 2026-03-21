@@ -25,8 +25,8 @@
                 "Black (%)": 81.4,
                 "Coloured (%)": 8.2,
                 "Indian or Asian (%)": 2.7,
-                "White (%)": 7.3,
-                "other (%)": 0.4
+                "Other (%)": 0.4,
+                "White (%)": 7.3
             },
             "Primary Language": [
                 "Afrikaans",
@@ -44,15 +44,16 @@
             ],
             "Religion": {
                 "Christianity (%)": 85.3,
+                "Folk/Traditional (%)": 7.8,
                 "Hinduism (%)": 1.1,
                 "Islam (%)": 1.6,
                 "No religion (%)": 3.1,
-                "Traditional faiths (%)": 7.8,
-                "other (%)": 1.1
+                "Other (%)": 1.1
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic with an executive presidency"
+            "Government": "Unitary parliamentary republic with an executive presidency",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 63015904.0,

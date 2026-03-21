@@ -30,12 +30,13 @@
             "Religion": {
                 "Christianity (%)": 79.4,
                 "Islam (%)": 6.0,
-                "no religion (%)": 9.6,
-                "other (%)": 5.0
+                "No religion (%)": 9.6,
+                "Other (%)": 5.0
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy"
+            "Government": "Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy",
+            "Legislature": "Landtag"
         },
         "Population": {
             "Count": 41232.0,

@@ -23,7 +23,7 @@
         "General": {
             "Ethnic groups": {
                 "Korean (%)": 94.8,
-                "other (%)": 5.2
+                "Other (%)": 5.2
             },
             "Primary Language": [
                 "Korean",
@@ -31,13 +31,14 @@
             ],
             "Religion": {
                 "Buddhism (%)": 17.0,
-                "Catholic (%)": 11.0,
+                "Christianity (%)": 11.0,
                 "No religion (%)": 51.0,
-                "other (%)": 2.0
+                "Other (%)": 2.0
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 52081799.0,

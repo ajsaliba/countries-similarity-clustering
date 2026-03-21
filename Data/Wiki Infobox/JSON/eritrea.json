@@ -45,13 +45,14 @@
                 "Tigrinya"
             ],
             "Religion": {
-                "Christianity (%)": 63,
-                "Islam (%)": 36,
-                "Others (%)": 1
+                "Christianity (%)": 63.0,
+                "Islam (%)": 36.0,
+                "Other (%)": 1.0
             }
         },
         "Government": {
-            "Government": "Unitary one-party presidential republic under a totalitarian dictatorship"
+            "Government": "Unitary one-party presidential republic under a totalitarian dictatorship",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 5000000.0,

@@ -35,11 +35,12 @@
                 "Christianity (%)": 32.3,
                 "Hinduism (%)": 47.9,
                 "Islam (%)": 18.2,
-                "others / none (%)": 1.6
+                "No religion (%)": 1.6
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 1235260.0,

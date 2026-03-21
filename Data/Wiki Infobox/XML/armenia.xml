@@ -24,21 +24,21 @@
     <General>
       <Ethnic_groups>
         <Armenians____>98.1</Armenians____>
+        <Other____>0.8</Other____>
         <Yazidis____>1.1</Yazidis____>
-        <other____>0.8</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Armenian</item>
       </Primary_Language>
       <Religion>
         <Christianity____>96.8</Christianity____>
-        <no_religion____>0.6</no_religion____>
-        <other____>0.9</other____>
-        <unspecified____>1.7</unspecified____>
+        <No_religion____>0.6</No_religion____>
+        <Other____>0.9</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>3081100.0</Count>

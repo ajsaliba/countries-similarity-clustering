@@ -22,22 +22,23 @@
         },
         "General": {
             "Ethnic groups": {
-                "Black (%)": 9,
-                "Indigenous (%)": 5,
-                "Mestizo (mixed White and Indigenous ) (%)": 69,
-                "White (%)": 17
+                "Black (%)": 9.0,
+                "Indigenous (%)": 5.0,
+                "Mestizo (%)": 69.0,
+                "White (%)": 17.0
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
                 "Christianity (%)": 84.4,
-                "no religion (%)": 14.7,
-                "other (%)": 0.9
+                "No religion (%)": 14.7,
+                "Other (%)": 0.9
             }
         },
         "Government": {
-            "Government": "Unitary diarchic presidential socialist republic under an authoritarian dictatorship"
+            "Government": "Unitary diarchic presidential socialist republic under an authoritarian dictatorship",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 6676948.0,

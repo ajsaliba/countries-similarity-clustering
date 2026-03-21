@@ -25,22 +25,23 @@
       <Ethnic_groups>
         <Azerbaijani____>94.8</Azerbaijani____>
         <Lezgin____>1.7</Lezgin____>
+        <Other____>1.9</Other____>
         <Russian____>0.7</Russian____>
         <Talysh____>0.9</Talysh____>
-        <others____>1.9</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Azerbaijani</item>
       </Primary_Language>
       <Religion>
-        <Christianity______>2.6</Christianity______>
+        <Christianity____>2.6</Christianity____>
         <Islam____>97.3</Islam____>
-        <other_religion______>0.1</other_religion______>
-        <unaffiliated____>0.1</unaffiliated____>
+        <No_religion____>0.1</No_religion____>
+        <Other____>0.1</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under an authoritarian hereditary dictatorship</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>10353296.0</Count>

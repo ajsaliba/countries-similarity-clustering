@@ -30,13 +30,14 @@
       </Primary_Language>
       <Religion>
         <Christianity____>81.1</Christianity____>
-        <folk_religions____>3.1</folk_religions____>
-        <no_religion____>13.2</no_religion____>
-        <others____>2.4</others____>
+        <Folk_Traditional____>3.1</Folk_Traditional____>
+        <No_religion____>13.2</No_religion____>
+        <Other____>2.4</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>220372.0</Count>

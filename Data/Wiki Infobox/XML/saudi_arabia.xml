@@ -23,18 +23,19 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Arab_with____>10</Arab_with____>
-        <Close_to____>42</Close_to____>
+        <Foreigners____>44.0</Foreigners____>
+        <Saudi____>56.0</Saudi____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
       </Primary_Language>
       <Religion>
-        <Sunni_Islam>100.0</Sunni_Islam>
+        <Islam____>100.0</Islam____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary Islamic absolute monarchy</Government>
+      <Legislature>Consultative Assembly</Legislature>
     </Government>
     <Population>
       <Count>33702731.0</Count>

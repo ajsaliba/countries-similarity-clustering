@@ -31,12 +31,13 @@
       <Religion>
         <Christianity____>79.4</Christianity____>
         <Islam____>6.0</Islam____>
-        <no_religion____>9.6</no_religion____>
-        <other____>5.0</other____>
+        <No_religion____>9.6</No_religion____>
+        <Other____>5.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy</Government>
+      <Legislature>Landtag</Legislature>
     </Government>
     <Population>
       <Count>41232.0</Count>

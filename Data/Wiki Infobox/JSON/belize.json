@@ -22,7 +22,7 @@
         },
         "General": {
             "Ethnic groups": {
-                "Asian (%)": 1,
+                "Asian (%)": 1.0,
                 "Creole (%)": 25.9,
                 "East Indian (%)": 3.9,
                 "Garifuna (%)": 6.1,
@@ -30,7 +30,6 @@
                 "Mennonite (%)": 3.6,
                 "Mestizo (%)": 52.9,
                 "Other (%)": 1.2,
-                "Unknown (%)": 0.3,
                 "White (%)": 1.2
             },
             "Primary Language": [
@@ -38,12 +37,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 61.9,
-                "no religion (%)": 31.8,
-                "other (%)": 6.3
+                "No religion (%)": 31.8,
+                "Other (%)": 6.3
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 397483.0,

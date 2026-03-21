@@ -22,25 +22,26 @@
         },
         "General": {
             "Ethnic groups": {
-                "Arabs (%)": 3,
-                "Azerbaijanis make up (%)": 24,
-                "Balochis (%)": 2,
-                "Gilaks and Mazanderanis (%)": 8,
-                "Kurds (%)": 7,
-                "Lurs (%)": 2,
-                "Persians make up (%)": 51,
-                "Turkic tribal groups (%)": 1,
-                "Turkmens (%)": 2
+                "Arab (%)": 3.0,
+                "Azerbaijani (%)": 24.0,
+                "Baloch (%)": 2.0,
+                "Gilak and Mazanderani (%)": 8.0,
+                "Kurdish (%)": 7.0,
+                "Lur (%)": 2.0,
+                "Other (%)": 1.0,
+                "Persian (%)": 51.0,
+                "Turkmen (%)": 2.0
             },
             "Primary Language": [
                 "Persian"
             ],
             "Religion": {
-                "Unknown": 100
+                "Unknown": 100.0
             }
         },
         "Government": {
-            "Government": "Unitary presidential theocratic Islamic republic under an authoritarian dictatorship"
+            "Government": "Unitary presidential theocratic Islamic republic under an authoritarian dictatorship",
+            "Legislature": "Islamic Consultative Assembly"
         },
         "Population": {
             "Count": 92417681.0,

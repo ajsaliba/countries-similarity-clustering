@@ -25,12 +25,12 @@
       <Ethnic_groups>
         <German____>1.1</German____>
         <Kazakh____>71.3</Kazakh____>
+        <Other____>5.3</Other____>
         <Russian____>14.6</Russian____>
         <Tatar____>1.1</Tatar____>
         <Ukrainian____>1.8</Ukrainian____>
         <Uyghur____>1.5</Uyghur____>
         <Uzbek____>3.3</Uzbek____>
-        <others____>5.3</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Kazakh</item>
@@ -39,13 +39,13 @@
       <Religion>
         <Christianity____>17.2</Christianity____>
         <Islam____>69.3</Islam____>
-        <no_religion____>2.3</no_religion____>
-        <other____>0.2</other____>
-        <unanswered____>11</unanswered____>
+        <No_religion____>2.3</No_religion____>
+        <Other____>0.2</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic under an authoritarian government</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>20495975.0</Count>

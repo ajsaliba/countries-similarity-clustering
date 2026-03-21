@@ -24,22 +24,20 @@
             "Ethnic groups": {
                 "African (%)": 85.3,
                 "Indian (%)": 2.2,
-                "Mixed (%)": 10.9,
-                "other/ unspecified (%)": 1.6
+                "Mixed (%)": 10.9
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
                 "Christianity (%)": 77.4,
-                "Rastafari (%)": 1.4,
-                "no religion (%)": 14.4,
-                "not stated (%)": 4.1,
-                "other (%)": 2.7
+                "No religion (%)": 14.4,
+                "Other (%)": 4.1
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 184100.0,

@@ -22,14 +22,14 @@
         },
         "General": {
             "Ethnic groups": {
-                "Aimaq (%)": 4,
-                "Baloch (%)": 2,
-                "Hazara (%)": 9,
-                "Pashtun (%)": 42,
-                "Tajik (%)": 27,
-                "Turkmen (%)": 3,
-                "Uzbek (%)": 9,
-                "other (%)": 4
+                "Aimaq (%)": 4.0,
+                "Baloch (%)": 2.0,
+                "Hazara (%)": 9.0,
+                "Other (%)": 4.0,
+                "Pashtun (%)": 42.0,
+                "Tajik (%)": 27.0,
+                "Turkmen (%)": 3.0,
+                "Uzbek (%)": 9.0
             },
             "Primary Language": [
                 "Dari",
@@ -37,11 +37,12 @@
             ],
             "Religion": {
                 "Islam (%)": 99.9,
-                "other (%)": 0.1
+                "Other (%)": 0.1
             }
         },
         "Government": {
-            "Government": "Unitary totalitarian theocratic Islamic emirate"
+            "Government": "Unitary totalitarian theocratic Islamic emirate",
+            "Legislature": "None"
         },
         "Population": {
             "Count": 42500000.0,

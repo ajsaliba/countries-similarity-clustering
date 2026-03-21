@@ -22,22 +22,22 @@
         },
         "General": {
             "Ethnic groups": {
-                "Tongan (%)": 96.5,
-                "others (%)": 3.5
+                "Other (%)": 3.5,
+                "Tongan (%)": 96.5
             },
             "Primary Language": [
                 "English",
                 "Tongan"
             ],
             "Religion": {
-                "Christianity — (%)": 96.9,
-                "no religion (%)": 0.5,
-                "others (%)": 2.4,
-                "unspecified (%)": 0.1
+                "Christianity (%)": 96.9,
+                "No religion (%)": 0.5,
+                "Other (%)": 2.4
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary semi-constitutional monarchy"
+            "Government": "Unitary parliamentary semi-constitutional monarchy",
+            "Legislature": "Legislative Assembly"
         },
         "Population": {
             "Count": 100209.0,

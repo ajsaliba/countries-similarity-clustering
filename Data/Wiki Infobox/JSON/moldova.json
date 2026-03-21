@@ -23,25 +23,25 @@
         "General": {
             "Ethnic groups": {
                 "Bulgarians (%)": 1.6,
-                "Gagauz (%)": 4,
+                "Gagauz (%)": 4.0,
                 "Moldovans (%)": 76.7,
-                "Romanians (%)": 8,
+                "Other (%)": 1.1,
+                "Romanians (%)": 8.0,
                 "Russians (%)": 3.4,
-                "Ukrainians (%)": 5.1,
-                "other (%)": 1.1
+                "Ukrainians (%)": 5.1
             },
             "Primary Language": [
                 "Romanian"
             ],
             "Religion": {
                 "Christianity (%)": 97.4,
-                "no religion (%)": 1.5,
-                "other (%)": 0.3,
-                "unanswered (%)": 0.8
+                "No religion (%)": 1.5,
+                "Other (%)": 0.3
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 2381325.0,

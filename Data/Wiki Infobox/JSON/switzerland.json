@@ -22,8 +22,8 @@
         },
         "General": {
             "Ethnic groups": {
-                "Immigrants (%)": 65,
-                "Migration status unknow (%)": 7
+                "Foreign (%)": 27.4,
+                "Swiss (%)": 72.6
             },
             "Primary Language": [
                 "French",
@@ -34,13 +34,13 @@
             "Religion": {
                 "Christianity (%)": 54.7,
                 "Islam (%)": 6.0,
-                "no religion (%)": 36.8,
-                "other religions (%)": 1.5,
-                "unanswered (%)": 0.9
+                "No religion (%)": 36.8,
+                "Other (%)": 1.5
             }
         },
         "Government": {
-            "Government": "Federal assembly-independent directorial republic"
+            "Government": "Federal assembly-independent directorial republic",
+            "Legislature": "Federal Assembly"
         },
         "Population": {
             "Count": 9060598.0,

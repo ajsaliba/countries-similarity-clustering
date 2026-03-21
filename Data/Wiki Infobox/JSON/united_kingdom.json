@@ -25,8 +25,8 @@
                 "Asian (%)": 8.6,
                 "Black (%)": 3.7,
                 "Mixed (%)": 2.7,
-                "White (%)": 83,
-                "other (%)": 2
+                "Other (%)": 2.0,
+                "White (%)": 83.0
             },
             "Primary Language": [
                 "English"
@@ -34,12 +34,12 @@
             "Religion": {
                 "Christianity (%)": 46.5,
                 "Judaism (%)": 0.4,
-                "not stated (%)": 5.9,
-                "other (%)": 0.6
+                "Other (%)": 0.6
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 69281437.0,

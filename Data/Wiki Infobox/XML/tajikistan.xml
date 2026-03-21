@@ -24,10 +24,10 @@
     <General>
       <Ethnic_groups>
         <Kyrgyz____>0.4</Kyrgyz____>
+        <Other____>1.9</Other____>
         <Russians____>0.3</Russians____>
         <Tajiks____>86.1</Tajiks____>
         <Uzbeks____>11.3</Uzbeks____>
-        <other____>1.9</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Russian</item>
@@ -36,12 +36,13 @@
       <Religion>
         <Christianity____>0.7</Christianity____>
         <Islam____>97.5</Islam____>
-        <irreligion____>1.7</irreligion____>
-        <others____>0.2</others____>
+        <No_religion____>1.7</No_religion____>
+        <Other____>0.2</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic under an authoritarian dictatorship</Government>
+      <Legislature>Supreme Assembly</Legislature>
     </Government>
     <Population>
       <Count>10786734.0</Count>

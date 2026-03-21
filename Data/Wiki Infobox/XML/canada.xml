@@ -30,12 +30,16 @@
         <item>French</item>
       </Primary_Language>
       <Religion>
-        <Christians_overall_representing____>53.3</Christians_overall_representing____>
-        <Roman_Catholics_representing____>29.9</Roman_Catholics_representing____>
+        <Christianity____>53.3</Christianity____>
+        <Hinduism____>2.3</Hinduism____>
+        <Islam____>4.9</Islam____>
+        <No_religion____>34.6</No_religion____>
+        <Other____>4.9</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary constitutional monarchy</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>41575585.0</Count>

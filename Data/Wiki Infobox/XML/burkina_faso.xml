@@ -30,9 +30,8 @@
         <Gurunsi____>5.9</Gurunsi____>
         <Lobi____>1.5</Lobi____>
         <Mossi____>53.7</Mossi____>
+        <Other____>19.8</Other____>
         <Senufo____>2.2</Senufo____>
-        <Tuareg_and_Bella____>0.1</Tuareg_and_Bella____>
-        <or____>5.4</or____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Dyula</item>
@@ -40,14 +39,15 @@
         <item>Moore</item>
       </Primary_Language>
       <Religion>
-        <Animism____>9.0</Animism____>
         <Christianity____>26.3</Christianity____>
+        <Folk_Traditional____>9.0</Folk_Traditional____>
         <Islam____>63.8</Islam____>
-        <irreligion____>0.7</irreligion____>
+        <No_religion____>0.7</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under a military junta</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>22489126.0</Count>

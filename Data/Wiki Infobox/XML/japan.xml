@@ -29,11 +29,12 @@
         <item>Japanese</item>
       </Primary_Language>
       <Religion>
-        <Unknown>100</Unknown>
+        <Unknown>100.0</Unknown>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Legislature>National Diet</Legislature>
     </Government>
     <Population>
       <Count>122950000.0</Count>

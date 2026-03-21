@@ -36,15 +36,16 @@
         <item>Burmese</item>
       </Primary_Language>
       <Religion>
-        <Buddhism___official______>87.9</Buddhism___official______>
+        <Buddhism____>87.9</Buddhism____>
         <Christianity____>6.2</Christianity____>
+        <Folk_Traditional____>0.8</Folk_Traditional____>
         <Islam____>4.3</Islam____>
-        <folk_religion____>0.8</folk_religion____>
-        <other____>0.2</other____>
+        <Other____>0.2</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary assembly-independent republic under a military junta</Government>
+      <Legislature>Pyidaungsu Hluttaw</Legislature>
     </Government>
     <Population>
       <Count>55770232.0</Count>

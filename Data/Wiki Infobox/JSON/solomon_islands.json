@@ -24,23 +24,21 @@
             "Ethnic groups": {
                 "Melanesian (%)": 95.3,
                 "Micronesian (%)": 1.2,
-                "Polynesian (%)": 3.1,
-                "others (%)": 0.4
+                "Other (%)": 0.4,
+                "Polynesian (%)": 3.1
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Catholicism (%)": 19.5,
                 "Christianity (%)": 97.4,
-                "Protestantism (%)": 78.6,
-                "folk religions (%)": 1.2,
-                "other Christian (%)": 1.9,
-                "others / none (%)": 1.4
+                "Folk/Traditional (%)": 1.2,
+                "No religion (%)": 1.4
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "National Parliament"
         },
         "Population": {
             "Count": 828857.0,

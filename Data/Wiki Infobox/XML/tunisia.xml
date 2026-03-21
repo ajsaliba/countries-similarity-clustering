@@ -31,12 +31,13 @@
         <item>Arabic</item>
       </Primary_Language>
       <Religion>
-        <Sunni_Islam____>99</Sunni_Islam____>
-        <others____>1</others____>
+        <Islam____>99.0</Islam____>
+        <Other____>1.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>11972169.0</Count>

@@ -22,9 +22,9 @@
         },
         "General": {
             "Ethnic groups": {
-                "Beidane (%)": 30,
-                "Halpulaar , Fulani , Soninké , and Wolof (%)": 30,
-                "Haratin (%)": 40
+                "Beidane (%)": 30.0,
+                "Haratin (%)": 40.0,
+                "Sub-Saharan African (%)": 30.0
             },
             "Primary Language": [
                 "Arabic",
@@ -33,11 +33,12 @@
                 "Wolof"
             ],
             "Religion": {
-                "Sunni Islam": 100.0
+                "Islam (%)": 100.0
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential Islamic republic"
+            "Government": "Unitary semi-presidential Islamic republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 5461319.0,

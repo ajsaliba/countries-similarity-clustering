@@ -30,15 +30,16 @@
         <item>French</item>
       </Primary_Language>
       <Religion>
-        <Animism____>1.3</Animism____>
         <Christianity____>41.1</Christianity____>
+        <Folk_Traditional____>1.3</Folk_Traditional____>
         <Islam____>55.1</Islam____>
-        <no_religion____>2.4</no_religion____>
-        <others____>0.1</others____>
+        <No_religion____>2.4</No_religion____>
+        <Other____>0.1</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under a hereditary dictatorship</Government>
+      <Legislature>Bicameral parliament</Legislature>
     </Government>
     <Population>
       <Count>19093595.0</Count>

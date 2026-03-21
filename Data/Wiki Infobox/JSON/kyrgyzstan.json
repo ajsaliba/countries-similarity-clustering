@@ -22,9 +22,9 @@
         },
         "General": {
             "Ethnic groups": {
-                "Dungans (%)": 1,
+                "Dungans (%)": 1.0,
                 "Kyrgyz (%)": 77.8,
-                "Others (%)": 2.3,
+                "Other (%)": 2.3,
                 "Russians (%)": 3.7,
                 "Tajiks (%)": 0.9,
                 "Uzbeks (%)": 14.3
@@ -34,13 +34,14 @@
                 "Russian"
             ],
             "Religion": {
-                "Christianity (%)": 8,
-                "Islam (%)": 91,
-                "Others (%)": 1
+                "Christianity (%)": 8.0,
+                "Islam (%)": 91.0,
+                "Other (%)": 1.0
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Supreme Council"
         },
         "Population": {
             "Count": 7400000.0,

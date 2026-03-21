@@ -23,19 +23,19 @@
         "General": {
             "Ethnic groups": {
                 "Kinh Vietnamese (%)": 85.32,
-                "other (%)": 14.68
+                "Other (%)": 14.68
             },
             "Primary Language": [
                 "Vietnamese"
             ],
             "Religion": {
-                "Catholicism (%)": 6.1,
-                "Protestantism (%)": 1.0,
-                "no religion / folk (%)": 86.32
+                "Christianity (%)": 7.1,
+                "No religion (%)": 86.32
             }
         },
         "Government": {
-            "Government": "Unitary communist state"
+            "Government": "Unitary communist state",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 102300000.0,

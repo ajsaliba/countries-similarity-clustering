@@ -25,20 +25,21 @@
                 "Cham (%)": 2.4,
                 "Chinese (%)": 1.5,
                 "Khmer (%)": 95.4,
-                "others (%)": 0.8
+                "Other (%)": 0.8
             },
             "Primary Language": [
                 "Khmer"
             ],
             "Religion": {
-                "Buddhism ( official ) (%)": 96.5,
+                "Buddhism (%)": 96.5,
                 "Christianity (%)": 0.3,
                 "Islam (%)": 2.6,
-                "others (%)": 0.5
+                "Other (%)": 0.5
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional elective monarchy under a hereditary dictatorship"
+            "Government": "Unitary parliamentary constitutional elective monarchy under a hereditary dictatorship",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 17638801.0,

@@ -22,15 +22,13 @@
         },
         "General": {
             "Ethnic groups": {
-                "Asian (%)": 6,
+                "Asian (%)": 6.0,
                 "Black (%)": 12.4,
                 "Hispanic or Latino (%)": 18.7,
+                "Multiracial (%)": 10.2,
                 "Native American (%)": 1.1,
                 "Pacific Islander (%)": 0.2,
-                "White (%)": 61.6,
-                "non- Hispanic or Latino (%)": 81.3,
-                "other By origin (%)": 8.4,
-                "two or more races (%)": 10.2
+                "White (%)": 61.6
             },
             "Primary Language": [
                 "English"
@@ -38,13 +36,13 @@
             "Religion": {
                 "Christianity (%)": 65.0,
                 "Judaism (%)": 2.0,
-                "other religion (%)": 6.0,
-                "unaffiliated (%)": 24.0,
-                "unanswered (%)": 3.0
+                "No religion (%)": 24.0,
+                "Other (%)": 6.0
             }
         },
         "Government": {
-            "Government": "Federal presidential republic"
+            "Government": "Federal presidential republic",
+            "Legislature": "Congress"
         },
         "Population": {
             "Count": 341784857.0,

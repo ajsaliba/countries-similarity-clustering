@@ -23,7 +23,7 @@
         "General": {
             "Ethnic groups": {
                 "Austrians (%)": 72.2,
-                "other (%)": 27.8
+                "Other (%)": 27.8
             },
             "Primary Language": [
                 "German"
@@ -31,12 +31,13 @@
             "Religion": {
                 "Christianity (%)": 68.2,
                 "Islam (%)": 8.3,
-                "no religion (%)": 22.4,
-                "other (%)": 1.1
+                "No religion (%)": 22.4,
+                "Other (%)": 1.1
             }
         },
         "Government": {
-            "Government": "Federal semi-presidential republic"
+            "Government": "Federal semi-presidential republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 9110079.0,

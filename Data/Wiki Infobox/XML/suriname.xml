@@ -23,34 +23,31 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Afro_Surinamese____>37.4</Afro_Surinamese____>
-        <Asian_Surinamese____>42.6</Asian_Surinamese____>
         <Chinese____>1.5</Chinese____>
         <Creole____>15.7</Creole____>
-        <European____>0.3</European____>
         <Hindustani____>27.4</Hindustani____>
         <Indigenous____>3.8</Indigenous____>
         <Javanese____>13.7</Javanese____>
         <Maroon____>21.7</Maroon____>
         <Multiracial____>13.4</Multiracial____>
+        <Other____>2.8</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Dutch</item>
       </Primary_Language>
       <Religion>
-        <Christianity_26_75_Protestantism____>48.4</Christianity_26_75_Protestantism____>
+        <Christianity____>48.4</Christianity____>
+        <Folk_Traditional____>2.6</Folk_Traditional____>
         <Hinduism____>22.3</Hinduism____>
         <Islam____>13.9</Islam____>
         <Judaism____>0.03</Judaism____>
-        <Kejaw_n____>0.8</Kejaw_n____>
-        <Not_stated____>2.04</Not_stated____>
-        <Roman_Catholicism____>21.65</Roman_Catholicism____>
-        <Winti____>1.8</Winti____>
-        <no_religion____>7.52</no_religion____>
+        <No_religion____>7.52</No_religion____>
+        <Other____>5.25</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary assembly-independent presidential republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>632638.0</Count>

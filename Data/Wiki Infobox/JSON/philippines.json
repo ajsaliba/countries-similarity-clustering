@@ -24,11 +24,11 @@
             "Ethnic groups": {
                 "Bicolano (%)": 6.5,
                 "Bisaya (%)": 14.3,
-                "Cebuano (%)": 8,
-                "Ilocano (%)": 8,
+                "Cebuano (%)": 8.0,
+                "Ilocano (%)": 8.0,
                 "Ilonggo (%)": 7.9,
-                "Tagalog (%)": 26,
-                "other (%)": 20.3
+                "Other (%)": 20.3,
+                "Tagalog (%)": 26.0
             },
             "Primary Language": [
                 "English",
@@ -37,11 +37,12 @@
             "Religion": {
                 "Christianity (%)": 85.3,
                 "Islam (%)": 6.4,
-                "other (%)": 8.2
+                "Other (%)": 8.2
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Congress"
         },
         "Population": {
             "Count": 112729484.0,

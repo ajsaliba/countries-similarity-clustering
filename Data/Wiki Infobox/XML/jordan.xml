@@ -31,14 +31,15 @@
         <item>Arabic</item>
       </Primary_Language>
       <Religion>
-        <Christianity____>3</Christianity____>
-        <Druze___Bah_______>1</Druze___Bah_______>
-        <Islam___official______>95</Islam___official______>
-        <others____>1</others____>
+        <Christianity____>3.0</Christianity____>
+        <Druze____>1.0</Druze____>
+        <Islam____>95.0</Islam____>
+        <Other____>1.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>11484805.0</Count>

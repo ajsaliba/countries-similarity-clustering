@@ -29,12 +29,16 @@
                 "French"
             ],
             "Religion": {
-                "Christians overall representing (%)": 53.3,
-                "Roman Catholics representing (%)": 29.9
+                "Christianity (%)": 53.3,
+                "Hinduism (%)": 2.3,
+                "Islam (%)": 4.9,
+                "No religion (%)": 34.6,
+                "Other (%)": 4.9
             }
         },
         "Government": {
-            "Government": "Federal parliamentary constitutional monarchy"
+            "Government": "Federal parliamentary constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 41575585.0,

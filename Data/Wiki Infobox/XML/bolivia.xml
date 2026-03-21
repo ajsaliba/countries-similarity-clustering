@@ -33,12 +33,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>92.8</Christianity____>
-        <no_religion____>6.5</no_religion____>
-        <other____>0.7</other____>
+        <No_religion____>6.5</No_religion____>
+        <Other____>0.7</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Plurinational Legislative Assembly</Legislature>
     </Government>
     <Population>
       <Count>11365333.0</Count>

@@ -25,23 +25,21 @@
       <Ethnic_groups>
         <Melanesian____>95.3</Melanesian____>
         <Micronesian____>1.2</Micronesian____>
+        <Other____>0.4</Other____>
         <Polynesian____>3.1</Polynesian____>
-        <others____>0.4</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
       </Primary_Language>
       <Religion>
-        <Catholicism____>19.5</Catholicism____>
         <Christianity____>97.4</Christianity____>
-        <Protestantism____>78.6</Protestantism____>
-        <folk_religions____>1.2</folk_religions____>
-        <other_Christian____>1.9</other_Christian____>
-        <others___none____>1.4</others___none____>
+        <Folk_Traditional____>1.2</Folk_Traditional____>
+        <No_religion____>1.4</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Legislature>National Parliament</Legislature>
     </Government>
     <Population>
       <Count>828857.0</Count>

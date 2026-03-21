@@ -26,9 +26,8 @@
                 "East Asian (%)": 0.16,
                 "Mestizo (%)": 60.2,
                 "Native (%)": 25.75,
-                "White (%)": 5.89,
-                "no answer (%)": 3.32,
-                "other (%)": 1.1
+                "Other (%)": 1.1,
+                "White (%)": 5.89
             },
             "Primary Language": [
                 "Aymara",
@@ -37,12 +36,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 94.5,
-                "no religion (%)": 5.1,
-                "other (%)": 0.4
+                "No religion (%)": 5.1,
+                "Other (%)": 0.4
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "Congress of the Republic"
         },
         "Population": {
             "Count": 34352720.0,

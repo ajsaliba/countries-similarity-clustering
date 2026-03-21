@@ -22,11 +22,9 @@
         },
         "General": {
             "Ethnic groups": {
-                "Barundi (%)": 100,
-                "Hutu (%)": 85,
-                "Tutsi (%)": 14,
-                "Twa ~ (%)": 1,
-                "other (%)": 1
+                "Hutu (%)": 85.0,
+                "Tutsi (%)": 14.0,
+                "Twa (%)": 1.0
             },
             "Primary Language": [
                 "English",
@@ -35,13 +33,14 @@
             ],
             "Religion": {
                 "Christianity (%)": 93.4,
+                "Folk/Traditional (%)": 4.3,
                 "Islam (%)": 2.1,
-                "other / none (%)": 0.2,
-                "traditional faiths (%)": 4.3
+                "No religion (%)": 0.2
             }
         },
         "Government": {
-            "Government": "Unitary dominant-party presidential republic under an authoritarian dictatorship"
+            "Government": "Unitary dominant-party presidential republic under an authoritarian dictatorship",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 14151540.0,

@@ -37,13 +37,14 @@
             ],
             "Religion": {
                 "Christianity (%)": 60.5,
+                "Folk/Traditional (%)": 32.9,
                 "Islam (%)": 6.2,
-                "others / none (%)": 0.4,
-                "traditional faiths (%)": 32.9
+                "No religion (%)": 0.4
             }
         },
         "Government": {
-            "Government": "Federal presidential republic"
+            "Government": "Federal presidential republic",
+            "Legislature": "Transitional National Legislature"
         },
         "Population": {
             "Count": 12703714.0,

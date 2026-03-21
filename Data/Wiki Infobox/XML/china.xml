@@ -27,22 +27,23 @@
         <Hui____>0.81</Hui____>
         <Manchu____>0.74</Manchu____>
         <Miao____>0.79</Miao____>
+        <Other____>2.44</Other____>
         <Tibetan____>0.5</Tibetan____>
         <Tujia____>0.68</Tujia____>
         <Uyghur____>0.84</Uyghur____>
         <Yi____>0.7</Yi____>
         <Zhuang____>1.39</Zhuang____>
-        <others____>2.44</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Standard Chinese</item>
       </Primary_Language>
       <Religion>
-        <Unknown>100</Unknown>
+        <Unknown>100.0</Unknown>
       </Religion>
     </General>
     <Government>
       <Government>Unitary communist state</Government>
+      <Legislature>National People's Congress</Legislature>
     </Government>
     <Population>
       <Count>1404890000.0</Count>

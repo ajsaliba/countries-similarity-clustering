@@ -25,8 +25,8 @@
                 "Armenians (%)": 4.5,
                 "Azerbaijanis (%)": 6.2,
                 "Georgians (%)": 86.8,
-                "Russians (%)": 0.7,
-                "other (%)": 2.1
+                "Other (%)": 2.1,
+                "Russians (%)": 0.7
             },
             "Primary Language": [
                 "Georgian"
@@ -34,11 +34,12 @@
             "Religion": {
                 "Christianity (%)": 87.3,
                 "Islam (%)": 10.7,
-                "other / none (%)": 2.0
+                "No religion (%)": 2.0
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 3657000.0,

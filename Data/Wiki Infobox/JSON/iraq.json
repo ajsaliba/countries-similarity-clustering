@@ -22,23 +22,23 @@
         },
         "General": {
             "Ethnic groups": {
-                "Arabs 15– (%)": 80,
-                "Assyrians , Turkmen , Jews , Persians , Yazidis , Mandaeans , and others (%)": 10,
-                "Kurds 5– (%)": 20
+                "Arab (%)": 75.0,
+                "Kurdish (%)": 15.0,
+                "Other (%)": 10.0
             },
             "Primary Language": [
                 "Arabic",
                 "Kurdish"
             ],
             "Religion": {
-                "Christianity , Mandaeism , Yazidism , Judaism , Yarsanism , irreligion and others (%)": 10,
-                "Islam ( official ) (%)": 95,
-                "Shia (%)": 61,
-                "Sunni 5– (%)": 35
+                "Christianity (%)": 1.0,
+                "Islam (%)": 95.0,
+                "Other (%)": 4.0
             }
         },
         "Government": {
-            "Government": "Federal parliamentary republic"
+            "Government": "Federal parliamentary republic",
+            "Legislature": "Council of Representatives"
         },
         "Population": {
             "Count": 46118793.0,

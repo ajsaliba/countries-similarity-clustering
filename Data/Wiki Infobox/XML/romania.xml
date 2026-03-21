@@ -23,24 +23,23 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Hungarians____>6</Hungarians____>
+        <Hungarians____>6.0</Hungarians____>
+        <Other____>1.2</Other____>
         <Roma____>3.4</Roma____>
         <Romanians____>89.3</Romanians____>
-        <others____>1.2</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Romanian</item>
       </Primary_Language>
       <Religion>
-        <Christianity____>84.7</Christianity____>
-        <no_religion____>0.8</no_religion____>
-        <other____>0.4</other____>
-        <other_Christian____>0.2</other_Christian____>
-        <unanswered____>13.9</unanswered____>
+        <Christianity____>84.9</Christianity____>
+        <No_religion____>0.8</No_religion____>
+        <Other____>0.4</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>19043151.0</Count>

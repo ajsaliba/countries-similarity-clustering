@@ -23,25 +23,23 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Bangladeshi____>9.5</Bangladeshi____>
         <Egyptian____>10.2</Egyptian____>
-        <Emirati_Arab____>12</Emirati_Arab____>
+        <Emirati____>12.0</Emirati____>
         <Filipino____>6.1</Filipino____>
-        <Indian____>38.2</Indian____>
-        <Pakistani____>9.4</Pakistani____>
+        <Other____>12.3</Other____>
         <South_Asian____>59.4</South_Asian____>
-        <other____>12.4</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
       </Primary_Language>
       <Religion>
         <Christianity____>12.9</Christianity____>
-        <Islam___official______>74.5</Islam___official______>
+        <Islam____>74.5</Islam____>
       </Religion>
     </General>
     <Government>
       <Government>Federal semi-presidential elective semi-constitutional monarchy</Government>
+      <Legislature>Federal Supreme Council</Legislature>
     </Government>
     <Population>
       <Count>11027129.0</Count>

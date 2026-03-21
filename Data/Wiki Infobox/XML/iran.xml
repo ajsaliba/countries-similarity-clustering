@@ -23,25 +23,26 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Arabs____>3</Arabs____>
-        <Azerbaijanis_make_up____>24</Azerbaijanis_make_up____>
-        <Balochis____>2</Balochis____>
-        <Gilaks_and_Mazanderanis____>8</Gilaks_and_Mazanderanis____>
-        <Kurds____>7</Kurds____>
-        <Lurs____>2</Lurs____>
-        <Persians_make_up____>51</Persians_make_up____>
-        <Turkic_tribal_groups____>1</Turkic_tribal_groups____>
-        <Turkmens____>2</Turkmens____>
+        <Arab____>3.0</Arab____>
+        <Azerbaijani____>24.0</Azerbaijani____>
+        <Baloch____>2.0</Baloch____>
+        <Gilak_and_Mazanderani____>8.0</Gilak_and_Mazanderani____>
+        <Kurdish____>7.0</Kurdish____>
+        <Lur____>2.0</Lur____>
+        <Other____>1.0</Other____>
+        <Persian____>51.0</Persian____>
+        <Turkmen____>2.0</Turkmen____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Persian</item>
       </Primary_Language>
       <Religion>
-        <Unknown>100</Unknown>
+        <Unknown>100.0</Unknown>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential theocratic Islamic republic under an authoritarian dictatorship</Government>
+      <Legislature>Islamic Consultative Assembly</Legislature>
     </Government>
     <Population>
       <Count>92417681.0</Count>

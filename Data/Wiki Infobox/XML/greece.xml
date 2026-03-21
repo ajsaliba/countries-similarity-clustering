@@ -32,11 +32,12 @@
         <Christianity____>93.0</Christianity____>
         <Islam____>2.0</Islam____>
         <No_religion____>4.0</No_religion____>
-        <Others____>1.0</Others____>
+        <Other____>1.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Hellenic Parliament</Legislature>
     </Government>
     <Population>
       <Count>10372335.0</Count>

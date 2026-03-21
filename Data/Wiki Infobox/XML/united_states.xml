@@ -23,15 +23,13 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Asian____>6</Asian____>
+        <Asian____>6.0</Asian____>
         <Black____>12.4</Black____>
         <Hispanic_or_Latino____>18.7</Hispanic_or_Latino____>
+        <Multiracial____>10.2</Multiracial____>
         <Native_American____>1.1</Native_American____>
         <Pacific_Islander____>0.2</Pacific_Islander____>
         <White____>61.6</White____>
-        <non__Hispanic_or_Latino____>81.3</non__Hispanic_or_Latino____>
-        <other_By_origin____>8.4</other_By_origin____>
-        <two_or_more_races____>10.2</two_or_more_races____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
@@ -39,13 +37,13 @@
       <Religion>
         <Christianity____>65.0</Christianity____>
         <Judaism____>2.0</Judaism____>
-        <other_religion____>6.0</other_religion____>
-        <unaffiliated____>24.0</unaffiliated____>
-        <unanswered____>3.0</unanswered____>
+        <No_religion____>24.0</No_religion____>
+        <Other____>6.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal presidential republic</Government>
+      <Legislature>Congress</Legislature>
     </Government>
     <Population>
       <Count>341784857.0</Count>

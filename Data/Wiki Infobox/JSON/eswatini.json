@@ -22,9 +22,9 @@
         },
         "General": {
             "Ethnic groups": {
-                "Swazi (%)": 84,
-                "Zulu (%)": 10,
-                "others (%)": 6
+                "Other (%)": 6.0,
+                "Swazi (%)": 84.0,
+                "Zulu (%)": 10.0
             },
             "Primary Language": [
                 "English",
@@ -32,13 +32,14 @@
             ],
             "Religion": {
                 "Christianity (%)": 89.3,
-                "no religion (%)": 7.4,
-                "others (%)": 0.8,
-                "traditional faiths (%)": 2.5
+                "Folk/Traditional (%)": 2.5,
+                "No religion (%)": 7.4,
+                "Other (%)": 0.8
             }
         },
         "Government": {
-            "Government": "Unitary diarchic absolute monarchy"
+            "Government": "Unitary diarchic absolute monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 1236126.0,

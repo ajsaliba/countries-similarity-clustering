@@ -22,9 +22,9 @@
         },
         "General": {
             "Ethnic groups": {
-                "Arabs (%)": 21,
+                "Arabs (%)": 21.0,
                 "Jews (%)": 71.9,
-                "others (%)": 7.1
+                "Other (%)": 7.1
             },
             "Primary Language": [
                 "Hebrew"
@@ -33,11 +33,12 @@
                 "Christianity (%)": 1.9,
                 "Islam (%)": 18.3,
                 "Judaism (%)": 73.7,
-                "others (%)": 4.5
+                "Other (%)": 4.5
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Knesset"
         },
         "Population": {
             "Count": 10147200.0,

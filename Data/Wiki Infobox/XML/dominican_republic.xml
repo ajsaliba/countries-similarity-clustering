@@ -26,22 +26,21 @@
         <Black____>7.45</Black____>
         <East_Asian____>0.33</East_Asian____>
         <Mixed____>71.72</Mixed____>
+        <Other____>0.37</Other____>
         <White____>18.7</White____>
-        <no_answer____>1.43</no_answer____>
-        <other____>0.37</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Spanish</item>
       </Primary_Language>
       <Religion>
         <Christianity____>74.6</Christianity____>
-        <no_religion____>22.0</no_religion____>
-        <other____>1.4</other____>
-        <unspecified____>2.0</unspecified____>
+        <No_religion____>22.0</No_religion____>
+        <Other____>1.4</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Congress</Legislature>
     </Government>
     <Population>
       <Count>11532151.0</Count>

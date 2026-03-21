@@ -22,19 +22,20 @@
         },
         "General": {
             "Ethnic groups": {
-                "See Ethnic groups": null
+                "Unknown": 100.0
             },
             "Primary Language": [
                 "Arabic",
                 "Berber"
             ],
             "Religion": {
-                "Sunni Islam ( official ) < (%)": 99,
-                "others (%)": 1
+                "Islam (%)": 99.0,
+                "Other (%)": 1.0
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 47400000.0,

@@ -30,14 +30,14 @@
       </Primary_Language>
       <Religion>
         <Buddhism____>1.5</Buddhism____>
-        <Chondoism____>13</Chondoism____>
-        <Shamanism____>12</Shamanism____>
-        <no_religion____>73</no_religion____>
-        <other____>0.5</other____>
+        <Folk_Traditional____>25.0</Folk_Traditional____>
+        <No_religion____>73.0</No_religion____>
+        <Other____>0.5</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary communist state</Government>
+      <Legislature>Supreme People's Assembly</Legislature>
     </Government>
     <Population>
       <Count>26298666.0</Count>

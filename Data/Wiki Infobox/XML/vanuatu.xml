@@ -24,7 +24,7 @@
     <General>
       <Ethnic_groups>
         <Ni_Vanuatu____>98.5</Ni_Vanuatu____>
-        <others____>1.5</others____>
+        <Other____>1.5</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Bislama</item>
@@ -32,14 +32,15 @@
         <item>French</item>
       </Primary_Language>
       <Religion>
-        <Animism____>4.6</Animism____>
-        <Bah____Faith____>1.4</Bah____Faith____>
         <Christianity____>93.4</Christianity____>
-        <other___none____>0.6</other___none____>
+        <Folk_Traditional____>4.6</Folk_Traditional____>
+        <No_religion____>0.6</No_religion____>
+        <Other____>1.4</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>335908.0</Count>

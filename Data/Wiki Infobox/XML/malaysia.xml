@@ -26,8 +26,6 @@
         <Bumiputera____>70.5</Bumiputera____>
         <Chinese____>22.9</Chinese____>
         <Indian____>6.6</Indian____>
-        <Malay____>57.3</Malay____>
-        <indigenous_groups_of_Sabah___Sarawak___Orang_Asli_and_other____>13.2</indigenous_groups_of_Sabah___Sarawak___Orang_Asli_and_other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Malay</item>
@@ -35,11 +33,12 @@
       <Religion>
         <Buddhism____>18.7</Buddhism____>
         <Christianity____>9.1</Christianity____>
-        <Islam___official______>63.5</Islam___official______>
+        <Islam____>63.5</Islam____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary constitutional elective monarchy</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>34564810.0</Count>

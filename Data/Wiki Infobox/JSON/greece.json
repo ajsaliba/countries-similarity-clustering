@@ -31,11 +31,12 @@
                 "Christianity (%)": 93.0,
                 "Islam (%)": 2.0,
                 "No religion (%)": 4.0,
-                "Others (%)": 1.0
+                "Other (%)": 1.0
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Hellenic Parliament"
         },
         "Population": {
             "Count": 10372335.0,

@@ -25,23 +25,24 @@
       <Ethnic_groups>
         <Karakalpaks____>2.2</Karakalpaks____>
         <Kazakhs____>2.3</Kazakhs____>
+        <Other____>4.0</Other____>
         <Russians____>2.1</Russians____>
         <Tajiks____>4.8</Tajiks____>
         <Uzbeks____>84.6</Uzbeks____>
-        <others____>4</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Uzbek</item>
       </Primary_Language>
       <Religion>
         <Christianity____>1.04</Christianity____>
-        <Irreligion____>3.89</Irreligion____>
         <Islam____>94.78</Islam____>
-        <other_religions____>0.27</other_religions____>
+        <No_religion____>3.89</No_religion____>
+        <Other____>0.27</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
+      <Legislature>Oliy Majlis</Legislature>
     </Government>
     <Population>
       <Count>38236704.0</Count>

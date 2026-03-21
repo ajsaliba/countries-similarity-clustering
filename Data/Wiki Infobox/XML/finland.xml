@@ -24,7 +24,7 @@
     <General>
       <Ethnic_groups>
         <Finns____>88.9</Finns____>
-        <others____>11.1</others____>
+        <Other____>11.1</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Finland-Swedish Sign Language</item>
@@ -37,12 +37,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>64.2</Christianity____>
-        <no_religion____>34.9</no_religion____>
-        <other____>2.0</other____>
+        <No_religion____>34.9</No_religion____>
+        <Other____>2.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>5635971.0</Count>

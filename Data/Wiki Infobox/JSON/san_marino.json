@@ -28,13 +28,13 @@
                 "Italian"
             ],
             "Religion": {
-                "Catholicism (2022) (%)": 90.3,
-                "Other Christian denominations (2022) (%)": 1.1,
-                "no religion (%)": 7.5
+                "Christianity (%)": 91.4,
+                "No religion (%)": 7.5
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary diarchic directorial republic"
+            "Government": "Unitary parliamentary diarchic directorial republic",
+            "Legislature": "Grand and General Council"
         },
         "Population": {
             "Count": 34172.0,

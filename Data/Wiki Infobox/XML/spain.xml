@@ -29,16 +29,14 @@
         <item>Spanish</item>
       </Primary_Language>
       <Religion>
-        <Roman_Catholicism____>58.6</Roman_Catholicism____>
-        <agnostic____>11.1</agnostic____>
-        <atheist____>13.3</atheist____>
-        <indifferent_or_irreligious____>11.7</indifferent_or_irreligious____>
-        <other_religion____>3.6</other_religion____>
-        <unanswered____>1.7</unanswered____>
+        <Christianity____>58.6</Christianity____>
+        <No_religion____>36.1</No_religion____>
+        <Other____>3.6</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Legislature>Cortes Generales</Legislature>
     </Government>
     <Population>
       <Count>49570725.0</Count>

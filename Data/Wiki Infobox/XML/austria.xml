@@ -24,7 +24,7 @@
     <General>
       <Ethnic_groups>
         <Austrians____>72.2</Austrians____>
-        <other____>27.8</other____>
+        <Other____>27.8</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>German</item>
@@ -32,12 +32,13 @@
       <Religion>
         <Christianity____>68.2</Christianity____>
         <Islam____>8.3</Islam____>
-        <no_religion____>22.4</no_religion____>
-        <other____>1.1</other____>
+        <No_religion____>22.4</No_religion____>
+        <Other____>1.1</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal semi-presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>9110079.0</Count>

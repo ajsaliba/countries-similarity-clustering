@@ -46,13 +46,14 @@
         <item>Tigrinya</item>
       </Primary_Language>
       <Religion>
-        <Christianity____>63</Christianity____>
-        <Islam____>36</Islam____>
-        <Others____>1</Others____>
+        <Christianity____>63.0</Christianity____>
+        <Islam____>36.0</Islam____>
+        <Other____>1.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary one-party presidential republic under a totalitarian dictatorship</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>5000000.0</Count>

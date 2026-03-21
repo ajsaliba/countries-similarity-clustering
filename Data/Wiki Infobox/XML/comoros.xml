@@ -25,7 +25,7 @@
       <Ethnic_groups>
         <Comorians____>97.1</Comorians____>
         <Makua____>1.6</Makua____>
-        <Others____>1.3</Others____>
+        <Other____>1.3</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
@@ -33,11 +33,12 @@
         <item>French</item>
       </Primary_Language>
       <Religion>
-        <Unknown>100</Unknown>
+        <Unknown>100.0</Unknown>
       </Religion>
     </General>
     <Government>
       <Government>Federal presidential republic</Government>
+      <Legislature>Assembly of the Union</Legislature>
     </Government>
     <Population>
       <Count>883075.0</Count>

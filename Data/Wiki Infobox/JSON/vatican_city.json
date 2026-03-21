@@ -29,11 +29,12 @@
                 "Latin"
             ],
             "Religion": {
-                "Catholicism": 100.0
+                "Christianity (%)": 100.0
             }
         },
         "Government": {
-            "Government": "Theocratic elective absolute monarchy"
+            "Government": "Theocratic elective absolute monarchy",
+            "Legislature": "Pontifical Commission"
         },
         "Population": {
             "Count": 882.0,

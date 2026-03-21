@@ -40,13 +40,14 @@
         <item>Krio</item>
       </Primary_Language>
       <Religion>
-        <Christianity____>21</Christianity____>
-        <Islam____>78</Islam____>
-        <other____>1</other____>
+        <Christianity____>21.0</Christianity____>
+        <Islam____>78.0</Islam____>
+        <Other____>1.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>8460512.0</Count>

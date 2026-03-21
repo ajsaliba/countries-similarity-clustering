@@ -22,34 +22,31 @@
         },
         "General": {
             "Ethnic groups": {
-                "Afro-Surinamese (%)": 37.4,
-                "Asian Surinamese (%)": 42.6,
                 "Chinese (%)": 1.5,
                 "Creole (%)": 15.7,
-                "European (%)": 0.3,
                 "Hindustani (%)": 27.4,
                 "Indigenous (%)": 3.8,
                 "Javanese (%)": 13.7,
                 "Maroon (%)": 21.7,
-                "Multiracial (%)": 13.4
+                "Multiracial (%)": 13.4,
+                "Other (%)": 2.8
             },
             "Primary Language": [
                 "Dutch"
             ],
             "Religion": {
-                "Christianity 26.75 Protestantism (%)": 48.4,
+                "Christianity (%)": 48.4,
+                "Folk/Traditional (%)": 2.6,
                 "Hinduism (%)": 22.3,
                 "Islam (%)": 13.9,
                 "Judaism (%)": 0.03,
-                "Kejawèn (%)": 0.8,
-                "Not stated (%)": 2.04,
-                "Roman Catholicism (%)": 21.65,
-                "Winti (%)": 1.8,
-                "no religion (%)": 7.52
+                "No religion (%)": 7.52,
+                "Other (%)": 5.25
             }
         },
         "Government": {
-            "Government": "Unitary assembly-independent presidential republic"
+            "Government": "Unitary assembly-independent presidential republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 632638.0,

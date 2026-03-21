@@ -24,7 +24,7 @@
     <General>
       <Ethnic_groups>
         <Maltese____>77.7</Maltese____>
-        <other_ethnic_groups____>22.3</other_ethnic_groups____>
+        <Other____>22.3</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
@@ -33,12 +33,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>88.5</Christianity____>
-        <no_religion____>5.1</no_religion____>
-        <other____>1.1</other____>
+        <No_religion____>5.1</No_religion____>
+        <Other____>1.1</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Parliament of Malta</Legislature>
     </Government>
     <Population>
       <Count>519562.0</Count>

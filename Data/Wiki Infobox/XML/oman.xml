@@ -31,11 +31,12 @@
       <Religion>
         <Christianity____>1.67</Christianity____>
         <Hinduism____>1.67</Hinduism____>
-        <Islam___official______>95.0</Islam___official______>
+        <Islam____>95.0</Islam____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary Islamic absolute monarchy</Government>
+      <Legislature>Council of Oman</Legislature>
     </Government>
     <Population>
       <Count>5494691.0</Count>

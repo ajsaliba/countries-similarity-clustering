@@ -29,14 +29,14 @@
             ],
             "Religion": {
                 "Buddhism (%)": 1.5,
-                "Chondoism (%)": 13,
-                "Shamanism (%)": 12,
-                "no religion (%)": 73,
-                "other (%)": 0.5
+                "Folk/Traditional (%)": 25.0,
+                "No religion (%)": 73.0,
+                "Other (%)": 0.5
             }
         },
         "Government": {
-            "Government": "Unitary communist state"
+            "Government": "Unitary communist state",
+            "Legislature": "Supreme People's Assembly"
         },
         "Population": {
             "Count": 26298666.0,

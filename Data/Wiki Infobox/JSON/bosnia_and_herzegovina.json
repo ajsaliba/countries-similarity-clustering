@@ -22,7 +22,7 @@
         },
         "General": {
             "Ethnic groups": {
-                "Bosniaks constitute (%)": 50.1,
+                "Bosniaks (%)": 50.1,
                 "Croats (%)": 15.5,
                 "Serbs (%)": 30.8
             },
@@ -34,11 +34,12 @@
             "Religion": {
                 "Christianity (%)": 46.1,
                 "Islam (%)": 51.3,
-                "Others (%)": 2.6
+                "Other (%)": 2.6
             }
         },
         "Government": {
-            "Government": "Federal parliamentary directorial republic"
+            "Government": "Federal parliamentary directorial republic",
+            "Legislature": "Parliamentary Assembly"
         },
         "Population": {
             "Count": 2904256.0,

@@ -28,10 +28,10 @@
         <Gurma____>0.8</Gurma____>
         <Hausa____>53.1</Hausa____>
         <Kanuri____>5.9</Kanuri____>
+        <Other____>0.9</Other____>
         <Toubou____>0.4</Toubou____>
-        <Tuareg____>11</Tuareg____>
+        <Tuareg____>11.0</Tuareg____>
         <Zarma_and_Songhay____>21.2</Zarma_and_Songhay____>
-        <others____>0.9</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
@@ -49,11 +49,12 @@
       <Religion>
         <Christianity____>0.3</Christianity____>
         <Islam____>99.3</Islam____>
-        <irreligion____>0.1</irreligion____>
+        <No_religion____>0.1</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under a military junta</Government>
+      <Legislature>National Council for the Safeguard of the Homeland</Legislature>
     </Government>
     <Population>
       <Count>26342784.0</Count>

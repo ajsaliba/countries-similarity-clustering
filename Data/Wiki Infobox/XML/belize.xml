@@ -23,7 +23,7 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Asian____>1</Asian____>
+        <Asian____>1.0</Asian____>
         <Creole____>25.9</Creole____>
         <East_Indian____>3.9</East_Indian____>
         <Garifuna____>6.1</Garifuna____>
@@ -31,7 +31,6 @@
         <Mennonite____>3.6</Mennonite____>
         <Mestizo____>52.9</Mestizo____>
         <Other____>1.2</Other____>
-        <Unknown____>0.3</Unknown____>
         <White____>1.2</White____>
       </Ethnic_groups>
       <Primary_Language>
@@ -39,12 +38,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>61.9</Christianity____>
-        <no_religion____>31.8</no_religion____>
-        <other____>6.3</other____>
+        <No_religion____>31.8</No_religion____>
+        <Other____>6.3</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>397483.0</Count>

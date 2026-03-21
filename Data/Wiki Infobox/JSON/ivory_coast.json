@@ -22,29 +22,27 @@
         },
         "General": {
             "Ethnic groups": {
-                "Akan (%)": 38,
-                "Ivorian (%)": 78,
+                "Akan (%)": 38.0,
                 "Kru (%)": 9.1,
-                "Naturalized Ivorian (%)": 0.3,
-                "Northern Mande (%)": 22,
+                "Northern Mande (%)": 22.0,
+                "Other (%)": 0.3,
                 "Southern Mande (%)": 8.6,
-                "Voltaiques/Gur (%)": 22,
-                "non-Ivorian a (%)": 22
+                "Voltaiques/Gur (%)": 22.0
             },
             "Primary Language": [
                 "French"
             ],
             "Religion": {
                 "Christianity (%)": 39.8,
+                "Folk/Traditional (%)": 2.2,
                 "Islam (%)": 42.5,
-                "no religion (%)": 12.6,
-                "other religions (%)": 0.7,
-                "traditional faiths (%)": 2.2,
-                "unanswered (%)": 2.2
+                "No religion (%)": 12.6,
+                "Other (%)": 0.7
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic under an authoritarian regime"
+            "Government": "Unitary presidential republic under an authoritarian regime",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 31500000.0,

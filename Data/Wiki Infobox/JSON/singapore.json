@@ -36,16 +36,16 @@
             "Religion": {
                 "Buddhism (%)": 31.1,
                 "Christianity (%)": 18.9,
-                "Hinduism (%)": 5,
+                "Folk/Traditional (%)": 8.8,
+                "Hinduism (%)": 5.0,
                 "Islam (%)": 15.6,
-                "No religion (%)": 20,
-                "Other (%)": 0.3,
-                "Sikhism (%)": 0.3,
-                "Taoism (%)": 8.8
+                "No religion (%)": 20.0,
+                "Other (%)": 0.6
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 6110200.0,

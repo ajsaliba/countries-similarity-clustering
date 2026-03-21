@@ -23,21 +23,21 @@
         "General": {
             "Ethnic groups": {
                 "Armenians (%)": 98.1,
-                "Yazidis (%)": 1.1,
-                "other (%)": 0.8
+                "Other (%)": 0.8,
+                "Yazidis (%)": 1.1
             },
             "Primary Language": [
                 "Armenian"
             ],
             "Religion": {
                 "Christianity (%)": 96.8,
-                "no religion (%)": 0.6,
-                "other (%)": 0.9,
-                "unspecified (%)": 1.7
+                "No religion (%)": 0.6,
+                "Other (%)": 0.9
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 3081100.0,

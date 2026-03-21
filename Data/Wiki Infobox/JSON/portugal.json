@@ -29,11 +29,12 @@
                 "Portuguese Sign Language"
             ],
             "Religion": {
-                "Unknown": 100
+                "Unknown": 100.0
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "Assembly of the Republic"
         },
         "Population": {
             "Count": 10749635.0,

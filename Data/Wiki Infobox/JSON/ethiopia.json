@@ -28,11 +28,11 @@
                 "Gurage (%)": 2.5,
                 "Hadiya (%)": 1.7,
                 "Oromo (%)": 34.5,
-                "Sidama (%)": 4,
+                "Other (%)": 12.6,
+                "Sidama (%)": 4.0,
                 "Somali (%)": 6.2,
                 "Tigrayan (%)": 6.1,
-                "Welayta (%)": 2.3,
-                "others (%)": 12.6
+                "Welayta (%)": 2.3
             },
             "Primary Language": [
                 "Afar",
@@ -43,13 +43,14 @@
             ],
             "Religion": {
                 "Christianity (%)": 67.3,
+                "Folk/Traditional (%)": 0.6,
                 "Islam (%)": 31.3,
-                "others / none (%)": 0.8,
-                "traditional faiths (%)": 0.6
+                "No religion (%)": 0.8
             }
         },
         "Government": {
-            "Government": "Federal parliamentary republic under an authoritarian government"
+            "Government": "Federal parliamentary republic under an authoritarian government",
+            "Legislature": "Federal Parliamentary Assembly"
         },
         "Population": {
             "Count": 135500000.0,

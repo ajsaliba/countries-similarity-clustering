@@ -25,22 +25,23 @@
                 "Belarusians (%)": 2.9,
                 "Latvians (%)": 65.5,
                 "Lithuanians (%)": 1.1,
+                "Other (%)": 1.6,
                 "Poles (%)": 1.9,
                 "Russians (%)": 24.1,
-                "Ukrainians (%)": 2.9,
-                "others (%)": 1.6
+                "Ukrainians (%)": 2.9
             },
             "Primary Language": [
                 "Latvian"
             ],
             "Religion": {
                 "Christianity (%)": 64.0,
-                "no religion (%)": 35.0,
-                "others (%)": 1.0
+                "No religion (%)": 35.0,
+                "Other (%)": 1.0
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Saeima"
         },
         "Population": {
             "Count": 1842226.0,

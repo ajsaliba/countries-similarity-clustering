@@ -23,7 +23,7 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <See_below/>
+        <Unknown>100.0</Unknown>
       </Ethnic_groups>
       <Primary_Language>
         <item>Indigenous</item>
@@ -31,13 +31,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>88.9</Christianity____>
-        <Irreligion____>8.1</Irreligion____>
-        <other_religion____>2.4</other_religion____>
-        <prefer_not_to_say____>0.5</prefer_not_to_say____>
+        <No_religion____>8.1</No_religion____>
+        <Other____>2.4</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal presidential republic</Government>
+      <Legislature>Congress</Legislature>
     </Government>
     <Population>
       <Count>131946900.0</Count>

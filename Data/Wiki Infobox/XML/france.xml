@@ -29,14 +29,15 @@
         <item>French</item>
       </Primary_Language>
       <Religion>
-        <Christianity____>50</Christianity____>
-        <Islam____>4</Islam____>
-        <irreligion____>33</irreligion____>
-        <other_religions____>4</other_religions____>
+        <Christianity____>50.0</Christianity____>
+        <Islam____>4.0</Islam____>
+        <No_religion____>33.0</No_religion____>
+        <Other____>4.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>69081996.0</Count>

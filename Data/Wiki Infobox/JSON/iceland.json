@@ -23,23 +23,23 @@
         "General": {
             "Ethnic groups": {
                 "Filipino (%)": 0.8,
-                "Icelandic (%)": 86,
-                "Lithuanian (%)": 1,
-                "Polish (%)": 6,
-                "other (%)": 7
+                "Icelandic (%)": 86.0,
+                "Lithuanian (%)": 1.0,
+                "Other (%)": 7.0,
+                "Polish (%)": 6.0
             },
             "Primary Language": [
                 "Icelandic"
             ],
             "Religion": {
                 "Christianity (%)": 72.4,
-                "no religion (%)": 25.2,
-                "other (%)": 0.9,
-                "Ásatrúarfélagið (%)": 1.5
+                "No religion (%)": 25.2,
+                "Other (%)": 2.4
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Althing"
         },
         "Population": {
             "Count": 394530.0,

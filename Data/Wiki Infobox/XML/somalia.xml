@@ -23,18 +23,19 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Somali____>85</Somali____>
-        <other____>15</other____>
+        <Other____>15.0</Other____>
+        <Somali____>85.0</Somali____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Somali</item>
       </Primary_Language>
       <Religion>
-        <Sunni_Islam>100.0</Sunni_Islam>
+        <Islam____>100.0</Islam____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary republic</Government>
+      <Legislature>Federal Parliament</Legislature>
     </Government>
     <Population>
       <Count>19280850.0</Count>

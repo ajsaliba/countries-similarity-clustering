@@ -23,22 +23,23 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Black____>9</Black____>
-        <Indigenous____>5</Indigenous____>
-        <Mestizo__mixed_White_and_Indigenous______>69</Mestizo__mixed_White_and_Indigenous______>
-        <White____>17</White____>
+        <Black____>9.0</Black____>
+        <Indigenous____>5.0</Indigenous____>
+        <Mestizo____>69.0</Mestizo____>
+        <White____>17.0</White____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Spanish</item>
       </Primary_Language>
       <Religion>
         <Christianity____>84.4</Christianity____>
-        <no_religion____>14.7</no_religion____>
-        <other____>0.9</other____>
+        <No_religion____>14.7</No_religion____>
+        <Other____>0.9</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary diarchic presidential socialist republic under an authoritarian dictatorship</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>6676948.0</Count>

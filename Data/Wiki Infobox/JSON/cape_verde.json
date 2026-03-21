@@ -31,11 +31,12 @@
             "Religion": {
                 "Christianity (%)": 81.7,
                 "Islam (%)": 1.3,
-                "no religion (%)": 15.6
+                "No religion (%)": 15.6
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 491233.0,

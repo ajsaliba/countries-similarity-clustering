@@ -25,21 +25,22 @@
       <Ethnic_groups>
         <Black____>0.1</Black____>
         <Indigenous____>0.2</Indigenous____>
-        <Mestizo__mixed_White_and_Indigenous______>86.3</Mestizo__mixed_White_and_Indigenous______>
+        <Mestizo____>86.3</Mestizo____>
+        <Other____>0.6</Other____>
         <White____>12.7</White____>
-        <other____>0.6</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Spanish</item>
       </Primary_Language>
       <Religion>
         <Christianity____>81.5</Christianity____>
-        <no_religion____>17.0</no_religion____>
-        <other____>1.5</other____>
+        <No_religion____>17.0</No_religion____>
+        <Other____>1.5</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Legislative Assembly</Legislature>
     </Government>
     <Population>
       <Count>6029976.0</Count>

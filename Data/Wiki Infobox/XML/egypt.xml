@@ -30,11 +30,15 @@
         <item>Egyptian Arabic</item>
       </Primary_Language>
       <Religion>
-        <See_Religion_in_Egypt>100.0</See_Religion_in_Egypt>
+        <Christianity____>50.0</Christianity____>
+        <Folk_Traditional____>33.0</Folk_Traditional____>
+        <Islam____>16.0</Islam____>
+        <Other____>1.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under an authoritarian government</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>107868296.0</Count>

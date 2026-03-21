@@ -28,21 +28,22 @@
         <Kpelle____>7.8</Kpelle____>
         <Loma____>1.6</Loma____>
         <Mandinka____>29.4</Mandinka____>
+        <Other____>0.4</Other____>
         <Susu____>21.2</Susu____>
-        <others____>0.4</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>French</item>
       </Primary_Language>
       <Religion>
         <Christianity____>13.4</Christianity____>
+        <Folk_Traditional____>0.2</Folk_Traditional____>
         <Islam____>85.2</Islam____>
-        <animism____>0.2</animism____>
-        <none____>1.2</none____>
+        <No_religion____>1.2</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic under a dictatorship</Government>
+      <Legislature>National Council of the Transition</Legislature>
     </Government>
     <Population>
       <Count>13986179.0</Count>

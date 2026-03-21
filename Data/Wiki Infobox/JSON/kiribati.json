@@ -23,20 +23,21 @@
         "General": {
             "Ethnic groups": {
                 "Gilbertese (%)": 95.7,
-                "other (%)": 4.3
+                "Other (%)": 4.3
             },
             "Primary Language": [
                 "English",
                 "Gilbertese"
             ],
             "Religion": {
-                "Bahá'í Faith (%)": 2.1,
                 "Christianity (%)": 96.2,
-                "other / none (%)": 1.7
+                "No religion (%)": 1.7,
+                "Other (%)": 2.1
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic with an executive president"
+            "Government": "Unitary parliamentary republic with an executive president",
+            "Legislature": "House of Assembly"
         },
         "Population": {
             "Count": 116545.0,

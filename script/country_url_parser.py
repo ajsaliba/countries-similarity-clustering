@@ -281,8 +281,8 @@ class CountryInfoboxExtractor:
             if not any(allowed in key_lower for allowed in self._allowed_general_fields):
                 return True
         if section == "Government":
-            # Only keep the government type field, exclude all others
-            if key_lower != self.government_only_field:
+            # Only keep the government type and legislature fields
+            if key_lower not in (self.government_only_field, "legislature"):
                 return True
         if section == "Area":
             if any(excl in key_lower for excl in self._excluded_area_fields):

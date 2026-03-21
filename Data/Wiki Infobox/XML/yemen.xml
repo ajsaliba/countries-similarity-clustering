@@ -25,22 +25,21 @@
       <Ethnic_groups>
         <Afro_Arabs____>1.1</Afro_Arabs____>
         <Arabs____>92.8</Arabs____>
-        <Indo___Pakistani____>1</Indo___Pakistani____>
+        <Indo___Pakistani____>1.0</Indo___Pakistani____>
+        <Other____>1.4</Other____>
         <Somalis____>3.7</Somalis____>
-        <other____>1.4</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
       </Primary_Language>
       <Religion>
-        <Islam___official______>99.1</Islam___official______>
-        <Sunni____>65</Sunni____>
-        <Zaydi______>35</Zaydi______>
-        <other____>0.9</other____>
+        <Islam____>99.0</Islam____>
+        <Other____>1.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under a provisional government</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>32684503.0</Count>

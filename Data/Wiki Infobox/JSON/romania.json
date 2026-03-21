@@ -22,24 +22,23 @@
         },
         "General": {
             "Ethnic groups": {
-                "Hungarians (%)": 6,
+                "Hungarians (%)": 6.0,
+                "Other (%)": 1.2,
                 "Roma (%)": 3.4,
-                "Romanians (%)": 89.3,
-                "others (%)": 1.2
+                "Romanians (%)": 89.3
             },
             "Primary Language": [
                 "Romanian"
             ],
             "Religion": {
-                "Christianity (%)": 84.7,
-                "no religion (%)": 0.8,
-                "other (%)": 0.4,
-                "other Christian (%)": 0.2,
-                "unanswered (%)": 13.9
+                "Christianity (%)": 84.9,
+                "No religion (%)": 0.8,
+                "Other (%)": 0.4
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 19043151.0,

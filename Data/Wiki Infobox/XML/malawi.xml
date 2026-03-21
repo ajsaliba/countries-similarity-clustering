@@ -29,26 +29,27 @@
         <Mang_anja____>3.8</Mang_anja____>
         <Ngonde____>1.5</Ngonde____>
         <Ngoni____>6.4</Ngoni____>
+        <Other____>1.1</Other____>
         <Sena____>5.9</Sena____>
         <Sukwa____>0.5</Sukwa____>
         <Tonga____>1.8</Tonga____>
         <Tumbuka____>20.4</Tumbuka____>
         <Yao____>15.3</Yao____>
-        <other____>1.1</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
       </Primary_Language>
       <Religion>
         <Christianity____>82.3</Christianity____>
+        <Folk_Traditional____>1.2</Folk_Traditional____>
         <Islam____>13.8</Islam____>
-        <none____>2.1</none____>
-        <other____>0.6</other____>
-        <traditional_faiths____>1.2</traditional_faiths____>
+        <No_religion____>2.1</No_religion____>
+        <Other____>0.6</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>21240689.0</Count>

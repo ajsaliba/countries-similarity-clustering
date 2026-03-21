@@ -23,23 +23,23 @@
         "General": {
             "Ethnic groups": {
                 "African (%)": 90.6,
-                "White (%)": 4.7,
-                "mixed (%)": 2.1,
-                "other (%)": 1.9,
-                "unspecified (%)": 0.7
+                "Mixed (%)": 2.1,
+                "Other (%)": 1.9,
+                "White (%)": 4.7
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
                 "Christianity (%)": 93.0,
-                "folk religions (%)": 1.9,
-                "no religion (%)": 4.5,
-                "other (%)": 0.6
+                "Folk/Traditional (%)": 1.9,
+                "No religion (%)": 4.5,
+                "Other (%)": 0.6
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 412628.0,

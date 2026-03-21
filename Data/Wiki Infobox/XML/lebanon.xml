@@ -23,25 +23,23 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Arab____>95</Arab____>
-        <Armenian____>4</Armenian____>
-        <others____>1</others____>
+        <Arab____>95.0</Arab____>
+        <Armenian____>4.0</Armenian____>
+        <Other____>1.0</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
       </Primary_Language>
       <Religion>
-        <Alawite____>0.64</Alawite____>
         <Christianity____>41.4</Christianity____>
         <Druze____>5.21</Druze____>
         <Islam____>53.31</Islam____>
         <No_religion____>0.08</No_religion____>
-        <Shia____>26.84</Shia____>
-        <Sunni____>26.55</Sunni____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic under confessionalism</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>5364482.0</Count>

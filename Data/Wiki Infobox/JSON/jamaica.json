@@ -26,22 +26,21 @@
                 "Chinese (%)": 1.2,
                 "Indian (%)": 3.4,
                 "Mixed (%)": 15.1,
-                "White (%)": 3.2,
-                "others (%)": 0.8
+                "Other (%)": 0.8,
+                "White (%)": 3.2
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
                 "Christianity (%)": 68.9,
-                "Rastafari (%)": 1.1,
-                "no religion (%)": 21.3,
-                "other (%)": 6.5,
-                "unanswered (%)": 2.3
+                "No religion (%)": 21.3,
+                "Other (%)": 7.6
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 2824913.0,

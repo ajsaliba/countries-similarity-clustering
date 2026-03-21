@@ -31,12 +31,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 53.0,
-                "no religion (%)": 38.0,
-                "other (%)": 9.0
+                "No religion (%)": 38.0,
+                "Other (%)": 9.0
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Chamber of Deputies"
         },
         "Population": {
             "Count": 690947.0,

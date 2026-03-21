@@ -22,25 +22,19 @@
         },
         "General": {
             "Ethnic groups": {
-                "Bass (%)": 13.4,
-                "Belle (%)": 0.8,
-                "Dey (%)": 0.8,
-                "Gbandi (%)": 3,
-                "Gio (%)": 10,
-                "Gol (%)": 4.4,
-                "Grebo (%)": 10,
+                "Bassa (%)": 13.4,
+                "Gbandi (%)": 3.0,
+                "Gio (%)": 10.0,
+                "Gola (%)": 4.4,
+                "Grebo (%)": 10.0,
                 "Kissi (%)": 4.8,
-                "Krah (%)": 4,
+                "Kpelle (%)": 20.3,
                 "Kru (%)": 7.9,
-                "Lorm (%)": 5.1,
-                "Mandink (%)": 3.2,
+                "Lorma (%)": 5.1,
+                "Mandinka (%)": 3.2,
                 "Mano (%)": 7.9,
-                "Mende (%)": 1.3,
-                "Non Afric (%)": 0.1,
-                "Other Afric (%)": 1.4,
-                "Other Liberi (%)": 0.6,
-                "Sapo (%)": 1.2,
-                "Vai (%)": 4
+                "Other (%)": 6.0,
+                "Vai (%)": 4.0
             },
             "Primary Language": [
                 "English"
@@ -48,11 +42,12 @@
             "Religion": {
                 "Christianity (%)": 85.1,
                 "Islam (%)": 12.2,
-                "no religion (%)": 1.4
+                "No religion (%)": 1.4
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Legislature of Liberia"
         },
         "Population": {
             "Count": 5437249.0,

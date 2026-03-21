@@ -23,7 +23,7 @@
         "General": {
             "Ethnic groups": {
                 "Ni-Vanuatu (%)": 98.5,
-                "others (%)": 1.5
+                "Other (%)": 1.5
             },
             "Primary Language": [
                 "Bislama",
@@ -31,14 +31,15 @@
                 "French"
             ],
             "Religion": {
-                "Animism (%)": 4.6,
-                "Baháʼí Faith (%)": 1.4,
                 "Christianity (%)": 93.4,
-                "other / none (%)": 0.6
+                "Folk/Traditional (%)": 4.6,
+                "No religion (%)": 0.6,
+                "Other (%)": 1.4
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 335908.0,

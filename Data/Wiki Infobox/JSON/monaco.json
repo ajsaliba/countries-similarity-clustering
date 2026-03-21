@@ -22,7 +22,14 @@
         },
         "General": {
             "Ethnic groups": {
-                "Monégasques French Italians Occitans": null
+                "Belgian (%)": 3.0,
+                "British (%)": 8.0,
+                "French (%)": 29.0,
+                "German (%)": 3.0,
+                "Italian (%)": 19.0,
+                "Monégasque (%)": 22.0,
+                "Other (%)": 14.0,
+                "Swiss (%)": 2.0
             },
             "Primary Language": [
                 "French"
@@ -31,11 +38,12 @@
                 "Christianity (%)": 86.0,
                 "Islam (%)": 0.4,
                 "Judaism (%)": 1.7,
-                "no religion (%)": 11.7
+                "No religion (%)": 11.7
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary semi- constitutional monarchy"
+            "Government": "Unitary parliamentary semi- constitutional monarchy",
+            "Legislature": "National Council"
         },
         "Population": {
             "Count": 38423.0,

@@ -34,7 +34,8 @@
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "National Parliament"
         },
         "Population": {
             "Count": 1354662.0,

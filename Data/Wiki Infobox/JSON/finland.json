@@ -23,7 +23,7 @@
         "General": {
             "Ethnic groups": {
                 "Finns (%)": 88.9,
-                "others (%)": 11.1
+                "Other (%)": 11.1
             },
             "Primary Language": [
                 "Finland-Swedish Sign Language",
@@ -36,12 +36,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 64.2,
-                "no religion (%)": 34.9,
-                "other (%)": 2.0
+                "No religion (%)": 34.9,
+                "Other (%)": 2.0
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 5635971.0,

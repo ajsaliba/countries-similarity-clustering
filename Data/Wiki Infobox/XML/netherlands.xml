@@ -29,21 +29,22 @@
         <Dutch____>72.0</Dutch____>
         <Indonesian____>2.0</Indonesian____>
         <Moroccan____>2.3</Moroccan____>
+        <Other_European____>9.2</Other_European____>
         <Turkish____>2.5</Turkish____>
-        <other_European____>9.2</other_European____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Dutch</item>
       </Primary_Language>
       <Religion>
-        <Christianity____>31</Christianity____>
-        <Islam____>6</Islam____>
-        <no_religion____>56</no_religion____>
-        <other____>7</other____>
+        <Christianity____>31.0</Christianity____>
+        <Islam____>6.0</Islam____>
+        <No_religion____>56.0</No_religion____>
+        <Other____>7.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Devolved unitary parliamentary constitutional monarchy</Government>
+      <Legislature>States General</Legislature>
     </Government>
     <Population>
       <Count>18290379.0</Count>

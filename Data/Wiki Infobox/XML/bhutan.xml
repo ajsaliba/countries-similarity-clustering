@@ -29,14 +29,15 @@
         <item>Dzongkha</item>
       </Primary_Language>
       <Religion>
-        <Bon____>1.9</Bon____>
         <Buddhism____>74.7</Buddhism____>
+        <Folk_Traditional____>1.9</Folk_Traditional____>
         <Hinduism____>22.6</Hinduism____>
-        <others____>0.8</others____>
+        <Other____>0.8</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary semi-constitutional monarchy</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>777486.0</Count>

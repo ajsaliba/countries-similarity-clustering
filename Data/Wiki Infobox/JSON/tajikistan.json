@@ -23,10 +23,10 @@
         "General": {
             "Ethnic groups": {
                 "Kyrgyz (%)": 0.4,
+                "Other (%)": 1.9,
                 "Russians (%)": 0.3,
                 "Tajiks (%)": 86.1,
-                "Uzbeks (%)": 11.3,
-                "other (%)": 1.9
+                "Uzbeks (%)": 11.3
             },
             "Primary Language": [
                 "Russian",
@@ -35,12 +35,13 @@
             "Religion": {
                 "Christianity (%)": 0.7,
                 "Islam (%)": 97.5,
-                "irreligion (%)": 1.7,
-                "others (%)": 0.2
+                "No religion (%)": 1.7,
+                "Other (%)": 0.2
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic under an authoritarian dictatorship"
+            "Government": "Unitary presidential republic under an authoritarian dictatorship",
+            "Legislature": "Supreme Assembly"
         },
         "Population": {
             "Count": 10786734.0,

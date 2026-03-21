@@ -29,11 +29,12 @@
                 "Nauruan"
             ],
             "Religion": {
-                "Unknown": 100
+                "Unknown": 100.0
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic with an executive presidency under a non-partisan democracy"
+            "Government": "Unitary parliamentary republic with an executive presidency under a non-partisan democracy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 12025.0,

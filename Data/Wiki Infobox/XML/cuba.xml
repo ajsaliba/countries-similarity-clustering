@@ -30,13 +30,14 @@
       </Primary_Language>
       <Religion>
         <Christianity____>58.9</Christianity____>
-        <folk_religions____>17.6</folk_religions____>
-        <no_religion____>23.2</no_religion____>
-        <other____>0.3</other____>
+        <Folk_Traditional____>17.6</Folk_Traditional____>
+        <No_religion____>23.2</No_religion____>
+        <Other____>0.3</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Communist state</Government>
+      <Legislature>National Assembly of People's Power</Legislature>
     </Government>
     <Population>
       <Count>9748007.0</Count>

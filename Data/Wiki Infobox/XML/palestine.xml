@@ -32,15 +32,16 @@
         <item>Arabic</item>
       </Primary_Language>
       <Religion>
-        <Bah____Faith____>0.05</Bah____Faith____>
         <Christianity____>0.88</Christianity____>
-        <Islam___official______>80.73</Islam___official______>
+        <Islam____>80.73</Islam____>
         <Judaism____>13.07</Judaism____>
-        <irreligion____>5.27</irreligion____>
+        <No_religion____>5.27</No_religion____>
+        <Other____>0.05</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary provisional semi-presidential republic</Government>
+      <Legislature>Legislative Council</Legislature>
     </Government>
     <Population>
       <Count>5483450.0</Count>

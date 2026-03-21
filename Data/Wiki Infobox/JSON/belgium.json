@@ -22,10 +22,8 @@
         },
         "General": {
             "Ethnic groups": {
-                "Belgian background (%)": 64,
-                "Belgians (%)": 86.1,
-                "foreign background (%)": 22.1,
-                "non-Belgian (%)": 13.8
+                "Belgian (%)": 86.1,
+                "Foreign (%)": 13.9
             },
             "Primary Language": [
                 "Dutch",
@@ -35,12 +33,13 @@
             "Religion": {
                 "Christianity (%)": 34.0,
                 "Islam (%)": 6.0,
-                "no religion (%)": 59.0,
-                "other (%)": 1.0
+                "No religion (%)": 59.0,
+                "Other (%)": 1.0
             }
         },
         "Government": {
-            "Government": "Federal parliamentary constitutional monarchy"
+            "Government": "Federal parliamentary constitutional monarchy",
+            "Legislature": "Federal Parliament"
         },
         "Population": {
             "Count": 11825551.0,

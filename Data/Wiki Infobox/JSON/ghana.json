@@ -28,23 +28,24 @@
                 "Guan (%)": 3.2,
                 "Gurma (%)": 6.4,
                 "Gurunsi (%)": 2.7,
-                "Mande (%)": 2,
+                "Mande (%)": 2.0,
                 "Mole-Dagbon (%)": 18.5,
-                "other (%)": 1.6
+                "Other (%)": 1.6
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
                 "Christianity (%)": 71.3,
+                "Folk/Traditional (%)": 3.2,
                 "Islam (%)": 19.9,
-                "irreligion (%)": 1.1,
-                "other (%)": 4.5,
-                "traditional faiths (%)": 3.2
+                "No religion (%)": 1.1,
+                "Other (%)": 4.5
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 35039451.0,

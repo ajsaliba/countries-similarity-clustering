@@ -27,20 +27,19 @@
         <Indigenous____>4.31</Indigenous____>
         <Mestizo___White____>84.99</Mestizo___White____>
         <Romanis____>0.01</Romanis____>
-        <not_specified____>1.35</not_specified____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Spanish</item>
       </Primary_Language>
       <Religion>
-        <Catholicism____>70</Catholicism____>
-        <no_religion____>11</no_religion____>
-        <other____>1.9</other____>
-        <other_Christian____>17</other_Christian____>
+        <Christianity____>87.0</Christianity____>
+        <No_religion____>11.0</No_religion____>
+        <Other____>1.9</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Congress</Legislature>
     </Government>
     <Population>
       <Count>52695952.0</Count>

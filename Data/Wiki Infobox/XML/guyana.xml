@@ -35,14 +35,15 @@
       </Primary_Language>
       <Religion>
         <Christianity____>55.5</Christianity____>
-        <Hinduism____>31</Hinduism____>
+        <Hinduism____>31.0</Hinduism____>
         <Islam____>9.5</Islam____>
-        <no_religion____>4.2</no_religion____>
-        <others____>3.3</others____>
+        <No_religion____>4.2</No_religion____>
+        <Other____>3.3</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic with an executive presidency</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>950986.0</Count>

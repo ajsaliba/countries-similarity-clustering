@@ -23,12 +23,11 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Albanians____>5</Albanians____>
+        <Albanians____>5.0</Albanians____>
         <Bosniaks_or_Muslims____>11.1</Bosniaks_or_Muslims____>
         <Montenegrins____>41.1</Montenegrins____>
         <Russians____>2.1</Russians____>
         <Serbs____>32.9</Serbs____>
-        <others_or_undeclared____>5.8</others_or_undeclared____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Montenegrin</item>
@@ -36,11 +35,12 @@
       <Religion>
         <Christianity____>74.9</Christianity____>
         <Islam____>19.9</Islam____>
-        <no_religion____>2.7</no_religion____>
+        <No_religion____>2.7</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>623327.0</Count>

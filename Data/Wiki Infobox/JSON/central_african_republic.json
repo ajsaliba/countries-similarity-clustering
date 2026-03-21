@@ -22,7 +22,15 @@
         },
         "General": {
             "Ethnic groups": {
-                "Baggara Arabs Baka Banda Bayaka Fula Gula Gbaya Kara Kresh Mbaka Mandja Ngbandi Runga Sara Vidiri Wodaabe Yakoma Yulu Kanuri Zande other": null
+                "Banda (%)": 27.0,
+                "Baya (%)": 33.0,
+                "Fula (%)": 2.0,
+                "M'Baka (%)": 4.0,
+                "Mandjia (%)": 13.0,
+                "Mbum (%)": 4.0,
+                "Other (%)": 3.0,
+                "Sara (%)": 10.0,
+                "Yakoma (%)": 4.0
             },
             "Primary Language": [
                 "French",
@@ -30,13 +38,14 @@
             ],
             "Religion": {
                 "Christianity (%)": 73.2,
+                "Folk/Traditional (%)": 12.0,
                 "Islam (%)": 13.9,
-                "other / none (%)": 0.9,
-                "traditional faiths (%)": 12
+                "No religion (%)": 0.9
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 5650957.0,

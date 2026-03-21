@@ -23,21 +23,21 @@
         },
         "General": {
             "Ethnic groups": {
-                "Tuvaluans (%)": 96,
-                "others (%)": 4
+                "Other (%)": 4.0,
+                "Tuvaluans (%)": 96.0
             },
             "Primary Language": [
                 "English",
                 "Tuvaluan"
             ],
             "Religion": {
-                "Baháʼí Faith (%)": 1.0,
                 "Christianity (%)": 96.0,
-                "Other religions or not stated (%)": 3.0
+                "Other (%)": 1.0
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 10643.0,

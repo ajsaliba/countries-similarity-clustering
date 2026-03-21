@@ -22,10 +22,10 @@
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 99,
+                "African (%)": 99.0,
                 "Mestiço (%)": 0.8,
-                "White (%)": 0.1,
-                "other (%)": 0.1
+                "Other (%)": 0.1,
+                "White (%)": 0.1
             },
             "Primary Language": [
                 "Portuguese"
@@ -36,7 +36,8 @@
             }
         },
         "Government": {
-            "Government": "Unitary dominant-party semi-presidential republic under an authoritarian government"
+            "Government": "Unitary dominant-party semi-presidential republic under an authoritarian government",
+            "Legislature": "Assembly of the Republic"
         },
         "Population": {
             "Count": 34881007.0,

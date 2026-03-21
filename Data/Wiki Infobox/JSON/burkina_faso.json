@@ -29,9 +29,8 @@
                 "Gurunsi (%)": 5.9,
                 "Lobi (%)": 1.5,
                 "Mossi (%)": 53.7,
-                "Senufo (%)": 2.2,
-                "Tuareg and Bella (%)": 0.1,
-                "or (%)": 5.4
+                "Other (%)": 19.8,
+                "Senufo (%)": 2.2
             },
             "Primary Language": [
                 "Dyula",
@@ -39,14 +38,15 @@
                 "Moore"
             ],
             "Religion": {
-                "Animism (%)": 9.0,
                 "Christianity (%)": 26.3,
+                "Folk/Traditional (%)": 9.0,
                 "Islam (%)": 63.8,
-                "irreligion (%)": 0.7
+                "No religion (%)": 0.7
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic under a military junta"
+            "Government": "Unitary semi-presidential republic under a military junta",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 22489126.0,

@@ -23,13 +23,13 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Ambundu____>25</Ambundu____>
-        <Asian____>2</Asian____>
-        <Bakongo____>13</Bakongo____>
-        <European____>1</European____>
-        <Mesti_o__mixed_European_and_African_____>2</Mesti_o__mixed_European_and_African_____>
-        <Ovimbundu____>37</Ovimbundu____>
-        <other_African____>21</other_African____>
+        <Ambundu____>25.0</Ambundu____>
+        <Asian____>2.0</Asian____>
+        <Bakongo____>13.0</Bakongo____>
+        <European____>1.0</European____>
+        <Mesti_o____>2.0</Mesti_o____>
+        <Other_African____>21.0</Other_African____>
+        <Ovimbundu____>37.0</Ovimbundu____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Chokwe</item>
@@ -42,12 +42,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>79.1</Christianity____>
-        <no_religion____>11.5</no_religion____>
-        <other____>9.4</other____>
+        <No_religion____>11.5</No_religion____>
+        <Other____>9.4</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>36604681.0</Count>

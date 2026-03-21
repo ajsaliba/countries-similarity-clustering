@@ -24,23 +24,23 @@
     <General>
       <Ethnic_groups>
         <Filipino____>0.8</Filipino____>
-        <Icelandic____>86</Icelandic____>
-        <Lithuanian____>1</Lithuanian____>
-        <Polish____>6</Polish____>
-        <other____>7</other____>
+        <Icelandic____>86.0</Icelandic____>
+        <Lithuanian____>1.0</Lithuanian____>
+        <Other____>7.0</Other____>
+        <Polish____>6.0</Polish____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Icelandic</item>
       </Primary_Language>
       <Religion>
         <Christianity____>72.4</Christianity____>
-        <no_religion____>25.2</no_religion____>
-        <other____>0.9</other____>
-        <_satr_arf_lagi_____>1.5</_satr_arf_lagi_____>
+        <No_religion____>25.2</No_religion____>
+        <Other____>2.4</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Althing</Legislature>
     </Government>
     <Population>
       <Count>394530.0</Count>

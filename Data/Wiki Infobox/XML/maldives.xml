@@ -29,11 +29,12 @@
         <item>Dhivehi</item>
       </Primary_Language>
       <Religion>
-        <Sunni_Islam>100.0</Sunni_Islam>
+        <Islam____>100.0</Islam____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>People's Majlis</Legislature>
     </Government>
     <Population>
       <Count>601269.0</Count>

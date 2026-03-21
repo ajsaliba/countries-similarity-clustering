@@ -23,7 +23,7 @@
         "General": {
             "Ethnic groups": {
                 "Maltese (%)": 77.7,
-                "other ethnic groups (%)": 22.3
+                "Other (%)": 22.3
             },
             "Primary Language": [
                 "English",
@@ -32,12 +32,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 88.5,
-                "no religion (%)": 5.1,
-                "other (%)": 1.1
+                "No religion (%)": 5.1,
+                "Other (%)": 1.1
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Parliament of Malta"
         },
         "Population": {
             "Count": 519562.0,

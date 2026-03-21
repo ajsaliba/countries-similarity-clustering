@@ -27,19 +27,20 @@
                 "European (%)": 1.7,
                 "Hispanic (%)": 2.8,
                 "Multiracial (%)": 4.7,
-                "Syrian or Lebanese (%)": 0.7,
-                "other (%)": 1.8
+                "Other (%)": 1.8,
+                "Syrian or Lebanese (%)": 0.7
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
                 "Christianity (%)": 92.7,
-                "Rastafari (%)": 3.6
+                "Other (%)": 3.6
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 106365.0,

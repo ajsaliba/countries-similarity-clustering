@@ -22,26 +22,26 @@
         },
         "General": {
             "Ethnic groups": {
-                "Balanta (%)": 30,
-                "Fula (%)": 30,
-                "Mandinka (%)": 13,
-                "Manjak (%)": 14,
-                "Papel (%)": 7,
-                "other / unspecified (%)": 6
+                "Balanta (%)": 30.0,
+                "Fula (%)": 30.0,
+                "Mandinka (%)": 13.0,
+                "Manjak (%)": 14.0,
+                "Papel (%)": 7.0
             },
             "Primary Language": [
                 "Portuguese"
             ],
             "Religion": {
                 "Christianity (%)": 18.9,
+                "Folk/Traditional (%)": 30.6,
                 "Islam (%)": 46.1,
-                "No religion (%)": 3,
-                "Traditional (%)": 30.6,
-                "others (%)": 1
+                "No religion (%)": 3.0,
+                "Other (%)": 1.0
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic under a military junta"
+            "Government": "Unitary semi-presidential republic under a military junta",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 2080000.0,

@@ -31,11 +31,12 @@
             "Religion": {
                 "Christianity (%)": 63.1,
                 "Islam (%)": 34.1,
-                "no religion (%)": 1.5
+                "No religion (%)": 1.5
             }
         },
         "Government": {
-            "Government": "Unitary dominant-party presidential republic"
+            "Government": "Unitary dominant-party presidential republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 67462121.0,

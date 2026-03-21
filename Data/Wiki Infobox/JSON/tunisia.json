@@ -30,12 +30,13 @@
                 "Arabic"
             ],
             "Religion": {
-                "Sunni Islam (%)": 99,
-                "others (%)": 1
+                "Islam (%)": 99.0,
+                "Other (%)": 1.0
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 11972169.0,

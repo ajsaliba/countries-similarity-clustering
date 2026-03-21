@@ -26,24 +26,24 @@
         <Asian____>1.8</Asian____>
         <Chuukese____>48.8</Chuukese____>
         <Kosraean____>6.2</Kosraean____>
+        <Other____>6.4</Other____>
         <Outer_Yapese____>4.5</Outer_Yapese____>
         <Pohnpeian____>24.2</Pohnpeian____>
         <Polynesian____>1.5</Polynesian____>
         <Yapese____>5.2</Yapese____>
-        <other____>6.4</other____>
-        <unknown____>1.4</unknown____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
       </Primary_Language>
       <Religion>
         <Christianity____>95.3</Christianity____>
-        <folk_religions____>4.1</folk_religions____>
-        <none___other____>0.6</none___other____>
+        <Folk_Traditional____>4.1</Folk_Traditional____>
+        <No_religion____>0.6</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Federal assembly-independent presidential republic under a non-partisan democracy</Government>
+      <Legislature>Congress</Legislature>
     </Government>
     <Population>
       <Count>105564.0</Count>

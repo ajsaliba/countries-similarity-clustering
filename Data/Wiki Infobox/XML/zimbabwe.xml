@@ -27,8 +27,8 @@
       <Ethnic_groups>
         <Coloured____>0.1</Coloured____>
         <European____>0.2</European____>
+        <Other____>0.1</Other____>
         <Zimbabwean____>99.6</Zimbabwean____>
-        <other____>0.1</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Chewa</item>
@@ -50,13 +50,14 @@
       </Primary_Language>
       <Religion>
         <Christianity____>84.1</Christianity____>
-        <no_religion____>10.2</no_religion____>
-        <others____>1.2</others____>
-        <traditional_faiths____>4.5</traditional_faiths____>
+        <Folk_Traditional____>4.5</Folk_Traditional____>
+        <No_religion____>10.2</No_religion____>
+        <Other____>1.2</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>17166852.0</Count>

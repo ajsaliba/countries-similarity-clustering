@@ -22,12 +22,11 @@
         },
         "General": {
             "Ethnic groups": {
-                "Albanians (%)": 5,
+                "Albanians (%)": 5.0,
                 "Bosniaks or Muslims (%)": 11.1,
                 "Montenegrins (%)": 41.1,
                 "Russians (%)": 2.1,
-                "Serbs (%)": 32.9,
-                "others or undeclared (%)": 5.8
+                "Serbs (%)": 32.9
             },
             "Primary Language": [
                 "Montenegrin"
@@ -35,11 +34,12 @@
             "Religion": {
                 "Christianity (%)": 74.9,
                 "Islam (%)": 19.9,
-                "no religion (%)": 2.7
+                "No religion (%)": 2.7
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 623327.0,

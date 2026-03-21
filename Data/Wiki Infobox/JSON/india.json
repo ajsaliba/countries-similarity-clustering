@@ -32,12 +32,12 @@
                 "Christianity (%)": 2.3,
                 "Hinduism (%)": 79.8,
                 "Islam (%)": 14.2,
-                "Jainism (%)": 0.4,
-                "other (%)": 0.65
+                "Other (%)": 1.05
             }
         },
         "Government": {
-            "Government": "Federal parliamentary republic"
+            "Government": "Federal parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 1428627663.0,

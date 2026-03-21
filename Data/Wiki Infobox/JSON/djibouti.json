@@ -32,16 +32,13 @@
                 "Somali"
             ],
             "Religion": {
-                "Christianity (%)": 6,
-                "Islam ( official ) (%)": 94,
-                "Non-denominational (%)": 8,
-                "Other (%)": 3,
-                "Shia (%)": 2,
-                "Sunni (%)": 87
+                "Christianity (%)": 6.0,
+                "Islam (%)": 94.0
             }
         },
         "Government": {
-            "Government": "Unitary dominant-party presidential republic under a hereditary dictatorship"
+            "Government": "Unitary dominant-party presidential republic under a hereditary dictatorship",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 1066809.0,

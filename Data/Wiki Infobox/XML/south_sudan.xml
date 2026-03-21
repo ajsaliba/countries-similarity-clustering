@@ -38,13 +38,14 @@
       </Primary_Language>
       <Religion>
         <Christianity____>60.5</Christianity____>
+        <Folk_Traditional____>32.9</Folk_Traditional____>
         <Islam____>6.2</Islam____>
-        <others___none____>0.4</others___none____>
-        <traditional_faiths____>32.9</traditional_faiths____>
+        <No_religion____>0.4</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Federal presidential republic</Government>
+      <Legislature>Transitional National Legislature</Legislature>
     </Government>
     <Population>
       <Count>12703714.0</Count>

@@ -27,21 +27,22 @@
                 "Kpelle (%)": 7.8,
                 "Loma (%)": 1.6,
                 "Mandinka (%)": 29.4,
-                "Susu (%)": 21.2,
-                "others (%)": 0.4
+                "Other (%)": 0.4,
+                "Susu (%)": 21.2
             },
             "Primary Language": [
                 "French"
             ],
             "Religion": {
                 "Christianity (%)": 13.4,
+                "Folk/Traditional (%)": 0.2,
                 "Islam (%)": 85.2,
-                "animism (%)": 0.2,
-                "none (%)": 1.2
+                "No religion (%)": 1.2
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic under a dictatorship"
+            "Government": "Unitary presidential republic under a dictatorship",
+            "Legislature": "National Council of the Transition"
         },
         "Population": {
             "Count": 13986179.0,

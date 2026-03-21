@@ -32,12 +32,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 92.8,
-                "no religion (%)": 6.5,
-                "other (%)": 0.7
+                "No religion (%)": 6.5,
+                "Other (%)": 0.7
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Plurinational Legislative Assembly"
         },
         "Population": {
             "Count": 11365333.0,

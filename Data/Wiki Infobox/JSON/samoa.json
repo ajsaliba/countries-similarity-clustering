@@ -22,23 +22,24 @@
         },
         "General": {
             "Ethnic groups": {
-                "Euronesians (%)": 7,
+                "Euronesians (%)": 7.0,
                 "Europeans (%)": 0.3,
-                "Samoans (%)": 92.6,
-                "others (%)": 0.1
+                "Other (%)": 0.1,
+                "Samoans (%)": 92.6
             },
             "Primary Language": [
                 "English",
                 "Samoan"
             ],
             "Religion": {
-                "Christianity ( official ) (%)": 97.9,
-                "no religion (%)": 1.7,
-                "others (%)": 0.4
+                "Christianity (%)": 97.9,
+                "No religion (%)": 1.7,
+                "Other (%)": 0.4
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Legislative Assembly"
         },
         "Population": {
             "Count": 205557.0,

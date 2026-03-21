@@ -32,13 +32,13 @@
                 "Christianity (%)": 43.9,
                 "Hinduism (%)": 2.7,
                 "Islam (%)": 3.2,
-                "no religion (%)": 38.9,
-                "other (%)": 1.7,
-                "unanswered (%)": 7.2
+                "No religion (%)": 38.9,
+                "Other (%)": 1.7
             }
         },
         "Government": {
-            "Government": "Federal parliamentary constitutional monarchy"
+            "Government": "Federal parliamentary constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 27840775.0,

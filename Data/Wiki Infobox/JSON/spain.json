@@ -28,16 +28,14 @@
                 "Spanish"
             ],
             "Religion": {
-                "Roman Catholicism (%)": 58.6,
-                "agnostic (%)": 11.1,
-                "atheist (%)": 13.3,
-                "indifferent or irreligious (%)": 11.7,
-                "other religion (%)": 3.6,
-                "unanswered (%)": 1.7
+                "Christianity (%)": 58.6,
+                "No religion (%)": 36.1,
+                "Other (%)": 3.6
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Cortes Generales"
         },
         "Population": {
             "Count": 49570725.0,

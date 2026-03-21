@@ -30,11 +30,12 @@
         <item>Nauruan</item>
       </Primary_Language>
       <Religion>
-        <Unknown>100</Unknown>
+        <Unknown>100.0</Unknown>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic with an executive presidency under a non-partisan democracy</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>12025.0</Count>

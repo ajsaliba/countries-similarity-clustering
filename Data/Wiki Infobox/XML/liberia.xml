@@ -23,25 +23,19 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Bass____>13.4</Bass____>
-        <Belle____>0.8</Belle____>
-        <Dey____>0.8</Dey____>
-        <Gbandi____>3</Gbandi____>
-        <Gio____>10</Gio____>
-        <Gol____>4.4</Gol____>
-        <Grebo____>10</Grebo____>
+        <Bassa____>13.4</Bassa____>
+        <Gbandi____>3.0</Gbandi____>
+        <Gio____>10.0</Gio____>
+        <Gola____>4.4</Gola____>
+        <Grebo____>10.0</Grebo____>
         <Kissi____>4.8</Kissi____>
-        <Krah____>4</Krah____>
+        <Kpelle____>20.3</Kpelle____>
         <Kru____>7.9</Kru____>
-        <Lorm____>5.1</Lorm____>
-        <Mandink____>3.2</Mandink____>
+        <Lorma____>5.1</Lorma____>
+        <Mandinka____>3.2</Mandinka____>
         <Mano____>7.9</Mano____>
-        <Mende____>1.3</Mende____>
-        <Non_Afric____>0.1</Non_Afric____>
-        <Other_Afric____>1.4</Other_Afric____>
-        <Other_Liberi____>0.6</Other_Liberi____>
-        <Sapo____>1.2</Sapo____>
-        <Vai____>4</Vai____>
+        <Other____>6.0</Other____>
+        <Vai____>4.0</Vai____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
@@ -49,11 +43,12 @@
       <Religion>
         <Christianity____>85.1</Christianity____>
         <Islam____>12.2</Islam____>
-        <no_religion____>1.4</no_religion____>
+        <No_religion____>1.4</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Legislature of Liberia</Legislature>
     </Government>
     <Population>
       <Count>5437249.0</Count>

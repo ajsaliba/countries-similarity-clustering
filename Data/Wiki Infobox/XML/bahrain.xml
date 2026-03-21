@@ -26,19 +26,22 @@
         <Africans____>1.4</Africans____>
         <Arabs____>53.2</Arabs____>
         <North_Americans____>1.1</North_Americans____>
+        <Other____>0.1</Other____>
         <South_Asians____>43.4</South_Asians____>
-        <others____>0.1</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
       </Primary_Language>
       <Religion>
-        <Islam___official______>74</Islam___official______>
-        <non_Muslim____>26</non_Muslim____>
+        <Christianity____>9.3</Christianity____>
+        <Hinduism____>9.8</Hinduism____>
+        <Islam____>73.7</Islam____>
+        <Other____>7.2</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-constitutional monarchy under an authoritarian government</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>1463265.0</Count>

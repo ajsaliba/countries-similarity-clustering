@@ -22,10 +22,10 @@
         },
         "General": {
             "Ethnic groups": {
-                "Bakongo (%)": 41,
+                "Bakongo (%)": 41.0,
                 "Bateke (%)": 16.9,
-                "Mbenga Pygmies and others (%)": 2,
                 "Mbochi (%)": 13.1,
+                "Other (%)": 2.0,
                 "Sangha (%)": 5.6
             },
             "Primary Language": [
@@ -35,13 +35,14 @@
             ],
             "Religion": {
                 "Christianity (%)": 87.1,
+                "Folk/Traditional (%)": 2.7,
                 "Islam (%)": 1.2,
-                "no religion (%)": 8.0,
-                "traditional faiths (%)": 2.7
+                "No religion (%)": 8.0
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic under a dictatorship"
+            "Government": "Unitary semi-presidential republic under a dictatorship",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 6228784.0,

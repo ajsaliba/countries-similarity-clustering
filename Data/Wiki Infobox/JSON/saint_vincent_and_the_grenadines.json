@@ -22,12 +22,12 @@
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 66,
-                "European (%)": 4,
-                "Indian (%)": 6,
-                "Kalinago (%)": 2,
-                "Mixed (%)": 19,
-                "others (%)": 3
+                "African (%)": 66.0,
+                "European (%)": 4.0,
+                "Indian (%)": 6.0,
+                "Kalinago (%)": 2.0,
+                "Mixed (%)": 19.0,
+                "Other (%)": 3.0
             },
             "Primary Language": [
                 "English"
@@ -35,14 +35,14 @@
             "Religion": {
                 "Christianity (%)": 88.6,
                 "Hinduism (%)": 3.4,
-                "Irreligion (%)": 2.5,
                 "Islam (%)": 1.5,
-                "Other (%)": 0.5,
-                "Rastafari (%)": 1.8
+                "No religion (%)": 2.5,
+                "Other (%)": 2.3
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "House of Assembly"
         },
         "Population": {
             "Count": 110872.0,

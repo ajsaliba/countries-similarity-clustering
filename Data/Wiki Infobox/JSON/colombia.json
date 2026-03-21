@@ -25,21 +25,20 @@
                 "Black (%)": 9.34,
                 "Indigenous (%)": 4.31,
                 "Mestizo - White (%)": 84.99,
-                "Romanis (%)": 0.01,
-                "not specified (%)": 1.35
+                "Romanis (%)": 0.01
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
-                "Catholicism (%)": 70,
-                "no religion (%)": 11,
-                "other (%)": 1.9,
-                "other Christian (%)": 17
+                "Christianity (%)": 87.0,
+                "No religion (%)": 11.0,
+                "Other (%)": 1.9
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Congress"
         },
         "Population": {
             "Count": 52695952.0,

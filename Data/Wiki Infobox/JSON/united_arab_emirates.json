@@ -22,25 +22,23 @@
         },
         "General": {
             "Ethnic groups": {
-                "Bangladeshi (%)": 9.5,
                 "Egyptian (%)": 10.2,
-                "Emirati Arab (%)": 12,
+                "Emirati (%)": 12.0,
                 "Filipino (%)": 6.1,
-                "Indian (%)": 38.2,
-                "Pakistani (%)": 9.4,
-                "South Asian (%)": 59.4,
-                "other (%)": 12.4
+                "Other (%)": 12.3,
+                "South Asian (%)": 59.4
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
                 "Christianity (%)": 12.9,
-                "Islam ( official ) (%)": 74.5
+                "Islam (%)": 74.5
             }
         },
         "Government": {
-            "Government": "Federal semi-presidential elective semi-constitutional monarchy"
+            "Government": "Federal semi-presidential elective semi-constitutional monarchy",
+            "Legislature": "Federal Supreme Council"
         },
         "Population": {
             "Count": 11027129.0,

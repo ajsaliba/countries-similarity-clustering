@@ -23,10 +23,8 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Belgian_background____>64</Belgian_background____>
-        <Belgians____>86.1</Belgians____>
-        <foreign_background____>22.1</foreign_background____>
-        <non_Belgian____>13.8</non_Belgian____>
+        <Belgian____>86.1</Belgian____>
+        <Foreign____>13.9</Foreign____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Dutch</item>
@@ -36,12 +34,13 @@
       <Religion>
         <Christianity____>34.0</Christianity____>
         <Islam____>6.0</Islam____>
-        <no_religion____>59.0</no_religion____>
-        <other____>1.0</other____>
+        <No_religion____>59.0</No_religion____>
+        <Other____>1.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary constitutional monarchy</Government>
+      <Legislature>Federal Parliament</Legislature>
     </Government>
     <Population>
       <Count>11825551.0</Count>

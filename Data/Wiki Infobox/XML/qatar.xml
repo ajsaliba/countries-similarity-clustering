@@ -23,13 +23,9 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Arab____>49</Arab____>
-        <Bangladeshi____>12.5</Bangladeshi____>
-        <Indian____>21.8</Indian____>
-        <Pakistani____>4.7</Pakistani____>
-        <South_Asian____>43</South_Asian____>
-        <Sri_Lankan____>4.35</Sri_Lankan____>
-        <other____>7</other____>
+        <Arab____>49.0</Arab____>
+        <Other____>8.0</Other____>
+        <South_Asian____>43.0</South_Asian____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
@@ -38,12 +34,13 @@
         <Buddhism____>3.3</Buddhism____>
         <Christianity____>14.2</Christianity____>
         <Hinduism____>15.1</Hinduism____>
-        <Islam___official______>65.5</Islam___official______>
-        <other____>1.9</other____>
+        <Islam____>65.5</Islam____>
+        <Other____>1.9</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary authoritarian semi-constitutional monarchy</Government>
+      <Legislature>Consultative Assembly</Legislature>
     </Government>
     <Population>
       <Count>3214609.0</Count>

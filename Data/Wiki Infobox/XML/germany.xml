@@ -29,13 +29,15 @@
         <item>German</item>
       </Primary_Language>
       <Religion>
-        <Christians____>48.5</Christians____>
-        <Germany_at____>49.7</Germany_at____>
-        <Protestant____>25.1</Protestant____>
+        <Christianity____>48.0</Christianity____>
+        <Islam____>5.5</Islam____>
+        <No_religion____>43.8</No_religion____>
+        <Other____>2.7</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>83497147.0</Count>

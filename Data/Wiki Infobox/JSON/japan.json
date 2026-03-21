@@ -28,11 +28,12 @@
                 "Japanese"
             ],
             "Religion": {
-                "Unknown": 100
+                "Unknown": 100.0
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "National Diet"
         },
         "Population": {
             "Count": 122950000.0,

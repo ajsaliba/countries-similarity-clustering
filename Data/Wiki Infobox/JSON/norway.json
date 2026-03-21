@@ -22,8 +22,8 @@
         },
         "General": {
             "Ethnic groups": {
-                "Norwegian (%)": 78.6,
-                "non-Norwegian (%)": 21.4
+                "Non-Norwegian (%)": 21.4,
+                "Norwegian (%)": 78.6
             },
             "Primary Language": [
                 "Kven",
@@ -36,12 +36,13 @@
             "Religion": {
                 "Christianity (%)": 68.5,
                 "Islam (%)": 3.4,
-                "no religion (%)": 27.3,
-                "other (%)": 0.8
+                "No religion (%)": 27.3,
+                "Other (%)": 0.8
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Storting"
         },
         "Population": {
             "Count": 5627400.0,

@@ -23,17 +23,17 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Adamawa_Ubangi___Mbum___Gbaya______>9.8</Adamawa_Ubangi___Mbum___Gbaya______>
-        <Bamileke___Bamun____>22.2</Bamileke___Bamun____>
-        <Beti___Bassa____>13.1</Beti___Bassa____>
+        <Adamawa_Ubangi____>9.8</Adamawa_Ubangi____>
+        <Bamileke_Bamun____>22.2</Bamileke_Bamun____>
+        <Beti_Bassa____>13.1</Beti_Bassa____>
         <Biu_Mandara____>16.4</Biu_Mandara____>
-        <Fulani____>12</Fulani____>
-        <Pygmy_peoples____>2.3</Pygmy_peoples____>
-        <Sawa_people____>4.6</Sawa_people____>
-        <Shuwa_Arab___Hausa_and_Kanuri____>13.5</Shuwa_Arab___Hausa_and_Kanuri____>
+        <Fulani____>12.0</Fulani____>
+        <Other____>3.8</Other____>
+        <Pygmy____>2.3</Pygmy____>
+        <Sawa____>4.6</Sawa____>
+        <Shuwa_Arab____>13.5</Shuwa_Arab____>
         <Southwest_Bantu____>4.3</Southwest_Bantu____>
         <Tikar____>9.9</Tikar____>
-        <others_foreigners____>3.8</others_foreigners____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
@@ -41,13 +41,14 @@
       </Primary_Language>
       <Religion>
         <Christianity____>66.3</Christianity____>
+        <Folk_Traditional____>1.3</Folk_Traditional____>
         <Islam____>30.6</Islam____>
-        <others____>0.7</others____>
-        <traditional_faiths____>1.3</traditional_faiths____>
+        <Other____>0.7</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic under a dictatorship</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>30987821.0</Count>

@@ -24,9 +24,9 @@
             "Ethnic groups": {
                 "Asian (%)": 31.6,
                 "Carolinian (%)": 1.2,
-                "European (%)": 1,
-                "Palauan (%)": 65.2,
-                "other (%)": 0.9
+                "European (%)": 1.0,
+                "Other (%)": 0.9,
+                "Palauan (%)": 65.2
             },
             "Primary Language": [
                 "English",
@@ -34,12 +34,13 @@
             ],
             "Religion": {
                 "Christianity (%)": 78.7,
-                "no religion (%)": 10.1,
-                "other (%)": 1.2
+                "No religion (%)": 10.1,
+                "Other (%)": 1.2
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic under a non-partisan democracy"
+            "Government": "Unitary presidential republic under a non-partisan democracy",
+            "Legislature": "Palau National Congress"
         },
         "Population": {
             "Count": 17663.0,

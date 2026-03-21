@@ -28,14 +28,15 @@
                 "Dzongkha"
             ],
             "Religion": {
-                "Bon (%)": 1.9,
                 "Buddhism (%)": 74.7,
+                "Folk/Traditional (%)": 1.9,
                 "Hinduism (%)": 22.6,
-                "others (%)": 0.8
+                "Other (%)": 0.8
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary semi-constitutional monarchy"
+            "Government": "Unitary parliamentary semi-constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 777486.0,

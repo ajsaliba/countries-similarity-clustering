@@ -25,8 +25,8 @@
       <Ethnic_groups>
         <Indigenous_Fijians____>56.8</Indigenous_Fijians____>
         <Indo_Fijians____>37.5</Indo_Fijians____>
+        <Other____>4.5</Other____>
         <Rotumans____>1.2</Rotumans____>
-        <others____>4.5</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
@@ -38,11 +38,12 @@
         <Christianity____>64.4</Christianity____>
         <Hinduism____>27.9</Hinduism____>
         <Islam____>6.3</Islam____>
-        <others___none____>1.4</others___none____>
+        <No_religion____>1.4</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>926276.0</Count>

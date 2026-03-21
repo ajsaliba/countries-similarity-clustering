@@ -25,23 +25,24 @@
       <Ethnic_groups>
         <Bashkir____>1.1</Bashkir____>
         <Chechen____>1.1</Chechen____>
+        <Other____>11.3</Other____>
         <Russian____>71.7</Russian____>
         <Tatar____>3.2</Tatar____>
-        <not_reported____>11.6</not_reported____>
-        <other____>11.3</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Russian</item>
       </Primary_Language>
       <Religion>
-        <Buddhists____>0.5</Buddhists____>
-        <Muslims____>6.5</Muslims____>
-        <Old_Believers____>1.0</Old_Believers____>
-        <Russian_Orthodox____>41.0</Russian_Orthodox____>
+        <Buddhism____>0.5</Buddhism____>
+        <Christianity____>42.0</Christianity____>
+        <Islam____>6.5</Islam____>
+        <No_religion____>49.0</No_religion____>
+        <Other____>2.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal semi-presidential republic under an authoritarian dictatorship</Government>
+      <Legislature>Federal Assembly</Legislature>
     </Government>
     <Population>
       <Count>146028325.0</Count>

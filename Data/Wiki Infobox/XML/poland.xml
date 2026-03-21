@@ -23,23 +23,21 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Polish____>98.8</Polish____>
-        <Polish_and_others____>2.6</Polish_and_others____>
-        <only_Polish____>96.3</only_Polish____>
-        <only_non_Polish____>1.1</only_non_Polish____>
+        <Other____>3.7</Other____>
+        <Polish____>96.3</Polish____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Polish</item>
       </Primary_Language>
       <Religion>
         <Christianity____>72.4</Christianity____>
-        <no_religion____>6.9</no_religion____>
-        <other____>0.1</other____>
-        <unanswered____>20.6</unanswered____>
+        <No_religion____>6.9</No_religion____>
+        <Other____>0.1</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>37893970.0</Count>

@@ -24,12 +24,12 @@
             "Ethnic groups": {
                 "German (%)": 1.1,
                 "Kazakh (%)": 71.3,
+                "Other (%)": 5.3,
                 "Russian (%)": 14.6,
                 "Tatar (%)": 1.1,
                 "Ukrainian (%)": 1.8,
                 "Uyghur (%)": 1.5,
-                "Uzbek (%)": 3.3,
-                "others (%)": 5.3
+                "Uzbek (%)": 3.3
             },
             "Primary Language": [
                 "Kazakh",
@@ -38,13 +38,13 @@
             "Religion": {
                 "Christianity (%)": 17.2,
                 "Islam (%)": 69.3,
-                "no religion (%)": 2.3,
-                "other (%)": 0.2,
-                "unanswered (%)": 11
+                "No religion (%)": 2.3,
+                "Other (%)": 0.2
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic under an authoritarian government"
+            "Government": "Unitary presidential republic under an authoritarian government",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 20495975.0,

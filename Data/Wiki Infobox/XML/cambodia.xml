@@ -26,20 +26,21 @@
         <Cham____>2.4</Cham____>
         <Chinese____>1.5</Chinese____>
         <Khmer____>95.4</Khmer____>
-        <others____>0.8</others____>
+        <Other____>0.8</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Khmer</item>
       </Primary_Language>
       <Religion>
-        <Buddhism___official______>96.5</Buddhism___official______>
+        <Buddhism____>96.5</Buddhism____>
         <Christianity____>0.3</Christianity____>
         <Islam____>2.6</Islam____>
-        <others____>0.5</others____>
+        <Other____>0.5</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional elective monarchy under a hereditary dictatorship</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>17638801.0</Count>

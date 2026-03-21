@@ -23,22 +23,22 @@
     </Economy>
     <General>
       <Ethnic_groups>
+        <Other____>3.5</Other____>
         <Tongan____>96.5</Tongan____>
-        <others____>3.5</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
         <item>Tongan</item>
       </Primary_Language>
       <Religion>
-        <Christianity______>96.9</Christianity______>
-        <no_religion____>0.5</no_religion____>
-        <others____>2.4</others____>
-        <unspecified____>0.1</unspecified____>
+        <Christianity____>96.9</Christianity____>
+        <No_religion____>0.5</No_religion____>
+        <Other____>2.4</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary semi-constitutional monarchy</Government>
+      <Legislature>Legislative Assembly</Legislature>
     </Government>
     <Population>
       <Count>100209.0</Count>

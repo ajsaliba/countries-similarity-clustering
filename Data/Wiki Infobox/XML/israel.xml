@@ -23,9 +23,9 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Arabs____>21</Arabs____>
+        <Arabs____>21.0</Arabs____>
         <Jews____>71.9</Jews____>
-        <others____>7.1</others____>
+        <Other____>7.1</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Hebrew</item>
@@ -34,11 +34,12 @@
         <Christianity____>1.9</Christianity____>
         <Islam____>18.3</Islam____>
         <Judaism____>73.7</Judaism____>
-        <others____>4.5</others____>
+        <Other____>4.5</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Knesset</Legislature>
     </Government>
     <Population>
       <Count>10147200.0</Count>

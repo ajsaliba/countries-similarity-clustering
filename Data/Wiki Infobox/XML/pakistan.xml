@@ -32,12 +32,13 @@
       <Religion>
         <Christianity____>1.4</Christianity____>
         <Hinduism____>2.2</Hinduism____>
-        <Islam___official______>96.3</Islam___official______>
-        <other____>0.1</other____>
+        <Islam____>96.3</Islam____>
+        <Other____>0.1</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary Islamic republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>241499431.0</Count>

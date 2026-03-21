@@ -37,16 +37,16 @@
       <Religion>
         <Buddhism____>31.1</Buddhism____>
         <Christianity____>18.9</Christianity____>
-        <Hinduism____>5</Hinduism____>
+        <Folk_Traditional____>8.8</Folk_Traditional____>
+        <Hinduism____>5.0</Hinduism____>
         <Islam____>15.6</Islam____>
-        <No_religion____>20</No_religion____>
-        <Other____>0.3</Other____>
-        <Sikhism____>0.3</Sikhism____>
-        <Taoism____>8.8</Taoism____>
+        <No_religion____>20.0</No_religion____>
+        <Other____>0.6</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>6110200.0</Count>

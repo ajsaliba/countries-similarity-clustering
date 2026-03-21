@@ -24,19 +24,19 @@
     <General>
       <Ethnic_groups>
         <Kinh_Vietnamese____>85.32</Kinh_Vietnamese____>
-        <other____>14.68</other____>
+        <Other____>14.68</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Vietnamese</item>
       </Primary_Language>
       <Religion>
-        <Catholicism____>6.1</Catholicism____>
-        <Protestantism____>1.0</Protestantism____>
-        <no_religion___folk____>86.32</no_religion___folk____>
+        <Christianity____>7.1</Christianity____>
+        <No_religion____>86.32</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary communist state</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>102300000.0</Count>

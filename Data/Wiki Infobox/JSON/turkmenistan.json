@@ -23,10 +23,10 @@
         "General": {
             "Ethnic groups": {
                 "Baloch (%)": 1.2,
+                "Other (%)": 1.3,
                 "Russians (%)": 1.6,
                 "Turkmens (%)": 86.7,
-                "Uzbeks (%)": 9.1,
-                "others (%)": 1.3
+                "Uzbeks (%)": 9.1
             },
             "Primary Language": [
                 "Turkmen"
@@ -34,12 +34,13 @@
             "Religion": {
                 "Christianity (%)": 1.1,
                 "Islam (%)": 95.8,
-                "no religion (%)": 3,
-                "other (%)": 0.1
+                "No religion (%)": 3.0,
+                "Other (%)": 0.1
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic under a totalitarian hereditary dictatorship"
+            "Government": "Unitary presidential republic under a totalitarian hereditary dictatorship",
+            "Legislature": "Assembly"
         },
         "Population": {
             "Count": 7057841.0,

@@ -23,10 +23,10 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Bakongo____>41</Bakongo____>
+        <Bakongo____>41.0</Bakongo____>
         <Bateke____>16.9</Bateke____>
-        <Mbenga_Pygmies_and_others____>2</Mbenga_Pygmies_and_others____>
         <Mbochi____>13.1</Mbochi____>
+        <Other____>2.0</Other____>
         <Sangha____>5.6</Sangha____>
       </Ethnic_groups>
       <Primary_Language>
@@ -36,13 +36,14 @@
       </Primary_Language>
       <Religion>
         <Christianity____>87.1</Christianity____>
+        <Folk_Traditional____>2.7</Folk_Traditional____>
         <Islam____>1.2</Islam____>
-        <no_religion____>8.0</no_religion____>
-        <traditional_faiths____>2.7</traditional_faiths____>
+        <No_religion____>8.0</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under a dictatorship</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>6228784.0</Count>

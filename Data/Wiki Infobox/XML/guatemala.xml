@@ -25,10 +25,10 @@
       <Ethnic_groups>
         <Black____>0.19</Black____>
         <Garifuna____>0.13</Garifuna____>
-        <Ladino__mixed_____>56.01</Ladino__mixed_____>
+        <Ladino____>56.01</Ladino____>
         <Maya____>41.66</Maya____>
+        <Other____>0.24</Other____>
         <Xinca____>1.77</Xinca____>
-        <other____>0.24</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Mayan</item>
@@ -36,12 +36,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>88.1</Christianity____>
-        <no_religion____>11.0</no_religion____>
-        <other____>0.9</other____>
+        <No_religion____>11.0</No_religion____>
+        <Other____>0.9</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Congress of the Republic</Legislature>
     </Government>
     <Population>
       <Count>18255216.0</Count>

@@ -22,24 +22,24 @@
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 75,
+                "African (%)": 75.0,
                 "European or other (%)": 0.8,
-                "Kalinago (%)": 4,
-                "multiracial (%)": 19,
-                "unspecified (%)": 0.2
+                "Kalinago (%)": 4.0,
+                "Multiracial (%)": 19.0
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
                 "Christianity (%)": 94.4,
-                "folk religions (%)": 3,
-                "none (%)": 0.9,
-                "other (%)": 1.7
+                "Folk/Traditional (%)": 3.0,
+                "No religion (%)": 0.9,
+                "Other (%)": 1.7
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "House of Assembly"
         },
         "Population": {
             "Count": 72412.0,

@@ -32,11 +32,12 @@
       <Religion>
         <Christianity____>63.1</Christianity____>
         <Islam____>34.1</Islam____>
-        <no_religion____>1.5</no_religion____>
+        <No_religion____>1.5</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary dominant-party presidential republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>67462121.0</Count>

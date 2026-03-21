@@ -25,24 +25,24 @@
                 "Asian (%)": 1.8,
                 "Chuukese (%)": 48.8,
                 "Kosraean (%)": 6.2,
+                "Other (%)": 6.4,
                 "Outer Yapese (%)": 4.5,
                 "Pohnpeian (%)": 24.2,
                 "Polynesian (%)": 1.5,
-                "Yapese (%)": 5.2,
-                "other (%)": 6.4,
-                "unknown (%)": 1.4
+                "Yapese (%)": 5.2
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
                 "Christianity (%)": 95.3,
-                "folk religions (%)": 4.1,
-                "none / other (%)": 0.6
+                "Folk/Traditional (%)": 4.1,
+                "No religion (%)": 0.6
             }
         },
         "Government": {
-            "Government": "Federal assembly-independent presidential republic under a non-partisan democracy"
+            "Government": "Federal assembly-independent presidential republic under a non-partisan democracy",
+            "Legislature": "Congress"
         },
         "Population": {
             "Count": 105564.0,

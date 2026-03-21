@@ -25,21 +25,22 @@
       <Ethnic_groups>
         <Andorrans____>32.1</Andorrans____>
         <French____>5.6</French____>
-        <Portuguese____>10</Portuguese____>
+        <Other____>18.0</Other____>
+        <Portuguese____>10.0</Portuguese____>
         <Spaniards____>34.3</Spaniards____>
-        <others____>18</others____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Catalan</item>
       </Primary_Language>
       <Religion>
         <Christianity____>90.8</Christianity____>
-        <no_religion____>6.9</no_religion____>
-        <others____>2.3</others____>
+        <No_religion____>6.9</No_religion____>
+        <Other____>2.3</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional co-principality</Government>
+      <Legislature>General Council</Legislature>
     </Government>
     <Population>
       <Count>89058.0</Count>

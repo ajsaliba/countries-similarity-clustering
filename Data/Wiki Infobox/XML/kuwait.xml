@@ -23,22 +23,23 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <African____>1</African____>
+        <African____>1.0</African____>
         <Arab____>57.8</Arab____>
+        <Other____>0.9</Other____>
         <South_Asian____>40.3</South_Asian____>
-        <other____>0.9</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
       </Primary_Language>
       <Religion>
         <Christianity____>18.2</Christianity____>
-        <Islam___official______>74.6</Islam___official______>
-        <other____>7.2</other____>
+        <Islam____>74.6</Islam____>
+        <Other____>7.2</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-constitutional monarchy</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>4985716.0</Count>

@@ -25,10 +25,10 @@
                 "Fula (%)": 27.5,
                 "Jola (%)": 4.2,
                 "Mandinka (%)": 4.9,
-                "Serer (%)": 16,
+                "Other (%)": 5.4,
+                "Serer (%)": 16.0,
                 "Soninke (%)": 2.4,
-                "Wolof (%)": 39.7,
-                "others (%)": 5.4
+                "Wolof (%)": 39.7
             },
             "Primary Language": [
                 "Diola",
@@ -42,11 +42,12 @@
             "Religion": {
                 "Christianity (%)": 2.7,
                 "Islam (%)": 97.2,
-                "other (%)": 0.1
+                "Other (%)": 0.1
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 18847519.0,

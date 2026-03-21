@@ -25,19 +25,22 @@
                 "Black (%)": 10.4,
                 "East Asian (%)": 0.7,
                 "Indigenous (%)": 6.3,
-                "White (%)": 86,
-                "other (%)": 6.3
+                "Other (%)": 6.3,
+                "White (%)": 86.0
             },
             "Primary Language": [
                 "Spanish",
                 "Uruguayan Sign Language"
             ],
             "Religion": {
-                "Animists or Umbandists (%)": 0.6
+                "Christianity (%)": 37.0,
+                "No religion (%)": 58.0,
+                "Other (%)": 5.0
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "General Assembly"
         },
         "Population": {
             "Count": 3499451.0,

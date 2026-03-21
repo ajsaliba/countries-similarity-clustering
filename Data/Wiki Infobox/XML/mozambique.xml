@@ -23,10 +23,10 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <African____>99</African____>
+        <African____>99.0</African____>
         <Mesti_o____>0.8</Mesti_o____>
+        <Other____>0.1</Other____>
         <White____>0.1</White____>
-        <other____>0.1</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Portuguese</item>
@@ -38,6 +38,7 @@
     </General>
     <Government>
       <Government>Unitary dominant-party semi-presidential republic under an authoritarian government</Government>
+      <Legislature>Assembly of the Republic</Legislature>
     </Government>
     <Population>
       <Count>34881007.0</Count>

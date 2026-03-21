@@ -24,8 +24,8 @@
             "Ethnic groups": {
                 "Indigenous Fijians (%)": 56.8,
                 "Indo-Fijians (%)": 37.5,
-                "Rotumans (%)": 1.2,
-                "others (%)": 4.5
+                "Other (%)": 4.5,
+                "Rotumans (%)": 1.2
             },
             "Primary Language": [
                 "English",
@@ -37,11 +37,12 @@
                 "Christianity (%)": 64.4,
                 "Hinduism (%)": 27.9,
                 "Islam (%)": 6.3,
-                "others / none (%)": 1.4
+                "No religion (%)": 1.4
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 926276.0,

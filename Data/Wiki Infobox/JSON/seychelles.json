@@ -22,8 +22,8 @@
         },
         "General": {
             "Ethnic groups": {
-                "Seychellois Creoles (%)": 97,
-                "others (%)": 3
+                "Other (%)": 3.0,
+                "Seychellois Creoles (%)": 97.0
             },
             "Primary Language": [
                 "English",
@@ -34,12 +34,12 @@
                 "Christianity (%)": 74.9,
                 "Hinduism (%)": 5.4,
                 "Islam (%)": 2.4,
-                "others (%)": 5.1,
-                "unanswered (%)": 12.2
+                "Other (%)": 5.1
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 121355.0,

@@ -23,7 +23,15 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Baggara_Arabs_Baka_Banda_Bayaka_Fula_Gula_Gbaya_Kara_Kresh_Mbaka_Mandja_Ngbandi_Runga_Sara_Vidiri_Wodaabe_Yakoma_Yulu_Kanuri_Zande_other/>
+        <Banda____>27.0</Banda____>
+        <Baya____>33.0</Baya____>
+        <Fula____>2.0</Fula____>
+        <M_Baka____>4.0</M_Baka____>
+        <Mandjia____>13.0</Mandjia____>
+        <Mbum____>4.0</Mbum____>
+        <Other____>3.0</Other____>
+        <Sara____>10.0</Sara____>
+        <Yakoma____>4.0</Yakoma____>
       </Ethnic_groups>
       <Primary_Language>
         <item>French</item>
@@ -31,13 +39,14 @@
       </Primary_Language>
       <Religion>
         <Christianity____>73.2</Christianity____>
+        <Folk_Traditional____>12.0</Folk_Traditional____>
         <Islam____>13.9</Islam____>
-        <other___none____>0.9</other___none____>
-        <traditional_faiths____>12</traditional_faiths____>
+        <No_religion____>0.9</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>5650957.0</Count>

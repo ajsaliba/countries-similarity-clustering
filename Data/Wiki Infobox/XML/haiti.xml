@@ -23,22 +23,23 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <African____>95</African____>
-        <other____>5</other____>
+        <African____>95.0</African____>
+        <Other____>5.0</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>French</item>
         <item>Haitian Creole</item>
       </Primary_Language>
       <Religion>
-        <Christianity____>87</Christianity____>
-        <Haitian_Vodou____>2.1</Haitian_Vodou____>
-        <no_religion____>10.7</no_religion____>
-        <other____>0.2</other____>
+        <Christianity____>87.0</Christianity____>
+        <Folk_Traditional____>2.1</Folk_Traditional____>
+        <No_religion____>10.7</No_religion____>
+        <Other____>0.2</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>11470261.0</Count>

@@ -26,19 +26,22 @@
         <Black____>10.4</Black____>
         <East_Asian____>0.7</East_Asian____>
         <Indigenous____>6.3</Indigenous____>
-        <White____>86</White____>
-        <other____>6.3</other____>
+        <Other____>6.3</Other____>
+        <White____>86.0</White____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Spanish</item>
         <item>Uruguayan Sign Language</item>
       </Primary_Language>
       <Religion>
-        <Animists_or_Umbandists____>0.6</Animists_or_Umbandists____>
+        <Christianity____>37.0</Christianity____>
+        <No_religion____>58.0</No_religion____>
+        <Other____>5.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>General Assembly</Legislature>
     </Government>
     <Population>
       <Count>3499451.0</Count>

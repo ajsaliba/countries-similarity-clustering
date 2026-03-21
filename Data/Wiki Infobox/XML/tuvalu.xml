@@ -24,21 +24,21 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Tuvaluans____>96</Tuvaluans____>
-        <others____>4</others____>
+        <Other____>4.0</Other____>
+        <Tuvaluans____>96.0</Tuvaluans____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
         <item>Tuvaluan</item>
       </Primary_Language>
       <Religion>
-        <Bah____Faith____>1.0</Bah____Faith____>
         <Christianity____>96.0</Christianity____>
-        <Other_religions_or_not_stated____>3.0</Other_religions_or_not_stated____>
+        <Other____>1.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>10643.0</Count>

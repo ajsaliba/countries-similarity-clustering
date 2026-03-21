@@ -23,11 +23,9 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Barundi____>100</Barundi____>
-        <Hutu____>85</Hutu____>
-        <Tutsi____>14</Tutsi____>
-        <Twa______>1</Twa______>
-        <other____>1</other____>
+        <Hutu____>85.0</Hutu____>
+        <Tutsi____>14.0</Tutsi____>
+        <Twa____>1.0</Twa____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
@@ -36,13 +34,14 @@
       </Primary_Language>
       <Religion>
         <Christianity____>93.4</Christianity____>
+        <Folk_Traditional____>4.3</Folk_Traditional____>
         <Islam____>2.1</Islam____>
-        <other___none____>0.2</other___none____>
-        <traditional_faiths____>4.3</traditional_faiths____>
+        <No_religion____>0.2</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary dominant-party presidential republic under an authoritarian dictatorship</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>14151540.0</Count>

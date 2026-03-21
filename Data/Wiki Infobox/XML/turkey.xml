@@ -29,15 +29,14 @@
         <item>Turkish</item>
       </Primary_Language>
       <Religion>
-        <Alevi_are_betwee____>10</Alevi_are_betwee____>
-        <KONDA_estimated_that____>0.47</KONDA_estimated_that____>
-        <Muslims_constitute____>99.8</Muslims_constitute____>
-        <Muslims_was____>99.4</Muslims_was____>
-        <Sunni____>88</Sunni____>
+        <Islam____>89.5</Islam____>
+        <No_religion____>2.0</No_religion____>
+        <Other____>8.5</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Grand National Assembly</Legislature>
     </Government>
     <Population>
       <Count>86092168.0</Count>

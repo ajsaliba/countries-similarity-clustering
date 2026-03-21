@@ -24,7 +24,7 @@
     <General>
       <Ethnic_groups>
         <Korean____>94.8</Korean____>
-        <other____>5.2</other____>
+        <Other____>5.2</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Korean</item>
@@ -32,13 +32,14 @@
       </Primary_Language>
       <Religion>
         <Buddhism____>17.0</Buddhism____>
-        <Catholic____>11.0</Catholic____>
+        <Christianity____>11.0</Christianity____>
         <No_religion____>51.0</No_religion____>
-        <other____>2.0</other____>
+        <Other____>2.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>52081799.0</Count>

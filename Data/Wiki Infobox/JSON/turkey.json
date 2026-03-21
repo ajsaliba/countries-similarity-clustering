@@ -28,15 +28,14 @@
                 "Turkish"
             ],
             "Religion": {
-                "Alevi are betwee (%)": 10,
-                "KONDA estimated that (%)": 0.47,
-                "Muslims constitute (%)": 99.8,
-                "Muslims was (%)": 99.4,
-                "Sunni (%)": 88
+                "Islam (%)": 89.5,
+                "No religion (%)": 2.0,
+                "Other (%)": 8.5
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Grand National Assembly"
         },
         "Population": {
             "Count": 86092168.0,

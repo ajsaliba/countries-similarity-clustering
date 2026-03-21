@@ -23,23 +23,23 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Arabs_15_____>80</Arabs_15_____>
-        <Assyrians___Turkmen___Jews___Persians___Yazidis___Mandaeans___and_others____>10</Assyrians___Turkmen___Jews___Persians___Yazidis___Mandaeans___and_others____>
-        <Kurds_5_____>20</Kurds_5_____>
+        <Arab____>75.0</Arab____>
+        <Kurdish____>15.0</Kurdish____>
+        <Other____>10.0</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
         <item>Kurdish</item>
       </Primary_Language>
       <Religion>
-        <Christianity___Mandaeism___Yazidism___Judaism___Yarsanism___irreligion_and_others____>10</Christianity___Mandaeism___Yazidism___Judaism___Yarsanism___irreligion_and_others____>
-        <Islam___official______>95</Islam___official______>
-        <Shia____>61</Shia____>
-        <Sunni_5_____>35</Sunni_5_____>
+        <Christianity____>1.0</Christianity____>
+        <Islam____>95.0</Islam____>
+        <Other____>4.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary republic</Government>
+      <Legislature>Council of Representatives</Legislature>
     </Government>
     <Population>
       <Count>46118793.0</Count>

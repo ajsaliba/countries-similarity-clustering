@@ -33,16 +33,15 @@
         <item>Portuguese</item>
       </Primary_Language>
       <Religion>
-        <Afro_Brazilian_religions____>1.05</Afro_Brazilian_religions____>
         <Christianity____>83.6</Christianity____>
-        <Spiritism____>1.84</Spiritism____>
-        <no_religion____>9.28</no_religion____>
-        <not_stated____>0.17</not_stated____>
-        <other____>4.07</other____>
+        <Folk_Traditional____>1.84</Folk_Traditional____>
+        <No_religion____>9.28</No_religion____>
+        <Other____>5.12</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal presidential republic</Government>
+      <Legislature>National Congress</Legislature>
     </Government>
     <Population>
       <Count>213421037.0</Count>

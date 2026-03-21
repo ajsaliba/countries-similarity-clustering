@@ -29,13 +29,14 @@
             ],
             "Religion": {
                 "Christianity (%)": 81.1,
-                "folk religions (%)": 3.1,
-                "no religion (%)": 13.2,
-                "others (%)": 2.4
+                "Folk/Traditional (%)": 3.1,
+                "No religion (%)": 13.2,
+                "Other (%)": 2.4
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic"
+            "Government": "Unitary semi-presidential republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 220372.0,

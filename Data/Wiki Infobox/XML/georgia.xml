@@ -26,8 +26,8 @@
         <Armenians____>4.5</Armenians____>
         <Azerbaijanis____>6.2</Azerbaijanis____>
         <Georgians____>86.8</Georgians____>
+        <Other____>2.1</Other____>
         <Russians____>0.7</Russians____>
-        <other____>2.1</other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Georgian</item>
@@ -35,11 +35,12 @@
       <Religion>
         <Christianity____>87.3</Christianity____>
         <Islam____>10.7</Islam____>
-        <other___none____>2.0</other___none____>
+        <No_religion____>2.0</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>3657000.0</Count>

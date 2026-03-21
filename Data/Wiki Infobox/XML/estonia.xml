@@ -24,23 +24,22 @@
     <General>
       <Ethnic_groups>
         <Estonians____>68.5</Estonians____>
+        <Other____>4.6</Other____>
         <Russians____>20.9</Russians____>
         <Ukrainians____>5.4</Ukrainians____>
-        <other____>4.6</other____>
-        <undeclared____>0.6</undeclared____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Estonian</item>
       </Primary_Language>
       <Religion>
         <Christianity____>26.7</Christianity____>
-        <irreligion____>58.4</irreligion____>
-        <other____>2.1</other____>
-        <undeclared____>12.7</undeclared____>
+        <No_religion____>58.4</No_religion____>
+        <Other____>2.1</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>Riigikogu</Legislature>
     </Government>
     <Population>
       <Count>1362954.0</Count>

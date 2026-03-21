@@ -26,8 +26,8 @@
             "Ethnic groups": {
                 "Coloured (%)": 0.1,
                 "European (%)": 0.2,
-                "Zimbabwean (%)": 99.6,
-                "other (%)": 0.1
+                "Other (%)": 0.1,
+                "Zimbabwean (%)": 99.6
             },
             "Primary Language": [
                 "Chewa",
@@ -49,13 +49,14 @@
             ],
             "Religion": {
                 "Christianity (%)": 84.1,
-                "no religion (%)": 10.2,
-                "others (%)": 1.2,
-                "traditional faiths (%)": 4.5
+                "Folk/Traditional (%)": 4.5,
+                "No religion (%)": 10.2,
+                "Other (%)": 1.2
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 17166852.0,

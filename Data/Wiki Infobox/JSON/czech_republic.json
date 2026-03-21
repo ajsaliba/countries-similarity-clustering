@@ -22,25 +22,24 @@
         },
         "General": {
             "Ethnic groups": {
-                "Czechs (%)": 89,
+                "Czechs (%)": 89.0,
                 "Moravians (%)": 3.3,
+                "Other (%)": 2.1,
                 "Slovaks (%)": 0.9,
-                "Ukrainians (%)": 0.7,
-                "other (%)": 2.1,
-                "two nationalities (%)": 4
+                "Ukrainians (%)": 0.7
             },
             "Primary Language": [
                 "Czech"
             ],
             "Religion": {
                 "Christianity (%)": 11.7,
-                "no religion (%)": 56.9,
-                "other (%)": 1.2,
-                "unanswered (%)": 30.1
+                "No religion (%)": 56.9,
+                "Other (%)": 1.2
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 10900555.0,

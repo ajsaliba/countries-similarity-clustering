@@ -30,11 +30,12 @@
         <item>Latin</item>
       </Primary_Language>
       <Religion>
-        <Catholicism>100.0</Catholicism>
+        <Christianity____>100.0</Christianity____>
       </Religion>
     </General>
     <Government>
       <Government>Theocratic elective absolute monarchy</Government>
+      <Legislature>Pontifical Commission</Legislature>
     </Government>
     <Population>
       <Count>882.0</Count>

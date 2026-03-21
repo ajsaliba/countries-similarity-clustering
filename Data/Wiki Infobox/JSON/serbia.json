@@ -24,10 +24,9 @@
             "Ethnic groups": {
                 "Bosniaks (%)": 2.3,
                 "Hungarians (%)": 2.8,
-                "Roma (%)": 2,
-                "Serbs (%)": 80.6,
-                "others (%)": 5.4,
-                "undeclared/unknown (%)": 6.9
+                "Other (%)": 5.4,
+                "Roma (%)": 2.0,
+                "Serbs (%)": 80.6
             },
             "Primary Language": [
                 "Serbian"
@@ -35,12 +34,12 @@
             "Religion": {
                 "Christianity (%)": 86.6,
                 "Islam (%)": 4.2,
-                "no religion (%)": 1.1,
-                "undeclared/unknown (%)": 7.9
+                "No religion (%)": 1.1
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary republic"
+            "Government": "Unitary parliamentary republic",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 6567783.0,

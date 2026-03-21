@@ -23,9 +23,9 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Asian___other____>1.4</Asian___other____>
         <Coloured_and_Basters____>3.6</Coloured_and_Basters____>
         <Indigenous_African____>93.2</Indigenous_African____>
+        <Other____>1.4</Other____>
         <White____>1.8</White____>
       </Ethnic_groups>
       <Primary_Language>
@@ -41,12 +41,13 @@
       </Primary_Language>
       <Religion>
         <Christianity____>87.9</Christianity____>
-        <no_religion____>1.6</no_religion____>
-        <other____>10.5</other____>
+        <No_religion____>1.6</No_religion____>
+        <Other____>10.5</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>3022401.0</Count>

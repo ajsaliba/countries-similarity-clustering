@@ -33,12 +33,12 @@
         <Christianity____>2.3</Christianity____>
         <Hinduism____>79.8</Hinduism____>
         <Islam____>14.2</Islam____>
-        <Jainism____>0.4</Jainism____>
-        <other____>0.65</other____>
+        <Other____>1.05</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>1428627663.0</Count>

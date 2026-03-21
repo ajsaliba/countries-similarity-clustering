@@ -25,10 +25,9 @@
       <Ethnic_groups>
         <Bosniaks____>2.3</Bosniaks____>
         <Hungarians____>2.8</Hungarians____>
-        <Roma____>2</Roma____>
+        <Other____>5.4</Other____>
+        <Roma____>2.0</Roma____>
         <Serbs____>80.6</Serbs____>
-        <others____>5.4</others____>
-        <undeclared_unknown____>6.9</undeclared_unknown____>
       </Ethnic_groups>
       <Primary_Language>
         <item>Serbian</item>
@@ -36,12 +35,12 @@
       <Religion>
         <Christianity____>86.6</Christianity____>
         <Islam____>4.2</Islam____>
-        <no_religion____>1.1</no_religion____>
-        <undeclared_unknown____>7.9</undeclared_unknown____>
+        <No_religion____>1.1</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>6567783.0</Count>

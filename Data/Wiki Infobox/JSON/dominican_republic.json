@@ -25,22 +25,21 @@
                 "Black (%)": 7.45,
                 "East Asian (%)": 0.33,
                 "Mixed (%)": 71.72,
-                "White (%)": 18.7,
-                "no answer (%)": 1.43,
-                "other (%)": 0.37
+                "Other (%)": 0.37,
+                "White (%)": 18.7
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
                 "Christianity (%)": 74.6,
-                "no religion (%)": 22.0,
-                "other (%)": 1.4,
-                "unspecified (%)": 2.0
+                "No religion (%)": 22.0,
+                "Other (%)": 1.4
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Congress"
         },
         "Population": {
             "Count": 11532151.0,

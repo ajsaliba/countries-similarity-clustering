@@ -27,11 +27,11 @@
                 "Dogon (%)": 8.7,
                 "Fula (%)": 13.3,
                 "Malinke (%)": 8.8,
+                "Other (%)": 4.5,
                 "Senufo / Bwa (%)": 9.6,
                 "Songhai (%)": 5.9,
                 "Soninke (%)": 9.6,
-                "Tuareg (%)": 3.5,
-                "other (%)": 4.5
+                "Tuareg (%)": 3.5
             },
             "Primary Language": [
                 "Bambara",
@@ -52,12 +52,13 @@
                 "Toro So"
             ],
             "Religion": {
-                "Islam (%)": 95,
-                "other (%)": 5
+                "Islam (%)": 95.0,
+                "Other (%)": 5.0
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic under a military junta"
+            "Government": "Unitary presidential republic under a military junta",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 21990607.0,

@@ -32,13 +32,13 @@
         <item>Tok Pisin</item>
       </Primary_Language>
       <Religion>
-        <Christianity___official______>95.5</Christianity___official______>
-        <others_or_none____>1.4</others_or_none____>
-        <unspecified____>3.1</unspecified____>
+        <Christianity____>95.5</Christianity____>
+        <No_religion____>1.4</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
+      <Legislature>National Parliament</Legislature>
     </Government>
     <Population>
       <Count>11781559.0</Count>

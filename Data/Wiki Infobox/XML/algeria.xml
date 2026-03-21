@@ -23,19 +23,20 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <See_Ethnic_groups/>
+        <Unknown>100.0</Unknown>
       </Ethnic_groups>
       <Primary_Language>
         <item>Arabic</item>
         <item>Berber</item>
       </Primary_Language>
       <Religion>
-        <Sunni_Islam___official________>99</Sunni_Islam___official________>
-        <others____>1</others____>
+        <Islam____>99.0</Islam____>
+        <Other____>1.0</Other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>47400000.0</Count>

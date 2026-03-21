@@ -23,7 +23,7 @@
         "General": {
             "Ethnic groups": {
                 "Basotho (%)": 99.7,
-                "others (%)": 0.3
+                "Other (%)": 0.3
             },
             "Primary Language": [
                 "English",
@@ -31,13 +31,14 @@
             ],
             "Religion": {
                 "Christianity (%)": 92.1,
-                "no religion (%)": 1,
-                "others (%)": 0.3,
-                "traditional faiths (%)": 6.6
+                "Folk/Traditional (%)": 6.6,
+                "No religion (%)": 1.0,
+                "Other (%)": 0.3
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary constitutional monarchy"
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 2210646.0,

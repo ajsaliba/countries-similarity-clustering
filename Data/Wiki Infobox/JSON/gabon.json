@@ -22,20 +22,28 @@
         },
         "General": {
             "Ethnic groups": {
-                "Fang Punu Nzebi Teke Myene Kota Vili Mbama and 42 others": null
+                "Fang (%)": 32.0,
+                "Foreign (%)": 14.0,
+                "Indigenous Forest Peoples (%)": 1.0,
+                "Kota-Kele (%)": 4.0,
+                "Mbede-Teke (%)": 9.0,
+                "Myene (%)": 5.0,
+                "Nzebi-Duma (%)": 13.0,
+                "Shira-Punu (%)": 22.0
             },
             "Primary Language": [
                 "French"
             ],
             "Religion": {
                 "Christianity (%)": 80.2,
+                "Folk/Traditional (%)": 1.1,
                 "Islam (%)": 10.8,
-                "no religion (%)": 7.0,
-                "traditional faiths (%)": 1.1
+                "No religion (%)": 7.0
             }
         },
         "Government": {
-            "Government": "Unitary presidential republic"
+            "Government": "Unitary presidential republic",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 2397368.0,

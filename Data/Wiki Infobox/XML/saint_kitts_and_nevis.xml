@@ -26,20 +26,20 @@
         <African____>92.5</African____>
         <European____>2.1</European____>
         <Indian____>1.6</Indian____>
-        <Mixed____>3</Mixed____>
-        <other____>0.5</other____>
-        <unspecified____>0.3</unspecified____>
+        <Mixed____>3.0</Mixed____>
+        <Other____>0.5</Other____>
       </Ethnic_groups>
       <Primary_Language>
         <item>English</item>
       </Primary_Language>
       <Religion>
         <Christianity____>94.6</Christianity____>
-        <no_religion____>2.6</no_religion____>
+        <No_religion____>2.6</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary constitutional monarchy</Government>
+      <Legislature>National Assembly</Legislature>
     </Government>
     <Population>
       <Count>47606.0</Count>

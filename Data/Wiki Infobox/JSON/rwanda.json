@@ -22,10 +22,9 @@
         },
         "General": {
             "Ethnic groups": {
-                "Banyarwanda (%)": 100,
-                "Hutu (%)": 85,
-                "Tutsi (%)": 14,
-                "Twa (%)": 1
+                "Hutu (%)": 85.0,
+                "Tutsi (%)": 14.0,
+                "Twa (%)": 1.0
             },
             "Primary Language": [
                 "English",
@@ -35,11 +34,12 @@
             ],
             "Religion": {
                 "Christianity (%)": 93.8,
-                "no religion (%)": 3.0
+                "No religion (%)": 3.0
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic under an authoritarian dictatorship"
+            "Government": "Unitary semi-presidential republic under an authoritarian dictatorship",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 14104969.0,

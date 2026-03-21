@@ -29,13 +29,14 @@
             ],
             "Religion": {
                 "Christianity (%)": 58.9,
-                "folk religions (%)": 17.6,
-                "no religion (%)": 23.2,
-                "other (%)": 0.3
+                "Folk/Traditional (%)": 17.6,
+                "No religion (%)": 23.2,
+                "Other (%)": 0.3
             }
         },
         "Government": {
-            "Government": "Communist state"
+            "Government": "Communist state",
+            "Legislature": "National Assembly of People's Power"
         },
         "Population": {
             "Count": 9748007.0,

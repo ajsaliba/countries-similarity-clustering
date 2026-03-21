@@ -22,21 +22,24 @@
         },
         "General": {
             "Ethnic groups": {
-                "See Ethnic groups": null
+                "Arab (%)": 44.0,
+                "Arabised Berbers (%)": 24.0,
+                "Berbers (%)": 22.0,
+                "Mauritanian Moors (%)": 10.0
             },
             "Primary Language": [
                 "Arabic",
                 "Tamazight"
             ],
             "Religion": {
-                "Baháʼís (%)": 0.1,
-                "Islam ( official ) (%)": 99.68,
-                "Jews (%)": 0.01,
-                "Others (%)": 0.3
+                "Islam (%)": 99.68,
+                "Judaism (%)": 0.01,
+                "Other (%)": 0.4
             }
         },
         "Government": {
-            "Government": "Unitary parliamentary semi-constitutional monarchy"
+            "Government": "Unitary parliamentary semi-constitutional monarchy",
+            "Legislature": "Parliament"
         },
         "Population": {
             "Count": 37493183.0,

@@ -22,18 +22,19 @@
         },
         "General": {
             "Ethnic groups": {
-                "Arab with (%)": 10,
-                "Close to (%)": 42
+                "Foreigners (%)": 44.0,
+                "Saudi (%)": 56.0
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
-                "Sunni Islam": 100.0
+                "Islam (%)": 100.0
             }
         },
         "Government": {
-            "Government": "Unitary Islamic absolute monarchy"
+            "Government": "Unitary Islamic absolute monarchy",
+            "Legislature": "Consultative Assembly"
         },
         "Population": {
             "Count": 33702731.0,

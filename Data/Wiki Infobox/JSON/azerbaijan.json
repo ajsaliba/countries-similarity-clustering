@@ -24,22 +24,23 @@
             "Ethnic groups": {
                 "Azerbaijani (%)": 94.8,
                 "Lezgin (%)": 1.7,
+                "Other (%)": 1.9,
                 "Russian (%)": 0.7,
-                "Talysh (%)": 0.9,
-                "others (%)": 1.9
+                "Talysh (%)": 0.9
             },
             "Primary Language": [
                 "Azerbaijani"
             ],
             "Religion": {
-                "Christianity < (%)": 2.6,
+                "Christianity (%)": 2.6,
                 "Islam (%)": 97.3,
-                "other religion < (%)": 0.1,
-                "unaffiliated (%)": 0.1
+                "No religion (%)": 0.1,
+                "Other (%)": 0.1
             }
         },
         "Government": {
-            "Government": "Unitary semi-presidential republic under an authoritarian hereditary dictatorship"
+            "Government": "Unitary semi-presidential republic under an authoritarian hereditary dictatorship",
+            "Legislature": "National Assembly"
         },
         "Population": {
             "Count": 10353296.0,

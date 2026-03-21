@@ -22,18 +22,19 @@
         },
         "General": {
             "Ethnic groups": {
-                "Somali (%)": 85,
-                "other (%)": 15
+                "Other (%)": 15.0,
+                "Somali (%)": 85.0
             },
             "Primary Language": [
                 "Somali"
             ],
             "Religion": {
-                "Sunni Islam": 100.0
+                "Islam (%)": 100.0
             }
         },
         "Government": {
-            "Government": "Federal parliamentary republic"
+            "Government": "Federal parliamentary republic",
+            "Legislature": "Federal Parliament"
         },
         "Population": {
             "Count": 19280850.0,

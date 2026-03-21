@@ -23,20 +23,28 @@
     </Economy>
     <General>
       <Ethnic_groups>
-        <Fang_Punu_Nzebi_Teke_Myene_Kota_Vili_Mbama_and_42_others/>
+        <Fang____>32.0</Fang____>
+        <Foreign____>14.0</Foreign____>
+        <Indigenous_Forest_Peoples____>1.0</Indigenous_Forest_Peoples____>
+        <Kota_Kele____>4.0</Kota_Kele____>
+        <Mbede_Teke____>9.0</Mbede_Teke____>
+        <Myene____>5.0</Myene____>
+        <Nzebi_Duma____>13.0</Nzebi_Duma____>
+        <Shira_Punu____>22.0</Shira_Punu____>
       </Ethnic_groups>
       <Primary_Language>
         <item>French</item>
       </Primary_Language>
       <Religion>
         <Christianity____>80.2</Christianity____>
+        <Folk_Traditional____>1.1</Folk_Traditional____>
         <Islam____>10.8</Islam____>
-        <no_religion____>7.0</no_religion____>
-        <traditional_faiths____>1.1</traditional_faiths____>
+        <No_religion____>7.0</No_religion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
+      <Legislature>Parliament</Legislature>
     </Government>
     <Population>
       <Count>2397368.0</Count>

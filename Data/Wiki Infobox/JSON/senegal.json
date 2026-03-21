@@ -1,0 +1,47 @@
+{
+    "country": "Senegal",
+    "infobox": {
+        "General": {
+            "Official Language": "French",
+            "National Language": "Wolof Serer Diola Pulaar Soninke Mandinka",
+            "Ethnic groups": {
+                "Wolof (%)": 39.7,
+                "Fula (%)": 27.5,
+                "Serer (%)": 16,
+                "Mandinka (%)": 4.9,
+                "Jola (%)": 4.2,
+                "Soninke (%)": 2.4,
+                "others (%)": 5.4
+            },
+            "Religion": {
+                "Islam (%)": 97.2,
+                "Christianity (%)": 2.7,
+                "other (%)": 0.1
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 196722,
+            "Water (%)": 2.1
+        },
+        "Population": {
+            "Count": 18847519,
+            "Density (/km2)": 96
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 105428000000,
+                "Per capita ($)": 5498
+            },
+            "GDP (nominal)": {
+                "Total ($)": 34728000000,
+                "Per capita ($)": 1811
+            },
+            "Gini": 40.3,
+            "HDI": 0.53,
+            "Currency": "West African CFA franc"
+        }
+    }
+}

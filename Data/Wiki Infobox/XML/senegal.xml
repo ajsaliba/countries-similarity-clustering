@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Senegal</country>
+  <infobox>
+    <General>
+      <Official_Language>French</Official_Language>
+      <National_Language>Wolof Serer Diola Pulaar Soninke Mandinka</National_Language>
+      <Ethnic_groups>
+        <Wolof____>39.7</Wolof____>
+        <Fula____>27.5</Fula____>
+        <Serer____>16</Serer____>
+        <Mandinka____>4.9</Mandinka____>
+        <Jola____>4.2</Jola____>
+        <Soninke____>2.4</Soninke____>
+        <others____>5.4</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>97.2</Islam____>
+        <Christianity____>2.7</Christianity____>
+        <other____>0.1</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>196722</Total__km2_>
+      <Water____>2.1</Water____>
+    </Area>
+    <Population>
+      <Count>18847519</Count>
+      <Density___km2_>96</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>105428000000</Total____>
+        <Per_capita____>5498</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>34728000000</Total____>
+        <Per_capita____>1811</Per_capita____>
+      </GDP__nominal_>
+      <Gini>40.3</Gini>
+      <HDI>0.53</HDI>
+      <Currency>West African CFA franc</Currency>
+    </Economy>
+  </infobox>
+</country>

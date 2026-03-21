@@ -1,0 +1,39 @@
+{
+    "country": "Central African Republic",
+    "infobox": {
+        "General": {
+            "Official Language": "French Sango",
+            "National Language": "Sango",
+            "Ethnic groups": "Baggara Arabs Baka Banda Bayaka Fula Gula Gbaya Kara Kresh Mbaka Mandja Ngbandi Runga Sara Vidiri Wodaabe Yakoma Yulu Kanuri Zande other",
+            "Religion": {
+                "Christianity (%)": 73.2,
+                "Islam (%)": 13.9,
+                "traditional faiths (%)": 12,
+                "other / none (%)": 0.9
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 622984
+        },
+        "Population": {
+            "Count": 5650957,
+            "Density (/km2)": 8.6
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 7940000000,
+                "Per capita ($)": 1390
+            },
+            "GDP (nominal)": {
+                "Total ($)": 3710000000,
+                "Per capita ($)": 650
+            },
+            "Gini": 43,
+            "HDI": 0.414,
+            "Currency": "Central African CFA franc"
+        }
+    }
+}

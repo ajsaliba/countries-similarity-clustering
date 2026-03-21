@@ -1,0 +1,32 @@
+{
+    "country": "Japan",
+    "infobox": {
+        "General": {
+            "National Language": "Japanese"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 377975,
+            "Water (%)": 1.4
+        },
+        "Population": {
+            "Count": 122950000,
+            "Density (/km2)": 330
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 6758000000000,
+                "Per capita ($)": 54815
+            },
+            "GDP (nominal)": {
+                "Total ($)": 4230000000000,
+                "Per capita ($)": 34713
+            },
+            "Gini": 32.3,
+            "HDI": 0.925,
+            "Currency": "Japanese yen"
+        }
+    }
+}

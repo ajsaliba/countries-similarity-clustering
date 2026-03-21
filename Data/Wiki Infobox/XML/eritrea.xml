@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Eritrea</country>
+  <infobox>
+    <General>
+      <Official_Language>None</Official_Language>
+      <National_Language>List Tigrinya Tigre Kunama Saho Afar Bilen Nara Beja Arabic</National_Language>
+      <Ethnic_groups>
+        <Tigrinya____>50</Tigrinya____>
+        <Tigre____>30</Tigre____>
+        <Saho____>4</Saho____>
+        <Afar____>4</Afar____>
+        <Kunama____>4</Kunama____>
+        <Bilen____>3</Bilen____>
+        <Beja____>2</Beja____>
+        <Nara____>2</Nara____>
+        <Rashaida____>1</Rashaida____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>63</Christianity____>
+        <Islam____>36</Islam____>
+        <Others____>1</Others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary one-party presidential republic under a totalitarian dictatorship</Government>
+    </Government>
+    <Area>
+      <Total__km2_>120000</Total__km2_>
+      <Water____>Negligible</Water____>
+    </Area>
+    <Population>
+      <Count>3.5–6.4 million</Count>
+      <Density___km2_>29</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>6369000000</Total____>
+        <Per_capita____>1821</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>1982000000</Total____>
+        <Per_capita____>567</Per_capita____>
+      </GDP__nominal_>
+      <HDI>0.503</HDI>
+      <Currency>Nakfa</Currency>
+    </Economy>
+  </infobox>
+</country>

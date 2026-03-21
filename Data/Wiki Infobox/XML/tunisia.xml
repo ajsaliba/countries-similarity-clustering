@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Tunisia</country>
+  <infobox>
+    <General>
+      <Official_Language>Arabic</Official_Language>
+      <Ethnic_groups>
+        <Arabs____>98</Arabs____>
+        <Berbers____>1</Berbers____>
+        <Jews_and_others____>1</Jews_and_others____>
+      </Ethnic_groups>
+      <Religion>
+        <Sunni_Islam____>99</Sunni_Islam____>
+        <others____>1</others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>163610</Total__km2_>
+      <Water____>5.04</Water____>
+    </Area>
+    <Population>
+      <Count>11972169</Count>
+      <Density___km2_>79</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>183730000000</Total____>
+        <Per_capita____>14780</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>56290000000</Total____>
+        <Per_capita____>4530</Per_capita____>
+      </GDP__nominal_>
+      <Gini>33.7</Gini>
+      <HDI>0.746</HDI>
+      <Currency>Tunisian dinar</Currency>
+    </Economy>
+  </infobox>
+</country>

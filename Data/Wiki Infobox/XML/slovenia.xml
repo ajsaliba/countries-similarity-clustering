@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Slovenia</country>
+  <infobox>
+    <General>
+      <Official_Language>Slovene</Official_Language>
+      <Religion>
+        <Christianity>
+          <percentage>77.9</percentage>
+          <breakdown>
+            <Catholicism____>73.4</Catholicism____>
+            <Orthodoxy____>3.7</Orthodoxy____>
+            <other_Christian____>0.7</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>18.3</no_religion____>
+        <other____>3.9</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>20272</Total__km2_>
+      <Water____>0.7</Water____>
+    </Area>
+    <Population>
+      <Count>2130850</Count>
+      <Density___km2_>103</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>122985000000000</Total____>
+        <Per_capita____>57716</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>79222000000000</Total____>
+        <Per_capita____>37178</Per_capita____>
+      </GDP__nominal_>
+      <Gini>23.4</Gini>
+      <HDI>0.931</HDI>
+      <Currency>Euro</Currency>
+    </Economy>
+  </infobox>
+</country>

@@ -1,0 +1,44 @@
+{
+    "country": "Slovenia",
+    "infobox": {
+        "General": {
+            "Official Language": "Slovene",
+            "Religion": {
+                "Christianity": {
+                    "percentage": 77.9,
+                    "breakdown": {
+                        "Catholicism (%)": 73.4,
+                        "Orthodoxy (%)": 3.7,
+                        "other Christian (%)": 0.7
+                    }
+                },
+                "no religion (%)": 18.3,
+                "other (%)": 3.9
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic"
+        },
+        "Area": {
+            "Total (km2)": 20272,
+            "Water (%)": 0.7
+        },
+        "Population": {
+            "Count": 2130850,
+            "Density (/km2)": 103
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 122985000000000,
+                "Per capita ($)": 57716
+            },
+            "GDP (nominal)": {
+                "Total ($)": 79222000000000,
+                "Per capita ($)": 37178
+            },
+            "Gini": 23.4,
+            "HDI": 0.931,
+            "Currency": "Euro"
+        }
+    }
+}

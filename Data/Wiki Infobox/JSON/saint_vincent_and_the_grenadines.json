@@ -1,0 +1,58 @@
+{
+    "country": "Saint Vincent and the Grenadines",
+    "infobox": {
+        "General": {
+            "Official Language": "English",
+            "Ethnic groups": {
+                "African (%)": 66,
+                "Mixed (%)": 19,
+                "Indian (%)": 6,
+                "European (%)": 4,
+                "Kalinago (%)": 2,
+                "others (%)": 3
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 88.6,
+                    "breakdown": {
+                        "Protestantism (%)": 70.2,
+                        "Other Christian (%)": 18.4
+                    }
+                },
+                "Hinduism (%)": 3.4,
+                "Irreligion (%)": 2.5,
+                "Rastafari": {
+                    "percentage": 1.8,
+                    "breakdown": {
+                        "Baháʼí Faith (%)": 1.6
+                    }
+                },
+                "Islam (%)": 1.5,
+                "Other (%)": 0.5
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 389,
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "Count": 110872,
+            "Density (/km2)": 307
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 2000000000,
+                "Per capita ($)": 17840
+            },
+            "GDP (nominal)": {
+                "Total ($)": 1000000000,
+                "Per capita ($)": 9360
+            },
+            "HDI": 0.798,
+            "Currency": "East Caribbean dollar"
+        }
+    }
+}

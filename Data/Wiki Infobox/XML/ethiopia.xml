@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Ethiopia</country>
+  <infobox>
+    <General>
+      <Official_Language>Afar Amharic Oromo Somali Tigrinya</Official_Language>
+      <Ethnic_groups>
+        <Oromo____>34.5</Oromo____>
+        <Amhara____>26.9</Amhara____>
+        <Somali____>6.2</Somali____>
+        <Tigrayan____>6.1</Tigrayan____>
+        <Sidama____>4</Sidama____>
+        <Gurage____>2.5</Gurage____>
+        <Welayta____>2.3</Welayta____>
+        <Hadiya____>1.7</Hadiya____>
+        <Afar____>1.7</Afar____>
+        <Gamo____>1.5</Gamo____>
+        <others____>12.6</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>67.3</percentage>
+          <breakdown>
+            <Ethiopian_Orthodoxy____>43.8</Ethiopian_Orthodoxy____>
+            <P_ent_ay____>22.8</P_ent_ay____>
+            <other_Christian____>0.7</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <Islam____>31.3</Islam____>
+        <traditional_faiths____>0.6</traditional_faiths____>
+        <others___none____>0.8</others___none____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Federal parliamentary republic under an authoritarian government</Government>
+    </Government>
+    <Area>
+      <Total__km2_>1104300</Total__km2_>
+      <Water____>0.7</Water____>
+    </Area>
+    <Population>
+      <Count>135500000</Count>
+      <Density___km2_>92.7</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>434440000000</Total____>
+        <Per_capita____>4050</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>145030000000</Total____>
+        <Per_capita____>1350</Per_capita____>
+      </GDP__nominal_>
+      <Gini>35.0</Gini>
+      <HDI>0.492</HDI>
+      <Currency>Birr</Currency>
+    </Economy>
+  </infobox>
+</country>

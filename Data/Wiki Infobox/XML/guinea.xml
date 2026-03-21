@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Guinea</country>
+  <infobox>
+    <General>
+      <Official_Language>French</Official_Language>
+      <Ethnic_groups>
+        <Fula____>33.4</Fula____>
+        <Mandinka____>29.4</Mandinka____>
+        <Susu____>21.2</Susu____>
+        <Kpelle____>7.8</Kpelle____>
+        <Kissi____>6.2</Kissi____>
+        <Loma____>1.6</Loma____>
+        <others____>0.4</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>85.2</Islam____>
+        <Christianity____>13.4</Christianity____>
+        <animism____>0.2</animism____>
+        <none____>1.2</none____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>245857</Total__km2_>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <Count>13986179</Count>
+      <Density___km2_>40.9</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>75050000000</Total____>
+        <Per_capita____>4075</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>30090000000</Total____>
+        <Per_capita____>1670</Per_capita____>
+      </GDP__nominal_>
+      <Gini>33.7</Gini>
+      <HDI>0.5</HDI>
+      <Currency>Guinean franc</Currency>
+    </Economy>
+  </infobox>
+</country>

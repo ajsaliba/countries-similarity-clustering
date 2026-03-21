@@ -1,0 +1,51 @@
+{
+    "country": "Iceland",
+    "infobox": {
+        "General": {
+            "Official Language": "Icelandic",
+            "Ethnic groups": {
+                "Icelandic (%)": 86,
+                "Polish (%)": 6,
+                "Lithuanian (%)": 1,
+                "Filipino (%)": 0.8,
+                "other (%)": 7
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 72.4,
+                    "breakdown": {
+                        "Church of Iceland ( official ) (%)": 60.9,
+                        "other Christian (%)": 11.5
+                    }
+                },
+                "no religion (%)": 25.2,
+                "Ásatrúarfélagið (%)": 1.5,
+                "other (%)": 0.9
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic"
+        },
+        "Area": {
+            "Total (km2)": 103125,
+            "Water (%)": 2.07
+        },
+        "Population": {
+            "Count": 394530,
+            "Density (/km2)": 3.78
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 31076000000,
+                "Per capita ($)": 81220
+            },
+            "GDP (nominal)": {
+                "Total ($)": 35310000000,
+                "Per capita ($)": 90280
+            },
+            "Gini": 23.2,
+            "HDI": 0.972,
+            "Currency": "Icelandic króna"
+        }
+    }
+}

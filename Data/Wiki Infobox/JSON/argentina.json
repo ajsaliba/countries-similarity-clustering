@@ -1,0 +1,43 @@
+{
+    "country": "Argentina",
+    "infobox": {
+        "General": {
+            "National Language": "Spanish",
+            "Religion": {
+                "Christianity": {
+                    "percentage": 78.2,
+                    "breakdown": {
+                        "Catholicism (%)": 62.9,
+                        "other Christian (%)": 15.3
+                    }
+                },
+                "no religion (%)": 20.5,
+                "other (%)": 1.3
+            }
+        },
+        "Government": {
+            "Government": "Federal presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 2780085,
+            "Water (%)": 1.57
+        },
+        "Population": {
+            "Count": 46735004,
+            "Density (/km2)": 16.8
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 1493000000000,
+                "Per capita ($)": 31379
+            },
+            "GDP (nominal)": {
+                "Total ($)": 683533000000,
+                "Per capita ($)": 14362
+            },
+            "Gini": 40.7,
+            "HDI": 0.865,
+            "Currency": "Argentine peso"
+        }
+    }
+}

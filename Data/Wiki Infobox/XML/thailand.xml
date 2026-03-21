@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Thailand</country>
+  <infobox>
+    <General>
+      <Official_Language>Thai</Official_Language>
+      <Ethnic_groups>
+        <Thai____>80</Thai____>
+        <Central_Thai____>37</Central_Thai____>
+        <Isan____>25</Isan____>
+        <Northern_Thai____>8</Northern_Thai____>
+        <Southern_Thai____>8</Southern_Thai____>
+        <Western_Thai____>2</Western_Thai____>
+        <Thai_Chinese____>12</Thai_Chinese____>
+        <Northern_Khmer____>4</Northern_Khmer____>
+        <Thai_Malays____>4</Thai_Malays____>
+      </Ethnic_groups>
+      <Religion>
+        <Buddhism____>93.46</Buddhism____>
+        <Islam____>5.37</Islam____>
+        <Christianity____>1.13</Christianity____>
+        <other____>0.03</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>513120</Total__km2_>
+      <Water____>0.4</Water____>
+    </Area>
+    <Population>
+      <Count>65975198</Count>
+      <Density___km2_>132.1</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>1853000000000</Total____>
+        <Per_capita____>26358</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>558573000000</Total____>
+        <Per_capita____>7942</Per_capita____>
+      </GDP__nominal_>
+      <Gini>33.5</Gini>
+      <HDI>0.798</HDI>
+      <Currency>Thai baht</Currency>
+    </Economy>
+  </infobox>
+</country>

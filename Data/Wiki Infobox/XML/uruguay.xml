@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Uruguay</country>
+  <infobox>
+    <General>
+      <Official_Language>Spanish Uruguayan Sign Language</Official_Language>
+      <Ethnic_groups>
+        <White____>86</White____>
+        <Black____>10.4</Black____>
+        <Indigenous____>6.3</Indigenous____>
+        <East_Asian____>0.7</East_Asian____>
+        <other____>6.3</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Animists_or_Umbandists>
+          <percentage>0.6</percentage>
+          <breakdown>
+            <Jewish____>0.4</Jewish____>
+          </breakdown>
+        </Animists_or_Umbandists>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>176215</Total__km2_>
+      <Water____>1.5</Water____>
+    </Area>
+    <Population>
+      <Count>3499451</Count>
+      <Density___km2_>19.5</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>107946000000</Total____>
+        <Per_capita____>36014</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>82605000000</Total____>
+        <Per_capita____>23088</Per_capita____>
+      </GDP__nominal_>
+      <Gini>40.6</Gini>
+      <HDI>0.862</HDI>
+      <Currency>Uruguayan peso</Currency>
+    </Economy>
+  </infobox>
+</country>

@@ -1,0 +1,37 @@
+{
+    "country": "Canada",
+    "infobox": {
+        "General": {
+            "Official Language": "English French",
+            "Religion": {
+                "Christians overall representing (%)": 53.3,
+                "Roman Catholics representing (%)": 29.9
+            }
+        },
+        "Government": {
+            "Government": "Federal parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total area (km2)": 9984670,
+            "Water (%)": 11.76,
+            "Total land area (km2)": 9093507
+        },
+        "Population": {
+            "Count": 41575585,
+            "Density (/km2)": 4.2
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 2723000000000,
+                "Per capita ($)": 65500
+            },
+            "GDP (nominal)": {
+                "Total ($)": 2284000000000,
+                "Per capita ($)": 54935
+            },
+            "Gini": 29.2,
+            "HDI": 0.939,
+            "Currency": "Canadian dollar"
+        }
+    }
+}

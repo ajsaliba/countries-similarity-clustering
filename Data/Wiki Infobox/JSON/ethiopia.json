@@ -1,0 +1,58 @@
+{
+    "country": "Ethiopia",
+    "infobox": {
+        "General": {
+            "Official Language": "Afar Amharic Oromo Somali Tigrinya",
+            "Ethnic groups": {
+                "Oromo (%)": 34.5,
+                "Amhara (%)": 26.9,
+                "Somali (%)": 6.2,
+                "Tigrayan (%)": 6.1,
+                "Sidama (%)": 4,
+                "Gurage (%)": 2.5,
+                "Welayta (%)": 2.3,
+                "Hadiya (%)": 1.7,
+                "Afar (%)": 1.7,
+                "Gamo (%)": 1.5,
+                "others (%)": 12.6
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 67.3,
+                    "breakdown": {
+                        "Ethiopian Orthodoxy (%)": 43.8,
+                        "P'ent'ay (%)": 22.8,
+                        "other Christian (%)": 0.7
+                    }
+                },
+                "Islam (%)": 31.3,
+                "traditional faiths (%)": 0.6,
+                "others / none (%)": 0.8
+            }
+        },
+        "Government": {
+            "Government": "Federal parliamentary republic under an authoritarian government"
+        },
+        "Area": {
+            "Total (km2)": 1104300,
+            "Water (%)": 0.7
+        },
+        "Population": {
+            "Count": 135500000,
+            "Density (/km2)": 92.7
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 434440000000,
+                "Per capita ($)": 4050
+            },
+            "GDP (nominal)": {
+                "Total ($)": 145030000000,
+                "Per capita ($)": 1350
+            },
+            "Gini": 35.0,
+            "HDI": 0.492,
+            "Currency": "Birr"
+        }
+    }
+}

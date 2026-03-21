@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Palestine</country>
+  <infobox>
+    <General>
+      <Official_Language>Arabic</Official_Language>
+      <Ethnic_groups>
+        <Palestinian_Arabs____>91.2</Palestinian_Arabs____>
+        <Israeli_Jews____>8.8</Israeli_Jews____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam___official__>
+          <percentage>80.73</percentage>
+          <breakdown>
+            <Sunni____>71.21</Sunni____>
+            <Shia____>0.09</Shia____>
+            <other____>9.42</other____>
+          </breakdown>
+        </Islam___official__>
+        <Judaism____>13.07</Judaism____>
+        <Christianity____>0.88</Christianity____>
+        <Bah____Faith____>0.05</Bah____Faith____>
+        <irreligion____>5.27</irreligion____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary provisional semi-presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>6020</Total__km2_>
+      <Water____>3.5</Water____>
+    </Area>
+    <Population>
+      <Count>5483450</Count>
+      <Density___km2_>731</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>36391000000</Total____>
+        <Per_capita____>6642</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>18109000000</Total____>
+        <Per_capita____>3464</Per_capita____>
+      </GDP__nominal_>
+      <Gini>33.7</Gini>
+      <HDI>0.674</HDI>
+      <Currency>Israeli new shekel Jordanian dinar Egyptian pound</Currency>
+    </Economy>
+  </infobox>
+</country>

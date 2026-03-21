@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Australia</country>
+  <infobox>
+    <General>
+      <National_Language>English</National_Language>
+      <Religion>
+        <Christianity____>43.9</Christianity____>
+        <no_religion____>38.9</no_religion____>
+        <Islam____>3.2</Islam____>
+        <Hinduism____>2.7</Hinduism____>
+        <Buddhism____>2.4</Buddhism____>
+        <other____>1.7</other____>
+        <unanswered____>7.2</unanswered____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Federal parliamentary constitutional monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>7688287</Total__km2_>
+      <Water____>1.79</Water____>
+    </Area>
+    <Population>
+      <Count>27840775</Count>
+      <Density___km2_>3.7</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>1982000000000</Total____>
+        <Per_capita____>71431</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>1830000000000</Total____>
+        <Per_capita____>65946</Per_capita____>
+      </GDP__nominal_>
+      <Gini>32.4</Gini>
+      <HDI>0.958</HDI>
+      <Currency>Australian dollar</Currency>
+    </Economy>
+  </infobox>
+</country>

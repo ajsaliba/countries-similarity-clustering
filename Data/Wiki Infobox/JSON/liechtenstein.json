@@ -1,0 +1,43 @@
+{
+    "country": "Liechtenstein",
+    "infobox": {
+        "General": {
+            "Official Language": "German",
+            "Religion": {
+                "Christianity": {
+                    "percentage": 79.4,
+                    "breakdown": {
+                        "Catholicism ( official ) (%)": 69.6,
+                        "other Christian (%)": 9.8
+                    }
+                },
+                "no religion (%)": 9.6,
+                "Islam (%)": 6,
+                "other (%)": 5
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy"
+        },
+        "Area": {
+            "Total (km2)": 160.5,
+            "Water (%)": 2.7
+        },
+        "Population": {
+            "Count": 41232,
+            "Density (/km2)": 249
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 7172000000,
+                "Per capita ($)": 210600
+            },
+            "GDP (nominal)": {
+                "Total ($)": 8288000000,
+                "Per capita ($)": 207974
+            },
+            "HDI": 0.938,
+            "Currency": "Swiss franc"
+        }
+    }
+}

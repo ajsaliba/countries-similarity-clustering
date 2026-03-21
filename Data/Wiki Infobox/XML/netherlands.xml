@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Netherlands</country>
+  <infobox>
+    <General>
+      <Official_Language>Dutch</Official_Language>
+    </General>
+    <Government>
+      <Government>Devolved unitary parliamentary constitutional monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>42531</Total__km2_>
+      <Water____>18.96</Water____>
+    </Area>
+    <Population>
+      <Count>18290379</Count>
+      <Density___km2_>532</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>1581000000000</Total____>
+        <Per_capita____>87173</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>1326000000000</Total____>
+        <Per_capita____>73091</Per_capita____>
+      </GDP__nominal_>
+      <Currency>4 currencies Euro United States dollar Caribbean guilder Aruban florin</Currency>
+    </Economy>
+  </infobox>
+</country>

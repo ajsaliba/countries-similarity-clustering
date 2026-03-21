@@ -1,0 +1,46 @@
+{
+    "country": "Equatorial Guinea",
+    "infobox": {
+        "General": {
+            "Official Language": "Spanish French Portuguese",
+            "Ethnic groups": {
+                "Fang (%)": 85.7,
+                "Bubi (%)": 6.5,
+                "Ndowe (%)": 3.6,
+                "Annobon (%)": 1.6,
+                "Bujeba (%)": 1.1,
+                "others (%)": 1.1
+            },
+            "Religion": {
+                "Christianity (%)": 88.7,
+                "no religion (%)": 5,
+                "Islam (%)": 4,
+                "traditional faiths (%)": 1.7,
+                "others (%)": 0.6
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic under an authoritarian hereditary dictatorship"
+        },
+        "Area": {
+            "Total (km2)": 28050,
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "Count": 1795834,
+            "Density (/km2)": 67
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 33001000000,
+                "Per capita ($)": 20017
+            },
+            "GDP (nominal)": {
+                "Total ($)": 12680000000,
+                "Per capita ($)": 7750
+            },
+            "HDI": 0.674,
+            "Currency": "Central African CFA franc"
+        }
+    }
+}

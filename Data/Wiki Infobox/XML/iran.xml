@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Iran</country>
+  <infobox>
+    <General>
+      <Official_Language>Persian</Official_Language>
+      <Ethnic_groups>
+        <Persians_make_up____>51</Persians_make_up____>
+        <Azerbaijanis_make_up____>24</Azerbaijanis_make_up____>
+        <Gilaks_and_Mazanderanis____>8</Gilaks_and_Mazanderanis____>
+        <Kurds____>7</Kurds____>
+        <Arabs____>3</Arabs____>
+        <Lurs____>2</Lurs____>
+        <Balochis____>2</Balochis____>
+        <Turkmens____>2</Turkmens____>
+        <Turkic_tribal_groups____>1</Turkic_tribal_groups____>
+      </Ethnic_groups>
+    </General>
+    <Government>
+      <Government>Unitary presidential theocratic Islamic republic under an authoritarian dictatorship</Government>
+    </Government>
+    <Area>
+      <Total__km2_>1648195</Total__km2_>
+      <Water____>1.63</Water____>
+    </Area>
+    <Population>
+      <Count>92417681</Count>
+      <Density___km2_>52</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>1879000000000</Total____>
+        <Per_capita____>21473</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>356513000000</Total____>
+        <Per_capita____>4074</Per_capita____>
+      </GDP__nominal_>
+      <Gini>35.9</Gini>
+      <HDI>0.799</HDI>
+      <Currency>Iranian rial</Currency>
+    </Economy>
+  </infobox>
+</country>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Ghana</country>
+  <infobox>
+    <General>
+      <Official_Language>English</Official_Language>
+      <Ethnic_groups>
+        <Akan____>45.7</Akan____>
+        <Mole_Dagbon____>18.5</Mole_Dagbon____>
+        <Ewe____>12.8</Ewe____>
+        <Ga_Adangbe____>7.1</Ga_Adangbe____>
+        <Gurma____>6.4</Gurma____>
+        <Guan____>3.2</Guan____>
+        <Gurunsi____>2.7</Gurunsi____>
+        <Mande____>2</Mande____>
+        <other____>1.6</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>71.3</Christianity____>
+        <Islam____>19.9</Islam____>
+        <traditional_faiths____>3.2</traditional_faiths____>
+        <irreligion____>1.1</irreligion____>
+        <other____>4.5</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>240000</Total__km2_>
+      <Water____>4.61</Water____>
+    </Area>
+    <Population>
+      <Count>35039451</Count>
+      <Density___km2_>151</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>295120000000</Total____>
+        <Per_capita____>8042</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>88033000000</Total____>
+        <Per_capita____>2520</Per_capita____>
+      </GDP__nominal_>
+      <Gini>44</Gini>
+      <HDI>0.628</HDI>
+      <Currency>Cedi</Currency>
+    </Economy>
+  </infobox>
+</country>

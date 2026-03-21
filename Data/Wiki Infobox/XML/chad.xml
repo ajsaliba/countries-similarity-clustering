@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Chad</country>
+  <infobox>
+    <General>
+      <Official_Language>Arabic French</Official_Language>
+      <Religion>
+        <Islam____>55.1</Islam____>
+        <Christianity____>41.1</Christianity____>
+        <no_religion____>2.4</no_religion____>
+        <Animism____>1.3</Animism____>
+        <others____>0.1</others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic under a hereditary dictatorship</Government>
+    </Government>
+    <Area>
+      <Total__km2_>1280000</Total__km2_>
+      <Water____>1.9</Water____>
+    </Area>
+    <Population>
+      <Count>19093595</Count>
+      <Density___km2_>14.4</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>63070000000</Total____>
+        <Per_capita____>3240</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>23560000000</Total____>
+        <Per_capita____>1210</Per_capita____>
+      </GDP__nominal_>
+      <Gini>37.4</Gini>
+      <HDI>0.416</HDI>
+      <Currency>Central African CFA franc</Currency>
+    </Economy>
+  </infobox>
+</country>

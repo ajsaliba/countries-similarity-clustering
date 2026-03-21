@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Mozambique</country>
+  <infobox>
+    <General>
+      <Official_Language>Portuguese</Official_Language>
+      <Ethnic_groups>
+        <African____>99</African____>
+        <Mesti_o____>0.8</Mesti_o____>
+        <White____>0.1</White____>
+        <other____>0.1</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>62</Christianity____>
+        <Islam>
+          <percentage>19.1</percentage>
+          <breakdown>
+            <no_religion____>13.5</no_religion____>
+            <other____>4.3</other____>
+            <unknown____>1.2</unknown____>
+          </breakdown>
+        </Islam>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary dominant-party semi-presidential republic under an authoritarian government</Government>
+    </Government>
+    <Area>
+      <Total__km2_>801590</Total__km2_>
+      <Water____>2.2</Water____>
+    </Area>
+    <Population>
+      <Count>34881007</Count>
+      <Density___km2_>43.5</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>61950000000</Total____>
+        <Per_capita____>1730</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>23770000000</Total____>
+        <Per_capita____>663</Per_capita____>
+      </GDP__nominal_>
+      <Gini>50.4</Gini>
+      <HDI>0.493</HDI>
+      <Currency>Metical</Currency>
+    </Economy>
+  </infobox>
+</country>

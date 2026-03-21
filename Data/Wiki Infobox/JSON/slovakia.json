@@ -1,0 +1,51 @@
+{
+    "country": "Slovakia",
+    "infobox": {
+        "General": {
+            "Official Language": "Slovak",
+            "Ethnic groups": {
+                "Slovaks (%)": 88.6,
+                "Hungarians (%)": 8.2,
+                "Romani (%)": 1.3,
+                "others (%)": 1.9
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 68.8,
+                    "breakdown": {
+                        "Catholicism (%)": 59.8,
+                        "Protestantism (%)": 7.6,
+                        "other Christian (%)": 1.4
+                    }
+                },
+                "no religion (%)": 23.8,
+                "other (%)": 0.9,
+                "unspecified (%)": 6.5
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic"
+        },
+        "Area": {
+            "Total (km2)": 49035,
+            "Water (%)": 0.72
+        },
+        "Population": {
+            "Count": 5413813,
+            "Density (/km2)": 110
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 256710000000,
+                "Per capita ($)": 47440
+            },
+            "GDP (nominal)": {
+                "Total ($)": 152480000000,
+                "Per capita ($)": 28180
+            },
+            "Gini": 21.2,
+            "HDI": 0.88,
+            "Currency": "Euro"
+        }
+    }
+}

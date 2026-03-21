@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Botswana</country>
+  <infobox>
+    <General>
+      <Official_Language>English</Official_Language>
+      <National_Language>Tswana</National_Language>
+      <Ethnic_groups>
+        <Tswana____>79</Tswana____>
+        <Kalanga____>11</Kalanga____>
+        <San____>3</San____>
+        <others____>7</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>79.1</percentage>
+          <breakdown>
+            <Protestantism____>70.2</Protestantism____>
+            <other_Christian____>8.9</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>15.2</no_religion____>
+        <Badimo____>4.1</Badimo____>
+        <others____>1.4</others____>
+        <unspecified____>0.3</unspecified____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic with an executive presidency</Government>
+    </Government>
+    <Area>
+      <Total__km2_>581730</Total__km2_>
+      <Water____>2.7</Water____>
+    </Area>
+    <Population>
+      <Count>2359609</Count>
+      <Density___km2_>4.1</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>54820000000</Total____>
+        <Per_capita____>19540</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>20710000000</Total____>
+        <Per_capita____>7380</Per_capita____>
+      </GDP__nominal_>
+      <Gini>45.5</Gini>
+      <HDI>0.731</HDI>
+      <Currency>Pula</Currency>
+    </Economy>
+  </infobox>
+</country>

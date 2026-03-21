@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Tajikistan</country>
+  <infobox>
+    <General>
+      <Official_Language>Tajik Russian</Official_Language>
+      <Ethnic_groups>
+        <Tajiks____>86.1</Tajiks____>
+        <Uzbeks____>11.3</Uzbeks____>
+        <Kyrgyz____>0.4</Kyrgyz____>
+        <Russians____>0.3</Russians____>
+        <other____>1.9</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>97.5</Islam____>
+        <Christianity____>0.7</Christianity____>
+        <irreligion____>1.7</irreligion____>
+        <others____>0.2</others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic under an authoritarian dictatorship</Government>
+    </Government>
+    <Area>
+      <Total__km2_>143100</Total__km2_>
+      <Water__km2_>2575</Water__km2_>
+      <Water____>1.8</Water____>
+    </Area>
+    <Population>
+      <Count>10786734</Count>
+      <Density___km2_>75.4</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>67750000000</Total____>
+        <Per_capita____>6434</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>18940000000</Total____>
+        <Per_capita____>1799</Per_capita____>
+      </GDP__nominal_>
+      <Gini>34</Gini>
+      <HDI>0.691</HDI>
+      <Currency>Somoni</Currency>
+    </Economy>
+  </infobox>
+</country>

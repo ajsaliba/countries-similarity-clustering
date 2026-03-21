@@ -1,0 +1,44 @@
+{
+    "country": "Papua New Guinea",
+    "infobox": {
+        "General": {
+            "Official Language": "English Hiri Motu PNG Sign Language Tok Pisin",
+            "Religion": {
+                "Christianity ( official )": {
+                    "percentage": 95.5,
+                    "breakdown": {
+                        "Protestantism (%)": 64.3,
+                        "Catholicism (%)": 26,
+                        "other Christian (%)": 5.2
+                    }
+                },
+                "unspecified (%)": 3.1,
+                "others or none (%)": 1.4
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 462840,
+            "Water (%)": 2.2
+        },
+        "Population": {
+            "Count": 11781559,
+            "Density (/km2)": 25.5
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 41810000000,
+                "Per capita ($)": 3760
+            },
+            "GDP (nominal)": {
+                "Total ($)": 32840000000,
+                "Per capita ($)": 2560
+            },
+            "Gini": 41.9,
+            "HDI": 0.576,
+            "Currency": "Kina"
+        }
+    }
+}

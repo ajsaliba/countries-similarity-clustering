@@ -1,0 +1,45 @@
+{
+    "country": "Colombia",
+    "infobox": {
+        "General": {
+            "Official Language": "Spanish",
+            "Ethnic groups": {
+                "Mestizo - White (%)": 84.99,
+                "Black (%)": 9.34,
+                "Indigenous (%)": 4.31,
+                "Romanis (%)": 0.01,
+                "not specified (%)": 1.35
+            },
+            "Religion": {
+                "Catholicism (%)": 70,
+                "other Christian (%)": 17,
+                "no religion (%)": 11,
+                "other (%)": 1.9
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 1141748,
+            "Water (%)": 2.1
+        },
+        "Population": {
+            "Count": 52695952,
+            "Density (/km2)": 46.15
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 1042000000000,
+                "Per capita ($)": 19770
+            },
+            "GDP (nominal)": {
+                "Total ($)": 386076000000,
+                "Per capita ($)": 7327
+            },
+            "Gini": 53.9,
+            "HDI": 0.788,
+            "Currency": "Colombian peso"
+        }
+    }
+}

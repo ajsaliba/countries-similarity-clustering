@@ -1,0 +1,42 @@
+{
+    "country": "Lesotho",
+    "infobox": {
+        "General": {
+            "Official Language": "Sesotho English",
+            "Ethnic groups": {
+                "Basotho (%)": 99.7,
+                "others (%)": 0.3
+            },
+            "Religion": {
+                "Christianity (%)": 92.1,
+                "traditional faiths (%)": 6.6,
+                "no religion (%)": 1,
+                "others (%)": 0.3
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 30355,
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "Count": 2210646,
+            "Density (/km2)": 68.1
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 6915000000,
+                "Per capita ($)": 3234
+            },
+            "GDP (nominal)": {
+                "Total ($)": 2373000000,
+                "Per capita ($)": 1110
+            },
+            "Gini": 44.9,
+            "HDI": 0.55,
+            "Currency": "Lesotho loti South African rand"
+        }
+    }
+}

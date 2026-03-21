@@ -1,0 +1,47 @@
+{
+    "country": "Guinea",
+    "infobox": {
+        "General": {
+            "Official Language": "French",
+            "Ethnic groups": {
+                "Fula (%)": 33.4,
+                "Mandinka (%)": 29.4,
+                "Susu (%)": 21.2,
+                "Kpelle (%)": 7.8,
+                "Kissi (%)": 6.2,
+                "Loma (%)": 1.6,
+                "others (%)": 0.4
+            },
+            "Religion": {
+                "Islam (%)": 85.2,
+                "Christianity (%)": 13.4,
+                "animism (%)": 0.2,
+                "none (%)": 1.2
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 245857,
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "Count": 13986179,
+            "Density (/km2)": 40.9
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 75050000000,
+                "Per capita ($)": 4075
+            },
+            "GDP (nominal)": {
+                "Total ($)": 30090000000,
+                "Per capita ($)": 1670
+            },
+            "Gini": 33.7,
+            "HDI": 0.5,
+            "Currency": "Guinean franc"
+        }
+    }
+}

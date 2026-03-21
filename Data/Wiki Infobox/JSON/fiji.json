@@ -1,0 +1,50 @@
+{
+    "country": "Fiji",
+    "infobox": {
+        "General": {
+            "National Language": "Fijian English Standard Hindi Fiji Hindi",
+            "Ethnic groups": {
+                "Indigenous Fijians (%)": 56.8,
+                "Indo-Fijians (%)": 37.5,
+                "Rotumans (%)": 1.2,
+                "others (%)": 4.5
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 64.4,
+                    "breakdown": {
+                        "Methodism (%)": 34.6,
+                        "other Christian (%)": 29.8
+                    }
+                },
+                "Hinduism (%)": 27.9,
+                "Islam (%)": 6.3,
+                "others / none (%)": 1.4
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic"
+        },
+        "Area": {
+            "Total (km2)": 18274,
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "Count": 926276,
+            "Density (/km2)": 46.4
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 15152000000,
+                "Per capita ($)": 16563
+            },
+            "GDP (nominal)": {
+                "Total ($)": 5511000000,
+                "Per capita ($)": 6024
+            },
+            "Gini": 30.7,
+            "HDI": 0.731,
+            "Currency": "Fijian dollar"
+        }
+    }
+}

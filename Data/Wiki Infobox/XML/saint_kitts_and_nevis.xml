@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Saint Kitts and Nevis</country>
+  <infobox>
+    <General>
+      <Official_Language>English</Official_Language>
+      <Ethnic_groups>
+        <African____>92.5</African____>
+        <Mixed____>3</Mixed____>
+        <European____>2.1</European____>
+        <Indian____>1.6</Indian____>
+        <other____>0.5</other____>
+        <unspecified____>0.3</unspecified____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>94.6</percentage>
+          <breakdown>
+            <Protestantism____>81.3</Protestantism____>
+            <other_Christian____>13.3</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <no_religion>
+          <percentage>2.6</percentage>
+          <breakdown>
+            <Hinduism>
+              <percentage>1.5</percentage>
+              <breakdown>
+                <other____>1.3</other____>
+              </breakdown>
+            </Hinduism>
+          </breakdown>
+        </no_religion>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Federal parliamentary constitutional monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>261</Total__km2_>
+      <Water____>Negligible</Water____>
+    </Area>
+    <Population>
+      <Count>47606</Count>
+      <Density___km2_>164</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>1800000000</Total____>
+        <Per_capita____>29893</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>1000000000</Total____>
+        <Per_capita____>18158</Per_capita____>
+      </GDP__nominal_>
+      <HDI>0.84</HDI>
+      <Currency>East Caribbean dollar</Currency>
+    </Economy>
+  </infobox>
+</country>

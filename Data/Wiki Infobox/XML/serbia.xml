@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Serbia</country>
+  <infobox>
+    <General>
+      <Official_Language>Serbian</Official_Language>
+      <Ethnic_groups>
+        <Serbs____>80.6</Serbs____>
+        <Hungarians____>2.8</Hungarians____>
+        <Bosniaks____>2.3</Bosniaks____>
+        <Roma____>2</Roma____>
+        <others____>5.4</others____>
+        <undeclared_unknown____>6.9</undeclared_unknown____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>86.6</percentage>
+          <breakdown>
+            <Eastern_Orthodoxy____>81.1</Eastern_Orthodoxy____>
+            <Catholicism____>3.9</Catholicism____>
+            <other____>1.7</other____>
+          </breakdown>
+        </Christianity>
+        <Islam____>4.2</Islam____>
+        <no_religion____>1.1</no_religion____>
+        <undeclared_unknown____>7.9</undeclared_unknown____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>88499</Total__km2_>
+    </Area>
+    <Population>
+      <Count>6567783</Count>
+      <Density___km2_>85</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>225550000000</Total____>
+        <Per_capita____>34790</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>112110000000</Total____>
+        <Per_capita____>17290</Per_capita____>
+      </GDP__nominal_>
+      <Gini>31.9</Gini>
+      <HDI>0.833</HDI>
+      <Currency>Serbian dinar</Currency>
+    </Economy>
+  </infobox>
+</country>

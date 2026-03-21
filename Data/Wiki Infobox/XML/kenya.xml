@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Kenya</country>
+  <infobox>
+    <General>
+      <Official_Language>Swahili English</Official_Language>
+      <National_Language>Swahili</National_Language>
+      <Ethnic_groups>
+        <Kikuyu____>17.13</Kikuyu____>
+        <Luhya____>14.35</Luhya____>
+        <Kalenjin____>13.37</Kalenjin____>
+        <Luo____>10.65</Luo____>
+        <Kamba____>9.81</Kamba____>
+        <Somali____>5.85</Somali____>
+        <Kisii____>5.68</Kisii____>
+        <Mijikenda____>5.23</Mijikenda____>
+        <Meru____>4.15</Meru____>
+        <others____>13.78</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>85.5</Christianity____>
+        <Islam____>10.9</Islam____>
+        <no_religion____>1.5</no_religion____>
+        <traditional_faiths____>0.7</traditional_faiths____>
+        <others____>1.3</others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>580367</Total__km2_>
+      <Water____>2.3</Water____>
+    </Area>
+    <Population>
+      <Count>53330978</Count>
+      <Density___km2_>82</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>430220000000</Total____>
+        <Per_capita____>7930</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>140870000000</Total____>
+        <Per_capita____>2600</Per_capita____>
+      </GDP__nominal_>
+      <Gini>38.7</Gini>
+      <HDI>0.628</HDI>
+      <Currency>Kenyan shilling</Currency>
+    </Economy>
+  </infobox>
+</country>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Tonga</country>
+  <infobox>
+    <General>
+      <Official_Language>Tongan English</Official_Language>
+      <Ethnic_groups>
+        <Tongan____>96.5</Tongan____>
+        <others____>3.5</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity__>
+          <percentage>96.9</percentage>
+          <breakdown>
+            <Protestantism______>64.1</Protestantism______>
+            <Mormonism______>18.6</Mormonism______>
+            <Catholicism____>14.2</Catholicism____>
+          </breakdown>
+        </Christianity__>
+        <no_religion____>0.5</no_religion____>
+        <unspecified____>0.1</unspecified____>
+        <others____>2.4</others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary semi-constitutional monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>748</Total__km2_>
+      <Water____>4.0</Water____>
+    </Area>
+    <Population>
+      <Count>100209</Count>
+      <Density___km2_>139</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>655000000</Total____>
+        <Per_capita____>6496</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>493000000</Total____>
+        <Per_capita____>4888</Per_capita____>
+      </GDP__nominal_>
+      <Gini>27.1</Gini>
+      <HDI>0.739</HDI>
+      <Currency>Paʻanga</Currency>
+    </Economy>
+  </infobox>
+</country>

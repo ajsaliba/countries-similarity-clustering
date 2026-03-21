@@ -1,0 +1,46 @@
+{
+    "country": "Tajikistan",
+    "infobox": {
+        "General": {
+            "Official Language": "Tajik Russian",
+            "Ethnic groups": {
+                "Tajiks (%)": 86.1,
+                "Uzbeks (%)": 11.3,
+                "Kyrgyz (%)": 0.4,
+                "Russians (%)": 0.3,
+                "other (%)": 1.9
+            },
+            "Religion": {
+                "Islam (%)": 97.5,
+                "Christianity (%)": 0.7,
+                "irreligion (%)": 1.7,
+                "others (%)": 0.2
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic under an authoritarian dictatorship"
+        },
+        "Area": {
+            "Total (km2)": 143100,
+            "Water (km2)": 2575,
+            "Water (%)": 1.8
+        },
+        "Population": {
+            "Count": 10786734,
+            "Density (/km2)": 75.4
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 67750000000,
+                "Per capita ($)": 6434
+            },
+            "GDP (nominal)": {
+                "Total ($)": 18940000000,
+                "Per capita ($)": 1799
+            },
+            "Gini": 34,
+            "HDI": 0.691,
+            "Currency": "Somoni"
+        }
+    }
+}

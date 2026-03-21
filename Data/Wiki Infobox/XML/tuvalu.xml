@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Tuvalu</country>
+  <infobox>
+    <General>
+      <Official_Language>Tuvaluan English</Official_Language>
+      <Ethnic_groups>
+        <Tuvaluans____>96</Tuvaluans____>
+        <others____>4</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>96</percentage>
+          <breakdown>
+            <Calvinism___official______>86</Calvinism___official______>
+            <other_Christian____>10</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <Other_religions_or_not_stated____>3</Other_religions_or_not_stated____>
+        <Bah____Faith____>1</Bah____Faith____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>26.26</Total__km2_>
+      <Water____>Negligible</Water____>
+    </Area>
+    <Population>
+      <Count>10643</Count>
+      <Density___km2_>423</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>68603000</Total____>
+        <Per_capita____>6076</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>63000000</Total____>
+        <Per_capita____>6113</Per_capita____>
+      </GDP__nominal_>
+      <Gini>39</Gini>
+      <HDI>0.689</HDI>
+      <Currency>Tuvaluan dollar Australian dollar</Currency>
+    </Economy>
+  </infobox>
+</country>

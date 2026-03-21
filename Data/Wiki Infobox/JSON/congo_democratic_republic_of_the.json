@@ -1,0 +1,39 @@
+{
+    "country": "Congo, Democratic Republic of the",
+    "infobox": {
+        "General": {
+            "Official Language": "French",
+            "National Language": "Kikongo ya leta Lingala Swahili Luba-Kasai",
+            "Religion": {
+                "Christianity (%)": 95.4,
+                "traditional faiths (%)": 2.6,
+                "Islam (%)": 1.5,
+                "others / none (%)": 0.5
+            }
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 2345409,
+            "Water (%)": 3.32
+        },
+        "Population": {
+            "Count": 124388160,
+            "Density (/km2)": 48
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 200760000000,
+                "Per capita ($)": 1881
+            },
+            "GDP (nominal)": {
+                "Total ($)": 79120000000,
+                "Per capita ($)": 742
+            },
+            "Gini": 42.1,
+            "HDI": 0.522,
+            "Currency": "Congolese franc"
+        }
+    }
+}

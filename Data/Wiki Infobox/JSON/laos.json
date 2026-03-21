@@ -1,0 +1,50 @@
+{
+    "country": "Laos",
+    "infobox": {
+        "General": {
+            "Official Language": "Lao",
+            "Ethnic groups": {
+                "Lao (%)": 53.2,
+                "Khmu (%)": 11,
+                "Hmong (%)": 9.2,
+                "Phu Thai (%)": 3.4,
+                "Tai (%)": 3.1,
+                "Makong (%)": 2.5,
+                "Katang (%)": 2.2,
+                "Lue (%)": 2,
+                "Akha (%)": 1.8,
+                "other (%)": 11.6
+            },
+            "Religion": {
+                "Buddhism (%)": 66,
+                "Tai folk religion (%)": 30.7,
+                "Christianity (%)": 1.5,
+                "other / none (%)": 1.8
+            }
+        },
+        "Government": {
+            "Government": "Unitary communist state"
+        },
+        "Area": {
+            "Total (km2)": 236800,
+            "Water (%)": 2
+        },
+        "Population": {
+            "Count": 7953556,
+            "Density (/km2)": 33.21
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 78850000000,
+                "Per capita ($)": 10120
+            },
+            "GDP (nominal)": {
+                "Total ($)": 16320000000,
+                "Per capita ($)": 2100
+            },
+            "Gini": 36.4,
+            "HDI": 0.617,
+            "Currency": "Kip"
+        }
+    }
+}

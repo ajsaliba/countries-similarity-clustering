@@ -1,0 +1,54 @@
+{
+    "country": "United Kingdom",
+    "infobox": {
+        "General": {
+            "National Language": "English",
+            "Ethnic groups": {
+                "White (%)": 83,
+                "Asian (%)": 8.6,
+                "Black (%)": 3.7,
+                "Mixed (%)": 2.7,
+                "other (%)": 2
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 46.5,
+                    "breakdown": {
+                        "no religion (%)": 37.8,
+                        "Islam (%)": 6,
+                        "Hinduism (%)": 1.6,
+                        "Sikhism (%)": 0.8,
+                        "Buddhism (%)": 0.4
+                    }
+                },
+                "Judaism (%)": 0.4,
+                "other (%)": 0.6,
+                "not stated (%)": 5.9
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 244376,
+            "Land (km2)": 242741
+        },
+        "Population": {
+            "Count": 69281437,
+            "Density (/km2)": 285
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 4455000000000,
+                "Per capita ($)": 63759
+            },
+            "GDP (nominal)": {
+                "Total ($)": 3959000000000,
+                "Per capita ($)": 56661
+            },
+            "Gini": 35.4,
+            "HDI": 0.946,
+            "Currency": "Pound sterling"
+        }
+    }
+}

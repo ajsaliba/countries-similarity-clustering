@@ -1,0 +1,52 @@
+{
+    "country": "Serbia",
+    "infobox": {
+        "General": {
+            "Official Language": "Serbian",
+            "Ethnic groups": {
+                "Serbs (%)": 80.6,
+                "Hungarians (%)": 2.8,
+                "Bosniaks (%)": 2.3,
+                "Roma (%)": 2,
+                "others (%)": 5.4,
+                "undeclared/unknown (%)": 6.9
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 86.6,
+                    "breakdown": {
+                        "Eastern Orthodoxy (%)": 81.1,
+                        "Catholicism (%)": 3.9,
+                        "other (%)": 1.7
+                    }
+                },
+                "Islam (%)": 4.2,
+                "no religion (%)": 1.1,
+                "undeclared/unknown (%)": 7.9
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic"
+        },
+        "Area": {
+            "Total (km2)": 88499
+        },
+        "Population": {
+            "Count": 6567783,
+            "Density (/km2)": 85
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 225550000000,
+                "Per capita ($)": 34790
+            },
+            "GDP (nominal)": {
+                "Total ($)": 112110000000,
+                "Per capita ($)": 17290
+            },
+            "Gini": 31.9,
+            "HDI": 0.833,
+            "Currency": "Serbian dinar"
+        }
+    }
+}

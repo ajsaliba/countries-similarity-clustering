@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Bhutan</country>
+  <infobox>
+    <General>
+      <Official_Language>Dzongkha</Official_Language>
+      <Religion>
+        <Buddhism____>74.7</Buddhism____>
+        <Hinduism____>22.6</Hinduism____>
+        <Bon____>1.9</Bon____>
+        <others____>0.8</others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary semi-constitutional monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>38394</Total__km2_>
+      <Water____>1.1</Water____>
+    </Area>
+    <Population>
+      <Count>777486</Count>
+      <Density___km2_>20.5</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>15415000000</Total____>
+        <Per_capita____>19255</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>3771000000</Total____>
+        <Per_capita____>4710</Per_capita____>
+      </GDP__nominal_>
+      <Gini>28.5</Gini>
+      <HDI>0.698</HDI>
+      <Currency>Ngultrum Indian rupee</Currency>
+    </Economy>
+  </infobox>
+</country>

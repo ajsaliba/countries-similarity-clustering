@@ -1,0 +1,46 @@
+{
+    "country": "Spain",
+    "infobox": {
+        "General": {
+            "Official Language": "Spanish",
+            "Religion": {
+                "Roman Catholicism": {
+                    "percentage": 58.6,
+                    "breakdown": {
+                        "non-practicing Catholic (%)": 40,
+                        "practicing Catholic (%)": 18.6
+                    }
+                },
+                "atheist (%)": 13.3,
+                "indifferent or irreligious (%)": 11.7,
+                "agnostic (%)": 11.1,
+                "other religion (%)": 3.6,
+                "unanswered (%)": 1.7
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 506030,
+            "Water (%)": 0.89
+        },
+        "Population": {
+            "Count": 49570725,
+            "Density (/km2)": 98
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 2829000000000,
+                "Per capita ($)": 56888
+            },
+            "GDP (nominal)": {
+                "Total ($)": 1891000000000,
+                "Per capita ($)": 38040
+            },
+            "Gini": 31.2,
+            "HDI": 0.918,
+            "Currency": "Euro"
+        }
+    }
+}

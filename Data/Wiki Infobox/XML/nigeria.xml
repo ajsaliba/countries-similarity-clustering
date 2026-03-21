@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Nigeria</country>
+  <infobox>
+    <General>
+      <Official_Language>English</Official_Language>
+      <Ethnic_groups>
+        <Hausa____>30</Hausa____>
+        <Yoruba____>15.5</Yoruba____>
+        <Igbo____>15.2</Igbo____>
+        <Fulani____>6</Fulani____>
+        <Tiv____>2.4</Tiv____>
+        <Kanuri____>2.4</Kanuri____>
+        <Ibibio____>1.8</Ibibio____>
+        <Ijaw____>1.8</Ijaw____>
+        <other____>24.7</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>53.5</Islam____>
+        <Christianity>
+          <percentage>45.9</percentage>
+          <breakdown>
+            <Protestants____>35.3</Protestants____>
+            <Catholics____>10.6</Catholics____>
+          </breakdown>
+        </Christianity>
+        <other____>0.6</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Federal presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>923769</Total__km2_>
+      <Water____>1.4</Water____>
+    </Area>
+    <Population>
+      <Count>236747130</Count>
+      <Density___km2_>249.8</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>2254000000000</Total____>
+        <Per_capita____>9488</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>285003000000</Total____>
+        <Per_capita____>1200</Per_capita____>
+      </GDP__nominal_>
+      <Gini>35.1</Gini>
+      <HDI>0.56</HDI>
+      <Currency>Naira</Currency>
+    </Economy>
+  </infobox>
+</country>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Gambia, The</country>
+  <infobox>
+    <General>
+      <Official_Language>English</Official_Language>
+      <National_Language>List: Mandinka Pulaar Wolof Serer Jola English Balanta Arabic Jola-Fonyi Mandjak Mankanya Noon Dyula Soninke Fula Karon Kassonke Cangin Gambian Sign Language</National_Language>
+      <Ethnic_groups>
+        <Mandinka____>34.4</Mandinka____>
+        <Fula____>25</Fula____>
+        <Wolof____>15.4</Wolof____>
+        <Jola____>9.5</Jola____>
+        <Soninke____>8.2</Soninke____>
+        <Serer____>2.9</Serer____>
+        <other____>4.6</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>95.7</Islam____>
+        <Christianity____>4.2</Christianity____>
+        <others____>0.1</others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>11300</Total__km2_>
+      <Water____>11.5</Water____>
+    </Area>
+    <Population>
+      <Count>2422712</Count>
+      <Density___km2_>227</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>11050000000</Total____>
+        <Per_capita____>3820</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>2670000000</Total____>
+        <Per_capita____>924</Per_capita____>
+      </GDP__nominal_>
+      <Gini>35.9</Gini>
+      <HDI>0.524</HDI>
+      <Currency>Gambian dalasi</Currency>
+    </Economy>
+  </infobox>
+</country>

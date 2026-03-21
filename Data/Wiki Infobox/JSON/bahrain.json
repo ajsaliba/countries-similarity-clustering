@@ -1,0 +1,42 @@
+{
+    "country": "Bahrain",
+    "infobox": {
+        "General": {
+            "Official Language": "Arabic",
+            "Ethnic groups": {
+                "Arabs (%)": 53.2,
+                "South Asians (%)": 43.4,
+                "Africans (%)": 1.4,
+                "North Americans (%)": 1.1,
+                "others (%)": 0.1
+            },
+            "Religion": {
+                "Islam ( official ) (%)": 74,
+                "non-Muslim (%)": 26
+            }
+        },
+        "Government": {
+            "Government": "Unitary semi-constitutional monarchy under an authoritarian government"
+        },
+        "Area": {
+            "Total (km2)": 786.8,
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "Count": 1463265,
+            "Density (/km2)": 1864
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 118060000000,
+                "Per capita ($)": 71460
+            },
+            "GDP (nominal)": {
+                "Total ($)": 49190000000,
+                "Per capita ($)": 29780
+            },
+            "HDI": 0.899,
+            "Currency": "Bahraini dinar"
+        }
+    }
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Guatemala</country>
+  <infobox>
+    <General>
+      <Official_Language>Spanish</Official_Language>
+      <National_Language>Mayan</National_Language>
+      <Ethnic_groups>
+        <Ladino__mixed_____>56.01</Ladino__mixed_____>
+        <Maya____>41.66</Maya____>
+        <Xinca____>1.77</Xinca____>
+        <Black____>0.19</Black____>
+        <Garifuna____>0.13</Garifuna____>
+        <other____>0.24</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>88.1</percentage>
+          <breakdown>
+            <Protestantism____>45.7</Protestantism____>
+            <Catholicism____>42.4</Catholicism____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>11</no_religion____>
+        <other____>0.9</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>108889</Total__km2_>
+      <Water____>0.4</Water____>
+    </Area>
+    <Population>
+      <Count>18636532</Count>
+      <Density___km2_>166</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>278508000000</Total____>
+        <Per_capita____>15386</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>120964000000</Total____>
+        <Per_capita____>6682</Per_capita____>
+      </GDP__nominal_>
+      <Gini>45.2</Gini>
+      <HDI>0.662</HDI>
+      <Currency>Quetzal</Currency>
+    </Economy>
+  </infobox>
+</country>

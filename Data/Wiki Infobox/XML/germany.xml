@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Germany</country>
+  <infobox>
+    <General>
+      <Official_Language>German</Official_Language>
+      <Religion>
+        <Germany_at____>49.7</Germany_at____>
+        <Christians____>48.5</Christians____>
+        <Protestant____>25.1</Protestant____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Federal parliamentary republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>357022</Total__km2_>
+      <Water____>1.27</Water____>
+    </Area>
+    <Population>
+      <Count>83497147</Count>
+      <Density___km2_>233</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>6154000000000</Total____>
+        <Per_capita____>73553</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>5014000000000</Total____>
+        <Per_capita____>59925</Per_capita____>
+      </GDP__nominal_>
+      <Gini>29.4</Gini>
+      <HDI>0.959</HDI>
+      <Currency>Euro</Currency>
+    </Economy>
+  </infobox>
+</country>

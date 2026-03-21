@@ -1,0 +1,49 @@
+{
+    "country": "Rwanda",
+    "infobox": {
+        "General": {
+            "Official Language": "Kinyarwanda English French Swahili",
+            "National Language": "Kinyarwanda",
+            "Ethnic groups": {
+                "Banyarwanda (%)": 100,
+                "Hutu (%)": 85,
+                "Tutsi (%)": 14,
+                "Twa (%)": 1
+            },
+            "Religion": {
+                "Christianity (%)": 93.8,
+                "no religion": {
+                    "percentage": 3,
+                    "breakdown": {
+                        "Islam (%)": 2.2,
+                        "other (%)": 1
+                    }
+                }
+            }
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic under an authoritarian dictatorship"
+        },
+        "Area": {
+            "Total (km2)": 26338,
+            "Water (%)": 6.3
+        },
+        "Population": {
+            "Count": 14104969,
+            "Density (/km2)": 578
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 58120000000,
+                "Per capita ($)": 4100
+            },
+            "GDP (nominal)": {
+                "Total ($)": 14789000000,
+                "Per capita ($)": 1040
+            },
+            "Gini": 39.4,
+            "HDI": 0.578,
+            "Currency": "Rwandan franc"
+        }
+    }
+}

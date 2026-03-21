@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Indonesia</country>
+  <infobox>
+    <General>
+      <Official_Language>Indonesian</Official_Language>
+      <Ethnic_groups>
+        <Javanese____>40.2</Javanese____>
+        <Sundanese____>15.5</Sundanese____>
+        <Malay____>3.7</Malay____>
+        <Batak____>3.6</Batak____>
+        <Madurese____>3</Madurese____>
+        <others___600__ethnic_groups______>34</others___600__ethnic_groups______>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>87.1</Islam____>
+        <Christianity>
+          <percentage>10.45</percentage>
+          <breakdown>
+            <Protestantism____>7.38</Protestantism____>
+            <Catholicism____>3.07</Catholicism____>
+          </breakdown>
+        </Christianity>
+        <Hinduism____>1.7</Hinduism____>
+        <Buddhism___Folk___Confucianism___and_others____>0.8</Buddhism___Folk___Confucianism___and_others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>1904569</Total__km2_>
+      <Water____>4.85</Water____>
+    </Area>
+    <Population>
+      <Count>288.315.089</Count>
+      <Density___km2_>143</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>5009000000000</Total____>
+        <Per_capita____>17612</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>1430000000000</Total____>
+        <Per_capita____>5027</Per_capita____>
+      </GDP__nominal_>
+      <Gini>37.9</Gini>
+      <HDI>0.728</HDI>
+      <Currency>Indonesian rupiah</Currency>
+    </Economy>
+  </infobox>
+</country>

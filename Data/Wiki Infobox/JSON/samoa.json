@@ -1,0 +1,51 @@
+{
+    "country": "Samoa",
+    "infobox": {
+        "General": {
+            "Official Language": "Samoan , English",
+            "Ethnic groups": {
+                "Samoans (%)": 92.6,
+                "Euronesians (%)": 7,
+                "Europeans (%)": 0.3,
+                "others (%)": 0.1
+            },
+            "Religion": {
+                "Christianity ( official )": {
+                    "percentage": 97.9,
+                    "breakdown": {
+                        "Protestantism (%)": 54.9,
+                        "Catholicism (%)": 18.8,
+                        "Mormonism (%)": 16.9,
+                        "other Christian (%)": 7.3
+                    }
+                },
+                "no religion (%)": 1.7,
+                "others (%)": 0.4
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic"
+        },
+        "Area": {
+            "Total (km2)": 2831,
+            "Water (%)": 0.3
+        },
+        "Population": {
+            "Count": 205557,
+            "Density (/km2)": 70
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 1225000000,
+                "Per capita ($)": 5962
+            },
+            "GDP (nominal)": {
+                "Total ($)": 908561000,
+                "Per capita ($)": 4420
+            },
+            "Gini": 38.7,
+            "HDI": 0.708,
+            "Currency": "Tālā"
+        }
+    }
+}

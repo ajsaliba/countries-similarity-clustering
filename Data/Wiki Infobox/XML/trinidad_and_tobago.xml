@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Trinidad and Tobago</country>
+  <infobox>
+    <General>
+      <Official_Language>English</Official_Language>
+      <Ethnic_groups>
+        <Indian____>35.4</Indian____>
+        <African____>34.2</African____>
+        <Mixed____>22.8</Mixed____>
+        <other____>1.3</other____>
+        <unspecified____>6.2</unspecified____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>55.2</Christianity____>
+        <Hinduism____>18.2</Hinduism____>
+        <Islam____>5</Islam____>
+        <Other____>8.3</Other____>
+        <Irreligion__Not_stated____>13.3</Irreligion__Not_stated____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>5131</Total__km2_>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <Count>1512779</Count>
+      <Density___km2_>294</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>43658000000</Total____>
+        <Per_capita____>30718</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>27887000000</Total____>
+        <Per_capita____>19621</Per_capita____>
+      </GDP__nominal_>
+      <Gini>39.0</Gini>
+      <HDI>0.807</HDI>
+      <Currency>Trinidad and Tobago dollar</Currency>
+    </Economy>
+  </infobox>
+</country>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Liberia</country>
+  <infobox>
+    <General>
+      <Official_Language>English</Official_Language>
+      <Religion>
+        <Christianity>
+          <percentage>85.1</percentage>
+          <breakdown>
+            <Protestantism____>76.3</Protestantism____>
+            <Catholicism____>7.2</Catholicism____>
+            <other_Christians____>1.6</other_Christians____>
+          </breakdown>
+        </Christianity>
+        <Islam____>12.2</Islam____>
+        <no_religion>
+          <percentage>1.4</percentage>
+          <breakdown>
+            <other____>1.3</other____>
+          </breakdown>
+        </no_religion>
+      </Religion>
+      <Ethnic_groups>
+        <Bass____>13.4</Bass____>
+        <Grebo____>10</Grebo____>
+        <Gio____>10</Gio____>
+        <Mano____>7.9</Mano____>
+        <Kru____>7.9</Kru____>
+        <Lorm____>5.1</Lorm____>
+        <Kissi____>4.8</Kissi____>
+        <Gol____>4.4</Gol____>
+        <Krah____>4</Krah____>
+        <Vai____>4</Vai____>
+        <Mandink____>3.2</Mandink____>
+        <Gbandi____>3</Gbandi____>
+        <Other_Afric____>1.4</Other_Afric____>
+        <Mende____>1.3</Mende____>
+        <Sapo____>1.2</Sapo____>
+        <Belle____>0.8</Belle____>
+        <Dey____>0.8</Dey____>
+        <Other_Liberi____>0.6</Other_Liberi____>
+        <Non_Afric____>0.1</Non_Afric____>
+      </Ethnic_groups>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__sq_mi_>43000</Total__sq_mi_>
+      <Water____>13.514</Water____>
+    </Area>
+    <Population>
+      <Count>5437249</Count>
+      <Density>92.0/sq mi</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>11420000000</Total____>
+        <Per_capita____>2010</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>5170000000</Total____>
+        <Per_capita____>907</Per_capita____>
+      </GDP__nominal_>
+      <Gini>35.3</Gini>
+      <HDI>0.51</HDI>
+      <Currency>United States dollar Liberian dollar</Currency>
+    </Economy>
+  </infobox>
+</country>

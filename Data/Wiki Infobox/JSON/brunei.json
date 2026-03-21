@@ -1,0 +1,42 @@
+{
+    "country": "Brunei",
+    "infobox": {
+        "General": {
+            "Official Language": "Malay",
+            "Ethnic groups": {
+                "Malay (%)": 73.7,
+                "Chinese (%)": 9.6,
+                "others (%)": 16.6
+            },
+            "Religion": {
+                "Sunni Islam ( official ) (%)": 80.7,
+                "Christianity (%)": 10.7,
+                "Buddhism (%)": 7.8,
+                "other (includes Indigenous beliefs ) (%)": 0.8
+            }
+        },
+        "Government": {
+            "Government": "Unitary Islamic absolute monarchy"
+        },
+        "Area": {
+            "Total (km2)": 5765,
+            "Water (%)": 8.6
+        },
+        "Population": {
+            "Count": 466227,
+            "Density (/km2)": 72.11
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 43830000000,
+                "Per capita ($)": 95760
+            },
+            "GDP (nominal)": {
+                "Total ($)": 16010000000,
+                "Per capita ($)": 34970
+            },
+            "HDI": 0.837,
+            "Currency": "Brunei dollar"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "country": "United Arab Emirates",
+    "infobox": {
+        "General": {
+            "Official Language": "Arabic",
+            "Ethnic groups": {
+                "South Asian (%)": 59.4,
+                "Indian (%)": 38.2,
+                "Bangladeshi (%)": 9.5,
+                "Pakistani (%)": 9.4,
+                "other (%)": 12.4,
+                "Emirati Arab (%)": 12,
+                "Egyptian (%)": 10.2,
+                "Filipino (%)": 6.1
+            },
+            "Religion": {
+                "Islam ( official )": {
+                    "percentage": 74.5,
+                    "breakdown": {
+                        "Sunni Islam (%)": 63.3,
+                        "Shia Islam (%)": 6.7,
+                        "other (%)": 4.4
+                    }
+                },
+                "Christianity (%)": 12.9,
+                "Hinduism": {
+                    "percentage": 6.2,
+                    "breakdown": {
+                        "Buddhism": {
+                            "percentage": 3.2,
+                            "breakdown": {
+                                "Agnosticism (%)": 1.3,
+                                "other (%)": 1.9
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Government": {
+            "Government": "Federal semi-presidential elective semi-constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 83600,
+            "Water (%)": "Negligible"
+        },
+        "Population": {
+            "Count": 11027129,
+            "Density (/km2)": 132
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 905230000000,
+                "Per capita ($)": 81680
+            },
+            "GDP (nominal)": {
+                "Total ($)": 548600000000,
+                "Per capita ($)": 49550
+            },
+            "Gini": 26,
+            "HDI": 0.94,
+            "Currency": "UAE dirham"
+        }
+    }
+}

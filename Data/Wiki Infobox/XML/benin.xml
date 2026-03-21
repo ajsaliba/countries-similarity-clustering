@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Benin</country>
+  <infobox>
+    <General>
+      <Official_Language>French</Official_Language>
+      <National_Language>List: Arabic English Aguna Aja Alada Fon Gbe Gen Gun Pherá Phla Tofin Tɔli Waci Berba Kabye Lama Lukpa Mbelime Mossi Nateni Ngangam Tammari Tem Waama Yom Kwa Chakosi Foodo Ede Ifè Mokole Yoruba Yoruboid Bariba Dendi Fula Hausa</National_Language>
+      <Ethnic_groups>
+        <Fon____>38.4</Fon____>
+        <Adja_and_Mina____>15.1</Adja_and_Mina____>
+        <Yoruba____>12</Yoruba____>
+        <Bariba____>9.6</Bariba____>
+        <Fula____>8.6</Fula____>
+        <Ottamari____>6.1</Ottamari____>
+        <Yoa_Lokpa____>4.3</Yoa_Lokpa____>
+        <Dendi____>2.9</Dendi____>
+        <other____>2.8</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>52.2</Christianity____>
+        <Islam____>24.6</Islam____>
+        <traditional_faiths____>17.9</traditional_faiths____>
+        <no_religion____>5.2</no_religion____>
+        <other____>0.1</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>114763</Total__km2_>
+      <Water____>0.4</Water____>
+    </Area>
+    <Population>
+      <Count>13754688</Count>
+      <Density___km2_>94.8</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>76510000000</Total____>
+        <Per_capita____>4980</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>27450000000</Total____>
+        <Per_capita____>1790</Per_capita____>
+      </GDP__nominal_>
+      <Gini>34.4</Gini>
+      <HDI>0.515</HDI>
+      <Currency>West African CFA franc</Currency>
+    </Economy>
+  </infobox>
+</country>

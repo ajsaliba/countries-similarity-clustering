@@ -1,0 +1,51 @@
+{
+    "country": "Panama",
+    "infobox": {
+        "General": {
+            "Official Language": "Spanish",
+            "Ethnic groups": {
+                "Mestizo (mixed White and Indigenous ) (%)": 65,
+                "Indigenous (%)": 12.3,
+                "Black (%)": 9.2,
+                "Mulatto (mixed White and Black ) (%)": 6.8,
+                "White (%)": 6.7
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 91.5,
+                    "breakdown": {
+                        "Catholicism (%)": 63.2,
+                        "Protestantism (%)": 25,
+                        "other Christian (%)": 3.3
+                    }
+                },
+                "no religion (%)": 7.6,
+                "other (%)": 0.9
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 75417,
+            "Water (%)": 2.9
+        },
+        "Population": {
+            "Count": 4337768,
+            "Density (/km2)": 56
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 195279000000,
+                "Per capita ($)": 42772
+            },
+            "GDP (nominal)": {
+                "Total ($)": 91731000000,
+                "Per capita ($)": 20092
+            },
+            "Gini": 48.9,
+            "HDI": 0.839,
+            "Currency": "Balboa United States dollar"
+        }
+    }
+}

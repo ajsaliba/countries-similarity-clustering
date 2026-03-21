@@ -1,0 +1,52 @@
+{
+    "country": "Russia",
+    "infobox": {
+        "General": {
+            "Official Language": "Russian",
+            "Ethnic groups": {
+                "Russian (%)": 71.7,
+                "Tatar (%)": 3.2,
+                "Bashkir (%)": 1.1,
+                "Chechen (%)": 1.1,
+                "other (%)": 11.3,
+                "not reported (%)": 11.6
+            },
+            "Religion": {
+                "Russian Orthodox (%)": 41,
+                "Muslims (%)": 6.5,
+                "Old Believers (%)": 1,
+                "Buddhists": {
+                    "percentage": 0.5,
+                    "breakdown": {
+                        "Jews (%)": 0.1,
+                        "Hindus (%)": 0.1
+                    }
+                }
+            }
+        },
+        "Government": {
+            "Government": "Federal semi-presidential republic under an authoritarian dictatorship"
+        },
+        "Area": {
+            "Total (km2)": 17098246,
+            "Water (%)": 13
+        },
+        "Population": {
+            "Count": "146,028,325 143,569,049",
+            "Density (/km2)": 8.4
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 7143000000000,
+                "Per capita ($)": 49049
+            },
+            "GDP (nominal)": {
+                "Total ($)": 2541000000000,
+                "Per capita ($)": 17446
+            },
+            "Gini": 36.0,
+            "HDI": 0.832,
+            "Currency": "Russian ruble"
+        }
+    }
+}

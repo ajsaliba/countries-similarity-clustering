@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Brunei</country>
+  <infobox>
+    <General>
+      <Official_Language>Malay</Official_Language>
+      <Ethnic_groups>
+        <Malay____>73.7</Malay____>
+        <Chinese____>9.6</Chinese____>
+        <others____>16.6</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Sunni_Islam___official______>80.7</Sunni_Islam___official______>
+        <Christianity____>10.7</Christianity____>
+        <Buddhism____>7.8</Buddhism____>
+        <other__includes_Indigenous_beliefs______>0.8</other__includes_Indigenous_beliefs______>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary Islamic absolute monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>5765</Total__km2_>
+      <Water____>8.6</Water____>
+    </Area>
+    <Population>
+      <Count>466227</Count>
+      <Density___km2_>72.11</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>43830000000</Total____>
+        <Per_capita____>95760</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>16010000000</Total____>
+        <Per_capita____>34970</Per_capita____>
+      </GDP__nominal_>
+      <HDI>0.837</HDI>
+      <Currency>Brunei dollar</Currency>
+    </Economy>
+  </infobox>
+</country>

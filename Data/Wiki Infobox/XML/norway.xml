@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Norway</country>
+  <infobox>
+    <General>
+      <Official_Language>Norwegian Sámi</Official_Language>
+      <National_Language>Kven Romani Scandoromani Norwegian Sign Language</National_Language>
+      <Ethnic_groups>
+        <Norwegian____>78.6</Norwegian____>
+        <non_Norwegian____>21.4</non_Norwegian____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>68.5</percentage>
+          <breakdown>
+            <Church_of_Norway____>61.7</Church_of_Norway____>
+            <other_Christian____>6.8</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>27.3</no_religion____>
+        <Islam____>3.4</Islam____>
+        <other____>0.8</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>385207</Total__km2_>
+      <Water____>5.32</Water____>
+    </Area>
+    <Population>
+      <Count>5627400</Count>
+      <Density___km2_>14.6</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>606590000000</Total____>
+        <Per_capita____>107890</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>504280000000</Total____>
+        <Per_capita____>89690</Per_capita____>
+      </GDP__nominal_>
+      <Gini>25.3</Gini>
+      <HDI>0.97</HDI>
+      <Currency>Norwegian krone</Currency>
+    </Economy>
+  </infobox>
+</country>

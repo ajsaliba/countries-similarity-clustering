@@ -1,0 +1,46 @@
+{
+    "country": "Solomon Islands",
+    "infobox": {
+        "General": {
+            "Official Language": "English",
+            "Ethnic groups": {
+                "Melanesian (%)": 95.3,
+                "Polynesian (%)": 3.1,
+                "Micronesian (%)": 1.2,
+                "others (%)": 0.4
+            },
+            "Religion": {
+                "Christianity (%)": 97.4,
+                "Protestantism (%)": 78.6,
+                "Catholicism (%)": 19.5,
+                "other Christian (%)": 1.9,
+                "folk religions (%)": 1.2,
+                "others / none (%)": 1.4
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 28896,
+            "Water (%)": 3.2
+        },
+        "Population": {
+            "Count": 828857,
+            "Density (/km2)": 24.2
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 1680000000,
+                "Per capita ($)": 2205.25
+            },
+            "GDP (nominal)": {
+                "Total ($)": 1681000000,
+                "Per capita ($)": 2205.25
+            },
+            "Gini": 37.1,
+            "HDI": 0.584,
+            "Currency": "Solomon Islands dollar"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "country": "India",
+    "infobox": {
+        "General": {
+            "Official Language": "Hindi English",
+            "Religion": {
+                "Hinduism (%)": 79.8,
+                "Islam (%)": 14.2,
+                "Christianity": {
+                    "percentage": 2.3,
+                    "breakdown": {
+                        "Sikhism (%)": 1.7,
+                        "Buddhism (%)": 0.7
+                    }
+                },
+                "Jainism": {
+                    "percentage": 0.4,
+                    "breakdown": {
+                        "unaffiliated (%)": 0.23
+                    }
+                },
+                "other (%)": 0.65
+            }
+        },
+        "Government": {
+            "Government": "Federal parliamentary republic"
+        },
+        "Area": {
+            "Total (km2)": 3287263,
+            "Water (%)": 9.6
+        },
+        "Population": {
+            "Count": 1428627663,
+            "Density (/km2)": 433.5
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 17647000000000,
+                "Per capita ($)": 12132
+            },
+            "GDP (nominal)": {
+                "Total ($)": 4187000000000,
+                "Per capita ($)": 2878
+            },
+            "Gini": 25.5,
+            "HDI": 0.685,
+            "Currency": "Indian rupee"
+        }
+    }
+}

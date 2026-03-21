@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Brazil</country>
+  <infobox>
+    <General>
+      <Official_Language>Portuguese</Official_Language>
+      <Ethnic_groups>
+        <Pardo____>45.3</Pardo____>
+        <White____>43.5</White____>
+        <Black____>10.2</Black____>
+        <Indigenous____>0.6</Indigenous____>
+        <East_Asian____>0.4</East_Asian____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>83.6</percentage>
+          <breakdown>
+            <Catholicism____>56.75</Catholicism____>
+            <Protestantism____>26.85</Protestantism____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>9.28</no_religion____>
+        <Spiritism____>1.84</Spiritism____>
+        <Afro_Brazilian_religions____>1.05</Afro_Brazilian_religions____>
+        <other____>4.07</other____>
+        <not_stated____>0.17</not_stated____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Federal presidential republic</Government>
+    </Government>
+    <Economy>
+      <Recognition>
+        <Republic>15 November 1889</Republic>
+        <Current_constitution>5 October 1988</Current_constitution>
+      </Recognition>
+      <GDP___PPP__>
+        <Total____>5161000000000</Total____>
+        <Per_capita____>24108</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>2292000000000</Total____>
+        <Per_capita____>10709</Per_capita____>
+      </GDP__nominal_>
+      <Gini>51.6</Gini>
+      <HDI>0.786</HDI>
+      <Currency>Real</Currency>
+    </Economy>
+    <Area>
+      <Total__km2_>8515767</Total__km2_>
+      <Water____>0.65</Water____>
+    </Area>
+    <Population>
+      <Count>213421037</Count>
+      <Density___km2_>23.8</Density___km2_>
+    </Population>
+  </infobox>
+</country>

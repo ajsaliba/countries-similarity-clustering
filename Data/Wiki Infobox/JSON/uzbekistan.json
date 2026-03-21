@@ -1,0 +1,46 @@
+{
+    "country": "Uzbekistan",
+    "infobox": {
+        "General": {
+            "Official Language": "Uzbek",
+            "Ethnic groups": {
+                "Uzbeks (%)": 84.6,
+                "Tajiks (%)": 4.8,
+                "Kazakhs (%)": 2.3,
+                "Karakalpaks (%)": 2.2,
+                "Russians (%)": 2.1,
+                "others (%)": 4
+            },
+            "Religion": {
+                "Islam (%)": 94.78,
+                "Irreligion (%)": 3.89,
+                "Christianity (%)": 1.04,
+                "other religions (%)": 0.27
+            }
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 448978,
+            "Water (%)": 4.9
+        },
+        "Population": {
+            "Count": 38236704,
+            "Density (/km2)": 80.2
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 507800000000,
+                "Per capita ($)": 12596
+            },
+            "GDP (nominal)": {
+                "Total ($)": 140480000000,
+                "Per capita ($)": 3945
+            },
+            "Gini": 31.2,
+            "HDI": 0.74,
+            "Currency": "Uzbek sum"
+        }
+    }
+}

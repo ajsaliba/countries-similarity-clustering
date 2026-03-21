@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Paraguay</country>
+  <infobox>
+    <General>
+      <Official_Language>Spanish Guarani</Official_Language>
+      <Religion>
+        <Christianity>
+          <percentage>95.5</percentage>
+          <breakdown>
+            <Catholicism____>87.4</Catholicism____>
+            <other_Christian____>8.1</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>4.1</no_religion____>
+        <other____>0.4</other____>
+      </Religion>
+      <Ethnic_groups>
+        <Mestizo____>95</Mestizo____>
+        <White____>5</White____>
+      </Ethnic_groups>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>406752</Total__km2_>
+      <Water____>2.6</Water____>
+    </Area>
+    <Population>
+      <Count>6413627</Count>
+      <Density>39/sq mi</Density>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>145110000000</Total____>
+        <Per_capita____>22462</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>51670000000</Total____>
+        <Per_capita____>7990</Per_capita____>
+      </GDP__nominal_>
+      <Gini>44.4</Gini>
+      <HDI>0.756</HDI>
+      <Currency>Guaraní</Currency>
+    </Economy>
+  </infobox>
+</country>

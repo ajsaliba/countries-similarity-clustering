@@ -1,0 +1,49 @@
+{
+    "country": "Thailand",
+    "infobox": {
+        "General": {
+            "Official Language": "Thai",
+            "Ethnic groups": {
+                "Thai (%)": 80,
+                "Central Thai (%)": 37,
+                "Isan (%)": 25,
+                "Northern Thai (%)": 8,
+                "Southern Thai (%)": 8,
+                "Western Thai (%)": 2,
+                "Thai Chinese (%)": 12,
+                "Northern Khmer (%)": 4,
+                "Thai Malays (%)": 4
+            },
+            "Religion": {
+                "Buddhism (%)": 93.46,
+                "Islam (%)": 5.37,
+                "Christianity (%)": 1.13,
+                "other (%)": 0.03
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 513120,
+            "Water (%)": 0.4
+        },
+        "Population": {
+            "Count": 65975198,
+            "Density (/km2)": 132.1
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 1853000000000,
+                "Per capita ($)": 26358
+            },
+            "GDP (nominal)": {
+                "Total ($)": 558573000000,
+                "Per capita ($)": 7942
+            },
+            "Gini": 33.5,
+            "HDI": 0.798,
+            "Currency": "Thai baht"
+        }
+    }
+}

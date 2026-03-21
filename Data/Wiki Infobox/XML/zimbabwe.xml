@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Zimbabwe</country>
+  <infobox>
+    <General>
+      <Official_Language>16 languages : Chewa Chibarwe English Kalanga Khoisan Nambya Ndau Ndebele Shangani Shona Sotho Tonga Tswana Venda Xhosa Zimbabwean sign language</Official_Language>
+      <Ethnic_groups>
+        <Black_African____>99.6</Black_African____>
+        <European____>0.2</European____>
+        <Coloured____>0.1</Coloured____>
+        <other____>0.1</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>84.1</percentage>
+          <breakdown>
+            <Protestantism____>69.2</Protestantism____>
+            <other_Christian____>14.9</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>10.2</no_religion____>
+        <traditional_faiths____>4.5</traditional_faiths____>
+        <others____>1.2</others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>390757</Total__km2_>
+      <Water____>1</Water____>
+    </Area>
+    <Population>
+      <Count>17166852</Count>
+      <Density___km2_>45</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>93870000000</Total____>
+        <Per_capita____>5410</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>53310000000</Total____>
+        <Per_capita____>3070</Per_capita____>
+      </GDP__nominal_>
+      <Gini>45.5</Gini>
+      <HDI>0.598</HDI>
+      <Currency>De jure : Zimbabwe Gold De facto : United States dollar South African rand; Other currencies</Currency>
+    </Economy>
+  </infobox>
+</country>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Bahamas, The</country>
+  <infobox>
+    <General>
+      <Official_Language>English</Official_Language>
+      <Ethnic_groups>
+        <African____>90.6</African____>
+        <White____>4.7</White____>
+        <mixed____>2.1</mixed____>
+        <other____>1.9</other____>
+        <unspecified____>0.7</unspecified____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>93</percentage>
+          <breakdown>
+            <Protestantism____>75.1</Protestantism____>
+            <other_Christian____>17.9</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>4.5</no_religion____>
+        <folk_religions____>1.9</folk_religions____>
+        <other____>0.6</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>13943</Total__km2_>
+      <Water____>28</Water____>
+    </Area>
+    <Population>
+      <Count>412628</Count>
+      <Density___km2_>25.21</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>18989000000</Total____>
+        <Per_capita____>46524</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>14390000000</Total____>
+        <Per_capita____>35257</Per_capita____>
+      </GDP__nominal_>
+      <HDI>0.82</HDI>
+      <Currency>Bahamian dollar</Currency>
+    </Economy>
+  </infobox>
+</country>

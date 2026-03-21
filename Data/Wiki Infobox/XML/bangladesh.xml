@@ -30,12 +30,7 @@
         <item>Bengali</item>
       </Primary_Language>
       <Religion>
-        <Buddhism>
-          <breakdown>
-            <Christianity____>0.3</Christianity____>
-          </breakdown>
-          <percentage>0.6</percentage>
-        </Buddhism>
+        <Buddhism____>0.6</Buddhism____>
         <Hinduism____>7.94</Hinduism____>
         <Islam___official______>91.04</Islam___official______>
         <other____>0.12</other____>

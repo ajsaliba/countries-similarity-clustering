@@ -31,14 +31,7 @@
         <item>Tongan</item>
       </Primary_Language>
       <Religion>
-        <Christianity__>
-          <breakdown>
-            <Catholicism____>14.2</Catholicism____>
-            <Mormonism______>18.6</Mormonism______>
-            <Protestantism______>64.1</Protestantism______>
-          </breakdown>
-          <percentage>96.9</percentage>
-        </Christianity__>
+        <Christianity______>96.9</Christianity______>
         <no_religion____>0.5</no_religion____>
         <others____>2.4</others____>
         <unspecified____>0.1</unspecified____>

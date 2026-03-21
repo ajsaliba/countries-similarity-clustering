@@ -33,14 +33,7 @@
             "Religion": {
                 "Animism (%)": 4.6,
                 "Baháʼí Faith (%)": 1.4,
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 13.5,
-                        "Protestantism (%)": 75.1,
-                        "other Christian (%)": 4.8
-                    },
-                    "percentage": 93.4
-                },
+                "Christianity (%)": 93.4,
                 "other / none (%)": 0.6
             }
         },

@@ -31,28 +31,9 @@
         <item>Albanian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>8.39</Catholicism____>
-            <Orthodoxy____>7.23</Orthodoxy____>
-            <Protestantism____>0.4</Protestantism____>
-          </breakdown>
-          <percentage>16.02</percentage>
-        </Christianity>
-        <Irreligion>
-          <breakdown>
-            <Atheism____>3.55</Atheism____>
-            <Believers_without_religion____>13.83</Believers_without_religion____>
-          </breakdown>
-          <percentage>17.37</percentage>
-        </Irreligion>
-        <Islam>
-          <breakdown>
-            <Bektashism____>4.81</Bektashism____>
-            <Sunni____>45.86</Sunni____>
-          </breakdown>
-          <percentage>50.67</percentage>
-        </Islam>
+        <Christianity____>16.02</Christianity____>
+        <Irreligion____>17.37</Irreligion____>
+        <Islam____>50.67</Islam____>
         <Undeclared____>15.92</Undeclared____>
       </Religion>
     </General>

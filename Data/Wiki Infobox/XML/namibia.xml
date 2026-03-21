@@ -40,15 +40,7 @@
         <item>siLozi</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Anglicanism____>17</Anglicanism____>
-            <Catholicism____>22.8</Catholicism____>
-            <Lutheranism____>43.7</Lutheranism____>
-            <other_Christian____>4.4</other_Christian____>
-          </breakdown>
-          <percentage>87.9</percentage>
-        </Christianity>
+        <Christianity____>87.9</Christianity____>
         <no_religion____>1.6</no_religion____>
         <other____>10.5</other____>
       </Religion>

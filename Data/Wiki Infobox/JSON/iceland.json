@@ -32,13 +32,7 @@
                 "Icelandic"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Church of Iceland ( official ) (%)": 60.9,
-                        "other Christian (%)": 11.5
-                    },
-                    "percentage": 72.4
-                },
+                "Christianity (%)": 72.4,
                 "no religion (%)": 25.2,
                 "other (%)": 0.9,
                 "Ásatrúarfélagið (%)": 1.5

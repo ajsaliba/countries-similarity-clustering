@@ -35,14 +35,7 @@
         <item>Kirundi</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>63.7</Catholicism____>
-            <Protestantism____>25.2</Protestantism____>
-            <other_Christian____>4.5</other_Christian____>
-          </breakdown>
-          <percentage>93.4</percentage>
-        </Christianity>
+        <Christianity____>93.4</Christianity____>
         <Islam____>2.1</Islam____>
         <other___none____>0.2</other___none____>
         <traditional_faiths____>4.3</traditional_faiths____>

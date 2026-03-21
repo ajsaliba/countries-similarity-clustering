@@ -31,14 +31,7 @@
         <item>Croatian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>79</Catholicism____>
-            <Orthodoxy____>3.3</Orthodoxy____>
-            <other_Christian____>5.1</other_Christian____>
-          </breakdown>
-          <percentage>87.4</percentage>
-        </Christianity>
+        <Christianity____>87.4</Christianity____>
         <Islam____>1.3</Islam____>
         <no_religion____>6.4</no_religion____>
         <other____>1.9</other____>

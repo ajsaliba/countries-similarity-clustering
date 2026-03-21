@@ -34,13 +34,7 @@
                 "Romanian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Eastern Orthodoxy (%)": 94.3,
-                        "other Christian (%)": 3.1
-                    },
-                    "percentage": 97.4
-                },
+                "Christianity (%)": 97.4,
                 "no religion (%)": 1.5,
                 "other (%)": 0.3,
                 "unanswered (%)": 0.8

@@ -31,14 +31,7 @@
                 "Romanian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 4.4,
-                        "Protestantism (%)": 6.4,
-                        "Romanian Orthodoxy (%)": 73.6
-                    },
-                    "percentage": 84.7
-                },
+                "Christianity (%)": 84.7,
                 "no religion (%)": 0.8,
                 "other (%)": 0.4,
                 "other Christian (%)": 0.2,

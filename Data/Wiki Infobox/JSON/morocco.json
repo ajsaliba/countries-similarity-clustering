@@ -29,26 +29,10 @@
                 "Tamazight"
             ],
             "Religion": {
-                "Baháʼís": {
-                    "breakdown": {
-                        "Christians (%)": 0.09
-                    },
-                    "percentage": 0.1
-                },
-                "Islam ( official )": {
-                    "breakdown": {
-                        "Shia (%)": 0.45,
-                        "Sunni (%)": 99.23
-                    },
-                    "percentage": 99.68
-                },
+                "Baháʼís (%)": 0.1,
+                "Islam ( official ) (%)": 99.68,
                 "Jews (%)": 0.01,
-                "Others": {
-                    "breakdown": {
-                        "Agnostics (%)": 0.13
-                    },
-                    "percentage": 0.3
-                }
+                "Others (%)": 0.3
             }
         },
         "Government": {

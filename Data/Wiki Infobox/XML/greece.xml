@@ -29,16 +29,10 @@
         <item>Greek</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Greek_Orthodoxy___official______>90</Greek_Orthodoxy___official______>
-            <other_Christian____>3</other_Christian____>
-          </breakdown>
-          <percentage>93</percentage>
-        </Christianity>
-        <Islam____>2</Islam____>
-        <No_religion____>4</No_religion____>
-        <Others____>1</Others____>
+        <Christianity____>93.0</Christianity____>
+        <Islam____>2.0</Islam____>
+        <No_religion____>4.0</No_religion____>
+        <Others____>1.0</Others____>
       </Religion>
     </General>
     <Government>

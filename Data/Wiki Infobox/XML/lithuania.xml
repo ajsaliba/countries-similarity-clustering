@@ -34,13 +34,7 @@
         <item>Lithuanian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>74.2</Catholicism____>
-            <other_Christian____>5.2</other_Christian____>
-          </breakdown>
-          <percentage>79.4</percentage>
-        </Christianity>
+        <Christianity____>79.4</Christianity____>
         <no_answer____>13.7</no_answer____>
         <no_religion____>6.1</no_religion____>
         <others____>0.8</others____>

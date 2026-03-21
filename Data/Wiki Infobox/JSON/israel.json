@@ -30,12 +30,7 @@
                 "Hebrew"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Druze faith (%)": 1.6
-                    },
-                    "percentage": 1.9
-                },
+                "Christianity (%)": 1.9,
                 "Islam (%)": 18.3,
                 "Judaism (%)": 73.7,
                 "others (%)": 4.5

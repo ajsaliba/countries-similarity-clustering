@@ -29,19 +29,8 @@
                 "Tetum"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 97.57,
-                        "Protestantism (%)": 1.96
-                    },
-                    "percentage": 99.53
-                },
-                "Islam": {
-                    "breakdown": {
-                        "other (%)": 0.23
-                    },
-                    "percentage": 0.24
-                }
+                "Christianity (%)": 99.53,
+                "Islam (%)": 0.24
             }
         },
         "Government": {

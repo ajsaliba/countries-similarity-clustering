@@ -32,14 +32,7 @@
                 "Estonian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Eastern Orthodoxy (%)": 16.3,
-                        "Lutheranism (%)": 7.7,
-                        "other Christian (%)": 2.7
-                    },
-                    "percentage": 26.7
-                },
+                "Christianity (%)": 26.7,
                 "irreligion (%)": 58.4,
                 "other (%)": 2.1,
                 "undeclared (%)": 12.7

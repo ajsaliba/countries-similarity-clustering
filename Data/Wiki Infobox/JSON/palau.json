@@ -34,17 +34,7 @@
             ],
             "Religion": {
                 "Christianity (%)": 78.7,
-                "no religion": {
-                    "breakdown": {
-                        "Modekngei": {
-                            "breakdown": {
-                                "Islam (%)": 4.9
-                            },
-                            "percentage": 5.1
-                        }
-                    },
-                    "percentage": 10.1
-                },
+                "no religion (%)": 10.1,
                 "other (%)": 1.2
             }
         },

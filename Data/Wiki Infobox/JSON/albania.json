@@ -30,28 +30,9 @@
                 "Albanian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 8.39,
-                        "Orthodoxy (%)": 7.23,
-                        "Protestantism (%)": 0.4
-                    },
-                    "percentage": 16.02
-                },
-                "Irreligion": {
-                    "breakdown": {
-                        "Atheism (%)": 3.55,
-                        "Believers without religion (%)": 13.83
-                    },
-                    "percentage": 17.37
-                },
-                "Islam": {
-                    "breakdown": {
-                        "Bektashism (%)": 4.81,
-                        "Sunni (%)": 45.86
-                    },
-                    "percentage": 50.67
-                },
+                "Christianity (%)": 16.02,
+                "Irreligion (%)": 17.37,
+                "Islam (%)": 50.67,
                 "Undeclared (%)": 15.92
             }
         },

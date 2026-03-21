@@ -34,13 +34,7 @@
                 "Sámi"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Church of Norway (%)": 61.7,
-                        "other Christian (%)": 6.8
-                    },
-                    "percentage": 68.5
-                },
+                "Christianity (%)": 68.5,
                 "Islam (%)": 3.4,
                 "no religion (%)": 27.3,
                 "other (%)": 0.8

@@ -51,16 +51,10 @@
         <item>Nepali</item>
       </Primary_Language>
       <Religion>
-        <Buddhism>
-          <breakdown>
-            <Islam____>5</Islam____>
-            <Kirat____>3</Kirat____>
-          </breakdown>
-          <percentage>8</percentage>
-        </Buddhism>
-        <Christianity____>2</Christianity____>
-        <Hinduism____>81</Hinduism____>
-        <other____>1</other____>
+        <Buddhism____>8.0</Buddhism____>
+        <Christianity____>2.0</Christianity____>
+        <Hinduism____>81.0</Hinduism____>
+        <other____>1.0</other____>
       </Religion>
     </General>
     <Government>

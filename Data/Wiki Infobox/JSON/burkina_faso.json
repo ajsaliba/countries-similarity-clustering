@@ -39,14 +39,8 @@
                 "Moore"
             ],
             "Religion": {
-                "Animism (%)": 9,
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 20.1,
-                        "Protestantism (%)": 6.2
-                    },
-                    "percentage": 26.3
-                },
+                "Animism (%)": 9.0,
+                "Christianity (%)": 26.3,
                 "Islam (%)": 63.8,
                 "irreligion (%)": 0.7
             }

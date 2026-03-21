@@ -37,13 +37,7 @@
         <item>Pashto</item>
       </Primary_Language>
       <Religion>
-        <Islam>
-          <breakdown>
-            <Shia____>10.8</Shia____>
-            <Sunni___official______>89.1</Sunni___official______>
-          </breakdown>
-          <percentage>99.9</percentage>
-        </Islam>
+        <Islam____>99.9</Islam____>
         <other____>0.1</other____>
       </Religion>
     </General>

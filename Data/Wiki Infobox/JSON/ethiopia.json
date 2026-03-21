@@ -42,14 +42,7 @@
                 "Tigrinya"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Ethiopian Orthodoxy (%)": 43.8,
-                        "P'ent'ay (%)": 22.8,
-                        "other Christian (%)": 0.7
-                    },
-                    "percentage": 67.3
-                },
+                "Christianity (%)": 67.3,
                 "Islam (%)": 31.3,
                 "others / none (%)": 0.8,
                 "traditional faiths (%)": 0.6

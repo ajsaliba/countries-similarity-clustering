@@ -30,13 +30,7 @@
                 "Armenian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Armenian Apostolic Church (%)": 95.2,
-                        "other Christian (%)": 1.6
-                    },
-                    "percentage": 96.8
-                },
+                "Christianity (%)": 96.8,
                 "no religion (%)": 0.6,
                 "other (%)": 0.9,
                 "unspecified (%)": 1.7

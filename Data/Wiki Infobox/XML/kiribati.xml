@@ -32,14 +32,7 @@
       </Primary_Language>
       <Religion>
         <Bah____Faith____>2.1</Bah____Faith____>
-        <Christianity>
-          <breakdown>
-            <Catholic_Church____>58.9</Catholic_Church____>
-            <Uniting_Church____>21.2</Uniting_Church____>
-            <other_Christian____>16.1</other_Christian____>
-          </breakdown>
-          <percentage>96.2</percentage>
-        </Christianity>
+        <Christianity____>96.2</Christianity____>
         <other___none____>1.7</other___none____>
       </Religion>
     </General>

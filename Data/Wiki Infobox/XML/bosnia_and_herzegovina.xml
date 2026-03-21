@@ -33,13 +33,7 @@
         <item>Serbian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>15.4</Catholicism____>
-            <Eastern_Orthodox____>30.7</Eastern_Orthodox____>
-          </breakdown>
-          <percentage>46.1</percentage>
-        </Christianity>
+        <Christianity____>46.1</Christianity____>
         <Islam____>51.3</Islam____>
         <Others____>2.6</Others____>
       </Religion>

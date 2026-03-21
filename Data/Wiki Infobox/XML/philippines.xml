@@ -36,13 +36,7 @@
         <item>Filipino</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>78.8</Catholicism____>
-            <other_Christian____>6.5</other_Christian____>
-          </breakdown>
-          <percentage>85.3</percentage>
-        </Christianity>
+        <Christianity____>85.3</Christianity____>
         <Islam____>6.4</Islam____>
         <other____>8.2</other____>
       </Religion>

@@ -33,13 +33,7 @@
             ],
             "Religion": {
                 "Afro-Brazilian religions (%)": 1.05,
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 56.75,
-                        "Protestantism (%)": 26.85
-                    },
-                    "percentage": 83.6
-                },
+                "Christianity (%)": 83.6,
                 "Spiritism (%)": 1.84,
                 "no religion (%)": 9.28,
                 "not stated (%)": 0.17,

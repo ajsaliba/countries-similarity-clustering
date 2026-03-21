@@ -30,15 +30,9 @@
                 "Luxembourgish"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 46,
-                        "other Christian (%)": 7
-                    },
-                    "percentage": 53
-                },
-                "no religion (%)": 38,
-                "other (%)": 9
+                "Christianity (%)": 53.0,
+                "no religion (%)": 38.0,
+                "other (%)": 9.0
             }
         },
         "Government": {

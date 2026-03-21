@@ -29,21 +29,8 @@
                 "Vietnamese"
             ],
             "Religion": {
-                "Catholicism": {
-                    "breakdown": {
-                        "Buddhism (%)": 4.79,
-                        "Hoahaoism (%)": 1.02
-                    },
-                    "percentage": 6.1
-                },
-                "Protestantism": {
-                    "breakdown": {
-                        "Caodaism (%)": 0.58,
-                        "Islam (%)": 0.07,
-                        "other (%)": 0.12
-                    },
-                    "percentage": 1
-                },
+                "Catholicism (%)": 6.1,
+                "Protestantism (%)": 1.0,
                 "no religion / folk (%)": 86.32
             }
         },

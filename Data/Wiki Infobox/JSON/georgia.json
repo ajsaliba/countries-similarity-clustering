@@ -32,15 +32,9 @@
                 "Georgian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Georgian Orthodoxy (%)": 83.4,
-                        "other Christian (%)": 3.9
-                    },
-                    "percentage": 87.3
-                },
+                "Christianity (%)": 87.3,
                 "Islam (%)": 10.7,
-                "other / none (%)": 2
+                "other / none (%)": 2.0
             }
         },
         "Government": {

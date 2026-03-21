@@ -32,14 +32,7 @@
         <item>Romanian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>4.4</Catholicism____>
-            <Protestantism____>6.4</Protestantism____>
-            <Romanian_Orthodoxy____>73.6</Romanian_Orthodoxy____>
-          </breakdown>
-          <percentage>84.7</percentage>
-        </Christianity>
+        <Christianity____>84.7</Christianity____>
         <no_religion____>0.8</no_religion____>
         <other____>0.4</other____>
         <other_Christian____>0.2</other_Christian____>

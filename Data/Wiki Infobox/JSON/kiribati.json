@@ -31,14 +31,7 @@
             ],
             "Religion": {
                 "Bahá'í Faith (%)": 2.1,
-                "Christianity": {
-                    "breakdown": {
-                        "Catholic Church (%)": 58.9,
-                        "Uniting Church (%)": 21.2,
-                        "other Christian (%)": 16.1
-                    },
-                    "percentage": 96.2
-                },
+                "Christianity (%)": 96.2,
                 "other / none (%)": 1.7
             }
         },

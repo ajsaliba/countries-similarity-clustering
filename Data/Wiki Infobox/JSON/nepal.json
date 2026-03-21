@@ -50,16 +50,10 @@
                 "Nepali"
             ],
             "Religion": {
-                "Buddhism": {
-                    "breakdown": {
-                        "Islam (%)": 5,
-                        "Kirat (%)": 3
-                    },
-                    "percentage": 8
-                },
-                "Christianity (%)": 2,
-                "Hinduism (%)": 81,
-                "other (%)": 1
+                "Buddhism (%)": 8.0,
+                "Christianity (%)": 2.0,
+                "Hinduism (%)": 81.0,
+                "other (%)": 1.0
             }
         },
         "Government": {

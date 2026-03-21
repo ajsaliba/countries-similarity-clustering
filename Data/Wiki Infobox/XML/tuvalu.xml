@@ -32,15 +32,9 @@
         <item>Tuvaluan</item>
       </Primary_Language>
       <Religion>
-        <Bah____Faith____>1</Bah____Faith____>
-        <Christianity>
-          <breakdown>
-            <Calvinism___official______>86</Calvinism___official______>
-            <other_Christian____>10</other_Christian____>
-          </breakdown>
-          <percentage>96</percentage>
-        </Christianity>
-        <Other_religions_or_not_stated____>3</Other_religions_or_not_stated____>
+        <Bah____Faith____>1.0</Bah____Faith____>
+        <Christianity____>96.0</Christianity____>
+        <Other_religions_or_not_stated____>3.0</Other_religions_or_not_stated____>
       </Religion>
     </General>
     <Government>

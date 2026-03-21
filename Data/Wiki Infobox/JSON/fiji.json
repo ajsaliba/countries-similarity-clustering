@@ -34,13 +34,7 @@
                 "Standard Hindi"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Methodism (%)": 34.6,
-                        "other Christian (%)": 29.8
-                    },
-                    "percentage": 64.4
-                },
+                "Christianity (%)": 64.4,
                 "Hinduism (%)": 27.9,
                 "Islam (%)": 6.3,
                 "others / none (%)": 1.4

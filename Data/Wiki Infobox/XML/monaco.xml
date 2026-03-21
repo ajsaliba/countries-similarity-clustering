@@ -29,19 +29,8 @@
         <item>French</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism___official______>80.9</Catholicism___official______>
-            <other_Christian____>5.1</other_Christian____>
-          </breakdown>
-          <percentage>86</percentage>
-        </Christianity>
-        <Islam>
-          <breakdown>
-            <other____>0.2</other____>
-          </breakdown>
-          <percentage>0.4</percentage>
-        </Islam>
+        <Christianity____>86.0</Christianity____>
+        <Islam____>0.4</Islam____>
         <Judaism____>1.7</Judaism____>
         <no_religion____>11.7</no_religion____>
       </Religion>

@@ -33,13 +33,7 @@
         <item>Catalan</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism___official______>85.5</Catholicism___official______>
-            <other_Christian____>5.3</other_Christian____>
-          </breakdown>
-          <percentage>90.8</percentage>
-        </Christianity>
+        <Christianity____>90.8</Christianity____>
         <no_religion____>6.9</no_religion____>
         <others____>2.3</others____>
       </Religion>

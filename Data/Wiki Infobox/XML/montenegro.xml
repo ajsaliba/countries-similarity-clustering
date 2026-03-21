@@ -34,22 +34,9 @@
         <item>Montenegrin</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>3.2</Catholicism____>
-            <Eastern_Orthodoxy____>71.1</Eastern_Orthodoxy____>
-            <other_Christian____>0.6</other_Christian____>
-          </breakdown>
-          <percentage>74.9</percentage>
-        </Christianity>
+        <Christianity____>74.9</Christianity____>
         <Islam____>19.9</Islam____>
-        <no_religion>
-          <breakdown>
-            <not_stated____>2.2</not_stated____>
-            <other____>0.3</other____>
-          </breakdown>
-          <percentage>2.7</percentage>
-        </no_religion>
+        <no_religion____>2.7</no_religion____>
       </Religion>
     </General>
     <Government>

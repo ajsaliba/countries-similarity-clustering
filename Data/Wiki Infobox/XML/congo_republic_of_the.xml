@@ -36,13 +36,8 @@
       </Primary_Language>
       <Religion>
         <Christianity____>87.1</Christianity____>
-        <Islam>
-          <breakdown>
-            <others____>1</others____>
-          </breakdown>
-          <percentage>1.2</percentage>
-        </Islam>
-        <no_religion____>8</no_religion____>
+        <Islam____>1.2</Islam____>
+        <no_religion____>8.0</no_religion____>
         <traditional_faiths____>2.7</traditional_faiths____>
       </Religion>
     </General>

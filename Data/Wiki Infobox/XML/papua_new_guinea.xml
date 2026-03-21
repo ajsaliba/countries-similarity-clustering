@@ -32,14 +32,7 @@
         <item>Tok Pisin</item>
       </Primary_Language>
       <Religion>
-        <Christianity___official__>
-          <breakdown>
-            <Catholicism____>26</Catholicism____>
-            <Protestantism____>64.3</Protestantism____>
-            <other_Christian____>5.2</other_Christian____>
-          </breakdown>
-          <percentage>95.5</percentage>
-        </Christianity___official__>
+        <Christianity___official______>95.5</Christianity___official______>
         <others_or_none____>1.4</others_or_none____>
         <unspecified____>3.1</unspecified____>
       </Religion>

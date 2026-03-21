@@ -39,35 +39,11 @@
       </Primary_Language>
       <Religion>
         <Christianity_26_75_Protestantism____>48.4</Christianity_26_75_Protestantism____>
-        <Hinduism>
-          <breakdown>
-            <Arya_Samaj____>3.08</Arya_Samaj____>
-            <Other_Hindu____>1.23</Other_Hindu____>
-            <San_tan_____>17.97</San_tan_____>
-          </breakdown>
-          <percentage>22.3</percentage>
-        </Hinduism>
-        <Islam>
-          <breakdown>
-            <Ahmadiyya____>2.61</Ahmadiyya____>
-            <Other_Muslim____>7.34</Other_Muslim____>
-            <Sunni____>3.91</Sunni____>
-          </breakdown>
-          <percentage>13.9</percentage>
-        </Islam>
+        <Hinduism____>22.3</Hinduism____>
+        <Islam____>13.9</Islam____>
         <Judaism____>0.03</Judaism____>
         <Kejaw_n____>0.8</Kejaw_n____>
-        <Not_stated>
-          <breakdown>
-            <Don_t_know>
-              <breakdown>
-                <Others____>0.85</Others____>
-              </breakdown>
-              <percentage>1.11</percentage>
-            </Don_t_know>
-          </breakdown>
-          <percentage>2.04</percentage>
-        </Not_stated>
+        <Not_stated____>2.04</Not_stated____>
         <Roman_Catholicism____>21.65</Roman_Catholicism____>
         <Winti____>1.8</Winti____>
         <no_religion____>7.52</no_religion____>

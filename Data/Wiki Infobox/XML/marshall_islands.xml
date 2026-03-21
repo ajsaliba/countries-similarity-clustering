@@ -31,14 +31,7 @@
         <item>Marshallese</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>9.3</Catholicism____>
-            <Protestantism____>79.9</Protestantism____>
-            <other_Christian____>7</other_Christian____>
-          </breakdown>
-          <percentage>96.2</percentage>
-        </Christianity>
+        <Christianity____>96.2</Christianity____>
         <no_religion____>1.1</no_religion____>
         <others____>2.7</others____>
       </Religion>

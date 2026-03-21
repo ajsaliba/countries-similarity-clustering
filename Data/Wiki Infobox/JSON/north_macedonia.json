@@ -37,13 +37,7 @@
                 "Macedonian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Eastern Orthodoxy (%)": 46.1,
-                        "other Christian (%)": 14.3
-                    },
-                    "percentage": 60.4
-                },
+                "Christianity (%)": 60.4,
                 "Islam (%)": 32.2,
                 "data taken from administrative sources (%)": 7.2,
                 "no religion (%)": 0.1,

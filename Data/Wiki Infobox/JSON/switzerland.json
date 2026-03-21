@@ -32,15 +32,8 @@
                 "Romansh"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 30,
-                        "Protestantism (%)": 18.7,
-                        "other Christian (%)": 6
-                    },
-                    "percentage": 54.7
-                },
-                "Islam (%)": 6,
+                "Christianity (%)": 54.7,
+                "Islam (%)": 6.0,
                 "no religion (%)": 36.8,
                 "other religions (%)": 1.5,
                 "unanswered (%)": 0.9

@@ -29,14 +29,7 @@
         <item>Slovene</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>73.4</Catholicism____>
-            <Orthodoxy____>3.7</Orthodoxy____>
-            <other_Christian____>0.7</other_Christian____>
-          </breakdown>
-          <percentage>77.9</percentage>
-        </Christianity>
+        <Christianity____>77.9</Christianity____>
         <no_religion____>18.3</no_religion____>
         <other____>3.9</other____>
       </Religion>

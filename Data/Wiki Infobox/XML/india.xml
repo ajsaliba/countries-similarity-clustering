@@ -30,21 +30,10 @@
         <item>Hindi</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Buddhism____>0.7</Buddhism____>
-            <Sikhism____>1.7</Sikhism____>
-          </breakdown>
-          <percentage>2.3</percentage>
-        </Christianity>
+        <Christianity____>2.3</Christianity____>
         <Hinduism____>79.8</Hinduism____>
         <Islam____>14.2</Islam____>
-        <Jainism>
-          <breakdown>
-            <unaffiliated____>0.23</unaffiliated____>
-          </breakdown>
-          <percentage>0.4</percentage>
-        </Jainism>
+        <Jainism____>0.4</Jainism____>
         <other____>0.65</other____>
       </Religion>
     </General>

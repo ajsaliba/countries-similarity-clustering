@@ -31,14 +31,7 @@
                 "Swazi"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Protestantism (%)": 84.2,
-                        "Roman Catholic (%)": 3.7,
-                        "other Christian (%)": 1.4
-                    },
-                    "percentage": 89.3
-                },
+                "Christianity (%)": 89.3,
                 "no religion (%)": 7.4,
                 "others (%)": 0.8,
                 "traditional faiths (%)": 2.5

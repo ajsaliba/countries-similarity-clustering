@@ -35,17 +35,9 @@
         <item>Latvian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>17</Catholicism____>
-            <Lutheranism____>36</Lutheranism____>
-            <Orthodoxy____>9</Orthodoxy____>
-            <other_Christian____>2</other_Christian____>
-          </breakdown>
-          <percentage>64</percentage>
-        </Christianity>
-        <no_religion____>35</no_religion____>
-        <others____>1</others____>
+        <Christianity____>64.0</Christianity____>
+        <no_religion____>35.0</no_religion____>
+        <others____>1.0</others____>
       </Religion>
     </General>
     <Government>

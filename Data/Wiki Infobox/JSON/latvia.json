@@ -34,17 +34,9 @@
                 "Latvian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 17,
-                        "Lutheranism (%)": 36,
-                        "Orthodoxy (%)": 9,
-                        "other Christian (%)": 2
-                    },
-                    "percentage": 64
-                },
-                "no religion (%)": 35,
-                "others (%)": 1
+                "Christianity (%)": 64.0,
+                "no religion (%)": 35.0,
+                "others (%)": 1.0
             }
         },
         "Government": {

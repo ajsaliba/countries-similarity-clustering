@@ -31,14 +31,7 @@
                 "Slovak"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 59.8,
-                        "Protestantism (%)": 7.6,
-                        "other Christian (%)": 1.4
-                    },
-                    "percentage": 68.8
-                },
+                "Christianity (%)": 68.8,
                 "no religion (%)": 23.8,
                 "other (%)": 0.9,
                 "unspecified (%)": 6.5

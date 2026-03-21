@@ -38,13 +38,7 @@
         <item>Macedonian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Eastern_Orthodoxy____>46.1</Eastern_Orthodoxy____>
-            <other_Christian____>14.3</other_Christian____>
-          </breakdown>
-          <percentage>60.4</percentage>
-        </Christianity>
+        <Christianity____>60.4</Christianity____>
         <Islam____>32.2</Islam____>
         <data_taken_from_administrative_sources____>7.2</data_taken_from_administrative_sources____>
         <no_religion____>0.1</no_religion____>

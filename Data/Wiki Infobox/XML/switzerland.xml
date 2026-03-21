@@ -33,15 +33,8 @@
         <item>Romansh</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>30</Catholicism____>
-            <Protestantism____>18.7</Protestantism____>
-            <other_Christian____>6</other_Christian____>
-          </breakdown>
-          <percentage>54.7</percentage>
-        </Christianity>
-        <Islam____>6</Islam____>
+        <Christianity____>54.7</Christianity____>
+        <Islam____>6.0</Islam____>
         <no_religion____>36.8</no_religion____>
         <other_religions____>1.5</other_religions____>
         <unanswered____>0.9</unanswered____>

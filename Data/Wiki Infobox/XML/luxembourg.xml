@@ -31,15 +31,9 @@
         <item>Luxembourgish</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>46</Catholicism____>
-            <other_Christian____>7</other_Christian____>
-          </breakdown>
-          <percentage>53</percentage>
-        </Christianity>
-        <no_religion____>38</no_religion____>
-        <other____>9</other____>
+        <Christianity____>53.0</Christianity____>
+        <no_religion____>38.0</no_religion____>
+        <other____>9.0</other____>
       </Religion>
     </General>
     <Government>

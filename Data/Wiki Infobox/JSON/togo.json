@@ -35,14 +35,7 @@
                 "French"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Baháʼí faith (%)": 1,
-                        "Islam (%)": 16,
-                        "traditional faiths (%)": 33
-                    },
-                    "percentage": 50
-                }
+                "Christianity (%)": 50.0
             }
         },
         "Government": {

@@ -37,23 +37,11 @@
         <item>English</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Mormonism____>1</Mormonism____>
-            <Protestantism>
-              <breakdown>
-                <Catholicism____>20</Catholicism____>
-                <other_Christian____>12</other_Christian____>
-              </breakdown>
-              <percentage>32</percentage>
-            </Protestantism>
-          </breakdown>
-          <percentage>65</percentage>
-        </Christianity>
-        <Judaism____>2</Judaism____>
-        <other_religion____>6</other_religion____>
-        <unaffiliated____>24</unaffiliated____>
-        <unanswered____>3</unanswered____>
+        <Christianity____>65.0</Christianity____>
+        <Judaism____>2.0</Judaism____>
+        <other_religion____>6.0</other_religion____>
+        <unaffiliated____>24.0</unaffiliated____>
+        <unanswered____>3.0</unanswered____>
       </Religion>
     </General>
     <Government>

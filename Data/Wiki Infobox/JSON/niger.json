@@ -46,12 +46,7 @@
                 "Zarma"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Animism (%)": 0.2
-                    },
-                    "percentage": 0.3
-                },
+                "Christianity (%)": 0.3,
                 "Islam (%)": 99.3,
                 "irreligion (%)": 0.1
             }

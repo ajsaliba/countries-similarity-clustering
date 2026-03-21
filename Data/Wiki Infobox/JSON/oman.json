@@ -28,14 +28,9 @@
                 "Arabic"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "others (%)": 1.66
-                    },
-                    "percentage": 1.67
-                },
+                "Christianity (%)": 1.67,
                 "Hinduism (%)": 1.67,
-                "Islam ( official ) (%)": 95
+                "Islam ( official ) (%)": 95.0
             }
         },
         "Government": {

@@ -34,13 +34,7 @@
             ],
             "Religion": {
                 "Buddhism , Folk , Confucianism , and others (%)": 0.8,
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 3.07,
-                        "Protestantism (%)": 7.38
-                    },
-                    "percentage": 10.45
-                },
+                "Christianity (%)": 10.45,
                 "Hinduism (%)": 1.7,
                 "Islam (%)": 87.1
             }

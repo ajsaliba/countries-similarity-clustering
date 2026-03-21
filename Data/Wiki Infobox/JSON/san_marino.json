@@ -29,18 +29,7 @@
             ],
             "Religion": {
                 "Catholicism (2022) (%)": 90.3,
-                "Other Christian denominations (2022)": {
-                    "breakdown": {
-                        "Islam (2015)": {
-                            "breakdown": {
-                                "other (%)": 0.34
-                            },
-                            "percentage": 0.46
-                        },
-                        "Judaism (%)": 0.1
-                    },
-                    "percentage": 1.1
-                },
+                "Other Christian denominations (2022) (%)": 1.1,
                 "no religion (%)": 7.5
             }
         },

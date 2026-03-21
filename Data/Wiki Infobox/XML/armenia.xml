@@ -31,13 +31,7 @@
         <item>Armenian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Armenian_Apostolic_Church____>95.2</Armenian_Apostolic_Church____>
-            <other_Christian____>1.6</other_Christian____>
-          </breakdown>
-          <percentage>96.8</percentage>
-        </Christianity>
+        <Christianity____>96.8</Christianity____>
         <no_religion____>0.6</no_religion____>
         <other____>0.9</other____>
         <unspecified____>1.7</unspecified____>

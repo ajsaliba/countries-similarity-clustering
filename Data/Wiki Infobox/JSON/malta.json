@@ -31,20 +31,8 @@
                 "Maltese Sign Language"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism ( official ) (%)": 82.6,
-                        "other Christian (%)": 5.9
-                    },
-                    "percentage": 88.5
-                },
-                "no religion": {
-                    "breakdown": {
-                        "Hinduism (%)": 1.4,
-                        "Islam (%)": 3.9
-                    },
-                    "percentage": 5.1
-                },
+                "Christianity (%)": 88.5,
+                "no religion (%)": 5.1,
                 "other (%)": 1.1
             }
         },

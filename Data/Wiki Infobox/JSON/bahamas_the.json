@@ -32,13 +32,7 @@
                 "English"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Protestantism (%)": 75.1,
-                        "other Christian (%)": 17.9
-                    },
-                    "percentage": 93
-                },
+                "Christianity (%)": 93.0,
                 "folk religions (%)": 1.9,
                 "no religion (%)": 4.5,
                 "other (%)": 0.6

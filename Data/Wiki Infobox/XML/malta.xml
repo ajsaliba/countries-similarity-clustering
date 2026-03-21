@@ -32,20 +32,8 @@
         <item>Maltese Sign Language</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism___official______>82.6</Catholicism___official______>
-            <other_Christian____>5.9</other_Christian____>
-          </breakdown>
-          <percentage>88.5</percentage>
-        </Christianity>
-        <no_religion>
-          <breakdown>
-            <Hinduism____>1.4</Hinduism____>
-            <Islam____>3.9</Islam____>
-          </breakdown>
-          <percentage>5.1</percentage>
-        </no_religion>
+        <Christianity____>88.5</Christianity____>
+        <no_religion____>5.1</no_religion____>
         <other____>1.1</other____>
       </Religion>
     </General>

@@ -28,14 +28,7 @@
                 "Slovene"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 73.4,
-                        "Orthodoxy (%)": 3.7,
-                        "other Christian (%)": 0.7
-                    },
-                    "percentage": 77.9
-                },
+                "Christianity (%)": 77.9,
                 "no religion (%)": 18.3,
                 "other (%)": 3.9
             }

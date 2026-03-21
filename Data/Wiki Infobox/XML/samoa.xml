@@ -33,15 +33,7 @@
         <item>Samoan</item>
       </Primary_Language>
       <Religion>
-        <Christianity___official__>
-          <breakdown>
-            <Catholicism____>18.8</Catholicism____>
-            <Mormonism____>16.9</Mormonism____>
-            <Protestantism____>54.9</Protestantism____>
-            <other_Christian____>7.3</other_Christian____>
-          </breakdown>
-          <percentage>97.9</percentage>
-        </Christianity___official__>
+        <Christianity___official______>97.9</Christianity___official______>
         <no_religion____>1.7</no_religion____>
         <others____>0.4</others____>
       </Religion>

@@ -37,21 +37,9 @@
       </Primary_Language>
       <Religion>
         <Buddhism___official______>87.9</Buddhism___official______>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>1.29</Catholicism____>
-            <Protestantism____>4.91</Protestantism____>
-          </breakdown>
-          <percentage>6.2</percentage>
-        </Christianity>
+        <Christianity____>6.2</Christianity____>
         <Islam____>4.3</Islam____>
-        <folk_religion>
-          <breakdown>
-            <Hinduism____>0.5</Hinduism____>
-            <no_religion____>0.1</no_religion____>
-          </breakdown>
-          <percentage>0.8</percentage>
-        </folk_religion>
+        <folk_religion____>0.8</folk_religion____>
         <other____>0.2</other____>
       </Religion>
     </General>

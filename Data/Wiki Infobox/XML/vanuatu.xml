@@ -34,14 +34,7 @@
       <Religion>
         <Animism____>4.6</Animism____>
         <Bah____Faith____>1.4</Bah____Faith____>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>13.5</Catholicism____>
-            <Protestantism____>75.1</Protestantism____>
-            <other_Christian____>4.8</other_Christian____>
-          </breakdown>
-          <percentage>93.4</percentage>
-        </Christianity>
+        <Christianity____>93.4</Christianity____>
         <other___none____>0.6</other___none____>
       </Religion>
     </General>

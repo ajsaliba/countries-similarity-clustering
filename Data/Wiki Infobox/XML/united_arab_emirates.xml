@@ -36,31 +36,8 @@
         <item>Arabic</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Hinduism>
-              <breakdown>
-                <Buddhism>
-                  <breakdown>
-                    <Agnosticism____>1.3</Agnosticism____>
-                    <other____>1.9</other____>
-                  </breakdown>
-                  <percentage>3.2</percentage>
-                </Buddhism>
-              </breakdown>
-              <percentage>6.2</percentage>
-            </Hinduism>
-          </breakdown>
-          <percentage>12.9</percentage>
-        </Christianity>
-        <Islam___official__>
-          <breakdown>
-            <Shia_Islam____>6.7</Shia_Islam____>
-            <Sunni_Islam____>63.3</Sunni_Islam____>
-            <other____>4.4</other____>
-          </breakdown>
-          <percentage>74.5</percentage>
-        </Islam___official__>
+        <Christianity____>12.9</Christianity____>
+        <Islam___official______>74.5</Islam___official______>
       </Religion>
     </General>
     <Government>

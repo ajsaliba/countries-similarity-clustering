@@ -29,21 +29,10 @@
                 "Hindi"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Buddhism (%)": 0.7,
-                        "Sikhism (%)": 1.7
-                    },
-                    "percentage": 2.3
-                },
+                "Christianity (%)": 2.3,
                 "Hinduism (%)": 79.8,
                 "Islam (%)": 14.2,
-                "Jainism": {
-                    "breakdown": {
-                        "unaffiliated (%)": 0.23
-                    },
-                    "percentage": 0.4
-                },
+                "Jainism (%)": 0.4,
                 "other (%)": 0.65
             }
         },

@@ -31,13 +31,7 @@
                 "Polish"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 71.3,
-                        "other Christian (%)": 1.1
-                    },
-                    "percentage": 72.4
-                },
+                "Christianity (%)": 72.4,
                 "no religion (%)": 6.9,
                 "other (%)": 0.1,
                 "unanswered (%)": 20.6

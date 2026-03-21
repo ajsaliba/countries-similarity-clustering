@@ -29,19 +29,8 @@
                 "Portuguese"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 72.5,
-                        "other Christian (%)": 9.2
-                    },
-                    "percentage": 81.7
-                },
-                "Islam": {
-                    "breakdown": {
-                        "others (%)": 1.2
-                    },
-                    "percentage": 1.3
-                },
+                "Christianity (%)": 81.7,
+                "Islam (%)": 1.3,
                 "no religion (%)": 15.6
             }
         },

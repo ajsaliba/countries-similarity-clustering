@@ -33,13 +33,7 @@
             ],
             "Religion": {
                 "Badimo (%)": 4.1,
-                "Christianity": {
-                    "breakdown": {
-                        "Protestantism (%)": 70.2,
-                        "other Christian (%)": 8.9
-                    },
-                    "percentage": 79.1
-                },
+                "Christianity (%)": 79.1,
                 "no religion (%)": 15.2,
                 "others (%)": 1.4,
                 "unspecified (%)": 0.3

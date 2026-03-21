@@ -37,13 +37,7 @@
         <item>English</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholics____>10.6</Catholics____>
-            <Protestants____>35.3</Protestants____>
-          </breakdown>
-          <percentage>45.9</percentage>
-        </Christianity>
+        <Christianity____>45.9</Christianity____>
         <Islam____>53.5</Islam____>
         <other____>0.6</other____>
       </Religion>

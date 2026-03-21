@@ -29,12 +29,7 @@
                 "Bengali"
             ],
             "Religion": {
-                "Buddhism": {
-                    "breakdown": {
-                        "Christianity (%)": 0.3
-                    },
-                    "percentage": 0.6
-                },
+                "Buddhism (%)": 0.6,
                 "Hinduism (%)": 7.94,
                 "Islam ( official ) (%)": 91.04,
                 "other (%)": 0.12

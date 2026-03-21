@@ -32,14 +32,7 @@
         <item>Spanish</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>80.5</Catholicism____>
-            <Protestantism____>11.2</Protestantism____>
-            <other_Christian____>0.9</other_Christian____>
-          </breakdown>
-          <percentage>92.6</percentage>
-        </Christianity>
+        <Christianity____>92.6</Christianity____>
         <Spiritism___Birongo____>1.1</Spiritism___Birongo____>
         <no_religion____>5.5</no_religion____>
         <other____>0.8</other____>

@@ -30,15 +30,7 @@
         <item>German</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>55.2</Catholicism____>
-            <Orthodoxy____>4.9</Orthodoxy____>
-            <Protestantism____>3.8</Protestantism____>
-            <other_Christian____>4.3</other_Christian____>
-          </breakdown>
-          <percentage>68.2</percentage>
-        </Christianity>
+        <Christianity____>68.2</Christianity____>
         <Islam____>8.3</Islam____>
         <no_religion____>22.4</no_religion____>
         <other____>1.1</other____>

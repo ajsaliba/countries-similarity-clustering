@@ -32,15 +32,7 @@
                 "Samoan"
             ],
             "Religion": {
-                "Christianity ( official )": {
-                    "breakdown": {
-                        "Catholicism (%)": 18.8,
-                        "Mormonism (%)": 16.9,
-                        "Protestantism (%)": 54.9,
-                        "other Christian (%)": 7.3
-                    },
-                    "percentage": 97.9
-                },
+                "Christianity ( official ) (%)": 97.9,
                 "no religion (%)": 1.7,
                 "others (%)": 0.4
             }

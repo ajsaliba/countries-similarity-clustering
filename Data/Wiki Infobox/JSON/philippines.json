@@ -35,13 +35,7 @@
                 "Filipino"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 78.8,
-                        "other Christian (%)": 6.5
-                    },
-                    "percentage": 85.3
-                },
+                "Christianity (%)": 85.3,
                 "Islam (%)": 6.4,
                 "other (%)": 8.2
             }

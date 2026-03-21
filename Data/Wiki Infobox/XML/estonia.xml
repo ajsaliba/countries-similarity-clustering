@@ -33,14 +33,7 @@
         <item>Estonian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Eastern_Orthodoxy____>16.3</Eastern_Orthodoxy____>
-            <Lutheranism____>7.7</Lutheranism____>
-            <other_Christian____>2.7</other_Christian____>
-          </breakdown>
-          <percentage>26.7</percentage>
-        </Christianity>
+        <Christianity____>26.7</Christianity____>
         <irreligion____>58.4</irreligion____>
         <other____>2.1</other____>
         <undeclared____>12.7</undeclared____>

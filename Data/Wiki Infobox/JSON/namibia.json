@@ -39,15 +39,7 @@
                 "siLozi"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Anglicanism (%)": 17,
-                        "Catholicism (%)": 22.8,
-                        "Lutheranism (%)": 43.7,
-                        "other Christian (%)": 4.4
-                    },
-                    "percentage": 87.9
-                },
+                "Christianity (%)": 87.9,
                 "no religion (%)": 1.6,
                 "other (%)": 10.5
             }

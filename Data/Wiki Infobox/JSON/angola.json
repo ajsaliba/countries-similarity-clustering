@@ -40,13 +40,7 @@
                 "Umbundu"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholic (%)": 44.2,
-                        "Protestant (%)": 34.9
-                    },
-                    "percentage": 79.1
-                },
+                "Christianity (%)": 79.1,
                 "no religion (%)": 11.5,
                 "other (%)": 9.4
             }

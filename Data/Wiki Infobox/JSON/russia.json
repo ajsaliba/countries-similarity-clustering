@@ -33,16 +33,10 @@
                 "Russian"
             ],
             "Religion": {
-                "Buddhists": {
-                    "breakdown": {
-                        "Hindus (%)": 0.1,
-                        "Jews (%)": 0.1
-                    },
-                    "percentage": 0.5
-                },
+                "Buddhists (%)": 0.5,
                 "Muslims (%)": 6.5,
-                "Old Believers (%)": 1,
-                "Russian Orthodox (%)": 41
+                "Old Believers (%)": 1.0,
+                "Russian Orthodox (%)": 41.0
             }
         },
         "Government": {

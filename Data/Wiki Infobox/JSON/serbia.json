@@ -33,14 +33,7 @@
                 "Serbian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 3.9,
-                        "Eastern Orthodoxy (%)": 81.1,
-                        "other (%)": 1.7
-                    },
-                    "percentage": 86.6
-                },
+                "Christianity (%)": 86.6,
                 "Islam (%)": 4.2,
                 "no religion (%)": 1.1,
                 "undeclared/unknown (%)": 7.9

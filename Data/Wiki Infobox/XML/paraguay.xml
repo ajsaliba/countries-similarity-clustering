@@ -31,13 +31,7 @@
         <item>Spanish</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>87.4</Catholicism____>
-            <other_Christian____>8.1</other_Christian____>
-          </breakdown>
-          <percentage>95.5</percentage>
-        </Christianity>
+        <Christianity____>95.5</Christianity____>
         <no_religion____>4.1</no_religion____>
         <other____>0.4</other____>
       </Religion>

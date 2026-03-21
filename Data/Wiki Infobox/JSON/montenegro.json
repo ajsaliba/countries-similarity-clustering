@@ -33,22 +33,9 @@
                 "Montenegrin"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 3.2,
-                        "Eastern Orthodoxy (%)": 71.1,
-                        "other Christian (%)": 0.6
-                    },
-                    "percentage": 74.9
-                },
+                "Christianity (%)": 74.9,
                 "Islam (%)": 19.9,
-                "no religion": {
-                    "breakdown": {
-                        "not stated (%)": 2.2,
-                        "other (%)": 0.3
-                    },
-                    "percentage": 2.7
-                }
+                "no religion (%)": 2.7
             }
         },
         "Government": {

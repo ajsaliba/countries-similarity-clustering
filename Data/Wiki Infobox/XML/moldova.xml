@@ -35,13 +35,7 @@
         <item>Romanian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Eastern_Orthodoxy____>94.3</Eastern_Orthodoxy____>
-            <other_Christian____>3.1</other_Christian____>
-          </breakdown>
-          <percentage>97.4</percentage>
-        </Christianity>
+        <Christianity____>97.4</Christianity____>
         <no_religion____>1.5</no_religion____>
         <other____>0.3</other____>
         <unanswered____>0.8</unanswered____>

@@ -36,16 +36,9 @@
         <item>Sámi</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Eastern_Orthodoxy____>1</Eastern_Orthodoxy____>
-            <Lutheranism____>62.2</Lutheranism____>
-            <other_Christian____>1</other_Christian____>
-          </breakdown>
-          <percentage>64.2</percentage>
-        </Christianity>
+        <Christianity____>64.2</Christianity____>
         <no_religion____>34.9</no_religion____>
-        <other____>2</other____>
+        <other____>2.0</other____>
       </Religion>
     </General>
     <Government>

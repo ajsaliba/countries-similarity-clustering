@@ -30,14 +30,7 @@
                 "Tongan"
             ],
             "Religion": {
-                "Christianity —": {
-                    "breakdown": {
-                        "Catholicism (%)": 14.2,
-                        "Mormonism — (%)": 18.6,
-                        "Protestantism — (%)": 64.1
-                    },
-                    "percentage": 96.9
-                },
+                "Christianity — (%)": 96.9,
                 "no religion (%)": 0.5,
                 "others (%)": 2.4,
                 "unspecified (%)": 0.1

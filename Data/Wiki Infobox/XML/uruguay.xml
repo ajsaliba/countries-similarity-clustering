@@ -34,12 +34,7 @@
         <item>Uruguayan Sign Language</item>
       </Primary_Language>
       <Religion>
-        <Animists_or_Umbandists>
-          <breakdown>
-            <Jewish____>0.4</Jewish____>
-          </breakdown>
-          <percentage>0.6</percentage>
-        </Animists_or_Umbandists>
+        <Animists_or_Umbandists____>0.6</Animists_or_Umbandists____>
       </Religion>
     </General>
     <Government>

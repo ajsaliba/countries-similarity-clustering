@@ -43,12 +43,7 @@
         <Christianity____>66.3</Christianity____>
         <Islam____>30.6</Islam____>
         <others____>0.7</others____>
-        <traditional_faiths>
-          <breakdown>
-            <no_religion____>1.1</no_religion____>
-          </breakdown>
-          <percentage>1.3</percentage>
-        </traditional_faiths>
+        <traditional_faiths____>1.3</traditional_faiths____>
       </Religion>
     </General>
     <Government>

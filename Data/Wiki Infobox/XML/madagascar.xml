@@ -37,14 +37,7 @@
         <item>Malagasy</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>38.1</Catholicism____>
-            <Protestantism____>45.8</Protestantism____>
-            <other_Christian____>0.8</other_Christian____>
-          </breakdown>
-          <percentage>84.7</percentage>
-        </Christianity>
+        <Christianity____>84.7</Christianity____>
         <Islam____>3.1</Islam____>
         <no_religion____>7.3</no_religion____>
         <others____>0.3</others____>

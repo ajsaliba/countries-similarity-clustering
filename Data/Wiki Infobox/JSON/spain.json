@@ -28,13 +28,7 @@
                 "Spanish"
             ],
             "Religion": {
-                "Roman Catholicism": {
-                    "breakdown": {
-                        "non-practicing Catholic (%)": 40,
-                        "practicing Catholic (%)": 18.6
-                    },
-                    "percentage": 58.6
-                },
+                "Roman Catholicism (%)": 58.6,
                 "agnostic (%)": 11.1,
                 "atheist (%)": 13.3,
                 "indifferent or irreligious (%)": 11.7,

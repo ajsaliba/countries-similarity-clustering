@@ -38,35 +38,11 @@
             ],
             "Religion": {
                 "Christianity 26.75 Protestantism (%)": 48.4,
-                "Hinduism": {
-                    "breakdown": {
-                        "Arya Samaj (%)": 3.08,
-                        "Other Hindu (%)": 1.23,
-                        "Sanātanī (%)": 17.97
-                    },
-                    "percentage": 22.3
-                },
-                "Islam": {
-                    "breakdown": {
-                        "Ahmadiyya (%)": 2.61,
-                        "Other Muslim (%)": 7.34,
-                        "Sunni (%)": 3.91
-                    },
-                    "percentage": 13.9
-                },
+                "Hinduism (%)": 22.3,
+                "Islam (%)": 13.9,
                 "Judaism (%)": 0.03,
                 "Kejawèn (%)": 0.8,
-                "Not stated": {
-                    "breakdown": {
-                        "Don't know": {
-                            "breakdown": {
-                                "Others (%)": 0.85
-                            },
-                            "percentage": 1.11
-                        }
-                    },
-                    "percentage": 2.04
-                },
+                "Not stated (%)": 2.04,
                 "Roman Catholicism (%)": 21.65,
                 "Winti (%)": 1.8,
                 "no religion (%)": 7.52

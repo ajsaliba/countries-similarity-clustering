@@ -35,13 +35,7 @@
         <item>Sámi</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Church_of_Norway____>61.7</Church_of_Norway____>
-            <other_Christian____>6.8</other_Christian____>
-          </breakdown>
-          <percentage>68.5</percentage>
-        </Christianity>
+        <Christianity____>68.5</Christianity____>
         <Islam____>3.4</Islam____>
         <no_religion____>27.3</no_religion____>
         <other____>0.8</other____>

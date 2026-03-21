@@ -33,15 +33,9 @@
         <item>Georgian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Georgian_Orthodoxy____>83.4</Georgian_Orthodoxy____>
-            <other_Christian____>3.9</other_Christian____>
-          </breakdown>
-          <percentage>87.3</percentage>
-        </Christianity>
+        <Christianity____>87.3</Christianity____>
         <Islam____>10.7</Islam____>
-        <other___none____>2</other___none____>
+        <other___none____>2.0</other___none____>
       </Religion>
     </General>
     <Government>

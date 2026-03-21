@@ -31,16 +31,10 @@
         <item>Korean Sign Language</item>
       </Primary_Language>
       <Religion>
-        <Buddhism____>17</Buddhism____>
-        <Catholic____>11</Catholic____>
-        <No_religion>
-          <breakdown>
-            <Christianity____>31</Christianity____>
-            <Protestant____>20</Protestant____>
-          </breakdown>
-          <percentage>51</percentage>
-        </No_religion>
-        <other____>2</other____>
+        <Buddhism____>17.0</Buddhism____>
+        <Catholic____>11.0</Catholic____>
+        <No_religion____>51.0</No_religion____>
+        <other____>2.0</other____>
       </Religion>
     </General>
     <Government>

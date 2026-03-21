@@ -39,13 +39,7 @@
             ],
             "Religion": {
                 "Christianity (%)": 81.7,
-                "Roman Catholic": {
-                    "breakdown": {
-                        "Islam (%)": 13.2,
-                        "Protestant (%)": 29
-                    },
-                    "percentage": 42
-                },
+                "Roman Catholic (%)": 42.0,
                 "no religion (%)": 0.2,
                 "others (%)": 1.6,
                 "unclassified (%)": 3.3

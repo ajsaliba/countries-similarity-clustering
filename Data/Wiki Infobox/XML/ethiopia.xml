@@ -43,14 +43,7 @@
         <item>Tigrinya</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Ethiopian_Orthodoxy____>43.8</Ethiopian_Orthodoxy____>
-            <P_ent_ay____>22.8</P_ent_ay____>
-            <other_Christian____>0.7</other_Christian____>
-          </breakdown>
-          <percentage>67.3</percentage>
-        </Christianity>
+        <Christianity____>67.3</Christianity____>
         <Islam____>31.3</Islam____>
         <others___none____>0.8</others___none____>
         <traditional_faiths____>0.6</traditional_faiths____>

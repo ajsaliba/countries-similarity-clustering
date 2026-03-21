@@ -35,14 +35,7 @@
         <item>Irish</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Anglicanism____>2.5</Anglicanism____>
-            <Catholicism____>69.1</Catholicism____>
-            <other_Christian____>4.1</other_Christian____>
-          </breakdown>
-          <percentage>75.7</percentage>
-        </Christianity>
+        <Christianity____>75.7</Christianity____>
         <no_religion____>14.5</no_religion____>
         <not_stated____>6.7</not_stated____>
         <other____>3.1</other____>

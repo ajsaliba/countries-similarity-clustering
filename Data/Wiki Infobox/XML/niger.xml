@@ -47,12 +47,7 @@
         <item>Zarma</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Animism____>0.2</Animism____>
-          </breakdown>
-          <percentage>0.3</percentage>
-        </Christianity>
+        <Christianity____>0.3</Christianity____>
         <Islam____>99.3</Islam____>
         <irreligion____>0.1</irreligion____>
       </Religion>

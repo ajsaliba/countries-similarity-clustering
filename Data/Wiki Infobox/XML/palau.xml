@@ -35,17 +35,7 @@
       </Primary_Language>
       <Religion>
         <Christianity____>78.7</Christianity____>
-        <no_religion>
-          <breakdown>
-            <Modekngei>
-              <breakdown>
-                <Islam____>4.9</Islam____>
-              </breakdown>
-              <percentage>5.1</percentage>
-            </Modekngei>
-          </breakdown>
-          <percentage>10.1</percentage>
-        </no_religion>
+        <no_religion____>10.1</no_religion____>
         <other____>1.2</other____>
       </Religion>
     </General>

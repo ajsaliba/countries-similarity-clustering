@@ -34,14 +34,7 @@
       <Religion>
         <Bah____Faith____>0.05</Bah____Faith____>
         <Christianity____>0.88</Christianity____>
-        <Islam___official__>
-          <breakdown>
-            <Shia____>0.09</Shia____>
-            <Sunni____>71.21</Sunni____>
-            <other____>9.42</other____>
-          </breakdown>
-          <percentage>80.73</percentage>
-        </Islam___official__>
+        <Islam___official______>80.73</Islam___official______>
         <Judaism____>13.07</Judaism____>
         <irreligion____>5.27</irreligion____>
       </Religion>

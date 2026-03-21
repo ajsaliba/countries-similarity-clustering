@@ -28,16 +28,10 @@
                 "Greek"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Greek Orthodoxy ( official ) (%)": 90,
-                        "other Christian (%)": 3
-                    },
-                    "percentage": 93
-                },
-                "Islam (%)": 2,
-                "No religion (%)": 4,
-                "Others (%)": 1
+                "Christianity (%)": 93.0,
+                "Islam (%)": 2.0,
+                "No religion (%)": 4.0,
+                "Others (%)": 1.0
             }
         },
         "Government": {

@@ -31,20 +31,8 @@
                 "Bulgarian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Bulgarian Orthodoxy (%)": 62.7,
-                        "other Christian (%)": 2
-                    },
-                    "percentage": 64.7
-                },
-                "Islam": {
-                    "breakdown": {
-                        "other (%)": 0.1,
-                        "unanswered (%)": 9.5
-                    },
-                    "percentage": 9.8
-                },
+                "Christianity (%)": 64.7,
+                "Islam (%)": 9.8,
                 "no religion (%)": 15.9
             }
         },

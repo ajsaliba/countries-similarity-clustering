@@ -35,16 +35,9 @@
                 "Sámi"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Eastern Orthodoxy (%)": 1,
-                        "Lutheranism (%)": 62.2,
-                        "other Christian (%)": 1
-                    },
-                    "percentage": 64.2
-                },
+                "Christianity (%)": 64.2,
                 "no religion (%)": 34.9,
-                "other (%)": 2
+                "other (%)": 2.0
             }
         },
         "Government": {

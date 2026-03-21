@@ -34,13 +34,7 @@
         <item>Russian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Eastern_Orthodoxy____>83.3</Eastern_Orthodoxy____>
-            <other_Christian____>7.7</other_Christian____>
-          </breakdown>
-          <percentage>91</percentage>
-        </Christianity>
+        <Christianity____>91.0</Christianity____>
         <no_religion____>7.8</no_religion____>
         <other____>1.2</other____>
       </Religion>

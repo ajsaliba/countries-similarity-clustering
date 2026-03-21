@@ -30,16 +30,10 @@
                 "Korean Sign Language"
             ],
             "Religion": {
-                "Buddhism (%)": 17,
-                "Catholic (%)": 11,
-                "No religion": {
-                    "breakdown": {
-                        "Christianity (%)": 31,
-                        "Protestant (%)": 20
-                    },
-                    "percentage": 51
-                },
-                "other (%)": 2
+                "Buddhism (%)": 17.0,
+                "Catholic (%)": 11.0,
+                "No religion (%)": 51.0,
+                "other (%)": 2.0
             }
         },
         "Government": {

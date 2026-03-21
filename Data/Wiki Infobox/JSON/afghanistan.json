@@ -36,13 +36,7 @@
                 "Pashto"
             ],
             "Religion": {
-                "Islam": {
-                    "breakdown": {
-                        "Shia (%)": 10.8,
-                        "Sunni ( official ) (%)": 89.1
-                    },
-                    "percentage": 99.9
-                },
+                "Islam (%)": 99.9,
                 "other (%)": 0.1
             }
         },

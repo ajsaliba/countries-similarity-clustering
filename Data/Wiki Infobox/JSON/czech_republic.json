@@ -33,13 +33,7 @@
                 "Czech"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 9.3,
-                        "other Christian (%)": 2.4
-                    },
-                    "percentage": 11.7
-                },
+                "Christianity (%)": 11.7,
                 "no religion (%)": 56.9,
                 "other (%)": 1.2,
                 "unanswered (%)": 30.1

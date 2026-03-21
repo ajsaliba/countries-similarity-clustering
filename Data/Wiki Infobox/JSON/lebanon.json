@@ -31,16 +31,7 @@
             ],
             "Religion": {
                 "Alawite (%)": 0.64,
-                "Christianity": {
-                    "breakdown": {
-                        "Armenian Apostolic (%)": 2.92,
-                        "Catholic (%)": 28.11,
-                        "Orthodox (%)": 8.3,
-                        "Other Christians (%)": 1.64,
-                        "Protestant (%)": 0.53
-                    },
-                    "percentage": 41.4
-                },
+                "Christianity (%)": 41.4,
                 "Druze (%)": 5.21,
                 "Islam (%)": 53.31,
                 "No religion (%)": 0.08,

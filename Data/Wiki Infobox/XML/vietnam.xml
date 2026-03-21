@@ -30,21 +30,8 @@
         <item>Vietnamese</item>
       </Primary_Language>
       <Religion>
-        <Catholicism>
-          <breakdown>
-            <Buddhism____>4.79</Buddhism____>
-            <Hoahaoism____>1.02</Hoahaoism____>
-          </breakdown>
-          <percentage>6.1</percentage>
-        </Catholicism>
-        <Protestantism>
-          <breakdown>
-            <Caodaism____>0.58</Caodaism____>
-            <Islam____>0.07</Islam____>
-            <other____>0.12</other____>
-          </breakdown>
-          <percentage>1</percentage>
-        </Protestantism>
+        <Catholicism____>6.1</Catholicism____>
+        <Protestantism____>1.0</Protestantism____>
         <no_religion___folk____>86.32</no_religion___folk____>
       </Religion>
     </General>

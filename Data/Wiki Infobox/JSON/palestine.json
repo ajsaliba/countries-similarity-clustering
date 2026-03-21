@@ -33,14 +33,7 @@
             "Religion": {
                 "Baháʼí Faith (%)": 0.05,
                 "Christianity (%)": 0.88,
-                "Islam ( official )": {
-                    "breakdown": {
-                        "Shia (%)": 0.09,
-                        "Sunni (%)": 71.21,
-                        "other (%)": 9.42
-                    },
-                    "percentage": 80.73
-                },
+                "Islam ( official ) (%)": 80.73,
                 "Judaism (%)": 13.07,
                 "irreligion (%)": 5.27
             }

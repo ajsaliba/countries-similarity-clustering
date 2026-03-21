@@ -31,13 +31,7 @@
             "Religion": {
                 "Christianity (%)": 63.1,
                 "Islam (%)": 34.1,
-                "no religion": {
-                    "breakdown": {
-                        "others (%)": 0.1,
-                        "traditional faiths (%)": 1.2
-                    },
-                    "percentage": 1.5
-                }
+                "no religion (%)": 1.5
             }
         },
         "Government": {

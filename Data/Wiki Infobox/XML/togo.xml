@@ -36,14 +36,7 @@
         <item>French</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Bah____faith____>1</Bah____faith____>
-            <Islam____>16</Islam____>
-            <traditional_faiths____>33</traditional_faiths____>
-          </breakdown>
-          <percentage>50</percentage>
-        </Christianity>
+        <Christianity____>50.0</Christianity____>
       </Religion>
     </General>
     <Government>

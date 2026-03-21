@@ -34,14 +34,7 @@
                 "Irish"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Anglicanism (%)": 2.5,
-                        "Catholicism (%)": 69.1,
-                        "other Christian (%)": 4.1
-                    },
-                    "percentage": 75.7
-                },
+                "Christianity (%)": 75.7,
                 "no religion (%)": 14.5,
                 "not stated (%)": 6.7,
                 "other (%)": 3.1

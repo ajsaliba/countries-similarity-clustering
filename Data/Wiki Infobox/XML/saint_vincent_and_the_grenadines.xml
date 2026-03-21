@@ -34,23 +34,12 @@
         <item>English</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Other_Christian____>18.4</Other_Christian____>
-            <Protestantism____>70.2</Protestantism____>
-          </breakdown>
-          <percentage>88.6</percentage>
-        </Christianity>
+        <Christianity____>88.6</Christianity____>
         <Hinduism____>3.4</Hinduism____>
         <Irreligion____>2.5</Irreligion____>
         <Islam____>1.5</Islam____>
         <Other____>0.5</Other____>
-        <Rastafari>
-          <breakdown>
-            <Bah____Faith____>1.6</Bah____Faith____>
-          </breakdown>
-          <percentage>1.8</percentage>
-        </Rastafari>
+        <Rastafari____>1.8</Rastafari____>
       </Religion>
     </General>
     <Government>

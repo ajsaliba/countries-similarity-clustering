@@ -31,14 +31,7 @@
                 "Tok Pisin"
             ],
             "Religion": {
-                "Christianity ( official )": {
-                    "breakdown": {
-                        "Catholicism (%)": 26,
-                        "Protestantism (%)": 64.3,
-                        "other Christian (%)": 5.2
-                    },
-                    "percentage": 95.5
-                },
+                "Christianity ( official ) (%)": 95.5,
                 "others or none (%)": 1.4,
                 "unspecified (%)": 3.1
             }

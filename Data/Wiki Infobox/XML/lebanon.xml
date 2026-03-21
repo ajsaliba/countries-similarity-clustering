@@ -32,16 +32,7 @@
       </Primary_Language>
       <Religion>
         <Alawite____>0.64</Alawite____>
-        <Christianity>
-          <breakdown>
-            <Armenian_Apostolic____>2.92</Armenian_Apostolic____>
-            <Catholic____>28.11</Catholic____>
-            <Orthodox____>8.3</Orthodox____>
-            <Other_Christians____>1.64</Other_Christians____>
-            <Protestant____>0.53</Protestant____>
-          </breakdown>
-          <percentage>41.4</percentage>
-        </Christianity>
+        <Christianity____>41.4</Christianity____>
         <Druze____>5.21</Druze____>
         <Islam____>53.31</Islam____>
         <No_religion____>0.08</No_religion____>

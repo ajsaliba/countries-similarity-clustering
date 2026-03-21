@@ -36,14 +36,7 @@
                 "Malagasy"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 38.1,
-                        "Protestantism (%)": 45.8,
-                        "other Christian (%)": 0.8
-                    },
-                    "percentage": 84.7
-                },
+                "Christianity (%)": 84.7,
                 "Islam (%)": 3.1,
                 "no religion (%)": 7.3,
                 "others (%)": 0.3,

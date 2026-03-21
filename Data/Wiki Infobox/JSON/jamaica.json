@@ -33,13 +33,7 @@
                 "English"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Protestantism (%)": 64.8,
-                        "other Christian (%)": 4.1
-                    },
-                    "percentage": 68.9
-                },
+                "Christianity (%)": 68.9,
                 "Rastafari (%)": 1.1,
                 "no religion (%)": 21.3,
                 "other (%)": 6.5,

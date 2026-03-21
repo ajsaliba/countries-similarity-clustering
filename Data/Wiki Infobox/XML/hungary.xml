@@ -32,13 +32,7 @@
         <item>Hungarian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>27.5</Catholicism____>
-            <other_Christian____>15</other_Christian____>
-          </breakdown>
-          <percentage>42.5</percentage>
-        </Christianity>
+        <Christianity____>42.5</Christianity____>
         <irreligion____>16.1</irreligion____>
         <no_answer____>40.1</no_answer____>
         <others____>1.3</others____>

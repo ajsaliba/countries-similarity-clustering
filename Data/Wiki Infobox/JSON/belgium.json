@@ -33,16 +33,10 @@
                 "German"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 31,
-                        "other Christian (%)": 3
-                    },
-                    "percentage": 34
-                },
-                "Islam (%)": 6,
-                "no religion (%)": 59,
-                "other (%)": 1
+                "Christianity (%)": 34.0,
+                "Islam (%)": 6.0,
+                "no religion (%)": 59.0,
+                "other (%)": 1.0
             }
         },
         "Government": {

@@ -33,14 +33,7 @@
             ],
             "Religion": {
                 "Buddhism (%)": 18.7,
-                "Christianity": {
-                    "breakdown": {
-                        "Hinduism (%)": 6.1,
-                        "other (%)": 0.9,
-                        "unknown (%)": 1.8
-                    },
-                    "percentage": 9.1
-                },
+                "Christianity (%)": 9.1,
                 "Islam ( official ) (%)": 63.5
             }
         },

@@ -33,13 +33,7 @@
                 "Russian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Eastern Orthodoxy (%)": 83.3,
-                        "other Christian (%)": 7.7
-                    },
-                    "percentage": 91
-                },
+                "Christianity (%)": 91.0,
                 "no religion (%)": 7.8,
                 "other (%)": 1.2
             }

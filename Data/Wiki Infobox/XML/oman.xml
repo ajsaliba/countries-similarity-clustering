@@ -29,14 +29,9 @@
         <item>Arabic</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <others____>1.66</others____>
-          </breakdown>
-          <percentage>1.67</percentage>
-        </Christianity>
+        <Christianity____>1.67</Christianity____>
         <Hinduism____>1.67</Hinduism____>
-        <Islam___official______>95</Islam___official______>
+        <Islam___official______>95.0</Islam___official______>
       </Religion>
     </General>
     <Government>

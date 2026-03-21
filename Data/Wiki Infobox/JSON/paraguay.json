@@ -30,13 +30,7 @@
                 "Spanish"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 87.4,
-                        "other Christian (%)": 8.1
-                    },
-                    "percentage": 95.5
-                },
+                "Christianity (%)": 95.5,
                 "no religion (%)": 4.1,
                 "other (%)": 0.4
             }

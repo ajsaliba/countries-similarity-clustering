@@ -32,20 +32,8 @@
         <item>Bulgarian</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Bulgarian_Orthodoxy____>62.7</Bulgarian_Orthodoxy____>
-            <other_Christian____>2</other_Christian____>
-          </breakdown>
-          <percentage>64.7</percentage>
-        </Christianity>
-        <Islam>
-          <breakdown>
-            <other____>0.1</other____>
-            <unanswered____>9.5</unanswered____>
-          </breakdown>
-          <percentage>9.8</percentage>
-        </Islam>
+        <Christianity____>64.7</Christianity____>
+        <Islam____>9.8</Islam____>
         <no_religion____>15.9</no_religion____>
       </Religion>
     </General>

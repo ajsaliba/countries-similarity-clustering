@@ -33,13 +33,7 @@
                 "Lithuanian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 74.2,
-                        "other Christian (%)": 5.2
-                    },
-                    "percentage": 79.4
-                },
+                "Christianity (%)": 79.4,
                 "no answer (%)": 13.7,
                 "no religion (%)": 6.1,
                 "others (%)": 0.8

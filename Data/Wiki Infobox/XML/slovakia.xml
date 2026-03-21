@@ -32,14 +32,7 @@
         <item>Slovak</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>59.8</Catholicism____>
-            <Protestantism____>7.6</Protestantism____>
-            <other_Christian____>1.4</other_Christian____>
-          </breakdown>
-          <percentage>68.8</percentage>
-        </Christianity>
+        <Christianity____>68.8</Christianity____>
         <no_religion____>23.8</no_religion____>
         <other____>0.9</other____>
         <unspecified____>6.5</unspecified____>

@@ -30,26 +30,10 @@
         <item>Tamazight</item>
       </Primary_Language>
       <Religion>
-        <Bah___s>
-          <breakdown>
-            <Christians____>0.09</Christians____>
-          </breakdown>
-          <percentage>0.1</percentage>
-        </Bah___s>
-        <Islam___official__>
-          <breakdown>
-            <Shia____>0.45</Shia____>
-            <Sunni____>99.23</Sunni____>
-          </breakdown>
-          <percentage>99.68</percentage>
-        </Islam___official__>
+        <Bah___s____>0.1</Bah___s____>
+        <Islam___official______>99.68</Islam___official______>
         <Jews____>0.01</Jews____>
-        <Others>
-          <breakdown>
-            <Agnostics____>0.13</Agnostics____>
-          </breakdown>
-          <percentage>0.3</percentage>
-        </Others>
+        <Others____>0.3</Others____>
       </Religion>
     </General>
     <Government>

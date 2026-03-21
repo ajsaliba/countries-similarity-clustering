@@ -32,15 +32,8 @@
         <item>Portuguese</item>
       </Primary_Language>
       <Religion>
-        <Christianity____>62</Christianity____>
-        <Islam>
-          <breakdown>
-            <no_religion____>13.5</no_religion____>
-            <other____>4.3</other____>
-            <unknown____>1.2</unknown____>
-          </breakdown>
-          <percentage>19.1</percentage>
-        </Islam>
+        <Christianity____>62.0</Christianity____>
+        <Islam____>19.1</Islam____>
       </Religion>
     </General>
     <Government>

@@ -34,14 +34,7 @@
                 "Kirundi"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 63.7,
-                        "Protestantism (%)": 25.2,
-                        "other Christian (%)": 4.5
-                    },
-                    "percentage": 93.4
-                },
+                "Christianity (%)": 93.4,
                 "Islam (%)": 2.1,
                 "other / none (%)": 0.2,
                 "traditional faiths (%)": 4.3

@@ -28,19 +28,8 @@
                 "French"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism ( official ) (%)": 80.9,
-                        "other Christian (%)": 5.1
-                    },
-                    "percentage": 86
-                },
-                "Islam": {
-                    "breakdown": {
-                        "other (%)": 0.2
-                    },
-                    "percentage": 0.4
-                },
+                "Christianity (%)": 86.0,
+                "Islam (%)": 0.4,
                 "Judaism (%)": 1.7,
                 "no religion (%)": 11.7
             }

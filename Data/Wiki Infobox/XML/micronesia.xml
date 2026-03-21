@@ -37,14 +37,7 @@
         <item>English</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Protestant____>41.7</Protestant____>
-            <Roman_Catholic____>52.6</Roman_Catholic____>
-            <other_Christian____>1</other_Christian____>
-          </breakdown>
-          <percentage>95.3</percentage>
-        </Christianity>
+        <Christianity____>95.3</Christianity____>
         <folk_religions____>4.1</folk_religions____>
         <none___other____>0.6</none___other____>
       </Religion>

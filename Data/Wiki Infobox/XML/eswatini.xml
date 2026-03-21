@@ -32,14 +32,7 @@
         <item>Swazi</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Protestantism____>84.2</Protestantism____>
-            <Roman_Catholic____>3.7</Roman_Catholic____>
-            <other_Christian____>1.4</other_Christian____>
-          </breakdown>
-          <percentage>89.3</percentage>
-        </Christianity>
+        <Christianity____>89.3</Christianity____>
         <no_religion____>7.4</no_religion____>
         <others____>0.8</others____>
         <traditional_faiths____>2.5</traditional_faiths____>

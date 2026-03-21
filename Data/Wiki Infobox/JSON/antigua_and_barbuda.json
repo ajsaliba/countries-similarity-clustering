@@ -34,25 +34,8 @@
                 "English"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Protestantism (%)": 66.6,
-                        "other Christian (%)": 26.1
-                    },
-                    "percentage": 92.7
-                },
-                "Rastafari": {
-                    "breakdown": {
-                        "no religion": {
-                            "breakdown": {
-                                "Baháʼí Faith (%)": 1.1,
-                                "other (%)": 0.7
-                            },
-                            "percentage": 1.9
-                        }
-                    },
-                    "percentage": 3.6
-                }
+                "Christianity (%)": 92.7,
+                "Rastafari (%)": 3.6
             }
         },
         "Government": {

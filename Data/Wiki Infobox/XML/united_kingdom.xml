@@ -33,16 +33,7 @@
         <item>English</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Buddhism____>0.4</Buddhism____>
-            <Hinduism____>1.6</Hinduism____>
-            <Islam____>6</Islam____>
-            <Sikhism____>0.8</Sikhism____>
-            <no_religion____>37.8</no_religion____>
-          </breakdown>
-          <percentage>46.5</percentage>
-        </Christianity>
+        <Christianity____>46.5</Christianity____>
         <Judaism____>0.4</Judaism____>
         <not_stated____>5.9</not_stated____>
         <other____>0.6</other____>

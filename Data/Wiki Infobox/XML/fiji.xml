@@ -35,13 +35,7 @@
         <item>Standard Hindi</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Methodism____>34.6</Methodism____>
-            <other_Christian____>29.8</other_Christian____>
-          </breakdown>
-          <percentage>64.4</percentage>
-        </Christianity>
+        <Christianity____>64.4</Christianity____>
         <Hinduism____>27.9</Hinduism____>
         <Islam____>6.3</Islam____>
         <others___none____>1.4</others___none____>

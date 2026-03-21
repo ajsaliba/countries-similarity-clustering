@@ -30,19 +30,8 @@
         <item>Tetum</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>97.57</Catholicism____>
-            <Protestantism____>1.96</Protestantism____>
-          </breakdown>
-          <percentage>99.53</percentage>
-        </Christianity>
-        <Islam>
-          <breakdown>
-            <other____>0.23</other____>
-          </breakdown>
-          <percentage>0.24</percentage>
-        </Islam>
+        <Christianity____>99.53</Christianity____>
+        <Islam____>0.24</Islam____>
       </Religion>
     </General>
     <Government>

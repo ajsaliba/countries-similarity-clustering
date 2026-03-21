@@ -36,23 +36,11 @@
                 "English"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Mormonism (%)": 1,
-                        "Protestantism": {
-                            "breakdown": {
-                                "Catholicism (%)": 20,
-                                "other Christian (%)": 12
-                            },
-                            "percentage": 32
-                        }
-                    },
-                    "percentage": 65
-                },
-                "Judaism (%)": 2,
-                "other religion (%)": 6,
-                "unaffiliated (%)": 24,
-                "unanswered (%)": 3
+                "Christianity (%)": 65.0,
+                "Judaism (%)": 2.0,
+                "other religion (%)": 6.0,
+                "unaffiliated (%)": 24.0,
+                "unanswered (%)": 3.0
             }
         },
         "Government": {

@@ -31,13 +31,7 @@
                 "Hungarian"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 27.5,
-                        "other Christian (%)": 15
-                    },
-                    "percentage": 42.5
-                },
+                "Christianity (%)": 42.5,
                 "irreligion (%)": 16.1,
                 "no answer (%)": 40.1,
                 "others (%)": 1.3

@@ -41,13 +41,7 @@
         <item>Umbundu</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholic____>44.2</Catholic____>
-            <Protestant____>34.9</Protestant____>
-          </breakdown>
-          <percentage>79.1</percentage>
-        </Christianity>
+        <Christianity____>79.1</Christianity____>
         <no_religion____>11.5</no_religion____>
         <other____>9.4</other____>
       </Religion>

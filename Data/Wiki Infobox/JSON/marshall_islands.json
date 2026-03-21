@@ -30,14 +30,7 @@
                 "Marshallese"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholicism (%)": 9.3,
-                        "Protestantism (%)": 79.9,
-                        "other Christian (%)": 7
-                    },
-                    "percentage": 96.2
-                },
+                "Christianity (%)": 96.2,
                 "no religion (%)": 1.1,
                 "others (%)": 2.7
             }

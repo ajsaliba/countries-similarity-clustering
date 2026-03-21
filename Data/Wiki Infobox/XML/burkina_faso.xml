@@ -40,14 +40,8 @@
         <item>Moore</item>
       </Primary_Language>
       <Religion>
-        <Animism____>9</Animism____>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>20.1</Catholicism____>
-            <Protestantism____>6.2</Protestantism____>
-          </breakdown>
-          <percentage>26.3</percentage>
-        </Christianity>
+        <Animism____>9.0</Animism____>
+        <Christianity____>26.3</Christianity____>
         <Islam____>63.8</Islam____>
         <irreligion____>0.7</irreligion____>
       </Religion>

@@ -33,12 +33,7 @@
                 "Uruguayan Sign Language"
             ],
             "Religion": {
-                "Animists or Umbandists": {
-                    "breakdown": {
-                        "Jewish (%)": 0.4
-                    },
-                    "percentage": 0.6
-                }
+                "Animists or Umbandists (%)": 0.6
             }
         },
         "Government": {

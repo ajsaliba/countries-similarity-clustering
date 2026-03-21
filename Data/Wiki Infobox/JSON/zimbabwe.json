@@ -48,13 +48,7 @@
                 "Zimbabwean sign language"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Protestantism (%)": 69.2,
-                        "other Christian (%)": 14.9
-                    },
-                    "percentage": 84.1
-                },
+                "Christianity (%)": 84.1,
                 "no religion (%)": 10.2,
                 "others (%)": 1.2,
                 "traditional faiths (%)": 4.5

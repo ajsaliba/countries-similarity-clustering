@@ -36,13 +36,7 @@
                 "English"
             ],
             "Religion": {
-                "Christianity": {
-                    "breakdown": {
-                        "Catholics (%)": 10.6,
-                        "Protestants (%)": 35.3
-                    },
-                    "percentage": 45.9
-                },
+                "Christianity (%)": 45.9,
                 "Islam (%)": 53.5,
                 "other (%)": 0.6
             }

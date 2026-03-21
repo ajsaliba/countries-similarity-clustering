@@ -34,16 +34,10 @@
         <item>German</item>
       </Primary_Language>
       <Religion>
-        <Christianity>
-          <breakdown>
-            <Catholicism____>31</Catholicism____>
-            <other_Christian____>3</other_Christian____>
-          </breakdown>
-          <percentage>34</percentage>
-        </Christianity>
-        <Islam____>6</Islam____>
-        <no_religion____>59</no_religion____>
-        <other____>1</other____>
+        <Christianity____>34.0</Christianity____>
+        <Islam____>6.0</Islam____>
+        <no_religion____>59.0</no_religion____>
+        <other____>1.0</other____>
       </Religion>
     </General>
     <Government>

@@ -1,24 +1,45 @@
 {
     "country": "Serbia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 88499.0,
+            "Water (%)": -1.0
+        },
+        "Economy": {
+            "Currency": [
+                "Serbian dinar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 34790.0,
+                "Total ($)": 225550000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 17290.0,
+                "Total ($)": 112110000000.0
+            },
+            "Gini": 31.9,
+            "HDI": 0.833
+        },
         "General": {
-            "Official languages": "Serbian",
             "Ethnic groups": {
-                "Serbs (%)": 80.6,
-                "Hungarians (%)": 2.8,
                 "Bosniaks (%)": 2.3,
+                "Hungarians (%)": 2.8,
                 "Roma (%)": 2,
+                "Serbs (%)": 80.6,
                 "others (%)": 5.4,
                 "undeclared/unknown (%)": 6.9
             },
+            "Primary Language": [
+                "Serbian"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 86.6,
                     "breakdown": {
-                        "Eastern Orthodoxy (%)": 81.1,
                         "Catholicism (%)": 3.9,
+                        "Eastern Orthodoxy (%)": 81.1,
                         "other (%)": 1.7
-                    }
+                    },
+                    "percentage": 86.6
                 },
                 "Islam (%)": 4.2,
                 "no religion (%)": 1.1,
@@ -28,27 +49,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 88499,
-            "Excluding Kosovo (km2)": 77589
-        },
         "Population": {
-            "Estimate": 6567783,
-            "Census": 6647003,
-            "Density (/km2)": 85
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 225550000000,
-                "Per capita ($)": 34790
-            },
-            "GDP (nominal)": {
-                "Total ($)": 112110000000,
-                "Per capita ($)": 17290
-            },
-            "Gini": 31.9,
-            "HDI": 0.833,
-            "Currency": "Serbian dinar"
+            "Count": 6567783.0,
+            "Density (/km2)": 85.0
         }
     }
 }

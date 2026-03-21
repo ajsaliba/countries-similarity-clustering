@@ -1,46 +1,49 @@
 {
     "country": "Saint Lucia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 617.0,
+            "Water (%)": 1.6
+        },
+        "Economy": {
+            "Currency": [
+                "East Caribbean dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 29258.0,
+                "Total ($)": 3769000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 14647.0,
+                "Total ($)": 2715000000.0
+            },
+            "Gini": 51.2,
+            "HDI": 0.748
+        },
         "General": {
-            "Official languages": "English",
             "Ethnic groups": {
                 "African (%)": 85.3,
-                "Mixed (%)": 10.9,
                 "Indian (%)": 2.2,
+                "Mixed (%)": 10.9,
                 "other/ unspecified (%)": 1.6
             },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
                 "Christianity (%)": 77.4,
-                "no religion (%)": 14.4,
                 "Rastafari (%)": 1.4,
-                "other (%)": 2.7,
-                "not stated (%)": 4.1
+                "no religion (%)": 14.4,
+                "not stated (%)": 4.1,
+                "other (%)": 2.7
             }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 617,
-            "Water (%)": 1.6
-        },
         "Population": {
-            "Estimate": 184100,
-            "Census": 165595,
-            "Density (/km2)": 298
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 3769000000,
-                "Per capita ($)": 29258
-            },
-            "GDP (nominal)": {
-                "Total ($)": 2715000000,
-                "Per capita ($)": 14647
-            },
-            "Gini": 51.2,
-            "HDI": 0.748,
-            "Currency": "East Caribbean dollar"
+            "Count": 184100.0,
+            "Density (/km2)": 298.0
         }
     }
 }

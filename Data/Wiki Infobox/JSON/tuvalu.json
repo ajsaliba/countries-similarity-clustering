@@ -1,47 +1,53 @@
 {
     "country": "Tuvalu",
     "infobox": {
+        "Area": {
+            "Total (km2)": 26.26,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Australian dollar",
+                "Tuvaluan dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 6076.0,
+                "Total ($)": 68603000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 6113.0,
+                "Total ($)": 63000000.0
+            },
+            "Gini": 39.0,
+            "HDI": 0.689
+        },
         "General": {
-            "Official languages": "Tuvaluan English",
             "Ethnic groups": {
                 "Tuvaluans (%)": 96,
                 "others (%)": 4
             },
+            "Primary Language": [
+                "English",
+                "Tuvaluan"
+            ],
             "Religion": {
+                "Baháʼí Faith (%)": 1,
                 "Christianity": {
-                    "percentage": 96,
                     "breakdown": {
                         "Calvinism ( official ) (%)": 86,
                         "other Christian (%)": 10
-                    }
+                    },
+                    "percentage": 96
                 },
-                "Other religions or not stated (%)": 3,
-                "Baháʼí Faith (%)": 1
+                "Other religions or not stated (%)": 3
             }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 26.26,
-            "Water (%)": "Negligible"
-        },
         "Population": {
-            "Census": 10643,
-            "Density (/km2)": 423
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 68603000,
-                "Per capita ($)": 6076
-            },
-            "GDP (nominal)": {
-                "Total ($)": 63000000,
-                "Per capita ($)": 6113
-            },
-            "Gini": 39,
-            "HDI": 0.689,
-            "Currency": "Tuvaluan dollar Australian dollar"
+            "Count": 10643.0,
+            "Density (/km2)": 423.0
         }
     }
 }

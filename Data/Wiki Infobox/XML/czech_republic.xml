@@ -2,8 +2,26 @@
 <country>
   <country>Czech Republic</country>
   <infobox>
+    <Area>
+      <Total__km2_>78871.0</Total__km2_>
+      <Water____>2.16</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Czech koruna</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>56686.0</Per_capita____>
+        <Total____>619881000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>31365.0</Per_capita____>
+        <Total____>342992000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>24.4</Gini>
+      <HDI>0.915</HDI>
+    </Economy>
     <General>
-      <Official_languages>Czech</Official_languages>
       <Ethnic_groups>
         <Czechs____>89</Czechs____>
         <Moravians____>3.3</Moravians____>
@@ -12,15 +30,18 @@
         <other____>2.1</other____>
         <two_nationalities____>4</two_nationalities____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Czech</item>
+      </Primary_Language>
       <Religion>
-        <no_religion____>56.9</no_religion____>
         <Christianity>
-          <percentage>11.7</percentage>
           <breakdown>
             <Catholicism____>9.3</Catholicism____>
             <other_Christian____>2.4</other_Christian____>
           </breakdown>
+          <percentage>11.7</percentage>
         </Christianity>
+        <no_religion____>56.9</no_religion____>
         <other____>1.2</other____>
         <unanswered____>30.1</unanswered____>
       </Religion>
@@ -28,27 +49,9 @@
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>78871</Total__km2_>
-      <Water____>2.16</Water____>
-    </Area>
     <Population>
-      <Estimate>10900555</Estimate>
-      <Census>10524167</Census>
-      <Density___km2_>133</Density___km2_>
+      <Count>10900555.0</Count>
+      <Density___km2_>133.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>619881000000</Total____>
-        <Per_capita____>56686</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>342992000000</Total____>
-        <Per_capita____>31365</Per_capita____>
-      </GDP__nominal_>
-      <Gini>24.4</Gini>
-      <HDI>0.915</HDI>
-      <Currency>Czech koruna</Currency>
-    </Economy>
   </infobox>
 </country>

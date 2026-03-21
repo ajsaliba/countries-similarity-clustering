@@ -1,52 +1,56 @@
 {
     "country": "Lithuania",
     "infobox": {
+        "Area": {
+            "Total (km2)": 65300.0,
+            "Water (%)": 1.98
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 57201.0,
+                "Total ($)": 165230000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 32982.0,
+                "Total ($)": 95270000000.0
+            },
+            "Gini": 35.7,
+            "HDI": 0.895
+        },
         "General": {
-            "Official languages": "Lithuanian",
             "Ethnic groups": {
+                "Belarusians (%)": 2.1,
                 "Lithuanians (%)": 82.3,
                 "Poles (%)": 6.2,
                 "Russians (%)": 5,
                 "Ukrainians (%)": 2.2,
-                "Belarusians (%)": 2.1,
                 "others (%)": 2.2
             },
+            "Primary Language": [
+                "Lithuanian"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 79.4,
                     "breakdown": {
                         "Catholicism (%)": 74.2,
                         "other Christian (%)": 5.2
-                    }
+                    },
+                    "percentage": 79.4
                 },
+                "no answer (%)": 13.7,
                 "no religion (%)": 6.1,
-                "others (%)": 0.8,
-                "no answer (%)": 13.7
+                "others (%)": 0.8
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic"
         },
-        "Area": {
-            "Total (km2)": 65300,
-            "Water (%)": 1.98
-        },
         "Population": {
-            "Estimate": 2897430,
-            "Density (/km2)": 46
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 165230000000,
-                "Per capita ($)": 57201
-            },
-            "GDP (nominal)": {
-                "Total ($)": 95270000000,
-                "Per capita ($)": 32982
-            },
-            "Gini": 35.7,
-            "HDI": 0.895,
-            "Currency": "Euro"
+            "Count": 2897430.0,
+            "Density (/km2)": 46.0
         }
     }
 }

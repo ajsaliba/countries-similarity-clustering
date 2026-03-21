@@ -1,15 +1,41 @@
 {
     "country": "Luxembourg",
     "infobox": {
+        "Area": {
+            "Total (km2)": 2586.4,
+            "Water (%)": 0.23
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 154914.0,
+                "Total ($)": 106505000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 141079.0,
+                "Total ($)": 96993000000.0
+            },
+            "Gini": 30.6,
+            "HDI": 0.922
+        },
         "General": {
-            "Official languages": "National language: Luxembourgish Administrative languages: Luxembourgish German French",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "French",
+                "German",
+                "Luxembourgish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 53,
                     "breakdown": {
                         "Catholicism (%)": 46,
                         "other Christian (%)": 7
-                    }
+                    },
+                    "percentage": 53
                 },
                 "no religion (%)": 38,
                 "other (%)": 9
@@ -18,27 +44,9 @@
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 2586.4,
-            "Water (%)": 0.23
-        },
         "Population": {
-            "Estimate": 690947,
-            "Census": 643941,
-            "Density (/km2)": 264
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 106505000000,
-                "Per capita ($)": 154914
-            },
-            "GDP (nominal)": {
-                "Total ($)": 96993000000,
-                "Per capita ($)": 141079
-            },
-            "Gini": 30.6,
-            "HDI": 0.922,
-            "Currency": "Euro"
+            "Count": 690947.0,
+            "Density (/km2)": 264.0
         }
     }
 }

@@ -1,25 +1,47 @@
 {
     "country": "Afghanistan",
     "infobox": {
+        "Area": {
+            "Total (km2)": 652864.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Afghani"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 2174.0,
+                "Total ($)": 91668000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 411.0,
+                "Total ($)": 17329000000.0
+            },
+            "Gini": -1.0,
+            "HDI": 0.496
+        },
         "General": {
-            "Official languages": "Pashto Dari",
             "Ethnic groups": {
+                "Aimaq (%)": 4,
+                "Baloch (%)": 2,
+                "Hazara (%)": 9,
                 "Pashtun (%)": 42,
                 "Tajik (%)": 27,
-                "Hazara (%)": 9,
-                "Uzbek (%)": 9,
-                "Aimaq (%)": 4,
                 "Turkmen (%)": 3,
-                "Baloch (%)": 2,
+                "Uzbek (%)": 9,
                 "other (%)": 4
             },
+            "Primary Language": [
+                "Dari",
+                "Pashto"
+            ],
             "Religion": {
                 "Islam": {
-                    "percentage": 99.9,
                     "breakdown": {
-                        "Sunni ( official ) (%)": 89.1,
-                        "Shia (%)": 10.8
-                    }
+                        "Shia (%)": 10.8,
+                        "Sunni ( official ) (%)": 89.1
+                    },
+                    "percentage": 99.9
                 },
                 "other (%)": 0.1
             }
@@ -27,25 +49,9 @@
         "Government": {
             "Government": "Unitary totalitarian theocratic Islamic emirate"
         },
-        "Area": {
-            "Total (km2)": 652864,
-            "Water (%)": "negligible"
-        },
         "Population": {
-            "Estimate": "35–50 million",
-            "Density (/km2)": 64
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 91668000000,
-                "Per capita ($)": 2174
-            },
-            "GDP (nominal)": {
-                "Total ($)": 17329000000,
-                "Per capita ($)": 411
-            },
-            "HDI": 0.496,
-            "Currency": "Afghani"
+            "Count": 42500000.0,
+            "Density (/km2)": 64.0
         }
     }
 }

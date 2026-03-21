@@ -1,51 +1,56 @@
 {
     "country": "Congo, Republic of the",
     "infobox": {
+        "Area": {
+            "Total (km2)": 342000.0,
+            "Water (%)": 3.3
+        },
+        "Economy": {
+            "Currency": [
+                "Central African CFA franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 6590.0,
+                "Total ($)": 42760000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 2360.0,
+                "Total ($)": 15281000000.0
+            },
+            "Gini": 40.2,
+            "HDI": 0.649
+        },
         "General": {
-            "Official languages": "French",
             "Ethnic groups": {
                 "Bakongo (%)": 41,
                 "Bateke (%)": 16.9,
+                "Mbenga Pygmies and others (%)": 2,
                 "Mbochi (%)": 13.1,
-                "Sangha (%)": 5.6,
-                "Mbenga Pygmies and others (%)": 2
+                "Sangha (%)": 5.6
             },
+            "Primary Language": [
+                "French",
+                "Kituba",
+                "Lingala"
+            ],
             "Religion": {
                 "Christianity (%)": 87.1,
-                "no religion (%)": 8,
-                "traditional faiths (%)": 2.7,
                 "Islam": {
-                    "percentage": 1.2,
                     "breakdown": {
                         "others (%)": 1
-                    }
-                }
+                    },
+                    "percentage": 1.2
+                },
+                "no religion (%)": 8,
+                "traditional faiths (%)": 2.7
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic under a dictatorship"
         },
-        "Area": {
-            "Total (km2)": 342000,
-            "Water (%)": 3.3
-        },
         "Population": {
-            "Estimate": 6228784,
-            "Census": 6142180,
-            "Density (/km2)": 19
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 42760000000,
-                "Per capita ($)": 6590
-            },
-            "GDP (nominal)": {
-                "Total ($)": 15281000000,
-                "Per capita ($)": 2360
-            },
-            "Gini": 40.2,
-            "HDI": 0.649,
-            "Currency": "Central African CFA franc"
+            "Count": 6228784.0,
+            "Density (/km2)": 19.0
         }
     }
 }

@@ -1,8 +1,26 @@
 {
     "country": "Czech Republic",
     "infobox": {
+        "Area": {
+            "Total (km2)": 78871.0,
+            "Water (%)": 2.16
+        },
+        "Economy": {
+            "Currency": [
+                "Czech koruna"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 56686.0,
+                "Total ($)": 619881000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 31365.0,
+                "Total ($)": 342992000000.0
+            },
+            "Gini": 24.4,
+            "HDI": 0.915
+        },
         "General": {
-            "Official languages": "Czech",
             "Ethnic groups": {
                 "Czechs (%)": 89,
                 "Moravians (%)": 3.3,
@@ -11,15 +29,18 @@
                 "other (%)": 2.1,
                 "two nationalities (%)": 4
             },
+            "Primary Language": [
+                "Czech"
+            ],
             "Religion": {
-                "no religion (%)": 56.9,
                 "Christianity": {
-                    "percentage": 11.7,
                     "breakdown": {
                         "Catholicism (%)": 9.3,
                         "other Christian (%)": 2.4
-                    }
+                    },
+                    "percentage": 11.7
                 },
+                "no religion (%)": 56.9,
                 "other (%)": 1.2,
                 "unanswered (%)": 30.1
             }
@@ -27,27 +48,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 78871,
-            "Water (%)": 2.16
-        },
         "Population": {
-            "Estimate": 10900555,
-            "Census": 10524167,
-            "Density (/km2)": 133
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 619881000000,
-                "Per capita ($)": 56686
-            },
-            "GDP (nominal)": {
-                "Total ($)": 342992000000,
-                "Per capita ($)": 31365
-            },
-            "Gini": 24.4,
-            "HDI": 0.915,
-            "Currency": "Czech koruna"
+            "Count": 10900555.0,
+            "Density (/km2)": 133.0
         }
     }
 }

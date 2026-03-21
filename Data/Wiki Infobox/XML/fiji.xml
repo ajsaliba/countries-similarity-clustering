@@ -2,6 +2,25 @@
 <country>
   <country>Fiji</country>
   <infobox>
+    <Area>
+      <Total__km2_>18274.0</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Fijian dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>16563.0</Per_capita____>
+        <Total____>15152000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>6024.0</Per_capita____>
+        <Total____>5511000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>30.7</Gini>
+      <HDI>0.731</HDI>
+    </Economy>
     <General>
       <Ethnic_groups>
         <Indigenous_Fijians____>56.8</Indigenous_Fijians____>
@@ -9,13 +28,19 @@
         <Rotumans____>1.2</Rotumans____>
         <others____>4.5</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Fiji Hindi</item>
+        <item>Fijian</item>
+        <item>Standard Hindi</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>64.4</percentage>
           <breakdown>
             <Methodism____>34.6</Methodism____>
             <other_Christian____>29.8</other_Christian____>
           </breakdown>
+          <percentage>64.4</percentage>
         </Christianity>
         <Hinduism____>27.9</Hinduism____>
         <Islam____>6.3</Islam____>
@@ -25,27 +50,9 @@
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>18274</Total__km2_>
-      <Water____>negligible</Water____>
-    </Area>
     <Population>
-      <Estimate>926276</Estimate>
-      <Census>884887</Census>
+      <Count>926276.0</Count>
       <Density___km2_>46.4</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>15152000000</Total____>
-        <Per_capita____>16563</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>5511000000</Total____>
-        <Per_capita____>6024</Per_capita____>
-      </GDP__nominal_>
-      <Gini>30.7</Gini>
-      <HDI>0.731</HDI>
-      <Currency>Fijian dollar</Currency>
-    </Economy>
   </infobox>
 </country>

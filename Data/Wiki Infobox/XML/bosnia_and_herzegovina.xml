@@ -2,44 +2,54 @@
 <country>
   <country>Bosnia and Herzegovina</country>
   <infobox>
+    <Area>
+      <Total__km2_>51209.0</Total__km2_>
+      <Water____>1.4</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Convertible mark</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>23930.0</Per_capita____>
+        <Total____>82230000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>10546.0</Per_capita____>
+        <Total____>36240000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>27.1</Gini>
+      <HDI>0.804</HDI>
+    </Economy>
     <General>
-      <Official_language__federal_level_>None</Official_language__federal_level_>
+      <Ethnic_groups>
+        <Bosniaks_constitute____>50.1</Bosniaks_constitute____>
+        <Croats____>15.5</Croats____>
+        <Serbs____>30.8</Serbs____>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Bosnian</item>
+        <item>Croatian</item>
+        <item>Serbian</item>
+      </Primary_Language>
       <Religion>
-        <Islam____>51.3</Islam____>
         <Christianity>
-          <percentage>46.1</percentage>
           <breakdown>
-            <Eastern_Orthodox____>30.7</Eastern_Orthodox____>
             <Catholicism____>15.4</Catholicism____>
+            <Eastern_Orthodox____>30.7</Eastern_Orthodox____>
           </breakdown>
+          <percentage>46.1</percentage>
         </Christianity>
+        <Islam____>51.3</Islam____>
         <Others____>2.6</Others____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary directorial republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>51209</Total__km2_>
-      <Water____>1.4</Water____>
-    </Area>
     <Population>
-      <Estimate>2904256</Estimate>
-      <Census>3531159</Census>
-      <Density___km2_>61</Density___km2_>
+      <Count>2904256.0</Count>
+      <Density___km2_>61.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>82230000000</Total____>
-        <Per_capita____>23930</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>36240000000</Total____>
-        <Per_capita____>10546</Per_capita____>
-      </GDP__nominal_>
-      <Gini>27.1</Gini>
-      <HDI>0.804</HDI>
-      <Currency>Convertible mark</Currency>
-    </Economy>
   </infobox>
 </country>

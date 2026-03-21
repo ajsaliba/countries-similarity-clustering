@@ -1,48 +1,56 @@
 {
     "country": "Cape Verde",
     "infobox": {
+        "Area": {
+            "Total (km2)": 4033.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Cape Verdean escudo"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 9909.0,
+                "Total ($)": 5717000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 4502.0,
+                "Total ($)": 2598000000.0
+            },
+            "Gini": 42.4,
+            "HDI": 0.668
+        },
         "General": {
-            "Official languages": "Portuguese",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Cape Verdean Creole",
+                "Portuguese"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 81.7,
                     "breakdown": {
                         "Catholicism (%)": 72.5,
                         "other Christian (%)": 9.2
-                    }
+                    },
+                    "percentage": 81.7
                 },
-                "no religion (%)": 15.6,
                 "Islam": {
-                    "percentage": 1.3,
                     "breakdown": {
                         "others (%)": 1.2
-                    }
-                }
+                    },
+                    "percentage": 1.3
+                },
+                "no religion (%)": 15.6
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic"
         },
-        "Area": {
-            "Total (km2)": 4033,
-            "Water (%)": "negligible"
-        },
         "Population": {
-            "Census": 491233,
-            "Density (/km2)": 130
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 5717000000,
-                "Per capita ($)": 9909
-            },
-            "GDP (nominal)": {
-                "Total ($)": 2598000000,
-                "Per capita ($)": 4502
-            },
-            "Gini": 42.4,
-            "HDI": 0.668,
-            "Currency": "Cape Verdean escudo"
+            "Count": 491233.0,
+            "Density (/km2)": 130.0
         }
     }
 }

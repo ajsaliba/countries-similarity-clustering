@@ -2,40 +2,56 @@
 <country>
   <country>Russia</country>
   <infobox>
+    <Area>
+      <Total__km2_>17098246.0</Total__km2_>
+      <Water____>13.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Russian ruble</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>49049.0</Per_capita____>
+        <Total____>7143000000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>17446.0</Per_capita____>
+        <Total____>2541000000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>36.0</Gini>
+      <HDI>0.832</HDI>
+    </Economy>
     <General>
-      <Official_language_and_national_language>Russian</Official_language_and_national_language>
       <Ethnic_groups>
-        <Russian____>71.7</Russian____>
-        <Tatar____>3.2</Tatar____>
         <Bashkir____>1.1</Bashkir____>
         <Chechen____>1.1</Chechen____>
-        <other____>11.3</other____>
+        <Russian____>71.7</Russian____>
+        <Tatar____>3.2</Tatar____>
         <not_reported____>11.6</not_reported____>
+        <other____>11.3</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Russian</item>
+      </Primary_Language>
+      <Religion>
+        <Buddhists>
+          <breakdown>
+            <Hindus____>0.1</Hindus____>
+            <Jews____>0.1</Jews____>
+          </breakdown>
+          <percentage>0.5</percentage>
+        </Buddhists>
+        <Muslims____>6.5</Muslims____>
+        <Old_Believers____>1</Old_Believers____>
+        <Russian_Orthodox____>41</Russian_Orthodox____>
+      </Religion>
     </General>
     <Government>
       <Government>Federal semi-presidential republic under an authoritarian dictatorship</Government>
     </Government>
-    <Area>
-      <Total__km2_>17098246</Total__km2_>
-      <Water____>13</Water____>
-    </Area>
     <Population>
-      <Estimate>146,028,325 143,569,049</Estimate>
+      <Count>146028325.0</Count>
       <Density___km2_>8.4</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>7143000000000</Total____>
-        <Per_capita____>49049</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>2541000000000</Total____>
-        <Per_capita____>17446</Per_capita____>
-      </GDP__nominal_>
-      <Gini>36.0</Gini>
-      <HDI>0.832</HDI>
-      <Currency>Russian ruble</Currency>
-    </Economy>
   </infobox>
 </country>

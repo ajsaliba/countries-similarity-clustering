@@ -2,67 +2,66 @@
 <country>
   <country>United States</country>
   <infobox>
+    <Area>
+      <Total__km2_>9833524.0</Total__km2_>
+      <Water____>7.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>U.S. dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>89599.0</Per_capita____>
+        <Total____>30616000000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>89599.0</Per_capita____>
+        <Total____>30616000000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>41.8</Gini>
+      <HDI>0.938</HDI>
+    </Economy>
     <General>
-      <Official_languages>English</Official_languages>
       <Ethnic_groups>
-        <White____>61.6</White____>
-        <Black____>12.4</Black____>
         <Asian____>6</Asian____>
+        <Black____>12.4</Black____>
+        <Hispanic_or_Latino____>18.7</Hispanic_or_Latino____>
         <Native_American____>1.1</Native_American____>
         <Pacific_Islander____>0.2</Pacific_Islander____>
-        <two_or_more_races____>10.2</two_or_more_races____>
-        <other_By_origin____>8.4</other_By_origin____>
+        <White____>61.6</White____>
         <non__Hispanic_or_Latino____>81.3</non__Hispanic_or_Latino____>
-        <Hispanic_or_Latino____>18.7</Hispanic_or_Latino____>
+        <other_By_origin____>8.4</other_By_origin____>
+        <two_or_more_races____>10.2</two_or_more_races____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>65</percentage>
           <breakdown>
+            <Mormonism____>1</Mormonism____>
             <Protestantism>
-              <percentage>32</percentage>
               <breakdown>
                 <Catholicism____>20</Catholicism____>
                 <other_Christian____>12</other_Christian____>
               </breakdown>
+              <percentage>32</percentage>
             </Protestantism>
-            <Mormonism____>1</Mormonism____>
           </breakdown>
+          <percentage>65</percentage>
         </Christianity>
-        <unaffiliated____>24</unaffiliated____>
         <Judaism____>2</Judaism____>
         <other_religion____>6</other_religion____>
+        <unaffiliated____>24</unaffiliated____>
         <unanswered____>3</unanswered____>
       </Religion>
     </General>
     <Government>
       <Government>Federal presidential republic</Government>
     </Government>
-    <Economy>
-      <Recognition>
-        <Constitution>March 4, 1789</Constitution>
-      </Recognition>
-      <GDP___PPP__>
-        <Total____>30616000000000</Total____>
-        <Per_capita____>89599</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>30616000000000</Total____>
-        <Per_capita____>89599</Per_capita____>
-      </GDP__nominal_>
-      <Gini>41.8</Gini>
-      <HDI>0.938</HDI>
-      <Currency>U.S. dollar</Currency>
-    </Economy>
-    <Area>
-      <Total_area__sq_mi_>3796742</Total_area__sq_mi_>
-      <Water____>7.0</Water____>
-      <Land_area__sq_mi_>3531905</Land_area__sq_mi_>
-    </Area>
     <Population>
-      <Estimate>341784857</Estimate>
-      <Census>331449281</Census>
-      <Density>96.8/sq mi</Density>
+      <Count>341784857.0</Count>
+      <Density___km2_>37.4</Density___km2_>
     </Population>
   </infobox>
 </country>

@@ -1,12 +1,35 @@
 {
     "country": "Seychelles",
     "infobox": {
+        "Area": {
+            "Total (km2)": 457.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Seychellois rupee"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 43850.0,
+                "Total ($)": 4490000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 21940.0,
+                "Total ($)": 2250000000.0
+            },
+            "Gini": 32.1,
+            "HDI": 0.848
+        },
         "General": {
-            "Official languages": "Seychellois Creole English French",
             "Ethnic groups": {
                 "Seychellois Creoles (%)": 97,
                 "others (%)": 3
             },
+            "Primary Language": [
+                "English",
+                "French",
+                "Seychellois Creole"
+            ],
             "Religion": {
                 "Christianity (%)": 74.9,
                 "Hinduism (%)": 5.4,
@@ -18,26 +41,9 @@
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 457,
-            "Water (%)": "Negligible"
-        },
         "Population": {
-            "Estimate": 121355,
+            "Count": 121355.0,
             "Density (/km2)": 262.3
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 4490000000,
-                "Per capita ($)": 43850
-            },
-            "GDP (nominal)": {
-                "Total ($)": 2250000000,
-                "Per capita ($)": 21940
-            },
-            "Gini": 32.1,
-            "HDI": 0.848,
-            "Currency": "Seychellois rupee"
         }
     }
 }

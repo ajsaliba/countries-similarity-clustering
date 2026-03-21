@@ -1,50 +1,51 @@
 {
     "country": "Bangladesh",
     "infobox": {
+        "Area": {
+            "Total (km2)": 148460.0,
+            "Water (%)": 6.4
+        },
+        "Economy": {
+            "Currency": [
+                "Taka"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 10850.0,
+                "Total ($)": 1900000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 2960.0,
+                "Total ($)": 519300000000.0
+            },
+            "Gini": 33.4,
+            "HDI": 0.685
+        },
         "General": {
-            "Official language and national language": "Bengali",
             "Ethnic groups": {
                 "Bengali (%)": 99,
                 "others Chakmas Garos Khasis Khumis Manipuris Marmas Mizos Arakanese Mrus Santals Tanchangyas Tripuris Bishnupriyas (%)": 1
             },
+            "Primary Language": [
+                "Bengali"
+            ],
             "Religion": {
-                "Islam ( official ) (%)": 91.04,
-                "Hinduism (%)": 7.94,
                 "Buddhism": {
-                    "percentage": 0.6,
                     "breakdown": {
                         "Christianity (%)": 0.3
-                    }
+                    },
+                    "percentage": 0.6
                 },
+                "Hinduism (%)": 7.94,
+                "Islam ( official ) (%)": 91.04,
                 "other (%)": 0.12
             }
         },
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 148460,
-            "Water (%)": 6.4,
-            "Land area (km2)": 130170,
-            "Water area (km2)": 18290
-        },
         "Population": {
-            "Estimate": 173562364,
-            "Census": 169828911,
-            "Density (/km2)": 1165
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 1900000000000,
-                "Per capita ($)": 10850
-            },
-            "GDP (nominal)": {
-                "Total ($)": 519300000000,
-                "Per capita ($)": 2960
-            },
-            "Gini": 33.4,
-            "HDI": 0.685,
-            "Currency": "Taka"
+            "Count": 173562364.0,
+            "Density (/km2)": 1165.0
         }
     }
 }

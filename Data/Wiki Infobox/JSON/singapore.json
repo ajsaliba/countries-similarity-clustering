@@ -1,49 +1,55 @@
 {
     "country": "Singapore",
     "infobox": {
-        "General": {
-            "Official languages": "English Malay Mandarin Tamil",
-            "Ethnic groups": {
-                "Chinese (%)": 74.3,
-                "Malay (%)": 13.5,
-                "Indian (%)": 9,
-                "Other (%)": 3.2
-            },
-            "Religion": {
-                "Buddhism (%)": 31.1,
-                "No religion (%)": 20,
-                "Christianity (%)": 18.9,
-                "Islam (%)": 15.6,
-                "Taoism (%)": 8.8,
-                "Hinduism (%)": 5,
-                "Sikhism (%)": 0.3,
-                "Other (%)": 0.3
-            }
-        },
         "Area": {
-            "Largest planning area by population": "Tampines",
             "Total (km2)": 744.3,
             "Water (%)": 1.43
+        },
+        "Economy": {
+            "Currency": [
+                "Singapore dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 156755.0,
+                "Total ($)": 952600000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 93956.0,
+                "Total ($)": 564700000000.0
+            },
+            "Gini": 43.3,
+            "HDI": 0.946
+        },
+        "General": {
+            "Ethnic groups": {
+                "Chinese (%)": 74.3,
+                "Indian (%)": 9,
+                "Malay (%)": 13.5,
+                "Other (%)": 3.2
+            },
+            "Primary Language": [
+                "English",
+                "Malay",
+                "Mandarin",
+                "Tamil"
+            ],
+            "Religion": {
+                "Buddhism (%)": 31.1,
+                "Christianity (%)": 18.9,
+                "Hinduism (%)": 5,
+                "Islam (%)": 15.6,
+                "No religion (%)": 20,
+                "Other (%)": 0.3,
+                "Sikhism (%)": 0.3,
+                "Taoism (%)": 8.8
+            }
         },
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
         "Population": {
-            "Estimate": 6110200,
-            "Density (/km2)": 8290
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 952600000000,
-                "Per capita ($)": 156755
-            },
-            "GDP (nominal)": {
-                "Total ($)": 564700000000,
-                "Per capita ($)": 93956
-            },
-            "Gini": 43.3,
-            "HDI": 0.946,
-            "Currency": "Singapore dollar"
+            "Count": 6110200.0,
+            "Density (/km2)": 8290.0
         }
     }
 }

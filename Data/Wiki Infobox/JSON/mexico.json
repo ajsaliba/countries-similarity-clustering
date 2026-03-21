@@ -1,17 +1,40 @@
 {
     "country": "Mexico",
     "infobox": {
+        "Area": {
+            "Total (km2)": 1972550.0,
+            "Water (%)": 1.58
+        },
+        "Economy": {
+            "Currency": [
+                "Mexican peso"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 25463.0,
+                "Total ($)": 3396000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 12692.0,
+                "Total ($)": 1693000000000.0
+            },
+            "Gini": 40.2,
+            "HDI": 0.789
+        },
         "General": {
-            "Official language": "Spanish",
-            "Co-official languages": "68 Indigenous languages",
-            "Ethnic groups": "See below",
+            "Ethnic groups": {
+                "See below": null
+            },
+            "Primary Language": [
+                "Indigenous",
+                "Spanish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 88.9,
                     "breakdown": {
                         "Catholicism (%)": 77.7,
                         "Protestantism (%)": 11.2
-                    }
+                    },
+                    "percentage": 88.9
                 },
                 "Irreligion (%)": 8.1,
                 "other religion (%)": 2.4,
@@ -21,27 +44,9 @@
         "Government": {
             "Government": "Federal presidential republic"
         },
-        "Area": {
-            "Total (km2)": 1972550,
-            "Water (%)": 1.58
-        },
         "Population": {
-            "Estimate": 131946900,
-            "Census": 126014024,
-            "Density (/km2)": 61
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 3396000000000,
-                "Per capita ($)": 25463
-            },
-            "GDP (nominal)": {
-                "Total ($)": 1693000000000,
-                "Per capita ($)": 12692
-            },
-            "Gini": 40.2,
-            "HDI": 0.789,
-            "Currency": "Mexican peso"
+            "Count": 131946900.0,
+            "Density (/km2)": 61.0
         }
     }
 }

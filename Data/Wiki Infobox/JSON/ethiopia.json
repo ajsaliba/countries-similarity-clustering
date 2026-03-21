@@ -1,59 +1,66 @@
 {
     "country": "Ethiopia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 1104300.0,
+            "Water (%)": 0.7
+        },
+        "Economy": {
+            "Currency": [
+                "Birr"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 4050.0,
+                "Total ($)": 434440000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 1350.0,
+                "Total ($)": 145030000000.0
+            },
+            "Gini": 35.0,
+            "HDI": 0.492
+        },
         "General": {
-            "Official languages": "Afar Amharic Oromo Somali Tigrinya",
             "Ethnic groups": {
-                "Oromo (%)": 34.5,
+                "Afar (%)": 1.7,
                 "Amhara (%)": 26.9,
+                "Gamo (%)": 1.5,
+                "Gurage (%)": 2.5,
+                "Hadiya (%)": 1.7,
+                "Oromo (%)": 34.5,
+                "Sidama (%)": 4,
                 "Somali (%)": 6.2,
                 "Tigrayan (%)": 6.1,
-                "Sidama (%)": 4,
-                "Gurage (%)": 2.5,
                 "Welayta (%)": 2.3,
-                "Hadiya (%)": 1.7,
-                "Afar (%)": 1.7,
-                "Gamo (%)": 1.5,
                 "others (%)": 12.6
             },
+            "Primary Language": [
+                "Afar",
+                "Amharic",
+                "Oromo",
+                "Somali",
+                "Tigrinya"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 67.3,
                     "breakdown": {
                         "Ethiopian Orthodoxy (%)": 43.8,
                         "P'ent'ay (%)": 22.8,
                         "other Christian (%)": 0.7
-                    }
+                    },
+                    "percentage": 67.3
                 },
                 "Islam (%)": 31.3,
-                "traditional faiths (%)": 0.6,
-                "others / none (%)": 0.8
+                "others / none (%)": 0.8,
+                "traditional faiths (%)": 0.6
             }
         },
         "Government": {
             "Government": "Federal parliamentary republic under an authoritarian government"
         },
-        "Area": {
-            "Total (km2)": 1104300,
-            "Water (%)": 0.7
-        },
         "Population": {
-            "Estimate": 135500000,
-            "Census": 73750932,
+            "Count": 135500000.0,
             "Density (/km2)": 92.7
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 434440000000,
-                "Per capita ($)": 4050
-            },
-            "GDP (nominal)": {
-                "Total ($)": 145030000000,
-                "Per capita ($)": 1350
-            },
-            "Gini": 35.0,
-            "HDI": 0.492,
-            "Currency": "Birr"
         }
     }
 }

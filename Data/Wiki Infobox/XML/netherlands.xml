@@ -2,30 +2,52 @@
 <country>
   <country>Netherlands</country>
   <infobox>
+    <Area>
+      <Total__km2_>42531.0</Total__km2_>
+      <Water____>18.96</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Aruban florin</item>
+        <item>Caribbean guilder</item>
+        <item>Euro</item>
+        <item>United States dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>87173.0</Per_capita____>
+        <Total____>1581000000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>73091.0</Per_capita____>
+        <Total____>1326000000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>26.4</Gini>
+      <HDI>0.955</HDI>
+    </Economy>
     <General>
-      <Official_languages>Dutch</Official_languages>
+      <Ethnic_groups>
+        <Dutch____>72.0</Dutch____>
+        <Indonesian____>2.0</Indonesian____>
+        <Moroccan____>2.3</Moroccan____>
+        <Turkish____>2.5</Turkish____>
+        <other_European____>9.2</other_European____>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Dutch</item>
+      </Primary_Language>
+      <Religion>
+        <Christianity____>31</Christianity____>
+        <Islam____>6</Islam____>
+        <no_religion____>56</no_religion____>
+        <other____>7</other____>
+      </Religion>
     </General>
     <Government>
       <Government>Devolved unitary parliamentary constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>42531</Total__km2_>
-      <Water____>18.96</Water____>
-    </Area>
     <Population>
-      <Estimate>18290379</Estimate>
-      <Density___km2_>532</Density___km2_>
+      <Count>18290379.0</Count>
+      <Density___km2_>532.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>1581000000000</Total____>
-        <Per_capita____>87173</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>1326000000000</Total____>
-        <Per_capita____>73091</Per_capita____>
-      </GDP__nominal_>
-      <Currency>4 currencies Euro United States dollar Caribbean guilder Aruban florin</Currency>
-    </Economy>
   </infobox>
 </country>

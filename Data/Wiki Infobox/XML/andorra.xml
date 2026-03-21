@@ -2,55 +2,53 @@
 <country>
   <country>Andorra</country>
   <infobox>
+    <Area>
+      <Total__km2_>467.63</Total__km2_>
+      <Water____>0.26</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Euro</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>69146.0</Per_capita____>
+        <Total____>6001000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>44900.0</Per_capita____>
+        <Total____>3897000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>40.0</Gini>
+      <HDI>0.913</HDI>
+    </Economy>
     <General>
-      <Official_languages>Catalan 44.1%</Official_languages>
       <Ethnic_groups>
-        <Spaniards____>34.3</Spaniards____>
         <Andorrans____>32.1</Andorrans____>
-        <Portuguese____>10</Portuguese____>
         <French____>5.6</French____>
+        <Portuguese____>10</Portuguese____>
+        <Spaniards____>34.3</Spaniards____>
         <others____>18</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Catalan</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>90.8</percentage>
           <breakdown>
             <Catholicism___official______>85.5</Catholicism___official______>
             <other_Christian____>5.3</other_Christian____>
           </breakdown>
+          <percentage>90.8</percentage>
         </Christianity>
         <no_religion____>6.9</no_religion____>
         <others____>2.3</others____>
       </Religion>
     </General>
-    <Economy>
-      <Significant_language>
-        <Co_princes>Josep-Lluís Serrano Pentinat Emmanuel Macron</Co_princes>
-        <Representatives>Eduard Ibáñez Patrice Faure</Representatives>
-        <Prime_minister>Xavier Espot Zamora</Prime_minister>
-        <General_syndic>Carles Ensenyat Reig</General_syndic>
-      </Significant_language>
-      <GDP___PPP__>
-        <Total____>6001000000</Total____>
-        <Per_capita____>69146</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>3897000000</Total____>
-        <Per_capita____>44900</Per_capita____>
-      </GDP__nominal_>
-      <Gini>40.0</Gini>
-      <HDI>0.913</HDI>
-      <Currency>Euro</Currency>
-    </Economy>
     <Government>
       <Government>Unitary parliamentary constitutional co-principality</Government>
     </Government>
-    <Area>
-      <Total__km2_>467.63</Total__km2_>
-      <Water____>0.26</Water____>
-    </Area>
     <Population>
-      <Estimate>89058</Estimate>
+      <Count>89058.0</Count>
       <Density___km2_>187.1</Density___km2_>
     </Population>
   </infobox>

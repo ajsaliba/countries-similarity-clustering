@@ -1,6 +1,25 @@
 {
     "country": "Fiji",
     "infobox": {
+        "Area": {
+            "Total (km2)": 18274.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Fijian dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 16563.0,
+                "Total ($)": 15152000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 6024.0,
+                "Total ($)": 5511000000.0
+            },
+            "Gini": 30.7,
+            "HDI": 0.731
+        },
         "General": {
             "Ethnic groups": {
                 "Indigenous Fijians (%)": 56.8,
@@ -8,13 +27,19 @@
                 "Rotumans (%)": 1.2,
                 "others (%)": 4.5
             },
+            "Primary Language": [
+                "English",
+                "Fiji Hindi",
+                "Fijian",
+                "Standard Hindi"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 64.4,
                     "breakdown": {
                         "Methodism (%)": 34.6,
                         "other Christian (%)": 29.8
-                    }
+                    },
+                    "percentage": 64.4
                 },
                 "Hinduism (%)": 27.9,
                 "Islam (%)": 6.3,
@@ -24,27 +49,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 18274,
-            "Water (%)": "negligible"
-        },
         "Population": {
-            "Estimate": 926276,
-            "Census": 884887,
+            "Count": 926276.0,
             "Density (/km2)": 46.4
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 15152000000,
-                "Per capita ($)": 16563
-            },
-            "GDP (nominal)": {
-                "Total ($)": 5511000000,
-                "Per capita ($)": 6024
-            },
-            "Gini": 30.7,
-            "HDI": 0.731,
-            "Currency": "Fijian dollar"
         }
     }
 }

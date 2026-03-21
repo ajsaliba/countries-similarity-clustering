@@ -2,56 +2,58 @@
 <country>
   <country>Vietnam</country>
   <infobox>
-    <General>
-      <Official_language>Vietnamese</Official_language>
-      <Ethnic_groups>
-        <Kinh_Vietnamese____>85.32</Kinh_Vietnamese____>
-        <other____>14.68</other____>
-      </Ethnic_groups>
-      <Religion>
-        <no_religion___folk____>86.32</no_religion___folk____>
-        <Catholicism>
-          <percentage>6.1</percentage>
-          <breakdown>
-            <Buddhism____>4.79</Buddhism____>
-            <Hoahaoism____>1.02</Hoahaoism____>
-          </breakdown>
-        </Catholicism>
-        <Protestantism>
-          <percentage>1</percentage>
-          <breakdown>
-            <Caodaism____>0.58</Caodaism____>
-            <Islam____>0.07</Islam____>
-            <other____>0.12</other____>
-          </breakdown>
-        </Protestantism>
-      </Religion>
-    </General>
-    <Population>
-      <Largest_city_by_urban_population>Ho Chi Minh City 10°48′N 106°39′E ﻿ / ﻿ 10.800°N 106.650°E ﻿ / 10.800; 106.650</Largest_city_by_urban_population>
-      <Estimate>102300000</Estimate>
-      <Census>96208984</Census>
-      <Density___km2_>309</Density___km2_>
-    </Population>
-    <Government>
-      <Government>Unitary communist state</Government>
-    </Government>
     <Area>
       <Total__km2_>331344.82</Total__km2_>
       <Water____>6.38</Water____>
     </Area>
     <Economy>
+      <Currency>
+        <item>Vietnamese đồng</item>
+      </Currency>
       <GDP___PPP__>
-        <Total____>1786000000000</Total____>
-        <Per_capita____>17484</Per_capita____>
+        <Per_capita____>17484.0</Per_capita____>
+        <Total____>1786000000000.0</Total____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Total____>490970000000</Total____>
-        <Per_capita____>4806</Per_capita____>
+        <Per_capita____>4806.0</Per_capita____>
+        <Total____>490970000000.0</Total____>
       </GDP__nominal_>
       <Gini>36.1</Gini>
       <HDI>0.766</HDI>
-      <Currency>Vietnamese đồng</Currency>
     </Economy>
+    <General>
+      <Ethnic_groups>
+        <Kinh_Vietnamese____>85.32</Kinh_Vietnamese____>
+        <other____>14.68</other____>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Vietnamese</item>
+      </Primary_Language>
+      <Religion>
+        <Catholicism>
+          <breakdown>
+            <Buddhism____>4.79</Buddhism____>
+            <Hoahaoism____>1.02</Hoahaoism____>
+          </breakdown>
+          <percentage>6.1</percentage>
+        </Catholicism>
+        <Protestantism>
+          <breakdown>
+            <Caodaism____>0.58</Caodaism____>
+            <Islam____>0.07</Islam____>
+            <other____>0.12</other____>
+          </breakdown>
+          <percentage>1</percentage>
+        </Protestantism>
+        <no_religion___folk____>86.32</no_religion___folk____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary communist state</Government>
+    </Government>
+    <Population>
+      <Count>102300000.0</Count>
+      <Density___km2_>309.0</Density___km2_>
+    </Population>
   </infobox>
 </country>

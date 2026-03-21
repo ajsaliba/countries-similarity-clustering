@@ -1,22 +1,43 @@
 {
     "country": "Nicaragua",
     "infobox": {
-        "General": {
-            "Official languages": "Spanish",
-            "Ethnic groups": {
-                "Mestizo (mixed White and Indigenous ) (%)": 69,
-                "White (%)": 17,
-                "Black (%)": 9,
-                "Indigenous (%)": 5
+        "Area": {
+            "Total (km2)": 130375.0,
+            "Water (%)": 7.14
+        },
+        "Economy": {
+            "Currency": [
+                "Córdoba"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 8492.0,
+                "Total ($)": 56697000000.0
             },
+            "GDP (nominal)": {
+                "Per capita ($)": 2673.0,
+                "Total ($)": 17843000000.0
+            },
+            "Gini": 46.2,
+            "HDI": 0.706
+        },
+        "General": {
+            "Ethnic groups": {
+                "Black (%)": 9,
+                "Indigenous (%)": 5,
+                "Mestizo (mixed White and Indigenous ) (%)": 69,
+                "White (%)": 17
+            },
+            "Primary Language": [
+                "Spanish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 84.4,
                     "breakdown": {
                         "Catholicism (%)": 55,
                         "Protestantism (%)": 27.2,
                         "other Christian (%)": 2.2
-                    }
+                    },
+                    "percentage": 84.4
                 },
                 "no religion (%)": 14.7,
                 "other (%)": 0.9
@@ -25,26 +46,9 @@
         "Government": {
             "Government": "Unitary diarchic presidential socialist republic under an authoritarian dictatorship"
         },
-        "Area": {
-            "Total (km2)": 130375,
-            "Water (%)": 7.14
-        },
         "Population": {
-            "Estimate": 6676948,
-            "Density (/km2)": 51
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 56697000000,
-                "Per capita ($)": 8492
-            },
-            "GDP (nominal)": {
-                "Total ($)": 17843000000,
-                "Per capita ($)": 2673
-            },
-            "Gini": 46.2,
-            "HDI": 0.706,
-            "Currency": "Córdoba"
+            "Count": 6676948.0,
+            "Density (/km2)": 51.0
         }
     }
 }

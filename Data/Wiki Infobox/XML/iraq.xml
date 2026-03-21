@@ -2,43 +2,48 @@
 <country>
   <country>Iraq</country>
   <infobox>
+    <Area>
+      <Total__km2_>438317.0</Total__km2_>
+      <Water____>4.93</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Iraqi dinar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>15180.0</Per_capita____>
+        <Total____>690090000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>5670.0</Per_capita____>
+        <Total____>258020000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>29.5</Gini>
+      <HDI>0.712</HDI>
+    </Economy>
     <General>
-      <Official_languages>Arabic Kurdish</Official_languages>
       <Ethnic_groups>
         <Arabs_15_____>80</Arabs_15_____>
-        <Kurds_5_____>20</Kurds_5_____>
         <Assyrians___Turkmen___Jews___Persians___Yazidis___Mandaeans___and_others____>10</Assyrians___Turkmen___Jews___Persians___Yazidis___Mandaeans___and_others____>
+        <Kurds_5_____>20</Kurds_5_____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Arabic</item>
+        <item>Kurdish</item>
+      </Primary_Language>
       <Religion>
+        <Christianity___Mandaeism___Yazidism___Judaism___Yarsanism___irreligion_and_others____>10</Christianity___Mandaeism___Yazidism___Judaism___Yarsanism___irreligion_and_others____>
         <Islam___official______>95</Islam___official______>
         <Shia____>61</Shia____>
         <Sunni_5_____>35</Sunni_5_____>
-        <Christianity___Mandaeism___Yazidism___Judaism___Yarsanism___irreligion_and_others____>10</Christianity___Mandaeism___Yazidism___Judaism___Yarsanism___irreligion_and_others____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>438317</Total__km2_>
-      <Water____>4.93</Water____>
-    </Area>
     <Population>
-      <Census>46118793</Census>
+      <Count>46118793.0</Count>
       <Density___km2_>82.7</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>690090000000</Total____>
-        <Per_capita____>15180</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>258020000000</Total____>
-        <Per_capita____>5670</Per_capita____>
-      </GDP__nominal_>
-      <Gini>29.5</Gini>
-      <HDI>0.712</HDI>
-      <Currency>Iraqi dinar</Currency>
-    </Economy>
   </infobox>
 </country>

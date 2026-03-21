@@ -1,50 +1,56 @@
 {
     "country": "Belgium",
     "infobox": {
+        "Area": {
+            "Total (km2)": 30689.0,
+            "Water (%)": 0.64
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 75187.0,
+                "Total ($)": 889833000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 58248.0,
+                "Total ($)": 689364000000.0
+            },
+            "Gini": 24.9,
+            "HDI": 0.951
+        },
         "General": {
-            "Official languages": "Dutch French German",
             "Ethnic groups": {
-                "Belgians (%)": 86.1,
                 "Belgian background (%)": 64,
+                "Belgians (%)": 86.1,
                 "foreign background (%)": 22.1,
                 "non-Belgian (%)": 13.8
             },
+            "Primary Language": [
+                "Dutch",
+                "French",
+                "German"
+            ],
             "Religion": {
-                "no religion (%)": 59,
                 "Christianity": {
-                    "percentage": 34,
                     "breakdown": {
                         "Catholicism (%)": 31,
                         "other Christian (%)": 3
-                    }
+                    },
+                    "percentage": 34
                 },
                 "Islam (%)": 6,
+                "no religion (%)": 59,
                 "other (%)": 1
             }
         },
         "Government": {
             "Government": "Federal parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 30689,
-            "Water (%)": 0.64
-        },
         "Population": {
-            "Census": 11825551,
-            "Density (/km2)": 385
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 889833000000,
-                "Per capita ($)": 75187
-            },
-            "GDP (nominal)": {
-                "Total ($)": 689364000000,
-                "Per capita ($)": 58248
-            },
-            "Gini": 24.9,
-            "HDI": 0.951,
-            "Currency": "Euro"
+            "Count": 11825551.0,
+            "Density (/km2)": 385.0
         }
     }
 }

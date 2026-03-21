@@ -2,38 +2,47 @@
 <country>
   <country>Honduras</country>
   <infobox>
+    <Area>
+      <Total__km2_>112492.0</Total__km2_>
+      <Water____>-1.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Lempira</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>7960.0</Per_capita____>
+        <Total____>86290000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>3640.0</Per_capita____>
+        <Total____>39450000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>52.1</Gini>
+      <HDI>0.645</HDI>
+    </Economy>
     <General>
-      <Official_languages>Spanish</Official_languages>
       <Ethnic_groups>
+        <Black____>1.39</Black____>
+        <Indigenous____>7.25</Indigenous____>
         <Mestizo____>82.93</Mestizo____>
         <White____>7.87</White____>
-        <Indigenous____>7.25</Indigenous____>
-        <Black____>1.39</Black____>
         <other____>0.55</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Spanish</item>
+      </Primary_Language>
+      <Religion>
+        <Catholic____>81</Catholic____>
+        <Protestant____>34</Protestant____>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>112492</Total__km2_>
-    </Area>
     <Population>
-      <Estimate>9571352</Estimate>
-      <Density___km2_>85</Density___km2_>
+      <Count>9571352.0</Count>
+      <Density___km2_>85.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>86290000000</Total____>
-        <Per_capita____>7960</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>39450000000</Total____>
-        <Per_capita____>3640</Per_capita____>
-      </GDP__nominal_>
-      <Gini>52.1</Gini>
-      <HDI>0.645</HDI>
-      <Currency>Lempira</Currency>
-    </Economy>
   </infobox>
 </country>

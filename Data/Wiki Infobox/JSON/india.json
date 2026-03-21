@@ -1,53 +1,58 @@
 {
     "country": "India",
     "infobox": {
+        "Area": {
+            "Total (km2)": 3287263.0,
+            "Water (%)": 9.6
+        },
+        "Economy": {
+            "Currency": [
+                "Indian rupee"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 12132.0,
+                "Total ($)": 17647000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 2878.0,
+                "Total ($)": 4187000000000.0
+            },
+            "Gini": 25.5,
+            "HDI": 0.685
+        },
         "General": {
-            "Official languages": "Hindi English",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "English",
+                "Hindi"
+            ],
             "Religion": {
+                "Christianity": {
+                    "breakdown": {
+                        "Buddhism (%)": 0.7,
+                        "Sikhism (%)": 1.7
+                    },
+                    "percentage": 2.3
+                },
                 "Hinduism (%)": 79.8,
                 "Islam (%)": 14.2,
-                "Christianity": {
-                    "percentage": 2.3,
-                    "breakdown": {
-                        "Sikhism (%)": 1.7,
-                        "Buddhism (%)": 0.7
-                    }
-                },
                 "Jainism": {
-                    "percentage": 0.4,
                     "breakdown": {
                         "unaffiliated (%)": 0.23
-                    }
+                    },
+                    "percentage": 0.4
                 },
                 "other (%)": 0.65
             }
         },
-        "Population": {
-            "Largest city by city proper population": "Mumbai",
-            "Estimate": 1428627663,
-            "Census": 1210854977,
-            "Density (/km2)": 433.5
-        },
-        "Area": {
-            "Largest city by metropolitan area population": "Delhi",
-            "Total (km2)": 3287263,
-            "Water (%)": 9.6
-        },
         "Government": {
             "Government": "Federal parliamentary republic"
         },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 17647000000000,
-                "Per capita ($)": 12132
-            },
-            "GDP (nominal)": {
-                "Total ($)": 4187000000000,
-                "Per capita ($)": 2878
-            },
-            "Gini": 25.5,
-            "HDI": 0.685,
-            "Currency": "Indian rupee"
+        "Population": {
+            "Count": 1428627663.0,
+            "Density (/km2)": 433.5
         }
     }
 }

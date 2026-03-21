@@ -2,44 +2,50 @@
 <country>
   <country>Syria</country>
   <infobox>
+    <Area>
+      <Total__km2_>185180.0</Total__km2_>
+      <Water____>1.1</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Syrian pound</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>3300.0</Per_capita____>
+        <Total____>50280000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>800.0</Per_capita____>
+        <Total____>9800000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>26.6</Gini>
+      <HDI>-1.0</HDI>
+    </Economy>
     <General>
-      <Official_languages>Arabic</Official_languages>
       <Ethnic_groups>
         <Arabs_9_____>90</Arabs_9_____>
         <Kurds_1_____>10</Kurds_1_____>
         <others____>10</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Arabic</item>
+        <item>Kurdish</item>
+      </Primary_Language>
       <Religion>
-        <Islam____>94.17</Islam____>
-        <Sunni____>79.19</Sunni____>
-        <Shia_10_____>14.1</Shia_10_____>
         <Alawites____>13</Alawites____>
         <Christianity____>3.84</Christianity____>
+        <Islam____>94.17</Islam____>
+        <Shia_10_____>14.1</Shia_10_____>
+        <Sunni____>79.19</Sunni____>
         <other____>1.99</other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic under a provisional government</Government>
     </Government>
-    <Area>
-      <Total__km2_>185180</Total__km2_>
-      <Water____>1.1</Water____>
-    </Area>
     <Population>
-      <Estimate>26019711</Estimate>
+      <Count>26019711.0</Count>
       <Density___km2_>118.3</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>50280000000</Total____>
-        <Per_capita____>3300</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>9800000000</Total____>
-        <Per_capita____>800</Per_capita____>
-      </GDP__nominal_>
-      <Gini>26.6</Gini>
-      <Currency>Syrian pound</Currency>
-    </Economy>
   </infobox>
 </country>

@@ -1,24 +1,45 @@
 {
     "country": "Ecuador",
     "infobox": {
+        "Area": {
+            "Total (km2)": 283561.0,
+            "Water (%)": -1.0
+        },
+        "Economy": {
+            "Currency": [
+                "United States dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 16180.0,
+                "Total ($)": 304230000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 7210.0,
+                "Total ($)": 130530000000.0
+            },
+            "Gini": 45.2,
+            "HDI": 0.777
+        },
         "General": {
-            "Official languages": "Spanish",
             "Ethnic groups": {
+                "Black (%)": 4.81,
+                "Indigenous (%)": 7.69,
                 "Mestizo (mixed White & Indigenous ) (%)": 77.47,
                 "Montubio (coastal Mestizo ) (%)": 7.7,
-                "Indigenous (%)": 7.69,
-                "Black (%)": 4.81,
                 "White (%)": 2.21,
                 "other (%)": 0.12
             },
+            "Primary Language": [
+                "Spanish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 89.3,
                     "breakdown": {
                         "Catholic (%)": 68.2,
                         "Evangelical (%)": 18,
                         "other (%)": 3.1
-                    }
+                    },
+                    "percentage": 89.3
                 },
                 "no religion (%)": 8.9,
                 "other (%)": 2
@@ -27,27 +48,9 @@
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 283561,
-            "Excluding the Galapagos Islands (km2)": 276841
-        },
         "Population": {
-            "Estimate": 17483326,
-            "Census": 16938986,
-            "Density (/km2)": 69
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 304230000000,
-                "Per capita ($)": 16180
-            },
-            "GDP (nominal)": {
-                "Total ($)": 130530000000,
-                "Per capita ($)": 7210
-            },
-            "Gini": 45.2,
-            "HDI": 0.777,
-            "Currency": "United States dollar a"
+            "Count": 17483326.0,
+            "Density (/km2)": 69.0
         }
     }
 }

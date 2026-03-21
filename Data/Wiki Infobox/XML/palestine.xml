@@ -2,52 +2,56 @@
 <country>
   <country>Palestine</country>
   <infobox>
+    <Area>
+      <Total__km2_>6020.0</Total__km2_>
+      <Water____>3.5</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Egyptian pound</item>
+        <item>Israeli new shekel</item>
+        <item>Jordanian dinar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>6642.0</Per_capita____>
+        <Total____>36391000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>3464.0</Per_capita____>
+        <Total____>18109000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>33.7</Gini>
+      <HDI>0.674</HDI>
+    </Economy>
     <General>
-      <Official_languages>Arabic</Official_languages>
       <Ethnic_groups>
-        <Palestinian_Arabs____>91.2</Palestinian_Arabs____>
         <Israeli_Jews____>8.8</Israeli_Jews____>
+        <Palestinian_Arabs____>91.2</Palestinian_Arabs____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Arabic</item>
+      </Primary_Language>
       <Religion>
+        <Bah____Faith____>0.05</Bah____Faith____>
+        <Christianity____>0.88</Christianity____>
         <Islam___official__>
-          <percentage>80.73</percentage>
           <breakdown>
-            <Sunni____>71.21</Sunni____>
             <Shia____>0.09</Shia____>
+            <Sunni____>71.21</Sunni____>
             <other____>9.42</other____>
           </breakdown>
+          <percentage>80.73</percentage>
         </Islam___official__>
         <Judaism____>13.07</Judaism____>
-        <Christianity____>0.88</Christianity____>
-        <Bah____Faith____>0.05</Bah____Faith____>
         <irreligion____>5.27</irreligion____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary provisional semi-presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>6020</Total__km2_>
-      <Water____>3.5</Water____>
-      <West_Bank__km2_>5655</West_Bank__km2_>
-      <Gaza_Strip__km2_>365</Gaza_Strip__km2_>
-    </Area>
     <Population>
-      <Estimate>5483450</Estimate>
-      <Density___km2_>731</Density___km2_>
+      <Count>5483450.0</Count>
+      <Density___km2_>731.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>36391000000</Total____>
-        <Per_capita____>6642</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>18109000000</Total____>
-        <Per_capita____>3464</Per_capita____>
-      </GDP__nominal_>
-      <Gini>33.7</Gini>
-      <HDI>0.674</HDI>
-      <Currency>Israeli new shekel Jordanian dinar Egyptian pound</Currency>
-    </Economy>
   </infobox>
 </country>

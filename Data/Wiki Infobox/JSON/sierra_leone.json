@@ -1,50 +1,55 @@
 {
     "country": "Sierra Leone",
     "infobox": {
-        "General": {
-            "Official languages": "English",
-            "Ethnic groups": {
-                "Temne (%)": 35.5,
-                "Mende (%)": 33.2,
-                "Limba (%)": 6.4,
-                "Kono (%)": 4.4,
-                "Fula (%)": 3.4,
-                "Susu (%)": 2.9,
-                "Loko (%)": 2.9,
-                "Koranko (%)": 2.8,
-                "Sherbro (%)": 2.6,
-                "Mandingo (%)": 2.4,
-                "Krio (%)": 1.3
+        "Area": {
+            "Total (km2)": 73252.0,
+            "Water (%)": 1.1
+        },
+        "Economy": {
+            "Currency": [
+                "Leone"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 3550.0,
+                "Total ($)": 32510000000.0
             },
+            "GDP (nominal)": {
+                "Per capita ($)": 915.0,
+                "Total ($)": 8390000000.0
+            },
+            "Gini": 33.7,
+            "HDI": 0.467
+        },
+        "General": {
+            "Ethnic groups": {
+                "Fula (%)": 3.4,
+                "Kono (%)": 4.4,
+                "Koranko (%)": 2.8,
+                "Krio (%)": 1.3,
+                "Limba (%)": 6.4,
+                "Loko (%)": 2.9,
+                "Mandingo (%)": 2.4,
+                "Mende (%)": 33.2,
+                "Sherbro (%)": 2.6,
+                "Susu (%)": 2.9,
+                "Temne (%)": 35.5
+            },
+            "Primary Language": [
+                "English",
+                "Krio"
+            ],
             "Religion": {
-                "Islam (%)": 78,
                 "Christianity (%)": 21,
+                "Islam (%)": 78,
                 "other (%)": 1
             }
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 73252,
-            "Water (%)": 1.1
-        },
         "Population": {
-            "Estimate": 8460512,
-            "Density (/km2)": 124
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 32510000000,
-                "Per capita ($)": 3550
-            },
-            "GDP (nominal)": {
-                "Total ($)": 8390000000,
-                "Per capita ($)": 915
-            },
-            "Gini": 33.7,
-            "HDI": 0.467,
-            "Currency": "Leone"
+            "Count": 8460512.0,
+            "Density (/km2)": 124.0
         }
     }
 }

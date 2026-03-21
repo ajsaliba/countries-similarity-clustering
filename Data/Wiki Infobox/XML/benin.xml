@@ -2,50 +2,60 @@
 <country>
   <country>Benin</country>
   <infobox>
+    <Area>
+      <Total__km2_>114763.0</Total__km2_>
+      <Water____>0.4</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>West African CFA franc</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>4980.0</Per_capita____>
+        <Total____>76510000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>1790.0</Per_capita____>
+        <Total____>27450000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>34.4</Gini>
+      <HDI>0.515</HDI>
+    </Economy>
     <General>
-      <Official_languages>French</Official_languages>
       <Ethnic_groups>
-        <Fon____>38.4</Fon____>
         <Adja_and_Mina____>15.1</Adja_and_Mina____>
-        <Yoruba____>12</Yoruba____>
         <Bariba____>9.6</Bariba____>
+        <Dendi____>2.9</Dendi____>
+        <Fon____>38.4</Fon____>
         <Fula____>8.6</Fula____>
         <Ottamari____>6.1</Ottamari____>
         <Yoa_Lokpa____>4.3</Yoa_Lokpa____>
-        <Dendi____>2.9</Dendi____>
+        <Yoruba____>12</Yoruba____>
         <other____>2.8</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Arabic</item>
+        <item>Bariba</item>
+        <item>Dendi</item>
+        <item>English</item>
+        <item>Fon</item>
+        <item>French</item>
+        <item>Yoruba</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>52.2</Christianity____>
         <Islam____>24.6</Islam____>
-        <traditional_faiths____>17.9</traditional_faiths____>
         <no_religion____>5.2</no_religion____>
         <other____>0.1</other____>
+        <traditional_faiths____>17.9</traditional_faiths____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>114763</Total__km2_>
-      <Water____>0.4</Water____>
-    </Area>
     <Population>
-      <Estimate>13754688</Estimate>
+      <Count>13754688.0</Count>
       <Density___km2_>94.8</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>76510000000</Total____>
-        <Per_capita____>4980</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>27450000000</Total____>
-        <Per_capita____>1790</Per_capita____>
-      </GDP__nominal_>
-      <Gini>34.4</Gini>
-      <HDI>0.515</HDI>
-      <Currency>West African CFA franc</Currency>
-    </Economy>
   </infobox>
 </country>

@@ -1,26 +1,47 @@
 {
     "country": "Latvia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 64589.0,
+            "Water (%)": 2.09
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 44110.0,
+                "Total ($)": 82400000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 25630.0,
+                "Total ($)": 47880000000.0
+            },
+            "Gini": 35.7,
+            "HDI": 0.889
+        },
         "General": {
-            "Official languages": "Latvian a",
             "Ethnic groups": {
-                "Latvians (%)": 65.5,
-                "Russians (%)": 24.1,
                 "Belarusians (%)": 2.9,
-                "Ukrainians (%)": 2.9,
-                "Poles (%)": 1.9,
+                "Latvians (%)": 65.5,
                 "Lithuanians (%)": 1.1,
+                "Poles (%)": 1.9,
+                "Russians (%)": 24.1,
+                "Ukrainians (%)": 2.9,
                 "others (%)": 1.6
             },
+            "Primary Language": [
+                "Latvian"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 64,
                     "breakdown": {
-                        "Lutheranism (%)": 36,
                         "Catholicism (%)": 17,
+                        "Lutheranism (%)": 36,
                         "Orthodoxy (%)": 9,
                         "other Christian (%)": 2
-                    }
+                    },
+                    "percentage": 64
                 },
                 "no religion (%)": 35,
                 "others (%)": 1
@@ -29,26 +50,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 64589,
-            "Water (%)": 2.09
-        },
         "Population": {
-            "Estimate": 1842226,
+            "Count": 1842226.0,
             "Density (/km2)": 29.6
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 82400000000,
-                "Per capita ($)": 44110
-            },
-            "GDP (nominal)": {
-                "Total ($)": 47880000000,
-                "Per capita ($)": 25630
-            },
-            "Gini": 35.7,
-            "HDI": 0.889,
-            "Currency": "Euro"
         }
     }
 }

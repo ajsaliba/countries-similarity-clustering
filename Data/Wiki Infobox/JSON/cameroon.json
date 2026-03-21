@@ -1,56 +1,61 @@
 {
     "country": "Cameroon",
     "infobox": {
+        "Area": {
+            "Total (km2)": 475442.0,
+            "Water (%)": 0.57
+        },
+        "Economy": {
+            "Currency": [
+                "Central African CFA franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 5960.0,
+                "Total ($)": 183320000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 2200.0,
+                "Total ($)": 67520000000.0
+            },
+            "Gini": 42.2,
+            "HDI": 0.588
+        },
         "General": {
-            "Official languages": "French • English",
             "Ethnic groups": {
-                "Bamileke , Bamun (%)": 22.2,
-                "Biu-Mandara (%)": 16.4,
-                "Shuwa Arab , Hausa and Kanuri (%)": 13.5,
-                "Beti - Bassa (%)": 13.1,
-                "Fulani (%)": 12,
-                "Tikar (%)": 9.9,
                 "Adamawa-Ubangi ( Mbum - Gbaya ) (%)": 9.8,
-                "Sawa people (%)": 4.6,
-                "Southwest Bantu (%)": 4.3,
+                "Bamileke , Bamun (%)": 22.2,
+                "Beti - Bassa (%)": 13.1,
+                "Biu-Mandara (%)": 16.4,
+                "Fulani (%)": 12,
                 "Pygmy peoples (%)": 2.3,
+                "Sawa people (%)": 4.6,
+                "Shuwa Arab , Hausa and Kanuri (%)": 13.5,
+                "Southwest Bantu (%)": 4.3,
+                "Tikar (%)": 9.9,
                 "others/foreigners (%)": 3.8
             },
+            "Primary Language": [
+                "English",
+                "French"
+            ],
             "Religion": {
                 "Christianity (%)": 66.3,
                 "Islam (%)": 30.6,
+                "others (%)": 0.7,
                 "traditional faiths": {
-                    "percentage": 1.3,
                     "breakdown": {
                         "no religion (%)": 1.1
-                    }
-                },
-                "others (%)": 0.7
+                    },
+                    "percentage": 1.3
+                }
             }
         },
         "Government": {
             "Government": "Unitary presidential republic under a dictatorship"
         },
-        "Area": {
-            "Total (km2)": 475442,
-            "Water (%)": 0.57
-        },
         "Population": {
-            "Estimate": 30987821,
+            "Count": 30987821.0,
             "Density (/km2)": 39.7
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 183320000000,
-                "Per capita ($)": 5.96
-            },
-            "GDP (nominal)": {
-                "Total ($)": 67520000000,
-                "Per capita ($)": 2200
-            },
-            "Gini": 42.2,
-            "HDI": 0.588,
-            "Currency": "Central African CFA franc"
         }
     }
 }

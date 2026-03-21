@@ -1,51 +1,71 @@
 {
     "country": "Zimbabwe",
     "infobox": {
+        "Area": {
+            "Total (km2)": 390757.0,
+            "Water (%)": 1.0
+        },
+        "Economy": {
+            "Currency": [
+                "South African rand",
+                "United States dollar",
+                "Zimbabwe Gold"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 5410.0,
+                "Total ($)": 93870000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 3070.0,
+                "Total ($)": 53310000000.0
+            },
+            "Gini": 45.5,
+            "HDI": 0.598
+        },
         "General": {
-            "Official languages": "16 languages : Chewa Chibarwe English Kalanga Khoisan Nambya Ndau Ndebele Shangani Shona Sotho Tonga Tswana Venda Xhosa Zimbabwean sign language",
             "Ethnic groups": {
-                "Zimbabwean (%)": 99.6,
-                "European (%)": 0.2,
                 "Coloured (%)": 0.1,
+                "European (%)": 0.2,
+                "Zimbabwean (%)": 99.6,
                 "other (%)": 0.1
             },
+            "Primary Language": [
+                "Chewa",
+                "Chibarwe",
+                "English",
+                "Kalanga",
+                "Khoisan",
+                "Nambya",
+                "Ndau",
+                "Ndebele",
+                "Shangani",
+                "Shona",
+                "Sotho",
+                "Tonga",
+                "Tswana",
+                "Venda",
+                "Xhosa",
+                "Zimbabwean sign language"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 84.1,
                     "breakdown": {
                         "Protestantism (%)": 69.2,
                         "other Christian (%)": 14.9
-                    }
+                    },
+                    "percentage": 84.1
                 },
                 "no religion (%)": 10.2,
-                "traditional faiths (%)": 4.5,
-                "others (%)": 1.2
+                "others (%)": 1.2,
+                "traditional faiths (%)": 4.5
             }
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 390757,
-            "Water (%)": 1
-        },
         "Population": {
-            "Estimate": 17166852,
-            "Census": 15178957,
-            "Density (/km2)": 45
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 93870000000,
-                "Per capita ($)": 5410
-            },
-            "GDP (nominal)": {
-                "Total ($)": 53310000000,
-                "Per capita ($)": 3070
-            },
-            "Gini": 45.5,
-            "HDI": 0.598,
-            "Currency": "De jure : Zimbabwe Gold De facto : United States dollar South African rand; Other currencies"
+            "Count": 17166852.0,
+            "Density (/km2)": 45.0
         }
     }
 }

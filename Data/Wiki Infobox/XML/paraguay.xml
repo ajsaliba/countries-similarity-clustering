@@ -2,15 +2,41 @@
 <country>
   <country>Paraguay</country>
   <infobox>
+    <Area>
+      <Total__km2_>406752.0</Total__km2_>
+      <Water____>2.6</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Guaraní</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>22462.0</Per_capita____>
+        <Total____>145110000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>7990.0</Per_capita____>
+        <Total____>51670000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>44.4</Gini>
+      <HDI>0.756</HDI>
+    </Economy>
     <General>
-      <Official_languages>Spanish Guarani</Official_languages>
+      <Ethnic_groups>
+        <Mestizo____>95</Mestizo____>
+        <White____>5</White____>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Guarani</item>
+        <item>Spanish</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>95.5</percentage>
           <breakdown>
             <Catholicism____>87.4</Catholicism____>
             <other_Christian____>8.1</other_Christian____>
           </breakdown>
+          <percentage>95.5</percentage>
         </Christianity>
         <no_religion____>4.1</no_religion____>
         <other____>0.4</other____>
@@ -19,27 +45,9 @@
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>406752</Total__km2_>
-      <Water____>2.6</Water____>
-    </Area>
     <Population>
-      <Estimate>6413627</Estimate>
-      <Census>6109903</Census>
-      <Density>39/sq mi</Density>
+      <Count>6413627.0</Count>
+      <Density___km2_>15.1</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>145110000000</Total____>
-        <Per_capita____>22462</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>51670000000</Total____>
-        <Per_capita____>7990</Per_capita____>
-      </GDP__nominal_>
-      <Gini>44.4</Gini>
-      <HDI>0.756</HDI>
-      <Currency>Guaraní</Currency>
-    </Economy>
   </infobox>
 </country>

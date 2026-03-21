@@ -1,37 +1,53 @@
 {
     "country": "South Sudan",
     "infobox": {
+        "Area": {
+            "Total (km2)": 644329.0,
+            "Water (%)": -1.0
+        },
+        "Economy": {
+            "Currency": [
+                "South Sudanese pound"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 953.0,
+                "Total ($)": 15160000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 313.0,
+                "Total ($)": 4980000000.0
+            },
+            "Gini": 44.1,
+            "HDI": 0.388
+        },
         "General": {
-            "Official languages": "English",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Bari",
+                "Dinka",
+                "English",
+                "Luo",
+                "Ma'di",
+                "Murle",
+                "Nuer",
+                "Otuho",
+                "Zande"
+            ],
             "Religion": {
                 "Christianity (%)": 60.5,
-                "traditional faiths (%)": 32.9,
                 "Islam (%)": 6.2,
-                "others / none (%)": 0.4
+                "others / none (%)": 0.4,
+                "traditional faiths (%)": 32.9
             }
         },
         "Government": {
             "Government": "Federal presidential republic"
         },
-        "Area": {
-            "Total (km2)": 644329
-        },
         "Population": {
-            "Estimate": 12703714,
-            "Density (/km2)": 19
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 15160000000,
-                "Per capita ($)": 953
-            },
-            "GDP (nominal)": {
-                "Total ($)": 4980000000,
-                "Per capita ($)": 313
-            },
-            "Gini": 44.1,
-            "HDI": 0.388,
-            "Currency": "South Sudanese pound"
+            "Count": 12703714.0,
+            "Density (/km2)": 19.0
         }
     }
 }

@@ -1,20 +1,42 @@
 {
     "country": "Marshall Islands",
     "infobox": {
+        "Area": {
+            "Total (km2)": 181.43,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "United States dollar Sovereign"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 3789.0,
+                "Total ($)": 215000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 3866.0,
+                "Total ($)": 220000000.0
+            },
+            "Gini": -1.0,
+            "HDI": 0.733
+        },
         "General": {
-            "Official languages": "Marshallese English",
             "Ethnic groups": {
                 "Marshallese (%)": 95.6,
                 "others (%)": 4.4
             },
+            "Primary Language": [
+                "English",
+                "Marshallese"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 96.2,
                     "breakdown": {
-                        "Protestantism (%)": 79.9,
                         "Catholicism (%)": 9.3,
+                        "Protestantism (%)": 79.9,
                         "other Christian (%)": 7
-                    }
+                    },
+                    "percentage": 96.2
                 },
                 "no religion (%)": 1.1,
                 "others (%)": 2.7
@@ -23,25 +45,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic with an executive president"
         },
-        "Area": {
-            "Total (km2)": 181.43,
-            "Water (%)": "Negligible"
-        },
         "Population": {
-            "Census": 42418,
-            "Density (/km2)": 233
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 215000000,
-                "Per capita ($)": 3789
-            },
-            "GDP (nominal)": {
-                "Total ($)": 220000000,
-                "Per capita ($)": 3866
-            },
-            "HDI": 0.733,
-            "Currency": "United States dollar Sovereign"
+            "Count": 42418.0,
+            "Density (/km2)": 233.0
         }
     }
 }

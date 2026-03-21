@@ -2,23 +2,44 @@
 <country>
   <country>El Salvador</country>
   <infobox>
+    <Area>
+      <Total__km2_>21041.0</Total__km2_>
+      <Water____>1.5</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>United States dollar Salvadoran colón</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>13753.0</Per_capita____>
+        <Total____>88323000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>5893.0</Per_capita____>
+        <Total____>37843000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>38.8</Gini>
+      <HDI>0.678</HDI>
+    </Economy>
     <General>
-      <Official_languages>Spanish</Official_languages>
       <Ethnic_groups>
+        <Black____>0.1</Black____>
+        <Indigenous____>0.2</Indigenous____>
         <Mestizo__mixed_White_and_Indigenous______>86.3</Mestizo__mixed_White_and_Indigenous______>
         <White____>12.7</White____>
-        <Indigenous____>0.2</Indigenous____>
-        <Black____>0.1</Black____>
         <other____>0.6</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Spanish</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>81.5</percentage>
           <breakdown>
             <Catholicism____>42.2</Catholicism____>
             <Protestantism____>36.6</Protestantism____>
             <other_Christian____>2.7</other_Christian____>
           </breakdown>
+          <percentage>81.5</percentage>
         </Christianity>
         <no_religion____>17</no_religion____>
         <other____>1.5</other____>
@@ -27,26 +48,8 @@
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Economy>
-      <International_recognition>18 February 1841</International_recognition>
-      <GDP___PPP__>
-        <Total____>88323000000</Total____>
-        <Per_capita____>13753</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>37843000000</Total____>
-        <Per_capita____>5893</Per_capita____>
-      </GDP__nominal_>
-      <Gini>38.8</Gini>
-      <HDI>0.678</HDI>
-      <Currency>United States dollar Salvadoran colón</Currency>
-    </Economy>
-    <Area>
-      <Total__km2_>21041</Total__km2_>
-      <Water____>1.5</Water____>
-    </Area>
     <Population>
-      <Census>6029976</Census>
+      <Count>6029976.0</Count>
       <Density___km2_>286.6</Density___km2_>
     </Population>
   </infobox>

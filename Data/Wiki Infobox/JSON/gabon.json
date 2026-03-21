@@ -1,44 +1,50 @@
 {
     "country": "Gabon",
     "infobox": {
+        "Area": {
+            "Total (km2)": 267668.0,
+            "Water (%)": 3.76
+        },
+        "Economy": {
+            "Currency": [
+                "Central African CFA franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 24739.0,
+                "Total ($)": 57054000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 9303.0,
+                "Total ($)": 21455000000.0
+            },
+            "Gini": 38.0,
+            "HDI": 0.733
+        },
         "General": {
-            "Official languages": "French",
-            "Ethnic groups": "Fang Punu Nzebi Teke Myene Kota Vili Mbama and 42 others",
+            "Ethnic groups": {
+                "Fang Punu Nzebi Teke Myene Kota Vili Mbama and 42 others": null
+            },
+            "Primary Language": [
+                "French"
+            ],
             "Religion": {
                 "Christianity (%)": 80.2,
                 "Islam (%)": 10.8,
                 "no religion (%)": 7,
                 "traditional faiths": {
-                    "percentage": 1.1,
                     "breakdown": {
                         "others (%)": 0.9
-                    }
+                    },
+                    "percentage": 1.1
                 }
             }
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 267668,
-            "Water (%)": 3.76
-        },
         "Population": {
-            "Estimate": 2397368,
+            "Count": 2397368.0,
             "Density (/km2)": 7.9
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 57054000000,
-                "Per capita ($)": 24739
-            },
-            "GDP (nominal)": {
-                "Total ($)": 21455000000,
-                "Per capita ($)": 9303
-            },
-            "Gini": 38,
-            "HDI": 0.733,
-            "Currency": "Central African CFA franc"
         }
     }
 }

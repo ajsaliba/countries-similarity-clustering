@@ -1,23 +1,44 @@
 {
     "country": "Panama",
     "infobox": {
+        "Area": {
+            "Total (km2)": 75417.0,
+            "Water (%)": 2.9
+        },
+        "Economy": {
+            "Currency": [
+                "Balboa United States dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 42772.0,
+                "Total ($)": 195279000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 20092.0,
+                "Total ($)": 91731000000.0
+            },
+            "Gini": 48.9,
+            "HDI": 0.839
+        },
         "General": {
-            "Official languages": "Spanish",
             "Ethnic groups": {
-                "Mestizo (mixed White and Indigenous ) (%)": 65,
-                "Indigenous (%)": 12.3,
                 "Black (%)": 9.2,
+                "Indigenous (%)": 12.3,
+                "Mestizo (mixed White and Indigenous ) (%)": 65,
                 "Mulatto (mixed White and Black ) (%)": 6.8,
                 "White (%)": 6.7
             },
+            "Primary Language": [
+                "Spanish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 91.5,
                     "breakdown": {
                         "Catholicism (%)": 63.2,
                         "Protestantism (%)": 25,
                         "other Christian (%)": 3.3
-                    }
+                    },
+                    "percentage": 91.5
                 },
                 "no religion (%)": 7.6,
                 "other (%)": 0.9
@@ -26,26 +47,9 @@
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 75417,
-            "Water (%)": 2.9
-        },
         "Population": {
-            "Estimate": 4337768,
-            "Density (/km2)": 56
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 195279000000,
-                "Per capita ($)": 42772
-            },
-            "GDP (nominal)": {
-                "Total ($)": 91731000000,
-                "Per capita ($)": 20092
-            },
-            "Gini": 48.9,
-            "HDI": 0.839,
-            "Currency": "Balboa United States dollar"
+            "Count": 4337768.0,
+            "Density (/km2)": 56.0
         }
     }
 }

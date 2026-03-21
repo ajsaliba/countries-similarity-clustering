@@ -2,27 +2,48 @@
 <country>
   <country>Micronesia</country>
   <infobox>
+    <Area>
+      <Total__km2_>702.0</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>United States dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>4768.0</Per_capita____>
+        <Total____>451000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>5291.0</Per_capita____>
+        <Total____>500000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>40.1</Gini>
+      <HDI>0.634</HDI>
+    </Economy>
     <General>
-      <Official_language>English</Official_language>
       <Ethnic_groups>
-        <Chuukese____>48.8</Chuukese____>
-        <Pohnpeian____>24.2</Pohnpeian____>
-        <Kosraean____>6.2</Kosraean____>
-        <Yapese____>5.2</Yapese____>
-        <Outer_Yapese____>4.5</Outer_Yapese____>
         <Asian____>1.8</Asian____>
+        <Chuukese____>48.8</Chuukese____>
+        <Kosraean____>6.2</Kosraean____>
+        <Outer_Yapese____>4.5</Outer_Yapese____>
+        <Pohnpeian____>24.2</Pohnpeian____>
         <Polynesian____>1.5</Polynesian____>
+        <Yapese____>5.2</Yapese____>
         <other____>6.4</other____>
         <unknown____>1.4</unknown____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>95.3</percentage>
           <breakdown>
-            <Roman_Catholic____>52.6</Roman_Catholic____>
             <Protestant____>41.7</Protestant____>
+            <Roman_Catholic____>52.6</Roman_Catholic____>
             <other_Christian____>1</other_Christian____>
           </breakdown>
+          <percentage>95.3</percentage>
         </Christianity>
         <folk_religions____>4.1</folk_religions____>
         <none___other____>0.6</none___other____>
@@ -31,26 +52,9 @@
     <Government>
       <Government>Federal assembly-independent presidential republic under a non-partisan democracy</Government>
     </Government>
-    <Area>
-      <Total__km2_>702</Total__km2_>
-      <Water____>negligible</Water____>
-    </Area>
     <Population>
-      <Estimate>104468</Estimate>
-      <Density___km2_>158.1</Density___km2_>
+      <Count>105564.0</Count>
+      <Density___km2_>150.4</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>451000000</Total____>
-        <Per_capita____>4768</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>500000000</Total____>
-        <Per_capita____>5291</Per_capita____>
-      </GDP__nominal_>
-      <Gini>40.1</Gini>
-      <HDI>0.634</HDI>
-      <Currency>United States dollar</Currency>
-    </Economy>
   </infobox>
 </country>

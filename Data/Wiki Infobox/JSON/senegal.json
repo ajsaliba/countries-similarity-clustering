@@ -1,46 +1,56 @@
 {
     "country": "Senegal",
     "infobox": {
+        "Area": {
+            "Total (km2)": 196722.0,
+            "Water (%)": 2.1
+        },
+        "Economy": {
+            "Currency": [
+                "West African CFA franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 5498.0,
+                "Total ($)": 105428000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 1811.0,
+                "Total ($)": 34728000000.0
+            },
+            "Gini": 40.3,
+            "HDI": 0.53
+        },
         "General": {
-            "Official languages": "French",
             "Ethnic groups": {
-                "Wolof (%)": 39.7,
                 "Fula (%)": 27.5,
-                "Serer (%)": 16,
-                "Mandinka (%)": 4.9,
                 "Jola (%)": 4.2,
+                "Mandinka (%)": 4.9,
+                "Serer (%)": 16,
                 "Soninke (%)": 2.4,
+                "Wolof (%)": 39.7,
                 "others (%)": 5.4
             },
+            "Primary Language": [
+                "Diola",
+                "French",
+                "Mandinka",
+                "Pulaar",
+                "Serer",
+                "Soninke",
+                "Wolof"
+            ],
             "Religion": {
-                "Islam (%)": 97.2,
                 "Christianity (%)": 2.7,
+                "Islam (%)": 97.2,
                 "other (%)": 0.1
             }
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 196722,
-            "Water (%)": 2.1
-        },
         "Population": {
-            "Estimate": 18847519,
-            "Density (/km2)": 96
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 105428000000,
-                "Per capita ($)": 5498
-            },
-            "GDP (nominal)": {
-                "Total ($)": 34728000000,
-                "Per capita ($)": 1811
-            },
-            "Gini": 40.3,
-            "HDI": 0.53,
-            "Currency": "West African CFA franc"
+            "Count": 18847519.0,
+            "Density (/km2)": 96.0
         }
     }
 }

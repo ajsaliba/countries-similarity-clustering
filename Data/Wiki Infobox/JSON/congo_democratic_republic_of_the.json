@@ -1,38 +1,49 @@
 {
     "country": "Congo, Democratic Republic of the",
     "infobox": {
+        "Area": {
+            "Total (km2)": 2345409.0,
+            "Water (%)": 3.32
+        },
+        "Economy": {
+            "Currency": [
+                "Congolese franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 1881.0,
+                "Total ($)": 200760000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 742.0,
+                "Total ($)": 79120000000.0
+            },
+            "Gini": 42.1,
+            "HDI": 0.522
+        },
         "General": {
-            "Official languages": "French",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "French",
+                "Kikongo ya leta",
+                "Lingala",
+                "Luba-Kasai",
+                "Swahili"
+            ],
             "Religion": {
                 "Christianity (%)": 95.4,
-                "traditional faiths (%)": 2.6,
                 "Islam (%)": 1.5,
-                "others / none (%)": 0.5
+                "others / none (%)": 0.5,
+                "traditional faiths (%)": 2.6
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic"
         },
-        "Area": {
-            "Total (km2)": 2345409,
-            "Water (%)": 3.32
-        },
         "Population": {
-            "Estimate": 124388160,
-            "Density (/km2)": 48
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 200760000000,
-                "Per capita ($)": 1881
-            },
-            "GDP (nominal)": {
-                "Total ($)": 79120000000,
-                "Per capita ($)": 742
-            },
-            "Gini": 42.1,
-            "HDI": 0.522,
-            "Currency": "Congolese franc"
+            "Count": 124388160.0,
+            "Density (/km2)": 48.0
         }
     }
 }

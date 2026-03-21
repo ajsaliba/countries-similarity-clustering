@@ -1,14 +1,39 @@
 {
     "country": "Chile",
     "infobox": {
+        "Area": {
+            "Total (km2)": 756101.96,
+            "Water (%)": 2.1
+        },
+        "Economy": {
+            "Currency": [
+                "Chilean peso"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 35290.0,
+                "Total ($)": 713030000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 17180.0,
+                "Total ($)": 347170000000.0
+            },
+            "Gini": 44.8,
+            "HDI": 0.878
+        },
         "General": {
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Spanish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 70,
                     "breakdown": {
                         "Catholicism (%)": 54,
                         "Protestantism (%)": 16
-                    }
+                    },
+                    "percentage": 70
                 },
                 "no religion (%)": 26,
                 "other (%)": 4
@@ -17,26 +42,9 @@
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 756101.96,
-            "Water (%)": 2.1
-        },
         "Population": {
-            "Estimate": 19629588,
-            "Density (/km2)": 24
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 713030000000,
-                "Per capita ($)": 35290
-            },
-            "GDP (nominal)": {
-                "Total ($)": 347170000000,
-                "Per capita ($)": 17180
-            },
-            "Gini": 44.8,
-            "HDI": 0.878,
-            "Currency": "Chilean peso"
+            "Count": 19629588.0,
+            "Density (/km2)": 24.0
         }
     }
 }

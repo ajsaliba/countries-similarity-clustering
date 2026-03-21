@@ -2,38 +2,49 @@
 <country>
   <country>Congo, Democratic Republic of the</country>
   <infobox>
+    <Area>
+      <Total__km2_>2345409.0</Total__km2_>
+      <Water____>3.32</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Congolese franc</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>1881.0</Per_capita____>
+        <Total____>200760000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>742.0</Per_capita____>
+        <Total____>79120000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>42.1</Gini>
+      <HDI>0.522</HDI>
+    </Economy>
     <General>
-      <Official_languages>French</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>French</item>
+        <item>Kikongo ya leta</item>
+        <item>Lingala</item>
+        <item>Luba-Kasai</item>
+        <item>Swahili</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>95.4</Christianity____>
-        <traditional_faiths____>2.6</traditional_faiths____>
         <Islam____>1.5</Islam____>
         <others___none____>0.5</others___none____>
+        <traditional_faiths____>2.6</traditional_faiths____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>2345409</Total__km2_>
-      <Water____>3.32</Water____>
-    </Area>
     <Population>
-      <Estimate>124388160</Estimate>
-      <Density___km2_>48</Density___km2_>
+      <Count>124388160.0</Count>
+      <Density___km2_>48.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>200760000000</Total____>
-        <Per_capita____>1881</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>79120000000</Total____>
-        <Per_capita____>742</Per_capita____>
-      </GDP__nominal_>
-      <Gini>42.1</Gini>
-      <HDI>0.522</HDI>
-      <Currency>Congolese franc</Currency>
-    </Economy>
   </infobox>
 </country>

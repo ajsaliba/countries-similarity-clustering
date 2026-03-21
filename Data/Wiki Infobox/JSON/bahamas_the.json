@@ -1,8 +1,26 @@
 {
     "country": "Bahamas, The",
     "infobox": {
+        "Area": {
+            "Total (km2)": 13943.0,
+            "Water (%)": 28.0
+        },
+        "Economy": {
+            "Currency": [
+                "Bahamian dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 46524.0,
+                "Total ($)": 18989000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 35257.0,
+                "Total ($)": 14390000000.0
+            },
+            "Gini": -1.0,
+            "HDI": 0.82
+        },
         "General": {
-            "Official languages": "English",
             "Ethnic groups": {
                 "African (%)": 90.6,
                 "White (%)": 4.7,
@@ -10,41 +28,28 @@
                 "other (%)": 1.9,
                 "unspecified (%)": 0.7
             },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 93,
                     "breakdown": {
                         "Protestantism (%)": 75.1,
                         "other Christian (%)": 17.9
-                    }
+                    },
+                    "percentage": 93
                 },
-                "no religion (%)": 4.5,
                 "folk religions (%)": 1.9,
+                "no religion (%)": 4.5,
                 "other (%)": 0.6
             }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 13943,
-            "Water (%)": 28
-        },
         "Population": {
-            "Census": 412628,
+            "Count": 412628.0,
             "Density (/km2)": 25.21
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 18989000000,
-                "Per capita ($)": 46524
-            },
-            "GDP (nominal)": {
-                "Total ($)": 14390000000,
-                "Per capita ($)": 35257
-            },
-            "HDI": 0.82,
-            "Currency": "Bahamian dollar"
         }
     }
 }

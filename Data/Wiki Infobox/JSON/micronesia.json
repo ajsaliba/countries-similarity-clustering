@@ -1,27 +1,48 @@
 {
     "country": "Micronesia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 702.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "United States dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 4768.0,
+                "Total ($)": 451000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 5291.0,
+                "Total ($)": 500000000.0
+            },
+            "Gini": 40.1,
+            "HDI": 0.634
+        },
         "General": {
-            "Official language": "English",
             "Ethnic groups": {
-                "Chuukese (%)": 48.8,
-                "Pohnpeian (%)": 24.2,
-                "Kosraean (%)": 6.2,
-                "Yapese (%)": 5.2,
-                "Outer Yapese (%)": 4.5,
                 "Asian (%)": 1.8,
+                "Chuukese (%)": 48.8,
+                "Kosraean (%)": 6.2,
+                "Outer Yapese (%)": 4.5,
+                "Pohnpeian (%)": 24.2,
                 "Polynesian (%)": 1.5,
+                "Yapese (%)": 5.2,
                 "other (%)": 6.4,
                 "unknown (%)": 1.4
             },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 95.3,
                     "breakdown": {
-                        "Roman Catholic (%)": 52.6,
                         "Protestant (%)": 41.7,
+                        "Roman Catholic (%)": 52.6,
                         "other Christian (%)": 1
-                    }
+                    },
+                    "percentage": 95.3
                 },
                 "folk religions (%)": 4.1,
                 "none / other (%)": 0.6
@@ -30,26 +51,9 @@
         "Government": {
             "Government": "Federal assembly-independent presidential republic under a non-partisan democracy"
         },
-        "Area": {
-            "Total (km2)": 702,
-            "Water (%)": "negligible"
-        },
         "Population": {
-            "Estimate": 104468,
-            "Density (/km2)": 158.1
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 451000000,
-                "Per capita ($)": 4768
-            },
-            "GDP (nominal)": {
-                "Total ($)": 500000000,
-                "Per capita ($)": 5291
-            },
-            "Gini": 40.1,
-            "HDI": 0.634,
-            "Currency": "United States dollar"
+            "Count": 105564.0,
+            "Density (/km2)": 150.4
         }
     }
 }

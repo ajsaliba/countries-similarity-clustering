@@ -1,21 +1,42 @@
 {
     "country": "Poland",
     "infobox": {
+        "Area": {
+            "Total (km2)": 312696.0,
+            "Water (%)": 1.48
+        },
+        "Economy": {
+            "Currency": [
+                "Złoty"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 55340.0,
+                "Total ($)": 2019000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 28484.0,
+                "Total ($)": 1039000000000.0
+            },
+            "Gini": 26.3,
+            "HDI": 0.906
+        },
         "General": {
-            "Official language": "Polish",
             "Ethnic groups": {
                 "Polish (%)": 98.8,
-                "only Polish (%)": 96.3,
                 "Polish and others (%)": 2.6,
+                "only Polish (%)": 96.3,
                 "only non-Polish (%)": 1.1
             },
+            "Primary Language": [
+                "Polish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 72.4,
                     "breakdown": {
                         "Catholicism (%)": 71.3,
                         "other Christian (%)": 1.1
-                    }
+                    },
+                    "percentage": 72.4
                 },
                 "no religion (%)": 6.9,
                 "other (%)": 0.1,
@@ -25,26 +46,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 312696,
-            "Water (%)": 1.48
-        },
         "Population": {
-            "Census": 37893970,
-            "Density (/km2)": 126
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 2019000000000,
-                "Per capita ($)": 55340
-            },
-            "GDP (nominal)": {
-                "Total ($)": 1039000000000,
-                "Per capita ($)": 28484
-            },
-            "Gini": 26.3,
-            "HDI": 0.906,
-            "Currency": "Złoty"
+            "Count": 37893970.0,
+            "Density (/km2)": 126.0
         }
     }
 }

@@ -2,17 +2,39 @@
 <country>
   <country>Mauritius</country>
   <infobox>
+    <Area>
+      <Total__km2_>2040.0</Total__km2_>
+      <Water____>0.07</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Mauritian rupee</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>33954.0</Per_capita____>
+        <Total____>42810000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>13099.0</Per_capita____>
+        <Total____>16515000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>36.8</Gini>
+      <HDI>0.806</HDI>
+    </Economy>
     <General>
-      <Official_languages>None English French</Official_languages>
       <Ethnic_groups>
-        <Indian____>67</Indian____>
-        <Creole____>28</Creole____>
         <Chinese____>3</Chinese____>
+        <Creole____>28</Creole____>
         <French____>2</French____>
+        <Indian____>67</Indian____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>French</item>
+      </Primary_Language>
       <Religion>
-        <Hinduism____>47.9</Hinduism____>
         <Christianity____>32.3</Christianity____>
+        <Hinduism____>47.9</Hinduism____>
         <Islam____>18.2</Islam____>
         <others___none____>1.6</others___none____>
       </Religion>
@@ -20,26 +42,9 @@
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>2040</Total__km2_>
-      <Water____>0.07</Water____>
-    </Area>
     <Population>
-      <Census>1235260</Census>
+      <Count>1235260.0</Count>
       <Density___km2_>605.5</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>42810000000</Total____>
-        <Per_capita____>33954</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>16515000000</Total____>
-        <Per_capita____>13099</Per_capita____>
-      </GDP__nominal_>
-      <Gini>36.8</Gini>
-      <HDI>0.806</HDI>
-      <Currency>Mauritian rupee</Currency>
-    </Economy>
   </infobox>
 </country>

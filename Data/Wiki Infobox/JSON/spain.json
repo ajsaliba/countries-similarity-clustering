@@ -1,19 +1,43 @@
 {
     "country": "Spain",
     "infobox": {
+        "Area": {
+            "Total (km2)": 506030.0,
+            "Water (%)": 0.89
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 56888.0,
+                "Total ($)": 2829000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 38040.0,
+                "Total ($)": 1891000000000.0
+            },
+            "Gini": 31.2,
+            "HDI": 0.918
+        },
         "General": {
-            "Official language": "Spanish",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Spanish"
+            ],
             "Religion": {
                 "Roman Catholicism": {
-                    "percentage": 58.6,
                     "breakdown": {
                         "non-practicing Catholic (%)": 40,
                         "practicing Catholic (%)": 18.6
-                    }
+                    },
+                    "percentage": 58.6
                 },
+                "agnostic (%)": 11.1,
                 "atheist (%)": 13.3,
                 "indifferent or irreligious (%)": 11.7,
-                "agnostic (%)": 11.1,
                 "other religion (%)": 3.6,
                 "unanswered (%)": 1.7
             }
@@ -21,26 +45,9 @@
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 506030,
-            "Water (%)": 0.89
-        },
         "Population": {
-            "Estimate": 49570725,
-            "Density (/km2)": 98
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 2829000000000,
-                "Per capita ($)": 56888
-            },
-            "GDP (nominal)": {
-                "Total ($)": 1891000000000,
-                "Per capita ($)": 38040
-            },
-            "Gini": 31.2,
-            "HDI": 0.918,
-            "Currency": "Euro"
+            "Count": 49570725.0,
+            "Density (/km2)": 98.0
         }
     }
 }

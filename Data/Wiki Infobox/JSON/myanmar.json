@@ -1,34 +1,55 @@
 {
     "country": "Myanmar",
     "infobox": {
+        "Area": {
+            "Total (km2)": 676579.0,
+            "Water (%)": 3.06
+        },
+        "Economy": {
+            "Currency": [
+                "Myanmar kyat"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 4950.0,
+                "Total ($)": 273200000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 1110.0,
+                "Total ($)": 60560000000.0
+            },
+            "Gini": 30.7,
+            "HDI": 0.609
+        },
         "General": {
-            "Official language": "Burmese",
             "Ethnic groups": {
                 "Bamar (%)": 68.78,
-                "Karen (%)": 6.69,
-                "Rakhine (%)": 4.61,
-                "Shan (%)": 4.51,
-                "Mon (%)": 2.19,
                 "Chin (%)": 2.09,
                 "Kachin (%)": 1.5,
-                "Karenni (%)": 0.39
+                "Karen (%)": 6.69,
+                "Karenni (%)": 0.39,
+                "Mon (%)": 2.19,
+                "Rakhine (%)": 4.61,
+                "Shan (%)": 4.51
             },
+            "Primary Language": [
+                "Burmese"
+            ],
             "Religion": {
                 "Buddhism ( official ) (%)": 87.9,
                 "Christianity": {
-                    "percentage": 6.2,
                     "breakdown": {
-                        "Protestantism (%)": 4.91,
-                        "Catholicism (%)": 1.29
-                    }
+                        "Catholicism (%)": 1.29,
+                        "Protestantism (%)": 4.91
+                    },
+                    "percentage": 6.2
                 },
                 "Islam (%)": 4.3,
                 "folk religion": {
-                    "percentage": 0.8,
                     "breakdown": {
                         "Hinduism (%)": 0.5,
                         "no religion (%)": 0.1
-                    }
+                    },
+                    "percentage": 0.8
                 },
                 "other (%)": 0.2
             }
@@ -36,26 +57,9 @@
         "Government": {
             "Government": "Unitary assembly-independent republic under a military junta"
         },
-        "Area": {
-            "Total (km2)": 676579,
-            "Water (%)": 3.06
-        },
         "Population": {
-            "Estimate": 55770232,
-            "Density": "217/sq mi"
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 273200000000,
-                "Per capita ($)": 4950
-            },
-            "GDP (nominal)": {
-                "Total ($)": 60560000000,
-                "Per capita ($)": 1110
-            },
-            "Gini": 30.7,
-            "HDI": 0.609,
-            "Currency": "Myanmar kyat"
+            "Count": 55770232.0,
+            "Density (/km2)": 83.8
         }
     }
 }

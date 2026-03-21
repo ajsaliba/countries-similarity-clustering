@@ -1,34 +1,43 @@
 {
     "country": "Egypt",
     "infobox": {
+        "Area": {
+            "Total (km2)": 1010408.0,
+            "Water (%)": 0.632
+        },
+        "Economy": {
+            "Currency": [
+                "Egyptian pound"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 21668.0,
+                "Total ($)": 2372000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 3174.0,
+                "Total ($)": 347342000000.0
+            },
+            "Gini": 28.5,
+            "HDI": 0.754
+        },
         "General": {
-            "Official languages": "Arabic",
-            "Religion": "See Religion in Egypt"
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Arabic",
+                "Egyptian Arabic"
+            ],
+            "Religion": {
+                "See Religion in Egypt": 100.0
+            }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic under an authoritarian government"
         },
-        "Area": {
-            "Total (km2)": 1010408,
-            "Water (%)": 0.632
-        },
         "Population": {
-            "Estimate": 107868296,
-            "Census": 94798827,
+            "Count": 107868296.0,
             "Density (/km2)": 106.8
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 2372000000000,
-                "Per capita ($)": 21668
-            },
-            "GDP (nominal)": {
-                "Total ($)": 347342000000,
-                "Per capita ($)": 3174
-            },
-            "Gini": 28.5,
-            "HDI": 0.754,
-            "Currency": "Egyptian pound"
         }
     }
 }

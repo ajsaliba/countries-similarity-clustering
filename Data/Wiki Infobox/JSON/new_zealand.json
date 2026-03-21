@@ -1,20 +1,43 @@
 {
     "country": "New Zealand",
     "infobox": {
+        "Area": {
+            "Total (km2)": 263310.0,
+            "Water (%)": 1.6
+        },
+        "Economy": {
+            "Currency": [
+                "New Zealand dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 55450.0,
+                "Total ($)": 298930000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 46013.0,
+                "Total ($)": 248670000000.0
+            },
+            "Gini": 30.0,
+            "HDI": 0.938
+        },
         "General": {
-            "Official languages": "English Māori NZ Sign Language",
             "Ethnic groups": {
-                "European (%)": 67.8,
-                "Māori (%)": 19.6,
                 "Asian (%)": 17.3,
-                "Pacific peoples (%)": 8.9,
+                "European (%)": 67.8,
                 "ME / LA / African (%)": 1.9,
+                "Māori (%)": 19.6,
+                "Pacific peoples (%)": 8.9,
                 "other (%)": 1.1
             },
+            "Primary Language": [
+                "English",
+                "Māori",
+                "NZ Sign Language"
+            ],
             "Religion": {
-                "no religion (%)": 51.6,
                 "Christianity (%)": 32.3,
                 "Hinduism (%)": 2.9,
+                "no religion (%)": 51.6,
                 "other (%)": 6.3,
                 "undeclared (%)": 6.9
             }
@@ -22,27 +45,9 @@
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 263310,
-            "Water (%)": 1.6
-        },
         "Population": {
-            "Estimate": 5344270,
-            "Census": 4993923,
+            "Count": 5344340.0,
             "Density (/km2)": 19.9
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 298930000000,
-                "Per capita ($)": 55450
-            },
-            "GDP (nominal)": {
-                "Total ($)": 248670000000,
-                "Per capita ($)": 46013
-            },
-            "Gini": 30.0,
-            "HDI": 0.938,
-            "Currency": "New Zealand dollar"
         }
     }
 }

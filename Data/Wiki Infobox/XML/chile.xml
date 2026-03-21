@@ -2,14 +2,39 @@
 <country>
   <country>Chile</country>
   <infobox>
+    <Area>
+      <Total__km2_>756101.96</Total__km2_>
+      <Water____>2.1</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Chilean peso</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>35290.0</Per_capita____>
+        <Total____>713030000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>17180.0</Per_capita____>
+        <Total____>347170000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>44.8</Gini>
+      <HDI>0.878</HDI>
+    </Economy>
     <General>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Spanish</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>70</percentage>
           <breakdown>
             <Catholicism____>54</Catholicism____>
             <Protestantism____>16</Protestantism____>
           </breakdown>
+          <percentage>70</percentage>
         </Christianity>
         <no_religion____>26</no_religion____>
         <other____>4</other____>
@@ -18,26 +43,9 @@
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>756101.96</Total__km2_>
-      <Water____>2.1</Water____>
-    </Area>
     <Population>
-      <Estimate>19629588</Estimate>
-      <Density___km2_>24</Density___km2_>
+      <Count>19629588.0</Count>
+      <Density___km2_>24.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>713030000000</Total____>
-        <Per_capita____>35290</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>347170000000</Total____>
-        <Per_capita____>17180</Per_capita____>
-      </GDP__nominal_>
-      <Gini>44.8</Gini>
-      <HDI>0.878</HDI>
-      <Currency>Chilean peso</Currency>
-    </Economy>
   </infobox>
 </country>

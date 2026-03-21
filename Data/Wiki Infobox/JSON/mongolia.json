@@ -1,45 +1,49 @@
 {
     "country": "Mongolia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 1564116.0,
+            "Water (%)": 0.67
+        },
+        "Economy": {
+            "Currency": [
+                "Tögrög"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 20450.0,
+                "Total ($)": 73280000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 7200.0,
+                "Total ($)": 25800000000.0
+            },
+            "Gini": 32.7,
+            "HDI": 0.747
+        },
         "General": {
-            "Official languages": "Mongolian",
             "Ethnic groups": {
-                "Mongols (%)": 95.6,
                 "Kazakhs (%)": 3.8,
+                "Mongols (%)": 95.6,
                 "other (%)": 0.6
             },
+            "Primary Language": [
+                "Mongolian"
+            ],
             "Religion": {
                 "Buddhism (%)": 51.7,
-                "No religion (%)": 40.6,
-                "Islam (%)": 3.2,
-                "Shamanism (%)": 2.5,
                 "Christianity (%)": 1.3,
+                "Islam (%)": 3.2,
+                "No religion (%)": 40.6,
+                "Shamanism (%)": 2.5,
                 "other (%)": 0.7
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic"
         },
-        "Area": {
-            "Total (km2)": 1564116,
-            "Water (%)": 0.67
-        },
         "Population": {
-            "Estimate": 3504741,
+            "Count": 3504741.0,
             "Density (/km2)": 2.24
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 73280000000,
-                "Per capita ($)": 20450
-            },
-            "GDP (nominal)": {
-                "Total ($)": 25800000000,
-                "Per capita ($)": 7200
-            },
-            "Gini": 32.7,
-            "HDI": 0.747,
-            "Currency": "Tögrög"
         }
     }
 }

@@ -2,53 +2,58 @@
 <country>
   <country>India</country>
   <infobox>
+    <Area>
+      <Total__km2_>3287263.0</Total__km2_>
+      <Water____>9.6</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Indian rupee</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>12132.0</Per_capita____>
+        <Total____>17647000000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>2878.0</Per_capita____>
+        <Total____>4187000000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>25.5</Gini>
+      <HDI>0.685</HDI>
+    </Economy>
     <General>
-      <Official_languages>Hindi English</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Hindi</item>
+      </Primary_Language>
       <Religion>
+        <Christianity>
+          <breakdown>
+            <Buddhism____>0.7</Buddhism____>
+            <Sikhism____>1.7</Sikhism____>
+          </breakdown>
+          <percentage>2.3</percentage>
+        </Christianity>
         <Hinduism____>79.8</Hinduism____>
         <Islam____>14.2</Islam____>
-        <Christianity>
-          <percentage>2.3</percentage>
-          <breakdown>
-            <Sikhism____>1.7</Sikhism____>
-            <Buddhism____>0.7</Buddhism____>
-          </breakdown>
-        </Christianity>
         <Jainism>
-          <percentage>0.4</percentage>
           <breakdown>
             <unaffiliated____>0.23</unaffiliated____>
           </breakdown>
+          <percentage>0.4</percentage>
         </Jainism>
         <other____>0.65</other____>
       </Religion>
     </General>
-    <Population>
-      <Largest_city_by_city_proper_population>Mumbai</Largest_city_by_city_proper_population>
-      <Estimate>1428627663</Estimate>
-      <Census>1210854977</Census>
-      <Density___km2_>433.5</Density___km2_>
-    </Population>
-    <Area>
-      <Largest_city_by_metropolitan_area_population>Delhi</Largest_city_by_metropolitan_area_population>
-      <Total__km2_>3287263</Total__km2_>
-      <Water____>9.6</Water____>
-    </Area>
     <Government>
       <Government>Federal parliamentary republic</Government>
     </Government>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>17647000000000</Total____>
-        <Per_capita____>12132</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>4187000000000</Total____>
-        <Per_capita____>2878</Per_capita____>
-      </GDP__nominal_>
-      <Gini>25.5</Gini>
-      <HDI>0.685</HDI>
-      <Currency>Indian rupee</Currency>
-    </Economy>
+    <Population>
+      <Count>1428627663.0</Count>
+      <Density___km2_>433.5</Density___km2_>
+    </Population>
   </infobox>
 </country>

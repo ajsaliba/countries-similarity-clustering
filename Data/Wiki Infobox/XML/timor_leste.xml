@@ -2,48 +2,55 @@
 <country>
   <country>Timor-Leste</country>
   <infobox>
+    <Area>
+      <Total__km2_>15007.0</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>United States dollar Timor-Leste centavo</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>4920.0</Per_capita____>
+        <Total____>6970000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>1490.0</Per_capita____>
+        <Total____>2120000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>28.7</Gini>
+      <HDI>0.634</HDI>
+    </Economy>
     <General>
-      <Official_languages>Portuguese Tetum</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Portuguese</item>
+        <item>Tetum</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>99.53</percentage>
           <breakdown>
             <Catholicism____>97.57</Catholicism____>
             <Protestantism____>1.96</Protestantism____>
           </breakdown>
+          <percentage>99.53</percentage>
         </Christianity>
         <Islam>
-          <percentage>0.24</percentage>
           <breakdown>
             <other____>0.23</other____>
           </breakdown>
+          <percentage>0.24</percentage>
         </Islam>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>14950</Total__km2_>
-      <Water____>Negligible</Water____>
-    </Area>
     <Population>
-      <Estimate>1354662</Estimate>
-      <Census>1341737</Census>
-      <Density___km2_>94</Density___km2_>
+      <Count>1354662.0</Count>
+      <Density___km2_>94.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>6970000000</Total____>
-        <Per_capita____>4920</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>2120000000</Total____>
-        <Per_capita____>1490</Per_capita____>
-      </GDP__nominal_>
-      <Gini>28.7</Gini>
-      <HDI>0.634</HDI>
-      <Currency>United States dollar Timor-Leste centavo</Currency>
-    </Economy>
   </infobox>
 </country>

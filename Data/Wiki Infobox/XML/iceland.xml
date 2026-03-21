@@ -2,51 +2,55 @@
 <country>
   <country>Iceland</country>
   <infobox>
+    <Area>
+      <Total__km2_>103125.0</Total__km2_>
+      <Water____>2.07</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Icelandic króna</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>81220.0</Per_capita____>
+        <Total____>31076000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>90280.0</Per_capita____>
+        <Total____>35310000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>23.2</Gini>
+      <HDI>0.972</HDI>
+    </Economy>
     <General>
-      <Official_language>Icelandic</Official_language>
       <Ethnic_groups>
-        <Icelandic____>86</Icelandic____>
-        <Polish____>6</Polish____>
-        <Lithuanian____>1</Lithuanian____>
         <Filipino____>0.8</Filipino____>
+        <Icelandic____>86</Icelandic____>
+        <Lithuanian____>1</Lithuanian____>
+        <Polish____>6</Polish____>
         <other____>7</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Icelandic</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>72.4</percentage>
           <breakdown>
             <Church_of_Iceland___official______>60.9</Church_of_Iceland___official______>
             <other_Christian____>11.5</other_Christian____>
           </breakdown>
+          <percentage>72.4</percentage>
         </Christianity>
         <no_religion____>25.2</no_religion____>
-        <_satr_arf_lagi_____>1.5</_satr_arf_lagi_____>
         <other____>0.9</other____>
+        <_satr_arf_lagi_____>1.5</_satr_arf_lagi_____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>103125</Total__km2_>
-      <Water____>2.07</Water____>
-    </Area>
     <Population>
-      <Census>394530</Census>
+      <Count>394530.0</Count>
       <Density___km2_>3.78</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>31076000000</Total____>
-        <Per_capita____>81220</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>35310000000</Total____>
-        <Per_capita____>90280</Per_capita____>
-      </GDP__nominal_>
-      <Gini>23.2</Gini>
-      <HDI>0.972</HDI>
-      <Currency>Icelandic króna</Currency>
-    </Economy>
   </infobox>
 </country>

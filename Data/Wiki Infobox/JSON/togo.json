@@ -1,53 +1,56 @@
 {
     "country": "Togo",
     "infobox": {
-        "General": {
-            "Official languages": "French",
-            "Ethnic groups": {
-                ") Aja , Ewe and Mina ( (%)": 94.4,
-                ") Kabye and Tem ( (%)": 42.4,
-                ") Akan and Gurma ( (%)": 25.9,
-                ") Kposo and Akebu ( (%)": 17.1,
-                ") Ana-Ife ( (%)": 4.1,
-                ") Other West African groups ( (%)": 3.2,
-                ") non-African ( (%)": 1.7,
-                ") (%)": 5.6
+        "Area": {
+            "Total (km2)": 56785.0,
+            "Water (%)": 4.2
+        },
+        "Economy": {
+            "Currency": [
+                "West African CFA franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 3470.0,
+                "Total ($)": 33050000000.0
             },
+            "GDP (nominal)": {
+                "Per capita ($)": 1050.0,
+                "Total ($)": 10020000000.0
+            },
+            "Gini": 43.1,
+            "HDI": 0.571
+        },
+        "General": {
+            "Ethnic groups": {
+                ") (%)": 5.6,
+                ") Aja , Ewe and Mina ( (%)": 94.4,
+                ") Akan and Gurma ( (%)": 25.9,
+                ") Ana-Ife ( (%)": 4.1,
+                ") Kabye and Tem ( (%)": 42.4,
+                ") Kposo and Akebu ( (%)": 17.1,
+                ") Other West African groups ( (%)": 3.2,
+                ") non-African ( (%)": 1.7
+            },
+            "Primary Language": [
+                "French"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 50,
                     "breakdown": {
-                        "traditional faiths (%)": 33,
+                        "Baháʼí faith (%)": 1,
                         "Islam (%)": 16,
-                        "Baháʼí faith (%)": 1
-                    }
+                        "traditional faiths (%)": 33
+                    },
+                    "percentage": 50
                 }
             }
         },
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 56785,
-            "Water (%)": 4.2
-        },
         "Population": {
-            "Estimate": 9583381,
-            "Census": 8095498,
+            "Count": 9583381.0,
             "Density (/km2)": 125.9
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 33050000000,
-                "Per capita ($)": 3470
-            },
-            "GDP (nominal)": {
-                "Total ($)": 10020000000,
-                "Per capita ($)": 1050
-            },
-            "Gini": 43.1,
-            "HDI": 0.571,
-            "Currency": "West African CFA franc"
         }
     }
 }

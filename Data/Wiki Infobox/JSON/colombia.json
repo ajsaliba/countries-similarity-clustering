@@ -1,45 +1,49 @@
 {
     "country": "Colombia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 1141748.0,
+            "Water (%)": 2.1
+        },
+        "Economy": {
+            "Currency": [
+                "Colombian peso"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 19770.0,
+                "Total ($)": 1042000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 7327.0,
+                "Total ($)": 386076000000.0
+            },
+            "Gini": 53.9,
+            "HDI": 0.788
+        },
         "General": {
-            "Official languages": "Spanish",
             "Ethnic groups": {
-                "Mestizo - White (%)": 84.99,
                 "Black (%)": 9.34,
                 "Indigenous (%)": 4.31,
+                "Mestizo - White (%)": 84.99,
                 "Romanis (%)": 0.01,
                 "not specified (%)": 1.35
             },
+            "Primary Language": [
+                "Spanish"
+            ],
             "Religion": {
                 "Catholicism (%)": 70,
-                "other Christian (%)": 17,
                 "no religion (%)": 11,
-                "other (%)": 1.9
+                "other (%)": 1.9,
+                "other Christian (%)": 17
             }
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 1141748,
-            "Water (%)": 2.1
-        },
         "Population": {
-            "Estimate": 52695952,
+            "Count": 52695952.0,
             "Density (/km2)": 46.15
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 1042000000000,
-                "Per capita ($)": 19770
-            },
-            "GDP (nominal)": {
-                "Total ($)": 386076000000,
-                "Per capita ($)": 7327
-            },
-            "Gini": 53.9,
-            "HDI": 0.788,
-            "Currency": "Colombian peso"
         }
     }
 }

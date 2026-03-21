@@ -1,24 +1,46 @@
 {
     "country": "Philippines",
     "infobox": {
+        "Area": {
+            "Total (km2)": 300000.0,
+            "Water (%)": 0.61
+        },
+        "Economy": {
+            "Currency": [
+                "Philippine peso"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 12930.0,
+                "Total ($)": 1488000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 4350.0,
+                "Total ($)": 497050000000.0
+            },
+            "Gini": 39.3,
+            "HDI": 0.72
+        },
         "General": {
-            "Official languages": "Filipino English",
             "Ethnic groups": {
-                "Tagalog (%)": 26,
-                "Bisaya (%)": 14.3,
-                "Ilocano (%)": 8,
-                "Cebuano (%)": 8,
-                "Ilonggo (%)": 7.9,
                 "Bicolano (%)": 6.5,
+                "Bisaya (%)": 14.3,
+                "Cebuano (%)": 8,
+                "Ilocano (%)": 8,
+                "Ilonggo (%)": 7.9,
+                "Tagalog (%)": 26,
                 "other (%)": 20.3
             },
+            "Primary Language": [
+                "English",
+                "Filipino"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 85.3,
                     "breakdown": {
                         "Catholicism (%)": 78.8,
                         "other Christian (%)": 6.5
-                    }
+                    },
+                    "percentage": 85.3
                 },
                 "Islam (%)": 6.4,
                 "other (%)": 8.2
@@ -27,26 +49,9 @@
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 300000,
-            "Water (%)": 0.61
-        },
         "Population": {
-            "Census": 112729484,
+            "Count": 112729484.0,
             "Density (/km2)": 363.45
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 1488000000000,
-                "Per capita ($)": 12930
-            },
-            "GDP (nominal)": {
-                "Total ($)": 497050000000,
-                "Per capita ($)": 4350
-            },
-            "Gini": 39.3,
-            "HDI": 0.72,
-            "Currency": "Philippine peso"
         }
     }
 }

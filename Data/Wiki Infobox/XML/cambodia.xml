@@ -2,44 +2,48 @@
 <country>
   <country>Cambodia</country>
   <infobox>
+    <Area>
+      <Total__km2_>181035.0</Total__km2_>
+      <Water____>2.5</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Riel United States dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>8650.0</Per_capita____>
+        <Total____>150050000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>2870.0</Per_capita____>
+        <Total____>49800000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>23.6</Gini>
+      <HDI>0.606</HDI>
+    </Economy>
     <General>
-      <Official_languages>Khmer</Official_languages>
       <Ethnic_groups>
-        <Khmer____>95.4</Khmer____>
         <Cham____>2.4</Cham____>
         <Chinese____>1.5</Chinese____>
+        <Khmer____>95.4</Khmer____>
         <others____>0.8</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Khmer</item>
+      </Primary_Language>
       <Religion>
         <Buddhism___official______>96.5</Buddhism___official______>
-        <Islam____>2.6</Islam____>
         <Christianity____>0.3</Christianity____>
+        <Islam____>2.6</Islam____>
         <others____>0.5</others____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional elective monarchy under a hereditary dictatorship</Government>
     </Government>
-    <Area>
-      <Total__km2_>181035</Total__km2_>
-      <Water____>2.5</Water____>
-    </Area>
     <Population>
-      <Estimate>17638801</Estimate>
+      <Count>17638801.0</Count>
       <Density___km2_>94.4</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>150050000000</Total____>
-        <Per_capita____>8650</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>49800000000</Total____>
-        <Per_capita____>2870</Per_capita____>
-      </GDP__nominal_>
-      <Gini>23.6</Gini>
-      <HDI>0.606</HDI>
-      <Currency>Riel United States dollar</Currency>
-    </Economy>
   </infobox>
 </country>

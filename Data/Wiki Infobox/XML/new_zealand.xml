@@ -2,20 +2,43 @@
 <country>
   <country>New Zealand</country>
   <infobox>
+    <Area>
+      <Total__km2_>263310.0</Total__km2_>
+      <Water____>1.6</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>New Zealand dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>55450.0</Per_capita____>
+        <Total____>298930000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>46013.0</Per_capita____>
+        <Total____>248670000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>30.0</Gini>
+      <HDI>0.938</HDI>
+    </Economy>
     <General>
-      <Official_languages>English Māori NZ Sign Language</Official_languages>
       <Ethnic_groups>
-        <European____>67.8</European____>
-        <M_ori____>19.6</M_ori____>
         <Asian____>17.3</Asian____>
-        <Pacific_peoples____>8.9</Pacific_peoples____>
+        <European____>67.8</European____>
         <ME___LA___African____>1.9</ME___LA___African____>
+        <M_ori____>19.6</M_ori____>
+        <Pacific_peoples____>8.9</Pacific_peoples____>
         <other____>1.1</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Māori</item>
+        <item>NZ Sign Language</item>
+      </Primary_Language>
       <Religion>
-        <no_religion____>51.6</no_religion____>
         <Christianity____>32.3</Christianity____>
         <Hinduism____>2.9</Hinduism____>
+        <no_religion____>51.6</no_religion____>
         <other____>6.3</other____>
         <undeclared____>6.9</undeclared____>
       </Religion>
@@ -23,27 +46,9 @@
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>263310</Total__km2_>
-      <Water____>1.6</Water____>
-    </Area>
     <Population>
-      <Estimate>5344270</Estimate>
-      <Census>4993923</Census>
+      <Count>5344340.0</Count>
       <Density___km2_>19.9</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>298930000000</Total____>
-        <Per_capita____>55450</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>248670000000</Total____>
-        <Per_capita____>46013</Per_capita____>
-      </GDP__nominal_>
-      <Gini>30.0</Gini>
-      <HDI>0.938</HDI>
-      <Currency>New Zealand dollar</Currency>
-    </Economy>
   </infobox>
 </country>

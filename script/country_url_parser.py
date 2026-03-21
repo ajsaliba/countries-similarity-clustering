@@ -86,6 +86,7 @@ class CountryInfoboxExtractor:
                 "General",
                 (
                     "official language",
+                    "national language",
                     "recognized",
                     "recognised",
                     "ethnic",
@@ -244,23 +245,52 @@ class CountryInfoboxExtractor:
     # Only these fields are kept in the General section
     _allowed_general_fields: tuple[str, ...] = (
         "official language",
+        "national language",
+        "recognised national language",
+        "recognized national language",
         "ethnic group",
         "religion",
     )
 
+    # Fields to exclude from the Area section
+    _excluded_area_fields: tuple[str, ...] = (
+        "excluding the galapagos",
+        "metropolitan france",
+        "largest metropolitan",
+        "largest city by metropolitan",
+        "gaza strip",
+        "west bank",
+        "excluding kosovo",
+        "largest planning area",
+    )
+
+    # Fields to exclude from the Population section
+    _excluded_population_fields: tuple[str, ...] = (
+        "largest city by urban",
+        "largest city by municipal",
+        "largest city by city proper",
+        "denmark",
+        "greenland and faroe",
+    )
+
     def is_excluded_field(self, key: str, section: str) -> bool:
         """Check if a field should be excluded based on section and key."""
+        key_lower = key.lower()
         if section == "General":
-            key_lower = key.lower()
             # Only keep Official languages, Ethnic groups, and Religion
             if not any(allowed in key_lower for allowed in self._allowed_general_fields):
                 return True
         if section == "Government":
             # Only keep the government type field, exclude all others
-            if key.lower() != self.government_only_field:
+            if key_lower != self.government_only_field:
+                return True
+        if section == "Area":
+            if any(excl in key_lower for excl in self._excluded_area_fields):
                 return True
         if section == "Population":
-            if "date format" in key.lower():
+            if "date format" in key_lower:
+                return True
+            if any(excl in key_lower for excl in self._excluded_population_fields):
                 return True
         return False
 
@@ -414,10 +444,15 @@ class CountryInfoboxExtractor:
 
         # Fallback: fill missing Religion / Ethnic groups from article body
         general = parsed.get("General", {})
-        has_religion = "Religion" in general and not (
-            isinstance(general.get("Religion"), str)
-            and "see" in general.get("Religion", "").lower()
-        )
+        religion_val = general.get("Religion")
+        # Detect "See Religion in X" placeholders — can be str or list
+        is_see_placeholder = False
+        if isinstance(religion_val, str) and "see" in religion_val.lower():
+            is_see_placeholder = True
+        elif isinstance(religion_val, list):
+            if any(isinstance(v, str) and "see" in v.lower() for v in religion_val):
+                is_see_placeholder = True
+        has_religion = "Religion" in general and not is_see_placeholder
         has_ethnic = any("ethnic" in k.lower() for k in general)
 
         if not has_religion or not has_ethnic:
@@ -428,10 +463,6 @@ class CountryInfoboxExtractor:
                 parsed["General"]["Religion"] = body_data["Religion"]
             if not has_ethnic and body_data.get("Ethnic groups"):
                 parsed["General"]["Ethnic groups"] = body_data["Ethnic groups"]
-            # Remove "See X" placeholder if we got real data
-            if has_religion is False and isinstance(general.get("Religion"), str):
-                if body_data.get("Religion"):
-                    parsed["General"]["Religion"] = body_data["Religion"]
 
         if "General" in parsed and not parsed["General"]:
             del parsed["General"]
@@ -477,18 +508,10 @@ class CountryInfoboxExtractor:
         # Normalize "percent" to "%"
         text = re.sub(r"(\d)\s+percent\b", r"\1%", text, flags=re.IGNORECASE)
 
-        # Pattern 1: "X% Label" — e.g., "49.7% Christianity"
+        # Pattern 1: "Label X%" or "Label at X%" — e.g., "Christianity 63%"
+        # Run this first so "Christianity 63%" wins over "63% Islam"
         for m in re.finditer(
-            r"(\d+(?:\.\d+)?)\s*%\s+(?:are\s+|identified\s+as\s+|of\s+the\s+population\s+)?([A-Z][a-zA-Zé\- ]{1,40})",
-            text,
-        ):
-            pct, label = float(m.group(1)), m.group(2).strip().rstrip(" .,;and")
-            if label and 0 < pct <= 100:
-                results[label] = pct
-
-        # Pattern 2: "Label X%" or "Label at X%" or "Label (X%)"
-        for m in re.finditer(
-            r"([A-Z][a-zA-Zé\- ]{1,40?})\s+(?:at\s+|represent(?:ing|s)?\s+|with\s+|comprising\s+)?(\d+(?:\.\d+)?)\s*%",
+            r"([A-Z][a-zA-Zé\- ]{1,40})\s+(?:at\s+|represent(?:ing|s)?\s+|with\s+|comprising\s+)?(\d+(?:\.\d+)?)\s*%",
             text,
         ):
             label, pct = m.group(1).strip().rstrip(" .,;and"), float(m.group(2))
@@ -496,7 +519,50 @@ class CountryInfoboxExtractor:
                 if label not in results:
                     results[label] = pct
 
-        return results
+        # Pattern 2: "X% Label" — e.g., "49.7% Christianity"
+        # Also handles: "X% are Muslim", "X% followed Islam",
+        # "X% of the population adhered to Christianity"
+        # Only add labels not already found by Pattern 1
+        for m in re.finditer(
+            r"(\d+(?:\.\d+)?)\s*%\s+"
+            r"(?:(?:of\s+the\s+population\s+)?(?:are\s+|were\s+|identified\s+as\s+"
+            r"|adhered?\s+to\s+|followed?\s+|practiced?\s+|observed?\s+))?"
+            r"([A-Z][a-zA-Zé\- ]{1,40})",
+            text,
+        ):
+            pct, label = float(m.group(1)), m.group(2).strip().rstrip(" .,;and")
+            if label and 0 < pct <= 100:
+                if label not in results:
+                    results[label] = pct
+
+        # Filter out noise: short labels, common filler words, sentence fragments
+        noise_words = {"An", "The", "In", "As", "At", "Or", "By", "It", "Of", "On",
+                       "About", "Around", "Between", "Some", "Each", "Over", "Under"}
+        # Synonyms: if both appear, keep only the canonical form
+        synonyms = {"Muslim": "Islam", "Christian": "Christianity", "Hindu": "Hinduism",
+                     "Buddhist": "Buddhism", "Jewish": "Judaism"}
+        cleaned: dict[str, float] = {}
+        for k, v in results.items():
+            if len(k) < 3 or k in noise_words:
+                continue
+            # Skip labels with more than 3 words (likely sentence fragments)
+            if len(k.split()) > 3:
+                continue
+            # Skip labels starting with common filler words
+            first_word = k.split()[0]
+            if first_word in noise_words:
+                continue
+            # Skip labels that are just prefixes of other labels
+            is_prefix = any(
+                other != k and other.startswith(k) for other in results
+            )
+            if is_prefix:
+                continue
+            # Deduplicate synonyms — skip if the canonical form already exists
+            if k in synonyms and synonyms[k] in results:
+                continue
+            cleaned[k] = v
+        return cleaned
 
     def _parse_demographics_from_body(self, soup: BeautifulSoup) -> dict[str, Any]:
         """Parse Religion and Ethnic group data from the article body as fallback."""
@@ -796,6 +862,49 @@ class CountryInfoboxExtractor:
                 pass
         return value
 
+    @staticmethod
+    def _fix_area_special_cases(normalized: dict[str, Any]) -> None:
+        """Handle countries whose Area section lacks a 'Total' field.
+
+        - Denmark (Danish Realm): sum Denmark + Faroe Islands + Greenland.
+        - Moldova: rename 'Incl. Transnistria' to 'Total' and drop 'Excl. Transnistria'.
+        """
+        area = normalized.get("Area")
+        if not isinstance(area, dict):
+            return
+
+        # Already has a Total — nothing to do
+        if any("total" in k.lower() for k in area):
+            return
+
+        # Moldova: "Incl. Transnistria (km2)" → "Total (km2)"
+        incl_key = next((k for k in area if "incl" in k.lower() and "transnistria" in k.lower()), None)
+        if incl_key:
+            area["Total (km2)"] = area.pop(incl_key)
+            # Remove the excl variant
+            excl_key = next((k for k in list(area) if "excl" in k.lower() and "transnistria" in k.lower()), None)
+            if excl_key:
+                del area[excl_key]
+            return
+
+        # Denmark: sum all territory-level (km2) fields into Total
+        km2_keys = [k for k in area if "(km2)" in k.lower()]
+        if len(km2_keys) >= 2:
+            total = 0
+            for k in km2_keys:
+                v = area[k]
+                if isinstance(v, (int, float)):
+                    total += v
+                elif isinstance(v, str):
+                    try:
+                        total += float(v.replace(",", ""))
+                    except ValueError:
+                        return  # can't sum, bail out
+            # Replace territory breakdown with a single Total
+            for k in km2_keys:
+                del area[k]
+            area["Total (km2)"] = total
+
     def normalize_infobox_sections(self, infobox_sections: dict[str, dict[str, Any]]) -> dict[str, Any]:
         normalized: dict[str, Any] = {}
 
@@ -821,6 +930,18 @@ class CountryInfoboxExtractor:
                 if not clean_field:
                     continue
 
+                # Rename Census/Estimate to Count in Population section
+                if clean_section == "Population":
+                    if clean_field.lower() in ("census", "estimate"):
+                        clean_field = "Count"
+
+                # Standardize language field names in General section
+                if clean_section == "General" and "language" in clean_field.lower():
+                    if "official" in clean_field.lower():
+                        clean_field = "Official Language"
+                    else:
+                        clean_field = "National Language"
+
                 normalized_value = self.normalize_value(clean_field, field_value)
                 if normalized_value in ("", None, [], {}):
                     continue
@@ -830,12 +951,25 @@ class CountryInfoboxExtractor:
                     clean_field, normalized_value
                 )
 
+                # For language fields, merge multiple sources into a list
+                if clean_field in ("Official Language", "National Language") and clean_field in normalized_section:
+                    existing = normalized_section[clean_field]
+                    if not isinstance(existing, list):
+                        existing = [existing] if existing else []
+                    if isinstance(normalized_value, list):
+                        existing.extend(normalized_value)
+                    else:
+                        existing.append(normalized_value)
+                    normalized_section[clean_field] = existing
                 # First value wins for duplicate canonical names
-                if clean_field not in normalized_section:
+                elif clean_field not in normalized_section:
                     normalized_section[clean_field] = normalized_value
 
             if normalized_section:
                 normalized[clean_section] = normalized_section
+
+        # Fix special-case Area sections (Denmark, Moldova)
+        self._fix_area_special_cases(normalized)
 
         # Convert all numeric strings to actual int/float values
         return self._convert_numeric(normalized)

@@ -1,32 +1,46 @@
 {
     "country": "Turkey",
     "infobox": {
+        "Area": {
+            "Total (km2)": 783562.0,
+            "Water (%)": 2.03
+        },
+        "Economy": {
+            "Currency": [
+                "Turkish lira"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 43790.0,
+                "Total ($)": 3770000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 18200.0,
+                "Total ($)": 1570000000000.0
+            },
+            "Gini": 44.5,
+            "HDI": 0.853
+        },
         "General": {
-            "Official languages": "Turkish"
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Turkish"
+            ],
+            "Religion": {
+                "Alevi are betwee (%)": 10,
+                "KONDA estimated that (%)": 0.47,
+                "Muslims constitute (%)": 99.8,
+                "Muslims was (%)": 99.4,
+                "Sunni (%)": 88
+            }
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 783562,
-            "Water (%)": 2.03
-        },
         "Population": {
-            "Estimate": 86092168,
-            "Density (/km2)": 112
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 3770000000000,
-                "Per capita ($)": 43790
-            },
-            "GDP (nominal)": {
-                "Total ($)": 1570000000000,
-                "Per capita ($)": 18200
-            },
-            "Gini": 44.5,
-            "HDI": 0.853,
-            "Currency": "Turkish lira"
+            "Count": 86092168.0,
+            "Density (/km2)": 112.0
         }
     }
 }

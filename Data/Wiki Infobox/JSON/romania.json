@@ -1,53 +1,56 @@
 {
     "country": "Romania",
     "infobox": {
+        "Area": {
+            "Total (km2)": 238397.0,
+            "Water (%)": 3.0
+        },
+        "Economy": {
+            "Currency": [
+                "Romanian leu"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 50726.0,
+                "Total ($)": 949332000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 23767.0,
+                "Total ($)": 444807000000.0
+            },
+            "Gini": 27.3,
+            "HDI": 0.845
+        },
         "General": {
-            "Official languages": "Romanian",
             "Ethnic groups": {
-                "Romanians (%)": 89.3,
                 "Hungarians (%)": 6,
                 "Roma (%)": 3.4,
+                "Romanians (%)": 89.3,
                 "others (%)": 1.2
             },
+            "Primary Language": [
+                "Romanian"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 84.7,
                     "breakdown": {
-                        "Romanian Orthodoxy (%)": 73.6,
+                        "Catholicism (%)": 4.4,
                         "Protestantism (%)": 6.4,
-                        "Catholicism (%)": 4.4
-                    }
+                        "Romanian Orthodoxy (%)": 73.6
+                    },
+                    "percentage": 84.7
                 },
-                "other Christian (%)": 0.2,
                 "no religion (%)": 0.8,
                 "other (%)": 0.4,
+                "other Christian (%)": 0.2,
                 "unanswered (%)": 13.9
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic"
         },
-        "Area": {
-            "Total (km2)": 238397,
-            "Water (%)": 3
-        },
         "Population": {
-            "Estimate": 19043151,
-            "Census": 19053815,
-            "Density (/km2)": 83
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 949332000000,
-                "Per capita ($)": 50726
-            },
-            "GDP (nominal)": {
-                "Total ($)": 444807000000,
-                "Per capita ($)": 23767
-            },
-            "Gini": 27.3,
-            "HDI": 0.845,
-            "Currency": "Romanian leu"
+            "Count": 19043151.0,
+            "Density (/km2)": 83.0
         }
     }
 }

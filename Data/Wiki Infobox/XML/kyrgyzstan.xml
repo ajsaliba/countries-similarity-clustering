@@ -2,46 +2,50 @@
 <country>
   <country>Kyrgyzstan</country>
   <infobox>
+    <Area>
+      <Total__km2_>200105.0</Total__km2_>
+      <Water____>3.6</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Kyrgyzstani som</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>8870.0</Per_capita____>
+        <Total____>64110000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>3101.0</Per_capita____>
+        <Total____>22587000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>26.4</Gini>
+      <HDI>0.72</HDI>
+    </Economy>
     <General>
-      <Official_languages>Kyrgyz Russian</Official_languages>
       <Ethnic_groups>
-        <Kyrgyz____>77.8</Kyrgyz____>
-        <Uzbeks____>14.3</Uzbeks____>
-        <Russians____>3.7</Russians____>
         <Dungans____>1</Dungans____>
-        <Tajiks____>0.9</Tajiks____>
+        <Kyrgyz____>77.8</Kyrgyz____>
         <Others____>2.3</Others____>
+        <Russians____>3.7</Russians____>
+        <Tajiks____>0.9</Tajiks____>
+        <Uzbeks____>14.3</Uzbeks____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Kyrgyz</item>
+        <item>Russian</item>
+      </Primary_Language>
       <Religion>
-        <Islam____>91</Islam____>
         <Christianity____>8</Christianity____>
+        <Islam____>91</Islam____>
         <Others____>1</Others____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>200105</Total__km2_>
-      <Water__km2_>7198</Water__km2_>
-      <Water____>3.6</Water____>
-    </Area>
     <Population>
-      <Estimate>7400000</Estimate>
-      <Density___km2_>37</Density___km2_>
+      <Count>7400000.0</Count>
+      <Density___km2_>37.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>64110000000</Total____>
-        <Per_capita____>8870</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>22587000000</Total____>
-        <Per_capita____>3101</Per_capita____>
-      </GDP__nominal_>
-      <Gini>26.4</Gini>
-      <HDI>0.72</HDI>
-      <Currency>Kyrgyzstani som</Currency>
-    </Economy>
   </infobox>
 </country>

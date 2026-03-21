@@ -1,32 +1,42 @@
 {
     "country": "Sweden",
     "infobox": {
+        "Area": {
+            "Total (km2)": 450295.0,
+            "Water (%)": 8.97
+        },
+        "Economy": {
+            "Currency": [
+                "Swedish krona"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 74900.0,
+                "Total ($)": 799680000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 58100.0,
+                "Total ($)": 620300000000.0
+            },
+            "Gini": 27.6,
+            "HDI": 0.959
+        },
         "General": {
-            "Official languages": "Swedish"
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Swedish"
+            ],
+            "Religion": {
+                "Unknown": 100
+            }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 450295,
-            "Water (%)": 8.97
-        },
         "Population": {
-            "Estimate": 10610485,
-            "Density (/km2)": 25
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 799680000000,
-                "Per capita ($)": 74900
-            },
-            "GDP (nominal)": {
-                "Total ($)": 620300000000,
-                "Per capita ($)": 58100
-            },
-            "Gini": 27.6,
-            "HDI": 0.959,
-            "Currency": "Swedish krona"
+            "Count": 10610485.0,
+            "Density (/km2)": 25.0
         }
     }
 }

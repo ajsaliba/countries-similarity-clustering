@@ -1,33 +1,42 @@
 {
     "country": "Maldives",
     "infobox": {
+        "Area": {
+            "Total (km2)": 298.0,
+            "Water (%)": -1.0
+        },
+        "Economy": {
+            "Currency": [
+                "Maldivian rufiyaa"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 34322.0,
+                "Total ($)": 13867000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 17287.0,
+                "Total ($)": 6984000000.0
+            },
+            "Gini": 31.3,
+            "HDI": 0.766
+        },
         "General": {
-            "Official language and national language": "Dhivehi",
-            "Religion": "Sunni Islam"
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Dhivehi"
+            ],
+            "Religion": {
+                "Sunni Islam": 100.0
+            }
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 298
-        },
         "Population": {
-            "Estimate": 601269,
-            "Census": 515132,
+            "Count": 601269.0,
             "Density (/km2)": 1728.63
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 13867000000,
-                "Per capita ($)": 34322
-            },
-            "GDP (nominal)": {
-                "Total ($)": 6984000000,
-                "Per capita ($)": 17287
-            },
-            "Gini": 31.3,
-            "HDI": 0.766,
-            "Currency": "Maldivian rufiyaa"
         }
     }
 }

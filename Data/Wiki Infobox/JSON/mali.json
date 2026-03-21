@@ -1,20 +1,56 @@
 {
     "country": "Mali",
     "infobox": {
+        "Area": {
+            "Total (km2)": 1240192.0,
+            "Water (%)": 1.6
+        },
+        "Economy": {
+            "Currency": [
+                "West African CFA franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 2930.0,
+                "Total ($)": 72740000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 936.0,
+                "Total ($)": 23210000000.0
+            },
+            "Gini": 33.0,
+            "HDI": 0.419
+        },
         "General": {
-            "Official languages": "13 national languages Bambara Bobo Hassaniya Arabic Bozo Dogon, Toro So Fula Kassonke Maninke Minyanka Senufo, Senara Songhay, Koyraboro Senni Soninke Tamasheq",
             "Ethnic groups": {
                 "Bambara (%)": 33.3,
-                "Fula (%)": 13.3,
-                "Soninke (%)": 9.6,
-                "Senufo / Bwa (%)": 9.6,
-                "Malinke (%)": 8.8,
-                "Dogon (%)": 8.7,
-                "Songhai (%)": 5.9,
-                "Tuareg (%)": 3.5,
                 "Bobo (%)": 2.1,
+                "Dogon (%)": 8.7,
+                "Fula (%)": 13.3,
+                "Malinke (%)": 8.8,
+                "Senufo / Bwa (%)": 9.6,
+                "Songhai (%)": 5.9,
+                "Soninke (%)": 9.6,
+                "Tuareg (%)": 3.5,
                 "other (%)": 4.5
             },
+            "Primary Language": [
+                "Bambara",
+                "Bobo",
+                "Bozo",
+                "Dogon",
+                "Fula",
+                "Hassaniya Arabic",
+                "Kassonke",
+                "Koyraboro Senni",
+                "Maninke",
+                "Minyanka",
+                "Senara",
+                "Senufo",
+                "Songhay",
+                "Soninke",
+                "Tamasheq",
+                "Toro So"
+            ],
             "Religion": {
                 "Islam (%)": 95,
                 "other (%)": 5
@@ -23,26 +59,9 @@
         "Government": {
             "Government": "Unitary presidential republic under a military junta"
         },
-        "Area": {
-            "Total (km2)": 1240192,
-            "Water (%)": 1.6
-        },
         "Population": {
-            "Estimate": 21990607,
+            "Count": 21990607.0,
             "Density (/km2)": 11.7
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 72740000000,
-                "Per capita ($)": 2930
-            },
-            "GDP (nominal)": {
-                "Total ($)": 23210000000,
-                "Per capita ($)": 936
-            },
-            "Gini": 33.0,
-            "HDI": 0.419,
-            "Currency": "West African CFA franc"
         }
     }
 }

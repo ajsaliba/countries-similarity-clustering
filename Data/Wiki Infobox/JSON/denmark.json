@@ -1,33 +1,45 @@
 {
     "country": "Denmark",
     "infobox": {
+        "Area": {
+            "Total (km2)": 2210408.0,
+            "Water (%)": -1.0
+        },
+        "Economy": {
+            "Currency": [
+                "Danish krone",
+                "Faroese króna"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 62814.0,
+                "Total ($)": 380000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 69205.0,
+                "Total ($)": 418659000000.0
+            },
+            "Gini": -1.0,
+            "HDI": 0.948
+        },
         "General": {
-            "Official languages": "Danish ; locally: Faroese Greenlandic"
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Danish",
+                "Faroese",
+                "Greenlandic"
+            ],
+            "Religion": {
+                "Unknown": 100
+            }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Denmark (km2)": 42926,
-            "Faroe Islands (km2)": 1396,
-            "Greenland (km2)": 2166086
-        },
         "Population": {
-            "Estimate": 6049579,
-            "Denmark": 5941388,
-            "Greenland and Faroe Islands": 108191
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total": "€380 billion",
-                "Per capita": "€62,814"
-            },
-            "GDP (nominal)": {
-                "Total ($)": 418659000000,
-                "Per capita ($)": 69205
-            },
-            "HDI": 0.948,
-            "Currency": "Danish krone Faroese króna"
+            "Count": 6049579.0,
+            "Density (/km2)": 139.3
         }
     }
 }

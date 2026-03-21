@@ -1,53 +1,67 @@
 {
     "country": "Niger",
     "infobox": {
+        "Area": {
+            "Total (km2)": 1267000.0,
+            "Water (%)": 0.02
+        },
+        "Economy": {
+            "Currency": [
+                "West African CFA franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 2100.0,
+                "Total ($)": 61040000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 751.0,
+                "Total ($)": 21870000000.0
+            },
+            "Gini": 32.9,
+            "HDI": 0.419
+        },
         "General": {
-            "Official languages": "Hausa",
             "Ethnic groups": {
-                "Hausa (%)": 53.1,
-                "Zarma and Songhay (%)": 21.2,
-                "Tuareg (%)": 11,
-                "Fulani (%)": 6.5,
-                "Kanuri (%)": 5.9,
-                "Gurma (%)": 0.8,
-                "Toubou (%)": 0.4,
                 "Arab (%)": 0.4,
+                "Fulani (%)": 6.5,
+                "Gurma (%)": 0.8,
+                "Hausa (%)": 53.1,
+                "Kanuri (%)": 5.9,
+                "Toubou (%)": 0.4,
+                "Tuareg (%)": 11,
+                "Zarma and Songhay (%)": 21.2,
                 "others (%)": 0.9
             },
+            "Primary Language": [
+                "Arabic",
+                "Buduma",
+                "Fulfulde",
+                "Gourmanchema",
+                "Hausa",
+                "Kanuri",
+                "Songhai",
+                "Tamasheq",
+                "Tassawaq",
+                "Tebu",
+                "Zarma"
+            ],
             "Religion": {
-                "Islam (%)": 99.3,
                 "Christianity": {
-                    "percentage": 0.3,
                     "breakdown": {
                         "Animism (%)": 0.2
-                    }
+                    },
+                    "percentage": 0.3
                 },
+                "Islam (%)": 99.3,
                 "irreligion (%)": 0.1
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic under a military junta"
         },
-        "Area": {
-            "Total (km2)": 1267000,
-            "Water (%)": 0.02
-        },
         "Population": {
-            "Estimate": 26342784,
-            "Density (/km2)": 21
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 61040000000,
-                "Per capita ($)": 2100
-            },
-            "GDP (nominal)": {
-                "Total ($)": 21870000000,
-                "Per capita ($)": 751
-            },
-            "Gini": 32.9,
-            "HDI": 0.419,
-            "Currency": "West African CFA franc"
+            "Count": 26342784.0,
+            "Density (/km2)": 21.0
         }
     }
 }

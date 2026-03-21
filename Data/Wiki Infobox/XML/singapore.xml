@@ -2,49 +2,55 @@
 <country>
   <country>Singapore</country>
   <infobox>
-    <General>
-      <Official_languages>English Malay Mandarin Tamil</Official_languages>
-      <Ethnic_groups>
-        <Chinese____>74.3</Chinese____>
-        <Malay____>13.5</Malay____>
-        <Indian____>9</Indian____>
-        <Other____>3.2</Other____>
-      </Ethnic_groups>
-      <Religion>
-        <Buddhism____>31.1</Buddhism____>
-        <No_religion____>20</No_religion____>
-        <Christianity____>18.9</Christianity____>
-        <Islam____>15.6</Islam____>
-        <Taoism____>8.8</Taoism____>
-        <Hinduism____>5</Hinduism____>
-        <Sikhism____>0.3</Sikhism____>
-        <Other____>0.3</Other____>
-      </Religion>
-    </General>
     <Area>
-      <Largest_planning_area_by_population>Tampines</Largest_planning_area_by_population>
       <Total__km2_>744.3</Total__km2_>
       <Water____>1.43</Water____>
     </Area>
+    <Economy>
+      <Currency>
+        <item>Singapore dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>156755.0</Per_capita____>
+        <Total____>952600000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>93956.0</Per_capita____>
+        <Total____>564700000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>43.3</Gini>
+      <HDI>0.946</HDI>
+    </Economy>
+    <General>
+      <Ethnic_groups>
+        <Chinese____>74.3</Chinese____>
+        <Indian____>9</Indian____>
+        <Malay____>13.5</Malay____>
+        <Other____>3.2</Other____>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Malay</item>
+        <item>Mandarin</item>
+        <item>Tamil</item>
+      </Primary_Language>
+      <Religion>
+        <Buddhism____>31.1</Buddhism____>
+        <Christianity____>18.9</Christianity____>
+        <Hinduism____>5</Hinduism____>
+        <Islam____>15.6</Islam____>
+        <No_religion____>20</No_religion____>
+        <Other____>0.3</Other____>
+        <Sikhism____>0.3</Sikhism____>
+        <Taoism____>8.8</Taoism____>
+      </Religion>
+    </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
     <Population>
-      <Estimate>6110200</Estimate>
-      <Density___km2_>8290</Density___km2_>
+      <Count>6110200.0</Count>
+      <Density___km2_>8290.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>952600000000</Total____>
-        <Per_capita____>156755</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>564700000000</Total____>
-        <Per_capita____>93956</Per_capita____>
-      </GDP__nominal_>
-      <Gini>43.3</Gini>
-      <HDI>0.946</HDI>
-      <Currency>Singapore dollar</Currency>
-    </Economy>
   </infobox>
 </country>

@@ -2,15 +2,36 @@
 <country>
   <country>Yemen</country>
   <infobox>
+    <Area>
+      <Total__km2_>455503.0</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Yemeni rial</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>1670.0</Per_capita____>
+        <Total____>69960000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>416.0</Per_capita____>
+        <Total____>17400000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>36.7</Gini>
+      <HDI>0.47</HDI>
+    </Economy>
     <General>
-      <Official_language_and_national_language>Arabic</Official_language_and_national_language>
       <Ethnic_groups>
-        <Arabs____>92.8</Arabs____>
-        <Somalis____>3.7</Somalis____>
         <Afro_Arabs____>1.1</Afro_Arabs____>
+        <Arabs____>92.8</Arabs____>
         <Indo___Pakistani____>1</Indo___Pakistani____>
+        <Somalis____>3.7</Somalis____>
         <other____>1.4</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Arabic</item>
+      </Primary_Language>
       <Religion>
         <Islam___official______>99.1</Islam___official______>
         <Sunni____>65</Sunni____>
@@ -21,26 +42,9 @@
     <Government>
       <Government>Unitary semi-presidential republic under a provisional government</Government>
     </Government>
-    <Area>
-      <Total__km2_>455503</Total__km2_>
-      <Water____>Negligible</Water____>
-    </Area>
     <Population>
-      <Estimate>32684503</Estimate>
+      <Count>32684503.0</Count>
       <Density___km2_>71.8</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>69960000000</Total____>
-        <Per_capita____>1670</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>17400000000</Total____>
-        <Per_capita____>416</Per_capita____>
-      </GDP__nominal_>
-      <Gini>36.7</Gini>
-      <HDI>0.47</HDI>
-      <Currency>Yemeni rial</Currency>
-    </Economy>
   </infobox>
 </country>

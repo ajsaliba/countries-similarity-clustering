@@ -1,50 +1,53 @@
 {
     "country": "Thailand",
     "infobox": {
+        "Area": {
+            "Total (km2)": 513120.0,
+            "Water (%)": 0.4
+        },
+        "Economy": {
+            "Currency": [
+                "Thai baht"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 26358.0,
+                "Total ($)": 1853000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 7942.0,
+                "Total ($)": 558573000000.0
+            },
+            "Gini": 33.5,
+            "HDI": 0.798
+        },
         "General": {
-            "Official languages": "Thai",
             "Ethnic groups": {
-                "Thai (%)": 80,
                 "Central Thai (%)": 37,
                 "Isan (%)": 25,
+                "Northern Khmer (%)": 4,
                 "Northern Thai (%)": 8,
                 "Southern Thai (%)": 8,
-                "Western Thai (%)": 2,
+                "Thai (%)": 80,
                 "Thai Chinese (%)": 12,
-                "Northern Khmer (%)": 4,
-                "Thai Malays (%)": 4
+                "Thai Malays (%)": 4,
+                "Western Thai (%)": 2
             },
+            "Primary Language": [
+                "Thai"
+            ],
             "Religion": {
                 "Buddhism (%)": 93.46,
-                "Islam (%)": 5.37,
                 "Christianity (%)": 1.13,
+                "Islam (%)": 5.37,
                 "other (%)": 0.03
             }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 513120,
-            "Water (%)": 0.4
-        },
         "Population": {
-            "Estimate": 65975198,
-            "Census": 64785909,
+            "Count": 65975198.0,
             "Density (/km2)": 132.1
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 1853000000000,
-                "Per capita ($)": 26358
-            },
-            "GDP (nominal)": {
-                "Total ($)": 558573000000,
-                "Per capita ($)": 7942
-            },
-            "Gini": 33.5,
-            "HDI": 0.798,
-            "Currency": "Thai baht"
         }
     }
 }

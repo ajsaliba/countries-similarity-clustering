@@ -1,44 +1,54 @@
 {
     "country": "Bosnia and Herzegovina",
     "infobox": {
+        "Area": {
+            "Total (km2)": 51209.0,
+            "Water (%)": 1.4
+        },
+        "Economy": {
+            "Currency": [
+                "Convertible mark"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 23930.0,
+                "Total ($)": 82230000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 10546.0,
+                "Total ($)": 36240000000.0
+            },
+            "Gini": 27.1,
+            "HDI": 0.804
+        },
         "General": {
-            "Official language (federal level)": "None",
+            "Ethnic groups": {
+                "Bosniaks constitute (%)": 50.1,
+                "Croats (%)": 15.5,
+                "Serbs (%)": 30.8
+            },
+            "Primary Language": [
+                "Bosnian",
+                "Croatian",
+                "Serbian"
+            ],
             "Religion": {
-                "Islam (%)": 51.3,
                 "Christianity": {
-                    "percentage": 46.1,
                     "breakdown": {
-                        "Eastern Orthodox (%)": 30.7,
-                        "Catholicism (%)": 15.4
-                    }
+                        "Catholicism (%)": 15.4,
+                        "Eastern Orthodox (%)": 30.7
+                    },
+                    "percentage": 46.1
                 },
+                "Islam (%)": 51.3,
                 "Others (%)": 2.6
             }
         },
         "Government": {
             "Government": "Federal parliamentary directorial republic"
         },
-        "Area": {
-            "Total (km2)": 51209,
-            "Water (%)": 1.4
-        },
         "Population": {
-            "Estimate": 2904256,
-            "Census": 3531159,
-            "Density (/km2)": 61
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 82230000000,
-                "Per capita ($)": 23930
-            },
-            "GDP (nominal)": {
-                "Total ($)": 36240000000,
-                "Per capita ($)": 10546
-            },
-            "Gini": 27.1,
-            "HDI": 0.804,
-            "Currency": "Convertible mark"
+            "Count": 2904256.0,
+            "Density (/km2)": 61.0
         }
     }
 }

@@ -2,46 +2,51 @@
 <country>
   <country>China</country>
   <infobox>
-    <General>
-      <Official_languages>Standard Chinese</Official_languages>
-      <Ethnic_groups>
-        <Han_Chinese____>91.11</Han_Chinese____>
-        <Zhuang____>1.39</Zhuang____>
-        <Uyghur____>0.84</Uyghur____>
-        <Hui____>0.81</Hui____>
-        <Miao____>0.79</Miao____>
-        <Manchu____>0.74</Manchu____>
-        <Yi____>0.7</Yi____>
-        <Tujia____>0.68</Tujia____>
-        <Tibetan____>0.5</Tibetan____>
-        <others____>2.44</others____>
-      </Ethnic_groups>
-    </General>
-    <Population>
-      <Largest_city_by_municipal_population>Chongqing</Largest_city_by_municipal_population>
-      <Largest_city_by_urban_population>Shanghai</Largest_city_by_urban_population>
-      <Estimate>1404890000</Estimate>
-      <Density___km2_>146</Density___km2_>
-    </Population>
-    <Government>
-      <Government>Unitary communist state</Government>
-    </Government>
     <Area>
-      <Total__km2_>9596961</Total__km2_>
+      <Total__km2_>9596961.0</Total__km2_>
       <Water____>2.8</Water____>
     </Area>
     <Economy>
+      <Currency>
+        <item>Renminbi</item>
+      </Currency>
       <GDP___PPP__>
-        <Total____>41016000000000</Total____>
-        <Per_capita____>29191</Per_capita____>
+        <Per_capita____>29191.0</Per_capita____>
+        <Total____>41016000000000.0</Total____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Total____>19399000000000</Total____>
-        <Per_capita____>13806</Per_capita____>
+        <Per_capita____>13806.0</Per_capita____>
+        <Total____>19399000000000.0</Total____>
       </GDP__nominal_>
       <Gini>36.0</Gini>
       <HDI>0.797</HDI>
-      <Currency>Renminbi</Currency>
     </Economy>
+    <General>
+      <Ethnic_groups>
+        <Han_Chinese____>91.11</Han_Chinese____>
+        <Hui____>0.81</Hui____>
+        <Manchu____>0.74</Manchu____>
+        <Miao____>0.79</Miao____>
+        <Tibetan____>0.5</Tibetan____>
+        <Tujia____>0.68</Tujia____>
+        <Uyghur____>0.84</Uyghur____>
+        <Yi____>0.7</Yi____>
+        <Zhuang____>1.39</Zhuang____>
+        <others____>2.44</others____>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Standard Chinese</item>
+      </Primary_Language>
+      <Religion>
+        <Unknown>100</Unknown>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary communist state</Government>
+    </Government>
+    <Population>
+      <Count>1404890000.0</Count>
+      <Density___km2_>146.0</Density___km2_>
+    </Population>
   </infobox>
 </country>

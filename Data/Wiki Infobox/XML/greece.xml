@@ -2,48 +2,50 @@
 <country>
   <country>Greece</country>
   <infobox>
+    <Area>
+      <Total__km2_>131957.0</Total__km2_>
+      <Water____>1.51</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Euro</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>44985.0</Per_capita____>
+        <Total____>466945000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>27170.0</Per_capita____>
+        <Total____>282019000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>31.8</Gini>
+      <HDI>0.908</HDI>
+    </Economy>
     <General>
-      <Official_language>Greek</Official_language>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Greek</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>93</percentage>
           <breakdown>
             <Greek_Orthodoxy___official______>90</Greek_Orthodoxy___official______>
             <other_Christian____>3</other_Christian____>
           </breakdown>
+          <percentage>93</percentage>
         </Christianity>
-        <No_religion____>4</No_religion____>
         <Islam____>2</Islam____>
+        <No_religion____>4</No_religion____>
         <Others____>1</Others____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
-    <Economy>
-      <Recognition>
-        <Third_Hellenic_Republic>24 July 1974</Third_Hellenic_Republic>
-        <Current_constitution>11 June 1975</Current_constitution>
-      </Recognition>
-      <GDP___PPP__>
-        <Total____>466945000000</Total____>
-        <Per_capita____>44985</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>282019000000</Total____>
-        <Per_capita____>27170</Per_capita____>
-      </GDP__nominal_>
-      <Gini>31.8</Gini>
-      <HDI>0.908</HDI>
-      <Currency>Euro</Currency>
-    </Economy>
-    <Area>
-      <Total__km2_>131957</Total__km2_>
-      <Water____>1.51</Water____>
-    </Area>
     <Population>
-      <Estimate>10372335</Estimate>
-      <Census>10432481</Census>
+      <Count>10372335.0</Count>
       <Density___km2_>78.9</Density___km2_>
     </Population>
   </infobox>

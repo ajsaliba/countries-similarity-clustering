@@ -2,32 +2,42 @@
 <country>
   <country>Sweden</country>
   <infobox>
+    <Area>
+      <Total__km2_>450295.0</Total__km2_>
+      <Water____>8.97</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Swedish krona</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>74900.0</Per_capita____>
+        <Total____>799680000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>58100.0</Per_capita____>
+        <Total____>620300000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>27.6</Gini>
+      <HDI>0.959</HDI>
+    </Economy>
     <General>
-      <Official_languages>Swedish</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Swedish</item>
+      </Primary_Language>
+      <Religion>
+        <Unknown>100</Unknown>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>450295</Total__km2_>
-      <Water____>8.97</Water____>
-    </Area>
     <Population>
-      <Estimate>10610485</Estimate>
-      <Density___km2_>25</Density___km2_>
+      <Count>10610485.0</Count>
+      <Density___km2_>25.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>799680000000</Total____>
-        <Per_capita____>74900</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>620300000000</Total____>
-        <Per_capita____>58100</Per_capita____>
-      </GDP__nominal_>
-      <Gini>27.6</Gini>
-      <HDI>0.959</HDI>
-      <Currency>Swedish krona</Currency>
-    </Economy>
   </infobox>
 </country>

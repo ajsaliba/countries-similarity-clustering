@@ -1,48 +1,50 @@
 {
     "country": "Greece",
     "infobox": {
+        "Area": {
+            "Total (km2)": 131957.0,
+            "Water (%)": 1.51
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 44985.0,
+                "Total ($)": 466945000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 27170.0,
+                "Total ($)": 282019000000.0
+            },
+            "Gini": 31.8,
+            "HDI": 0.908
+        },
         "General": {
-            "Official language": "Greek",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Greek"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 93,
                     "breakdown": {
                         "Greek Orthodoxy ( official ) (%)": 90,
                         "other Christian (%)": 3
-                    }
+                    },
+                    "percentage": 93
                 },
-                "No religion (%)": 4,
                 "Islam (%)": 2,
+                "No religion (%)": 4,
                 "Others (%)": 1
             }
         },
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Economy": {
-            "Recognition": {
-                "Third Hellenic Republic": "24 July 1974",
-                "Current constitution": "11 June 1975"
-            },
-            "GDP ( PPP )": {
-                "Total ($)": 466945000000,
-                "Per capita ($)": 44985
-            },
-            "GDP (nominal)": {
-                "Total ($)": 282019000000,
-                "Per capita ($)": 27170
-            },
-            "Gini": 31.8,
-            "HDI": 0.908,
-            "Currency": "Euro"
-        },
-        "Area": {
-            "Total (km2)": 131957,
-            "Water (%)": 1.51
-        },
         "Population": {
-            "Estimate": 10372335,
-            "Census": 10432481,
+            "Count": 10372335.0,
             "Density (/km2)": 78.9
         }
     }

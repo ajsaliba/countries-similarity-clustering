@@ -1,43 +1,51 @@
 {
     "country": "Liechtenstein",
     "infobox": {
+        "Area": {
+            "Total (km2)": 160.5,
+            "Water (%)": 2.7
+        },
+        "Economy": {
+            "Currency": [
+                "Swiss franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 210600.0,
+                "Total ($)": 7172000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 207974.0,
+                "Total ($)": 8288000000.0
+            },
+            "Gini": -1.0,
+            "HDI": 0.938
+        },
         "General": {
-            "Official languages": "German",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "German"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 79.4,
                     "breakdown": {
                         "Catholicism ( official ) (%)": 69.6,
                         "other Christian (%)": 9.8
-                    }
+                    },
+                    "percentage": 79.4
                 },
-                "no religion (%)": 9.6,
                 "Islam (%)": 6,
+                "no religion (%)": 9.6,
                 "other (%)": 5
             }
         },
         "Government": {
             "Government": "Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy"
         },
-        "Area": {
-            "Total (km2)": 160.5,
-            "Water (%)": 2.7
-        },
         "Population": {
-            "Estimate": 41232,
-            "Density (/km2)": 249
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 7172000000,
-                "Per capita ($)": 210600
-            },
-            "GDP (nominal)": {
-                "Total ($)": 8288000000,
-                "Per capita ($)": 207974
-            },
-            "HDI": 0.938,
-            "Currency": "Swiss franc"
+            "Count": 41232.0,
+            "Density (/km2)": 249.0
         }
     }
 }

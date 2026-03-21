@@ -1,49 +1,55 @@
 {
     "country": "Rwanda",
     "infobox": {
+        "Area": {
+            "Total (km2)": 26338.0,
+            "Water (%)": 6.3
+        },
+        "Economy": {
+            "Currency": [
+                "Rwandan franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 4100.0,
+                "Total ($)": 58120000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 1040.0,
+                "Total ($)": 14789000000.0
+            },
+            "Gini": 39.4,
+            "HDI": 0.578
+        },
         "General": {
-            "Official languages": "Kinyarwanda English French Swahili",
             "Ethnic groups": {
                 "Banyarwanda (%)": 100,
                 "Hutu (%)": 85,
                 "Tutsi (%)": 14,
                 "Twa (%)": 1
             },
+            "Primary Language": [
+                "English",
+                "French",
+                "Kinyarwanda",
+                "Swahili"
+            ],
             "Religion": {
                 "Christianity (%)": 93.8,
                 "no religion": {
-                    "percentage": 3,
                     "breakdown": {
                         "Islam (%)": 2.2,
                         "other (%)": 1
-                    }
+                    },
+                    "percentage": 3
                 }
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic under an authoritarian dictatorship"
         },
-        "Area": {
-            "Total (km2)": 26338,
-            "Water (%)": 6.3
-        },
         "Population": {
-            "Estimate": 14104969,
-            "Census": 13206731,
-            "Density (/km2)": 578
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 58120000000,
-                "Per capita ($)": 4100
-            },
-            "GDP (nominal)": {
-                "Total ($)": 14789000000,
-                "Per capita ($)": 1040
-            },
-            "Gini": 39.4,
-            "HDI": 0.578,
-            "Currency": "Rwandan franc"
+            "Count": 14104969.0,
+            "Density (/km2)": 578.0
         }
     }
 }

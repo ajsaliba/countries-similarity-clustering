@@ -1,33 +1,43 @@
 {
     "country": "Saudi Arabia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 2149690.0,
+            "Water (%)": 0.7
+        },
+        "Economy": {
+            "Currency": [
+                "Saudi riyal"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 74670.0,
+                "Total ($)": 2690000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 35230.0,
+                "Total ($)": 1270000000000.0
+            },
+            "Gini": 45.9,
+            "HDI": 0.9
+        },
         "General": {
-            "Official languages": "Arabic",
-            "Religion": "Sunni Islam"
+            "Ethnic groups": {
+                "Arab with (%)": 10,
+                "Close to (%)": 42
+            },
+            "Primary Language": [
+                "Arabic"
+            ],
+            "Religion": {
+                "Sunni Islam": 100.0
+            }
         },
         "Government": {
             "Government": "Unitary Islamic absolute monarchy"
         },
-        "Area": {
-            "Total (km2)": 2149690,
-            "Water (%)": 0.7
-        },
         "Population": {
-            "Census": 33702731,
-            "Density (/km2)": 15
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 2690000000000,
-                "Per capita ($)": 74670
-            },
-            "GDP (nominal)": {
-                "Total ($)": 1270000000000,
-                "Per capita ($)": 35230
-            },
-            "Gini": 45.9,
-            "HDI": 0.9,
-            "Currency": "Saudi riyal"
+            "Count": 33702731.0,
+            "Density (/km2)": 15.0
         }
     }
 }

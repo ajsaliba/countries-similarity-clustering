@@ -2,16 +2,37 @@
 <country>
   <country>Guyana</country>
   <infobox>
+    <Area>
+      <Total__km2_>214969.0</Total__km2_>
+      <Water____>8.4</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Guyanese dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>94258.0</Per_capita____>
+        <Total____>75294000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>32326.0</Per_capita____>
+        <Total____>25822000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>44.6</Gini>
+      <HDI>0.776</HDI>
+    </Economy>
     <General>
-      <Official_languages>English</Official_languages>
       <Ethnic_groups>
-        <Indian____>44.4</Indian____>
         <African____>32.3</African____>
-        <Mixed____>20</Mixed____>
-        <Indigenous____>10.5</Indigenous____>
-        <European____>0.3</European____>
         <Chinese____>0.2</Chinese____>
+        <European____>0.3</European____>
+        <Indian____>44.4</Indian____>
+        <Indigenous____>10.5</Indigenous____>
+        <Mixed____>20</Mixed____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>55.5</Christianity____>
         <Hinduism____>31</Hinduism____>
@@ -23,26 +44,9 @@
     <Government>
       <Government>Unitary parliamentary republic with an executive presidency</Government>
     </Government>
-    <Area>
-      <Total__km2_>214969</Total__km2_>
-      <Water____>8.4</Water____>
-    </Area>
     <Population>
-      <Estimate>950986</Estimate>
+      <Count>950986.0</Count>
       <Density___km2_>4.25</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>75294000000</Total____>
-        <Per_capita____>94258</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>25822000000</Total____>
-        <Per_capita____>32326</Per_capita____>
-      </GDP__nominal_>
-      <Gini>44.6</Gini>
-      <HDI>0.776</HDI>
-      <Currency>Guyanese dollar</Currency>
-    </Economy>
   </infobox>
 </country>

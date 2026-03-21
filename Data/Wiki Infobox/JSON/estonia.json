@@ -1,8 +1,26 @@
 {
     "country": "Estonia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 45335.0,
+            "Water (%)": 4.6
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 50758.0,
+                "Total ($)": 68240000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 37195.0,
+                "Total ($)": 45000000000.0
+            },
+            "Gini": 30.6,
+            "HDI": 0.905
+        },
         "General": {
-            "Official language": "Estonian",
             "Ethnic groups": {
                 "Estonians (%)": 68.5,
                 "Russians (%)": 20.9,
@@ -10,44 +28,29 @@
                 "other (%)": 4.6,
                 "undeclared (%)": 0.6
             },
+            "Primary Language": [
+                "Estonian"
+            ],
             "Religion": {
-                "irreligion (%)": 58.4,
                 "Christianity": {
-                    "percentage": 26.7,
                     "breakdown": {
                         "Eastern Orthodoxy (%)": 16.3,
                         "Lutheranism (%)": 7.7,
                         "other Christian (%)": 2.7
-                    }
+                    },
+                    "percentage": 26.7
                 },
-                "undeclared (%)": 12.7,
-                "other (%)": 2.1
+                "irreligion (%)": 58.4,
+                "other (%)": 2.1,
+                "undeclared (%)": 12.7
             }
         },
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 45335,
-            "Water (%)": 4.6
-        },
         "Population": {
-            "Estimate": 1362954,
-            "Census": 1331824,
+            "Count": 1362954.0,
             "Density (/km2)": 30.3
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 68240000000,
-                "Per capita ($)": 50758
-            },
-            "GDP (nominal)": {
-                "Total ($)": 45000000000,
-                "Per capita ($)": 37195
-            },
-            "Gini": 30.6,
-            "HDI": 0.905,
-            "Currency": "Euro"
         }
     }
 }

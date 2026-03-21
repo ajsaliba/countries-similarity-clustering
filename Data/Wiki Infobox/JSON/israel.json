@@ -1,49 +1,52 @@
 {
     "country": "Israel",
     "infobox": {
+        "Area": {
+            "Total (km2)": 22072.0,
+            "Water (%)": 2.71
+        },
+        "Economy": {
+            "Currency": [
+                "New shekel"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 55770.0,
+                "Total ($)": 567550000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 60010.0,
+                "Total ($)": 610750000000.0
+            },
+            "Gini": 37.9,
+            "HDI": 0.919
+        },
         "General": {
-            "Official language": "Hebrew",
             "Ethnic groups": {
-                "Jews (%)": 71.9,
                 "Arabs (%)": 21,
+                "Jews (%)": 71.9,
                 "others (%)": 7.1
             },
+            "Primary Language": [
+                "Hebrew"
+            ],
             "Religion": {
-                "Judaism (%)": 73.7,
-                "Islam (%)": 18.3,
                 "Christianity": {
-                    "percentage": 1.9,
                     "breakdown": {
                         "Druze faith (%)": 1.6
-                    }
+                    },
+                    "percentage": 1.9
                 },
+                "Islam (%)": 18.3,
+                "Judaism (%)": 73.7,
                 "others (%)": 4.5
             }
         },
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total": "22,072 or 20,770 km 2",
-            "Water (%)": 2.71
-        },
         "Population": {
-            "Estimate": 10147200,
-            "Census": 9601720,
-            "Density (/km2)": 463
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 567550000000,
-                "Per capita ($)": 55770
-            },
-            "GDP (nominal)": {
-                "Total ($)": 610750000000,
-                "Per capita ($)": 60010
-            },
-            "Gini": 37.9,
-            "HDI": 0.919,
-            "Currency": "New shekel"
+            "Count": 10147200.0,
+            "Density (/km2)": 463.0
         }
     }
 }

@@ -1,42 +1,47 @@
 {
     "country": "Lesotho",
     "infobox": {
+        "Area": {
+            "Total (km2)": 30355.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Lesotho loti South African rand"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 3234.0,
+                "Total ($)": 6915000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 1110.0,
+                "Total ($)": 2373000000.0
+            },
+            "Gini": 44.9,
+            "HDI": 0.55
+        },
         "General": {
-            "Official languages": "Sesotho English",
             "Ethnic groups": {
                 "Basotho (%)": 99.7,
                 "others (%)": 0.3
             },
+            "Primary Language": [
+                "English",
+                "Sesotho"
+            ],
             "Religion": {
                 "Christianity (%)": 92.1,
-                "traditional faiths (%)": 6.6,
                 "no religion (%)": 1,
-                "others (%)": 0.3
+                "others (%)": 0.3,
+                "traditional faiths (%)": 6.6
             }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 30355,
-            "Water (%)": "negligible"
-        },
         "Population": {
-            "Estimate": 2210646,
+            "Count": 2210646.0,
             "Density (/km2)": 68.1
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 6915000000,
-                "Per capita ($)": 3234
-            },
-            "GDP (nominal)": {
-                "Total ($)": 2373000000,
-                "Per capita ($)": 1110
-            },
-            "Gini": 44.9,
-            "HDI": 0.55,
-            "Currency": "Lesotho loti South African rand"
         }
     }
 }

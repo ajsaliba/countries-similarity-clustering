@@ -1,54 +1,58 @@
 {
     "country": "United Kingdom",
     "infobox": {
+        "Area": {
+            "Total (km2)": 244376.0,
+            "Water (%)": -1.0
+        },
+        "Economy": {
+            "Currency": [
+                "Pound sterling"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 63759.0,
+                "Total ($)": 4455000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 56661.0,
+                "Total ($)": 3959000000000.0
+            },
+            "Gini": 35.4,
+            "HDI": 0.946
+        },
         "General": {
             "Ethnic groups": {
-                "White (%)": 83,
                 "Asian (%)": 8.6,
                 "Black (%)": 3.7,
                 "Mixed (%)": 2.7,
+                "White (%)": 83,
                 "other (%)": 2
             },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 46.5,
                     "breakdown": {
-                        "no religion (%)": 37.8,
-                        "Islam (%)": 6,
+                        "Buddhism (%)": 0.4,
                         "Hinduism (%)": 1.6,
+                        "Islam (%)": 6,
                         "Sikhism (%)": 0.8,
-                        "Buddhism (%)": 0.4
-                    }
+                        "no religion (%)": 37.8
+                    },
+                    "percentage": 46.5
                 },
                 "Judaism (%)": 0.4,
-                "other (%)": 0.6,
-                "not stated (%)": 5.9
+                "not stated (%)": 5.9,
+                "other (%)": 0.6
             }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 244376,
-            "Land (km2)": 242741
-        },
         "Population": {
-            "Estimate": 69281437,
-            "Census": 66940559,
-            "Density (/km2)": 285
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 4455000000000,
-                "Per capita ($)": 63759
-            },
-            "GDP (nominal)": {
-                "Total ($)": 3959000000000,
-                "Per capita ($)": 56661
-            },
-            "Gini": 35.4,
-            "HDI": 0.946,
-            "Currency": "Pound sterling"
+            "Count": 69281437.0,
+            "Density (/km2)": 285.0
         }
     }
 }

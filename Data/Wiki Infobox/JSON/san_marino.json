@@ -1,47 +1,55 @@
 {
     "country": "San Marino",
     "infobox": {
+        "Area": {
+            "Total (km2)": 61.19,
+            "Water (%)": 0.0059
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 86989.0,
+                "Total ($)": 2978000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 59405.0,
+                "Total ($)": 2034000000.0
+            },
+            "Gini": -1.0,
+            "HDI": 0.915
+        },
         "General": {
-            "Official languages": "Italian",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Italian"
+            ],
             "Religion": {
                 "Catholicism (2022) (%)": 90.3,
-                "no religion (%)": 7.5,
                 "Other Christian denominations (2022)": {
-                    "percentage": 1.1,
                     "breakdown": {
-                        "Judaism (%)": 0.1,
                         "Islam (2015)": {
-                            "percentage": 0.46,
                             "breakdown": {
                                 "other (%)": 0.34
-                            }
-                        }
-                    }
-                }
+                            },
+                            "percentage": 0.46
+                        },
+                        "Judaism (%)": 0.1
+                    },
+                    "percentage": 1.1
+                },
+                "no religion (%)": 7.5
             }
         },
         "Government": {
             "Government": "Unitary parliamentary diarchic directorial republic"
         },
-        "Area": {
-            "Total (km2)": 61.19,
-            "Water (%)": 0.0059
-        },
         "Population": {
-            "Estimate": 34172,
-            "Density (/km2)": 579
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 2978000000,
-                "Per capita ($)": 86989
-            },
-            "GDP (nominal)": {
-                "Total ($)": 2034000000,
-                "Per capita ($)": 59405
-            },
-            "HDI": 0.915,
-            "Currency": "Euro"
+            "Count": 34172.0,
+            "Density (/km2)": 579.0
         }
     }
 }

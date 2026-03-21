@@ -2,24 +2,46 @@
 <country>
   <country>Botswana</country>
   <infobox>
+    <Area>
+      <Total__km2_>581730.0</Total__km2_>
+      <Water____>2.7</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Pula</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>19540.0</Per_capita____>
+        <Total____>54820000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>7380.0</Per_capita____>
+        <Total____>20710000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>45.5</Gini>
+      <HDI>0.731</HDI>
+    </Economy>
     <General>
-      <Official_languages>English</Official_languages>
       <Ethnic_groups>
-        <Tswana____>79</Tswana____>
         <Kalanga____>11</Kalanga____>
         <San____>3</San____>
+        <Tswana____>79</Tswana____>
         <others____>7</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Tswana</item>
+      </Primary_Language>
       <Religion>
+        <Badimo____>4.1</Badimo____>
         <Christianity>
-          <percentage>79.1</percentage>
           <breakdown>
             <Protestantism____>70.2</Protestantism____>
             <other_Christian____>8.9</other_Christian____>
           </breakdown>
+          <percentage>79.1</percentage>
         </Christianity>
         <no_religion____>15.2</no_religion____>
-        <Badimo____>4.1</Badimo____>
         <others____>1.4</others____>
         <unspecified____>0.3</unspecified____>
       </Religion>
@@ -27,26 +49,9 @@
     <Government>
       <Government>Unitary parliamentary republic with an executive presidency</Government>
     </Government>
-    <Area>
-      <Total__km2_>581730</Total__km2_>
-      <Water____>2.7</Water____>
-    </Area>
     <Population>
-      <Census>2359609</Census>
+      <Count>2359609.0</Count>
       <Density___km2_>4.1</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>54820000000</Total____>
-        <Per_capita____>19540</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>20710000000</Total____>
-        <Per_capita____>7380</Per_capita____>
-      </GDP__nominal_>
-      <Gini>45.5</Gini>
-      <HDI>0.731</HDI>
-      <Currency>Pula</Currency>
-    </Economy>
   </infobox>
 </country>

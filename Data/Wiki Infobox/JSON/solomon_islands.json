@@ -1,47 +1,50 @@
 {
     "country": "Solomon Islands",
     "infobox": {
+        "Area": {
+            "Total (km2)": 28896.0,
+            "Water (%)": 3.2
+        },
+        "Economy": {
+            "Currency": [
+                "Solomon Islands dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 2205.25,
+                "Total ($)": 1680000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 2205.25,
+                "Total ($)": 1681000000.0
+            },
+            "Gini": 37.1,
+            "HDI": 0.584
+        },
         "General": {
-            "Official language": "English",
             "Ethnic groups": {
                 "Melanesian (%)": 95.3,
-                "Polynesian (%)": 3.1,
                 "Micronesian (%)": 1.2,
+                "Polynesian (%)": 3.1,
                 "others (%)": 0.4
             },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
+                "Catholicism (%)": 19.5,
                 "Christianity (%)": 97.4,
                 "Protestantism (%)": 78.6,
-                "Catholicism (%)": 19.5,
-                "other Christian (%)": 1.9,
                 "folk religions (%)": 1.2,
+                "other Christian (%)": 1.9,
                 "others / none (%)": 1.4
             }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 28896,
-            "Water (%)": 3.2
-        },
         "Population": {
-            "Estimate": 828857,
-            "Census": 721956,
+            "Count": 828857.0,
             "Density (/km2)": 24.2
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 1680000000,
-                "Per capita ($)": 2205.25
-            },
-            "GDP (nominal)": {
-                "Total ($)": 1681000000,
-                "Per capita ($)": 2205.25
-            },
-            "Gini": 37.1,
-            "HDI": 0.584,
-            "Currency": "Solomon Islands dollar"
         }
     }
 }

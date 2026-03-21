@@ -1,46 +1,50 @@
 {
     "country": "Kyrgyzstan",
     "infobox": {
-        "General": {
-            "Official languages": "Kyrgyz Russian",
-            "Ethnic groups": {
-                "Kyrgyz (%)": 77.8,
-                "Uzbeks (%)": 14.3,
-                "Russians (%)": 3.7,
-                "Dungans (%)": 1,
-                "Tajiks (%)": 0.9,
-                "Others (%)": 2.3
+        "Area": {
+            "Total (km2)": 200105.0,
+            "Water (%)": 3.6
+        },
+        "Economy": {
+            "Currency": [
+                "Kyrgyzstani som"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 8870.0,
+                "Total ($)": 64110000000.0
             },
+            "GDP (nominal)": {
+                "Per capita ($)": 3101.0,
+                "Total ($)": 22587000000.0
+            },
+            "Gini": 26.4,
+            "HDI": 0.72
+        },
+        "General": {
+            "Ethnic groups": {
+                "Dungans (%)": 1,
+                "Kyrgyz (%)": 77.8,
+                "Others (%)": 2.3,
+                "Russians (%)": 3.7,
+                "Tajiks (%)": 0.9,
+                "Uzbeks (%)": 14.3
+            },
+            "Primary Language": [
+                "Kyrgyz",
+                "Russian"
+            ],
             "Religion": {
-                "Islam (%)": 91,
                 "Christianity (%)": 8,
+                "Islam (%)": 91,
                 "Others (%)": 1
             }
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 200105,
-            "Water (km2)": 7198,
-            "Water (%)": 3.6
-        },
         "Population": {
-            "Estimate": 7400000,
-            "Density (/km2)": 37
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 64110000000,
-                "Per capita ($)": 8870
-            },
-            "GDP (nominal)": {
-                "Total ($)": 22587000000,
-                "Per capita ($)": 3101
-            },
-            "Gini": 26.4,
-            "HDI": 0.72,
-            "Currency": "Kyrgyzstani som"
+            "Count": 7400000.0,
+            "Density (/km2)": 37.0
         }
     }
 }

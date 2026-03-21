@@ -1,13 +1,38 @@
 {
     "country": "Australia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 7688287.0,
+            "Water (%)": 1.79
+        },
+        "Economy": {
+            "Currency": [
+                "Australian dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 71431.0,
+                "Total ($)": 1982000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 65946.0,
+                "Total ($)": 1830000000000.0
+            },
+            "Gini": 32.4,
+            "HDI": 0.958
+        },
         "General": {
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
-                "Christianity (%)": 43.9,
-                "no religion (%)": 38.9,
-                "Islam (%)": 3.2,
-                "Hinduism (%)": 2.7,
                 "Buddhism (%)": 2.4,
+                "Christianity (%)": 43.9,
+                "Hinduism (%)": 2.7,
+                "Islam (%)": 3.2,
+                "no religion (%)": 38.9,
                 "other (%)": 1.7,
                 "unanswered (%)": 7.2
             }
@@ -15,27 +40,9 @@
         "Government": {
             "Government": "Federal parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 7688287,
-            "Water (%)": 1.79
-        },
         "Population": {
-            "Estimate": 27840775,
-            "Census": 25890773,
+            "Count": 27840775.0,
             "Density (/km2)": 3.7
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 1982000000000,
-                "Per capita ($)": 71431
-            },
-            "GDP (nominal)": {
-                "Total ($)": 1830000000000,
-                "Per capita ($)": 65946
-            },
-            "Gini": 32.4,
-            "HDI": 0.958,
-            "Currency": "Australian dollar"
         }
     }
 }

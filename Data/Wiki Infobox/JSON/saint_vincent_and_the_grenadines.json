@@ -1,59 +1,63 @@
 {
     "country": "Saint Vincent and the Grenadines",
     "infobox": {
+        "Area": {
+            "Total (km2)": 389.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "East Caribbean dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 17840.0,
+                "Total ($)": 2000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 9360.0,
+                "Total ($)": 1000000000.0
+            },
+            "Gini": -1.0,
+            "HDI": 0.798
+        },
         "General": {
-            "Official languages": "English",
             "Ethnic groups": {
                 "African (%)": 66,
-                "Mixed (%)": 19,
-                "Indian (%)": 6,
                 "European (%)": 4,
+                "Indian (%)": 6,
                 "Kalinago (%)": 2,
+                "Mixed (%)": 19,
                 "others (%)": 3
             },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 88.6,
                     "breakdown": {
-                        "Protestantism (%)": 70.2,
-                        "Other Christian (%)": 18.4
-                    }
+                        "Other Christian (%)": 18.4,
+                        "Protestantism (%)": 70.2
+                    },
+                    "percentage": 88.6
                 },
                 "Hinduism (%)": 3.4,
                 "Irreligion (%)": 2.5,
+                "Islam (%)": 1.5,
+                "Other (%)": 0.5,
                 "Rastafari": {
-                    "percentage": 1.8,
                     "breakdown": {
                         "Baháʼí Faith (%)": 1.6
-                    }
-                },
-                "Islam (%)": 1.5,
-                "Other (%)": 0.5
+                    },
+                    "percentage": 1.8
+                }
             }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 389,
-            "Water (%)": "negligible"
-        },
         "Population": {
-            "Estimate": 110872,
-            "Census": 109991,
-            "Density (/km2)": 307
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 2000000000,
-                "Per capita ($)": 17840
-            },
-            "GDP (nominal)": {
-                "Total ($)": 1000000000,
-                "Per capita ($)": 9360
-            },
-            "HDI": 0.798,
-            "Currency": "East Caribbean dollar"
+            "Count": 110872.0,
+            "Density (/km2)": 307.0
         }
     }
 }

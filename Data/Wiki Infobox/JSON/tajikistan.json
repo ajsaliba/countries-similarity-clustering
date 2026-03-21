@@ -1,18 +1,40 @@
 {
     "country": "Tajikistan",
     "infobox": {
+        "Area": {
+            "Total (km2)": 143100.0,
+            "Water (%)": 1.8
+        },
+        "Economy": {
+            "Currency": [
+                "Somoni"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 6434.0,
+                "Total ($)": 67750000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 1799.0,
+                "Total ($)": 18940000000.0
+            },
+            "Gini": 34.0,
+            "HDI": 0.691
+        },
         "General": {
-            "Official languages": "Tajik Russian",
             "Ethnic groups": {
-                "Tajiks (%)": 86.1,
-                "Uzbeks (%)": 11.3,
                 "Kyrgyz (%)": 0.4,
                 "Russians (%)": 0.3,
+                "Tajiks (%)": 86.1,
+                "Uzbeks (%)": 11.3,
                 "other (%)": 1.9
             },
+            "Primary Language": [
+                "Russian",
+                "Tajik"
+            ],
             "Religion": {
-                "Islam (%)": 97.5,
                 "Christianity (%)": 0.7,
+                "Islam (%)": 97.5,
                 "irreligion (%)": 1.7,
                 "others (%)": 0.2
             }
@@ -20,27 +42,9 @@
         "Government": {
             "Government": "Unitary presidential republic under an authoritarian dictatorship"
         },
-        "Area": {
-            "Total (km2)": 143100,
-            "Water (km2)": 2575,
-            "Water (%)": 1.8
-        },
         "Population": {
-            "Estimate": 10786734,
+            "Count": 10786734.0,
             "Density (/km2)": 75.4
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 59415000000,
-                "Per capita ($)": 5832
-            },
-            "GDP (nominal)": {
-                "Total ($)": 12953000000,
-                "Per capita ($)": 1176
-            },
-            "Gini": 34,
-            "HDI": 0.691,
-            "Currency": "Somoni"
         }
     }
 }

@@ -1,43 +1,49 @@
 {
     "country": "Oman",
     "infobox": {
+        "Area": {
+            "Total (km2)": 315331.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Omani rial"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 42010.0,
+                "Total ($)": 231160000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 18097.0,
+                "Total ($)": 104350000000.0
+            },
+            "Gini": 30.75,
+            "HDI": 0.858
+        },
         "General": {
-            "Official languages": "Arabic",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Arabic"
+            ],
             "Religion": {
-                "Islam ( official ) (%)": 95,
-                "Hinduism (%)": 1.67,
                 "Christianity": {
-                    "percentage": 1.67,
                     "breakdown": {
                         "others (%)": 1.66
-                    }
-                }
+                    },
+                    "percentage": 1.67
+                },
+                "Hinduism (%)": 1.67,
+                "Islam ( official ) (%)": 95
             }
         },
         "Government": {
             "Government": "Unitary Islamic absolute monarchy"
         },
-        "Area": {
-            "Total (km2)": 315331,
-            "Water (%)": "negligible"
-        },
         "Population": {
-            "Estimate": 5494691,
-            "Census": 2773479,
-            "Density (/km2)": 15
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 231160000000,
-                "Per capita ($)": 42010
-            },
-            "GDP (nominal)": {
-                "Total ($)": 104350000000,
-                "Per capita ($)": 18097
-            },
-            "Gini": 30.75,
-            "HDI": 0.858,
-            "Currency": "Omani rial"
+            "Count": 5494691.0,
+            "Density (/km2)": 15.0
         }
     }
 }

@@ -2,20 +2,42 @@
 <country>
   <country>Marshall Islands</country>
   <infobox>
+    <Area>
+      <Total__km2_>181.43</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>United States dollar Sovereign</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>3789.0</Per_capita____>
+        <Total____>215000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>3866.0</Per_capita____>
+        <Total____>220000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>-1.0</Gini>
+      <HDI>0.733</HDI>
+    </Economy>
     <General>
-      <Official_languages>Marshallese English</Official_languages>
       <Ethnic_groups>
         <Marshallese____>95.6</Marshallese____>
         <others____>4.4</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Marshallese</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>96.2</percentage>
           <breakdown>
-            <Protestantism____>79.9</Protestantism____>
             <Catholicism____>9.3</Catholicism____>
+            <Protestantism____>79.9</Protestantism____>
             <other_Christian____>7</other_Christian____>
           </breakdown>
+          <percentage>96.2</percentage>
         </Christianity>
         <no_religion____>1.1</no_religion____>
         <others____>2.7</others____>
@@ -24,25 +46,9 @@
     <Government>
       <Government>Unitary parliamentary republic with an executive president</Government>
     </Government>
-    <Area>
-      <Total__km2_>181.43</Total__km2_>
-      <Water____>Negligible</Water____>
-    </Area>
     <Population>
-      <Census>42418</Census>
-      <Density___km2_>233</Density___km2_>
+      <Count>42418.0</Count>
+      <Density___km2_>233.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>215000000</Total____>
-        <Per_capita____>3789</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>220000000</Total____>
-        <Per_capita____>3866</Per_capita____>
-      </GDP__nominal_>
-      <HDI>0.733</HDI>
-      <Currency>United States dollar Sovereign</Currency>
-    </Economy>
   </infobox>
 </country>

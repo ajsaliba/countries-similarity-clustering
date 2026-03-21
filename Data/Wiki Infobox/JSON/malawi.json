@@ -1,61 +1,64 @@
 {
     "country": "Malawi",
     "infobox": {
+        "Area": {
+            "Total (km2)": 118484.0,
+            "Water (%)": 20.6
+        },
+        "Economy": {
+            "Currency": [
+                "Malawian kwacha"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 1668.0,
+                "Total ($)": 37919000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 579.0,
+                "Total ($)": 13176000000.0
+            },
+            "Gini": 44.7,
+            "HDI": 0.517
+        },
         "General": {
-            "Official languages": "English",
             "Ethnic groups": {
                 "Chewa (%)": 25.2,
-                "Tumbuka (%)": 20.4,
+                "Lambya (%)": 0.6,
                 "Lomwe (%)": 16.4,
-                "Yao (%)": 15.3,
+                "Mang'anja (%)": 3.8,
+                "Ngonde (%)": 1.5,
                 "Ngoni (%)": 6.4,
                 "Sena (%)": 5.9,
-                "Mang'anja (%)": 3.8,
-                "Tonga (%)": 1.8,
-                "Ngonde (%)": 1.5,
-                "Lambya (%)": 0.6,
                 "Sukwa (%)": 0.5,
+                "Tonga (%)": 1.8,
+                "Tumbuka (%)": 20.4,
+                "Yao (%)": 15.3,
                 "other (%)": 1.1
             },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 82.3,
                     "breakdown": {
-                        "Protestantism (%)": 58.5,
                         "Catholicism (%)": 17.2,
+                        "Protestantism (%)": 58.5,
                         "other Christian (%)": 6.6
-                    }
+                    },
+                    "percentage": 82.3
                 },
                 "Islam (%)": 13.8,
                 "none (%)": 2.1,
-                "traditional faiths (%)": 1.2,
-                "other (%)": 0.6
+                "other (%)": 0.6,
+                "traditional faiths (%)": 1.2
             }
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 118484,
-            "Water (%)": 20.6
-        },
         "Population": {
-            "Estimate": 21240689,
-            "Census": 17563749,
+            "Count": 21240689.0,
             "Density (/km2)": 153.1
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 37919000000,
-                "Per capita ($)": 1668
-            },
-            "GDP (nominal)": {
-                "Total ($)": 13176000000,
-                "Per capita ($)": 579
-            },
-            "Gini": 44.7,
-            "HDI": 0.517,
-            "Currency": "Malawian kwacha"
         }
     }
 }

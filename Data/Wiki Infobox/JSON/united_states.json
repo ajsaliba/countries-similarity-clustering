@@ -1,67 +1,66 @@
 {
     "country": "United States",
     "infobox": {
+        "Area": {
+            "Total (km2)": 9833524.0,
+            "Water (%)": 7.0
+        },
+        "Economy": {
+            "Currency": [
+                "U.S. dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 89599.0,
+                "Total ($)": 30616000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 89599.0,
+                "Total ($)": 30616000000000.0
+            },
+            "Gini": 41.8,
+            "HDI": 0.938
+        },
         "General": {
-            "Official languages": "English",
             "Ethnic groups": {
-                "White (%)": 61.6,
-                "Black (%)": 12.4,
                 "Asian (%)": 6,
+                "Black (%)": 12.4,
+                "Hispanic or Latino (%)": 18.7,
                 "Native American (%)": 1.1,
                 "Pacific Islander (%)": 0.2,
-                "two or more races (%)": 10.2,
-                "other By origin (%)": 8.4,
+                "White (%)": 61.6,
                 "non- Hispanic or Latino (%)": 81.3,
-                "Hispanic or Latino (%)": 18.7
+                "other By origin (%)": 8.4,
+                "two or more races (%)": 10.2
             },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 65,
                     "breakdown": {
+                        "Mormonism (%)": 1,
                         "Protestantism": {
-                            "percentage": 32,
                             "breakdown": {
                                 "Catholicism (%)": 20,
                                 "other Christian (%)": 12
-                            }
-                        },
-                        "Mormonism (%)": 1
-                    }
+                            },
+                            "percentage": 32
+                        }
+                    },
+                    "percentage": 65
                 },
-                "unaffiliated (%)": 24,
                 "Judaism (%)": 2,
                 "other religion (%)": 6,
+                "unaffiliated (%)": 24,
                 "unanswered (%)": 3
             }
         },
         "Government": {
             "Government": "Federal presidential republic"
         },
-        "Economy": {
-            "Recognition": {
-                "Constitution": "March 4, 1789"
-            },
-            "GDP ( PPP )": {
-                "Total ($)": 30616000000000,
-                "Per capita ($)": 89599
-            },
-            "GDP (nominal)": {
-                "Total ($)": 30616000000000,
-                "Per capita ($)": 89599
-            },
-            "Gini": 41.8,
-            "HDI": 0.938,
-            "Currency": "U.S. dollar"
-        },
-        "Area": {
-            "Total area (sq mi)": 3796742,
-            "Water (%)": 7.0,
-            "Land area (sq mi)": 3531905
-        },
         "Population": {
-            "Estimate": 341784857,
-            "Census": 331449281,
-            "Density": "96.8/sq mi"
+            "Count": 341784857.0,
+            "Density (/km2)": 37.4
         }
     }
 }

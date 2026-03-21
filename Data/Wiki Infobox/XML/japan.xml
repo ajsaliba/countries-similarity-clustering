@@ -2,30 +2,42 @@
 <country>
   <country>Japan</country>
   <infobox>
-    <Government>
-      <Government>Unitary parliamentary constitutional monarchy</Government>
-    </Government>
     <Area>
-      <Total__km2_>377975</Total__km2_>
+      <Total__km2_>377975.0</Total__km2_>
       <Water____>1.4</Water____>
     </Area>
-    <Population>
-      <Estimate>122950000</Estimate>
-      <Census>126146099</Census>
-      <Density___km2_>330</Density___km2_>
-    </Population>
     <Economy>
+      <Currency>
+        <item>Japanese yen</item>
+      </Currency>
       <GDP___PPP__>
-        <Total____>6758000000000</Total____>
-        <Per_capita____>54815</Per_capita____>
+        <Per_capita____>54815.0</Per_capita____>
+        <Total____>6758000000000.0</Total____>
       </GDP___PPP__>
       <GDP__nominal_>
-        <Total____>4230000000000</Total____>
-        <Per_capita____>34713</Per_capita____>
+        <Per_capita____>34713.0</Per_capita____>
+        <Total____>4230000000000.0</Total____>
       </GDP__nominal_>
       <Gini>32.3</Gini>
       <HDI>0.925</HDI>
-      <Currency>Japanese yen</Currency>
     </Economy>
+    <General>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Japanese</item>
+      </Primary_Language>
+      <Religion>
+        <Unknown>100</Unknown>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary constitutional monarchy</Government>
+    </Government>
+    <Population>
+      <Count>122950000.0</Count>
+      <Density___km2_>330.0</Density___km2_>
+    </Population>
   </infobox>
 </country>

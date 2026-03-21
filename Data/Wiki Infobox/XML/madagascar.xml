@@ -2,57 +2,61 @@
 <country>
   <country>Madagascar</country>
   <infobox>
+    <Area>
+      <Total__km2_>592796.0</Total__km2_>
+      <Water____>0.9</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Ariary</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>2110.0</Per_capita____>
+        <Total____>68110000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>652.0</Per_capita____>
+        <Total____>21090000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>42.6</Gini>
+      <HDI>0.487</HDI>
+    </Economy>
     <General>
-      <Official_languages>Malagasy French</Official_languages>
       <Ethnic_groups>
-        <Merina____>26</Merina____>
-        <Betsimisaraka____>15</Betsimisaraka____>
-        <Betsileo____>12</Betsileo____>
-        <Tsimihety____>7</Tsimihety____>
-        <Sakalava____>6</Sakalava____>
         <Antaisaka____>5</Antaisaka____>
         <Antandroy____>5</Antandroy____>
+        <Betsileo____>12</Betsileo____>
+        <Betsimisaraka____>15</Betsimisaraka____>
+        <Merina____>26</Merina____>
+        <Sakalava____>6</Sakalava____>
+        <Tsimihety____>7</Tsimihety____>
         <others____>24</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>French</item>
+        <item>Malagasy</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>84.7</percentage>
           <breakdown>
-            <Protestantism____>45.8</Protestantism____>
             <Catholicism____>38.1</Catholicism____>
+            <Protestantism____>45.8</Protestantism____>
             <other_Christian____>0.8</other_Christian____>
           </breakdown>
+          <percentage>84.7</percentage>
         </Christianity>
-        <no_religion____>7.3</no_religion____>
-        <traditional_faiths____>4.7</traditional_faiths____>
         <Islam____>3.1</Islam____>
+        <no_religion____>7.3</no_religion____>
         <others____>0.3</others____>
+        <traditional_faiths____>4.7</traditional_faiths____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under a transitional government</Government>
     </Government>
-    <Area>
-      <Total__km2_>592796</Total__km2_>
-      <Water__km2_>5501</Water__km2_>
-      <Water____>0.9</Water____>
-    </Area>
     <Population>
-      <Estimate>31964956</Estimate>
-      <Density___km2_>55</Density___km2_>
+      <Count>31964956.0</Count>
+      <Density___km2_>55.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>68110000000</Total____>
-        <Per_capita____>2110</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>21090000000</Total____>
-        <Per_capita____>652</Per_capita____>
-      </GDP__nominal_>
-      <Gini>42.6</Gini>
-      <HDI>0.487</HDI>
-      <Currency>Ariary</Currency>
-    </Economy>
   </infobox>
 </country>

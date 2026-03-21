@@ -2,39 +2,45 @@
 <country>
   <country>Cuba</country>
   <infobox>
+    <Area>
+      <Total__km2_>110860.0</Total__km2_>
+      <Water____>0.94</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Cuban peso</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>22237.0</Per_capita____>
+        <Total____>254865000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>22957.0</Per_capita____>
+        <Total____>252063000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>38.0</Gini>
+      <HDI>0.762</HDI>
+    </Economy>
     <General>
-      <Official_languages>Spanish</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Spanish</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>58.9</Christianity____>
-        <no_religion____>23.2</no_religion____>
         <folk_religions____>17.6</folk_religions____>
+        <no_religion____>23.2</no_religion____>
         <other____>0.3</other____>
       </Religion>
     </General>
     <Government>
       <Government>Communist state</Government>
     </Government>
-    <Area>
-      <Total__km2_>110860</Total__km2_>
-      <Water____>0.94</Water____>
-    </Area>
     <Population>
-      <Estimate>9748007</Estimate>
-      <Census>11089511</Census>
+      <Count>9748007.0</Count>
       <Density___km2_>89.8</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>254865000000</Total____>
-        <Per_capita____>22237</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>252063000000</Total____>
-        <Per_capita____>22957</Per_capita____>
-      </GDP__nominal_>
-      <Gini>38.0</Gini>
-      <HDI>0.762</HDI>
-      <Currency>Cuban peso</Currency>
-    </Economy>
   </infobox>
 </country>

@@ -2,51 +2,63 @@
 <country>
   <country>Namibia</country>
   <infobox>
+    <Area>
+      <Total__km2_>825615.0</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Namibian dollar South African rand</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>12370.0</Per_capita____>
+        <Total____>37730000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>4660.0</Per_capita____>
+        <Total____>14210000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>59.1</Gini>
+      <HDI>0.665</HDI>
+    </Economy>
     <General>
-      <Official_languages>English</Official_languages>
       <Ethnic_groups>
-        <Indigenous_African____>93.2</Indigenous_African____>
-        <Coloured_and_Basters____>3.6</Coloured_and_Basters____>
-        <White____>1.8</White____>
         <Asian___other____>1.4</Asian___other____>
+        <Coloured_and_Basters____>3.6</Coloured_and_Basters____>
+        <Indigenous_African____>93.2</Indigenous_African____>
+        <White____>1.8</White____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Afrikaans</item>
+        <item>English</item>
+        <item>German</item>
+        <item>Khoekhoegowab</item>
+        <item>Oshiwambo</item>
+        <item>Otjiherero</item>
+        <item>RuKwangali</item>
+        <item>Setswana</item>
+        <item>siLozi</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>87.9</percentage>
           <breakdown>
-            <Lutheranism____>43.7</Lutheranism____>
-            <Catholicism____>22.8</Catholicism____>
             <Anglicanism____>17</Anglicanism____>
+            <Catholicism____>22.8</Catholicism____>
+            <Lutheranism____>43.7</Lutheranism____>
             <other_Christian____>4.4</other_Christian____>
           </breakdown>
+          <percentage>87.9</percentage>
         </Christianity>
-        <other____>10.5</other____>
         <no_religion____>1.6</no_religion____>
+        <other____>10.5</other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>825615</Total__km2_>
-      <Water____>Negligible</Water____>
-    </Area>
     <Population>
-      <Census>3022401</Census>
+      <Count>3022401.0</Count>
       <Density___km2_>3.7</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>37730000000</Total____>
-        <Per_capita____>12370</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>14210000000</Total____>
-        <Per_capita____>4660</Per_capita____>
-      </GDP__nominal_>
-      <Gini>59.1</Gini>
-      <HDI>0.665</HDI>
-      <Currency>Namibian dollar South African rand</Currency>
-    </Economy>
   </infobox>
 </country>

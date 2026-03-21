@@ -1,61 +1,65 @@
 {
     "country": "Grenada",
     "infobox": {
+        "Area": {
+            "Total (km2)": 344.0,
+            "Water (%)": 1.6
+        },
+        "Economy": {
+            "Currency": [
+                "Eastern Caribbean dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 20195.0,
+                "Total ($)": 2300000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 11437.0,
+                "Total ($)": 1300000000.0
+            },
+            "Gini": 43.8,
+            "HDI": 0.791
+        },
         "General": {
-            "Official languages": "English",
             "Ethnic groups": {
                 "African (%)": 82.4,
-                "Mixed (%)": 13.3,
                 "Indian (%)": 2.2,
+                "Mixed (%)": 13.3,
                 "other (%)": 1.3,
                 "unspecified (%)": 0.9
             },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 96.6,
                     "breakdown": {
-                        "Protestantism (%)": 48.8,
                         "Catholicism (%)": 39.2,
+                        "Protestantism (%)": 48.8,
                         "other Christian (%)": 8.6
-                    }
+                    },
+                    "percentage": 96.6
                 },
                 "Hinduism (%)": 1.3,
                 "no religion": {
-                    "percentage": 1,
                     "breakdown": {
                         "Rastafari": {
-                            "percentage": 0.7,
                             "breakdown": {
                                 "other (%)": 0.4
-                            }
+                            },
+                            "percentage": 0.7
                         }
-                    }
+                    },
+                    "percentage": 1
                 }
             }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 344,
-            "Water (%)": 1.6
-        },
         "Population": {
-            "Estimate": 114621,
-            "Density (/km2)": 333
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 2300000000,
-                "Per capita ($)": 20195
-            },
-            "GDP (nominal)": {
-                "Total ($)": 1300000000,
-                "Per capita ($)": 11437
-            },
-            "Gini": 43.8,
-            "HDI": 0.791,
-            "Currency": "Eastern Caribbean dollar"
+            "Count": 114621.0,
+            "Density (/km2)": 333.0
         }
     }
 }

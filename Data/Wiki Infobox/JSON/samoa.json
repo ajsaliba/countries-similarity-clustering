@@ -1,23 +1,45 @@
 {
     "country": "Samoa",
     "infobox": {
+        "Area": {
+            "Total (km2)": 2831.0,
+            "Water (%)": 0.3
+        },
+        "Economy": {
+            "Currency": [
+                "Tālā"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 5962.0,
+                "Total ($)": 1225000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 4420.0,
+                "Total ($)": 908561000.0
+            },
+            "Gini": 38.7,
+            "HDI": 0.708
+        },
         "General": {
-            "Official languages": "Samoan , English",
             "Ethnic groups": {
-                "Samoans (%)": 92.6,
                 "Euronesians (%)": 7,
                 "Europeans (%)": 0.3,
+                "Samoans (%)": 92.6,
                 "others (%)": 0.1
             },
+            "Primary Language": [
+                "English",
+                "Samoan"
+            ],
             "Religion": {
                 "Christianity ( official )": {
-                    "percentage": 97.9,
                     "breakdown": {
-                        "Protestantism (%)": 54.9,
                         "Catholicism (%)": 18.8,
                         "Mormonism (%)": 16.9,
+                        "Protestantism (%)": 54.9,
                         "other Christian (%)": 7.3
-                    }
+                    },
+                    "percentage": 97.9
                 },
                 "no religion (%)": 1.7,
                 "others (%)": 0.4
@@ -26,26 +48,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 2831,
-            "Water (%)": 0.3
-        },
         "Population": {
-            "Census": 205557,
-            "Density (/km2)": 70
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 1225000000,
-                "Per capita ($)": 5962
-            },
-            "GDP (nominal)": {
-                "Total ($)": 908561000,
-                "Per capita ($)": 4420
-            },
-            "Gini": 38.7,
-            "HDI": 0.708,
-            "Currency": "Tālā"
+            "Count": 205557.0,
+            "Density (/km2)": 70.0
         }
     }
 }

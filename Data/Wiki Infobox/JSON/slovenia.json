@@ -1,16 +1,40 @@
 {
     "country": "Slovenia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 20272.0,
+            "Water (%)": 0.7
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 57716.0,
+                "Total ($)": 122985000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 37178.0,
+                "Total ($)": 79222000000000.0
+            },
+            "Gini": 23.4,
+            "HDI": 0.931
+        },
         "General": {
-            "Official languages": "Slovene",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Slovene"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 77.9,
                     "breakdown": {
                         "Catholicism (%)": 73.4,
                         "Orthodoxy (%)": 3.7,
                         "other Christian (%)": 0.7
-                    }
+                    },
+                    "percentage": 77.9
                 },
                 "no religion (%)": 18.3,
                 "other (%)": 3.9
@@ -19,27 +43,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 20272,
-            "Water (%)": 0.7
-        },
         "Population": {
-            "Estimate": 2130850,
-            "Census": 1964036,
-            "Density (/km2)": 103
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 122985000000000,
-                "Per capita ($)": 57716
-            },
-            "GDP (nominal)": {
-                "Total ($)": 79222000000000,
-                "Per capita ($)": 37178
-            },
-            "Gini": 23.4,
-            "HDI": 0.931,
-            "Currency": "Euro"
+            "Count": 2130850.0,
+            "Density (/km2)": 103.0
         }
     }
 }

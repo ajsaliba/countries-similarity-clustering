@@ -2,21 +2,42 @@
 <country>
   <country>Poland</country>
   <infobox>
+    <Area>
+      <Total__km2_>312696.0</Total__km2_>
+      <Water____>1.48</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Złoty</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>55340.0</Per_capita____>
+        <Total____>2019000000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>28484.0</Per_capita____>
+        <Total____>1039000000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>26.3</Gini>
+      <HDI>0.906</HDI>
+    </Economy>
     <General>
-      <Official_language>Polish</Official_language>
       <Ethnic_groups>
         <Polish____>98.8</Polish____>
-        <only_Polish____>96.3</only_Polish____>
         <Polish_and_others____>2.6</Polish_and_others____>
+        <only_Polish____>96.3</only_Polish____>
         <only_non_Polish____>1.1</only_non_Polish____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Polish</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>72.4</percentage>
           <breakdown>
             <Catholicism____>71.3</Catholicism____>
             <other_Christian____>1.1</other_Christian____>
           </breakdown>
+          <percentage>72.4</percentage>
         </Christianity>
         <no_religion____>6.9</no_religion____>
         <other____>0.1</other____>
@@ -26,26 +47,9 @@
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>312696</Total__km2_>
-      <Water____>1.48</Water____>
-    </Area>
     <Population>
-      <Census>37893970</Census>
-      <Density___km2_>126</Density___km2_>
+      <Count>37893970.0</Count>
+      <Density___km2_>126.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>2019000000000</Total____>
-        <Per_capita____>55340</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>1039000000000</Total____>
-        <Per_capita____>28484</Per_capita____>
-      </GDP__nominal_>
-      <Gini>26.3</Gini>
-      <HDI>0.906</HDI>
-      <Currency>Złoty</Currency>
-    </Economy>
   </infobox>
 </country>

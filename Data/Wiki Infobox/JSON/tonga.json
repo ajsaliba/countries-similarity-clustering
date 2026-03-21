@@ -1,49 +1,54 @@
 {
     "country": "Tonga",
     "infobox": {
+        "Area": {
+            "Total (km2)": 748.0,
+            "Water (%)": 4.0
+        },
+        "Economy": {
+            "Currency": [
+                "Paʻanga"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 6496.0,
+                "Total ($)": 655000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 4888.0,
+                "Total ($)": 493000000.0
+            },
+            "Gini": 27.1,
+            "HDI": 0.739
+        },
         "General": {
-            "Official languages": "Tongan English",
             "Ethnic groups": {
                 "Tongan (%)": 96.5,
                 "others (%)": 3.5
             },
+            "Primary Language": [
+                "English",
+                "Tongan"
+            ],
             "Religion": {
                 "Christianity —": {
-                    "percentage": 96.9,
                     "breakdown": {
-                        "Protestantism — (%)": 64.1,
+                        "Catholicism (%)": 14.2,
                         "Mormonism — (%)": 18.6,
-                        "Catholicism (%)": 14.2
-                    }
+                        "Protestantism — (%)": 64.1
+                    },
+                    "percentage": 96.9
                 },
                 "no religion (%)": 0.5,
-                "unspecified (%)": 0.1,
-                "others (%)": 2.4
+                "others (%)": 2.4,
+                "unspecified (%)": 0.1
             }
         },
         "Government": {
             "Government": "Unitary parliamentary semi-constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 748,
-            "Water (%)": 4.0
-        },
         "Population": {
-            "Census": 100209,
-            "Density (/km2)": 139
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 655000000,
-                "Per capita ($)": 6496
-            },
-            "GDP (nominal)": {
-                "Total ($)": 493000000,
-                "Per capita ($)": 4888
-            },
-            "Gini": 27.1,
-            "HDI": 0.739,
-            "Currency": "Paʻanga"
+            "Count": 100209.0,
+            "Density (/km2)": 139.0
         }
     }
 }

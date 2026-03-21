@@ -2,47 +2,51 @@
 <country>
   <country>Sri Lanka</country>
   <infobox>
+    <Area>
+      <Total__km2_>67240.0</Total__km2_>
+      <Water____>4.4</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Sri Lankan rupee</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>15632.0</Per_capita____>
+        <Total____>342600000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>4516.0</Per_capita____>
+        <Total____>98900000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>39.8</Gini>
+      <HDI>0.776</HDI>
+    </Economy>
     <General>
-      <Official_languages_and_recognised_national_languages>Sinhala Tamil</Official_languages_and_recognised_national_languages>
       <Ethnic_groups>
-        <Sinhalese____>74.1</Sinhalese____>
-        <Sri_Lankan_Tamils____>12.3</Sri_Lankan_Tamils____>
-        <Sri_Lankan_Moors____>10.5</Sri_Lankan_Moors____>
         <Indian_Tamils____>2.8</Indian_Tamils____>
+        <Sinhalese____>74.1</Sinhalese____>
+        <Sri_Lankan_Moors____>10.5</Sri_Lankan_Moors____>
+        <Sri_Lankan_Tamils____>12.3</Sri_Lankan_Tamils____>
         <other____>0.3</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Sinhala</item>
+        <item>Tamil</item>
+      </Primary_Language>
       <Religion>
         <Buddhism___official______>69.8</Buddhism___official______>
+        <Christianity____>6.9</Christianity____>
         <Hinduism____>12.6</Hinduism____>
         <Islam____>10.7</Islam____>
-        <Christianity____>6.9</Christianity____>
         <other_none____>0.1</other_none____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>67240</Total__km2_>
-      <Water____>4.4</Water____>
-    </Area>
     <Population>
-      <Estimate>23300000</Estimate>
-      <Census>21781800</Census>
+      <Count>23300000.0</Count>
       <Density___km2_>337.7</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>342600000000</Total____>
-        <Per_capita____>15632</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>98900000000</Total____>
-        <Per_capita____>4516</Per_capita____>
-      </GDP__nominal_>
-      <Gini>39.8</Gini>
-      <HDI>0.776</HDI>
-      <Currency>Sri Lankan rupee</Currency>
-    </Economy>
   </infobox>
 </country>

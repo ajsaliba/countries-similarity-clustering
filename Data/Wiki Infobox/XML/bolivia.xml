@@ -2,15 +2,42 @@
 <country>
   <country>Bolivia</country>
   <infobox>
+    <Area>
+      <Total__km2_>1098581.0</Total__km2_>
+      <Water____>1.29</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Boliviano</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>11574.0</Per_capita____>
+        <Total____>144098000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>4525.0</Per_capita____>
+        <Total____>56339000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>40.9</Gini>
+      <HDI>0.733</HDI>
+    </Economy>
     <General>
-      <Official_languages>Spanish Quechua Aymara Guarani Other indigenous languages</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Aymara</item>
+        <item>Guarani</item>
+        <item>Quechua</item>
+        <item>Spanish</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>92.8</percentage>
           <breakdown>
             <Catholicism____>81.4</Catholicism____>
             <other_Christian____>11.4</other_Christian____>
           </breakdown>
+          <percentage>92.8</percentage>
         </Christianity>
         <no_religion____>6.5</no_religion____>
         <other____>0.7</other____>
@@ -19,26 +46,9 @@
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>1098581</Total__km2_>
-      <Water____>1.29</Water____>
-    </Area>
     <Population>
-      <Census>11365333</Census>
+      <Count>11365333.0</Count>
       <Density___km2_>10.4</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>144098000000</Total____>
-        <Per_capita____>11574</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>56339000000</Total____>
-        <Per_capita____>4525</Per_capita____>
-      </GDP__nominal_>
-      <Gini>40.9</Gini>
-      <HDI>0.733</HDI>
-      <Currency>Boliviano</Currency>
-    </Economy>
   </infobox>
 </country>

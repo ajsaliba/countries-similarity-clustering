@@ -2,25 +2,47 @@
 <country>
   <country>Peru</country>
   <infobox>
+    <Area>
+      <Total__km2_>1285216.0</Total__km2_>
+      <Water____>0.41</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Peruvian sol</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>18980.0</Per_capita____>
+        <Total____>653090000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>9260.0</Per_capita____>
+        <Total____>318480000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>40.2</Gini>
+      <HDI>0.794</HDI>
+    </Economy>
     <General>
-      <Official_languages>Spanish</Official_languages>
-      <Co_official_languages>Quechua Aymara Other Indigenous languages</Co_official_languages>
       <Ethnic_groups>
+        <Black____>3.57</Black____>
+        <East_Asian____>0.16</East_Asian____>
         <Mestizo____>60.2</Mestizo____>
         <Native____>25.75</Native____>
         <White____>5.89</White____>
-        <Black____>3.57</Black____>
-        <East_Asian____>0.16</East_Asian____>
-        <other____>1.1</other____>
         <no_answer____>3.32</no_answer____>
+        <other____>1.1</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Aymara</item>
+        <item>Quechua</item>
+        <item>Spanish</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>94.5</percentage>
           <breakdown>
             <Catholicism____>76</Catholicism____>
             <other_Christian____>18.5</other_Christian____>
           </breakdown>
+          <percentage>94.5</percentage>
         </Christianity>
         <no_religion____>5.1</no_religion____>
         <other____>0.4</other____>
@@ -29,26 +51,9 @@
     <Government>
       <Government>Unitary semi-presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>1285216</Total__km2_>
-      <Water____>0.41</Water____>
-    </Area>
     <Population>
-      <Estimate>34352720</Estimate>
-      <Density___km2_>23</Density___km2_>
+      <Count>34352720.0</Count>
+      <Density___km2_>23.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>653090000000</Total____>
-        <Per_capita____>18980</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>318480000000</Total____>
-        <Per_capita____>9260</Per_capita____>
-      </GDP__nominal_>
-      <Gini>40.2</Gini>
-      <HDI>0.794</HDI>
-      <Currency>Peruvian sol</Currency>
-    </Economy>
   </infobox>
 </country>

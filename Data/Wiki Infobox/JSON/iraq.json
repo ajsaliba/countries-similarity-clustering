@@ -1,43 +1,48 @@
 {
     "country": "Iraq",
     "infobox": {
+        "Area": {
+            "Total (km2)": 438317.0,
+            "Water (%)": 4.93
+        },
+        "Economy": {
+            "Currency": [
+                "Iraqi dinar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 15180.0,
+                "Total ($)": 690090000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 5670.0,
+                "Total ($)": 258020000000.0
+            },
+            "Gini": 29.5,
+            "HDI": 0.712
+        },
         "General": {
-            "Official languages": "Arabic Kurdish",
             "Ethnic groups": {
                 "Arabs 15– (%)": 80,
-                "Kurds 5– (%)": 20,
-                "Assyrians , Turkmen , Jews , Persians , Yazidis , Mandaeans , and others (%)": 10
+                "Assyrians , Turkmen , Jews , Persians , Yazidis , Mandaeans , and others (%)": 10,
+                "Kurds 5– (%)": 20
             },
+            "Primary Language": [
+                "Arabic",
+                "Kurdish"
+            ],
             "Religion": {
+                "Christianity , Mandaeism , Yazidism , Judaism , Yarsanism , irreligion and others (%)": 10,
                 "Islam ( official ) (%)": 95,
                 "Shia (%)": 61,
-                "Sunni 5– (%)": 35,
-                "Christianity , Mandaeism , Yazidism , Judaism , Yarsanism , irreligion and others (%)": 10
+                "Sunni 5– (%)": 35
             }
         },
         "Government": {
             "Government": "Federal parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 438317,
-            "Water (%)": 4.93
-        },
         "Population": {
-            "Census": 46118793,
+            "Count": 46118793.0,
             "Density (/km2)": 82.7
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 690090000000,
-                "Per capita ($)": 15180
-            },
-            "GDP (nominal)": {
-                "Total ($)": 258020000000,
-                "Per capita ($)": 5670
-            },
-            "Gini": 29.5,
-            "HDI": 0.712,
-            "Currency": "Iraqi dinar"
         }
     }
 }

@@ -1,39 +1,45 @@
 {
     "country": "Bhutan",
     "infobox": {
+        "Area": {
+            "Total (km2)": 38394.0,
+            "Water (%)": 1.1
+        },
+        "Economy": {
+            "Currency": [
+                "Ngultrum Indian rupee"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 19255.0,
+                "Total ($)": 15415000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 4710.0,
+                "Total ($)": 3771000000.0
+            },
+            "Gini": 28.5,
+            "HDI": 0.698
+        },
         "General": {
-            "Official languages": "Dzongkha",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Dzongkha"
+            ],
             "Religion": {
+                "Bon (%)": 1.9,
                 "Buddhism (%)": 74.7,
                 "Hinduism (%)": 22.6,
-                "Bon (%)": 1.9,
                 "others (%)": 0.8
             }
         },
         "Government": {
             "Government": "Unitary parliamentary semi-constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 38394,
-            "Water (%)": 1.1
-        },
         "Population": {
-            "Estimate": 777486,
-            "Census": 727145,
+            "Count": 777486.0,
             "Density (/km2)": 20.5
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 14110000000,
-                "Per capita ($)": 17774
-            },
-            "GDP (nominal)": {
-                "Total ($)": 3420000000,
-                "Per capita ($)": 4300
-            },
-            "Gini": 28.5,
-            "HDI": 0.698,
-            "Currency": "Ngultrum Indian rupee"
         }
     }
 }

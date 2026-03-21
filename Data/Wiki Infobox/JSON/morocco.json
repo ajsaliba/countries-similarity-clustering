@@ -1,56 +1,62 @@
 {
     "country": "Morocco",
     "infobox": {
+        "Area": {
+            "Total (km2)": 446550.0,
+            "Water (%)": 0.056
+        },
+        "Economy": {
+            "Currency": [
+                "Moroccan dirham"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 11270.0,
+                "Total ($)": 424870000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 4440.0,
+                "Total ($)": 165840000000.0
+            },
+            "Gini": 40.3,
+            "HDI": 0.71
+        },
         "General": {
-            "Official languages": "Arabic Tamazight",
-            "Ethnic groups": "See Ethnic groups",
+            "Ethnic groups": {
+                "See Ethnic groups": null
+            },
+            "Primary Language": [
+                "Arabic",
+                "Tamazight"
+            ],
             "Religion": {
-                "Islam ( official )": {
-                    "percentage": 99.68,
-                    "breakdown": {
-                        "Sunni (%)": 99.23,
-                        "Shia (%)": 0.45
-                    }
-                },
-                "Others": {
-                    "percentage": 0.3,
-                    "breakdown": {
-                        "Agnostics (%)": 0.13
-                    }
-                },
                 "Baháʼís": {
-                    "percentage": 0.1,
                     "breakdown": {
                         "Christians (%)": 0.09
-                    }
+                    },
+                    "percentage": 0.1
                 },
-                "Jews (%)": 0.01
+                "Islam ( official )": {
+                    "breakdown": {
+                        "Shia (%)": 0.45,
+                        "Sunni (%)": 99.23
+                    },
+                    "percentage": 99.68
+                },
+                "Jews (%)": 0.01,
+                "Others": {
+                    "breakdown": {
+                        "Agnostics (%)": 0.13
+                    },
+                    "percentage": 0.3
+                }
             }
         },
         "Government": {
             "Government": "Unitary parliamentary semi-constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 446550,
-            "Water (%)": 0.056
-        },
         "Population": {
-            "Estimate": 37493183,
-            "Census": 36828330,
+            "Count": 37493183.0,
             "Density (/km2)": 79.0
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 424870000000,
-                "Per capita ($)": 11270
-            },
-            "GDP (nominal)": {
-                "Total ($)": 165840000000,
-                "Per capita ($)": 4440
-            },
-            "Gini": 40.3,
-            "HDI": 0.71,
-            "Currency": "Moroccan dirham"
         }
     }
 }

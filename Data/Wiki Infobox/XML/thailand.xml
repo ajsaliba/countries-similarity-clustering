@@ -2,50 +2,53 @@
 <country>
   <country>Thailand</country>
   <infobox>
+    <Area>
+      <Total__km2_>513120.0</Total__km2_>
+      <Water____>0.4</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Thai baht</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>26358.0</Per_capita____>
+        <Total____>1853000000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>7942.0</Per_capita____>
+        <Total____>558573000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>33.5</Gini>
+      <HDI>0.798</HDI>
+    </Economy>
     <General>
-      <Official_languages>Thai</Official_languages>
       <Ethnic_groups>
-        <Thai____>80</Thai____>
         <Central_Thai____>37</Central_Thai____>
         <Isan____>25</Isan____>
+        <Northern_Khmer____>4</Northern_Khmer____>
         <Northern_Thai____>8</Northern_Thai____>
         <Southern_Thai____>8</Southern_Thai____>
-        <Western_Thai____>2</Western_Thai____>
+        <Thai____>80</Thai____>
         <Thai_Chinese____>12</Thai_Chinese____>
-        <Northern_Khmer____>4</Northern_Khmer____>
         <Thai_Malays____>4</Thai_Malays____>
+        <Western_Thai____>2</Western_Thai____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Thai</item>
+      </Primary_Language>
       <Religion>
         <Buddhism____>93.46</Buddhism____>
-        <Islam____>5.37</Islam____>
         <Christianity____>1.13</Christianity____>
+        <Islam____>5.37</Islam____>
         <other____>0.03</other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>513120</Total__km2_>
-      <Water____>0.4</Water____>
-    </Area>
     <Population>
-      <Estimate>65975198</Estimate>
-      <Census>64785909</Census>
+      <Count>65975198.0</Count>
       <Density___km2_>132.1</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>1853000000000</Total____>
-        <Per_capita____>26358</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>558573000000</Total____>
-        <Per_capita____>7942</Per_capita____>
-      </GDP__nominal_>
-      <Gini>33.5</Gini>
-      <HDI>0.798</HDI>
-      <Currency>Thai baht</Currency>
-    </Economy>
   </infobox>
 </country>

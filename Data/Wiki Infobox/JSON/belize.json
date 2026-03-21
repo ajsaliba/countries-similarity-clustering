@@ -1,20 +1,41 @@
 {
     "country": "Belize",
     "infobox": {
-        "General": {
-            "Official languages": "English",
-            "Ethnic groups": {
-                "Mestizo (%)": 52.9,
-                "Creole (%)": 25.9,
-                "Mayan (%)": 11.3,
-                "Garifuna (%)": 6.1,
-                "East Indian (%)": 3.9,
-                "Mennonite (%)": 3.6,
-                "White (%)": 1.2,
-                "Asian (%)": 1,
-                "Other (%)": 1.2,
-                "Unknown (%)": 0.3
+        "Area": {
+            "Total (km2)": 22966.0,
+            "Water (%)": 0.8
+        },
+        "Economy": {
+            "Currency": [
+                "Belize dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 15363.0,
+                "Total ($)": 6414000000.0
             },
+            "GDP (nominal)": {
+                "Per capita ($)": 8355.0,
+                "Total ($)": 3488000000.0
+            },
+            "Gini": 53.1,
+            "HDI": 0.721
+        },
+        "General": {
+            "Ethnic groups": {
+                "Asian (%)": 1,
+                "Creole (%)": 25.9,
+                "East Indian (%)": 3.9,
+                "Garifuna (%)": 6.1,
+                "Mayan (%)": 11.3,
+                "Mennonite (%)": 3.6,
+                "Mestizo (%)": 52.9,
+                "Other (%)": 1.2,
+                "Unknown (%)": 0.3,
+                "White (%)": 1.2
+            },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
                 "Christianity (%)": 61.9,
                 "no religion (%)": 31.8,
@@ -24,26 +45,9 @@
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 22966,
-            "Water (%)": 0.8
-        },
         "Population": {
-            "Census": 397483,
+            "Count": 397483.0,
             "Density (/km2)": 17.31
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 6414000000,
-                "Per capita ($)": 15363
-            },
-            "GDP (nominal)": {
-                "Total ($)": 3488000000,
-                "Per capita ($)": 8355
-            },
-            "Gini": 53.1,
-            "HDI": 0.721,
-            "Currency": "Belize dollar"
         }
     }
 }

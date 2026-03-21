@@ -1,57 +1,62 @@
 {
     "country": "Uganda",
     "infobox": {
+        "Area": {
+            "Total (km2)": 241038.0,
+            "Water (%)": 15.39
+        },
+        "Economy": {
+            "Currency": [
+                "Ugandan shilling"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 3900.0,
+                "Total ($)": 187110000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 1340.0,
+                "Total ($)": 64280000000.0
+            },
+            "Gini": 42.0,
+            "HDI": 0.582
+        },
         "General": {
-            "Official languages": "English Swahili",
             "Ethnic groups": {
+                "Acholi (%)": 4.2,
                 "Baganda (%)": 15.3,
+                "Bagisu (%)": 4.5,
+                "Bakiga (%)": 6.4,
                 "Banyankole (%)": 9.1,
                 "Basoga (%)": 8.1,
-                "Bakiga (%)": 6.4,
                 "Iteso (%)": 6.8,
                 "Langi (%)": 5.9,
-                "Bagisu (%)": 4.5,
-                "Acholi (%)": 4.2,
                 "Lugbara (%)": 2.6,
                 "others (%)": 37.1
             },
+            "Primary Language": [
+                "English",
+                "Swahili"
+            ],
             "Religion": {
                 "Christianity (%)": 81.7,
                 "Roman Catholic": {
-                    "percentage": 42,
                     "breakdown": {
-                        "Protestant (%)": 29,
-                        "Islam (%)": 13.2
-                    }
+                        "Islam (%)": 13.2,
+                        "Protestant (%)": 29
+                    },
+                    "percentage": 42
                 },
-                "unclassified (%)": 3.3,
+                "no religion (%)": 0.2,
                 "others (%)": 1.6,
-                "no religion (%)": 0.2
+                "unclassified (%)": 3.3
             }
         },
         "Government": {
             "Government": "Unitary presidential republic under a dictatorship"
         },
-        "Area": {
-            "Total (km2)": 241038,
-            "Water (%)": 15.39
-        },
         "Population": {
-            "Census": "= 45,905,417",
+            "Count": 45905417.0,
             "Density (/km2)": 157.1
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 187110000000,
-                "Per capita ($)": 3900
-            },
-            "GDP (nominal)": {
-                "Total ($)": 64280000000,
-                "Per capita ($)": 1340
-            },
-            "Gini": 42.0,
-            "HDI": 0.582,
-            "Currency": "Ugandan shilling"
         }
     }
 }

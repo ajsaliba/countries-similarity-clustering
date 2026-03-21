@@ -2,48 +2,53 @@
 <country>
   <country>Kiribati</country>
   <infobox>
+    <Area>
+      <Total__km2_>811.19</Total__km2_>
+      <Water____>-1.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Australian dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>2381.0</Per_capita____>
+        <Total____>297000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>1989.0</Per_capita____>
+        <Total____>248000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>27.8</Gini>
+      <HDI>0.644</HDI>
+    </Economy>
     <General>
-      <Official_languages>English Gilbertese</Official_languages>
       <Ethnic_groups>
         <Gilbertese____>95.7</Gilbertese____>
         <other____>4.3</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Gilbertese</item>
+      </Primary_Language>
       <Religion>
+        <Bah____Faith____>2.1</Bah____Faith____>
         <Christianity>
-          <percentage>96.2</percentage>
           <breakdown>
             <Catholic_Church____>58.9</Catholic_Church____>
             <Uniting_Church____>21.2</Uniting_Church____>
             <other_Christian____>16.1</other_Christian____>
           </breakdown>
+          <percentage>96.2</percentage>
         </Christianity>
-        <Bah____Faith____>2.1</Bah____Faith____>
         <other___none____>1.7</other___none____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic with an executive president</Government>
     </Government>
-    <Area>
-      <Total__km2_>811.19</Total__km2_>
-    </Area>
     <Population>
-      <Estimate>116545</Estimate>
-      <Census>119438</Census>
+      <Count>116545.0</Count>
       <Density___km2_>149.64</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>297000000</Total____>
-        <Per_capita____>2381</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>248000000</Total____>
-        <Per_capita____>1989</Per_capita____>
-      </GDP__nominal_>
-      <Gini>27.8</Gini>
-      <HDI>0.644</HDI>
-      <Currency>Australian dollar</Currency>
-    </Economy>
   </infobox>
 </country>

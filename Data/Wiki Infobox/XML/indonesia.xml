@@ -2,53 +2,56 @@
 <country>
   <country>Indonesia</country>
   <infobox>
+    <Area>
+      <Total__km2_>1904569.0</Total__km2_>
+      <Water____>4.85</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Indonesian rupiah</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>17612.0</Per_capita____>
+        <Total____>5009000000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>5027.0</Per_capita____>
+        <Total____>1430000000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>37.9</Gini>
+      <HDI>0.728</HDI>
+    </Economy>
     <General>
-      <Official_languages>Indonesian</Official_languages>
       <Ethnic_groups>
-        <Javanese____>40.2</Javanese____>
-        <Sundanese____>15.5</Sundanese____>
-        <Malay____>3.7</Malay____>
         <Batak____>3.6</Batak____>
+        <Javanese____>40.2</Javanese____>
         <Madurese____>3</Madurese____>
+        <Malay____>3.7</Malay____>
+        <Sundanese____>15.5</Sundanese____>
         <others___600__ethnic_groups______>34</others___600__ethnic_groups______>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Indonesian</item>
+      </Primary_Language>
       <Religion>
-        <Islam____>87.1</Islam____>
+        <Buddhism___Folk___Confucianism___and_others____>0.8</Buddhism___Folk___Confucianism___and_others____>
         <Christianity>
-          <percentage>10.45</percentage>
           <breakdown>
-            <Protestantism____>7.38</Protestantism____>
             <Catholicism____>3.07</Catholicism____>
+            <Protestantism____>7.38</Protestantism____>
           </breakdown>
+          <percentage>10.45</percentage>
         </Christianity>
         <Hinduism____>1.7</Hinduism____>
-        <Buddhism___Folk___Confucianism___and_others____>0.8</Buddhism___Folk___Confucianism___and_others____>
+        <Islam____>87.1</Islam____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>1904569</Total__km2_>
-      <Water____>4.85</Water____>
-    </Area>
     <Population>
-      <Estimate>288.315.089</Estimate>
-      <Census>270203917</Census>
-      <Density___km2_>143</Density___km2_>
+      <Count>288315089.0</Count>
+      <Density___km2_>143.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>5009000000000</Total____>
-        <Per_capita____>17612</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>1430000000000</Total____>
-        <Per_capita____>5027</Per_capita____>
-      </GDP__nominal_>
-      <Gini>37.9</Gini>
-      <HDI>0.728</HDI>
-      <Currency>Indonesian rupiah</Currency>
-    </Economy>
   </infobox>
 </country>

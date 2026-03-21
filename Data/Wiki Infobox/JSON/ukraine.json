@@ -1,13 +1,34 @@
 {
     "country": "Ukraine",
     "infobox": {
+        "Area": {
+            "Total (km2)": 603628.0,
+            "Water (%)": 3.8
+        },
+        "Economy": {
+            "Currency": [
+                "Ukrainian hryvnia"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 20999.0,
+                "Total ($)": 690059000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 6261.0,
+                "Total ($)": 205742000000.0
+            },
+            "Gini": 25.6,
+            "HDI": 0.779
+        },
         "General": {
-            "Official language and national language": "Ukrainian",
             "Ethnic groups": {
-                "Ukrainians (%)": 78,
                 "Russians (%)": 17,
+                "Ukrainians (%)": 78,
                 "other (%)": 4.9
             },
+            "Primary Language": [
+                "Ukrainian"
+            ],
             "Religion": {
                 "Christianity (%)": 87.3,
                 "no religion (%)": 11,
@@ -17,26 +38,9 @@
         "Government": {
             "Government": "Unitary semi-presidential republic"
         },
-        "Area": {
-            "Total (km2)": 603628,
-            "Water (%)": 3.8
-        },
         "Population": {
-            "Estimate": 32862000,
+            "Count": 32862000.0,
             "Density (/km2)": 54.4
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 690059000000,
-                "Per capita ($)": 20999
-            },
-            "GDP (nominal)": {
-                "Total ($)": 205742000000,
-                "Per capita ($)": 6261
-            },
-            "Gini": 25.6,
-            "HDI": 0.779,
-            "Currency": "Ukrainian hryvnia"
         }
     }
 }

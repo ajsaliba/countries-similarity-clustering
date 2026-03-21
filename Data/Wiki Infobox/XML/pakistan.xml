@@ -2,38 +2,46 @@
 <country>
   <country>Pakistan</country>
   <infobox>
+    <Area>
+      <Total__km2_>881913.0</Total__km2_>
+      <Water____>2.86</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Pakistani rupee</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>6950.0</Per_capita____>
+        <Total____>1670000000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>1710.0</Per_capita____>
+        <Total____>410500000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>29.6</Gini>
+      <HDI>0.544</HDI>
+    </Economy>
     <General>
-      <Official_languages>Urdu English</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Urdu</item>
+      </Primary_Language>
       <Religion>
-        <Islam___official______>96.3</Islam___official______>
-        <Hinduism____>2.2</Hinduism____>
         <Christianity____>1.4</Christianity____>
+        <Hinduism____>2.2</Hinduism____>
+        <Islam___official______>96.3</Islam___official______>
         <other____>0.1</other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal parliamentary Islamic republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>881913</Total__km2_>
-      <Water____>2.86</Water____>
-    </Area>
     <Population>
-      <Census>241499431</Census>
+      <Count>241499431.0</Count>
       <Density___km2_>273.8</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>1670000000000</Total____>
-        <Per_capita____>6950</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>410500000000</Total____>
-        <Per_capita____>1710</Per_capita____>
-      </GDP__nominal_>
-      <Gini>29.6</Gini>
-      <HDI>0.544</HDI>
-      <Currency>Pakistani rupee</Currency>
-    </Economy>
   </infobox>
 </country>

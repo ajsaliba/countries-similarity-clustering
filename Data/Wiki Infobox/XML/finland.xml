@@ -2,20 +2,47 @@
 <country>
   <country>Finland</country>
   <infobox>
+    <Area>
+      <Total__km2_>338455.0</Total__km2_>
+      <Water____>9.71</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Euro</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>66500.0</Per_capita____>
+        <Total____>373160000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>54160.0</Per_capita____>
+        <Total____>303950000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>26.6</Gini>
+      <HDI>0.948</HDI>
+    </Economy>
     <General>
-      <Official_languages>Finnish Swedish</Official_languages>
       <Ethnic_groups>
         <Finns____>88.9</Finns____>
         <others____>11.1</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Finland-Swedish Sign Language</item>
+        <item>Finnish</item>
+        <item>Finnish Sign Language</item>
+        <item>Kalo</item>
+        <item>Karelian</item>
+        <item>Swedish</item>
+        <item>Sámi</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>64.2</percentage>
           <breakdown>
-            <Lutheranism____>62.2</Lutheranism____>
             <Eastern_Orthodoxy____>1</Eastern_Orthodoxy____>
+            <Lutheranism____>62.2</Lutheranism____>
             <other_Christian____>1</other_Christian____>
           </breakdown>
+          <percentage>64.2</percentage>
         </Christianity>
         <no_religion____>34.9</no_religion____>
         <other____>2</other____>
@@ -24,26 +51,9 @@
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>338455</Total__km2_>
-      <Water____>9.71</Water____>
-    </Area>
     <Population>
-      <Census>5635971</Census>
+      <Count>5635971.0</Count>
       <Density___km2_>18.4</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>373160000000</Total____>
-        <Per_capita____>66500</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>303950000000</Total____>
-        <Per_capita____>54160</Per_capita____>
-      </GDP__nominal_>
-      <Gini>26.6</Gini>
-      <HDI>0.948</HDI>
-      <Currency>Euro</Currency>
-    </Economy>
   </infobox>
 </country>

@@ -1,20 +1,41 @@
 {
     "country": "Armenia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 29743.0,
+            "Water (%)": 4.71
+        },
+        "Economy": {
+            "Currency": [
+                "Dram"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 23954.0,
+                "Total ($)": 74407000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 8969.0,
+                "Total ($)": 27859000000.0
+            },
+            "Gini": 27.9,
+            "HDI": 0.811
+        },
         "General": {
-            "Official languages": "Armenian",
             "Ethnic groups": {
                 "Armenians (%)": 98.1,
                 "Yazidis (%)": 1.1,
                 "other (%)": 0.8
             },
+            "Primary Language": [
+                "Armenian"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 96.8,
                     "breakdown": {
                         "Armenian Apostolic Church (%)": 95.2,
                         "other Christian (%)": 1.6
-                    }
+                    },
+                    "percentage": 96.8
                 },
                 "no religion (%)": 0.6,
                 "other (%)": 0.9,
@@ -24,26 +45,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 29743,
-            "Water (%)": 4.71
-        },
         "Population": {
-            "Estimate": 3081100,
+            "Count": 3081100.0,
             "Density (/km2)": 103.6
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 74407000000,
-                "Per capita ($)": 23954
-            },
-            "GDP (nominal)": {
-                "Total ($)": 27859000000,
-                "Per capita ($)": 8969
-            },
-            "Gini": 27.9,
-            "HDI": 0.811,
-            "Currency": "Dram"
         }
     }
 }

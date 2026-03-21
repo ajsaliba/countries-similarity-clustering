@@ -1,23 +1,45 @@
 {
     "country": "Guatemala",
     "infobox": {
+        "Area": {
+            "Total (km2)": 108889.0,
+            "Water (%)": 0.4
+        },
+        "Economy": {
+            "Currency": [
+                "Quetzal"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 15386.0,
+                "Total ($)": 278508000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 6682.0,
+                "Total ($)": 120964000000.0
+            },
+            "Gini": 45.2,
+            "HDI": 0.662
+        },
         "General": {
-            "Official languages": "Spanish",
             "Ethnic groups": {
+                "Black (%)": 0.19,
+                "Garifuna (%)": 0.13,
                 "Ladino (mixed) (%)": 56.01,
                 "Maya (%)": 41.66,
                 "Xinca (%)": 1.77,
-                "Black (%)": 0.19,
-                "Garifuna (%)": 0.13,
                 "other (%)": 0.24
             },
+            "Primary Language": [
+                "Mayan",
+                "Spanish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 88.1,
                     "breakdown": {
-                        "Protestantism (%)": 45.7,
-                        "Catholicism (%)": 42.4
-                    }
+                        "Catholicism (%)": 42.4,
+                        "Protestantism (%)": 45.7
+                    },
+                    "percentage": 88.1
                 },
                 "no religion (%)": 11,
                 "other (%)": 0.9
@@ -26,26 +48,9 @@
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 108889,
-            "Water (%)": 0.4
-        },
         "Population": {
-            "Estimate": 18255216,
-            "Density (/km2)": 166
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 278508000000,
-                "Per capita ($)": 15386
-            },
-            "GDP (nominal)": {
-                "Total ($)": 120964000000,
-                "Per capita ($)": 6682
-            },
-            "Gini": 45.2,
-            "HDI": 0.662,
-            "Currency": "Quetzal"
+            "Count": 18255216.0,
+            "Density (/km2)": 166.0
         }
     }
 }

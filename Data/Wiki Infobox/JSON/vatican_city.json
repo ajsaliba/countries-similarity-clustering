@@ -1,26 +1,43 @@
 {
     "country": "Vatican City",
     "infobox": {
+        "Area": {
+            "Total (km2)": 0.49,
+            "Water (%)": -1.0
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 19450.22,
+                "Total ($)": 14859970.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": -1.0,
+                "Total ($)": -1.0
+            },
+            "Gini": -1.0,
+            "HDI": -1.0
+        },
         "General": {
-            "Official languages": "Italian",
-            "Religion": "Catholicism"
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Italian",
+                "Latin"
+            ],
+            "Religion": {
+                "Catholicism": 100.0
+            }
         },
         "Government": {
             "Government": "Theocratic elective absolute monarchy"
         },
-        "Area": {
-            "Total (km2)": 0.49
-        },
         "Population": {
-            "Estimate": 882,
-            "Density (/km2)": 1800
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total": "€14,859,970",
-                "Per capita": "€19,450.22"
-            },
-            "Currency": "Euro"
+            "Count": 882.0,
+            "Density (/km2)": 1800.0
         }
     }
 }

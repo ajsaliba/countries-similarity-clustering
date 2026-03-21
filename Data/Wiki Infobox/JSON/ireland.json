@@ -1,54 +1,58 @@
 {
     "country": "Ireland",
     "infobox": {
+        "Area": {
+            "Total (km2)": 70273.0,
+            "Water (%)": 2.0
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 134000.0,
+                "Total ($)": 736730000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 108920.0,
+                "Total ($)": 598840000000.0
+            },
+            "Gini": 27.9,
+            "HDI": 0.949
+        },
         "General": {
-            "Official languages": "Irish English",
             "Ethnic groups": {
-                "White Irish (%)": 76.6,
-                "other White (%)": 10.8,
                 "Asian (%)": 3.3,
                 "Black (%)": 1.5,
+                "White Irish (%)": 76.6,
+                "not stated (%)": 6.2,
                 "other (%)": 1.7,
-                "not stated (%)": 6.2
+                "other White (%)": 10.8
             },
+            "Primary Language": [
+                "English",
+                "Irish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 75.7,
                     "breakdown": {
-                        "Catholicism (%)": 69.1,
                         "Anglicanism (%)": 2.5,
+                        "Catholicism (%)": 69.1,
                         "other Christian (%)": 4.1
-                    }
+                    },
+                    "percentage": 75.7
                 },
                 "no religion (%)": 14.5,
-                "other (%)": 3.1,
-                "not stated (%)": 6.7
+                "not stated (%)": 6.7,
+                "other (%)": 3.1
             }
         },
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 70273,
-            "Water (%)": 2.0
-        },
         "Population": {
-            "Estimate": 5458600,
-            "Census": 5149139,
+            "Count": 5458600.0,
             "Density (/km2)": 76.6
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 736730000000,
-                "Per capita ($)": 134000
-            },
-            "GDP (nominal)": {
-                "Total ($)": 598840000000,
-                "Per capita ($)": 108920
-            },
-            "Gini": 27.9,
-            "HDI": 0.949,
-            "Currency": "Euro"
         }
     }
 }

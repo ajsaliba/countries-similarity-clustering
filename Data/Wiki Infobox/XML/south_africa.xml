@@ -2,48 +2,62 @@
 <country>
   <country>South Africa</country>
   <infobox>
+    <Area>
+      <Total__km2_>1221037.0</Total__km2_>
+      <Water____>0.38</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>South African rand</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>16280.0</Per_capita____>
+        <Total____>1060000000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>6830.0</Per_capita____>
+        <Total____>443640000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>63.0</Gini>
+      <HDI>0.741</HDI>
+    </Economy>
     <General>
-      <Official_languages>12 languages Afrikaans English Ndebele Sepedi Sesotho Setswana South African Sign Language Swazi Tshivenda Xhosa Xitsonga Zulu Languages with special status Khoe languages Nama Khoisan languages German Greek Gujarati Hindi Portuguese Telugu Tamil Urdu Arabic Hebrew Sanskrit</Official_languages>
       <Ethnic_groups>
         <Black____>81.4</Black____>
         <Coloured____>8.2</Coloured____>
-        <White____>7.3</White____>
         <Indian_or_Asian____>2.7</Indian_or_Asian____>
+        <White____>7.3</White____>
         <other____>0.4</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Afrikaans</item>
+        <item>English</item>
+        <item>Ndebele</item>
+        <item>Sepedi</item>
+        <item>Sesotho</item>
+        <item>Setswana</item>
+        <item>South African Sign Language</item>
+        <item>Swazi</item>
+        <item>Tshivenda</item>
+        <item>Xhosa</item>
+        <item>Xitsonga</item>
+        <item>Zulu</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>85.3</Christianity____>
-        <Traditional_faiths____>7.8</Traditional_faiths____>
-        <No_religion____>3.1</No_religion____>
-        <Islam____>1.6</Islam____>
         <Hinduism____>1.1</Hinduism____>
+        <Islam____>1.6</Islam____>
+        <No_religion____>3.1</No_religion____>
+        <Traditional_faiths____>7.8</Traditional_faiths____>
         <other____>1.1</other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic with an executive presidency</Government>
     </Government>
-    <Area>
-      <Total__km2_>1221037</Total__km2_>
-      <Water____>0.38</Water____>
-    </Area>
     <Population>
-      <Estimate>63015904</Estimate>
-      <Census>62027503</Census>
+      <Count>63015904.0</Count>
       <Density___km2_>50.8</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>1060000000000</Total____>
-        <Per_capita____>16280</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>443640000000</Total____>
-        <Per_capita____>6830</Per_capita____>
-      </GDP__nominal_>
-      <Gini>63.0</Gini>
-      <HDI>0.741</HDI>
-      <Currency>South African rand</Currency>
-    </Economy>
   </infobox>
 </country>

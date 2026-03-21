@@ -3,7 +3,7 @@
         "country": "Afghanistan",
         "infobox": {
             "General": {
-                "Official languages": "Pashto Dari",
+                "Official Language": "Pashto Dari",
                 "Ethnic groups": {
                     "Pashtun (%)": 42,
                     "Tajik (%)": 27,
@@ -33,7 +33,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": "35–50 million",
+                "Count": "35–50 million",
                 "Density (/km2)": 64
             },
             "Economy": {
@@ -54,7 +54,7 @@
         "country": "Albania",
         "infobox": {
             "General": {
-                "Official languages": "Albanian",
+                "Official Language": "Albanian",
                 "Ethnic groups": {
                     "Albanians (%)": 97.7,
                     "Greeks (%)": 1,
@@ -94,7 +94,7 @@
                 "Water (%)": 4.7
             },
             "Population": {
-                "Census": 2402113,
+                "Count": 2402113,
                 "Density (/km2)": 83.6
             },
             "Economy": {
@@ -116,7 +116,7 @@
         "country": "Algeria",
         "infobox": {
             "General": {
-                "Official languages": "Arabic Berber",
+                "Official Language": "Arabic Berber",
                 "Ethnic groups": "See Ethnic groups",
                 "Religion": {
                     "Sunni Islam ( official ) < (%)": 99,
@@ -130,7 +130,7 @@
                 "Total (km2)": 2381741
             },
             "Population": {
-                "Estimate": 47400000,
+                "Count": 47400000,
                 "Density (/km2)": 19
             },
             "Economy": {
@@ -152,7 +152,7 @@
         "country": "Andorra",
         "infobox": {
             "General": {
-                "Official languages": "Catalan 44.1%",
+                "Official Language": "Catalan 44.1%",
                 "Ethnic groups": {
                     "Spaniards (%)": 34.3,
                     "Andorrans (%)": 32.1,
@@ -199,7 +199,7 @@
                 "Water (%)": 0.26
             },
             "Population": {
-                "Estimate": 89058,
+                "Count": 89058,
                 "Density (/km2)": 187.1
             }
         }
@@ -208,7 +208,8 @@
         "country": "Angola",
         "infobox": {
             "General": {
-                "Official languages": "Portuguese",
+                "Official Language": "Portuguese",
+                "National Language": "Chokwe , Kimbundu , Kikongo , Oshiwambo , Luchazi , Umbundu",
                 "Ethnic groups": {
                     "Ovimbundu (%)": 37,
                     "Ambundu (%)": 25,
@@ -238,7 +239,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Census": 36604681,
+                "Count": 36604681,
                 "Density (/km2)": 29.4
             },
             "Economy": {
@@ -260,7 +261,7 @@
         "country": "Antigua and Barbuda",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "African (%)": 87.3,
                     "Multiracial (%)": 4.7,
@@ -300,8 +301,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 106365,
-                "Census": 84816,
+                "Count": 106365,
                 "Density (/km2)": 186
             },
             "Economy": {
@@ -322,6 +322,7 @@
         "country": "Argentina",
         "infobox": {
             "General": {
+                "National Language": "Spanish",
                 "Religion": {
                     "Christianity": {
                         "percentage": 78.2,
@@ -342,8 +343,7 @@
                 "Water (%)": 1.57
             },
             "Population": {
-                "Estimate": 46735004,
-                "Census": 46044703,
+                "Count": 46735004,
                 "Density (/km2)": 16.8
             },
             "Economy": {
@@ -365,7 +365,7 @@
         "country": "Armenia",
         "infobox": {
             "General": {
-                "Official languages": "Armenian",
+                "Official Language": "Armenian",
                 "Ethnic groups": {
                     "Armenians (%)": 98.1,
                     "Yazidis (%)": 1.1,
@@ -392,7 +392,7 @@
                 "Water (%)": 4.71
             },
             "Population": {
-                "Estimate": 3081100,
+                "Count": 3081100,
                 "Density (/km2)": 103.6
             },
             "Economy": {
@@ -414,6 +414,7 @@
         "country": "Australia",
         "infobox": {
             "General": {
+                "National Language": "English",
                 "Religion": {
                     "Christianity (%)": 43.9,
                     "no religion (%)": 38.9,
@@ -432,8 +433,7 @@
                 "Water (%)": 1.79
             },
             "Population": {
-                "Estimate": 27840775,
-                "Census": 25890773,
+                "Count": 27840775,
                 "Density (/km2)": 3.7
             },
             "Economy": {
@@ -455,7 +455,7 @@
         "country": "Austria",
         "infobox": {
             "General": {
-                "Official language": "German",
+                "Official Language": "German",
                 "Ethnic groups": {
                     "Austrians (%)": 72.2,
                     "other (%)": 27.8
@@ -483,7 +483,7 @@
                 "Water (%)": 0.84
             },
             "Population": {
-                "Estimate": 9110079,
+                "Count": 9110079,
                 "Density (/km2)": 107.6
             },
             "Economy": {
@@ -505,7 +505,7 @@
         "country": "Azerbaijan",
         "infobox": {
             "General": {
-                "Official languages": "Azerbaijani",
+                "Official Language": "Azerbaijani",
                 "Ethnic groups": {
                     "Azerbaijani (%)": 94.8,
                     "Lezgin (%)": 1.7,
@@ -528,7 +528,7 @@
                 "Water (%)": 1.6
             },
             "Population": {
-                "Estimate": 10353296,
+                "Count": 10353296,
                 "Density (/km2)": 117
             },
             "Economy": {
@@ -550,7 +550,7 @@
         "country": "Bahamas, The",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "African (%)": 90.6,
                     "White (%)": 4.7,
@@ -579,7 +579,7 @@
                 "Water (%)": 28
             },
             "Population": {
-                "Census": 412628,
+                "Count": 412628,
                 "Density (/km2)": 25.21
             },
             "Economy": {
@@ -600,7 +600,7 @@
         "country": "Bahrain",
         "infobox": {
             "General": {
-                "Official language and national language": "Arabic",
+                "Official Language": "Arabic",
                 "Ethnic groups": {
                     "Arabs (%)": 53.2,
                     "South Asians (%)": 43.4,
@@ -621,8 +621,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 1463265,
-                "Census": 1501635,
+                "Count": 1463265,
                 "Density (/km2)": 1864
             },
             "Economy": {
@@ -643,7 +642,7 @@
         "country": "Bangladesh",
         "infobox": {
             "General": {
-                "Official language and national language": "Bengali",
+                "Official Language": "Bengali",
                 "Ethnic groups": {
                     "Bengali (%)": 99,
                     "others Chakmas Garos Khasis Khumis Manipuris Marmas Mizos Arakanese Mrus Santals Tanchangyas Tripuris Bishnupriyas (%)": 1
@@ -670,8 +669,7 @@
                 "Water area (km2)": 18290
             },
             "Population": {
-                "Estimate": 173562364,
-                "Census": 169828911,
+                "Count": 173562364,
                 "Density (/km2)": 1165
             },
             "Economy": {
@@ -693,7 +691,7 @@
         "country": "Barbados",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "African (%)": 92.4,
                     "Mixed (%)": 3.1,
@@ -721,8 +719,7 @@
                 "Water (%)": "Negligible"
             },
             "Population": {
-                "Estimate": 281998,
-                "Census": 269090,
+                "Count": 281998,
                 "Density (/km2)": 660
             },
             "Economy": {
@@ -744,7 +741,7 @@
         "country": "Belarus",
         "infobox": {
             "General": {
-                "Official languages": "Belarusian Russian a",
+                "Official Language": "Belarusian Russian a",
                 "Ethnic groups": {
                     "Belarusians (%)": 84.9,
                     "Russians (%)": 7.5,
@@ -772,7 +769,7 @@
                 "Water (%)": 2.26
             },
             "Population": {
-                "Estimate": 9109280,
+                "Count": 9109280,
                 "Density (/km2)": 43.9
             },
             "Economy": {
@@ -794,7 +791,7 @@
         "country": "Belgium",
         "infobox": {
             "General": {
-                "Official languages": "Dutch French German",
+                "Official Language": "Dutch French German",
                 "Ethnic groups": {
                     "Belgians (%)": 86.1,
                     "Belgian background (%)": 64,
@@ -822,7 +819,7 @@
                 "Water (%)": 0.64
             },
             "Population": {
-                "Census": 11825551,
+                "Count": 11825551,
                 "Density (/km2)": 385
             },
             "Economy": {
@@ -844,7 +841,7 @@
         "country": "Belize",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "Mestizo (%)": 52.9,
                     "Creole (%)": 25.9,
@@ -871,7 +868,7 @@
                 "Water (%)": 0.8
             },
             "Population": {
-                "Census": 397483,
+                "Count": 397483,
                 "Density (/km2)": 17.31
             },
             "Economy": {
@@ -893,7 +890,8 @@
         "country": "Benin",
         "infobox": {
             "General": {
-                "Official languages": "French",
+                "Official Language": "French",
+                "National Language": "List: Arabic English Aguna Aja Alada Fon Gbe Gen Gun Pherá Phla Tofin Tɔli Waci Berba Kabye Lama Lukpa Mbelime Mossi Nateni Ngangam Tammari Tem Waama Yom Kwa Chakosi Foodo Ede Ifè Mokole Yoruba Yoruboid Bariba Dendi Fula Hausa",
                 "Ethnic groups": {
                     "Fon (%)": 38.4,
                     "Adja and Mina (%)": 15.1,
@@ -921,7 +919,7 @@
                 "Water (%)": 0.4
             },
             "Population": {
-                "Estimate": 13754688,
+                "Count": 13754688,
                 "Density (/km2)": 94.8
             },
             "Economy": {
@@ -943,7 +941,7 @@
         "country": "Bhutan",
         "infobox": {
             "General": {
-                "Official languages": "Dzongkha",
+                "Official Language": "Dzongkha",
                 "Religion": {
                     "Buddhism (%)": 74.7,
                     "Hinduism (%)": 22.6,
@@ -959,18 +957,17 @@
                 "Water (%)": 1.1
             },
             "Population": {
-                "Estimate": 777486,
-                "Census": 727145,
+                "Count": 777486,
                 "Density (/km2)": 20.5
             },
             "Economy": {
                 "GDP ( PPP )": {
-                    "Total ($)": 14110000000,
-                    "Per capita ($)": 17774
+                    "Total ($)": 15415000000,
+                    "Per capita ($)": 19255
                 },
                 "GDP (nominal)": {
-                    "Total ($)": 3420000000,
-                    "Per capita ($)": 4300
+                    "Total ($)": 3771000000,
+                    "Per capita ($)": 4710
                 },
                 "Gini": 28.5,
                 "HDI": 0.698,
@@ -982,7 +979,7 @@
         "country": "Bolivia",
         "infobox": {
             "General": {
-                "Official languages": "Spanish Quechua Aymara Guarani Other indigenous languages",
+                "Official Language": "Spanish Quechua Aymara Guarani Other indigenous languages",
                 "Religion": {
                     "Christianity": {
                         "percentage": 92.8,
@@ -1003,7 +1000,7 @@
                 "Water (%)": 1.29
             },
             "Population": {
-                "Census": 11365333,
+                "Count": 11365333,
                 "Density (/km2)": 10.4
             },
             "Economy": {
@@ -1025,7 +1022,7 @@
         "country": "Bosnia and Herzegovina",
         "infobox": {
             "General": {
-                "Official language (federal level)": "None",
+                "Official Language": "None",
                 "Religion": {
                     "Islam (%)": 51.3,
                     "Christianity": {
@@ -1036,6 +1033,11 @@
                         }
                     },
                     "Others (%)": 2.6
+                },
+                "Ethnic groups": {
+                    "Bosniaks constitute (%)": 50.1,
+                    "Serbs (%)": 30.8,
+                    "Croats (%)": 15.5
                 }
             },
             "Government": {
@@ -1046,8 +1048,7 @@
                 "Water (%)": 1.4
             },
             "Population": {
-                "Estimate": 2904256,
-                "Census": 3531159,
+                "Count": 2904256,
                 "Density (/km2)": 61
             },
             "Economy": {
@@ -1069,7 +1070,8 @@
         "country": "Botswana",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
+                "National Language": "Tswana",
                 "Ethnic groups": {
                     "Tswana (%)": 79,
                     "Kalanga (%)": 11,
@@ -1098,7 +1100,7 @@
                 "Water (%)": 2.7
             },
             "Population": {
-                "Census": 2359609,
+                "Count": 2359609,
                 "Density (/km2)": 4.1
             },
             "Economy": {
@@ -1120,7 +1122,7 @@
         "country": "Brazil",
         "infobox": {
             "General": {
-                "Official language and national language": "Portuguese",
+                "Official Language": "Portuguese",
                 "Ethnic groups": {
                     "Pardo (%)": 45.3,
                     "White (%)": 43.5,
@@ -1168,8 +1170,7 @@
                 "Water (%)": 0.65
             },
             "Population": {
-                "Estimate": 213421037,
-                "Census": 203080756,
+                "Count": 213421037,
                 "Density (/km2)": 23.8
             }
         }
@@ -1178,7 +1179,7 @@
         "country": "Brunei",
         "infobox": {
             "General": {
-                "Official language": "Malay",
+                "Official Language": "Malay",
                 "Ethnic groups": {
                     "Malay (%)": 73.7,
                     "Chinese (%)": 9.6,
@@ -1199,8 +1200,7 @@
                 "Water (%)": 8.6
             },
             "Population": {
-                "Estimate": 466227,
-                "Census": 440715,
+                "Count": 466227,
                 "Density (/km2)": 72.11
             },
             "Economy": {
@@ -1221,7 +1221,7 @@
         "country": "Bulgaria",
         "infobox": {
             "General": {
-                "Official languages": "Bulgarian",
+                "Official Language": "Bulgarian",
                 "Ethnic groups": {
                     "Bulgarians (%)": 85.7,
                     "Turks (%)": 8.5,
@@ -1254,8 +1254,7 @@
                 "Water (%)": 2.16
             },
             "Population": {
-                "Estimate": 6437360,
-                "Census": 6519789,
+                "Count": 6437360,
                 "Density (/km2)": 58
             },
             "Economy": {
@@ -1277,7 +1276,7 @@
         "country": "Burkina Faso",
         "infobox": {
             "General": {
-                "Official languages": "Mooré , Dyula and Fula , alongside any other languages so recognized by law",
+                "Official Language": "Mooré , Dyula and Fula , alongside any other languages so recognized by law",
                 "Ethnic groups": {
                     "Mossi (%)": 53.7,
                     "Fula (%)": 6.8,
@@ -1311,7 +1310,7 @@
                 "Water (%)": 0.148
             },
             "Population": {
-                "Estimate": 22489126,
+                "Count": 22489126,
                 "Density (/km2)": 86
             },
             "Economy": {
@@ -1333,7 +1332,8 @@
         "country": "Burundi",
         "infobox": {
             "General": {
-                "Official languages": "Kirundi French English",
+                "Official Language": "Kirundi French English",
+                "National Language": "Kirundi",
                 "Ethnic groups": {
                     "Barundi (%)": 100,
                     "Hutu (%)": 85,
@@ -1363,7 +1363,7 @@
                 "Water (%)": 10
             },
             "Population": {
-                "Estimate": 14151540,
+                "Count": 14151540,
                 "Density (/km2)": 565
             },
             "Economy": {
@@ -1385,7 +1385,7 @@
         "country": "Cambodia",
         "infobox": {
             "General": {
-                "Official languages": "Khmer",
+                "Official Language": "Khmer",
                 "Ethnic groups": {
                     "Khmer (%)": 95.4,
                     "Cham (%)": 2.4,
@@ -1407,7 +1407,7 @@
                 "Water (%)": 2.5
             },
             "Population": {
-                "Estimate": 17638801,
+                "Count": 17638801,
                 "Density (/km2)": 94.4
             },
             "Economy": {
@@ -1429,7 +1429,7 @@
         "country": "Cameroon",
         "infobox": {
             "General": {
-                "Official languages": "French • English",
+                "Official Language": "French • English",
                 "Ethnic groups": {
                     "Bamileke , Bamun (%)": 22.2,
                     "Biu-Mandara (%)": 16.4,
@@ -1463,7 +1463,7 @@
                 "Water (%)": 0.57
             },
             "Population": {
-                "Estimate": 30987821,
+                "Count": 30987821,
                 "Density (/km2)": 39.7
             },
             "Economy": {
@@ -1485,7 +1485,11 @@
         "country": "Canada",
         "infobox": {
             "General": {
-                "Official languages": "English French"
+                "Official Language": "English French",
+                "Religion": {
+                    "Christians overall representing (%)": 53.3,
+                    "Roman Catholics representing (%)": 29.9
+                }
             },
             "Government": {
                 "Government": "Federal parliamentary constitutional monarchy"
@@ -1496,8 +1500,7 @@
                 "Total land area (km2)": 9093507
             },
             "Population": {
-                "Estimate": 41575585,
-                "Census": 36991981,
+                "Count": 41575585,
                 "Density (/km2)": 4.2
             },
             "Economy": {
@@ -1519,7 +1522,8 @@
         "country": "Cape Verde",
         "infobox": {
             "General": {
-                "Official languages": "Portuguese",
+                "Official Language": "Portuguese",
+                "National Language": "Cape Verdean Creole",
                 "Religion": {
                     "Christianity": {
                         "percentage": 81.7,
@@ -1545,7 +1549,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Census": 491233,
+                "Count": 491233,
                 "Density (/km2)": 130
             },
             "Economy": {
@@ -1567,7 +1571,8 @@
         "country": "Central African Republic",
         "infobox": {
             "General": {
-                "Official languages": "French Sango",
+                "Official Language": "French Sango",
+                "National Language": "Sango",
                 "Ethnic groups": "Baggara Arabs Baka Banda Bayaka Fula Gula Gbaya Kara Kresh Mbaka Mandja Ngbandi Runga Sara Vidiri Wodaabe Yakoma Yulu Kanuri Zande other",
                 "Religion": {
                     "Christianity (%)": 73.2,
@@ -1583,7 +1588,7 @@
                 "Total (km2)": 622984
             },
             "Population": {
-                "Estimate": 5650957,
+                "Count": 5650957,
                 "Density (/km2)": 8.6
             },
             "Economy": {
@@ -1605,7 +1610,7 @@
         "country": "Chad",
         "infobox": {
             "General": {
-                "Official languages": "Arabic French",
+                "Official Language": "Arabic French",
                 "Religion": {
                     "Islam (%)": 55.1,
                     "Christianity (%)": 41.1,
@@ -1622,7 +1627,7 @@
                 "Water (%)": 1.9
             },
             "Population": {
-                "Estimate": 19093595,
+                "Count": 19093595,
                 "Density (/km2)": 14.4
             },
             "Economy": {
@@ -1644,6 +1649,7 @@
         "country": "Chile",
         "infobox": {
             "General": {
+                "National Language": "Spanish",
                 "Religion": {
                     "Christianity": {
                         "percentage": 70,
@@ -1664,7 +1670,7 @@
                 "Water (%)": 2.1
             },
             "Population": {
-                "Estimate": 19629588,
+                "Count": 19629588,
                 "Density (/km2)": 24
             },
             "Economy": {
@@ -1686,7 +1692,7 @@
         "country": "China",
         "infobox": {
             "General": {
-                "Official languages": "Standard Chinese",
+                "Official Language": "Standard Chinese",
                 "Ethnic groups": {
                     "Han Chinese (%)": 91.11,
                     "Zhuang (%)": 1.39,
@@ -1700,18 +1706,16 @@
                     "others (%)": 2.44
                 }
             },
-            "Population": {
-                "Largest city by municipal population": "Chongqing",
-                "Largest city by urban population": "Shanghai",
-                "Estimate": 1404890000,
-                "Density (/km2)": 146
-            },
             "Government": {
                 "Government": "Unitary communist state"
             },
             "Area": {
                 "Total (km2)": 9596961,
                 "Water (%)": 2.8
+            },
+            "Population": {
+                "Count": 1404890000,
+                "Density (/km2)": 146
             },
             "Economy": {
                 "GDP ( PPP )": {
@@ -1732,7 +1736,7 @@
         "country": "Colombia",
         "infobox": {
             "General": {
-                "Official languages": "Spanish",
+                "Official Language": "Spanish",
                 "Ethnic groups": {
                     "Mestizo - White (%)": 84.99,
                     "Black (%)": 9.34,
@@ -1755,7 +1759,7 @@
                 "Water (%)": 2.1
             },
             "Population": {
-                "Estimate": 52695952,
+                "Count": 52695952,
                 "Density (/km2)": 46.15
             },
             "Economy": {
@@ -1777,7 +1781,7 @@
         "country": "Comoros",
         "infobox": {
             "General": {
-                "Official languages": "Comorian French Arabic",
+                "Official Language": "Comorian French Arabic",
                 "Ethnic groups": {
                     "Comorians (%)": 97.1,
                     "Makua (%)": 1.6,
@@ -1788,11 +1792,11 @@
                 "Government": "Federal presidential republic"
             },
             "Area": {
-                "Total (km2)": 2035,
+                "Total (km2)": 2235,
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 883075,
+                "Count": 883075,
                 "Density (/km2)": 457
             },
             "Economy": {
@@ -1814,7 +1818,8 @@
         "country": "Congo, Democratic Republic of the",
         "infobox": {
             "General": {
-                "Official languages": "French",
+                "Official Language": "French",
+                "National Language": "Kikongo ya leta Lingala Swahili Luba-Kasai",
                 "Religion": {
                     "Christianity (%)": 95.4,
                     "traditional faiths (%)": 2.6,
@@ -1830,7 +1835,7 @@
                 "Water (%)": 3.32
             },
             "Population": {
-                "Estimate": 124388160,
+                "Count": 124388160,
                 "Density (/km2)": 48
             },
             "Economy": {
@@ -1852,7 +1857,8 @@
         "country": "Congo, Republic of the",
         "infobox": {
             "General": {
-                "Official languages": "French",
+                "Official Language": "French",
+                "National Language": "Kituba Lingala",
                 "Ethnic groups": {
                     "Bakongo (%)": 41,
                     "Bateke (%)": 16.9,
@@ -1880,8 +1886,7 @@
                 "Water (%)": 3.3
             },
             "Population": {
-                "Estimate": 6228784,
-                "Census": 6142180,
+                "Count": 6228784,
                 "Density (/km2)": 19
             },
             "Economy": {
@@ -1903,7 +1908,7 @@
         "country": "Costa Rica",
         "infobox": {
             "General": {
-                "Official languages": "Spanish",
+                "Official Language": "Spanish",
                 "Ethnic groups": {
                     "White or Mestizo (%)": 83.6,
                     "Mulatto (mixed Black and White ) (%)": 6.7,
@@ -1932,8 +1937,7 @@
                 "Water (%)": 1.05
             },
             "Population": {
-                "Estimate": 5160700,
-                "Census": 5044197,
+                "Count": 5160700,
                 "Density": "220/sq mi"
             },
             "Economy": {
@@ -1955,7 +1959,7 @@
         "country": "Croatia",
         "infobox": {
             "General": {
-                "Official languages": "Croatian",
+                "Official Language": "Croatian",
                 "Ethnic groups": {
                     "Croats (%)": 91.6,
                     "Serbs (%)": 3.2,
@@ -1984,8 +1988,7 @@
                 "Water (%)": 1.09
             },
             "Population": {
-                "Estimate": 3866233,
-                "Census": 3871833,
+                "Count": 3866233,
                 "Density (/km2)": 68.4
             },
             "Economy": {
@@ -2007,7 +2010,7 @@
         "country": "Cuba",
         "infobox": {
             "General": {
-                "Official languages": "Spanish",
+                "Official Language": "Spanish",
                 "Religion": {
                     "Christianity (%)": 58.9,
                     "no religion (%)": 23.2,
@@ -2023,8 +2026,7 @@
                 "Water (%)": 0.94
             },
             "Population": {
-                "Estimate": 9748007,
-                "Census": 11089511,
+                "Count": 9748007,
                 "Density (/km2)": 89.8
             },
             "Economy": {
@@ -2046,7 +2048,7 @@
         "country": "Cyprus",
         "infobox": {
             "General": {
-                "Official languages": "Greek Turkish",
+                "Official Language": "Greek Turkish",
                 "Ethnic groups": "Greek Cypriots Turkish Cypriots Armenian Cypriots Maronite Cypriots",
                 "Religion": {
                     "Christianity (%)": 72.3,
@@ -2063,7 +2065,7 @@
                 "Water (%)": 0.11
             },
             "Population": {
-                "Census": 923272,
+                "Count": 923272,
                 "Density (/km2)": 123.4
             },
             "Economy": {
@@ -2085,7 +2087,7 @@
         "country": "Czech Republic",
         "infobox": {
             "General": {
-                "Official languages": "Czech",
+                "Official Language": "Czech",
                 "Ethnic groups": {
                     "Czechs (%)": 89,
                     "Moravians (%)": 3.3,
@@ -2115,8 +2117,7 @@
                 "Water (%)": 2.16
             },
             "Population": {
-                "Estimate": 10900555,
-                "Census": 10524167,
+                "Count": 10900555,
                 "Density (/km2)": 133
             },
             "Economy": {
@@ -2138,20 +2139,16 @@
         "country": "Denmark",
         "infobox": {
             "General": {
-                "Official languages": "Danish ; locally: Faroese Greenlandic"
+                "Official Language": "Danish ; locally: Faroese Greenlandic"
             },
             "Government": {
                 "Government": "Unitary parliamentary constitutional monarchy"
             },
             "Area": {
-                "Denmark (km2)": 42926,
-                "Faroe Islands (km2)": 1396,
-                "Greenland (km2)": 2166086
+                "Total (km2)": 2210408.0
             },
             "Population": {
-                "Estimate": 6049579,
-                "Denmark": 5941388,
-                "Greenland and Faroe Islands": 108191
+                "Count": 6049579
             },
             "Economy": {
                 "GDP ( PPP )": {
@@ -2171,7 +2168,8 @@
         "country": "Djibouti",
         "infobox": {
             "General": {
-                "Official languages": "Arabic French",
+                "Official Language": "Arabic French",
+                "National Language": "Somali Afar",
                 "Ethnic groups": {
                     "Afar (%)": 60,
                     "Arabs (%)": 35
@@ -2193,7 +2191,7 @@
                 "Water (%)": 0.09
             },
             "Population": {
-                "Census": 1066809,
+                "Count": 1066809,
                 "Density (/km2)": 46.0
             },
             "Economy": {
@@ -2215,7 +2213,7 @@
         "country": "Dominica",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "African (%)": 75,
                     "multiracial (%)": 19,
@@ -2238,8 +2236,7 @@
                 "Water (%)": 1.6
             },
             "Population": {
-                "Estimate": 72412,
-                "Census": 71293,
+                "Count": 72412,
                 "Density (/km2)": 105
             },
             "Economy": {
@@ -2260,7 +2257,7 @@
         "country": "Dominican Republic",
         "infobox": {
             "General": {
-                "Official languages": "Spanish",
+                "Official Language": "Spanish",
                 "Ethnic groups": {
                     "Mixed (%)": 71.72,
                     "White (%)": 18.7,
@@ -2291,7 +2288,7 @@
                 "Water (%)": 0.7
             },
             "Population": {
-                "Estimate": 11532151,
+                "Count": 11532151,
                 "Density (/km2)": 220
             },
             "Economy": {
@@ -2313,7 +2310,7 @@
         "country": "Ecuador",
         "infobox": {
             "General": {
-                "Official languages": "Spanish",
+                "Official Language": "Spanish",
                 "Ethnic groups": {
                     "Mestizo (mixed White & Indigenous ) (%)": 77.47,
                     "Montubio (coastal Mestizo ) (%)": 7.7,
@@ -2339,12 +2336,10 @@
                 "Government": "Unitary presidential republic"
             },
             "Area": {
-                "Total (km2)": 283561,
-                "Excluding the Galapagos Islands (km2)": 276841
+                "Total (km2)": 283561
             },
             "Population": {
-                "Estimate": 17483326,
-                "Census": 16938986,
+                "Count": 17483326,
                 "Density (/km2)": 69
             },
             "Economy": {
@@ -2366,7 +2361,8 @@
         "country": "Egypt",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
+                "Official Language": "Arabic",
+                "National Language": "Egyptian Arabic",
                 "Religion": "See Religion in Egypt"
             },
             "Government": {
@@ -2377,8 +2373,7 @@
                 "Water (%)": 0.632
             },
             "Population": {
-                "Estimate": 107868296,
-                "Census": 94798827,
+                "Count": 107868296,
                 "Density (/km2)": 106.8
             },
             "Economy": {
@@ -2400,7 +2395,7 @@
         "country": "El Salvador",
         "infobox": {
             "General": {
-                "Official languages": "Spanish",
+                "Official Language": "Spanish",
                 "Ethnic groups": {
                     "Mestizo (mixed White and Indigenous ) (%)": 86.3,
                     "White (%)": 12.7,
@@ -2443,7 +2438,7 @@
                 "Water (%)": 1.5
             },
             "Population": {
-                "Census": 6029976,
+                "Count": 6029976,
                 "Density (/km2)": 286.6
             }
         }
@@ -2452,7 +2447,7 @@
         "country": "Equatorial Guinea",
         "infobox": {
             "General": {
-                "Official languages": "Spanish French Portuguese",
+                "Official Language": "Spanish French Portuguese",
                 "Ethnic groups": {
                     "Fang (%)": 85.7,
                     "Bubi (%)": 6.5,
@@ -2477,7 +2472,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 1795834,
+                "Count": 1795834,
                 "Density (/km2)": 67
             },
             "Economy": {
@@ -2498,7 +2493,8 @@
         "country": "Eritrea",
         "infobox": {
             "General": {
-                "Official languages": "None",
+                "Official Language": "None",
+                "National Language": "List Tigrinya Tigre Kunama Saho Afar Bilen Nara Beja Arabic",
                 "Ethnic groups": {
                     "Tigrinya (%)": 50,
                     "Tigre (%)": 30,
@@ -2510,7 +2506,11 @@
                     "Nara (%)": 2,
                     "Rashaida (%)": 1
                 },
-                "Religion": "See Religion in Eritrea"
+                "Religion": {
+                    "Christianity (%)": 63,
+                    "Islam (%)": 36,
+                    "Others (%)": 1
+                }
             },
             "Government": {
                 "Government": "Unitary one-party presidential republic under a totalitarian dictatorship"
@@ -2520,7 +2520,7 @@
                 "Water (%)": "Negligible"
             },
             "Population": {
-                "Estimate": "3.5–6.4 million",
+                "Count": "3.5–6.4 million",
                 "Density (/km2)": 29
             },
             "Economy": {
@@ -2541,7 +2541,7 @@
         "country": "Estonia",
         "infobox": {
             "General": {
-                "Official language": "Estonian",
+                "Official Language": "Estonian",
                 "Ethnic groups": {
                     "Estonians (%)": 68.5,
                     "Russians (%)": 20.9,
@@ -2571,8 +2571,7 @@
                 "Water (%)": 4.6
             },
             "Population": {
-                "Estimate": 1362954,
-                "Census": 1331824,
+                "Count": 1362954,
                 "Density (/km2)": 30.3
             },
             "Economy": {
@@ -2594,7 +2593,7 @@
         "country": "Eswatini",
         "infobox": {
             "General": {
-                "Official languages": "Swazi English",
+                "Official Language": "Swazi English",
                 "Ethnic groups": {
                     "Swazi (%)": 84,
                     "Zulu (%)": 10,
@@ -2622,8 +2621,7 @@
                 "Water (%)": 0.9
             },
             "Population": {
-                "Estimate": 1236126,
-                "Census": 1093238,
+                "Count": 1236126,
                 "Density (/km2)": 66.8
             },
             "Economy": {
@@ -2645,7 +2643,7 @@
         "country": "Ethiopia",
         "infobox": {
             "General": {
-                "Official languages": "Afar Amharic Oromo Somali Tigrinya",
+                "Official Language": "Afar Amharic Oromo Somali Tigrinya",
                 "Ethnic groups": {
                     "Oromo (%)": 34.5,
                     "Amhara (%)": 26.9,
@@ -2681,8 +2679,7 @@
                 "Water (%)": 0.7
             },
             "Population": {
-                "Estimate": 135500000,
-                "Census": 73750932,
+                "Count": 135500000,
                 "Density (/km2)": 92.7
             },
             "Economy": {
@@ -2704,6 +2701,7 @@
         "country": "Fiji",
         "infobox": {
             "General": {
+                "National Language": "Fijian English Standard Hindi Fiji Hindi",
                 "Ethnic groups": {
                     "Indigenous Fijians (%)": 56.8,
                     "Indo-Fijians (%)": 37.5,
@@ -2731,8 +2729,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 926276,
-                "Census": 884887,
+                "Count": 926276,
                 "Density (/km2)": 46.4
             },
             "Economy": {
@@ -2754,7 +2751,8 @@
         "country": "Finland",
         "infobox": {
             "General": {
-                "Official languages": "Finnish Swedish",
+                "Official Language": "Finnish Swedish",
+                "National Language": "Sámi Karelian Finnish Kalo Finnish Sign Language Finland-Swedish Sign Language",
                 "Ethnic groups": {
                     "Finns (%)": 88.9,
                     "others (%)": 11.1
@@ -2780,7 +2778,7 @@
                 "Water (%)": 9.71
             },
             "Population": {
-                "Census": 5635971,
+                "Count": 5635971,
                 "Density (/km2)": 18.4
             },
             "Economy": {
@@ -2802,7 +2800,7 @@
         "country": "France",
         "infobox": {
             "General": {
-                "Official language and national language": "French",
+                "Official Language": "French",
                 "Religion": {
                     "Christianity (%)": 50,
                     "irreligion (%)": 33,
@@ -2815,12 +2813,10 @@
             },
             "Area": {
                 "Total (km2)": 632702.3,
-                "Water (%)": 0.86,
-                "Metropolitan France ( DGCL ) (km2)": 543941,
-                "Metropolitan France ( INSEE ) (km2)": 543908.3
+                "Water (%)": 0.86
             },
             "Population": {
-                "Estimate": 69081996,
+                "Count": 69081996,
                 "Density": [
                     "109/km 2",
                     "123/km 2"
@@ -2845,7 +2841,7 @@
         "country": "Gabon",
         "infobox": {
             "General": {
-                "Official languages": "French",
+                "Official Language": "French",
                 "Ethnic groups": "Fang Punu Nzebi Teke Myene Kota Vili Mbama and 42 others",
                 "Religion": {
                     "Christianity (%)": 80.2,
@@ -2867,7 +2863,7 @@
                 "Water (%)": 3.76
             },
             "Population": {
-                "Estimate": 2397368,
+                "Count": 2397368,
                 "Density (/km2)": 7.9
             },
             "Economy": {
@@ -2889,7 +2885,8 @@
         "country": "Gambia, The",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
+                "National Language": "List: Mandinka Pulaar Wolof Serer Jola English Balanta Arabic Jola-Fonyi Mandjak Mankanya Noon Dyula Soninke Fula Karon Kassonke Cangin Gambian Sign Language",
                 "Ethnic groups": {
                     "Mandinka (%)": 34.4,
                     "Fula (%)": 25,
@@ -2905,16 +2902,15 @@
                     "others (%)": 0.1
                 }
             },
-            "Area": {
-                "Largest metropolitan area": "Serrekunda",
-                "Total (km2)": 11300,
-                "Water (%)": 11.5
-            },
             "Government": {
                 "Government": "Unitary presidential republic"
             },
+            "Area": {
+                "Total (km2)": 11300,
+                "Water (%)": 11.5
+            },
             "Population": {
-                "Census": 2422712,
+                "Count": 2422712,
                 "Density (/km2)": 227
             },
             "Economy": {
@@ -2936,7 +2932,7 @@
         "country": "Georgia",
         "infobox": {
             "General": {
-                "Official languages": "Georgian",
+                "Official Language": "Georgian",
                 "Ethnic groups": {
                     "Georgians (%)": 86.8,
                     "Azerbaijanis (%)": 6.2,
@@ -2963,7 +2959,7 @@
                 "Total (km2)": 69700
             },
             "Population": {
-                "Census": 3657000,
+                "Count": 3657000,
                 "Density (/km2)": 56.3
             },
             "Economy": {
@@ -2985,7 +2981,12 @@
         "country": "Germany",
         "infobox": {
             "General": {
-                "Official languages": "German"
+                "Official Language": "German",
+                "Religion": {
+                    "Germany at (%)": 49.7,
+                    "Christians (%)": 48.5,
+                    "Protestant (%)": 25.1
+                }
             },
             "Government": {
                 "Government": "Federal parliamentary republic"
@@ -2995,8 +2996,7 @@
                 "Water (%)": 1.27
             },
             "Population": {
-                "Estimate": 83497147,
-                "Census": 82719540,
+                "Count": 83497147,
                 "Density (/km2)": 233
             },
             "Economy": {
@@ -3018,7 +3018,7 @@
         "country": "Ghana",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "Akan (%)": 45.7,
                     "Mole-Dagbon (%)": 18.5,
@@ -3046,7 +3046,7 @@
                 "Water (%)": 4.61
             },
             "Population": {
-                "Estimate": 35039451,
+                "Count": 35039451,
                 "Density (/km2)": 151
             },
             "Economy": {
@@ -3068,7 +3068,7 @@
         "country": "Greece",
         "infobox": {
             "General": {
-                "Official language": "Greek",
+                "Official Language": "Greek",
                 "Religion": {
                     "Christianity": {
                         "percentage": 93,
@@ -3107,8 +3107,7 @@
                 "Water (%)": 1.51
             },
             "Population": {
-                "Estimate": 10372335,
-                "Census": 10432481,
+                "Count": 10372335,
                 "Density (/km2)": 78.9
             }
         }
@@ -3117,7 +3116,7 @@
         "country": "Grenada",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "African (%)": 82.4,
                     "Mixed (%)": 13.3,
@@ -3156,7 +3155,7 @@
                 "Water (%)": 1.6
             },
             "Population": {
-                "Estimate": 114621,
+                "Count": 114621,
                 "Density (/km2)": 333
             },
             "Economy": {
@@ -3178,7 +3177,8 @@
         "country": "Guatemala",
         "infobox": {
             "General": {
-                "Official languages": "Spanish",
+                "Official Language": "Spanish",
+                "National Language": "Mayan",
                 "Ethnic groups": {
                     "Ladino (mixed) (%)": 56.01,
                     "Maya (%)": 41.66,
@@ -3207,7 +3207,7 @@
                 "Water (%)": 0.4
             },
             "Population": {
-                "Estimate": 18255216,
+                "Count": 18255216,
                 "Density (/km2)": 166
             },
             "Economy": {
@@ -3229,7 +3229,7 @@
         "country": "Guinea",
         "infobox": {
             "General": {
-                "Official languages": "French",
+                "Official Language": "French",
                 "Ethnic groups": {
                     "Fula (%)": 33.4,
                     "Mandinka (%)": 29.4,
@@ -3254,7 +3254,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 13986179,
+                "Count": 13986179,
                 "Density (/km2)": 40.9
             },
             "Economy": {
@@ -3276,7 +3276,7 @@
         "country": "Guinea-Bissau",
         "infobox": {
             "General": {
-                "Official languages": "Portuguese",
+                "Official Language": "Portuguese",
                 "Ethnic groups": {
                     "Balanta (%)": 30,
                     "Fula (%)": 30,
@@ -3317,7 +3317,7 @@
                 "Water (%)": 22.4
             },
             "Population": {
-                "Estimate": 2080000,
+                "Count": 2080000,
                 "Density (/km2)": 47
             }
         }
@@ -3326,7 +3326,7 @@
         "country": "Guyana",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "Indian (%)": 44.4,
                     "African (%)": 32.3,
@@ -3351,7 +3351,7 @@
                 "Water (%)": 8.4
             },
             "Population": {
-                "Estimate": 950986,
+                "Count": 950986,
                 "Density (/km2)": 4.25
             },
             "Economy": {
@@ -3373,7 +3373,7 @@
         "country": "Haiti",
         "infobox": {
             "General": {
-                "Official languages": "Haitian Creole French",
+                "Official Language": "Haitian Creole French",
                 "Ethnic groups": {
                     "African (%)": 95,
                     "other (%)": 5
@@ -3393,7 +3393,7 @@
                 "Water (%)": 0.7
             },
             "Population": {
-                "Estimate": 11470261,
+                "Count": 11470261,
                 "Density (/km2)": 417
             },
             "Economy": {
@@ -3415,13 +3415,17 @@
         "country": "Honduras",
         "infobox": {
             "General": {
-                "Official languages": "Spanish",
+                "Official Language": "Spanish",
                 "Ethnic groups": {
                     "Mestizo (%)": 82.93,
                     "White (%)": 7.87,
                     "Indigenous (%)": 7.25,
                     "Black (%)": 1.39,
                     "other (%)": 0.55
+                },
+                "Religion": {
+                    "Catholic (%)": 81,
+                    "Protestant (%)": 34
                 }
             },
             "Government": {
@@ -3431,7 +3435,7 @@
                 "Total (km2)": 112492
             },
             "Population": {
-                "Estimate": 9571352,
+                "Count": 9571352,
                 "Density (/km2)": 85
             },
             "Economy": {
@@ -3453,7 +3457,7 @@
         "country": "Hungary",
         "infobox": {
             "General": {
-                "Official languages": "Hungarian",
+                "Official Language": "Hungarian",
                 "Ethnic groups": {
                     "Hungarian (%)": 97.7,
                     "Romani (%)": 2.4,
@@ -3481,8 +3485,7 @@
                 "Water (%)": 3.7
             },
             "Population": {
-                "Estimate": 9584627,
-                "Census": 9603634,
+                "Count": 9584627,
                 "Density (/km2)": 103
             },
             "Economy": {
@@ -3504,7 +3507,7 @@
         "country": "Iceland",
         "infobox": {
             "General": {
-                "Official language": "Icelandic",
+                "Official Language": "Icelandic",
                 "Ethnic groups": {
                     "Icelandic (%)": 86,
                     "Polish (%)": 6,
@@ -3533,7 +3536,7 @@
                 "Water (%)": 2.07
             },
             "Population": {
-                "Census": 394530,
+                "Count": 394530,
                 "Density (/km2)": 3.78
             },
             "Economy": {
@@ -3555,7 +3558,7 @@
         "country": "India",
         "infobox": {
             "General": {
-                "Official languages": "Hindi English",
+                "Official Language": "Hindi English",
                 "Religion": {
                     "Hinduism (%)": 79.8,
                     "Islam (%)": 14.2,
@@ -3575,19 +3578,16 @@
                     "other (%)": 0.65
                 }
             },
-            "Population": {
-                "Largest city by city proper population": "Mumbai",
-                "Estimate": 1428627663,
-                "Census": 1210854977,
-                "Density (/km2)": 433.5
+            "Government": {
+                "Government": "Federal parliamentary republic"
             },
             "Area": {
-                "Largest city by metropolitan area population": "Delhi",
                 "Total (km2)": 3287263,
                 "Water (%)": 9.6
             },
-            "Government": {
-                "Government": "Federal parliamentary republic"
+            "Population": {
+                "Count": 1428627663,
+                "Density (/km2)": 433.5
             },
             "Economy": {
                 "GDP ( PPP )": {
@@ -3608,7 +3608,7 @@
         "country": "Indonesia",
         "infobox": {
             "General": {
-                "Official languages": "Indonesian",
+                "Official Language": "Indonesian",
                 "Ethnic groups": {
                     "Javanese (%)": 40.2,
                     "Sundanese (%)": 15.5,
@@ -3638,8 +3638,7 @@
                 "Water (%)": 4.85
             },
             "Population": {
-                "Estimate": "288.315.089",
-                "Census": 270203917,
+                "Count": "288.315.089",
                 "Density (/km2)": 143
             },
             "Economy": {
@@ -3661,7 +3660,18 @@
         "country": "Iran",
         "infobox": {
             "General": {
-                "Official languages": "Persian"
+                "Official Language": "Persian",
+                "Ethnic groups": {
+                    "Persians make up (%)": 51,
+                    "Azerbaijanis make up (%)": 24,
+                    "Gilaks and Mazanderanis (%)": 8,
+                    "Kurds (%)": 7,
+                    "Arabs (%)": 3,
+                    "Lurs (%)": 2,
+                    "Balochis (%)": 2,
+                    "Turkmens (%)": 2,
+                    "Turkic tribal groups (%)": 1
+                }
             },
             "Government": {
                 "Government": "Unitary presidential theocratic Islamic republic under an authoritarian dictatorship"
@@ -3671,7 +3681,7 @@
                 "Water (%)": 1.63
             },
             "Population": {
-                "Estimate": 92417681,
+                "Count": 92417681,
                 "Density (/km2)": 52
             },
             "Economy": {
@@ -3693,7 +3703,7 @@
         "country": "Iraq",
         "infobox": {
             "General": {
-                "Official languages": "Arabic Kurdish",
+                "Official Language": "Arabic Kurdish",
                 "Ethnic groups": {
                     "Arabs 15– (%)": 80,
                     "Kurds 5– (%)": 20,
@@ -3714,7 +3724,7 @@
                 "Water (%)": 4.93
             },
             "Population": {
-                "Census": 46118793,
+                "Count": 46118793,
                 "Density (/km2)": 82.7
             },
             "Economy": {
@@ -3736,7 +3746,7 @@
         "country": "Ireland",
         "infobox": {
             "General": {
-                "Official languages": "Irish English",
+                "Official Language": "Irish English",
                 "Ethnic groups": {
                     "White Irish (%)": 76.6,
                     "other White (%)": 10.8,
@@ -3767,8 +3777,7 @@
                 "Water (%)": 2.0
             },
             "Population": {
-                "Estimate": 5458600,
-                "Census": 5149139,
+                "Count": 5458600,
                 "Density (/km2)": 76.6
             },
             "Economy": {
@@ -3790,7 +3799,7 @@
         "country": "Israel",
         "infobox": {
             "General": {
-                "Official language": "Hebrew",
+                "Official Language": "Hebrew",
                 "Ethnic groups": {
                     "Jews (%)": 71.9,
                     "Arabs (%)": 21,
@@ -3816,8 +3825,7 @@
                 "Water (%)": 2.71
             },
             "Population": {
-                "Estimate": 10147200,
-                "Census": 9601720,
+                "Count": 10147200,
                 "Density (/km2)": 463
             },
             "Economy": {
@@ -3839,7 +3847,7 @@
         "country": "Italy",
         "infobox": {
             "General": {
-                "Official languages": "Italian a",
+                "Official Language": "Italian a",
                 "Religion": {
                     "Christianity (%)": 84,
                     "irreligion (%)": 12,
@@ -3854,7 +3862,7 @@
                 "Water (%)": 1.24
             },
             "Population": {
-                "Estimate": 58915561,
+                "Count": 58915561,
                 "Density (/km2)": 195.5
             },
             "Economy": {
@@ -3876,7 +3884,7 @@
         "country": "Ivory Coast",
         "infobox": {
             "General": {
-                "Official languages": "French",
+                "Official Language": "French",
                 "Ethnic groups": {
                     "Ivorian (%)": 78,
                     "Akan (%)": 38,
@@ -3904,8 +3912,7 @@
                 "Water (%)": 1.4
             },
             "Population": {
-                "Estimate": 31500000,
-                "Census": 29389150,
+                "Count": 31500000,
                 "Density (/km2)": 97.7
             },
             "Economy": {
@@ -3927,7 +3934,7 @@
         "country": "Jamaica",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "African (%)": 76.3,
                     "Mixed (%)": 15.1,
@@ -3958,8 +3965,7 @@
                 "Water (%)": 1.5
             },
             "Population": {
-                "Estimate": 2824913,
-                "Census": 2697983,
+                "Count": 2824913,
                 "Density (/km2)": 266
             },
             "Economy": {
@@ -3980,6 +3986,9 @@
     {
         "country": "Japan",
         "infobox": {
+            "General": {
+                "National Language": "Japanese"
+            },
             "Government": {
                 "Government": "Unitary parliamentary constitutional monarchy"
             },
@@ -3988,8 +3997,7 @@
                 "Water (%)": 1.4
             },
             "Population": {
-                "Estimate": 122950000,
-                "Census": 126146099,
+                "Count": 122950000,
                 "Density (/km2)": 330
             },
             "Economy": {
@@ -4011,7 +4019,7 @@
         "country": "Jordan",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
+                "Official Language": "Arabic",
                 "Ethnic groups": {
                     "Arab (%)": 95,
                     "Circassian , Chechen (%)": 3,
@@ -4032,8 +4040,7 @@
                 "Water (%)": 0.6
             },
             "Population": {
-                "Estimate": 11484805,
-                "Census": 9531712,
+                "Count": 11484805,
                 "Density (/km2)": 114
             },
             "Economy": {
@@ -4055,7 +4062,7 @@
         "country": "Kazakhstan",
         "infobox": {
             "General": {
-                "Official languages": "Kazakh Russian",
+                "Official Language": "Kazakh Russian",
                 "Ethnic groups": {
                     "Kazakh (%)": 71.3,
                     "Russian (%)": 14.6,
@@ -4082,7 +4089,7 @@
                 "Water (%)": 1.7
             },
             "Population": {
-                "Estimate": 20495975,
+                "Count": 20495975,
                 "Density (/km2)": 7.44
             },
             "Economy": {
@@ -4104,7 +4111,8 @@
         "country": "Kenya",
         "infobox": {
             "General": {
-                "Official languages": "Swahili English",
+                "Official Language": "Swahili English",
+                "National Language": "Swahili",
                 "Ethnic groups": {
                     "Kikuyu (%)": 17.13,
                     "Luhya (%)": 14.35,
@@ -4133,8 +4141,7 @@
                 "Water (%)": 2.3
             },
             "Population": {
-                "Estimate": 53330978,
-                "Census": 47564296,
+                "Count": 53330978,
                 "Density (/km2)": 82
             },
             "Economy": {
@@ -4156,7 +4163,7 @@
         "country": "Kiribati",
         "infobox": {
             "General": {
-                "Official languages": "English Gilbertese",
+                "Official Language": "English Gilbertese",
                 "Ethnic groups": {
                     "Gilbertese (%)": 95.7,
                     "other (%)": 4.3
@@ -4181,8 +4188,7 @@
                 "Total (km2)": 811.19
             },
             "Population": {
-                "Estimate": 116545,
-                "Census": 119438,
+                "Count": 116545,
                 "Density (/km2)": 149.64
             },
             "Economy": {
@@ -4204,7 +4210,7 @@
         "country": "Kuwait",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
+                "Official Language": "Arabic",
                 "Ethnic groups": {
                     "Arab (%)": 57.8,
                     "South Asian (%)": 40.3,
@@ -4225,7 +4231,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 4985716,
+                "Count": 4985716,
                 "Density (/km2)": 200.2
             },
             "Economy": {
@@ -4246,7 +4252,7 @@
         "country": "Kyrgyzstan",
         "infobox": {
             "General": {
-                "Official languages": "Kyrgyz Russian",
+                "Official Language": "Kyrgyz Russian",
                 "Ethnic groups": {
                     "Kyrgyz (%)": 77.8,
                     "Uzbeks (%)": 14.3,
@@ -4270,7 +4276,7 @@
                 "Water (%)": 3.6
             },
             "Population": {
-                "Estimate": 7400000,
+                "Count": 7400000,
                 "Density (/km2)": 37
             },
             "Economy": {
@@ -4292,7 +4298,7 @@
         "country": "Laos",
         "infobox": {
             "General": {
-                "Official languages": "Lao",
+                "Official Language": "Lao",
                 "Ethnic groups": {
                     "Lao (%)": 53.2,
                     "Khmu (%)": 11,
@@ -4320,7 +4326,7 @@
                 "Water (%)": 2
             },
             "Population": {
-                "Estimate": 7953556,
+                "Count": 7953556,
                 "Density (/km2)": 33.21
             },
             "Economy": {
@@ -4342,7 +4348,7 @@
         "country": "Latvia",
         "infobox": {
             "General": {
-                "Official languages": "Latvian a",
+                "Official Language": "Latvian a",
                 "Ethnic groups": {
                     "Latvians (%)": 65.5,
                     "Russians (%)": 24.1,
@@ -4374,7 +4380,7 @@
                 "Water (%)": 2.09
             },
             "Population": {
-                "Estimate": 1842226,
+                "Count": 1842226,
                 "Density (/km2)": 29.6
             },
             "Economy": {
@@ -4396,7 +4402,7 @@
         "country": "Lebanon",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
+                "Official Language": "Arabic",
                 "Ethnic groups": {
                     "Arab (%)": 95,
                     "Armenian (%)": 4,
@@ -4429,7 +4435,7 @@
                 "Water (%)": 1.8
             },
             "Population": {
-                "Estimate": 5364482,
+                "Count": 5364482,
                 "Density (/km2)": 513
             },
             "Economy": {
@@ -4451,7 +4457,7 @@
         "country": "Lesotho",
         "infobox": {
             "General": {
-                "Official languages": "Sesotho English",
+                "Official Language": "Sesotho English",
                 "Ethnic groups": {
                     "Basotho (%)": 99.7,
                     "others (%)": 0.3
@@ -4471,7 +4477,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 2210646,
+                "Count": 2210646,
                 "Density (/km2)": 68.1
             },
             "Economy": {
@@ -4493,7 +4499,7 @@
         "country": "Liberia",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Religion": {
                     "Christianity": {
                         "percentage": 85.1,
@@ -4510,6 +4516,27 @@
                             "other (%)": 1.3
                         }
                     }
+                },
+                "Ethnic groups": {
+                    "Bass (%)": 13.4,
+                    "Grebo (%)": 10,
+                    "Gio (%)": 10,
+                    "Mano (%)": 7.9,
+                    "Kru (%)": 7.9,
+                    "Lorm (%)": 5.1,
+                    "Kissi (%)": 4.8,
+                    "Gol (%)": 4.4,
+                    "Krah (%)": 4,
+                    "Vai (%)": 4,
+                    "Mandink (%)": 3.2,
+                    "Gbandi (%)": 3,
+                    "Other Afric (%)": 1.4,
+                    "Mende (%)": 1.3,
+                    "Sapo (%)": 1.2,
+                    "Belle (%)": 0.8,
+                    "Dey (%)": 0.8,
+                    "Other Liberi (%)": 0.6,
+                    "Non Afric (%)": 0.1
                 }
             },
             "Government": {
@@ -4520,7 +4547,7 @@
                 "Water (%)": 13.514
             },
             "Population": {
-                "Estimate": 5437249,
+                "Count": 5437249,
                 "Density": "92.0/sq mi"
             },
             "Economy": {
@@ -4542,7 +4569,7 @@
         "country": "Libya",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
+                "Official Language": "Arabic",
                 "Ethnic groups": {
                     "Arabs (%)": 92,
                     "Berbers (%)": 5,
@@ -4561,7 +4588,7 @@
                 "Total (km2)": 1759541
             },
             "Population": {
-                "Estimate": 7361263,
+                "Count": 7361263,
                 "Density (/km2)": 4.2
             },
             "Economy": {
@@ -4582,7 +4609,7 @@
         "country": "Liechtenstein",
         "infobox": {
             "General": {
-                "Official languages": "German",
+                "Official Language": "German",
                 "Religion": {
                     "Christianity": {
                         "percentage": 79.4,
@@ -4604,7 +4631,7 @@
                 "Water (%)": 2.7
             },
             "Population": {
-                "Estimate": 41232,
+                "Count": 41232,
                 "Density (/km2)": 249
             },
             "Economy": {
@@ -4625,7 +4652,7 @@
         "country": "Lithuania",
         "infobox": {
             "General": {
-                "Official languages": "Lithuanian",
+                "Official Language": "Lithuanian",
                 "Ethnic groups": {
                     "Lithuanians (%)": 82.3,
                     "Poles (%)": 6.2,
@@ -4655,7 +4682,7 @@
                 "Water (%)": 1.98
             },
             "Population": {
-                "Estimate": 2897430,
+                "Count": 2897430,
                 "Density (/km2)": 46
             },
             "Economy": {
@@ -4677,7 +4704,7 @@
         "country": "Luxembourg",
         "infobox": {
             "General": {
-                "Official languages": "National language: Luxembourgish Administrative languages: Luxembourgish German French",
+                "Official Language": "National language: Luxembourgish Administrative languages: Luxembourgish German French",
                 "Religion": {
                     "Christianity": {
                         "percentage": 53,
@@ -4698,8 +4725,7 @@
                 "Water (%)": 0.23
             },
             "Population": {
-                "Estimate": 690947,
-                "Census": 643941,
+                "Count": 690947,
                 "Density (/km2)": 264
             },
             "Economy": {
@@ -4721,7 +4747,7 @@
         "country": "Madagascar",
         "infobox": {
             "General": {
-                "Official languages": "Malagasy French",
+                "Official Language": "Malagasy French",
                 "Ethnic groups": {
                     "Merina (%)": 26,
                     "Betsimisaraka (%)": 15,
@@ -4756,7 +4782,7 @@
                 "Water (%)": 0.9
             },
             "Population": {
-                "Estimate": 31964956,
+                "Count": 31964956,
                 "Density (/km2)": 55
             },
             "Economy": {
@@ -4778,7 +4804,7 @@
         "country": "Malawi",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "Chewa (%)": 25.2,
                     "Tumbuka (%)": 20.4,
@@ -4816,8 +4842,7 @@
                 "Water (%)": 20.6
             },
             "Population": {
-                "Estimate": 21240689,
-                "Census": 17563749,
+                "Count": 21240689,
                 "Density (/km2)": 153.1
             },
             "Economy": {
@@ -4839,6 +4864,7 @@
         "country": "Malaysia",
         "infobox": {
             "General": {
+                "Official Language": "Malay",
                 "Ethnic groups": {
                     "Bumiputera (%)": 70.5,
                     "Malay (%)": 57.3,
@@ -4867,8 +4893,7 @@
                 "Water (%)": 0.3
             },
             "Population": {
-                "Estimate": 34564810,
-                "Census": 32447385,
+                "Count": 34564810,
                 "Density (/km2)": 101
             },
             "Economy": {
@@ -4890,7 +4915,7 @@
         "country": "Maldives",
         "infobox": {
             "General": {
-                "Official language and national language": "Dhivehi",
+                "Official Language": "Dhivehi",
                 "Religion": "Sunni Islam"
             },
             "Government": {
@@ -4900,8 +4925,7 @@
                 "Total (km2)": 298
             },
             "Population": {
-                "Estimate": 601269,
-                "Census": 515132,
+                "Count": 601269,
                 "Density (/km2)": 1728.63
             },
             "Economy": {
@@ -4923,7 +4947,7 @@
         "country": "Mali",
         "infobox": {
             "General": {
-                "Official languages": "13 national languages Bambara Bobo Hassaniya Arabic Bozo Dogon, Toro So Fula Kassonke Maninke Minyanka Senufo, Senara Songhay, Koyraboro Senni Soninke Tamasheq",
+                "Official Language": "13 national languages Bambara Bobo Hassaniya Arabic Bozo Dogon, Toro So Fula Kassonke Maninke Minyanka Senufo, Senara Songhay, Koyraboro Senni Soninke Tamasheq",
                 "Ethnic groups": {
                     "Bambara (%)": 33.3,
                     "Fula (%)": 13.3,
@@ -4949,7 +4973,7 @@
                 "Water (%)": 1.6
             },
             "Population": {
-                "Estimate": 21990607,
+                "Count": 21990607,
                 "Density (/km2)": 11.7
             },
             "Economy": {
@@ -4971,7 +4995,7 @@
         "country": "Malta",
         "infobox": {
             "General": {
-                "Official languages": "Maltese English Maltese Sign Language",
+                "Official Language": "Maltese English Maltese Sign Language",
                 "Ethnic groups": {
                     "Maltese (%)": 77.7,
                     "other ethnic groups (%)": 22.3
@@ -5002,7 +5026,7 @@
                 "Water (%)": 0.001
             },
             "Population": {
-                "Census": 519562,
+                "Count": 519562,
                 "Density (/km2)": 1649
             },
             "Economy": {
@@ -5024,7 +5048,7 @@
         "country": "Marshall Islands",
         "infobox": {
             "General": {
-                "Official languages": "Marshallese English",
+                "Official Language": "Marshallese English",
                 "Ethnic groups": {
                     "Marshallese (%)": 95.6,
                     "others (%)": 4.4
@@ -5050,7 +5074,7 @@
                 "Water (%)": "Negligible"
             },
             "Population": {
-                "Census": 42418,
+                "Count": 42418,
                 "Density (/km2)": 233
             },
             "Economy": {
@@ -5071,7 +5095,8 @@
         "country": "Mauritania",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
+                "Official Language": "Arabic",
+                "National Language": "Arabic Pulaar Soninke Wolof",
                 "Ethnic groups": {
                     "Haratin (%)": 40,
                     "Beidane (%)": 30,
@@ -5086,7 +5111,7 @@
                 "Total (km2)": 1030000
             },
             "Population": {
-                "Estimate": "5,461,319‎",
+                "Count": "5,461,319‎",
                 "Density (/km2)": 3.4
             },
             "Economy": {
@@ -5108,7 +5133,7 @@
         "country": "Mauritius",
         "infobox": {
             "General": {
-                "Official languages": "None English French",
+                "Official Language": "None English French",
                 "Ethnic groups": {
                     "Indian (%)": 67,
                     "Creole (%)": 28,
@@ -5130,7 +5155,7 @@
                 "Water (%)": 0.07
             },
             "Population": {
-                "Census": 1235260,
+                "Count": 1235260,
                 "Density (/km2)": 605.5
             },
             "Economy": {
@@ -5152,8 +5177,10 @@
         "country": "Mexico",
         "infobox": {
             "General": {
-                "Official language": "Spanish",
-                "Co-official languages": "68 Indigenous languages",
+                "Official Language": [
+                    "Spanish",
+                    "68 Indigenous languages"
+                ],
                 "Ethnic groups": "See below",
                 "Religion": {
                     "Christianity": {
@@ -5176,8 +5203,7 @@
                 "Water (%)": 1.58
             },
             "Population": {
-                "Estimate": 131946900,
-                "Census": 126014024,
+                "Count": 131946900,
                 "Density (/km2)": 61
             },
             "Economy": {
@@ -5199,7 +5225,7 @@
         "country": "Micronesia",
         "infobox": {
             "General": {
-                "Official language": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "Chuukese (%)": 48.8,
                     "Pohnpeian (%)": 24.2,
@@ -5232,8 +5258,8 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 104468,
-                "Density (/km2)": 158.1
+                "Count": 105564,
+                "Density (/km2)": 150.4
             },
             "Economy": {
                 "GDP ( PPP )": {
@@ -5254,7 +5280,7 @@
         "country": "Moldova",
         "infobox": {
             "General": {
-                "Official language and national language": "Romanian",
+                "Official Language": "Romanian",
                 "Ethnic groups": {
                     "Moldovans (%)": 76.7,
                     "Romanians (%)": 8,
@@ -5281,13 +5307,11 @@
                 "Government": "Unitary parliamentary republic"
             },
             "Area": {
-                "Incl. Transnistria (km2)": 33843,
                 "Water (%)": 1.4,
-                "Excl. Transnistria (km2)": 30319
+                "Total (km2)": 33843
             },
             "Population": {
-                "Estimate": 2381325,
-                "Census": 2409207,
+                "Count": 2381325,
                 "Density (/km2)": 78.5
             },
             "Economy": {
@@ -5309,7 +5333,7 @@
         "country": "Monaco",
         "infobox": {
             "General": {
-                "Official languages": "French",
+                "Official Language": "French",
                 "Ethnic groups": "Monégasques French Italians Occitans",
                 "Religion": {
                     "Christianity": {
@@ -5337,7 +5361,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Census": 38423,
+                "Count": 38423,
                 "Density (/km2)": 18446
             },
             "Economy": {
@@ -5357,7 +5381,7 @@
         "country": "Mongolia",
         "infobox": {
             "General": {
-                "Official languages": "Mongolian",
+                "Official Language": "Mongolian",
                 "Ethnic groups": {
                     "Mongols (%)": 95.6,
                     "Kazakhs (%)": 3.8,
@@ -5380,7 +5404,7 @@
                 "Water (%)": 0.67
             },
             "Population": {
-                "Estimate": 3504741,
+                "Count": 3504741,
                 "Density (/km2)": 2.24
             },
             "Economy": {
@@ -5402,7 +5426,7 @@
         "country": "Montenegro",
         "infobox": {
             "General": {
-                "Official languages": "Montenegrin",
+                "Official Language": "Montenegrin",
                 "Ethnic groups": {
                     "Montenegrins (%)": 41.1,
                     "Serbs (%)": 32.9,
@@ -5438,8 +5462,7 @@
                 "Water (%)": 3.1
             },
             "Population": {
-                "Estimate": 623327,
-                "Census": 623633,
+                "Count": 623327,
                 "Density (/km2)": 43.6
             },
             "Economy": {
@@ -5461,7 +5484,7 @@
         "country": "Morocco",
         "infobox": {
             "General": {
-                "Official languages": "Arabic Tamazight",
+                "Official Language": "Arabic Tamazight",
                 "Ethnic groups": "See Ethnic groups",
                 "Religion": {
                     "Islam ( official )": {
@@ -5494,8 +5517,7 @@
                 "Water (%)": 0.056
             },
             "Population": {
-                "Estimate": 37493183,
-                "Census": 36828330,
+                "Count": 37493183,
                 "Density (/km2)": 79.0
             },
             "Economy": {
@@ -5517,7 +5539,7 @@
         "country": "Mozambique",
         "infobox": {
             "General": {
-                "Official languages": "Portuguese",
+                "Official Language": "Portuguese",
                 "Ethnic groups": {
                     "African (%)": 99,
                     "Mestiço (%)": 0.8,
@@ -5544,7 +5566,7 @@
                 "Water (%)": 2.2
             },
             "Population": {
-                "Estimate": 34881007,
+                "Count": 34881007,
                 "Density (/km2)": 43.5
             },
             "Economy": {
@@ -5566,7 +5588,7 @@
         "country": "Myanmar",
         "infobox": {
             "General": {
-                "Official language": "Burmese",
+                "Official Language": "Burmese",
                 "Ethnic groups": {
                     "Bamar (%)": 68.78,
                     "Karen (%)": 6.69,
@@ -5605,7 +5627,7 @@
                 "Water (%)": 3.06
             },
             "Population": {
-                "Estimate": 55770232,
+                "Count": 55770232,
                 "Density": "217/sq mi"
             },
             "Economy": {
@@ -5627,7 +5649,8 @@
         "country": "Namibia",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
+                "National Language": "Afrikaans German Khoekhoegowab Oshiwambo Otjiherero RuKwangali Setswana siLozi",
                 "Ethnic groups": {
                     "Indigenous African (%)": 93.2,
                     "Coloured and Basters (%)": 3.6,
@@ -5656,7 +5679,7 @@
                 "Water (%)": "Negligible"
             },
             "Population": {
-                "Census": 3022401,
+                "Count": 3022401,
                 "Density (/km2)": 3.7
             },
             "Economy": {
@@ -5678,7 +5701,7 @@
         "country": "Nauru",
         "infobox": {
             "General": {
-                "Official languages": "Nauruan English"
+                "Official Language": "Nauruan English"
             },
             "Government": {
                 "Government": "Unitary parliamentary republic with an executive presidency under a non-partisan democracy"
@@ -5688,8 +5711,7 @@
                 "Water (%)": 0.57
             },
             "Population": {
-                "Estimate": 12025,
-                "Census": 12000,
+                "Count": 12025,
                 "Density (/km2)": 480
             },
             "Economy": {
@@ -5710,7 +5732,8 @@
         "country": "Nepal",
         "infobox": {
             "General": {
-                "Official languages": "Nepali",
+                "Official Language": "Nepali",
+                "National Language": "All mother-tongues",
                 "Ethnic groups": {
                     "Janajati (%)": 35,
                     "Magar (%)": 6.9,
@@ -5757,7 +5780,7 @@
                 "Water (%)": 2.8
             },
             "Population": {
-                "Estimate": 31122387,
+                "Count": 31122387,
                 "Density (/km2)": 180
             },
             "Economy": {
@@ -5779,7 +5802,7 @@
         "country": "Netherlands",
         "infobox": {
             "General": {
-                "Official languages": "Dutch"
+                "Official Language": "Dutch"
             },
             "Government": {
                 "Government": "Devolved unitary parliamentary constitutional monarchy"
@@ -5789,7 +5812,7 @@
                 "Water (%)": 18.96
             },
             "Population": {
-                "Estimate": 18290379,
+                "Count": 18290379,
                 "Density (/km2)": 532
             },
             "Economy": {
@@ -5809,7 +5832,7 @@
         "country": "New Zealand",
         "infobox": {
             "General": {
-                "Official languages": "English Māori NZ Sign Language",
+                "Official Language": "English Māori NZ Sign Language",
                 "Ethnic groups": {
                     "European (%)": 67.8,
                     "Māori (%)": 19.6,
@@ -5834,8 +5857,7 @@
                 "Water (%)": 1.6
             },
             "Population": {
-                "Estimate": 5344270,
-                "Census": 4993923,
+                "Count": 5344340,
                 "Density (/km2)": 19.9
             },
             "Economy": {
@@ -5857,7 +5879,7 @@
         "country": "Nicaragua",
         "infobox": {
             "General": {
-                "Official languages": "Spanish",
+                "Official Language": "Spanish",
                 "Ethnic groups": {
                     "Mestizo (mixed White and Indigenous ) (%)": 69,
                     "White (%)": 17,
@@ -5885,7 +5907,7 @@
                 "Water (%)": 7.14
             },
             "Population": {
-                "Estimate": 6676948,
+                "Count": 6676948,
                 "Density (/km2)": 51
             },
             "Economy": {
@@ -5907,7 +5929,8 @@
         "country": "Niger",
         "infobox": {
             "General": {
-                "Official languages": "Hausa",
+                "Official Language": "Hausa",
+                "National Language": "Arabic Buduma Fulfulde Gourmanchéma Kanuri Songhai Tamasheq Tassawaq Tebu Zarma",
                 "Ethnic groups": {
                     "Hausa (%)": 53.1,
                     "Zarma and Songhay (%)": 21.2,
@@ -5938,7 +5961,7 @@
                 "Water (%)": 0.02
             },
             "Population": {
-                "Estimate": 26342784,
+                "Count": 26342784,
                 "Density (/km2)": 21
             },
             "Economy": {
@@ -5960,7 +5983,7 @@
         "country": "Nigeria",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "Hausa (%)": 30,
                     "Yoruba (%)": 15.5,
@@ -5992,7 +6015,7 @@
                 "Water (%)": 1.4
             },
             "Population": {
-                "Estimate": 236747130,
+                "Count": 236747130,
                 "Density (/km2)": 249.8
             },
             "Economy": {
@@ -6014,7 +6037,7 @@
         "country": "North Korea",
         "infobox": {
             "General": {
-                "Official languages": "Korean",
+                "Official Language": "Korean",
                 "Religion": {
                     "no religion (%)": 73,
                     "Chondoism (%)": 13,
@@ -6031,8 +6054,7 @@
                 "Water (%)": 0.11
             },
             "Population": {
-                "Estimate": 26298666,
-                "Census": 24052231,
+                "Count": 26298666,
                 "Density (/km2)": 212
             },
             "Economy": {
@@ -6053,7 +6075,7 @@
         "country": "North Macedonia",
         "infobox": {
             "General": {
-                "Official languages": "Macedonian Albanian",
+                "Official Language": "Macedonian Albanian",
                 "Ethnic groups": {
                     "Macedonians (%)": 58.4,
                     "Albanians (%)": 24.3,
@@ -6087,7 +6109,7 @@
                 "Water (%)": 1.1
             },
             "Population": {
-                "Census": 1836713,
+                "Count": 1836713,
                 "Density (/km2)": 71.43
             },
             "Economy": {
@@ -6109,7 +6131,8 @@
         "country": "Norway",
         "infobox": {
             "General": {
-                "Official languages": "Norwegian Sámi",
+                "Official Language": "Norwegian Sámi",
+                "National Language": "Kven Romani Scandoromani Norwegian Sign Language",
                 "Ethnic groups": {
                     "Norwegian (%)": 78.6,
                     "non-Norwegian (%)": 21.4
@@ -6135,7 +6158,7 @@
                 "Water (%)": 5.32
             },
             "Population": {
-                "Estimate": 5627400,
+                "Count": 5627400,
                 "Density (/km2)": 14.6
             },
             "Economy": {
@@ -6157,7 +6180,7 @@
         "country": "Oman",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
+                "Official Language": "Arabic",
                 "Religion": {
                     "Islam ( official ) (%)": 95,
                     "Hinduism (%)": 1.67,
@@ -6177,8 +6200,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 5494691,
-                "Census": 2773479,
+                "Count": 5494691,
                 "Density (/km2)": 15
             },
             "Economy": {
@@ -6200,7 +6222,7 @@
         "country": "Pakistan",
         "infobox": {
             "General": {
-                "Official languages": "Urdu English",
+                "Official Language": "Urdu English",
                 "Religion": {
                     "Islam ( official ) (%)": 96.3,
                     "Hinduism (%)": 2.2,
@@ -6216,7 +6238,7 @@
                 "Water (%)": 2.86
             },
             "Population": {
-                "Census": 241499431,
+                "Count": 241499431,
                 "Density (/km2)": 273.8
             },
             "Economy": {
@@ -6238,7 +6260,7 @@
         "country": "Palau",
         "infobox": {
             "General": {
-                "Official languages": "Palauan English",
+                "Official Language": "Palauan English",
                 "Ethnic groups": {
                     "Palauan (%)": 65.2,
                     "Asian (%)": 31.6,
@@ -6270,8 +6292,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 17663,
-                "Census": 16766,
+                "Count": 17663,
                 "Density (/km2)": 38.375
             },
             "Economy": {
@@ -6292,7 +6313,7 @@
         "country": "Palestine",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
+                "Official Language": "Arabic",
                 "Ethnic groups": {
                     "Palestinian Arabs (%)": 91.2,
                     "Israeli Jews (%)": 8.8
@@ -6317,12 +6338,10 @@
             },
             "Area": {
                 "Total (km2)": 6020,
-                "Water (%)": 3.5,
-                "West Bank (km2)": 5655,
-                "Gaza Strip (km2)": 365
+                "Water (%)": 3.5
             },
             "Population": {
-                "Estimate": 5483450,
+                "Count": 5483450,
                 "Density (/km2)": 731
             },
             "Economy": {
@@ -6344,7 +6363,7 @@
         "country": "Panama",
         "infobox": {
             "General": {
-                "Official languages": "Spanish",
+                "Official Language": "Spanish",
                 "Ethnic groups": {
                     "Mestizo (mixed White and Indigenous ) (%)": 65,
                     "Indigenous (%)": 12.3,
@@ -6373,7 +6392,7 @@
                 "Water (%)": 2.9
             },
             "Population": {
-                "Estimate": 4337768,
+                "Count": 4337768,
                 "Density (/km2)": 56
             },
             "Economy": {
@@ -6395,7 +6414,7 @@
         "country": "Papua New Guinea",
         "infobox": {
             "General": {
-                "Official languages": "English Hiri Motu PNG Sign Language Tok Pisin",
+                "Official Language": "English Hiri Motu PNG Sign Language Tok Pisin",
                 "Religion": {
                     "Christianity ( official )": {
                         "percentage": 95.5,
@@ -6417,8 +6436,7 @@
                 "Water (%)": 2.2
             },
             "Population": {
-                "Estimate": 11781559,
-                "Census": 10185363,
+                "Count": 11781559,
                 "Density (/km2)": 25.5
             },
             "Economy": {
@@ -6440,7 +6458,7 @@
         "country": "Paraguay",
         "infobox": {
             "General": {
-                "Official languages": "Spanish Guarani",
+                "Official Language": "Spanish Guarani",
                 "Religion": {
                     "Christianity": {
                         "percentage": 95.5,
@@ -6451,6 +6469,10 @@
                     },
                     "no religion (%)": 4.1,
                     "other (%)": 0.4
+                },
+                "Ethnic groups": {
+                    "Mestizo (%)": 95,
+                    "White (%)": 5
                 }
             },
             "Government": {
@@ -6461,8 +6483,7 @@
                 "Water (%)": 2.6
             },
             "Population": {
-                "Estimate": 6413627,
-                "Census": 6109903,
+                "Count": 6413627,
                 "Density": "39/sq mi"
             },
             "Economy": {
@@ -6484,8 +6505,10 @@
         "country": "Peru",
         "infobox": {
             "General": {
-                "Official languages": "Spanish",
-                "Co-official languages": "Quechua Aymara Other Indigenous languages",
+                "Official Language": [
+                    "Spanish",
+                    "Quechua Aymara Other Indigenous languages"
+                ],
                 "Ethnic groups": {
                     "Mestizo (%)": 60.2,
                     "Native (%)": 25.75,
@@ -6515,7 +6538,7 @@
                 "Water (%)": 0.41
             },
             "Population": {
-                "Estimate": 34352720,
+                "Count": 34352720,
                 "Density (/km2)": 23
             },
             "Economy": {
@@ -6537,7 +6560,8 @@
         "country": "Philippines",
         "infobox": {
             "General": {
-                "Official languages": "Filipino English",
+                "Official Language": "Filipino English",
+                "National Language": "Filipino",
                 "Ethnic groups": {
                     "Tagalog (%)": 26,
                     "Bisaya (%)": 14.3,
@@ -6567,7 +6591,7 @@
                 "Water (%)": 0.61
             },
             "Population": {
-                "Census": 112729484,
+                "Count": 112729484,
                 "Density (/km2)": 363.45
             },
             "Economy": {
@@ -6589,7 +6613,7 @@
         "country": "Poland",
         "infobox": {
             "General": {
-                "Official language": "Polish",
+                "Official Language": "Polish",
                 "Ethnic groups": {
                     "Polish (%)": 98.8,
                     "only Polish (%)": 96.3,
@@ -6617,7 +6641,7 @@
                 "Water (%)": 1.48
             },
             "Population": {
-                "Census": 37893970,
+                "Count": 37893970,
                 "Density (/km2)": 126
             },
             "Economy": {
@@ -6639,7 +6663,8 @@
         "country": "Portugal",
         "infobox": {
             "General": {
-                "Official languages": "Portuguese"
+                "Official Language": "Portuguese",
+                "National Language": "Portuguese Sign Language"
             },
             "Government": {
                 "Government": "Unitary semi-presidential republic"
@@ -6651,8 +6676,7 @@
                 "Water (%)": 1.2
             },
             "Population": {
-                "Estimate": 10749635,
-                "Census": 10343066,
+                "Count": 10749635,
                 "Density (/km2)": 116.6
             },
             "Economy": {
@@ -6674,7 +6698,7 @@
         "country": "Qatar",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
+                "Official Language": "Arabic",
                 "Ethnic groups": {
                     "Arab (%)": 49,
                     "South Asian (%)": 43,
@@ -6700,8 +6724,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 3214609,
-                "Census": 2846118,
+                "Count": 3214609,
                 "Density (/km2)": 264
             },
             "Economy": {
@@ -6723,7 +6746,7 @@
         "country": "Romania",
         "infobox": {
             "General": {
-                "Official languages": "Romanian",
+                "Official Language": "Romanian",
                 "Ethnic groups": {
                     "Romanians (%)": 89.3,
                     "Hungarians (%)": 6,
@@ -6753,8 +6776,7 @@
                 "Water (%)": 3
             },
             "Population": {
-                "Estimate": 19043151,
-                "Census": 19053815,
+                "Count": 19043151,
                 "Density (/km2)": 83
             },
             "Economy": {
@@ -6776,7 +6798,7 @@
         "country": "Russia",
         "infobox": {
             "General": {
-                "Official language and national language": "Russian",
+                "Official Language": "Russian",
                 "Ethnic groups": {
                     "Russian (%)": 71.7,
                     "Tatar (%)": 3.2,
@@ -6784,6 +6806,18 @@
                     "Chechen (%)": 1.1,
                     "other (%)": 11.3,
                     "not reported (%)": 11.6
+                },
+                "Religion": {
+                    "Russian Orthodox (%)": 41,
+                    "Muslims (%)": 6.5,
+                    "Old Believers (%)": 1,
+                    "Buddhists": {
+                        "percentage": 0.5,
+                        "breakdown": {
+                            "Jews (%)": 0.1,
+                            "Hindus (%)": 0.1
+                        }
+                    }
                 }
             },
             "Government": {
@@ -6794,7 +6828,7 @@
                 "Water (%)": 13
             },
             "Population": {
-                "Estimate": "146,028,325 143,569,049",
+                "Count": "146,028,325 143,569,049",
                 "Density (/km2)": 8.4
             },
             "Economy": {
@@ -6816,7 +6850,8 @@
         "country": "Rwanda",
         "infobox": {
             "General": {
-                "Official languages": "Kinyarwanda English French Swahili",
+                "Official Language": "Kinyarwanda English French Swahili",
+                "National Language": "Kinyarwanda",
                 "Ethnic groups": {
                     "Banyarwanda (%)": 100,
                     "Hutu (%)": 85,
@@ -6842,8 +6877,7 @@
                 "Water (%)": 6.3
             },
             "Population": {
-                "Estimate": 14104969,
-                "Census": 13206731,
+                "Count": 14104969,
                 "Density (/km2)": 578
             },
             "Economy": {
@@ -6865,7 +6899,7 @@
         "country": "Saint Kitts and Nevis",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "African (%)": 92.5,
                     "Mixed (%)": 3,
@@ -6903,8 +6937,7 @@
                 "Water (%)": "Negligible"
             },
             "Population": {
-                "Estimate": 47606,
-                "Census": 54338,
+                "Count": 47606,
                 "Density (/km2)": 164
             },
             "Economy": {
@@ -6925,7 +6958,7 @@
         "country": "Saint Lucia",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "African (%)": 85.3,
                     "Mixed (%)": 10.9,
@@ -6948,8 +6981,7 @@
                 "Water (%)": 1.6
             },
             "Population": {
-                "Estimate": 184100,
-                "Census": 165595,
+                "Count": 184100,
                 "Density (/km2)": 298
             },
             "Economy": {
@@ -6971,7 +7003,7 @@
         "country": "Saint Vincent and the Grenadines",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "African (%)": 66,
                     "Mixed (%)": 19,
@@ -7008,8 +7040,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 110872,
-                "Census": 109991,
+                "Count": 110872,
                 "Density (/km2)": 307
             },
             "Economy": {
@@ -7030,7 +7061,7 @@
         "country": "Samoa",
         "infobox": {
             "General": {
-                "Official languages": "Samoan , English",
+                "Official Language": "Samoan , English",
                 "Ethnic groups": {
                     "Samoans (%)": 92.6,
                     "Euronesians (%)": 7,
@@ -7059,7 +7090,7 @@
                 "Water (%)": 0.3
             },
             "Population": {
-                "Census": 205557,
+                "Count": 205557,
                 "Density (/km2)": 70
             },
             "Economy": {
@@ -7081,7 +7112,7 @@
         "country": "San Marino",
         "infobox": {
             "General": {
-                "Official languages": "Italian",
+                "Official Language": "Italian",
                 "Religion": {
                     "Catholicism (2022) (%)": 90.3,
                     "no religion (%)": 7.5,
@@ -7107,7 +7138,7 @@
                 "Water (%)": 0.0059
             },
             "Population": {
-                "Estimate": 34172,
+                "Count": 34172,
                 "Density (/km2)": 579
             },
             "Economy": {
@@ -7128,7 +7159,7 @@
         "country": "São Tomé and Príncipe",
         "infobox": {
             "General": {
-                "Official language and national language": "Portuguese",
+                "Official Language": "Portuguese",
                 "Religion": {
                     "Christianity (%)": 81.1,
                     "no religion (%)": 13.2,
@@ -7144,7 +7175,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 220372,
+                "Count": 220372,
                 "Density (/km2)": 199.7
             },
             "Economy": {
@@ -7166,8 +7197,12 @@
         "country": "Saudi Arabia",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
-                "Religion": "Sunni Islam"
+                "Official Language": "Arabic",
+                "Religion": "Sunni Islam",
+                "Ethnic groups": {
+                    "Close to (%)": 42,
+                    "Arab with (%)": 10
+                }
             },
             "Government": {
                 "Government": "Unitary Islamic absolute monarchy"
@@ -7177,7 +7212,7 @@
                 "Water (%)": 0.7
             },
             "Population": {
-                "Census": 33702731,
+                "Count": 33702731,
                 "Density (/km2)": 15
             },
             "Economy": {
@@ -7199,7 +7234,8 @@
         "country": "Senegal",
         "infobox": {
             "General": {
-                "Official languages": "French",
+                "Official Language": "French",
+                "National Language": "Wolof Serer Diola Pulaar Soninke Mandinka",
                 "Ethnic groups": {
                     "Wolof (%)": 39.7,
                     "Fula (%)": 27.5,
@@ -7223,7 +7259,7 @@
                 "Water (%)": 2.1
             },
             "Population": {
-                "Estimate": 18847519,
+                "Count": 18847519,
                 "Density (/km2)": 96
             },
             "Economy": {
@@ -7245,7 +7281,7 @@
         "country": "Serbia",
         "infobox": {
             "General": {
-                "Official languages": "Serbian",
+                "Official Language": "Serbian",
                 "Ethnic groups": {
                     "Serbs (%)": 80.6,
                     "Hungarians (%)": 2.8,
@@ -7272,12 +7308,10 @@
                 "Government": "Unitary parliamentary republic"
             },
             "Area": {
-                "Total (km2)": 88499,
-                "Excluding Kosovo (km2)": 77589
+                "Total (km2)": 88499
             },
             "Population": {
-                "Estimate": 6567783,
-                "Census": 6647003,
+                "Count": 6567783,
                 "Density (/km2)": 85
             },
             "Economy": {
@@ -7299,7 +7333,7 @@
         "country": "Seychelles",
         "infobox": {
             "General": {
-                "Official languages": "Seychellois Creole English French",
+                "Official Language": "Seychellois Creole English French",
                 "Ethnic groups": {
                     "Seychellois Creoles (%)": 97,
                     "others (%)": 3
@@ -7320,7 +7354,7 @@
                 "Water (%)": "Negligible"
             },
             "Population": {
-                "Estimate": 121355,
+                "Count": 121355,
                 "Density (/km2)": 262.3
             },
             "Economy": {
@@ -7342,7 +7376,8 @@
         "country": "Sierra Leone",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
+                "National Language": "Krio",
                 "Ethnic groups": {
                     "Temne (%)": 35.5,
                     "Mende (%)": 33.2,
@@ -7370,7 +7405,7 @@
                 "Water (%)": 1.1
             },
             "Population": {
-                "Estimate": 8460512,
+                "Count": 8460512,
                 "Density (/km2)": 124
             },
             "Economy": {
@@ -7392,7 +7427,8 @@
         "country": "Singapore",
         "infobox": {
             "General": {
-                "Official languages": "English Malay Mandarin Tamil",
+                "Official Language": "English Malay Mandarin Tamil",
+                "National Language": "Malay",
                 "Ethnic groups": {
                     "Chinese (%)": 74.3,
                     "Malay (%)": 13.5,
@@ -7410,16 +7446,15 @@
                     "Other (%)": 0.3
                 }
             },
-            "Area": {
-                "Largest planning area by population": "Tampines",
-                "Total (km2)": 744.3,
-                "Water (%)": 1.43
-            },
             "Government": {
                 "Government": "Unitary parliamentary republic"
             },
+            "Area": {
+                "Total (km2)": 744.3,
+                "Water (%)": 1.43
+            },
             "Population": {
-                "Estimate": 6110200,
+                "Count": 6110200,
                 "Density (/km2)": 8290
             },
             "Economy": {
@@ -7441,7 +7476,7 @@
         "country": "Slovakia",
         "infobox": {
             "General": {
-                "Official language": "Slovak",
+                "Official Language": "Slovak",
                 "Ethnic groups": {
                     "Slovaks (%)": 88.6,
                     "Hungarians (%)": 8.2,
@@ -7470,8 +7505,7 @@
                 "Water (%)": 0.72
             },
             "Population": {
-                "Estimate": 5413813,
-                "Census": 5449270,
+                "Count": 5413813,
                 "Density (/km2)": 110
             },
             "Economy": {
@@ -7493,7 +7527,7 @@
         "country": "Slovenia",
         "infobox": {
             "General": {
-                "Official languages": "Slovene",
+                "Official Language": "Slovene",
                 "Religion": {
                     "Christianity": {
                         "percentage": 77.9,
@@ -7515,8 +7549,7 @@
                 "Water (%)": 0.7
             },
             "Population": {
-                "Estimate": 2130850,
-                "Census": 1964036,
+                "Count": 2130850,
                 "Density (/km2)": 103
             },
             "Economy": {
@@ -7538,7 +7571,7 @@
         "country": "Solomon Islands",
         "infobox": {
             "General": {
-                "Official language": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "Melanesian (%)": 95.3,
                     "Polynesian (%)": 3.1,
@@ -7562,8 +7595,7 @@
                 "Water (%)": 3.2
             },
             "Population": {
-                "Estimate": 828857,
-                "Census": 721956,
+                "Count": 828857,
                 "Density (/km2)": 24.2
             },
             "Economy": {
@@ -7585,7 +7617,7 @@
         "country": "Somalia",
         "infobox": {
             "General": {
-                "Official languages": "Somali",
+                "Official Language": "Somali",
                 "Ethnic groups": {
                     "Somali (%)": 85,
                     "other (%)": 15
@@ -7599,7 +7631,7 @@
                 "Total (km2)": 637657
             },
             "Population": {
-                "Estimate": 19280850,
+                "Count": 19280850,
                 "Density (/km2)": 27.2
             },
             "Economy": {
@@ -7621,7 +7653,7 @@
         "country": "South Africa",
         "infobox": {
             "General": {
-                "Official languages": "12 languages Afrikaans English Ndebele Sepedi Sesotho Setswana South African Sign Language Swazi Tshivenda Xhosa Xitsonga Zulu Languages with special status Khoe languages Nama Khoisan languages German Greek Gujarati Hindi Portuguese Telugu Tamil Urdu Arabic Hebrew Sanskrit",
+                "Official Language": "12 languages Afrikaans English Ndebele Sepedi Sesotho Setswana South African Sign Language Swazi Tshivenda Xhosa Xitsonga Zulu Languages with special status Khoe languages Nama Khoisan languages German Greek Gujarati Hindi Portuguese Telugu Tamil Urdu Arabic Hebrew Sanskrit",
                 "Ethnic groups": {
                     "Black (%)": 81.4,
                     "Coloured (%)": 8.2,
@@ -7646,8 +7678,7 @@
                 "Water (%)": 0.38
             },
             "Population": {
-                "Estimate": 63015904,
-                "Census": 62027503,
+                "Count": 63015904,
                 "Density (/km2)": 50.8
             },
             "Economy": {
@@ -7669,7 +7700,7 @@
         "country": "South Korea",
         "infobox": {
             "General": {
-                "Official languages": "Korean Korean Sign Language",
+                "Official Language": "Korean Korean Sign Language",
                 "Ethnic groups": {
                     "Korean (%)": 94.8,
                     "other (%)": 5.2
@@ -7695,7 +7726,7 @@
                 "Water (%)": 0.3
             },
             "Population": {
-                "Estimate": 52081799,
+                "Count": 52081799,
                 "Density (/km2)": 507
             },
             "Economy": {
@@ -7717,7 +7748,8 @@
         "country": "South Sudan",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
+                "National Language": "Dinka Nuer Bari Murle Luo Ma'di Otuho Zande and around 60 other languages",
                 "Religion": {
                     "Christianity (%)": 60.5,
                     "traditional faiths (%)": 32.9,
@@ -7732,7 +7764,7 @@
                 "Total (km2)": 644329
             },
             "Population": {
-                "Estimate": 12703714,
+                "Count": 12703714,
                 "Density (/km2)": 19
             },
             "Economy": {
@@ -7754,7 +7786,7 @@
         "country": "Spain",
         "infobox": {
             "General": {
-                "Official language": "Spanish",
+                "Official Language": "Spanish",
                 "Religion": {
                     "Roman Catholicism": {
                         "percentage": 58.6,
@@ -7778,7 +7810,7 @@
                 "Water (%)": 0.89
             },
             "Population": {
-                "Estimate": 49570725,
+                "Count": 49570725,
                 "Density (/km2)": 98
             },
             "Economy": {
@@ -7800,7 +7832,7 @@
         "country": "Sri Lanka",
         "infobox": {
             "General": {
-                "Official languages and recognised national languages": "Sinhala Tamil",
+                "Official Language": "Sinhala Tamil",
                 "Ethnic groups": {
                     "Sinhalese (%)": 74.1,
                     "Sri Lankan Tamils (%)": 12.3,
@@ -7824,8 +7856,7 @@
                 "Water (%)": 4.4
             },
             "Population": {
-                "Estimate": 23300000,
-                "Census": 21781800,
+                "Count": 23300000,
                 "Density (/km2)": 337.7
             },
             "Economy": {
@@ -7847,7 +7878,7 @@
         "country": "Sudan",
         "infobox": {
             "General": {
-                "Official languages": "Arabic English",
+                "Official Language": "Arabic English",
                 "Ethnic groups": {
                     "Sudanese Arab (%)": 70,
                     "Beja (%)": 5.9,
@@ -7883,7 +7914,7 @@
                 "Total (km2)": 1886068
             },
             "Population": {
-                "Estimate": 51767437,
+                "Count": 51767437,
                 "Density (/km2)": 21.3
             }
         }
@@ -7892,7 +7923,7 @@
         "country": "Suriname",
         "infobox": {
             "General": {
-                "Official languages": "Dutch",
+                "Official Language": "Dutch",
                 "Ethnic groups": {
                     "Asian Surinamese (%)": 42.6,
                     "Hindustani (%)": 27.4,
@@ -7949,7 +7980,7 @@
                 "Water (%)": 1.1
             },
             "Population": {
-                "Estimate": 632638,
+                "Count": 632638,
                 "Density (/km2)": 3.9
             },
             "Economy": {
@@ -7970,7 +8001,7 @@
         "country": "Sweden",
         "infobox": {
             "General": {
-                "Official languages": "Swedish"
+                "Official Language": "Swedish"
             },
             "Government": {
                 "Government": "Unitary parliamentary constitutional monarchy"
@@ -7980,7 +8011,7 @@
                 "Water (%)": 8.97
             },
             "Population": {
-                "Estimate": 10610485,
+                "Count": 10610485,
                 "Density (/km2)": 25
             },
             "Economy": {
@@ -8002,7 +8033,7 @@
         "country": "Switzerland",
         "infobox": {
             "General": {
-                "Official languages": {
+                "Official Language": {
                     "), French ( (%)": 62,
                     "), Italian ( (%)": 23,
                     "), Romansh ( (%)": 8,
@@ -8021,6 +8052,10 @@
                     "Islam (%)": 6,
                     "other religions (%)": 1.5,
                     "unanswered (%)": 0.9
+                },
+                "Ethnic groups": {
+                    "Immigrants (%)": 65,
+                    "Migration status unknow (%)": 7
                 }
             },
             "Government": {
@@ -8031,8 +8066,7 @@
                 "Water (%)": 4
             },
             "Population": {
-                "Estimate": 9060598,
-                "Census": 8327126,
+                "Count": 9060598,
                 "Density (/km2)": 207
             },
             "Economy": {
@@ -8054,7 +8088,8 @@
         "country": "Syria",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
+                "Official Language": "Arabic",
+                "National Language": "Kurdish",
                 "Ethnic groups": {
                     "Arabs 9– (%)": 90,
                     "Kurds 1– (%)": 10,
@@ -8077,7 +8112,7 @@
                 "Water (%)": 1.1
             },
             "Population": {
-                "Estimate": 26019711,
+                "Count": 26019711,
                 "Density (/km2)": 118.3
             },
             "Economy": {
@@ -8098,7 +8133,7 @@
         "country": "Tajikistan",
         "infobox": {
             "General": {
-                "Official languages": "Tajik Russian",
+                "Official Language": "Tajik Russian",
                 "Ethnic groups": {
                     "Tajiks (%)": 86.1,
                     "Uzbeks (%)": 11.3,
@@ -8122,17 +8157,17 @@
                 "Water (%)": 1.8
             },
             "Population": {
-                "Estimate": 10786734,
+                "Count": 10786734,
                 "Density (/km2)": 75.4
             },
             "Economy": {
                 "GDP ( PPP )": {
-                    "Total ($)": 59415000000,
-                    "Per capita ($)": 5832
+                    "Total ($)": 67750000000,
+                    "Per capita ($)": 6434
                 },
                 "GDP (nominal)": {
-                    "Total ($)": 12953000000,
-                    "Per capita ($)": 1176
+                    "Total ($)": 18940000000,
+                    "Per capita ($)": 1799
                 },
                 "Gini": 34,
                 "HDI": 0.691,
@@ -8144,7 +8179,8 @@
         "country": "Tanzania",
         "infobox": {
             "General": {
-                "Official languages": "Swahili English",
+                "Official Language": "Swahili English",
+                "National Language": "Swahili",
                 "Religion": {
                     "Christianity (%)": 63.1,
                     "Islam (%)": 34.1,
@@ -8165,8 +8201,7 @@
                 "Water (%)": 6.4
             },
             "Population": {
-                "Estimate": 67462121,
-                "Census": 61741120,
+                "Count": 67462121,
                 "Density (/km2)": 65.2
             },
             "Economy": {
@@ -8188,7 +8223,7 @@
         "country": "Thailand",
         "infobox": {
             "General": {
-                "Official languages": "Thai",
+                "Official Language": "Thai",
                 "Ethnic groups": {
                     "Thai (%)": 80,
                     "Central Thai (%)": 37,
@@ -8215,8 +8250,7 @@
                 "Water (%)": 0.4
             },
             "Population": {
-                "Estimate": 65975198,
-                "Census": 64785909,
+                "Count": 65975198,
                 "Density (/km2)": 132.1
             },
             "Economy": {
@@ -8238,7 +8272,7 @@
         "country": "Timor-Leste",
         "infobox": {
             "General": {
-                "Official languages": "Portuguese Tetum",
+                "Official Language": "Portuguese Tetum",
                 "Religion": {
                     "Christianity": {
                         "percentage": 99.53,
@@ -8259,12 +8293,11 @@
                 "Government": "Unitary semi-presidential republic"
             },
             "Area": {
-                "Total (km2)": 14950,
+                "Total (km2)": 15007,
                 "Water (%)": "Negligible"
             },
             "Population": {
-                "Estimate": 1354662,
-                "Census": 1341737,
+                "Count": 1354662,
                 "Density (/km2)": 94
             },
             "Economy": {
@@ -8286,7 +8319,7 @@
         "country": "Togo",
         "infobox": {
             "General": {
-                "Official languages": "French",
+                "Official Language": "French",
                 "Ethnic groups": {
                     ") Aja , Ewe and Mina ( (%)": 94.4,
                     ") Kabye and Tem ( (%)": 42.4,
@@ -8316,8 +8349,7 @@
                 "Water (%)": 4.2
             },
             "Population": {
-                "Estimate": 9583381,
-                "Census": 8095498,
+                "Count": 9583381,
                 "Density (/km2)": 125.9
             },
             "Economy": {
@@ -8339,7 +8371,7 @@
         "country": "Tonga",
         "infobox": {
             "General": {
-                "Official languages": "Tongan English",
+                "Official Language": "Tongan English",
                 "Ethnic groups": {
                     "Tongan (%)": 96.5,
                     "others (%)": 3.5
@@ -8366,7 +8398,7 @@
                 "Water (%)": 4.0
             },
             "Population": {
-                "Census": 100209,
+                "Count": 100209,
                 "Density (/km2)": 139
             },
             "Economy": {
@@ -8388,7 +8420,7 @@
         "country": "Trinidad and Tobago",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "Indian (%)": 35.4,
                     "African (%)": 34.2,
@@ -8412,7 +8444,7 @@
                 "Water (%)": "negligible"
             },
             "Population": {
-                "Estimate": 1512779,
+                "Count": 1512779,
                 "Density (/km2)": 294
             },
             "Economy": {
@@ -8434,7 +8466,7 @@
         "country": "Tunisia",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
+                "Official Language": "Arabic",
                 "Ethnic groups": {
                     "Arabs (%)": 98,
                     "Berbers (%)": 1,
@@ -8453,7 +8485,7 @@
                 "Water (%)": 5.04
             },
             "Population": {
-                "Census": 11972169,
+                "Count": 11972169,
                 "Density (/km2)": 79
             },
             "Economy": {
@@ -8475,7 +8507,14 @@
         "country": "Turkey",
         "infobox": {
             "General": {
-                "Official languages": "Turkish"
+                "Official Language": "Turkish",
+                "Religion": {
+                    "Muslims constitute (%)": 99.8,
+                    "Muslims was (%)": 99.4,
+                    "Sunni (%)": 88,
+                    "Alevi are betwee (%)": 10,
+                    "KONDA estimated that (%)": 0.47
+                }
             },
             "Government": {
                 "Government": "Unitary presidential republic"
@@ -8485,7 +8524,7 @@
                 "Water (%)": 2.03
             },
             "Population": {
-                "Estimate": 86092168,
+                "Count": 86092168,
                 "Density (/km2)": 112
             },
             "Economy": {
@@ -8507,7 +8546,7 @@
         "country": "Turkmenistan",
         "infobox": {
             "General": {
-                "Official languages": "Turkmen",
+                "Official Language": "Turkmen",
                 "Ethnic groups": {
                     "Turkmens (%)": 86.7,
                     "Uzbeks (%)": 9.1,
@@ -8531,7 +8570,7 @@
                 "Water (%)": 4.9
             },
             "Population": {
-                "Census": 7057841,
+                "Count": 7057841,
                 "Density (/km2)": 14.4
             },
             "Economy": {
@@ -8553,7 +8592,7 @@
         "country": "Tuvalu",
         "infobox": {
             "General": {
-                "Official languages": "Tuvaluan English",
+                "Official Language": "Tuvaluan English",
                 "Ethnic groups": {
                     "Tuvaluans (%)": 96,
                     "others (%)": 4
@@ -8578,7 +8617,7 @@
                 "Water (%)": "Negligible"
             },
             "Population": {
-                "Census": 10643,
+                "Count": 10643,
                 "Density (/km2)": 423
             },
             "Economy": {
@@ -8600,7 +8639,7 @@
         "country": "Uganda",
         "infobox": {
             "General": {
-                "Official languages": "English Swahili",
+                "Official Language": "English Swahili",
                 "Ethnic groups": {
                     "Baganda (%)": 15.3,
                     "Banyankole (%)": 9.1,
@@ -8635,7 +8674,7 @@
                 "Water (%)": 15.39
             },
             "Population": {
-                "Census": "= 45,905,417",
+                "Count": "= 45,905,417",
                 "Density (/km2)": 157.1
             },
             "Economy": {
@@ -8657,7 +8696,7 @@
         "country": "Ukraine",
         "infobox": {
             "General": {
-                "Official language and national language": "Ukrainian",
+                "Official Language": "Ukrainian",
                 "Ethnic groups": {
                     "Ukrainians (%)": 78,
                     "Russians (%)": 17,
@@ -8677,7 +8716,7 @@
                 "Water (%)": 3.8
             },
             "Population": {
-                "Estimate": 32862000,
+                "Count": 32862000,
                 "Density (/km2)": 54.4
             },
             "Economy": {
@@ -8699,7 +8738,7 @@
         "country": "United Arab Emirates",
         "infobox": {
             "General": {
-                "Official languages": "Arabic",
+                "Official Language": "Arabic",
                 "Ethnic groups": {
                     "South Asian (%)": 59.4,
                     "Indian (%)": 38.2,
@@ -8746,7 +8785,7 @@
                 "Water (%)": "Negligible"
             },
             "Population": {
-                "Estimate": 11027129,
+                "Count": 11027129,
                 "Density (/km2)": 132
             },
             "Economy": {
@@ -8768,6 +8807,7 @@
         "country": "United Kingdom",
         "infobox": {
             "General": {
+                "National Language": "English",
                 "Ethnic groups": {
                     "White (%)": 83,
                     "Asian (%)": 8.6,
@@ -8799,8 +8839,7 @@
                 "Land (km2)": 242741
             },
             "Population": {
-                "Estimate": 69281437,
-                "Census": 66940559,
+                "Count": 69281437,
                 "Density (/km2)": 285
             },
             "Economy": {
@@ -8822,7 +8861,7 @@
         "country": "United States",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "White (%)": 61.6,
                     "Black (%)": 12.4,
@@ -8879,8 +8918,7 @@
                 "Land area (sq mi)": 3531905
             },
             "Population": {
-                "Estimate": 341784857,
-                "Census": 331449281,
+                "Count": 341784857,
                 "Density": "96.8/sq mi"
             }
         }
@@ -8889,13 +8927,21 @@
         "country": "Uruguay",
         "infobox": {
             "General": {
-                "Official languages": "Spanish Uruguayan Sign Language",
+                "Official Language": "Spanish Uruguayan Sign Language",
                 "Ethnic groups": {
                     "White (%)": 86,
                     "Black (%)": 10.4,
                     "Indigenous (%)": 6.3,
                     "East Asian (%)": 0.7,
                     "other (%)": 6.3
+                },
+                "Religion": {
+                    "Animists or Umbandists": {
+                        "percentage": 0.6,
+                        "breakdown": {
+                            "Jewish (%)": 0.4
+                        }
+                    }
                 }
             },
             "Government": {
@@ -8906,7 +8952,7 @@
                 "Water (%)": 1.5
             },
             "Population": {
-                "Census": 3499451,
+                "Count": 3499451,
                 "Density (/km2)": 19.5
             },
             "Economy": {
@@ -8928,7 +8974,7 @@
         "country": "Uzbekistan",
         "infobox": {
             "General": {
-                "Official languages": "Uzbek",
+                "Official Language": "Uzbek",
                 "Ethnic groups": {
                     "Uzbeks (%)": 84.6,
                     "Tajiks (%)": 4.8,
@@ -8952,7 +8998,7 @@
                 "Water (%)": 4.9
             },
             "Population": {
-                "Estimate": 38236704,
+                "Count": 38236704,
                 "Density (/km2)": 80.2
             },
             "Economy": {
@@ -8974,7 +9020,7 @@
         "country": "Vanuatu",
         "infobox": {
             "General": {
-                "Official languages": "Bislama English French",
+                "Official Language": "Bislama English French",
                 "Ethnic groups": {
                     "Ni-Vanuatu (%)": 98.5,
                     "others (%)": 1.5
@@ -9000,8 +9046,7 @@
                 "Total (km2)": 12189
             },
             "Population": {
-                "Estimate": 335908,
-                "Census": 300019,
+                "Count": 335908,
                 "Density (/km2)": 27.6
             },
             "Economy": {
@@ -9023,7 +9068,8 @@
         "country": "Vatican City",
         "infobox": {
             "General": {
-                "Official languages": "Italian",
+                "Official Language": "Italian",
+                "National Language": "Italian Latin",
                 "Religion": "Catholicism"
             },
             "Government": {
@@ -9033,7 +9079,7 @@
                 "Total (km2)": 0.49
             },
             "Population": {
-                "Estimate": 882,
+                "Count": 882,
                 "Density (/km2)": 1800
             },
             "Economy": {
@@ -9049,7 +9095,7 @@
         "country": "Venezuela",
         "infobox": {
             "General": {
-                "Official languages": "Spanish",
+                "Official Language": "Spanish",
                 "Ethnic groups": {
                     "Moreno (%)": 51.6,
                     "White (%)": 43.6,
@@ -9078,7 +9124,7 @@
                 "Water (%)": 3.2
             },
             "Population": {
-                "Estimate": 31800000,
+                "Count": 31800000,
                 "Density (/km2)": 32
             },
             "Economy": {
@@ -9100,7 +9146,7 @@
         "country": "Vietnam",
         "infobox": {
             "General": {
-                "Official language": "Vietnamese",
+                "Official Language": "Vietnamese",
                 "Ethnic groups": {
                     "Kinh Vietnamese (%)": 85.32,
                     "other (%)": 14.68
@@ -9124,18 +9170,16 @@
                     }
                 }
             },
-            "Population": {
-                "Largest city by urban population": "Ho Chi Minh City 10°48′N 106°39′E ﻿ / ﻿ 10.800°N 106.650°E ﻿ / 10.800; 106.650",
-                "Estimate": 102300000,
-                "Census": 96208984,
-                "Density (/km2)": 309
-            },
             "Government": {
                 "Government": "Unitary communist state"
             },
             "Area": {
                 "Total (km2)": 331344.82,
                 "Water (%)": 6.38
+            },
+            "Population": {
+                "Count": 102300000,
+                "Density (/km2)": 309
             },
             "Economy": {
                 "GDP ( PPP )": {
@@ -9156,7 +9200,7 @@
         "country": "Yemen",
         "infobox": {
             "General": {
-                "Official language and national language": "Arabic",
+                "Official Language": "Arabic",
                 "Ethnic groups": {
                     "Arabs (%)": 92.8,
                     "Somalis (%)": 3.7,
@@ -9179,7 +9223,7 @@
                 "Water (%)": "Negligible"
             },
             "Population": {
-                "Estimate": 32684503,
+                "Count": 32684503,
                 "Density (/km2)": 71.8
             },
             "Economy": {
@@ -9201,7 +9245,7 @@
         "country": "Zambia",
         "infobox": {
             "General": {
-                "Official languages": "English",
+                "Official Language": "English",
                 "Ethnic groups": {
                     "Bemba (%)": 19,
                     "Tonga (%)": 13.6,
@@ -9250,7 +9294,7 @@
                 "Water (%)": 1
             },
             "Population": {
-                "Estimate": 20216029,
+                "Count": 20216029,
                 "Density (/km2)": 17.2
             },
             "Economy": {
@@ -9272,7 +9316,7 @@
         "country": "Zimbabwe",
         "infobox": {
             "General": {
-                "Official languages": "16 languages : Chewa Chibarwe English Kalanga Khoisan Nambya Ndau Ndebele Shangani Shona Sotho Tonga Tswana Venda Xhosa Zimbabwean sign language",
+                "Official Language": "16 languages : Chewa Chibarwe English Kalanga Khoisan Nambya Ndau Ndebele Shangani Shona Sotho Tonga Tswana Venda Xhosa Zimbabwean sign language",
                 "Ethnic groups": {
                     "Zimbabwean (%)": 99.6,
                     "European (%)": 0.2,
@@ -9300,8 +9344,7 @@
                 "Water (%)": 1
             },
             "Population": {
-                "Estimate": 17166852,
-                "Census": 15178957,
+                "Count": 17166852,
                 "Density (/km2)": 45
             },
             "Economy": {

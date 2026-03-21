@@ -2,24 +2,45 @@
 <country>
   <country>Serbia</country>
   <infobox>
+    <Area>
+      <Total__km2_>88499.0</Total__km2_>
+      <Water____>-1.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Serbian dinar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>34790.0</Per_capita____>
+        <Total____>225550000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>17290.0</Per_capita____>
+        <Total____>112110000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>31.9</Gini>
+      <HDI>0.833</HDI>
+    </Economy>
     <General>
-      <Official_languages>Serbian</Official_languages>
       <Ethnic_groups>
-        <Serbs____>80.6</Serbs____>
-        <Hungarians____>2.8</Hungarians____>
         <Bosniaks____>2.3</Bosniaks____>
+        <Hungarians____>2.8</Hungarians____>
         <Roma____>2</Roma____>
+        <Serbs____>80.6</Serbs____>
         <others____>5.4</others____>
         <undeclared_unknown____>6.9</undeclared_unknown____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Serbian</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>86.6</percentage>
           <breakdown>
-            <Eastern_Orthodoxy____>81.1</Eastern_Orthodoxy____>
             <Catholicism____>3.9</Catholicism____>
+            <Eastern_Orthodoxy____>81.1</Eastern_Orthodoxy____>
             <other____>1.7</other____>
           </breakdown>
+          <percentage>86.6</percentage>
         </Christianity>
         <Islam____>4.2</Islam____>
         <no_religion____>1.1</no_religion____>
@@ -29,27 +50,9 @@
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>88499</Total__km2_>
-      <Excluding_Kosovo__km2_>77589</Excluding_Kosovo__km2_>
-    </Area>
     <Population>
-      <Estimate>6567783</Estimate>
-      <Census>6647003</Census>
-      <Density___km2_>85</Density___km2_>
+      <Count>6567783.0</Count>
+      <Density___km2_>85.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>225550000000</Total____>
-        <Per_capita____>34790</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>112110000000</Total____>
-        <Per_capita____>17290</Per_capita____>
-      </GDP__nominal_>
-      <Gini>31.9</Gini>
-      <HDI>0.833</HDI>
-      <Currency>Serbian dinar</Currency>
-    </Economy>
   </infobox>
 </country>

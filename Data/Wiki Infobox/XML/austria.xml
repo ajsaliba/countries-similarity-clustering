@@ -2,50 +2,54 @@
 <country>
   <country>Austria</country>
   <infobox>
+    <Area>
+      <Total__km2_>83879.0</Total__km2_>
+      <Water____>0.84</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Euro</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>74370.0</Per_capita____>
+        <Total____>682860000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>58190.0</Per_capita____>
+        <Total____>534300000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>28.1</Gini>
+      <HDI>0.93</HDI>
+    </Economy>
     <General>
-      <Official_language>German</Official_language>
       <Ethnic_groups>
         <Austrians____>72.2</Austrians____>
         <other____>27.8</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>German</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>68.2</percentage>
           <breakdown>
             <Catholicism____>55.2</Catholicism____>
             <Orthodoxy____>4.9</Orthodoxy____>
             <Protestantism____>3.8</Protestantism____>
             <other_Christian____>4.3</other_Christian____>
           </breakdown>
+          <percentage>68.2</percentage>
         </Christianity>
-        <no_religion____>22.4</no_religion____>
         <Islam____>8.3</Islam____>
+        <no_religion____>22.4</no_religion____>
         <other____>1.1</other____>
       </Religion>
     </General>
     <Government>
       <Government>Federal semi-presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>83879</Total__km2_>
-      <Water____>0.84</Water____>
-    </Area>
     <Population>
-      <Estimate>9110079</Estimate>
+      <Count>9110079.0</Count>
       <Density___km2_>107.6</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>682860000000</Total____>
-        <Per_capita____>74370</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>534300000000</Total____>
-        <Per_capita____>58190</Per_capita____>
-      </GDP__nominal_>
-      <Gini>28.1</Gini>
-      <HDI>0.93</HDI>
-      <Currency>Euro</Currency>
-    </Economy>
   </infobox>
 </country>

@@ -1,9 +1,33 @@
 {
     "country": "Cyprus",
     "infobox": {
+        "Area": {
+            "Total (km2)": 9251.0,
+            "Water (%)": 0.11
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 65304.0,
+                "Total ($)": 61501000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 42413.0,
+                "Total ($)": 39943000000.0
+            },
+            "Gini": 29.4,
+            "HDI": 0.913
+        },
         "General": {
-            "Official languages": "Greek Turkish",
-            "Ethnic groups": "Greek Cypriots Turkish Cypriots Armenian Cypriots Maronite Cypriots",
+            "Ethnic groups": {
+                "Greek Cypriots Turkish Cypriots Armenian Cypriots Maronite Cypriots": null
+            },
+            "Primary Language": [
+                "Greek",
+                "Turkish"
+            ],
             "Religion": {
                 "Christianity (%)": 72.3,
                 "Islam (%)": 25,
@@ -14,26 +38,9 @@
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 9251,
-            "Water (%)": 0.11
-        },
         "Population": {
-            "Census": 923272,
+            "Count": 923272.0,
             "Density (/km2)": 123.4
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 61501000000,
-                "Per capita ($)": 65304
-            },
-            "GDP (nominal)": {
-                "Total ($)": 39943000000,
-                "Per capita ($)": 42413
-            },
-            "Gini": 29.4,
-            "HDI": 0.913,
-            "Currency": "Euro"
         }
     }
 }

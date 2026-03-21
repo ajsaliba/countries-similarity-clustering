@@ -2,39 +2,45 @@
 <country>
   <country>Bhutan</country>
   <infobox>
+    <Area>
+      <Total__km2_>38394.0</Total__km2_>
+      <Water____>1.1</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Ngultrum Indian rupee</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>19255.0</Per_capita____>
+        <Total____>15415000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>4710.0</Per_capita____>
+        <Total____>3771000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>28.5</Gini>
+      <HDI>0.698</HDI>
+    </Economy>
     <General>
-      <Official_languages>Dzongkha</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Dzongkha</item>
+      </Primary_Language>
       <Religion>
+        <Bon____>1.9</Bon____>
         <Buddhism____>74.7</Buddhism____>
         <Hinduism____>22.6</Hinduism____>
-        <Bon____>1.9</Bon____>
         <others____>0.8</others____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary semi-constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>38394</Total__km2_>
-      <Water____>1.1</Water____>
-    </Area>
     <Population>
-      <Estimate>777486</Estimate>
-      <Census>727145</Census>
+      <Count>777486.0</Count>
       <Density___km2_>20.5</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>14110000000</Total____>
-        <Per_capita____>17774</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>3420000000</Total____>
-        <Per_capita____>4300</Per_capita____>
-      </GDP__nominal_>
-      <Gini>28.5</Gini>
-      <HDI>0.698</HDI>
-      <Currency>Ngultrum Indian rupee</Currency>
-    </Economy>
   </infobox>
 </country>

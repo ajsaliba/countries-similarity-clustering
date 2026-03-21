@@ -1,46 +1,53 @@
 {
     "country": "Equatorial Guinea",
     "infobox": {
+        "Area": {
+            "Total (km2)": 28050.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Central African CFA franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 20017.0,
+                "Total ($)": 33001000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 7750.0,
+                "Total ($)": 12680000000.0
+            },
+            "Gini": -1.0,
+            "HDI": 0.674
+        },
         "General": {
-            "Official languages": "Spanish French Portuguese",
             "Ethnic groups": {
-                "Fang (%)": 85.7,
-                "Bubi (%)": 6.5,
-                "Ndowe (%)": 3.6,
                 "Annobon (%)": 1.6,
+                "Bubi (%)": 6.5,
                 "Bujeba (%)": 1.1,
+                "Fang (%)": 85.7,
+                "Ndowe (%)": 3.6,
                 "others (%)": 1.1
             },
+            "Primary Language": [
+                "French",
+                "Portuguese",
+                "Spanish"
+            ],
             "Religion": {
                 "Christianity (%)": 88.7,
-                "no religion (%)": 5,
                 "Islam (%)": 4,
-                "traditional faiths (%)": 1.7,
-                "others (%)": 0.6
+                "no religion (%)": 5,
+                "others (%)": 0.6,
+                "traditional faiths (%)": 1.7
             }
         },
         "Government": {
             "Government": "Unitary presidential republic under an authoritarian hereditary dictatorship"
         },
-        "Area": {
-            "Total (km2)": 28050,
-            "Water (%)": "negligible"
-        },
         "Population": {
-            "Estimate": 1795834,
-            "Density (/km2)": 67
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 33001000000,
-                "Per capita ($)": 20017
-            },
-            "GDP (nominal)": {
-                "Total ($)": 12680000000,
-                "Per capita ($)": 7750
-            },
-            "HDI": 0.674,
-            "Currency": "Central African CFA franc"
+            "Count": 1795834.0,
+            "Density (/km2)": 67.0
         }
     }
 }

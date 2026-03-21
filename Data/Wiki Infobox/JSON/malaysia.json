@@ -1,51 +1,55 @@
 {
     "country": "Malaysia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 330803.0,
+            "Water (%)": 0.3
+        },
+        "Economy": {
+            "Currency": [
+                "Malaysian ringgit"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 43665.0,
+                "Total ($)": 1478000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 13901.0,
+                "Total ($)": 470572000000000.0
+            },
+            "Gini": 39.0,
+            "HDI": 0.819
+        },
         "General": {
             "Ethnic groups": {
                 "Bumiputera (%)": 70.5,
-                "Malay (%)": 57.3,
-                "indigenous groups of Sabah , Sarawak , Orang Asli and other (%)": 13.2,
                 "Chinese (%)": 22.9,
-                "Indian (%)": 6.6
+                "Indian (%)": 6.6,
+                "Malay (%)": 57.3,
+                "indigenous groups of Sabah , Sarawak , Orang Asli and other (%)": 13.2
             },
+            "Primary Language": [
+                "Malay"
+            ],
             "Religion": {
-                "Islam ( official ) (%)": 63.5,
                 "Buddhism (%)": 18.7,
                 "Christianity": {
-                    "percentage": 9.1,
                     "breakdown": {
                         "Hinduism (%)": 6.1,
                         "other (%)": 0.9,
                         "unknown (%)": 1.8
-                    }
-                }
+                    },
+                    "percentage": 9.1
+                },
+                "Islam ( official ) (%)": 63.5
             }
         },
         "Government": {
             "Government": "Federal parliamentary constitutional elective monarchy"
         },
-        "Area": {
-            "Total (km2)": 330803,
-            "Water (%)": 0.3
-        },
         "Population": {
-            "Estimate": 34564810,
-            "Census": 32447385,
-            "Density (/km2)": 101
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 1478000000000,
-                "Per capita ($)": 43665
-            },
-            "GDP (nominal)": {
-                "Total ($)": 470572000000000,
-                "Per capita ($)": 13901
-            },
-            "Gini": 39.0,
-            "HDI": 0.819,
-            "Currency": "Malaysian ringgit"
+            "Count": 34564810.0,
+            "Density (/km2)": 101.0
         }
     }
 }

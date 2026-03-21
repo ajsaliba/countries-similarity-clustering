@@ -1,24 +1,46 @@
 {
     "country": "Botswana",
     "infobox": {
+        "Area": {
+            "Total (km2)": 581730.0,
+            "Water (%)": 2.7
+        },
+        "Economy": {
+            "Currency": [
+                "Pula"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 19540.0,
+                "Total ($)": 54820000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 7380.0,
+                "Total ($)": 20710000000.0
+            },
+            "Gini": 45.5,
+            "HDI": 0.731
+        },
         "General": {
-            "Official languages": "English",
             "Ethnic groups": {
-                "Tswana (%)": 79,
                 "Kalanga (%)": 11,
                 "San (%)": 3,
+                "Tswana (%)": 79,
                 "others (%)": 7
             },
+            "Primary Language": [
+                "English",
+                "Tswana"
+            ],
             "Religion": {
+                "Badimo (%)": 4.1,
                 "Christianity": {
-                    "percentage": 79.1,
                     "breakdown": {
                         "Protestantism (%)": 70.2,
                         "other Christian (%)": 8.9
-                    }
+                    },
+                    "percentage": 79.1
                 },
                 "no religion (%)": 15.2,
-                "Badimo (%)": 4.1,
                 "others (%)": 1.4,
                 "unspecified (%)": 0.3
             }
@@ -26,26 +48,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic with an executive presidency"
         },
-        "Area": {
-            "Total (km2)": 581730,
-            "Water (%)": 2.7
-        },
         "Population": {
-            "Census": 2359609,
+            "Count": 2359609.0,
             "Density (/km2)": 4.1
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 54820000000,
-                "Per capita ($)": 19540
-            },
-            "GDP (nominal)": {
-                "Total ($)": 20710000000,
-                "Per capita ($)": 7380
-            },
-            "Gini": 45.5,
-            "HDI": 0.731,
-            "Currency": "Pula"
         }
     }
 }

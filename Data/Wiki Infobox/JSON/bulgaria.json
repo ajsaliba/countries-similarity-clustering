@@ -1,56 +1,59 @@
 {
     "country": "Bulgaria",
     "infobox": {
+        "Area": {
+            "Total (km2)": 110993.6,
+            "Water (%)": 2.16
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 41901.0,
+                "Total ($)": 264699000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 18522.0,
+                "Total ($)": 117007000000.0
+            },
+            "Gini": 37.2,
+            "HDI": 0.845
+        },
         "General": {
-            "Official languages": "Bulgarian",
             "Ethnic groups": {
                 "Bulgarians (%)": 85.7,
-                "Turks (%)": 8.5,
                 "Roma (%)": 4.5,
+                "Turks (%)": 8.5,
                 "others (%)": 1.3
             },
+            "Primary Language": [
+                "Bulgarian"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 64.7,
                     "breakdown": {
                         "Bulgarian Orthodoxy (%)": 62.7,
                         "other Christian (%)": 2
-                    }
+                    },
+                    "percentage": 64.7
                 },
-                "no religion (%)": 15.9,
                 "Islam": {
-                    "percentage": 9.8,
                     "breakdown": {
                         "other (%)": 0.1,
                         "unanswered (%)": 9.5
-                    }
-                }
+                    },
+                    "percentage": 9.8
+                },
+                "no religion (%)": 15.9
             }
         },
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 110993.6,
-            "Water (%)": 2.16
-        },
         "Population": {
-            "Estimate": 6437360,
-            "Census": 6519789,
-            "Density (/km2)": 58
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 264699000000,
-                "Per capita ($)": 41901
-            },
-            "GDP (nominal)": {
-                "Total ($)": 117007000000,
-                "Per capita ($)": 18522
-            },
-            "Gini": 37.2,
-            "HDI": 0.845,
-            "Currency": "Euro"
+            "Count": 6437360.0,
+            "Density (/km2)": 58.0
         }
     }
 }

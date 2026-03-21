@@ -2,25 +2,47 @@
 <country>
   <country>Afghanistan</country>
   <infobox>
+    <Area>
+      <Total__km2_>652864.0</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Afghani</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>2174.0</Per_capita____>
+        <Total____>91668000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>411.0</Per_capita____>
+        <Total____>17329000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>-1.0</Gini>
+      <HDI>0.496</HDI>
+    </Economy>
     <General>
-      <Official_languages>Pashto Dari</Official_languages>
       <Ethnic_groups>
+        <Aimaq____>4</Aimaq____>
+        <Baloch____>2</Baloch____>
+        <Hazara____>9</Hazara____>
         <Pashtun____>42</Pashtun____>
         <Tajik____>27</Tajik____>
-        <Hazara____>9</Hazara____>
-        <Uzbek____>9</Uzbek____>
-        <Aimaq____>4</Aimaq____>
         <Turkmen____>3</Turkmen____>
-        <Baloch____>2</Baloch____>
+        <Uzbek____>9</Uzbek____>
         <other____>4</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Dari</item>
+        <item>Pashto</item>
+      </Primary_Language>
       <Religion>
         <Islam>
-          <percentage>99.9</percentage>
           <breakdown>
-            <Sunni___official______>89.1</Sunni___official______>
             <Shia____>10.8</Shia____>
+            <Sunni___official______>89.1</Sunni___official______>
           </breakdown>
+          <percentage>99.9</percentage>
         </Islam>
         <other____>0.1</other____>
       </Religion>
@@ -28,25 +50,9 @@
     <Government>
       <Government>Unitary totalitarian theocratic Islamic emirate</Government>
     </Government>
-    <Area>
-      <Total__km2_>652864</Total__km2_>
-      <Water____>negligible</Water____>
-    </Area>
     <Population>
-      <Estimate>35–50 million</Estimate>
-      <Density___km2_>64</Density___km2_>
+      <Count>42500000.0</Count>
+      <Density___km2_>64.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>91668000000</Total____>
-        <Per_capita____>2174</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>17329000000</Total____>
-        <Per_capita____>411</Per_capita____>
-      </GDP__nominal_>
-      <HDI>0.496</HDI>
-      <Currency>Afghani</Currency>
-    </Economy>
   </infobox>
 </country>

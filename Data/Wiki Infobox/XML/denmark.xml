@@ -2,33 +2,45 @@
 <country>
   <country>Denmark</country>
   <infobox>
+    <Area>
+      <Total__km2_>2210408.0</Total__km2_>
+      <Water____>-1.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Danish krone</item>
+        <item>Faroese króna</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>62814.0</Per_capita____>
+        <Total____>380000000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>69205.0</Per_capita____>
+        <Total____>418659000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>-1.0</Gini>
+      <HDI>0.948</HDI>
+    </Economy>
     <General>
-      <Official_languages>Danish ; locally: Faroese Greenlandic</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Danish</item>
+        <item>Faroese</item>
+        <item>Greenlandic</item>
+      </Primary_Language>
+      <Religion>
+        <Unknown>100</Unknown>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Denmark__km2_>42926</Denmark__km2_>
-      <Faroe_Islands__km2_>1396</Faroe_Islands__km2_>
-      <Greenland__km2_>2166086</Greenland__km2_>
-    </Area>
     <Population>
-      <Estimate>6049579</Estimate>
-      <Denmark>5941388</Denmark>
-      <Greenland_and_Faroe_Islands>108191</Greenland_and_Faroe_Islands>
+      <Count>6049579.0</Count>
+      <Density___km2_>139.3</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total>€380 billion</Total>
-        <Per_capita>€62,814</Per_capita>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>418659000000</Total____>
-        <Per_capita____>69205</Per_capita____>
-      </GDP__nominal_>
-      <HDI>0.948</HDI>
-      <Currency>Danish krone Faroese króna</Currency>
-    </Economy>
   </infobox>
 </country>

@@ -1,48 +1,62 @@
 {
     "country": "South Africa",
     "infobox": {
+        "Area": {
+            "Total (km2)": 1221037.0,
+            "Water (%)": 0.38
+        },
+        "Economy": {
+            "Currency": [
+                "South African rand"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 16280.0,
+                "Total ($)": 1060000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 6830.0,
+                "Total ($)": 443640000000.0
+            },
+            "Gini": 63.0,
+            "HDI": 0.741
+        },
         "General": {
-            "Official languages": "12 languages Afrikaans English Ndebele Sepedi Sesotho Setswana South African Sign Language Swazi Tshivenda Xhosa Xitsonga Zulu Languages with special status Khoe languages Nama Khoisan languages German Greek Gujarati Hindi Portuguese Telugu Tamil Urdu Arabic Hebrew Sanskrit",
             "Ethnic groups": {
                 "Black (%)": 81.4,
                 "Coloured (%)": 8.2,
-                "White (%)": 7.3,
                 "Indian or Asian (%)": 2.7,
+                "White (%)": 7.3,
                 "other (%)": 0.4
             },
+            "Primary Language": [
+                "Afrikaans",
+                "English",
+                "Ndebele",
+                "Sepedi",
+                "Sesotho",
+                "Setswana",
+                "South African Sign Language",
+                "Swazi",
+                "Tshivenda",
+                "Xhosa",
+                "Xitsonga",
+                "Zulu"
+            ],
             "Religion": {
                 "Christianity (%)": 85.3,
-                "Traditional faiths (%)": 7.8,
-                "No religion (%)": 3.1,
-                "Islam (%)": 1.6,
                 "Hinduism (%)": 1.1,
+                "Islam (%)": 1.6,
+                "No religion (%)": 3.1,
+                "Traditional faiths (%)": 7.8,
                 "other (%)": 1.1
             }
         },
         "Government": {
             "Government": "Unitary parliamentary republic with an executive presidency"
         },
-        "Area": {
-            "Total (km2)": 1221037,
-            "Water (%)": 0.38
-        },
         "Population": {
-            "Estimate": 63015904,
-            "Census": 62027503,
+            "Count": 63015904.0,
             "Density (/km2)": 50.8
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 1060000000000,
-                "Per capita ($)": 16280
-            },
-            "GDP (nominal)": {
-                "Total ($)": 443640000000,
-                "Per capita ($)": 6830
-            },
-            "Gini": 63.0,
-            "HDI": 0.741,
-            "Currency": "South African rand"
         }
     }
 }

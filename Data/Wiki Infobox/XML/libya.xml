@@ -2,40 +2,46 @@
 <country>
   <country>Libya</country>
   <infobox>
+    <Area>
+      <Total__km2_>1759541.0</Total__km2_>
+      <Water____>-1.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Libyan dinar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>17760.0</Per_capita____>
+        <Total____>123990000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>6800.0</Per_capita____>
+        <Total____>47480000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>-1.0</Gini>
+      <HDI>0.721</HDI>
+    </Economy>
     <General>
-      <Official_languages>Arabic</Official_languages>
       <Ethnic_groups>
         <Arabs____>92</Arabs____>
         <Berbers____>5</Berbers____>
         <others____>3</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Arabic</item>
+      </Primary_Language>
       <Religion>
-        <Islam___official______>96.6</Islam___official______>
         <Christianity____>2.7</Christianity____>
+        <Islam___official______>96.6</Islam___official______>
         <others____>0.7</others____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary republic under a provisional government</Government>
     </Government>
-    <Area>
-      <Total__km2_>1759541</Total__km2_>
-    </Area>
     <Population>
-      <Estimate>7361263</Estimate>
+      <Count>7361263.0</Count>
       <Density___km2_>4.2</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>123990000000</Total____>
-        <Per_capita____>17760</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>47480000000</Total____>
-        <Per_capita____>6800</Per_capita____>
-      </GDP__nominal_>
-      <HDI>0.721</HDI>
-      <Currency>Libyan dinar</Currency>
-    </Economy>
   </infobox>
 </country>

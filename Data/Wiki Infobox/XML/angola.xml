@@ -2,24 +2,51 @@
 <country>
   <country>Angola</country>
   <infobox>
+    <Area>
+      <Total__km2_>1246700.0</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Angolan kwanza</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>10230.0</Per_capita____>
+        <Total____>402160000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>2880.0</Per_capita____>
+        <Total____>113340000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>51.3</Gini>
+      <HDI>0.616</HDI>
+    </Economy>
     <General>
-      <Official_languages>Portuguese</Official_languages>
       <Ethnic_groups>
-        <Ovimbundu____>37</Ovimbundu____>
         <Ambundu____>25</Ambundu____>
-        <Bakongo____>13</Bakongo____>
-        <other_African____>21</other_African____>
-        <Mesti_o__mixed_European_and_African_____>2</Mesti_o__mixed_European_and_African_____>
         <Asian____>2</Asian____>
+        <Bakongo____>13</Bakongo____>
         <European____>1</European____>
+        <Mesti_o__mixed_European_and_African_____>2</Mesti_o__mixed_European_and_African_____>
+        <Ovimbundu____>37</Ovimbundu____>
+        <other_African____>21</other_African____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Chokwe</item>
+        <item>Kikongo</item>
+        <item>Kimbundu</item>
+        <item>Luchazi</item>
+        <item>Oshiwambo</item>
+        <item>Portuguese</item>
+        <item>Umbundu</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>79.1</percentage>
           <breakdown>
             <Catholic____>44.2</Catholic____>
             <Protestant____>34.9</Protestant____>
           </breakdown>
+          <percentage>79.1</percentage>
         </Christianity>
         <no_religion____>11.5</no_religion____>
         <other____>9.4</other____>
@@ -28,26 +55,9 @@
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>1246700</Total__km2_>
-      <Water____>negligible</Water____>
-    </Area>
     <Population>
-      <Census>36604681</Census>
+      <Count>36604681.0</Count>
       <Density___km2_>29.4</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>402160000000</Total____>
-        <Per_capita____>10230</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>113340000000</Total____>
-        <Per_capita____>2880</Per_capita____>
-      </GDP__nominal_>
-      <Gini>51.3</Gini>
-      <HDI>0.616</HDI>
-      <Currency>Angolan kwanza</Currency>
-    </Economy>
   </infobox>
 </country>

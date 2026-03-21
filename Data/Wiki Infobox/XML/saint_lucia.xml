@@ -2,46 +2,49 @@
 <country>
   <country>Saint Lucia</country>
   <infobox>
+    <Area>
+      <Total__km2_>617.0</Total__km2_>
+      <Water____>1.6</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>East Caribbean dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>29258.0</Per_capita____>
+        <Total____>3769000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>14647.0</Per_capita____>
+        <Total____>2715000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>51.2</Gini>
+      <HDI>0.748</HDI>
+    </Economy>
     <General>
-      <Official_languages>English</Official_languages>
       <Ethnic_groups>
         <African____>85.3</African____>
-        <Mixed____>10.9</Mixed____>
         <Indian____>2.2</Indian____>
+        <Mixed____>10.9</Mixed____>
         <other__unspecified____>1.6</other__unspecified____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>77.4</Christianity____>
-        <no_religion____>14.4</no_religion____>
         <Rastafari____>1.4</Rastafari____>
-        <other____>2.7</other____>
+        <no_religion____>14.4</no_religion____>
         <not_stated____>4.1</not_stated____>
+        <other____>2.7</other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>617</Total__km2_>
-      <Water____>1.6</Water____>
-    </Area>
     <Population>
-      <Estimate>184100</Estimate>
-      <Census>165595</Census>
-      <Density___km2_>298</Density___km2_>
+      <Count>184100.0</Count>
+      <Density___km2_>298.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>3769000000</Total____>
-        <Per_capita____>29258</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>2715000000</Total____>
-        <Per_capita____>14647</Per_capita____>
-      </GDP__nominal_>
-      <Gini>51.2</Gini>
-      <HDI>0.748</HDI>
-      <Currency>East Caribbean dollar</Currency>
-    </Economy>
   </infobox>
 </country>

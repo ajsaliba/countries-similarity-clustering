@@ -2,39 +2,47 @@
 <country>
   <country>Chad</country>
   <infobox>
+    <Area>
+      <Total__km2_>1280000.0</Total__km2_>
+      <Water____>1.9</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Central African CFA franc</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>3240.0</Per_capita____>
+        <Total____>63070000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>1210.0</Per_capita____>
+        <Total____>23560000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>37.4</Gini>
+      <HDI>0.416</HDI>
+    </Economy>
     <General>
-      <Official_languages>Arabic French</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Arabic</item>
+        <item>French</item>
+      </Primary_Language>
       <Religion>
-        <Islam____>55.1</Islam____>
-        <Christianity____>41.1</Christianity____>
-        <no_religion____>2.4</no_religion____>
         <Animism____>1.3</Animism____>
+        <Christianity____>41.1</Christianity____>
+        <Islam____>55.1</Islam____>
+        <no_religion____>2.4</no_religion____>
         <others____>0.1</others____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under a hereditary dictatorship</Government>
     </Government>
-    <Area>
-      <Total__km2_>1280000</Total__km2_>
-      <Water____>1.9</Water____>
-    </Area>
     <Population>
-      <Estimate>19093595</Estimate>
+      <Count>19093595.0</Count>
       <Density___km2_>14.4</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>63070000000</Total____>
-        <Per_capita____>3240</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>23560000000</Total____>
-        <Per_capita____>1210</Per_capita____>
-      </GDP__nominal_>
-      <Gini>37.4</Gini>
-      <HDI>0.416</HDI>
-      <Currency>Central African CFA franc</Currency>
-    </Economy>
   </infobox>
 </country>

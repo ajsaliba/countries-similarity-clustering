@@ -1,57 +1,61 @@
 {
     "country": "Madagascar",
     "infobox": {
+        "Area": {
+            "Total (km2)": 592796.0,
+            "Water (%)": 0.9
+        },
+        "Economy": {
+            "Currency": [
+                "Ariary"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 2110.0,
+                "Total ($)": 68110000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 652.0,
+                "Total ($)": 21090000000.0
+            },
+            "Gini": 42.6,
+            "HDI": 0.487
+        },
         "General": {
-            "Official languages": "Malagasy French",
             "Ethnic groups": {
-                "Merina (%)": 26,
-                "Betsimisaraka (%)": 15,
-                "Betsileo (%)": 12,
-                "Tsimihety (%)": 7,
-                "Sakalava (%)": 6,
                 "Antaisaka (%)": 5,
                 "Antandroy (%)": 5,
+                "Betsileo (%)": 12,
+                "Betsimisaraka (%)": 15,
+                "Merina (%)": 26,
+                "Sakalava (%)": 6,
+                "Tsimihety (%)": 7,
                 "others (%)": 24
             },
+            "Primary Language": [
+                "French",
+                "Malagasy"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 84.7,
                     "breakdown": {
-                        "Protestantism (%)": 45.8,
                         "Catholicism (%)": 38.1,
+                        "Protestantism (%)": 45.8,
                         "other Christian (%)": 0.8
-                    }
+                    },
+                    "percentage": 84.7
                 },
-                "no religion (%)": 7.3,
-                "traditional faiths (%)": 4.7,
                 "Islam (%)": 3.1,
-                "others (%)": 0.3
+                "no religion (%)": 7.3,
+                "others (%)": 0.3,
+                "traditional faiths (%)": 4.7
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic under a transitional government"
         },
-        "Area": {
-            "Total (km2)": 592796,
-            "Water (km2)": 5501,
-            "Water (%)": 0.9
-        },
         "Population": {
-            "Estimate": 31964956,
-            "Density (/km2)": 55
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 68110000000,
-                "Per capita ($)": 2110
-            },
-            "GDP (nominal)": {
-                "Total ($)": 21090000000,
-                "Per capita ($)": 652
-            },
-            "Gini": 42.6,
-            "HDI": 0.487,
-            "Currency": "Ariary"
+            "Count": 31964956.0,
+            "Density (/km2)": 55.0
         }
     }
 }

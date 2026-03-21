@@ -2,42 +2,63 @@
 <country>
   <country>Zambia</country>
   <infobox>
+    <Area>
+      <Total__km2_>752617.0</Total__km2_>
+      <Water____>1.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Zambian kwacha</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>4068.0</Per_capita____>
+        <Total____>83687000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>1435.0</Per_capita____>
+        <Total____>29536000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>51.5</Gini>
+      <HDI>0.595</HDI>
+    </Economy>
     <General>
-      <Official_languages>English</Official_languages>
       <Ethnic_groups>
         <Bemba____>19</Bemba____>
-        <Tonga____>13.6</Tonga____>
-        <Tumbuka____>7.5</Tumbuka____>
-        <Chewa____>6</Chewa____>
-        <Lozi____>5.7</Lozi____>
-        <Nsenga____>5.3</Nsenga____>
-        <Ngoni____>3</Ngoni____>
-        <Lala____>3.1</Lala____>
-        <Kaonde____>3.9</Kaonde____>
-        <Namwanga____>2.8</Namwanga____>
-        <Lunda__Northern_____>2.6</Lunda__Northern_____>
-        <Mambwe____>2.5</Mambwe____>
-        <Luvale____>2.2</Luvale____>
-        <Lamba____>2.4</Lamba____>
-        <Ushi____>1.9</Ushi____>
         <Bisa____>1.6</Bisa____>
-        <Lenje____>1.6</Lenje____>
-        <Mbunda____>1.2</Mbunda____>
-        <Lunda__Luapula_____>0.9</Lunda__Luapula_____>
-        <Senga____>0.9</Senga____>
-        <Ila____>0.8</Ila____>
-        <Lungu____>0.8</Lungu____>
-        <Tabwa____>0.7</Tabwa____>
-        <Soli____>0.7</Soli____>
-        <Kunda____>0.7</Kunda____>
-        <Ngumbo____>0.6</Ngumbo____>
+        <Chewa____>6</Chewa____>
         <Chishinga____>0.5</Chishinga____>
         <Chokwe____>0.5</Chokwe____>
+        <Ila____>0.8</Ila____>
+        <Kaonde____>3.9</Kaonde____>
+        <Kunda____>0.7</Kunda____>
+        <Lala____>3.1</Lala____>
+        <Lamba____>2.4</Lamba____>
+        <Lenje____>1.6</Lenje____>
+        <Lozi____>5.7</Lozi____>
+        <Lunda__Luapula_____>0.9</Lunda__Luapula_____>
+        <Lunda__Northern_____>2.6</Lunda__Northern_____>
+        <Lungu____>0.8</Lungu____>
+        <Luvale____>2.2</Luvale____>
+        <Mambwe____>2.5</Mambwe____>
+        <Mbunda____>1.2</Mbunda____>
+        <Namwanga____>2.8</Namwanga____>
+        <Ngoni____>3</Ngoni____>
+        <Ngumbo____>0.6</Ngumbo____>
         <Nkoya____>0.5</Nkoya____>
-        <other_ethnics____>5.4</other_ethnics____>
+        <Nsenga____>5.3</Nsenga____>
+        <Senga____>0.9</Senga____>
+        <Soli____>0.7</Soli____>
+        <Tabwa____>0.7</Tabwa____>
+        <Tonga____>13.6</Tonga____>
+        <Tumbuka____>7.5</Tumbuka____>
+        <Ushi____>1.9</Ushi____>
         <major_racial____>0.8</major_racial____>
+        <other_ethnics____>5.4</other_ethnics____>
         <unclassified____>0.4</unclassified____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+      </Primary_Language>
       <Religion>
         <Christianity___official______>95.5</Christianity___official______>
         <Islam____>2.7</Islam____>
@@ -47,26 +68,9 @@
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>752617</Total__km2_>
-      <Water____>1</Water____>
-    </Area>
     <Population>
-      <Estimate>20216029</Estimate>
+      <Count>20216029.0</Count>
       <Density___km2_>17.2</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>83687000000</Total____>
-        <Per_capita____>4068</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>29536000000</Total____>
-        <Per_capita____>1435</Per_capita____>
-      </GDP__nominal_>
-      <Gini>51.5</Gini>
-      <HDI>0.595</HDI>
-      <Currency>Zambian kwacha</Currency>
-    </Economy>
   </infobox>
 </country>

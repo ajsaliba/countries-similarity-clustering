@@ -1,22 +1,43 @@
 {
     "country": "Georgia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 69700.0,
+            "Water (%)": -1.0
+        },
+        "Economy": {
+            "Currency": [
+                "Georgian lari"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 33340.0,
+                "Total ($)": 123049000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 10886.0,
+                "Total ($)": 35350000000.0
+            },
+            "Gini": 34.2,
+            "HDI": 0.844
+        },
         "General": {
-            "Official languages": "Georgian",
             "Ethnic groups": {
-                "Georgians (%)": 86.8,
-                "Azerbaijanis (%)": 6.2,
                 "Armenians (%)": 4.5,
+                "Azerbaijanis (%)": 6.2,
+                "Georgians (%)": 86.8,
                 "Russians (%)": 0.7,
                 "other (%)": 2.1
             },
+            "Primary Language": [
+                "Georgian"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 87.3,
                     "breakdown": {
                         "Georgian Orthodoxy (%)": 83.4,
                         "other Christian (%)": 3.9
-                    }
+                    },
+                    "percentage": 87.3
                 },
                 "Islam (%)": 10.7,
                 "other / none (%)": 2
@@ -25,25 +46,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 69700
-        },
         "Population": {
-            "Census": 3657000,
+            "Count": 3657000.0,
             "Density (/km2)": 56.3
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 123049000000000,
-                "Per capita ($)": 33340
-            },
-            "GDP (nominal)": {
-                "Total ($)": 35350000000,
-                "Per capita ($)": 10886
-            },
-            "Gini": 34.2,
-            "HDI": 0.844,
-            "Currency": "Georgian lari"
         }
     }
 }

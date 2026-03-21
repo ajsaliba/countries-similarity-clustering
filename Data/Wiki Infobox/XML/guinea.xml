@@ -2,20 +2,41 @@
 <country>
   <country>Guinea</country>
   <infobox>
+    <Area>
+      <Total__km2_>245857.0</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Guinean franc</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>4075.0</Per_capita____>
+        <Total____>75050000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>1670.0</Per_capita____>
+        <Total____>30090000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>33.7</Gini>
+      <HDI>0.5</HDI>
+    </Economy>
     <General>
-      <Official_languages>French</Official_languages>
       <Ethnic_groups>
         <Fula____>33.4</Fula____>
+        <Kissi____>6.2</Kissi____>
+        <Kpelle____>7.8</Kpelle____>
+        <Loma____>1.6</Loma____>
         <Mandinka____>29.4</Mandinka____>
         <Susu____>21.2</Susu____>
-        <Kpelle____>7.8</Kpelle____>
-        <Kissi____>6.2</Kissi____>
-        <Loma____>1.6</Loma____>
         <others____>0.4</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>French</item>
+      </Primary_Language>
       <Religion>
-        <Islam____>85.2</Islam____>
         <Christianity____>13.4</Christianity____>
+        <Islam____>85.2</Islam____>
         <animism____>0.2</animism____>
         <none____>1.2</none____>
       </Religion>
@@ -23,26 +44,9 @@
     <Government>
       <Government>Unitary presidential republic under a dictatorship</Government>
     </Government>
-    <Area>
-      <Total__km2_>245857</Total__km2_>
-      <Water____>negligible</Water____>
-    </Area>
     <Population>
-      <Estimate>13986179</Estimate>
+      <Count>13986179.0</Count>
       <Density___km2_>40.9</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>75050000000</Total____>
-        <Per_capita____>4075</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>30090000000</Total____>
-        <Per_capita____>1670</Per_capita____>
-      </GDP__nominal_>
-      <Gini>33.7</Gini>
-      <HDI>0.5</HDI>
-      <Currency>Guinean franc</Currency>
-    </Economy>
   </infobox>
 </country>

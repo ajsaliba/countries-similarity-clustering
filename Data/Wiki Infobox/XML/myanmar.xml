@@ -2,34 +2,55 @@
 <country>
   <country>Myanmar</country>
   <infobox>
+    <Area>
+      <Total__km2_>676579.0</Total__km2_>
+      <Water____>3.06</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Myanmar kyat</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>4950.0</Per_capita____>
+        <Total____>273200000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>1110.0</Per_capita____>
+        <Total____>60560000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>30.7</Gini>
+      <HDI>0.609</HDI>
+    </Economy>
     <General>
-      <Official_language>Burmese</Official_language>
       <Ethnic_groups>
         <Bamar____>68.78</Bamar____>
-        <Karen____>6.69</Karen____>
-        <Rakhine____>4.61</Rakhine____>
-        <Shan____>4.51</Shan____>
-        <Mon____>2.19</Mon____>
         <Chin____>2.09</Chin____>
         <Kachin____>1.5</Kachin____>
+        <Karen____>6.69</Karen____>
         <Karenni____>0.39</Karenni____>
+        <Mon____>2.19</Mon____>
+        <Rakhine____>4.61</Rakhine____>
+        <Shan____>4.51</Shan____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Burmese</item>
+      </Primary_Language>
       <Religion>
         <Buddhism___official______>87.9</Buddhism___official______>
         <Christianity>
-          <percentage>6.2</percentage>
           <breakdown>
-            <Protestantism____>4.91</Protestantism____>
             <Catholicism____>1.29</Catholicism____>
+            <Protestantism____>4.91</Protestantism____>
           </breakdown>
+          <percentage>6.2</percentage>
         </Christianity>
         <Islam____>4.3</Islam____>
         <folk_religion>
-          <percentage>0.8</percentage>
           <breakdown>
             <Hinduism____>0.5</Hinduism____>
             <no_religion____>0.1</no_religion____>
           </breakdown>
+          <percentage>0.8</percentage>
         </folk_religion>
         <other____>0.2</other____>
       </Religion>
@@ -37,26 +58,9 @@
     <Government>
       <Government>Unitary assembly-independent republic under a military junta</Government>
     </Government>
-    <Area>
-      <Total__km2_>676579</Total__km2_>
-      <Water____>3.06</Water____>
-    </Area>
     <Population>
-      <Estimate>55770232</Estimate>
-      <Density>217/sq mi</Density>
+      <Count>55770232.0</Count>
+      <Density___km2_>83.8</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>273200000000</Total____>
-        <Per_capita____>4950</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>60560000000</Total____>
-        <Per_capita____>1110</Per_capita____>
-      </GDP__nominal_>
-      <Gini>30.7</Gini>
-      <HDI>0.609</HDI>
-      <Currency>Myanmar kyat</Currency>
-    </Economy>
   </infobox>
 </country>

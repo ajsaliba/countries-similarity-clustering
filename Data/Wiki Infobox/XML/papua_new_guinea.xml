@@ -2,45 +2,54 @@
 <country>
   <country>Papua New Guinea</country>
   <infobox>
+    <Area>
+      <Total__km2_>462840.0</Total__km2_>
+      <Water____>2.2</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Kina</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>3760.0</Per_capita____>
+        <Total____>41810000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>2560.0</Per_capita____>
+        <Total____>32840000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>41.9</Gini>
+      <HDI>0.576</HDI>
+    </Economy>
     <General>
-      <Official_languages>English Hiri Motu PNG Sign Language Tok Pisin</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Hiri Motu</item>
+        <item>PNG Sign Language</item>
+        <item>Tok Pisin</item>
+      </Primary_Language>
       <Religion>
         <Christianity___official__>
-          <percentage>95.5</percentage>
           <breakdown>
-            <Protestantism____>64.3</Protestantism____>
             <Catholicism____>26</Catholicism____>
+            <Protestantism____>64.3</Protestantism____>
             <other_Christian____>5.2</other_Christian____>
           </breakdown>
+          <percentage>95.5</percentage>
         </Christianity___official__>
-        <unspecified____>3.1</unspecified____>
         <others_or_none____>1.4</others_or_none____>
+        <unspecified____>3.1</unspecified____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>462840</Total__km2_>
-      <Water____>2.2</Water____>
-    </Area>
     <Population>
-      <Estimate>11781559</Estimate>
-      <Census>10185363</Census>
+      <Count>11781559.0</Count>
       <Density___km2_>25.5</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>41810000000</Total____>
-        <Per_capita____>3760</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>32840000000</Total____>
-        <Per_capita____>2560</Per_capita____>
-      </GDP__nominal_>
-      <Gini>41.9</Gini>
-      <HDI>0.576</HDI>
-      <Currency>Kina</Currency>
-    </Economy>
   </infobox>
 </country>

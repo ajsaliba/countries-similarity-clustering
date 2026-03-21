@@ -2,24 +2,45 @@
 <country>
   <country>Dominican Republic</country>
   <infobox>
+    <Area>
+      <Total__km2_>48671.0</Total__km2_>
+      <Water____>0.7</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Dominican peso</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>30710.0</Per_capita____>
+        <Total____>334292000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>12452.0</Per_capita____>
+        <Total____>135545000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>39.0</Gini>
+      <HDI>0.776</HDI>
+    </Economy>
     <General>
-      <Official_languages>Spanish</Official_languages>
       <Ethnic_groups>
-        <Mixed____>71.72</Mixed____>
-        <White____>18.7</White____>
         <Black____>7.45</Black____>
         <East_Asian____>0.33</East_Asian____>
-        <other____>0.37</other____>
+        <Mixed____>71.72</Mixed____>
+        <White____>18.7</White____>
         <no_answer____>1.43</no_answer____>
+        <other____>0.37</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Spanish</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>74.6</percentage>
           <breakdown>
             <Catholicism____>52.5</Catholicism____>
             <Protestantism____>21</Protestantism____>
             <other_Christian____>1.1</other_Christian____>
           </breakdown>
+          <percentage>74.6</percentage>
         </Christianity>
         <no_religion____>22</no_religion____>
         <other____>1.4</other____>
@@ -29,26 +50,9 @@
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>48671</Total__km2_>
-      <Water____>0.7</Water____>
-    </Area>
     <Population>
-      <Estimate>11532151</Estimate>
-      <Density___km2_>220</Density___km2_>
+      <Count>11532151.0</Count>
+      <Density___km2_>220.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>334292000000</Total____>
-        <Per_capita____>30710</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>135545000000</Total____>
-        <Per_capita____>12452</Per_capita____>
-      </GDP__nominal_>
-      <Gini>39</Gini>
-      <HDI>0.776</HDI>
-      <Currency>Dominican peso</Currency>
-    </Economy>
   </infobox>
 </country>

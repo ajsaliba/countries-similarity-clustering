@@ -2,22 +2,43 @@
 <country>
   <country>Nicaragua</country>
   <infobox>
+    <Area>
+      <Total__km2_>130375.0</Total__km2_>
+      <Water____>7.14</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Córdoba</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>8492.0</Per_capita____>
+        <Total____>56697000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>2673.0</Per_capita____>
+        <Total____>17843000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>46.2</Gini>
+      <HDI>0.706</HDI>
+    </Economy>
     <General>
-      <Official_languages>Spanish</Official_languages>
       <Ethnic_groups>
-        <Mestizo__mixed_White_and_Indigenous______>69</Mestizo__mixed_White_and_Indigenous______>
-        <White____>17</White____>
         <Black____>9</Black____>
         <Indigenous____>5</Indigenous____>
+        <Mestizo__mixed_White_and_Indigenous______>69</Mestizo__mixed_White_and_Indigenous______>
+        <White____>17</White____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Spanish</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>84.4</percentage>
           <breakdown>
             <Catholicism____>55</Catholicism____>
             <Protestantism____>27.2</Protestantism____>
             <other_Christian____>2.2</other_Christian____>
           </breakdown>
+          <percentage>84.4</percentage>
         </Christianity>
         <no_religion____>14.7</no_religion____>
         <other____>0.9</other____>
@@ -26,26 +47,9 @@
     <Government>
       <Government>Unitary diarchic presidential socialist republic under an authoritarian dictatorship</Government>
     </Government>
-    <Area>
-      <Total__km2_>130375</Total__km2_>
-      <Water____>7.14</Water____>
-    </Area>
     <Population>
-      <Estimate>6676948</Estimate>
-      <Density___km2_>51</Density___km2_>
+      <Count>6676948.0</Count>
+      <Density___km2_>51.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>56697000000</Total____>
-        <Per_capita____>8492</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>17843000000</Total____>
-        <Per_capita____>2673</Per_capita____>
-      </GDP__nominal_>
-      <Gini>46.2</Gini>
-      <HDI>0.706</HDI>
-      <Currency>Córdoba</Currency>
-    </Economy>
   </infobox>
 </country>

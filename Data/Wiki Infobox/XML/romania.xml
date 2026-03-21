@@ -2,53 +2,56 @@
 <country>
   <country>Romania</country>
   <infobox>
+    <Area>
+      <Total__km2_>238397.0</Total__km2_>
+      <Water____>3.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Romanian leu</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>50726.0</Per_capita____>
+        <Total____>949332000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>23767.0</Per_capita____>
+        <Total____>444807000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>27.3</Gini>
+      <HDI>0.845</HDI>
+    </Economy>
     <General>
-      <Official_languages>Romanian</Official_languages>
       <Ethnic_groups>
-        <Romanians____>89.3</Romanians____>
         <Hungarians____>6</Hungarians____>
         <Roma____>3.4</Roma____>
+        <Romanians____>89.3</Romanians____>
         <others____>1.2</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Romanian</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>84.7</percentage>
           <breakdown>
-            <Romanian_Orthodoxy____>73.6</Romanian_Orthodoxy____>
-            <Protestantism____>6.4</Protestantism____>
             <Catholicism____>4.4</Catholicism____>
+            <Protestantism____>6.4</Protestantism____>
+            <Romanian_Orthodoxy____>73.6</Romanian_Orthodoxy____>
           </breakdown>
+          <percentage>84.7</percentage>
         </Christianity>
-        <other_Christian____>0.2</other_Christian____>
         <no_religion____>0.8</no_religion____>
         <other____>0.4</other____>
+        <other_Christian____>0.2</other_Christian____>
         <unanswered____>13.9</unanswered____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>238397</Total__km2_>
-      <Water____>3</Water____>
-    </Area>
     <Population>
-      <Estimate>19043151</Estimate>
-      <Census>19053815</Census>
-      <Density___km2_>83</Density___km2_>
+      <Count>19043151.0</Count>
+      <Density___km2_>83.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>949332000000</Total____>
-        <Per_capita____>50726</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>444807000000</Total____>
-        <Per_capita____>23767</Per_capita____>
-      </GDP__nominal_>
-      <Gini>27.3</Gini>
-      <HDI>0.845</HDI>
-      <Currency>Romanian leu</Currency>
-    </Economy>
   </infobox>
 </country>

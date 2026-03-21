@@ -2,14 +2,39 @@
 <country>
   <country>Argentina</country>
   <infobox>
+    <Area>
+      <Total__km2_>2780085.0</Total__km2_>
+      <Water____>1.57</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Argentine peso</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>31379.0</Per_capita____>
+        <Total____>1493000000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>14362.0</Per_capita____>
+        <Total____>683533000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>40.7</Gini>
+      <HDI>0.865</HDI>
+    </Economy>
     <General>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Spanish</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>78.2</percentage>
           <breakdown>
             <Catholicism____>62.9</Catholicism____>
             <other_Christian____>15.3</other_Christian____>
           </breakdown>
+          <percentage>78.2</percentage>
         </Christianity>
         <no_religion____>20.5</no_religion____>
         <other____>1.3</other____>
@@ -18,27 +43,9 @@
     <Government>
       <Government>Federal presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>2780085</Total__km2_>
-      <Water____>1.57</Water____>
-    </Area>
     <Population>
-      <Estimate>46735004</Estimate>
-      <Census>46044703</Census>
+      <Count>46735004.0</Count>
       <Density___km2_>16.8</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>1493000000000</Total____>
-        <Per_capita____>31379</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>683533000000</Total____>
-        <Per_capita____>14362</Per_capita____>
-      </GDP__nominal_>
-      <Gini>40.7</Gini>
-      <HDI>0.865</HDI>
-      <Currency>Argentine peso</Currency>
-    </Economy>
   </infobox>
 </country>

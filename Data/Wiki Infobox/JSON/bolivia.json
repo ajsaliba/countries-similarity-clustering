@@ -1,15 +1,42 @@
 {
     "country": "Bolivia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 1098581.0,
+            "Water (%)": 1.29
+        },
+        "Economy": {
+            "Currency": [
+                "Boliviano"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 11574.0,
+                "Total ($)": 144098000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 4525.0,
+                "Total ($)": 56339000000.0
+            },
+            "Gini": 40.9,
+            "HDI": 0.733
+        },
         "General": {
-            "Official languages": "Spanish Quechua Aymara Guarani Other indigenous languages",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Aymara",
+                "Guarani",
+                "Quechua",
+                "Spanish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 92.8,
                     "breakdown": {
                         "Catholicism (%)": 81.4,
                         "other Christian (%)": 11.4
-                    }
+                    },
+                    "percentage": 92.8
                 },
                 "no religion (%)": 6.5,
                 "other (%)": 0.7
@@ -18,26 +45,9 @@
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 1098581,
-            "Water (%)": 1.29
-        },
         "Population": {
-            "Census": 11365333,
+            "Count": 11365333.0,
             "Density (/km2)": 10.4
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 144098000000,
-                "Per capita ($)": 11574
-            },
-            "GDP (nominal)": {
-                "Total ($)": 56339000000,
-                "Per capita ($)": 4525
-            },
-            "Gini": 40.9,
-            "HDI": 0.733,
-            "Currency": "Boliviano"
         }
     }
 }

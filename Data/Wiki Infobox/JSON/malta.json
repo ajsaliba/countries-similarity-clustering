@@ -1,26 +1,49 @@
 {
     "country": "Malta",
     "infobox": {
+        "Area": {
+            "Total (km2)": 316.0,
+            "Water (%)": 0.001
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 67682.0,
+                "Total ($)": 36870000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 41738.0,
+                "Total ($)": 22737000000.0
+            },
+            "Gini": 31.4,
+            "HDI": 0.924
+        },
         "General": {
-            "Official languages": "Maltese English Maltese Sign Language",
             "Ethnic groups": {
                 "Maltese (%)": 77.7,
                 "other ethnic groups (%)": 22.3
             },
+            "Primary Language": [
+                "English",
+                "Maltese",
+                "Maltese Sign Language"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 88.5,
                     "breakdown": {
                         "Catholicism ( official ) (%)": 82.6,
                         "other Christian (%)": 5.9
-                    }
+                    },
+                    "percentage": 88.5
                 },
                 "no religion": {
-                    "percentage": 5.1,
                     "breakdown": {
-                        "Islam (%)": 3.9,
-                        "Hinduism (%)": 1.4
-                    }
+                        "Hinduism (%)": 1.4,
+                        "Islam (%)": 3.9
+                    },
+                    "percentage": 5.1
                 },
                 "other (%)": 1.1
             }
@@ -28,26 +51,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 316,
-            "Water (%)": 0.001
-        },
         "Population": {
-            "Census": 519562,
-            "Density (/km2)": 1649
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 36870000000,
-                "Per capita ($)": 67682
-            },
-            "GDP (nominal)": {
-                "Total ($)": 22737000000,
-                "Per capita ($)": 41738
-            },
-            "Gini": 31.4,
-            "HDI": 0.924,
-            "Currency": "Euro"
+            "Count": 519562.0,
+            "Density (/km2)": 1649.0
         }
     }
 }

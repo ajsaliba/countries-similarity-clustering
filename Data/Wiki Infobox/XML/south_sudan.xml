@@ -2,37 +2,53 @@
 <country>
   <country>South Sudan</country>
   <infobox>
+    <Area>
+      <Total__km2_>644329.0</Total__km2_>
+      <Water____>-1.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>South Sudanese pound</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>953.0</Per_capita____>
+        <Total____>15160000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>313.0</Per_capita____>
+        <Total____>4980000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>44.1</Gini>
+      <HDI>0.388</HDI>
+    </Economy>
     <General>
-      <Official_languages>English</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Bari</item>
+        <item>Dinka</item>
+        <item>English</item>
+        <item>Luo</item>
+        <item>Ma'di</item>
+        <item>Murle</item>
+        <item>Nuer</item>
+        <item>Otuho</item>
+        <item>Zande</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>60.5</Christianity____>
-        <traditional_faiths____>32.9</traditional_faiths____>
         <Islam____>6.2</Islam____>
         <others___none____>0.4</others___none____>
+        <traditional_faiths____>32.9</traditional_faiths____>
       </Religion>
     </General>
     <Government>
       <Government>Federal presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>644329</Total__km2_>
-    </Area>
     <Population>
-      <Estimate>12703714</Estimate>
-      <Density___km2_>19</Density___km2_>
+      <Count>12703714.0</Count>
+      <Density___km2_>19.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>15160000000</Total____>
-        <Per_capita____>953</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>4980000000</Total____>
-        <Per_capita____>313</Per_capita____>
-      </GDP__nominal_>
-      <Gini>44.1</Gini>
-      <HDI>0.388</HDI>
-      <Currency>South Sudanese pound</Currency>
-    </Economy>
   </infobox>
 </country>

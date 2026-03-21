@@ -1,51 +1,54 @@
 {
     "country": "Ivory Coast",
     "infobox": {
+        "Area": {
+            "Total (km2)": 322462.0,
+            "Water (%)": 1.4
+        },
+        "Economy": {
+            "Currency": [
+                "West African CFA franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 6960.0,
+                "Total ($)": 202647000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 2728.0,
+                "Total ($)": 79430000000.0
+            },
+            "Gini": 35.3,
+            "HDI": 0.582
+        },
         "General": {
-            "Official languages": "French",
             "Ethnic groups": {
-                "Ivorian (%)": 78,
                 "Akan (%)": 38,
-                "Northern Mande (%)": 22,
-                "Voltaiques/Gur (%)": 22,
+                "Ivorian (%)": 78,
                 "Kru (%)": 9.1,
-                "Southern Mande (%)": 8.6,
                 "Naturalized Ivorian (%)": 0.3,
+                "Northern Mande (%)": 22,
+                "Southern Mande (%)": 8.6,
+                "Voltaiques/Gur (%)": 22,
                 "non-Ivorian a (%)": 22
             },
+            "Primary Language": [
+                "French"
+            ],
             "Religion": {
-                "Islam (%)": 42.5,
                 "Christianity (%)": 39.8,
+                "Islam (%)": 42.5,
                 "no religion (%)": 12.6,
+                "other religions (%)": 0.7,
                 "traditional faiths (%)": 2.2,
-                "unanswered (%)": 2.2,
-                "other religions (%)": 0.7
+                "unanswered (%)": 2.2
             }
         },
         "Government": {
             "Government": "Unitary presidential republic under an authoritarian regime"
         },
-        "Area": {
-            "Total (km2)": 322462,
-            "Water (%)": 1.4
-        },
         "Population": {
-            "Estimate": 31500000,
-            "Census": 29389150,
+            "Count": 31500000.0,
             "Density (/km2)": 97.7
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 202647000000,
-                "Per capita ($)": 6960
-            },
-            "GDP (nominal)": {
-                "Total ($)": 79430000000,
-                "Per capita ($)": 2728
-            },
-            "Gini": 35.3,
-            "HDI": 0.582,
-            "Currency": "West African CFA franc"
         }
     }
 }

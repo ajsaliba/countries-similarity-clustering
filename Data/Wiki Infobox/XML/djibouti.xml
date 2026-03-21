@@ -2,44 +2,51 @@
 <country>
   <country>Djibouti</country>
   <infobox>
+    <Area>
+      <Total__km2_>23200.0</Total__km2_>
+      <Water____>0.09</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Djiboutian franc</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>6985.0</Per_capita____>
+        <Total____>7193000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>3761.0</Per_capita____>
+        <Total____>3873000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>41.6</Gini>
+      <HDI>0.513</HDI>
+    </Economy>
     <General>
-      <Official_languages>Arabic French</Official_languages>
       <Ethnic_groups>
         <Afar____>60</Afar____>
         <Arabs____>35</Arabs____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Afar</item>
+        <item>Arabic</item>
+        <item>French</item>
+        <item>Somali</item>
+      </Primary_Language>
       <Religion>
-        <Islam___official______>94</Islam___official______>
-        <Sunni____>87</Sunni____>
-        <Non_denominational____>8</Non_denominational____>
-        <Shia____>2</Shia____>
-        <Other____>3</Other____>
         <Christianity____>6</Christianity____>
+        <Islam___official______>94</Islam___official______>
+        <Non_denominational____>8</Non_denominational____>
+        <Other____>3</Other____>
+        <Shia____>2</Shia____>
+        <Sunni____>87</Sunni____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary dominant-party presidential republic under a hereditary dictatorship</Government>
     </Government>
-    <Area>
-      <Total__km2_>23200</Total__km2_>
-      <Water____>0.09</Water____>
-    </Area>
     <Population>
-      <Census>1066809</Census>
+      <Count>1066809.0</Count>
       <Density___km2_>46.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>7193000000</Total____>
-        <Per_capita____>6985</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>3873000000</Total____>
-        <Per_capita____>3761</Per_capita____>
-      </GDP__nominal_>
-      <Gini>41.6</Gini>
-      <HDI>0.513</HDI>
-      <Currency>Djiboutian franc</Currency>
-    </Economy>
   </infobox>
 </country>

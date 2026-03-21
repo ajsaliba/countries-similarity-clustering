@@ -2,42 +2,47 @@
 <country>
   <country>Kuwait</country>
   <infobox>
+    <Area>
+      <Total__km2_>17818.0</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Kuwaiti dinar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>50960.0</Per_capita____>
+        <Total____>260500000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>29950.0</Per_capita____>
+        <Total____>153100000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>-1.0</Gini>
+      <HDI>0.852</HDI>
+    </Economy>
     <General>
-      <Official_languages>Arabic</Official_languages>
       <Ethnic_groups>
+        <African____>1</African____>
         <Arab____>57.8</Arab____>
         <South_Asian____>40.3</South_Asian____>
-        <African____>1</African____>
         <other____>0.9</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Arabic</item>
+      </Primary_Language>
       <Religion>
-        <Islam___official______>74.6</Islam___official______>
         <Christianity____>18.2</Christianity____>
+        <Islam___official______>74.6</Islam___official______>
         <other____>7.2</other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>17818</Total__km2_>
-      <Water____>negligible</Water____>
-    </Area>
     <Population>
-      <Estimate>4985716</Estimate>
+      <Count>4985716.0</Count>
       <Density___km2_>200.2</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>260500000000</Total____>
-        <Per_capita____>50960</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>153100000000</Total____>
-        <Per_capita____>29950</Per_capita____>
-      </GDP__nominal_>
-      <HDI>0.852</HDI>
-      <Currency>Kuwaiti dinar</Currency>
-    </Economy>
   </infobox>
 </country>

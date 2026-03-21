@@ -1,51 +1,55 @@
 {
     "country": "Eswatini",
     "infobox": {
+        "Area": {
+            "Total (km2)": 17364.0,
+            "Water (%)": 0.9
+        },
+        "Economy": {
+            "Currency": [
+                "Lilangeni South African rand"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 11858.0,
+                "Total ($)": 13797000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 3995.0,
+                "Total ($)": 4648000000.0
+            },
+            "Gini": 54.6,
+            "HDI": 0.695
+        },
         "General": {
-            "Official languages": "Swazi English",
             "Ethnic groups": {
                 "Swazi (%)": 84,
                 "Zulu (%)": 10,
                 "others (%)": 6
             },
+            "Primary Language": [
+                "English",
+                "Swazi"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 89.3,
                     "breakdown": {
                         "Protestantism (%)": 84.2,
                         "Roman Catholic (%)": 3.7,
                         "other Christian (%)": 1.4
-                    }
+                    },
+                    "percentage": 89.3
                 },
                 "no religion (%)": 7.4,
-                "traditional faiths (%)": 2.5,
-                "others (%)": 0.8
+                "others (%)": 0.8,
+                "traditional faiths (%)": 2.5
             }
         },
         "Government": {
             "Government": "Unitary diarchic absolute monarchy"
         },
-        "Area": {
-            "Total (km2)": 17364,
-            "Water (%)": 0.9
-        },
         "Population": {
-            "Estimate": 1236126,
-            "Census": 1093238,
+            "Count": 1236126.0,
             "Density (/km2)": 66.8
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 13797000000,
-                "Per capita ($)": 11858
-            },
-            "GDP (nominal)": {
-                "Total ($)": 4648000000,
-                "Per capita ($)": 3995
-            },
-            "Gini": 54.6,
-            "HDI": 0.695,
-            "Currency": "Lilangeni South African rand"
         }
     }
 }

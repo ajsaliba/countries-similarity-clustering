@@ -1,43 +1,47 @@
 {
     "country": "Brunei",
     "infobox": {
+        "Area": {
+            "Total (km2)": 5765.0,
+            "Water (%)": 8.6
+        },
+        "Economy": {
+            "Currency": [
+                "Brunei dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 95760.0,
+                "Total ($)": 43830000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 34970.0,
+                "Total ($)": 16010000000.0
+            },
+            "Gini": -1.0,
+            "HDI": 0.837
+        },
         "General": {
-            "Official language": "Malay",
             "Ethnic groups": {
-                "Malay (%)": 73.7,
                 "Chinese (%)": 9.6,
+                "Malay (%)": 73.7,
                 "others (%)": 16.6
             },
+            "Primary Language": [
+                "Malay"
+            ],
             "Religion": {
-                "Sunni Islam ( official ) (%)": 80.7,
-                "Christianity (%)": 10.7,
                 "Buddhism (%)": 7.8,
+                "Christianity (%)": 10.7,
+                "Sunni Islam ( official ) (%)": 80.7,
                 "other (includes Indigenous beliefs ) (%)": 0.8
             }
         },
         "Government": {
             "Government": "Unitary Islamic absolute monarchy"
         },
-        "Area": {
-            "Total (km2)": 5765,
-            "Water (%)": 8.6
-        },
         "Population": {
-            "Estimate": 466227,
-            "Census": 440715,
+            "Count": 466227.0,
             "Density (/km2)": 72.11
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 43830000000,
-                "Per capita ($)": 95760
-            },
-            "GDP (nominal)": {
-                "Total ($)": 16010000000,
-                "Per capita ($)": 34970
-            },
-            "HDI": 0.837,
-            "Currency": "Brunei dollar"
         }
     }
 }

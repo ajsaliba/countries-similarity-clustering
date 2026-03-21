@@ -1,21 +1,43 @@
 {
     "country": "Kazakhstan",
     "infobox": {
+        "Area": {
+            "Total (km2)": 2724900.0,
+            "Water (%)": 1.7
+        },
+        "Economy": {
+            "Currency": [
+                "Tenge"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 44450.0,
+                "Total ($)": 904500000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 14770.0,
+                "Total ($)": 300540000000.0
+            },
+            "Gini": 27.8,
+            "HDI": 0.837
+        },
         "General": {
-            "Official languages": "Kazakh Russian",
             "Ethnic groups": {
+                "German (%)": 1.1,
                 "Kazakh (%)": 71.3,
                 "Russian (%)": 14.6,
-                "Uzbek (%)": 3.3,
+                "Tatar (%)": 1.1,
                 "Ukrainian (%)": 1.8,
                 "Uyghur (%)": 1.5,
-                "German (%)": 1.1,
-                "Tatar (%)": 1.1,
+                "Uzbek (%)": 3.3,
                 "others (%)": 5.3
             },
+            "Primary Language": [
+                "Kazakh",
+                "Russian"
+            ],
             "Religion": {
-                "Islam (%)": 69.3,
                 "Christianity (%)": 17.2,
+                "Islam (%)": 69.3,
                 "no religion (%)": 2.3,
                 "other (%)": 0.2,
                 "unanswered (%)": 11
@@ -24,26 +46,9 @@
         "Government": {
             "Government": "Unitary presidential republic under an authoritarian government"
         },
-        "Area": {
-            "Total (km2)": 2724900,
-            "Water (%)": 1.7
-        },
         "Population": {
-            "Estimate": 20495975,
+            "Count": 20495975.0,
             "Density (/km2)": 7.44
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 904500000000,
-                "Per capita ($)": 44450
-            },
-            "GDP (nominal)": {
-                "Total ($)": 300540000000,
-                "Per capita ($)": 14770
-            },
-            "Gini": 27.8,
-            "HDI": 0.837,
-            "Currency": "Tenge"
         }
     }
 }

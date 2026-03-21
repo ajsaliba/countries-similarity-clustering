@@ -2,20 +2,56 @@
 <country>
   <country>Mali</country>
   <infobox>
+    <Area>
+      <Total__km2_>1240192.0</Total__km2_>
+      <Water____>1.6</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>West African CFA franc</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>2930.0</Per_capita____>
+        <Total____>72740000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>936.0</Per_capita____>
+        <Total____>23210000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>33.0</Gini>
+      <HDI>0.419</HDI>
+    </Economy>
     <General>
-      <Official_languages>13 national languages Bambara Bobo Hassaniya Arabic Bozo Dogon, Toro So Fula Kassonke Maninke Minyanka Senufo, Senara Songhay, Koyraboro Senni Soninke Tamasheq</Official_languages>
       <Ethnic_groups>
         <Bambara____>33.3</Bambara____>
-        <Fula____>13.3</Fula____>
-        <Soninke____>9.6</Soninke____>
-        <Senufo___Bwa____>9.6</Senufo___Bwa____>
-        <Malinke____>8.8</Malinke____>
-        <Dogon____>8.7</Dogon____>
-        <Songhai____>5.9</Songhai____>
-        <Tuareg____>3.5</Tuareg____>
         <Bobo____>2.1</Bobo____>
+        <Dogon____>8.7</Dogon____>
+        <Fula____>13.3</Fula____>
+        <Malinke____>8.8</Malinke____>
+        <Senufo___Bwa____>9.6</Senufo___Bwa____>
+        <Songhai____>5.9</Songhai____>
+        <Soninke____>9.6</Soninke____>
+        <Tuareg____>3.5</Tuareg____>
         <other____>4.5</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Bambara</item>
+        <item>Bobo</item>
+        <item>Bozo</item>
+        <item>Dogon</item>
+        <item>Fula</item>
+        <item>Hassaniya Arabic</item>
+        <item>Kassonke</item>
+        <item>Koyraboro Senni</item>
+        <item>Maninke</item>
+        <item>Minyanka</item>
+        <item>Senara</item>
+        <item>Senufo</item>
+        <item>Songhay</item>
+        <item>Soninke</item>
+        <item>Tamasheq</item>
+        <item>Toro So</item>
+      </Primary_Language>
       <Religion>
         <Islam____>95</Islam____>
         <other____>5</other____>
@@ -24,26 +60,9 @@
     <Government>
       <Government>Unitary presidential republic under a military junta</Government>
     </Government>
-    <Area>
-      <Total__km2_>1240192</Total__km2_>
-      <Water____>1.6</Water____>
-    </Area>
     <Population>
-      <Estimate>21990607</Estimate>
+      <Count>21990607.0</Count>
       <Density___km2_>11.7</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>72740000000</Total____>
-        <Per_capita____>2930</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>23210000000</Total____>
-        <Per_capita____>936</Per_capita____>
-      </GDP__nominal_>
-      <Gini>33.0</Gini>
-      <HDI>0.419</HDI>
-      <Currency>West African CFA franc</Currency>
-    </Economy>
   </infobox>
 </country>

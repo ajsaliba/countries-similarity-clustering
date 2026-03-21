@@ -1,39 +1,52 @@
 {
     "country": "Uruguay",
     "infobox": {
+        "Area": {
+            "Total (km2)": 176215.0,
+            "Water (%)": 1.5
+        },
+        "Economy": {
+            "Currency": [
+                "Uruguayan peso"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 36014.0,
+                "Total ($)": 107946000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 23088.0,
+                "Total ($)": 82605000000.0
+            },
+            "Gini": 40.6,
+            "HDI": 0.862
+        },
         "General": {
-            "Official languages": "Spanish Uruguayan Sign Language",
             "Ethnic groups": {
-                "White (%)": 86,
                 "Black (%)": 10.4,
-                "Indigenous (%)": 6.3,
                 "East Asian (%)": 0.7,
+                "Indigenous (%)": 6.3,
+                "White (%)": 86,
                 "other (%)": 6.3
+            },
+            "Primary Language": [
+                "Spanish",
+                "Uruguayan Sign Language"
+            ],
+            "Religion": {
+                "Animists or Umbandists": {
+                    "breakdown": {
+                        "Jewish (%)": 0.4
+                    },
+                    "percentage": 0.6
+                }
             }
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 176215,
-            "Water (%)": 1.5
-        },
         "Population": {
-            "Census": 3499451,
+            "Count": 3499451.0,
             "Density (/km2)": 19.5
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 107946000000,
-                "Per capita ($)": 36014
-            },
-            "GDP (nominal)": {
-                "Total ($)": 82605000000,
-                "Per capita ($)": 23088
-            },
-            "Gini": 40.6,
-            "HDI": 0.862,
-            "Currency": "Uruguayan peso"
         }
     }
 }

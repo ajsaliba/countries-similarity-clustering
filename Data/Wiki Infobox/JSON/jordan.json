@@ -1,44 +1,47 @@
 {
     "country": "Jordan",
     "infobox": {
+        "Area": {
+            "Total (km2)": 89342.0,
+            "Water (%)": 0.6
+        },
+        "Economy": {
+            "Currency": [
+                "Jordanian dinar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 12809.0,
+                "Total ($)": 132092000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 4850.0,
+                "Total ($)": 50022000000.0
+            },
+            "Gini": 35.4,
+            "HDI": 0.754
+        },
         "General": {
-            "Official languages": "Arabic",
             "Ethnic groups": {
                 "Arab (%)": 95,
-                "Circassian , Chechen (%)": 3,
-                "Armenian and others (%)": 2
+                "Armenian and others (%)": 2,
+                "Circassian , Chechen (%)": 3
             },
+            "Primary Language": [
+                "Arabic"
+            ],
             "Religion": {
-                "Islam ( official ) (%)": 95,
                 "Christianity (%)": 3,
                 "Druze , Baháʼí (%)": 1,
+                "Islam ( official ) (%)": 95,
                 "others (%)": 1
             }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 89342,
-            "Water (%)": 0.6
-        },
         "Population": {
-            "Estimate": 11484805,
-            "Census": 9531712,
-            "Density (/km2)": 114
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 132092000000,
-                "Per capita ($)": 12809
-            },
-            "GDP (nominal)": {
-                "Total ($)": 50022000000,
-                "Per capita ($)": 4850
-            },
-            "Gini": 35.4,
-            "HDI": 0.754,
-            "Currency": "Jordanian dinar"
+            "Count": 11484805.0,
+            "Density (/km2)": 114.0
         }
     }
 }

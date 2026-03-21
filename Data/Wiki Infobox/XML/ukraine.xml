@@ -2,13 +2,34 @@
 <country>
   <country>Ukraine</country>
   <infobox>
+    <Area>
+      <Total__km2_>603628.0</Total__km2_>
+      <Water____>3.8</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Ukrainian hryvnia</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>20999.0</Per_capita____>
+        <Total____>690059000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>6261.0</Per_capita____>
+        <Total____>205742000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>25.6</Gini>
+      <HDI>0.779</HDI>
+    </Economy>
     <General>
-      <Official_language_and_national_language>Ukrainian</Official_language_and_national_language>
       <Ethnic_groups>
-        <Ukrainians____>78</Ukrainians____>
         <Russians____>17</Russians____>
+        <Ukrainians____>78</Ukrainians____>
         <other____>4.9</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Ukrainian</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>87.3</Christianity____>
         <no_religion____>11</no_religion____>
@@ -18,26 +39,9 @@
     <Government>
       <Government>Unitary semi-presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>603628</Total__km2_>
-      <Water____>3.8</Water____>
-    </Area>
     <Population>
-      <Estimate>32862000</Estimate>
+      <Count>32862000.0</Count>
       <Density___km2_>54.4</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>690059000000</Total____>
-        <Per_capita____>20999</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>205742000000</Total____>
-        <Per_capita____>6261</Per_capita____>
-      </GDP__nominal_>
-      <Gini>25.6</Gini>
-      <HDI>0.779</HDI>
-      <Currency>Ukrainian hryvnia</Currency>
-    </Economy>
   </infobox>
 </country>

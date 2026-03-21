@@ -2,24 +2,45 @@
 <country>
   <country>Ecuador</country>
   <infobox>
+    <Area>
+      <Total__km2_>283561.0</Total__km2_>
+      <Water____>-1.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>United States dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>16180.0</Per_capita____>
+        <Total____>304230000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>7210.0</Per_capita____>
+        <Total____>130530000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>45.2</Gini>
+      <HDI>0.777</HDI>
+    </Economy>
     <General>
-      <Official_languages>Spanish</Official_languages>
       <Ethnic_groups>
+        <Black____>4.81</Black____>
+        <Indigenous____>7.69</Indigenous____>
         <Mestizo__mixed_White___Indigenous______>77.47</Mestizo__mixed_White___Indigenous______>
         <Montubio__coastal_Mestizo______>7.7</Montubio__coastal_Mestizo______>
-        <Indigenous____>7.69</Indigenous____>
-        <Black____>4.81</Black____>
         <White____>2.21</White____>
         <other____>0.12</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Spanish</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>89.3</percentage>
           <breakdown>
             <Catholic____>68.2</Catholic____>
             <Evangelical____>18</Evangelical____>
             <other____>3.1</other____>
           </breakdown>
+          <percentage>89.3</percentage>
         </Christianity>
         <no_religion____>8.9</no_religion____>
         <other____>2</other____>
@@ -28,27 +49,9 @@
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>283561</Total__km2_>
-      <Excluding_the_Galapagos_Islands__km2_>276841</Excluding_the_Galapagos_Islands__km2_>
-    </Area>
     <Population>
-      <Estimate>17483326</Estimate>
-      <Census>16938986</Census>
-      <Density___km2_>69</Density___km2_>
+      <Count>17483326.0</Count>
+      <Density___km2_>69.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>304230000000</Total____>
-        <Per_capita____>16180</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>130530000000</Total____>
-        <Per_capita____>7210</Per_capita____>
-      </GDP__nominal_>
-      <Gini>45.2</Gini>
-      <HDI>0.777</HDI>
-      <Currency>United States dollar a</Currency>
-    </Economy>
   </infobox>
 </country>

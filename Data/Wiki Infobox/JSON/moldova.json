@@ -1,55 +1,57 @@
 {
     "country": "Moldova",
     "infobox": {
+        "Area": {
+            "Total (km2)": 33843.0,
+            "Water (%)": 1.4
+        },
+        "Economy": {
+            "Currency": [
+                "Moldovan leu"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 20731.0,
+                "Total ($)": 48511000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 8984.0,
+                "Total ($)": 21024000000.0
+            },
+            "Gini": 25.7,
+            "HDI": 0.785
+        },
         "General": {
-            "Official language and national language": "Romanian",
             "Ethnic groups": {
+                "Bulgarians (%)": 1.6,
+                "Gagauz (%)": 4,
                 "Moldovans (%)": 76.7,
                 "Romanians (%)": 8,
-                "Ukrainians (%)": 5.1,
-                "Gagauz (%)": 4,
                 "Russians (%)": 3.4,
-                "Bulgarians (%)": 1.6,
+                "Ukrainians (%)": 5.1,
                 "other (%)": 1.1
             },
+            "Primary Language": [
+                "Romanian"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 97.4,
                     "breakdown": {
                         "Eastern Orthodoxy (%)": 94.3,
                         "other Christian (%)": 3.1
-                    }
+                    },
+                    "percentage": 97.4
                 },
-                "other (%)": 0.3,
                 "no religion (%)": 1.5,
+                "other (%)": 0.3,
                 "unanswered (%)": 0.8
             }
         },
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Incl. Transnistria (km2)": 33843,
-            "Water (%)": 1.4,
-            "Excl. Transnistria (km2)": 30319
-        },
         "Population": {
-            "Estimate": 2381325,
-            "Census": 2409207,
+            "Count": 2381325.0,
             "Density (/km2)": 78.5
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 48511000000,
-                "Per capita ($)": 20731
-            },
-            "GDP (nominal)": {
-                "Total ($)": 21024000000,
-                "Per capita ($)": 8984
-            },
-            "Gini": 25.7,
-            "HDI": 0.785,
-            "Currency": "Moldovan leu"
         }
     }
 }

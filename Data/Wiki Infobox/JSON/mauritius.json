@@ -1,17 +1,39 @@
 {
     "country": "Mauritius",
     "infobox": {
-        "General": {
-            "Official languages": "None English French",
-            "Ethnic groups": {
-                "Indian (%)": 67,
-                "Creole (%)": 28,
-                "Chinese (%)": 3,
-                "French (%)": 2
+        "Area": {
+            "Total (km2)": 2040.0,
+            "Water (%)": 0.07
+        },
+        "Economy": {
+            "Currency": [
+                "Mauritian rupee"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 33954.0,
+                "Total ($)": 42810000000.0
             },
+            "GDP (nominal)": {
+                "Per capita ($)": 13099.0,
+                "Total ($)": 16515000000.0
+            },
+            "Gini": 36.8,
+            "HDI": 0.806
+        },
+        "General": {
+            "Ethnic groups": {
+                "Chinese (%)": 3,
+                "Creole (%)": 28,
+                "French (%)": 2,
+                "Indian (%)": 67
+            },
+            "Primary Language": [
+                "English",
+                "French"
+            ],
             "Religion": {
-                "Hinduism (%)": 47.9,
                 "Christianity (%)": 32.3,
+                "Hinduism (%)": 47.9,
                 "Islam (%)": 18.2,
                 "others / none (%)": 1.6
             }
@@ -19,26 +41,9 @@
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 2040,
-            "Water (%)": 0.07
-        },
         "Population": {
-            "Census": 1235260,
+            "Count": 1235260.0,
             "Density (/km2)": 605.5
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 42810000000,
-                "Per capita ($)": 33954
-            },
-            "GDP (nominal)": {
-                "Total ($)": 16515000000,
-                "Per capita ($)": 13099
-            },
-            "Gini": 36.8,
-            "HDI": 0.806,
-            "Currency": "Mauritian rupee"
         }
     }
 }

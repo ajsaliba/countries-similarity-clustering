@@ -2,33 +2,43 @@
 <country>
   <country>Saudi Arabia</country>
   <infobox>
+    <Area>
+      <Total__km2_>2149690.0</Total__km2_>
+      <Water____>0.7</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Saudi riyal</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>74670.0</Per_capita____>
+        <Total____>2690000000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>35230.0</Per_capita____>
+        <Total____>1270000000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>45.9</Gini>
+      <HDI>0.9</HDI>
+    </Economy>
     <General>
-      <Official_languages>Arabic</Official_languages>
-      <Religion>Sunni Islam</Religion>
+      <Ethnic_groups>
+        <Arab_with____>10</Arab_with____>
+        <Close_to____>42</Close_to____>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>Arabic</item>
+      </Primary_Language>
+      <Religion>
+        <Sunni_Islam>100.0</Sunni_Islam>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary Islamic absolute monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>2149690</Total__km2_>
-      <Water____>0.7</Water____>
-    </Area>
     <Population>
-      <Census>33702731</Census>
-      <Density___km2_>15</Density___km2_>
+      <Count>33702731.0</Count>
+      <Density___km2_>15.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>2690000000000</Total____>
-        <Per_capita____>74670</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>1270000000000</Total____>
-        <Per_capita____>35230</Per_capita____>
-      </GDP__nominal_>
-      <Gini>45.9</Gini>
-      <HDI>0.9</HDI>
-      <Currency>Saudi riyal</Currency>
-    </Economy>
   </infobox>
 </country>

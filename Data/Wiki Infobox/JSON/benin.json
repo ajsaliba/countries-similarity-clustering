@@ -1,50 +1,60 @@
 {
     "country": "Benin",
     "infobox": {
+        "Area": {
+            "Total (km2)": 114763.0,
+            "Water (%)": 0.4
+        },
+        "Economy": {
+            "Currency": [
+                "West African CFA franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 4980.0,
+                "Total ($)": 76510000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 1790.0,
+                "Total ($)": 27450000000.0
+            },
+            "Gini": 34.4,
+            "HDI": 0.515
+        },
         "General": {
-            "Official languages": "French",
             "Ethnic groups": {
-                "Fon (%)": 38.4,
                 "Adja and Mina (%)": 15.1,
-                "Yoruba (%)": 12,
                 "Bariba (%)": 9.6,
+                "Dendi (%)": 2.9,
+                "Fon (%)": 38.4,
                 "Fula (%)": 8.6,
                 "Ottamari (%)": 6.1,
                 "Yoa-Lokpa (%)": 4.3,
-                "Dendi (%)": 2.9,
+                "Yoruba (%)": 12,
                 "other (%)": 2.8
             },
+            "Primary Language": [
+                "Arabic",
+                "Bariba",
+                "Dendi",
+                "English",
+                "Fon",
+                "French",
+                "Yoruba"
+            ],
             "Religion": {
                 "Christianity (%)": 52.2,
                 "Islam (%)": 24.6,
-                "traditional faiths (%)": 17.9,
                 "no religion (%)": 5.2,
-                "other (%)": 0.1
+                "other (%)": 0.1,
+                "traditional faiths (%)": 17.9
             }
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 114763,
-            "Water (%)": 0.4
-        },
         "Population": {
-            "Estimate": 13754688,
+            "Count": 13754688.0,
             "Density (/km2)": 94.8
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 76510000000,
-                "Per capita ($)": 4980
-            },
-            "GDP (nominal)": {
-                "Total ($)": 27450000000,
-                "Per capita ($)": 1790
-            },
-            "Gini": 34.4,
-            "HDI": 0.515,
-            "Currency": "West African CFA franc"
         }
     }
 }

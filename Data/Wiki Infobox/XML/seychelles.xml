@@ -2,12 +2,35 @@
 <country>
   <country>Seychelles</country>
   <infobox>
+    <Area>
+      <Total__km2_>457.0</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Seychellois rupee</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>43850.0</Per_capita____>
+        <Total____>4490000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>21940.0</Per_capita____>
+        <Total____>2250000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>32.1</Gini>
+      <HDI>0.848</HDI>
+    </Economy>
     <General>
-      <Official_languages>Seychellois Creole English French</Official_languages>
       <Ethnic_groups>
         <Seychellois_Creoles____>97</Seychellois_Creoles____>
         <others____>3</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>French</item>
+        <item>Seychellois Creole</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>74.9</Christianity____>
         <Hinduism____>5.4</Hinduism____>
@@ -19,26 +42,9 @@
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>457</Total__km2_>
-      <Water____>Negligible</Water____>
-    </Area>
     <Population>
-      <Estimate>121355</Estimate>
+      <Count>121355.0</Count>
       <Density___km2_>262.3</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>4490000000</Total____>
-        <Per_capita____>43850</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>2250000000</Total____>
-        <Per_capita____>21940</Per_capita____>
-      </GDP__nominal_>
-      <Gini>32.1</Gini>
-      <HDI>0.848</HDI>
-      <Currency>Seychellois rupee</Currency>
-    </Economy>
   </infobox>
 </country>

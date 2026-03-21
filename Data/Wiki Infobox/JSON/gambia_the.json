@@ -1,47 +1,55 @@
 {
     "country": "Gambia, The",
     "infobox": {
+        "Area": {
+            "Total (km2)": 11300.0,
+            "Water (%)": 11.5
+        },
+        "Economy": {
+            "Currency": [
+                "Gambian dalasi"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 3820.0,
+                "Total ($)": 11050000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 924.0,
+                "Total ($)": 2670000000.0
+            },
+            "Gini": 35.9,
+            "HDI": 0.524
+        },
         "General": {
-            "Official languages": "English",
             "Ethnic groups": {
-                "Mandinka (%)": 34.4,
                 "Fula (%)": 25,
-                "Wolof (%)": 15.4,
                 "Jola (%)": 9.5,
-                "Soninke (%)": 8.2,
+                "Mandinka (%)": 34.4,
                 "Serer (%)": 2.9,
+                "Soninke (%)": 8.2,
+                "Wolof (%)": 15.4,
                 "other (%)": 4.6
             },
+            "Primary Language": [
+                "English",
+                "Jola",
+                "Mandinka",
+                "Pulaar",
+                "Serer",
+                "Wolof"
+            ],
             "Religion": {
-                "Islam (%)": 95.7,
                 "Christianity (%)": 4.2,
+                "Islam (%)": 95.7,
                 "others (%)": 0.1
             }
-        },
-        "Area": {
-            "Largest metropolitan area": "Serrekunda",
-            "Total (km2)": 11300,
-            "Water (%)": 11.5
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
         "Population": {
-            "Census": 2422712,
-            "Density (/km2)": 227
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 11050000000,
-                "Per capita ($)": 3820
-            },
-            "GDP (nominal)": {
-                "Total ($)": 2670000000,
-                "Per capita ($)": 924
-            },
-            "Gini": 35.9,
-            "HDI": 0.524,
-            "Currency": "Gambian dalasi"
+            "Count": 2422712.0,
+            "Density (/km2)": 227.0
         }
     }
 }

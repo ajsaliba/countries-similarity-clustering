@@ -1,42 +1,47 @@
 {
     "country": "Haiti",
     "infobox": {
+        "Area": {
+            "Total (km2)": 27700.0,
+            "Water (%)": 0.7
+        },
+        "Economy": {
+            "Currency": [
+                "Gourde"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 3040.0,
+                "Total ($)": 38200000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 2670.0,
+                "Total ($)": 33550000000.0
+            },
+            "Gini": 41.0,
+            "HDI": 0.554
+        },
         "General": {
-            "Official languages": "Haitian Creole French",
             "Ethnic groups": {
                 "African (%)": 95,
                 "other (%)": 5
             },
+            "Primary Language": [
+                "French",
+                "Haitian Creole"
+            ],
             "Religion": {
                 "Christianity (%)": 87,
-                "no religion (%)": 10.7,
                 "Haitian Vodou (%)": 2.1,
+                "no religion (%)": 10.7,
                 "other (%)": 0.2
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic"
         },
-        "Area": {
-            "Total (km2)": 27700,
-            "Water (%)": 0.7
-        },
         "Population": {
-            "Estimate": 11470261,
-            "Density (/km2)": 417
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 38200000000,
-                "Per capita ($)": 3040
-            },
-            "GDP (nominal)": {
-                "Total ($)": 33550000000,
-                "Per capita ($)": 2670
-            },
-            "Gini": 41,
-            "HDI": 0.554,
-            "Currency": "Gourde"
+            "Count": 11470261.0,
+            "Density (/km2)": 417.0
         }
     }
 }

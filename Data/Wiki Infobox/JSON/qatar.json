@@ -1,49 +1,52 @@
 {
     "country": "Qatar",
     "infobox": {
+        "Area": {
+            "Total (km2)": 11581.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Qatari riyal"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 121610.0,
+                "Total ($)": 378080000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 71650.0,
+                "Total ($)": 222780000000.0
+            },
+            "Gini": 35.1,
+            "HDI": 0.886
+        },
         "General": {
-            "Official languages": "Arabic",
             "Ethnic groups": {
                 "Arab (%)": 49,
-                "South Asian (%)": 43,
-                "Indian (%)": 21.8,
                 "Bangladeshi (%)": 12.5,
+                "Indian (%)": 21.8,
                 "Pakistani (%)": 4.7,
+                "South Asian (%)": 43,
                 "Sri Lankan (%)": 4.35,
                 "other (%)": 7
             },
+            "Primary Language": [
+                "Arabic"
+            ],
             "Religion": {
-                "Islam ( official ) (%)": 65.5,
-                "Hinduism (%)": 15.1,
-                "Christianity (%)": 14.2,
                 "Buddhism (%)": 3.3,
+                "Christianity (%)": 14.2,
+                "Hinduism (%)": 15.1,
+                "Islam ( official ) (%)": 65.5,
                 "other (%)": 1.9
             }
         },
         "Government": {
             "Government": "Unitary authoritarian semi-constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 11581,
-            "Water (%)": "negligible"
-        },
         "Population": {
-            "Estimate": 3214609,
-            "Census": 2846118,
-            "Density (/km2)": 264
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 378080000000,
-                "Per capita ($)": 121610
-            },
-            "GDP (nominal)": {
-                "Total ($)": 222780000000,
-                "Per capita ($)": 71650
-            },
-            "Gini": 35.1,
-            "HDI": 0.886,
-            "Currency": "Qatari riyal"
+            "Count": 3214609.0,
+            "Density (/km2)": 264.0
         }
     }
 }

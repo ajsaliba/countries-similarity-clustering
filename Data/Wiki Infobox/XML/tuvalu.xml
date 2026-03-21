@@ -2,47 +2,53 @@
 <country>
   <country>Tuvalu</country>
   <infobox>
+    <Area>
+      <Total__km2_>26.26</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Australian dollar</item>
+        <item>Tuvaluan dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>6076.0</Per_capita____>
+        <Total____>68603000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>6113.0</Per_capita____>
+        <Total____>63000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>39.0</Gini>
+      <HDI>0.689</HDI>
+    </Economy>
     <General>
-      <Official_languages>Tuvaluan English</Official_languages>
       <Ethnic_groups>
         <Tuvaluans____>96</Tuvaluans____>
         <others____>4</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Tuvaluan</item>
+      </Primary_Language>
       <Religion>
+        <Bah____Faith____>1</Bah____Faith____>
         <Christianity>
-          <percentage>96</percentage>
           <breakdown>
             <Calvinism___official______>86</Calvinism___official______>
             <other_Christian____>10</other_Christian____>
           </breakdown>
+          <percentage>96</percentage>
         </Christianity>
         <Other_religions_or_not_stated____>3</Other_religions_or_not_stated____>
-        <Bah____Faith____>1</Bah____Faith____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>26.26</Total__km2_>
-      <Water____>Negligible</Water____>
-    </Area>
     <Population>
-      <Census>10643</Census>
-      <Density___km2_>423</Density___km2_>
+      <Count>10643.0</Count>
+      <Density___km2_>423.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>68603000</Total____>
-        <Per_capita____>6076</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>63000000</Total____>
-        <Per_capita____>6113</Per_capita____>
-      </GDP__nominal_>
-      <Gini>39</Gini>
-      <HDI>0.689</HDI>
-      <Currency>Tuvaluan dollar Australian dollar</Currency>
-    </Economy>
   </infobox>
 </country>

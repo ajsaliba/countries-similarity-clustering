@@ -2,20 +2,41 @@
 <country>
   <country>Belize</country>
   <infobox>
+    <Area>
+      <Total__km2_>22966.0</Total__km2_>
+      <Water____>0.8</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Belize dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>15363.0</Per_capita____>
+        <Total____>6414000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>8355.0</Per_capita____>
+        <Total____>3488000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>53.1</Gini>
+      <HDI>0.721</HDI>
+    </Economy>
     <General>
-      <Official_languages>English</Official_languages>
       <Ethnic_groups>
-        <Mestizo____>52.9</Mestizo____>
-        <Creole____>25.9</Creole____>
-        <Mayan____>11.3</Mayan____>
-        <Garifuna____>6.1</Garifuna____>
-        <East_Indian____>3.9</East_Indian____>
-        <Mennonite____>3.6</Mennonite____>
-        <White____>1.2</White____>
         <Asian____>1</Asian____>
+        <Creole____>25.9</Creole____>
+        <East_Indian____>3.9</East_Indian____>
+        <Garifuna____>6.1</Garifuna____>
+        <Mayan____>11.3</Mayan____>
+        <Mennonite____>3.6</Mennonite____>
+        <Mestizo____>52.9</Mestizo____>
         <Other____>1.2</Other____>
         <Unknown____>0.3</Unknown____>
+        <White____>1.2</White____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>61.9</Christianity____>
         <no_religion____>31.8</no_religion____>
@@ -25,26 +46,9 @@
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>22966</Total__km2_>
-      <Water____>0.8</Water____>
-    </Area>
     <Population>
-      <Census>397483</Census>
+      <Count>397483.0</Count>
       <Density___km2_>17.31</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>6414000000</Total____>
-        <Per_capita____>15363</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>3488000000</Total____>
-        <Per_capita____>8355</Per_capita____>
-      </GDP__nominal_>
-      <Gini>53.1</Gini>
-      <HDI>0.721</HDI>
-      <Currency>Belize dollar</Currency>
-    </Economy>
   </infobox>
 </country>

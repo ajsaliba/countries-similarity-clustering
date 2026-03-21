@@ -2,49 +2,55 @@
 <country>
   <country>Rwanda</country>
   <infobox>
+    <Area>
+      <Total__km2_>26338.0</Total__km2_>
+      <Water____>6.3</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Rwandan franc</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>4100.0</Per_capita____>
+        <Total____>58120000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>1040.0</Per_capita____>
+        <Total____>14789000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>39.4</Gini>
+      <HDI>0.578</HDI>
+    </Economy>
     <General>
-      <Official_languages>Kinyarwanda English French Swahili</Official_languages>
       <Ethnic_groups>
         <Banyarwanda____>100</Banyarwanda____>
         <Hutu____>85</Hutu____>
         <Tutsi____>14</Tutsi____>
         <Twa____>1</Twa____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>French</item>
+        <item>Kinyarwanda</item>
+        <item>Swahili</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>93.8</Christianity____>
         <no_religion>
-          <percentage>3</percentage>
           <breakdown>
             <Islam____>2.2</Islam____>
             <other____>1</other____>
           </breakdown>
+          <percentage>3</percentage>
         </no_religion>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic under an authoritarian dictatorship</Government>
     </Government>
-    <Area>
-      <Total__km2_>26338</Total__km2_>
-      <Water____>6.3</Water____>
-    </Area>
     <Population>
-      <Estimate>14104969</Estimate>
-      <Census>13206731</Census>
-      <Density___km2_>578</Density___km2_>
+      <Count>14104969.0</Count>
+      <Density___km2_>578.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>58120000000</Total____>
-        <Per_capita____>4100</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>14789000000</Total____>
-        <Per_capita____>1040</Per_capita____>
-      </GDP__nominal_>
-      <Gini>39.4</Gini>
-      <HDI>0.578</HDI>
-      <Currency>Rwandan franc</Currency>
-    </Economy>
   </infobox>
 </country>

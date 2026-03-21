@@ -1,44 +1,51 @@
 {
     "country": "Djibouti",
     "infobox": {
+        "Area": {
+            "Total (km2)": 23200.0,
+            "Water (%)": 0.09
+        },
+        "Economy": {
+            "Currency": [
+                "Djiboutian franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 6985.0,
+                "Total ($)": 7193000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 3761.0,
+                "Total ($)": 3873000000.0
+            },
+            "Gini": 41.6,
+            "HDI": 0.513
+        },
         "General": {
-            "Official languages": "Arabic French",
             "Ethnic groups": {
                 "Afar (%)": 60,
                 "Arabs (%)": 35
             },
+            "Primary Language": [
+                "Afar",
+                "Arabic",
+                "French",
+                "Somali"
+            ],
             "Religion": {
+                "Christianity (%)": 6,
                 "Islam ( official ) (%)": 94,
-                "Sunni (%)": 87,
                 "Non-denominational (%)": 8,
-                "Shia (%)": 2,
                 "Other (%)": 3,
-                "Christianity (%)": 6
+                "Shia (%)": 2,
+                "Sunni (%)": 87
             }
         },
         "Government": {
             "Government": "Unitary dominant-party presidential republic under a hereditary dictatorship"
         },
-        "Area": {
-            "Total (km2)": 23200,
-            "Water (%)": 0.09
-        },
         "Population": {
-            "Census": 1066809,
+            "Count": 1066809.0,
             "Density (/km2)": 46.0
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 7193000000,
-                "Per capita ($)": 6985
-            },
-            "GDP (nominal)": {
-                "Total ($)": 3873000000,
-                "Per capita ($)": 3761
-            },
-            "Gini": 41.6,
-            "HDI": 0.513,
-            "Currency": "Djiboutian franc"
         }
     }
 }

@@ -1,48 +1,56 @@
 {
     "country": "Monaco",
     "infobox": {
+        "Area": {
+            "Total (km2)": 2.084,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Euro"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 270100.0,
+                "Total ($)": 8924000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 315800.0,
+                "Total ($)": 10434000000.0
+            },
+            "Gini": -1.0,
+            "HDI": -1.0
+        },
         "General": {
-            "Official languages": "French",
-            "Ethnic groups": "Monégasques French Italians Occitans",
+            "Ethnic groups": {
+                "Monégasques French Italians Occitans": null
+            },
+            "Primary Language": [
+                "French"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 86,
                     "breakdown": {
                         "Catholicism ( official ) (%)": 80.9,
                         "other Christian (%)": 5.1
-                    }
+                    },
+                    "percentage": 86
                 },
-                "no religion (%)": 11.7,
-                "Judaism (%)": 1.7,
                 "Islam": {
-                    "percentage": 0.4,
                     "breakdown": {
                         "other (%)": 0.2
-                    }
-                }
+                    },
+                    "percentage": 0.4
+                },
+                "Judaism (%)": 1.7,
+                "no religion (%)": 11.7
             }
         },
         "Government": {
             "Government": "Unitary parliamentary semi- constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 2.084,
-            "Water (%)": "negligible"
-        },
         "Population": {
-            "Census": 38423,
-            "Density (/km2)": 18446
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 8924000000,
-                "Per capita ($)": 270100
-            },
-            "GDP (nominal)": {
-                "Total ($)": 10434000000,
-                "Per capita ($)": 315800
-            },
-            "Currency": "Euro"
+            "Count": 38423.0,
+            "Density (/km2)": 18446.0
         }
     }
 }

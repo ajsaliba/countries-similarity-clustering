@@ -1,57 +1,56 @@
 {
     "country": "Brazil",
     "infobox": {
-        "General": {
-            "Official language and national language": "Portuguese",
-            "Ethnic groups": {
-                "Pardo (%)": 45.3,
-                "White (%)": 43.5,
-                "Black (%)": 10.2,
-                "Indigenous (%)": 0.6,
-                "East Asian (%)": 0.4
+        "Area": {
+            "Total (km2)": 8515767.0,
+            "Water (%)": 0.65
+        },
+        "Economy": {
+            "Currency": [
+                "Real"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 24108.0,
+                "Total ($)": 5161000000000.0
             },
+            "GDP (nominal)": {
+                "Per capita ($)": 10709.0,
+                "Total ($)": 2292000000000.0
+            },
+            "Gini": 51.6,
+            "HDI": 0.786
+        },
+        "General": {
+            "Ethnic groups": {
+                "Black (%)": 10.2,
+                "East Asian (%)": 0.4,
+                "Indigenous (%)": 0.6,
+                "Pardo (%)": 45.3,
+                "White (%)": 43.5
+            },
+            "Primary Language": [
+                "Portuguese"
+            ],
             "Religion": {
+                "Afro-Brazilian religions (%)": 1.05,
                 "Christianity": {
-                    "percentage": 83.6,
                     "breakdown": {
                         "Catholicism (%)": 56.75,
                         "Protestantism (%)": 26.85
-                    }
+                    },
+                    "percentage": 83.6
                 },
-                "no religion (%)": 9.28,
                 "Spiritism (%)": 1.84,
-                "Afro-Brazilian religions (%)": 1.05,
-                "other (%)": 4.07,
-                "not stated (%)": 0.17
+                "no religion (%)": 9.28,
+                "not stated (%)": 0.17,
+                "other (%)": 4.07
             }
         },
         "Government": {
             "Government": "Federal presidential republic"
         },
-        "Economy": {
-            "Recognition": {
-                "Republic": "15 November 1889",
-                "Current constitution": "5 October 1988"
-            },
-            "GDP ( PPP )": {
-                "Total ($)": 5161000000000,
-                "Per capita ($)": 24108
-            },
-            "GDP (nominal)": {
-                "Total ($)": 2292000000000,
-                "Per capita ($)": 10709
-            },
-            "Gini": 51.6,
-            "HDI": 0.786,
-            "Currency": "Real"
-        },
-        "Area": {
-            "Total (km2)": 8515767,
-            "Water (%)": 0.65
-        },
         "Population": {
-            "Estimate": 213421037,
-            "Census": 203080756,
+            "Count": 213421037.0,
             "Density (/km2)": 23.8
         }
     }

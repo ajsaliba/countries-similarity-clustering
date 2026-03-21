@@ -1,51 +1,55 @@
 {
     "country": "Venezuela",
     "infobox": {
+        "Area": {
+            "Total (km2)": 916445.0,
+            "Water (%)": 3.2
+        },
+        "Economy": {
+            "Currency": [
+                "Venezuelan bolívar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 8790.0,
+                "Total ($)": 234340000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 3100.0,
+                "Total ($)": 82770000000.0
+            },
+            "Gini": 44.8,
+            "HDI": 0.709
+        },
         "General": {
-            "Official languages": "Spanish",
             "Ethnic groups": {
+                "Black (%)": 3.6,
                 "Moreno (%)": 51.6,
                 "White (%)": 43.6,
-                "Black (%)": 3.6,
                 "other (%)": 1.2
             },
+            "Primary Language": [
+                "Spanish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 92.6,
                     "breakdown": {
                         "Catholicism (%)": 80.5,
                         "Protestantism (%)": 11.2,
                         "other Christian (%)": 0.9
-                    }
+                    },
+                    "percentage": 92.6
                 },
-                "no religion (%)": 5.5,
                 "Spiritism , Birongo (%)": 1.1,
+                "no religion (%)": 5.5,
                 "other (%)": 0.8
             }
         },
         "Government": {
             "Government": "Federal presidential republic under an authoritarian dictatorship"
         },
-        "Area": {
-            "Total (km2)": 916445,
-            "Water (%)": 3.2
-        },
         "Population": {
-            "Estimate": 31800000,
-            "Density (/km2)": 32
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 234340000000,
-                "Per capita ($)": 8790
-            },
-            "GDP (nominal)": {
-                "Total ($)": 82770000000,
-                "Per capita ($)": 3100
-            },
-            "Gini": 44.8,
-            "HDI": 0.709,
-            "Currency": "Venezuelan bolívar"
+            "Count": 31800000.0,
+            "Density (/km2)": 32.0
         }
     }
 }

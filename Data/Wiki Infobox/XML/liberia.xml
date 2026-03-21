@@ -2,49 +2,74 @@
 <country>
   <country>Liberia</country>
   <infobox>
+    <Area>
+      <Total__km2_>111370.0</Total__km2_>
+      <Water____>13.514</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>United States dollar Liberian dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>2010.0</Per_capita____>
+        <Total____>11420000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>907.0</Per_capita____>
+        <Total____>5170000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>35.3</Gini>
+      <HDI>0.51</HDI>
+    </Economy>
     <General>
-      <Official_languages>English</Official_languages>
+      <Ethnic_groups>
+        <Bass____>13.4</Bass____>
+        <Belle____>0.8</Belle____>
+        <Dey____>0.8</Dey____>
+        <Gbandi____>3</Gbandi____>
+        <Gio____>10</Gio____>
+        <Gol____>4.4</Gol____>
+        <Grebo____>10</Grebo____>
+        <Kissi____>4.8</Kissi____>
+        <Krah____>4</Krah____>
+        <Kru____>7.9</Kru____>
+        <Lorm____>5.1</Lorm____>
+        <Mandink____>3.2</Mandink____>
+        <Mano____>7.9</Mano____>
+        <Mende____>1.3</Mende____>
+        <Non_Afric____>0.1</Non_Afric____>
+        <Other_Afric____>1.4</Other_Afric____>
+        <Other_Liberi____>0.6</Other_Liberi____>
+        <Sapo____>1.2</Sapo____>
+        <Vai____>4</Vai____>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>85.1</percentage>
           <breakdown>
-            <Protestantism____>76.3</Protestantism____>
             <Catholicism____>7.2</Catholicism____>
+            <Protestantism____>76.3</Protestantism____>
             <other_Christians____>1.6</other_Christians____>
           </breakdown>
+          <percentage>85.1</percentage>
         </Christianity>
         <Islam____>12.2</Islam____>
         <no_religion>
-          <percentage>1.4</percentage>
           <breakdown>
             <other____>1.3</other____>
           </breakdown>
+          <percentage>1.4</percentage>
         </no_religion>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__sq_mi_>43000</Total__sq_mi_>
-      <Water____>13.514</Water____>
-    </Area>
     <Population>
-      <Estimate>5437249</Estimate>
-      <Density>92.0/sq mi</Density>
+      <Count>5437249.0</Count>
+      <Density___km2_>35.5</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>11420000000</Total____>
-        <Per_capita____>2010</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>5170000000</Total____>
-        <Per_capita____>907</Per_capita____>
-      </GDP__nominal_>
-      <Gini>35.3</Gini>
-      <HDI>0.51</HDI>
-      <Currency>United States dollar Liberian dollar</Currency>
-    </Economy>
   </infobox>
 </country>

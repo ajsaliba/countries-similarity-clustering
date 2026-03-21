@@ -1,48 +1,53 @@
 {
     "country": "Kiribati",
     "infobox": {
+        "Area": {
+            "Total (km2)": 811.19,
+            "Water (%)": -1.0
+        },
+        "Economy": {
+            "Currency": [
+                "Australian dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 2381.0,
+                "Total ($)": 297000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 1989.0,
+                "Total ($)": 248000000.0
+            },
+            "Gini": 27.8,
+            "HDI": 0.644
+        },
         "General": {
-            "Official languages": "English Gilbertese",
             "Ethnic groups": {
                 "Gilbertese (%)": 95.7,
                 "other (%)": 4.3
             },
+            "Primary Language": [
+                "English",
+                "Gilbertese"
+            ],
             "Religion": {
+                "Bahá'í Faith (%)": 2.1,
                 "Christianity": {
-                    "percentage": 96.2,
                     "breakdown": {
                         "Catholic Church (%)": 58.9,
                         "Uniting Church (%)": 21.2,
                         "other Christian (%)": 16.1
-                    }
+                    },
+                    "percentage": 96.2
                 },
-                "Bahá'í Faith (%)": 2.1,
                 "other / none (%)": 1.7
             }
         },
         "Government": {
             "Government": "Unitary parliamentary republic with an executive president"
         },
-        "Area": {
-            "Total (km2)": 811.19
-        },
         "Population": {
-            "Estimate": 116545,
-            "Census": 119438,
+            "Count": 116545.0,
             "Density (/km2)": 149.64
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 297000000,
-                "Per capita ($)": 2381
-            },
-            "GDP (nominal)": {
-                "Total ($)": 248000000,
-                "Per capita ($)": 1989
-            },
-            "Gini": 27.8,
-            "HDI": 0.644,
-            "Currency": "Australian dollar"
         }
     }
 }

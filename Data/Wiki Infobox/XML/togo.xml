@@ -2,53 +2,56 @@
 <country>
   <country>Togo</country>
   <infobox>
+    <Area>
+      <Total__km2_>56785.0</Total__km2_>
+      <Water____>4.2</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>West African CFA franc</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>3470.0</Per_capita____>
+        <Total____>33050000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>1050.0</Per_capita____>
+        <Total____>10020000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>43.1</Gini>
+      <HDI>0.571</HDI>
+    </Economy>
     <General>
-      <Official_languages>French</Official_languages>
       <Ethnic_groups>
+        <_____>5.6</_____>
         <__Aja___Ewe_and_Mina______>94.4</__Aja___Ewe_and_Mina______>
-        <__Kabye_and_Tem______>42.4</__Kabye_and_Tem______>
         <__Akan_and_Gurma______>25.9</__Akan_and_Gurma______>
-        <__Kposo_and_Akebu______>17.1</__Kposo_and_Akebu______>
         <__Ana_Ife______>4.1</__Ana_Ife______>
+        <__Kabye_and_Tem______>42.4</__Kabye_and_Tem______>
+        <__Kposo_and_Akebu______>17.1</__Kposo_and_Akebu______>
         <__Other_West_African_groups______>3.2</__Other_West_African_groups______>
         <__non_African______>1.7</__non_African______>
-        <_____>5.6</_____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>French</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>50</percentage>
           <breakdown>
-            <traditional_faiths____>33</traditional_faiths____>
-            <Islam____>16</Islam____>
             <Bah____faith____>1</Bah____faith____>
+            <Islam____>16</Islam____>
+            <traditional_faiths____>33</traditional_faiths____>
           </breakdown>
+          <percentage>50</percentage>
         </Christianity>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>56785</Total__km2_>
-      <Water____>4.2</Water____>
-    </Area>
     <Population>
-      <Estimate>9583381</Estimate>
-      <Census>8095498</Census>
+      <Count>9583381.0</Count>
       <Density___km2_>125.9</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>33050000000</Total____>
-        <Per_capita____>3470</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>10020000000</Total____>
-        <Per_capita____>1050</Per_capita____>
-      </GDP__nominal_>
-      <Gini>43.1</Gini>
-      <HDI>0.571</HDI>
-      <Currency>West African CFA franc</Currency>
-    </Economy>
   </infobox>
 </country>

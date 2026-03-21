@@ -1,47 +1,51 @@
 {
     "country": "Sri Lanka",
     "infobox": {
+        "Area": {
+            "Total (km2)": 67240.0,
+            "Water (%)": 4.4
+        },
+        "Economy": {
+            "Currency": [
+                "Sri Lankan rupee"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 15632.0,
+                "Total ($)": 342600000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 4516.0,
+                "Total ($)": 98900000000.0
+            },
+            "Gini": 39.8,
+            "HDI": 0.776
+        },
         "General": {
-            "Official languages and recognised national languages": "Sinhala Tamil",
             "Ethnic groups": {
-                "Sinhalese (%)": 74.1,
-                "Sri Lankan Tamils (%)": 12.3,
-                "Sri Lankan Moors (%)": 10.5,
                 "Indian Tamils (%)": 2.8,
+                "Sinhalese (%)": 74.1,
+                "Sri Lankan Moors (%)": 10.5,
+                "Sri Lankan Tamils (%)": 12.3,
                 "other (%)": 0.3
             },
+            "Primary Language": [
+                "Sinhala",
+                "Tamil"
+            ],
             "Religion": {
                 "Buddhism ( official ) (%)": 69.8,
+                "Christianity (%)": 6.9,
                 "Hinduism (%)": 12.6,
                 "Islam (%)": 10.7,
-                "Christianity (%)": 6.9,
                 "other/none (%)": 0.1
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic"
         },
-        "Area": {
-            "Total (km2)": 67240,
-            "Water (%)": 4.4
-        },
         "Population": {
-            "Estimate": 23300000,
-            "Census": 21781800,
+            "Count": 23300000.0,
             "Density (/km2)": 337.7
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 342600000000,
-                "Per capita ($)": 15632
-            },
-            "GDP (nominal)": {
-                "Total ($)": 98900000000,
-                "Per capita ($)": 4516
-            },
-            "Gini": 39.8,
-            "HDI": 0.776,
-            "Currency": "Sri Lankan rupee"
         }
     }
 }

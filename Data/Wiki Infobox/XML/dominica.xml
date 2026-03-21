@@ -2,45 +2,49 @@
 <country>
   <country>Dominica</country>
   <infobox>
+    <Area>
+      <Total__km2_>750.0</Total__km2_>
+      <Water____>1.6</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>East Caribbean dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>9726.0</Per_capita____>
+        <Total____>688000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>7860.0</Per_capita____>
+        <Total____>485000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>-1.0</Gini>
+      <HDI>0.761</HDI>
+    </Economy>
     <General>
-      <Official_languages>English</Official_languages>
       <Ethnic_groups>
         <African____>75</African____>
-        <multiracial____>19</multiracial____>
-        <Kalinago____>4</Kalinago____>
         <European_or_other____>0.8</European_or_other____>
+        <Kalinago____>4</Kalinago____>
+        <multiracial____>19</multiracial____>
         <unspecified____>0.2</unspecified____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>94.4</Christianity____>
         <folk_religions____>3</folk_religions____>
-        <other____>1.7</other____>
         <none____>0.9</none____>
+        <other____>1.7</other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>750</Total__km2_>
-      <Water____>1.6</Water____>
-    </Area>
     <Population>
-      <Estimate>72412</Estimate>
-      <Census>71293</Census>
-      <Density___km2_>105</Density___km2_>
+      <Count>72412.0</Count>
+      <Density___km2_>105.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>688000000</Total____>
-        <Per_capita____>9726</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>485000000</Total____>
-        <Per_capita____>7860</Per_capita____>
-      </GDP__nominal_>
-      <HDI>0.761</HDI>
-      <Currency>East Caribbean dollar</Currency>
-    </Economy>
   </infobox>
 </country>

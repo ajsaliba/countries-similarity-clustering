@@ -1,38 +1,46 @@
 {
     "country": "Pakistan",
     "infobox": {
+        "Area": {
+            "Total (km2)": 881913.0,
+            "Water (%)": 2.86
+        },
+        "Economy": {
+            "Currency": [
+                "Pakistani rupee"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 6950.0,
+                "Total ($)": 1670000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 1710.0,
+                "Total ($)": 410500000000.0
+            },
+            "Gini": 29.6,
+            "HDI": 0.544
+        },
         "General": {
-            "Official languages": "Urdu English",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "English",
+                "Urdu"
+            ],
             "Religion": {
-                "Islam ( official ) (%)": 96.3,
-                "Hinduism (%)": 2.2,
                 "Christianity (%)": 1.4,
+                "Hinduism (%)": 2.2,
+                "Islam ( official ) (%)": 96.3,
                 "other (%)": 0.1
             }
         },
         "Government": {
             "Government": "Federal parliamentary Islamic republic"
         },
-        "Area": {
-            "Total (km2)": 881913,
-            "Water (%)": 2.86
-        },
         "Population": {
-            "Census": 241499431,
+            "Count": 241499431.0,
             "Density (/km2)": 273.8
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 1670000000000,
-                "Per capita ($)": 6950
-            },
-            "GDP (nominal)": {
-                "Total ($)": 410500000000,
-                "Per capita ($)": 1710
-            },
-            "Gini": 29.6,
-            "HDI": 0.544,
-            "Currency": "Pakistani rupee"
         }
     }
 }

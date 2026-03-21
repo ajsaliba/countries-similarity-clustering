@@ -1,62 +1,66 @@
 {
     "country": "Antigua and Barbuda",
     "infobox": {
+        "Area": {
+            "Total (km2)": 440.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Eastern Caribbean dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 31781.0,
+                "Total ($)": 3300000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 22630.0,
+                "Total ($)": 2370000000.0
+            },
+            "Gini": -1.0,
+            "HDI": 0.851
+        },
         "General": {
-            "Official languages": "English",
             "Ethnic groups": {
                 "African (%)": 87.3,
-                "Multiracial (%)": 4.7,
-                "Hispanic (%)": 2.8,
-                "European (%)": 1.7,
                 "East Indian (%)": 1.1,
+                "European (%)": 1.7,
+                "Hispanic (%)": 2.8,
+                "Multiracial (%)": 4.7,
                 "Syrian or Lebanese (%)": 0.7,
                 "other (%)": 1.8
             },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 92.7,
                     "breakdown": {
                         "Protestantism (%)": 66.6,
                         "other Christian (%)": 26.1
-                    }
+                    },
+                    "percentage": 92.7
                 },
                 "Rastafari": {
-                    "percentage": 3.6,
                     "breakdown": {
                         "no religion": {
-                            "percentage": 1.9,
                             "breakdown": {
                                 "Baháʼí Faith (%)": 1.1,
                                 "other (%)": 0.7
-                            }
+                            },
+                            "percentage": 1.9
                         }
-                    }
+                    },
+                    "percentage": 3.6
                 }
             }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 440,
-            "Water (%)": "negligible"
-        },
         "Population": {
-            "Estimate": 106365,
-            "Census": 84816,
-            "Density (/km2)": 186
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 3300000000,
-                "Per capita ($)": 31781
-            },
-            "GDP (nominal)": {
-                "Total ($)": 2370000000,
-                "Per capita ($)": 22630
-            },
-            "HDI": 0.851,
-            "Currency": "Eastern Caribbean dollar"
+            "Count": 106365.0,
+            "Density (/km2)": 186.0
         }
     }
 }

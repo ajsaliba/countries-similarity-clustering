@@ -1,40 +1,56 @@
 {
     "country": "Russia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 17098246.0,
+            "Water (%)": 13.0
+        },
+        "Economy": {
+            "Currency": [
+                "Russian ruble"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 49049.0,
+                "Total ($)": 7143000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 17446.0,
+                "Total ($)": 2541000000000.0
+            },
+            "Gini": 36.0,
+            "HDI": 0.832
+        },
         "General": {
-            "Official language and national language": "Russian",
             "Ethnic groups": {
-                "Russian (%)": 71.7,
-                "Tatar (%)": 3.2,
                 "Bashkir (%)": 1.1,
                 "Chechen (%)": 1.1,
-                "other (%)": 11.3,
-                "not reported (%)": 11.6
+                "Russian (%)": 71.7,
+                "Tatar (%)": 3.2,
+                "not reported (%)": 11.6,
+                "other (%)": 11.3
+            },
+            "Primary Language": [
+                "Russian"
+            ],
+            "Religion": {
+                "Buddhists": {
+                    "breakdown": {
+                        "Hindus (%)": 0.1,
+                        "Jews (%)": 0.1
+                    },
+                    "percentage": 0.5
+                },
+                "Muslims (%)": 6.5,
+                "Old Believers (%)": 1,
+                "Russian Orthodox (%)": 41
             }
         },
         "Government": {
             "Government": "Federal semi-presidential republic under an authoritarian dictatorship"
         },
-        "Area": {
-            "Total (km2)": 17098246,
-            "Water (%)": 13
-        },
         "Population": {
-            "Estimate": "146,028,325 143,569,049",
+            "Count": 146028325.0,
             "Density (/km2)": 8.4
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 7143000000000,
-                "Per capita ($)": 49049
-            },
-            "GDP (nominal)": {
-                "Total ($)": 2541000000000,
-                "Per capita ($)": 17446
-            },
-            "Gini": 36.0,
-            "HDI": 0.832,
-            "Currency": "Russian ruble"
         }
     }
 }

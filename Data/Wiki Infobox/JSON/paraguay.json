@@ -1,15 +1,41 @@
 {
     "country": "Paraguay",
     "infobox": {
+        "Area": {
+            "Total (km2)": 406752.0,
+            "Water (%)": 2.6
+        },
+        "Economy": {
+            "Currency": [
+                "Guaraní"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 22462.0,
+                "Total ($)": 145110000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 7990.0,
+                "Total ($)": 51670000000.0
+            },
+            "Gini": 44.4,
+            "HDI": 0.756
+        },
         "General": {
-            "Official languages": "Spanish Guarani",
+            "Ethnic groups": {
+                "Mestizo (%)": 95,
+                "White (%)": 5
+            },
+            "Primary Language": [
+                "Guarani",
+                "Spanish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 95.5,
                     "breakdown": {
                         "Catholicism (%)": 87.4,
                         "other Christian (%)": 8.1
-                    }
+                    },
+                    "percentage": 95.5
                 },
                 "no religion (%)": 4.1,
                 "other (%)": 0.4
@@ -18,27 +44,9 @@
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 406752,
-            "Water (%)": 2.6
-        },
         "Population": {
-            "Estimate": 6413627,
-            "Census": 6109903,
-            "Density": "39/sq mi"
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 145110000000,
-                "Per capita ($)": 22462
-            },
-            "GDP (nominal)": {
-                "Total ($)": 51670000000,
-                "Per capita ($)": 7990
-            },
-            "Gini": 44.4,
-            "HDI": 0.756,
-            "Currency": "Guaraní"
+            "Count": 6413627.0,
+            "Density (/km2)": 15.1
         }
     }
 }

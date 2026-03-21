@@ -1,34 +1,44 @@
 {
     "country": "Canada",
     "infobox": {
+        "Area": {
+            "Total (km2)": 9984670.0,
+            "Water (%)": 11.76
+        },
+        "Economy": {
+            "Currency": [
+                "Canadian dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 65500.0,
+                "Total ($)": 2723000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 54935.0,
+                "Total ($)": 2284000000000.0
+            },
+            "Gini": 29.2,
+            "HDI": 0.939
+        },
         "General": {
-            "Official languages": "English French"
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "English",
+                "French"
+            ],
+            "Religion": {
+                "Christians overall representing (%)": 53.3,
+                "Roman Catholics representing (%)": 29.9
+            }
         },
         "Government": {
             "Government": "Federal parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total area (km2)": 9984670,
-            "Water (%)": 11.76,
-            "Total land area (km2)": 9093507
-        },
         "Population": {
-            "Estimate": 41575585,
-            "Census": 36991981,
+            "Count": 41575585.0,
             "Density (/km2)": 4.2
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 2723000000000,
-                "Per capita ($)": 65500
-            },
-            "GDP (nominal)": {
-                "Total ($)": 2284000000000,
-                "Per capita ($)": 54935
-            },
-            "Gini": 29.2,
-            "HDI": 0.939,
-            "Currency": "Canadian dollar"
         }
     }
 }

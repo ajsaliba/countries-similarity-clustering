@@ -1,48 +1,57 @@
 {
     "country": "Norway",
     "infobox": {
+        "Area": {
+            "Total (km2)": 385207.0,
+            "Water (%)": 5.32
+        },
+        "Economy": {
+            "Currency": [
+                "Norwegian krone"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 107890.0,
+                "Total ($)": 606590000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 89690.0,
+                "Total ($)": 504280000000.0
+            },
+            "Gini": 25.3,
+            "HDI": 0.97
+        },
         "General": {
-            "Official languages": "Norwegian Sámi",
             "Ethnic groups": {
                 "Norwegian (%)": 78.6,
                 "non-Norwegian (%)": 21.4
             },
+            "Primary Language": [
+                "Kven",
+                "Norwegian",
+                "Norwegian Sign Language",
+                "Romani",
+                "Scandoromani",
+                "Sámi"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 68.5,
                     "breakdown": {
                         "Church of Norway (%)": 61.7,
                         "other Christian (%)": 6.8
-                    }
+                    },
+                    "percentage": 68.5
                 },
-                "no religion (%)": 27.3,
                 "Islam (%)": 3.4,
+                "no religion (%)": 27.3,
                 "other (%)": 0.8
             }
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 385207,
-            "Water (%)": 5.32
-        },
         "Population": {
-            "Estimate": 5627400,
+            "Count": 5627400.0,
             "Density (/km2)": 14.6
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 606590000000,
-                "Per capita ($)": 107890
-            },
-            "GDP (nominal)": {
-                "Total ($)": 504280000000,
-                "Per capita ($)": 89690
-            },
-            "Gini": 25.3,
-            "HDI": 0.97,
-            "Currency": "Norwegian krone"
         }
     }
 }

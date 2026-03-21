@@ -1,51 +1,63 @@
 {
     "country": "Namibia",
     "infobox": {
-        "General": {
-            "Official languages": "English",
-            "Ethnic groups": {
-                "Indigenous African (%)": 93.2,
-                "Coloured and Basters (%)": 3.6,
-                "White (%)": 1.8,
-                "Asian / other (%)": 1.4
+        "Area": {
+            "Total (km2)": 825615.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Namibian dollar South African rand"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 12370.0,
+                "Total ($)": 37730000000.0
             },
+            "GDP (nominal)": {
+                "Per capita ($)": 4660.0,
+                "Total ($)": 14210000000.0
+            },
+            "Gini": 59.1,
+            "HDI": 0.665
+        },
+        "General": {
+            "Ethnic groups": {
+                "Asian / other (%)": 1.4,
+                "Coloured and Basters (%)": 3.6,
+                "Indigenous African (%)": 93.2,
+                "White (%)": 1.8
+            },
+            "Primary Language": [
+                "Afrikaans",
+                "English",
+                "German",
+                "Khoekhoegowab",
+                "Oshiwambo",
+                "Otjiherero",
+                "RuKwangali",
+                "Setswana",
+                "siLozi"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 87.9,
                     "breakdown": {
-                        "Lutheranism (%)": 43.7,
-                        "Catholicism (%)": 22.8,
                         "Anglicanism (%)": 17,
+                        "Catholicism (%)": 22.8,
+                        "Lutheranism (%)": 43.7,
                         "other Christian (%)": 4.4
-                    }
+                    },
+                    "percentage": 87.9
                 },
-                "other (%)": 10.5,
-                "no religion (%)": 1.6
+                "no religion (%)": 1.6,
+                "other (%)": 10.5
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic"
         },
-        "Area": {
-            "Total (km2)": 825615,
-            "Water (%)": "Negligible"
-        },
         "Population": {
-            "Census": 3022401,
+            "Count": 3022401.0,
             "Density (/km2)": 3.7
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 37730000000,
-                "Per capita ($)": 12370
-            },
-            "GDP (nominal)": {
-                "Total ($)": 14210000000,
-                "Per capita ($)": 4660
-            },
-            "Gini": 59.1,
-            "HDI": 0.665,
-            "Currency": "Namibian dollar South African rand"
         }
     }
 }

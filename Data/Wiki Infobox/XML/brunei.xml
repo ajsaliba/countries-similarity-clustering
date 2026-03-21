@@ -2,43 +2,47 @@
 <country>
   <country>Brunei</country>
   <infobox>
+    <Area>
+      <Total__km2_>5765.0</Total__km2_>
+      <Water____>8.6</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Brunei dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>95760.0</Per_capita____>
+        <Total____>43830000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>34970.0</Per_capita____>
+        <Total____>16010000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>-1.0</Gini>
+      <HDI>0.837</HDI>
+    </Economy>
     <General>
-      <Official_language>Malay</Official_language>
       <Ethnic_groups>
-        <Malay____>73.7</Malay____>
         <Chinese____>9.6</Chinese____>
+        <Malay____>73.7</Malay____>
         <others____>16.6</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Malay</item>
+      </Primary_Language>
       <Religion>
-        <Sunni_Islam___official______>80.7</Sunni_Islam___official______>
-        <Christianity____>10.7</Christianity____>
         <Buddhism____>7.8</Buddhism____>
+        <Christianity____>10.7</Christianity____>
+        <Sunni_Islam___official______>80.7</Sunni_Islam___official______>
         <other__includes_Indigenous_beliefs______>0.8</other__includes_Indigenous_beliefs______>
       </Religion>
     </General>
     <Government>
       <Government>Unitary Islamic absolute monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>5765</Total__km2_>
-      <Water____>8.6</Water____>
-    </Area>
     <Population>
-      <Estimate>466227</Estimate>
-      <Census>440715</Census>
+      <Count>466227.0</Count>
       <Density___km2_>72.11</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>43830000000</Total____>
-        <Per_capita____>95760</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>16010000000</Total____>
-        <Per_capita____>34970</Per_capita____>
-      </GDP__nominal_>
-      <HDI>0.837</HDI>
-      <Currency>Brunei dollar</Currency>
-    </Economy>
   </infobox>
 </country>

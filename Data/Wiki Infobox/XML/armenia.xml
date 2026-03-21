@@ -2,20 +2,41 @@
 <country>
   <country>Armenia</country>
   <infobox>
+    <Area>
+      <Total__km2_>29743.0</Total__km2_>
+      <Water____>4.71</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Dram</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>23954.0</Per_capita____>
+        <Total____>74407000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>8969.0</Per_capita____>
+        <Total____>27859000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>27.9</Gini>
+      <HDI>0.811</HDI>
+    </Economy>
     <General>
-      <Official_languages>Armenian</Official_languages>
       <Ethnic_groups>
         <Armenians____>98.1</Armenians____>
         <Yazidis____>1.1</Yazidis____>
         <other____>0.8</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Armenian</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>96.8</percentage>
           <breakdown>
             <Armenian_Apostolic_Church____>95.2</Armenian_Apostolic_Church____>
             <other_Christian____>1.6</other_Christian____>
           </breakdown>
+          <percentage>96.8</percentage>
         </Christianity>
         <no_religion____>0.6</no_religion____>
         <other____>0.9</other____>
@@ -25,26 +46,9 @@
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>29743</Total__km2_>
-      <Water____>4.71</Water____>
-    </Area>
     <Population>
-      <Estimate>3081100</Estimate>
+      <Count>3081100.0</Count>
       <Density___km2_>103.6</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>74407000000</Total____>
-        <Per_capita____>23954</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>27859000000</Total____>
-        <Per_capita____>8969</Per_capita____>
-      </GDP__nominal_>
-      <Gini>27.9</Gini>
-      <HDI>0.811</HDI>
-      <Currency>Dram</Currency>
-    </Economy>
   </infobox>
 </country>

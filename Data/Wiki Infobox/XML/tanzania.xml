@@ -2,44 +2,51 @@
 <country>
   <country>Tanzania</country>
   <infobox>
+    <Area>
+      <Total__km2_>947303.0</Total__km2_>
+      <Water____>6.4</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Tanzanian shilling</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>4370.0</Per_capita____>
+        <Total____>293590000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>1280.0</Per_capita____>
+        <Total____>88980000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>40.5</Gini>
+      <HDI>0.555</HDI>
+    </Economy>
     <General>
-      <Official_languages>Swahili English</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Swahili</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>63.1</Christianity____>
         <Islam____>34.1</Islam____>
         <no_religion>
-          <percentage>1.5</percentage>
           <breakdown>
-            <traditional_faiths____>1.2</traditional_faiths____>
             <others____>0.1</others____>
+            <traditional_faiths____>1.2</traditional_faiths____>
           </breakdown>
+          <percentage>1.5</percentage>
         </no_religion>
       </Religion>
     </General>
     <Government>
       <Government>Unitary dominant-party presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>947303</Total__km2_>
-      <Water____>6.4</Water____>
-    </Area>
     <Population>
-      <Estimate>67462121</Estimate>
-      <Census>61741120</Census>
+      <Count>67462121.0</Count>
       <Density___km2_>65.2</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>293590000000</Total____>
-        <Per_capita____>4370</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>88980000000</Total____>
-        <Per_capita____>1280</Per_capita____>
-      </GDP__nominal_>
-      <Gini>40.5</Gini>
-      <HDI>0.555</HDI>
-      <Currency>Tanzanian shilling</Currency>
-    </Economy>
   </infobox>
 </country>

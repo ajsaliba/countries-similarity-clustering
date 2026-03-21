@@ -1,44 +1,51 @@
 {
     "country": "Tanzania",
     "infobox": {
+        "Area": {
+            "Total (km2)": 947303.0,
+            "Water (%)": 6.4
+        },
+        "Economy": {
+            "Currency": [
+                "Tanzanian shilling"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 4370.0,
+                "Total ($)": 293590000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 1280.0,
+                "Total ($)": 88980000000.0
+            },
+            "Gini": 40.5,
+            "HDI": 0.555
+        },
         "General": {
-            "Official languages": "Swahili English",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "English",
+                "Swahili"
+            ],
             "Religion": {
                 "Christianity (%)": 63.1,
                 "Islam (%)": 34.1,
                 "no religion": {
-                    "percentage": 1.5,
                     "breakdown": {
-                        "traditional faiths (%)": 1.2,
-                        "others (%)": 0.1
-                    }
+                        "others (%)": 0.1,
+                        "traditional faiths (%)": 1.2
+                    },
+                    "percentage": 1.5
                 }
             }
         },
         "Government": {
             "Government": "Unitary dominant-party presidential republic"
         },
-        "Area": {
-            "Total (km2)": 947303,
-            "Water (%)": 6.4
-        },
         "Population": {
-            "Estimate": 67462121,
-            "Census": 61741120,
+            "Count": 67462121.0,
             "Density (/km2)": 65.2
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 293590000000,
-                "Per capita ($)": 4370
-            },
-            "GDP (nominal)": {
-                "Total ($)": 88980000000,
-                "Per capita ($)": 1280
-            },
-            "Gini": 40.5,
-            "HDI": 0.555,
-            "Currency": "Tanzanian shilling"
         }
     }
 }

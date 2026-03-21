@@ -2,32 +2,43 @@
 <country>
   <country>Nauru</country>
   <infobox>
+    <Area>
+      <Total__km2_>21.0</Total__km2_>
+      <Water____>0.57</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Australian dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>10962.0</Per_capita____>
+        <Total____>132000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>14274.0</Per_capita____>
+        <Total____>172000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>-1.0</Gini>
+      <HDI>0.703</HDI>
+    </Economy>
     <General>
-      <Official_languages>Nauruan English</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Nauruan</item>
+      </Primary_Language>
+      <Religion>
+        <Unknown>100</Unknown>
+      </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic with an executive presidency under a non-partisan democracy</Government>
     </Government>
-    <Area>
-      <Total__km2_>21</Total__km2_>
-      <Water____>0.57</Water____>
-    </Area>
     <Population>
-      <Estimate>12025</Estimate>
-      <Census>12000</Census>
-      <Density___km2_>480</Density___km2_>
+      <Count>12025.0</Count>
+      <Density___km2_>480.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>132000000</Total____>
-        <Per_capita____>10962</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>172000000</Total____>
-        <Per_capita____>14274</Per_capita____>
-      </GDP__nominal_>
-      <HDI>0.703</HDI>
-      <Currency>Australian dollar</Currency>
-    </Economy>
   </infobox>
 </country>

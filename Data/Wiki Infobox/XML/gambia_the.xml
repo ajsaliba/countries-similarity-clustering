@@ -2,47 +2,55 @@
 <country>
   <country>Gambia, The</country>
   <infobox>
+    <Area>
+      <Total__km2_>11300.0</Total__km2_>
+      <Water____>11.5</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Gambian dalasi</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>3820.0</Per_capita____>
+        <Total____>11050000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>924.0</Per_capita____>
+        <Total____>2670000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>35.9</Gini>
+      <HDI>0.524</HDI>
+    </Economy>
     <General>
-      <Official_languages>English</Official_languages>
       <Ethnic_groups>
-        <Mandinka____>34.4</Mandinka____>
         <Fula____>25</Fula____>
-        <Wolof____>15.4</Wolof____>
         <Jola____>9.5</Jola____>
-        <Soninke____>8.2</Soninke____>
+        <Mandinka____>34.4</Mandinka____>
         <Serer____>2.9</Serer____>
+        <Soninke____>8.2</Soninke____>
+        <Wolof____>15.4</Wolof____>
         <other____>4.6</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+        <item>Jola</item>
+        <item>Mandinka</item>
+        <item>Pulaar</item>
+        <item>Serer</item>
+        <item>Wolof</item>
+      </Primary_Language>
       <Religion>
-        <Islam____>95.7</Islam____>
         <Christianity____>4.2</Christianity____>
+        <Islam____>95.7</Islam____>
         <others____>0.1</others____>
       </Religion>
     </General>
-    <Area>
-      <Largest_metropolitan_area>Serrekunda</Largest_metropolitan_area>
-      <Total__km2_>11300</Total__km2_>
-      <Water____>11.5</Water____>
-    </Area>
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
     <Population>
-      <Census>2422712</Census>
-      <Density___km2_>227</Density___km2_>
+      <Count>2422712.0</Count>
+      <Density___km2_>227.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>11050000000</Total____>
-        <Per_capita____>3820</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>2670000000</Total____>
-        <Per_capita____>924</Per_capita____>
-      </GDP__nominal_>
-      <Gini>35.9</Gini>
-      <HDI>0.524</HDI>
-      <Currency>Gambian dalasi</Currency>
-    </Economy>
   </infobox>
 </country>

@@ -2,55 +2,57 @@
 <country>
   <country>Moldova</country>
   <infobox>
+    <Area>
+      <Total__km2_>33843.0</Total__km2_>
+      <Water____>1.4</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Moldovan leu</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>20731.0</Per_capita____>
+        <Total____>48511000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>8984.0</Per_capita____>
+        <Total____>21024000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>25.7</Gini>
+      <HDI>0.785</HDI>
+    </Economy>
     <General>
-      <Official_language_and_national_language>Romanian</Official_language_and_national_language>
       <Ethnic_groups>
+        <Bulgarians____>1.6</Bulgarians____>
+        <Gagauz____>4</Gagauz____>
         <Moldovans____>76.7</Moldovans____>
         <Romanians____>8</Romanians____>
-        <Ukrainians____>5.1</Ukrainians____>
-        <Gagauz____>4</Gagauz____>
         <Russians____>3.4</Russians____>
-        <Bulgarians____>1.6</Bulgarians____>
+        <Ukrainians____>5.1</Ukrainians____>
         <other____>1.1</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Romanian</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>97.4</percentage>
           <breakdown>
             <Eastern_Orthodoxy____>94.3</Eastern_Orthodoxy____>
             <other_Christian____>3.1</other_Christian____>
           </breakdown>
+          <percentage>97.4</percentage>
         </Christianity>
-        <other____>0.3</other____>
         <no_religion____>1.5</no_religion____>
+        <other____>0.3</other____>
         <unanswered____>0.8</unanswered____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary republic</Government>
     </Government>
-    <Area>
-      <Incl__Transnistria__km2_>33843</Incl__Transnistria__km2_>
-      <Water____>1.4</Water____>
-      <Excl__Transnistria__km2_>30319</Excl__Transnistria__km2_>
-    </Area>
     <Population>
-      <Estimate>2381325</Estimate>
-      <Census>2409207</Census>
+      <Count>2381325.0</Count>
       <Density___km2_>78.5</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>48511000000</Total____>
-        <Per_capita____>20731</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>21024000000</Total____>
-        <Per_capita____>8984</Per_capita____>
-      </GDP__nominal_>
-      <Gini>25.7</Gini>
-      <HDI>0.785</HDI>
-      <Currency>Moldovan leu</Currency>
-    </Economy>
   </infobox>
 </country>

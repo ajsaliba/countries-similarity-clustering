@@ -1,8 +1,26 @@
 {
     "country": "Burundi",
     "infobox": {
+        "Area": {
+            "Total (km2)": 27834.0,
+            "Water (%)": 10.0
+        },
+        "Economy": {
+            "Currency": [
+                "Burundian franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 1020.0,
+                "Total ($)": 13980000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 489.0,
+                "Total ($)": 6750000000.0
+            },
+            "Gini": 37.5,
+            "HDI": 0.439
+        },
         "General": {
-            "Official languages": "Kirundi French English",
             "Ethnic groups": {
                 "Barundi (%)": 100,
                 "Hutu (%)": 85,
@@ -10,43 +28,31 @@
                 "Twa ~ (%)": 1,
                 "other (%)": 1
             },
+            "Primary Language": [
+                "English",
+                "French",
+                "Kirundi"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 93.4,
                     "breakdown": {
                         "Catholicism (%)": 63.7,
                         "Protestantism (%)": 25.2,
                         "other Christian (%)": 4.5
-                    }
+                    },
+                    "percentage": 93.4
                 },
-                "traditional faiths (%)": 4.3,
                 "Islam (%)": 2.1,
-                "other / none (%)": 0.2
+                "other / none (%)": 0.2,
+                "traditional faiths (%)": 4.3
             }
         },
         "Government": {
             "Government": "Unitary dominant-party presidential republic under an authoritarian dictatorship"
         },
-        "Area": {
-            "Total (km2)": 27834,
-            "Water (%)": 10
-        },
         "Population": {
-            "Estimate": 14151540,
-            "Density (/km2)": 565
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 13980000000,
-                "Per capita ($)": 1020
-            },
-            "GDP (nominal)": {
-                "Total ($)": 6750000000,
-                "Per capita ($)": 489
-            },
-            "Gini": 37.5,
-            "HDI": 0.439,
-            "Currency": "Burundian franc"
+            "Count": 14151540.0,
+            "Density (/km2)": 565.0
         }
     }
 }

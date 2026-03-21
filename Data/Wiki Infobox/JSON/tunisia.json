@@ -1,13 +1,34 @@
 {
     "country": "Tunisia",
     "infobox": {
+        "Area": {
+            "Total (km2)": 163610.0,
+            "Water (%)": 5.04
+        },
+        "Economy": {
+            "Currency": [
+                "Tunisian dinar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 14780.0,
+                "Total ($)": 183730000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 4530.0,
+                "Total ($)": 56290000000.0
+            },
+            "Gini": 33.7,
+            "HDI": 0.746
+        },
         "General": {
-            "Official languages": "Arabic",
             "Ethnic groups": {
                 "Arabs (%)": 98,
                 "Berbers (%)": 1,
                 "Jews and others (%)": 1
             },
+            "Primary Language": [
+                "Arabic"
+            ],
             "Religion": {
                 "Sunni Islam (%)": 99,
                 "others (%)": 1
@@ -16,26 +37,9 @@
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 163610,
-            "Water (%)": 5.04
-        },
         "Population": {
-            "Census": 11972169,
-            "Density (/km2)": 79
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 183730000000,
-                "Per capita ($)": 14780
-            },
-            "GDP (nominal)": {
-                "Total ($)": 56290000000,
-                "Per capita ($)": 4530
-            },
-            "Gini": 33.7,
-            "HDI": 0.746,
-            "Currency": "Tunisian dinar"
+            "Count": 11972169.0,
+            "Density (/km2)": 79.0
         }
     }
 }

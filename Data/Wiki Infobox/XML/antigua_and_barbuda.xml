@@ -2,62 +2,66 @@
 <country>
   <country>Antigua and Barbuda</country>
   <infobox>
+    <Area>
+      <Total__km2_>440.0</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Eastern Caribbean dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>31781.0</Per_capita____>
+        <Total____>3300000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>22630.0</Per_capita____>
+        <Total____>2370000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>-1.0</Gini>
+      <HDI>0.851</HDI>
+    </Economy>
     <General>
-      <Official_languages>English</Official_languages>
       <Ethnic_groups>
         <African____>87.3</African____>
-        <Multiracial____>4.7</Multiracial____>
-        <Hispanic____>2.8</Hispanic____>
-        <European____>1.7</European____>
         <East_Indian____>1.1</East_Indian____>
+        <European____>1.7</European____>
+        <Hispanic____>2.8</Hispanic____>
+        <Multiracial____>4.7</Multiracial____>
         <Syrian_or_Lebanese____>0.7</Syrian_or_Lebanese____>
         <other____>1.8</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>92.7</percentage>
           <breakdown>
             <Protestantism____>66.6</Protestantism____>
             <other_Christian____>26.1</other_Christian____>
           </breakdown>
+          <percentage>92.7</percentage>
         </Christianity>
         <Rastafari>
-          <percentage>3.6</percentage>
           <breakdown>
             <no_religion>
-              <percentage>1.9</percentage>
               <breakdown>
                 <Bah____Faith____>1.1</Bah____Faith____>
                 <other____>0.7</other____>
               </breakdown>
+              <percentage>1.9</percentage>
             </no_religion>
           </breakdown>
+          <percentage>3.6</percentage>
         </Rastafari>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>440</Total__km2_>
-      <Water____>negligible</Water____>
-    </Area>
     <Population>
-      <Estimate>106365</Estimate>
-      <Census>84816</Census>
-      <Density___km2_>186</Density___km2_>
+      <Count>106365.0</Count>
+      <Density___km2_>186.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>3300000000</Total____>
-        <Per_capita____>31781</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>2370000000</Total____>
-        <Per_capita____>22630</Per_capita____>
-      </GDP__nominal_>
-      <HDI>0.851</HDI>
-      <Currency>Eastern Caribbean dollar</Currency>
-    </Economy>
   </infobox>
 </country>

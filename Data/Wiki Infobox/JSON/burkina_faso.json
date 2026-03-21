@@ -1,56 +1,62 @@
 {
     "country": "Burkina Faso",
     "infobox": {
-        "General": {
-            "Official languages": "Mooré , Dyula and Fula , alongside any other languages so recognized by law",
-            "Ethnic groups": {
-                "Mossi (%)": 53.7,
-                "Fula (%)": 6.8,
-                "Gurunsi (%)": 5.9,
-                "or (%)": 5.4,
-                "Bissa (%)": 1.5,
-                "Gurma (%)": 5.2,
-                "Bobo (%)": 3.4,
-                "Senufo (%)": 2.2,
-                "Lobi (%)": 1.5,
-                "Tuareg and Bella (%)": 0.1
+        "Area": {
+            "Total (km2)": 274223.0,
+            "Water (%)": 0.148
+        },
+        "Economy": {
+            "Currency": [
+                "West African CFA franc"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 2980.0,
+                "Total ($)": 72820000000.0
             },
+            "GDP (nominal)": {
+                "Per capita ($)": 1110.0,
+                "Total ($)": 27060000000.0
+            },
+            "Gini": 37.4,
+            "HDI": 0.459
+        },
+        "General": {
+            "Ethnic groups": {
+                "Bissa (%)": 1.5,
+                "Bobo (%)": 3.4,
+                "Fula (%)": 6.8,
+                "Gurma (%)": 5.2,
+                "Gurunsi (%)": 5.9,
+                "Lobi (%)": 1.5,
+                "Mossi (%)": 53.7,
+                "Senufo (%)": 2.2,
+                "Tuareg and Bella (%)": 0.1,
+                "or (%)": 5.4
+            },
+            "Primary Language": [
+                "Dyula",
+                "Fula",
+                "Moore"
+            ],
             "Religion": {
-                "Islam (%)": 63.8,
+                "Animism (%)": 9,
                 "Christianity": {
-                    "percentage": 26.3,
                     "breakdown": {
                         "Catholicism (%)": 20.1,
                         "Protestantism (%)": 6.2
-                    }
+                    },
+                    "percentage": 26.3
                 },
-                "Animism (%)": 9,
+                "Islam (%)": 63.8,
                 "irreligion (%)": 0.7
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic under a military junta"
         },
-        "Area": {
-            "Total (km2)": 274223,
-            "Water (%)": 0.148
-        },
         "Population": {
-            "Estimate": 22489126,
-            "Density (/km2)": 86
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 72820000000,
-                "Per capita ($)": 2980
-            },
-            "GDP (nominal)": {
-                "Total ($)": 27060000000,
-                "Per capita ($)": 1110
-            },
-            "Gini": 37.4,
-            "HDI": 0.459,
-            "Currency": "West African CFA franc"
+            "Count": 22489126.0,
+            "Density (/km2)": 86.0
         }
     }
 }

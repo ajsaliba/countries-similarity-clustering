@@ -2,15 +2,41 @@
 <country>
   <country>Luxembourg</country>
   <infobox>
+    <Area>
+      <Total__km2_>2586.4</Total__km2_>
+      <Water____>0.23</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Euro</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>154914.0</Per_capita____>
+        <Total____>106505000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>141079.0</Per_capita____>
+        <Total____>96993000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>30.6</Gini>
+      <HDI>0.922</HDI>
+    </Economy>
     <General>
-      <Official_languages>National language: Luxembourgish Administrative languages: Luxembourgish German French</Official_languages>
+      <Ethnic_groups>
+        <Unknown>100.0</Unknown>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>French</item>
+        <item>German</item>
+        <item>Luxembourgish</item>
+      </Primary_Language>
       <Religion>
         <Christianity>
-          <percentage>53</percentage>
           <breakdown>
             <Catholicism____>46</Catholicism____>
             <other_Christian____>7</other_Christian____>
           </breakdown>
+          <percentage>53</percentage>
         </Christianity>
         <no_religion____>38</no_religion____>
         <other____>9</other____>
@@ -19,27 +45,9 @@
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>2586.4</Total__km2_>
-      <Water____>0.23</Water____>
-    </Area>
     <Population>
-      <Estimate>690947</Estimate>
-      <Census>643941</Census>
-      <Density___km2_>264</Density___km2_>
+      <Count>690947.0</Count>
+      <Density___km2_>264.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>106505000000</Total____>
-        <Per_capita____>154914</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>96993000000</Total____>
-        <Per_capita____>141079</Per_capita____>
-      </GDP__nominal_>
-      <Gini>30.6</Gini>
-      <HDI>0.922</HDI>
-      <Currency>Euro</Currency>
-    </Economy>
   </infobox>
 </country>

@@ -1,51 +1,55 @@
 {
     "country": "Iceland",
     "infobox": {
+        "Area": {
+            "Total (km2)": 103125.0,
+            "Water (%)": 2.07
+        },
+        "Economy": {
+            "Currency": [
+                "Icelandic króna"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 81220.0,
+                "Total ($)": 31076000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 90280.0,
+                "Total ($)": 35310000000.0
+            },
+            "Gini": 23.2,
+            "HDI": 0.972
+        },
         "General": {
-            "Official language": "Icelandic",
             "Ethnic groups": {
-                "Icelandic (%)": 86,
-                "Polish (%)": 6,
-                "Lithuanian (%)": 1,
                 "Filipino (%)": 0.8,
+                "Icelandic (%)": 86,
+                "Lithuanian (%)": 1,
+                "Polish (%)": 6,
                 "other (%)": 7
             },
+            "Primary Language": [
+                "Icelandic"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 72.4,
                     "breakdown": {
                         "Church of Iceland ( official ) (%)": 60.9,
                         "other Christian (%)": 11.5
-                    }
+                    },
+                    "percentage": 72.4
                 },
                 "no religion (%)": 25.2,
-                "Ásatrúarfélagið (%)": 1.5,
-                "other (%)": 0.9
+                "other (%)": 0.9,
+                "Ásatrúarfélagið (%)": 1.5
             }
         },
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 103125,
-            "Water (%)": 2.07
-        },
         "Population": {
-            "Census": 394530,
+            "Count": 394530.0,
             "Density (/km2)": 3.78
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 31076000000,
-                "Per capita ($)": 81220
-            },
-            "GDP (nominal)": {
-                "Total ($)": 35310000000,
-                "Per capita ($)": 90280
-            },
-            "Gini": 23.2,
-            "HDI": 0.972,
-            "Currency": "Icelandic króna"
         }
     }
 }

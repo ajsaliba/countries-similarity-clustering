@@ -2,46 +2,50 @@
 <country>
   <country>Uzbekistan</country>
   <infobox>
+    <Area>
+      <Total__km2_>448978.0</Total__km2_>
+      <Water____>4.9</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Uzbek sum</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>12596.0</Per_capita____>
+        <Total____>507800000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>3945.0</Per_capita____>
+        <Total____>140480000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>31.2</Gini>
+      <HDI>0.74</HDI>
+    </Economy>
     <General>
-      <Official_languages>Uzbek</Official_languages>
       <Ethnic_groups>
-        <Uzbeks____>84.6</Uzbeks____>
-        <Tajiks____>4.8</Tajiks____>
-        <Kazakhs____>2.3</Kazakhs____>
         <Karakalpaks____>2.2</Karakalpaks____>
+        <Kazakhs____>2.3</Kazakhs____>
         <Russians____>2.1</Russians____>
+        <Tajiks____>4.8</Tajiks____>
+        <Uzbeks____>84.6</Uzbeks____>
         <others____>4</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Uzbek</item>
+      </Primary_Language>
       <Religion>
-        <Islam____>94.78</Islam____>
-        <Irreligion____>3.89</Irreligion____>
         <Christianity____>1.04</Christianity____>
+        <Irreligion____>3.89</Irreligion____>
+        <Islam____>94.78</Islam____>
         <other_religions____>0.27</other_religions____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary semi-presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>448978</Total__km2_>
-      <Water____>4.9</Water____>
-    </Area>
     <Population>
-      <Estimate>38236704</Estimate>
+      <Count>38236704.0</Count>
       <Density___km2_>80.2</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>507800000000</Total____>
-        <Per_capita____>12596</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>140480000000</Total____>
-        <Per_capita____>3945</Per_capita____>
-      </GDP__nominal_>
-      <Gini>31.2</Gini>
-      <HDI>0.74</HDI>
-      <Currency>Uzbek sum</Currency>
-    </Economy>
   </infobox>
 </country>

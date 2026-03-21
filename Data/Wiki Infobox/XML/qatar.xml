@@ -2,49 +2,52 @@
 <country>
   <country>Qatar</country>
   <infobox>
+    <Area>
+      <Total__km2_>11581.0</Total__km2_>
+      <Water____>0.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Qatari riyal</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>121610.0</Per_capita____>
+        <Total____>378080000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>71650.0</Per_capita____>
+        <Total____>222780000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>35.1</Gini>
+      <HDI>0.886</HDI>
+    </Economy>
     <General>
-      <Official_languages>Arabic</Official_languages>
       <Ethnic_groups>
         <Arab____>49</Arab____>
-        <South_Asian____>43</South_Asian____>
-        <Indian____>21.8</Indian____>
         <Bangladeshi____>12.5</Bangladeshi____>
+        <Indian____>21.8</Indian____>
         <Pakistani____>4.7</Pakistani____>
+        <South_Asian____>43</South_Asian____>
         <Sri_Lankan____>4.35</Sri_Lankan____>
         <other____>7</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Arabic</item>
+      </Primary_Language>
       <Religion>
-        <Islam___official______>65.5</Islam___official______>
-        <Hinduism____>15.1</Hinduism____>
-        <Christianity____>14.2</Christianity____>
         <Buddhism____>3.3</Buddhism____>
+        <Christianity____>14.2</Christianity____>
+        <Hinduism____>15.1</Hinduism____>
+        <Islam___official______>65.5</Islam___official______>
         <other____>1.9</other____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary authoritarian semi-constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>11581</Total__km2_>
-      <Water____>negligible</Water____>
-    </Area>
     <Population>
-      <Estimate>3214609</Estimate>
-      <Census>2846118</Census>
-      <Density___km2_>264</Density___km2_>
+      <Count>3214609.0</Count>
+      <Density___km2_>264.0</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>378080000000</Total____>
-        <Per_capita____>121610</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>222780000000</Total____>
-        <Per_capita____>71650</Per_capita____>
-      </GDP__nominal_>
-      <Gini>35.1</Gini>
-      <HDI>0.886</HDI>
-      <Currency>Qatari riyal</Currency>
-    </Economy>
   </infobox>
 </country>

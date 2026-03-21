@@ -1,46 +1,51 @@
 {
     "country": "China",
     "infobox": {
+        "Area": {
+            "Total (km2)": 9596961.0,
+            "Water (%)": 2.8
+        },
+        "Economy": {
+            "Currency": [
+                "Renminbi"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 29191.0,
+                "Total ($)": 41016000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 13806.0,
+                "Total ($)": 19399000000000.0
+            },
+            "Gini": 36.0,
+            "HDI": 0.797
+        },
         "General": {
-            "Official languages": "Standard Chinese",
             "Ethnic groups": {
                 "Han Chinese (%)": 91.11,
-                "Zhuang (%)": 1.39,
-                "Uyghur (%)": 0.84,
                 "Hui (%)": 0.81,
-                "Miao (%)": 0.79,
                 "Manchu (%)": 0.74,
-                "Yi (%)": 0.7,
-                "Tujia (%)": 0.68,
+                "Miao (%)": 0.79,
                 "Tibetan (%)": 0.5,
+                "Tujia (%)": 0.68,
+                "Uyghur (%)": 0.84,
+                "Yi (%)": 0.7,
+                "Zhuang (%)": 1.39,
                 "others (%)": 2.44
+            },
+            "Primary Language": [
+                "Standard Chinese"
+            ],
+            "Religion": {
+                "Unknown": 100
             }
-        },
-        "Population": {
-            "Largest city by municipal population": "Chongqing",
-            "Largest city by urban population": "Shanghai",
-            "Estimate": 1404890000,
-            "Density (/km2)": 146
         },
         "Government": {
             "Government": "Unitary communist state"
         },
-        "Area": {
-            "Total (km2)": 9596961,
-            "Water (%)": 2.8
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 41016000000000,
-                "Per capita ($)": 29191
-            },
-            "GDP (nominal)": {
-                "Total ($)": 19399000000000,
-                "Per capita ($)": 13806
-            },
-            "Gini": 36.0,
-            "HDI": 0.797,
-            "Currency": "Renminbi"
+        "Population": {
+            "Count": 1404890000.0,
+            "Density (/km2)": 146.0
         }
     }
 }

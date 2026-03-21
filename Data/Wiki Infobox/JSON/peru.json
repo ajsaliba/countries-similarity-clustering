@@ -1,25 +1,47 @@
 {
     "country": "Peru",
     "infobox": {
+        "Area": {
+            "Total (km2)": 1285216.0,
+            "Water (%)": 0.41
+        },
+        "Economy": {
+            "Currency": [
+                "Peruvian sol"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 18980.0,
+                "Total ($)": 653090000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 9260.0,
+                "Total ($)": 318480000000.0
+            },
+            "Gini": 40.2,
+            "HDI": 0.794
+        },
         "General": {
-            "Official languages": "Spanish",
-            "Co-official languages": "Quechua Aymara Other Indigenous languages",
             "Ethnic groups": {
+                "Black (%)": 3.57,
+                "East Asian (%)": 0.16,
                 "Mestizo (%)": 60.2,
                 "Native (%)": 25.75,
                 "White (%)": 5.89,
-                "Black (%)": 3.57,
-                "East Asian (%)": 0.16,
-                "other (%)": 1.1,
-                "no answer (%)": 3.32
+                "no answer (%)": 3.32,
+                "other (%)": 1.1
             },
+            "Primary Language": [
+                "Aymara",
+                "Quechua",
+                "Spanish"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 94.5,
                     "breakdown": {
                         "Catholicism (%)": 76,
                         "other Christian (%)": 18.5
-                    }
+                    },
+                    "percentage": 94.5
                 },
                 "no religion (%)": 5.1,
                 "other (%)": 0.4
@@ -28,26 +50,9 @@
         "Government": {
             "Government": "Unitary semi-presidential republic"
         },
-        "Area": {
-            "Total (km2)": 1285216,
-            "Water (%)": 0.41
-        },
         "Population": {
-            "Estimate": 34352720,
-            "Density (/km2)": 23
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 653090000000,
-                "Per capita ($)": 18980
-            },
-            "GDP (nominal)": {
-                "Total ($)": 318480000000,
-                "Per capita ($)": 9260
-            },
-            "Gini": 40.2,
-            "HDI": 0.794,
-            "Currency": "Peruvian sol"
+            "Count": 34352720.0,
+            "Density (/km2)": 23.0
         }
     }
 }

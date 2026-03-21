@@ -1,15 +1,36 @@
 {
     "country": "Yemen",
     "infobox": {
+        "Area": {
+            "Total (km2)": 455503.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "Yemeni rial"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 1670.0,
+                "Total ($)": 69960000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 416.0,
+                "Total ($)": 17400000000.0
+            },
+            "Gini": 36.7,
+            "HDI": 0.47
+        },
         "General": {
-            "Official language and national language": "Arabic",
             "Ethnic groups": {
-                "Arabs (%)": 92.8,
-                "Somalis (%)": 3.7,
                 "Afro-Arabs (%)": 1.1,
+                "Arabs (%)": 92.8,
                 "Indo - Pakistani (%)": 1,
+                "Somalis (%)": 3.7,
                 "other (%)": 1.4
             },
+            "Primary Language": [
+                "Arabic"
+            ],
             "Religion": {
                 "Islam ( official ) (%)": 99.1,
                 "Sunni (%)": 65,
@@ -20,26 +41,9 @@
         "Government": {
             "Government": "Unitary semi-presidential republic under a provisional government"
         },
-        "Area": {
-            "Total (km2)": 455503,
-            "Water (%)": "Negligible"
-        },
         "Population": {
-            "Estimate": 32684503,
+            "Count": 32684503.0,
             "Density (/km2)": 71.8
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 69960000000,
-                "Per capita ($)": 1670
-            },
-            "GDP (nominal)": {
-                "Total ($)": 17400000000,
-                "Per capita ($)": 416
-            },
-            "Gini": 36.7,
-            "HDI": 0.47,
-            "Currency": "Yemeni rial"
         }
     }
 }

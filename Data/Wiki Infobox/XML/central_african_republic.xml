@@ -2,38 +2,46 @@
 <country>
   <country>Central African Republic</country>
   <infobox>
+    <Area>
+      <Total__km2_>622984.0</Total__km2_>
+      <Water____>-1.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Central African CFA franc</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>1390.0</Per_capita____>
+        <Total____>7940000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>650.0</Per_capita____>
+        <Total____>3710000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>43.0</Gini>
+      <HDI>0.414</HDI>
+    </Economy>
     <General>
-      <Official_languages>French Sango</Official_languages>
-      <Ethnic_groups>Baggara Arabs Baka Banda Bayaka Fula Gula Gbaya Kara Kresh Mbaka Mandja Ngbandi Runga Sara Vidiri Wodaabe Yakoma Yulu Kanuri Zande other</Ethnic_groups>
+      <Ethnic_groups>
+        <Baggara_Arabs_Baka_Banda_Bayaka_Fula_Gula_Gbaya_Kara_Kresh_Mbaka_Mandja_Ngbandi_Runga_Sara_Vidiri_Wodaabe_Yakoma_Yulu_Kanuri_Zande_other/>
+      </Ethnic_groups>
+      <Primary_Language>
+        <item>French</item>
+        <item>Sango</item>
+      </Primary_Language>
       <Religion>
         <Christianity____>73.2</Christianity____>
         <Islam____>13.9</Islam____>
-        <traditional_faiths____>12</traditional_faiths____>
         <other___none____>0.9</other___none____>
+        <traditional_faiths____>12</traditional_faiths____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary presidential republic</Government>
     </Government>
-    <Area>
-      <Total__km2_>622984</Total__km2_>
-    </Area>
     <Population>
-      <Estimate>5650957</Estimate>
+      <Count>5650957.0</Count>
       <Density___km2_>8.6</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>7940000000</Total____>
-        <Per_capita____>1390</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>3710000000</Total____>
-        <Per_capita____>650</Per_capita____>
-      </GDP__nominal_>
-      <Gini>43</Gini>
-      <HDI>0.414</HDI>
-      <Currency>Central African CFA franc</Currency>
-    </Economy>
   </infobox>
 </country>

@@ -1,78 +1,83 @@
 {
     "country": "Suriname",
     "infobox": {
-        "General": {
-            "Official languages": "Dutch",
-            "Ethnic groups": {
-                "Asian Surinamese (%)": 42.6,
-                "Hindustani (%)": 27.4,
-                "Javanese (%)": 13.7,
-                "Chinese (%)": 1.5,
-                "Afro-Surinamese (%)": 37.4,
-                "Maroon (%)": 21.7,
-                "Creole (%)": 15.7,
-                "Multiracial (%)": 13.4,
-                "Indigenous (%)": 3.8,
-                "European (%)": 0.3
+        "Area": {
+            "Total (km2)": 165940.0,
+            "Water (%)": 1.1
+        },
+        "Economy": {
+            "Currency": [
+                "Surinamese dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 22439.0,
+                "Total ($)": 14743000000.0
             },
+            "GDP (nominal)": {
+                "Per capita ($)": 6858.0,
+                "Total ($)": 4506000000.0
+            },
+            "Gini": -1.0,
+            "HDI": 0.722
+        },
+        "General": {
+            "Ethnic groups": {
+                "Afro-Surinamese (%)": 37.4,
+                "Asian Surinamese (%)": 42.6,
+                "Chinese (%)": 1.5,
+                "Creole (%)": 15.7,
+                "European (%)": 0.3,
+                "Hindustani (%)": 27.4,
+                "Indigenous (%)": 3.8,
+                "Javanese (%)": 13.7,
+                "Maroon (%)": 21.7,
+                "Multiracial (%)": 13.4
+            },
+            "Primary Language": [
+                "Dutch"
+            ],
             "Religion": {
                 "Christianity 26.75 Protestantism (%)": 48.4,
-                "Roman Catholicism (%)": 21.65,
                 "Hinduism": {
-                    "percentage": 22.3,
                     "breakdown": {
-                        "Sanātanī (%)": 17.97,
                         "Arya Samaj (%)": 3.08,
-                        "Other Hindu (%)": 1.23
-                    }
+                        "Other Hindu (%)": 1.23,
+                        "Sanātanī (%)": 17.97
+                    },
+                    "percentage": 22.3
                 },
                 "Islam": {
-                    "percentage": 13.9,
                     "breakdown": {
-                        "Sunni (%)": 3.91,
                         "Ahmadiyya (%)": 2.61,
-                        "Other Muslim (%)": 7.34
-                    }
+                        "Other Muslim (%)": 7.34,
+                        "Sunni (%)": 3.91
+                    },
+                    "percentage": 13.9
                 },
-                "Winti (%)": 1.8,
-                "Kejawèn (%)": 0.8,
                 "Judaism (%)": 0.03,
-                "no religion (%)": 7.52,
+                "Kejawèn (%)": 0.8,
                 "Not stated": {
-                    "percentage": 2.04,
                     "breakdown": {
                         "Don't know": {
-                            "percentage": 1.11,
                             "breakdown": {
                                 "Others (%)": 0.85
-                            }
+                            },
+                            "percentage": 1.11
                         }
-                    }
-                }
+                    },
+                    "percentage": 2.04
+                },
+                "Roman Catholicism (%)": 21.65,
+                "Winti (%)": 1.8,
+                "no religion (%)": 7.52
             }
         },
         "Government": {
             "Government": "Unitary assembly-independent presidential republic"
         },
-        "Area": {
-            "Total (km2)": 165940,
-            "Water (%)": 1.1
-        },
         "Population": {
-            "Estimate": 632638,
+            "Count": 632638.0,
             "Density (/km2)": 3.9
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 14743000000,
-                "Per capita ($)": 22439
-            },
-            "GDP (nominal)": {
-                "Total ($)": 4506000000,
-                "Per capita ($)": 6858
-            },
-            "HDI": 0.722,
-            "Currency": "Surinamese dollar"
         }
     }
 }

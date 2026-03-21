@@ -1,48 +1,53 @@
 {
     "country": "South Korea",
     "infobox": {
+        "Area": {
+            "Total (km2)": 100363.0,
+            "Water (%)": 0.3
+        },
+        "Economy": {
+            "Currency": [
+                "Korean Republic won"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 65080.0,
+                "Total ($)": 3363000000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 35962.0,
+                "Total ($)": 1859000000000.0
+            },
+            "Gini": 33.3,
+            "HDI": 0.937
+        },
         "General": {
-            "Official languages": "Korean Korean Sign Language",
             "Ethnic groups": {
                 "Korean (%)": 94.8,
                 "other (%)": 5.2
             },
+            "Primary Language": [
+                "Korean",
+                "Korean Sign Language"
+            ],
             "Religion": {
+                "Buddhism (%)": 17,
+                "Catholic (%)": 11,
                 "No religion": {
-                    "percentage": 51,
                     "breakdown": {
                         "Christianity (%)": 31,
                         "Protestant (%)": 20
-                    }
+                    },
+                    "percentage": 51
                 },
-                "Catholic (%)": 11,
-                "Buddhism (%)": 17,
                 "other (%)": 2
             }
         },
         "Government": {
             "Government": "Unitary presidential republic"
         },
-        "Area": {
-            "Total (km2)": 100363,
-            "Water (%)": 0.3
-        },
         "Population": {
-            "Estimate": 52081799,
-            "Density (/km2)": 507
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 3363000000000,
-                "Per capita ($)": 65080
-            },
-            "GDP (nominal)": {
-                "Total ($)": 1859000000000,
-                "Per capita ($)": 35962
-            },
-            "Gini": 33.3,
-            "HDI": 0.937,
-            "Currency": "Korean Republic won"
+            "Count": 52081799.0,
+            "Density (/km2)": 507.0
         }
     }
 }

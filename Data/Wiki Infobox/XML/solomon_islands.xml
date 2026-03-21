@@ -2,47 +2,50 @@
 <country>
   <country>Solomon Islands</country>
   <infobox>
+    <Area>
+      <Total__km2_>28896.0</Total__km2_>
+      <Water____>3.2</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Solomon Islands dollar</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>2205.25</Per_capita____>
+        <Total____>1680000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>2205.25</Per_capita____>
+        <Total____>1681000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>37.1</Gini>
+      <HDI>0.584</HDI>
+    </Economy>
     <General>
-      <Official_language>English</Official_language>
       <Ethnic_groups>
         <Melanesian____>95.3</Melanesian____>
-        <Polynesian____>3.1</Polynesian____>
         <Micronesian____>1.2</Micronesian____>
+        <Polynesian____>3.1</Polynesian____>
         <others____>0.4</others____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>English</item>
+      </Primary_Language>
       <Religion>
+        <Catholicism____>19.5</Catholicism____>
         <Christianity____>97.4</Christianity____>
         <Protestantism____>78.6</Protestantism____>
-        <Catholicism____>19.5</Catholicism____>
-        <other_Christian____>1.9</other_Christian____>
         <folk_religions____>1.2</folk_religions____>
+        <other_Christian____>1.9</other_Christian____>
         <others___none____>1.4</others___none____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary parliamentary constitutional monarchy</Government>
     </Government>
-    <Area>
-      <Total__km2_>28896</Total__km2_>
-      <Water____>3.2</Water____>
-    </Area>
     <Population>
-      <Estimate>828857</Estimate>
-      <Census>721956</Census>
+      <Count>828857.0</Count>
       <Density___km2_>24.2</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>1680000000</Total____>
-        <Per_capita____>2205.25</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>1681000000</Total____>
-        <Per_capita____>2205.25</Per_capita____>
-      </GDP__nominal_>
-      <Gini>37.1</Gini>
-      <HDI>0.584</HDI>
-      <Currency>Solomon Islands dollar</Currency>
-    </Economy>
   </infobox>
 </country>

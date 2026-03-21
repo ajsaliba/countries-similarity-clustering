@@ -2,50 +2,54 @@
 <country>
   <country>Laos</country>
   <infobox>
+    <Area>
+      <Total__km2_>236800.0</Total__km2_>
+      <Water____>2.0</Water____>
+    </Area>
+    <Economy>
+      <Currency>
+        <item>Kip</item>
+      </Currency>
+      <GDP___PPP__>
+        <Per_capita____>10120.0</Per_capita____>
+        <Total____>78850000000.0</Total____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Per_capita____>2100.0</Per_capita____>
+        <Total____>16320000000.0</Total____>
+      </GDP__nominal_>
+      <Gini>36.4</Gini>
+      <HDI>0.617</HDI>
+    </Economy>
     <General>
-      <Official_languages>Lao</Official_languages>
       <Ethnic_groups>
-        <Lao____>53.2</Lao____>
-        <Khmu____>11</Khmu____>
+        <Akha____>1.8</Akha____>
         <Hmong____>9.2</Hmong____>
+        <Katang____>2.2</Katang____>
+        <Khmu____>11</Khmu____>
+        <Lao____>53.2</Lao____>
+        <Lue____>2</Lue____>
+        <Makong____>2.5</Makong____>
         <Phu_Thai____>3.4</Phu_Thai____>
         <Tai____>3.1</Tai____>
-        <Makong____>2.5</Makong____>
-        <Katang____>2.2</Katang____>
-        <Lue____>2</Lue____>
-        <Akha____>1.8</Akha____>
         <other____>11.6</other____>
       </Ethnic_groups>
+      <Primary_Language>
+        <item>Lao</item>
+      </Primary_Language>
       <Religion>
         <Buddhism____>66</Buddhism____>
-        <Tai_folk_religion____>30.7</Tai_folk_religion____>
         <Christianity____>1.5</Christianity____>
+        <Tai_folk_religion____>30.7</Tai_folk_religion____>
         <other___none____>1.8</other___none____>
       </Religion>
     </General>
     <Government>
       <Government>Unitary communist state</Government>
     </Government>
-    <Area>
-      <Total__km2_>236800</Total__km2_>
-      <Water____>2</Water____>
-    </Area>
     <Population>
-      <Estimate>7953556</Estimate>
+      <Count>7953556.0</Count>
       <Density___km2_>33.21</Density___km2_>
     </Population>
-    <Economy>
-      <GDP___PPP__>
-        <Total____>78850000000</Total____>
-        <Per_capita____>10120</Per_capita____>
-      </GDP___PPP__>
-      <GDP__nominal_>
-        <Total____>16320000000</Total____>
-        <Per_capita____>2100</Per_capita____>
-      </GDP__nominal_>
-      <Gini>36.4</Gini>
-      <HDI>0.617</HDI>
-      <Currency>Kip</Currency>
-    </Economy>
   </infobox>
 </country>

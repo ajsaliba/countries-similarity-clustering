@@ -1,26 +1,47 @@
 {
     "country": "Jamaica",
     "infobox": {
+        "Area": {
+            "Total (km2)": 10991.0,
+            "Water (%)": 1.5
+        },
+        "Economy": {
+            "Currency": [
+                "Jamaican dollar"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 12283.0,
+                "Total ($)": 33775000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 7487.0,
+                "Total ($)": 20586000000.0
+            },
+            "Gini": 40.2,
+            "HDI": 0.72
+        },
         "General": {
-            "Official languages": "English",
             "Ethnic groups": {
                 "African (%)": 76.3,
-                "Mixed (%)": 15.1,
-                "Indian (%)": 3.4,
-                "White (%)": 3.2,
                 "Chinese (%)": 1.2,
+                "Indian (%)": 3.4,
+                "Mixed (%)": 15.1,
+                "White (%)": 3.2,
                 "others (%)": 0.8
             },
+            "Primary Language": [
+                "English"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 68.9,
                     "breakdown": {
                         "Protestantism (%)": 64.8,
                         "other Christian (%)": 4.1
-                    }
+                    },
+                    "percentage": 68.9
                 },
-                "no religion (%)": 21.3,
                 "Rastafari (%)": 1.1,
+                "no religion (%)": 21.3,
                 "other (%)": 6.5,
                 "unanswered (%)": 2.3
             }
@@ -28,27 +49,9 @@
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy"
         },
-        "Area": {
-            "Total (km2)": 10991,
-            "Water (%)": 1.5
-        },
         "Population": {
-            "Estimate": 2824913,
-            "Census": 2697983,
-            "Density (/km2)": 266
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 33775000000,
-                "Per capita ($)": 12283
-            },
-            "GDP (nominal)": {
-                "Total ($)": 20586000000,
-                "Per capita ($)": 7487
-            },
-            "Gini": 40.2,
-            "HDI": 0.72,
-            "Currency": "Jamaican dollar"
+            "Count": 2824913.0,
+            "Density (/km2)": 266.0
         }
     }
 }

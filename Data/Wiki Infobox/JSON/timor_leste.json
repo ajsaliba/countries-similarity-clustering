@@ -1,48 +1,55 @@
 {
     "country": "Timor-Leste",
     "infobox": {
+        "Area": {
+            "Total (km2)": 15007.0,
+            "Water (%)": 0.0
+        },
+        "Economy": {
+            "Currency": [
+                "United States dollar Timor-Leste centavo"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 4920.0,
+                "Total ($)": 6970000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 1490.0,
+                "Total ($)": 2120000000.0
+            },
+            "Gini": 28.7,
+            "HDI": 0.634
+        },
         "General": {
-            "Official languages": "Portuguese Tetum",
+            "Ethnic groups": {
+                "Unknown": 100.0
+            },
+            "Primary Language": [
+                "Portuguese",
+                "Tetum"
+            ],
             "Religion": {
                 "Christianity": {
-                    "percentage": 99.53,
                     "breakdown": {
                         "Catholicism (%)": 97.57,
                         "Protestantism (%)": 1.96
-                    }
+                    },
+                    "percentage": 99.53
                 },
                 "Islam": {
-                    "percentage": 0.24,
                     "breakdown": {
                         "other (%)": 0.23
-                    }
+                    },
+                    "percentage": 0.24
                 }
             }
         },
         "Government": {
             "Government": "Unitary semi-presidential republic"
         },
-        "Area": {
-            "Total (km2)": 14950,
-            "Water (%)": "Negligible"
-        },
         "Population": {
-            "Estimate": 1354662,
-            "Census": 1341737,
-            "Density (/km2)": 94
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 6970000000,
-                "Per capita ($)": 4920
-            },
-            "GDP (nominal)": {
-                "Total ($)": 2120000000,
-                "Per capita ($)": 1490
-            },
-            "Gini": 28.7,
-            "HDI": 0.634,
-            "Currency": "United States dollar Timor-Leste centavo"
+            "Count": 1354662.0,
+            "Density (/km2)": 94.0
         }
     }
 }

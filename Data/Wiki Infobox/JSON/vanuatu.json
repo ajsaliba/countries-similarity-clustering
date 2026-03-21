@@ -1,49 +1,55 @@
 {
     "country": "Vanuatu",
     "infobox": {
+        "Area": {
+            "Total (km2)": 12189.0,
+            "Water (%)": -1.0
+        },
+        "Economy": {
+            "Currency": [
+                "Vatu"
+            ],
+            "GDP ( PPP )": {
+                "Per capita ($)": 3001.0,
+                "Total ($)": 1002000000.0
+            },
+            "GDP (nominal)": {
+                "Per capita ($)": 3188.0,
+                "Total ($)": 1064000000.0
+            },
+            "Gini": 32.3,
+            "HDI": 0.621
+        },
         "General": {
-            "Official languages": "Bislama English French",
             "Ethnic groups": {
                 "Ni-Vanuatu (%)": 98.5,
                 "others (%)": 1.5
             },
+            "Primary Language": [
+                "Bislama",
+                "English",
+                "French"
+            ],
             "Religion": {
-                "Christianity": {
-                    "percentage": 93.4,
-                    "breakdown": {
-                        "Protestantism (%)": 75.1,
-                        "Catholicism (%)": 13.5,
-                        "other Christian (%)": 4.8
-                    }
-                },
                 "Animism (%)": 4.6,
                 "Baháʼí Faith (%)": 1.4,
+                "Christianity": {
+                    "breakdown": {
+                        "Catholicism (%)": 13.5,
+                        "Protestantism (%)": 75.1,
+                        "other Christian (%)": 4.8
+                    },
+                    "percentage": 93.4
+                },
                 "other / none (%)": 0.6
             }
         },
         "Government": {
             "Government": "Unitary parliamentary republic"
         },
-        "Area": {
-            "Total (km2)": 12189
-        },
         "Population": {
-            "Estimate": 335908,
-            "Census": 300019,
+            "Count": 335908.0,
             "Density (/km2)": 27.6
-        },
-        "Economy": {
-            "GDP ( PPP )": {
-                "Total ($)": 1002000000,
-                "Per capita ($)": 3001
-            },
-            "GDP (nominal)": {
-                "Total ($)": 1064000000,
-                "Per capita ($)": 3188
-            },
-            "Gini": 32.3,
-            "HDI": 0.621,
-            "Currency": "Vatu"
         }
     }
 }

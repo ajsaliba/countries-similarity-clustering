@@ -2,39 +2,39 @@
     "country": "Bahamas, The",
     "infobox": {
         "Area": {
-            "Total (km2)": 13943.0,
-            "Water (%)": 28.0
+            "Total": 13943.0,
+            "Water": 28.0
         },
         "Economy": {
             "Currency": [
                 "Bahamian dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 46524.0,
-                "Total ($)": 18989000000.0
+                "Per capita": 46524.0,
+                "Total": 18989000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 35257.0,
-                "Total ($)": 14390000000.0
+                "Per capita": 35257.0,
+                "Total": 14390000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.82
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 90.6,
-                "Mixed (%)": 2.1,
-                "Other (%)": 1.9,
-                "White (%)": 4.7
+                "African": 90.6,
+                "Mixed": 2.1,
+                "Other": 1.9,
+                "White": 4.7
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 93.0,
-                "Folk/Traditional (%)": 1.9,
-                "No religion (%)": 4.5,
-                "Other (%)": 0.6
+                "Christianity": 93.0,
+                "Folk/Traditional": 1.9,
+                "No religion": 4.5,
+                "Other": 0.6
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 412628.0,
-            "Density (/km2)": 25.21
+            "Density": 25.21
         }
     }
 }

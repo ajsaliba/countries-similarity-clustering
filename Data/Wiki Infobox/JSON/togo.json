@@ -2,37 +2,37 @@
     "country": "Togo",
     "infobox": {
         "Area": {
-            "Total (km2)": 56785.0,
-            "Water (%)": 4.2
+            "Total": 56785.0,
+            "Water": 4.2
         },
         "Economy": {
             "Currency": [
                 "West African CFA franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 3470.0,
-                "Total ($)": 33050000000.0
+                "Per capita": 3470.0,
+                "Total": 33050000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1050.0,
-                "Total ($)": 10020000000.0
+                "Per capita": 1050.0,
+                "Total": 10020000000.0
             },
             "Gini": 43.1,
             "HDI": 0.571
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 94.4,
-                "Non-African (%)": 5.6
+                "African": 94.4,
+                "Non-African": 5.6
             },
             "Primary Language": [
                 "French"
             ],
             "Religion": {
-                "Christianity (%)": 50.0,
-                "Folk/Traditional (%)": 33.0,
-                "Islam (%)": 16.0,
-                "Other (%)": 1.0
+                "Christianity": 50.0,
+                "Folk/Traditional": 33.0,
+                "Islam": 16.0,
+                "Other": 1.0
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 9583381.0,
-            "Density (/km2)": 125.9
+            "Density": 125.9
         }
     }
 }

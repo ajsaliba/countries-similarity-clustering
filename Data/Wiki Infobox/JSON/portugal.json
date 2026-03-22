@@ -2,34 +2,34 @@
     "country": "Portugal",
     "infobox": {
         "Area": {
-            "Total (km2)": 156597.0,
-            "Water (%)": 1.2
+            "Total": 156597.0,
+            "Water": 1.2
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 51853.0,
-                "Total ($)": 556383000000.0
+                "Per capita": 51853.0,
+                "Total": 556383000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 33972.0,
-                "Total ($)": 364527000000.0
+                "Per capita": 33972.0,
+                "Total": 364527000000.0
             },
             "Gini": 31.9,
             "HDI": 0.89
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Portuguese",
                 "Portuguese Sign Language"
             ],
             "Religion": {
-                "Unknown": 100.0
+                "Unknown": null
             }
         },
         "Government": {
@@ -38,7 +38,7 @@
         },
         "Population": {
             "Count": 10749635.0,
-            "Density (/km2)": 116.6
+            "Density": 116.6
         }
     }
 }

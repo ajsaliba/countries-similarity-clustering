@@ -2,42 +2,42 @@
     "country": "Philippines",
     "infobox": {
         "Area": {
-            "Total (km2)": 300000.0,
-            "Water (%)": 0.61
+            "Total": 300000.0,
+            "Water": 0.61
         },
         "Economy": {
             "Currency": [
                 "Philippine peso"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 12930.0,
-                "Total ($)": 1488000000000.0
+                "Per capita": 12930.0,
+                "Total": 1488000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 4350.0,
-                "Total ($)": 497050000000.0
+                "Per capita": 4350.0,
+                "Total": 497050000000.0
             },
             "Gini": 39.3,
             "HDI": 0.72
         },
         "General": {
             "Ethnic groups": {
-                "Bicolano (%)": 6.5,
-                "Bisaya (%)": 14.3,
-                "Cebuano (%)": 8.0,
-                "Ilocano (%)": 8.0,
-                "Ilonggo (%)": 7.9,
-                "Other (%)": 20.3,
-                "Tagalog (%)": 26.0
+                "Bicolano": 6.5,
+                "Bisaya": 14.3,
+                "Cebuano": 8.0,
+                "Ilocano": 8.0,
+                "Ilonggo": 7.9,
+                "Other": 20.3,
+                "Tagalog": 26.0
             },
             "Primary Language": [
                 "English",
                 "Filipino"
             ],
             "Religion": {
-                "Christianity (%)": 85.3,
-                "Islam (%)": 6.4,
-                "Other (%)": 8.2
+                "Christianity": 85.3,
+                "Islam": 6.4,
+                "Other": 8.2
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 112729484.0,
-            "Density (/km2)": 363.45
+            "Density": 363.45
         }
     }
 }

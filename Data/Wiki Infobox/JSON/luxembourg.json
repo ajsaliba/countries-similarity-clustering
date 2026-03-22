@@ -2,27 +2,27 @@
     "country": "Luxembourg",
     "infobox": {
         "Area": {
-            "Total (km2)": 2586.4,
-            "Water (%)": 0.23
+            "Total": 2586.4,
+            "Water": 0.23
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 154914.0,
-                "Total ($)": 106505000000.0
+                "Per capita": 154914.0,
+                "Total": 106505000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 141079.0,
-                "Total ($)": 96993000000.0
+                "Per capita": 141079.0,
+                "Total": 96993000000.0
             },
             "Gini": 30.6,
             "HDI": 0.922
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "French",
@@ -30,9 +30,9 @@
                 "Luxembourgish"
             ],
             "Religion": {
-                "Christianity (%)": 53.0,
-                "No religion (%)": 38.0,
-                "Other (%)": 9.0
+                "Christianity": 53.0,
+                "No religion": 38.0,
+                "Other": 9.0
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 690947.0,
-            "Density (/km2)": 264.0
+            "Density": 264.0
         }
     }
 }

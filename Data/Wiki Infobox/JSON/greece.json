@@ -2,36 +2,36 @@
     "country": "Greece",
     "infobox": {
         "Area": {
-            "Total (km2)": 131957.0,
-            "Water (%)": 1.51
+            "Total": 131957.0,
+            "Water": 1.51
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 44985.0,
-                "Total ($)": 466945000000.0
+                "Per capita": 44985.0,
+                "Total": 466945000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 27170.0,
-                "Total ($)": 282019000000.0
+                "Per capita": 27170.0,
+                "Total": 282019000000.0
             },
             "Gini": 31.8,
             "HDI": 0.908
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Greek"
             ],
             "Religion": {
-                "Christianity (%)": 93.0,
-                "Islam (%)": 2.0,
-                "No religion (%)": 4.0,
-                "Other (%)": 1.0
+                "Christianity": 93.0,
+                "Islam": 2.0,
+                "No religion": 4.0,
+                "Other": 1.0
             }
         },
         "Government": {
@@ -40,7 +40,7 @@
         },
         "Population": {
             "Count": 10372335.0,
-            "Density (/km2)": 78.9
+            "Density": 78.9
         }
     }
 }

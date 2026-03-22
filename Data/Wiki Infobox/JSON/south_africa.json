@@ -2,31 +2,31 @@
     "country": "South Africa",
     "infobox": {
         "Area": {
-            "Total (km2)": 1221037.0,
-            "Water (%)": 0.38
+            "Total": 1221037.0,
+            "Water": 0.38
         },
         "Economy": {
             "Currency": [
                 "South African rand"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 16280.0,
-                "Total ($)": 1060000000000.0
+                "Per capita": 16280.0,
+                "Total": 1060000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 6830.0,
-                "Total ($)": 443640000000.0
+                "Per capita": 6830.0,
+                "Total": 443640000000.0
             },
             "Gini": 63.0,
             "HDI": 0.741
         },
         "General": {
             "Ethnic groups": {
-                "Black (%)": 81.4,
-                "Coloured (%)": 8.2,
-                "Indian or Asian (%)": 2.7,
-                "Other (%)": 0.4,
-                "White (%)": 7.3
+                "Black": 81.4,
+                "Coloured": 8.2,
+                "Indian or Asian": 2.7,
+                "Other": 0.4,
+                "White": 7.3
             },
             "Primary Language": [
                 "Afrikaans",
@@ -43,12 +43,12 @@
                 "Zulu"
             ],
             "Religion": {
-                "Christianity (%)": 85.3,
-                "Folk/Traditional (%)": 7.8,
-                "Hinduism (%)": 1.1,
-                "Islam (%)": 1.6,
-                "No religion (%)": 3.1,
-                "Other (%)": 1.1
+                "Christianity": 85.3,
+                "Folk/Traditional": 7.8,
+                "Hinduism": 1.1,
+                "Islam": 1.6,
+                "No religion": 3.1,
+                "Other": 1.1
             }
         },
         "Government": {
@@ -57,7 +57,7 @@
         },
         "Population": {
             "Count": 63015904.0,
-            "Density (/km2)": 50.8
+            "Density": 50.8
         }
     }
 }

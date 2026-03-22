@@ -2,36 +2,36 @@
     "country": "Mexico",
     "infobox": {
         "Area": {
-            "Total (km2)": 1972550.0,
-            "Water (%)": 1.58
+            "Total": 1972550.0,
+            "Water": 1.58
         },
         "Economy": {
             "Currency": [
                 "Mexican peso"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 25463.0,
-                "Total ($)": 3396000000000.0
+                "Per capita": 25463.0,
+                "Total": 3396000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 12692.0,
-                "Total ($)": 1693000000000.0
+                "Per capita": 12692.0,
+                "Total": 1693000000000.0
             },
             "Gini": 40.2,
             "HDI": 0.789
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Indigenous",
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 88.9,
-                "No religion (%)": 8.1,
-                "Other (%)": 2.4
+                "Christianity": 88.9,
+                "No religion": 8.1,
+                "Other": 2.4
             }
         },
         "Government": {
@@ -40,7 +40,7 @@
         },
         "Population": {
             "Count": 131946900.0,
-            "Density (/km2)": 61.0
+            "Density": 61.0
         }
     }
 }

@@ -2,40 +2,40 @@
     "country": "Mongolia",
     "infobox": {
         "Area": {
-            "Total (km2)": 1564116.0,
-            "Water (%)": 0.67
+            "Total": 1564116.0,
+            "Water": 0.67
         },
         "Economy": {
             "Currency": [
                 "Tögrög"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 20450.0,
-                "Total ($)": 73280000000.0
+                "Per capita": 20450.0,
+                "Total": 73280000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 7200.0,
-                "Total ($)": 25800000000.0
+                "Per capita": 7200.0,
+                "Total": 25800000000.0
             },
             "Gini": 32.7,
             "HDI": 0.747
         },
         "General": {
             "Ethnic groups": {
-                "Kazakhs (%)": 3.8,
-                "Mongols (%)": 95.6,
-                "Other (%)": 0.6
+                "Kazakhs": 3.8,
+                "Mongols": 95.6,
+                "Other": 0.6
             },
             "Primary Language": [
                 "Mongolian"
             ],
             "Religion": {
-                "Buddhism (%)": 51.7,
-                "Christianity (%)": 1.3,
-                "Folk/Traditional (%)": 2.5,
-                "Islam (%)": 3.2,
-                "No religion (%)": 40.6,
-                "Other (%)": 0.7
+                "Buddhism": 51.7,
+                "Christianity": 1.3,
+                "Folk/Traditional": 2.5,
+                "Islam": 3.2,
+                "No religion": 40.6,
+                "Other": 0.7
             }
         },
         "Government": {
@@ -44,7 +44,7 @@
         },
         "Population": {
             "Count": 3504741.0,
-            "Density (/km2)": 2.24
+            "Density": 2.24
         }
     }
 }

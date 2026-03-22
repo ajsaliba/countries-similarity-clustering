@@ -2,38 +2,38 @@
     "country": "Lebanon",
     "infobox": {
         "Area": {
-            "Total (km2)": 10452.0,
-            "Water (%)": 1.8
+            "Total": 10452.0,
+            "Water": 1.8
         },
         "Economy": {
             "Currency": [
                 "Lebanese pound"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 11793.0,
-                "Total ($)": 78233000000.0
+                "Per capita": 11793.0,
+                "Total": 78233000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 3283.0,
-                "Total ($)": 21780000000.0
+                "Per capita": 3283.0,
+                "Total": 21780000000.0
             },
             "Gini": 31.8,
             "HDI": 0.752
         },
         "General": {
             "Ethnic groups": {
-                "Arab (%)": 95.0,
-                "Armenian (%)": 4.0,
-                "Other (%)": 1.0
+                "Arab": 95.0,
+                "Armenian": 4.0,
+                "Other": 1.0
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
-                "Christianity (%)": 41.4,
-                "Druze (%)": 5.21,
-                "Islam (%)": 53.31,
-                "No religion (%)": 0.08
+                "Christianity": 41.4,
+                "Druze": 5.21,
+                "Islam": 53.31,
+                "No religion": 0.08
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 5364482.0,
-            "Density (/km2)": 513.0
+            "Density": 513.0
         }
     }
 }

@@ -2,39 +2,39 @@
     "country": "Dominica",
     "infobox": {
         "Area": {
-            "Total (km2)": 750.0,
-            "Water (%)": 1.6
+            "Total": 750.0,
+            "Water": 1.6
         },
         "Economy": {
             "Currency": [
                 "East Caribbean dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 9726.0,
-                "Total ($)": 688000000.0
+                "Per capita": 9726.0,
+                "Total": 688000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 7860.0,
-                "Total ($)": 485000000.0
+                "Per capita": 7860.0,
+                "Total": 485000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.761
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 75.0,
-                "European or other (%)": 0.8,
-                "Kalinago (%)": 4.0,
-                "Multiracial (%)": 19.0
+                "African": 75.0,
+                "European or other": 0.8,
+                "Kalinago": 4.0,
+                "Multiracial": 19.0
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 94.4,
-                "Folk/Traditional (%)": 3.0,
-                "No religion (%)": 0.9,
-                "Other (%)": 1.7
+                "Christianity": 94.4,
+                "Folk/Traditional": 3.0,
+                "No religion": 0.9,
+                "Other": 1.7
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 72412.0,
-            "Density (/km2)": 105.0
+            "Density": 105.0
         }
     }
 }

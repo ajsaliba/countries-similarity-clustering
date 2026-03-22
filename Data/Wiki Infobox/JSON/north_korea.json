@@ -2,36 +2,36 @@
     "country": "North Korea",
     "infobox": {
         "Area": {
-            "Total (km2)": 120538.0,
-            "Water (%)": 0.11
+            "Total": 120538.0,
+            "Water": 0.11
         },
         "Economy": {
             "Currency": [
                 "Korean People's won"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 600.0,
-                "Total ($)": 15416000000.0
+                "Per capita": 600.0,
+                "Total": 15416000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1261.0,
-                "Total ($)": 32036000000.0
+                "Per capita": 1261.0,
+                "Total": 32036000000.0
             },
             "Gini": 16.6,
-            "HDI": -1.0
+            "HDI": null
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Korean"
             ],
             "Religion": {
-                "Buddhism (%)": 1.5,
-                "Folk/Traditional (%)": 25.0,
-                "No religion (%)": 73.0,
-                "Other (%)": 0.5
+                "Buddhism": 1.5,
+                "Folk/Traditional": 25.0,
+                "No religion": 73.0,
+                "Other": 0.5
             }
         },
         "Government": {
@@ -40,7 +40,7 @@
         },
         "Population": {
             "Count": 26298666.0,
-            "Density (/km2)": 212.0
+            "Density": 212.0
         }
     }
 }

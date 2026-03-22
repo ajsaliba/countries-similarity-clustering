@@ -2,32 +2,32 @@
     "country": "New Zealand",
     "infobox": {
         "Area": {
-            "Total (km2)": 263310.0,
-            "Water (%)": 1.6
+            "Total": 263310.0,
+            "Water": 1.6
         },
         "Economy": {
             "Currency": [
                 "New Zealand dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 55450.0,
-                "Total ($)": 298930000000.0
+                "Per capita": 55450.0,
+                "Total": 298930000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 46013.0,
-                "Total ($)": 248670000000.0
+                "Per capita": 46013.0,
+                "Total": 248670000000.0
             },
             "Gini": 30.0,
             "HDI": 0.938
         },
         "General": {
             "Ethnic groups": {
-                "Asian (%)": 17.3,
-                "European (%)": 67.8,
-                "ME / LA / African (%)": 1.9,
-                "Māori (%)": 19.6,
-                "Other (%)": 1.1,
-                "Pacific peoples (%)": 8.9
+                "Asian": 17.3,
+                "European": 67.8,
+                "ME / LA / African": 1.9,
+                "Māori": 19.6,
+                "Other": 1.1,
+                "Pacific peoples": 8.9
             },
             "Primary Language": [
                 "English",
@@ -35,10 +35,10 @@
                 "NZ Sign Language"
             ],
             "Religion": {
-                "Christianity (%)": 32.3,
-                "Hinduism (%)": 2.9,
-                "No religion (%)": 51.6,
-                "Other (%)": 6.3
+                "Christianity": 32.3,
+                "Hinduism": 2.9,
+                "No religion": 51.6,
+                "Other": 6.3
             }
         },
         "Government": {
@@ -47,7 +47,7 @@
         },
         "Population": {
             "Count": 5344340.0,
-            "Density (/km2)": 19.9
+            "Density": 19.9
         }
     }
 }

@@ -2,37 +2,37 @@
     "country": "Armenia",
     "infobox": {
         "Area": {
-            "Total (km2)": 29743.0,
-            "Water (%)": 4.71
+            "Total": 29743.0,
+            "Water": 4.71
         },
         "Economy": {
             "Currency": [
                 "Dram"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 23954.0,
-                "Total ($)": 74407000000.0
+                "Per capita": 23954.0,
+                "Total": 74407000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 8969.0,
-                "Total ($)": 27859000000.0
+                "Per capita": 8969.0,
+                "Total": 27859000000.0
             },
             "Gini": 27.9,
             "HDI": 0.811
         },
         "General": {
             "Ethnic groups": {
-                "Armenians (%)": 98.1,
-                "Other (%)": 0.8,
-                "Yazidis (%)": 1.1
+                "Armenians": 98.1,
+                "Other": 0.8,
+                "Yazidis": 1.1
             },
             "Primary Language": [
                 "Armenian"
             ],
             "Religion": {
-                "Christianity (%)": 96.8,
-                "No religion (%)": 0.6,
-                "Other (%)": 0.9
+                "Christianity": 96.8,
+                "No religion": 0.6,
+                "Other": 0.9
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 3081100.0,
-            "Density (/km2)": 103.6
+            "Density": 103.6
         }
     }
 }

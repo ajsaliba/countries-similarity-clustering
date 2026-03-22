@@ -2,36 +2,36 @@
     "country": "Cuba",
     "infobox": {
         "Area": {
-            "Total (km2)": 110860.0,
-            "Water (%)": 0.94
+            "Total": 110860.0,
+            "Water": 0.94
         },
         "Economy": {
             "Currency": [
                 "Cuban peso"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 22237.0,
-                "Total ($)": 254865000000.0
+                "Per capita": 22237.0,
+                "Total": 254865000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 22957.0,
-                "Total ($)": 252063000000.0
+                "Per capita": 22957.0,
+                "Total": 252063000000.0
             },
             "Gini": 38.0,
             "HDI": 0.762
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 58.9,
-                "Folk/Traditional (%)": 17.6,
-                "No religion (%)": 23.2,
-                "Other (%)": 0.3
+                "Christianity": 58.9,
+                "Folk/Traditional": 17.6,
+                "No religion": 23.2,
+                "Other": 0.3
             }
         },
         "Government": {
@@ -40,7 +40,7 @@
         },
         "Population": {
             "Count": 9748007.0,
-            "Density (/km2)": 89.8
+            "Density": 89.8
         }
     }
 }

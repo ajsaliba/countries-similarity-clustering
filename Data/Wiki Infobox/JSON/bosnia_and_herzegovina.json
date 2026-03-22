@@ -2,29 +2,29 @@
     "country": "Bosnia and Herzegovina",
     "infobox": {
         "Area": {
-            "Total (km2)": 51209.0,
-            "Water (%)": 1.4
+            "Total": 51209.0,
+            "Water": 1.4
         },
         "Economy": {
             "Currency": [
                 "Convertible mark"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 23930.0,
-                "Total ($)": 82230000000.0
+                "Per capita": 23930.0,
+                "Total": 82230000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 10546.0,
-                "Total ($)": 36240000000.0
+                "Per capita": 10546.0,
+                "Total": 36240000000.0
             },
             "Gini": 27.1,
             "HDI": 0.804
         },
         "General": {
             "Ethnic groups": {
-                "Bosniaks (%)": 50.1,
-                "Croats (%)": 15.5,
-                "Serbs (%)": 30.8
+                "Bosniaks": 50.1,
+                "Croats": 15.5,
+                "Serbs": 30.8
             },
             "Primary Language": [
                 "Bosnian",
@@ -32,9 +32,9 @@
                 "Serbian"
             ],
             "Religion": {
-                "Christianity (%)": 46.1,
-                "Islam (%)": 51.3,
-                "Other (%)": 2.6
+                "Christianity": 46.1,
+                "Islam": 51.3,
+                "Other": 2.6
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 2904256.0,
-            "Density (/km2)": 61.0
+            "Density": 61.0
         }
     }
 }

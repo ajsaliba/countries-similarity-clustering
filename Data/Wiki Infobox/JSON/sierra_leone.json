@@ -2,46 +2,46 @@
     "country": "Sierra Leone",
     "infobox": {
         "Area": {
-            "Total (km2)": 73252.0,
-            "Water (%)": 1.1
+            "Total": 73252.0,
+            "Water": 1.1
         },
         "Economy": {
             "Currency": [
                 "Leone"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 3550.0,
-                "Total ($)": 32510000000.0
+                "Per capita": 3550.0,
+                "Total": 32510000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 915.0,
-                "Total ($)": 8390000000.0
+                "Per capita": 915.0,
+                "Total": 8390000000.0
             },
             "Gini": 33.7,
             "HDI": 0.467
         },
         "General": {
             "Ethnic groups": {
-                "Fula (%)": 3.4,
-                "Kono (%)": 4.4,
-                "Koranko (%)": 2.8,
-                "Krio (%)": 1.3,
-                "Limba (%)": 6.4,
-                "Loko (%)": 2.9,
-                "Mandingo (%)": 2.4,
-                "Mende (%)": 33.2,
-                "Sherbro (%)": 2.6,
-                "Susu (%)": 2.9,
-                "Temne (%)": 35.5
+                "Fula": 3.4,
+                "Kono": 4.4,
+                "Koranko": 2.8,
+                "Krio": 1.3,
+                "Limba": 6.4,
+                "Loko": 2.9,
+                "Mandingo": 2.4,
+                "Mende": 33.2,
+                "Sherbro": 2.6,
+                "Susu": 2.9,
+                "Temne": 35.5
             },
             "Primary Language": [
                 "English",
                 "Krio"
             ],
             "Religion": {
-                "Christianity (%)": 21.0,
-                "Islam (%)": 78.0,
-                "Other (%)": 1.0
+                "Christianity": 21.0,
+                "Islam": 78.0,
+                "Other": 1.0
             }
         },
         "Government": {
@@ -50,7 +50,7 @@
         },
         "Population": {
             "Count": 8460512.0,
-            "Density (/km2)": 124.0
+            "Density": 124.0
         }
     }
 }

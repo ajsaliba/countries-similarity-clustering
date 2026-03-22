@@ -2,39 +2,39 @@
     "country": "Montenegro",
     "infobox": {
         "Area": {
-            "Total (km2)": 13883.0,
-            "Water (%)": 3.1
+            "Total": 13883.0,
+            "Water": 3.1
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 34410.0,
-                "Total ($)": 21480000000.0
+                "Per capita": 34410.0,
+                "Total": 21480000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 14990.0,
-                "Total ($)": 9350000000.0
+                "Per capita": 14990.0,
+                "Total": 9350000000.0
             },
             "Gini": 29.4,
             "HDI": 0.862
         },
         "General": {
             "Ethnic groups": {
-                "Albanians (%)": 5.0,
-                "Bosniaks or Muslims (%)": 11.1,
-                "Montenegrins (%)": 41.1,
-                "Russians (%)": 2.1,
-                "Serbs (%)": 32.9
+                "Albanians": 5.0,
+                "Bosniaks or Muslims": 11.1,
+                "Montenegrins": 41.1,
+                "Russians": 2.1,
+                "Serbs": 32.9
             },
             "Primary Language": [
                 "Montenegrin"
             ],
             "Religion": {
-                "Christianity (%)": 74.9,
-                "Islam (%)": 19.9,
-                "No religion (%)": 2.7
+                "Christianity": 74.9,
+                "Islam": 19.9,
+                "No religion": 2.7
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 623327.0,
-            "Density (/km2)": 43.6
+            "Density": 43.6
         }
     }
 }

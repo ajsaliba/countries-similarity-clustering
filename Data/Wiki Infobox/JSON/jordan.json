@@ -2,38 +2,38 @@
     "country": "Jordan",
     "infobox": {
         "Area": {
-            "Total (km2)": 89342.0,
-            "Water (%)": 0.6
+            "Total": 89342.0,
+            "Water": 0.6
         },
         "Economy": {
             "Currency": [
                 "Jordanian dinar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 12809.0,
-                "Total ($)": 132092000000.0
+                "Per capita": 12809.0,
+                "Total": 132092000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 4850.0,
-                "Total ($)": 50022000000.0
+                "Per capita": 4850.0,
+                "Total": 50022000000.0
             },
             "Gini": 35.4,
             "HDI": 0.754
         },
         "General": {
             "Ethnic groups": {
-                "Arab (%)": 95,
-                "Armenian and others (%)": 2,
-                "Circassian , Chechen (%)": 3
+                "Arab": 95,
+                "Armenian and others": 2,
+                "Circassian , Chechen": 3
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
-                "Christianity (%)": 3.0,
-                "Druze (%)": 1.0,
-                "Islam (%)": 95.0,
-                "Other (%)": 1.0
+                "Christianity": 3.0,
+                "Druze": 1.0,
+                "Islam": 95.0,
+                "Other": 1.0
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 11484805.0,
-            "Density (/km2)": 114.0
+            "Density": 114.0
         }
     }
 }

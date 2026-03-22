@@ -2,39 +2,39 @@
     "country": "Ireland",
     "infobox": {
         "Area": {
-            "Total (km2)": 70273.0,
-            "Water (%)": 2.0
+            "Total": 70273.0,
+            "Water": 2.0
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 134000.0,
-                "Total ($)": 736730000000.0
+                "Per capita": 134000.0,
+                "Total": 736730000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 108920.0,
-                "Total ($)": 598840000000.0
+                "Per capita": 108920.0,
+                "Total": 598840000000.0
             },
             "Gini": 27.9,
             "HDI": 0.949
         },
         "General": {
             "Ethnic groups": {
-                "Asian (%)": 3.3,
-                "Black (%)": 1.5,
-                "Other (%)": 12.5,
-                "White Irish (%)": 76.6
+                "Asian": 3.3,
+                "Black": 1.5,
+                "Other": 12.5,
+                "White Irish": 76.6
             },
             "Primary Language": [
                 "English",
                 "Irish"
             ],
             "Religion": {
-                "Christianity (%)": 75.7,
-                "No religion (%)": 14.5,
-                "Other (%)": 3.1
+                "Christianity": 75.7,
+                "No religion": 14.5,
+                "Other": 3.1
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 5458600.0,
-            "Density (/km2)": 76.6
+            "Density": 76.6
         }
     }
 }

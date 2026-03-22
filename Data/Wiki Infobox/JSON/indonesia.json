@@ -2,41 +2,41 @@
     "country": "Indonesia",
     "infobox": {
         "Area": {
-            "Total (km2)": 1904569.0,
-            "Water (%)": 4.85
+            "Total": 1904569.0,
+            "Water": 4.85
         },
         "Economy": {
             "Currency": [
                 "Indonesian rupiah"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 17612.0,
-                "Total ($)": 5009000000000.0
+                "Per capita": 17612.0,
+                "Total": 5009000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 5027.0,
-                "Total ($)": 1430000000000.0
+                "Per capita": 5027.0,
+                "Total": 1430000000000.0
             },
             "Gini": 37.9,
             "HDI": 0.728
         },
         "General": {
             "Ethnic groups": {
-                "Batak (%)": 3.6,
-                "Javanese (%)": 40.2,
-                "Madurese (%)": 3.0,
-                "Malay (%)": 3.7,
-                "Others (%)": 34.0,
-                "Sundanese (%)": 15.5
+                "Batak": 3.6,
+                "Javanese": 40.2,
+                "Madurese": 3.0,
+                "Malay": 3.7,
+                "Others": 34.0,
+                "Sundanese": 15.5
             },
             "Primary Language": [
                 "Indonesian"
             ],
             "Religion": {
-                "Buddhism (%)": 0.8,
-                "Christianity (%)": 10.45,
-                "Hinduism (%)": 1.7,
-                "Islam (%)": 87.1
+                "Buddhism": 0.8,
+                "Christianity": 10.45,
+                "Hinduism": 1.7,
+                "Islam": 87.1
             }
         },
         "Government": {
@@ -45,7 +45,7 @@
         },
         "Population": {
             "Count": 288315089.0,
-            "Density (/km2)": 143.0
+            "Density": 143.0
         }
     }
 }

@@ -2,37 +2,37 @@
     "country": "Pakistan",
     "infobox": {
         "Area": {
-            "Total (km2)": 881913.0,
-            "Water (%)": 2.86
+            "Total": 881913.0,
+            "Water": 2.86
         },
         "Economy": {
             "Currency": [
                 "Pakistani rupee"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 6950.0,
-                "Total ($)": 1670000000000.0
+                "Per capita": 6950.0,
+                "Total": 1670000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1710.0,
-                "Total ($)": 410500000000.0
+                "Per capita": 1710.0,
+                "Total": 410500000000.0
             },
             "Gini": 29.6,
             "HDI": 0.544
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "English",
                 "Urdu"
             ],
             "Religion": {
-                "Christianity (%)": 1.4,
-                "Hinduism (%)": 2.2,
-                "Islam (%)": 96.3,
-                "Other (%)": 0.1
+                "Christianity": 1.4,
+                "Hinduism": 2.2,
+                "Islam": 96.3,
+                "Other": 0.1
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 241499431.0,
-            "Density (/km2)": 273.8
+            "Density": 273.8
         }
     }
 }

@@ -2,42 +2,42 @@
     "country": "Guyana",
     "infobox": {
         "Area": {
-            "Total (km2)": 214969.0,
-            "Water (%)": 8.4
+            "Total": 214969.0,
+            "Water": 8.4
         },
         "Economy": {
             "Currency": [
                 "Guyanese dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 94258.0,
-                "Total ($)": 75294000000.0
+                "Per capita": 94258.0,
+                "Total": 75294000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 32326.0,
-                "Total ($)": 25822000000.0
+                "Per capita": 32326.0,
+                "Total": 25822000000.0
             },
             "Gini": 44.6,
             "HDI": 0.776
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 32.3,
-                "Chinese (%)": 0.2,
-                "European (%)": 0.3,
-                "Indian (%)": 44.4,
-                "Indigenous (%)": 10.5,
-                "Mixed (%)": 20
+                "African": 32.3,
+                "Chinese": 0.2,
+                "European": 0.3,
+                "Indian": 44.4,
+                "Indigenous": 10.5,
+                "Mixed": 20
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 55.5,
-                "Hinduism (%)": 31.0,
-                "Islam (%)": 9.5,
-                "No religion (%)": 4.2,
-                "Other (%)": 3.3
+                "Christianity": 55.5,
+                "Hinduism": 31.0,
+                "Islam": 9.5,
+                "No religion": 4.2,
+                "Other": 3.3
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 950986.0,
-            "Density (/km2)": 4.25
+            "Density": 4.25
         }
     }
 }

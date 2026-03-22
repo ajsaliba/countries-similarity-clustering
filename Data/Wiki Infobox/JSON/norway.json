@@ -2,28 +2,28 @@
     "country": "Norway",
     "infobox": {
         "Area": {
-            "Total (km2)": 385207.0,
-            "Water (%)": 5.32
+            "Total": 385207.0,
+            "Water": 5.32
         },
         "Economy": {
             "Currency": [
                 "Norwegian krone"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 107890.0,
-                "Total ($)": 606590000000.0
+                "Per capita": 107890.0,
+                "Total": 606590000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 89690.0,
-                "Total ($)": 504280000000.0
+                "Per capita": 89690.0,
+                "Total": 504280000000.0
             },
             "Gini": 25.3,
             "HDI": 0.97
         },
         "General": {
             "Ethnic groups": {
-                "Non-Norwegian (%)": 21.4,
-                "Norwegian (%)": 78.6
+                "Non-Norwegian": 21.4,
+                "Norwegian": 78.6
             },
             "Primary Language": [
                 "Kven",
@@ -34,10 +34,10 @@
                 "Sámi"
             ],
             "Religion": {
-                "Christianity (%)": 68.5,
-                "Islam (%)": 3.4,
-                "No religion (%)": 27.3,
-                "Other (%)": 0.8
+                "Christianity": 68.5,
+                "Islam": 3.4,
+                "No religion": 27.3,
+                "Other": 0.8
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 5627400.0,
-            "Density (/km2)": 14.6
+            "Density": 14.6
         }
     }
 }

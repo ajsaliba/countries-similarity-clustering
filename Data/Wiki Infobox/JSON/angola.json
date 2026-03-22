@@ -2,33 +2,33 @@
     "country": "Angola",
     "infobox": {
         "Area": {
-            "Total (km2)": 1246700.0,
-            "Water (%)": 0.0
+            "Total": 1246700.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Angolan kwanza"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 10230.0,
-                "Total ($)": 402160000000.0
+                "Per capita": 10230.0,
+                "Total": 402160000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2880.0,
-                "Total ($)": 113340000000.0
+                "Per capita": 2880.0,
+                "Total": 113340000000.0
             },
             "Gini": 51.3,
             "HDI": 0.616
         },
         "General": {
             "Ethnic groups": {
-                "Ambundu (%)": 25.0,
-                "Asian (%)": 2.0,
-                "Bakongo (%)": 13.0,
-                "European (%)": 1.0,
-                "Mestiço (%)": 2.0,
-                "Other African (%)": 21.0,
-                "Ovimbundu (%)": 37.0
+                "Ambundu": 25.0,
+                "Asian": 2.0,
+                "Bakongo": 13.0,
+                "European": 1.0,
+                "Mestiço": 2.0,
+                "Other African": 21.0,
+                "Ovimbundu": 37.0
             },
             "Primary Language": [
                 "Chokwe",
@@ -40,9 +40,9 @@
                 "Umbundu"
             ],
             "Religion": {
-                "Christianity (%)": 79.1,
-                "No religion (%)": 11.5,
-                "Other (%)": 9.4
+                "Christianity": 79.1,
+                "No religion": 11.5,
+                "Other": 9.4
             }
         },
         "Government": {
@@ -51,7 +51,7 @@
         },
         "Population": {
             "Count": 36604681.0,
-            "Density (/km2)": 29.4
+            "Density": 29.4
         }
     }
 }

@@ -2,45 +2,45 @@
     "country": "Laos",
     "infobox": {
         "Area": {
-            "Total (km2)": 236800.0,
-            "Water (%)": 2.0
+            "Total": 236800.0,
+            "Water": 2.0
         },
         "Economy": {
             "Currency": [
                 "Kip"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 10120.0,
-                "Total ($)": 78850000000.0
+                "Per capita": 10120.0,
+                "Total": 78850000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2100.0,
-                "Total ($)": 16320000000.0
+                "Per capita": 2100.0,
+                "Total": 16320000000.0
             },
             "Gini": 36.4,
             "HDI": 0.617
         },
         "General": {
             "Ethnic groups": {
-                "Akha (%)": 1.8,
-                "Hmong (%)": 9.2,
-                "Katang (%)": 2.2,
-                "Khmu (%)": 11.0,
-                "Lao (%)": 53.2,
-                "Lue (%)": 2.0,
-                "Makong (%)": 2.5,
-                "Other (%)": 11.6,
-                "Phu Thai (%)": 3.4,
-                "Tai (%)": 3.1
+                "Akha": 1.8,
+                "Hmong": 9.2,
+                "Katang": 2.2,
+                "Khmu": 11.0,
+                "Lao": 53.2,
+                "Lue": 2.0,
+                "Makong": 2.5,
+                "Other": 11.6,
+                "Phu Thai": 3.4,
+                "Tai": 3.1
             },
             "Primary Language": [
                 "Lao"
             ],
             "Religion": {
-                "Buddhism (%)": 66.0,
-                "Christianity (%)": 1.5,
-                "Folk/Traditional (%)": 30.7,
-                "No religion (%)": 1.8
+                "Buddhism": 66.0,
+                "Christianity": 1.5,
+                "Folk/Traditional": 30.7,
+                "No religion": 1.8
             }
         },
         "Government": {
@@ -49,7 +49,7 @@
         },
         "Population": {
             "Count": 7953556.0,
-            "Density (/km2)": 33.21
+            "Density": 33.21
         }
     }
 }

@@ -2,30 +2,30 @@
     "country": "Singapore",
     "infobox": {
         "Area": {
-            "Total (km2)": 744.3,
-            "Water (%)": 1.43
+            "Total": 744.3,
+            "Water": 1.43
         },
         "Economy": {
             "Currency": [
                 "Singapore dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 156755.0,
-                "Total ($)": 952600000000.0
+                "Per capita": 156755.0,
+                "Total": 952600000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 93956.0,
-                "Total ($)": 564700000000.0
+                "Per capita": 93956.0,
+                "Total": 564700000000.0
             },
             "Gini": 43.3,
             "HDI": 0.946
         },
         "General": {
             "Ethnic groups": {
-                "Chinese (%)": 74.3,
-                "Indian (%)": 9,
-                "Malay (%)": 13.5,
-                "Other (%)": 3.2
+                "Chinese": 74.3,
+                "Indian": 9,
+                "Malay": 13.5,
+                "Other": 3.2
             },
             "Primary Language": [
                 "English",
@@ -34,13 +34,13 @@
                 "Tamil"
             ],
             "Religion": {
-                "Buddhism (%)": 31.1,
-                "Christianity (%)": 18.9,
-                "Folk/Traditional (%)": 8.8,
-                "Hinduism (%)": 5.0,
-                "Islam (%)": 15.6,
-                "No religion (%)": 20.0,
-                "Other (%)": 0.6
+                "Buddhism": 31.1,
+                "Christianity": 18.9,
+                "Folk/Traditional": 8.8,
+                "Hinduism": 5.0,
+                "Islam": 15.6,
+                "No religion": 20.0,
+                "Other": 0.6
             }
         },
         "Government": {
@@ -49,7 +49,7 @@
         },
         "Population": {
             "Count": 6110200.0,
-            "Density (/km2)": 8290.0
+            "Density": 8290.0
         }
     }
 }

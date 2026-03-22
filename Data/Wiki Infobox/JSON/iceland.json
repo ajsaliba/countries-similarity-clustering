@@ -2,39 +2,39 @@
     "country": "Iceland",
     "infobox": {
         "Area": {
-            "Total (km2)": 103125.0,
-            "Water (%)": 2.07
+            "Total": 103125.0,
+            "Water": 2.07
         },
         "Economy": {
             "Currency": [
                 "Icelandic króna"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 81220.0,
-                "Total ($)": 31076000000.0
+                "Per capita": 81220.0,
+                "Total": 31076000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 90280.0,
-                "Total ($)": 35310000000.0
+                "Per capita": 90280.0,
+                "Total": 35310000000.0
             },
             "Gini": 23.2,
             "HDI": 0.972
         },
         "General": {
             "Ethnic groups": {
-                "Filipino (%)": 0.8,
-                "Icelandic (%)": 86.0,
-                "Lithuanian (%)": 1.0,
-                "Other (%)": 7.0,
-                "Polish (%)": 6.0
+                "Filipino": 0.8,
+                "Icelandic": 86.0,
+                "Lithuanian": 1.0,
+                "Other": 7.0,
+                "Polish": 6.0
             },
             "Primary Language": [
                 "Icelandic"
             ],
             "Religion": {
-                "Christianity (%)": 72.4,
-                "No religion (%)": 25.2,
-                "Other (%)": 2.4
+                "Christianity": 72.4,
+                "No religion": 25.2,
+                "Other": 2.4
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 394530.0,
-            "Density (/km2)": 3.78
+            "Density": 3.78
         }
     }
 }

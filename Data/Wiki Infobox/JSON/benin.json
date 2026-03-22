@@ -2,35 +2,35 @@
     "country": "Benin",
     "infobox": {
         "Area": {
-            "Total (km2)": 114763.0,
-            "Water (%)": 0.4
+            "Total": 114763.0,
+            "Water": 0.4
         },
         "Economy": {
             "Currency": [
                 "West African CFA franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 4980.0,
-                "Total ($)": 76510000000.0
+                "Per capita": 4980.0,
+                "Total": 76510000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1790.0,
-                "Total ($)": 27450000000.0
+                "Per capita": 1790.0,
+                "Total": 27450000000.0
             },
             "Gini": 34.4,
             "HDI": 0.515
         },
         "General": {
             "Ethnic groups": {
-                "Adja and Mina (%)": 15.1,
-                "Bariba (%)": 9.6,
-                "Dendi (%)": 2.9,
-                "Fon (%)": 38.4,
-                "Fula (%)": 8.6,
-                "Other (%)": 2.8,
-                "Ottamari (%)": 6.1,
-                "Yoa-Lokpa (%)": 4.3,
-                "Yoruba (%)": 12.0
+                "Adja and Mina": 15.1,
+                "Bariba": 9.6,
+                "Dendi": 2.9,
+                "Fon": 38.4,
+                "Fula": 8.6,
+                "Other": 2.8,
+                "Ottamari": 6.1,
+                "Yoa-Lokpa": 4.3,
+                "Yoruba": 12.0
             },
             "Primary Language": [
                 "Arabic",
@@ -42,11 +42,11 @@
                 "Yoruba"
             ],
             "Religion": {
-                "Christianity (%)": 52.2,
-                "Folk/Traditional (%)": 17.9,
-                "Islam (%)": 24.6,
-                "No religion (%)": 5.2,
-                "Other (%)": 0.1
+                "Christianity": 52.2,
+                "Folk/Traditional": 17.9,
+                "Islam": 24.6,
+                "No religion": 5.2,
+                "Other": 0.1
             }
         },
         "Government": {
@@ -55,7 +55,7 @@
         },
         "Population": {
             "Count": 13754688.0,
-            "Density (/km2)": 94.8
+            "Density": 94.8
         }
     }
 }

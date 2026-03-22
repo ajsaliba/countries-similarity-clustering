@@ -2,8 +2,8 @@
     "country": "Zimbabwe",
     "infobox": {
         "Area": {
-            "Total (km2)": 390757.0,
-            "Water (%)": 1.0
+            "Total": 390757.0,
+            "Water": 1.0
         },
         "Economy": {
             "Currency": [
@@ -12,22 +12,22 @@
                 "Zimbabwe Gold"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 5410.0,
-                "Total ($)": 93870000000.0
+                "Per capita": 5410.0,
+                "Total": 93870000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 3070.0,
-                "Total ($)": 53310000000.0
+                "Per capita": 3070.0,
+                "Total": 53310000000.0
             },
             "Gini": 45.5,
             "HDI": 0.598
         },
         "General": {
             "Ethnic groups": {
-                "Coloured (%)": 0.1,
-                "European (%)": 0.2,
-                "Other (%)": 0.1,
-                "Zimbabwean (%)": 99.6
+                "Coloured": 0.1,
+                "European": 0.2,
+                "Other": 0.1,
+                "Zimbabwean": 99.6
             },
             "Primary Language": [
                 "Chewa",
@@ -48,10 +48,10 @@
                 "Zimbabwean sign language"
             ],
             "Religion": {
-                "Christianity (%)": 84.1,
-                "Folk/Traditional (%)": 4.5,
-                "No religion (%)": 10.2,
-                "Other (%)": 1.2
+                "Christianity": 84.1,
+                "Folk/Traditional": 4.5,
+                "No religion": 10.2,
+                "Other": 1.2
             }
         },
         "Government": {
@@ -60,7 +60,7 @@
         },
         "Population": {
             "Count": 17166852.0,
-            "Density (/km2)": 45.0
+            "Density": 45.0
         }
     }
 }

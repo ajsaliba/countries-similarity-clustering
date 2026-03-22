@@ -2,35 +2,35 @@
     "country": "Vietnam",
     "infobox": {
         "Area": {
-            "Total (km2)": 331344.82,
-            "Water (%)": 6.38
+            "Total": 331344.82,
+            "Water": 6.38
         },
         "Economy": {
             "Currency": [
                 "Vietnamese đồng"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 17484.0,
-                "Total ($)": 1786000000000.0
+                "Per capita": 17484.0,
+                "Total": 1786000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 4806.0,
-                "Total ($)": 490970000000.0
+                "Per capita": 4806.0,
+                "Total": 490970000000.0
             },
             "Gini": 36.1,
             "HDI": 0.766
         },
         "General": {
             "Ethnic groups": {
-                "Kinh Vietnamese (%)": 85.32,
-                "Other (%)": 14.68
+                "Kinh Vietnamese": 85.32,
+                "Other": 14.68
             },
             "Primary Language": [
                 "Vietnamese"
             ],
             "Religion": {
-                "Christianity (%)": 7.1,
-                "No religion (%)": 86.32
+                "Christianity": 7.1,
+                "No religion": 86.32
             }
         },
         "Government": {
@@ -39,7 +39,7 @@
         },
         "Population": {
             "Count": 102300000.0,
-            "Density (/km2)": 309.0
+            "Density": 309.0
         }
     }
 }

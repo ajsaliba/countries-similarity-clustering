@@ -2,37 +2,37 @@
     "country": "Mozambique",
     "infobox": {
         "Area": {
-            "Total (km2)": 801590.0,
-            "Water (%)": 2.2
+            "Total": 801590.0,
+            "Water": 2.2
         },
         "Economy": {
             "Currency": [
                 "Metical"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 1730.0,
-                "Total ($)": 61950000000.0
+                "Per capita": 1730.0,
+                "Total": 61950000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 663.0,
-                "Total ($)": 23770000000.0
+                "Per capita": 663.0,
+                "Total": 23770000000.0
             },
             "Gini": 50.4,
             "HDI": 0.493
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 99.0,
-                "Mestiço (%)": 0.8,
-                "Other (%)": 0.1,
-                "White (%)": 0.1
+                "African": 99.0,
+                "Mestiço": 0.8,
+                "Other": 0.1,
+                "White": 0.1
             },
             "Primary Language": [
                 "Portuguese"
             ],
             "Religion": {
-                "Christianity (%)": 62.0,
-                "Islam (%)": 19.1
+                "Christianity": 62.0,
+                "Islam": 19.1
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 34881007.0,
-            "Density (/km2)": 43.5
+            "Density": 43.5
         }
     }
 }

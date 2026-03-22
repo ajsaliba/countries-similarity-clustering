@@ -2,39 +2,39 @@
     "country": "El Salvador",
     "infobox": {
         "Area": {
-            "Total (km2)": 21041.0,
-            "Water (%)": 1.5
+            "Total": 21041.0,
+            "Water": 1.5
         },
         "Economy": {
             "Currency": [
                 "United States dollar Salvadoran colón"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 13753.0,
-                "Total ($)": 88323000000.0
+                "Per capita": 13753.0,
+                "Total": 88323000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 5893.0,
-                "Total ($)": 37843000000.0
+                "Per capita": 5893.0,
+                "Total": 37843000000.0
             },
             "Gini": 38.8,
             "HDI": 0.678
         },
         "General": {
             "Ethnic groups": {
-                "Black (%)": 0.1,
-                "Indigenous (%)": 0.2,
-                "Mestizo (%)": 86.3,
-                "Other (%)": 0.6,
-                "White (%)": 12.7
+                "Black": 0.1,
+                "Indigenous": 0.2,
+                "Mestizo": 86.3,
+                "Other": 0.6,
+                "White": 12.7
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 81.5,
-                "No religion (%)": 17.0,
-                "Other (%)": 1.5
+                "Christianity": 81.5,
+                "No religion": 17.0,
+                "Other": 1.5
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 6029976.0,
-            "Density (/km2)": 286.6
+            "Density": 286.6
         }
     }
 }

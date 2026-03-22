@@ -2,37 +2,37 @@
     "country": "Syria",
     "infobox": {
         "Area": {
-            "Total (km2)": 185180.0,
-            "Water (%)": 1.1
+            "Total": 185180.0,
+            "Water": 1.1
         },
         "Economy": {
             "Currency": [
                 "Syrian pound"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 3300.0,
-                "Total ($)": 50280000000.0
+                "Per capita": 3300.0,
+                "Total": 50280000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 800.0,
-                "Total ($)": 9800000000.0
+                "Per capita": 800.0,
+                "Total": 9800000000.0
             },
             "Gini": 26.6,
-            "HDI": -1.0
+            "HDI": null
         },
         "General": {
             "Ethnic groups": {
-                "Arab (%)": 90.0,
-                "Kurdish (%)": 10.0
+                "Arab": 90.0,
+                "Kurdish": 10.0
             },
             "Primary Language": [
                 "Arabic",
                 "Kurdish"
             ],
             "Religion": {
-                "Christianity (%)": 10.0,
-                "Islam (%)": 87.0,
-                "Other (%)": 3.0
+                "Christianity": 10.0,
+                "Islam": 87.0,
+                "Other": 3.0
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 26019711.0,
-            "Density (/km2)": 118.3
+            "Density": 118.3
         }
     }
 }

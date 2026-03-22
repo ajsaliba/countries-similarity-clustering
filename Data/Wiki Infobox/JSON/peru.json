@@ -2,32 +2,32 @@
     "country": "Peru",
     "infobox": {
         "Area": {
-            "Total (km2)": 1285216.0,
-            "Water (%)": 0.41
+            "Total": 1285216.0,
+            "Water": 0.41
         },
         "Economy": {
             "Currency": [
                 "Peruvian sol"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 18980.0,
-                "Total ($)": 653090000000.0
+                "Per capita": 18980.0,
+                "Total": 653090000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 9260.0,
-                "Total ($)": 318480000000.0
+                "Per capita": 9260.0,
+                "Total": 318480000000.0
             },
             "Gini": 40.2,
             "HDI": 0.794
         },
         "General": {
             "Ethnic groups": {
-                "Black (%)": 3.57,
-                "East Asian (%)": 0.16,
-                "Mestizo (%)": 60.2,
-                "Native (%)": 25.75,
-                "Other (%)": 1.1,
-                "White (%)": 5.89
+                "Black": 3.57,
+                "East Asian": 0.16,
+                "Mestizo": 60.2,
+                "Native": 25.75,
+                "Other": 1.1,
+                "White": 5.89
             },
             "Primary Language": [
                 "Aymara",
@@ -35,9 +35,9 @@
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 94.5,
-                "No religion (%)": 5.1,
-                "Other (%)": 0.4
+                "Christianity": 94.5,
+                "No religion": 5.1,
+                "Other": 0.4
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 34352720.0,
-            "Density (/km2)": 23.0
+            "Density": 23.0
         }
     }
 }

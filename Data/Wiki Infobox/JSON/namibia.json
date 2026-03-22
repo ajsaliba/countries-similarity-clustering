@@ -2,30 +2,30 @@
     "country": "Namibia",
     "infobox": {
         "Area": {
-            "Total (km2)": 825615.0,
-            "Water (%)": 0.0
+            "Total": 825615.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Namibian dollar South African rand"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 12370.0,
-                "Total ($)": 37730000000.0
+                "Per capita": 12370.0,
+                "Total": 37730000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 4660.0,
-                "Total ($)": 14210000000.0
+                "Per capita": 4660.0,
+                "Total": 14210000000.0
             },
             "Gini": 59.1,
             "HDI": 0.665
         },
         "General": {
             "Ethnic groups": {
-                "Coloured and Basters (%)": 3.6,
-                "Indigenous African (%)": 93.2,
-                "Other (%)": 1.4,
-                "White (%)": 1.8
+                "Coloured and Basters": 3.6,
+                "Indigenous African": 93.2,
+                "Other": 1.4,
+                "White": 1.8
             },
             "Primary Language": [
                 "Afrikaans",
@@ -39,9 +39,9 @@
                 "siLozi"
             ],
             "Religion": {
-                "Christianity (%)": 87.9,
-                "No religion (%)": 1.6,
-                "Other (%)": 10.5
+                "Christianity": 87.9,
+                "No religion": 1.6,
+                "Other": 10.5
             }
         },
         "Government": {
@@ -50,7 +50,7 @@
         },
         "Population": {
             "Count": 3022401.0,
-            "Density (/km2)": 3.7
+            "Density": 3.7
         }
     }
 }

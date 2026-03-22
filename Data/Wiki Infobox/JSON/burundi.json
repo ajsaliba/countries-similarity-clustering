@@ -2,29 +2,29 @@
     "country": "Burundi",
     "infobox": {
         "Area": {
-            "Total (km2)": 27834.0,
-            "Water (%)": 10.0
+            "Total": 27834.0,
+            "Water": 10.0
         },
         "Economy": {
             "Currency": [
                 "Burundian franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 1020.0,
-                "Total ($)": 13980000000.0
+                "Per capita": 1020.0,
+                "Total": 13980000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 489.0,
-                "Total ($)": 6750000000.0
+                "Per capita": 489.0,
+                "Total": 6750000000.0
             },
             "Gini": 37.5,
             "HDI": 0.439
         },
         "General": {
             "Ethnic groups": {
-                "Hutu (%)": 85.0,
-                "Tutsi (%)": 14.0,
-                "Twa (%)": 1.0
+                "Hutu": 85.0,
+                "Tutsi": 14.0,
+                "Twa": 1.0
             },
             "Primary Language": [
                 "English",
@@ -32,10 +32,10 @@
                 "Kirundi"
             ],
             "Religion": {
-                "Christianity (%)": 93.4,
-                "Folk/Traditional (%)": 4.3,
-                "Islam (%)": 2.1,
-                "No religion (%)": 0.2
+                "Christianity": 93.4,
+                "Folk/Traditional": 4.3,
+                "Islam": 2.1,
+                "No religion": 0.2
             }
         },
         "Government": {
@@ -44,7 +44,7 @@
         },
         "Population": {
             "Count": 14151540.0,
-            "Density (/km2)": 565.0
+            "Density": 565.0
         }
     }
 }

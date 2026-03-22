@@ -2,37 +2,37 @@
     "country": "Egypt",
     "infobox": {
         "Area": {
-            "Total (km2)": 1010408.0,
-            "Water (%)": 0.632
+            "Total": 1010408.0,
+            "Water": 0.632
         },
         "Economy": {
             "Currency": [
                 "Egyptian pound"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 21668.0,
-                "Total ($)": 2372000000000.0
+                "Per capita": 21668.0,
+                "Total": 2372000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 3174.0,
-                "Total ($)": 347342000000.0
+                "Per capita": 3174.0,
+                "Total": 347342000000.0
             },
             "Gini": 28.5,
             "HDI": 0.754
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Arabic",
                 "Egyptian Arabic"
             ],
             "Religion": {
-                "Christianity (%)": 50.0,
-                "Folk/Traditional (%)": 33.0,
-                "Islam (%)": 16.0,
-                "Other (%)": 1.0
+                "Christianity": 50.0,
+                "Folk/Traditional": 33.0,
+                "Islam": 16.0,
+                "Other": 1.0
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 107868296.0,
-            "Density (/km2)": 106.8
+            "Density": 106.8
         }
     }
 }

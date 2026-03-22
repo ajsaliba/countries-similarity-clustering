@@ -2,47 +2,47 @@
     "country": "Cameroon",
     "infobox": {
         "Area": {
-            "Total (km2)": 475442.0,
-            "Water (%)": 0.57
+            "Total": 475442.0,
+            "Water": 0.57
         },
         "Economy": {
             "Currency": [
                 "Central African CFA franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 5960.0,
-                "Total ($)": 183320000000.0
+                "Per capita": 5960.0,
+                "Total": 183320000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2200.0,
-                "Total ($)": 67520000000.0
+                "Per capita": 2200.0,
+                "Total": 67520000000.0
             },
             "Gini": 42.2,
             "HDI": 0.588
         },
         "General": {
             "Ethnic groups": {
-                "Adamawa-Ubangi (%)": 9.8,
-                "Bamileke-Bamun (%)": 22.2,
-                "Beti-Bassa (%)": 13.1,
-                "Biu-Mandara (%)": 16.4,
-                "Fulani (%)": 12.0,
-                "Other (%)": 3.8,
-                "Pygmy (%)": 2.3,
-                "Sawa (%)": 4.6,
-                "Shuwa Arab (%)": 13.5,
-                "Southwest Bantu (%)": 4.3,
-                "Tikar (%)": 9.9
+                "Adamawa-Ubangi": 9.8,
+                "Bamileke-Bamun": 22.2,
+                "Beti-Bassa": 13.1,
+                "Biu-Mandara": 16.4,
+                "Fulani": 12.0,
+                "Other": 3.8,
+                "Pygmy": 2.3,
+                "Sawa": 4.6,
+                "Shuwa Arab": 13.5,
+                "Southwest Bantu": 4.3,
+                "Tikar": 9.9
             },
             "Primary Language": [
                 "English",
                 "French"
             ],
             "Religion": {
-                "Christianity (%)": 66.3,
-                "Folk/Traditional (%)": 1.3,
-                "Islam (%)": 30.6,
-                "Other (%)": 0.7
+                "Christianity": 66.3,
+                "Folk/Traditional": 1.3,
+                "Islam": 30.6,
+                "Other": 0.7
             }
         },
         "Government": {
@@ -51,7 +51,7 @@
         },
         "Population": {
             "Count": 30987821.0,
-            "Density (/km2)": 39.7
+            "Density": 39.7
         }
     }
 }

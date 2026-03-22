@@ -2,36 +2,36 @@
     "country": "Germany",
     "infobox": {
         "Area": {
-            "Total (km2)": 357022.0,
-            "Water (%)": 1.27
+            "Total": 357022.0,
+            "Water": 1.27
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 73553.0,
-                "Total ($)": 6154000000000.0
+                "Per capita": 73553.0,
+                "Total": 6154000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 59925.0,
-                "Total ($)": 5014000000000.0
+                "Per capita": 59925.0,
+                "Total": 5014000000000.0
             },
             "Gini": 29.4,
             "HDI": 0.959
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "German"
             ],
             "Religion": {
-                "Christianity (%)": 48.0,
-                "Islam (%)": 5.5,
-                "No religion (%)": 43.8,
-                "Other (%)": 2.7
+                "Christianity": 48.0,
+                "Islam": 5.5,
+                "No religion": 43.8,
+                "Other": 2.7
             }
         },
         "Government": {
@@ -40,7 +40,7 @@
         },
         "Population": {
             "Count": 83497147.0,
-            "Density (/km2)": 233.0
+            "Density": 233.0
         }
     }
 }

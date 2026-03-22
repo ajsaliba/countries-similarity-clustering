@@ -2,40 +2,40 @@
     "country": "Lithuania",
     "infobox": {
         "Area": {
-            "Total (km2)": 65300.0,
-            "Water (%)": 1.98
+            "Total": 65300.0,
+            "Water": 1.98
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 57201.0,
-                "Total ($)": 165230000000.0
+                "Per capita": 57201.0,
+                "Total": 165230000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 32982.0,
-                "Total ($)": 95270000000.0
+                "Per capita": 32982.0,
+                "Total": 95270000000.0
             },
             "Gini": 35.7,
             "HDI": 0.895
         },
         "General": {
             "Ethnic groups": {
-                "Belarusians (%)": 2.1,
-                "Lithuanians (%)": 82.3,
-                "Other (%)": 2.2,
-                "Poles (%)": 6.2,
-                "Russians (%)": 5.0,
-                "Ukrainians (%)": 2.2
+                "Belarusians": 2.1,
+                "Lithuanians": 82.3,
+                "Other": 2.2,
+                "Poles": 6.2,
+                "Russians": 5.0,
+                "Ukrainians": 2.2
             },
             "Primary Language": [
                 "Lithuanian"
             ],
             "Religion": {
-                "Christianity (%)": 79.4,
-                "No religion (%)": 6.1,
-                "Other (%)": 0.8
+                "Christianity": 79.4,
+                "No religion": 6.1,
+                "Other": 0.8
             }
         },
         "Government": {
@@ -44,7 +44,7 @@
         },
         "Population": {
             "Count": 2897430.0,
-            "Density (/km2)": 46.0
+            "Density": 46.0
         }
     }
 }

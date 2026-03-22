@@ -2,41 +2,41 @@
     "country": "Cyprus",
     "infobox": {
         "Area": {
-            "Total (km2)": 9251.0,
-            "Water (%)": 0.11
+            "Total": 9251.0,
+            "Water": 0.11
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 65304.0,
-                "Total ($)": 61501000000.0
+                "Per capita": 65304.0,
+                "Total": 61501000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 42413.0,
-                "Total ($)": 39943000000.0
+                "Per capita": 42413.0,
+                "Total": 39943000000.0
             },
             "Gini": 29.4,
             "HDI": 0.913
         },
         "General": {
             "Ethnic groups": {
-                "Armenian Cypriots (%)": 0.3,
-                "Foreigners (%)": 10.0,
-                "Greek Cypriots (%)": 71.0,
-                "Maronite Cypriots (%)": 0.6,
-                "Turkish Cypriots (%)": 20.0
+                "Armenian Cypriots": 0.3,
+                "Foreigners": 10.0,
+                "Greek Cypriots": 71.0,
+                "Maronite Cypriots": 0.6,
+                "Turkish Cypriots": 20.0
             },
             "Primary Language": [
                 "Greek",
                 "Turkish"
             ],
             "Religion": {
-                "Christianity (%)": 72.3,
-                "Islam (%)": 25.0,
-                "No religion (%)": 1.9,
-                "Other (%)": 0.8
+                "Christianity": 72.3,
+                "Islam": 25.0,
+                "No religion": 1.9,
+                "Other": 0.8
             }
         },
         "Government": {
@@ -45,7 +45,7 @@
         },
         "Population": {
             "Count": 923272.0,
-            "Density (/km2)": 123.4
+            "Density": 123.4
         }
     }
 }

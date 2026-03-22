@@ -2,39 +2,39 @@
     "country": "Czech Republic",
     "infobox": {
         "Area": {
-            "Total (km2)": 78871.0,
-            "Water (%)": 2.16
+            "Total": 78871.0,
+            "Water": 2.16
         },
         "Economy": {
             "Currency": [
                 "Czech koruna"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 56686.0,
-                "Total ($)": 619881000000.0
+                "Per capita": 56686.0,
+                "Total": 619881000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 31365.0,
-                "Total ($)": 342992000000.0
+                "Per capita": 31365.0,
+                "Total": 342992000000.0
             },
             "Gini": 24.4,
             "HDI": 0.915
         },
         "General": {
             "Ethnic groups": {
-                "Czechs (%)": 89.0,
-                "Moravians (%)": 3.3,
-                "Other (%)": 2.1,
-                "Slovaks (%)": 0.9,
-                "Ukrainians (%)": 0.7
+                "Czechs": 89.0,
+                "Moravians": 3.3,
+                "Other": 2.1,
+                "Slovaks": 0.9,
+                "Ukrainians": 0.7
             },
             "Primary Language": [
                 "Czech"
             ],
             "Religion": {
-                "Christianity (%)": 11.7,
-                "No religion (%)": 56.9,
-                "Other (%)": 1.2
+                "Christianity": 11.7,
+                "No religion": 56.9,
+                "Other": 1.2
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 10900555.0,
-            "Density (/km2)": 133.0
+            "Density": 133.0
         }
     }
 }

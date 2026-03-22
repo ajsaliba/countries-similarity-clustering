@@ -2,42 +2,42 @@
     "country": "Micronesia",
     "infobox": {
         "Area": {
-            "Total (km2)": 702.0,
-            "Water (%)": 0.0
+            "Total": 702.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "United States dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 4768.0,
-                "Total ($)": 451000000.0
+                "Per capita": 4768.0,
+                "Total": 451000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 5291.0,
-                "Total ($)": 500000000.0
+                "Per capita": 5291.0,
+                "Total": 500000000.0
             },
             "Gini": 40.1,
             "HDI": 0.634
         },
         "General": {
             "Ethnic groups": {
-                "Asian (%)": 1.8,
-                "Chuukese (%)": 48.8,
-                "Kosraean (%)": 6.2,
-                "Other (%)": 6.4,
-                "Outer Yapese (%)": 4.5,
-                "Pohnpeian (%)": 24.2,
-                "Polynesian (%)": 1.5,
-                "Yapese (%)": 5.2
+                "Asian": 1.8,
+                "Chuukese": 48.8,
+                "Kosraean": 6.2,
+                "Other": 6.4,
+                "Outer Yapese": 4.5,
+                "Pohnpeian": 24.2,
+                "Polynesian": 1.5,
+                "Yapese": 5.2
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 95.3,
-                "Folk/Traditional (%)": 4.1,
-                "No religion (%)": 0.6
+                "Christianity": 95.3,
+                "Folk/Traditional": 4.1,
+                "No religion": 0.6
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 105564.0,
-            "Density (/km2)": 150.4
+            "Density": 150.4
         }
     }
 }

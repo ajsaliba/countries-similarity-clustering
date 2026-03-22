@@ -2,33 +2,33 @@
     "country": "Sweden",
     "infobox": {
         "Area": {
-            "Total (km2)": 450295.0,
-            "Water (%)": 8.97
+            "Total": 450295.0,
+            "Water": 8.97
         },
         "Economy": {
             "Currency": [
                 "Swedish krona"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 74900.0,
-                "Total ($)": 799680000000.0
+                "Per capita": 74900.0,
+                "Total": 799680000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 58100.0,
-                "Total ($)": 620300000000.0
+                "Per capita": 58100.0,
+                "Total": 620300000000.0
             },
             "Gini": 27.6,
             "HDI": 0.959
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Swedish"
             ],
             "Religion": {
-                "Unknown": 100.0
+                "Unknown": null
             }
         },
         "Government": {
@@ -37,7 +37,7 @@
         },
         "Population": {
             "Count": 10610485.0,
-            "Density (/km2)": 25.0
+            "Density": 25.0
         }
     }
 }

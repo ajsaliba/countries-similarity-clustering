@@ -2,40 +2,40 @@
     "country": "Bahrain",
     "infobox": {
         "Area": {
-            "Total (km2)": 786.8,
-            "Water (%)": 0.0
+            "Total": 786.8,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Bahraini dinar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 71460.0,
-                "Total ($)": 118060000000.0
+                "Per capita": 71460.0,
+                "Total": 118060000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 29780.0,
-                "Total ($)": 49190000000.0
+                "Per capita": 29780.0,
+                "Total": 49190000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.899
         },
         "General": {
             "Ethnic groups": {
-                "Africans (%)": 1.4,
-                "Arabs (%)": 53.2,
-                "North Americans (%)": 1.1,
-                "Other (%)": 0.1,
-                "South Asians (%)": 43.4
+                "Africans": 1.4,
+                "Arabs": 53.2,
+                "North Americans": 1.1,
+                "Other": 0.1,
+                "South Asians": 43.4
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
-                "Christianity (%)": 9.3,
-                "Hinduism (%)": 9.8,
-                "Islam (%)": 73.7,
-                "Other (%)": 7.2
+                "Christianity": 9.3,
+                "Hinduism": 9.8,
+                "Islam": 73.7,
+                "Other": 7.2
             }
         },
         "Government": {
@@ -44,7 +44,7 @@
         },
         "Population": {
             "Count": 1463265.0,
-            "Density (/km2)": 1864.0
+            "Density": 1864.0
         }
     }
 }

@@ -2,38 +2,38 @@
     "country": "Solomon Islands",
     "infobox": {
         "Area": {
-            "Total (km2)": 28896.0,
-            "Water (%)": 3.2
+            "Total": 28896.0,
+            "Water": 3.2
         },
         "Economy": {
             "Currency": [
                 "Solomon Islands dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 2205.25,
-                "Total ($)": 1680000000.0
+                "Per capita": 2205.25,
+                "Total": 1680000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2205.25,
-                "Total ($)": 1681000000.0
+                "Per capita": 2205.25,
+                "Total": 1681000000.0
             },
             "Gini": 37.1,
             "HDI": 0.584
         },
         "General": {
             "Ethnic groups": {
-                "Melanesian (%)": 95.3,
-                "Micronesian (%)": 1.2,
-                "Other (%)": 0.4,
-                "Polynesian (%)": 3.1
+                "Melanesian": 95.3,
+                "Micronesian": 1.2,
+                "Other": 0.4,
+                "Polynesian": 3.1
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 97.4,
-                "Folk/Traditional (%)": 1.2,
-                "No religion (%)": 1.4
+                "Christianity": 97.4,
+                "Folk/Traditional": 1.2,
+                "No religion": 1.4
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 828857.0,
-            "Density (/km2)": 24.2
+            "Density": 24.2
         }
     }
 }

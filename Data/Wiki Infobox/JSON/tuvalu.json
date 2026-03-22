@@ -2,8 +2,8 @@
     "country": "Tuvalu",
     "infobox": {
         "Area": {
-            "Total (km2)": 26.26,
-            "Water (%)": 0.0
+            "Total": 26.26,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
@@ -11,28 +11,28 @@
                 "Tuvaluan dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 6076.0,
-                "Total ($)": 68603000.0
+                "Per capita": 6076.0,
+                "Total": 68603000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 6113.0,
-                "Total ($)": 63000000.0
+                "Per capita": 6113.0,
+                "Total": 63000000.0
             },
             "Gini": 39.0,
             "HDI": 0.689
         },
         "General": {
             "Ethnic groups": {
-                "Other (%)": 4.0,
-                "Tuvaluans (%)": 96.0
+                "Other": 4.0,
+                "Tuvaluans": 96.0
             },
             "Primary Language": [
                 "English",
                 "Tuvaluan"
             ],
             "Religion": {
-                "Christianity (%)": 96.0,
-                "Other (%)": 1.0
+                "Christianity": 96.0,
+                "Other": 1.0
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 10643.0,
-            "Density (/km2)": 423.0
+            "Density": 423.0
         }
     }
 }

@@ -2,39 +2,39 @@
     "country": "Costa Rica",
     "infobox": {
         "Area": {
-            "Total (km2)": 51179.92,
-            "Water (%)": 1.05
+            "Total": 51179.92,
+            "Water": 1.05
         },
         "Economy": {
             "Currency": [
                 "Costa Rican colón"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 31462.0,
-                "Total ($)": 169034000000.0
+                "Per capita": 31462.0,
+                "Total": 169034000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 19095.0,
-                "Total ($)": 102591000000.0
+                "Per capita": 19095.0,
+                "Total": 102591000000.0
             },
             "Gini": 47.2,
             "HDI": 0.833
         },
         "General": {
             "Ethnic groups": {
-                "Black (%)": 1.1,
-                "Indigenous (%)": 2.4,
-                "Mulatto (%)": 6.7,
-                "Other (%)": 6.2,
-                "White or Mestizo (%)": 83.6
+                "Black": 1.1,
+                "Indigenous": 2.4,
+                "Mulatto": 6.7,
+                "Other": 6.2,
+                "White or Mestizo": 83.6
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 72.6,
-                "No religion (%)": 27.0,
-                "Other (%)": 0.4
+                "Christianity": 72.6,
+                "No religion": 27.0,
+                "Other": 0.4
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 5160700.0,
-            "Density (/km2)": 84.9
+            "Density": 84.9
         }
     }
 }

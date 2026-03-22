@@ -2,41 +2,41 @@
     "country": "Uzbekistan",
     "infobox": {
         "Area": {
-            "Total (km2)": 448978.0,
-            "Water (%)": 4.9
+            "Total": 448978.0,
+            "Water": 4.9
         },
         "Economy": {
             "Currency": [
                 "Uzbek sum"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 12596.0,
-                "Total ($)": 507800000000.0
+                "Per capita": 12596.0,
+                "Total": 507800000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 3945.0,
-                "Total ($)": 140480000000.0
+                "Per capita": 3945.0,
+                "Total": 140480000000.0
             },
             "Gini": 31.2,
             "HDI": 0.74
         },
         "General": {
             "Ethnic groups": {
-                "Karakalpaks (%)": 2.2,
-                "Kazakhs (%)": 2.3,
-                "Other (%)": 4.0,
-                "Russians (%)": 2.1,
-                "Tajiks (%)": 4.8,
-                "Uzbeks (%)": 84.6
+                "Karakalpaks": 2.2,
+                "Kazakhs": 2.3,
+                "Other": 4.0,
+                "Russians": 2.1,
+                "Tajiks": 4.8,
+                "Uzbeks": 84.6
             },
             "Primary Language": [
                 "Uzbek"
             ],
             "Religion": {
-                "Christianity (%)": 1.04,
-                "Islam (%)": 94.78,
-                "No religion (%)": 3.89,
-                "Other (%)": 0.27
+                "Christianity": 1.04,
+                "Islam": 94.78,
+                "No religion": 3.89,
+                "Other": 0.27
             }
         },
         "Government": {
@@ -45,7 +45,7 @@
         },
         "Population": {
             "Count": 38236704.0,
-            "Density (/km2)": 80.2
+            "Density": 80.2
         }
     }
 }

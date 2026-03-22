@@ -2,28 +2,28 @@
     "country": "Vanuatu",
     "infobox": {
         "Area": {
-            "Total (km2)": 12189.0,
-            "Water (%)": -1.0
+            "Total": 12189.0,
+            "Water": null
         },
         "Economy": {
             "Currency": [
                 "Vatu"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 3001.0,
-                "Total ($)": 1002000000.0
+                "Per capita": 3001.0,
+                "Total": 1002000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 3188.0,
-                "Total ($)": 1064000000.0
+                "Per capita": 3188.0,
+                "Total": 1064000000.0
             },
             "Gini": 32.3,
             "HDI": 0.621
         },
         "General": {
             "Ethnic groups": {
-                "Ni-Vanuatu (%)": 98.5,
-                "Other (%)": 1.5
+                "Ni-Vanuatu": 98.5,
+                "Other": 1.5
             },
             "Primary Language": [
                 "Bislama",
@@ -31,10 +31,10 @@
                 "French"
             ],
             "Religion": {
-                "Christianity (%)": 93.4,
-                "Folk/Traditional (%)": 4.6,
-                "No religion (%)": 0.6,
-                "Other (%)": 1.4
+                "Christianity": 93.4,
+                "Folk/Traditional": 4.6,
+                "No religion": 0.6,
+                "Other": 1.4
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 335908.0,
-            "Density (/km2)": 27.6
+            "Density": 27.6
         }
     }
 }

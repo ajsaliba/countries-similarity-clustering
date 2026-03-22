@@ -2,38 +2,38 @@
     "country": "Haiti",
     "infobox": {
         "Area": {
-            "Total (km2)": 27700.0,
-            "Water (%)": 0.7
+            "Total": 27700.0,
+            "Water": 0.7
         },
         "Economy": {
             "Currency": [
                 "Gourde"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 3040.0,
-                "Total ($)": 38200000000.0
+                "Per capita": 3040.0,
+                "Total": 38200000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2670.0,
-                "Total ($)": 33550000000.0
+                "Per capita": 2670.0,
+                "Total": 33550000000.0
             },
             "Gini": 41.0,
             "HDI": 0.554
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 95.0,
-                "Other (%)": 5.0
+                "African": 95.0,
+                "Other": 5.0
             },
             "Primary Language": [
                 "French",
                 "Haitian Creole"
             ],
             "Religion": {
-                "Christianity (%)": 87.0,
-                "Folk/Traditional (%)": 2.1,
-                "No religion (%)": 10.7,
-                "Other (%)": 0.2
+                "Christianity": 87.0,
+                "Folk/Traditional": 2.1,
+                "No religion": 10.7,
+                "Other": 0.2
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 11470261.0,
-            "Density (/km2)": 417.0
+            "Density": 417.0
         }
     }
 }

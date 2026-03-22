@@ -2,27 +2,27 @@
     "country": "South Sudan",
     "infobox": {
         "Area": {
-            "Total (km2)": 644329.0,
-            "Water (%)": -1.0
+            "Total": 644329.0,
+            "Water": null
         },
         "Economy": {
             "Currency": [
                 "South Sudanese pound"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 953.0,
-                "Total ($)": 15160000000.0
+                "Per capita": 953.0,
+                "Total": 15160000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 313.0,
-                "Total ($)": 4980000000.0
+                "Per capita": 313.0,
+                "Total": 4980000000.0
             },
             "Gini": 44.1,
             "HDI": 0.388
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Bari",
@@ -36,10 +36,10 @@
                 "Zande"
             ],
             "Religion": {
-                "Christianity (%)": 60.5,
-                "Folk/Traditional (%)": 32.9,
-                "Islam (%)": 6.2,
-                "No religion (%)": 0.4
+                "Christianity": 60.5,
+                "Folk/Traditional": 32.9,
+                "Islam": 6.2,
+                "No religion": 0.4
             }
         },
         "Government": {
@@ -48,7 +48,7 @@
         },
         "Population": {
             "Count": 12703714.0,
-            "Density (/km2)": 19.0
+            "Density": 19.0
         }
     }
 }

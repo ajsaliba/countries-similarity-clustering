@@ -2,38 +2,38 @@
     "country": "United Arab Emirates",
     "infobox": {
         "Area": {
-            "Total (km2)": 83600.0,
-            "Water (%)": 0.0
+            "Total": 83600.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "UAE dirham"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 81680.0,
-                "Total ($)": 905230000000.0
+                "Per capita": 81680.0,
+                "Total": 905230000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 49550.0,
-                "Total ($)": 548600000000.0
+                "Per capita": 49550.0,
+                "Total": 548600000000.0
             },
             "Gini": 26.0,
             "HDI": 0.94
         },
         "General": {
             "Ethnic groups": {
-                "Egyptian (%)": 10.2,
-                "Emirati (%)": 12.0,
-                "Filipino (%)": 6.1,
-                "Other (%)": 12.3,
-                "South Asian (%)": 59.4
+                "Egyptian": 10.2,
+                "Emirati": 12.0,
+                "Filipino": 6.1,
+                "Other": 12.3,
+                "South Asian": 59.4
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
-                "Christianity (%)": 12.9,
-                "Islam (%)": 74.5
+                "Christianity": 12.9,
+                "Islam": 74.5
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 11027129.0,
-            "Density (/km2)": 132.0
+            "Density": 132.0
         }
     }
 }

@@ -2,29 +2,29 @@
     "country": "Rwanda",
     "infobox": {
         "Area": {
-            "Total (km2)": 26338.0,
-            "Water (%)": 6.3
+            "Total": 26338.0,
+            "Water": 6.3
         },
         "Economy": {
             "Currency": [
                 "Rwandan franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 4100.0,
-                "Total ($)": 58120000000.0
+                "Per capita": 4100.0,
+                "Total": 58120000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1040.0,
-                "Total ($)": 14789000000.0
+                "Per capita": 1040.0,
+                "Total": 14789000000.0
             },
             "Gini": 39.4,
             "HDI": 0.578
         },
         "General": {
             "Ethnic groups": {
-                "Hutu (%)": 85.0,
-                "Tutsi (%)": 14.0,
-                "Twa (%)": 1.0
+                "Hutu": 85.0,
+                "Tutsi": 14.0,
+                "Twa": 1.0
             },
             "Primary Language": [
                 "English",
@@ -33,8 +33,8 @@
                 "Swahili"
             ],
             "Religion": {
-                "Christianity (%)": 93.8,
-                "No religion (%)": 3.0
+                "Christianity": 93.8,
+                "No religion": 3.0
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 14104969.0,
-            "Density (/km2)": 578.0
+            "Density": 578.0
         }
     }
 }

@@ -2,35 +2,35 @@
     "country": "Italy",
     "infobox": {
         "Area": {
-            "Total (km2)": 301340.0,
-            "Water (%)": 1.24
+            "Total": 301340.0,
+            "Water": 1.24
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 63076.0,
-                "Total ($)": 3719000000000.0
+                "Per capita": 63076.0,
+                "Total": 3719000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 41091.0,
-                "Total ($)": 2423000000000.0
+                "Per capita": 41091.0,
+                "Total": 2423000000000.0
             },
             "Gini": 32.5,
             "HDI": 0.915
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Italian"
             ],
             "Religion": {
-                "Christianity (%)": 84.0,
-                "No religion (%)": 12.0,
-                "Other (%)": 4.0
+                "Christianity": 84.0,
+                "No religion": 12.0,
+                "Other": 4.0
             }
         },
         "Government": {
@@ -39,7 +39,7 @@
         },
         "Population": {
             "Count": 58915561.0,
-            "Density (/km2)": 195.5
+            "Density": 195.5
         }
     }
 }

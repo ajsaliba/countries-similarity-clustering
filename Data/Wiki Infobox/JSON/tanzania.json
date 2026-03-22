@@ -2,36 +2,36 @@
     "country": "Tanzania",
     "infobox": {
         "Area": {
-            "Total (km2)": 947303.0,
-            "Water (%)": 6.4
+            "Total": 947303.0,
+            "Water": 6.4
         },
         "Economy": {
             "Currency": [
                 "Tanzanian shilling"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 4370.0,
-                "Total ($)": 293590000000.0
+                "Per capita": 4370.0,
+                "Total": 293590000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1280.0,
-                "Total ($)": 88980000000.0
+                "Per capita": 1280.0,
+                "Total": 88980000000.0
             },
             "Gini": 40.5,
             "HDI": 0.555
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "English",
                 "Swahili"
             ],
             "Religion": {
-                "Christianity (%)": 63.1,
-                "Islam (%)": 34.1,
-                "No religion (%)": 1.5
+                "Christianity": 63.1,
+                "Islam": 34.1,
+                "No religion": 1.5
             }
         },
         "Government": {
@@ -40,7 +40,7 @@
         },
         "Population": {
             "Count": 67462121.0,
-            "Density (/km2)": 65.2
+            "Density": 65.2
         }
     }
 }

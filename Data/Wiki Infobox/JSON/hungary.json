@@ -2,38 +2,38 @@
     "country": "Hungary",
     "infobox": {
         "Area": {
-            "Total (km2)": 93030.0,
-            "Water (%)": 3.7
+            "Total": 93030.0,
+            "Water": 3.7
         },
         "Economy": {
             "Currency": [
                 "Forint"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 48160.0,
-                "Total ($)": 460380000000.0
+                "Per capita": 48160.0,
+                "Total": 460380000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 25920.0,
-                "Total ($)": 247760000000.0
+                "Per capita": 25920.0,
+                "Total": 247760000000.0
             },
             "Gini": 29.0,
             "HDI": 0.87
         },
         "General": {
             "Ethnic groups": {
-                "German (%)": 1.2,
-                "Hungarian (%)": 97.7,
-                "Other (%)": 1.3,
-                "Romani (%)": 2.4
+                "German": 1.2,
+                "Hungarian": 97.7,
+                "Other": 1.3,
+                "Romani": 2.4
             },
             "Primary Language": [
                 "Hungarian"
             ],
             "Religion": {
-                "Christianity (%)": 42.5,
-                "No religion (%)": 16.1,
-                "Other (%)": 1.3
+                "Christianity": 42.5,
+                "No religion": 16.1,
+                "Other": 1.3
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 9584627.0,
-            "Density (/km2)": 103.0
+            "Density": 103.0
         }
     }
 }

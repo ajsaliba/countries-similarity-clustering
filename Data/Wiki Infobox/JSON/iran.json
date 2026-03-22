@@ -2,41 +2,41 @@
     "country": "Iran",
     "infobox": {
         "Area": {
-            "Total (km2)": 1648195.0,
-            "Water (%)": 1.63
+            "Total": 1648195.0,
+            "Water": 1.63
         },
         "Economy": {
             "Currency": [
                 "Iranian rial"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 21473.0,
-                "Total ($)": 1879000000000.0
+                "Per capita": 21473.0,
+                "Total": 1879000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 4074.0,
-                "Total ($)": 356513000000.0
+                "Per capita": 4074.0,
+                "Total": 356513000000.0
             },
             "Gini": 35.9,
             "HDI": 0.799
         },
         "General": {
             "Ethnic groups": {
-                "Arab (%)": 3.0,
-                "Azerbaijani (%)": 24.0,
-                "Baloch (%)": 2.0,
-                "Gilak and Mazanderani (%)": 8.0,
-                "Kurdish (%)": 7.0,
-                "Lur (%)": 2.0,
-                "Other (%)": 1.0,
-                "Persian (%)": 51.0,
-                "Turkmen (%)": 2.0
+                "Arab": 3.0,
+                "Azerbaijani": 24.0,
+                "Baloch": 2.0,
+                "Gilak and Mazanderani": 8.0,
+                "Kurdish": 7.0,
+                "Lur": 2.0,
+                "Other": 1.0,
+                "Persian": 51.0,
+                "Turkmen": 2.0
             },
             "Primary Language": [
                 "Persian"
             ],
             "Religion": {
-                "Unknown": 100.0
+                "Unknown": null
             }
         },
         "Government": {
@@ -45,7 +45,7 @@
         },
         "Population": {
             "Count": 92417681.0,
-            "Density (/km2)": 52.0
+            "Density": 52.0
         }
     }
 }

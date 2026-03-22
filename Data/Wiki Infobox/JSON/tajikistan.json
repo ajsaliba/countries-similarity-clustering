@@ -2,41 +2,41 @@
     "country": "Tajikistan",
     "infobox": {
         "Area": {
-            "Total (km2)": 143100.0,
-            "Water (%)": 1.8
+            "Total": 143100.0,
+            "Water": 1.8
         },
         "Economy": {
             "Currency": [
                 "Somoni"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 6434.0,
-                "Total ($)": 67750000000.0
+                "Per capita": 6434.0,
+                "Total": 67750000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1799.0,
-                "Total ($)": 18940000000.0
+                "Per capita": 1799.0,
+                "Total": 18940000000.0
             },
             "Gini": 34.0,
             "HDI": 0.691
         },
         "General": {
             "Ethnic groups": {
-                "Kyrgyz (%)": 0.4,
-                "Other (%)": 1.9,
-                "Russians (%)": 0.3,
-                "Tajiks (%)": 86.1,
-                "Uzbeks (%)": 11.3
+                "Kyrgyz": 0.4,
+                "Other": 1.9,
+                "Russians": 0.3,
+                "Tajiks": 86.1,
+                "Uzbeks": 11.3
             },
             "Primary Language": [
                 "Russian",
                 "Tajik"
             ],
             "Religion": {
-                "Christianity (%)": 0.7,
-                "Islam (%)": 97.5,
-                "No religion (%)": 1.7,
-                "Other (%)": 0.2
+                "Christianity": 0.7,
+                "Islam": 97.5,
+                "No religion": 1.7,
+                "Other": 0.2
             }
         },
         "Government": {
@@ -45,7 +45,7 @@
         },
         "Population": {
             "Count": 10786734.0,
-            "Density (/km2)": 75.4
+            "Density": 75.4
         }
     }
 }

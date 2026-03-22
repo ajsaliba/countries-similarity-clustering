@@ -2,46 +2,46 @@
     "country": "Uganda",
     "infobox": {
         "Area": {
-            "Total (km2)": 241038.0,
-            "Water (%)": 15.39
+            "Total": 241038.0,
+            "Water": 15.39
         },
         "Economy": {
             "Currency": [
                 "Ugandan shilling"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 3900.0,
-                "Total ($)": 187110000000.0
+                "Per capita": 3900.0,
+                "Total": 187110000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1340.0,
-                "Total ($)": 64280000000.0
+                "Per capita": 1340.0,
+                "Total": 64280000000.0
             },
             "Gini": 42.0,
             "HDI": 0.582
         },
         "General": {
             "Ethnic groups": {
-                "Acholi (%)": 4.2,
-                "Baganda (%)": 15.3,
-                "Bagisu (%)": 4.5,
-                "Bakiga (%)": 6.4,
-                "Banyankole (%)": 9.1,
-                "Basoga (%)": 8.1,
-                "Iteso (%)": 6.8,
-                "Langi (%)": 5.9,
-                "Lugbara (%)": 2.6,
-                "Other (%)": 37.1
+                "Acholi": 4.2,
+                "Baganda": 15.3,
+                "Bagisu": 4.5,
+                "Bakiga": 6.4,
+                "Banyankole": 9.1,
+                "Basoga": 8.1,
+                "Iteso": 6.8,
+                "Langi": 5.9,
+                "Lugbara": 2.6,
+                "Other": 37.1
             },
             "Primary Language": [
                 "English",
                 "Swahili"
             ],
             "Religion": {
-                "Christianity (%)": 81.7,
-                "Islam (%)": 13.2,
-                "No religion (%)": 0.2,
-                "Other (%)": 4.9
+                "Christianity": 81.7,
+                "Islam": 13.2,
+                "No religion": 0.2,
+                "Other": 4.9
             }
         },
         "Government": {
@@ -50,7 +50,7 @@
         },
         "Population": {
             "Count": 45905417.0,
-            "Density (/km2)": 157.1
+            "Density": 157.1
         }
     }
 }

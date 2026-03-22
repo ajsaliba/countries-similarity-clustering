@@ -2,44 +2,44 @@
     "country": "Myanmar",
     "infobox": {
         "Area": {
-            "Total (km2)": 676579.0,
-            "Water (%)": 3.06
+            "Total": 676579.0,
+            "Water": 3.06
         },
         "Economy": {
             "Currency": [
                 "Myanmar kyat"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 4950.0,
-                "Total ($)": 273200000000.0
+                "Per capita": 4950.0,
+                "Total": 273200000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1110.0,
-                "Total ($)": 60560000000.0
+                "Per capita": 1110.0,
+                "Total": 60560000000.0
             },
             "Gini": 30.7,
             "HDI": 0.609
         },
         "General": {
             "Ethnic groups": {
-                "Bamar (%)": 68.78,
-                "Chin (%)": 2.09,
-                "Kachin (%)": 1.5,
-                "Karen (%)": 6.69,
-                "Karenni (%)": 0.39,
-                "Mon (%)": 2.19,
-                "Rakhine (%)": 4.61,
-                "Shan (%)": 4.51
+                "Bamar": 68.78,
+                "Chin": 2.09,
+                "Kachin": 1.5,
+                "Karen": 6.69,
+                "Karenni": 0.39,
+                "Mon": 2.19,
+                "Rakhine": 4.61,
+                "Shan": 4.51
             },
             "Primary Language": [
                 "Burmese"
             ],
             "Religion": {
-                "Buddhism (%)": 87.9,
-                "Christianity (%)": 6.2,
-                "Folk/Traditional (%)": 0.8,
-                "Islam (%)": 4.3,
-                "Other (%)": 0.2
+                "Buddhism": 87.9,
+                "Christianity": 6.2,
+                "Folk/Traditional": 0.8,
+                "Islam": 4.3,
+                "Other": 0.2
             }
         },
         "Government": {
@@ -48,7 +48,7 @@
         },
         "Population": {
             "Count": 55770232.0,
-            "Density (/km2)": 83.8
+            "Density": 83.8
         }
     }
 }

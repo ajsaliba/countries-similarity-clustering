@@ -2,42 +2,42 @@
     "country": "Guinea",
     "infobox": {
         "Area": {
-            "Total (km2)": 245857.0,
-            "Water (%)": 0.0
+            "Total": 245857.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Guinean franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 4075.0,
-                "Total ($)": 75050000000.0
+                "Per capita": 4075.0,
+                "Total": 75050000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1670.0,
-                "Total ($)": 30090000000.0
+                "Per capita": 1670.0,
+                "Total": 30090000000.0
             },
             "Gini": 33.7,
             "HDI": 0.5
         },
         "General": {
             "Ethnic groups": {
-                "Fula (%)": 33.4,
-                "Kissi (%)": 6.2,
-                "Kpelle (%)": 7.8,
-                "Loma (%)": 1.6,
-                "Mandinka (%)": 29.4,
-                "Other (%)": 0.4,
-                "Susu (%)": 21.2
+                "Fula": 33.4,
+                "Kissi": 6.2,
+                "Kpelle": 7.8,
+                "Loma": 1.6,
+                "Mandinka": 29.4,
+                "Other": 0.4,
+                "Susu": 21.2
             },
             "Primary Language": [
                 "French"
             ],
             "Religion": {
-                "Christianity (%)": 13.4,
-                "Folk/Traditional (%)": 0.2,
-                "Islam (%)": 85.2,
-                "No religion (%)": 1.2
+                "Christianity": 13.4,
+                "Folk/Traditional": 0.2,
+                "Islam": 85.2,
+                "No religion": 1.2
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 13986179.0,
-            "Density (/km2)": 40.9
+            "Density": 40.9
         }
     }
 }

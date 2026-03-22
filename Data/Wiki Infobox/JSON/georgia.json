@@ -2,39 +2,39 @@
     "country": "Georgia",
     "infobox": {
         "Area": {
-            "Total (km2)": 69700.0,
-            "Water (%)": -1.0
+            "Total": 69700.0,
+            "Water": null
         },
         "Economy": {
             "Currency": [
                 "Georgian lari"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 33340.0,
-                "Total ($)": 123049000000000.0
+                "Per capita": 33340.0,
+                "Total": 123049000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 10886.0,
-                "Total ($)": 35350000000.0
+                "Per capita": 10886.0,
+                "Total": 35350000000.0
             },
             "Gini": 34.2,
             "HDI": 0.844
         },
         "General": {
             "Ethnic groups": {
-                "Armenians (%)": 4.5,
-                "Azerbaijanis (%)": 6.2,
-                "Georgians (%)": 86.8,
-                "Other (%)": 2.1,
-                "Russians (%)": 0.7
+                "Armenians": 4.5,
+                "Azerbaijanis": 6.2,
+                "Georgians": 86.8,
+                "Other": 2.1,
+                "Russians": 0.7
             },
             "Primary Language": [
                 "Georgian"
             ],
             "Religion": {
-                "Christianity (%)": 87.3,
-                "Islam (%)": 10.7,
-                "No religion (%)": 2.0
+                "Christianity": 87.3,
+                "Islam": 10.7,
+                "No religion": 2.0
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 3657000.0,
-            "Density (/km2)": 56.3
+            "Density": 56.3
         }
     }
 }

@@ -2,45 +2,45 @@
     "country": "Central African Republic",
     "infobox": {
         "Area": {
-            "Total (km2)": 622984.0,
-            "Water (%)": -1.0
+            "Total": 622984.0,
+            "Water": null
         },
         "Economy": {
             "Currency": [
                 "Central African CFA franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 1390.0,
-                "Total ($)": 7940000000.0
+                "Per capita": 1390.0,
+                "Total": 7940000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 650.0,
-                "Total ($)": 3710000000.0
+                "Per capita": 650.0,
+                "Total": 3710000000.0
             },
             "Gini": 43.0,
             "HDI": 0.414
         },
         "General": {
             "Ethnic groups": {
-                "Banda (%)": 27.0,
-                "Baya (%)": 33.0,
-                "Fula (%)": 2.0,
-                "M'Baka (%)": 4.0,
-                "Mandjia (%)": 13.0,
-                "Mbum (%)": 4.0,
-                "Other (%)": 3.0,
-                "Sara (%)": 10.0,
-                "Yakoma (%)": 4.0
+                "Banda": 27.0,
+                "Baya": 33.0,
+                "Fula": 2.0,
+                "M'Baka": 4.0,
+                "Mandjia": 13.0,
+                "Mbum": 4.0,
+                "Other": 3.0,
+                "Sara": 10.0,
+                "Yakoma": 4.0
             },
             "Primary Language": [
                 "French",
                 "Sango"
             ],
             "Religion": {
-                "Christianity (%)": 73.2,
-                "Folk/Traditional (%)": 12.0,
-                "Islam (%)": 13.9,
-                "No religion (%)": 0.9
+                "Christianity": 73.2,
+                "Folk/Traditional": 12.0,
+                "Islam": 13.9,
+                "No religion": 0.9
             }
         },
         "Government": {
@@ -49,7 +49,7 @@
         },
         "Population": {
             "Count": 5650957.0,
-            "Density (/km2)": 8.6
+            "Density": 8.6
         }
     }
 }

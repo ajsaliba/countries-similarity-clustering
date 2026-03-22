@@ -2,34 +2,34 @@
     "country": "San Marino",
     "infobox": {
         "Area": {
-            "Total (km2)": 61.19,
-            "Water (%)": 0.0059
+            "Total": 61.19,
+            "Water": 0.0059
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 86989.0,
-                "Total ($)": 2978000000.0
+                "Per capita": 86989.0,
+                "Total": 2978000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 59405.0,
-                "Total ($)": 2034000000.0
+                "Per capita": 59405.0,
+                "Total": 2034000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.915
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Italian"
             ],
             "Religion": {
-                "Christianity (%)": 91.4,
-                "No religion (%)": 7.5
+                "Christianity": 91.4,
+                "No religion": 7.5
             }
         },
         "Government": {
@@ -38,7 +38,7 @@
         },
         "Population": {
             "Count": 34172.0,
-            "Density (/km2)": 579.0
+            "Density": 579.0
         }
     }
 }

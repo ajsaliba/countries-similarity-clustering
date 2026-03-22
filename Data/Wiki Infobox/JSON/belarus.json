@@ -2,40 +2,40 @@
     "country": "Belarus",
     "infobox": {
         "Area": {
-            "Total (km2)": 207600.0,
-            "Water (%)": 2.26
+            "Total": 207600.0,
+            "Water": 2.26
         },
         "Economy": {
             "Currency": [
                 "Belarusian ruble"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 24016.0,
-                "Total ($)": 221186000000.0
+                "Per capita": 24016.0,
+                "Total": 221186000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 7477.0,
-                "Total ($)": 68864000000.0
+                "Per capita": 7477.0,
+                "Total": 68864000000.0
             },
             "Gini": 25.3,
             "HDI": 0.824
         },
         "General": {
             "Ethnic groups": {
-                "Belarusians (%)": 84.9,
-                "Other (%)": 2.8,
-                "Poles (%)": 3.1,
-                "Russians (%)": 7.5,
-                "Ukrainians (%)": 1.7
+                "Belarusians": 84.9,
+                "Other": 2.8,
+                "Poles": 3.1,
+                "Russians": 7.5,
+                "Ukrainians": 1.7
             },
             "Primary Language": [
                 "Belarusian",
                 "Russian"
             ],
             "Religion": {
-                "Christianity (%)": 91.0,
-                "No religion (%)": 7.8,
-                "Other (%)": 1.2
+                "Christianity": 91.0,
+                "No religion": 7.8,
+                "Other": 1.2
             }
         },
         "Government": {
@@ -44,7 +44,7 @@
         },
         "Population": {
             "Count": 9109280.0,
-            "Density (/km2)": 43.9
+            "Density": 43.9
         }
     }
 }

@@ -2,40 +2,40 @@
     "country": "Jamaica",
     "infobox": {
         "Area": {
-            "Total (km2)": 10991.0,
-            "Water (%)": 1.5
+            "Total": 10991.0,
+            "Water": 1.5
         },
         "Economy": {
             "Currency": [
                 "Jamaican dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 12283.0,
-                "Total ($)": 33775000000.0
+                "Per capita": 12283.0,
+                "Total": 33775000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 7487.0,
-                "Total ($)": 20586000000.0
+                "Per capita": 7487.0,
+                "Total": 20586000000.0
             },
             "Gini": 40.2,
             "HDI": 0.72
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 76.3,
-                "Chinese (%)": 1.2,
-                "Indian (%)": 3.4,
-                "Mixed (%)": 15.1,
-                "Other (%)": 0.8,
-                "White (%)": 3.2
+                "African": 76.3,
+                "Chinese": 1.2,
+                "Indian": 3.4,
+                "Mixed": 15.1,
+                "Other": 0.8,
+                "White": 3.2
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 68.9,
-                "No religion (%)": 21.3,
-                "Other (%)": 7.6
+                "Christianity": 68.9,
+                "No religion": 21.3,
+                "Other": 7.6
             }
         },
         "Government": {
@@ -44,7 +44,7 @@
         },
         "Population": {
             "Count": 2824913.0,
-            "Density (/km2)": 266.0
+            "Density": 266.0
         }
     }
 }

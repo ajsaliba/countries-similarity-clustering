@@ -2,38 +2,38 @@
     "country": "Kuwait",
     "infobox": {
         "Area": {
-            "Total (km2)": 17818.0,
-            "Water (%)": 0.0
+            "Total": 17818.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Kuwaiti dinar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 50960.0,
-                "Total ($)": 260500000000.0
+                "Per capita": 50960.0,
+                "Total": 260500000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 29950.0,
-                "Total ($)": 153100000000.0
+                "Per capita": 29950.0,
+                "Total": 153100000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.852
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 1.0,
-                "Arab (%)": 57.8,
-                "Other (%)": 0.9,
-                "South Asian (%)": 40.3
+                "African": 1.0,
+                "Arab": 57.8,
+                "Other": 0.9,
+                "South Asian": 40.3
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
-                "Christianity (%)": 18.2,
-                "Islam (%)": 74.6,
-                "Other (%)": 7.2
+                "Christianity": 18.2,
+                "Islam": 74.6,
+                "Other": 7.2
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 4985716.0,
-            "Density (/km2)": 200.2
+            "Density": 200.2
         }
     }
 }

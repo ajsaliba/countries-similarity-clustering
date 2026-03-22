@@ -2,8 +2,8 @@
     "country": "Palestine",
     "infobox": {
         "Area": {
-            "Total (km2)": 6020.0,
-            "Water (%)": 3.5
+            "Total": 6020.0,
+            "Water": 3.5
         },
         "Economy": {
             "Currency": [
@@ -12,30 +12,30 @@
                 "Jordanian dinar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 6642.0,
-                "Total ($)": 36391000000.0
+                "Per capita": 6642.0,
+                "Total": 36391000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 3464.0,
-                "Total ($)": 18109000000.0
+                "Per capita": 3464.0,
+                "Total": 18109000000.0
             },
             "Gini": 33.7,
             "HDI": 0.674
         },
         "General": {
             "Ethnic groups": {
-                "Israeli Jews (%)": 8.8,
-                "Palestinian Arabs (%)": 91.2
+                "Israeli Jews": 8.8,
+                "Palestinian Arabs": 91.2
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
-                "Christianity (%)": 0.88,
-                "Islam (%)": 80.73,
-                "Judaism (%)": 13.07,
-                "No religion (%)": 5.27,
-                "Other (%)": 0.05
+                "Christianity": 0.88,
+                "Islam": 80.73,
+                "Judaism": 13.07,
+                "No religion": 5.27,
+                "Other": 0.05
             }
         },
         "Government": {
@@ -44,7 +44,7 @@
         },
         "Population": {
             "Count": 5483450.0,
-            "Density (/km2)": 731.0
+            "Density": 731.0
         }
     }
 }

@@ -2,42 +2,42 @@
     "country": "Ivory Coast",
     "infobox": {
         "Area": {
-            "Total (km2)": 322462.0,
-            "Water (%)": 1.4
+            "Total": 322462.0,
+            "Water": 1.4
         },
         "Economy": {
             "Currency": [
                 "West African CFA franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 6960.0,
-                "Total ($)": 202647000000.0
+                "Per capita": 6960.0,
+                "Total": 202647000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2728.0,
-                "Total ($)": 79430000000.0
+                "Per capita": 2728.0,
+                "Total": 79430000000.0
             },
             "Gini": 35.3,
             "HDI": 0.582
         },
         "General": {
             "Ethnic groups": {
-                "Akan (%)": 38.0,
-                "Kru (%)": 9.1,
-                "Northern Mande (%)": 22.0,
-                "Other (%)": 0.3,
-                "Southern Mande (%)": 8.6,
-                "Voltaiques/Gur (%)": 22.0
+                "Akan": 38.0,
+                "Kru": 9.1,
+                "Northern Mande": 22.0,
+                "Other": 0.3,
+                "Southern Mande": 8.6,
+                "Voltaiques/Gur": 22.0
             },
             "Primary Language": [
                 "French"
             ],
             "Religion": {
-                "Christianity (%)": 39.8,
-                "Folk/Traditional (%)": 2.2,
-                "Islam (%)": 42.5,
-                "No religion (%)": 12.6,
-                "Other (%)": 0.7
+                "Christianity": 39.8,
+                "Folk/Traditional": 2.2,
+                "Islam": 42.5,
+                "No religion": 12.6,
+                "Other": 0.7
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 31500000.0,
-            "Density (/km2)": 97.7
+            "Density": 97.7
         }
     }
 }

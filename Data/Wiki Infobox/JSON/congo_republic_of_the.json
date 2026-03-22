@@ -2,31 +2,31 @@
     "country": "Congo, Republic of the",
     "infobox": {
         "Area": {
-            "Total (km2)": 342000.0,
-            "Water (%)": 3.3
+            "Total": 342000.0,
+            "Water": 3.3
         },
         "Economy": {
             "Currency": [
                 "Central African CFA franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 6590.0,
-                "Total ($)": 42760000000.0
+                "Per capita": 6590.0,
+                "Total": 42760000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2360.0,
-                "Total ($)": 15281000000.0
+                "Per capita": 2360.0,
+                "Total": 15281000000.0
             },
             "Gini": 40.2,
             "HDI": 0.649
         },
         "General": {
             "Ethnic groups": {
-                "Bakongo (%)": 41.0,
-                "Bateke (%)": 16.9,
-                "Mbochi (%)": 13.1,
-                "Other (%)": 2.0,
-                "Sangha (%)": 5.6
+                "Bakongo": 41.0,
+                "Bateke": 16.9,
+                "Mbochi": 13.1,
+                "Other": 2.0,
+                "Sangha": 5.6
             },
             "Primary Language": [
                 "French",
@@ -34,10 +34,10 @@
                 "Lingala"
             ],
             "Religion": {
-                "Christianity (%)": 87.1,
-                "Folk/Traditional (%)": 2.7,
-                "Islam (%)": 1.2,
-                "No religion (%)": 8.0
+                "Christianity": 87.1,
+                "Folk/Traditional": 2.7,
+                "Islam": 1.2,
+                "No religion": 8.0
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 6228784.0,
-            "Density (/km2)": 19.0
+            "Density": 19.0
         }
     }
 }

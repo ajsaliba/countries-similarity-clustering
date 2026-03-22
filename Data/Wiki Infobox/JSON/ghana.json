@@ -2,45 +2,45 @@
     "country": "Ghana",
     "infobox": {
         "Area": {
-            "Total (km2)": 240000.0,
-            "Water (%)": 4.61
+            "Total": 240000.0,
+            "Water": 4.61
         },
         "Economy": {
             "Currency": [
                 "Cedi"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 8042.0,
-                "Total ($)": 295120000000.0
+                "Per capita": 8042.0,
+                "Total": 295120000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2520.0,
-                "Total ($)": 88033000000.0
+                "Per capita": 2520.0,
+                "Total": 88033000000.0
             },
             "Gini": 44.0,
             "HDI": 0.628
         },
         "General": {
             "Ethnic groups": {
-                "Akan (%)": 45.7,
-                "Ewe (%)": 12.8,
-                "Ga-Adangbe (%)": 7.1,
-                "Guan (%)": 3.2,
-                "Gurma (%)": 6.4,
-                "Gurunsi (%)": 2.7,
-                "Mande (%)": 2.0,
-                "Mole-Dagbon (%)": 18.5,
-                "Other (%)": 1.6
+                "Akan": 45.7,
+                "Ewe": 12.8,
+                "Ga-Adangbe": 7.1,
+                "Guan": 3.2,
+                "Gurma": 6.4,
+                "Gurunsi": 2.7,
+                "Mande": 2.0,
+                "Mole-Dagbon": 18.5,
+                "Other": 1.6
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 71.3,
-                "Folk/Traditional (%)": 3.2,
-                "Islam (%)": 19.9,
-                "No religion (%)": 1.1,
-                "Other (%)": 4.5
+                "Christianity": 71.3,
+                "Folk/Traditional": 3.2,
+                "Islam": 19.9,
+                "No religion": 1.1,
+                "Other": 4.5
             }
         },
         "Government": {
@@ -49,7 +49,7 @@
         },
         "Population": {
             "Count": 35039451.0,
-            "Density (/km2)": 151.0
+            "Density": 151.0
         }
     }
 }

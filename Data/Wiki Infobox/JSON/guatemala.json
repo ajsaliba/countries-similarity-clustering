@@ -2,41 +2,41 @@
     "country": "Guatemala",
     "infobox": {
         "Area": {
-            "Total (km2)": 108889.0,
-            "Water (%)": 0.4
+            "Total": 108889.0,
+            "Water": 0.4
         },
         "Economy": {
             "Currency": [
                 "Quetzal"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 15386.0,
-                "Total ($)": 278508000000.0
+                "Per capita": 15386.0,
+                "Total": 278508000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 6682.0,
-                "Total ($)": 120964000000.0
+                "Per capita": 6682.0,
+                "Total": 120964000000.0
             },
             "Gini": 45.2,
             "HDI": 0.662
         },
         "General": {
             "Ethnic groups": {
-                "Black (%)": 0.19,
-                "Garifuna (%)": 0.13,
-                "Ladino (%)": 56.01,
-                "Maya (%)": 41.66,
-                "Other (%)": 0.24,
-                "Xinca (%)": 1.77
+                "Black": 0.19,
+                "Garifuna": 0.13,
+                "Ladino": 56.01,
+                "Maya": 41.66,
+                "Other": 0.24,
+                "Xinca": 1.77
             },
             "Primary Language": [
                 "Mayan",
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 88.1,
-                "No religion (%)": 11.0,
-                "Other (%)": 0.9
+                "Christianity": 88.1,
+                "No religion": 11.0,
+                "Other": 0.9
             }
         },
         "Government": {
@@ -45,7 +45,7 @@
         },
         "Population": {
             "Count": 18255216.0,
-            "Density (/km2)": 166.0
+            "Density": 166.0
         }
     }
 }

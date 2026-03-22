@@ -2,37 +2,37 @@
     "country": "Paraguay",
     "infobox": {
         "Area": {
-            "Total (km2)": 406752.0,
-            "Water (%)": 2.6
+            "Total": 406752.0,
+            "Water": 2.6
         },
         "Economy": {
             "Currency": [
                 "Guaraní"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 22462.0,
-                "Total ($)": 145110000000.0
+                "Per capita": 22462.0,
+                "Total": 145110000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 7990.0,
-                "Total ($)": 51670000000.0
+                "Per capita": 7990.0,
+                "Total": 51670000000.0
             },
             "Gini": 44.4,
             "HDI": 0.756
         },
         "General": {
             "Ethnic groups": {
-                "Mestizo (%)": 95,
-                "White (%)": 5
+                "Mestizo": 95,
+                "White": 5
             },
             "Primary Language": [
                 "Guarani",
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 95.5,
-                "No religion (%)": 4.1,
-                "Other (%)": 0.4
+                "Christianity": 95.5,
+                "No religion": 4.1,
+                "Other": 0.4
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 6413627.0,
-            "Density (/km2)": 15.1
+            "Density": 15.1
         }
     }
 }

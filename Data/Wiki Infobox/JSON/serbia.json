@@ -2,39 +2,39 @@
     "country": "Serbia",
     "infobox": {
         "Area": {
-            "Total (km2)": 88499.0,
-            "Water (%)": -1.0
+            "Total": 88499.0,
+            "Water": null
         },
         "Economy": {
             "Currency": [
                 "Serbian dinar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 34790.0,
-                "Total ($)": 225550000000.0
+                "Per capita": 34790.0,
+                "Total": 225550000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 17290.0,
-                "Total ($)": 112110000000.0
+                "Per capita": 17290.0,
+                "Total": 112110000000.0
             },
             "Gini": 31.9,
             "HDI": 0.833
         },
         "General": {
             "Ethnic groups": {
-                "Bosniaks (%)": 2.3,
-                "Hungarians (%)": 2.8,
-                "Other (%)": 5.4,
-                "Roma (%)": 2.0,
-                "Serbs (%)": 80.6
+                "Bosniaks": 2.3,
+                "Hungarians": 2.8,
+                "Other": 5.4,
+                "Roma": 2.0,
+                "Serbs": 80.6
             },
             "Primary Language": [
                 "Serbian"
             ],
             "Religion": {
-                "Christianity (%)": 86.6,
-                "Islam (%)": 4.2,
-                "No religion (%)": 1.1
+                "Christianity": 86.6,
+                "Islam": 4.2,
+                "No religion": 1.1
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 6567783.0,
-            "Density (/km2)": 85.0
+            "Density": 85.0
         }
     }
 }

@@ -2,38 +2,38 @@
     "country": "Nicaragua",
     "infobox": {
         "Area": {
-            "Total (km2)": 130375.0,
-            "Water (%)": 7.14
+            "Total": 130375.0,
+            "Water": 7.14
         },
         "Economy": {
             "Currency": [
                 "Córdoba"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 8492.0,
-                "Total ($)": 56697000000.0
+                "Per capita": 8492.0,
+                "Total": 56697000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2673.0,
-                "Total ($)": 17843000000.0
+                "Per capita": 2673.0,
+                "Total": 17843000000.0
             },
             "Gini": 46.2,
             "HDI": 0.706
         },
         "General": {
             "Ethnic groups": {
-                "Black (%)": 9.0,
-                "Indigenous (%)": 5.0,
-                "Mestizo (%)": 69.0,
-                "White (%)": 17.0
+                "Black": 9.0,
+                "Indigenous": 5.0,
+                "Mestizo": 69.0,
+                "White": 17.0
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 84.4,
-                "No religion (%)": 14.7,
-                "Other (%)": 0.9
+                "Christianity": 84.4,
+                "No religion": 14.7,
+                "Other": 0.9
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 6676948.0,
-            "Density (/km2)": 51.0
+            "Density": 51.0
         }
     }
 }

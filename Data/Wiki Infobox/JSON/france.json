@@ -2,36 +2,36 @@
     "country": "France",
     "infobox": {
         "Area": {
-            "Total (km2)": 632702.3,
-            "Water (%)": 0.86
+            "Total": 632702.3,
+            "Water": 0.86
         },
         "Economy": {
             "Currency": [
                 "Euro CFP franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 65626.0,
-                "Total ($)": 4504000000000.0
+                "Per capita": 65626.0,
+                "Total": 4504000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 46792.0,
-                "Total ($)": 3211000000000.0
+                "Per capita": 46792.0,
+                "Total": 3211000000000.0
             },
             "Gini": 29.8,
             "HDI": 0.92
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "French"
             ],
             "Religion": {
-                "Christianity (%)": 50.0,
-                "Islam (%)": 4.0,
-                "No religion (%)": 33.0,
-                "Other (%)": 4.0
+                "Christianity": 50.0,
+                "Islam": 4.0,
+                "No religion": 33.0,
+                "Other": 4.0
             }
         },
         "Government": {
@@ -40,7 +40,7 @@
         },
         "Population": {
             "Count": 69081996.0,
-            "Density (/km2)": 123.0
+            "Density": 123.0
         }
     }
 }

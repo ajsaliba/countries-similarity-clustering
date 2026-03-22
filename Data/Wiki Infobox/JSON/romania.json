@@ -2,38 +2,38 @@
     "country": "Romania",
     "infobox": {
         "Area": {
-            "Total (km2)": 238397.0,
-            "Water (%)": 3.0
+            "Total": 238397.0,
+            "Water": 3.0
         },
         "Economy": {
             "Currency": [
                 "Romanian leu"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 50726.0,
-                "Total ($)": 949332000000.0
+                "Per capita": 50726.0,
+                "Total": 949332000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 23767.0,
-                "Total ($)": 444807000000.0
+                "Per capita": 23767.0,
+                "Total": 444807000000.0
             },
             "Gini": 27.3,
             "HDI": 0.845
         },
         "General": {
             "Ethnic groups": {
-                "Hungarians (%)": 6.0,
-                "Other (%)": 1.2,
-                "Roma (%)": 3.4,
-                "Romanians (%)": 89.3
+                "Hungarians": 6.0,
+                "Other": 1.2,
+                "Roma": 3.4,
+                "Romanians": 89.3
             },
             "Primary Language": [
                 "Romanian"
             ],
             "Religion": {
-                "Christianity (%)": 84.9,
-                "No religion (%)": 0.8,
-                "Other (%)": 0.4
+                "Christianity": 84.9,
+                "No religion": 0.8,
+                "Other": 0.4
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 19043151.0,
-            "Density (/km2)": 83.0
+            "Density": 83.0
         }
     }
 }

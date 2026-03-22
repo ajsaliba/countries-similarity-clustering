@@ -2,32 +2,32 @@
     "country": "Equatorial Guinea",
     "infobox": {
         "Area": {
-            "Total (km2)": 28050.0,
-            "Water (%)": 0.0
+            "Total": 28050.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Central African CFA franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 20017.0,
-                "Total ($)": 33001000000.0
+                "Per capita": 20017.0,
+                "Total": 33001000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 7750.0,
-                "Total ($)": 12680000000.0
+                "Per capita": 7750.0,
+                "Total": 12680000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.674
         },
         "General": {
             "Ethnic groups": {
-                "Annobon (%)": 1.6,
-                "Bubi (%)": 6.5,
-                "Bujeba (%)": 1.1,
-                "Fang (%)": 85.7,
-                "Ndowe (%)": 3.6,
-                "Other (%)": 1.1
+                "Annobon": 1.6,
+                "Bubi": 6.5,
+                "Bujeba": 1.1,
+                "Fang": 85.7,
+                "Ndowe": 3.6,
+                "Other": 1.1
             },
             "Primary Language": [
                 "French",
@@ -35,11 +35,11 @@
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 88.7,
-                "Folk/Traditional (%)": 1.7,
-                "Islam (%)": 4.0,
-                "No religion (%)": 5.0,
-                "Other (%)": 0.6
+                "Christianity": 88.7,
+                "Folk/Traditional": 1.7,
+                "Islam": 4.0,
+                "No religion": 5.0,
+                "Other": 0.6
             }
         },
         "Government": {
@@ -48,7 +48,7 @@
         },
         "Population": {
             "Count": 1795834.0,
-            "Density (/km2)": 67.0
+            "Density": 67.0
         }
     }
 }

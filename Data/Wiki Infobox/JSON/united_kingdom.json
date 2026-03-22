@@ -2,39 +2,39 @@
     "country": "United Kingdom",
     "infobox": {
         "Area": {
-            "Total (km2)": 244376.0,
-            "Water (%)": -1.0
+            "Total": 244376.0,
+            "Water": null
         },
         "Economy": {
             "Currency": [
                 "Pound sterling"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 63759.0,
-                "Total ($)": 4455000000000.0
+                "Per capita": 63759.0,
+                "Total": 4455000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 56661.0,
-                "Total ($)": 3959000000000.0
+                "Per capita": 56661.0,
+                "Total": 3959000000000.0
             },
             "Gini": 35.4,
             "HDI": 0.946
         },
         "General": {
             "Ethnic groups": {
-                "Asian (%)": 8.6,
-                "Black (%)": 3.7,
-                "Mixed (%)": 2.7,
-                "Other (%)": 2.0,
-                "White (%)": 83.0
+                "Asian": 8.6,
+                "Black": 3.7,
+                "Mixed": 2.7,
+                "Other": 2.0,
+                "White": 83.0
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 46.5,
-                "Judaism (%)": 0.4,
-                "Other (%)": 0.6
+                "Christianity": 46.5,
+                "Judaism": 0.4,
+                "Other": 0.6
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 69281437.0,
-            "Density (/km2)": 285.0
+            "Density": 285.0
         }
     }
 }

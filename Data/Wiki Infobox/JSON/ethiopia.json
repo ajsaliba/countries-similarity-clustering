@@ -2,37 +2,37 @@
     "country": "Ethiopia",
     "infobox": {
         "Area": {
-            "Total (km2)": 1104300.0,
-            "Water (%)": 0.7
+            "Total": 1104300.0,
+            "Water": 0.7
         },
         "Economy": {
             "Currency": [
                 "Birr"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 4050.0,
-                "Total ($)": 434440000000.0
+                "Per capita": 4050.0,
+                "Total": 434440000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1350.0,
-                "Total ($)": 145030000000.0
+                "Per capita": 1350.0,
+                "Total": 145030000000.0
             },
             "Gini": 35.0,
             "HDI": 0.492
         },
         "General": {
             "Ethnic groups": {
-                "Afar (%)": 1.7,
-                "Amhara (%)": 26.9,
-                "Gamo (%)": 1.5,
-                "Gurage (%)": 2.5,
-                "Hadiya (%)": 1.7,
-                "Oromo (%)": 34.5,
-                "Other (%)": 12.6,
-                "Sidama (%)": 4.0,
-                "Somali (%)": 6.2,
-                "Tigrayan (%)": 6.1,
-                "Welayta (%)": 2.3
+                "Afar": 1.7,
+                "Amhara": 26.9,
+                "Gamo": 1.5,
+                "Gurage": 2.5,
+                "Hadiya": 1.7,
+                "Oromo": 34.5,
+                "Other": 12.6,
+                "Sidama": 4.0,
+                "Somali": 6.2,
+                "Tigrayan": 6.1,
+                "Welayta": 2.3
             },
             "Primary Language": [
                 "Afar",
@@ -42,10 +42,10 @@
                 "Tigrinya"
             ],
             "Religion": {
-                "Christianity (%)": 67.3,
-                "Folk/Traditional (%)": 0.6,
-                "Islam (%)": 31.3,
-                "No religion (%)": 0.8
+                "Christianity": 67.3,
+                "Folk/Traditional": 0.6,
+                "Islam": 31.3,
+                "No religion": 0.8
             }
         },
         "Government": {
@@ -54,7 +54,7 @@
         },
         "Population": {
             "Count": 135500000.0,
-            "Density (/km2)": 92.7
+            "Density": 92.7
         }
     }
 }

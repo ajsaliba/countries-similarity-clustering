@@ -2,35 +2,35 @@
     "country": "Argentina",
     "infobox": {
         "Area": {
-            "Total (km2)": 2780085.0,
-            "Water (%)": 1.57
+            "Total": 2780085.0,
+            "Water": 1.57
         },
         "Economy": {
             "Currency": [
                 "Argentine peso"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 31379.0,
-                "Total ($)": 1493000000000.0
+                "Per capita": 31379.0,
+                "Total": 1493000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 14362.0,
-                "Total ($)": 683533000000.0
+                "Per capita": 14362.0,
+                "Total": 683533000000.0
             },
             "Gini": 40.7,
             "HDI": 0.865
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 78.2,
-                "No religion (%)": 20.5,
-                "Other (%)": 1.3
+                "Christianity": 78.2,
+                "No religion": 20.5,
+                "Other": 1.3
             }
         },
         "Government": {
@@ -39,7 +39,7 @@
         },
         "Population": {
             "Count": 46735004.0,
-            "Density (/km2)": 16.8
+            "Density": 16.8
         }
     }
 }

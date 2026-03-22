@@ -2,39 +2,39 @@
     "country": "Morocco",
     "infobox": {
         "Area": {
-            "Total (km2)": 446550.0,
-            "Water (%)": 0.056
+            "Total": 446550.0,
+            "Water": 0.056
         },
         "Economy": {
             "Currency": [
                 "Moroccan dirham"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 11270.0,
-                "Total ($)": 424870000000.0
+                "Per capita": 11270.0,
+                "Total": 424870000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 4440.0,
-                "Total ($)": 165840000000.0
+                "Per capita": 4440.0,
+                "Total": 165840000000.0
             },
             "Gini": 40.3,
             "HDI": 0.71
         },
         "General": {
             "Ethnic groups": {
-                "Arab (%)": 44.0,
-                "Arabised Berbers (%)": 24.0,
-                "Berbers (%)": 22.0,
-                "Mauritanian Moors (%)": 10.0
+                "Arab": 44.0,
+                "Arabised Berbers": 24.0,
+                "Berbers": 22.0,
+                "Mauritanian Moors": 10.0
             },
             "Primary Language": [
                 "Arabic",
                 "Tamazight"
             ],
             "Religion": {
-                "Islam (%)": 99.68,
-                "Judaism (%)": 0.01,
-                "Other (%)": 0.4
+                "Islam": 99.68,
+                "Judaism": 0.01,
+                "Other": 0.4
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 37493183.0,
-            "Density (/km2)": 79.0
+            "Density": 79.0
         }
     }
 }

@@ -2,37 +2,37 @@
     "country": "Kiribati",
     "infobox": {
         "Area": {
-            "Total (km2)": 811.19,
-            "Water (%)": -1.0
+            "Total": 811.19,
+            "Water": null
         },
         "Economy": {
             "Currency": [
                 "Australian dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 2381.0,
-                "Total ($)": 297000000.0
+                "Per capita": 2381.0,
+                "Total": 297000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1989.0,
-                "Total ($)": 248000000.0
+                "Per capita": 1989.0,
+                "Total": 248000000.0
             },
             "Gini": 27.8,
             "HDI": 0.644
         },
         "General": {
             "Ethnic groups": {
-                "Gilbertese (%)": 95.7,
-                "Other (%)": 4.3
+                "Gilbertese": 95.7,
+                "Other": 4.3
             },
             "Primary Language": [
                 "English",
                 "Gilbertese"
             ],
             "Religion": {
-                "Christianity (%)": 96.2,
-                "No religion (%)": 1.7,
-                "Other (%)": 2.1
+                "Christianity": 96.2,
+                "No religion": 1.7,
+                "Other": 2.1
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 116545.0,
-            "Density (/km2)": 149.64
+            "Density": 149.64
         }
     }
 }

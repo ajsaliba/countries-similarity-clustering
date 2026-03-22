@@ -2,38 +2,38 @@
     "country": "Canada",
     "infobox": {
         "Area": {
-            "Total (km2)": 9984670.0,
-            "Water (%)": 11.76
+            "Total": 9984670.0,
+            "Water": 11.76
         },
         "Economy": {
             "Currency": [
                 "Canadian dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 65500.0,
-                "Total ($)": 2723000000000.0
+                "Per capita": 65500.0,
+                "Total": 2723000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 54935.0,
-                "Total ($)": 2284000000000.0
+                "Per capita": 54935.0,
+                "Total": 2284000000000.0
             },
             "Gini": 29.2,
             "HDI": 0.939
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "English",
                 "French"
             ],
             "Religion": {
-                "Christianity (%)": 53.3,
-                "Hinduism (%)": 2.3,
-                "Islam (%)": 4.9,
-                "No religion (%)": 34.6,
-                "Other (%)": 4.9
+                "Christianity": 53.3,
+                "Hinduism": 2.3,
+                "Islam": 4.9,
+                "No religion": 34.6,
+                "Other": 4.9
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 41575585.0,
-            "Density (/km2)": 4.2
+            "Density": 4.2
         }
     }
 }

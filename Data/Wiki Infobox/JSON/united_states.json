@@ -2,42 +2,42 @@
     "country": "United States",
     "infobox": {
         "Area": {
-            "Total (km2)": 9833524.0,
-            "Water (%)": 7.0
+            "Total": 9833524.0,
+            "Water": 7.0
         },
         "Economy": {
             "Currency": [
                 "U.S. dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 89599.0,
-                "Total ($)": 30616000000000.0
+                "Per capita": 89599.0,
+                "Total": 30616000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 89599.0,
-                "Total ($)": 30616000000000.0
+                "Per capita": 89599.0,
+                "Total": 30616000000000.0
             },
             "Gini": 41.8,
             "HDI": 0.938
         },
         "General": {
             "Ethnic groups": {
-                "Asian (%)": 6.0,
-                "Black (%)": 12.4,
-                "Hispanic or Latino (%)": 18.7,
-                "Multiracial (%)": 10.2,
-                "Native American (%)": 1.1,
-                "Pacific Islander (%)": 0.2,
-                "White (%)": 61.6
+                "Asian": 6.0,
+                "Black": 12.4,
+                "Hispanic or Latino": 18.7,
+                "Multiracial": 10.2,
+                "Native American": 1.1,
+                "Pacific Islander": 0.2,
+                "White": 61.6
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 65.0,
-                "Judaism (%)": 2.0,
-                "No religion (%)": 24.0,
-                "Other (%)": 6.0
+                "Christianity": 65.0,
+                "Judaism": 2.0,
+                "No religion": 24.0,
+                "Other": 6.0
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 341784857.0,
-            "Density (/km2)": 37.4
+            "Density": 37.4
         }
     }
 }

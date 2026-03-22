@@ -2,38 +2,38 @@
     "country": "Iraq",
     "infobox": {
         "Area": {
-            "Total (km2)": 438317.0,
-            "Water (%)": 4.93
+            "Total": 438317.0,
+            "Water": 4.93
         },
         "Economy": {
             "Currency": [
                 "Iraqi dinar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 15180.0,
-                "Total ($)": 690090000000.0
+                "Per capita": 15180.0,
+                "Total": 690090000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 5670.0,
-                "Total ($)": 258020000000.0
+                "Per capita": 5670.0,
+                "Total": 258020000000.0
             },
             "Gini": 29.5,
             "HDI": 0.712
         },
         "General": {
             "Ethnic groups": {
-                "Arab (%)": 75.0,
-                "Kurdish (%)": 15.0,
-                "Other (%)": 10.0
+                "Arab": 75.0,
+                "Kurdish": 15.0,
+                "Other": 10.0
             },
             "Primary Language": [
                 "Arabic",
                 "Kurdish"
             ],
             "Religion": {
-                "Christianity (%)": 1.0,
-                "Islam (%)": 95.0,
-                "Other (%)": 4.0
+                "Christianity": 1.0,
+                "Islam": 95.0,
+                "Other": 4.0
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 46118793.0,
-            "Density (/km2)": 82.7
+            "Density": 82.7
         }
     }
 }

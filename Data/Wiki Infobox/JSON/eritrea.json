@@ -2,35 +2,35 @@
     "country": "Eritrea",
     "infobox": {
         "Area": {
-            "Total (km2)": 120000.0,
-            "Water (%)": 0.0
+            "Total": 120000.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Nakfa"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 1821.0,
-                "Total ($)": 6369000000.0
+                "Per capita": 1821.0,
+                "Total": 6369000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 567.0,
-                "Total ($)": 1982000000.0
+                "Per capita": 567.0,
+                "Total": 1982000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.503
         },
         "General": {
             "Ethnic groups": {
-                "Afar (%)": 4,
-                "Beja (%)": 2,
-                "Bilen (%)": 3,
-                "Kunama (%)": 4,
-                "Nara (%)": 2,
-                "Rashaida (%)": 1,
-                "Saho (%)": 4,
-                "Tigre (%)": 30,
-                "Tigrinya (%)": 50
+                "Afar": 4,
+                "Beja": 2,
+                "Bilen": 3,
+                "Kunama": 4,
+                "Nara": 2,
+                "Rashaida": 1,
+                "Saho": 4,
+                "Tigre": 30,
+                "Tigrinya": 50
             },
             "Primary Language": [
                 "Afar",
@@ -45,9 +45,9 @@
                 "Tigrinya"
             ],
             "Religion": {
-                "Christianity (%)": 63.0,
-                "Islam (%)": 36.0,
-                "Other (%)": 1.0
+                "Christianity": 63.0,
+                "Islam": 36.0,
+                "Other": 1.0
             }
         },
         "Government": {
@@ -56,7 +56,7 @@
         },
         "Population": {
             "Count": 5000000.0,
-            "Density (/km2)": 29.0
+            "Density": 29.0
         }
     }
 }

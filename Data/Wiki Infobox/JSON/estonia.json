@@ -2,38 +2,38 @@
     "country": "Estonia",
     "infobox": {
         "Area": {
-            "Total (km2)": 45335.0,
-            "Water (%)": 4.6
+            "Total": 45335.0,
+            "Water": 4.6
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 50758.0,
-                "Total ($)": 68240000000.0
+                "Per capita": 50758.0,
+                "Total": 68240000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 37195.0,
-                "Total ($)": 45000000000.0
+                "Per capita": 37195.0,
+                "Total": 45000000000.0
             },
             "Gini": 30.6,
             "HDI": 0.905
         },
         "General": {
             "Ethnic groups": {
-                "Estonians (%)": 68.5,
-                "Other (%)": 4.6,
-                "Russians (%)": 20.9,
-                "Ukrainians (%)": 5.4
+                "Estonians": 68.5,
+                "Other": 4.6,
+                "Russians": 20.9,
+                "Ukrainians": 5.4
             },
             "Primary Language": [
                 "Estonian"
             ],
             "Religion": {
-                "Christianity (%)": 26.7,
-                "No religion (%)": 58.4,
-                "Other (%)": 2.1
+                "Christianity": 26.7,
+                "No religion": 58.4,
+                "Other": 2.1
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 1362954.0,
-            "Density (/km2)": 30.3
+            "Density": 30.3
         }
     }
 }

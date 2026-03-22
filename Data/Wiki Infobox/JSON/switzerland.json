@@ -2,28 +2,28 @@
     "country": "Switzerland",
     "infobox": {
         "Area": {
-            "Total (km2)": 41291.0,
-            "Water (%)": 4.0
+            "Total": 41291.0,
+            "Water": 4.0
         },
         "Economy": {
             "Currency": [
                 "Swiss franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 97660.0,
-                "Total ($)": 881083000000.0
+                "Per capita": 97660.0,
+                "Total": 881083000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 111047.0,
-                "Total ($)": 1003000000000.0
+                "Per capita": 111047.0,
+                "Total": 1003000000000.0
             },
             "Gini": 31.5,
             "HDI": 0.97
         },
         "General": {
             "Ethnic groups": {
-                "Foreign (%)": 27.4,
-                "Swiss (%)": 72.6
+                "Foreign": 27.4,
+                "Swiss": 72.6
             },
             "Primary Language": [
                 "French",
@@ -32,10 +32,10 @@
                 "Romansh"
             ],
             "Religion": {
-                "Christianity (%)": 54.7,
-                "Islam (%)": 6.0,
-                "No religion (%)": 36.8,
-                "Other (%)": 1.5
+                "Christianity": 54.7,
+                "Islam": 6.0,
+                "No religion": 36.8,
+                "Other": 1.5
             }
         },
         "Government": {
@@ -44,7 +44,7 @@
         },
         "Population": {
             "Count": 9060598.0,
-            "Density (/km2)": 207.0
+            "Density": 207.0
         }
     }
 }

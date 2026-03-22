@@ -2,28 +2,28 @@
     "country": "Belgium",
     "infobox": {
         "Area": {
-            "Total (km2)": 30689.0,
-            "Water (%)": 0.64
+            "Total": 30689.0,
+            "Water": 0.64
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 75187.0,
-                "Total ($)": 889833000000.0
+                "Per capita": 75187.0,
+                "Total": 889833000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 58248.0,
-                "Total ($)": 689364000000.0
+                "Per capita": 58248.0,
+                "Total": 689364000000.0
             },
             "Gini": 24.9,
             "HDI": 0.951
         },
         "General": {
             "Ethnic groups": {
-                "Belgian (%)": 86.1,
-                "Foreign (%)": 13.9
+                "Belgian": 86.1,
+                "Foreign": 13.9
             },
             "Primary Language": [
                 "Dutch",
@@ -31,10 +31,10 @@
                 "German"
             ],
             "Religion": {
-                "Christianity (%)": 34.0,
-                "Islam (%)": 6.0,
-                "No religion (%)": 59.0,
-                "Other (%)": 1.0
+                "Christianity": 34.0,
+                "Islam": 6.0,
+                "No religion": 59.0,
+                "Other": 1.0
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 11825551.0,
-            "Density (/km2)": 385.0
+            "Density": 385.0
         }
     }
 }

@@ -2,47 +2,47 @@
     "country": "Liberia",
     "infobox": {
         "Area": {
-            "Total (km2)": 111370.0,
-            "Water (%)": 13.514
+            "Total": 111370.0,
+            "Water": 13.514
         },
         "Economy": {
             "Currency": [
                 "United States dollar Liberian dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 2010.0,
-                "Total ($)": 11420000000.0
+                "Per capita": 2010.0,
+                "Total": 11420000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 907.0,
-                "Total ($)": 5170000000.0
+                "Per capita": 907.0,
+                "Total": 5170000000.0
             },
             "Gini": 35.3,
             "HDI": 0.51
         },
         "General": {
             "Ethnic groups": {
-                "Bassa (%)": 13.4,
-                "Gbandi (%)": 3.0,
-                "Gio (%)": 10.0,
-                "Gola (%)": 4.4,
-                "Grebo (%)": 10.0,
-                "Kissi (%)": 4.8,
-                "Kpelle (%)": 20.3,
-                "Kru (%)": 7.9,
-                "Lorma (%)": 5.1,
-                "Mandinka (%)": 3.2,
-                "Mano (%)": 7.9,
-                "Other (%)": 6.0,
-                "Vai (%)": 4.0
+                "Bassa": 13.4,
+                "Gbandi": 3.0,
+                "Gio": 10.0,
+                "Gola": 4.4,
+                "Grebo": 10.0,
+                "Kissi": 4.8,
+                "Kpelle": 20.3,
+                "Kru": 7.9,
+                "Lorma": 5.1,
+                "Mandinka": 3.2,
+                "Mano": 7.9,
+                "Other": 6.0,
+                "Vai": 4.0
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 85.1,
-                "Islam (%)": 12.2,
-                "No religion (%)": 1.4
+                "Christianity": 85.1,
+                "Islam": 12.2,
+                "No religion": 1.4
             }
         },
         "Government": {
@@ -51,7 +51,7 @@
         },
         "Population": {
             "Count": 5437249.0,
-            "Density (/km2)": 35.5
+            "Density": 35.5
         }
     }
 }

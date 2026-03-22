@@ -2,8 +2,8 @@
     "country": "Denmark",
     "infobox": {
         "Area": {
-            "Total (km2)": 2210408.0,
-            "Water (%)": -1.0
+            "Total": 2210408.0,
+            "Water": null
         },
         "Economy": {
             "Currency": [
@@ -11,19 +11,19 @@
                 "Faroese króna"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 62814.0,
-                "Total ($)": 380000000000.0
+                "Per capita": 62814.0,
+                "Total": 380000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 69205.0,
-                "Total ($)": 418659000000.0
+                "Per capita": 69205.0,
+                "Total": 418659000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.948
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Danish",
@@ -31,7 +31,7 @@
                 "Greenlandic"
             ],
             "Religion": {
-                "Unknown": 100.0
+                "Unknown": null
             }
         },
         "Government": {
@@ -40,7 +40,7 @@
         },
         "Population": {
             "Count": 6049579.0,
-            "Density (/km2)": 139.3
+            "Density": 139.3
         }
     }
 }

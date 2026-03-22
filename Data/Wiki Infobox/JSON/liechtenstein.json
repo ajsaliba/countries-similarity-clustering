@@ -2,36 +2,36 @@
     "country": "Liechtenstein",
     "infobox": {
         "Area": {
-            "Total (km2)": 160.5,
-            "Water (%)": 2.7
+            "Total": 160.5,
+            "Water": 2.7
         },
         "Economy": {
             "Currency": [
                 "Swiss franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 210600.0,
-                "Total ($)": 7172000000.0
+                "Per capita": 210600.0,
+                "Total": 7172000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 207974.0,
-                "Total ($)": 8288000000.0
+                "Per capita": 207974.0,
+                "Total": 8288000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.938
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "German"
             ],
             "Religion": {
-                "Christianity (%)": 79.4,
-                "Islam (%)": 6.0,
-                "No religion (%)": 9.6,
-                "Other (%)": 5.0
+                "Christianity": 79.4,
+                "Islam": 6.0,
+                "No religion": 9.6,
+                "Other": 5.0
             }
         },
         "Government": {
@@ -40,7 +40,7 @@
         },
         "Population": {
             "Count": 41232.0,
-            "Density (/km2)": 249.0
+            "Density": 249.0
         }
     }
 }

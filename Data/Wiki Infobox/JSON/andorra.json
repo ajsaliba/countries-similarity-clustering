@@ -2,39 +2,39 @@
     "country": "Andorra",
     "infobox": {
         "Area": {
-            "Total (km2)": 467.63,
-            "Water (%)": 0.26
+            "Total": 467.63,
+            "Water": 0.26
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 69146.0,
-                "Total ($)": 6001000000.0
+                "Per capita": 69146.0,
+                "Total": 6001000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 44900.0,
-                "Total ($)": 3897000000.0
+                "Per capita": 44900.0,
+                "Total": 3897000000.0
             },
             "Gini": 40.0,
             "HDI": 0.913
         },
         "General": {
             "Ethnic groups": {
-                "Andorrans (%)": 32.1,
-                "French (%)": 5.6,
-                "Other (%)": 18.0,
-                "Portuguese (%)": 10.0,
-                "Spaniards (%)": 34.3
+                "Andorrans": 32.1,
+                "French": 5.6,
+                "Other": 18.0,
+                "Portuguese": 10.0,
+                "Spaniards": 34.3
             },
             "Primary Language": [
                 "Catalan"
             ],
             "Religion": {
-                "Christianity (%)": 90.8,
-                "No religion (%)": 6.9,
-                "Other (%)": 2.3
+                "Christianity": 90.8,
+                "No religion": 6.9,
+                "Other": 2.3
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 89058.0,
-            "Density (/km2)": 187.1
+            "Density": 187.1
         }
     }
 }

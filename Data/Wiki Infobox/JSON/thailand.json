@@ -2,39 +2,39 @@
     "country": "Thailand",
     "infobox": {
         "Area": {
-            "Total (km2)": 513120.0,
-            "Water (%)": 0.4
+            "Total": 513120.0,
+            "Water": 0.4
         },
         "Economy": {
             "Currency": [
                 "Thai baht"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 26358.0,
-                "Total ($)": 1853000000000.0
+                "Per capita": 26358.0,
+                "Total": 1853000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 7942.0,
-                "Total ($)": 558573000000.0
+                "Per capita": 7942.0,
+                "Total": 558573000000.0
             },
             "Gini": 33.5,
             "HDI": 0.798
         },
         "General": {
             "Ethnic groups": {
-                "Chinese (%)": 12.0,
-                "Malay (%)": 4.0,
-                "Other (%)": 4.0,
-                "Thai (%)": 80.0
+                "Chinese": 12.0,
+                "Malay": 4.0,
+                "Other": 4.0,
+                "Thai": 80.0
             },
             "Primary Language": [
                 "Thai"
             ],
             "Religion": {
-                "Buddhism (%)": 93.46,
-                "Christianity (%)": 1.13,
-                "Islam (%)": 5.37,
-                "Other (%)": 0.03
+                "Buddhism": 93.46,
+                "Christianity": 1.13,
+                "Islam": 5.37,
+                "Other": 0.03
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 65975198.0,
-            "Density (/km2)": 132.1
+            "Density": 132.1
         }
     }
 }

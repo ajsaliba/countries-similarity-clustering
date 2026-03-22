@@ -2,37 +2,37 @@
     "country": "Marshall Islands",
     "infobox": {
         "Area": {
-            "Total (km2)": 181.43,
-            "Water (%)": 0.0
+            "Total": 181.43,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "United States dollar Sovereign"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 3789.0,
-                "Total ($)": 215000000.0
+                "Per capita": 3789.0,
+                "Total": 215000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 3866.0,
-                "Total ($)": 220000000.0
+                "Per capita": 3866.0,
+                "Total": 220000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.733
         },
         "General": {
             "Ethnic groups": {
-                "Marshallese (%)": 95.6,
-                "Other (%)": 4.4
+                "Marshallese": 95.6,
+                "Other": 4.4
             },
             "Primary Language": [
                 "English",
                 "Marshallese"
             ],
             "Religion": {
-                "Christianity (%)": 96.2,
-                "No religion (%)": 1.1,
-                "Other (%)": 2.7
+                "Christianity": 96.2,
+                "No religion": 1.1,
+                "Other": 2.7
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 42418.0,
-            "Density (/km2)": 233.0
+            "Density": 233.0
         }
     }
 }

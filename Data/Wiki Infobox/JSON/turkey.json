@@ -2,35 +2,35 @@
     "country": "Turkey",
     "infobox": {
         "Area": {
-            "Total (km2)": 783562.0,
-            "Water (%)": 2.03
+            "Total": 783562.0,
+            "Water": 2.03
         },
         "Economy": {
             "Currency": [
                 "Turkish lira"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 43790.0,
-                "Total ($)": 3770000000000.0
+                "Per capita": 43790.0,
+                "Total": 3770000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 18200.0,
-                "Total ($)": 1570000000000.0
+                "Per capita": 18200.0,
+                "Total": 1570000000000.0
             },
             "Gini": 44.5,
             "HDI": 0.853
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Turkish"
             ],
             "Religion": {
-                "Islam (%)": 89.5,
-                "No religion (%)": 2.0,
-                "Other (%)": 8.5
+                "Islam": 89.5,
+                "No religion": 2.0,
+                "Other": 8.5
             }
         },
         "Government": {
@@ -39,7 +39,7 @@
         },
         "Population": {
             "Count": 86092168.0,
-            "Density (/km2)": 112.0
+            "Density": 112.0
         }
     }
 }

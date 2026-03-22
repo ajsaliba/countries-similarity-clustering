@@ -2,43 +2,43 @@
     "country": "Monaco",
     "infobox": {
         "Area": {
-            "Total (km2)": 2.084,
-            "Water (%)": 0.0
+            "Total": 2.084,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 270100.0,
-                "Total ($)": 8924000000.0
+                "Per capita": 270100.0,
+                "Total": 8924000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 315800.0,
-                "Total ($)": 10434000000.0
+                "Per capita": 315800.0,
+                "Total": 10434000000.0
             },
-            "Gini": -1.0,
-            "HDI": -1.0
+            "Gini": null,
+            "HDI": null
         },
         "General": {
             "Ethnic groups": {
-                "Belgian (%)": 3.0,
-                "British (%)": 8.0,
-                "French (%)": 29.0,
-                "German (%)": 3.0,
-                "Italian (%)": 19.0,
-                "Monégasque (%)": 22.0,
-                "Other (%)": 14.0,
-                "Swiss (%)": 2.0
+                "Belgian": 3.0,
+                "British": 8.0,
+                "French": 29.0,
+                "German": 3.0,
+                "Italian": 19.0,
+                "Monégasque": 22.0,
+                "Other": 14.0,
+                "Swiss": 2.0
             },
             "Primary Language": [
                 "French"
             ],
             "Religion": {
-                "Christianity (%)": 86.0,
-                "Islam (%)": 0.4,
-                "Judaism (%)": 1.7,
-                "No religion (%)": 11.7
+                "Christianity": 86.0,
+                "Islam": 0.4,
+                "Judaism": 1.7,
+                "No religion": 11.7
             }
         },
         "Government": {
@@ -47,7 +47,7 @@
         },
         "Population": {
             "Count": 38423.0,
-            "Density (/km2)": 18446.0
+            "Density": 18446.0
         }
     }
 }

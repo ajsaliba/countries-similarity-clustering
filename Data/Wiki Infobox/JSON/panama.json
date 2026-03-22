@@ -2,39 +2,39 @@
     "country": "Panama",
     "infobox": {
         "Area": {
-            "Total (km2)": 75417.0,
-            "Water (%)": 2.9
+            "Total": 75417.0,
+            "Water": 2.9
         },
         "Economy": {
             "Currency": [
                 "Balboa United States dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 42772.0,
-                "Total ($)": 195279000000.0
+                "Per capita": 42772.0,
+                "Total": 195279000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 20092.0,
-                "Total ($)": 91731000000.0
+                "Per capita": 20092.0,
+                "Total": 91731000000.0
             },
             "Gini": 48.9,
             "HDI": 0.839
         },
         "General": {
             "Ethnic groups": {
-                "Black (%)": 9.2,
-                "Indigenous (%)": 12.3,
-                "Mestizo (%)": 65.0,
-                "Mulatto (%)": 6.8,
-                "White (%)": 6.7
+                "Black": 9.2,
+                "Indigenous": 12.3,
+                "Mestizo": 65.0,
+                "Mulatto": 6.8,
+                "White": 6.7
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 91.5,
-                "No religion (%)": 7.6,
-                "Other (%)": 0.9
+                "Christianity": 91.5,
+                "No religion": 7.6,
+                "Other": 0.9
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 4337768.0,
-            "Density (/km2)": 56.0
+            "Density": 56.0
         }
     }
 }

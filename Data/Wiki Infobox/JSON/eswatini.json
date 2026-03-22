@@ -2,39 +2,39 @@
     "country": "Eswatini",
     "infobox": {
         "Area": {
-            "Total (km2)": 17364.0,
-            "Water (%)": 0.9
+            "Total": 17364.0,
+            "Water": 0.9
         },
         "Economy": {
             "Currency": [
                 "Lilangeni South African rand"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 11858.0,
-                "Total ($)": 13797000000.0
+                "Per capita": 11858.0,
+                "Total": 13797000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 3995.0,
-                "Total ($)": 4648000000.0
+                "Per capita": 3995.0,
+                "Total": 4648000000.0
             },
             "Gini": 54.6,
             "HDI": 0.695
         },
         "General": {
             "Ethnic groups": {
-                "Other (%)": 6.0,
-                "Swazi (%)": 84.0,
-                "Zulu (%)": 10.0
+                "Other": 6.0,
+                "Swazi": 84.0,
+                "Zulu": 10.0
             },
             "Primary Language": [
                 "English",
                 "Swazi"
             ],
             "Religion": {
-                "Christianity (%)": 89.3,
-                "Folk/Traditional (%)": 2.5,
-                "No religion (%)": 7.4,
-                "Other (%)": 0.8
+                "Christianity": 89.3,
+                "Folk/Traditional": 2.5,
+                "No religion": 7.4,
+                "Other": 0.8
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 1236126.0,
-            "Density (/km2)": 66.8
+            "Density": 66.8
         }
     }
 }

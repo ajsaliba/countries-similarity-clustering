@@ -2,35 +2,35 @@
     "country": "Niger",
     "infobox": {
         "Area": {
-            "Total (km2)": 1267000.0,
-            "Water (%)": 0.02
+            "Total": 1267000.0,
+            "Water": 0.02
         },
         "Economy": {
             "Currency": [
                 "West African CFA franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 2100.0,
-                "Total ($)": 61040000000.0
+                "Per capita": 2100.0,
+                "Total": 61040000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 751.0,
-                "Total ($)": 21870000000.0
+                "Per capita": 751.0,
+                "Total": 21870000000.0
             },
             "Gini": 32.9,
             "HDI": 0.419
         },
         "General": {
             "Ethnic groups": {
-                "Arab (%)": 0.4,
-                "Fulani (%)": 6.5,
-                "Gurma (%)": 0.8,
-                "Hausa (%)": 53.1,
-                "Kanuri (%)": 5.9,
-                "Other (%)": 0.9,
-                "Toubou (%)": 0.4,
-                "Tuareg (%)": 11.0,
-                "Zarma and Songhay (%)": 21.2
+                "Arab": 0.4,
+                "Fulani": 6.5,
+                "Gurma": 0.8,
+                "Hausa": 53.1,
+                "Kanuri": 5.9,
+                "Other": 0.9,
+                "Toubou": 0.4,
+                "Tuareg": 11.0,
+                "Zarma and Songhay": 21.2
             },
             "Primary Language": [
                 "Arabic",
@@ -46,9 +46,9 @@
                 "Zarma"
             ],
             "Religion": {
-                "Christianity (%)": 0.3,
-                "Islam (%)": 99.3,
-                "No religion (%)": 0.1
+                "Christianity": 0.3,
+                "Islam": 99.3,
+                "No religion": 0.1
             }
         },
         "Government": {
@@ -57,7 +57,7 @@
         },
         "Population": {
             "Count": 26342784.0,
-            "Density (/km2)": 21.0
+            "Density": 21.0
         }
     }
 }

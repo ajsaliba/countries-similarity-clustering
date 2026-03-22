@@ -2,29 +2,29 @@
     "country": "Mauritania",
     "infobox": {
         "Area": {
-            "Total (km2)": 1030000.0,
-            "Water (%)": -1.0
+            "Total": 1030000.0,
+            "Water": null
         },
         "Economy": {
             "Currency": [
                 "Ouguiya"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 8650.0,
-                "Total ($)": 40060000000.0
+                "Per capita": 8650.0,
+                "Total": 40060000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2480.0,
-                "Total ($)": 11470000000.0
+                "Per capita": 2480.0,
+                "Total": 11470000000.0
             },
             "Gini": 32.6,
             "HDI": 0.563
         },
         "General": {
             "Ethnic groups": {
-                "Beidane (%)": 30.0,
-                "Haratin (%)": 40.0,
-                "Sub-Saharan African (%)": 30.0
+                "Beidane": 30.0,
+                "Haratin": 40.0,
+                "Sub-Saharan African": 30.0
             },
             "Primary Language": [
                 "Arabic",
@@ -33,7 +33,7 @@
                 "Wolof"
             ],
             "Religion": {
-                "Islam (%)": 100.0
+                "Islam": 100.0
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 5461319.0,
-            "Density (/km2)": 3.4
+            "Density": 3.4
         }
     }
 }

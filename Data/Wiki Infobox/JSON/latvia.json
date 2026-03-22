@@ -2,41 +2,41 @@
     "country": "Latvia",
     "infobox": {
         "Area": {
-            "Total (km2)": 64589.0,
-            "Water (%)": 2.09
+            "Total": 64589.0,
+            "Water": 2.09
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 44110.0,
-                "Total ($)": 82400000000.0
+                "Per capita": 44110.0,
+                "Total": 82400000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 25630.0,
-                "Total ($)": 47880000000.0
+                "Per capita": 25630.0,
+                "Total": 47880000000.0
             },
             "Gini": 35.7,
             "HDI": 0.889
         },
         "General": {
             "Ethnic groups": {
-                "Belarusians (%)": 2.9,
-                "Latvians (%)": 65.5,
-                "Lithuanians (%)": 1.1,
-                "Other (%)": 1.6,
-                "Poles (%)": 1.9,
-                "Russians (%)": 24.1,
-                "Ukrainians (%)": 2.9
+                "Belarusians": 2.9,
+                "Latvians": 65.5,
+                "Lithuanians": 1.1,
+                "Other": 1.6,
+                "Poles": 1.9,
+                "Russians": 24.1,
+                "Ukrainians": 2.9
             },
             "Primary Language": [
                 "Latvian"
             ],
             "Religion": {
-                "Christianity (%)": 64.0,
-                "No religion (%)": 35.0,
-                "Other (%)": 1.0
+                "Christianity": 64.0,
+                "No religion": 35.0,
+                "Other": 1.0
             }
         },
         "Government": {
@@ -45,7 +45,7 @@
         },
         "Population": {
             "Count": 1842226.0,
-            "Density (/km2)": 29.6
+            "Density": 29.6
         }
     }
 }

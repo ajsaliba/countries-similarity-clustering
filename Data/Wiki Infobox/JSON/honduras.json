@@ -2,39 +2,39 @@
     "country": "Honduras",
     "infobox": {
         "Area": {
-            "Total (km2)": 112492.0,
-            "Water (%)": -1.0
+            "Total": 112492.0,
+            "Water": null
         },
         "Economy": {
             "Currency": [
                 "Lempira"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 7960.0,
-                "Total ($)": 86290000000.0
+                "Per capita": 7960.0,
+                "Total": 86290000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 3640.0,
-                "Total ($)": 39450000000.0
+                "Per capita": 3640.0,
+                "Total": 39450000000.0
             },
             "Gini": 52.1,
             "HDI": 0.645
         },
         "General": {
             "Ethnic groups": {
-                "Black (%)": 1.39,
-                "Indigenous (%)": 7.25,
-                "Mestizo (%)": 82.93,
-                "Other (%)": 0.55,
-                "White (%)": 7.87
+                "Black": 1.39,
+                "Indigenous": 7.25,
+                "Mestizo": 82.93,
+                "Other": 0.55,
+                "White": 7.87
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 97.0,
-                "No religion (%)": 2.0,
-                "Other (%)": 1.0
+                "Christianity": 97.0,
+                "No religion": 2.0,
+                "Other": 1.0
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 9571352.0,
-            "Density (/km2)": 85.0
+            "Density": 85.0
         }
     }
 }

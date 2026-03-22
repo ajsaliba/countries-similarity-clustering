@@ -2,36 +2,36 @@
     "country": "Mali",
     "infobox": {
         "Area": {
-            "Total (km2)": 1240192.0,
-            "Water (%)": 1.6
+            "Total": 1240192.0,
+            "Water": 1.6
         },
         "Economy": {
             "Currency": [
                 "West African CFA franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 2930.0,
-                "Total ($)": 72740000000.0
+                "Per capita": 2930.0,
+                "Total": 72740000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 936.0,
-                "Total ($)": 23210000000.0
+                "Per capita": 936.0,
+                "Total": 23210000000.0
             },
             "Gini": 33.0,
             "HDI": 0.419
         },
         "General": {
             "Ethnic groups": {
-                "Bambara (%)": 33.3,
-                "Bobo (%)": 2.1,
-                "Dogon (%)": 8.7,
-                "Fula (%)": 13.3,
-                "Malinke (%)": 8.8,
-                "Other (%)": 4.5,
-                "Senufo / Bwa (%)": 9.6,
-                "Songhai (%)": 5.9,
-                "Soninke (%)": 9.6,
-                "Tuareg (%)": 3.5
+                "Bambara": 33.3,
+                "Bobo": 2.1,
+                "Dogon": 8.7,
+                "Fula": 13.3,
+                "Malinke": 8.8,
+                "Other": 4.5,
+                "Senufo / Bwa": 9.6,
+                "Songhai": 5.9,
+                "Soninke": 9.6,
+                "Tuareg": 3.5
             },
             "Primary Language": [
                 "Bambara",
@@ -52,8 +52,8 @@
                 "Toro So"
             ],
             "Religion": {
-                "Islam (%)": 95.0,
-                "Other (%)": 5.0
+                "Islam": 95.0,
+                "Other": 5.0
             }
         },
         "Government": {
@@ -62,7 +62,7 @@
         },
         "Population": {
             "Count": 21990607.0,
-            "Density (/km2)": 11.7
+            "Density": 11.7
         }
     }
 }

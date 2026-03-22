@@ -2,45 +2,45 @@
     "country": "Madagascar",
     "infobox": {
         "Area": {
-            "Total (km2)": 592796.0,
-            "Water (%)": 0.9
+            "Total": 592796.0,
+            "Water": 0.9
         },
         "Economy": {
             "Currency": [
                 "Ariary"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 2110.0,
-                "Total ($)": 68110000000.0
+                "Per capita": 2110.0,
+                "Total": 68110000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 652.0,
-                "Total ($)": 21090000000.0
+                "Per capita": 652.0,
+                "Total": 21090000000.0
             },
             "Gini": 42.6,
             "HDI": 0.487
         },
         "General": {
             "Ethnic groups": {
-                "Antaisaka (%)": 5.0,
-                "Antandroy (%)": 5.0,
-                "Betsileo (%)": 12.0,
-                "Betsimisaraka (%)": 15.0,
-                "Merina (%)": 26.0,
-                "Other (%)": 24.0,
-                "Sakalava (%)": 6.0,
-                "Tsimihety (%)": 7.0
+                "Antaisaka": 5.0,
+                "Antandroy": 5.0,
+                "Betsileo": 12.0,
+                "Betsimisaraka": 15.0,
+                "Merina": 26.0,
+                "Other": 24.0,
+                "Sakalava": 6.0,
+                "Tsimihety": 7.0
             },
             "Primary Language": [
                 "French",
                 "Malagasy"
             ],
             "Religion": {
-                "Christianity (%)": 84.7,
-                "Folk/Traditional (%)": 4.7,
-                "Islam (%)": 3.1,
-                "No religion (%)": 7.3,
-                "Other (%)": 0.3
+                "Christianity": 84.7,
+                "Folk/Traditional": 4.7,
+                "Islam": 3.1,
+                "No religion": 7.3,
+                "Other": 0.3
             }
         },
         "Government": {
@@ -49,7 +49,7 @@
         },
         "Population": {
             "Count": 31964956.0,
-            "Density (/km2)": 55.0
+            "Density": 55.0
         }
     }
 }

@@ -2,46 +2,46 @@
     "country": "Suriname",
     "infobox": {
         "Area": {
-            "Total (km2)": 165940.0,
-            "Water (%)": 1.1
+            "Total": 165940.0,
+            "Water": 1.1
         },
         "Economy": {
             "Currency": [
                 "Surinamese dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 22439.0,
-                "Total ($)": 14743000000.0
+                "Per capita": 22439.0,
+                "Total": 14743000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 6858.0,
-                "Total ($)": 4506000000.0
+                "Per capita": 6858.0,
+                "Total": 4506000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.722
         },
         "General": {
             "Ethnic groups": {
-                "Chinese (%)": 1.5,
-                "Creole (%)": 15.7,
-                "Hindustani (%)": 27.4,
-                "Indigenous (%)": 3.8,
-                "Javanese (%)": 13.7,
-                "Maroon (%)": 21.7,
-                "Multiracial (%)": 13.4,
-                "Other (%)": 2.8
+                "Chinese": 1.5,
+                "Creole": 15.7,
+                "Hindustani": 27.4,
+                "Indigenous": 3.8,
+                "Javanese": 13.7,
+                "Maroon": 21.7,
+                "Multiracial": 13.4,
+                "Other": 2.8
             },
             "Primary Language": [
                 "Dutch"
             ],
             "Religion": {
-                "Christianity (%)": 48.4,
-                "Folk/Traditional (%)": 2.6,
-                "Hinduism (%)": 22.3,
-                "Islam (%)": 13.9,
-                "Judaism (%)": 0.03,
-                "No religion (%)": 7.52,
-                "Other (%)": 5.25
+                "Christianity": 48.4,
+                "Folk/Traditional": 2.6,
+                "Hinduism": 22.3,
+                "Islam": 13.9,
+                "Judaism": 0.03,
+                "No religion": 7.52,
+                "Other": 5.25
             }
         },
         "Government": {
@@ -50,7 +50,7 @@
         },
         "Population": {
             "Count": 632638.0,
-            "Density (/km2)": 3.9
+            "Density": 3.9
         }
     }
 }

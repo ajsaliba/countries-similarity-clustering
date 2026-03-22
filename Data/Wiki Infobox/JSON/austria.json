@@ -2,37 +2,37 @@
     "country": "Austria",
     "infobox": {
         "Area": {
-            "Total (km2)": 83879.0,
-            "Water (%)": 0.84
+            "Total": 83879.0,
+            "Water": 0.84
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 74370.0,
-                "Total ($)": 682860000000.0
+                "Per capita": 74370.0,
+                "Total": 682860000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 58190.0,
-                "Total ($)": 534300000000.0
+                "Per capita": 58190.0,
+                "Total": 534300000000.0
             },
             "Gini": 28.1,
             "HDI": 0.93
         },
         "General": {
             "Ethnic groups": {
-                "Austrians (%)": 72.2,
-                "Other (%)": 27.8
+                "Austrians": 72.2,
+                "Other": 27.8
             },
             "Primary Language": [
                 "German"
             ],
             "Religion": {
-                "Christianity (%)": 68.2,
-                "Islam (%)": 8.3,
-                "No religion (%)": 22.4,
-                "Other (%)": 1.1
+                "Christianity": 68.2,
+                "Islam": 8.3,
+                "No religion": 22.4,
+                "Other": 1.1
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 9110079.0,
-            "Density (/km2)": 107.6
+            "Density": 107.6
         }
     }
 }

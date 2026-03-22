@@ -2,34 +2,34 @@
     "country": "Somalia",
     "infobox": {
         "Area": {
-            "Total (km2)": 637657.0,
-            "Water (%)": -1.0
+            "Total": 637657.0,
+            "Water": null
         },
         "Economy": {
             "Currency": [
                 "Somali shilling"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 1920.0,
-                "Total ($)": 32500000000.0
+                "Per capita": 1920.0,
+                "Total": 32500000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 766.0,
-                "Total ($)": 12990000000.0
+                "Per capita": 766.0,
+                "Total": 12990000000.0
             },
             "Gini": 35.2,
             "HDI": 0.404
         },
         "General": {
             "Ethnic groups": {
-                "Other (%)": 15.0,
-                "Somali (%)": 85.0
+                "Other": 15.0,
+                "Somali": 85.0
             },
             "Primary Language": [
                 "Somali"
             ],
             "Religion": {
-                "Islam (%)": 100.0
+                "Islam": 100.0
             }
         },
         "Government": {
@@ -38,7 +38,7 @@
         },
         "Population": {
             "Count": 19280850.0,
-            "Density (/km2)": 27.2
+            "Density": 27.2
         }
     }
 }

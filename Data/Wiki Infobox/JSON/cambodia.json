@@ -2,39 +2,39 @@
     "country": "Cambodia",
     "infobox": {
         "Area": {
-            "Total (km2)": 181035.0,
-            "Water (%)": 2.5
+            "Total": 181035.0,
+            "Water": 2.5
         },
         "Economy": {
             "Currency": [
                 "Riel United States dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 8650.0,
-                "Total ($)": 150050000000.0
+                "Per capita": 8650.0,
+                "Total": 150050000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2870.0,
-                "Total ($)": 49800000000.0
+                "Per capita": 2870.0,
+                "Total": 49800000000.0
             },
             "Gini": 23.6,
             "HDI": 0.606
         },
         "General": {
             "Ethnic groups": {
-                "Cham (%)": 2.4,
-                "Chinese (%)": 1.5,
-                "Khmer (%)": 95.4,
-                "Other (%)": 0.8
+                "Cham": 2.4,
+                "Chinese": 1.5,
+                "Khmer": 95.4,
+                "Other": 0.8
             },
             "Primary Language": [
                 "Khmer"
             ],
             "Religion": {
-                "Buddhism (%)": 96.5,
-                "Christianity (%)": 0.3,
-                "Islam (%)": 2.6,
-                "Other (%)": 0.5
+                "Buddhism": 96.5,
+                "Christianity": 0.3,
+                "Islam": 2.6,
+                "Other": 0.5
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 17638801.0,
-            "Density (/km2)": 94.4
+            "Density": 94.4
         }
     }
 }

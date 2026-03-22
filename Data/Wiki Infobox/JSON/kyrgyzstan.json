@@ -2,41 +2,41 @@
     "country": "Kyrgyzstan",
     "infobox": {
         "Area": {
-            "Total (km2)": 200105.0,
-            "Water (%)": 3.6
+            "Total": 200105.0,
+            "Water": 3.6
         },
         "Economy": {
             "Currency": [
                 "Kyrgyzstani som"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 8870.0,
-                "Total ($)": 64110000000.0
+                "Per capita": 8870.0,
+                "Total": 64110000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 3101.0,
-                "Total ($)": 22587000000.0
+                "Per capita": 3101.0,
+                "Total": 22587000000.0
             },
             "Gini": 26.4,
             "HDI": 0.72
         },
         "General": {
             "Ethnic groups": {
-                "Dungans (%)": 1.0,
-                "Kyrgyz (%)": 77.8,
-                "Other (%)": 2.3,
-                "Russians (%)": 3.7,
-                "Tajiks (%)": 0.9,
-                "Uzbeks (%)": 14.3
+                "Dungans": 1.0,
+                "Kyrgyz": 77.8,
+                "Other": 2.3,
+                "Russians": 3.7,
+                "Tajiks": 0.9,
+                "Uzbeks": 14.3
             },
             "Primary Language": [
                 "Kyrgyz",
                 "Russian"
             ],
             "Religion": {
-                "Christianity (%)": 8.0,
-                "Islam (%)": 91.0,
-                "Other (%)": 1.0
+                "Christianity": 8.0,
+                "Islam": 91.0,
+                "Other": 1.0
             }
         },
         "Government": {
@@ -45,7 +45,7 @@
         },
         "Population": {
             "Count": 7400000.0,
-            "Density (/km2)": 37.0
+            "Density": 37.0
         }
     }
 }

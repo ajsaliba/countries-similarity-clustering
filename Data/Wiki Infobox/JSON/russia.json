@@ -2,41 +2,41 @@
     "country": "Russia",
     "infobox": {
         "Area": {
-            "Total (km2)": 17098246.0,
-            "Water (%)": 13.0
+            "Total": 17098246.0,
+            "Water": 13.0
         },
         "Economy": {
             "Currency": [
                 "Russian ruble"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 49049.0,
-                "Total ($)": 7143000000000.0
+                "Per capita": 49049.0,
+                "Total": 7143000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 17446.0,
-                "Total ($)": 2541000000000.0
+                "Per capita": 17446.0,
+                "Total": 2541000000000.0
             },
             "Gini": 36.0,
             "HDI": 0.832
         },
         "General": {
             "Ethnic groups": {
-                "Bashkir (%)": 1.1,
-                "Chechen (%)": 1.1,
-                "Other (%)": 11.3,
-                "Russian (%)": 71.7,
-                "Tatar (%)": 3.2
+                "Bashkir": 1.1,
+                "Chechen": 1.1,
+                "Other": 11.3,
+                "Russian": 71.7,
+                "Tatar": 3.2
             },
             "Primary Language": [
                 "Russian"
             ],
             "Religion": {
-                "Buddhism (%)": 0.5,
-                "Christianity (%)": 42.0,
-                "Islam (%)": 6.5,
-                "No religion (%)": 49.0,
-                "Other (%)": 2.0
+                "Buddhism": 0.5,
+                "Christianity": 42.0,
+                "Islam": 6.5,
+                "No religion": 49.0,
+                "Other": 2.0
             }
         },
         "Government": {
@@ -45,7 +45,7 @@
         },
         "Population": {
             "Count": 146028325.0,
-            "Density (/km2)": 8.4
+            "Density": 8.4
         }
     }
 }

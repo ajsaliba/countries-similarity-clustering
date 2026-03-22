@@ -2,39 +2,39 @@
     "country": "Dominican Republic",
     "infobox": {
         "Area": {
-            "Total (km2)": 48671.0,
-            "Water (%)": 0.7
+            "Total": 48671.0,
+            "Water": 0.7
         },
         "Economy": {
             "Currency": [
                 "Dominican peso"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 30710.0,
-                "Total ($)": 334292000000.0
+                "Per capita": 30710.0,
+                "Total": 334292000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 12452.0,
-                "Total ($)": 135545000000.0
+                "Per capita": 12452.0,
+                "Total": 135545000000.0
             },
             "Gini": 39.0,
             "HDI": 0.776
         },
         "General": {
             "Ethnic groups": {
-                "Black (%)": 7.45,
-                "East Asian (%)": 0.33,
-                "Mixed (%)": 71.72,
-                "Other (%)": 0.37,
-                "White (%)": 18.7
+                "Black": 7.45,
+                "East Asian": 0.33,
+                "Mixed": 71.72,
+                "Other": 0.37,
+                "White": 18.7
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 74.6,
-                "No religion (%)": 22.0,
-                "Other (%)": 1.4
+                "Christianity": 74.6,
+                "No religion": 22.0,
+                "Other": 1.4
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 11532151.0,
-            "Density (/km2)": 220.0
+            "Density": 220.0
         }
     }
 }

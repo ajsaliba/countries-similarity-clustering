@@ -2,42 +2,42 @@
     "country": "Afghanistan",
     "infobox": {
         "Area": {
-            "Total (km2)": 652864.0,
-            "Water (%)": 0.0
+            "Total": 652864.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Afghani"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 2174.0,
-                "Total ($)": 91668000000.0
+                "Per capita": 2174.0,
+                "Total": 91668000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 411.0,
-                "Total ($)": 17329000000.0
+                "Per capita": 411.0,
+                "Total": 17329000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.496
         },
         "General": {
             "Ethnic groups": {
-                "Aimaq (%)": 4.0,
-                "Baloch (%)": 2.0,
-                "Hazara (%)": 9.0,
-                "Other (%)": 4.0,
-                "Pashtun (%)": 42.0,
-                "Tajik (%)": 27.0,
-                "Turkmen (%)": 3.0,
-                "Uzbek (%)": 9.0
+                "Aimaq": 4.0,
+                "Baloch": 2.0,
+                "Hazara": 9.0,
+                "Other": 4.0,
+                "Pashtun": 42.0,
+                "Tajik": 27.0,
+                "Turkmen": 3.0,
+                "Uzbek": 9.0
             },
             "Primary Language": [
                 "Dari",
                 "Pashto"
             ],
             "Religion": {
-                "Islam (%)": 99.9,
-                "Other (%)": 0.1
+                "Islam": 99.9,
+                "Other": 0.1
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 42500000.0,
-            "Density (/km2)": 64.0
+            "Density": 64.0
         }
     }
 }

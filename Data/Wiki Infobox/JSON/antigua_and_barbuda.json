@@ -2,40 +2,40 @@
     "country": "Antigua and Barbuda",
     "infobox": {
         "Area": {
-            "Total (km2)": 440.0,
-            "Water (%)": 0.0
+            "Total": 440.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Eastern Caribbean dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 31781.0,
-                "Total ($)": 3300000000.0
+                "Per capita": 31781.0,
+                "Total": 3300000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 22630.0,
-                "Total ($)": 2370000000.0
+                "Per capita": 22630.0,
+                "Total": 2370000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.851
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 87.3,
-                "East Indian (%)": 1.1,
-                "European (%)": 1.7,
-                "Hispanic (%)": 2.8,
-                "Multiracial (%)": 4.7,
-                "Other (%)": 1.8,
-                "Syrian or Lebanese (%)": 0.7
+                "African": 87.3,
+                "East Indian": 1.1,
+                "European": 1.7,
+                "Hispanic": 2.8,
+                "Multiracial": 4.7,
+                "Other": 1.8,
+                "Syrian or Lebanese": 0.7
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 92.7,
-                "Other (%)": 3.6
+                "Christianity": 92.7,
+                "Other": 3.6
             }
         },
         "Government": {
@@ -44,7 +44,7 @@
         },
         "Population": {
             "Count": 106365.0,
-            "Density (/km2)": 186.0
+            "Density": 186.0
         }
     }
 }

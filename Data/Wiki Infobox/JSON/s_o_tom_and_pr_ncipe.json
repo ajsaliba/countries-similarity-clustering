@@ -2,36 +2,36 @@
     "country": "São Tomé and Príncipe",
     "infobox": {
         "Area": {
-            "Total (km2)": 964.0,
-            "Water (%)": 0.0
+            "Total": 964.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Dobra"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 4238.0,
-                "Total ($)": 1000000000.0
+                "Per capita": 4238.0,
+                "Total": 1000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 3167.0,
-                "Total ($)": 751000000.0
+                "Per capita": 3167.0,
+                "Total": 751000000.0
             },
             "Gini": 40.7,
             "HDI": 0.637
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Portuguese"
             ],
             "Religion": {
-                "Christianity (%)": 81.1,
-                "Folk/Traditional (%)": 3.1,
-                "No religion (%)": 13.2,
-                "Other (%)": 2.4
+                "Christianity": 81.1,
+                "Folk/Traditional": 3.1,
+                "No religion": 13.2,
+                "Other": 2.4
             }
         },
         "Government": {
@@ -40,7 +40,7 @@
         },
         "Population": {
             "Count": 220372.0,
-            "Density (/km2)": 199.7
+            "Density": 199.7
         }
     }
 }

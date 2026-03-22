@@ -2,41 +2,41 @@
     "country": "Moldova",
     "infobox": {
         "Area": {
-            "Total (km2)": 33843.0,
-            "Water (%)": 1.4
+            "Total": 33843.0,
+            "Water": 1.4
         },
         "Economy": {
             "Currency": [
                 "Moldovan leu"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 20731.0,
-                "Total ($)": 48511000000.0
+                "Per capita": 20731.0,
+                "Total": 48511000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 8984.0,
-                "Total ($)": 21024000000.0
+                "Per capita": 8984.0,
+                "Total": 21024000000.0
             },
             "Gini": 25.7,
             "HDI": 0.785
         },
         "General": {
             "Ethnic groups": {
-                "Bulgarians (%)": 1.6,
-                "Gagauz (%)": 4.0,
-                "Moldovans (%)": 76.7,
-                "Other (%)": 1.1,
-                "Romanians (%)": 8.0,
-                "Russians (%)": 3.4,
-                "Ukrainians (%)": 5.1
+                "Bulgarians": 1.6,
+                "Gagauz": 4.0,
+                "Moldovans": 76.7,
+                "Other": 1.1,
+                "Romanians": 8.0,
+                "Russians": 3.4,
+                "Ukrainians": 5.1
             },
             "Primary Language": [
                 "Romanian"
             ],
             "Religion": {
-                "Christianity (%)": 97.4,
-                "No religion (%)": 1.5,
-                "Other (%)": 0.3
+                "Christianity": 97.4,
+                "No religion": 1.5,
+                "Other": 0.3
             }
         },
         "Government": {
@@ -45,7 +45,7 @@
         },
         "Population": {
             "Count": 2381325.0,
-            "Density (/km2)": 78.5
+            "Density": 78.5
         }
     }
 }

@@ -2,8 +2,8 @@
     "country": "Netherlands",
     "infobox": {
         "Area": {
-            "Total (km2)": 42531.0,
-            "Water (%)": 18.96
+            "Total": 42531.0,
+            "Water": 18.96
         },
         "Economy": {
             "Currency": [
@@ -13,32 +13,32 @@
                 "United States dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 87173.0,
-                "Total ($)": 1581000000000.0
+                "Per capita": 87173.0,
+                "Total": 1581000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 73091.0,
-                "Total ($)": 1326000000000.0
+                "Per capita": 73091.0,
+                "Total": 1326000000000.0
             },
             "Gini": 26.4,
             "HDI": 0.955
         },
         "General": {
             "Ethnic groups": {
-                "Dutch (%)": 72.0,
-                "Indonesian (%)": 2.0,
-                "Moroccan (%)": 2.3,
-                "Other European (%)": 9.2,
-                "Turkish (%)": 2.5
+                "Dutch": 72.0,
+                "Indonesian": 2.0,
+                "Moroccan": 2.3,
+                "Other European": 9.2,
+                "Turkish": 2.5
             },
             "Primary Language": [
                 "Dutch"
             ],
             "Religion": {
-                "Christianity (%)": 31.0,
-                "Islam (%)": 6.0,
-                "No religion (%)": 56.0,
-                "Other (%)": 7.0
+                "Christianity": 31.0,
+                "Islam": 6.0,
+                "No religion": 56.0,
+                "Other": 7.0
             }
         },
         "Government": {
@@ -47,7 +47,7 @@
         },
         "Population": {
             "Count": 18290379.0,
-            "Density (/km2)": 532.0
+            "Density": 532.0
         }
     }
 }

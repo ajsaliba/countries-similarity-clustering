@@ -2,38 +2,38 @@
     "country": "Slovakia",
     "infobox": {
         "Area": {
-            "Total (km2)": 49035.0,
-            "Water (%)": 0.72
+            "Total": 49035.0,
+            "Water": 0.72
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 47440.0,
-                "Total ($)": 256710000000.0
+                "Per capita": 47440.0,
+                "Total": 256710000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 28180.0,
-                "Total ($)": 152480000000.0
+                "Per capita": 28180.0,
+                "Total": 152480000000.0
             },
             "Gini": 21.2,
             "HDI": 0.88
         },
         "General": {
             "Ethnic groups": {
-                "Hungarians (%)": 8.2,
-                "Other (%)": 1.9,
-                "Romani (%)": 1.3,
-                "Slovaks (%)": 88.6
+                "Hungarians": 8.2,
+                "Other": 1.9,
+                "Romani": 1.3,
+                "Slovaks": 88.6
             },
             "Primary Language": [
                 "Slovak"
             ],
             "Religion": {
-                "Christianity (%)": 68.8,
-                "No religion (%)": 23.8,
-                "Other (%)": 0.9
+                "Christianity": 68.8,
+                "No religion": 23.8,
+                "Other": 0.9
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 5413813.0,
-            "Density (/km2)": 110.0
+            "Density": 110.0
         }
     }
 }

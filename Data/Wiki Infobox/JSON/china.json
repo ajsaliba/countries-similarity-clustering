@@ -2,42 +2,42 @@
     "country": "China",
     "infobox": {
         "Area": {
-            "Total (km2)": 9596961.0,
-            "Water (%)": 2.8
+            "Total": 9596961.0,
+            "Water": 2.8
         },
         "Economy": {
             "Currency": [
                 "Renminbi"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 29191.0,
-                "Total ($)": 41016000000000.0
+                "Per capita": 29191.0,
+                "Total": 41016000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 13806.0,
-                "Total ($)": 19399000000000.0
+                "Per capita": 13806.0,
+                "Total": 19399000000000.0
             },
             "Gini": 36.0,
             "HDI": 0.797
         },
         "General": {
             "Ethnic groups": {
-                "Han Chinese (%)": 91.11,
-                "Hui (%)": 0.81,
-                "Manchu (%)": 0.74,
-                "Miao (%)": 0.79,
-                "Other (%)": 2.44,
-                "Tibetan (%)": 0.5,
-                "Tujia (%)": 0.68,
-                "Uyghur (%)": 0.84,
-                "Yi (%)": 0.7,
-                "Zhuang (%)": 1.39
+                "Han Chinese": 91.11,
+                "Hui": 0.81,
+                "Manchu": 0.74,
+                "Miao": 0.79,
+                "Other": 2.44,
+                "Tibetan": 0.5,
+                "Tujia": 0.68,
+                "Uyghur": 0.84,
+                "Yi": 0.7,
+                "Zhuang": 1.39
             },
             "Primary Language": [
                 "Standard Chinese"
             ],
             "Religion": {
-                "Unknown": 100.0
+                "Unknown": null
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 1404890000.0,
-            "Density (/km2)": 146.0
+            "Density": 146.0
         }
     }
 }

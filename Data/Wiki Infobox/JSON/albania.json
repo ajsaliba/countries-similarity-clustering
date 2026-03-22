@@ -2,37 +2,37 @@
     "country": "Albania",
     "infobox": {
         "Area": {
-            "Total (km2)": 28748.0,
-            "Water (%)": 4.7
+            "Total": 28748.0,
+            "Water": 4.7
         },
         "Economy": {
             "Currency": [
                 "Lek"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 24840.0,
-                "Total ($)": 66290000000.0
+                "Per capita": 24840.0,
+                "Total": 66290000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 12150.0,
-                "Total ($)": 32410000000.0
+                "Per capita": 12150.0,
+                "Total": 32410000000.0
             },
             "Gini": 29.4,
             "HDI": 0.81
         },
         "General": {
             "Ethnic groups": {
-                "Albanians (%)": 97.7,
-                "Greeks (%)": 1.0,
-                "Other (%)": 1.3
+                "Albanians": 97.7,
+                "Greeks": 1.0,
+                "Other": 1.3
             },
             "Primary Language": [
                 "Albanian"
             ],
             "Religion": {
-                "Christianity (%)": 16.02,
-                "Islam (%)": 50.67,
-                "No religion (%)": 17.37
+                "Christianity": 16.02,
+                "Islam": 50.67,
+                "No religion": 17.37
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 2402113.0,
-            "Density (/km2)": 83.6
+            "Density": 83.6
         }
     }
 }

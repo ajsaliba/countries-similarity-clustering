@@ -2,39 +2,39 @@
     "country": "Trinidad and Tobago",
     "infobox": {
         "Area": {
-            "Total (km2)": 5131.0,
-            "Water (%)": 0.0
+            "Total": 5131.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Trinidad and Tobago dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 30718.0,
-                "Total ($)": 43658000000.0
+                "Per capita": 30718.0,
+                "Total": 43658000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 19621.0,
-                "Total ($)": 27887000000.0
+                "Per capita": 19621.0,
+                "Total": 27887000000.0
             },
             "Gini": 39.0,
             "HDI": 0.807
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 34.2,
-                "Indian (%)": 35.4,
-                "Mixed (%)": 22.8,
-                "Other (%)": 1.3
+                "African": 34.2,
+                "Indian": 35.4,
+                "Mixed": 22.8,
+                "Other": 1.3
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 55.2,
-                "Hinduism (%)": 18.2,
-                "Islam (%)": 5.0,
-                "Other (%)": 8.3
+                "Christianity": 55.2,
+                "Hinduism": 18.2,
+                "Islam": 5.0,
+                "Other": 8.3
             }
         },
         "Government": {
@@ -43,7 +43,7 @@
         },
         "Population": {
             "Count": 1512779.0,
-            "Density (/km2)": 294.0
+            "Density": 294.0
         }
     }
 }

@@ -2,29 +2,29 @@
     "country": "Comoros",
     "infobox": {
         "Area": {
-            "Total (km2)": 2235.0,
-            "Water (%)": 0.0
+            "Total": 2235.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Comorian franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 3463.0,
-                "Total ($)": 3432000000.0
+                "Per capita": 3463.0,
+                "Total": 3432000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1377.0,
-                "Total ($)": 1364000000.0
+                "Per capita": 1377.0,
+                "Total": 1364000000.0
             },
             "Gini": 45.3,
             "HDI": 0.603
         },
         "General": {
             "Ethnic groups": {
-                "Comorians (%)": 97.1,
-                "Makua (%)": 1.6,
-                "Other (%)": 1.3
+                "Comorians": 97.1,
+                "Makua": 1.6,
+                "Other": 1.3
             },
             "Primary Language": [
                 "Arabic",
@@ -32,7 +32,7 @@
                 "French"
             ],
             "Religion": {
-                "Unknown": 100.0
+                "Unknown": null
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 883075.0,
-            "Density (/km2)": 457.0
+            "Density": 457.0
         }
     }
 }

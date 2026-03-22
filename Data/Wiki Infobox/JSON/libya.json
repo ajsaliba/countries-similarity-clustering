@@ -2,37 +2,37 @@
     "country": "Libya",
     "infobox": {
         "Area": {
-            "Total (km2)": 1759541.0,
-            "Water (%)": -1.0
+            "Total": 1759541.0,
+            "Water": null
         },
         "Economy": {
             "Currency": [
                 "Libyan dinar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 17760.0,
-                "Total ($)": 123990000000.0
+                "Per capita": 17760.0,
+                "Total": 123990000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 6800.0,
-                "Total ($)": 47480000000.0
+                "Per capita": 6800.0,
+                "Total": 47480000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.721
         },
         "General": {
             "Ethnic groups": {
-                "Arabs (%)": 92.0,
-                "Berbers (%)": 5.0,
-                "Other (%)": 3.0
+                "Arabs": 92.0,
+                "Berbers": 5.0,
+                "Other": 3.0
             },
             "Primary Language": [
                 "Arabic"
             ],
             "Religion": {
-                "Christianity (%)": 2.7,
-                "Islam (%)": 96.6,
-                "Other (%)": 0.7
+                "Christianity": 2.7,
+                "Islam": 96.6,
+                "Other": 0.7
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 7361263.0,
-            "Density (/km2)": 4.2
+            "Density": 4.2
         }
     }
 }

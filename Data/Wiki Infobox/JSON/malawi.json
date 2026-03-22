@@ -2,48 +2,48 @@
     "country": "Malawi",
     "infobox": {
         "Area": {
-            "Total (km2)": 118484.0,
-            "Water (%)": 20.6
+            "Total": 118484.0,
+            "Water": 20.6
         },
         "Economy": {
             "Currency": [
                 "Malawian kwacha"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 1668.0,
-                "Total ($)": 37919000000.0
+                "Per capita": 1668.0,
+                "Total": 37919000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 579.0,
-                "Total ($)": 13176000000.0
+                "Per capita": 579.0,
+                "Total": 13176000000.0
             },
             "Gini": 44.7,
             "HDI": 0.517
         },
         "General": {
             "Ethnic groups": {
-                "Chewa (%)": 25.2,
-                "Lambya (%)": 0.6,
-                "Lomwe (%)": 16.4,
-                "Mang'anja (%)": 3.8,
-                "Ngonde (%)": 1.5,
-                "Ngoni (%)": 6.4,
-                "Other (%)": 1.1,
-                "Sena (%)": 5.9,
-                "Sukwa (%)": 0.5,
-                "Tonga (%)": 1.8,
-                "Tumbuka (%)": 20.4,
-                "Yao (%)": 15.3
+                "Chewa": 25.2,
+                "Lambya": 0.6,
+                "Lomwe": 16.4,
+                "Mang'anja": 3.8,
+                "Ngonde": 1.5,
+                "Ngoni": 6.4,
+                "Other": 1.1,
+                "Sena": 5.9,
+                "Sukwa": 0.5,
+                "Tonga": 1.8,
+                "Tumbuka": 20.4,
+                "Yao": 15.3
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 82.3,
-                "Folk/Traditional (%)": 1.2,
-                "Islam (%)": 13.8,
-                "No religion (%)": 2.1,
-                "Other (%)": 0.6
+                "Christianity": 82.3,
+                "Folk/Traditional": 1.2,
+                "Islam": 13.8,
+                "No religion": 2.1,
+                "Other": 0.6
             }
         },
         "Government": {
@@ -52,7 +52,7 @@
         },
         "Population": {
             "Count": 21240689.0,
-            "Density (/km2)": 153.1
+            "Density": 153.1
         }
     }
 }

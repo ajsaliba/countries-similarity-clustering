@@ -2,38 +2,38 @@
     "country": "South Korea",
     "infobox": {
         "Area": {
-            "Total (km2)": 100363.0,
-            "Water (%)": 0.3
+            "Total": 100363.0,
+            "Water": 0.3
         },
         "Economy": {
             "Currency": [
                 "Korean Republic won"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 65080.0,
-                "Total ($)": 3363000000000.0
+                "Per capita": 65080.0,
+                "Total": 3363000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 35962.0,
-                "Total ($)": 1859000000000.0
+                "Per capita": 35962.0,
+                "Total": 1859000000000.0
             },
             "Gini": 33.3,
             "HDI": 0.937
         },
         "General": {
             "Ethnic groups": {
-                "Korean (%)": 94.8,
-                "Other (%)": 5.2
+                "Korean": 94.8,
+                "Other": 5.2
             },
             "Primary Language": [
                 "Korean",
                 "Korean Sign Language"
             ],
             "Religion": {
-                "Buddhism (%)": 17.0,
-                "Christianity (%)": 11.0,
-                "No religion (%)": 51.0,
-                "Other (%)": 2.0
+                "Buddhism": 17.0,
+                "Christianity": 11.0,
+                "No religion": 51.0,
+                "Other": 2.0
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 52081799.0,
-            "Density (/km2)": 507.0
+            "Density": 507.0
         }
     }
 }

@@ -2,40 +2,40 @@
     "country": "Brazil",
     "infobox": {
         "Area": {
-            "Total (km2)": 8515767.0,
-            "Water (%)": 0.65
+            "Total": 8515767.0,
+            "Water": 0.65
         },
         "Economy": {
             "Currency": [
                 "Real"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 24108.0,
-                "Total ($)": 5161000000000.0
+                "Per capita": 24108.0,
+                "Total": 5161000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 10709.0,
-                "Total ($)": 2292000000000.0
+                "Per capita": 10709.0,
+                "Total": 2292000000000.0
             },
             "Gini": 51.6,
             "HDI": 0.786
         },
         "General": {
             "Ethnic groups": {
-                "Black (%)": 10.2,
-                "East Asian (%)": 0.4,
-                "Indigenous (%)": 0.6,
-                "Pardo (%)": 45.3,
-                "White (%)": 43.5
+                "Black": 10.2,
+                "East Asian": 0.4,
+                "Indigenous": 0.6,
+                "Pardo": 45.3,
+                "White": 43.5
             },
             "Primary Language": [
                 "Portuguese"
             ],
             "Religion": {
-                "Christianity (%)": 83.6,
-                "Folk/Traditional (%)": 1.84,
-                "No religion (%)": 9.28,
-                "Other (%)": 5.12
+                "Christianity": 83.6,
+                "Folk/Traditional": 1.84,
+                "No religion": 9.28,
+                "Other": 5.12
             }
         },
         "Government": {
@@ -44,7 +44,7 @@
         },
         "Population": {
             "Count": 213421037.0,
-            "Density (/km2)": 23.8
+            "Density": 23.8
         }
     }
 }

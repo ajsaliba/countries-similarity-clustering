@@ -2,42 +2,42 @@
     "country": "Saint Vincent and the Grenadines",
     "infobox": {
         "Area": {
-            "Total (km2)": 389.0,
-            "Water (%)": 0.0
+            "Total": 389.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "East Caribbean dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 17840.0,
-                "Total ($)": 2000000000.0
+                "Per capita": 17840.0,
+                "Total": 2000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 9360.0,
-                "Total ($)": 1000000000.0
+                "Per capita": 9360.0,
+                "Total": 1000000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.798
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 66.0,
-                "European (%)": 4.0,
-                "Indian (%)": 6.0,
-                "Kalinago (%)": 2.0,
-                "Mixed (%)": 19.0,
-                "Other (%)": 3.0
+                "African": 66.0,
+                "European": 4.0,
+                "Indian": 6.0,
+                "Kalinago": 2.0,
+                "Mixed": 19.0,
+                "Other": 3.0
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 88.6,
-                "Hinduism (%)": 3.4,
-                "Islam (%)": 1.5,
-                "No religion (%)": 2.5,
-                "Other (%)": 2.3
+                "Christianity": 88.6,
+                "Hinduism": 3.4,
+                "Islam": 1.5,
+                "No religion": 2.5,
+                "Other": 2.3
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 110872.0,
-            "Density (/km2)": 307.0
+            "Density": 307.0
         }
     }
 }

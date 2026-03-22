@@ -2,37 +2,37 @@
     "country": "India",
     "infobox": {
         "Area": {
-            "Total (km2)": 3287263.0,
-            "Water (%)": 9.6
+            "Total": 3287263.0,
+            "Water": 9.6
         },
         "Economy": {
             "Currency": [
                 "Indian rupee"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 12132.0,
-                "Total ($)": 17647000000000.0
+                "Per capita": 12132.0,
+                "Total": 17647000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2878.0,
-                "Total ($)": 4187000000000.0
+                "Per capita": 2878.0,
+                "Total": 4187000000000.0
             },
             "Gini": 25.5,
             "HDI": 0.685
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "English",
                 "Hindi"
             ],
             "Religion": {
-                "Christianity (%)": 2.3,
-                "Hinduism (%)": 79.8,
-                "Islam (%)": 14.2,
-                "Other (%)": 1.05
+                "Christianity": 2.3,
+                "Hinduism": 79.8,
+                "Islam": 14.2,
+                "Other": 1.05
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 1428627663.0,
-            "Density (/km2)": 433.5
+            "Density": 433.5
         }
     }
 }

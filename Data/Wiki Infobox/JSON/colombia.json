@@ -2,38 +2,38 @@
     "country": "Colombia",
     "infobox": {
         "Area": {
-            "Total (km2)": 1141748.0,
-            "Water (%)": 2.1
+            "Total": 1141748.0,
+            "Water": 2.1
         },
         "Economy": {
             "Currency": [
                 "Colombian peso"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 19770.0,
-                "Total ($)": 1042000000000.0
+                "Per capita": 19770.0,
+                "Total": 1042000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 7327.0,
-                "Total ($)": 386076000000.0
+                "Per capita": 7327.0,
+                "Total": 386076000000.0
             },
             "Gini": 53.9,
             "HDI": 0.788
         },
         "General": {
             "Ethnic groups": {
-                "Black (%)": 9.34,
-                "Indigenous (%)": 4.31,
-                "Mestizo - White (%)": 84.99,
-                "Romanis (%)": 0.01
+                "Black": 9.34,
+                "Indigenous": 4.31,
+                "Mestizo - White": 84.99,
+                "Romanis": 0.01
             },
             "Primary Language": [
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 87.0,
-                "No religion (%)": 11.0,
-                "Other (%)": 1.9
+                "Christianity": 87.0,
+                "No religion": 11.0,
+                "Other": 1.9
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 52695952.0,
-            "Density (/km2)": 46.15
+            "Density": 46.15
         }
     }
 }

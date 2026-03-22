@@ -2,43 +2,43 @@
     "country": "Nigeria",
     "infobox": {
         "Area": {
-            "Total (km2)": 923769.0,
-            "Water (%)": 1.4
+            "Total": 923769.0,
+            "Water": 1.4
         },
         "Economy": {
             "Currency": [
                 "Naira"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 9488.0,
-                "Total ($)": 2254000000000.0
+                "Per capita": 9488.0,
+                "Total": 2254000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1200.0,
-                "Total ($)": 285003000000.0
+                "Per capita": 1200.0,
+                "Total": 285003000000.0
             },
             "Gini": 35.1,
             "HDI": 0.56
         },
         "General": {
             "Ethnic groups": {
-                "Fulani (%)": 6.0,
-                "Hausa (%)": 30.0,
-                "Ibibio (%)": 1.8,
-                "Igbo (%)": 15.2,
-                "Ijaw (%)": 1.8,
-                "Kanuri (%)": 2.4,
-                "Other (%)": 24.7,
-                "Tiv (%)": 2.4,
-                "Yoruba (%)": 15.5
+                "Fulani": 6.0,
+                "Hausa": 30.0,
+                "Ibibio": 1.8,
+                "Igbo": 15.2,
+                "Ijaw": 1.8,
+                "Kanuri": 2.4,
+                "Other": 24.7,
+                "Tiv": 2.4,
+                "Yoruba": 15.5
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 45.9,
-                "Islam (%)": 53.5,
-                "Other (%)": 0.6
+                "Christianity": 45.9,
+                "Islam": 53.5,
+                "Other": 0.6
             }
         },
         "Government": {
@@ -47,7 +47,7 @@
         },
         "Population": {
             "Count": 236747130.0,
-            "Density (/km2)": 249.8
+            "Density": 249.8
         }
     }
 }

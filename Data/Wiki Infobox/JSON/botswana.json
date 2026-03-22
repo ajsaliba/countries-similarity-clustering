@@ -2,40 +2,40 @@
     "country": "Botswana",
     "infobox": {
         "Area": {
-            "Total (km2)": 581730.0,
-            "Water (%)": 2.7
+            "Total": 581730.0,
+            "Water": 2.7
         },
         "Economy": {
             "Currency": [
                 "Pula"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 19540.0,
-                "Total ($)": 54820000000.0
+                "Per capita": 19540.0,
+                "Total": 54820000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 7380.0,
-                "Total ($)": 20710000000.0
+                "Per capita": 7380.0,
+                "Total": 20710000000.0
             },
             "Gini": 45.5,
             "HDI": 0.731
         },
         "General": {
             "Ethnic groups": {
-                "Kalanga (%)": 11.0,
-                "Other (%)": 7.0,
-                "San (%)": 3.0,
-                "Tswana (%)": 79.0
+                "Kalanga": 11.0,
+                "Other": 7.0,
+                "San": 3.0,
+                "Tswana": 79.0
             },
             "Primary Language": [
                 "English",
                 "Tswana"
             ],
             "Religion": {
-                "Christianity (%)": 79.1,
-                "Folk/Traditional (%)": 4.1,
-                "No religion (%)": 15.2,
-                "Other (%)": 1.4
+                "Christianity": 79.1,
+                "Folk/Traditional": 4.1,
+                "No religion": 15.2,
+                "Other": 1.4
             }
         },
         "Government": {
@@ -44,7 +44,7 @@
         },
         "Population": {
             "Count": 2359609.0,
-            "Density (/km2)": 4.1
+            "Density": 4.1
         }
     }
 }

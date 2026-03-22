@@ -2,30 +2,30 @@
     "country": "Fiji",
     "infobox": {
         "Area": {
-            "Total (km2)": 18274.0,
-            "Water (%)": 0.0
+            "Total": 18274.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "Fijian dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 16563.0,
-                "Total ($)": 15152000000.0
+                "Per capita": 16563.0,
+                "Total": 15152000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 6024.0,
-                "Total ($)": 5511000000.0
+                "Per capita": 6024.0,
+                "Total": 5511000000.0
             },
             "Gini": 30.7,
             "HDI": 0.731
         },
         "General": {
             "Ethnic groups": {
-                "Indigenous Fijians (%)": 56.8,
-                "Indo-Fijians (%)": 37.5,
-                "Other (%)": 4.5,
-                "Rotumans (%)": 1.2
+                "Indigenous Fijians": 56.8,
+                "Indo-Fijians": 37.5,
+                "Other": 4.5,
+                "Rotumans": 1.2
             },
             "Primary Language": [
                 "English",
@@ -34,10 +34,10 @@
                 "Standard Hindi"
             ],
             "Religion": {
-                "Christianity (%)": 64.4,
-                "Hinduism (%)": 27.9,
-                "Islam (%)": 6.3,
-                "No religion (%)": 1.4
+                "Christianity": 64.4,
+                "Hinduism": 27.9,
+                "Islam": 6.3,
+                "No religion": 1.4
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 926276.0,
-            "Density (/km2)": 46.4
+            "Density": 46.4
         }
     }
 }

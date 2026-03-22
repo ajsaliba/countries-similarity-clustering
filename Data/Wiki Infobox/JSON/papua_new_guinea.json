@@ -2,27 +2,27 @@
     "country": "Papua New Guinea",
     "infobox": {
         "Area": {
-            "Total (km2)": 462840.0,
-            "Water (%)": 2.2
+            "Total": 462840.0,
+            "Water": 2.2
         },
         "Economy": {
             "Currency": [
                 "Kina"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 3760.0,
-                "Total ($)": 41810000000.0
+                "Per capita": 3760.0,
+                "Total": 41810000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2560.0,
-                "Total ($)": 32840000000.0
+                "Per capita": 2560.0,
+                "Total": 32840000000.0
             },
             "Gini": 41.9,
             "HDI": 0.576
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "English",
@@ -31,8 +31,8 @@
                 "Tok Pisin"
             ],
             "Religion": {
-                "Christianity (%)": 95.5,
-                "No religion (%)": 1.4
+                "Christianity": 95.5,
+                "No religion": 1.4
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 11781559.0,
-            "Density (/km2)": 25.5
+            "Density": 25.5
         }
     }
 }

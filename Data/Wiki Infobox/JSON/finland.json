@@ -2,28 +2,28 @@
     "country": "Finland",
     "infobox": {
         "Area": {
-            "Total (km2)": 338455.0,
-            "Water (%)": 9.71
+            "Total": 338455.0,
+            "Water": 9.71
         },
         "Economy": {
             "Currency": [
                 "Euro"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 66500.0,
-                "Total ($)": 373160000000.0
+                "Per capita": 66500.0,
+                "Total": 373160000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 54160.0,
-                "Total ($)": 303950000000.0
+                "Per capita": 54160.0,
+                "Total": 303950000000.0
             },
             "Gini": 26.6,
             "HDI": 0.948
         },
         "General": {
             "Ethnic groups": {
-                "Finns (%)": 88.9,
-                "Other (%)": 11.1
+                "Finns": 88.9,
+                "Other": 11.1
             },
             "Primary Language": [
                 "Finland-Swedish Sign Language",
@@ -35,9 +35,9 @@
                 "Sámi"
             ],
             "Religion": {
-                "Christianity (%)": 64.2,
-                "No religion (%)": 34.9,
-                "Other (%)": 2.0
+                "Christianity": 64.2,
+                "No religion": 34.9,
+                "Other": 2.0
             }
         },
         "Government": {
@@ -46,7 +46,7 @@
         },
         "Population": {
             "Count": 5635971.0,
-            "Density (/km2)": 18.4
+            "Density": 18.4
         }
     }
 }

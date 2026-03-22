@@ -2,38 +2,38 @@
     "country": "Saint Kitts and Nevis",
     "infobox": {
         "Area": {
-            "Total (km2)": 261.0,
-            "Water (%)": 0.0
+            "Total": 261.0,
+            "Water": 0.0
         },
         "Economy": {
             "Currency": [
                 "East Caribbean dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 29893.0,
-                "Total ($)": 1800000000.0
+                "Per capita": 29893.0,
+                "Total": 1800000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 18158.0,
-                "Total ($)": 1000000000.0
+                "Per capita": 18158.0,
+                "Total": 1000000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.84
         },
         "General": {
             "Ethnic groups": {
-                "African (%)": 92.5,
-                "European (%)": 2.1,
-                "Indian (%)": 1.6,
-                "Mixed (%)": 3.0,
-                "Other (%)": 0.5
+                "African": 92.5,
+                "European": 2.1,
+                "Indian": 1.6,
+                "Mixed": 3.0,
+                "Other": 0.5
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 94.6,
-                "No religion (%)": 2.6
+                "Christianity": 94.6,
+                "No religion": 2.6
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 47606.0,
-            "Density (/km2)": 164.0
+            "Density": 164.0
         }
     }
 }

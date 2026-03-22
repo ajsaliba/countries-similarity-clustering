@@ -2,41 +2,41 @@
     "country": "Sudan",
     "infobox": {
         "Area": {
-            "Total (km2)": 1886068.0,
-            "Water (%)": -1.0
+            "Total": 1886068.0,
+            "Water": null
         },
         "Economy": {
             "Currency": [
                 "Sudanese pound"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 2034.0,
-                "Total ($)": 117770000000.0
+                "Per capita": 2034.0,
+                "Total": 117770000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 624.0,
-                "Total ($)": 31510000000.0
+                "Per capita": 624.0,
+                "Total": 31510000000.0
             },
             "Gini": 34.2,
             "HDI": 0.511
         },
         "General": {
             "Ethnic groups": {
-                "Beja (%)": 5.9,
-                "Egyptian (%)": 2.0,
-                "Fur (%)": 2.0,
-                "Nuba (%)": 2.5,
-                "Nubian (%)": 1.3,
-                "Other (%)": 16.3,
-                "Sudanese Arab (%)": 70.0
+                "Beja": 5.9,
+                "Egyptian": 2.0,
+                "Fur": 2.0,
+                "Nuba": 2.5,
+                "Nubian": 1.3,
+                "Other": 16.3,
+                "Sudanese Arab": 70.0
             },
             "Primary Language": [
                 "Arabic",
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 3.0,
-                "Islam (%)": 97.0
+                "Christianity": 3.0,
+                "Islam": 97.0
             }
         },
         "Government": {
@@ -45,7 +45,7 @@
         },
         "Population": {
             "Count": 51767437.0,
-            "Density (/km2)": 21.3
+            "Density": 21.3
         }
     }
 }

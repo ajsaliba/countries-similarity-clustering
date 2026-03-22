@@ -2,34 +2,34 @@
     "country": "Nauru",
     "infobox": {
         "Area": {
-            "Total (km2)": 21.0,
-            "Water (%)": 0.57
+            "Total": 21.0,
+            "Water": 0.57
         },
         "Economy": {
             "Currency": [
                 "Australian dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 10962.0,
-                "Total ($)": 132000000.0
+                "Per capita": 10962.0,
+                "Total": 132000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 14274.0,
-                "Total ($)": 172000000.0
+                "Per capita": 14274.0,
+                "Total": 172000000.0
             },
-            "Gini": -1.0,
+            "Gini": null,
             "HDI": 0.703
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "English",
                 "Nauruan"
             ],
             "Religion": {
-                "Unknown": 100.0
+                "Unknown": null
             }
         },
         "Government": {
@@ -38,7 +38,7 @@
         },
         "Population": {
             "Count": 12025.0,
-            "Density (/km2)": 480.0
+            "Density": 480.0
         }
     }
 }

@@ -2,41 +2,41 @@
     "country": "Guinea-Bissau",
     "infobox": {
         "Area": {
-            "Total (km2)": 36125.0,
-            "Water (%)": 22.4
+            "Total": 36125.0,
+            "Water": 22.4
         },
         "Economy": {
             "Currency": [
                 "West African CFA franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 3280.0,
-                "Total ($)": 6620000000.0
+                "Per capita": 3280.0,
+                "Total": 6620000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1130.0,
-                "Total ($)": 2270000000.0
+                "Per capita": 1130.0,
+                "Total": 2270000000.0
             },
             "Gini": 33.4,
             "HDI": 0.514
         },
         "General": {
             "Ethnic groups": {
-                "Balanta (%)": 30.0,
-                "Fula (%)": 30.0,
-                "Mandinka (%)": 13.0,
-                "Manjak (%)": 14.0,
-                "Papel (%)": 7.0
+                "Balanta": 30.0,
+                "Fula": 30.0,
+                "Mandinka": 13.0,
+                "Manjak": 14.0,
+                "Papel": 7.0
             },
             "Primary Language": [
                 "Portuguese"
             ],
             "Religion": {
-                "Christianity (%)": 18.9,
-                "Folk/Traditional (%)": 30.6,
-                "Islam (%)": 46.1,
-                "No religion (%)": 3.0,
-                "Other (%)": 1.0
+                "Christianity": 18.9,
+                "Folk/Traditional": 30.6,
+                "Islam": 46.1,
+                "No religion": 3.0,
+                "Other": 1.0
             }
         },
         "Government": {
@@ -45,7 +45,7 @@
         },
         "Population": {
             "Count": 2080000.0,
-            "Density (/km2)": 47.0
+            "Density": 47.0
         }
     }
 }

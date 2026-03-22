@@ -2,37 +2,37 @@
     "country": "Bangladesh",
     "infobox": {
         "Area": {
-            "Total (km2)": 148460.0,
-            "Water (%)": 6.4
+            "Total": 148460.0,
+            "Water": 6.4
         },
         "Economy": {
             "Currency": [
                 "Taka"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 10850.0,
-                "Total ($)": 1900000000000.0
+                "Per capita": 10850.0,
+                "Total": 1900000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 2960.0,
-                "Total ($)": 519300000000.0
+                "Per capita": 2960.0,
+                "Total": 519300000000.0
             },
             "Gini": 33.4,
             "HDI": 0.685
         },
         "General": {
             "Ethnic groups": {
-                "Bengali (%)": 99.0,
-                "Other (%)": 1.0
+                "Bengali": 99.0,
+                "Other": 1.0
             },
             "Primary Language": [
                 "Bengali"
             ],
             "Religion": {
-                "Buddhism (%)": 0.6,
-                "Hinduism (%)": 7.94,
-                "Islam (%)": 91.04,
-                "Other (%)": 0.12
+                "Buddhism": 0.6,
+                "Hinduism": 7.94,
+                "Islam": 91.04,
+                "Other": 0.12
             }
         },
         "Government": {
@@ -41,7 +41,7 @@
         },
         "Population": {
             "Count": 173562364.0,
-            "Density (/km2)": 1165.0
+            "Density": 1165.0
         }
     }
 }

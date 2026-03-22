@@ -2,33 +2,33 @@
     "country": "Senegal",
     "infobox": {
         "Area": {
-            "Total (km2)": 196722.0,
-            "Water (%)": 2.1
+            "Total": 196722.0,
+            "Water": 2.1
         },
         "Economy": {
             "Currency": [
                 "West African CFA franc"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 5498.0,
-                "Total ($)": 105428000000.0
+                "Per capita": 5498.0,
+                "Total": 105428000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1811.0,
-                "Total ($)": 34728000000.0
+                "Per capita": 1811.0,
+                "Total": 34728000000.0
             },
             "Gini": 40.3,
             "HDI": 0.53
         },
         "General": {
             "Ethnic groups": {
-                "Fula (%)": 27.5,
-                "Jola (%)": 4.2,
-                "Mandinka (%)": 4.9,
-                "Other (%)": 5.4,
-                "Serer (%)": 16.0,
-                "Soninke (%)": 2.4,
-                "Wolof (%)": 39.7
+                "Fula": 27.5,
+                "Jola": 4.2,
+                "Mandinka": 4.9,
+                "Other": 5.4,
+                "Serer": 16.0,
+                "Soninke": 2.4,
+                "Wolof": 39.7
             },
             "Primary Language": [
                 "Diola",
@@ -40,9 +40,9 @@
                 "Wolof"
             ],
             "Religion": {
-                "Christianity (%)": 2.7,
-                "Islam (%)": 97.2,
-                "Other (%)": 0.1
+                "Christianity": 2.7,
+                "Islam": 97.2,
+                "Other": 0.1
             }
         },
         "Government": {
@@ -51,7 +51,7 @@
         },
         "Population": {
             "Count": 18847519.0,
-            "Density (/km2)": 96.0
+            "Density": 96.0
         }
     }
 }

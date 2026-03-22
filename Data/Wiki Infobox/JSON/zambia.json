@@ -2,63 +2,63 @@
     "country": "Zambia",
     "infobox": {
         "Area": {
-            "Total (km2)": 752617.0,
-            "Water (%)": 1.0
+            "Total": 752617.0,
+            "Water": 1.0
         },
         "Economy": {
             "Currency": [
                 "Zambian kwacha"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 4068.0,
-                "Total ($)": 83687000000.0
+                "Per capita": 4068.0,
+                "Total": 83687000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 1435.0,
-                "Total ($)": 29536000000.0
+                "Per capita": 1435.0,
+                "Total": 29536000000.0
             },
             "Gini": 51.5,
             "HDI": 0.595
         },
         "General": {
             "Ethnic groups": {
-                "Bemba (%)": 19.0,
-                "Bisa (%)": 1.6,
-                "Chewa (%)": 6.0,
-                "Chishinga (%)": 0.5,
-                "Chokwe (%)": 0.5,
-                "Ila (%)": 0.8,
-                "Kaonde (%)": 3.9,
-                "Kunda (%)": 0.7,
-                "Lala (%)": 3.1,
-                "Lamba (%)": 2.4,
-                "Lenje (%)": 1.6,
-                "Lozi (%)": 5.7,
-                "Lunda (%)": 3.5,
-                "Lungu (%)": 0.8,
-                "Luvale (%)": 2.2,
-                "Mambwe (%)": 2.5,
-                "Mbunda (%)": 1.2,
-                "Namwanga (%)": 2.8,
-                "Ngoni (%)": 3.0,
-                "Ngumbo (%)": 0.6,
-                "Nkoya (%)": 0.5,
-                "Nsenga (%)": 5.3,
-                "Other (%)": 5.4,
-                "Senga (%)": 0.9,
-                "Soli (%)": 0.7,
-                "Tabwa (%)": 0.7,
-                "Tonga (%)": 13.6,
-                "Tumbuka (%)": 7.5,
-                "Ushi (%)": 1.9
+                "Bemba": 19.0,
+                "Bisa": 1.6,
+                "Chewa": 6.0,
+                "Chishinga": 0.5,
+                "Chokwe": 0.5,
+                "Ila": 0.8,
+                "Kaonde": 3.9,
+                "Kunda": 0.7,
+                "Lala": 3.1,
+                "Lamba": 2.4,
+                "Lenje": 1.6,
+                "Lozi": 5.7,
+                "Lunda": 3.5,
+                "Lungu": 0.8,
+                "Luvale": 2.2,
+                "Mambwe": 2.5,
+                "Mbunda": 1.2,
+                "Namwanga": 2.8,
+                "Ngoni": 3.0,
+                "Ngumbo": 0.6,
+                "Nkoya": 0.5,
+                "Nsenga": 5.3,
+                "Other": 5.4,
+                "Senga": 0.9,
+                "Soli": 0.7,
+                "Tabwa": 0.7,
+                "Tonga": 13.6,
+                "Tumbuka": 7.5,
+                "Ushi": 1.9
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Christianity (%)": 95.5,
-                "Islam (%)": 2.7,
-                "No religion (%)": 1.8
+                "Christianity": 95.5,
+                "Islam": 2.7,
+                "No religion": 1.8
             }
         },
         "Government": {
@@ -67,7 +67,7 @@
         },
         "Population": {
             "Count": 20216029.0,
-            "Density (/km2)": 17.2
+            "Density": 17.2
         }
     }
 }

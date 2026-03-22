@@ -2,27 +2,27 @@
     "country": "Bolivia",
     "infobox": {
         "Area": {
-            "Total (km2)": 1098581.0,
-            "Water (%)": 1.29
+            "Total": 1098581.0,
+            "Water": 1.29
         },
         "Economy": {
             "Currency": [
                 "Boliviano"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 11574.0,
-                "Total ($)": 144098000000.0
+                "Per capita": 11574.0,
+                "Total": 144098000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 4525.0,
-                "Total ($)": 56339000000.0
+                "Per capita": 4525.0,
+                "Total": 56339000000.0
             },
             "Gini": 40.9,
             "HDI": 0.733
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "Aymara",
@@ -31,9 +31,9 @@
                 "Spanish"
             ],
             "Religion": {
-                "Christianity (%)": 92.8,
-                "No religion (%)": 6.5,
-                "Other (%)": 0.7
+                "Christianity": 92.8,
+                "No religion": 6.5,
+                "Other": 0.7
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 11365333.0,
-            "Density (/km2)": 10.4
+            "Density": 10.4
         }
     }
 }

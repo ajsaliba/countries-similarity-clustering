@@ -2,38 +2,38 @@
     "country": "Australia",
     "infobox": {
         "Area": {
-            "Total (km2)": 7688287.0,
-            "Water (%)": 1.79
+            "Total": 7688287.0,
+            "Water": 1.79
         },
         "Economy": {
             "Currency": [
                 "Australian dollar"
             ],
             "GDP ( PPP )": {
-                "Per capita ($)": 71431.0,
-                "Total ($)": 1982000000000.0
+                "Per capita": 71431.0,
+                "Total": 1982000000000.0
             },
             "GDP (nominal)": {
-                "Per capita ($)": 65946.0,
-                "Total ($)": 1830000000000.0
+                "Per capita": 65946.0,
+                "Total": 1830000000000.0
             },
             "Gini": 32.4,
             "HDI": 0.958
         },
         "General": {
             "Ethnic groups": {
-                "Unknown": 100.0
+                "Unknown": null
             },
             "Primary Language": [
                 "English"
             ],
             "Religion": {
-                "Buddhism (%)": 2.4,
-                "Christianity (%)": 43.9,
-                "Hinduism (%)": 2.7,
-                "Islam (%)": 3.2,
-                "No religion (%)": 38.9,
-                "Other (%)": 1.7
+                "Buddhism": 2.4,
+                "Christianity": 43.9,
+                "Hinduism": 2.7,
+                "Islam": 3.2,
+                "No religion": 38.9,
+                "Other": 1.7
             }
         },
         "Government": {
@@ -42,7 +42,7 @@
         },
         "Population": {
             "Count": 27840775.0,
-            "Density (/km2)": 3.7
+            "Density": 3.7
         }
     }
 }

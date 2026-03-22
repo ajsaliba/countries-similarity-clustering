@@ -1,0 +1,12 @@
+[submodule "MPEG-7-XML-Similarity-Matching"]
+	path = MPEG-7-XML-Similarity-Matching
+	url = https://github.com/ajsaliba/MPEG-7-XML-Similarity-Matching.git
+	branch = main
+[submodule "DocumentDifferencing"]
+	path = DocumentDifferencing
+	url = https://github.com/ajsaliba/DocumentDifferencing.git
+	branch = master
+[submodule "DocumentSearch"]
+	path = DocumentSearch
+	url = https://github.com/ajsaliba/DocumentSearch.git
+	branch = main

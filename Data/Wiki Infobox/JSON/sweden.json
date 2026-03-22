@@ -21,15 +21,11 @@
             "HDI": 0.959
         },
         "General": {
-            "Ethnic groups": {
-                "Unknown": null
-            },
+            "Ethnic groups": null,
             "Primary Language": [
                 "Swedish"
             ],
-            "Religion": {
-                "Unknown": null
-            }
+            "Religion": null
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy",

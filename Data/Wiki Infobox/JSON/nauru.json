@@ -21,16 +21,12 @@
             "HDI": 0.703
         },
         "General": {
-            "Ethnic groups": {
-                "Unknown": null
-            },
+            "Ethnic groups": null,
             "Primary Language": [
                 "English",
                 "Nauruan"
             ],
-            "Religion": {
-                "Unknown": null
-            }
+            "Religion": null
         },
         "Government": {
             "Government": "Unitary parliamentary republic with an executive presidency under a non-partisan democracy",

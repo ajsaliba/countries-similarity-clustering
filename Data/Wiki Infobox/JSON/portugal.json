@@ -21,16 +21,12 @@
             "HDI": 0.89
         },
         "General": {
-            "Ethnic groups": {
-                "Unknown": null
-            },
+            "Ethnic groups": null,
             "Primary Language": [
                 "Portuguese",
                 "Portuguese Sign Language"
             ],
-            "Religion": {
-                "Unknown": null
-            }
+            "Religion": null
         },
         "Government": {
             "Government": "Unitary semi-presidential republic",

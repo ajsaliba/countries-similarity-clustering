@@ -21,9 +21,7 @@
             "HDI": 0.763
         },
         "General": {
-            "Ethnic groups": {
-                "Unknown": null
-            },
+            "Ethnic groups": null,
             "Primary Language": [
                 "Arabic",
                 "Berber"

@@ -22,17 +22,13 @@
             "HDI": 0.948
         },
         "General": {
-            "Ethnic groups": {
-                "Unknown": null
-            },
+            "Ethnic groups": null,
             "Primary Language": [
                 "Danish",
                 "Faroese",
                 "Greenlandic"
             ],
-            "Religion": {
-                "Unknown": null
-            }
+            "Religion": null
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy",

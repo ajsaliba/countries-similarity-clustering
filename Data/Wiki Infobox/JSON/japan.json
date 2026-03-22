@@ -21,15 +21,11 @@
             "HDI": 0.925
         },
         "General": {
-            "Ethnic groups": {
-                "Unknown": null
-            },
+            "Ethnic groups": null,
             "Primary Language": [
                 "Japanese"
             ],
-            "Religion": {
-                "Unknown": null
-            }
+            "Religion": null
         },
         "Government": {
             "Government": "Unitary parliamentary constitutional monarchy",

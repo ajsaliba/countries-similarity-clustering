@@ -1,0 +1,53 @@
+{
+    "country": "Palau",
+    "infobox": {
+        "General": {
+            "Official Language": "Palauan English",
+            "Ethnic groups": {
+                "Palauan (%)": 65.2,
+                "Asian (%)": 31.6,
+                "Carolinian (%)": 1.2,
+                "European (%)": 1,
+                "other (%)": 0.9
+            },
+            "Religion": {
+                "Christianity (%)": 78.7,
+                "no religion": {
+                    "percentage": 10.1,
+                    "breakdown": {
+                        "Modekngei": {
+                            "percentage": 5.1,
+                            "breakdown": {
+                                "Islam (%)": 4.9
+                            }
+                        }
+                    }
+                },
+                "other (%)": 1.2
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic under a non-partisan democracy"
+        },
+        "Area": {
+            "Total (km2)": 459,
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "Count": 17663,
+            "Density (/km2)": 38.375
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 308000000,
+                "Per capita ($)": 18209
+            },
+            "GDP (nominal)": {
+                "Total ($)": 322000000,
+                "Per capita ($)": 17448
+            },
+            "HDI": 0.786,
+            "Currency": "United States dollar"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "country": "Indonesia",
+    "infobox": {
+        "General": {
+            "Official Language": "Indonesian",
+            "Ethnic groups": {
+                "Javanese (%)": 40.2,
+                "Sundanese (%)": 15.5,
+                "Malay (%)": 3.7,
+                "Batak (%)": 3.6,
+                "Madurese (%)": 3,
+                "others ( 600+ ethnic groups ) (%)": 34
+            },
+            "Religion": {
+                "Islam (%)": 87.1,
+                "Christianity": {
+                    "percentage": 10.45,
+                    "breakdown": {
+                        "Protestantism (%)": 7.38,
+                        "Catholicism (%)": 3.07
+                    }
+                },
+                "Hinduism (%)": 1.7,
+                "Buddhism , Folk , Confucianism , and others (%)": 0.8
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 1904569,
+            "Water (%)": 4.85
+        },
+        "Population": {
+            "Count": "288.315.089",
+            "Density (/km2)": 143
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 5009000000000,
+                "Per capita ($)": 17612
+            },
+            "GDP (nominal)": {
+                "Total ($)": 1430000000000,
+                "Per capita ($)": 5027
+            },
+            "Gini": 37.9,
+            "HDI": 0.728,
+            "Currency": "Indonesian rupiah"
+        }
+    }
+}

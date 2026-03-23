@@ -1,0 +1,48 @@
+{
+    "country": "Israel",
+    "infobox": {
+        "General": {
+            "Official Language": "Hebrew",
+            "Ethnic groups": {
+                "Jews (%)": 71.9,
+                "Arabs (%)": 21,
+                "others (%)": 7.1
+            },
+            "Religion": {
+                "Judaism (%)": 73.7,
+                "Islam (%)": 18.3,
+                "Christianity": {
+                    "percentage": 1.9,
+                    "breakdown": {
+                        "Druze faith (%)": 1.6
+                    }
+                },
+                "others (%)": 4.5
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic"
+        },
+        "Area": {
+            "Total": "22,072 or 20,770 km 2",
+            "Water (%)": 2.71
+        },
+        "Population": {
+            "Count": 10147200,
+            "Density (/km2)": 463
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 567550000000,
+                "Per capita ($)": 55770
+            },
+            "GDP (nominal)": {
+                "Total ($)": 610750000000,
+                "Per capita ($)": 60010
+            },
+            "Gini": 37.9,
+            "HDI": 0.919,
+            "Currency": "New shekel"
+        }
+    }
+}

@@ -1,0 +1,279 @@
+{
+  "country": "Namibia",
+  "iso3": "NAM",
+  "demographics": {
+    "total_population": {
+      "value": 3030131,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 3.59909023551847,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": 2.23715227334598,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 50.4088030252155,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 49.5911969747845,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 68.4996560642518,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": 1866,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 13372354511.716,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 11686.6020661881,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 4413.12752211572,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": 3.71154502416731,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": 19.291,
+      "year": 2025
+    },
+    "inflation_percent": {
+      "value": 4.23903922877036,
+      "year": 2024
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 7.29120638562693,
+      "year": 2024
+    },
+    "agricultural_land_percent": {
+      "value": 47.142562159142,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 28.8634821730246,
+      "year": 2024
+    },
+    "services_value_added_percent_gdp": {
+      "value": 54.4586091697762,
+      "year": 2024
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 61.0232473125515,
+      "year": 2022
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": 22.9,
+      "year": 2015
+    },
+    "gini_index": {
+      "value": 59.1,
+      "year": 2015
+    },
+    "income_share_lowest_20_percent": {
+      "value": 2.8,
+      "year": 2015
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": 109.628509818932,
+      "year": 2024
+    },
+    "exports_percent_gdp": {
+      "value": 41.6438674740671,
+      "year": 2024
+    },
+    "imports_percent_gdp": {
+      "value": 67.9846423448646,
+      "year": 2024
+    },
+    "trade_balance_percent_gdp": {
+      "value": -26.3407748707975,
+      "year": 2024
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 14.7630958665235,
+      "year": 2024
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 13.2170234792541,
+      "year": 2024
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": 4.66758235586367,
+      "year": 2015
+    },
+    "external_debt_percent_gni": {
+      "value": null,
+      "year": null
+    },
+    "debt_service_percent_exports": {
+      "value": null,
+      "year": null
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": 87.6399993896484,
+      "year": 2023
+    },
+    "primary_school_enrollment_gross": {
+      "value": 120.719328687086,
+      "year": 2024
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 81.9566828199727,
+      "year": 2024
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": 26.1092654658031,
+      "year": 2022
+    },
+    "education_expenditure_percent_gdp": {
+      "value": 9.08440819434816,
+      "year": 2024
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 67.385,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 38.4,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 40.7,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 9.48251629,
+      "year": 2023
+    },
+    "physicians_per_1000_people": {
+      "value": 0.553,
+      "year": 2022
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 18.1,
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 56.7,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 86.5087378352127,
+      "year": 2024
+    },
+    "basic_sanitation_percent": {
+      "value": 38.7229020528394,
+      "year": 2024
+    },
+    "internet_users_percent": {
+      "value": 64.4061,
+      "year": 2023
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 3.52007,
+      "year": 2023
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 87.6761,
+      "year": 2023
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": 2.8,
+      "year": 2022
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 30,
+      "year": 2021
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": 692.461356441068,
+      "year": 2022
+    },
+    "forest_area_percent_land": {
+      "value": 7.80511120018463,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 1.50262960180316,
+      "year": 2022
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 58.6776859504132,
+      "year": 2022
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": 24.9011588275392,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": 60.4998985401718,
+      "year": 2022
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": 0.0308966562151909,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": 0.445467591285706,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": 0.110072031617165,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": 0.54477721452713,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": -0.0622607916593552,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": 11.2077806904171,
+      "year": 2021
+    },
+    "battle_related_deaths": {
+      "value": null,
+      "year": null
+    }
+  },
+  "world_bank_country_name": [
+    "Namibia"
+  ]
+}

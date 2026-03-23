@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Moldova</country>
+  <infobox>
+    <General>
+      <Official_Language>Romanian</Official_Language>
+      <Ethnic_groups>
+        <Moldovans____>76.7</Moldovans____>
+        <Romanians____>8</Romanians____>
+        <Ukrainians____>5.1</Ukrainians____>
+        <Gagauz____>4</Gagauz____>
+        <Russians____>3.4</Russians____>
+        <Bulgarians____>1.6</Bulgarians____>
+        <other____>1.1</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>97.4</percentage>
+          <breakdown>
+            <Eastern_Orthodoxy____>94.3</Eastern_Orthodoxy____>
+            <other_Christian____>3.1</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <other____>0.3</other____>
+        <no_religion____>1.5</no_religion____>
+        <unanswered____>0.8</unanswered____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic</Government>
+    </Government>
+    <Area>
+      <Water____>1.4</Water____>
+      <Total__km2_>33843</Total__km2_>
+    </Area>
+    <Population>
+      <Count>2381325</Count>
+      <Density___km2_>78.5</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>48511000000</Total____>
+        <Per_capita____>20731</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>21024000000</Total____>
+        <Per_capita____>8984</Per_capita____>
+      </GDP__nominal_>
+      <Gini>25.7</Gini>
+      <HDI>0.785</HDI>
+      <Currency>Moldovan leu</Currency>
+    </Economy>
+  </infobox>
+</country>

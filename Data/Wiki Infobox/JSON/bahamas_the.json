@@ -1,0 +1,50 @@
+{
+    "country": "Bahamas, The",
+    "infobox": {
+        "General": {
+            "Official Language": "English",
+            "Ethnic groups": {
+                "African (%)": 90.6,
+                "White (%)": 4.7,
+                "mixed (%)": 2.1,
+                "other (%)": 1.9,
+                "unspecified (%)": 0.7
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 93,
+                    "breakdown": {
+                        "Protestantism (%)": 75.1,
+                        "other Christian (%)": 17.9
+                    }
+                },
+                "no religion (%)": 4.5,
+                "folk religions (%)": 1.9,
+                "other (%)": 0.6
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 13943,
+            "Water (%)": 28
+        },
+        "Population": {
+            "Count": 412628,
+            "Density (/km2)": 25.21
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 18989000000,
+                "Per capita ($)": 46524
+            },
+            "GDP (nominal)": {
+                "Total ($)": 14390000000,
+                "Per capita ($)": 35257
+            },
+            "HDI": 0.82,
+            "Currency": "Bahamian dollar"
+        }
+    }
+}

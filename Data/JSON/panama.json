@@ -1,0 +1,279 @@
+{
+  "country": "Panama",
+  "iso3": "PAN",
+  "demographics": {
+    "total_population": {
+      "value": 4515577,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 60.1072930709086,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": 1.26624987466078,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 65.9958447685488,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 34.0041552314512,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 52.086689450372,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": 6151,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 86523959131.7472,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 41369.422541499,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 19161.2188501596,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": 2.74788545546916,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": 8.36,
+      "year": 2025
+    },
+    "inflation_percent": {
+      "value": 0.693225551004538,
+      "year": 2024
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 2.68214078025339,
+      "year": 2024
+    },
+    "agricultural_land_percent": {
+      "value": 29.522326772715,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 25.5035525177363,
+      "year": 2024
+    },
+    "services_value_added_percent_gdp": {
+      "value": 69.3426627772372,
+      "year": 2024
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 100.153891512579,
+      "year": 2020
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": 3.1,
+      "year": 2024
+    },
+    "gini_index": {
+      "value": 49.7,
+      "year": 2024
+    },
+    "income_share_lowest_20_percent": {
+      "value": 3.6,
+      "year": 2024
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": 83.6737787798304,
+      "year": 2024
+    },
+    "exports_percent_gdp": {
+      "value": 44.3578422197701,
+      "year": 2024
+    },
+    "imports_percent_gdp": {
+      "value": 39.3159365600603,
+      "year": 2024
+    },
+    "trade_balance_percent_gdp": {
+      "value": 5.04190565970985,
+      "year": 2024
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 3.74510335231647,
+      "year": 2024
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 18.7290607879686,
+      "year": 2024
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "external_debt_percent_gni": {
+      "value": null,
+      "year": null
+    },
+    "debt_service_percent_exports": {
+      "value": null,
+      "year": null
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": 96.256135181795,
+      "year": 2024
+    },
+    "primary_school_enrollment_gross": {
+      "value": 95.2033935877376,
+      "year": 2023
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 76.5998992919922,
+      "year": 2017
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": 53.6949637061742,
+      "year": 2023
+    },
+    "education_expenditure_percent_gdp": {
+      "value": 2.47225999832153,
+      "year": 2023
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 79.594,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 10.6,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 13.3,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 8.33022976,
+      "year": 2023
+    },
+    "physicians_per_1000_people": {
+      "value": 1.625,
+      "year": 2022
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 5.7,
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 97,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 95.2628238815705,
+      "year": 2024
+    },
+    "basic_sanitation_percent": {
+      "value": 89.0540402475148,
+      "year": 2024
+    },
+    "internet_users_percent": {
+      "value": 68.5485,
+      "year": 2023
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 18.1341,
+      "year": 2023
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 156.587,
+      "year": 2023
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": 3.3,
+      "year": 2022
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 28,
+      "year": 2021
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": 1062.69925631817,
+      "year": 2022
+    },
+    "forest_area_percent_land": {
+      "value": 56.3439727689404,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 22.772196357102,
+      "year": 2022
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 66.2991096953361,
+      "year": 2022
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": 10.3735646427096,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": 171.186492615064,
+      "year": 2022
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": -0.209720730781555,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": -0.3459812104702,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": -0.62809419631958,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": 0.213101848959923,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": 0.118782818317413,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": 11.7072934419645,
+      "year": 2023
+    },
+    "battle_related_deaths": {
+      "value": null,
+      "year": null
+    }
+  },
+  "world_bank_country_name": [
+    "Panama"
+  ]
+}

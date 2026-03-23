@@ -1,0 +1,57 @@
+{
+    "country": "Madagascar",
+    "infobox": {
+        "General": {
+            "Official Language": "Malagasy French",
+            "Ethnic groups": {
+                "Merina (%)": 26,
+                "Betsimisaraka (%)": 15,
+                "Betsileo (%)": 12,
+                "Tsimihety (%)": 7,
+                "Sakalava (%)": 6,
+                "Antaisaka (%)": 5,
+                "Antandroy (%)": 5,
+                "others (%)": 24
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 84.7,
+                    "breakdown": {
+                        "Protestantism (%)": 45.8,
+                        "Catholicism (%)": 38.1,
+                        "other Christian (%)": 0.8
+                    }
+                },
+                "no religion (%)": 7.3,
+                "traditional faiths (%)": 4.7,
+                "Islam (%)": 3.1,
+                "others (%)": 0.3
+            }
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic under a transitional government"
+        },
+        "Area": {
+            "Total (km2)": 592796,
+            "Water (km2)": 5501,
+            "Water (%)": 0.9
+        },
+        "Population": {
+            "Count": 31964956,
+            "Density (/km2)": 55
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 68110000000,
+                "Per capita ($)": 2110
+            },
+            "GDP (nominal)": {
+                "Total ($)": 21090000000,
+                "Per capita ($)": 652
+            },
+            "Gini": 42.6,
+            "HDI": 0.487,
+            "Currency": "Ariary"
+        }
+    }
+}

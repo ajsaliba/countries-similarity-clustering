@@ -1,0 +1,44 @@
+{
+    "country": "Tanzania",
+    "infobox": {
+        "General": {
+            "Official Language": "Swahili English",
+            "National Language": "Swahili",
+            "Religion": {
+                "Christianity (%)": 63.1,
+                "Islam (%)": 34.1,
+                "no religion": {
+                    "percentage": 1.5,
+                    "breakdown": {
+                        "traditional faiths (%)": 1.2,
+                        "others (%)": 0.1
+                    }
+                }
+            }
+        },
+        "Government": {
+            "Government": "Unitary dominant-party presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 947303,
+            "Water (%)": 6.4
+        },
+        "Population": {
+            "Count": 67462121,
+            "Density (/km2)": 65.2
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 293590000000,
+                "Per capita ($)": 4370
+            },
+            "GDP (nominal)": {
+                "Total ($)": 88980000000,
+                "Per capita ($)": 1280
+            },
+            "Gini": 40.5,
+            "HDI": 0.555,
+            "Currency": "Tanzanian shilling"
+        }
+    }
+}

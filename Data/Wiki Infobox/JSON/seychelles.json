@@ -1,0 +1,43 @@
+{
+    "country": "Seychelles",
+    "infobox": {
+        "General": {
+            "Official Language": "Seychellois Creole English French",
+            "Ethnic groups": {
+                "Seychellois Creoles (%)": 97,
+                "others (%)": 3
+            },
+            "Religion": {
+                "Christianity (%)": 74.9,
+                "Hinduism (%)": 5.4,
+                "Islam (%)": 2.4,
+                "others (%)": 5.1,
+                "unanswered (%)": 12.2
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 457,
+            "Water (%)": "Negligible"
+        },
+        "Population": {
+            "Count": 121355,
+            "Density (/km2)": 262.3
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 4490000000,
+                "Per capita ($)": 43850
+            },
+            "GDP (nominal)": {
+                "Total ($)": 2250000000,
+                "Per capita ($)": 21940
+            },
+            "Gini": 32.1,
+            "HDI": 0.848,
+            "Currency": "Seychellois rupee"
+        }
+    }
+}

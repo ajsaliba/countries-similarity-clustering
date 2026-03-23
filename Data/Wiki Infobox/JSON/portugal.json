@@ -1,0 +1,35 @@
+{
+    "country": "Portugal",
+    "infobox": {
+        "General": {
+            "Official Language": "Portuguese",
+            "National Language": "Portuguese Sign Language"
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 156597,
+            "Land (km2)": 92225,
+            "Water (km2)": 64372,
+            "Water (%)": 1.2
+        },
+        "Population": {
+            "Count": 10749635,
+            "Density (/km2)": 116.6
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 556383000000,
+                "Per capita ($)": 51853
+            },
+            "GDP (nominal)": {
+                "Total ($)": 364527000000,
+                "Per capita ($)": 33972
+            },
+            "Gini": 31.9,
+            "HDI": 0.89,
+            "Currency": "Euro"
+        }
+    }
+}

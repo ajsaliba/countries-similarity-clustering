@@ -1,0 +1,43 @@
+{
+    "country": "Iran",
+    "infobox": {
+        "General": {
+            "Official Language": "Persian",
+            "Ethnic groups": {
+                "Persians make up (%)": 51,
+                "Azerbaijanis make up (%)": 24,
+                "Gilaks and Mazanderanis (%)": 8,
+                "Kurds (%)": 7,
+                "Arabs (%)": 3,
+                "Lurs (%)": 2,
+                "Balochis (%)": 2,
+                "Turkmens (%)": 2,
+                "Turkic tribal groups (%)": 1
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential theocratic Islamic republic under an authoritarian dictatorship"
+        },
+        "Area": {
+            "Total (km2)": 1648195,
+            "Water (%)": 1.63
+        },
+        "Population": {
+            "Count": 92417681,
+            "Density (/km2)": 52
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 1879000000000,
+                "Per capita ($)": 21473
+            },
+            "GDP (nominal)": {
+                "Total ($)": 356513000000,
+                "Per capita ($)": 4074
+            },
+            "Gini": 35.9,
+            "HDI": 0.799,
+            "Currency": "Iranian rial"
+        }
+    }
+}

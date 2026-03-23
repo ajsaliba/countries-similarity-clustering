@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Vatican City</country>
+  <infobox>
+    <General>
+      <Official_Language>Italian</Official_Language>
+      <National_Language>Italian Latin</National_Language>
+      <Religion>Catholicism</Religion>
+    </General>
+    <Government>
+      <Government>Theocratic elective absolute monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>0.49</Total__km2_>
+    </Area>
+    <Population>
+      <Count>882</Count>
+      <Density___km2_>1800</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total>€14,859,970</Total>
+        <Per_capita>€19,450.22</Per_capita>
+      </GDP___PPP__>
+      <Currency>Euro</Currency>
+    </Economy>
+  </infobox>
+</country>

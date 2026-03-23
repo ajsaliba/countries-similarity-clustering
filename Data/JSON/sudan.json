@@ -1,0 +1,279 @@
+{
+  "country": "Sudan",
+  "iso3": "SDN",
+  "demographics": {
+    "total_population": {
+      "value": 50448963,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 26.7895026766595,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": 0.808373216038761,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 34.8673015510839,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 65.1326984489161,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 77.8507021774661,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": 291469,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 49672435513.1126,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 2115.81616210938,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 984.607666015625,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": -13.9643375197179,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": 7.53,
+      "year": 2022
+    },
+    "inflation_percent": {
+      "value": 138.80846024176,
+      "year": 2022
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 22.1813816000123,
+      "year": 2024
+    },
+    "agricultural_land_percent": {
+      "value": 60.3131691648822,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 23.1519847472801,
+      "year": 2024
+    },
+    "services_value_added_percent_gdp": {
+      "value": 54.6666336527076,
+      "year": 2024
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 5.63980468495649,
+      "year": 2022
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": null,
+      "year": null
+    },
+    "gini_index": {
+      "value": null,
+      "year": null
+    },
+    "income_share_lowest_20_percent": {
+      "value": null,
+      "year": null
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": 1.99541210225008,
+      "year": 2024
+    },
+    "exports_percent_gdp": {
+      "value": 0.720930190156301,
+      "year": 2024
+    },
+    "imports_percent_gdp": {
+      "value": 1.27448191209378,
+      "year": 2024
+    },
+    "trade_balance_percent_gdp": {
+      "value": -0.553551721937478,
+      "year": 2024
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 1.37399372870934,
+      "year": 2023
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 29.9100868799566,
+      "year": 2018
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "external_debt_percent_gni": {
+      "value": 45.3986291468877,
+      "year": 2024
+    },
+    "debt_service_percent_exports": {
+      "value": 2.95622866961282,
+      "year": 2022
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": null,
+      "year": null
+    },
+    "primary_school_enrollment_gross": {
+      "value": 72.3981094360352,
+      "year": 2019
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 43.5378608703613,
+      "year": 2019
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": null,
+      "year": null
+    },
+    "education_expenditure_percent_gdp": {
+      "value": null,
+      "year": null
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 66.331,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 39.2,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 50.1,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 2.85165739,
+      "year": 2023
+    },
+    "physicians_per_1000_people": {
+      "value": 0.25,
+      "year": 2017
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 11,
+      "year": 2021
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 66,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 64.8917129502851,
+      "year": 2024
+    },
+    "basic_sanitation_percent": {
+      "value": 65.7085965688426,
+      "year": 2024
+    },
+    "internet_users_percent": {
+      "value": 26.4383,
+      "year": 2020
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 0.0604394,
+      "year": 2022
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 70.2084,
+      "year": 2022
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": 2.3,
+      "year": 2022
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 61,
+      "year": 2021
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": 411.780538179181,
+      "year": 2022
+    },
+    "forest_area_percent_land": {
+      "value": 9.55196466809422,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 28.629300441381,
+      "year": 2022
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 71.3646532438479,
+      "year": 2022
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": -4.29231907988385,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": 18.8568106273271,
+      "year": 2022
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": -1.97706210613251,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": -1.6741771697998,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": -1.50206708908081,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": -2.46693897247314,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": -1.6031391620636,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": null,
+      "year": null
+    },
+    "battle_related_deaths": {
+      "value": 4680,
+      "year": 2024
+    }
+  },
+  "world_bank_country_name": [
+    "Sudan"
+  ]
+}

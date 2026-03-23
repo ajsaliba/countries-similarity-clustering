@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Kyrgyzstan</country>
+  <infobox>
+    <General>
+      <Official_Language>Kyrgyz Russian</Official_Language>
+      <Ethnic_groups>
+        <Kyrgyz____>77.8</Kyrgyz____>
+        <Uzbeks____>14.3</Uzbeks____>
+        <Russians____>3.7</Russians____>
+        <Dungans____>1</Dungans____>
+        <Tajiks____>0.9</Tajiks____>
+        <Others____>2.3</Others____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>91</Islam____>
+        <Christianity____>8</Christianity____>
+        <Others____>1</Others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>200105</Total__km2_>
+      <Water__km2_>7198</Water__km2_>
+      <Water____>3.6</Water____>
+    </Area>
+    <Population>
+      <Count>7400000</Count>
+      <Density___km2_>37</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>64110000000</Total____>
+        <Per_capita____>8870</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>22587000000</Total____>
+        <Per_capita____>3101</Per_capita____>
+      </GDP__nominal_>
+      <Gini>26.4</Gini>
+      <HDI>0.72</HDI>
+      <Currency>Kyrgyzstani som</Currency>
+    </Economy>
+  </infobox>
+</country>

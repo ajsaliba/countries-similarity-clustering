@@ -1,0 +1,38 @@
+{
+    "country": "Mauritania",
+    "infobox": {
+        "General": {
+            "Official Language": "Arabic",
+            "National Language": "Arabic Pulaar Soninke Wolof",
+            "Ethnic groups": {
+                "Haratin (%)": 40,
+                "Beidane (%)": 30,
+                "Halpulaar , Fulani , Soninké , and Wolof (%)": 30
+            },
+            "Religion": "Sunni Islam"
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential Islamic republic"
+        },
+        "Area": {
+            "Total (km2)": 1030000
+        },
+        "Population": {
+            "Count": "5,461,319‎",
+            "Density (/km2)": 3.4
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 40060000000,
+                "Per capita ($)": 8650
+            },
+            "GDP (nominal)": {
+                "Total ($)": 11470000000,
+                "Per capita ($)": 2480
+            },
+            "Gini": 32.6,
+            "HDI": 0.563,
+            "Currency": "Ouguiya"
+        }
+    }
+}

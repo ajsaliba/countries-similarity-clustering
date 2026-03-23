@@ -1,0 +1,34 @@
+{
+    "country": "Egypt",
+    "infobox": {
+        "General": {
+            "Official Language": "Arabic",
+            "National Language": "Egyptian Arabic",
+            "Religion": "See Religion in Egypt"
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic under an authoritarian government"
+        },
+        "Area": {
+            "Total (km2)": 1010408,
+            "Water (%)": 0.632
+        },
+        "Population": {
+            "Count": 107868296,
+            "Density (/km2)": 106.8
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 2372000000000,
+                "Per capita ($)": 21668
+            },
+            "GDP (nominal)": {
+                "Total ($)": 347342000000,
+                "Per capita ($)": 3174
+            },
+            "Gini": 28.5,
+            "HDI": 0.754,
+            "Currency": "Egyptian pound"
+        }
+    }
+}

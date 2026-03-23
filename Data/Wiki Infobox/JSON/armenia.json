@@ -1,0 +1,49 @@
+{
+    "country": "Armenia",
+    "infobox": {
+        "General": {
+            "Official Language": "Armenian",
+            "Ethnic groups": {
+                "Armenians (%)": 98.1,
+                "Yazidis (%)": 1.1,
+                "other (%)": 0.8
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 96.8,
+                    "breakdown": {
+                        "Armenian Apostolic Church (%)": 95.2,
+                        "other Christian (%)": 1.6
+                    }
+                },
+                "no religion (%)": 0.6,
+                "other (%)": 0.9,
+                "unspecified (%)": 1.7
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic"
+        },
+        "Area": {
+            "Total (km2)": 29743,
+            "Water (%)": 4.71
+        },
+        "Population": {
+            "Count": 3081100,
+            "Density (/km2)": 103.6
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 74407000000,
+                "Per capita ($)": 23954
+            },
+            "GDP (nominal)": {
+                "Total ($)": 27859000000,
+                "Per capita ($)": 8969
+            },
+            "Gini": 27.9,
+            "HDI": 0.811,
+            "Currency": "Dram"
+        }
+    }
+}

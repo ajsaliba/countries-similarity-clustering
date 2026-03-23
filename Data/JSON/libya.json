@@ -1,0 +1,279 @@
+{
+  "country": "Libya",
+  "iso3": "LBY",
+  "demographics": {
+    "total_population": {
+      "value": 7381023,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 4.15202780272117,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": 1.02629935747641,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 87.8854066107749,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 12.1145933892251,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 47.9982306839978,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": -172,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 48487151215.345,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 14303.8087736988,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 6569.16408678648,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": 1.89995052025442,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": 18.758,
+      "year": 2025
+    },
+    "inflation_percent": {
+      "value": 2.12615766885025,
+      "year": 2024
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 2.39197609901835,
+      "year": 2024
+    },
+    "agricultural_land_percent": {
+      "value": 8.72387101174171,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 73.4971404182672,
+      "year": 2024
+    },
+    "services_value_added_percent_gdp": {
+      "value": 28.3399914639351,
+      "year": 2024
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 13.041851907924,
+      "year": 2024
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": null,
+      "year": null
+    },
+    "gini_index": {
+      "value": null,
+      "year": null
+    },
+    "income_share_lowest_20_percent": {
+      "value": null,
+      "year": null
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": 128.816175842936,
+      "year": 2024
+    },
+    "exports_percent_gdp": {
+      "value": 71.9709773794281,
+      "year": 2024
+    },
+    "imports_percent_gdp": {
+      "value": 56.8451984635083,
+      "year": 2024
+    },
+    "trade_balance_percent_gdp": {
+      "value": 15.1257789159198,
+      "year": 2024
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 1.80500147243983,
+      "year": 2023
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 21.6020225297359,
+      "year": 2019
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "external_debt_percent_gni": {
+      "value": null,
+      "year": null
+    },
+    "debt_service_percent_exports": {
+      "value": null,
+      "year": null
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": null,
+      "year": null
+    },
+    "primary_school_enrollment_gross": {
+      "value": null,
+      "year": null
+    },
+    "secondary_school_enrollment_gross": {
+      "value": null,
+      "year": null
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": null,
+      "year": null
+    },
+    "education_expenditure_percent_gdp": {
+      "value": null,
+      "year": null
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 69.339,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 15.9,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 30.8,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 7.80515862,
+      "year": 2023
+    },
+    "physicians_per_1000_people": {
+      "value": 2.042,
+      "year": 2017
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 16.5,
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 73.2,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 96.3545440861619,
+      "year": 2024
+    },
+    "basic_sanitation_percent": {
+      "value": 88.4991460432787,
+      "year": 2024
+    },
+    "internet_users_percent": {
+      "value": 88.4989,
+      "year": 2023
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 4.51841,
+      "year": 2022
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 192.973,
+      "year": 2022
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": 1.7,
+      "year": 2022
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 3.1,
+      "year": 2021
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": 2539.19813836223,
+      "year": 2022
+    },
+    "forest_area_percent_land": {
+      "value": 0.123327687918433,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 99.971514840768,
+      "year": 2022
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": 0.0223947103636625,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": -249.727007920872,
+      "year": 2022
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": -1.63588905334473,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": -1.76977610588074,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": -1.52501881122589,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": -2.1680154800415,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": -1.9459183216095,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": null,
+      "year": null
+    },
+    "battle_related_deaths": {
+      "value": 2,
+      "year": 2024
+    }
+  },
+  "world_bank_country_name": [
+    "Libya"
+  ]
+}

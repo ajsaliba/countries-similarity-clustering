@@ -1,0 +1,38 @@
+{
+    "country": "Bhutan",
+    "infobox": {
+        "General": {
+            "Official Language": "Dzongkha",
+            "Religion": {
+                "Buddhism (%)": 74.7,
+                "Hinduism (%)": 22.6,
+                "Bon (%)": 1.9,
+                "others (%)": 0.8
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary semi-constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 38394,
+            "Water (%)": 1.1
+        },
+        "Population": {
+            "Count": 777486,
+            "Density (/km2)": 20.5
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 15415000000,
+                "Per capita ($)": 19255
+            },
+            "GDP (nominal)": {
+                "Total ($)": 3771000000,
+                "Per capita ($)": 4710
+            },
+            "Gini": 28.5,
+            "HDI": 0.698,
+            "Currency": "Ngultrum Indian rupee"
+        }
+    }
+}

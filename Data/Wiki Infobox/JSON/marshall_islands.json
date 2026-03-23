@@ -1,0 +1,47 @@
+{
+    "country": "Marshall Islands",
+    "infobox": {
+        "General": {
+            "Official Language": "Marshallese English",
+            "Ethnic groups": {
+                "Marshallese (%)": 95.6,
+                "others (%)": 4.4
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 96.2,
+                    "breakdown": {
+                        "Protestantism (%)": 79.9,
+                        "Catholicism (%)": 9.3,
+                        "other Christian (%)": 7
+                    }
+                },
+                "no religion (%)": 1.1,
+                "others (%)": 2.7
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic with an executive president"
+        },
+        "Area": {
+            "Total (km2)": 181.43,
+            "Water (%)": "Negligible"
+        },
+        "Population": {
+            "Count": 42418,
+            "Density (/km2)": 233
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 215000000,
+                "Per capita ($)": 3789
+            },
+            "GDP (nominal)": {
+                "Total ($)": 220000000,
+                "Per capita ($)": 3866
+            },
+            "HDI": 0.733,
+            "Currency": "United States dollar Sovereign"
+        }
+    }
+}

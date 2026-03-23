@@ -1,0 +1,47 @@
+{
+    "country": "Gambia, The",
+    "infobox": {
+        "General": {
+            "Official Language": "English",
+            "National Language": "List: Mandinka Pulaar Wolof Serer Jola English Balanta Arabic Jola-Fonyi Mandjak Mankanya Noon Dyula Soninke Fula Karon Kassonke Cangin Gambian Sign Language",
+            "Ethnic groups": {
+                "Mandinka (%)": 34.4,
+                "Fula (%)": 25,
+                "Wolof (%)": 15.4,
+                "Jola (%)": 9.5,
+                "Soninke (%)": 8.2,
+                "Serer (%)": 2.9,
+                "other (%)": 4.6
+            },
+            "Religion": {
+                "Islam (%)": 95.7,
+                "Christianity (%)": 4.2,
+                "others (%)": 0.1
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 11300,
+            "Water (%)": 11.5
+        },
+        "Population": {
+            "Count": 2422712,
+            "Density (/km2)": 227
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 11050000000,
+                "Per capita ($)": 3820
+            },
+            "GDP (nominal)": {
+                "Total ($)": 2670000000,
+                "Per capita ($)": 924
+            },
+            "Gini": 35.9,
+            "HDI": 0.524,
+            "Currency": "Gambian dalasi"
+        }
+    }
+}

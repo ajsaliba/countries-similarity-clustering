@@ -1,0 +1,45 @@
+{
+    "country": "Saint Lucia",
+    "infobox": {
+        "General": {
+            "Official Language": "English",
+            "Ethnic groups": {
+                "African (%)": 85.3,
+                "Mixed (%)": 10.9,
+                "Indian (%)": 2.2,
+                "other/ unspecified (%)": 1.6
+            },
+            "Religion": {
+                "Christianity (%)": 77.4,
+                "no religion (%)": 14.4,
+                "Rastafari (%)": 1.4,
+                "other (%)": 2.7,
+                "not stated (%)": 4.1
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 617,
+            "Water (%)": 1.6
+        },
+        "Population": {
+            "Count": 184100,
+            "Density (/km2)": 298
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 3769000000,
+                "Per capita ($)": 29258
+            },
+            "GDP (nominal)": {
+                "Total ($)": 2715000000,
+                "Per capita ($)": 14647
+            },
+            "Gini": 51.2,
+            "HDI": 0.748,
+            "Currency": "East Caribbean dollar"
+        }
+    }
+}

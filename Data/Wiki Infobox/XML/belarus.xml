@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Belarus</country>
+  <infobox>
+    <General>
+      <Official_Language>Belarusian Russian a</Official_Language>
+      <Ethnic_groups>
+        <Belarusians____>84.9</Belarusians____>
+        <Russians____>7.5</Russians____>
+        <Poles____>3.1</Poles____>
+        <Ukrainians____>1.7</Ukrainians____>
+        <other____>2.8</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>91</percentage>
+          <breakdown>
+            <Eastern_Orthodoxy____>83.3</Eastern_Orthodoxy____>
+            <other_Christian____>7.7</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>7.8</no_religion____>
+        <other____>1.2</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic under an authoritarian dictatorship</Government>
+    </Government>
+    <Area>
+      <Total__km2_>207600</Total__km2_>
+      <Water____>2.26</Water____>
+    </Area>
+    <Population>
+      <Count>9109280</Count>
+      <Density___km2_>43.9</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>221186000000</Total____>
+        <Per_capita____>24016</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>68864000000</Total____>
+        <Per_capita____>7477</Per_capita____>
+      </GDP__nominal_>
+      <Gini>25.3</Gini>
+      <HDI>0.824</HDI>
+      <Currency>Belarusian ruble</Currency>
+    </Economy>
+  </infobox>
+</country>

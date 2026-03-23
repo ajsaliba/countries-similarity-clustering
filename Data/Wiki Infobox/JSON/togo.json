@@ -1,0 +1,52 @@
+{
+    "country": "Togo",
+    "infobox": {
+        "General": {
+            "Official Language": "French",
+            "Ethnic groups": {
+                ") Aja , Ewe and Mina ( (%)": 94.4,
+                ") Kabye and Tem ( (%)": 42.4,
+                ") Akan and Gurma ( (%)": 25.9,
+                ") Kposo and Akebu ( (%)": 17.1,
+                ") Ana-Ife ( (%)": 4.1,
+                ") Other West African groups ( (%)": 3.2,
+                ") non-African ( (%)": 1.7,
+                ") (%)": 5.6
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 50,
+                    "breakdown": {
+                        "traditional faiths (%)": 33,
+                        "Islam (%)": 16,
+                        "Baháʼí faith (%)": 1
+                    }
+                }
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic"
+        },
+        "Area": {
+            "Total (km2)": 56785,
+            "Water (%)": 4.2
+        },
+        "Population": {
+            "Count": 9583381,
+            "Density (/km2)": 125.9
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 33050000000,
+                "Per capita ($)": 3470
+            },
+            "GDP (nominal)": {
+                "Total ($)": 10020000000,
+                "Per capita ($)": 1050
+            },
+            "Gini": 43.1,
+            "HDI": 0.571,
+            "Currency": "West African CFA franc"
+        }
+    }
+}

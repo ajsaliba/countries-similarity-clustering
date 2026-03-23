@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Laos</country>
+  <infobox>
+    <General>
+      <Official_Language>Lao</Official_Language>
+      <Ethnic_groups>
+        <Lao____>53.2</Lao____>
+        <Khmu____>11</Khmu____>
+        <Hmong____>9.2</Hmong____>
+        <Phu_Thai____>3.4</Phu_Thai____>
+        <Tai____>3.1</Tai____>
+        <Makong____>2.5</Makong____>
+        <Katang____>2.2</Katang____>
+        <Lue____>2</Lue____>
+        <Akha____>1.8</Akha____>
+        <other____>11.6</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Buddhism____>66</Buddhism____>
+        <Tai_folk_religion____>30.7</Tai_folk_religion____>
+        <Christianity____>1.5</Christianity____>
+        <other___none____>1.8</other___none____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary communist state</Government>
+    </Government>
+    <Area>
+      <Total__km2_>236800</Total__km2_>
+      <Water____>2</Water____>
+    </Area>
+    <Population>
+      <Count>7953556</Count>
+      <Density___km2_>33.21</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>78850000000</Total____>
+        <Per_capita____>10120</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>16320000000</Total____>
+        <Per_capita____>2100</Per_capita____>
+      </GDP__nominal_>
+      <Gini>36.4</Gini>
+      <HDI>0.617</HDI>
+      <Currency>Kip</Currency>
+    </Economy>
+  </infobox>
+</country>

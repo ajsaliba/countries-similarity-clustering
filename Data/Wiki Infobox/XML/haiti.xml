@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Haiti</country>
+  <infobox>
+    <General>
+      <Official_Language>Haitian Creole French</Official_Language>
+      <Ethnic_groups>
+        <African____>95</African____>
+        <other____>5</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>87</Christianity____>
+        <no_religion____>10.7</no_religion____>
+        <Haitian_Vodou____>2.1</Haitian_Vodou____>
+        <other____>0.2</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>27700</Total__km2_>
+      <Water____>0.7</Water____>
+    </Area>
+    <Population>
+      <Count>11470261</Count>
+      <Density___km2_>417</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>38200000000</Total____>
+        <Per_capita____>3040</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>33550000000</Total____>
+        <Per_capita____>2670</Per_capita____>
+      </GDP__nominal_>
+      <Gini>41</Gini>
+      <HDI>0.554</HDI>
+      <Currency>Gourde</Currency>
+    </Economy>
+  </infobox>
+</country>

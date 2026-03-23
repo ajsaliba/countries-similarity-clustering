@@ -1,0 +1,42 @@
+{
+    "country": "Oman",
+    "infobox": {
+        "General": {
+            "Official Language": "Arabic",
+            "Religion": {
+                "Islam ( official ) (%)": 95,
+                "Hinduism (%)": 1.67,
+                "Christianity": {
+                    "percentage": 1.67,
+                    "breakdown": {
+                        "others (%)": 1.66
+                    }
+                }
+            }
+        },
+        "Government": {
+            "Government": "Unitary Islamic absolute monarchy"
+        },
+        "Area": {
+            "Total (km2)": 315331,
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "Count": 5494691,
+            "Density (/km2)": 15
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 231160000000,
+                "Per capita ($)": 42010
+            },
+            "GDP (nominal)": {
+                "Total ($)": 104350000000,
+                "Per capita ($)": 18097
+            },
+            "Gini": 30.75,
+            "HDI": 0.858,
+            "Currency": "Omani rial"
+        }
+    }
+}

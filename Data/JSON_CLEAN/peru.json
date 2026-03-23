@@ -1,0 +1,279 @@
+{
+  "country": "Peru",
+  "iso3": "PER",
+  "demographics": {
+    "total_population": {
+      "value": 34217848,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 26.44188828125,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": 1.0937871324756,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 85.1912729600355,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 14.8087270399645,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 49.6973010705299,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": 11931,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 289221969062.941,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 17802.4182498972,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 8452.37167056621,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": 3.30394098171516,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": 5.117,
+      "year": 2025
+    },
+    "inflation_percent": {
+      "value": 2.00770739412712,
+      "year": 2024
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 7.3374218616047,
+      "year": 2024
+    },
+    "agricultural_land_percent": {
+      "value": 19.05121875,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 33.9723838777869,
+      "year": 2024
+    },
+    "services_value_added_percent_gdp": {
+      "value": 51.2936105507675,
+      "year": 2024
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 45.6681533476048,
+      "year": 2022
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": 5.1,
+      "year": 2024
+    },
+    "gini_index": {
+      "value": 40.1,
+      "year": 2024
+    },
+    "income_share_lowest_20_percent": {
+      "value": 5.6,
+      "year": 2024
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": 51.4758878672647,
+      "year": 2024
+    },
+    "exports_percent_gdp": {
+      "value": 28.5375908827221,
+      "year": 2024
+    },
+    "imports_percent_gdp": {
+      "value": 22.9382969845426,
+      "year": 2024
+    },
+    "trade_balance_percent_gdp": {
+      "value": 5.59929389817949,
+      "year": 2024
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 2.35092628744149,
+      "year": 2024
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 11.925870637209,
+      "year": 2024
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": 35.2492265687178,
+      "year": 2021
+    },
+    "external_debt_percent_gni": {
+      "value": 34.2282212044217,
+      "year": 2024
+    },
+    "debt_service_percent_exports": {
+      "value": 17.1119312052217,
+      "year": 2024
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": 93.6600036621094,
+      "year": 2024
+    },
+    "primary_school_enrollment_gross": {
+      "value": 113.900588989258,
+      "year": 2023
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 111.395393371582,
+      "year": 2023
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": 71.2404708862305,
+      "year": 2017
+    },
+    "education_expenditure_percent_gdp": {
+      "value": 4.23516988754272,
+      "year": 2023
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 77.74,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 13.5,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 15.8,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 5.63786411,
+      "year": 2023
+    },
+    "physicians_per_1000_people": {
+      "value": 1.688,
+      "year": 2023
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 6.9,
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 96.2,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 95.6370823826383,
+      "year": 2024
+    },
+    "basic_sanitation_percent": {
+      "value": 78.7732036574365,
+      "year": 2024
+    },
+    "internet_users_percent": {
+      "value": 81.9571,
+      "year": 2024
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 10.4364,
+      "year": 2023
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 121.975,
+      "year": 2023
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": 2.5,
+      "year": 2022
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 30.6,
+      "year": 2021
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": 826.705646687846,
+      "year": 2022
+    },
+    "forest_area_percent_land": {
+      "value": 56.103020234375,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 44.5974204125333,
+      "year": 2022
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 49.7331749669605,
+      "year": 2022
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": 5.73065877643373,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": 12.185965103062,
+      "year": 2022
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": -0.491872787475586,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": -0.538132667541504,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": -0.721040904521942,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": -0.52178555727005,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": 0.292205184698105,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": 8.60480803979216,
+      "year": 2021
+    },
+    "battle_related_deaths": {
+      "value": 5,
+      "year": 2020
+    }
+  },
+  "world_bank_country_name": [
+    "Peru"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "country": "Algeria",
+    "infobox": {
+        "General": {
+            "Official Language": "Arabic Berber",
+            "Ethnic groups": "See Ethnic groups",
+            "Religion": {
+                "Sunni Islam ( official ) < (%)": 99,
+                "others (%)": 1
+            }
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 2381741
+        },
+        "Population": {
+            "Count": 47400000,
+            "Density (/km2)": 19
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 875330000000,
+                "Per capita ($)": 18530
+            },
+            "GDP (nominal)": {
+                "Total ($)": 268890000000,
+                "Per capita ($)": 5690
+            },
+            "Gini": 27.6,
+            "HDI": 0.763,
+            "Currency": "Algerian dinar"
+        }
+    }
+}

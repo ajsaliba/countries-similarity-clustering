@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Azerbaijan</country>
+  <infobox>
+    <General>
+      <Official_Language>Azerbaijani</Official_Language>
+      <Ethnic_groups>
+        <Azerbaijani____>94.8</Azerbaijani____>
+        <Lezgin____>1.7</Lezgin____>
+        <Talysh____>0.9</Talysh____>
+        <Russian____>0.7</Russian____>
+        <others____>1.9</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>97.3</Islam____>
+        <Christianity______>2.6</Christianity______>
+        <other_religion______>0.1</other_religion______>
+        <unaffiliated____>0.1</unaffiliated____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic under an authoritarian hereditary dictatorship</Government>
+    </Government>
+    <Area>
+      <Total__km2_>86600</Total__km2_>
+      <Water____>1.6</Water____>
+    </Area>
+    <Population>
+      <Count>10353296</Count>
+      <Density___km2_>117</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>272000000000</Total____>
+        <Per_capita____>26235</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total>79000000000</Total>
+        <Per_capita____>7604</Per_capita____>
+      </GDP__nominal_>
+      <Gini>33.7</Gini>
+      <HDI>0.789</HDI>
+      <Currency>Manat</Currency>
+    </Economy>
+  </infobox>
+</country>

@@ -1,0 +1,55 @@
+{
+    "country": "Micronesia",
+    "infobox": {
+        "General": {
+            "Official Language": "English",
+            "Ethnic groups": {
+                "Chuukese (%)": 48.8,
+                "Pohnpeian (%)": 24.2,
+                "Kosraean (%)": 6.2,
+                "Yapese (%)": 5.2,
+                "Outer Yapese (%)": 4.5,
+                "Asian (%)": 1.8,
+                "Polynesian (%)": 1.5,
+                "other (%)": 6.4,
+                "unknown (%)": 1.4
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 95.3,
+                    "breakdown": {
+                        "Roman Catholic (%)": 52.6,
+                        "Protestant (%)": 41.7,
+                        "other Christian (%)": 1
+                    }
+                },
+                "folk religions (%)": 4.1,
+                "none / other (%)": 0.6
+            }
+        },
+        "Government": {
+            "Government": "Federal assembly-independent presidential republic under a non-partisan democracy"
+        },
+        "Area": {
+            "Total (km2)": 702,
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "Count": 105564,
+            "Density (/km2)": 150.4
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 451000000,
+                "Per capita ($)": 4768
+            },
+            "GDP (nominal)": {
+                "Total ($)": 500000000,
+                "Per capita ($)": 5291
+            },
+            "Gini": 40.1,
+            "HDI": 0.634,
+            "Currency": "United States dollar"
+        }
+    }
+}

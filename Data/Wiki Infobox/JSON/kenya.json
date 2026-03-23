@@ -1,0 +1,52 @@
+{
+    "country": "Kenya",
+    "infobox": {
+        "General": {
+            "Official Language": "Swahili English",
+            "National Language": "Swahili",
+            "Ethnic groups": {
+                "Kikuyu (%)": 17.13,
+                "Luhya (%)": 14.35,
+                "Kalenjin (%)": 13.37,
+                "Luo (%)": 10.65,
+                "Kamba (%)": 9.81,
+                "Somali (%)": 5.85,
+                "Kisii (%)": 5.68,
+                "Mijikenda (%)": 5.23,
+                "Meru (%)": 4.15,
+                "others (%)": 13.78
+            },
+            "Religion": {
+                "Christianity (%)": 85.5,
+                "Islam (%)": 10.9,
+                "no religion (%)": 1.5,
+                "traditional faiths (%)": 0.7,
+                "others (%)": 1.3
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 580367,
+            "Water (%)": 2.3
+        },
+        "Population": {
+            "Count": 53330978,
+            "Density (/km2)": 82
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 430220000000,
+                "Per capita ($)": 7930
+            },
+            "GDP (nominal)": {
+                "Total ($)": 140870000000,
+                "Per capita ($)": 2600
+            },
+            "Gini": 38.7,
+            "HDI": 0.628,
+            "Currency": "Kenyan shilling"
+        }
+    }
+}

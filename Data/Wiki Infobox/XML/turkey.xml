@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Turkey</country>
+  <infobox>
+    <General>
+      <Official_Language>Turkish</Official_Language>
+      <Religion>
+        <Muslims_constitute____>99.8</Muslims_constitute____>
+        <Muslims_was____>99.4</Muslims_was____>
+        <Sunni____>88</Sunni____>
+        <Alevi_are_betwee____>10</Alevi_are_betwee____>
+        <KONDA_estimated_that____>0.47</KONDA_estimated_that____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>783562</Total__km2_>
+      <Water____>2.03</Water____>
+    </Area>
+    <Population>
+      <Count>86092168</Count>
+      <Density___km2_>112</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>3770000000000</Total____>
+        <Per_capita____>43790</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>1570000000000</Total____>
+        <Per_capita____>18200</Per_capita____>
+      </GDP__nominal_>
+      <Gini>44.5</Gini>
+      <HDI>0.853</HDI>
+      <Currency>Turkish lira</Currency>
+    </Economy>
+  </infobox>
+</country>

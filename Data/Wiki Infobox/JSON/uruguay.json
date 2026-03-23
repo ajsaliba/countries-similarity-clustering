@@ -1,0 +1,47 @@
+{
+    "country": "Uruguay",
+    "infobox": {
+        "General": {
+            "Official Language": "Spanish Uruguayan Sign Language",
+            "Ethnic groups": {
+                "White (%)": 86,
+                "Black (%)": 10.4,
+                "Indigenous (%)": 6.3,
+                "East Asian (%)": 0.7,
+                "other (%)": 6.3
+            },
+            "Religion": {
+                "Animists or Umbandists": {
+                    "percentage": 0.6,
+                    "breakdown": {
+                        "Jewish (%)": 0.4
+                    }
+                }
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 176215,
+            "Water (%)": 1.5
+        },
+        "Population": {
+            "Count": 3499451,
+            "Density (/km2)": 19.5
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 107946000000,
+                "Per capita ($)": 36014
+            },
+            "GDP (nominal)": {
+                "Total ($)": 82605000000,
+                "Per capita ($)": 23088
+            },
+            "Gini": 40.6,
+            "HDI": 0.862,
+            "Currency": "Uruguayan peso"
+        }
+    }
+}

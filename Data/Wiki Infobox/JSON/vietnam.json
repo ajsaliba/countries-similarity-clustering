@@ -1,0 +1,54 @@
+{
+    "country": "Vietnam",
+    "infobox": {
+        "General": {
+            "Official Language": "Vietnamese",
+            "Ethnic groups": {
+                "Kinh Vietnamese (%)": 85.32,
+                "other (%)": 14.68
+            },
+            "Religion": {
+                "no religion / folk (%)": 86.32,
+                "Catholicism": {
+                    "percentage": 6.1,
+                    "breakdown": {
+                        "Buddhism (%)": 4.79,
+                        "Hoahaoism (%)": 1.02
+                    }
+                },
+                "Protestantism": {
+                    "percentage": 1,
+                    "breakdown": {
+                        "Caodaism (%)": 0.58,
+                        "Islam (%)": 0.07,
+                        "other (%)": 0.12
+                    }
+                }
+            }
+        },
+        "Government": {
+            "Government": "Unitary communist state"
+        },
+        "Area": {
+            "Total (km2)": 331344.82,
+            "Water (%)": 6.38
+        },
+        "Population": {
+            "Count": 102300000,
+            "Density (/km2)": 309
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 1786000000000,
+                "Per capita ($)": 17484
+            },
+            "GDP (nominal)": {
+                "Total ($)": 490970000000,
+                "Per capita ($)": 4806
+            },
+            "Gini": 36.1,
+            "HDI": 0.766,
+            "Currency": "Vietnamese đồng"
+        }
+    }
+}

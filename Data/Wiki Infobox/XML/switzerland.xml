@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Switzerland</country>
+  <infobox>
+    <General>
+      <Official_Language>
+        <___French______>62</___French______>
+        <___Italian______>23</___Italian______>
+        <___Romansh______>8</___Romansh______>
+        <_____>0.5</_____>
+      </Official_Language>
+      <Religion>
+        <Christianity>
+          <percentage>54.7</percentage>
+          <breakdown>
+            <Catholicism____>30</Catholicism____>
+            <Protestantism____>18.7</Protestantism____>
+            <other_Christian____>6</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>36.8</no_religion____>
+        <Islam____>6</Islam____>
+        <other_religions____>1.5</other_religions____>
+        <unanswered____>0.9</unanswered____>
+      </Religion>
+      <Ethnic_groups>
+        <Immigrants____>65</Immigrants____>
+        <Migration_status_unknow____>7</Migration_status_unknow____>
+      </Ethnic_groups>
+    </General>
+    <Government>
+      <Government>Federal assembly-independent directorial republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>41291</Total__km2_>
+      <Water____>4</Water____>
+    </Area>
+    <Population>
+      <Count>9060598</Count>
+      <Density___km2_>207</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>881083000000</Total____>
+        <Per_capita____>97660</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>1003000000000</Total____>
+        <Per_capita____>111047</Per_capita____>
+      </GDP__nominal_>
+      <Gini>31.5</Gini>
+      <HDI>0.97</HDI>
+      <Currency>Swiss franc</Currency>
+    </Economy>
+  </infobox>
+</country>

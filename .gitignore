@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+.vscode/
+.idea/
+.cursor/
+
 # Distribution / packaging
 .Python
 build/
@@ -25,6 +29,18 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+.vscode/
+.claude/
+.cursor/
+.idea/
+
+# File formats
+*.txt
+*.pdf
+
+# node modules (npm install)
+node_modules
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

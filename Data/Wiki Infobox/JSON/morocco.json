@@ -1,0 +1,55 @@
+{
+    "country": "Morocco",
+    "infobox": {
+        "General": {
+            "Official Language": "Arabic Tamazight",
+            "Ethnic groups": "See Ethnic groups",
+            "Religion": {
+                "Islam ( official )": {
+                    "percentage": 99.68,
+                    "breakdown": {
+                        "Sunni (%)": 99.23,
+                        "Shia (%)": 0.45
+                    }
+                },
+                "Others": {
+                    "percentage": 0.3,
+                    "breakdown": {
+                        "Agnostics (%)": 0.13
+                    }
+                },
+                "Baháʼís": {
+                    "percentage": 0.1,
+                    "breakdown": {
+                        "Christians (%)": 0.09
+                    }
+                },
+                "Jews (%)": 0.01
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary semi-constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 446550,
+            "Water (%)": 0.056
+        },
+        "Population": {
+            "Count": 37493183,
+            "Density (/km2)": 79.0
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 424870000000,
+                "Per capita ($)": 11270
+            },
+            "GDP (nominal)": {
+                "Total ($)": 165840000000,
+                "Per capita ($)": 4440
+            },
+            "Gini": 40.3,
+            "HDI": 0.71,
+            "Currency": "Moroccan dirham"
+        }
+    }
+}

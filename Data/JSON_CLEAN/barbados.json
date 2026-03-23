@@ -1,0 +1,279 @@
+{
+  "country": "Barbados",
+  "iso3": "BRB",
+  "demographics": {
+    "total_population": {
+      "value": 282467,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 656.595348837209,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": 0.0463878564204179,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 59.5397032429174,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 40.4602967570826,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 51.0381409176706,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": -87,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 7498050000,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 24822.5343309908,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 26544.8707282621,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": 2.4822621396186,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": 6.524,
+      "year": 2025
+    },
+    "inflation_percent": {
+      "value": -0.440112940205204,
+      "year": 2024
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 1.57507618647515,
+      "year": 2024
+    },
+    "agricultural_land_percent": {
+      "value": 23.2558139534884,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 12.3572128753476,
+      "year": 2024
+    },
+    "services_value_added_percent_gdp": {
+      "value": 75.5343055861191,
+      "year": 2024
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 59.7307730097207,
+      "year": 2023
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": 1.7,
+      "year": 2016
+    },
+    "gini_index": {
+      "value": 34.1,
+      "year": 2016
+    },
+    "income_share_lowest_20_percent": {
+      "value": 6.9,
+      "year": 2016
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "exports_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "imports_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "trade_balance_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 4.04185101459713,
+      "year": 2024
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 22.6967611224283,
+      "year": 2024
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": 125.131136467769,
+      "year": 2016
+    },
+    "external_debt_percent_gni": {
+      "value": null,
+      "year": null
+    },
+    "debt_service_percent_exports": {
+      "value": null,
+      "year": null
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": null,
+      "year": null
+    },
+    "primary_school_enrollment_gross": {
+      "value": 83.9370240790286,
+      "year": 2024
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 104.371182990274,
+      "year": 2024
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": 50.801079116886,
+      "year": 2025
+    },
+    "education_expenditure_percent_gdp": {
+      "value": 3.55593188106322,
+      "year": 2024
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 76.178,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 9.3,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 10,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 5.40463829,
+      "year": 2023
+    },
+    "physicians_per_1000_people": {
+      "value": 2.958,
+      "year": 2022
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 4.4,
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 100,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 99.1626347450814,
+      "year": 2024
+    },
+    "basic_sanitation_percent": {
+      "value": 98.0924623115578,
+      "year": 2024
+    },
+    "internet_users_percent": {
+      "value": 79.9923,
+      "year": 2023
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 37.4843,
+      "year": 2022
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 114.581,
+      "year": 2022
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": null,
+      "year": null
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 5.5,
+      "year": 2022
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": null,
+      "year": null
+    },
+    "forest_area_percent_land": {
+      "value": 14.6511627906977,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 92.674920433906,
+      "year": 2021
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": 7.32507956609401,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": null,
+      "year": null
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": 0.380443245172501,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": 0.414195388555527,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": 1.34458589553833,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": 1.18712854385376,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": 0.503107726573944,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": 7.43794627677661,
+      "year": 2023
+    },
+    "battle_related_deaths": {
+      "value": null,
+      "year": null
+    }
+  },
+  "world_bank_country_name": [
+    "Barbados"
+  ]
+}

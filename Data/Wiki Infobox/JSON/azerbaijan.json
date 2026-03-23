@@ -1,0 +1,45 @@
+{
+    "country": "Azerbaijan",
+    "infobox": {
+        "General": {
+            "Official Language": "Azerbaijani",
+            "Ethnic groups": {
+                "Azerbaijani (%)": 94.8,
+                "Lezgin (%)": 1.7,
+                "Talysh (%)": 0.9,
+                "Russian (%)": 0.7,
+                "others (%)": 1.9
+            },
+            "Religion": {
+                "Islam (%)": 97.3,
+                "Christianity < (%)": 2.6,
+                "other religion < (%)": 0.1,
+                "unaffiliated (%)": 0.1
+            }
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic under an authoritarian hereditary dictatorship"
+        },
+        "Area": {
+            "Total (km2)": 86600,
+            "Water (%)": 1.6
+        },
+        "Population": {
+            "Count": 10353296,
+            "Density (/km2)": 117
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 272000000000,
+                "Per capita ($)": 26235
+            },
+            "GDP (nominal)": {
+                "Total": 79000000000,
+                "Per capita ($)": 7604
+            },
+            "Gini": 33.7,
+            "HDI": 0.789,
+            "Currency": "Manat"
+        }
+    }
+}

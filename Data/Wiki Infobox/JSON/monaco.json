@@ -1,0 +1,48 @@
+{
+    "country": "Monaco",
+    "infobox": {
+        "General": {
+            "Official Language": "French",
+            "Ethnic groups": "Monégasques French Italians Occitans",
+            "Religion": {
+                "Christianity": {
+                    "percentage": 86,
+                    "breakdown": {
+                        "Catholicism ( official ) (%)": 80.9,
+                        "other Christian (%)": 5.1
+                    }
+                },
+                "no religion (%)": 11.7,
+                "Judaism (%)": 1.7,
+                "Islam": {
+                    "percentage": 0.4,
+                    "breakdown": {
+                        "other (%)": 0.2
+                    }
+                }
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary semi- constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 2.084,
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "Count": 38423,
+            "Density (/km2)": 18446
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 8924000000,
+                "Per capita ($)": 270100
+            },
+            "GDP (nominal)": {
+                "Total ($)": 10434000000,
+                "Per capita ($)": 315800
+            },
+            "Currency": "Euro"
+        }
+    }
+}

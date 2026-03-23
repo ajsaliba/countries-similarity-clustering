@@ -1,0 +1,279 @@
+{
+  "country": "Democratic Republic of the Congo",
+  "iso3": "COD",
+  "demographics": {
+    "total_population": {
+      "value": 109276265,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 46.6640484329856,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": 3.24257627586721,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 44.7455804408753,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 55.2544195591247,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 96.4966566644987,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": -27309,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 70962185790.7094,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 1821.04868718058,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 649.383338556725,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": 6.12675551779212,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": 4.434,
+      "year": 2025
+    },
+    "inflation_percent": {
+      "value": 2.88585107289988,
+      "year": 2016
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 9.63547904603754,
+      "year": 2024
+    },
+    "agricultural_land_percent": {
+      "value": 15.480763018019,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 39.869084235537,
+      "year": 2024
+    },
+    "services_value_added_percent_gdp": {
+      "value": 46.5724593741029,
+      "year": 2024
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 11.2863136949009,
+      "year": 2023
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": 85.3,
+      "year": 2020
+    },
+    "gini_index": {
+      "value": 44.7,
+      "year": 2020
+    },
+    "income_share_lowest_20_percent": {
+      "value": 5.5,
+      "year": 2020
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": 100.554088317275,
+      "year": 2024
+    },
+    "exports_percent_gdp": {
+      "value": 48.7542672556712,
+      "year": 2024
+    },
+    "imports_percent_gdp": {
+      "value": 51.7998210616039,
+      "year": 2024
+    },
+    "trade_balance_percent_gdp": {
+      "value": -3.04555380593268,
+      "year": 2024
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 4.10789956662809,
+      "year": 2024
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 4.76738036029683,
+      "year": 2023
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": 14.9405246182608,
+      "year": 2022
+    },
+    "external_debt_percent_gni": {
+      "value": 18.2538680171709,
+      "year": 2024
+    },
+    "debt_service_percent_exports": {
+      "value": 1.32142230470742,
+      "year": 2024
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": 65.6914486099044,
+      "year": 2020
+    },
+    "primary_school_enrollment_gross": {
+      "value": 117.602096557617,
+      "year": 2023
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 55.4860992431641,
+      "year": 2023
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": 6.37987995147705,
+      "year": 2020
+    },
+    "education_expenditure_percent_gdp": {
+      "value": 2.84466514463005,
+      "year": 2022
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 61.895,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 44.5,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 73.2,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 3.68495083,
+      "year": 2023
+    },
+    "physicians_per_1000_people": {
+      "value": 0.208,
+      "year": 2022
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 38.5,
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 22.1,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 35.6813611952254,
+      "year": 2024
+    },
+    "basic_sanitation_percent": {
+      "value": 16.3033122368932,
+      "year": 2024
+    },
+    "internet_users_percent": {
+      "value": 30.548,
+      "year": 2023
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 0.0219936,
+      "year": 2023
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 53.1889,
+      "year": 2023
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": 2.3,
+      "year": 2022
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 96.3,
+      "year": 2021
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": 390.899911233015,
+      "year": 2022
+    },
+    "forest_area_percent_land": {
+      "value": 54.1898572594341,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 0.030188679245283,
+      "year": 2022
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 99.5547169811321,
+      "year": 2022
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": -9.1770683248654,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": 1.59626553466334,
+      "year": 2022
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": -1.68906629085541,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": -1.67073619365692,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": -1.48051190376282,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": -2.04486203193665,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": -1.40857565402985,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": null,
+      "year": null
+    },
+    "battle_related_deaths": {
+      "value": 1138,
+      "year": 2024
+    }
+  },
+  "world_bank_country_name": [
+    "Congo, Dem. Rep."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "country": "Kiribati",
+    "infobox": {
+        "General": {
+            "Official Language": "English Gilbertese",
+            "Ethnic groups": {
+                "Gilbertese (%)": 95.7,
+                "other (%)": 4.3
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 96.2,
+                    "breakdown": {
+                        "Catholic Church (%)": 58.9,
+                        "Uniting Church (%)": 21.2,
+                        "other Christian (%)": 16.1
+                    }
+                },
+                "Bahá'í Faith (%)": 2.1,
+                "other / none (%)": 1.7
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic with an executive president"
+        },
+        "Area": {
+            "Total (km2)": 811.19
+        },
+        "Population": {
+            "Count": 116545,
+            "Density (/km2)": 149.64
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 297000000,
+                "Per capita ($)": 2381
+            },
+            "GDP (nominal)": {
+                "Total ($)": 248000000,
+                "Per capita ($)": 1989
+            },
+            "Gini": 27.8,
+            "HDI": 0.644,
+            "Currency": "Australian dollar"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "country": "Pakistan",
+    "infobox": {
+        "General": {
+            "Official Language": "Urdu English",
+            "Religion": {
+                "Islam ( official ) (%)": 96.3,
+                "Hinduism (%)": 2.2,
+                "Christianity (%)": 1.4,
+                "other (%)": 0.1
+            }
+        },
+        "Government": {
+            "Government": "Federal parliamentary Islamic republic"
+        },
+        "Area": {
+            "Total (km2)": 881913,
+            "Water (%)": 2.86
+        },
+        "Population": {
+            "Count": 241499431,
+            "Density (/km2)": 273.8
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 1670000000000,
+                "Per capita ($)": 6950
+            },
+            "GDP (nominal)": {
+                "Total ($)": 410500000000,
+                "Per capita ($)": 1710
+            },
+            "Gini": 29.6,
+            "HDI": 0.544,
+            "Currency": "Pakistani rupee"
+        }
+    }
+}

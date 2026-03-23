@@ -1,0 +1,49 @@
+{
+    "country": "Georgia",
+    "infobox": {
+        "General": {
+            "Official Language": "Georgian",
+            "Ethnic groups": {
+                "Georgians (%)": 86.8,
+                "Azerbaijanis (%)": 6.2,
+                "Armenians (%)": 4.5,
+                "Russians (%)": 0.7,
+                "other (%)": 2.1
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 87.3,
+                    "breakdown": {
+                        "Georgian Orthodoxy (%)": 83.4,
+                        "other Christian (%)": 3.9
+                    }
+                },
+                "Islam (%)": 10.7,
+                "other / none (%)": 2
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic"
+        },
+        "Area": {
+            "Total (km2)": 69700
+        },
+        "Population": {
+            "Count": 3657000,
+            "Density (/km2)": 56.3
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 123049000000000,
+                "Per capita ($)": 33340
+            },
+            "GDP (nominal)": {
+                "Total ($)": 35350000000,
+                "Per capita ($)": 10886
+            },
+            "Gini": 34.2,
+            "HDI": 0.844,
+            "Currency": "Georgian lari"
+        }
+    }
+}

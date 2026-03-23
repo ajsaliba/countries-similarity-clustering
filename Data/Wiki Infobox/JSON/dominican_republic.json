@@ -1,0 +1,53 @@
+{
+    "country": "Dominican Republic",
+    "infobox": {
+        "General": {
+            "Official Language": "Spanish",
+            "Ethnic groups": {
+                "Mixed (%)": 71.72,
+                "White (%)": 18.7,
+                "Black (%)": 7.45,
+                "East Asian (%)": 0.33,
+                "other (%)": 0.37,
+                "no answer (%)": 1.43
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 74.6,
+                    "breakdown": {
+                        "Catholicism (%)": 52.5,
+                        "Protestantism (%)": 21,
+                        "other Christian (%)": 1.1
+                    }
+                },
+                "no religion (%)": 22,
+                "other (%)": 1.4,
+                "unspecified (%)": 2
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 48671,
+            "Water (%)": 0.7
+        },
+        "Population": {
+            "Count": 11532151,
+            "Density (/km2)": 220
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 334292000000,
+                "Per capita ($)": 30710
+            },
+            "GDP (nominal)": {
+                "Total ($)": 135545000000,
+                "Per capita ($)": 12452
+            },
+            "Gini": 39,
+            "HDI": 0.776,
+            "Currency": "Dominican peso"
+        }
+    }
+}

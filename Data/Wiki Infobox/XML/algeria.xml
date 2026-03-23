@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Algeria</country>
+  <infobox>
+    <General>
+      <Official_Language>Arabic Berber</Official_Language>
+      <Ethnic_groups>See Ethnic groups</Ethnic_groups>
+      <Religion>
+        <Sunni_Islam___official________>99</Sunni_Islam___official________>
+        <others____>1</others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>2381741</Total__km2_>
+    </Area>
+    <Population>
+      <Count>47400000</Count>
+      <Density___km2_>19</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>875330000000</Total____>
+        <Per_capita____>18530</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>268890000000</Total____>
+        <Per_capita____>5690</Per_capita____>
+      </GDP__nominal_>
+      <Gini>27.6</Gini>
+      <HDI>0.763</HDI>
+      <Currency>Algerian dinar</Currency>
+    </Economy>
+  </infobox>
+</country>

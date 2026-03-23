@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Equatorial Guinea</country>
+  <infobox>
+    <General>
+      <Official_Language>Spanish French Portuguese</Official_Language>
+      <Ethnic_groups>
+        <Fang____>85.7</Fang____>
+        <Bubi____>6.5</Bubi____>
+        <Ndowe____>3.6</Ndowe____>
+        <Annobon____>1.6</Annobon____>
+        <Bujeba____>1.1</Bujeba____>
+        <others____>1.1</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>88.7</Christianity____>
+        <no_religion____>5</no_religion____>
+        <Islam____>4</Islam____>
+        <traditional_faiths____>1.7</traditional_faiths____>
+        <others____>0.6</others____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic under an authoritarian hereditary dictatorship</Government>
+    </Government>
+    <Area>
+      <Total__km2_>28050</Total__km2_>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <Count>1795834</Count>
+      <Density___km2_>67</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>33001000000</Total____>
+        <Per_capita____>20017</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>12680000000</Total____>
+        <Per_capita____>7750</Per_capita____>
+      </GDP__nominal_>
+      <HDI>0.674</HDI>
+      <Currency>Central African CFA franc</Currency>
+    </Economy>
+  </infobox>
+</country>

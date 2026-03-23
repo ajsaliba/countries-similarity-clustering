@@ -1,0 +1,31 @@
+{
+    "country": "Nauru",
+    "infobox": {
+        "General": {
+            "Official Language": "Nauruan English"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic with an executive presidency under a non-partisan democracy"
+        },
+        "Area": {
+            "Total (km2)": 21,
+            "Water (%)": 0.57
+        },
+        "Population": {
+            "Count": 12025,
+            "Density (/km2)": 480
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 132000000,
+                "Per capita ($)": 10962
+            },
+            "GDP (nominal)": {
+                "Total ($)": 172000000,
+                "Per capita ($)": 14274
+            },
+            "HDI": 0.703,
+            "Currency": "Australian dollar"
+        }
+    }
+}

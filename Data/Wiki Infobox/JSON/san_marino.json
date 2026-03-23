@@ -1,0 +1,47 @@
+{
+    "country": "San Marino",
+    "infobox": {
+        "General": {
+            "Official Language": "Italian",
+            "Religion": {
+                "Catholicism (2022) (%)": 90.3,
+                "no religion (%)": 7.5,
+                "Other Christian denominations (2022)": {
+                    "percentage": 1.1,
+                    "breakdown": {
+                        "Judaism (%)": 0.1,
+                        "Islam (2015)": {
+                            "percentage": 0.46,
+                            "breakdown": {
+                                "other (%)": 0.34
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary diarchic directorial republic"
+        },
+        "Area": {
+            "Total (km2)": 61.19,
+            "Water (%)": 0.0059
+        },
+        "Population": {
+            "Count": 34172,
+            "Density (/km2)": 579
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 2978000000,
+                "Per capita ($)": 86989
+            },
+            "GDP (nominal)": {
+                "Total ($)": 2034000000,
+                "Per capita ($)": 59405
+            },
+            "HDI": 0.915,
+            "Currency": "Euro"
+        }
+    }
+}

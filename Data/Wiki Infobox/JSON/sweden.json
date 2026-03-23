@@ -1,0 +1,32 @@
+{
+    "country": "Sweden",
+    "infobox": {
+        "General": {
+            "Official Language": "Swedish"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 450295,
+            "Water (%)": 8.97
+        },
+        "Population": {
+            "Count": 10610485,
+            "Density (/km2)": 25
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 799680000000,
+                "Per capita ($)": 74900
+            },
+            "GDP (nominal)": {
+                "Total ($)": 620300000000,
+                "Per capita ($)": 58100
+            },
+            "Gini": 27.6,
+            "HDI": 0.959,
+            "Currency": "Swedish krona"
+        }
+    }
+}

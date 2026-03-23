@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Malaysia</country>
+  <infobox>
+    <General>
+      <Official_Language>Malay</Official_Language>
+      <Ethnic_groups>
+        <Bumiputera____>70.5</Bumiputera____>
+        <Malay____>57.3</Malay____>
+        <indigenous_groups_of_Sabah___Sarawak___Orang_Asli_and_other____>13.2</indigenous_groups_of_Sabah___Sarawak___Orang_Asli_and_other____>
+        <Chinese____>22.9</Chinese____>
+        <Indian____>6.6</Indian____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam___official______>63.5</Islam___official______>
+        <Buddhism____>18.7</Buddhism____>
+        <Christianity____>9.1</Christianity____>
+        <Hinduism____>6.1</Hinduism____>
+        <other____>0.9</other____>
+        <unknown____>1.8</unknown____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Federal parliamentary constitutional elective monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>330803</Total__km2_>
+      <Water____>0.3</Water____>
+    </Area>
+    <Population>
+      <Count>34564810</Count>
+      <Density___km2_>101</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>1478000000000</Total____>
+        <Per_capita____>43665</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>470572000000000</Total____>
+        <Per_capita____>13901</Per_capita____>
+      </GDP__nominal_>
+      <Gini>39.0</Gini>
+      <HDI>0.819</HDI>
+      <Currency>Malaysian ringgit</Currency>
+    </Economy>
+  </infobox>
+</country>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Niger</country>
+  <infobox>
+    <General>
+      <Official_Language>Hausa</Official_Language>
+      <National_Language>Arabic Buduma Fulfulde Gourmanchéma Kanuri Songhai Tamasheq Tassawaq Tebu Zarma</National_Language>
+      <Ethnic_groups>
+        <Hausa____>53.1</Hausa____>
+        <Zarma_and_Songhay____>21.2</Zarma_and_Songhay____>
+        <Tuareg____>11</Tuareg____>
+        <Fulani____>6.5</Fulani____>
+        <Kanuri____>5.9</Kanuri____>
+        <Gurma____>0.8</Gurma____>
+        <Toubou____>0.4</Toubou____>
+        <Arab____>0.4</Arab____>
+        <others____>0.9</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam____>99.3</Islam____>
+        <Christianity>
+          <percentage>0.3</percentage>
+          <breakdown>
+            <Animism____>0.2</Animism____>
+          </breakdown>
+        </Christianity>
+        <irreligion____>0.1</irreligion____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic under a military junta</Government>
+    </Government>
+    <Area>
+      <Total__km2_>1267000</Total__km2_>
+      <Water____>0.02</Water____>
+    </Area>
+    <Population>
+      <Count>26342784</Count>
+      <Density___km2_>21</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>61040000000</Total____>
+        <Per_capita____>2100</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>21870000000</Total____>
+        <Per_capita____>751</Per_capita____>
+      </GDP__nominal_>
+      <Gini>32.9</Gini>
+      <HDI>0.419</HDI>
+      <Currency>West African CFA franc</Currency>
+    </Economy>
+  </infobox>
+</country>

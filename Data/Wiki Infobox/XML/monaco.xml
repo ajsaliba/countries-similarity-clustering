@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Monaco</country>
+  <infobox>
+    <General>
+      <Official_Language>French</Official_Language>
+      <Ethnic_groups>Monégasques French Italians Occitans</Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>86</percentage>
+          <breakdown>
+            <Catholicism___official______>80.9</Catholicism___official______>
+            <other_Christian____>5.1</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>11.7</no_religion____>
+        <Judaism____>1.7</Judaism____>
+        <Islam>
+          <percentage>0.4</percentage>
+          <breakdown>
+            <other____>0.2</other____>
+          </breakdown>
+        </Islam>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary semi- constitutional monarchy</Government>
+    </Government>
+    <Area>
+      <Total__km2_>2.084</Total__km2_>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <Count>38423</Count>
+      <Density___km2_>18446</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>8924000000</Total____>
+        <Per_capita____>270100</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>10434000000</Total____>
+        <Per_capita____>315800</Per_capita____>
+      </GDP__nominal_>
+      <Currency>Euro</Currency>
+    </Economy>
+  </infobox>
+</country>

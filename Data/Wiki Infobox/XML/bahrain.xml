@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Bahrain</country>
+  <infobox>
+    <General>
+      <Official_Language>Arabic</Official_Language>
+      <Ethnic_groups>
+        <Arabs____>53.2</Arabs____>
+        <South_Asians____>43.4</South_Asians____>
+        <Africans____>1.4</Africans____>
+        <North_Americans____>1.1</North_Americans____>
+        <others____>0.1</others____>
+      </Ethnic_groups>
+      <Religion>
+        <Islam___official______>74</Islam___official______>
+        <non_Muslim____>26</non_Muslim____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary semi-constitutional monarchy under an authoritarian government</Government>
+    </Government>
+    <Area>
+      <Total__km2_>786.8</Total__km2_>
+      <Water____>negligible</Water____>
+    </Area>
+    <Population>
+      <Count>1463265</Count>
+      <Density___km2_>1864</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>118060000000</Total____>
+        <Per_capita____>71460</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>49190000000</Total____>
+        <Per_capita____>29780</Per_capita____>
+      </GDP__nominal_>
+      <HDI>0.899</HDI>
+      <Currency>Bahraini dinar</Currency>
+    </Economy>
+  </infobox>
+</country>

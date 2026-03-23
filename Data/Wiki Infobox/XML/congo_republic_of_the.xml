@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Congo, Republic of the</country>
+  <infobox>
+    <General>
+      <Official_Language>French</Official_Language>
+      <National_Language>Kituba Lingala</National_Language>
+      <Ethnic_groups>
+        <Bakongo____>41</Bakongo____>
+        <Bateke____>16.9</Bateke____>
+        <Mbochi____>13.1</Mbochi____>
+        <Sangha____>5.6</Sangha____>
+        <Mbenga_Pygmies_and_others____>2</Mbenga_Pygmies_and_others____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity____>87.1</Christianity____>
+        <no_religion____>8</no_religion____>
+        <traditional_faiths____>2.7</traditional_faiths____>
+        <Islam>
+          <percentage>1.2</percentage>
+          <breakdown>
+            <others____>1</others____>
+          </breakdown>
+        </Islam>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary semi-presidential republic under a dictatorship</Government>
+    </Government>
+    <Area>
+      <Total__km2_>342000</Total__km2_>
+      <Water____>3.3</Water____>
+    </Area>
+    <Population>
+      <Count>6228784</Count>
+      <Density___km2_>19</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>42760000000</Total____>
+        <Per_capita____>6590</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>15281000000</Total____>
+        <Per_capita____>2360</Per_capita____>
+      </GDP__nominal_>
+      <Gini>40.2</Gini>
+      <HDI>0.649</HDI>
+      <Currency>Central African CFA franc</Currency>
+    </Economy>
+  </infobox>
+</country>

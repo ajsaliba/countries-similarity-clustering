@@ -1,0 +1,279 @@
+{
+  "country": "Zimbabwe",
+  "iso3": "ZWE",
+  "demographics": {
+    "total_population": {
+      "value": 16634373,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 42.24071862479,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": 1.7804822981922,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 39.8933716820696,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 60.1066283179304,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 80.1004117942445,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": -54555,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 41539411516.4448,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 5928.0806252756,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 2497.20332208763,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": 1.74239524880791,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": 9.293,
+      "year": 2025
+    },
+    "inflation_percent": {
+      "value": 104.705170628667,
+      "year": 2022
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 8.68845082778603,
+      "year": 2024
+    },
+    "agricultural_land_percent": {
+      "value": 41.791706346129,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 34.9926113141619,
+      "year": 2024
+    },
+    "services_value_added_percent_gdp": {
+      "value": 50.6052960837344,
+      "year": 2024
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 6.47769726494533,
+      "year": 2023
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": 49.2,
+      "year": 2019
+    },
+    "gini_index": {
+      "value": 50.3,
+      "year": 2019
+    },
+    "income_share_lowest_20_percent": {
+      "value": 4.8,
+      "year": 2019
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": 41.4865312656314,
+      "year": 2024
+    },
+    "exports_percent_gdp": {
+      "value": 18.048841843204,
+      "year": 2024
+    },
+    "imports_percent_gdp": {
+      "value": 23.4376894224274,
+      "year": 2024
+    },
+    "trade_balance_percent_gdp": {
+      "value": -5.38884757922338,
+      "year": 2024
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 1.12046122708248,
+      "year": 2024
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 18.9550135572266,
+      "year": 2024
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "external_debt_percent_gni": {
+      "value": 32.9765971565783,
+      "year": 2024
+    },
+    "debt_service_percent_exports": {
+      "value": 19.5160722356096,
+      "year": 2023
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": 93.2300033569336,
+      "year": 2019
+    },
+    "primary_school_enrollment_gross": {
+      "value": 93.0772110334414,
+      "year": 2024
+    },
+    "secondary_school_enrollment_gross": {
+      "value": null,
+      "year": null
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": 7.74912957845971,
+      "year": 2024
+    },
+    "education_expenditure_percent_gdp": {
+      "value": 0.384771297211919,
+      "year": 2023
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 62.775,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 40.6,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 44.2,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 2.92601609,
+      "year": 2023
+    },
+    "physicians_per_1000_people": {
+      "value": 0.136,
+      "year": 2023
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 19.7,
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 62,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 67.2110209689938,
+      "year": 2024
+    },
+    "basic_sanitation_percent": {
+      "value": 34.6414985324477,
+      "year": 2024
+    },
+    "internet_users_percent": {
+      "value": 38.4266,
+      "year": 2023
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 1.57458,
+      "year": 2023
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 91.6344,
+      "year": 2023
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": 2.4,
+      "year": 2022
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 82.4,
+      "year": 2021
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": 416.586875381392,
+      "year": 2022
+    },
+    "forest_area_percent_land": {
+      "value": 44.7366421093447,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 31.0016080863772,
+      "year": 2022
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 67.5511141741328,
+      "year": 2022
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": 3.37605140186916,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": 16.9757127922617,
+      "year": 2022
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": -1.17033493518829,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": -1.27714252471924,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": -1.26121604442596,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": -0.934447467327118,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": -1.33835864067078,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": 6.75833125350771,
+      "year": 2022
+    },
+    "battle_related_deaths": {
+      "value": null,
+      "year": null
+    }
+  },
+  "world_bank_country_name": [
+    "Zimbabwe"
+  ]
+}

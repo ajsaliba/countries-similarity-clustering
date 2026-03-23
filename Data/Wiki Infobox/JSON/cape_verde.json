@@ -1,0 +1,49 @@
+{
+    "country": "Cape Verde",
+    "infobox": {
+        "General": {
+            "Official Language": "Portuguese",
+            "National Language": "Cape Verdean Creole",
+            "Religion": {
+                "Christianity": {
+                    "percentage": 81.7,
+                    "breakdown": {
+                        "Catholicism (%)": 72.5,
+                        "other Christian (%)": 9.2
+                    }
+                },
+                "no religion (%)": 15.6,
+                "Islam": {
+                    "percentage": 1.3,
+                    "breakdown": {
+                        "others (%)": 1.2
+                    }
+                }
+            }
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 4033,
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "Count": 491233,
+            "Density (/km2)": 130
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 5717000000,
+                "Per capita ($)": 9909
+            },
+            "GDP (nominal)": {
+                "Total ($)": 2598000000,
+                "Per capita ($)": 4502
+            },
+            "Gini": 42.4,
+            "HDI": 0.668,
+            "Currency": "Cape Verdean escudo"
+        }
+    }
+}

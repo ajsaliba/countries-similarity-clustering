@@ -1,0 +1,47 @@
+{
+    "country": "Timor-Leste",
+    "infobox": {
+        "General": {
+            "Official Language": "Portuguese Tetum",
+            "Religion": {
+                "Christianity": {
+                    "percentage": 99.53,
+                    "breakdown": {
+                        "Catholicism (%)": 97.57,
+                        "Protestantism (%)": 1.96
+                    }
+                },
+                "Islam": {
+                    "percentage": 0.24,
+                    "breakdown": {
+                        "other (%)": 0.23
+                    }
+                }
+            }
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 15007,
+            "Water (%)": "Negligible"
+        },
+        "Population": {
+            "Count": 1354662,
+            "Density (/km2)": 94
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 6970000000,
+                "Per capita ($)": 4920
+            },
+            "GDP (nominal)": {
+                "Total ($)": 2120000000,
+                "Per capita ($)": 1490
+            },
+            "Gini": 28.7,
+            "HDI": 0.634,
+            "Currency": "United States dollar Timor-Leste centavo"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Bolivia</country>
+  <infobox>
+    <General>
+      <Official_Language>Spanish Quechua Aymara Guarani Other indigenous languages</Official_Language>
+      <Religion>
+        <Christianity>
+          <percentage>92.8</percentage>
+          <breakdown>
+            <Catholicism____>81.4</Catholicism____>
+            <other_Christian____>11.4</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>6.5</no_religion____>
+        <other____>0.7</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>1098581</Total__km2_>
+      <Water____>1.29</Water____>
+    </Area>
+    <Population>
+      <Count>11365333</Count>
+      <Density___km2_>10.4</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>144098000000</Total____>
+        <Per_capita____>11574</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>56339000000</Total____>
+        <Per_capita____>4525</Per_capita____>
+      </GDP__nominal_>
+      <Gini>40.9</Gini>
+      <HDI>0.733</HDI>
+      <Currency>Boliviano</Currency>
+    </Economy>
+  </infobox>
+</country>

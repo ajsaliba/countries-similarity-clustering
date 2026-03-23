@@ -1,0 +1,41 @@
+{
+    "country": "Australia",
+    "infobox": {
+        "General": {
+            "National Language": "English",
+            "Religion": {
+                "Christianity (%)": 43.9,
+                "no religion (%)": 38.9,
+                "Islam (%)": 3.2,
+                "Hinduism (%)": 2.7,
+                "Buddhism (%)": 2.4,
+                "other (%)": 1.7,
+                "unanswered (%)": 7.2
+            }
+        },
+        "Government": {
+            "Government": "Federal parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 7688287,
+            "Water (%)": 1.79
+        },
+        "Population": {
+            "Count": 27840775,
+            "Density (/km2)": 3.7
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 1982000000000,
+                "Per capita ($)": 71431
+            },
+            "GDP (nominal)": {
+                "Total ($)": 1830000000000,
+                "Per capita ($)": 65946
+            },
+            "Gini": 32.4,
+            "HDI": 0.958,
+            "Currency": "Australian dollar"
+        }
+    }
+}

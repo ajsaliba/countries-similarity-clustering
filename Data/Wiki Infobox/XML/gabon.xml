@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Gabon</country>
+  <infobox>
+    <General>
+      <Official_Language>French</Official_Language>
+      <Ethnic_groups>Fang Punu Nzebi Teke Myene Kota Vili Mbama and 42 others</Ethnic_groups>
+      <Religion>
+        <Christianity____>80.2</Christianity____>
+        <Islam____>10.8</Islam____>
+        <no_religion____>7</no_religion____>
+        <traditional_faiths>
+          <percentage>1.1</percentage>
+          <breakdown>
+            <others____>0.9</others____>
+          </breakdown>
+        </traditional_faiths>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>267668</Total__km2_>
+      <Water____>3.76</Water____>
+    </Area>
+    <Population>
+      <Count>2397368</Count>
+      <Density___km2_>7.9</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>57054000000</Total____>
+        <Per_capita____>24739</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>21455000000</Total____>
+        <Per_capita____>9303</Per_capita____>
+      </GDP__nominal_>
+      <Gini>38</Gini>
+      <HDI>0.733</HDI>
+      <Currency>Central African CFA franc</Currency>
+    </Economy>
+  </infobox>
+</country>

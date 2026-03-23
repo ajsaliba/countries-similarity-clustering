@@ -1,0 +1,43 @@
+{
+    "country": "Bolivia",
+    "infobox": {
+        "General": {
+            "Official Language": "Spanish Quechua Aymara Guarani Other indigenous languages",
+            "Religion": {
+                "Christianity": {
+                    "percentage": 92.8,
+                    "breakdown": {
+                        "Catholicism (%)": 81.4,
+                        "other Christian (%)": 11.4
+                    }
+                },
+                "no religion (%)": 6.5,
+                "other (%)": 0.7
+            }
+        },
+        "Government": {
+            "Government": "Unitary presidential republic"
+        },
+        "Area": {
+            "Total (km2)": 1098581,
+            "Water (%)": 1.29
+        },
+        "Population": {
+            "Count": 11365333,
+            "Density (/km2)": 10.4
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 144098000000,
+                "Per capita ($)": 11574
+            },
+            "GDP (nominal)": {
+                "Total ($)": 56339000000,
+                "Per capita ($)": 4525
+            },
+            "Gini": 40.9,
+            "HDI": 0.733,
+            "Currency": "Boliviano"
+        }
+    }
+}

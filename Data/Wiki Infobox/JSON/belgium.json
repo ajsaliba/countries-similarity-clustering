@@ -1,0 +1,50 @@
+{
+    "country": "Belgium",
+    "infobox": {
+        "General": {
+            "Official Language": "Dutch French German",
+            "Ethnic groups": {
+                "Belgians (%)": 86.1,
+                "Belgian background (%)": 64,
+                "foreign background (%)": 22.1,
+                "non-Belgian (%)": 13.8
+            },
+            "Religion": {
+                "no religion (%)": 59,
+                "Christianity": {
+                    "percentage": 34,
+                    "breakdown": {
+                        "Catholicism (%)": 31,
+                        "other Christian (%)": 3
+                    }
+                },
+                "Islam (%)": 6,
+                "other (%)": 1
+            }
+        },
+        "Government": {
+            "Government": "Federal parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 30689,
+            "Water (%)": 0.64
+        },
+        "Population": {
+            "Count": 11825551,
+            "Density (/km2)": 385
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 889833000000,
+                "Per capita ($)": 75187
+            },
+            "GDP (nominal)": {
+                "Total ($)": 689364000000,
+                "Per capita ($)": 58248
+            },
+            "Gini": 24.9,
+            "HDI": 0.951,
+            "Currency": "Euro"
+        }
+    }
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>United States</country>
+  <infobox>
+    <General>
+      <Official_Language>English</Official_Language>
+      <Ethnic_groups>
+        <White____>61.6</White____>
+        <Black____>12.4</Black____>
+        <Asian____>6</Asian____>
+        <Native_American____>1.1</Native_American____>
+        <Pacific_Islander____>0.2</Pacific_Islander____>
+        <two_or_more_races____>10.2</two_or_more_races____>
+        <other_By_origin____>8.4</other_By_origin____>
+        <non__Hispanic_or_Latino____>81.3</non__Hispanic_or_Latino____>
+        <Hispanic_or_Latino____>18.7</Hispanic_or_Latino____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>65</percentage>
+          <breakdown>
+            <Protestantism>
+              <percentage>32</percentage>
+              <breakdown>
+                <Catholicism____>20</Catholicism____>
+                <other_Christian____>12</other_Christian____>
+              </breakdown>
+            </Protestantism>
+            <Mormonism____>1</Mormonism____>
+          </breakdown>
+        </Christianity>
+        <unaffiliated____>24</unaffiliated____>
+        <Judaism____>2</Judaism____>
+        <other_religion____>6</other_religion____>
+        <unanswered____>3</unanswered____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Federal presidential republic</Government>
+    </Government>
+    <Economy>
+      <Recognition>
+        <Constitution>March 4, 1789</Constitution>
+      </Recognition>
+      <GDP___PPP__>
+        <Total____>30616000000000</Total____>
+        <Per_capita____>89599</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>30616000000000</Total____>
+        <Per_capita____>89599</Per_capita____>
+      </GDP__nominal_>
+      <Gini>41.8</Gini>
+      <HDI>0.938</HDI>
+      <Currency>U.S. dollar</Currency>
+    </Economy>
+    <Area>
+      <Total_area__sq_mi_>3796742</Total_area__sq_mi_>
+      <Water____>7.0</Water____>
+      <Land_area__sq_mi_>3531905</Land_area__sq_mi_>
+    </Area>
+    <Population>
+      <Count>341784857</Count>
+      <Density>96.8/sq mi</Density>
+    </Population>
+  </infobox>
+</country>

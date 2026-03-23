@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Kiribati</country>
+  <infobox>
+    <General>
+      <Official_Language>English Gilbertese</Official_Language>
+      <Ethnic_groups>
+        <Gilbertese____>95.7</Gilbertese____>
+        <other____>4.3</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>96.2</percentage>
+          <breakdown>
+            <Catholic_Church____>58.9</Catholic_Church____>
+            <Uniting_Church____>21.2</Uniting_Church____>
+            <other_Christian____>16.1</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <Bah____Faith____>2.1</Bah____Faith____>
+        <other___none____>1.7</other___none____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Unitary parliamentary republic with an executive president</Government>
+    </Government>
+    <Area>
+      <Total__km2_>811.19</Total__km2_>
+    </Area>
+    <Population>
+      <Count>116545</Count>
+      <Density___km2_>149.64</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>297000000</Total____>
+        <Per_capita____>2381</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>248000000</Total____>
+        <Per_capita____>1989</Per_capita____>
+      </GDP__nominal_>
+      <Gini>27.8</Gini>
+      <HDI>0.644</HDI>
+      <Currency>Australian dollar</Currency>
+    </Economy>
+  </infobox>
+</country>

@@ -1,0 +1,30 @@
+{
+    "country": "Netherlands",
+    "infobox": {
+        "General": {
+            "Official Language": "Dutch"
+        },
+        "Government": {
+            "Government": "Devolved unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 42531,
+            "Water (%)": 18.96
+        },
+        "Population": {
+            "Count": 18290379,
+            "Density (/km2)": 532
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 1581000000000,
+                "Per capita ($)": 87173
+            },
+            "GDP (nominal)": {
+                "Total ($)": 1326000000000,
+                "Per capita ($)": 73091
+            },
+            "Currency": "4 currencies Euro United States dollar Caribbean guilder Aruban florin"
+        }
+    }
+}

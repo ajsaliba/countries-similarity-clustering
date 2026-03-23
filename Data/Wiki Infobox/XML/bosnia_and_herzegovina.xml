@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Bosnia and Herzegovina</country>
+  <infobox>
+    <General>
+      <Official_Language>None</Official_Language>
+      <Religion>
+        <Islam____>51.3</Islam____>
+        <Christianity>
+          <percentage>46.1</percentage>
+          <breakdown>
+            <Eastern_Orthodox____>30.7</Eastern_Orthodox____>
+            <Catholicism____>15.4</Catholicism____>
+          </breakdown>
+        </Christianity>
+        <Others____>2.6</Others____>
+      </Religion>
+      <Ethnic_groups>
+        <Bosniaks_constitute____>50.1</Bosniaks_constitute____>
+        <Serbs____>30.8</Serbs____>
+        <Croats____>15.5</Croats____>
+      </Ethnic_groups>
+    </General>
+    <Government>
+      <Government>Federal parliamentary directorial republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>51209</Total__km2_>
+      <Water____>1.4</Water____>
+    </Area>
+    <Population>
+      <Count>2904256</Count>
+      <Density___km2_>61</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>82230000000</Total____>
+        <Per_capita____>23930</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>36240000000</Total____>
+        <Per_capita____>10546</Per_capita____>
+      </GDP__nominal_>
+      <Gini>27.1</Gini>
+      <HDI>0.804</HDI>
+      <Currency>Convertible mark</Currency>
+    </Economy>
+  </infobox>
+</country>

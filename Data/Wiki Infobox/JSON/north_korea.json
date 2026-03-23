@@ -1,0 +1,38 @@
+{
+    "country": "North Korea",
+    "infobox": {
+        "General": {
+            "Official Language": "Korean",
+            "Religion": {
+                "no religion (%)": 73,
+                "Chondoism (%)": 13,
+                "Shamanism (%)": 12,
+                "Buddhism (%)": 1.5,
+                "other (%)": 0.5
+            }
+        },
+        "Government": {
+            "Government": "Unitary communist state"
+        },
+        "Area": {
+            "Total (km2)": 120538,
+            "Water (%)": 0.11
+        },
+        "Population": {
+            "Count": 26298666,
+            "Density (/km2)": 212
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 15416000000,
+                "Per capita ($)": 600
+            },
+            "GDP (nominal)": {
+                "Total ($)": 32036000000,
+                "Per capita ($)": 1261
+            },
+            "Gini": 16.6,
+            "Currency": "Korean People's won"
+        }
+    }
+}

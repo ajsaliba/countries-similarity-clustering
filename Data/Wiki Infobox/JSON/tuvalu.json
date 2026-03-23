@@ -1,0 +1,47 @@
+{
+    "country": "Tuvalu",
+    "infobox": {
+        "General": {
+            "Official Language": "Tuvaluan English",
+            "Ethnic groups": {
+                "Tuvaluans (%)": 96,
+                "others (%)": 4
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 96,
+                    "breakdown": {
+                        "Calvinism ( official ) (%)": 86,
+                        "other Christian (%)": 10
+                    }
+                },
+                "Other religions or not stated (%)": 3,
+                "Baháʼí Faith (%)": 1
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 26.26,
+            "Water (%)": "Negligible"
+        },
+        "Population": {
+            "Count": 10643,
+            "Density (/km2)": 423
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 68603000,
+                "Per capita ($)": 6076
+            },
+            "GDP (nominal)": {
+                "Total ($)": 63000000,
+                "Per capita ($)": 6113
+            },
+            "Gini": 39,
+            "HDI": 0.689,
+            "Currency": "Tuvaluan dollar Australian dollar"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "country": "Belarus",
+    "infobox": {
+        "General": {
+            "Official Language": "Belarusian Russian a",
+            "Ethnic groups": {
+                "Belarusians (%)": 84.9,
+                "Russians (%)": 7.5,
+                "Poles (%)": 3.1,
+                "Ukrainians (%)": 1.7,
+                "other (%)": 2.8
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 91,
+                    "breakdown": {
+                        "Eastern Orthodoxy (%)": 83.3,
+                        "other Christian (%)": 7.7
+                    }
+                },
+                "no religion (%)": 7.8,
+                "other (%)": 1.2
+            }
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic under an authoritarian dictatorship"
+        },
+        "Area": {
+            "Total (km2)": 207600,
+            "Water (%)": 2.26
+        },
+        "Population": {
+            "Count": 9109280,
+            "Density (/km2)": 43.9
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 221186000000,
+                "Per capita ($)": 24016
+            },
+            "GDP (nominal)": {
+                "Total ($)": 68864000000,
+                "Per capita ($)": 7477
+            },
+            "Gini": 25.3,
+            "HDI": 0.824,
+            "Currency": "Belarusian ruble"
+        }
+    }
+}

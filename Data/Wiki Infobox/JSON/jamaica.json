@@ -1,0 +1,53 @@
+{
+    "country": "Jamaica",
+    "infobox": {
+        "General": {
+            "Official Language": "English",
+            "Ethnic groups": {
+                "African (%)": 76.3,
+                "Mixed (%)": 15.1,
+                "Indian (%)": 3.4,
+                "White (%)": 3.2,
+                "Chinese (%)": 1.2,
+                "others (%)": 0.8
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": 68.9,
+                    "breakdown": {
+                        "Protestantism (%)": 64.8,
+                        "other Christian (%)": 4.1
+                    }
+                },
+                "no religion (%)": 21.3,
+                "Rastafari (%)": 1.1,
+                "other (%)": 6.5,
+                "unanswered (%)": 2.3
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy"
+        },
+        "Area": {
+            "Total (km2)": 10991,
+            "Water (%)": 1.5
+        },
+        "Population": {
+            "Count": 2824913,
+            "Density (/km2)": 266
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 33775000000,
+                "Per capita ($)": 12283
+            },
+            "GDP (nominal)": {
+                "Total ($)": 20586000000,
+                "Per capita ($)": 7487
+            },
+            "Gini": 40.2,
+            "HDI": 0.72,
+            "Currency": "Jamaican dollar"
+        }
+    }
+}

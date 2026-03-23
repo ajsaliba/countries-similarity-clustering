@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country>
+  <country>Austria</country>
+  <infobox>
+    <General>
+      <Official_Language>German</Official_Language>
+      <Ethnic_groups>
+        <Austrians____>72.2</Austrians____>
+        <other____>27.8</other____>
+      </Ethnic_groups>
+      <Religion>
+        <Christianity>
+          <percentage>68.2</percentage>
+          <breakdown>
+            <Catholicism____>55.2</Catholicism____>
+            <Orthodoxy____>4.9</Orthodoxy____>
+            <Protestantism____>3.8</Protestantism____>
+            <other_Christian____>4.3</other_Christian____>
+          </breakdown>
+        </Christianity>
+        <no_religion____>22.4</no_religion____>
+        <Islam____>8.3</Islam____>
+        <other____>1.1</other____>
+      </Religion>
+    </General>
+    <Government>
+      <Government>Federal semi-presidential republic</Government>
+    </Government>
+    <Area>
+      <Total__km2_>83879</Total__km2_>
+      <Water____>0.84</Water____>
+    </Area>
+    <Population>
+      <Count>9110079</Count>
+      <Density___km2_>107.6</Density___km2_>
+    </Population>
+    <Economy>
+      <GDP___PPP__>
+        <Total____>682860000000</Total____>
+        <Per_capita____>74370</Per_capita____>
+      </GDP___PPP__>
+      <GDP__nominal_>
+        <Total____>534300000000</Total____>
+        <Per_capita____>58190</Per_capita____>
+      </GDP__nominal_>
+      <Gini>28.1</Gini>
+      <HDI>0.93</HDI>
+      <Currency>Euro</Currency>
+    </Economy>
+  </infobox>
+</country>

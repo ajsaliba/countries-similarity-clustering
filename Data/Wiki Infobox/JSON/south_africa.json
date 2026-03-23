@@ -1,0 +1,47 @@
+{
+    "country": "South Africa",
+    "infobox": {
+        "General": {
+            "Official Language": "12 languages Afrikaans English Ndebele Sepedi Sesotho Setswana South African Sign Language Swazi Tshivenda Xhosa Xitsonga Zulu Languages with special status Khoe languages Nama Khoisan languages German Greek Gujarati Hindi Portuguese Telugu Tamil Urdu Arabic Hebrew Sanskrit",
+            "Ethnic groups": {
+                "Black (%)": 81.4,
+                "Coloured (%)": 8.2,
+                "White (%)": 7.3,
+                "Indian or Asian (%)": 2.7,
+                "other (%)": 0.4
+            },
+            "Religion": {
+                "Christianity (%)": 85.3,
+                "Traditional faiths (%)": 7.8,
+                "No religion (%)": 3.1,
+                "Islam (%)": 1.6,
+                "Hinduism (%)": 1.1,
+                "other (%)": 1.1
+            }
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic with an executive presidency"
+        },
+        "Area": {
+            "Total (km2)": 1221037,
+            "Water (%)": 0.38
+        },
+        "Population": {
+            "Count": 63015904,
+            "Density (/km2)": 50.8
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Total ($)": 1060000000000,
+                "Per capita ($)": 16280
+            },
+            "GDP (nominal)": {
+                "Total ($)": 443640000000,
+                "Per capita ($)": 6830
+            },
+            "Gini": 63.0,
+            "HDI": 0.741,
+            "Currency": "South African rand"
+        }
+    }
+}

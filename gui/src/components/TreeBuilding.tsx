@@ -1,24 +1,29 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { Play, Pause, SkipForward, RotateCcw, TreePine, FileJson, ArrowRight } from 'lucide-react';
 import { TreeNode, Country, CountryPair } from '../types';
+import { countries } from '../data/countries';
 import { sampleTreeLebanon, sampleTreeFrance } from '../data/sampleTrees';
 
 interface TreeBuildingProps {
   selectedCountries: Country[];
+  comparisonMode: 'pair' | 'all';
   countryPairs: CountryPair[];
   loadedTrees: Record<string, TreeNode>;
+  selectedPairKey: string | null;
   onNext: () => void;
   onPrev: () => void;
 }
 
-// ── XML serialiser ─────────────────────────────────────────────────────────────
+function makePairKey(country1: string, country2: string): string {
+  return `${country1}__${country2}`;
+}
+
 function treeToXml(node: TreeNode, indent: number): { text: string; indent: number }[] {
   const lines: { text: string; indent: number }[] = [];
+
   if (node.children.length === 0) {
     lines.push({
-      text: node.value
-        ? `<${node.label}>${node.value}</${node.label}>`
-        : `<${node.label}/>`,
+      text: node.value ? `<${node.label}>${node.value}</${node.label}>` : `<${node.label}/>`,
       indent,
     });
   } else {
@@ -28,17 +33,10 @@ function treeToXml(node: TreeNode, indent: number): { text: string; indent: numb
     });
     lines.push({ text: `</${node.label}>`, indent });
   }
+
   return lines;
 }
 
-/**
- * TreeListView — hierarchical indented tree with explicit connector lines,
- * colour-coded depth levels, and distinct key/value display for leaf nodes.
- *
- * Depth 0 (root) : country name — large bold badge
- * Depth 1 (cat)  : category — pill with coloured background
- * Depth 2 (leaf) : KEY label + VALUE badge — distinguishes structure from data
- */
 const TreeListView: React.FC<{
   tree: TreeNode;
   visibleNodes: Set<string>;
@@ -51,32 +49,36 @@ const TreeListView: React.FC<{
     highlightRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }, [highlightedNode]);
 
-  // Palette: different colours per depth level
-  const rootBg  = accentColor ? 'bg-accent-600 text-white'   : 'bg-primary-600 text-white';
-  const catBg   = accentColor ? 'bg-accent-50 text-accent-700 border border-accent-200'
-                               : 'bg-primary-50 text-primary-700 border border-primary-200';
-  const leafKey  = accentColor ? 'text-accent-700 font-semibold' : 'text-primary-700 font-semibold';
-  const leafVal  = 'bg-amber-50 text-amber-700 border border-amber-200';
+  const rootBg = accentColor ? 'bg-accent-600 text-white' : 'bg-primary-600 text-white';
+  const catBg = accentColor
+    ? 'bg-accent-50 text-accent-700 border border-accent-200'
+    : 'bg-primary-50 text-primary-700 border border-primary-200';
+  const leafKey = accentColor ? 'text-accent-700 font-semibold' : 'text-primary-700 font-semibold';
+  const leafVal = 'bg-amber-50 text-amber-700 border border-amber-200';
 
   const formatValue = (v: string): string => {
     const n = Number(v);
     if (isNaN(n)) return v;
-    if (Math.abs(n) >= 1e12) return (n / 1e12).toFixed(2) + 'T';
-    if (Math.abs(n) >= 1e9)  return (n / 1e9).toFixed(2)  + 'B';
-    if (Math.abs(n) >= 1e6)  return (n / 1e6).toFixed(2)  + 'M';
-    if (Math.abs(n) >= 1e3)  return (n / 1e3).toFixed(1)  + 'K';
+    if (Math.abs(n) >= 1e12) return `${(n / 1e12).toFixed(2)}T`;
+    if (Math.abs(n) >= 1e9) return `${(n / 1e9).toFixed(2)}B`;
+    if (Math.abs(n) >= 1e6) return `${(n / 1e6).toFixed(2)}M`;
+    if (Math.abs(n) >= 1e3) return `${(n / 1e3).toFixed(1)}K`;
     return n % 1 === 0 ? String(n) : n.toFixed(3);
   };
 
-  const renderNode = (node: TreeNode, depth: number, isLast: boolean, parentPrefix: string): React.ReactNode => {
+  const renderNode = (
+    node: TreeNode,
+    depth: number,
+    isLast: boolean,
+    parentPrefix: string,
+  ): React.ReactNode => {
     if (!visibleNodes.has(node.id)) return null;
+
     const isHighlighted = highlightedNode === node.id;
     const isLeaf = node.children.length === 0;
 
-    // Connector string for this level
-    const connector  = depth === 0 ? '' : (isLast ? '└─ ' : '├─ ');
-    const childPfx   = depth === 0 ? '' : parentPrefix + (isLast ? '   ' : '│  ');
-
+    const connector = depth === 0 ? '' : isLast ? '└─ ' : '├─ ';
+    const childPfx = depth === 0 ? '' : parentPrefix + (isLast ? '   ' : '│  ');
     const visibleChildren = node.children.filter(c => visibleNodes.has(c.id));
 
     return (
@@ -85,22 +87,27 @@ const TreeListView: React.FC<{
           ref={isHighlighted ? highlightRef : undefined}
           className={`flex items-start gap-1 py-0.5 group ${isHighlighted ? 'bg-yellow-50 rounded-md' : ''}`}
         >
-          {/* Connector prefix */}
           {depth > 0 && (
             <span className="font-mono text-[11px] text-gray-300 select-none whitespace-pre shrink-0 pt-0.5">
-              {parentPrefix}{connector}
+              {parentPrefix}
+              {connector}
             </span>
           )}
 
-          {/* Node content */}
           {depth === 0 ? (
-            /* ROOT: country name */
-            <span className={`px-2.5 py-1 rounded-lg text-xs font-bold ${rootBg} ${isHighlighted ? 'ring-2 ring-yellow-400' : ''}`}>
+            <span
+              className={`px-2.5 py-1 rounded-lg text-xs font-bold ${rootBg} ${
+                isHighlighted ? 'ring-2 ring-yellow-400' : ''
+              }`}
+            >
               🌍 {node.value ?? node.label}
             </span>
           ) : isLeaf ? (
-            /* LEAF: key name + value badge */
-            <div className={`flex items-center gap-1.5 flex-wrap py-0.5 ${isHighlighted ? 'ring-1 ring-yellow-400 rounded px-1' : ''}`}>
+            <div
+              className={`flex items-center gap-1.5 flex-wrap py-0.5 ${
+                isHighlighted ? 'ring-1 ring-yellow-400 rounded px-1' : ''
+              }`}
+            >
               <span className={`text-[11px] font-mono ${leafKey}`}>
                 {node.label.replace(/_/g, ' ')}
               </span>
@@ -110,8 +117,11 @@ const TreeListView: React.FC<{
               </span>
             </div>
           ) : (
-            /* CATEGORY: coloured pill */
-            <span className={`px-2 py-0.5 rounded-md text-[11px] font-semibold ${catBg} ${isHighlighted ? 'ring-2 ring-yellow-400' : ''}`}>
+            <span
+              className={`px-2 py-0.5 rounded-md text-[11px] font-semibold ${catBg} ${
+                isHighlighted ? 'ring-2 ring-yellow-400' : ''
+              }`}
+            >
               {node.label.replace(/_/g, ' ')}
               <span className="ml-1.5 text-[9px] opacity-60 font-normal">
                 ({visibleChildren.length}/{node.children.length})
@@ -119,21 +129,17 @@ const TreeListView: React.FC<{
             </span>
           )}
         </div>
+
         {node.children.map((child, i) =>
-          renderNode(child, depth + 1, i === node.children.length - 1, depth === 0 ? '' : childPfx)
+          renderNode(child, depth + 1, i === node.children.length - 1, depth === 0 ? '' : childPfx),
         )}
       </div>
     );
   };
 
-  return (
-    <div className="font-mono text-[11px] leading-relaxed min-w-max">
-      {renderNode(tree, 0, true, '')}
-    </div>
-  );
+  return <div className="font-mono text-[11px] leading-relaxed min-w-max">{renderNode(tree, 0, true, '')}</div>;
 };
 
-// ── XmlSourceView with auto-scroll ────────────────────────────────────────────
 const XmlSourceView: React.FC<{
   tree: TreeNode;
   highlightedLine: number;
@@ -155,9 +161,7 @@ const XmlSourceView: React.FC<{
           key={i}
           data-line={i + 1}
           className={`px-1 rounded ${
-            Math.abs(i + 1 - highlightedLine) <= 1
-              ? 'bg-primary-50 text-primary-700'
-              : 'text-gray-500'
+            Math.abs(i + 1 - highlightedLine) <= 1 ? 'bg-primary-50 text-primary-700' : 'text-gray-500'
           }`}
         >
           <span className="text-gray-400 select-none mr-2">{String(i + 1).padStart(3)}</span>
@@ -169,11 +173,12 @@ const XmlSourceView: React.FC<{
   );
 };
 
-// ── Main component ─────────────────────────────────────────────────────────────
 export const TreeBuilding: React.FC<TreeBuildingProps> = ({
   selectedCountries,
+  comparisonMode,
   countryPairs,
   loadedTrees,
+  selectedPairKey,
   onNext,
   onPrev,
 }) => {
@@ -187,33 +192,49 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
   const [highlightedXmlLine, setHighlightedXmlLine] = useState(-1);
   const [buildComplete, setBuildComplete] = useState(false);
 
-  const tree1 = (countryPairs[activePairIndex] && loadedTrees[countryPairs[activePairIndex].country1]) ?? sampleTreeLebanon;
-  const tree2 = (countryPairs[activePairIndex] && loadedTrees[countryPairs[activePairIndex].country2]) ?? sampleTreeFrance;
-
   const getCountryName = (code: string) =>
-    selectedCountries.find(c => c.code === code)?.name ?? code;
+    countries.find(c => c.code === code)?.name ?? code;
 
-  // Collect all node IDs in order
+  const selectedIndexFromKey = useMemo(() => {
+    if (countryPairs.length === 0 || !selectedPairKey) return 0;
+    const idx = countryPairs.findIndex(pair => makePairKey(pair.country1, pair.country2) === selectedPairKey);
+    return idx >= 0 ? idx : 0;
+  }, [countryPairs, selectedPairKey]);
+
+  useEffect(() => {
+    if (comparisonMode === 'all') {
+      setActivePairIndex(selectedIndexFromKey);
+    } else {
+      setActivePairIndex(selectedIndexFromKey);
+    }
+  }, [comparisonMode, selectedIndexFromKey]);
+
+  const pair = countryPairs[activePairIndex];
+
+  const tree1 = (pair && loadedTrees[pair.country1]) ?? sampleTreeLebanon;
+  const tree2 = (pair && loadedTrees[pair.country2]) ?? sampleTreeFrance;
+
   const collectNodeIds = useCallback((node: TreeNode): string[] => {
     return [node.id, ...node.children.flatMap(c => collectNodeIds(c))];
   }, []);
 
-  const allNodes1 = collectNodeIds(tree1);
-  const allNodes2 = collectNodeIds(tree2);
+  const allNodes1 = useMemo(() => collectNodeIds(tree1), [tree1, collectNodeIds]);
+  const allNodes2 = useMemo(() => collectNodeIds(tree2), [tree2, collectNodeIds]);
   const totalBuildSteps = allNodes1.length + allNodes2.length;
 
-  // Reset when pair changes
   useEffect(() => {
     setBuildStep(0);
     setIsPlaying(false);
     setVisibleNodes1(new Set());
     setVisibleNodes2(new Set());
     setHighlightedNode(null);
+    setHighlightedXmlLine(-1);
     setBuildComplete(false);
-  }, [activePairIndex]);
+  }, [activePairIndex, comparisonMode, pair?.country1, pair?.country2]);
 
   useEffect(() => {
     if (!isPlaying) return;
+
     const timer = setInterval(() => {
       setBuildStep(prev => {
         if (prev >= totalBuildSteps - 1) {
@@ -224,6 +245,7 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
         return prev + 1;
       });
     }, 600 / speed);
+
     return () => clearInterval(timer);
   }, [isPlaying, speed, totalBuildSteps]);
 
@@ -232,22 +254,18 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
     const newVisible2 = new Set<string>();
 
     for (let i = 0; i <= buildStep; i++) {
-      if (i < allNodes1.length) {
-        newVisible1.add(allNodes1[i]);
-      } else {
-        newVisible2.add(allNodes2[i - allNodes1.length]);
-      }
+      if (i < allNodes1.length) newVisible1.add(allNodes1[i]);
+      else newVisible2.add(allNodes2[i - allNodes1.length]);
     }
 
     setVisibleNodes1(newVisible1);
     setVisibleNodes2(newVisible2);
 
-    // Highlight current node
     if (buildStep < allNodes1.length) {
-      setHighlightedNode(allNodes1[buildStep]);
+      setHighlightedNode(allNodes1[buildStep] ?? null);
       setHighlightedXmlLine(buildStep + 1);
     } else {
-      setHighlightedNode(allNodes2[buildStep - allNodes1.length]);
+      setHighlightedNode(allNodes2[buildStep - allNodes1.length] ?? null);
       setHighlightedXmlLine(buildStep - allNodes1.length + 1);
     }
   }, [buildStep, allNodes1, allNodes2]);
@@ -258,6 +276,7 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
     setVisibleNodes1(new Set());
     setVisibleNodes2(new Set());
     setHighlightedNode(null);
+    setHighlightedXmlLine(-1);
     setBuildComplete(false);
   };
 
@@ -269,18 +288,19 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
     setBuildComplete(true);
   };
 
-  const pair = countryPairs[activePairIndex];
-
   return (
     <div className="animate-fade-in flex flex-col h-full">
       <div className="text-center mb-4">
         <h2 className="text-2xl font-bold text-gray-900 mb-2">Pre-Processing: Tree Building</h2>
         <p className="text-gray-500">
-          Watch how XML/JSON documents are converted into rooted ordered labeled trees.
+          {pair
+            ? `Preview the tree-building process for ${getCountryName(pair.country1)} against ${getCountryName(pair.country2)}.`
+            : comparisonMode === 'pair'
+            ? 'Watch how the selected country documents are converted into rooted ordered labeled trees.'
+            : `Preview the tree-building process for ${selectedCountries[0]?.name ?? 'the selected country'} against the selected comparison.`}
         </p>
       </div>
 
-      {/* Controls */}
       <div className="glass-card p-3 mb-4 flex items-center gap-4 flex-wrap">
         <div className="flex items-center gap-2">
           <button
@@ -291,21 +311,28 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
           >
             {isPlaying ? <Pause size={18} /> : <Play size={18} />}
           </button>
-          <button onClick={skipToEnd} className="p-2 rounded-lg bg-gray-100 text-gray-500 hover:text-gray-700 transition-colors">
+
+          <button
+            onClick={skipToEnd}
+            className="p-2 rounded-lg bg-gray-100 text-gray-500 hover:text-gray-700 transition-colors"
+          >
             <SkipForward size={18} />
           </button>
-          <button onClick={reset} className="p-2 rounded-lg bg-gray-100 text-gray-500 hover:text-gray-700 transition-colors">
+
+          <button
+            onClick={reset}
+            className="p-2 rounded-lg bg-gray-100 text-gray-500 hover:text-gray-700 transition-colors"
+          >
             <RotateCcw size={18} />
           </button>
         </div>
 
-        {/* Pair selector */}
-        {countryPairs.length > 1 && (
+        {comparisonMode === 'pair' && countryPairs.length > 1 && (
           <div className="flex items-center gap-1.5">
             <span className="text-xs text-gray-500">Pair:</span>
             {countryPairs.map((p, idx) => (
               <button
-                key={idx}
+                key={makePairKey(p.country1, p.country2)}
                 onClick={() => setActivePairIndex(idx)}
                 className={`px-2 py-0.5 rounded text-xs font-mono transition-colors ${
                   activePairIndex === idx
@@ -322,7 +349,7 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
         <div className="flex-1">
           <div className="flex items-center justify-between mb-1">
             <span className="text-xs text-gray-500">
-              Step {buildStep + 1} of {totalBuildSteps}
+              Step {Math.min(buildStep + 1, totalBuildSteps)} of {totalBuildSteps}
             </span>
             <span className="text-xs text-gray-500">
               {buildStep < allNodes1.length ? 'Building Tree 1' : 'Building Tree 2'}
@@ -331,7 +358,7 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
           <div className="h-1.5 bg-gray-200 rounded-full">
             <div
               className="h-full bg-gradient-to-r from-primary-600 to-accent-500 rounded-full transition-all duration-300"
-              style={{ width: `${((buildStep + 1) / totalBuildSteps) * 100}%` }}
+              style={{ width: `${totalBuildSteps > 0 ? ((buildStep + 1) / totalBuildSteps) * 100 : 0}%` }}
             />
           </div>
         </div>
@@ -353,7 +380,6 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
       </div>
 
       <div className="flex gap-3 flex-1 min-h-0">
-        {/* Tree 1 */}
         <div className="flex-1 glass-card p-4 flex flex-col min-h-0 overflow-hidden">
           <div className="flex items-center justify-between mb-3 shrink-0">
             <div className="flex items-center gap-2">
@@ -366,7 +392,7 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
               {visibleNodes1.size}/{allNodes1.length} nodes
             </span>
           </div>
-          {/* Legend */}
+
           <div className="flex items-center gap-3 mb-2 shrink-0 flex-wrap">
             <span className="flex items-center gap-1 text-[9px] text-gray-500">
               <span className="px-1.5 py-0.5 rounded bg-primary-600 text-white text-[9px]">root</span>Country
@@ -380,6 +406,7 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
               <span className="px-1 py-0.5 rounded bg-amber-50 border border-amber-200 text-amber-700 text-[9px]">value</span>
             </span>
           </div>
+
           <div className="flex-1 overflow-auto border border-gray-100 rounded-lg bg-gray-50 p-3">
             <TreeListView
               tree={tree1}
@@ -389,7 +416,6 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
           </div>
         </div>
 
-        {/* XML source */}
         <div className="w-72 glass-card p-4 flex flex-col min-h-0 shrink-0">
           <div className="flex items-center gap-2 mb-3 shrink-0">
             <FileJson size={14} className="text-gray-500" />
@@ -397,6 +423,7 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
               {buildStep < allNodes1.length ? 'Source (T1)' : 'Source (T2)'}
             </h3>
           </div>
+
           <div className="flex-1 overflow-auto bg-gray-50 border border-gray-200 rounded-lg p-3 font-mono text-[10px] leading-relaxed">
             <XmlSourceView
               tree={buildStep < allNodes1.length ? tree1 : tree2}
@@ -405,7 +432,6 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
           </div>
         </div>
 
-        {/* Tree 2 */}
         <div className="flex-1 glass-card p-4 flex flex-col min-h-0 overflow-hidden">
           <div className="flex items-center justify-between mb-3 shrink-0">
             <div className="flex items-center gap-2">
@@ -418,7 +444,7 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
               {visibleNodes2.size}/{allNodes2.length} nodes
             </span>
           </div>
-          {/* Legend */}
+
           <div className="flex items-center gap-3 mb-2 shrink-0 flex-wrap">
             <span className="flex items-center gap-1 text-[9px] text-gray-500">
               <span className="px-1.5 py-0.5 rounded bg-accent-600 text-white text-[9px]">root</span>Country
@@ -432,6 +458,7 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
               <span className="px-1 py-0.5 rounded bg-amber-50 border border-amber-200 text-amber-700 text-[9px]">value</span>
             </span>
           </div>
+
           <div className="flex-1 overflow-auto border border-gray-100 rounded-lg bg-gray-50 p-3">
             <TreeListView
               tree={tree2}

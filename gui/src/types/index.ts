@@ -95,11 +95,11 @@ export interface SimulationState {
 
 // ── Data source ──────────────────────────────────────────────
 export type DataSourceMode = 'existing' | 'extract' | null;
-export type DataFormat = 'json' | 'xml';
+export type DataVariant = 'clean' | 'raw';
 
 export interface DataSourceConfig {
   mode: DataSourceMode;
-  format: DataFormat;
+  dataVariant: DataVariant;
 }
 
 // ── Real World Bank country data shape ───────────────────────

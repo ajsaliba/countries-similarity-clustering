@@ -17,6 +17,8 @@ export default function App() {
     selectedAlgorithm,
     similarityConfig,
     dataSource,
+    comparisonMode,
+    setComparisonMode,
     addCountry,
     removeCountry,
     generatePairs,
@@ -38,11 +40,9 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 flex flex-col">
-      {/* Header */}
       <header className="shrink-0 border-b border-gray-200 bg-white/90 shadow-sm backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-screen-2xl mx-auto px-6 py-3 flex items-center gap-4">
           <div className="flex items-center gap-3">
-            {/* Logo */}
             <div className="w-9 h-9 rounded-lg bg-primary-600 flex items-center justify-center font-bold text-sm text-white">
               CS
             </div>
@@ -70,12 +70,16 @@ export default function App() {
         </div>
       </header>
 
-      {/* Main content */}
       <main className="flex-1 overflow-hidden">
-        <div className="max-w-screen-2xl mx-auto px-6 py-5 h-full" style={{ height: 'calc(100vh - 72px)' }}>
+        <div
+          className="max-w-screen-2xl mx-auto px-6 py-5 h-full"
+          style={{ height: 'calc(100vh - 72px)' }}
+        >
           {currentPhase === 0 && (
             <CountrySelection
               selectedCountries={selectedCountries}
+              comparisonMode={comparisonMode}
+              onSetComparisonMode={setComparisonMode}
               onAddCountry={addCountry}
               onRemoveCountry={removeCountry}
               onNext={nextPhase}
@@ -94,6 +98,7 @@ export default function App() {
           {currentPhase === 2 && (
             <DataCollection
               selectedCountries={selectedCountries}
+              comparisonMode={comparisonMode}
               dataSource={dataSource}
               onDataLoaded={setLoadedTrees}
               onNext={nextPhase}
@@ -104,6 +109,7 @@ export default function App() {
           {currentPhase === 3 && (
             <MetricsSelection
               selectedCountries={selectedCountries}
+              comparisonMode={comparisonMode}
               countryPairs={countryPairs}
               loadedTrees={loadedTrees}
               onUpdatePairMetrics={updatePairMetrics}
@@ -116,6 +122,7 @@ export default function App() {
           {currentPhase === 4 && (
             <TreeBuilding
               selectedCountries={selectedCountries}
+              comparisonMode={comparisonMode}
               countryPairs={countryPairs}
               loadedTrees={loadedTrees}
               onNext={nextPhase}
@@ -127,6 +134,7 @@ export default function App() {
             <AlgorithmExecution
               similarityConfig={similarityConfig}
               selectedCountries={selectedCountries}
+              comparisonMode={comparisonMode}
               countryPairs={countryPairs}
               loadedTrees={loadedTrees}
               onNext={nextPhase}
@@ -137,6 +145,7 @@ export default function App() {
           {currentPhase === 6 && (
             <ResultsView
               selectedCountries={selectedCountries}
+              comparisonMode={comparisonMode}
               countryPairs={countryPairs}
               loadedTrees={loadedTrees}
               similarityConfig={similarityConfig}
@@ -149,6 +158,7 @@ export default function App() {
           {currentPhase === 7 && (
             <SummaryView
               selectedCountries={selectedCountries}
+              comparisonMode={comparisonMode}
               countryPairs={countryPairs}
               loadedTrees={loadedTrees}
               similarityConfig={similarityConfig}

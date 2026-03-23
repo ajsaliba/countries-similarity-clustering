@@ -8,8 +8,8 @@ import {
   SimilarityConfig,
   TreeNode,
 } from '../types';
-// metrics import removed — pairs are initialised empty; MetricsSelection populates them from real data
 import { algorithms } from '../data/algorithms';
+import { countries } from '../data/countries';
 
 const TOTAL_PHASES = 8;
 
@@ -19,66 +19,132 @@ const initialSimulation: SimulationState = {
   steps: [],
 };
 
-const initialDataSource: DataSourceConfig = { mode: null, format: 'json' };
+const initialDataSource: DataSourceConfig = { mode: null, dataVariant: 'clean' };
 
 const initialSimilarityConfig: SimilarityConfig = {
   category: 'ted',
   tedMethod: 'zhang-shasha',
-  tedNormalization: 'formula3',  // Rule 6: 1 − TED/max(|A|,|B|) — recommended for large trees
+  tedNormalization: 'formula3',
 };
 
 export function useAppState() {
-  const [currentPhase, setCurrentPhase]     = useState(0);
+  const [currentPhase, setCurrentPhase] = useState(0);
   const [selectedCountries, setSelectedCountries] = useState<Country[]>([]);
-  const [countryPairs, setCountryPairs]     = useState<CountryPair[]>([]);
-  const [dataSource, setDataSource]         = useState<DataSourceConfig>(initialDataSource);
+  const [countryPairs, setCountryPairs] = useState<CountryPair[]>([]);
+  const [comparisonMode, setComparisonModeState] = useState<'pair' | 'all'>('pair');
+  const [dataSource, setDataSource] = useState<DataSourceConfig>(initialDataSource);
   const [similarityConfig, setSimilarityConfig] = useState<SimilarityConfig>(initialSimilarityConfig);
-  const [simulation, setSimulation]         = useState<SimulationState>(initialSimulation);
-  const [loadedTrees, setLoadedTrees]       = useState<Record<string, TreeNode>>({});
+  const [simulation, setSimulation] = useState<SimulationState>(initialSimulation);
+  const [loadedTrees, setLoadedTrees] = useState<Record<string, TreeNode>>({});
 
-  // Derive selectedAlgorithm from similarityConfig (for backward-compat
-  // with SummaryView / ResultsView which still display the AlgorithmConfig).
   const selectedAlgorithm = useMemo((): AlgorithmConfig | null => {
     if (similarityConfig.category !== 'ted') return null;
-    const type = similarityConfig.tedMethod === 'nierman'
-      ? 'nierman-chagathe'
-      : similarityConfig.tedMethod === 'zhang-shasha'
+    const type =
+      similarityConfig.tedMethod === 'nierman'
+        ? 'nierman-chagathe'
+        : similarityConfig.tedMethod === 'zhang-shasha'
         ? 'zhang-shasha'
         : 'chawathe';
     return algorithms.find(a => a.type === type) ?? null;
   }, [similarityConfig]);
 
-  const addCountry = useCallback((country: Country) => {
-    setSelectedCountries(prev => {
-      if (prev.find(c => c.code === country.code)) return prev;
-      return [...prev, country];
-    });
-  }, []);
+  const addCountry = useCallback(
+    (country: Country) => {
+      setSelectedCountries(prev => {
+        if (prev.find(c => c.code === country.code)) return prev;
+
+        if (comparisonMode === 'pair') {
+          if (prev.length >= 2) return prev;
+          return [...prev, country];
+        }
+
+        if (comparisonMode === 'all') {
+          if (prev.length >= 1) return prev;
+          return [country];
+        }
+
+        return prev;
+      });
+    },
+    [comparisonMode],
+  );
 
   const removeCountry = useCallback((code: string) => {
     setSelectedCountries(prev => prev.filter(c => c.code !== code));
     setCountryPairs(prev => prev.filter(p => p.country1 !== code && p.country2 !== code));
   }, []);
 
+  const setComparisonMode = useCallback((mode: 'pair' | 'all') => {
+    setComparisonModeState(mode);
+
+    setSelectedCountries(prev => {
+      if (mode === 'pair') {
+        return prev.slice(0, 2);
+      }
+      return prev.slice(0, 1);
+    });
+
+    setCountryPairs([]);
+  }, []);
+
   const generatePairs = useCallback(() => {
     const pairs: CountryPair[] = [];
-    for (let i = 0; i < selectedCountries.length; i++) {
-      for (let j = i + 1; j < selectedCountries.length; j++) {
-        const c1 = selectedCountries[i].code;
-        const c2 = selectedCountries[j].code;
-        const existing = countryPairs.find(
-          p => (p.country1 === c1 && p.country2 === c2) || (p.country1 === c2 && p.country2 === c1),
-        );
-        if (existing) {
-          pairs.push(existing);
-        } else {
-          pairs.push({ country1: c1, country2: c2, selectedMetrics: [] });
+
+    if (comparisonMode === 'pair') {
+      for (let i = 0; i < selectedCountries.length; i++) {
+        for (let j = i + 1; j < selectedCountries.length; j++) {
+          const c1 = selectedCountries[i].code;
+          const c2 = selectedCountries[j].code;
+
+          const existing = countryPairs.find(
+            p =>
+              (p.country1 === c1 && p.country2 === c2) ||
+              (p.country1 === c2 && p.country2 === c1),
+          );
+
+          if (existing) {
+            pairs.push(existing);
+          } else {
+            pairs.push({
+              country1: c1,
+              country2: c2,
+              selectedMetrics: [],
+            });
+          }
+        }
+      }
+    } else {
+      const baseCountry = selectedCountries[0];
+
+      if (baseCountry) {
+        for (const otherCountry of countries) {
+          if (otherCountry.code === baseCountry.code) continue;
+
+          const c1 = baseCountry.code;
+          const c2 = otherCountry.code;
+
+          const existing = countryPairs.find(
+            p =>
+              (p.country1 === c1 && p.country2 === c2) ||
+              (p.country1 === c2 && p.country2 === c1),
+          );
+
+          if (existing) {
+            pairs.push(existing);
+          } else {
+            pairs.push({
+              country1: c1,
+              country2: c2,
+              selectedMetrics: [],
+            });
+          }
         }
       }
     }
+
     setCountryPairs(pairs);
     return pairs;
-  }, [selectedCountries, countryPairs]);
+  }, [comparisonMode, selectedCountries, countryPairs]);
 
   const updatePairMetrics = useCallback((country1: string, country2: string, metrics: string[]) => {
     setCountryPairs(prev =>
@@ -103,7 +169,15 @@ export function useAppState() {
     if (phase >= 0 && phase < TOTAL_PHASES) setCurrentPhase(phase);
   }, []);
 
-  const resetSimulation = useCallback(() => setSimulation(initialSimulation), []);
+  const resetSimulation = useCallback(() => {
+    setSimulation(initialSimulation);
+    setSelectedCountries([]);
+    setCountryPairs([]);
+    setLoadedTrees({});
+    setDataSource(initialDataSource);
+    setSimilarityConfig(initialSimilarityConfig);
+    setComparisonModeState('pair');
+  }, []);
 
   return {
     currentPhase,
@@ -111,10 +185,12 @@ export function useAppState() {
     countryPairs,
     selectedAlgorithm,
     similarityConfig,
+    comparisonMode,
     dataSource,
     simulation,
     addCountry,
     removeCountry,
+    setComparisonMode,
     generatePairs,
     updatePairMetrics,
     setSimilarityConfig,

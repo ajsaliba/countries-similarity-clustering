@@ -1,0 +1,279 @@
+{
+  "country": "Saint Vincent and the Grenadines",
+  "iso3": "VCT",
+  "demographics": {
+    "total_population": {
+      "value": 100616,
+      "year": 2024
+    },
+    "population_density_per_sq_km": {
+      "value": 259.802564102564,
+      "year": 2023
+    },
+    "population_growth_rate_percent": {
+      "value": -0.700214310937747,
+      "year": 2024
+    },
+    "urban_population_percent": {
+      "value": 47.8487050456749,
+      "year": 2024
+    },
+    "rural_population_percent": {
+      "value": 52.1512949543251,
+      "year": 2024
+    },
+    "age_dependency_ratio_percent": {
+      "value": 49.6601169138318,
+      "year": 2024
+    },
+    "net_migration": {
+      "value": -714,
+      "year": 2025
+    }
+  },
+  "economy": {
+    "gdp_current_usd": {
+      "value": 1157207407.40741,
+      "year": 2024
+    },
+    "gdp_per_capita_ppp": {
+      "value": 21272.0800673662,
+      "year": 2024
+    },
+    "gdp_per_capita_current_usd": {
+      "value": 11501.2265187188,
+      "year": 2024
+    },
+    "gdp_growth_rate_percent": {
+      "value": 4.06183490050209,
+      "year": 2024
+    },
+    "unemployment_percent": {
+      "value": 18.003,
+      "year": 2025
+    },
+    "inflation_percent": {
+      "value": 3.62770736940927,
+      "year": 2024
+    },
+    "agriculture_value_added_percent_gdp": {
+      "value": 3.54621278556935,
+      "year": 2024
+    },
+    "agricultural_land_percent": {
+      "value": 17.9487179487179,
+      "year": 2023
+    },
+    "industry_value_added_percent_gdp": {
+      "value": 15.4209047323377,
+      "year": 2024
+    },
+    "services_value_added_percent_gdp": {
+      "value": 66.4018742438693,
+      "year": 2024
+    },
+    "domestic_credit_private_sector_percent_gdp": {
+      "value": 36.6622392349398,
+      "year": 2024
+    },
+    "poverty_headcount_ratio_percent": {
+      "value": null,
+      "year": null
+    },
+    "gini_index": {
+      "value": null,
+      "year": null
+    },
+    "income_share_lowest_20_percent": {
+      "value": null,
+      "year": null
+    }
+  },
+  "trade": {
+    "trade_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "exports_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "imports_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "trade_balance_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "fdi_net_inflows_percent_gdp": {
+      "value": 12.0060314102276,
+      "year": 2024
+    },
+    "food_imports_percent_of_merchandise": {
+      "value": 25.9960868086502,
+      "year": 2023
+    }
+  },
+  "debt": {
+    "central_government_debt_percent_gdp": {
+      "value": null,
+      "year": null
+    },
+    "external_debt_percent_gni": {
+      "value": 70.3081457169149,
+      "year": 2024
+    },
+    "debt_service_percent_exports": {
+      "value": 10.089413090495,
+      "year": 2024
+    }
+  },
+  "education": {
+    "literacy_rate_percent": {
+      "value": null,
+      "year": null
+    },
+    "primary_school_enrollment_gross": {
+      "value": 111.270698547363,
+      "year": 2023
+    },
+    "secondary_school_enrollment_gross": {
+      "value": 125.381042480469,
+      "year": 2023
+    },
+    "tertiary_school_enrollment_gross": {
+      "value": null,
+      "year": null
+    },
+    "education_expenditure_percent_gdp": {
+      "value": 6.4582691706334,
+      "year": 2023
+    }
+  },
+  "health": {
+    "life_expectancy_years": {
+      "value": 71.23,
+      "year": 2023
+    },
+    "infant_mortality_per_1000": {
+      "value": 9.9,
+      "year": 2023
+    },
+    "under_5_mortality_per_1000": {
+      "value": 10.6,
+      "year": 2023
+    },
+    "current_health_expenditure_percent_gdp": {
+      "value": 4.43696308,
+      "year": 2023
+    },
+    "physicians_per_1000_people": {
+      "value": null,
+      "year": null
+    },
+    "undernourishment_prevalence_percent": {
+      "value": 6.1,
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "access_to_electricity_percent": {
+      "value": 100,
+      "year": 2023
+    },
+    "basic_drinking_water_percent": {
+      "value": 97.7283062747314,
+      "year": 2018
+    },
+    "basic_sanitation_percent": {
+      "value": 89.7010629819102,
+      "year": 2018
+    },
+    "internet_users_percent": {
+      "value": 75.9927,
+      "year": 2023
+    },
+    "fixed_broadband_subscriptions_per_100": {
+      "value": 30.4936,
+      "year": 2023
+    },
+    "mobile_subscriptions_per_100": {
+      "value": 101.631,
+      "year": 2023
+    },
+    "transport_infrastructure_quality_lpi": {
+      "value": null,
+      "year": null
+    }
+  },
+  "energy_and_environment": {
+    "renewable_energy_percent": {
+      "value": 5.1,
+      "year": 2022
+    },
+    "energy_use_per_capita_kg_oil_eq": {
+      "value": null,
+      "year": null
+    },
+    "forest_area_percent_land": {
+      "value": 73.1794871794872,
+      "year": 2023
+    },
+    "electricity_from_fossil_fuels_percent": {
+      "value": 84.9825783972125,
+      "year": 2021
+    },
+    "electricity_from_hydroelectric_percent": {
+      "value": 13.3937282229965,
+      "year": 2021
+    },
+    "electricity_from_nuclear_percent": {
+      "value": 0,
+      "year": 2021
+    },
+    "electricity_from_renewables_excl_hydro_percent": {
+      "value": 1.62369337979094,
+      "year": 2021
+    },
+    "energy_imports_percent_of_use": {
+      "value": null,
+      "year": null
+    }
+  },
+  "governance": {
+    "government_effectiveness": {
+      "value": 0.0738346204161644,
+      "year": 2023
+    },
+    "rule_of_law": {
+      "value": 0.57221245765686,
+      "year": 2023
+    },
+    "control_of_corruption": {
+      "value": 0.737308144569397,
+      "year": 2023
+    },
+    "political_stability": {
+      "value": 1.01801919937134,
+      "year": 2023
+    },
+    "regulatory_quality": {
+      "value": 0.317606389522552,
+      "year": 2023
+    }
+  },
+  "security": {
+    "intentional_homicides_per_100k": {
+      "value": 51.3212761232698,
+      "year": 2023
+    },
+    "battle_related_deaths": {
+      "value": null,
+      "year": null
+    }
+  },
+  "world_bank_country_name": [
+    "St. Vincent and the Grenadines"
+  ]
+}

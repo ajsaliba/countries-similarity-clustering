@@ -5,6 +5,8 @@ import { countries, regions } from '../data/countries';
 
 interface CountrySelectionProps {
   selectedCountries: Country[];
+  comparisonMode: 'pair' | 'all';
+  onSetComparisonMode: (mode: 'pair' | 'all') => void;
   onAddCountry: (country: Country) => void;
   onRemoveCountry: (code: string) => void;
   onNext: () => void;
@@ -12,6 +14,8 @@ interface CountrySelectionProps {
 
 export const CountrySelection: React.FC<CountrySelectionProps> = ({
   selectedCountries,
+  comparisonMode,
+  onSetComparisonMode,
   onAddCountry,
   onRemoveCountry,
   onNext,
@@ -49,19 +53,70 @@ export const CountrySelection: React.FC<CountrySelectionProps> = ({
     return grouped;
   }, [selectedCountries]);
 
+  const handleModeChange = (mode: 'pair' | 'all') => {
+    onSetComparisonMode(mode);
+  };
+
+  const handleCountryClick = (country: Country) => {
+    const selected = isSelected(country.code);
+
+    if (selected) {
+      onRemoveCountry(country.code);
+      return;
+    }
+
+    if (comparisonMode === 'pair' && selectedCountries.length < 2) {
+      onAddCountry(country);
+    }
+
+    if (comparisonMode === 'all' && selectedCountries.length < 1) {
+      onAddCountry(country);
+    }
+  };
+
+  const canContinue =
+    comparisonMode === 'pair'
+      ? selectedCountries.length === 2
+      : selectedCountries.length === 1;
+
   return (
     <div className="animate-fade-in flex flex-col h-full">
       <div className="text-center mb-6">
         <h2 className="text-2xl font-bold text-gray-900 mb-2">Select Countries</h2>
         <p className="text-gray-500">
-          Choose the UN-recognized countries you want to compare. Select at least 2 countries to proceed.
+          {comparisonMode === 'pair'
+            ? 'Choose 2 countries to compare.'
+            : 'Choose 1 country to compare against all other countries.'}
         </p>
       </div>
 
+      <div className="flex justify-center mb-6">
+        <div className="inline-flex rounded-lg border border-gray-200 bg-white p-1">
+          <button
+            onClick={() => handleModeChange('pair')}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition ${
+              comparisonMode === 'pair'
+                ? 'bg-primary-600 text-white'
+                : 'text-gray-600 hover:bg-gray-50'
+            }`}
+          >
+            Compare 2 Countries
+          </button>
+          <button
+            onClick={() => handleModeChange('all')}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition ${
+              comparisonMode === 'all'
+                ? 'bg-primary-600 text-white'
+                : 'text-gray-600 hover:bg-gray-50'
+            }`}
+          >
+            One vs All
+          </button>
+        </div>
+      </div>
+
       <div className="flex gap-6 flex-1 min-h-0">
-        {/* Left: Country browser */}
         <div className="flex-1 flex flex-col glass-card p-4">
-          {/* Search & Filter */}
           <div className="flex gap-3 mb-4">
             <div className="relative flex-1">
               <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" />
@@ -104,18 +159,24 @@ export const CountrySelection: React.FC<CountrySelectionProps> = ({
             </div>
           </div>
 
-          {/* Country Grid */}
           <div className="flex-1 overflow-y-auto">
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-2">
               {filteredCountries.map(country => {
                 const selected = isSelected(country.code);
+                const selectionLimitReached =
+                  (comparisonMode === 'pair' && selectedCountries.length >= 2 && !selected) ||
+                  (comparisonMode === 'all' && selectedCountries.length >= 1 && !selected);
+
                 return (
                   <button
                     key={country.code}
-                    onClick={() => (selected ? onRemoveCountry(country.code) : onAddCountry(country))}
+                    disabled={selectionLimitReached}
+                    onClick={() => handleCountryClick(country)}
                     className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-all duration-200 ${
                       selected
                         ? 'bg-primary-50 border border-primary-600 text-gray-900'
+                        : selectionLimitReached
+                        ? 'bg-gray-50 border border-gray-200 text-gray-400 cursor-not-allowed opacity-60'
                         : 'bg-gray-50 border border-gray-200 text-gray-700 hover:border-gray-300 hover:bg-gray-100'
                     }`}
                   >
@@ -133,6 +194,7 @@ export const CountrySelection: React.FC<CountrySelectionProps> = ({
                 );
               })}
             </div>
+
             {filteredCountries.length === 0 && (
               <div className="text-center py-12 text-gray-500">
                 No countries match your search.
@@ -145,7 +207,6 @@ export const CountrySelection: React.FC<CountrySelectionProps> = ({
           </div>
         </div>
 
-        {/* Right: Selected countries */}
         <div className="w-80 flex flex-col glass-card p-4">
           <div className="flex items-center justify-between mb-4">
             <h3 className="text-lg font-semibold text-gray-900">
@@ -165,7 +226,11 @@ export const CountrySelection: React.FC<CountrySelectionProps> = ({
             <div className="flex-1 flex flex-col items-center justify-center text-gray-400">
               <MapPin size={40} className="mb-3 opacity-40" />
               <p className="text-sm">No countries selected yet</p>
-              <p className="text-xs mt-1">Click on countries to select them</p>
+              <p className="text-xs mt-1">
+                {comparisonMode === 'pair'
+                  ? 'Click on 2 countries to select them'
+                  : 'Click on 1 country to compare it against all countries'}
+              </p>
             </div>
           ) : (
             <div className="flex-1 overflow-y-auto space-y-4">
@@ -198,16 +263,25 @@ export const CountrySelection: React.FC<CountrySelectionProps> = ({
 
           <div className="mt-4 pt-4 border-t border-gray-200">
             <div className="text-xs text-gray-500 mb-3">
-              {selectedCountries.length < 2
-                ? `Select ${2 - selectedCountries.length} more ${selectedCountries.length === 1 ? 'country' : 'countries'} to continue`
-                : `${(selectedCountries.length * (selectedCountries.length - 1)) / 2} pairs will be compared`}
+              {comparisonMode === 'pair' ? (
+                selectedCountries.length < 2
+                  ? `Select ${2 - selectedCountries.length} more ${
+                      2 - selectedCountries.length === 1 ? 'country' : 'countries'
+                    } to continue`
+                  : '1 pair will be compared'
+              ) : (
+                selectedCountries.length < 1
+                  ? 'Select 1 country to compare against all countries'
+                  : `${selectedCountries[0].name} will be compared against all other countries`
+              )}
             </div>
+
             <button
               onClick={onNext}
-              disabled={selectedCountries.length < 2}
+              disabled={!canContinue}
               className="btn-primary w-full"
             >
-              Continue to Metrics Selection
+              Continue to Data Source
             </button>
           </div>
         </div>

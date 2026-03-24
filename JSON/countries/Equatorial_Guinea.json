@@ -1,0 +1,72 @@
+{
+    "country": "Equatorial Guinea",
+    "url": "https://en.wikipedia.org/wiki/Equatorial_Guinea",
+    "infobox": {
+        "General": {
+            "Capital": "Ciudad de la Paz 1°35′20″N 10°49′21″E ﻿ / ﻿ 1.58889°N 10.82250°E ﻿ / 1.58889; 10.82250",
+            "Largest city": "Bata",
+            "Official languages": "Spanish French Portuguese",
+            "Recognised regional languages": "List Fang Bube Annobonese Creole Kombe Kwasio",
+            "Ethnic groups (2020 )": {
+                "Fang": "85.7%",
+                "Bubi": "6.5%",
+                "Ndowe": "3.6%",
+                "Annobon": "1.6%",
+                "Bujeba": "1.1%",
+                "others": "1.1%"
+            },
+            "Religion (2020)": {
+                "Christianity": "88.7%",
+                "no religion": "5%",
+                "Islam": "4%",
+                "traditional faiths": "1.7%",
+                "others": "0.6%"
+            },
+            "Demonyms": "Equatoguinean Equatorial Guinean"
+        },
+        "Government": {
+            "Government": "Unitary presidential republic under an authoritarian hereditary dictatorship",
+            "President": "Teodoro Obiang Nguema Mbasogo",
+            "Vice President": "Teodoro Nguema Obiang Mangue",
+            "Prime Minister": "Manuel Osa Nsue Nsua",
+            "Chief Justice": "Joaquín Asong Owono Mbang",
+            "Legislature": "Parliament",
+            "Upper house": "Senate",
+            "Lower house": "Chamber of Deputies"
+        },
+        "Independence from Spain": {
+            "Declared": "12 October 1968",
+            "1979 Equatorial Guinea coup d'état": "3 August 1979"
+        },
+        "Area": {
+            "Total": "28,050 km 2 (10,830 sq mi) ( 141st )",
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "2025 estimate": "1,795,834 ( 154th )",
+            "Density": "67/km 2 (173.5/sq mi) ( 147th )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$33.001 billion ( 149th )",
+                "Per capita": "$20,017 ( 92nd )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$12.680 billion ( 149th )",
+                "Per capita": "$7,750 ( 95th )"
+            },
+            "HDI (2023)": "0.674 medium ( 133rd )",
+            "Currency": "Central African CFA franc ( XAF )"
+        },
+        "Time": {
+            "Time zone": "UTC +1 ( WAT )"
+        },
+        "Codes": {
+            "Calling code": "+240",
+            "ISO 3166 code": "GQ",
+            "Internet TLD": ".gq"
+        }
+    }
+}

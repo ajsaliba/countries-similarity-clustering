@@ -1,0 +1,47 @@
+{
+  "country": "Libya",
+  "infobox": {
+    "General": {
+      "Capital": "Tripoli",
+      "Official languages": "Arabic",
+      "Local vernacular": "Libyan Arabic",
+      "Foreign languages": "Italian and English",
+      "Ethnic groups": {
+        "Arabs": "92%",
+        "Berbers": "5%",
+        "other": "3%"
+      },
+      "Religion": {
+        "Islam": "96.6%",
+        "Christianity": "2.7%",
+        "other": "0.7%"
+      },
+      "Demonyms": "Libyan"
+    },
+    "Government": {
+      "Government": "Unitary republic under a provisional government ( GNU )",
+      "Legislature": "High Council of State House of Representatives"
+    },
+    "Area": {
+      "Total": "1,759,541 km 2 (679,363 sq mi) ( 16th )"
+    },
+    "Population": {
+      "2024 estimate": "7,361,263 ( 103rd )",
+      "Density": "4.2/km 2 (10.9/sq mi)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$123.990 billion ( 96th )",
+        "Per capita": "$17,760 ( 101th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$47.480 billion ( 95th )",
+        "Per capita": "$6,800 ( 102th )"
+      },
+      "HDI": "0.721 high ( 115th )",
+      "Currency": "Libyan dinar ( LYD )"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "country": "Comoros",
+  "infobox": {
+    "General": {
+      "Capital": "Moroni",
+      "Official languages": "Comorian French Arabic",
+      "Ethnic groups": {
+        "Comorians": "97.1%",
+        "Makua": "1.6%",
+        "other": "1.3%"
+      },
+      "Demonyms": "Comorian Comorese"
+    },
+    "Government": {
+      "Government": "Federal presidential republic",
+      "Legislature": "Assembly of the Union"
+    },
+    "Area": {
+      "Total": "2,235 km 2 (863 sq mi) ( 170th )",
+      "Water (%": "negligible"
+    },
+    "Population": {
+      "2024 estimate": "883,075 ( 159th )",
+      "Density": "457/km 2 (1,183.6/sq mi) ( 27th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2023 estimate",
+        "Total": "$3.432 billion",
+        "Per capita": "$3,463"
+      },
+      "GDP (nominal": {
+        "Details": "2023 estimate",
+        "Total": "$1.364 billion",
+        "Per capita": "$1,377"
+      },
+      "Gini": "45.3 medium inequality",
+      "HDI": "0.603 medium ( 152nd )",
+      "Currency": "Comorian franc ( KMF )"
+    }
+  }
+}

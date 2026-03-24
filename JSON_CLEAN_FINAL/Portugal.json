@@ -1,0 +1,40 @@
+{
+  "country": "Portugal",
+  "infobox": {
+    "General": {
+      "Capital": "Lisbon",
+      "Official languages": "Portuguese",
+      "Demonyms": "Portuguese"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic",
+      "Legislature": "Assembly of the Republic"
+    },
+    "Area": {
+      "Total": "156,597 km 2 (60,462 sq mi) ( 92nd )",
+      "Land": "92,225 km 2 (35,608 sq mi)",
+      "Water": "64,372 km 2 (24,854 sq mi)",
+      "Water (%": "1.2 (2015)"
+    },
+    "Population": {
+      "2024 estimate": "10,749,635 ( 87th )",
+      "2021 census": "10,343,066",
+      "Density": "116.6/km 2 (302.0/sq mi)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2026 estimate",
+        "Total": "$556.383 billion ( 50th )",
+        "Per capita": "$51,853 ( 42nd )"
+      },
+      "GDP (nominal": {
+        "Details": "2026 estimate",
+        "Total": "$364.527 billion ( 44th )",
+        "Per capita": "$33,972 ( 41st )"
+      },
+      "Gini": "31.9 medium inequality",
+      "HDI": "0.890 very high ( 40th )",
+      "Currency": "Euro ( € ) ( EUR )"
+    }
+  }
+}

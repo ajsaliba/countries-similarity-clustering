@@ -1,0 +1,46 @@
+{
+  "country": "Bhutan",
+  "infobox": {
+    "General": {
+      "Capital": "Thimphu",
+      "Official languages": "Dzongkha",
+      "Religion": {
+        "Buddhism": "74.7%",
+        "Hinduism": "22.6%",
+        "Bon": "1.9%",
+        "other": "0.8%"
+      },
+      "Demonyms": "Bhutanese"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary semi-constitutional monarchy",
+      "Legislature": "Parliament",
+      "Upper house": "National Council",
+      "Lower house": "National Assembly"
+    },
+    "Area": {
+      "Total": "38,394 km 2 (14,824 sq mi) ( 133rd )",
+      "Water (%": "1.1"
+    },
+    "Population": {
+      "2021 estimate": "777,486 ( 159th )",
+      "2022 census": "727,145",
+      "Density": "20.5/km 2 (53.1/sq mi) ( 205th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2026 estimate",
+        "Total": "$15.415 billion ( 159th )",
+        "Per capita": "$19,255 ( 101nd )"
+      },
+      "GDP (nominal": {
+        "Details": "2026 estimate",
+        "Total": "$3.771 billion ( 161th )",
+        "Per capita": "$4,710 ( 122th )"
+      },
+      "Gini": "28.5 low inequality",
+      "HDI": "0.698 medium ( 125th )",
+      "Currency": "Ngultrum (BTN) Indian rupee (₹)"
+    }
+  }
+}

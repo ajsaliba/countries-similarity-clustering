@@ -1,0 +1,48 @@
+{
+  "country": "Gabon",
+  "infobox": {
+    "General": {
+      "Capital": "Libreville",
+      "Official languages": "French",
+      "Regional languages": "List English Spanish French Portuguese Fang Mbete Myene Nzebi Punu Teke Vili",
+      "Ethnic groups": "Fang Punu Nzebi Teke Myene Kota Vili Mbama and 42 others",
+      "Religion": {
+        "Christianity": "80.2%",
+        "Islam": "10.8%",
+        "no religion": "7%",
+        "traditional faiths": "1.1%",
+        "other": "0.9%"
+      },
+      "Demonyms": "Gabonese Gabonaise"
+    },
+    "Government": {
+      "Government": "Unitary presidential republic",
+      "Legislature": "Parliament",
+      "Upper house": "Senate",
+      "Lower house": "National Assembly"
+    },
+    "Area": {
+      "Total": "267,668 km 2 (103,347 sq mi) ( 76th )",
+      "Water (%": "3.76%"
+    },
+    "Population": {
+      "2023 estimate": "2,397,368 ( 146th )",
+      "Density": "7.9/km 2 (20.5/sq mi) ( 216th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$57.054 billion ( 130th )",
+        "Per capita": "$24,739 ( 79th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$21.455 billion ( 131st )",
+        "Per capita": "$9,303 ( 90th )"
+      },
+      "Gini": "38 medium inequality",
+      "HDI": "0.733 high ( 108th )",
+      "Currency": "Central African CFA franc ( XAF )"
+    }
+  }
+}

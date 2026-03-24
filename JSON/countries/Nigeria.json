@@ -1,0 +1,95 @@
+{
+    "country": "Nigeria",
+    "url": "https://en.wikipedia.org/wiki/Nigeria",
+    "infobox": {
+        "General": {
+            "Hausa :": [
+                "Jamhuriyar Tarayyar Najeriya",
+                "Jamhuriyar Tarayyar Najeriya"
+            ],
+            "Igbo :": "Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà",
+            "Yoruba :": "Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà",
+            "Capital": "Abuja 9°4′N 7°29′E ﻿ / ﻿ 9.067°N 7.483°E ﻿ / 9.067; 7.483",
+            "Largest city": "Lagos",
+            "Official languages": "English",
+            "Recognised languages": "List Hausa Yoruba Igbo",
+            "Regional languages": "Over 525 languages",
+            "Ethnic groups (2018)": {
+                "Hausa": "30%",
+                "Yoruba": "15.5%",
+                "Igbo": "15.2%",
+                "Fulani": "6%",
+                "Tiv": "2.4%",
+                "Kanuri": "2.4%",
+                "Ibibio": "1.8%",
+                "Ijaw": "1.8%",
+                "other": "24.7%"
+            },
+            "Religion (2018)": {
+                "Islam": "53.5%",
+                "Christianity": {
+                    "percentage": "45.9%",
+                    "breakdown": {
+                        "Protestants": "35.3%",
+                        "Catholics": "10.6%"
+                    }
+                },
+                "other": "0.6%"
+            },
+            "Demonym": "Nigerian"
+        },
+        "Government": {
+            "Government": "Federal presidential republic",
+            "President": "Bola Tinubu",
+            "Vice President": "Kashim Shettima",
+            "Senate President": "Godswill Akpabio",
+            "House Speaker": "Tajudeen Abbas",
+            "Chief Justice": "Kudirat Kekere-Ekun",
+            "Legislature": "National Assembly",
+            "Upper house": "Senate",
+            "Lower house": "House of Representatives"
+        },
+        "Independence from the United Kingdom": {
+            "Northern Nigeria Protectorate": "1 January 1900",
+            "Southern Nigeria Protectorate": "1 January 1900",
+            "Declared independent as a sovereign state": "1 October 1960",
+            "Became a republic": "1 October 1963"
+        },
+        "History": {
+            "Unification of Nigeria": "1 January 1914",
+            "Current constitution": "29 May 1999"
+        },
+        "Area": {
+            "Total": "923,769 km 2 (356,669 sq mi) ( 31st )",
+            "Water (%)": "1.4"
+        },
+        "Population": {
+            "2024 estimate": "236,747,130 ( 6th )",
+            "Density": "249.8/km 2 (647.0/sq mi) ( 57th )",
+            "Date format": "dd/mm/yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$2.254 trillion ( 19th )",
+                "Per capita": "$9,488 ( 135th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$285.003 billion ( 52nd )",
+                "Per capita": "$1,200 ( 173rd )"
+            },
+            "Gini (2020)": "35.1 medium inequality",
+            "HDI (2023)": "0.560 medium ( 164th )",
+            "Currency": "Naira (₦) ( NGN )"
+        },
+        "Time": {
+            "Time zone": "UTC +01:00 ( WAT )"
+        },
+        "Codes": {
+            "Calling code": "+234",
+            "ISO 3166 code": "NG",
+            "Internet TLD": ".ng"
+        }
+    }
+}

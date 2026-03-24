@@ -1,0 +1,55 @@
+{
+  "country": "Barbados",
+  "infobox": {
+    "General": {
+      "Capital": "Bridgetown",
+      "Official languages": "English",
+      "Vernacular language": "Bajan Creole",
+      "Ethnic groups": {
+        "African": "92.4%",
+        "Mixed": "3.1%",
+        "White": "2.7%",
+        "Indian": "1.3%",
+        "other": "0.3%"
+      },
+      "Religion": {
+        "Christianity": "75.6%",
+        "No religion": "20.6%",
+        "Baháʼí Faith": "2%",
+        "Hinduism": "1.1%",
+        "other": "0.7%"
+      },
+      "Demonyms": "Barbadian Bajan"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic",
+      "Legislature": "Parliament",
+      "Upper house": "Senate",
+      "Lower house": "House of Assembly"
+    },
+    "Area": {
+      "Total": "439 km 2 (169 sq mi) ( 183rd )",
+      "Water (%": "Negligible"
+    },
+    "Population": {
+      "2023 estimate": "281,998 ( 174th )",
+      "2021 census": "269,090 ( 174th )",
+      "Density": "660/km 2 (1,709.4/sq mi) ( 17th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2023 estimate",
+        "Total": "$5.436 billion ( 175th )",
+        "Per capita": "$18,738 ( 90th )"
+      },
+      "GDP (nominal": {
+        "Details": "2023 estimate",
+        "Total": "$6.220 billion ( 165th )",
+        "Per capita": "$21,442 ( 50th )"
+      },
+      "Gini": "34.1 medium inequality",
+      "HDI": "0.811 very high ( 69th )",
+      "Currency": "Barbadian dollar ($) ( BBD )"
+    }
+  }
+}

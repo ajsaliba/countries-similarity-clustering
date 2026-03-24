@@ -1,0 +1,50 @@
+{
+  "country": "Vanuatu",
+  "infobox": {
+    "General": {
+      "Capital": "Port Vila",
+      "Official languages": "Bislama English French",
+      "Ethnic groups": {
+        "Ni-Vanuatu": "98.5%",
+        "other": "1.5%"
+      },
+      "Religion": {
+        "Christianity": "93.4%",
+        "Protestantism": "75.1%",
+        "Catholicism": "13.5%",
+        "other Christian": "4.8%",
+        "Animism": "4.6%",
+        "Baháʼí Faith": "1.4%",
+        "other / none": "0.6%"
+      },
+      "Demonyms": "Ni-Vanuatu (or rarely: Vanuatuan )"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic",
+      "Legislature": "Parliament"
+    },
+    "Area": {
+      "Total": "12,189 km 2 (4,706 sq mi) ( 157th )"
+    },
+    "Population": {
+      "2023 estimate": "335,908 ( 182nd )",
+      "2020 census": "300,019",
+      "Density": "27.6/km 2 (71.5/sq mi) ( 188th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2023 estimate",
+        "Total": "$1.002 billion",
+        "Per capita": "$3,001"
+      },
+      "GDP (nominal": {
+        "Details": "2023 estimate",
+        "Total": "$1.064 billion",
+        "Per capita": "$3,188"
+      },
+      "Gini": "32.3 medium inequality",
+      "HDI": "0.621 medium ( 146th )",
+      "Currency": "Vatu ( VUV )"
+    }
+  }
+}

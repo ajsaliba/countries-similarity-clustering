@@ -1,0 +1,55 @@
+{
+  "country": "Eswatini",
+  "infobox": {
+    "General": {
+      "Capital": "Mbabane (executive) Lobamba (legislative)",
+      "Largest city": "Mbabane",
+      "Official languages": "Swazi English",
+      "Ethnic groups": {
+        "Swazi": "84%",
+        "Zulu": "10%",
+        "other": "6%"
+      },
+      "Religion": {
+        "Christianity": "89.3%",
+        "Protestantism": "84.2%",
+        "Roman Catholic": "3.7%",
+        "other Christian": "1.4%",
+        "no religion": "7.4%",
+        "traditional faiths": "2.5%",
+        "other": "0.8%"
+      },
+      "Demonyms": "Swazi"
+    },
+    "Government": {
+      "Government": "Unitary diarchic absolute monarchy",
+      "Legislature": "Parliament",
+      "Upper house": "Senate",
+      "Lower house": "House of Assembly"
+    },
+    "Area": {
+      "Total": "17,364 km 2 (6,704 sq mi) ( 153rd )",
+      "Water (%": "0.9"
+    },
+    "Population": {
+      "2023 estimate": "1,236,126 ( 155th )",
+      "2017 census": "1,093,238",
+      "Density": "66.8/km 2 (173.0/sq mi) ( 135th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2023 estimate",
+        "Total": "$13.797 billion ( 158th )",
+        "Per capita": "$11,858 ( 113th )"
+      },
+      "GDP (nominal": {
+        "Details": "2023 estimate",
+        "Total": "$4.648 billion ( 168th )",
+        "Per capita": "$3,995 ( 122nd )"
+      },
+      "Gini": "54.6 high inequality",
+      "HDI": "0.695 medium ( 126th )",
+      "Currency": "Lilangeni (SZL) South African rand (ZAR)"
+    }
+  }
+}

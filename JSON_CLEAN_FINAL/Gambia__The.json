@@ -1,0 +1,53 @@
+{
+  "country": "Gambia, The",
+  "infobox": {
+    "General": {
+      "Capital": "Banjul",
+      "Official languages": "English",
+      "National languages": "Mandinka Pulaar Wolof Serer Jola English Balanta Arabic Jola-Fonyi Mandjak Mankanya Noon Dyula Soninke Fula Karon Kassonke Cangin Gambian Sign Language",
+      "Ethnic groups": {
+        "Mandinka": "34.4%",
+        "Fula": "25%",
+        "Wolof": "15.4%",
+        "Jola": "9.5%",
+        "Soninke": "8.2%",
+        "Serer": "2.9%",
+        "other": "4.6%"
+      },
+      "Religion": {
+        "Islam": "95.7%",
+        "Christianity": "4.2%",
+        "other": "0.1%"
+      },
+      "Demonyms": "Gambian"
+    },
+    "Area": {
+      "Largest metropolitan area": "Serrekunda",
+      "Total": "11,300 km 2 (4,400 sq mi) ( 159th )",
+      "Water (%": "11.5"
+    },
+    "Government": {
+      "Government": "Unitary presidential republic",
+      "Legislature": "National Assembly"
+    },
+    "Population": {
+      "2024 census": "2,422,712 ( 142th )",
+      "Density": "227/km 2 (587.9/sq mi) ( 51th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2026 estimate",
+        "Total": "$11.050 billion ( 166th )",
+        "Per capita": "$3,820 ( 175th )"
+      },
+      "GDP (nominal": {
+        "Details": "2026 estimate",
+        "Total": "$2.670 billion ( 185th )",
+        "Per capita": "$924 ( 180th )"
+      },
+      "Gini": "35.9 medium inequality",
+      "HDI": "0.524 low ( 170th )",
+      "Currency": "Gambian dalasi ( GMD )"
+    }
+  }
+}

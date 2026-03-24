@@ -1,0 +1,83 @@
+{
+    "country": "Sri Lanka",
+    "url": "https://en.wikipedia.org/wiki/Sri_Lanka",
+    "infobox": {
+        "General": {
+            "Sinhala :": [
+                "Śrī Laṅkā Prajātāntrika Samājavādī Janarajaya",
+                "Śrī Laṅkā Prajātāntrika Samājavādī Janarajaya"
+            ],
+            "Tamil :": "Ilaṅkai Caṉanāyaka Cōcalicak Kuṭiyaracu",
+            "Capital": "Sri Jayawardenepura Kotte (legislative) Colombo (executive and judicial) 6°56′N 79°52′E ﻿ / ﻿ 6.933°N 79.867°E ﻿ / 6.933; 79.867",
+            "Largest city": "Colombo",
+            "Official languages and recognised national languages": "Sinhala Tamil",
+            "Recognised language": "English",
+            "Ethnic groups (2024 )": {
+                "Sinhalese": "74.1%",
+                "Sri Lankan Tamils": "12.3%",
+                "Sri Lankan Moors": "10.5%",
+                "Indian Tamils": "2.8%",
+                "other": "0.3%"
+            },
+            "Religion (2024)": {
+                "Buddhism ( official )": "69.8%",
+                "Hinduism": "12.6%",
+                "Islam": "10.7%",
+                "Christianity": "6.9%",
+                "other/none": "0.1%"
+            },
+            "Demonym": "Sri Lankan"
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic",
+            "President": "Anura Kumara Dissanayake",
+            "Prime Minister": "Harini Amarasuriya",
+            "Speaker of the Parliament": "Jagath Wickramaratne",
+            "Chief Justice": "Padman Surasena",
+            "Legislature": "Parliament",
+            "Sinhala Kingdom established": "543 BCE"
+        },
+        "History": {
+            "Anuradhapura period": "377 BCE – 1017 CE",
+            "Polonnaruwa period": "1017–1232",
+            "Transitional period": "1232–1592",
+            "Kandyan period": "1592–1815",
+            "British Ceylon period": "1815–1948",
+            "Independence": "4 February 1948",
+            "Republic": "22 May 1972",
+            "Current constitution": "7 September 1978"
+        },
+        "Area": {
+            "Total": "67,240 km 2 (25,960 sq mi) ( 120th )",
+            "Water (%)": "4.4"
+        },
+        "Population": {
+            "2026 estimate": "23,300,000 ( 60th )",
+            "2024 census": "21,781,800",
+            "Density": "337.7/km 2 (874.6/sq mi) ( 36th )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$342.6 billion ( 62nd )",
+                "Per capita": "$15,632 ( 111th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$98.9 billion ( 71st )",
+                "Per capita": "$4,516 ( 120th )"
+            },
+            "Gini (2023)": "39.8 medium inequality",
+            "HDI (2023)": "0.776 high ( 89th )",
+            "Currency": "Sri Lankan rupee ( Rs ) ( LKR )"
+        },
+        "Time": {
+            "Time zone": "UTC +5:30 ( SLST )"
+        },
+        "Codes": {
+            "Calling code": "+94",
+            "ISO 3166 code": "LK",
+            "Internet TLD": ".lk .ලංකා .இலங்கை"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "country": "Burkina Faso",
+  "infobox": {
+    "General": {
+      "Capital": "Ouagadougou",
+      "Official languages": "Mooré, Dyula and Fula, alongside any other languages so recognized by law",
+      "Ethnic groups": {
+        "Mossi": "53.7%",
+        "Fula": "6.8%",
+        "Gurunsi": "5.9%",
+        "or": "5.4%",
+        "Bissa": "1.5%",
+        "Gurma": "5.2%",
+        "Bobo": "3.4%",
+        "Senufo": "2.2%",
+        "Lobi": "1.5%",
+        "Tuareg and Bella": "0.1%"
+      },
+      "Religion": {
+        "Islam": "63.8%",
+        "Christianity": "26.3%",
+        "Catholicism": "20.1%",
+        "Protestantism": "6.2%",
+        "Animism": "9%",
+        "irreligion": "0.7%"
+      },
+      "Demonyms": "Burkinabé"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic under a military junta",
+      "Legislature": "National Assembly"
+    },
+    "Area": {
+      "Total": "274,223 km 2 (105,878 sq mi) ( 74th )",
+      "Water (%": "0.148%"
+    },
+    "Population": {
+      "2023 estimate": "22,489,126 ( 58th )",
+      "Density": "86/km 2 (222.7/sq mi) ( 126th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$72.820 billion ( 114th )",
+        "Per capita": "$2,980 ( 172nd )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$27.06 billion ( 114th )",
+        "Per capita": "$1,110 ( 166th )"
+      },
+      "Gini": "37.4 medium inequality",
+      "HDI": "0.459 low ( 186th )",
+      "Currency": "West African CFA franc ( XOF )"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "country": "Syria",
+  "infobox": {
+    "General": {
+      "Capital": "Damascus",
+      "Official languages": "Arabic",
+      "Spoken languages": "Predominantly Arabic List Kurdish Turkish Neo-Aramaic Syriac Circassian Chechen Armenian Greek Domari",
+      "Ethnic groups": {
+        "Arabs 9–": "90%",
+        "Kurds 1–": "10%",
+        "other": "10%"
+      },
+      "Religion": {
+        "Islam": "94.17%",
+        "Sunni": "79.19%",
+        "Shia 10–": "14.1%",
+        "Alawites": "13%",
+        "Christianity": "3.84%",
+        "other": "1.99%"
+      },
+      "Demonyms": "Syrian"
+    },
+    "Government": {
+      "Government": "Unitary presidential republic under a provisional government",
+      "Legislature": "People's Assembly"
+    },
+    "Area": {
+      "Total": "185,180 km 2 (71,500 sq mi) ( 87th )",
+      "Water (%": "1.1"
+    },
+    "Population": {
+      "2025 estimate": "26,019,711 ( 56th )",
+      "Density": "118.3/km 2 (306.4/sq mi) ( 70th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2021 estimate",
+        "Total": "$50.28 billion",
+        "Per capita": "$3,300"
+      },
+      "GDP (nominal": {
+        "Details": "2022 estimate",
+        "Total": "$9.8 billion",
+        "Per capita": "$800"
+      },
+      "Gini": "26.6 low inequality",
+      "Currency": "Syrian pound ( SYP/LS )"
+    }
+  }
+}

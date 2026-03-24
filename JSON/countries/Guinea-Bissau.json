@@ -1,0 +1,72 @@
+{
+    "country": "Guinea-Bissau",
+    "url": "https://en.wikipedia.org/wiki/Guinea-Bissau",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Bissau 11°52′N 15°36′W ﻿ / ﻿ 11.867°N 15.600°W ﻿ / 11.867; -15.600",
+            "Official languages": "Portuguese",
+            "Spoken languages": "List: Guinea-Bissau Creole English French Balanta Hassaniya Jola-Fonyi Mandinka Mandjak Mankanya Noon Portuguese Pulaar Serer Soninke",
+            "Ethnic groups (2019)": {
+                "Balanta": "30%",
+                "Fula": "30%",
+                "Manjak": "14%",
+                "Mandinka": "13%",
+                "Papel": "7%",
+                "other / unspecified": "6%"
+            },
+            "Religion (2020)": {
+                "Islam": "46.1%",
+                "Traditional": "30.6%",
+                "Christianity": "18.9%",
+                "No religion": "3%",
+                "others": "1%"
+            },
+            "Demonyms": "Guinean Bissau-Guinean",
+            "Head of the HMCRNSPO": "Horta Inta-A Na Man"
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic under a military junta",
+            "Transitional President": "Horta Inta-A Na Man",
+            "Prime Minister": "Ilídio Vieira Té",
+            "Legislature": "National Transitional Council (transitional) National People's Assembly (suspended)"
+        },
+        "Independence from Portugal": {
+            "Declaration": "24 September 1973"
+        },
+        "Economy": {
+            "Recognition": {
+                "Details": "10 September 1974",
+                "2025 Guinea-Bissau coup d'état": "26 November 2025"
+            },
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$6.620 billion ( 172th )",
+                "Per capita": "$3,280 ( 168th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$2.270 billion ( 174th )",
+                "Per capita": "$1,130 ( 165th )"
+            },
+            "Gini (2021)": "33.4 medium inequality",
+            "HDI (2023)": "0.514 low ( 174th )",
+            "Currency": "West African CFA franc ( XOF )"
+        },
+        "Area": {
+            "Total": "36,125 km 2 (13,948 sq mi) ( 134th )",
+            "Water (%)": "22.4"
+        },
+        "Population": {
+            "2023 estimate": "2,080,000 ( 150th )",
+            "Density": "47/km 2 (121.7/sq mi) ( 154th )"
+        },
+        "Time": {
+            "Time zone": "UTC ±00:00 ( GMT )"
+        },
+        "Codes": {
+            "Calling code": "+245",
+            "ISO 3166 code": "GW",
+            "Internet TLD": ".gw"
+        }
+    }
+}

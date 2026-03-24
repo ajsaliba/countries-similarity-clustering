@@ -1,0 +1,53 @@
+{
+  "country": "Uzbekistan",
+  "infobox": {
+    "General": {
+      "Capital": "Tashkent",
+      "Official languages": "Uzbek",
+      "Ethnic groups": {
+        "Uzbeks": "84.6%",
+        "Tajiks": "4.8%",
+        "Kazakhs": "2.3%",
+        "Karakalpaks": "2.2%",
+        "Russians": "2.1%",
+        "other": "4%"
+      },
+      "Religion": {
+        "Islam": "94.78%",
+        "Irreligion": "3.89%",
+        "Christianity": "1.04%",
+        "other religions": "0.27%"
+      },
+      "Demonyms": "Uzbek • Uzbek"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic",
+      "Legislature": "Oliy Majlis",
+      "Upper house": "Senate",
+      "Lower house": "Legislative Chamber"
+    },
+    "Area": {
+      "Total": "448,978 km 2 (173,351 sq mi) ( 55th )",
+      "Water (%": "4.9"
+    },
+    "Population": {
+      "2026 estimate": "38,236,704 ( 38th )",
+      "Density": "80.2/km 2 (207.7/sq mi) ( 138th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$507.8 billion ( 53th )",
+        "Per capita": "$12,596 ( 114th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$140.480 billion ( 60th )",
+        "Per capita": "$3,945 ( 134th )"
+      },
+      "Gini": "31.2 medium inequality",
+      "HDI": "0.740 high ( 107th )",
+      "Currency": "Uzbek sum ( UZS )"
+    }
+  }
+}

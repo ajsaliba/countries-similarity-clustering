@@ -1,0 +1,52 @@
+{
+  "country": "Samoa",
+  "infobox": {
+    "General": {
+      "Capital": "Apia",
+      "Official languages": "Samoan, English",
+      "Ethnic groups": {
+        "Samoans": "92.6%",
+        "Euronesians": "7%",
+        "Europeans": "0.3%",
+        "other": "0.1%"
+      },
+      "Religion": {
+        "Christianity": "97.9%",
+        "Protestantism": "54.9%",
+        "Catholicism": "18.8%",
+        "Mormonism": "16.9%",
+        "other Christian": "7.3%",
+        "no religion": "1.7%",
+        "other": "0.4%"
+      },
+      "Demonyms": "Samoan"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic",
+      "Legislature": "Legislative Assembly"
+    },
+    "Area": {
+      "Total": "2,831 km 2 (1,093 sq mi) ( 167th )",
+      "Water (%": "0.3"
+    },
+    "Population": {
+      "November 2021 census": "205,557 ( 176th )",
+      "Density": "70/km 2 (181.3/sq mi)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2024 estimate",
+        "Total": "$1.225 billion",
+        "Per capita": "$5,962"
+      },
+      "GDP (nominal": {
+        "Details": "2024 estimate",
+        "Total": "$908.561 million",
+        "Per capita": "$4,420"
+      },
+      "Gini": "38.7 medium inequality",
+      "HDI": "0.708 high ( 122nd )",
+      "Currency": "Tālā (WS $ ) ( WST )"
+    }
+  }
+}

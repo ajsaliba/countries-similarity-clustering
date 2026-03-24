@@ -1,0 +1,89 @@
+{
+    "country": "Malawi",
+    "url": "https://en.wikipedia.org/wiki/Malawi",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Lilongwe 13°57′S 33°42′E ﻿ / ﻿ 13.950°S 33.700°E ﻿ / -13.950; 33.700",
+            "Official languages": "English",
+            "Recognised national languages": "( none at national level)",
+            "Recognised regional languages": "Chichewa Chitumbuka",
+            "Ethnic groups (2024 census)": {
+                "Chewa": "25.2%",
+                "Tumbuka": "20.4%",
+                "Lomwe": "16.4%",
+                "Yao": "15.3%",
+                "Ngoni": "6.4%",
+                "Sena": "5.9%",
+                "Mang'anja": "3.8%",
+                "Tonga": "1.8%",
+                "Ngonde": "1.5%",
+                "Lambya": "0.6%",
+                "Sukwa": "0.5%",
+                "other": "1.1%"
+            },
+            "Religion (2018 census)": {
+                "Christianity": {
+                    "percentage": "82.3%",
+                    "breakdown": {
+                        "Protestantism": "58.5%",
+                        "Catholicism": "17.2%",
+                        "other Christian": "6.6%"
+                    }
+                },
+                "Islam": "13.8%",
+                "none": "2.1%",
+                "traditional faiths": "1.2%",
+                "other": "0.6%"
+            },
+            "Demonym": "Malawian"
+        },
+        "Government": {
+            "Government": "Unitary presidential republic",
+            "President": "Peter Mutharika",
+            "Vice-President": "Jane Ansah",
+            "House Speaker": "Sameer Suleman",
+            "Chief Justice": "Rizine Mzikamanda",
+            "Legislature": "National Assembly"
+        },
+        "Independence from the United Kingdom": {
+            "Dominion": "6 July 1964",
+            "Republic": "6 July 1966"
+        },
+        "History": {
+            "Current constitution": "18 May 1994"
+        },
+        "Area": {
+            "Total": "118,484 km 2 (45,747 sq mi) ( 98th )",
+            "Water (%)": "20.6%"
+        },
+        "Population": {
+            "2024 estimate": "21,240,689 ( 62nd )",
+            "2018 census": "17,563,749",
+            "Density": "153.1/km 2 (396.5/sq mi) ( 56th )",
+            "Date format": "dd/mm/yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2023 estimate",
+                "Total": "$37.919 billion ( 137th )",
+                "Per capita": "$1,668 ( 186th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2023 estimate",
+                "Total": "$13.176 billion ( 149th )",
+                "Per capita": "$579 ( 190th )"
+            },
+            "Gini (2016)": "44.7 medium inequality",
+            "HDI (2023)": "0.517 low ( 172nd )",
+            "Currency": "Malawian kwacha (D) ( MWK )"
+        },
+        "Time": {
+            "Time zone": "UTC +2 ( CAT )"
+        },
+        "Codes": {
+            "Calling code": "+265",
+            "ISO 3166 code": "MW",
+            "Internet TLD": ".mw"
+        }
+    }
+}

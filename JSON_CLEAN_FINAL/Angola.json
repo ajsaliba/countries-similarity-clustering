@@ -1,0 +1,54 @@
+{
+  "country": "Angola",
+  "infobox": {
+    "General": {
+      "Capital": "Luanda",
+      "Official languages": "Portuguese",
+      "National languages": "Chokwe, Kimbundu, Kikongo, Oshiwambo, Luchazi, Umbundu",
+      "Ethnic groups": {
+        "Ovimbundu": "37%",
+        "Ambundu": "25%",
+        "Bakongo": "13%",
+        "other African": "21%",
+        "Mestiço (mixed European and African": "2%",
+        "Asian": "2%",
+        "European": "1%"
+      },
+      "Religion": {
+        "Christianity": "79.1%",
+        "Catholic": "44.2%",
+        "Protestant": "34.9%",
+        "no religion": "11.5%",
+        "other": "9.4%"
+      },
+      "Demonyms": "Angolan"
+    },
+    "Government": {
+      "Government": "Unitary presidential republic",
+      "Legislature": "National Assembly"
+    },
+    "Area": {
+      "Total": "1,246,700 km 2 (481,400 sq mi) ( 22nd )",
+      "Water (%": "negligible"
+    },
+    "Population": {
+      "2024 census": "36,604,681 ( 41st )",
+      "Density": "29.4/km 2 (76.1/sq mi) ( 189th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$402.160 billion ( 58th )",
+        "Per capita": "$10,230 ( 125th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$113.34 billion ( 68th )",
+        "Per capita": "$2,880 ( 137th )"
+      },
+      "Gini": "51.3 high inequality",
+      "HDI": "0.616 medium ( 148th )",
+      "Currency": "Angolan kwanza ( AOA )"
+    }
+  }
+}

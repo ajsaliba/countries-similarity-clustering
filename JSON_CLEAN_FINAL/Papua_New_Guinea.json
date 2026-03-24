@@ -1,0 +1,47 @@
+{
+  "country": "Papua New Guinea",
+  "infobox": {
+    "General": {
+      "Capital": "Port Moresby",
+      "Official languages": "English Hiri Motu PNG Sign Language Tok Pisin",
+      "Indigenous languages": "839 languages",
+      "Religion": {
+        "Christianity": "95.5%",
+        "Protestantism": "64.3%",
+        "Catholicism": "26%",
+        "other Christian": "5.2%",
+        "unspecified": "3.1%",
+        "others or none": "1.4%"
+      },
+      "Demonyms": "Papua New Guinean"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary constitutional monarchy",
+      "Legislature": "National Parliament"
+    },
+    "Area": {
+      "Total": "462,840 km 2 (178,700 sq mi) ( 54th )",
+      "Water (%": "2.2"
+    },
+    "Population": {
+      "2021 estimate": "11,781,559 ( 93rd )",
+      "2024 census": "10,185,363",
+      "Density": "25.5/km 2 (66.0/sq mi)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$41.810 billion ( 135th )",
+        "Per capita": "$3,760 ( 162th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$32.840 billion ( 108th )",
+        "Per capita": "$2,560 ( 142th )"
+      },
+      "Gini": "41.9 medium inequality",
+      "HDI": "0.576 medium ( 160th )",
+      "Currency": "Kina ( PGK )"
+    }
+  }
+}

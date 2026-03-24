@@ -1,0 +1,50 @@
+{
+  "country": "Mozambique",
+  "infobox": {
+    "General": {
+      "Capital": "Maputo",
+      "Official languages": "Portuguese",
+      "Ethnic groups": {
+        "African": "99%",
+        "Mestiço": "0.8%",
+        "White": "0.1%",
+        "other": "0.1%"
+      },
+      "Religion": {
+        "Christianity": "62%",
+        "Islam": "19.1%",
+        "no religion": "13.5%",
+        "other": "4.3%",
+        "unknown": "1.2%"
+      },
+      "Demonyms": "Mozambican"
+    },
+    "Government": {
+      "Government": "Unitary dominant-party semi-presidential republic under an authoritarian government",
+      "Legislature": "Assembly of the Republic"
+    },
+    "Area": {
+      "Total": "801,590 km 2 (309,500 sq mi) ( 35th )",
+      "Water (%": "2.2"
+    },
+    "Population": {
+      "2024 estimate": "34,881,007 ( 45th )",
+      "Density": "43.5/km 2 (112.7/sq mi) ( 176th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$61.950 billion ( 126th )",
+        "Per capita": "$1,730 ( 182nd )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$23.770 billion ( 120th )",
+        "Per capita": "$663 ( 183rd )"
+      },
+      "Gini": "50.4 high inequality",
+      "HDI": "0.493 low ( 183rd )",
+      "Currency": "Metical ( MZN )"
+    }
+  }
+}

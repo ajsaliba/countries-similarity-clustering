@@ -1,0 +1,51 @@
+{
+  "country": "Nicaragua",
+  "infobox": {
+    "General": {
+      "Capital": "Managua",
+      "Official languages": "Spanish",
+      "Ethnic groups": {
+        "Mestizo (mixed White and Indigenous": "69%",
+        "White": "17%",
+        "Black": "9%",
+        "Indigenous": "5%"
+      },
+      "Religion": {
+        "Christianity": "84.4%",
+        "Catholicism": "55%",
+        "Protestantism": "27.2%",
+        "other Christian": "2.2%",
+        "no religion": "14.7%",
+        "other": "0.9%"
+      },
+      "Demonyms": "Nicaraguan Pinolero/Pinolera (colloquial)"
+    },
+    "Government": {
+      "Government": "Unitary diarchic presidential socialist republic under an authoritarian dictatorship",
+      "Legislature": "National Assembly"
+    },
+    "Area": {
+      "Total": "130,375 km 2 (50,338 sq mi) ( 96th )",
+      "Water (%": "7.14"
+    },
+    "Population": {
+      "2024 estimate": "6,676,948 ( 106th )",
+      "Density": "51/km 2 (132.1/sq mi) ( 155th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2024 estimate",
+        "Total": "$56.697 billion ( 115th )",
+        "Per capita": "$8,492 ( 129th )"
+      },
+      "GDP (nominal": {
+        "Details": "2024 estimate",
+        "Total": "$17.843 billion ( 127th )",
+        "Per capita": "$2,673 ( 134th )"
+      },
+      "Gini": "46.2 high inequality",
+      "HDI": "0.706 high ( 123rd )",
+      "Currency": "Córdoba ( NIO )"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Senegal",
+  "infobox": {
+    "General": {
+      "Capital": "Dakar",
+      "Official languages": "French",
+      "National languages": "Wolof Serer Diola Pulaar Soninke Mandinka",
+      "Ethnic groups": {
+        "Wolof": "39.7%",
+        "Fula": "27.5%",
+        "Serer": "16%",
+        "Mandinka": "4.9%",
+        "Jola": "4.2%",
+        "Soninke": "2.4%",
+        "other": "5.4%"
+      },
+      "Religion": {
+        "Islam": "97.2%",
+        "Christianity": "2.7%",
+        "other": "0.1%"
+      },
+      "Demonyms": "Senegalese"
+    },
+    "Government": {
+      "Government": "Unitary presidential republic",
+      "Legislature": "National Assembly"
+    },
+    "Area": {
+      "Total": "196,722 km 2 (75,955 sq mi) ( 86th )",
+      "Water (%": "2.1"
+    },
+    "Population": {
+      "2024 estimate": "18,847,519 ( 68th )",
+      "Density": "96/km 2 (248.6/sq mi)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$105.428 billion ( 100th )",
+        "Per capita": "$5,498 ( 150th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$34.728 billion ( 103rd )",
+        "Per capita": "$1,811 ( 154th )"
+      },
+      "Gini": "40.3 medium inequality",
+      "HDI": "0.530 low ( 169th )",
+      "Currency": "West African CFA franc ( XOF )"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "country": "Central African Republic",
+  "infobox": {
+    "General": {
+      "Capital": "Bangui",
+      "Official languages": "French Sango (co-official)",
+      "Ethnic groups": "Baggara Arabs Baka Banda Bayaka Fula Gula Gbaya Kara Kresh Mbaka Mandja Ngbandi Runga Sara Vidiri Wodaabe Yakoma Yulu Kanuri Zande other",
+      "Religion": {
+        "Christianity": "73.2%",
+        "Islam": "13.9%",
+        "traditional faiths": "12%",
+        "other / none": "0.9%"
+      },
+      "Demonyms": "Central African"
+    },
+    "Government": {
+      "Government": "Unitary presidential republic",
+      "Legislature": "National Assembly"
+    },
+    "Area": {
+      "Total": "622,984 km 2 (240,535 sq mi) ( 44th )"
+    },
+    "Population": {
+      "2024 estimate": "5,650,957 ( 119th )",
+      "Density": "8.6/km 2 (22.3/sq mi) ( 221st )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2026 estimate",
+        "Total": "$7.940 billion ( 170th )",
+        "Per capita": "$1,390 ( 190th )"
+      },
+      "GDP (nominal": {
+        "Details": "2026 estimate",
+        "Total": "$3.710 billion ( 182nd )",
+        "Per capita": "$650 ( 191st )"
+      },
+      "Gini": "43 medium inequality",
+      "HDI": "0.414 low ( 191st )",
+      "Currency": "Central African CFA franc (XAF)"
+    }
+  }
+}

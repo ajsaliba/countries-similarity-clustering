@@ -1,0 +1,93 @@
+{
+    "country": "Morocco",
+    "url": "https://en.wikipedia.org/wiki/Morocco",
+    "infobox": {
+        "General": {
+            "Capital": "Rabat 34°02′N 6°51′W ﻿ / ﻿ 34.033°N 6.850°W ﻿ / 34.033; -6.850",
+            "Largest city": "Casablanca 33°32′N 7°35′W ﻿ / ﻿ 33.533°N 7.583°W ﻿ / 33.533; -7.583",
+            "Official languages": "Arabic Tamazight",
+            "Spoken languages (2024)": {
+                "Arabic": "92.7%",
+                "Moroccan Arabic": "91.9%",
+                "Hassaniya Arabic": "0.8%",
+                "Berber languages": "24.8%",
+                "Tashelhit": "14.2%",
+                "Tamazight": "7.4%",
+                "Tarifit": "3.2%"
+            },
+            "Foreign languages": "French English Spanish",
+            "Ethnic groups": "See Ethnic groups",
+            "Religion (2020)": {
+                "Islam ( official )": {
+                    "percentage": "99.68%",
+                    "breakdown": {
+                        "Sunni": "99.23%",
+                        "Shia": "0.45%"
+                    }
+                },
+                "Others": {
+                    "percentage": "0.3%",
+                    "breakdown": {
+                        "Agnostics": "0.13%"
+                    }
+                },
+                "Baháʼís": {
+                    "percentage": "0.1%",
+                    "breakdown": {
+                        "Christians": "0.09%"
+                    }
+                },
+                "Jews": "0.01%"
+            },
+            "Demonym": "Moroccan"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary semi-constitutional monarchy",
+            "King": "Mohammed VI",
+            "Prime Minister": "Aziz Akhannouch",
+            "Legislature": "Parliament",
+            "Upper house": "House of Councillors",
+            "Lower house": "House of Representatives"
+        },
+        "Establishment": {
+            "Idrisid dynasty": "788",
+            "' Alawi dynasty (current dynasty)": "1631",
+            "French protectorate": "30 March 1912"
+        },
+        "History": {
+            "Independence": "2 March 1956"
+        },
+        "Area": {
+            "Total": "446,550 km 2 (172,410 sq mi) ( 57th )",
+            "Water (%)": "0.056 (250 km 2 )"
+        },
+        "Population": {
+            "2024 estimate": "37,493,183 ( 38th )",
+            "2024 census": "36,828,330",
+            "Density": "79.0/km 2 (204.6/sq mi)"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$424.870 billion ( 57th )",
+                "Per capita": "$11,270 ( 122nd )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$165.840 billion ( 58th )",
+                "Per capita": "$4,440 ( 123rd )"
+            },
+            "Gini (2015)": "40.3 medium inequality",
+            "HDI (2023)": "0.710 high ( 120th )",
+            "Currency": "Moroccan dirham ( MAD )"
+        },
+        "Time": {
+            "Time zone": "UTC +1 UTC+0 (during Ramadan )"
+        },
+        "Codes": {
+            "Calling code": "+212",
+            "ISO 3166 code": "MA",
+            "Internet TLD": ".ma .المغرب"
+        }
+    }
+}

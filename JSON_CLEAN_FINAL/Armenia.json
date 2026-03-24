@@ -1,0 +1,51 @@
+{
+  "country": "Armenia",
+  "infobox": {
+    "General": {
+      "Capital": "Yerevan",
+      "Official languages": "Armenian",
+      "Official script": "Armenian alphabet",
+      "Ethnic groups": {
+        "Armenians": "98.1%",
+        "Yazidis": "1.1%",
+        "other": "0.8%"
+      },
+      "Religion": {
+        "Christianity": "96.8%",
+        "Armenian Apostolic Church": "95.2%",
+        "other Christian": "1.6%",
+        "no religion": "0.6%",
+        "other": "0.9%",
+        "unspecified": "1.7%"
+      },
+      "Demonyms": "Armenian"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic",
+      "Legislature": "National Assembly"
+    },
+    "Area": {
+      "Total": "29,743 km 2 (11,484 sq mi) ( 138th )",
+      "Water (%": "4.71"
+    },
+    "Population": {
+      "2025 estimate": "3,081,100 ( 135th )",
+      "Density": "103.6/km 2 (268.3/sq mi)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$74.407 billion ( 111th )",
+        "Per capita": "$23,954 ( 78th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$27.859 billion ( 118th )",
+        "Per capita": "$8,969 ( 88th )"
+      },
+      "Gini": "27.9 low inequality",
+      "HDI": "0.811 very high ( 69th )",
+      "Currency": "Dram ( ֏ ) ( AMD )"
+    }
+  }
+}

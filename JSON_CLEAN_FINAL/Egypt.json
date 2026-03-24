@@ -1,0 +1,41 @@
+{
+  "country": "Egypt",
+  "infobox": {
+    "General": {
+      "Capital": "Cairo",
+      "Official languages": "Arabic",
+      "National languages": "Egyptian Arabic",
+      "Demonyms": "Egyptian"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic under an authoritarian government",
+      "Legislature": "Parliament",
+      "Upper house": "Senate",
+      "Lower house": "House of Representatives"
+    },
+    "Area": {
+      "Total": "1,010,408 km 2 (390,121 sq mi) ( 29th )",
+      "Water (%": "0.632"
+    },
+    "Population": {
+      "July 2025 estimate": "107,868,296 ( 15th )",
+      "2017 census": "94,798,827",
+      "Density": "106.8/km 2 (276.6/sq mi) ( 102nd )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$2.372 trillion ( 18th )",
+        "Per capita": "$21,668 ( 87th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$347.342 billion ( 44th )",
+        "Per capita": "$3,174 ( 138th )"
+      },
+      "Gini": "28.5 low inequality",
+      "HDI": "0.754 high ( 100th )",
+      "Currency": "Egyptian pound (LE/E£/£E) ( EGP )"
+    }
+  }
+}

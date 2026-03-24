@@ -1,0 +1,50 @@
+{
+  "country": "Australia",
+  "infobox": {
+    "General": {
+      "Capital": "Canberra",
+      "Largest city": "Sydney (metropolitan) Melbourne (urban)",
+      "National languages": "English",
+      "Religion": {
+        "Christianity": "43.9%",
+        "no religion": "38.9%",
+        "Islam": "3.2%",
+        "Hinduism": "2.7%",
+        "Buddhism": "2.4%",
+        "other": "1.7%",
+        "unanswered": "7.2%"
+      },
+      "Demonyms": "Australian Aussie (colloquial)"
+    },
+    "Government": {
+      "Government": "Federal parliamentary constitutional monarchy",
+      "Legislature": "Parliament",
+      "Upper house": "Senate",
+      "Lower house": "House of Representatives"
+    },
+    "Area": {
+      "Total": "7,688,287 km 2 (2,968,464 sq mi) ( 6th )",
+      "Water (%": "1.79 (2015)"
+    },
+    "Population": {
+      "2026 estimate": "27,840,775 ( 54th )",
+      "2021 census": "25,890,773",
+      "Density": "3.7/km 2 (9.6/sq mi) ( 237th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$1.982 trillion ( 22nd )",
+        "Per capita": "$71,431 ( 26th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$1.830 trillion ( 15th )",
+        "Per capita": "$65,946 ( 13th )"
+      },
+      "Gini": "32.4 medium inequality",
+      "HDI": "0.958 very high ( 7th )",
+      "Currency": "Australian dollar ( $ ) ( AUD )"
+    }
+  }
+}

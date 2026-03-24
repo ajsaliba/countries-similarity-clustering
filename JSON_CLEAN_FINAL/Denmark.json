@@ -1,0 +1,39 @@
+{
+  "country": "Denmark",
+  "infobox": {
+    "General": {
+      "Capital": "Copenhagen",
+      "Official languages": "Danish ; locally: Faroese Greenlandic",
+      "Demonyms": "Danish ; locally: Greenlander Faroe Islander",
+      "Constituent territories (non‑sovereign parts": "Denmark (main) and separate parts: Faroe Islands Greenland"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary constitutional monarchy",
+      "Legislature": "Folketing, with some authority devolved to Løgting ( Faroe Islands ) and Inatsisartut ( Greenland )"
+    },
+    "Area": {
+      "Denmark": "42,926 km 2 (16,574 sq mi) ( 12th )",
+      "Faroe Islands": "1,396 km 2 (538.999 sq mi)",
+      "Greenland": "2,166,086 km 2 (836,330 sq mi)"
+    },
+    "Population": {
+      "Q2 2023 estimate": "6,049,579 ( 112th )",
+      "Denmark": "5,941,388",
+      "Greenland and Faroe Islands": "108,191"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2022 estimate",
+        "Total": "€380 billion",
+        "Per capita": "€62,814"
+      },
+      "GDP (nominal": {
+        "Details": "2019-2024 estimate",
+        "Total": "$418.659 billion",
+        "Per capita": "$69,205"
+      },
+      "HDI": "0.948 very high",
+      "Currency": "Danish krone ( DKK ) Faroese króna"
+    }
+  }
+}

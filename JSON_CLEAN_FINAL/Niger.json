@@ -1,0 +1,55 @@
+{
+  "country": "Niger",
+  "infobox": {
+    "General": {
+      "Capital": "Niamey",
+      "Official languages": "Hausa",
+      "National languages": "Arabic Buduma Fulfulde Gourmanchéma Kanuri Songhai Tamasheq Tassawaq Tebu Zarma",
+      "Ethnic groups": {
+        "Hausa": "53.1%",
+        "Zarma and Songhay": "21.2%",
+        "Tuareg": "11%",
+        "Fulani": "6.5%",
+        "Kanuri": "5.9%",
+        "Gurma": "0.8%",
+        "Toubou": "0.4%",
+        "Arab": "0.4%",
+        "other": "0.9%"
+      },
+      "Religion": {
+        "Islam": "99.3%",
+        "Christianity": "0.3%",
+        "Animism": "0.2%",
+        "irreligion": "0.1%"
+      },
+      "Demonyms": "Nigerien"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic under a military junta",
+      "Legislature": "National Council for the Safeguard of the Homeland"
+    },
+    "Area": {
+      "Total": "1,267,000 km 2 (489,000 sq mi) ( 21st )",
+      "Water (%": "0.02"
+    },
+    "Population": {
+      "2024 estimate": "26,342,784 ( 56th )",
+      "Density": "21/km 2 (54.4/sq mi) ( 204th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$61.040 billion ( 128th )",
+        "Per capita": "$2,100 ( 176th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$21.870 billion ( 123rd )",
+        "Per capita": "$751 ( 181st )"
+      },
+      "Gini": "32.9 medium inequality",
+      "HDI": "0.419 low ( 188th )",
+      "Currency": "West African CFA franc ( XOF )"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "country": "Chad",
+  "infobox": {
+    "General": {
+      "Capital": "N'Djamena",
+      "Official languages": "Arabic French",
+      "Religion": {
+        "Islam": "55.1%",
+        "Christianity": "41.1%",
+        "no religion": "2.4%",
+        "Animism": "1.3%",
+        "other": "0.1%"
+      },
+      "Demonyms": "Chadian"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic under a hereditary dictatorship",
+      "Legislature": "Bicameral parliament",
+      "Upper house": "Senate",
+      "Lower house": "National Assembly"
+    },
+    "Area": {
+      "Total": "1,280,000 km 2 (490,000 sq mi) ( 20th )",
+      "Water (%": "1.9"
+    },
+    "Population": {
+      "2024 estimate": "19,093,595 ( 66th )",
+      "Density": "14.4/km 2 (37.3/sq mi) ( 218th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2026 estimate",
+        "Total": "$63.070 billion ( 147th )",
+        "Per capita": "$3,240 ( 179th )"
+      },
+      "GDP (nominal": {
+        "Details": "2026 estimate",
+        "Total": "$23.560 billion ( 145th )",
+        "Per capita": "$1,210 ( 183rd )"
+      },
+      "Gini": "37.4 medium inequality",
+      "HDI": "0.416 low ( 190th )",
+      "Currency": "Central African CFA franc ( XAF )"
+    }
+  }
+}

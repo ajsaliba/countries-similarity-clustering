@@ -1,0 +1,61 @@
+{
+    "country": "Denmark",
+    "url": "https://en.wikipedia.org/wiki/Danish_Realm",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Copenhagen",
+            "Official languages": "Danish ; locally: Faroese Greenlandic",
+            "Recognised regional languages": "German",
+            "Demonyms": "Danish ; locally: Greenlander Faroe Islander",
+            "Constituent territories (non‑sovereign parts)": "Denmark (main) and separate parts: Faroe Islands Greenland",
+            "Monarch": "Frederik X"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Prime Minister": "Mette Frederiksen",
+            "Prime Minister of the Faroe Islands": "Aksel V. Johannesen",
+            "Prime Minister of Greenland": "Jens Frederik Nielsen",
+            "Legislature": "Folketing , with some authority devolved to Løgting ( Faroe Islands ) and Inatsisartut ( Greenland )"
+        },
+        "History": {
+            "Unification": "c. 965",
+            "Faroese home rule": "24 March 1948",
+            "Greenlandic home rule": "1 May 1979",
+            "Faroese takeover act": "29 July 2005",
+            "Greenlandic self rule": "21 June 2009"
+        },
+        "Area": {
+            "Denmark": "42,926 km 2 (16,574 sq mi) ( 12th )",
+            "Faroe Islands": "1,396 km 2 (538.999 sq mi)",
+            "Greenland": "2,166,086 km 2 (836,330 sq mi)"
+        },
+        "Population": {
+            "Q2 2023 estimate": "6,049,579 ( 112th )",
+            "Denmark": "5,941,388",
+            "Greenland and Faroe Islands": "108,191"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2022 estimate",
+                "Total": "€380 billion",
+                "Per capita": "€62,814"
+            },
+            "GDP (nominal)": {
+                "Details": "2019-2024 estimate",
+                "Total": "$418.659 billion",
+                "Per capita": "$69,205"
+            },
+            "HDI (2021)": "0.948 very high",
+            "Currency": "Danish krone ( DKK ) Faroese króna"
+        },
+        "Time": {
+            "Time zone": "List UTC +1 ( CET ) (Denmark) UTC ( WET ) (Faroe Islands) UTC-4 to 0 ( AST , WGT , EGT , GMT ) (Greenland)",
+            "Summer ( DST )": "List UTC+2 ( CEST ) (Denmark) UTC+1 ( WEST ) (Faroe Islands) UTC-3 to 0 ( ADT , WGST , EGST , GMT) (Greenland)"
+        },
+        "Codes": {
+            "Calling code": "3 codes +45 ( Denmark ) +298 ( Faroe Islands ) +299 ( Greenland )",
+            "ISO 3166 code": "DK",
+            "Internet TLD": "3 TLDs .dk (Denmark) .fo (Faroe Islands) .gl (Greenland)"
+        }
+    }
+}

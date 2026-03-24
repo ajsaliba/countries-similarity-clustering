@@ -1,0 +1,57 @@
+{
+  "country": "Liechtenstein",
+  "infobox": {
+    "General": {
+      "Capital": "Vaduz",
+      "Largest city": "Schaan",
+      "Official languages": "German",
+      "Nationality": {
+        "Liechtensteiners": "66.2%",
+        "Swiss": "9.5%",
+        "Austrians": "5.8%",
+        "Germans": "4.2%",
+        "Italians": "3.1%",
+        "Portuguese": "1.9%",
+        "Turks": "1.6%",
+        "Albanians": "1.1%",
+        "Spaniards": "1%",
+        "other": "5.6%"
+      },
+      "Religion": {
+        "Christianity": "79.4%",
+        "Catholicism": "69.6%",
+        "other Christian": "9.8%",
+        "no religion": "9.6%",
+        "Islam": "6%",
+        "other": "5%"
+      },
+      "Demonyms": "Liechtensteiner"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy",
+      "Legislature": "Landtag"
+    },
+    "Area": {
+      "Total": "160.50 km 2 (61.97 sq mi) ( 190th )",
+      "Water (%": "2.7"
+    },
+    "Population": {
+      "2023 estimate": "41,232 ( 189th )",
+      "Density": "249/km 2 (644.9/sq mi) ( 56th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2024 estimate",
+        "Total": "$7.172 billion ( 169th )",
+        "Per capita": "$210,600"
+      },
+      "GDP (nominal": {
+        "Details": "2023 estimate",
+        "Total": "$8.288 billion ( 155th )",
+        "Per capita": "$207,974"
+      },
+      "HDI": "0.938 very high ( 17th )",
+      "Currency": "Swiss franc ( CHF )"
+    }
+  }
+}

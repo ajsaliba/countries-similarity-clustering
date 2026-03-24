@@ -1,0 +1,53 @@
+{
+  "country": "Lithuania",
+  "infobox": {
+    "General": {
+      "Capital": "Vilnius",
+      "Official languages": "Lithuanian",
+      "Ethnic groups": {
+        "Lithuanians": "82.3%",
+        "Poles": "6.2%",
+        "Russians": "5%",
+        "Ukrainians": "2.2%",
+        "Belarusians": "2.1%",
+        "other": "2.2%"
+      },
+      "Religion": {
+        "Christianity": "79.4%",
+        "Catholicism": "74.2%",
+        "other Christian": "5.2%",
+        "no religion": "6.1%",
+        "other": "0.8%",
+        "no answer": "13.7%"
+      },
+      "Demonyms": "Lithuanian"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic",
+      "Legislature": "Seimas"
+    },
+    "Area": {
+      "Total": "65,300 km 2 (25,200 sq mi) ( 121st )",
+      "Water (%": "1.98 (2015)"
+    },
+    "Population": {
+      "2025 estimate": "2,897,430 ( 137th )",
+      "Density": "46/km 2 (119.1/sq mi) ( 174th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$165.23 billion ( 88th )",
+        "Per capita": "$57,201 ( 39th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$95.27 billion ( 78th )",
+        "Per capita": "$32,982 ( 40th )"
+      },
+      "Gini": "35.7 medium inequality",
+      "HDI": "0.895 very high ( 39th )",
+      "Currency": "Euro ( € ) ( EUR )"
+    }
+  }
+}

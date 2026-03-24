@@ -1,0 +1,67 @@
+{
+  "country": "United States",
+  "infobox": {
+    "General": {
+      "Capital": "Washington, D.C.",
+      "Largest city": "New York City",
+      "Official languages": "English",
+      "Ethnic groups": {
+        "White": "61.6%",
+        "Black": "12.4%",
+        "Asian": "6%",
+        "Native American": "1.1%",
+        "Pacific Islander": "0.2%",
+        "two or more races": "10.2%",
+        "non- Hispanic or Latino": "81.3%",
+        "Hispanic or Latino": "18.7%"
+      },
+      "Religion": {
+        "Christianity": "65%",
+        "Protestantism": {
+          "percentage": "32%",
+          "breakdown": {
+            "Catholicism": "20%",
+            "other Christian": "12%"
+          }
+        },
+        "Mormonism": "1%",
+        "unaffiliated": "24%",
+        "Judaism": "2%",
+        "other religion": "6%",
+        "unanswered": "3%"
+      },
+      "Demonyms": "American"
+    },
+    "Government": {
+      "Government": "Federal presidential republic",
+      "Legislature": "Congress",
+      "Upper house": "Senate",
+      "Lower house": "House of Representatives"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$30.616 trillion ( 2nd )",
+        "Per capita": "$89,599 ( 10th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$30.616 trillion ( 1st )",
+        "Per capita": "$89,599 ( 8th )"
+      },
+      "Gini": "41.8 medium inequality",
+      "HDI": "0.938 very high ( 17th )",
+      "Currency": "U.S. dollar ( $ ) ( USD )"
+    },
+    "Area": {
+      "Total area": "3,796,742 sq mi (9,833,520 km 2 ) ( 3rd )",
+      "Water (%": "7.0 (2010)",
+      "Land area": "3,531,905 sq mi (9,147,590 km 2 ) (3rd)"
+    },
+    "Population": {
+      "2025 estimate": "341,784,857",
+      "2020 census": "331,449,281 ( 3rd )",
+      "Density": "96.8/sq mi (37.4/km 2 ) ( 180th )"
+    }
+  }
+}

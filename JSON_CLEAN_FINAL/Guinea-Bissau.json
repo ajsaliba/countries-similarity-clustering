@@ -1,0 +1,53 @@
+{
+  "country": "Guinea-Bissau",
+  "infobox": {
+    "General": {
+      "Capital": "Bissau",
+      "Official languages": "Portuguese",
+      "Spoken languages": "Guinea-Bissau Creole English French Balanta Hassaniya Jola-Fonyi Mandinka Mandjak Mankanya Noon Portuguese Pulaar Serer Soninke",
+      "Ethnic groups": {
+        "Balanta": "30%",
+        "Fula": "30%",
+        "Manjak": "14%",
+        "Mandinka": "13%",
+        "Papel": "7%",
+        "other / unspecified": "6%"
+      },
+      "Religion": {
+        "Islam": "46.1%",
+        "Traditional": "30.6%",
+        "Christianity": "18.9%",
+        "No religion": "3%",
+        "other": "1%"
+      },
+      "Demonyms": "Guinean Bissau-Guinean"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic under a military junta",
+      "Legislature": "National Transitional Council (transitional) National People's Assembly (suspended)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$6.620 billion ( 172th )",
+        "Per capita": "$3,280 ( 168th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$2.270 billion ( 174th )",
+        "Per capita": "$1,130 ( 165th )"
+      },
+      "Gini": "33.4 medium inequality",
+      "HDI": "0.514 low ( 174th )",
+      "Currency": "West African CFA franc ( XOF )"
+    },
+    "Area": {
+      "Total": "36,125 km 2 (13,948 sq mi) ( 134th )",
+      "Water (%": "22.4"
+    },
+    "Population": {
+      "2023 estimate": "2,080,000 ( 150th )",
+      "Density": "47/km 2 (121.7/sq mi) ( 154th )"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "country": "Djibouti",
+  "infobox": {
+    "General": {
+      "Capital": "Djibouti City",
+      "Official languages": "Arabic French",
+      "National languages": "Somali Afar",
+      "Ethnic groups": {
+        "Arabs": "35%"
+      },
+      "Religion": {
+        "Islam": "94%",
+        "Sunni": "87%",
+        "Non-denominational": "8%",
+        "Shia": "2%",
+        "other": "3%",
+        "Christianity": "6%"
+      },
+      "Demonyms": "Djiboutian"
+    },
+    "Government": {
+      "Government": "Unitary dominant-party presidential republic under a hereditary dictatorship",
+      "Legislature": "National Assembly"
+    },
+    "Area": {
+      "Total": "23,200 km 2 (9,000 sq mi) ( 146th )",
+      "Water (%": "0.09 (20 km²/7.7 sq mi)"
+    },
+    "Population": {
+      "2024 census": "1,066,809",
+      "Density": "46.0/km 2 (119.1/sq mi) ( 168th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2023 estimate",
+        "Total": "$7.193 billion ( 167th )",
+        "Per capita": "$6,985 ( 137th )"
+      },
+      "GDP (nominal": {
+        "Details": "2023 estimate",
+        "Total": "$3.873 billion ( 172nd )",
+        "Per capita": "$3,761 ( 126th )"
+      },
+      "Gini": "41.6 medium inequality",
+      "HDI": "0.513 low ( 175th )",
+      "Currency": "Djiboutian franc ( DJF )"
+    }
+  }
+}

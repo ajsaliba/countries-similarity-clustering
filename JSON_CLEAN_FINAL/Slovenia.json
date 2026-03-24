@@ -1,0 +1,48 @@
+{
+  "country": "Slovenia",
+  "infobox": {
+    "General": {
+      "Capital": "Ljubljana",
+      "Official languages": "Slovene",
+      "Religion": {
+        "Christianity": "77.9%",
+        "Catholicism": "73.4%",
+        "Orthodoxy": "3.7%",
+        "other Christian": "0.7%",
+        "no religion": "18.3%",
+        "other": "3.9%"
+      },
+      "Demonyms": "Slovene Slovenian"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic",
+      "Legislature": "Parliament",
+      "Upper house": "National Council",
+      "Lower house": "National Assembly"
+    },
+    "Area": {
+      "Total": "20,272 km 2 (7,827 sq mi) ( 150th )",
+      "Water (%": "0.7"
+    },
+    "Population": {
+      "2023 estimate": "2,130,850 ( 145th )",
+      "2002 census": "1,964,036",
+      "Density": "103/km 2 (266.8/sq mi) ( 114th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$122,985 billion ( 99th )",
+        "Per capita": "$57,716 ( 36th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$79,222 billion ( 86th )",
+        "Per capita": "$37,178 ( 36th )"
+      },
+      "Gini": "23.4 low inequality",
+      "HDI": "0.931 very high ( 21st )",
+      "Currency": "Euro ( € ) ( EUR )"
+    }
+  }
+}

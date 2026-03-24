@@ -1,0 +1,50 @@
+{
+  "country": "Georgia",
+  "infobox": {
+    "General": {
+      "Capital": "Tbilisi",
+      "Official languages": "Georgian",
+      "Ethnic groups": {
+        "Georgians": "86.8%",
+        "Azerbaijanis": "6.2%",
+        "Armenians": "4.5%",
+        "Russians": "0.7%",
+        "other": "2.1%"
+      },
+      "Religion": {
+        "Christianity": "87.3%",
+        "Georgian Orthodoxy": "83.4%",
+        "other Christian": "3.9%",
+        "Islam": "10.7%",
+        "other / none": "2%"
+      },
+      "Demonyms": "Georgian"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic",
+      "Legislature": "Parliament"
+    },
+    "Area": {
+      "Total": "69,700 km 2 (26,900 sq mi) ( 119th )"
+    },
+    "Population": {
+      "2024 census": "3,657,000 ( 129th )",
+      "Density": "56.3/km 2 (145.8/sq mi) ( 165th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2026 estimate",
+        "Total": "$123,049 billion ( 98th )",
+        "Per capita": "$33,340 ( 67th )"
+      },
+      "GDP (nominal": {
+        "Details": "2026 estimate",
+        "Total": "$35.350 billion ( 103th )",
+        "Per capita": "$10,886 ( 83rd )"
+      },
+      "Gini": "34.2 medium inequality",
+      "HDI": "0.844 very high ( 57th )",
+      "Currency": "Georgian lari (₾) ( GEL )"
+    }
+  }
+}

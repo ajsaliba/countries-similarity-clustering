@@ -1,0 +1,88 @@
+{
+    "country": "Andorra",
+    "url": "https://en.wikipedia.org/wiki/Andorra",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Andorra la Vella 42°30′23″N 1°31′17″E ﻿ / ﻿ 42.50639°N 1.52139°E ﻿ / 42.50639; 1.52139",
+            "Official languages": "Catalan 44.1%",
+            "Other languages": {
+                "Portuguese": "13.5%",
+                "French": "10%",
+                "English": "3%",
+                "other": "6.8%"
+            },
+            "Ethnic groups (2024)": {
+                "Spaniards": "34.3%",
+                "Andorrans": "32.1%",
+                "Portuguese": "10%",
+                "French": "5.6%",
+                "others": "18%"
+            },
+            "Religion (2020)": {
+                "Christianity": {
+                    "percentage": "90.8%",
+                    "breakdown": {
+                        "Catholicism ( official )": "85.5%",
+                        "other Christian": "5.3%"
+                    }
+                },
+                "no religion": "6.9%",
+                "others": "2.3%"
+            },
+            "Demonyms": "Andorran"
+        },
+        "Economy": {
+            "Significant language": {
+                "Details": "Spanish 40.3%",
+                "Co-princes": "Josep-Lluís Serrano Pentinat Emmanuel Macron",
+                "Representatives": "Eduard Ibáñez Georges-François Leclerc",
+                "Prime minister": "Xavier Espot Zamora",
+                "General syndic": "Carles Ensenyat Reig"
+            },
+            "GDP ( PPP )": {
+                "Details": "2024 estimate",
+                "Total": "$6.001 billion ( 168th )",
+                "Per capita": "$69,146 ( 18th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2024 estimate",
+                "Total": "$3.897 billion ( 159th )",
+                "Per capita": "$44,900 ( 24th )"
+            },
+            "Gini (2023)": "40.0 medium inequality",
+            "HDI (2023)": "0.913 very high ( 32nd )",
+            "Currency": "Euro ( € ) ( EUR )"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional co-principality",
+            "Legislature": "General Council",
+            "From the Kingdom of France": "12 October 1652"
+        },
+        "Independence": {
+            "First Paréage": "8 September 1278",
+            "From the Principality of Catalonia": "1715",
+            "From the French Empire": "1814"
+        },
+        "History": {
+            "Constitution": "2 February 1993"
+        },
+        "Area": {
+            "Total": "467.63 km 2 (180.55 sq mi) ( 178th )",
+            "Water (%)": "0.26 (121.4 ha )"
+        },
+        "Population": {
+            "2025 estimate": "89,058 ( 185th )",
+            "Density": "187.1/km 2 (484.6/sq mi) ( 71st )",
+            "Date format": "dd/mm/yyyy"
+        },
+        "Time": {
+            "Time zone": "UTC +01:00 ( CET )",
+            "Summer ( DST )": "UTC +02:00 ( CEST )"
+        },
+        "Codes": {
+            "Calling code": "+376",
+            "ISO 3166 code": "AD",
+            "Internet TLD": ".ad"
+        }
+    }
+}

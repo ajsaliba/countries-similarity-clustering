@@ -1,0 +1,82 @@
+{
+    "country": "Saint Vincent and the Grenadines",
+    "url": "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Kingstown 13°10′N 61°14′W ﻿ / ﻿ 13.167°N 61.233°W ﻿ / 13.167; -61.233",
+            "Official languages": "English",
+            "Vernacular language": "Vincentian Creole",
+            "Ethnic groups (2020)": {
+                "African": "66%",
+                "Mixed": "19%",
+                "Indian": "6%",
+                "European": "4%",
+                "Kalinago": "2%",
+                "others": "3%"
+            },
+            "Religion (2020)": {
+                "Christianity": {
+                    "percentage": "88.6%",
+                    "breakdown": {
+                        "Protestantism": "70.2%",
+                        "Other Christian": "18.4%"
+                    }
+                },
+                "Hinduism": "3.4%",
+                "Irreligion": "2.5%",
+                "Rastafari": {
+                    "percentage": "1.8%",
+                    "breakdown": {
+                        "Baháʼí Faith": "1.6%"
+                    }
+                },
+                "Islam": "1.5%",
+                "Other": "0.5%"
+            },
+            "Demonyms": "Vincentian Grenadinian Saint Vincentian Vincy (colloquial)",
+            "Monarch": "Charles III",
+            "Governor-General": "Sir Stanley John"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Prime Minister": "Godwin Friday",
+            "Legislature": "House of Assembly",
+            "from the United Kingdom": "27 October 1979"
+        },
+        "Independence": {
+            "Associated State": "27 October 1969"
+        },
+        "Area": {
+            "Total": "389 km 2 (150 sq mi) ( 184th )",
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "2022 estimate": "110,872 ( 180th )",
+            "2012 census": "109,991",
+            "Density": "307/km 2 (795.1/sq mi) ( 39th )",
+            "Date format": "mm/dd/yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2023 estimate",
+                "Total": "$2 billion",
+                "Per capita": "$17,840"
+            },
+            "GDP (nominal)": {
+                "Details": "2023 estimate",
+                "Total": "$1 billion",
+                "Per capita": "$9,360"
+            },
+            "HDI (2023)": "0.798 high ( 76th )",
+            "Currency": "East Caribbean dollar ( XCD )"
+        },
+        "Time": {
+            "Time zone": "UTC -4 ( AST )"
+        },
+        "Codes": {
+            "Calling code": "+1",
+            "ISO 3166 code": "VC",
+            "Internet TLD": ".vc"
+        }
+    }
+}

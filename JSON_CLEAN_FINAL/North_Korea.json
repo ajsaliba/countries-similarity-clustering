@@ -1,0 +1,45 @@
+{
+  "country": "North Korea",
+  "infobox": {
+    "General": {
+      "Capital": "Pyongyang",
+      "Official languages": "Korean ( Munhwaŏ )",
+      "Official script": "Chosŏn'gŭl",
+      "Religion": {
+        "no religion": "73%",
+        "Chondoism": "13%",
+        "Shamanism": "12%",
+        "Buddhism": "1.5%",
+        "other": "0.5%"
+      },
+      "Demonyms": "North Korean Korean"
+    },
+    "Government": {
+      "Government": "Unitary communist state",
+      "Legislature": "Supreme People's Assembly"
+    },
+    "Area": {
+      "Total": "120,538 km 2 (46,540 sq mi) ( 98th )",
+      "Water (%": "0.11"
+    },
+    "Population": {
+      "2024 estimate": "26,298,666 ( 54th )",
+      "2008 census": "24,052,231",
+      "Density": "212/km 2 (549.1/sq mi) ( 68th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2023 estimate",
+        "Total": "$15.416 billion",
+        "Per capita": "$600"
+      },
+      "GDP (nominal": {
+        "Details": "2024 estimate",
+        "Total": "$32.036 billion",
+        "Per capita": "$1,261"
+      },
+      "Gini": "16.6 low inequality",
+      "Currency": "Korean People's won (₩) ( KPW )"
+    }
+  }
+}

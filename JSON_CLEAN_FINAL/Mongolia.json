@@ -1,0 +1,51 @@
+{
+  "country": "Mongolia",
+  "infobox": {
+    "General": {
+      "Capital": "Ulaanbaatar",
+      "Official languages": "Mongolian ( Buriat Khalkha Oirat )",
+      "Official scripts": "Mongolian Cyrillic",
+      "Ethnic groups": {
+        "Mongols": "95.6%",
+        "Kazakhs": "3.8%",
+        "other": "0.6%"
+      },
+      "Religion": {
+        "Buddhism": "51.7%",
+        "No religion": "40.6%",
+        "Islam": "3.2%",
+        "Shamanism": "2.5%",
+        "Christianity": "1.3%",
+        "other": "0.7%"
+      },
+      "Demonyms": "Mongolian, Mongol"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic",
+      "Legislature": "State Great Khural"
+    },
+    "Area": {
+      "Total": "1,564,116 km 2 (603,909 sq mi) ( 18th )",
+      "Water (%": "0.67"
+    },
+    "Population": {
+      "2023 estimate": "3,504,741 ( 131st )",
+      "Density": "2.24/km 2 (5.8/sq mi) ( 238th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$73.280 billion ( 113th )",
+        "Per capita": "$20,450 ( 90th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$25.800 billion ( 118th )",
+        "Per capita": "$7,200 ( 97th )"
+      },
+      "Gini": "32.7 medium inequality",
+      "HDI": "0.747 high ( 104th )",
+      "Currency": "Tögrög ( MNT )"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "country": "Nauru",
+    "url": "https://en.wikipedia.org/wiki/Nauru",
+    "infobox": {
+        "General": {
+            "Capital": "Yaren ( de facto ) 0°32′51″S 166°55′3″E ﻿ / ﻿ 0.54750°S 166.91750°E ﻿ / -0.54750; 166.91750 ﻿ ( Government House )",
+            "Largest city": "Denigomodu",
+            "Official languages": "Nauruan English",
+            "Demonym": "Nauruan"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic with an executive presidency under a non-partisan democracy",
+            "President": "David Adeang",
+            "Speaker of the Parliament": "Marcus Stephen",
+            "Minister Assisting the President": "Lionel Aingimea",
+            "Legislature": "Parliament"
+        },
+        "History": {
+            "Declaration of independence": "31 January 1968"
+        },
+        "Area": {
+            "Total": "21 km 2 (8.1 sq mi) ( 193rd )",
+            "Water (%)": "0.57"
+        },
+        "Population": {
+            "2025 estimate": "12,025 ( 239th )",
+            "2011 census": "12,000",
+            "Density": "480/km 2 (1,243.2/sq mi) ( 20th )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$132 million ( 192nd )",
+                "Per capita": "$10,962 ( 119th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$172 million ( 195th )",
+                "Per capita": "$14,274 ( 75th )"
+            },
+            "HDI (2023)": "0.703 high ( 124th )",
+            "Currency": "Australian dollar ( AUD )"
+        },
+        "Time": {
+            "Time zone": "UTC+12"
+        },
+        "Codes": {
+            "Calling code": "+674",
+            "ISO 3166 code": "NR",
+            "Internet TLD": ".nr"
+        }
+    }
+}

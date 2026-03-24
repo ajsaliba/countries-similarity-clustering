@@ -1,0 +1,55 @@
+{
+  "country": "Palestine",
+  "infobox": {
+    "General": {
+      "Status": "UN observer state under Israeli occupation Recognized by 157 UN member states",
+      "Capital Administrative center": "Jerusalem ( limited recognition ) Ramallah ( de facto )",
+      "Largest city": "Gaza (before 2023), currently in flux",
+      "Official languages": "Arabic",
+      "Ethnic groups": {
+        "Palestinian Arabs": "91.2%",
+        "Israeli Jews": "8.8%"
+      },
+      "Religion": {
+        "Islam": "80.73%",
+        "Sunni": "71.21%",
+        "Shia": "0.09%",
+        "other": "9.42%",
+        "Judaism": "13.07%",
+        "Christianity": "0.88%",
+        "Baháʼí Faith": "0.05%",
+        "irreligion": "5.27%"
+      },
+      "Demonyms": "Palestinian"
+    },
+    "Government": {
+      "Government": "Unitary provisional semi-presidential republic",
+      "Legislature": "Legislative Council"
+    },
+    "Area": {
+      "Total": "6,020 km 2 (2,320 sq mi) ( 163rd )",
+      "Water (%": "3.5",
+      "West Bank": "5,655 km 2",
+      "Gaza Strip": "365 km 2"
+    },
+    "Population": {
+      "2023 estimate": "5,483,450 ( 121st )",
+      "Density": "731/km 2 (1,893.3/sq mi)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2023 estimate",
+        "Total": "$36.391 billion ( 138th )",
+        "Per capita": "$6,642 ( 140th )"
+      },
+      "GDP (nominal": {
+        "Details": "2023 estimate",
+        "Total": "$18.109 billion ( 121st )",
+        "Per capita": "$3,464 ( 131st )"
+      },
+      "Gini": "33.7 medium inequality",
+      "HDI": "0.674 medium ( 133rd )",
+      "Currency": "Israeli new shekel Jordanian dinar Egyptian pound"
+    }
+  }
+}

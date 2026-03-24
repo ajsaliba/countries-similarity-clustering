@@ -1,0 +1,37 @@
+{
+  "country": "Netherlands",
+  "infobox": {
+    "General": {
+      "Capital": "Amsterdam",
+      "Official languages": "Dutch",
+      "Official regional languages": "English Papiamento West Frisian",
+      "Demonyms": "Dutch",
+      "Countries (non‑sovereign parts": "Netherlands Aruba Curaçao Sint Maarten"
+    },
+    "Government": {
+      "Government seat": "The Hague",
+      "Government": "Devolved unitary parliamentary constitutional monarchy"
+    },
+    "Area": {
+      "Total": "42,531 km 2 (16,421 sq mi) ( 131st )",
+      "Water (%": "18.96"
+    },
+    "Population": {
+      "2026 estimate": "18,290,379 ( 69th )",
+      "Density": "532/km 2 (1,377.9/sq mi)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2026 estimate",
+        "Total": "$1.581 trillion ( 28th )",
+        "Per capita": "$87,173 ( 10th )"
+      },
+      "GDP (nominal": {
+        "Details": "2026 estimate",
+        "Total": "$1.326 trillion ( 18th )",
+        "Per capita": "$73,091 ( 10th )"
+      },
+      "Currency": "4 currencies Euro ( EUR ) ( Europe ) United States dollar ( USD ) ( Caribbean Netherlands ) Caribbean guilder ( XCG ) ( Curaçao/Sint Maarten ) Aruban florin ( AWG ) ( Aruba )"
+    }
+  }
+}

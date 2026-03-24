@@ -1,0 +1,64 @@
+{
+  "country": "United Arab Emirates",
+  "infobox": {
+    "General": {
+      "Capital": "Abu Dhabi",
+      "Largest city": "Dubai",
+      "Official languages": "Arabic",
+      "Common languages": "Emirati Arabic English",
+      "Ethnic groups": {
+        "South Asian": "59.4%",
+        "Indian": "38.2%",
+        "Bangladeshi": "9.5%",
+        "Pakistani": "9.4%",
+        "other": "12.4%",
+        "Emirati Arab": "12%",
+        "Egyptian": "10.2%",
+        "Filipino": "6.1%"
+      },
+      "Religion": {
+        "Islam": "74.5%",
+        "Sunni Islam": "63.3%",
+        "Shia Islam": "6.7%",
+        "other": "4.4%",
+        "Christianity": "12.9%",
+        "Hinduism": "6.2%",
+        "Buddhism": {
+          "percentage": "3.2%",
+          "breakdown": {
+            "Agnosticism": "1.3%",
+            "other": "1.9%"
+          }
+        }
+      },
+      "Demonyms": "Emirati"
+    },
+    "Government": {
+      "Government": "Federal semi-presidential elective semi-constitutional monarchy",
+      "Legislature": "Federal Supreme Council"
+    },
+    "Area": {
+      "Total": "83,600 km 2 (32,300 sq mi) ( 114th )",
+      "Water (%": "Negligible"
+    },
+    "Population": {
+      "2024 estimate": "11,027,129",
+      "Density": "132/km 2 (341.9/sq mi) ( 83rd )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$905.23 billion ( 36th )",
+        "Per capita": "$81,680 ( 13th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$548.60 billion ( 28th )",
+        "Per capita": "$49,550 ( 21st )"
+      },
+      "Gini": "26 low inequality",
+      "HDI": "0.940 very high ( 15th )",
+      "Currency": "UAE dirham ( AED )"
+    }
+  }
+}

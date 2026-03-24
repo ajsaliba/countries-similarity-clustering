@@ -1,0 +1,57 @@
+{
+  "country": "Andorra",
+  "infobox": {
+    "General": {
+      "Capital": "Andorra la Vella",
+      "Official languages": "Catalan 44.1%",
+      "Other languages": {
+        "Portuguese": "13.5%",
+        "French": "10%",
+        "English": "3%",
+        "other": "6.8%"
+      },
+      "Ethnic groups": {
+        "Spaniards": "34.3%",
+        "Andorrans": "32.1%",
+        "Portuguese": "10%",
+        "French": "5.6%",
+        "other": "18%"
+      },
+      "Religion": {
+        "Christianity": "90.8%",
+        "Catholicism": "85.5%",
+        "other Christian": "5.3%",
+        "no religion": "6.9%",
+        "other": "2.3%"
+      },
+      "Demonyms": "Andorran"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2024 estimate",
+        "Total": "$6.001 billion ( 168th )",
+        "Per capita": "$69,146 ( 18th )"
+      },
+      "GDP (nominal": {
+        "Details": "2024 estimate",
+        "Total": "$3.897 billion ( 159th )",
+        "Per capita": "$44,900 ( 24th )"
+      },
+      "Gini": "40.0 medium inequality",
+      "HDI": "0.913 very high ( 32nd )",
+      "Currency": "Euro ( € ) ( EUR )"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary constitutional co-principality",
+      "Legislature": "General Council"
+    },
+    "Area": {
+      "Total": "467.63 km 2 (180.55 sq mi) ( 178th )",
+      "Water (%": "0.26 (121.4 ha )"
+    },
+    "Population": {
+      "2025 estimate": "89,058 ( 185th )",
+      "Density": "187.1/km 2 (484.6/sq mi) ( 71st )"
+    }
+  }
+}

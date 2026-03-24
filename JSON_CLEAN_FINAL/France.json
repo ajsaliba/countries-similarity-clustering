@@ -1,0 +1,51 @@
+{
+  "country": "France",
+  "infobox": {
+    "General": {
+      "Capital": "Paris",
+      "Official languages": "French",
+      "Religion": {
+        "Christianity": "50%",
+        "irreligion": "33%",
+        "Islam": "4%",
+        "other religions": "4%"
+      },
+      "Demonyms": "French"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic",
+      "Legislature": "Parliament",
+      "Upper house": "Senate",
+      "Lower house": "National Assembly"
+    },
+    "Area": {
+      "Total": "632,702.3 km 2 (244,287.7 sq mi) (including metropolitan France and overseas France and excluding Terre Adelie ) ( 42nd )",
+      "Water (%": "0.86",
+      "Metropolitan France ( DGCL": "543,941 km 2 (210,017 sq mi) ( 50th )",
+      "Metropolitan France ( INSEE": "543,908.3 km 2 (210,004.2 sq mi) ( 50th )"
+    },
+    "Population": {
+      "January 2026 estimate": "69,081,996 ( 21st )",
+      "Density": [
+        "109/km 2 (283/sq mi) ( 106th )",
+        "123/km 2 (318.6/sq mi) ( 97th )"
+      ],
+      "Metropolitan France, estimate as of January 2026": "66,792,845 ( 21st )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$4.504 trillion ( 9th )",
+        "Per capita": "$65,626 ( 25th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$3.211 trillion ( 7th )",
+        "Per capita": "$46,792 ( 22nd )"
+      },
+      "Gini": "29.8 low inequality",
+      "HDI": "0.920 very high ( 26th )",
+      "Currency": "Euro ( € ) ( EUR ) CFP franc (XPF)"
+    }
+  }
+}

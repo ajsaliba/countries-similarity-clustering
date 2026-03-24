@@ -1,0 +1,75 @@
+{
+    "country": "Malaysia",
+    "url": "https://en.wikipedia.org/wiki/Malaysia",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Kuala Lumpur 3°8′N 101°41′E ﻿ / ﻿ 3.133°N 101.683°E ﻿ / 3.133; 101.683",
+            "Administrative center": "Putrajaya 2°56′N 101°42′E ﻿ / ﻿ 2.933°N 101.700°E ﻿ / 2.933; 101.700",
+            "National language (official)": "Malay",
+            "Recognised languages": "English",
+            "Ethnic groups (2023)": {
+                "Bumiputera": "70.5%",
+                "Malay": "57.3%",
+                "indigenous groups of Sabah , Sarawak , Orang Asli and other": "13.2%",
+                "Chinese": "22.9%",
+                "Indian": "6.6%"
+            },
+            "Religion (2020)": {
+                "Islam ( official )": "63.5%",
+                "Buddhism": "18.7%",
+                "Christianity": "9.1%",
+                "Hinduism": "6.1%",
+                "other": "0.9%",
+                "unknown": "1.8%"
+            },
+            "Demonym": "Malaysian",
+            "Monarch": "Ibrahim Iskandar"
+        },
+        "Government": {
+            "Government": "Federal parliamentary constitutional elective monarchy",
+            "Prime Minister": "Anwar Ibrahim",
+            "Legislature": "Parliament",
+            "Upper house": "Dewan Negara",
+            "Lower house": "Dewan Rakyat"
+        },
+        "Independence from the United Kingdom": {
+            "Federation of Malaya": "31 August 1957",
+            "Sarawak self-governance": "22 July 1963",
+            "North Borneo self-governance": "31 August 1963",
+            "Proclamation of Malaysia": "16 September 1963"
+        },
+        "Area": {
+            "Total": "330,803 km 2 (127,724 sq mi) ( 67th )",
+            "Water (%)": "0.3"
+        },
+        "Population": {
+            "2024 estimate": "34,564,810 ( 43rd )",
+            "2020 census": "32,447,385",
+            "Density": "101/km 2 (261.6/sq mi) ( 116th )",
+            "Date format": "dd-mm-yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$1.478 trillion ( 30th )",
+                "Per capita": "$43,665 ( 52nd )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$470,572 billion ( 35th )",
+                "Per capita": "$13,901 ( 76th )"
+            },
+            "Gini (2024)": "39.0 medium inequality",
+            "HDI (2023)": "0.819 very high ( 67th )",
+            "Currency": "Malaysian ringgit (RM) ( MYR )"
+        },
+        "Time": {
+            "Time zone": "UTC +8 ( MST )"
+        },
+        "Codes": {
+            "Calling code": "+60",
+            "ISO 3166 code": "MY",
+            "Internet TLD": ".my"
+        }
+    }
+}

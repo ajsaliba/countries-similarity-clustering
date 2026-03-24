@@ -1,0 +1,50 @@
+{
+  "country": "Azerbaijan",
+  "infobox": {
+    "General": {
+      "Capital": "Baku",
+      "Official languages": "Azerbaijani",
+      "Ethnic groups": {
+        "Azerbaijani": "94.8%",
+        "Lezgin": "1.7%",
+        "Talysh": "0.9%",
+        "Russian": "0.7%",
+        "other": "1.9%"
+      },
+      "Religion": {
+        "Islam": "97.3%",
+        "Christianity": "2.6%",
+        "other religion": "0.1%",
+        "unaffiliated": "0.1%"
+      },
+      "Demonyms": "Azerbaijani Azeri"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic under an authoritarian hereditary dictatorship",
+      "Legislature": "National Assembly"
+    },
+    "Area": {
+      "Total": "86,600 km 2 (33,400 sq mi) ( 112th )",
+      "Water (%": "1.6"
+    },
+    "Population": {
+      "2022 estimate": "10,353,296 ( 90th )",
+      "Density": "117/km 2 (303.0/sq mi) ( 99th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2024 estimate",
+        "Total": "$272 billion ( 78th )",
+        "Per capita": "$26,235 ( 88th )"
+      },
+      "GDP (nominal": {
+        "Details": "2024 estimate",
+        "Total": "79 billion ( 82nd )",
+        "Per capita": "$7,604 ( 90th )"
+      },
+      "Gini": "33.7 medium inequality",
+      "HDI": "0.789 high ( 81st )",
+      "Currency": "Manat (₼) ( AZN )"
+    }
+  }
+}

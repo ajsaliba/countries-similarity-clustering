@@ -1,0 +1,56 @@
+{
+  "country": "South Africa",
+  "infobox": {
+    "General": {
+      "Capital": "Pretoria (executive) Cape Town (legislative) Bloemfontein (judicial)",
+      "Largest city": "Johannesburg",
+      "Official languages": "12 languages Afrikaans English Ndebele Sepedi Sesotho Setswana South African Sign Language Swazi Tshivenda Xhosa Xitsonga Zulu Languages with special status Khoe languages Nama Khoisan languages German Greek Gujarati Hindi Portuguese Telugu Tamil Urdu Arabic Hebrew Sanskrit",
+      "Ethnic groups": {
+        "Black": "81.4%",
+        "Coloured": "8.2%",
+        "White": "7.3%",
+        "Indian or Asian": "2.7%",
+        "other": "0.4%"
+      },
+      "Religion": {
+        "Christianity": "85.3%",
+        "Traditional faiths": "7.8%",
+        "No religion": "3.1%",
+        "Islam": "1.6%",
+        "Hinduism": "1.1%",
+        "other": "1.1%"
+      },
+      "Demonyms": "South African"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic with an executive presidency",
+      "Legislature": "Parliament",
+      "Upper house": "National Council of Provinces",
+      "Lower house": "National Assembly"
+    },
+    "Area": {
+      "Total": "1,221,037 km 2 (471,445 sq mi) ( 24th )",
+      "Water (%": "0.380"
+    },
+    "Population": {
+      "2024 estimate": "63,015,904 ( 23rd )",
+      "2022 census": "62,027,503 ( 23rd )",
+      "Density": "50.8/km 2 (131.6/sq mi) ( 169th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2026 estimate",
+        "Total": "$1.060 trillion ( 33rd )",
+        "Per capita": "$16,280 ( 107th )"
+      },
+      "GDP (nominal": {
+        "Details": "2026 estimate",
+        "Total": "$443.64 billion ( 38th )",
+        "Per capita": "$6,830 ( 107th )"
+      },
+      "Gini": "63.0 very high inequality",
+      "HDI": "0.741 high ( 106th )",
+      "Currency": "South African rand ( ZAR )"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "country": "Ghana",
+  "infobox": {
+    "General": {
+      "Capital": "Accra",
+      "Official languages": "English",
+      "Ethnic groups": {
+        "Akan": "45.7%",
+        "Mole-Dagbon": "18.5%",
+        "Ewe": "12.8%",
+        "Ga-Adangbe": "7.1%",
+        "Gurma": "6.4%",
+        "Guan": "3.2%",
+        "Gurunsi": "2.7%",
+        "Mande": "2%",
+        "other": "1.6%"
+      },
+      "Religion": {
+        "Christianity": "71.3%",
+        "Islam": "19.9%",
+        "traditional faiths": "3.2%",
+        "irreligion": "1.1%",
+        "other": "4.5%"
+      },
+      "Demonyms": "Ghanaian"
+    },
+    "Government": {
+      "Government-sponsored languages": "Twi Fante Ewe Dagaare Dagbanli Adangme Ga Gonja Kasem Nzema",
+      "Government": "Unitary presidential republic",
+      "Legislature": "Parliament"
+    },
+    "Area": {
+      "Total": "240,000 km 2 (93,000 sq mi) ( 80th )",
+      "Water (%": "4.61 (11,000 km 2 ; 4,247 mi 2 )"
+    },
+    "Population": {
+      "2025 estimate": "35,039,451 ( 46th )",
+      "Density": "151/km 2 (391.1/sq mi) ( 90th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$295.12 billion ( 68th )",
+        "Per capita": "$8,042 ( 132nd )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$88.033 billion ( 79th )",
+        "Per capita": "$2,520 ( 143rd )"
+      },
+      "Gini": "44 medium inequality",
+      "HDI": "0.628 medium ( 143rd )",
+      "Currency": "Cedi ( GHS )"
+    }
+  }
+}

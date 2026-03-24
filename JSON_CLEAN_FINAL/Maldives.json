@@ -1,0 +1,39 @@
+{
+  "country": "Maldives",
+  "infobox": {
+    "General": {
+      "Capital": "Malé",
+      "Official languages": "Dhivehi",
+      "Common language": "English",
+      "Religion": "Sunni Islam",
+      "Demonyms": "Maldivian"
+    },
+    "Government": {
+      "Government": "Unitary presidential republic",
+      "Legislature": "People's Majlis"
+    },
+    "Area": {
+      "Total": "298 km 2 (115 sq mi) ( 187th )"
+    },
+    "Population": {
+      "2024 estimate": "601,269",
+      "2022 census": "515,132 ( 167th )",
+      "Density": "1,728.63/km 2 (4,477.1/sq mi) ( 8th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2024 estimate",
+        "Total": "$13.867 billion ( 157th )",
+        "Per capita": "$34,322 ( 54th )"
+      },
+      "GDP (nominal": {
+        "Details": "2024 estimate",
+        "Total": "$6.984 billion ( 161st )",
+        "Per capita": "$17,287 ( 58th )"
+      },
+      "Gini": "31.3 medium inequality",
+      "HDI": "0.766 high ( 93rd )",
+      "Currency": "Maldivian rufiyaa ( MVR )"
+    }
+  }
+}

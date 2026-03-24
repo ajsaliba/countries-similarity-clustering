@@ -1,0 +1,53 @@
+{
+  "country": "Serbia",
+  "infobox": {
+    "General": {
+      "Capital": "Belgrade",
+      "Official languages": "Serbian",
+      "Ethnic groups": {
+        "Serbs": "80.6%",
+        "Hungarians": "2.8%",
+        "Bosniaks": "2.3%",
+        "Roma": "2%",
+        "other": "5.4%"
+      },
+      "Religion": {
+        "Christianity": "86.6%",
+        "Eastern Orthodoxy": "81.1%",
+        "Catholicism": "3.9%",
+        "other": "1.7%",
+        "Islam": "4.2%",
+        "no religion": "1.1%"
+      },
+      "Demonyms": "Serbian"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic",
+      "Legislature": "National Assembly"
+    },
+    "Area": {
+      "Total": "88,499 km 2 (34,170 sq mi) ( 111th )",
+      "Excluding Kosovo": "77,589 km 2 (29,957 sq mi) (115th)"
+    },
+    "Population": {
+      "2025 estimate": "6,567,783 ( 107th )",
+      "2022 census": "6,647,003 ( 107th )",
+      "Density": "85/km 2 (220.1/sq mi) ( 127th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2026 estimate",
+        "Total": "$225.55 billion ( 78th )",
+        "Per capita": "$34,790 ( 66th )"
+      },
+      "GDP (nominal": {
+        "Details": "2026 estimate",
+        "Total": "$112.11 billion ( 69th )",
+        "Per capita": "$17,290 ( 66th )"
+      },
+      "Gini": "31.9 medium inequality",
+      "HDI": "0.833 very high ( 62nd )",
+      "Currency": "Serbian dinar ( RSD )"
+    }
+  }
+}

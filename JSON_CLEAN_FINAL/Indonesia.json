@@ -1,0 +1,58 @@
+{
+  "country": "Indonesia",
+  "infobox": {
+    "General": {
+      "Capital": "Jakarta",
+      "Official languages": "Indonesian",
+      "Indigenous languages": "718 languages",
+      "Writing system": "Latin (predominantly) Regional Balinese Batak Javanese Jawi - Pegon Lontara Makasar Sundanese Ulu",
+      "Ethnic groups": {
+        "Javanese": "40.2%",
+        "Sundanese": "15.5%",
+        "Malay": "3.7%",
+        "Batak": "3.6%",
+        "Madurese": "3%",
+        "others ( 600+ ethnic groups": "34%"
+      },
+      "Religion": {
+        "Islam": "87.1%",
+        "Christianity": "10.45%",
+        "Protestantism": "7.38%",
+        "Catholicism": "3.07%",
+        "Hinduism": "1.7%",
+        "Buddhism, Folk, Confucianism, and others": "0.8%"
+      },
+      "Demonyms": "Indonesian"
+    },
+    "Government": {
+      "Government": "Unitary presidential republic",
+      "Legislature": "People's Consultative Assembly (MPR)",
+      "Upper house": "Regional Representative Council (DPD)",
+      "Lower house": "House of Representatives (DPR)"
+    },
+    "Area": {
+      "Total": "1,904,569 km 2 (735,358 sq mi) ( 14th )",
+      "Water (%": "4.85"
+    },
+    "Population": {
+      "2025 estimate": "288.315.089 ( 4th )",
+      "2020 census": "270,203,917",
+      "Density": "143/km 2 (370.4/sq mi) ( 88th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$5.009 trillion ( 7th )",
+        "Per capita": "$17,612 ( 103rd )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$1.430 trillion ( 17th )",
+        "Per capita": "$5,027 ( 116th )"
+      },
+      "Gini": "37.9 medium inequality",
+      "HDI": "0.728 high ( 113th )",
+      "Currency": "Indonesian rupiah (Rp) ( IDR )"
+    }
+  }
+}

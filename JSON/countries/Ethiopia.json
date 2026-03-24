@@ -1,0 +1,97 @@
+{
+    "country": "Ethiopia",
+    "url": "https://en.wikipedia.org/wiki/Ethiopia",
+    "infobox": {
+        "General": {
+            "Afar :": [
+                "Itiyoppiya Federalih Demokrasih Ummuno",
+                "Itiyoppiya Federalih Demokrasih Ummuno"
+            ],
+            "Arabic :": "جمهورية إثيوبيا الاتحادية الديمقراطية",
+            "Oromo :": "Rippabliikii Federaalawaa Dimokraatawaa Itoophiyaa",
+            "Somali :": "Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya",
+            "Tigrinya :": "ናይኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ",
+            "Capital and largest city": "Addis Ababa 9°1′N 38°45′E ﻿ / ﻿ 9.017°N 38.750°E ﻿ / 9.017; 38.750",
+            "Official languages": "Afar Amharic Oromo Somali Tigrinya",
+            "Regional languages": "Harari Sidama Languages of Ethiopia",
+            "Ethnic groups (2007 )": {
+                "Oromo": "34.5%",
+                "Amhara": "26.9%",
+                "Somali": "6.2%",
+                "Tigrayan": "6.1%",
+                "Sidama": "4%",
+                "Gurage": "2.5%",
+                "Welayta": "2.3%",
+                "Hadiya": "1.7%",
+                "Afar": "1.7%",
+                "Gamo": "1.5%",
+                "others": "12.6%"
+            },
+            "Religion (2016 )": {
+                "Christianity": {
+                    "percentage": "67.3%",
+                    "breakdown": {
+                        "Ethiopian Orthodoxy": "43.8%",
+                        "P'ent'ay": "22.8%",
+                        "other Christian": "0.7%"
+                    }
+                },
+                "Islam": "31.3%",
+                "traditional faiths": "0.6%",
+                "others / none": "0.8%"
+            },
+            "Demonym": "Ethiopian"
+        },
+        "Government": {
+            "Government": "Federal parliamentary republic under an authoritarian government",
+            "President": "Taye Atske Selassie",
+            "Prime Minister": "Abiy Ahmed",
+            "Deputy Prime Ministers": "Temesgen Tiruneh Adem Farah",
+            "Chief Justice of the Federal Supreme Court": "Tewodros Mihret",
+            "Legislature": "Federal Parliamentary Assembly",
+            "Upper house": "House of Federation",
+            "Lower house": "House of Peoples' Representatives"
+        },
+        "History": {
+            "Ethiopian Empire": "1270",
+            "Zemene Mesafint": "7 May 1769",
+            "Reunification": "11 February 1855",
+            "Centralisation": "1904",
+            "Occupied and annexed into Italian East Africa": "9 May 1936",
+            "Re-establishment of independence": "31 January 1942"
+        },
+        "Area": {
+            "Total": "1,104,300 km 2 (426,400 sq mi) ( 26th )",
+            "Water (%)": "0.7"
+        },
+        "Population": {
+            "2025 estimate": "135,500,000 ( 10th )",
+            "2007 census": "73,750,932",
+            "Density": "92.7/km 2 (240.1/sq mi) ( 123rd )",
+            "Date format": "dd/mm/yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2024 estimate",
+                "Total": "$434.44 billion ( 55th )",
+                "Per capita": "$4,050 ( 159th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2024 estimate",
+                "Total": "$145.03 billion ( 59th )",
+                "Per capita": "$1,350 ( 159th )"
+            },
+            "Gini (2015)": "35.0 medium inequality",
+            "HDI (2022)": "0.492 low ( 176th )",
+            "Currency": "Birr ( ETB )"
+        },
+        "Time": {
+            "Time zone": "UTC +3 ( EAT )"
+        },
+        "Codes": {
+            "Calling code": "+251",
+            "ISO 3166 code": "ET",
+            "Internet TLD": ".et"
+        }
+    }
+}

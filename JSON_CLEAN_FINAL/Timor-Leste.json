@@ -1,0 +1,45 @@
+{
+  "country": "Timor-Leste",
+  "infobox": {
+    "General": {
+      "Capital": "Dili",
+      "Official languages": "Portuguese Tetum",
+      "Religion": {
+        "Christianity": "99.53%",
+        "Catholicism": "97.57%",
+        "Protestantism": "1.96%",
+        "Islam": "0.24%",
+        "other": "0.23%"
+      },
+      "Demonyms": "East Timorese Timorese Maubere (informal)"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic",
+      "Legislature": "National Parliament"
+    },
+    "Area": {
+      "Total": "15,007 km 2 (5,794 sq mi) ( 154th )",
+      "Water (%": "Negligible"
+    },
+    "Population": {
+      "2023 estimate": "1,354,662 ( 153rd )",
+      "2022 census": "1,341,737",
+      "Density": "94/km 2 (243.5/sq mi) ( 120th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$6.970 billion ( 169th )",
+        "Per capita": "$4,920 ( 152nd )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$2.120 billion ( 176th )",
+        "Per capita": "$1,490 ( 157th )"
+      },
+      "Gini": "28.7 low inequality",
+      "HDI": "0.634 medium ( 142nd )",
+      "Currency": "United States dollar Timor-Leste centavo ( USD )"
+    }
+  }
+}

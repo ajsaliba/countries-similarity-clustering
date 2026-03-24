@@ -1,0 +1,53 @@
+{
+  "country": "Botswana",
+  "infobox": {
+    "General": {
+      "Capital": "Gaborone",
+      "Official languages": "English",
+      "National languages": "Tswana",
+      "Ethnic groups": {
+        "Tswana": "79%",
+        "Kalanga": "11%",
+        "San": "3%",
+        "other": "7%"
+      },
+      "Religion": {
+        "Christianity": "79.1%",
+        "Protestantism": "70.2%",
+        "other Christian": "8.9%",
+        "no religion": "15.2%",
+        "Badimo": "4.1%",
+        "other": "1.4%",
+        "unspecified": "0.3%"
+      },
+      "Demonyms": "Batswana (plural) Motswana (singular)"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic with an executive presidency",
+      "Legislature": "Parliament ( National Assembly )"
+    },
+    "Area": {
+      "Total": "581,730 km 2 (224,610 sq mi) ( 47th )",
+      "Water (%": "2.7"
+    },
+    "Population": {
+      "2022 census": "2,359,609 ( 143rd )",
+      "Density": "4.1/km 2 (10.6/sq mi) ( 231st )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2026 estimate",
+        "Total": "$54.820 billion ( 124th )",
+        "Per capita": "$19,540 ( 83rd )"
+      },
+      "GDP (nominal": {
+        "Details": "2026 estimate",
+        "Total": "$20.710 billion ( 122nd )",
+        "Per capita": "$7,380 ( 87th )"
+      },
+      "Gini": "45.5 medium inequality",
+      "HDI": "0.731 high ( 111th )",
+      "Currency": "Pula ( BWP )"
+    }
+  }
+}

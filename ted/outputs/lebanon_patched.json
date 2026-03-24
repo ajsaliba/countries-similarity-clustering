@@ -1,0 +1,56 @@
+{
+  "country": "Switzerland",
+  "infobox": {
+    "General": {
+      "Capital": "Bern",
+      "Primary Language": [
+        "), French (",
+        "), Italian (",
+        "), Romansh (",
+        ")"
+      ],
+      "Ethnic groups": {
+        "Swiss": 72.6,
+        "foreign nationals": 27.4
+      },
+      "Religion": {
+        "Christianity": 54.7,
+        "Catholicism": 30.0,
+        "Protestantism": 18.7,
+        "other Christian": 6.0,
+        "no religion": 36.8,
+        "Islam": 6.0,
+        "other religions": 1.5,
+        "unanswered": 0.9
+      },
+      "Demonyms": "English: Swiss German: Schweizer/Schweizerin French: Suisse/Suissesse Italian : svizzero/svizzera or elvetico/elvetica Romansh : Svizzer/Svizra"
+    },
+    "Government": {
+      "Government": "Federal assembly-independent directorial republic",
+      "Legislature": "Federal Assembly"
+    },
+    "Area": {
+      "Total (km2)": 41291.0,
+      "Water (%)": 4.0
+    },
+    "Population": {
+      "Count": 9060598.0,
+      "Density (/km2)": 207.0
+    },
+    "Economy": {
+      "GDP ( PPP )": {
+        "Total ($)": 881083000000.0,
+        "Per capita ($)": 97660.0
+      },
+      "GDP (nominal)": {
+        "Total ($)": 1002999999999.9999,
+        "Per capita ($)": 111047.0
+      },
+      "Gini": 31.5,
+      "HDI": 0.97,
+      "Currency": [
+        "Swiss franc"
+      ]
+    }
+  }
+}

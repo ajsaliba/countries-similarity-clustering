@@ -1,0 +1,74 @@
+{
+    "country": "Ghana",
+    "url": "https://en.wikipedia.org/wiki/Ghana",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Accra 05°33′18″N 00°11′33″W ﻿ / ﻿ 5.55500°N 0.19250°W ﻿ / 5.55500; -0.19250",
+            "Official languages": "English",
+            "Ethnic groups (2021)": {
+                "Akan": "45.7%",
+                "Mole-Dagbon": "18.5%",
+                "Ewe": "12.8%",
+                "Ga-Adangbe": "7.1%",
+                "Gurma": "6.4%",
+                "Guan": "3.2%",
+                "Gurunsi": "2.7%",
+                "Mande": "2%",
+                "other": "1.6%"
+            },
+            "Religion (2021)": {
+                "Christianity": "71.3%",
+                "Islam": "19.9%",
+                "traditional faiths": "3.2%",
+                "irreligion": "1.1%",
+                "other": "4.5%"
+            },
+            "Demonym": "Ghanaian"
+        },
+        "Government": {
+            "Government-sponsored languages": "Twi Fante Ewe Dagaare Dagbanli Adangme Ga Gonja Kasem Nzema",
+            "Working languages": "English French Hindi Arabic Ghanaian English Ghanaian Pidgin English",
+            "Government": "Unitary presidential republic",
+            "President": "John Mahama",
+            "Vice-President": "Jane Naana Opoku-Agyemang",
+            "Speaker of Parliament": "Alban Bagbin",
+            "Chief Justice": "Justice Paul Baffoe-Bonnie",
+            "Legislature": "Parliament"
+        },
+        "Independence from the United Kingdom": {
+            "Dominion": "6 March 1957",
+            "Republic": "1 July 1960"
+        },
+        "Area": {
+            "Total": "240,000 km 2 (93,000 sq mi) ( 80th )",
+            "Water (%)": "4.61 (11,000 km 2 ; 4,247 mi 2 )"
+        },
+        "Population": {
+            "2025 estimate": "35,039,451 ( 46th )",
+            "Density": "151/km 2 (391.1/sq mi) ( 90th )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$295.12 billion ( 68th )",
+                "Per capita": "$8,042 ( 132nd )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$88.033 billion ( 79th )",
+                "Per capita": "$2,520 ( 143rd )"
+            },
+            "Gini (2024)": "44 medium inequality",
+            "HDI (2023)": "0.628 medium ( 143rd )",
+            "Currency": "Cedi ( GHS )"
+        },
+        "Time": {
+            "Time zone": "UTC ±00:00 ( GMT )"
+        },
+        "Codes": {
+            "Calling code": "+233",
+            "ISO 3166 code": "GH",
+            "Internet TLD": ".gh"
+        }
+    }
+}

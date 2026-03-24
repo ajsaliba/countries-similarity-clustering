@@ -1,0 +1,79 @@
+{
+    "country": "Liberia",
+    "url": "https://en.wikipedia.org/wiki/Liberia",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Monrovia 6°30′N 9°30′W ﻿ / ﻿ 6.500°N 9.500°W ﻿ / 6.500; -9.500",
+            "Official languages": "English",
+            "Vernacular languages": "Kpelle Bassa Vai Klao (Kru) Gio (Dan) Mano Krahn Loma Gola Kissi Grebo Dewoin Mende Mandingo Jabo Gbandi Kreyol",
+            "Religion (2018)": {
+                "Christianity": {
+                    "percentage": "85.1%",
+                    "breakdown": {
+                        "Protestantism": "76.3%",
+                        "Catholicism": "7.2%",
+                        "other Christians": "1.6%"
+                    }
+                },
+                "Islam": "12.2%",
+                "no religion": {
+                    "percentage": "1.4%",
+                    "breakdown": {
+                        "other": "1.3%"
+                    }
+                }
+            },
+            "Demonym": "Liberian"
+        },
+        "Government": {
+            "Government": "Unitary presidential republic",
+            "President": "Joseph Boakai",
+            "Vice President": "Jeremiah Koung",
+            "House Speaker": "Richard Koon",
+            "Chief Justice": "Sie-A-Nyene Yuoh",
+            "Legislature": "Legislature of Liberia",
+            "Upper house": "Senate",
+            "Lower house": "House of Representatives"
+        },
+        "Formation and Independence from American Colonization Society": {
+            "American Colonization Society settlement": "January 7, 1822"
+        },
+        "History": {
+            "Independence declared": "July 26, 1847",
+            "Republic of Maryland annexed": "March 18, 1857",
+            "Current constitution": "January 6, 1986"
+        },
+        "Area": {
+            "Total": "43,000 sq mi (111,370 km 2 ) ( 102nd )",
+            "Water (%)": "13.514"
+        },
+        "Population": {
+            "2024 estimate": "5,437,249 ( 120th )",
+            "Density": "92.0/sq mi (35.5/km 2 ) ( 180th )",
+            "Date format": "mm/dd/yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$11.420 billion ( 162nd )",
+                "Per capita": "$2,010 ( 178th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$5.170 billion ( 161st )",
+                "Per capita": "$907 ( 177th )"
+            },
+            "Gini (2016)": "35.3 medium inequality",
+            "HDI (2023)": "0.510 low ( 177th )",
+            "Currency": "United States dollar (USD) Liberian dollar (LRD)"
+        },
+        "Time": {
+            "Time zone": "UTC ±00:00 ( GMT )"
+        },
+        "Codes": {
+            "Calling code": "+231",
+            "ISO 3166 code": "LR",
+            "Internet TLD": ".lr"
+        }
+    }
+}

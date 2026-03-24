@@ -1,0 +1,52 @@
+{
+  "country": "Iceland",
+  "infobox": {
+    "General": {
+      "Capital": "Reykjavík",
+      "Official languages": "Icelandic",
+      "Ethnic groups": {
+        "Icelandic": "86%",
+        "Polish": "6%",
+        "Lithuanian": "1%",
+        "Filipino": "0.8%",
+        "other": "7%"
+      },
+      "Religion": {
+        "Christianity": "72.4%",
+        "Church of Iceland": "60.9%",
+        "other Christian": "11.5%",
+        "no religion": "25.2%",
+        "Ásatrúarfélagið": "1.5%",
+        "other": "0.9%"
+      },
+      "Demonyms": "Icelander Icelandic"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic",
+      "Legislature": "Althing"
+    },
+    "Area": {
+      "Total": "103,125 km 2 (39,817 sq mi) ( 106th )",
+      "Water (%": "2.07 (as of 2015)"
+    },
+    "Population": {
+      "2025 census": "394,530 ( 172nd )",
+      "Density": "3.78/km 2 (9.8/sq mi) ( 235th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$31.076 billion ( 153rd )",
+        "Per capita": "$81,220 ( 14th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$35.310 billion ( 105th )",
+        "Per capita": "$90,280 ( 5th )"
+      },
+      "Gini": "23.2 low inequality",
+      "HDI": "0.972 very high ( 1st )",
+      "Currency": "Icelandic króna ( ISK )"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "country": "Lebanon",
+  "infobox": {
+    "General": {
+      "Capital": "Beirut",
+      "Official languages": "Arabic",
+      "Local vernacular": "Lebanese Arabic",
+      "Ethnic groups": {
+        "Arab": "95%",
+        "Armenian": "4%",
+        "other": "1%"
+      },
+      "Religion": {
+        "Islam": "53.31%",
+        "Shia": "26.84%",
+        "Alawite": "0.64%",
+        "Sunni": "26.55%",
+        "Christianity": "41.4%",
+        "Catholic": "28.11%",
+        "Orthodox": "8.3%",
+        "Armenian Apostolic": "2.92%",
+        "Protestant": "0.53%",
+        "Other Christians": "1.64%",
+        "Druze": "5.21%",
+        "No religion": "0.08%"
+      },
+      "Demonyms": "Lebanese"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic under confessionalism",
+      "Legislature": "Parliament"
+    },
+    "Area": {
+      "Total": "10,452 km 2 (4,036 sq mi) ( 161st )",
+      "Water (%": "1.8"
+    },
+    "Population": {
+      "2024 estimate": "5,364,482 ( 117th )",
+      "Density": "513/km 2 (1,328.7/sq mi)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2022 estimate",
+        "Total": "$78.233 billion ( 108th )",
+        "Per capita": "$11,793 ( 114th )"
+      },
+      "GDP (nominal": {
+        "Details": "2022 estimate",
+        "Total": "$21.780 billion ( 103rd )",
+        "Per capita": "$3,283 ( 133rd )"
+      },
+      "Gini": "31.8 medium inequality",
+      "HDI": "0.752 high ( 102nd )",
+      "Currency": "Lebanese pound ( LBP )"
+    }
+  }
+}

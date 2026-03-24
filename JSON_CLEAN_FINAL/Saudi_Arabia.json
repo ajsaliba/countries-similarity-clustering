@@ -1,0 +1,38 @@
+{
+  "country": "Saudi Arabia",
+  "infobox": {
+    "General": {
+      "Capital": "Riyadh",
+      "Official languages": "Arabic",
+      "Religion": "Sunni Islam",
+      "Demonyms": "Saudi Saudi Arabian"
+    },
+    "Government": {
+      "Government": "Unitary Islamic absolute monarchy",
+      "Legislature": "Consultative Assembly"
+    },
+    "Area": {
+      "Total": "2,149,690 km 2 (830,000 sq mi) ( 12th )",
+      "Water (%": "0.7"
+    },
+    "Population": {
+      "2024 census": "33,702,731 ( 42nd )",
+      "Density": "15/km 2 (38.8/sq mi) ( 218th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$2.690 trillion ( 17th )",
+        "Per capita": "$74,670 ( 19th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$1.270 trillion ( 19th )",
+        "Per capita": "$35,230 ( 37th )"
+      },
+      "Gini": "45.9 medium inequality",
+      "HDI": "0.900 very high ( 37th )",
+      "Currency": "Saudi riyal (SR) ( SAR )"
+    }
+  }
+}

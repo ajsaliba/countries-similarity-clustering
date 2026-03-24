@@ -1,0 +1,50 @@
+{
+  "country": "Bahrain",
+  "infobox": {
+    "General": {
+      "Capital": "Manama",
+      "Official languages": "Arabic",
+      "Ethnic groups": {
+        "Arabs": "53.2%",
+        "South Asians": "43.4%",
+        "Africans": "1.4%",
+        "North Americans": "1.1%",
+        "other": "0.1%"
+      },
+      "Religion": {
+        "Islam": "74%",
+        "non-Muslim": "26%"
+      },
+      "Demonyms": "Bahraini"
+    },
+    "Government": {
+      "Government": "Unitary semi-constitutional monarchy under an authoritarian government",
+      "Legislature": "National Assembly",
+      "Upper house": "Consultative Council",
+      "Lower house": "Council of Representatives"
+    },
+    "Area": {
+      "Total": "786.8 km 2 (303.8 sq mi) ( 173rd )",
+      "Water (%": "negligible"
+    },
+    "Population": {
+      "2021 estimate": "1,463,265 ( 149th )",
+      "2020 census": "1,501,635",
+      "Density": "1,864/km 2 (4,827.7/sq mi) ( 6th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2026 estimate",
+        "Total": "$118.060 billion ( 98th )",
+        "Per capita": "$71,460 ( 23rd )"
+      },
+      "GDP (nominal": {
+        "Details": "2026 estimate",
+        "Total": "$49.190 billion ( 95th )",
+        "Per capita": "$29,780 ( 40th )"
+      },
+      "HDI": "0.899 very high ( 38th )",
+      "Currency": "Bahraini dinar ( BHD )"
+    }
+  }
+}

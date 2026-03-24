@@ -1,0 +1,55 @@
+{
+  "country": "Malaysia",
+  "infobox": {
+    "General": {
+      "Capital": "Putrajaya",
+      "National language": "Malay",
+      "Ethnic groups": {
+        "Bumiputera": "70.5%",
+        "Malay": "57.3%",
+        "indigenous groups of Sabah, Sarawak, Orang Asli and other": "13.2%",
+        "Chinese": "22.9%",
+        "Indian": "6.6%"
+      },
+      "Religion": {
+        "Islam": "63.5%",
+        "Buddhism": "18.7%",
+        "Christianity": "9.1%",
+        "Hinduism": "6.1%",
+        "other": "0.9%",
+        "unknown": "1.8%"
+      },
+      "Demonyms": "Malaysian"
+    },
+    "Government": {
+      "Government": "Federal parliamentary constitutional elective monarchy",
+      "Legislature": "Parliament",
+      "Upper house": "Dewan Negara",
+      "Lower house": "Dewan Rakyat"
+    },
+    "Area": {
+      "Total": "330,803 km 2 (127,724 sq mi) ( 67th )",
+      "Water (%": "0.3"
+    },
+    "Population": {
+      "2024 estimate": "34,564,810 ( 43rd )",
+      "2020 census": "32,447,385",
+      "Density": "101/km 2 (261.6/sq mi) ( 116th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$1.478 trillion ( 30th )",
+        "Per capita": "$43,665 ( 52nd )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$470,572 billion ( 35th )",
+        "Per capita": "$13,901 ( 76th )"
+      },
+      "Gini": "39.0 medium inequality",
+      "HDI": "0.819 very high ( 67th )",
+      "Currency": "Malaysian ringgit (RM) ( MYR )"
+    }
+  }
+}

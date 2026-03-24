@@ -1,0 +1,62 @@
+{
+  "country": "Malawi",
+  "infobox": {
+    "General": {
+      "Capital": "Lilongwe",
+      "Official languages": "English",
+      "Ethnic groups": {
+        "Chewa": "25.2%",
+        "Tumbuka": "20.4%",
+        "Lomwe": "16.4%",
+        "Yao": "15.3%",
+        "Ngoni": "6.4%",
+        "Sena": "5.9%",
+        "Mang'anja": "3.8%",
+        "Tonga": "1.8%",
+        "Ngonde": "1.5%",
+        "Lambya": "0.6%",
+        "Sukwa": "0.5%",
+        "other": "1.1%"
+      },
+      "Religion": {
+        "Christianity": "82.3%",
+        "Protestantism": "58.5%",
+        "Catholicism": "17.2%",
+        "other Christian": "6.6%",
+        "Islam": "13.8%",
+        "none": "2.1%",
+        "traditional faiths": "1.2%",
+        "other": "0.6%"
+      },
+      "Demonyms": "Malawian"
+    },
+    "Government": {
+      "Government": "Unitary presidential republic",
+      "Legislature": "National Assembly"
+    },
+    "Area": {
+      "Total": "118,484 km 2 (45,747 sq mi) ( 98th )",
+      "Water (%": "20.6%"
+    },
+    "Population": {
+      "2024 estimate": "21,240,689 ( 62nd )",
+      "2018 census": "17,563,749",
+      "Density": "153.1/km 2 (396.5/sq mi) ( 56th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2023 estimate",
+        "Total": "$37.919 billion ( 137th )",
+        "Per capita": "$1,668 ( 186th )"
+      },
+      "GDP (nominal": {
+        "Details": "2023 estimate",
+        "Total": "$13.176 billion ( 149th )",
+        "Per capita": "$579 ( 190th )"
+      },
+      "Gini": "44.7 medium inequality",
+      "HDI": "0.517 low ( 172nd )",
+      "Currency": "Malawian kwacha (D) ( MWK )"
+    }
+  }
+}

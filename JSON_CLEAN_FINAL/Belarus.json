@@ -1,0 +1,54 @@
+{
+  "country": "Belarus",
+  "infobox": {
+    "General": {
+      "Capital": "Minsk",
+      "Official languages": "Belarusian Russian",
+      "Widely used minority languages": "Polish Ukrainian Yiddish",
+      "Ethnic groups": {
+        "Belarusians": "84.9%",
+        "Russians": "7.5%",
+        "Poles": "3.1%",
+        "Ukrainians": "1.7%",
+        "other": "2.8%"
+      },
+      "Religion": {
+        "Christianity": "91%",
+        "Eastern Orthodoxy": "83.3%",
+        "other Christian": "7.7%",
+        "no religion": "7.8%",
+        "other": "1.2%"
+      },
+      "Demonyms": "Belarusian"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic under an authoritarian dictatorship",
+      "Legislature": "National Assembly",
+      "Upper house": "Council of the Republic",
+      "Lower house": "House of Representatives"
+    },
+    "Area": {
+      "Total": "207,600 km 2 (80,200 sq mi) ( 84th )",
+      "Water (%": "2.26% (4.700 km 2 or 1.815 sq mi)"
+    },
+    "Population": {
+      "2025 estimate": "9,109,280 ( 98th )",
+      "Density": "43.9/km 2 (113.7/sq mi)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2023 estimate",
+        "Total": "$221.186 billion ( 73rd )",
+        "Per capita": "$24,016 ( 71st )"
+      },
+      "GDP (nominal": {
+        "Details": "2023 estimate",
+        "Total": "$68.864 billion ( 74th )",
+        "Per capita": "$7,477 ( 82nd )"
+      },
+      "Gini": "25.3 low inequality",
+      "HDI": "0.824 very high ( 65th )",
+      "Currency": "Belarusian ruble ( BYN )"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "country": "Belize",
+  "infobox": {
+    "General": {
+      "Capital": "Belmopan",
+      "Largest city": "Belize City",
+      "Official languages": "English",
+      "Spoken languages": "Belizean Creole Spanish Mayan",
+      "Ethnic groups": {
+        "Mestizo": "52.9%",
+        "Creole": "25.9%",
+        "Mayan": "11.3%",
+        "Garifuna": "6.1%",
+        "East Indian": "3.9%",
+        "Mennonite": "3.6%",
+        "White": "1.2%",
+        "Asian": "1%",
+        "other": "1.2%",
+        "Unknown": "0.3%"
+      },
+      "Religion": {
+        "Christianity": "61.9%",
+        "no religion": "31.8%",
+        "other": "6.3%"
+      },
+      "Demonyms": "Belizean"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary constitutional monarchy",
+      "Legislature": "National Assembly",
+      "Upper house": "Senate",
+      "Lower house": "House of Representatives"
+    },
+    "Area": {
+      "Total": "22,966 km 2 (8,867 sq mi) ( 147th )",
+      "Water (%": "0.8"
+    },
+    "Population": {
+      "2022 census": "397,483",
+      "Density": "17.31/km 2 (44.8/sq mi)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$6.414 billion ( 180th )",
+        "Per capita": "$15,363 ( 123rd )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$3.488 billion ( 179th )",
+        "Per capita": "$8,355 ( 98th )"
+      },
+      "Gini": "53.1 high inequality",
+      "HDI": "0.721 high ( 115th )",
+      "Currency": "Belize dollar ($) ( BZD )"
+    }
+  }
+}

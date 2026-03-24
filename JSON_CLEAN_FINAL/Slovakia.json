@@ -1,0 +1,54 @@
+{
+  "country": "Slovakia",
+  "infobox": {
+    "General": {
+      "Capital": "Bratislava",
+      "Official languages": "Slovak",
+      "Regional and minority languages": "Bulgarian, Czech, Croatian, Hungarian, German, Polish, Romani, Russian, Ruthenian, Serbian, Ukrainian",
+      "Ethnic groups": {
+        "Slovaks": "88.6%",
+        "Hungarians": "8.2%",
+        "Romani": "1.3%",
+        "other": "1.9%"
+      },
+      "Religion": {
+        "Christianity": "68.8%",
+        "Catholicism": "59.8%",
+        "Protestantism": "7.6%",
+        "other Christian": "1.4%",
+        "no religion": "23.8%",
+        "other": "0.9%",
+        "unspecified": "6.5%"
+      },
+      "Demonyms": "Slovak"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic",
+      "Legislature": "National Council"
+    },
+    "Area": {
+      "Total": "49,035 km 2 (18,933 sq mi) ( 127th )",
+      "Water (%": "0.72 (2015)"
+    },
+    "Population": {
+      "30 June 2025 estimate": "5,413,813 ( 120th )",
+      "2021 census": "5,449,270",
+      "Density": "110/km 2 (284.9/sq mi) ( 103rd )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$256.710 billion ( 70th )",
+        "Per capita": "$47,440 ( 46th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$152.480 billion ( 61st )",
+        "Per capita": "$28,180 ( 44th )"
+      },
+      "Gini": "21.2 low inequality",
+      "HDI": "0.880 very high ( 44th )",
+      "Currency": "Euro ( € ) ( EUR )"
+    }
+  }
+}

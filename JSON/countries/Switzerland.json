@@ -1,0 +1,94 @@
+{
+    "country": "Switzerland",
+    "url": "https://en.wikipedia.org/wiki/Switzerland",
+    "infobox": {
+        "General": {
+            "German :": [
+                "Schweizerische Eidgenossenschaft",
+                "Schweizerische Eidgenossenschaft"
+            ],
+            "French :": "Confédération suisse",
+            "Italian :": "Confederazione Svizzera",
+            "Romansh :": "Confederaziun svizra",
+            "Latin :": "Confoederatio helvetica (CH)",
+            "Capital": "Bern ( de facto )",
+            "Federal city": "Bern",
+            "Largest city": "Zurich",
+            "Official languages": {
+                "), French (": "62%",
+                "), Italian (": "23%",
+                "), Romansh (": "8%",
+                ")": "0.5%"
+            },
+            "Nationality (2024)": {
+                "Swiss": "72.6%",
+                "foreign nationals": "27.4%"
+            },
+            "Religion (2024)": {
+                "Christianity": {
+                    "percentage": "54.7%",
+                    "breakdown": {
+                        "Catholicism": "30%",
+                        "Protestantism": "18.7%",
+                        "other Christian": "6%"
+                    }
+                },
+                "no religion": "36.8%",
+                "Islam": "6%",
+                "other religions": "1.5%",
+                "unanswered": "0.9%"
+            },
+            "Demonyms": "English: Swiss German: Schweizer/Schweizerin French: Suisse/Suissesse Italian : svizzero/svizzera or elvetico/elvetica Romansh : Svizzer/Svizra",
+            "Federal Council": "Guy Parmelin ( President ) Ignazio Cassis ( Vice president ) Karin Keller-Sutter Albert Rösti Élisabeth Baume-Schneider Beat Jans Martin Pfister",
+            "Federal Chancellor": "Viktor Rossi",
+            "Sovereignty recognised ( Peace of Westphalia )": {
+                "Details": "24 October 1648",
+                "Federal Treaty": "7 August 1815",
+                "Federal state": "12 September 1848"
+            }
+        },
+        "Government": {
+            "Government": "Federal assembly-independent directorial republic",
+            "Legislature": "Federal Assembly",
+            "Upper house": "Council of States",
+            "Lower house": "National Council"
+        },
+        "History": {
+            "Founded": "1 August 1291"
+        },
+        "Area": {
+            "Total": "41,291 km 2 (15,943 sq mi) ( 132th )",
+            "Water (%)": "4"
+        },
+        "Population": {
+            "2025 estimate": "9,060,598 ( 99th )",
+            "2015 census": "8,327,126",
+            "Density": "207/km 2 (536.1/sq mi) ( 67th )",
+            "Date format": "dd.mm.yyyy ( AD )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$881.083 billion ( 35th )",
+                "Per capita": "$97,660 ( 6th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$1.003 trillion ( 20th )",
+                "Per capita": "$111,047 ( 3rd )"
+            },
+            "Gini (2023)": "31.5 medium inequality",
+            "HDI (2023)": "0.970 very high ( 2nd )",
+            "Currency": "Swiss franc ( CHF )"
+        },
+        "Time": {
+            "Time zone": "UTC +1 ( CET )",
+            "Summer ( DST )": "UTC +2 ( CEST )"
+        },
+        "Codes": {
+            "Calling code": "+41",
+            "ISO 3166 code": "CH",
+            "Internet TLD": ".ch , .swiss"
+        }
+    }
+}

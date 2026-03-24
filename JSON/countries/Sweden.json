@@ -1,0 +1,56 @@
+{
+    "country": "Sweden",
+    "url": "https://en.wikipedia.org/wiki/Sweden",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Stockholm 59°21′N 18°4′E ﻿ / ﻿ 59.350°N 18.067°E ﻿ / 59.350; 18.067",
+            "Official languages": "Swedish",
+            "National minority languages": "Sámi Finnish Meänkieli Romani Yiddish",
+            "Demonyms": "Swedish Swede",
+            "Monarch": "Carl XVI Gustaf"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Riksdag Speaker": "Andreas Norlén",
+            "Prime Minister": "Ulf Kristersson",
+            "Legislature": "Riksdag",
+            "A unified Swedish kingdom established": "By the late 10th century"
+        },
+        "History": {
+            "Part of the Kalmar Union": "17 June 1397 – 6 June 1523",
+            "Swedish Empire": "1611–1721"
+        },
+        "Area": {
+            "Total": "450,295 km 2 (173,860 sq mi) ( 55th )",
+            "Water (%)": "8.97 (2022)"
+        },
+        "Population": {
+            "October 2025 estimate": "10,610,485 ( 90th )",
+            "Density": "25/km 2 (64.7/sq mi) ( 198th )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$799.68 billion ( 41st )",
+                "Per capita": "$74,900 ( 17th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$620.30 billion ( 24th )",
+                "Per capita": "$58,100 ( 14th )"
+            },
+            "Gini (2022)": "27.6 low inequality",
+            "HDI (2023)": "0.959 very high ( 5th )",
+            "Currency": "Swedish krona ( SEK )"
+        },
+        "Time": {
+            "Time zone": "UTC +1 ( CET )",
+            "Summer ( DST )": "UTC +2 ( CEST )"
+        },
+        "Codes": {
+            "Calling code": "+46",
+            "ISO 3166 code": "SE",
+            "Internet TLD": ".se"
+        }
+    }
+}

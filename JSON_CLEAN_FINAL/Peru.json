@@ -1,0 +1,54 @@
+{
+  "country": "Peru",
+  "infobox": {
+    "General": {
+      "Capital": "Lima",
+      "Official languages": "Spanish",
+      "Co-official languages": "Quechua Aymara Other Indigenous languages",
+      "Ethnic groups": {
+        "Mestizo": "60.2%",
+        "Native": "25.75%",
+        "White": "5.89%",
+        "Black": "3.57%",
+        "East Asian": "0.16%",
+        "other": "1.1%",
+        "no answer": "3.32%"
+      },
+      "Religion": {
+        "Christianity": "94.5%",
+        "Catholicism": "76%",
+        "other Christian": "18.5%",
+        "no religion": "5.1%",
+        "other": "0.4%"
+      },
+      "Demonyms": "Peruvian"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic",
+      "Legislature": "Congress of the Republic"
+    },
+    "Area": {
+      "Total": "1,285,216 km 2 (496,225 sq mi) ( 19th )",
+      "Water (%": "0.41"
+    },
+    "Population": {
+      "2023 estimate": "34,352,720 ( 43rd )",
+      "Density": "23/km 2 (59.6/sq mi) ( 198th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$653.090 billion ( 47th )",
+        "Per capita": "$18,980 ( 99th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$318.480 billion ( 47th )",
+        "Per capita": "$9,260 ( 86th )"
+      },
+      "Gini": "40.2 medium inequality",
+      "HDI": "0.794 high ( 79th )",
+      "Currency": "Peruvian sol ( PEN )"
+    }
+  }
+}

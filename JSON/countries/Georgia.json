@@ -1,0 +1,80 @@
+{
+    "country": "Georgia",
+    "url": "https://en.wikipedia.org/wiki/Georgia_(country)",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Tbilisi 41°43′N 44°47′E ﻿ / ﻿ 41.717°N 44.783°E ﻿ / 41.717; 44.783",
+            "Official languages": "Georgian",
+            "Recognized regional languages": "Abkhaz",
+            "Ethnic groups (2014 )": {
+                "Georgians": "86.8%",
+                "Azerbaijanis": "6.2%",
+                "Armenians": "4.5%",
+                "Russians": "0.7%",
+                "other": "2.1%"
+            },
+            "Religion (2014)": {
+                "Christianity": {
+                    "percentage": "87.3%",
+                    "breakdown": {
+                        "Georgian Orthodoxy": "83.4%",
+                        "other Christian": "3.9%"
+                    }
+                },
+                "Islam": "10.7%",
+                "other / none": "2%"
+            },
+            "Demonym": "Georgian",
+            "Chairperson of the Parliament": "Shalva Papuashvili"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary republic",
+            "President": "Mikheil Kavelashvili",
+            "Prime Minister": "Irakli Kobakhidze",
+            "Legislature": "Parliament",
+            "Kingdom of Abkhazia and Kingdom of the Iberians": "786–1008"
+        },
+        "History": {
+            "Colchis and Iberia": "13th c. BC – AD 580 ( 580 )",
+            "Unification of Georgia": "1008",
+            "The Tripartite division": "1463–1810",
+            "Russian annexation": "1801–1858",
+            "Independence from Russia": "26 May 1918",
+            "Russian invasion": "12 February 1921",
+            "Soviet annexation": "25 February 1921",
+            "Independence from the Soviet Union • Declared • Finalized": "9 April 1991 26 December 1991 ( 1991-12-26 )",
+            "Current constitution": "24 August 1995"
+        },
+        "Area": {
+            "Total": "69,700 km 2 (26,900 sq mi) ( 119th )"
+        },
+        "Population": {
+            "2024 census": "3,657,000 ( 129th )",
+            "Density": "56.3/km 2 (145.8/sq mi) ( 165th )",
+            "Date format": "dd.mm.yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2026 estimate",
+                "Total": "$123,049 billion ( 98th )",
+                "Per capita": "$33,340 ( 67th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2026 estimate",
+                "Total": "$35.350 billion ( 103th )",
+                "Per capita": "$10,886 ( 83rd )"
+            },
+            "Gini (2021)": "34.2 medium inequality",
+            "HDI (2023)": "0.844 very high ( 57th )",
+            "Currency": "Georgian lari (₾) ( GEL )"
+        },
+        "Time": {
+            "Time zone": "UTC +4 ( GET )"
+        },
+        "Codes": {
+            "Calling code": "+995",
+            "ISO 3166 code": "GE",
+            "Internet TLD": ".ge , .გე"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "country": "Burundi",
+    "url": "https://en.wikipedia.org/wiki/Burundi",
+    "infobox": {
+        "General": {
+            "Capital": "Gitega 3°30′S 30°00′E ﻿ / ﻿ 3.500°S 30.000°E ﻿ / -3.500; 30.000",
+            "Largest city": "Bujumbura",
+            "Official languages": "Kirundi French English",
+            "Recognised national languages": "Kirundi",
+            "Ethnic groups": {
+                "Barundi": "100%",
+                "Hutu": "85%",
+                "Tutsi": "14%",
+                "Twa ~": "1%",
+                "other": "1%"
+            },
+            "Religion (2020)": {
+                "Christianity": {
+                    "percentage": "93.4%",
+                    "breakdown": {
+                        "Catholicism": "63.7%",
+                        "Protestantism": "25.2%",
+                        "other Christian": "4.5%"
+                    }
+                },
+                "traditional faiths": "4.3%",
+                "Islam": "2.1%",
+                "other / none": "0.2%"
+            },
+            "Demonym": "Burundian"
+        },
+        "Government": {
+            "Government": "Unitary dominant-party presidential republic under an authoritarian dictatorship",
+            "President": "Évariste Ndayishimiye",
+            "Prime Minister": "Nestor Ntahontuye",
+            "Vice President": "Prosper Bazombanza",
+            "Legislature": "Parliament",
+            "Upper house": "Senate",
+            "Lower house": "National Assembly",
+            "Kingdom of Urundi": "1680–1966"
+        },
+        "History": {
+            "Part of German East Africa": "1890–1916",
+            "Part of Ruanda-Urundi": "1916–1962",
+            "Independence from Belgium": "1 July 1962",
+            "Republic": "28 November 1966",
+            "Burundian Civil War": "21 October 1993 – 15 May 2005",
+            "Current constitution": "17 May 2018"
+        },
+        "Area": {
+            "Total": "27,834 km 2 (10,747 sq mi) ( 142nd )",
+            "Water (%)": "10"
+        },
+        "Population": {
+            "2024 estimate": "14,151,540 ( 78th )",
+            "Density": "565/km 2 (1,463.3/sq mi) ( 25th )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$13.980 billion ( 161th )",
+                "Per capita": "$1,020 ( 185th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$6.750 billion ( 157th )",
+                "Per capita": "$489 ( 186th )"
+            },
+            "Gini (2020)": "37.5 medium inequality",
+            "HDI (2023)": "0.439 low ( 187th )",
+            "Currency": "Burundian franc (FBu) ( BIF )"
+        },
+        "Time": {
+            "Time zone": "UTC +2 ( CAT )"
+        },
+        "Codes": {
+            "Calling code": "+257",
+            "ISO 3166 code": "BI",
+            "Internet TLD": ".bi"
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+  "country": "Kuwait",
+  "infobox": {
+    "General": {
+      "Capital": "Kuwait City",
+      "Official languages": "Arabic",
+      "Ethnic groups": {
+        "Arab": "57.8%",
+        "South Asian": "40.3%",
+        "African": "1%",
+        "other": "0.9%"
+      },
+      "Religion": {
+        "Islam": "74.6%",
+        "Christianity": "18.2%",
+        "other": "7.2%"
+      },
+      "Demonyms": "Kuwaiti"
+    },
+    "Government": {
+      "Government": "Unitary semi-constitutional monarchy",
+      "Legislature": "The National Assembly (suspended)"
+    },
+    "Area": {
+      "Total": "17,818 km 2 (6,880 sq mi) ( 152nd )",
+      "Water (%": "negligible"
+    },
+    "Population": {
+      "2025 estimate": "4,985,716 ( 128th )",
+      "Density": "200.2/km 2 (518.5/sq mi) ( 62nd )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$260.500 billion ( 74th )",
+        "Per capita": "$50,960 ( 40th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$153.100 billion ( 59th )",
+        "Per capita": "$29,950 ( 41st )"
+      },
+      "HDI": "0.852 very high ( 52nd )",
+      "Currency": "Kuwaiti dinar ( KWD )"
+    }
+  }
+}

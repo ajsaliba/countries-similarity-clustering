@@ -1,0 +1,73 @@
+{
+    "country": "Benin",
+    "url": "https://en.wikipedia.org/wiki/Benin",
+    "infobox": {
+        "General": {
+            "Capital": "Porto-Novo",
+            "Largest city": "Cotonou",
+            "Official languages": "French",
+            "National languages": "List: Arabic English Aguna Aja Alada Fon Gbe Gen Gun Pherá Phla Tofin Tɔli Waci Berba Kabye Lama Lukpa Mbelime Mossi Nateni Ngangam Tammari Tem Waama Yom Kwa Chakosi Foodo Ede Ifè Mokole Yoruba Yoruboid Bariba Dendi Fula Hausa",
+            "Ethnic groups (2013 )": {
+                "Fon": "38.4%",
+                "Adja and Mina": "15.1%",
+                "Yoruba": "12%",
+                "Bariba": "9.6%",
+                "Fula": "8.6%",
+                "Ottamari": "6.1%",
+                "Yoa-Lokpa": "4.3%",
+                "Dendi": "2.9%",
+                "other": "2.8%"
+            },
+            "Religion (2020)": {
+                "Christianity": "52.2%",
+                "Islam": "24.6%",
+                "traditional faiths": "17.9%",
+                "no religion": "5.2%",
+                "other": "0.1%"
+            },
+            "Demonyms": "Beninese Beninoise"
+        },
+        "Government": {
+            "Government": "Unitary presidential republic",
+            "President": "Patrice Talon",
+            "Vice President": "Mariam Chabi Talata",
+            "Legislature": "National Assembly"
+        },
+        "History": {
+            "Republic of Dahomey established within the French Community": "11 December 1958",
+            "Independence": "1 August 1960"
+        },
+        "Area": {
+            "Total": "114,763 km 2 (44,310 sq mi) ( 100th )",
+            "Water (%)": "0.4%"
+        },
+        "Population": {
+            "2022 estimate": "13,754,688 ( 77th )",
+            "Density": "94.8/km 2 (245.5/sq mi) ( 98th )",
+            "Date format": "dd/mm/yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2026 estimate",
+                "Total": "$76.510 billion ( 137th )",
+                "Per capita": "$4,980 ( 163rd )"
+            },
+            "GDP (nominal)": {
+                "Details": "2026 estimate",
+                "Total": "$27.450 billion ( 141st )",
+                "Per capita": "$1,790 ( 163rd )"
+            },
+            "Gini (2021)": "34.4 medium inequality",
+            "HDI (2023)": "0.515 low ( 173rd )",
+            "Currency": "West African CFA franc ( XOF )"
+        },
+        "Time": {
+            "Time zone": "UTC +1 ( WAT )"
+        },
+        "Codes": {
+            "Calling code": "+229",
+            "ISO 3166 code": "BJ",
+            "Internet TLD": ".bj"
+        }
+    }
+}

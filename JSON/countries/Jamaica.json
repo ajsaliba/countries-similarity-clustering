@@ -1,0 +1,77 @@
+{
+    "country": "Jamaica",
+    "url": "https://en.wikipedia.org/wiki/Jamaica",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Kingston 17°58′17″N 76°47′35″W ﻿ / ﻿ 17.97139°N 76.79306°W ﻿ / 17.97139; -76.79306",
+            "Official languages": "English",
+            "Vernacular language": "Jamaican Patois",
+            "Ethnic groups": {
+                "African": "76.3%",
+                "Mixed": "15.1%",
+                "Indian": "3.4%",
+                "White": "3.2%",
+                "Chinese": "1.2%",
+                "others": "0.8%"
+            },
+            "Religion": {
+                "Christianity": {
+                    "percentage": "68.9%",
+                    "breakdown": {
+                        "Protestantism": "64.8%",
+                        "other Christian": "4.1%"
+                    }
+                },
+                "no religion": "21.3%",
+                "Rastafari": "1.1%",
+                "other": "6.5%",
+                "unanswered": "2.3%"
+            },
+            "Demonym": "Jamaican",
+            "Monarch": "Charles III",
+            "Governor-General": "Patrick Allen"
+        },
+        "Government": {
+            "Government": "Unitary parliamentary constitutional monarchy",
+            "Prime Minister": "Andrew Holness",
+            "Legislature": "Parliament",
+            "Upper house": "Senate",
+            "Lower house": "House of Representatives"
+        },
+        "Independence from the United Kingdom": {
+            "Granted": "6 August 1962"
+        },
+        "Area": {
+            "Total": "10,991 km 2 (4,244 sq mi) ( 160th )",
+            "Water (%)": "1.5"
+        },
+        "Population": {
+            "2024 estimate": "2,824,913",
+            "2011 census": "2,697,983",
+            "Density": "266 /km 2 (688.9/sq mi) ( 54th )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2024 estimate",
+                "Total": "$33.775 billion ( 143rd )",
+                "Per capita": "$12,283 ( 134th )"
+            },
+            "GDP (nominal)": {
+                "Details": "2024 estimate",
+                "Total": "$20.586 billion ( 119th )",
+                "Per capita": "$7,487 ( 95th )"
+            },
+            "Gini (2021)": "40.2 medium inequality",
+            "HDI (2023)": "0.720 high ( 117th )",
+            "Currency": "Jamaican dollar ( JMD )"
+        },
+        "Time": {
+            "Time zone": "UTC -5:00 ( EST )"
+        },
+        "Codes": {
+            "Calling code": "+1",
+            "ISO 3166 code": "JM",
+            "Internet TLD": ".jm"
+        }
+    }
+}

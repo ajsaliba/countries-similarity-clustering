@@ -1,0 +1,53 @@
+{
+  "country": "Rwanda",
+  "infobox": {
+    "General": {
+      "Capital": "Kigali",
+      "Official languages": "Kinyarwanda English French Swahili",
+      "National languages": "Kinyarwanda",
+      "Ethnic groups": {
+        "Banyarwanda": "100%",
+        "Hutu": "85%",
+        "Tutsi": "14%",
+        "Twa": "1%"
+      },
+      "Religion": {
+        "Christianity": "93.8%",
+        "no religion": "3%",
+        "Islam": "2.2%",
+        "other": "1%"
+      },
+      "Demonyms": "Rwandan Rwandese"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic under an authoritarian dictatorship",
+      "Legislature": "Parliament",
+      "Upper house": "Senate",
+      "Lower house": "Chamber of Deputies"
+    },
+    "Area": {
+      "Total": "26,338 km 2 (10,169 sq mi) ( 144th )",
+      "Water (%": "6.3"
+    },
+    "Population": {
+      "2025 estimate": "14,104,969 ( 76th )",
+      "2022 census": "13,206,731",
+      "Density": "578/km 2 (1,497.0/sq mi) ( 21st )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$58.120 billion ( 129th )",
+        "Per capita": "$4,100 ( 159th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$14.789 billion ( 144th )",
+        "Per capita": "$1,040 ( 170th )"
+      },
+      "Gini": "39.4 medium inequality",
+      "HDI": "0.578 medium ( 159th )",
+      "Currency": "Rwandan franc ( RWF )"
+    }
+  }
+}

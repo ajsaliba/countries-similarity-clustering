@@ -1,0 +1,56 @@
+{
+  "country": "Laos",
+  "infobox": {
+    "General": {
+      "Capital": "Vientiane",
+      "Official languages": "Lao",
+      "Spoken languages": "Lao Khmu Hmong Phu Thai Tai",
+      "Ethnic groups": {
+        "Lao": "53.2%",
+        "Khmu": "11%",
+        "Hmong": "9.2%",
+        "Phu Thai": "3.4%",
+        "Tai": "3.1%",
+        "Makong": "2.5%",
+        "Katang": "2.2%",
+        "Lue": "2%",
+        "Akha": "1.8%",
+        "other": "11.6%"
+      },
+      "Religion": {
+        "Buddhism": "66%",
+        "Tai folk religion": "30.7%",
+        "Christianity": "1.5%",
+        "other / none": "1.8%"
+      },
+      "Demonyms": "Laotian"
+    },
+    "Government": {
+      "Government": "Unitary communist state",
+      "Legislature": "National Assembly"
+    },
+    "Area": {
+      "Total": "236,800 km 2 (91,400 sq mi) ( 82nd )",
+      "Water (%": "2"
+    },
+    "Population": {
+      "2024 estimate": "7,953,556 ( 103rd )",
+      "Density": "33.21/km 2 (86.0/sq mi) ( 183rd )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$78.850 billion ( 108th )",
+        "Per capita": "$10,120 ( 126th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$16.320 billion ( 138th )",
+        "Per capita": "$2,100 ( 150th )"
+      },
+      "Gini": "36.4 medium inequality",
+      "HDI": "0.617 medium ( 147th )",
+      "Currency": "Kip (₭) ( LAK )"
+    }
+  }
+}

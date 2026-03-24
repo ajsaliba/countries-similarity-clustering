@@ -1,0 +1,63 @@
+{
+    "country": "São Tomé and Príncipe",
+    "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "São Tomé 0°20′N 6°44′E ﻿ / ﻿ 0.333°N 6.733°E ﻿ / 0.333; 6.733",
+            "Recognised regional languages": "Forro Creole Angolar Creole Principense Creole",
+            "Official language and national language": "Portuguese",
+            "Religion (2020)": {
+                "Christianity": "81.1%",
+                "no religion": "13.2%",
+                "folk religions": "3.1%",
+                "others": "2.4%"
+            },
+            "Demonyms": "São Toméan Santomean"
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic",
+            "President": "Carlos Vila Nova",
+            "Prime Minister": "Américo Ramos",
+            "Legislature": "National Assembly"
+        },
+        "Independence from Portugal": {
+            "Granted": "12 July 1975",
+            "Admitted to the United Nations": "16 September 1975"
+        },
+        "History": {
+            "Constitutional reform": "22 August 1990"
+        },
+        "Area": {
+            "Total": "964 km 2 (372 sq mi) ( 171st )",
+            "Water (%)": "negligible"
+        },
+        "Population": {
+            "2023 estimate": "220,372 ( 175th )",
+            "Density": "199.7/km 2 (517.2/sq mi) ( 69th )",
+            "Date format": "dd/mm/yyyy"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2024 estimate",
+                "Total": "$1 billion",
+                "Per capita": "$4,238"
+            },
+            "GDP (nominal)": {
+                "Details": "2024 estimate",
+                "Total": "$751 million",
+                "Per capita": "$3,167"
+            },
+            "Gini (2017)": "40.7 medium inequality",
+            "HDI (2023)": "0.637 medium ( 141st )",
+            "Currency": "Dobra ( STN )"
+        },
+        "Time": {
+            "Time zone": "UTC +0 ( GMT )"
+        },
+        "Codes": {
+            "Calling code": "+239",
+            "ISO 3166 code": "ST",
+            "Internet TLD": ".st"
+        }
+    }
+}

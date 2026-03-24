@@ -1,0 +1,60 @@
+{
+  "country": "Morocco",
+  "infobox": {
+    "General": {
+      "Capital": "Rabat",
+      "Largest city": "Casablanca",
+      "Official languages": "Arabic Tamazight",
+      "Spoken languages": {
+        "Moroccan Arabic": "91.9%",
+        "Hassaniya Arabic": "0.8%",
+        "Berber languages": "24.8%",
+        "Tashelhit": "14.2%",
+        "Tamazight": "7.4%",
+        "Tarifit": "3.2%"
+      },
+      "Foreign languages": "French English Spanish",
+      "Religion": {
+        "Islam": "99.68%",
+        "Sunni": "99.23%",
+        "Shia": "0.45%",
+        "other": "0.3%",
+        "Agnostics": "0.13%",
+        "Baháʼís": "0.1%",
+        "Christians": "0.09%",
+        "Jews": "0.01%"
+      },
+      "Demonyms": "Moroccan"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary semi-constitutional monarchy",
+      "Legislature": "Parliament",
+      "Upper house": "House of Councillors",
+      "Lower house": "House of Representatives"
+    },
+    "Area": {
+      "Total": "446,550 km 2 (172,410 sq mi) ( 57th )",
+      "Water (%": "0.056 (250 km 2 )"
+    },
+    "Population": {
+      "2024 estimate": "37,493,183 ( 38th )",
+      "2024 census": "36,828,330",
+      "Density": "79.0/km 2 (204.6/sq mi)"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$424.870 billion ( 57th )",
+        "Per capita": "$11,270 ( 122nd )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$165.840 billion ( 58th )",
+        "Per capita": "$4,440 ( 123rd )"
+      },
+      "Gini": "40.3 medium inequality",
+      "HDI": "0.710 high ( 120th )",
+      "Currency": "Moroccan dirham ( MAD )"
+    }
+  }
+}

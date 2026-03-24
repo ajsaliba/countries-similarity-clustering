@@ -1,0 +1,50 @@
+{
+  "country": "Tonga",
+  "infobox": {
+    "General": {
+      "Capital": "Nukuʻalofa",
+      "Official languages": "Tongan English",
+      "Ethnic groups": {
+        "Tongan": "96.5%",
+        "other": "3.5%"
+      },
+      "Religion": {
+        "Christianity —": "96.9%",
+        "Protestantism —": "64.1%",
+        "Mormonism —": "18.6%",
+        "Catholicism": "14.2%",
+        "no religion": "0.5%",
+        "unspecified": "0.1%",
+        "other": "2.4%"
+      },
+      "Demonyms": "Tongan"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary semi-constitutional monarchy",
+      "Legislature": "Legislative Assembly"
+    },
+    "Area": {
+      "Total": "748 km 2 (289 sq mi) ( 175th )",
+      "Water (%": "4.0"
+    },
+    "Population": {
+      "2021 census": "100,209 ( 199th )",
+      "Density": "139/km 2 (360.0/sq mi) ( 92th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2019 estimate",
+        "Total": "$655 million",
+        "Per capita": "$6,496"
+      },
+      "GDP (nominal": {
+        "Details": "2019 estimate",
+        "Total": "$493 million",
+        "Per capita": "$4,888"
+      },
+      "Gini": "27.1 low inequality",
+      "HDI": "0.739 high ( 98th )",
+      "Currency": "Paʻanga ( TOP )"
+    }
+  }
+}

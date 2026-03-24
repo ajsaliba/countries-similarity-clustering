@@ -1,0 +1,78 @@
+{
+    "country": "Congo, Republic of the",
+    "url": "https://en.wikipedia.org/wiki/Republic_of_the_Congo",
+    "infobox": {
+        "General": {
+            "Capital and largest city": "Brazzaville 4°16′S 15°17′E ﻿ / ﻿ 4.267°S 15.283°E ﻿ / -4.267; 15.283",
+            "Official languages": "French",
+            "Recognised national languages": "Kituba Lingala",
+            "Ethnic groups": {
+                "Bakongo": "41%",
+                "Bateke": "16.9%",
+                "Mbochi": "13.1%",
+                "Sangha": "5.6%",
+                "Mbenga Pygmies and others": "2%"
+            },
+            "Religion (2020)": {
+                "Christianity": "87.1%",
+                "no religion": "8%",
+                "traditional faiths": "2.7%",
+                "Islam": {
+                    "percentage": "1.2%",
+                    "breakdown": {
+                        "others": "1%"
+                    }
+                }
+            },
+            "Demonyms": "Congolese Congo"
+        },
+        "Government": {
+            "Government": "Unitary semi-presidential republic under a dictatorship",
+            "President": "Denis Sassou Nguesso",
+            "Prime Minister": "Anatole Collinet Makosso",
+            "President of Senate": "Pierre Ngolo",
+            "President of the National Assembly": "Isidore Mvouba",
+            "Legislature": "Parliament",
+            "Upper house": "Senate",
+            "Lower house": "National Assembly"
+        },
+        "Independence": {
+            "from France": "15 August 1960"
+        },
+        "History": {
+            "Republic established": "28 November 1958"
+        },
+        "Area": {
+            "Total": "342,000 km 2 (132,000 sq mi) ( 64th )",
+            "Water (%)": "3.3"
+        },
+        "Population": {
+            "2023 estimate": "6,228,784 ( 116th )",
+            "2023 census": "6,142,180",
+            "Density": "19/km 2 (49.2/sq mi) ( 212th )"
+        },
+        "Economy": {
+            "GDP ( PPP )": {
+                "Details": "2025 estimate",
+                "Total": "$42.760 billion ( 140th )",
+                "Per capita": "$6,590 ( 143rd )"
+            },
+            "GDP (nominal)": {
+                "Details": "2025 estimate",
+                "Total": "$15.281 billion ( 141st )",
+                "Per capita": "$2,360 ( 151st )"
+            },
+            "Gini (2011)": "40.2 medium inequality",
+            "HDI (2023)": "0.649 medium ( 138th )",
+            "Currency": "Central African CFA franc ( XAF )"
+        },
+        "Time": {
+            "Time zone": "UTC +1 ( WAT )"
+        },
+        "Codes": {
+            "Calling code": "+242",
+            "ISO 3166 code": "CG",
+            "Internet TLD": ".cg"
+        }
+    }
+}

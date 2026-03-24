@@ -1,0 +1,262 @@
+[
+  {
+    "op": "update",
+    "path": [
+      "General",
+      "Capital"
+    ],
+    "label": "Capital",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Beirut",
+    "new_value": "Bern"
+  },
+  {
+    "op": "update",
+    "path": [
+      "General",
+      "Primary Language"
+    ],
+    "label": "Primary Language",
+    "old_type": "list",
+    "new_type": "list",
+    "old_value": [
+      "Arabic"
+    ],
+    "new_value": [
+      "), French (",
+      "), Italian (",
+      "), Romansh (",
+      ")"
+    ]
+  },
+  {
+    "op": "update",
+    "path": [
+      "General",
+      "Ethnic groups"
+    ],
+    "label": "Ethnic groups",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "Arab": 95.0,
+      "Armenian": 4.0,
+      "others": 1.0
+    },
+    "new_value": {
+      "Swiss": 72.6,
+      "foreign nationals": 27.4
+    }
+  },
+  {
+    "op": "update",
+    "path": [
+      "General",
+      "Religion"
+    ],
+    "label": "Religion",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "Islam": 53.31,
+      "Shia": 26.84,
+      "Alawite": 0.64,
+      "Sunni": 26.55,
+      "Christianity": 41.4,
+      "Catholic": 28.11,
+      "Orthodox": 8.3,
+      "Armenian Apostolic": 2.92,
+      "Protestant": 0.53,
+      "Other Christians": 1.64,
+      "Druze": 5.21,
+      "No religion": 0.08
+    },
+    "new_value": {
+      "Christianity": 54.7,
+      "Catholicism": 30.0,
+      "Protestantism": 18.7,
+      "other Christian": 6.0,
+      "no religion": 36.8,
+      "Islam": 6.0,
+      "other religions": 1.5,
+      "unanswered": 0.9
+    }
+  },
+  {
+    "op": "update",
+    "path": [
+      "General",
+      "Demonyms"
+    ],
+    "label": "Demonyms",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Lebanese",
+    "new_value": "English: Swiss German: Schweizer/Schweizerin French: Suisse/Suissesse Italian : svizzero/svizzera or elvetico/elvetica Romansh : Svizzer/Svizra"
+  },
+  {
+    "op": "update",
+    "path": [
+      "Government",
+      "Government"
+    ],
+    "label": "Government",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Unitary parliamentary republic under confessionalism",
+    "new_value": "Federal assembly-independent directorial republic"
+  },
+  {
+    "op": "update",
+    "path": [
+      "Government",
+      "Legislature"
+    ],
+    "label": "Legislature",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Parliament",
+    "new_value": "Federal Assembly"
+  },
+  {
+    "op": "update",
+    "path": [
+      "Area",
+      "Total (km2)"
+    ],
+    "label": "Total (km2)",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 10452.0,
+    "new_value": 41291.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "Area",
+      "Water (%)"
+    ],
+    "label": "Water (%)",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 1.8,
+    "new_value": 4.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "Population",
+      "Count"
+    ],
+    "label": "Count",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 5364482.0,
+    "new_value": 9060598.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "Population",
+      "Density (/km2)"
+    ],
+    "label": "Density (/km2)",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 513.0,
+    "new_value": 207.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "Economy",
+      "GDP ( PPP )",
+      "Total ($)"
+    ],
+    "label": "Total ($)",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 78233000000.0,
+    "new_value": 881083000000.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "Economy",
+      "GDP ( PPP )",
+      "Per capita ($)"
+    ],
+    "label": "Per capita ($)",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 11793.0,
+    "new_value": 97660.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "Economy",
+      "GDP (nominal)",
+      "Total ($)"
+    ],
+    "label": "Total ($)",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 21780000000.0,
+    "new_value": 1002999999999.9999
+  },
+  {
+    "op": "update",
+    "path": [
+      "Economy",
+      "GDP (nominal)",
+      "Per capita ($)"
+    ],
+    "label": "Per capita ($)",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 3283.0,
+    "new_value": 111047.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "Economy",
+      "Gini"
+    ],
+    "label": "Gini",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 31.8,
+    "new_value": 31.5
+  },
+  {
+    "op": "update",
+    "path": [
+      "Economy",
+      "HDI"
+    ],
+    "label": "HDI",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 0.752,
+    "new_value": 0.97
+  },
+  {
+    "op": "update",
+    "path": [
+      "Economy",
+      "Currency"
+    ],
+    "label": "Currency",
+    "old_type": "list",
+    "new_type": "list",
+    "old_value": [
+      "Lebanese pound"
+    ],
+    "new_value": [
+      "Swiss franc"
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "country": "Japan",
+  "infobox": {
+    "General": {
+      "Capital": "Tokyo",
+      "National languages": "Japanese",
+      "Regional languages": "Ainu (recognized) Ryukyuan languages Hachijō",
+      "Demonyms": "Japanese"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary constitutional monarchy",
+      "Legislature": "National Diet",
+      "Upper house": "House of Councillors",
+      "Lower house": "House of Representatives"
+    },
+    "Area": {
+      "Total": "377,975 km 2 (145,937 sq mi) ( 62nd )",
+      "Water (%": "1.4"
+    },
+    "Population": {
+      "January 1, 2026 estimate": "122,950,000 ( 11th )",
+      "2020 census": "126,146,099",
+      "Density": "330/km 2 (854.7/sq mi) ( 39th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$6.758 trillion ( 5th )",
+        "Per capita": "$54,815 ( 39th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$4.230 trillion ( 4th )",
+        "Per capita": "$34,713 ( 36th )"
+      },
+      "Gini": "32.3 medium inequality",
+      "HDI": "0.925 very high ( 23rd )",
+      "Currency": "Japanese yen ( ¥ )"
+    }
+  }
+}

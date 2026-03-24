@@ -1,0 +1,43 @@
+{
+  "country": "South Sudan",
+  "infobox": {
+    "General": {
+      "Capital": "Juba",
+      "Official languages": "English",
+      "Spoken languages": "Dinka Bari Juba Arabic Nuer Zande Jur (Luo) Murle Shilluk various others",
+      "Religion": {
+        "Christianity": "60.5%",
+        "traditional faiths": "32.9%",
+        "Islam": "6.2%",
+        "others / none": "0.4%"
+      },
+      "Demonyms": "South Sudanese"
+    },
+    "Government": {
+      "Government": "Federal presidential republic",
+      "Legislature": "Transitional National Legislature"
+    },
+    "Area": {
+      "Total": "644,329 km 2 (248,777 sq mi) ( 41st )"
+    },
+    "Population": {
+      "2024 estimate": "12,703,714 ( 80th )",
+      "Density": "19/km 2 (49.2/sq mi) ( 211th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$15.160 billion ( 157th )",
+        "Per capita": "$953 ( 191st )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$4.980 billion ( 164th )",
+        "Per capita": "$313 ( 194th )"
+      },
+      "Gini": "44.1 medium inequality",
+      "HDI": "0.388 low ( 193rd )",
+      "Currency": "South Sudanese pound ( SSP )"
+    }
+  }
+}

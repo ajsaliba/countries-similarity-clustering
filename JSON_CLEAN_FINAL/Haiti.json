@@ -1,0 +1,49 @@
+{
+  "country": "Haiti",
+  "infobox": {
+    "General": {
+      "Capital": "Port-au-Prince",
+      "Official languages": "Haitian Creole French",
+      "Ethnic groups": {
+        "African": "95%",
+        "other": "5%"
+      },
+      "Religion": {
+        "Christianity": "87%",
+        "no religion": "10.7%",
+        "Haitian Vodou": "2.1%",
+        "other": "0.2%"
+      },
+      "Demonyms": "Haitian"
+    },
+    "Government": {
+      "Government": "Unitary semi-presidential republic",
+      "Legislature": "National Assembly (vacant)",
+      "Upper house": "Senate",
+      "Lower house": "Chamber of Deputies"
+    },
+    "Area": {
+      "Total": "27,700 km 2 (10,700 sq mi) ( 143rd )",
+      "Water (%": "0.7"
+    },
+    "Population": {
+      "2023 estimate": "11,470,261 ( 83rd )",
+      "Density": "417/km 2 (1,080.0/sq mi) ( 32nd )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$38.200 billion ( 144th )",
+        "Per capita": "$3,040 ( 169th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$33.550 billion ( 107th )",
+        "Per capita": "$2,670 ( 141st )"
+      },
+      "Gini": "41 medium inequality",
+      "HDI": "0.554 medium ( 166th )",
+      "Currency": "Gourde (G) ( HTG )"
+    }
+  }
+}

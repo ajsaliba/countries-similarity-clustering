@@ -1,0 +1,51 @@
+{
+  "country": "Dominica",
+  "infobox": {
+    "General": {
+      "Capital": "Roseau",
+      "Official languages": "English",
+      "Vernacular languages": "Dominican Creole French, Kokoy",
+      "Ethnic groups": {
+        "African": "75%",
+        "multiracial": "19%",
+        "Kalinago": "4%",
+        "European or other": "0.8%",
+        "unspecified": "0.2%"
+      },
+      "Religion": {
+        "Christianity": "94.4%",
+        "folk religions": "3%",
+        "other": "1.7%",
+        "none": "0.9%"
+      },
+      "Demonyms": "Dominican (pronounced/ˌ d ɒ m ɪ ˈ n iː k ə n/)"
+    },
+    "Government": {
+      "Government": "Unitary parliamentary republic",
+      "Legislature": "House of Assembly"
+    },
+    "Area": {
+      "Total": "750 km 2 (290 sq mi) ( 174th )",
+      "Water (%": "1.6"
+    },
+    "Population": {
+      "2021 estimate": "72,412 ( 186th )",
+      "2011 census": "71,293",
+      "Density": "105/km 2 (271.9/sq mi) ( 95th )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2018 estimate",
+        "Total": "$688 million",
+        "Per capita": "$9,726"
+      },
+      "GDP (nominal": {
+        "Details": "2018 estimate",
+        "Total": "$485 million",
+        "Per capita": "$7,860"
+      },
+      "HDI": "0.761 high ( 98th )",
+      "Currency": "East Caribbean dollar ( XCD )"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "country": "Panama",
+  "infobox": {
+    "General": {
+      "Capital": "Panama City",
+      "Official languages": "Spanish",
+      "Ethnic groups": {
+        "Mestizo (mixed White and Indigenous": "65%",
+        "Indigenous": "12.3%",
+        "Black": "9.2%",
+        "Mulatto (mixed White and Black": "6.8%",
+        "White": "6.7%"
+      },
+      "Religion": {
+        "Christianity": "91.5%",
+        "Catholicism": "63.2%",
+        "Protestantism": "25%",
+        "other Christian": "3.3%",
+        "no religion": "7.6%",
+        "other": "0.9%"
+      },
+      "Demonyms": "Panamanian"
+    },
+    "Government": {
+      "Government": "Unitary presidential republic",
+      "Legislature": "National Assembly"
+    },
+    "Area": {
+      "Total": "75,417 km 2 (29,119 sq mi) ( 116th )",
+      "Water (%": "2.9"
+    },
+    "Population": {
+      "2022 estimate": "4,337,768 ( 127th )",
+      "Density": "56/km 2 (145.0/sq mi) ( 122nd )"
+    },
+    "Economy": {
+      "GDP ( PPP": {
+        "Details": "2025 estimate",
+        "Total": "$195.279 billion ( 80th )",
+        "Per capita": "$42,772 ( 50th )"
+      },
+      "GDP (nominal": {
+        "Details": "2025 estimate",
+        "Total": "$91.731 billion ( 77th )",
+        "Per capita": "$20,092 ( 55th )"
+      },
+      "Gini": "48.9 high inequality",
+      "HDI": "0.839 very high ( 59th )",
+      "Currency": "Balboa ( PAB ) United States dollar ( USD )"
+    }
+  }
+}

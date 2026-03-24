@@ -28,7 +28,6 @@ from typing import Any
 
 from .node import Node
 
-# Labels that represent percentage distributions regardless of key format.
 _DISTRIBUTION_LABELS: frozenset[str] = frozenset({"Religion", "Ethnic groups"})
 
 MISSING_VALUE: float = -1.0
@@ -40,7 +39,6 @@ def _is_distribution(data: dict, label: str) -> bool:
     """
     if label in _DISTRIBUTION_LABELS:
         return True
-    # Fallback: every key ends with "(%) and every value is numeric.
     return len(data) > 0 and all(
         isinstance(v, (int, float)) and str(k).endswith("(%)")
         for k, v in data.items()
@@ -59,10 +57,8 @@ def build_tree(data: Any, label: str = "root") -> Node:
         Root Node of the constructed sub-tree.
     """
     if isinstance(data, dict):
-        # Distribution dicts → single leaf, compared via L1 distance.
         if _is_distribution(data, label):
             return Node(label=label, node_type="dist", value=data)
-        # Regular dict → internal node with children.
         node = Node(label=label, node_type="dict")
         for key, val in data.items():
             child = build_tree(val, label=key)

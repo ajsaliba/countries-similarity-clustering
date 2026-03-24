@@ -9,18 +9,13 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence, Tuple
 
-
-# ============================================================
-# Tree model
-# ============================================================
-
 @dataclass
 class TreeNode:
     label: str
     raw_value: Optional[str] = None
     norm_value: Optional[str] = None
     norm_number: Optional[float] = None
-    kind: str = "internal"  # internal | numeric | atomic_text | token | token_text_container
+    kind: str = "internal" 
     top_section: Optional[str] = None
     numeric_field: Optional[str] = None
     patch_id: Optional[str] = None
@@ -69,9 +64,7 @@ class TreeNode:
         return line + "\n" + "\n".join(child.pretty(level + 1, show=show) for child in self.children)
 
 
-# ============================================================
-# Profiles
-# ============================================================
+
 
 @dataclass(frozen=True)
 class PreprocessProfile:
@@ -159,9 +152,7 @@ RELIGION_BUCKETS = {
 }
 
 
-# ============================================================
-# Generic text helpers
-# ============================================================
+
 
 def collapse_spaces(text: str) -> str:
     text = text.replace("\u00a0", " ")
@@ -200,9 +191,7 @@ def tokenize_text(text: str) -> List[str]:
     return [tok for tok in text.split(" ") if tok]
 
 
-# ============================================================
-# Key normalization / schema normalization
-# ============================================================
+
 
 def canonicalize_key(key: str) -> str:
     k = collapse_spaces(str(key))
@@ -468,7 +457,7 @@ def maybe_normalize_schema(obj: Any, path: Tuple[str, ...], profile: PreprocessP
 
     path_low = tuple(p.casefold() for p in path)
 
-    # Government subtree normalization
+    
     if path_low[-1:] == ("government",):
         new_obj: Dict[str, Any] = {}
         for raw_key, raw_val in obj.items():
@@ -482,7 +471,7 @@ def maybe_normalize_schema(obj: Any, path: Tuple[str, ...], profile: PreprocessP
             new_obj[key] = raw_val
         return new_obj
 
-    # General subtree normalization
+    
     if path_low[-1:] == ("general",):
         new_obj: Dict[str, Any] = {}
         language_bucket: Dict[str, Any] = {}
@@ -492,7 +481,7 @@ def maybe_normalize_schema(obj: Any, path: Tuple[str, ...], profile: PreprocessP
             key = canonicalize_key(raw_key)
 
             if profile.name == "clean" and key in DETAIL_LABELS_CLEAN:
-                # Drop detail-only clean fields entirely.
+                
                 continue
 
             if key in {
@@ -543,9 +532,7 @@ def maybe_normalize_schema(obj: Any, path: Tuple[str, ...], profile: PreprocessP
     return obj
 
 
-# ============================================================
-# Numeric parsing / normalization
-# ============================================================
+
 
 NUM_RE = re.compile(r"-?\d[\d,]*(?:\.\d+)?")
 MULTIPLIERS = {
@@ -767,9 +754,7 @@ class DatasetNumericNormalizer:
         return (raw_number - stats.min_value) / (stats.max_value - stats.min_value)
 
 
-# ============================================================
-# Leaf typing
-# ============================================================
+
 
 def is_url_like(text: str) -> bool:
     low = text.casefold()
@@ -799,9 +784,7 @@ def is_code_like(path: Sequence[str], text: str) -> bool:
     return any(word in joined for word in ("code", "tld", "utc", "timezone", "time zone"))
 
 
-# ============================================================
-# Normalized document representation
-# ============================================================
+
 
 def normalize_document(
     obj: Any,
@@ -857,9 +840,7 @@ def normalize_document(
     }
 
 
-# ============================================================
-# Tree building
-# ============================================================
+
 
 def build_subtree(label: str, value: Any, top_section: Optional[str] = None) -> TreeNode:
     current_top_section = top_section
@@ -944,9 +925,7 @@ def build_tree_from_country_json(
     return root
 
 
-# ============================================================
-# TED helpers
-# ============================================================
+
 
 def extract_tokens(node: TreeNode) -> List[str]:
     tokens: List[str] = []
@@ -960,9 +939,7 @@ def extract_tokens(node: TreeNode) -> List[str]:
     return tokens
 
 
-# ============================================================
-# TED primitives
-# ============================================================
+
 
 def same_label(a: TreeNode, b: TreeNode) -> bool:
     return compare_text(a.label) == compare_text(b.label)
@@ -1069,9 +1046,7 @@ def cost_del_tree(subtree: TreeNode, dest_tree: TreeNode, contain_memo: Dict[Tup
     return float(subtree_size(subtree))
 
 
-# ============================================================
-# Nierman & Jagadish-style TED
-# ============================================================
+
 
 def nj_ted_cost(
     a: TreeNode,
@@ -1121,9 +1096,7 @@ def normalized_similarity(a: TreeNode, b: TreeNode) -> float:
     return max(0.0, 1.0 - (dist / max_cost))
 
 
-# ============================================================
-# Edit script recovery
-# ============================================================
+
 
 def child_path(parent_path: str, child: TreeNode, index_1_based: int) -> str:
     if not parent_path:
@@ -1245,9 +1218,7 @@ def recover_edit_script(
     return script
 
 
-# ============================================================
-# Tree patching (4.4) and post-processing (4.5)
-# ============================================================
+
 
 PATH_SEG_RE = re.compile(r"^(?P<label>.+)\[(?P<index>\d+)\]$")
 
@@ -1562,9 +1533,7 @@ def verify_patch(patched_tree: TreeNode, target_tree: TreeNode) -> Dict[str, Any
     }
 
 
-# ============================================================
-# Dataset helpers / compare
-# ============================================================
+
 
 def load_dataset(path: str) -> List[Dict[str, Any]]:
     with open(path, "r", encoding="utf-8") as f:
@@ -1624,9 +1593,7 @@ def compare_countries(dataset_path: str, country_a: str, country_b: str, mode: s
     }
 
 
-# ============================================================
-# CLI
-# ============================================================
+
 
 def default_dataset_for_mode(base_dir: Path, mode: str) -> Path:
     if mode == "clean":

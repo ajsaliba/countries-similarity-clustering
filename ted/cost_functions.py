@@ -37,8 +37,7 @@ from typing import Dict, FrozenSet, Set
 from .node import Node
 
 
-# High weights on value-bearing leaf nodes, low weights on structural dict
-# containers to prevent schema similarity from dominating the score.
+
 
 FEATURE_WEIGHTS: Dict[str, float] = {
     # Economic value nodes – highest weight
@@ -71,12 +70,11 @@ FEATURE_WEIGHTS: Dict[str, float] = {
 
 DEFAULT_WEIGHT: float = 1.0
 
-# Sentinel value in the raw data for a missing numeric measurement.
+
 MISSING_VALUE: float = -1.0
 
-# Normalization constant for log-based numeric cost:
-# |ln(v1) - ln(v2)| / LN_SCALE   =>   100× ratio maps to cost 1.0
-_LN_SCALE: float = math.log(100.0)   # approx. 4.605
+
+_LN_SCALE: float = math.log(100.0)  
 
 def sharpen(x: float, degree: int = 3) -> float:
     """
@@ -127,7 +125,7 @@ def numeric_cost(v1: float, v2: float) -> float:
     if v1 == v2:
         return 0.0
     if v1 <= 0.0 or v2 <= 0.0:
-        # Fallback for zero/negative values (e.g. Water (%) = 0.0)
+        
         max_abs = max(abs(v1), abs(v2))
         if max_abs == 0.0:
             return 0.0
@@ -216,7 +214,6 @@ class CostFunction:
 
         if t == "num":
             raw = numeric_cost(node1.value, node2.value)
-            # Missing-value penalty is already at the curve's fixed point
             if raw == 0.5 and (
                 node1.value == self._missing or node2.value == self._missing
             ):

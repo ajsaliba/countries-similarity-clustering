@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 from __future__ import annotations
 
 import argparse
@@ -49,9 +49,7 @@ _CAPITAL_KEYS = [
 ]
 
 
-# ---------------------------------------------------------------------------
-# Dataset helpers
-# ---------------------------------------------------------------------------
+
 
 def get_dataset_path(dataset_name: str) -> Path:
     try:
@@ -61,9 +59,7 @@ def get_dataset_path(dataset_name: str) -> Path:
         raise ValueError(f"Unknown dataset '{dataset_name}'. Valid options: {valid}") from exc
 
 
-# ---------------------------------------------------------------------------
-# Normalization helpers
-# ---------------------------------------------------------------------------
+
 
 def normalize_name(name: str) -> str:
     return " ".join(name.strip().casefold().split())
@@ -391,9 +387,7 @@ def load_countries(dataset_name: str) -> List[dict]:
     return [normalize_country(item) for item in countries if isinstance(item, dict)]
 
 
-# ---------------------------------------------------------------------------
-# Tree diff / patch / post-processing
-# ---------------------------------------------------------------------------
+
 
 def _clone_value(value: Any) -> Any:
     if isinstance(value, dict):
@@ -650,9 +644,7 @@ def script_summary(script: List[dict]) -> str:
     return "\n".join(lines)
 
 
-# ---------------------------------------------------------------------------
-# Post-processing formatters
-# ---------------------------------------------------------------------------
+
 
 def _is_number(value: Any) -> bool:
     return isinstance(value, (int, float)) and not isinstance(value, bool)
@@ -733,9 +725,7 @@ def write_text(path: str | None, content: str) -> None:
     out.write_text(content, encoding="utf-8")
 
 
-# ---------------------------------------------------------------------------
-# CLI
-# ---------------------------------------------------------------------------
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(

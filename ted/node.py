@@ -18,8 +18,8 @@ from typing import Any, List, Optional
 @dataclass
 class Node:
     label: str
-    node_type: str          # "dict" | "list" | "str" | "num"
-    value: Any = None       # populated for leaf nodes
+    node_type: str          
+    value: Any = None      
     children: List[Node] = field(default_factory=list)
     parent: Optional[Node] = field(default=None, repr=False)
 
@@ -35,7 +35,7 @@ class Node:
             return f"Node({self.label!r}, {self.node_type}, val={self.value!r})"
         return f"Node({self.label!r}, {self.node_type}, children={len(self.children)})"
 
-    # Nodes must be hashable for use as dict keys in the algorithm.
+    
     def __hash__(self) -> int:
         return id(self)
 

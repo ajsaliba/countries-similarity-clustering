@@ -51,7 +51,6 @@ def _leftmost_leaf(postorder_nodes: List[Node]) -> List[int]:
     Returns a 1-indexed list (ld[0] is a dummy 0).
     """
     n = len(postorder_nodes)
-    # Map each node object → its 1-based postorder index
     idx: dict[int, int] = {id(nd): i + 1 for i, nd in enumerate(postorder_nodes)}
 
     ld = [0] * (n + 1)  # ld[1..n]; ld[0] unused
@@ -59,9 +58,6 @@ def _leftmost_leaf(postorder_nodes: List[Node]) -> List[int]:
         if node.is_leaf():
             ld[i] = i
         else:
-            # Leftmost child in postorder has the smallest index among children;
-            # because we process children left-to-right, the first child's
-            # subtree occupies the lowest postorder indices.
             ld[i] = ld[idx[id(node.children[0])]]
     return ld
 
@@ -76,14 +72,14 @@ def _keyroots(ld: List[int], n: int) -> List[int]:
     """
     seen: dict[int, int] = {}
     for i in range(1, n + 1):
-        seen[ld[i]] = i  # overwrite with the larger index
+        seen[ld[i]] = i  
     return sorted(seen.values())
 
 def _forest_dist(
     ki: int,
     kj: int,
-    nodes1: List[Node],   # 1-indexed (nodes1[0] is None)
-    nodes2: List[Node],   # 1-indexed
+    nodes1: List[Node],   
+    nodes2: List[Node],   
     ld1: List[int],
     ld2: List[int],
     TD: List[List[float]],
@@ -99,17 +95,17 @@ def _forest_dist(
     ldi = ld1[ki]
     ldj = ld2[kj]
 
-    rows = ki - ldi + 2   # r ∈ [0, ki - ldi + 1]
-    cols = kj - ldj + 2   # c ∈ [0, kj - ldj + 1]
+    rows = ki - ldi + 2   
+    cols = kj - ldj + 2   
 
     FD: List[List[float]] = [[0.0] * cols for _ in range(rows)]
 
-    # Delete all of T1-forest (column 0)
+    
     for r in range(1, rows):
-        i1 = ldi - 1 + r          # actual postorder index
+        i1 = ldi - 1 + r          
         FD[r][0] = FD[r - 1][0] + cost_fn.delete(nodes1[i1])
 
-    # Insert all of T2-forest (row 0)
+    
     for c in range(1, cols):
         j1 = ldj - 1 + c
         FD[0][c] = FD[0][c - 1] + cost_fn.insert(nodes2[j1])
@@ -122,27 +118,22 @@ def _forest_dist(
             j1 = ldj - 1 + c
             node2 = nodes2[j1]
 
-            # Option A: delete node i1
+            
             opt_del = FD[r - 1][c] + cost_fn.delete(node1)
-            # Option B: insert node j1
+            
             opt_ins = FD[r][c - 1] + cost_fn.insert(node2)
 
             if ld1[i1] == ldi and ld2[j1] == ldj:
-                # ── Tree case: i1 and j1 are tree roots within this forest.
-                # We can match (update) them directly.
+                
                 opt_upd = FD[r - 1][c - 1] + cost_fn.update(node1, node2)
                 val = min(opt_del, opt_ins, opt_upd)
                 FD[r][c] = val
-                TD[i1][j1] = val   # record tree distance
+                TD[i1][j1] = val   
 
             else:
-                # ── Forest case: at least one of i1, j1 is an intermediate
-                # node whose subtree was already handled by a previous keyroot
-                # call.  Use the precomputed TD value for those subtrees.
-                #
-                # FD index for (ld1[i1]-1, ld2[j1]-1) in array coordinates:
-                prev_r = ld1[i1] - ldi      # = (ld1[i1] - 1) - (ldi - 1)
-                prev_c = ld2[j1] - ldj      # = (ld2[j1] - 1) - (ldj - 1)
+                
+                prev_r = ld1[i1] - ldi      
+                prev_c = ld2[j1] - ldj      
                 opt_sub = FD[prev_r][prev_c] + TD[i1][j1]
                 FD[r][c] = min(opt_del, opt_ins, opt_sub)
 
@@ -175,7 +166,7 @@ def zhang_shasha(
     if n == 0 and m == 0:
         return 0.0
 
-    # 1-indexed node arrays (index 0 is a dummy placeholder)
+    
     nodes1: List[Node | None] = [None] + seq1
     nodes2: List[Node | None] = [None] + seq2
 
@@ -185,8 +176,7 @@ def zhang_shasha(
     kr1 = _keyroots(ld1, n)
     kr2 = _keyroots(ld2, m)
 
-    # TD[i][j] = TED(subtree rooted at nodes1[i], subtree rooted at nodes2[j])
-    # Initialised to 0; filled in by _forest_dist calls.
+    
     TD: List[List[float]] = [[0.0] * (m + 1) for _ in range(n + 1)]
 
     for ki in kr1:
@@ -228,10 +218,10 @@ def zhang_shasha_with_script(
     kr2 = _keyroots(ld2, m)
 
     TD = [[0.0] * (m + 1) for _ in range(n + 1)]
-    # Also store operation choices for back-tracing
+    
     OP = [["" for _ in range(m + 1)] for _ in range(n + 1)]
 
-    # We re-run _forest_dist but record choices in OP
+    
     for ki in kr1:
         for kj in kr2:
             ldi, ldj = ld1[ki], ld2[kj]
@@ -270,7 +260,7 @@ def zhang_shasha_with_script(
                         sub = FD[pr][pc] + TD[i1][j1]
                         FD[r][c] = min(d, ins, sub)
 
-    # Back-trace from (n, m) following OP
+    
     script: List[str] = []
     i, j = n, m
     while i > 0 or j > 0:

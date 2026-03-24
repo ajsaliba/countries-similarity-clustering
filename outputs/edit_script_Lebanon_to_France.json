@@ -1,0 +1,1054 @@
+[
+  {
+    "op": "update_node",
+    "path": "root/country[1]/#text[1]/lebanon[1]",
+    "from": {
+      "label": "lebanon",
+      "kind": "token"
+    },
+    "to": {
+      "label": "france",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000004"
+  },
+  {
+    "op": "update_value",
+    "path": "root/infobox[2]/Economy[5]/GDP (PPP)[1]/Per capita[3]",
+    "from": {
+      "label": "Per capita",
+      "kind": "numeric",
+      "raw_value": "$11,793 ( 114th )",
+      "norm_value": "0.693405112747",
+      "norm_number": 0.6934051127465632,
+      "top_section": "Economy",
+      "numeric_field": "gdp_per_capita"
+    },
+    "to": {
+      "label": "Per capita",
+      "kind": "numeric",
+      "raw_value": "$65,626 ( 25th )",
+      "norm_value": "0.853476566600",
+      "norm_number": 0.8534765665995703,
+      "top_section": "Economy",
+      "numeric_field": "gdp_per_capita"
+    },
+    "cost": 0.16007145385300703,
+    "source_uid": "n000056"
+  },
+  {
+    "op": "update_value",
+    "path": "root/infobox[2]/Economy[5]/GDP (PPP)[1]/Total[2]",
+    "from": {
+      "label": "Total",
+      "kind": "numeric",
+      "raw_value": "$78.233 billion ( 108th )",
+      "norm_value": "0.496142707749",
+      "norm_number": 0.49614270774906993,
+      "top_section": "Economy",
+      "numeric_field": "gdp_total"
+    },
+    "to": {
+      "label": "Total",
+      "kind": "numeric",
+      "raw_value": "$4.504 trillion ( 9th )",
+      "norm_value": "0.730818132615",
+      "norm_number": 0.7308181326147571,
+      "top_section": "Economy",
+      "numeric_field": "gdp_total"
+    },
+    "cost": 0.2346754248656872,
+    "source_uid": "n000055"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/Economy[5]/GDP (PPP)[1]/Details[1]/#text[1]/2022[1]",
+    "from": {
+      "label": "2022",
+      "kind": "token",
+      "top_section": "Economy"
+    },
+    "to": {
+      "label": "2025",
+      "kind": "token",
+      "top_section": "Economy"
+    },
+    "cost": 1.0,
+    "source_uid": "n000053"
+  },
+  {
+    "op": "update_value",
+    "path": "root/infobox[2]/Economy[5]/GDP (nominal)[2]/Per capita[3]",
+    "from": {
+      "label": "Per capita",
+      "kind": "numeric",
+      "raw_value": "$3,283 ( 133rd )",
+      "norm_value": "0.574169271204",
+      "norm_number": 0.5741692712036301,
+      "top_section": "Economy",
+      "numeric_field": "gdp_per_capita"
+    },
+    "to": {
+      "label": "Per capita",
+      "kind": "numeric",
+      "raw_value": "$46,792 ( 22nd )",
+      "norm_value": "0.821930971386",
+      "norm_number": 0.8219309713861596,
+      "top_section": "Economy",
+      "numeric_field": "gdp_per_capita"
+    },
+    "cost": 0.2477617001825294,
+    "source_uid": "n000063"
+  },
+  {
+    "op": "update_value",
+    "path": "root/infobox[2]/Economy[5]/GDP (nominal)[2]/Total[2]",
+    "from": {
+      "label": "Total",
+      "kind": "numeric",
+      "raw_value": "$21.780 billion ( 103rd )",
+      "norm_value": "0.422104429771",
+      "norm_number": 0.4221044297709624,
+      "top_section": "Economy",
+      "numeric_field": "gdp_total"
+    },
+    "to": {
+      "label": "Total",
+      "kind": "numeric",
+      "raw_value": "$3.211 trillion ( 7th )",
+      "norm_value": "0.711225311084",
+      "norm_number": 0.7112253110835727,
+      "top_section": "Economy",
+      "numeric_field": "gdp_total"
+    },
+    "cost": 0.28912088131261027,
+    "source_uid": "n000062"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/Economy[5]/GDP (nominal)[2]/Details[1]/#text[1]/2022[1]",
+    "from": {
+      "label": "2022",
+      "kind": "token",
+      "top_section": "Economy"
+    },
+    "to": {
+      "label": "2025",
+      "kind": "token",
+      "top_section": "Economy"
+    },
+    "cost": 1.0,
+    "source_uid": "n000060"
+  },
+  {
+    "op": "update_value",
+    "path": "root/infobox[2]/Economy[5]/Gini[3]",
+    "from": {
+      "label": "Gini",
+      "kind": "numeric",
+      "raw_value": "31.8 medium inequality",
+      "norm_value": "0.318000000000",
+      "norm_number": 0.318,
+      "top_section": "Economy",
+      "numeric_field": "gini"
+    },
+    "to": {
+      "label": "Gini",
+      "kind": "numeric",
+      "raw_value": "29.8 low inequality",
+      "norm_value": "0.298000000000",
+      "norm_number": 0.298,
+      "top_section": "Economy",
+      "numeric_field": "gini"
+    },
+    "cost": 0.020000000000000018,
+    "source_uid": "n000064"
+  },
+  {
+    "op": "update_value",
+    "path": "root/infobox[2]/Economy[5]/HDI[4]",
+    "from": {
+      "label": "HDI",
+      "kind": "numeric",
+      "raw_value": "0.752 high ( 102nd )",
+      "norm_value": "0.752000000000",
+      "norm_number": 0.752,
+      "top_section": "Economy",
+      "numeric_field": "hdi"
+    },
+    "to": {
+      "label": "HDI",
+      "kind": "numeric",
+      "raw_value": "0.920 very high ( 26th )",
+      "norm_value": "0.920000000000",
+      "norm_number": 0.92,
+      "top_section": "Economy",
+      "numeric_field": "hdi"
+    },
+    "cost": 0.16800000000000004,
+    "source_uid": "n000065"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/infobox[2]/Economy[5]/Currency[5]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "euro",
+      "kind": "token",
+      "top_section": "Economy"
+    },
+    "parent_uid": "n000067"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/infobox[2]/Economy[5]/Currency[5]/#text[1]",
+    "index": 2,
+    "cost": 1.0,
+    "subtree": {
+      "label": "eur",
+      "kind": "token",
+      "top_section": "Economy"
+    },
+    "parent_uid": "n000067"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/Economy[5]/Currency[5]/#text[1]/lebanese[1]",
+    "from": {
+      "label": "lebanese",
+      "kind": "token",
+      "top_section": "Economy"
+    },
+    "to": {
+      "label": "cfp",
+      "kind": "token",
+      "top_section": "Economy"
+    },
+    "cost": 1.0,
+    "source_uid": "n000068"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/Economy[5]/Currency[5]/#text[1]/pound[2]",
+    "from": {
+      "label": "pound",
+      "kind": "token",
+      "top_section": "Economy"
+    },
+    "to": {
+      "label": "franc",
+      "kind": "token",
+      "top_section": "Economy"
+    },
+    "cost": 1.0,
+    "source_uid": "n000069"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/Economy[5]/Currency[5]/#text[1]/lbp[3]",
+    "from": {
+      "label": "lbp",
+      "kind": "token",
+      "top_section": "Economy"
+    },
+    "to": {
+      "label": "xpf",
+      "kind": "token",
+      "top_section": "Economy"
+    },
+    "cost": 1.0,
+    "source_uid": "n000070"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/Population[4]/2024 estimate[1]",
+    "from": {
+      "label": "2024 estimate",
+      "kind": "numeric",
+      "raw_value": "5,364,482 ( 117th )",
+      "norm_value": "0.637652386403",
+      "norm_number": 0.6376523864033,
+      "top_section": "Population",
+      "numeric_field": "population"
+    },
+    "to": {
+      "label": "January 2026 estimate",
+      "kind": "numeric",
+      "raw_value": "69,081,996 ( 21st )",
+      "norm_value": "0.803459368413",
+      "norm_number": 0.8034593684130344,
+      "top_section": "Population",
+      "numeric_field": "population"
+    },
+    "cost": 1.1658069820097343,
+    "source_uid": "n000047"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/infobox[2]/Population[4]/Density[2]",
+    "index": 2,
+    "cost": 10.0,
+    "subtree": {
+      "label": "item",
+      "kind": "token_text_container",
+      "raw_value": "123/km 2 (318.6/sq mi) ( 97th )",
+      "top_section": "Population",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "top_section": "Population",
+          "children": [
+            {
+              "label": "123",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "km",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "2",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "318",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "6",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "sq",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "mi",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "97th",
+              "kind": "token",
+              "top_section": "Population"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000048"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/infobox[2]/Population[4]/Density[2]",
+    "index": 1,
+    "cost": 9.0,
+    "subtree": {
+      "label": "item",
+      "kind": "token_text_container",
+      "raw_value": "109/km 2 (283/sq mi) ( 106th )",
+      "top_section": "Population",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "top_section": "Population",
+          "children": [
+            {
+              "label": "109",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "km",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "2",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "283",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "sq",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "mi",
+              "kind": "token",
+              "top_section": "Population"
+            },
+            {
+              "label": "106th",
+              "kind": "token",
+              "top_section": "Population"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000048"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/infobox[2]/Population[4]",
+    "index": 3,
+    "cost": 1.0,
+    "subtree": {
+      "label": "Metropolitan France, estimate as of January 2026",
+      "kind": "numeric",
+      "raw_value": "66,792,845 ( 21st )",
+      "norm_value": "0.801272944348",
+      "norm_number": 0.8012729443482225,
+      "top_section": "Population",
+      "numeric_field": "population"
+    },
+    "parent_uid": "n000046"
+  },
+  {
+    "op": "update_value",
+    "path": "root/infobox[2]/Area[3]/Total[1]",
+    "from": {
+      "label": "Total",
+      "kind": "numeric",
+      "raw_value": "10,452 km 2 (4,036 sq mi) ( 161st )",
+      "norm_value": "0.544785061352",
+      "norm_number": 0.5447850613515627,
+      "top_section": "Area",
+      "numeric_field": "area_total"
+    },
+    "to": {
+      "label": "Total",
+      "kind": "numeric",
+      "raw_value": "632,702.3 km 2 (244,287.7 sq mi) (including metropolitan France and overseas France and excluding Terre Adelie ) ( 42nd )",
+      "norm_value": "0.797195597526",
+      "norm_number": 0.7971955975262731,
+      "top_section": "Area",
+      "numeric_field": "area_total"
+    },
+    "cost": 0.25241053617471043,
+    "source_uid": "n000044"
+  },
+  {
+    "op": "update_value",
+    "path": "root/infobox[2]/Area[3]/Water (%)[2]",
+    "from": {
+      "label": "Water (%)",
+      "kind": "numeric",
+      "raw_value": "1.8",
+      "norm_value": "0.018000000000",
+      "norm_number": 0.018000000000000002,
+      "top_section": "Area",
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Water (%)",
+      "kind": "numeric",
+      "raw_value": "0.86",
+      "norm_value": "0.008600000000",
+      "norm_number": 0.0086,
+      "top_section": "Area",
+      "numeric_field": "percentage"
+    },
+    "cost": 0.009400000000000002,
+    "source_uid": "n000045"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/infobox[2]/Area[3]",
+    "index": 3,
+    "cost": 11.0,
+    "subtree": {
+      "label": "Metropolitan France ( DGCL",
+      "kind": "token_text_container",
+      "raw_value": "543,941 km 2 (210,017 sq mi) ( 50th )",
+      "top_section": "Area",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "top_section": "Area",
+          "children": [
+            {
+              "label": "543",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "941",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "km",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "2",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "210",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "017",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "sq",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "mi",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "50th",
+              "kind": "token",
+              "top_section": "Area"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000043"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/infobox[2]/Area[3]",
+    "index": 4,
+    "cost": 13.0,
+    "subtree": {
+      "label": "Metropolitan France ( INSEE",
+      "kind": "token_text_container",
+      "raw_value": "543,908.3 km 2 (210,004.2 sq mi) ( 50th )",
+      "top_section": "Area",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "top_section": "Area",
+          "children": [
+            {
+              "label": "543",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "908",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "3",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "km",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "2",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "210",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "004",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "2",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "sq",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "mi",
+              "kind": "token",
+              "top_section": "Area"
+            },
+            {
+              "label": "50th",
+              "kind": "token",
+              "top_section": "Area"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000043"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/infobox[2]/Government[2]/Government[1]/#text[1]/parliamentary[2]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "parliamentary",
+      "kind": "token",
+      "top_section": "Government"
+    },
+    "source_uid": "n000036"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/Government[2]/Government[1]/#text[1]/republic[3]",
+    "from": {
+      "label": "republic",
+      "kind": "token",
+      "top_section": "Government"
+    },
+    "to": {
+      "label": "semi",
+      "kind": "token",
+      "top_section": "Government"
+    },
+    "cost": 1.0,
+    "source_uid": "n000037"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/Government[2]/Government[1]/#text[1]/under[4]",
+    "from": {
+      "label": "under",
+      "kind": "token",
+      "top_section": "Government"
+    },
+    "to": {
+      "label": "presidential",
+      "kind": "token",
+      "top_section": "Government"
+    },
+    "cost": 1.0,
+    "source_uid": "n000038"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/Government[2]/Government[1]/#text[1]/confessionalism[5]",
+    "from": {
+      "label": "confessionalism",
+      "kind": "token",
+      "top_section": "Government"
+    },
+    "to": {
+      "label": "republic",
+      "kind": "token",
+      "top_section": "Government"
+    },
+    "cost": 1.0,
+    "source_uid": "n000039"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/infobox[2]/Government[2]",
+    "index": 2,
+    "cost": 1.0,
+    "subtree": {
+      "label": "Legislature",
+      "kind": "token_text_container",
+      "raw_value": "Parliament",
+      "top_section": "Government",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "top_section": "Government",
+          "children": [
+            {
+              "label": "parliament",
+              "kind": "token",
+              "top_section": "Government"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000032"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/infobox[2]/Government[2]",
+    "index": 3,
+    "cost": 3.0,
+    "subtree": {
+      "label": "Upper house",
+      "kind": "token_text_container",
+      "raw_value": "Senate",
+      "top_section": "Government",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "top_section": "Government",
+          "children": [
+            {
+              "label": "senate",
+              "kind": "token",
+              "top_section": "Government"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000032"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/infobox[2]/Government[2]/Legislature[2]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "national",
+      "kind": "token",
+      "top_section": "Government"
+    },
+    "parent_uid": "n000041"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/Government[2]/Legislature[2]/#text[1]/parliament[1]",
+    "from": {
+      "label": "parliament",
+      "kind": "token",
+      "top_section": "Government"
+    },
+    "to": {
+      "label": "assembly",
+      "kind": "token",
+      "top_section": "Government"
+    },
+    "cost": 1.0,
+    "source_uid": "n000042"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/Government[2]/Legislature[2]",
+    "from": {
+      "label": "Legislature",
+      "kind": "token_text_container",
+      "raw_value": "Parliament",
+      "top_section": "Government",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "top_section": "Government",
+          "children": [
+            {
+              "label": "parliament",
+              "kind": "token",
+              "top_section": "Government"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Lower house",
+      "kind": "token_text_container",
+      "raw_value": "National Assembly",
+      "top_section": "Government",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "top_section": "Government",
+          "children": [
+            {
+              "label": "national",
+              "kind": "token",
+              "top_section": "Government"
+            },
+            {
+              "label": "assembly",
+              "kind": "token",
+              "top_section": "Government"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000040"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/General[1]/Capital[1]/#text[1]/beirut[1]",
+    "from": {
+      "label": "beirut",
+      "kind": "token",
+      "top_section": "General"
+    },
+    "to": {
+      "label": "paris",
+      "kind": "token",
+      "top_section": "General"
+    },
+    "cost": 1.0,
+    "source_uid": "n000009"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/General[1]/Demonyms[2]/#text[1]/lebanese[1]",
+    "from": {
+      "label": "lebanese",
+      "kind": "token",
+      "top_section": "General"
+    },
+    "to": {
+      "label": "french",
+      "kind": "token",
+      "top_section": "General"
+    },
+    "cost": 1.0,
+    "source_uid": "n000012"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/infobox[2]/General[1]/Language composition[3]/Vernacular[2]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "Vernacular",
+      "kind": "internal",
+      "top_section": "General",
+      "children": [
+        {
+          "label": "Lebanese Arabic",
+          "kind": "token_text_container",
+          "raw_value": "present",
+          "top_section": "General",
+          "children": [
+            {
+              "label": "#text",
+              "kind": "internal",
+              "top_section": "General",
+              "children": [
+                {
+                  "label": "present",
+                  "kind": "token",
+                  "top_section": "General"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000018"
+  },
+  {
+    "op": "update_node",
+    "path": "root/infobox[2]/General[1]/Language composition[3]/Official[1]/Arabic[1]",
+    "from": {
+      "label": "Arabic",
+      "kind": "token_text_container",
+      "raw_value": "present",
+      "top_section": "General",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "top_section": "General",
+          "children": [
+            {
+              "label": "present",
+              "kind": "token",
+              "top_section": "General"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "French",
+      "kind": "token_text_container",
+      "raw_value": "present",
+      "top_section": "General",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "top_section": "General",
+          "children": [
+            {
+              "label": "present",
+              "kind": "token",
+              "top_section": "General"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000015"
+  },
+  {
+    "op": "update_value",
+    "path": "root/infobox[2]/General[1]/Demographics[4]/Religion[2]/Christianity[1]",
+    "from": {
+      "label": "Christianity",
+      "kind": "numeric",
+      "raw_value": "41.4%",
+      "norm_value": "0.414000000000",
+      "norm_number": 0.414,
+      "top_section": "Demographics",
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Christianity",
+      "kind": "numeric",
+      "raw_value": "50.0%",
+      "norm_value": "0.500000000000",
+      "norm_number": 0.5,
+      "top_section": "Demographics",
+      "numeric_field": "percentage"
+    },
+    "cost": 0.08600000000000002,
+    "source_uid": "n000028"
+  },
+  {
+    "op": "update_value",
+    "path": "root/infobox[2]/General[1]/Demographics[4]/Religion[2]/Islam[2]",
+    "from": {
+      "label": "Islam",
+      "kind": "numeric",
+      "raw_value": "53.31%",
+      "norm_value": "0.533100000000",
+      "norm_number": 0.5331,
+      "top_section": "Demographics",
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Islam",
+      "kind": "numeric",
+      "raw_value": "4.0%",
+      "norm_value": "0.040000000000",
+      "norm_number": 0.04,
+      "top_section": "Demographics",
+      "numeric_field": "percentage"
+    },
+    "cost": 0.49310000000000004,
+    "source_uid": "n000029"
+  },
+  {
+    "op": "update_value",
+    "path": "root/infobox[2]/General[1]/Demographics[4]/Religion[2]/No religion[3]",
+    "from": {
+      "label": "No religion",
+      "kind": "numeric",
+      "raw_value": "0.08%",
+      "norm_value": "0.000800000000",
+      "norm_number": 0.0008,
+      "top_section": "Demographics",
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "No religion",
+      "kind": "numeric",
+      "raw_value": "33.0%",
+      "norm_value": "0.330000000000",
+      "norm_number": 0.33,
+      "top_section": "Demographics",
+      "numeric_field": "percentage"
+    },
+    "cost": 0.3292,
+    "source_uid": "n000030"
+  },
+  {
+    "op": "update_value",
+    "path": "root/infobox[2]/General[1]/Demographics[4]/Religion[2]/Other[4]",
+    "from": {
+      "label": "Other",
+      "kind": "numeric",
+      "raw_value": "5.21%",
+      "norm_value": "0.052100000000",
+      "norm_number": 0.0521,
+      "top_section": "Demographics",
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Other",
+      "kind": "numeric",
+      "raw_value": "4.0%",
+      "norm_value": "0.040000000000",
+      "norm_number": 0.04,
+      "top_section": "Demographics",
+      "numeric_field": "percentage"
+    },
+    "cost": 0.0121,
+    "source_uid": "n000031"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/infobox[2]/General[1]/Demographics[4]/Population composition[1]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "Population composition",
+      "kind": "internal",
+      "top_section": "Demographics",
+      "children": [
+        {
+          "label": "Arab",
+          "kind": "numeric",
+          "raw_value": "95%",
+          "norm_value": "0.950000000000",
+          "norm_number": 0.95,
+          "top_section": "Demographics",
+          "numeric_field": "percentage"
+        },
+        {
+          "label": "Armenian",
+          "kind": "numeric",
+          "raw_value": "4%",
+          "norm_value": "0.040000000000",
+          "norm_number": 0.04,
+          "top_section": "Demographics",
+          "numeric_field": "percentage"
+        },
+        {
+          "label": "other",
+          "kind": "numeric",
+          "raw_value": "1%",
+          "norm_value": "0.010000000000",
+          "norm_number": 0.01,
+          "top_section": "Demographics",
+          "numeric_field": "percentage"
+        }
+      ]
+    },
+    "source_uid": "n000023"
+  }
+]

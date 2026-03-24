@@ -4,14 +4,13 @@ import {
   Cpu, Grid3X3, GitBranch, BarChart2, List, Loader2,
 } from 'lucide-react';
 import {
-  SimilarityConfig, SimilarityResult, TedMatrixCell, PseudocodeLine,
+  SimilarityConfig, TedMatrixCell, PseudocodeLine,
   TreeNode, Country, EditOperation, CountryPair,
+  DataSourceConfig, BackendCompareResult,
 } from '../types';
 import { countries } from '../data/countries';
-import { sampleTreeLebanon, sampleTreeFrance } from '../data/sampleTrees';
 import { algorithms } from '../data/algorithms';
 import { relabelCost, filterTreeByMetrics } from '../services/dataService';
-import { computeSimilarity, computeAllMethods } from '../services/similarityService';
 
 interface Props {
   similarityConfig: SimilarityConfig;
@@ -19,6 +18,9 @@ interface Props {
   comparisonMode: 'pair' | 'all';
   countryPairs: CountryPair[];
   loadedTrees: Record<string, TreeNode>;
+  dataSource: DataSourceConfig;
+  backendResults: Record<string, BackendCompareResult>;
+  onSetBackendResults: (results: Record<string, BackendCompareResult>) => void;
   onNext: () => void;
   onPrev: () => void;
 }
@@ -80,55 +82,16 @@ function buildBacktrackPath(
     path.push([i, j]);
     const c = matrix[i]?.[j];
     if (!c) break;
-    if (c.backtrack === 'diagonal') {
-      i--;
-      j--;
-    } else if (c.backtrack === 'up') {
-      i--;
-    } else {
-      j--;
-    }
+    if (c.backtrack === 'diagonal') { i--; j--; }
+    else if (c.backtrack === 'up') { i--; }
+    else { j--; }
   }
   path.push([0, 0]);
   return path.reverse();
 }
 
-function deriveEditOps(
-  labels1: string[],
-  labels2: string[],
-  matrix: TedMatrixCell[][],
-): EditOperation[] {
-  const ops: EditOperation[] = [];
-  let i = labels1.length - 1;
-  let j = labels2.length - 1;
-
-  while (i > 0 || j > 0) {
-    if (i === 0) {
-      ops.unshift({ type: 'insert', node: labels2[j], cost: 1 });
-      j--;
-    } else if (j === 0) {
-      ops.unshift({ type: 'delete', node: labels1[i], cost: 1 });
-      i--;
-    } else {
-      const cell = matrix[i][j];
-      if (cell.backtrack === 'diagonal') {
-        if (labels1[i] !== labels2[j]) {
-          const cost = parseFloat((cell.value - matrix[i - 1][j - 1].value).toFixed(2));
-          ops.unshift({ type: 'update', node: labels1[i], to: labels2[j], cost });
-        }
-        i--;
-        j--;
-      } else if (cell.backtrack === 'up') {
-        ops.unshift({ type: 'delete', node: labels1[i], cost: 1 });
-        i--;
-      } else {
-        ops.unshift({ type: 'insert', node: labels2[j], cost: 1 });
-        j--;
-      }
-    }
-  }
-
-  return ops;
+function makePairKey(c1: string, c2: string): string {
+  return `${c1}__${c2}`;
 }
 
 const PseudoLine: React.FC<{ pl: PseudocodeLine; highlighted: boolean }> = ({ pl, highlighted }) => {
@@ -153,113 +116,6 @@ const PseudoLine: React.FC<{ pl: PseudocodeLine; highlighted: boolean }> = ({ pl
     </div>
   );
 };
-
-const FeaturePanel: React.FC<{
-  config: SimilarityConfig;
-  result: SimilarityResult;
-  nameA: string;
-  nameB: string;
-}> = ({ config, result, nameA, nameB }) => {
-  const fa = result.featuresA ?? [];
-  const fb = result.featuresB ?? [];
-  const inA = new Set(fa);
-  const inB = new Set(fb);
-  const both = new Set([...fa, ...fb]);
-
-  return (
-    <div className="flex gap-3 flex-1 min-h-0">
-      {[{ label: `A (${nameA})`, feats: fa, other: inB }, { label: `B (${nameB})`, feats: fb, other: inA }].map(
-        ({ label, feats, other }) => (
-          <div key={label} className="flex-1 glass-card p-3 flex flex-col min-h-0">
-            <h4 className="text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2 shrink-0">
-              Tree {label}
-              <span className="ml-2 text-[10px] font-normal text-gray-400">({feats.length} features)</span>
-            </h4>
-            <div className="flex-1 overflow-auto space-y-0.5">
-              {feats.slice(0, 60).map((f: string, i: number) => (
-                <div
-                  key={i}
-                  className={`font-mono text-[10px] px-1.5 py-0.5 rounded ${
-                    other.has(f) ? 'text-accent-600 bg-accent-50' : 'text-gray-500'
-                  }`}
-                >
-                  {f}
-                </div>
-              ))}
-              {feats.length > 60 && (
-                <div className="text-[9px] text-gray-400 px-1.5">…{feats.length - 60} more</div>
-              )}
-            </div>
-          </div>
-        ),
-      )}
-
-      <div className="w-56 flex flex-col gap-3">
-        <div className="glass-card p-3">
-          <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Overlap</h4>
-          <div className="space-y-1.5 text-[10px]">
-            <div className="flex justify-between"><span className="text-gray-500">|A| features</span><span className="text-gray-900 font-mono">{fa.length}</span></div>
-            <div className="flex justify-between"><span className="text-gray-500">|B| features</span><span className="text-gray-900 font-mono">{fb.length}</span></div>
-            <div className="flex justify-between"><span className="text-accent-600">|A ∩ B|</span><span className="text-accent-700 font-mono">{[...inA].filter(x => inB.has(x)).length}</span></div>
-            <div className="flex justify-between"><span className="text-gray-500">|A ∪ B|</span><span className="text-gray-900 font-mono">{both.size}</span></div>
-          </div>
-        </div>
-
-        <div className="glass-card p-3">
-          <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">Formula</h4>
-          <div className="font-mono text-[10px] bg-gray-100 p-2 rounded text-yellow-600 border border-gray-200 mb-2">
-            {config.approxVariant === 'vector'
-              ? config.approxMeasure === 'cosine' ? 'A·B / (|A|·|B|)'
-              : config.approxMeasure === 'pcc' ? 'Σ(Ai−Ā)(Bi−B̄) / σAσB'
-              : config.approxMeasure === 'euclidean' ? '1 / (1+√Σ(Ai−Bi)²)'
-              : config.approxMeasure === 'manhattan' ? '1 / (1+Σ|Ai−Bi|)'
-              : config.approxMeasure === 'tanimoto' ? 'A·B / (|A|²+|B|²−A·B)'
-              : '2(A·B) / (|A|²+|B|²)'
-              : config.approxMeasure === 'jaccard' ? '|A∩B| / |A∪B|'
-              : config.approxMeasure === 'dice' ? '2|A∩B| / (|A|+|B|)'
-              : '|A∩B| / max(|A|,|B|)'}
-          </div>
-          <div className="text-center">
-            <div className="text-[9px] text-gray-500 uppercase mb-1">Similarity</div>
-            <div className="text-2xl font-bold text-accent-600">
-              {(result.sim * 100).toFixed(1)}%
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const CompareTable: React.FC<{ results: SimilarityResult[]; active: string }> = ({ results, active }) => (
-  <div className="overflow-auto">
-    <table className="w-full text-[10px]">
-      <thead>
-        <tr className="border-b border-gray-200">
-          <th className="text-left py-1.5 px-2 text-gray-500 font-semibold">Method</th>
-          <th className="text-right py-1.5 px-2 text-gray-500 font-semibold w-16">Sim</th>
-          <th className="py-1.5 px-2 w-28 text-gray-500 font-semibold">Bar</th>
-        </tr>
-      </thead>
-      <tbody>
-        {results.map(r => (
-          <tr key={r.label} className={`border-b border-gray-100 ${r.label === active ? 'bg-primary-50' : ''}`}>
-            <td className={`py-1 px-2 font-mono ${r.label === active ? 'text-primary-700' : 'text-gray-500'}`}>{r.label}</td>
-            <td className="py-1 px-2 text-right font-bold text-gray-900 tabular-nums">{(r.sim * 100).toFixed(1)}%</td>
-            <td className="py-1 px-2">
-              <div className="h-1.5 bg-gray-200 rounded-full overflow-hidden">
-                <div
-                  className={`h-full rounded-full ${r.label === active ? 'bg-primary-500' : 'bg-gray-400'}`}
-                  style={{ width: `${r.sim * 100}%` }}
-                />
-              </div>
-            </td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
-);
 
 type Phase = 'matrix' | 'backtrack' | 'editscript' | 'done';
 
@@ -286,69 +142,97 @@ export const AlgorithmExecution: React.FC<Props> = ({
   comparisonMode,
   countryPairs,
   loadedTrees,
+  dataSource,
+  backendResults,
+  onSetBackendResults,
   onNext,
   onPrev,
 }) => {
   const [activePairIndex, setActivePairIndex] = useState(0);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
   const activePair = countryPairs[activePairIndex] ?? null;
 
   const getCountryName = (code: string) =>
     countries.find(c => c.code === code)?.name ?? code;
 
+  const pairKey = activePair ? makePairKey(activePair.country1, activePair.country2) : '';
+  const backendResult = pairKey ? backendResults[pairKey] ?? null : null;
+
+  // Call backend when pair changes
+  useEffect(() => {
+    if (!activePair) return;
+    const key = makePairKey(activePair.country1, activePair.country2);
+    if (backendResults[key]) return; // Already loaded
+
+    const nameA = getCountryName(activePair.country1);
+    const nameB = getCountryName(activePair.country2);
+
+    setLoading(true);
+    setError(null);
+
+    fetch('/api/ted/compare', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        country_a: nameA,
+        country_b: nameB,
+        dataset: dataSource.dataVariant,
+        method: 'exp_size',
+      }),
+    })
+      .then(async res => {
+        if (!res.ok) {
+          const err = await res.json();
+          throw new Error(err.error || `HTTP ${res.status}`);
+        }
+        return res.json();
+      })
+      .then((result: BackendCompareResult) => {
+        onSetBackendResults({ ...backendResults, [key]: result });
+        setLoading(false);
+      })
+      .catch(e => {
+        setError(String(e instanceof Error ? e.message : e));
+        setLoading(false);
+      });
+  }, [activePair, dataSource.dataVariant]);
+
+  // Use backend trees if available, else fall back to loaded trees
   const T1 = useMemo<TreeNode>(() => {
-    let raw: TreeNode;
-    if (activePair && loadedTrees[activePair.country1]) raw = loadedTrees[activePair.country1];
-    else {
-      const c = selectedCountries[0];
-      raw = (c && loadedTrees[c.code]) ?? sampleTreeLebanon;
+    if (backendResult) return backendResult.tree_a;
+    if (activePair && loadedTrees[activePair.country1]) {
+      const raw = loadedTrees[activePair.country1];
+      const sel = activePair.selectedMetrics ?? [];
+      return sel.length > 0 ? filterTreeByMetrics(raw, sel) : raw;
     }
-    const sel = activePair?.selectedMetrics ?? [];
-    return sel.length > 0 ? filterTreeByMetrics(raw, sel) : raw;
-  }, [activePair, loadedTrees, selectedCountries]);
+    return { id: '0', label: 'empty', children: [], depth: 0 };
+  }, [backendResult, activePair, loadedTrees]);
 
   const T2 = useMemo<TreeNode>(() => {
-    let raw: TreeNode;
-    if (activePair && loadedTrees[activePair.country2]) raw = loadedTrees[activePair.country2];
-    else {
-      const c = selectedCountries[1];
-      raw = (c && loadedTrees[c.code]) ?? sampleTreeFrance;
+    if (backendResult) return backendResult.tree_b;
+    if (activePair && loadedTrees[activePair.country2]) {
+      const raw = loadedTrees[activePair.country2];
+      const sel = activePair.selectedMetrics ?? [];
+      return sel.length > 0 ? filterTreeByMetrics(raw, sel) : raw;
     }
-    const sel = activePair?.selectedMetrics ?? [];
-    return sel.length > 0 ? filterTreeByMetrics(raw, sel) : raw;
-  }, [activePair, loadedTrees, selectedCountries]);
+    return { id: '0', label: 'empty', children: [], depth: 0 };
+  }, [backendResult, activePair, loadedTrees]);
 
-  const usingRealData = activePair
-    ? !!(loadedTrees[activePair.country1] && loadedTrees[activePair.country2])
-    : !!(
-        selectedCountries[0] &&
-        loadedTrees[selectedCountries[0].code] &&
-        selectedCountries[1] &&
-        loadedTrees[selectedCountries[1].code]
-      );
+  const nameA = activePair ? getCountryName(activePair.country1) : '—';
+  const nameB = activePair ? getCountryName(activePair.country2) : '—';
 
-  const nameA = activePair
-    ? loadedTrees[activePair.country1]
-      ? getCountryName(activePair.country1)
-      : `${activePair.country1} (demo)`
-    : usingRealData
-    ? selectedCountries[0]?.name
-    : 'Lebanon (demo)';
-
-  const nameB = activePair
-    ? loadedTrees[activePair.country2]
-      ? getCountryName(activePair.country2)
-      : `${activePair.country2} (demo)`
-    : usingRealData
-    ? selectedCountries[1]?.name
-    : 'France (demo)';
-
+  // Matrix visualization (uses local approximation for animation, real result shown from backend)
   const tree1Labels = useMemo(() => ['ε', ...preorderLabels(T1, MAX_MATRIX)], [T1]);
   const tree2Labels = useMemo(() => ['ε', ...preorderLabels(T2, MAX_MATRIX)], [T2]);
   const ROWS = tree1Labels.length - 1;
   const COLS = tree2Labels.length - 1;
   const fullMatrix = useMemo(() => buildTedMatrix(tree1Labels, tree2Labels), [tree1Labels, tree2Labels]);
   const backtrackPath = useMemo(() => buildBacktrackPath(fullMatrix, ROWS, COLS), [fullMatrix, ROWS, COLS]);
-  const editOps = useMemo(() => deriveEditOps(tree1Labels, tree2Labels, fullMatrix), [tree1Labels, tree2Labels, fullMatrix]);
+
+  // Edit ops from backend
+  const editOps = backendResult?.edit_script ?? [];
 
   const isTED = similarityConfig.category === 'ted';
   const lineMap =
@@ -369,30 +253,7 @@ export const AlgorithmExecution: React.FC<Props> = ({
 
   const pseudocode = isTED ? (algoData?.pseudocode ?? []) : [];
 
-  const [liveResult, setLiveResult] = useState<SimilarityResult | null>(null);
-  const [allResults, setAllResults] = useState<SimilarityResult[] | null>(null);
-  const [showCompare, setShowCompare] = useState(false);
-  const [loadingCompare, setLoadingCompare] = useState(false);
-
-  useEffect(() => {
-    setLiveResult(computeSimilarity(T1, T2, similarityConfig));
-    setAllResults(null);
-  }, [T1, T2, similarityConfig]);
-
-  const handleCompareAll = () => {
-    if (allResults) {
-      setShowCompare(v => !v);
-      return;
-    }
-    setLoadingCompare(true);
-    setShowCompare(true);
-    setTimeout(() => {
-      const results = computeAllMethods(T1, T2);
-      setAllResults(results);
-      setLoadingCompare(false);
-    }, 0);
-  };
-
+  // Animation state
   const [computedCells, setComputedCells] = useState<Set<string>>(new Set());
   const [currentRow, setCurrentRow] = useState(1);
   const [currentCol, setCurrentCol] = useState(1);
@@ -406,22 +267,13 @@ export const AlgorithmExecution: React.FC<Props> = ({
   const [complete, setComplete] = useState(false);
 
   const animRef = useRef({
-    row: 1,
-    col: 1,
-    btStep: 0,
-    esStep: 0,
-    animPhase: 'matrix' as Phase,
+    row: 1, col: 1, btStep: 0, esStep: 0, animPhase: 'matrix' as Phase,
   });
 
   const derivedRef = useRef({
-    ROWS: 0,
-    COLS: 0,
-    tree1Labels: [] as string[],
-    tree2Labels: [] as string[],
-    fullMatrix: [] as TedMatrixCell[][],
-    backtrackPath: [] as [number, number][],
-    editOps: [] as EditOperation[],
-    lineMap: chawatheLineMap as Record<string, number[]>,
+    ROWS: 0, COLS: 0, tree1Labels: [] as string[], tree2Labels: [] as string[],
+    fullMatrix: [] as TedMatrixCell[][], backtrackPath: [] as [number, number][],
+    editOps: [] as EditOperation[], lineMap: chawatheLineMap as Record<string, number[]>,
   });
 
   derivedRef.current = { ROWS, COLS, tree1Labels, tree2Labels, fullMatrix, backtrackPath, editOps, lineMap };
@@ -452,11 +304,7 @@ export const AlgorithmExecution: React.FC<Props> = ({
 
       if (p === 'matrix') {
         const { row, col } = a;
-        setComputedCells(prev => {
-          const next = new Set(prev);
-          next.add(`${row}-${col}`);
-          return next;
-        });
+        setComputedCells(prev => { const next = new Set(prev); next.add(`${row}-${col}`); return next; });
         setCallStack(s => [
           ...s.slice(-9),
           `TED(${d.tree1Labels[row] ?? '?'}, ${d.tree2Labels[col] ?? '?'}) = ${d.fullMatrix[row]?.[col]?.value ?? '?'}`,
@@ -473,49 +321,30 @@ export const AlgorithmExecution: React.FC<Props> = ({
             setPhase('backtrack');
             setIsPlaying(false);
           } else {
-            a.row = row + 1;
-            a.col = 1;
-            setCurrentRow(a.row);
-            setCurrentCol(a.col);
+            a.row = row + 1; a.col = 1;
+            setCurrentRow(a.row); setCurrentCol(a.col);
           }
         } else {
-          a.col = col + 1;
-          setCurrentCol(a.col);
+          a.col = col + 1; setCurrentCol(a.col);
         }
       } else if (p === 'backtrack') {
         setHighlighted(d.lineMap.backtrack ?? d.lineMap.gen_delete ?? []);
         const next = a.btStep + 1;
         if (next >= d.backtrackPath.length) {
-          a.animPhase = 'editscript';
-          setPhase('editscript');
-          setIsPlaying(false);
-        } else {
-          a.btStep = next;
-          setBacktrackStep(next);
-        }
+          a.animPhase = 'editscript'; setPhase('editscript'); setIsPlaying(false);
+        } else { a.btStep = next; setBacktrackStep(next); }
       } else if (p === 'editscript') {
         const op = d.editOps[a.esStep];
         if (op) {
-          const k =
-            op.type === 'insert' ? 'gen_insert'
-            : op.type === 'delete' ? 'gen_delete'
-            : op.type === 'update' ? 'gen_update'
-            : 'gen_move';
+          const k = op.type === 'insert' ? 'gen_insert' : op.type === 'delete' ? 'gen_delete' : op.type === 'update' ? 'gen_update' : 'gen_move';
           setHighlighted(d.lineMap[k] ?? []);
         }
         const next = a.esStep + 1;
         if (next >= d.editOps.length) {
-          a.animPhase = 'done';
-          setIsPlaying(false);
-          setComplete(true);
-          setHighlighted([29]);
-        } else {
-          a.esStep = next;
-          setEditScriptStep(next);
-        }
+          a.animPhase = 'done'; setIsPlaying(false); setComplete(true); setHighlighted([29]);
+        } else { a.esStep = next; setEditScriptStep(next); }
       }
     }, 280 / speed);
-
     return () => clearInterval(id);
   }, [isPlaying, speed]);
 
@@ -529,11 +358,8 @@ export const AlgorithmExecution: React.FC<Props> = ({
     setComplete(true);
     setIsPlaying(false);
     Object.assign(animRef.current, {
-      row: ROWS,
-      col: COLS,
-      btStep: backtrackPath.length - 1,
-      esStep: editOps.length - 1,
-      animPhase: 'done' as Phase,
+      row: ROWS, col: COLS, btStep: backtrackPath.length - 1,
+      esStep: editOps.length - 1, animPhase: 'done' as Phase,
     });
   };
 
@@ -542,14 +368,8 @@ export const AlgorithmExecution: React.FC<Props> = ({
     for (let i = 0; i <= ROWS; i++) init.add(`${i}-0`);
     for (let j = 0; j <= COLS; j++) init.add(`0-${j}`);
     setComputedCells(init);
-    setCurrentRow(1);
-    setCurrentCol(1);
-    setPhase('matrix');
-    setBacktrackStep(0);
-    setEditScriptStep(0);
-    setCallStack([]);
-    setIsPlaying(false);
-    setComplete(false);
+    setCurrentRow(1); setCurrentCol(1); setPhase('matrix'); setBacktrackStep(0);
+    setEditScriptStep(0); setCallStack([]); setIsPlaying(false); setComplete(false);
     setHighlighted(lineMap.matrix_init ?? lineMap.init_matrix ?? []);
     Object.assign(animRef.current, { row: 1, col: 1, btStep: 0, esStep: 0, animPhase: 'matrix' as Phase });
   };
@@ -561,16 +381,26 @@ export const AlgorithmExecution: React.FC<Props> = ({
     return (matDone + backtrackPath.length + editScriptStep) / (matDone + backtrackPath.length + editOps.length);
   })();
 
+  // Real values from backend
+  const realTED = backendResult?.distance;
+  const realSim = backendResult?.similarity;
+
   return (
     <div className="animate-fade-in flex flex-col h-full">
       <div className="text-center mb-3 shrink-0">
         <h2 className="text-2xl font-bold text-gray-900 mb-1">Algorithm Execution</h2>
         <p className="text-gray-600 text-sm">
           {nameA} vs {nameB}
-          {!usingRealData && <span className="ml-1 text-yellow-600 text-xs">(demo — load data to use real trees)</span>}
-          {' · '}
-          <span className="text-primary-600 font-semibold">{liveResult?.label}</span>
-          {liveResult && <span className="ml-2 text-accent-600 font-bold">Sim = {(liveResult.sim * 100).toFixed(1)}%</span>}
+          {loading && <span className="ml-1 text-blue-600 text-xs">(computing via Python backend...)</span>}
+          {error && <span className="ml-1 text-red-600 text-xs">(error: {error})</span>}
+          {backendResult && (
+            <>
+              {' · '}
+              <span className="text-primary-600 font-semibold">Nierman and Jagadish</span>
+              <span className="ml-2 text-yellow-600 font-bold">TED = {realTED?.toFixed(2)}</span>
+              <span className="ml-2 text-accent-600 font-bold">Sim = {((realSim ?? 0) * 100).toFixed(1)}%</span>
+            </>
+          )}
         </p>
       </div>
 
@@ -591,7 +421,7 @@ export const AlgorithmExecution: React.FC<Props> = ({
                       : 'bg-gray-100 text-gray-500 hover:text-gray-700'
                   }`}
                 >
-                  {p.country1}/{p.country2}
+                  {getCountryName(p.country1)}/{getCountryName(p.country2)}
                 </button>
               ))}
             </div>
@@ -649,42 +479,20 @@ export const AlgorithmExecution: React.FC<Props> = ({
             ))}
           </>
         )}
-
-        <button
-          onClick={handleCompareAll}
-          className={`ml-auto flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium border transition-all ${
-            showCompare ? 'bg-accent-50 border-accent-400 text-accent-700' : 'bg-gray-50 border-gray-200 text-gray-500 hover:border-gray-400'
-          }`}
-        >
-          {loadingCompare ? <Loader2 size={13} className="animate-spin" /> : <BarChart2 size={13} />}
-          {allResults ? 'Toggle Comparison' : 'Compare All Methods'}
-        </button>
       </div>
 
-      {showCompare && (
-        <div className="glass-card p-3 mb-3 shrink-0 max-h-56 overflow-hidden">
-          <div className="flex items-center gap-2 mb-2">
-            <List size={12} className="text-gray-500" />
-            <h3 className="text-xs font-semibold text-gray-700 uppercase tracking-wider">
-              All Methods — {nameA} vs {nameB}
-            </h3>
-          </div>
-          {loadingCompare ? (
-            <div className="flex items-center justify-center py-6 gap-2 text-gray-500 text-xs">
-              <Loader2 size={14} className="animate-spin" />
-              Computing all methods…
-            </div>
-          ) : allResults ? (
-            <CompareTable results={allResults} active={liveResult?.label ?? ''} />
-          ) : null}
+      {loading && (
+        <div className="glass-card p-6 mb-3 flex items-center justify-center gap-3 text-gray-500">
+          <Loader2 size={20} className="animate-spin" />
+          <span>Computing TED via Python backend...</span>
         </div>
       )}
 
-      {isTED ? (
+      {isTED && !loading ? (
         <div className="flex gap-3 flex-1 min-h-0">
           <div className="flex-1 glass-card p-3 flex flex-col min-h-0 min-w-0">
             <h3 className="text-xs font-semibold text-gray-600 uppercase tracking-wider mb-2 shrink-0">
-              TED Matrix ({ROWS + 1}×{COLS + 1}) — showing first {MAX_MATRIX} nodes per tree
+              TED Matrix ({ROWS + 1}x{COLS + 1}) — showing first {MAX_MATRIX} nodes per tree
             </h3>
             <div className="flex-1 overflow-auto">
               <table className="border-collapse mx-auto text-center">
@@ -782,10 +590,10 @@ export const AlgorithmExecution: React.FC<Props> = ({
             <div className="glass-card p-3 shrink-0">
               <div className="grid grid-cols-2 gap-2 text-center">
                 {[
-                  { label: 'TED', value: computedCells.has(`${ROWS}-${COLS}`) ? String(fullMatrix[ROWS]?.[COLS]?.value) : '—', color: 'text-primary-600' },
-                  { label: 'Sim', value: liveResult ? `${(liveResult.sim * 100).toFixed(1)}%` : '—', color: 'text-accent-600' },
-                  { label: 'Ops', value: phase === 'editscript' ? `${editScriptStep + 1}/${editOps.length}` : '—', color: 'text-yellow-600' },
-                  { label: 'Phase', value: phase === 'matrix' ? 'Fill' : phase === 'backtrack' ? 'Back' : phase === 'editscript' ? 'Script' : 'Done', color: 'text-gray-700' },
+                  { label: 'TED', value: backendResult ? String(backendResult.distance.toFixed(2)) : '—', color: 'text-primary-600' },
+                  { label: 'Sim', value: backendResult ? `${(backendResult.similarity * 100).toFixed(1)}%` : '—', color: 'text-accent-600' },
+                  { label: 'Ops', value: backendResult ? String(backendResult.total_operations) : '—', color: 'text-yellow-600' },
+                  { label: 'Patch', value: backendResult ? (backendResult.patch_verified ? 'OK' : 'FAIL') : '—', color: backendResult?.patch_verified ? 'text-green-600' : 'text-red-600' },
                 ].map(s => (
                   <div key={s.label} className="bg-gray-50 border border-gray-200 rounded p-1.5">
                     <div className="text-[9px] text-gray-500 uppercase">{s.label}</div>
@@ -796,19 +604,18 @@ export const AlgorithmExecution: React.FC<Props> = ({
             </div>
           </div>
         </div>
-      ) : (
-        liveResult && <FeaturePanel config={similarityConfig} result={liveResult} nameA={nameA ?? ''} nameB={nameB ?? ''} />
-      )}
+      ) : !loading ? (
+        <div className="flex-1 flex items-center justify-center text-gray-400">
+          Select a TED method to see the matrix visualization.
+        </div>
+      ) : null}
 
       <div className="flex items-center justify-between mt-3 pt-3 border-t border-gray-200 shrink-0">
         <button onClick={onPrev} className="btn-secondary">Back</button>
         <div className="flex items-center gap-2">
-          {isTED && !complete && (
+          {isTED && !complete && !loading && (
             <button
-              onClick={() => {
-                skipToEnd();
-                onNext();
-              }}
+              onClick={() => { skipToEnd(); onNext(); }}
               className="btn-secondary flex items-center gap-2 text-gray-600"
             >
               Skip &amp; Continue <ArrowRight size={14} />
@@ -816,7 +623,7 @@ export const AlgorithmExecution: React.FC<Props> = ({
           )}
           <button
             onClick={onNext}
-            disabled={isTED && !complete}
+            disabled={loading || (isTED && !complete && !backendResult)}
             className="btn-primary flex items-center gap-2"
           >
             View Results <ArrowRight size={16} />

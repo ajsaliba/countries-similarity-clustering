@@ -6,15 +6,9 @@ import {
   Check,
   Loader2,
   ArrowRight,
-  Terminal,
 } from 'lucide-react';
 import { Country, DataSourceConfig, TreeNode } from '../types';
 import { countries } from '../data/countries';
-import {
-  loadCountryJSON,
-  countryNameToSlug,
-  countryDataToTree,
-} from '../services/dataService';
 
 interface DataCollectionProps {
   selectedCountries: Country[];
@@ -27,56 +21,16 @@ interface DataCollectionProps {
 
 interface CollectionTask {
   country: Country;
-  status: 'pending' | 'fetching_wb' | 'parsing' | 'done';
+  status: 'pending' | 'loading' | 'done' | 'error';
   progress: number;
+  error?: string;
 }
 
 interface LogLine {
   id: number;
   text: string;
-  type: 'info' | 'success' | 'error' | 'start' | 'stdout' | 'stderr';
+  type: 'info' | 'success' | 'error' | 'start';
   timestamp: string;
-}
-
-async function streamScript(
-  scriptName: string,
-  onLine: (type: 'stdout' | 'stderr' | 'start', text: string) => void,
-): Promise<number> {
-  const res = await fetch(`/api/run-script/${scriptName}`, { method: 'POST' });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
-  const reader = res.body?.getReader();
-  if (!reader) throw new Error('No response body');
-
-  const dec = new TextDecoder();
-  let buf = '';
-
-  while (true) {
-    const { done, value } = await reader.read();
-    if (done) break;
-
-    buf += dec.decode(value, { stream: true });
-    const parts = buf.split('\n\n');
-    buf = parts.pop() ?? '';
-
-    for (const part of parts) {
-      const line = part.split('\n').find(l => l.startsWith('data: '));
-      if (!line) continue;
-
-      try {
-        const evt = JSON.parse(line.slice(6)) as { type: string; text: string };
-        if (evt.type === 'done') return parseInt(evt.text, 10) || 0;
-
-        if (evt.type === 'stdout' || evt.type === 'stderr' || evt.type === 'start') {
-          onLine(evt.type as 'stdout' | 'stderr' | 'start', evt.text);
-        }
-      } catch {
-        // ignore parse errors
-      }
-    }
-  }
-
-  return 0;
 }
 
 export const DataCollection: React.FC<DataCollectionProps> = ({
@@ -96,8 +50,6 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
   const [logCounter, setLogCounter] = useState(0);
 
   const logRef = useRef<HTMLDivElement>(null);
-
-  const isExisting = dataSource.mode === 'existing';
 
   const countriesToLoad = useMemo(() => {
     if (comparisonMode === 'pair') return selectedCountries;
@@ -126,147 +78,20 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
 
   const addLog = (
     text: string,
-    type: 'info' | 'success' | 'error' | 'start' | 'stdout' | 'stderr' = 'info',
+    type: 'info' | 'success' | 'error' | 'start' = 'info',
   ) => {
     const timestamp = new Date().toLocaleTimeString();
     setLogCounter(prev => {
       const nextId = prev + 1;
       setLogLines(prevLines => [
         ...prevLines,
-        {
-          id: nextId,
-          text,
-          type,
-          timestamp,
-        },
+        { id: nextId, text, type, timestamp },
       ]);
       return nextId;
     });
   };
 
-  const loadAndParseTrees = async () => {
-    addLog(`Building trees from ${dataSource.dataVariant} JSON data...`, 'start');
-    const trees: Record<string, TreeNode> = {};
-
-    for (const country of countriesToLoad) {
-      const slug = countryNameToSlug(country.name);
-
-      try {
-        const data = await loadCountryJSON(slug, dataSource.dataVariant);
-        trees[country.code] = countryDataToTree(data);
-        addLog(`Tree ready: ${country.name}`, 'success');
-      } catch (e) {
-        addLog(`Skipped ${country.name}: ${String(e)}`, 'error');
-      }
-    }
-
-    onDataLoaded(trees);
-    addLog('All trees built successfully.', 'success');
-    setIsRunning(false);
-    setAllDone(true);
-  };
-
-  const loadExisting = (taskIndex: number) => {
-    if (taskIndex >= tasks.length) {
-      addLog('All files loaded.', 'success');
-      void loadAndParseTrees();
-      return;
-    }
-
-    const c = countriesToLoad[taskIndex];
-    setCurrentTask(taskIndex);
-
-    const slug = countryNameToSlug(c.name);
-    addLog(`Reading Data/JSON/${dataSource.dataVariant}/${slug}.json`, 'stdout');
-
-    setTasks(prev =>
-      prev.map((t, i) =>
-        i === taskIndex ? { ...t, status: 'parsing', progress: 50 } : t,
-      ),
-    );
-
-    setTimeout(() => {
-      if (comparisonMode === 'pair') {
-        setJsonPreview(generatePreview(c));
-      }
-      addLog(`${c.name} loaded.`, 'success');
-
-      setTasks(prev =>
-        prev.map((t, i) =>
-          i === taskIndex ? { ...t, status: 'done', progress: 100 } : t,
-        ),
-      );
-
-      setTimeout(() => loadExisting(taskIndex + 1), 80);
-    }, 150);
-  };
-
-  const simulateExtraction = (taskIndex: number) => {
-    if (taskIndex >= tasks.length) return;
-
-    const c = countriesToLoad[taskIndex];
-    setCurrentTask(taskIndex);
-
-    addLog(`[${c.name}] Fetching World Bank indicators...`, 'stdout');
-    setTasks(prev =>
-      prev.map((t, i) =>
-        i === taskIndex ? { ...t, status: 'fetching_wb', progress: 30 } : t,
-      ),
-    );
-
-    setTimeout(() => {
-      addLog(`[${c.name}] Parsing JSON (${dataSource.dataVariant})`, 'stdout');
-
-      setTasks(prev =>
-        prev.map((t, i) =>
-          i === taskIndex ? { ...t, status: 'parsing', progress: 70 } : t,
-        ),
-      );
-
-      if (comparisonMode === 'pair') {
-        setJsonPreview(generatePreview(c));
-      }
-
-      setTimeout(() => {
-        addLog(`[${c.name}] Done.`, 'success');
-
-        setTasks(prev =>
-          prev.map((t, i) =>
-            i === taskIndex ? { ...t, status: 'done', progress: 100 } : t,
-          ),
-        );
-
-        setTimeout(() => simulateExtraction(taskIndex + 1), 120);
-      }, 250);
-    }, 200);
-  };
-
-  const runScripts = async () => {
-    const scripts = ['fetch_country_metrics.py'];
-
-    for (const script of scripts) {
-      addLog(`Starting ${script}...`, 'start');
-
-      try {
-        const code = await streamScript(script, (type, text) => {
-          addLog(text, type === 'stderr' ? 'stderr' : type === 'start' ? 'start' : 'stdout');
-        });
-
-        if (code !== 0) {
-          addLog(`${script} exited with code ${code}`, 'error');
-        } else {
-          addLog(`${script} completed.`, 'success');
-        }
-      } catch (e) {
-        addLog(`${script} failed: ${String(e)}`, 'error');
-      }
-    }
-
-    setTasks(prev => prev.map(t => ({ ...t, status: 'done', progress: 100 })));
-    await loadAndParseTrees();
-  };
-
-  const startCollection = () => {
+  const startCollection = async () => {
     setIsRunning(true);
     setAllDone(false);
     setLogLines([]);
@@ -274,15 +99,78 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
     setCurrentTask(0);
     setLogCounter(0);
 
-    if (isExisting) {
-      addLog(`Loading ${dataSource.dataVariant} JSON files from Data/...`, 'start');
-      loadExisting(0);
-    } else {
-      addLog(`Launching Python extraction for ${dataSource.dataVariant} JSON data...`, 'start');
-      setTasks(prev => prev.map(t => ({ ...t, status: 'fetching_wb', progress: 10 })));
-      void runScripts();
-      simulateExtraction(0);
+    const dataset = dataSource.dataVariant;
+    addLog(`Loading ${dataset} data from Python backend...`, 'start');
+
+    const trees: Record<string, TreeNode> = {};
+    let errorCount = 0;
+
+    for (let i = 0; i < countriesToLoad.length; i++) {
+      const country = countriesToLoad[i];
+      setCurrentTask(i);
+
+      setTasks(prev =>
+        prev.map((t, idx) =>
+          idx === i ? { ...t, status: 'loading', progress: 50 } : t,
+        ),
+      );
+
+      try {
+        const res = await fetch('/api/ted/build-tree', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name: country.name, dataset }),
+        });
+
+        if (!res.ok) {
+          const err = await res.json();
+          throw new Error(err.error || `HTTP ${res.status}`);
+        }
+
+        const data = await res.json();
+        trees[country.code] = data.tree;
+
+        // Show preview for first country in pair mode
+        if (comparisonMode === 'pair' && i === countriesToLoad.length - 1) {
+          // Fetch the raw country data for preview
+          try {
+            const previewRes = await fetch(
+              `/api/ted/country?name=${encodeURIComponent(country.name)}&dataset=${dataset}`,
+            );
+            if (previewRes.ok) {
+              const previewData = await previewRes.json();
+              setJsonPreview(JSON.stringify(previewData, null, 2).slice(0, 2000));
+            }
+          } catch {
+            // Preview is optional
+          }
+        }
+
+        addLog(`${data.name}: tree built (${data.size} nodes)`, 'success');
+
+        setTasks(prev =>
+          prev.map((t, idx) =>
+            idx === i ? { ...t, status: 'done', progress: 100 } : t,
+          ),
+        );
+      } catch (e) {
+        errorCount++;
+        const errMsg = String(e instanceof Error ? e.message : e);
+        addLog(`${country.name}: ${errMsg}`, 'error');
+
+        setTasks(prev =>
+          prev.map((t, idx) =>
+            idx === i ? { ...t, status: 'error', progress: 0, error: errMsg } : t,
+          ),
+        );
+      }
     }
+
+    onDataLoaded(trees);
+    const loaded = countriesToLoad.length - errorCount;
+    addLog(`Done. ${loaded} trees built successfully${errorCount > 0 ? `, ${errorCount} failed` : ''}.`, 'success');
+    setIsRunning(false);
+    setAllDone(true);
   };
 
   const overallProgress =
@@ -293,14 +181,11 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
   const lineClasses = (type: LogLine['type']) => {
     switch (type) {
       case 'error':
-      case 'stderr':
         return 'text-red-600 bg-red-50 border-red-100';
       case 'success':
         return 'text-emerald-700 bg-emerald-50 border-emerald-100';
       case 'start':
         return 'text-amber-700 bg-amber-50 border-amber-100';
-      case 'stdout':
-        return 'text-slate-700 bg-slate-50 border-slate-200';
       default:
         return 'text-gray-700 bg-white border-gray-200';
     }
@@ -312,12 +197,8 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
         <h2 className="text-2xl font-bold text-gray-900 mb-2">Data Collection</h2>
         <p className="text-gray-500">
           {comparisonMode === 'pair'
-            ? isExisting
-              ? `Loading ${dataSource.dataVariant} JSON files for the selected countries.`
-              : `Running Python scripts to prepare ${dataSource.dataVariant} JSON data for the selected countries.`
-            : isExisting
-            ? `Loading ${dataSource.dataVariant} JSON files for all countries so ${baseCountryName ?? 'the selected country'} can be compared against everyone.`
-            : `Running Python scripts to prepare ${dataSource.dataVariant} JSON data for all countries so ${baseCountryName ?? 'the selected country'} can be compared against everyone.`}
+            ? `Building trees from ${dataSource.dataVariant} dataset for the selected countries.`
+            : `Building trees from ${dataSource.dataVariant} dataset for all countries so ${baseCountryName ?? 'the selected country'} can be compared against everyone.`}
         </p>
       </div>
 
@@ -349,14 +230,18 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
                     ? 'bg-primary-50 border-primary-300 shadow-sm'
                     : task.status === 'done'
                     ? 'bg-gray-50 border-gray-200'
+                    : task.status === 'error'
+                    ? 'bg-red-50 border-red-200'
                     : 'bg-white border-gray-100'
                 }`}
               >
                 <div className="shrink-0">
                   {task.status === 'done' ? (
                     <Check size={14} className="text-emerald-500" />
-                  ) : task.status !== 'pending' ? (
+                  ) : task.status === 'loading' ? (
                     <Loader2 size={14} className="text-primary-400 animate-spin" />
+                  ) : task.status === 'error' ? (
+                    <div className="w-3.5 h-3.5 rounded-full bg-red-400" />
                   ) : (
                     <div className="w-3.5 h-3.5 rounded-full border border-gray-300" />
                   )}
@@ -366,9 +251,9 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
                   <div className="text-xs text-gray-700 truncate">{task.country.name}</div>
                   <div className="text-[10px] text-gray-500">
                     {task.status === 'pending' && 'Waiting...'}
-                    {task.status === 'fetching_wb' && 'Fetching API...'}
-                    {task.status === 'parsing' && 'Parsing...'}
+                    {task.status === 'loading' && 'Building tree...'}
                     {task.status === 'done' && 'Complete'}
+                    {task.status === 'error' && 'Failed'}
                   </div>
                 </div>
 
@@ -382,14 +267,8 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
           <div className="flex-1 glass-card p-4 flex flex-col min-h-0 overflow-hidden">
             <div className="flex items-center justify-between gap-2 mb-3 shrink-0">
               <div className="flex items-center gap-2">
-                {isExisting ? (
-                  <Database size={14} className="text-gray-500" />
-                ) : (
-                  <Terminal size={14} className="text-gray-500" />
-                )}
-                <h3 className="text-sm font-semibold text-gray-500">
-                  {isExisting ? 'Load Log' : 'Script Output'}
-                </h3>
+                <Database size={14} className="text-gray-500" />
+                <h3 className="text-sm font-semibold text-gray-500">Load Log</h3>
               </div>
 
               {logLines.length > 0 && (
@@ -406,9 +285,7 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
               {logLines.length === 0 ? (
                 <div className="text-gray-400 flex items-center gap-2 font-mono text-xs">
                   <Download size={14} />
-                  {isExisting
-                    ? 'Click "Load Files" to read the country data.'
-                    : 'Click "Run Scripts" to extract country data.'}
+                  Click &quot;Load &amp; Build Trees&quot; to fetch country data from the Python backend.
                 </div>
               ) : (
                 <div className="space-y-1.5 font-mono text-xs">
@@ -430,7 +307,7 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
             <div className="h-44 glass-card p-3 flex flex-col shrink-0 overflow-hidden">
               <div className="flex items-center gap-2 mb-2 shrink-0">
                 <FileJson size={13} className="text-gray-500" />
-                <h3 className="text-xs font-semibold text-gray-500">JSON Document Preview</h3>
+                <h3 className="text-xs font-semibold text-gray-500">Country Data Preview</h3>
               </div>
 
               <div className="flex-1 min-h-0 overflow-auto bg-gray-100 rounded p-2 font-mono text-[10px]">
@@ -450,14 +327,14 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
           {!isRunning && !allDone && (
             <button onClick={startCollection} className="btn-accent flex items-center gap-2">
               <Download size={16} />
-              {isExisting ? 'Load Files' : 'Run Scripts'}
+              Load &amp; Build Trees
             </button>
           )}
 
           {isRunning && (
             <div className="flex items-center gap-2 text-sm text-gray-500 px-3">
               <Loader2 size={14} className="animate-spin" />
-              {isExisting ? 'Loading...' : 'Running Python scripts...'}
+              Building trees via Python backend...
             </div>
           )}
 
@@ -474,16 +351,3 @@ export const DataCollection: React.FC<DataCollectionProps> = ({
     </div>
   );
 };
-
-function generatePreview(country: Country): string {
-  return JSON.stringify(
-    {
-      country: country.name,
-      iso3: country.code,
-      demographics: { population: { value: null, year: null } },
-      economy: { gdp_usd: { value: null, year: null } },
-    },
-    null,
-    2,
-  );
-}

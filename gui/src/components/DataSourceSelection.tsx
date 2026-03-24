@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {
-  FolderOpen,
-  RefreshCw,
   ArrowRight,
-  FileJson,
   Check,
-  Info,
   Database,
   Sparkles,
   FlaskConical,
@@ -19,166 +15,118 @@ interface DataSourceSelectionProps {
   onPrev: () => void;
 }
 
-interface FileStats {
-  jsonCount: number;
-  jsonSizeKb: number;
-  available: boolean;
-}
-
-function getJsonFolder(variant: DataVariant): string {
-  return variant === 'clean' ? 'JSON_CLEAN' : 'JSON';
-}
-
 export const DataSourceSelection: React.FC<DataSourceSelectionProps> = ({
   dataSource,
   onSetDataSource,
   onNext,
   onPrev,
 }) => {
-  const [fileStats, setFileStats] = useState<FileStats | null>(null);
+  const [countryCount, setCountryCount] = useState<number | null>(null);
   const [probing, setProbing] = useState(true);
 
   useEffect(() => {
     (async () => {
       setProbing(true);
       try {
-        const folder = getJsonFolder(dataSource.dataVariant);
-        const jsonFiles = await fetch(`/api/countries/${folder}/`).then(r => r.json());
-        const jc: string[] = jsonFiles;
-
-        const jsonCountryFiles = jc.filter(
-          (f: string) => f.endsWith('.json') && f !== 'all_countries.json',
-        );
-
-        setFileStats({
-          jsonCount: jsonCountryFiles.length,
-          jsonSizeKb: jsonCountryFiles.length * 6,
-          available: jsonCountryFiles.length > 0,
-        });
+        const res = await fetch(`/api/ted/countries?dataset=${dataSource.dataVariant}`);
+        if (res.ok) {
+          const names: string[] = await res.json();
+          setCountryCount(names.length);
+        } else {
+          setCountryCount(null);
+        }
       } catch {
-        setFileStats({
-          jsonCount: 0,
-          jsonSizeKb: 0,
-          available: false,
-        });
+        setCountryCount(null);
       } finally {
         setProbing(false);
       }
     })();
   }, [dataSource.dataVariant]);
 
-  const selectMode = (mode: 'existing' | 'extract') =>
-    onSetDataSource({ ...dataSource, mode });
+  // Auto-set mode to 'existing' since we always load from the JSON files
+  useEffect(() => {
+    if (dataSource.mode !== 'existing') {
+      onSetDataSource({ ...dataSource, mode: 'existing' });
+    }
+  }, []);
 
   const selectVariant = (dataVariant: DataVariant) =>
-    onSetDataSource({ ...dataSource, dataVariant });
+    onSetDataSource({ mode: 'existing', dataVariant });
 
-  const selectedFolder = getJsonFolder(dataSource.dataVariant);
+  const datasetFile = dataSource.dataVariant === 'clean'
+    ? 'all_countries_clean_final.json'
+    : 'all_countries.json';
 
   return (
     <div className="animate-fade-in flex flex-col h-full">
       <div className="text-center mb-6">
         <h2 className="text-2xl font-bold text-gray-900 mb-2">Data Source</h2>
         <p className="text-gray-500">
-          Choose whether to load the pre-extracted JSON data, then choose whether
-          to use the clean dataset or the raw dataset.
+          Choose which dataset to use for the comparison: clean (simplified infobox)
+          or raw (full Wikipedia infobox content).
         </p>
       </div>
 
       <div className="flex gap-5 flex-1 min-h-0">
-        <button
-          onClick={() => selectMode('existing')}
-          className={`flex-1 flex flex-col rounded-xl border-2 p-6 text-left transition-all duration-200 ${
-            dataSource.mode === 'existing'
-              ? 'border-primary-500 bg-primary-50'
-              : 'border-gray-200 bg-white hover:border-gray-300'
-          }`}
-        >
-          <div className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 rounded-lg bg-primary-50 flex items-center justify-center shrink-0">
-              <FolderOpen size={24} className="text-primary-600" />
-            </div>
+        <div className="flex-1 flex gap-5">
+          {(['clean', 'raw'] as DataVariant[]).map(variant => {
+            const isSelected = dataSource.dataVariant === variant;
+            const file = variant === 'clean' ? 'all_countries_clean_final.json' : 'all_countries.json';
+            return (
+              <button
+                key={variant}
+                onClick={() => selectVariant(variant)}
+                className={`flex-1 flex flex-col rounded-xl border-2 p-6 text-left transition-all duration-200 ${
+                  isSelected
+                    ? 'border-primary-500 bg-primary-50'
+                    : 'border-gray-200 bg-white hover:border-gray-300'
+                }`}
+              >
+                <div className="flex items-center gap-3 mb-4">
+                  <div className={`w-12 h-12 rounded-lg flex items-center justify-center shrink-0 ${
+                    isSelected ? 'bg-primary-100' : 'bg-gray-100'
+                  }`}>
+                    {variant === 'clean' ? (
+                      <Sparkles size={24} className={isSelected ? 'text-primary-600' : 'text-gray-400'} />
+                    ) : (
+                      <FlaskConical size={24} className={isSelected ? 'text-primary-600' : 'text-gray-400'} />
+                    )}
+                  </div>
 
-            <div>
-              <h3 className="text-lg font-bold text-gray-900">Use Existing Data</h3>
-              <p className="text-sm text-gray-500">
-                Load pre-extracted JSON files from Data/{selectedFolder}/
-              </p>
-            </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900">
+                      {variant === 'clean' ? 'Clean Data' : 'Raw Data'}
+                    </h3>
+                    <p className="text-sm text-gray-500">
+                      {variant === 'clean'
+                        ? 'Simplified and normalized infobox content'
+                        : 'Full Wikipedia infobox with richer detail'}
+                    </p>
+                  </div>
 
-            {dataSource.mode === 'existing' && (
-              <div className="ml-auto w-6 h-6 rounded-full bg-primary-600 flex items-center justify-center shrink-0">
-                <Check size={14} className="text-white" />
-              </div>
-            )}
-          </div>
-
-          {probing ? (
-            <div className="flex items-center gap-2 text-sm text-gray-500">
-              <RefreshCw size={14} className="animate-spin" />
-              Checking for files…
-            </div>
-          ) : fileStats?.available ? (
-            <div className="space-y-4">
-              <div className="bg-gray-50 rounded-lg p-3 border border-gray-200">
-                <div className="flex items-center gap-2 mb-1">
-                  <FileJson size={14} className="text-yellow-600" />
-                  <span className="text-xs font-semibold text-yellow-600">JSON</span>
+                  {isSelected && (
+                    <div className="ml-auto w-6 h-6 rounded-full bg-primary-600 flex items-center justify-center shrink-0">
+                      <Check size={14} className="text-white" />
+                    </div>
+                  )}
                 </div>
-                <div className="text-xl font-bold text-gray-900">{fileStats.jsonCount}</div>
-                <div className="text-[10px] text-gray-500">country files</div>
-                <div className="text-[10px] text-gray-500">
-                  ~{fileStats.jsonSizeKb.toLocaleString()} KB
-                </div>
-              </div>
 
-              <div>
-                <p className="text-xs text-gray-400 mb-2">Select which JSON dataset to use:</p>
-                <div className="flex gap-2">
-                  {(['clean', 'raw'] as DataVariant[]).map(variant => (
-                    <button
-                      key={variant}
-                      onClick={e => {
-                        e.stopPropagation();
-                        selectMode('existing');
-                        selectVariant(variant);
-                      }}
-                      className={`flex-1 py-3 rounded-lg text-sm font-medium border transition-all ${
-                        dataSource.dataVariant === variant && dataSource.mode === 'existing'
-                          ? 'bg-primary-700 border-primary-500 text-white'
-                          : 'bg-white border-gray-300 text-gray-600 hover:border-gray-400'
-                      }`}
-                    >
-                      <div className="flex items-center justify-center gap-2">
-                        {variant === 'clean' ? (
-                          <Sparkles size={15} />
-                        ) : (
-                          <FlaskConical size={15} />
-                        )}
-                        {variant === 'clean' ? 'Clean Data' : 'Raw Data'}
-                      </div>
-                    </button>
-                  ))}
-                </div>
-              </div>
+                <div className="space-y-3 flex-1">
+                  <div className="bg-gray-50 rounded-lg p-3 border border-gray-200">
+                    <div className="text-xs text-gray-500 mb-1">Source file</div>
+                    <div className="text-sm font-mono text-gray-700">{file}</div>
+                  </div>
 
-              <div className="flex items-start gap-2 p-2 bg-accent-50 rounded-lg border border-accent-200">
-                <Check size={14} className="text-accent-600 mt-0.5 shrink-0" />
-                <p className="text-xs text-accent-700">
-                  JSON is the only format used now. You only choose between clean and raw data.
-                </p>
-              </div>
-            </div>
-          ) : (
-            <div className="flex items-start gap-2 p-3 bg-yellow-50 rounded-lg border border-yellow-200">
-              <Info size={14} className="text-yellow-600 mt-0.5 shrink-0" />
-              <p className="text-xs text-yellow-700">
-                No pre-extracted files found at{' '}
-                <code className="font-mono">Data/{selectedFolder}/</code>.
-              </p>
-            </div>
-          )}
-        </button>
+                  <div className="text-xs text-gray-500 leading-relaxed">
+                    {variant === 'clean'
+                      ? 'Cleaned and standardized fields: Capital, Languages, Ethnic groups, Religion, Government, Area, Population, GDP, Gini, HDI, Currency.'
+                      : 'Raw Wikipedia infobox data with original field names, coordinate strings, footnotes, and nested structures.'}
+                  </div>
+                </div>
+              </button>
+            );
+          })}
+        </div>
 
         <div className="w-72 flex flex-col gap-4">
           <div className="glass-card p-4 flex-1">
@@ -191,23 +139,23 @@ export const DataSourceSelection: React.FC<DataSourceSelectionProps> = ({
               {[
                 {
                   n: 1,
-                  title: 'JSON files',
-                  desc: 'One JSON file per country is loaded from the selected dataset folder.',
+                  title: 'Dataset selection',
+                  desc: 'Choose clean or raw infobox data.',
                 },
                 {
                   n: 2,
-                  title: 'Dataset choice',
-                  desc: 'You choose whether to use the clean version or the raw version.',
+                  title: 'Country loading',
+                  desc: 'Countries are loaded from the selected JSON dataset file.',
                 },
                 {
                   n: 3,
                   title: 'Tree building',
-                  desc: 'The GUI parses JSON into an ordered labeled tree for TED.',
+                  desc: 'The Python backend converts each country\'s infobox into a labeled tree.',
                 },
                 {
                   n: 4,
-                  title: 'Comparison',
-                  desc: 'Similarity is computed using the chosen dataset variant.',
+                  title: 'TED comparison',
+                  desc: 'Zhang-Shasha TED is computed by the Python algorithm.',
                 },
               ].map(s => (
                 <li key={s.n} className="flex gap-3">
@@ -228,15 +176,17 @@ export const DataSourceSelection: React.FC<DataSourceSelectionProps> = ({
               Current Selection
             </h4>
             <p className="text-xs text-gray-500 leading-relaxed">
-              Format: <span className="text-primary-600 font-mono">JSON</span>
-            </p>
-            <p className="text-xs text-gray-500 leading-relaxed mt-1">
               Dataset:{' '}
               <span className="text-primary-600 font-mono">{dataSource.dataVariant}</span>
             </p>
             <p className="text-xs text-gray-500 leading-relaxed mt-1">
-              Folder: <span className="text-primary-600 font-mono">{selectedFolder}</span>
+              File: <span className="text-primary-600 font-mono">{datasetFile}</span>
             </p>
+            {countryCount !== null && (
+              <p className="text-xs text-gray-500 leading-relaxed mt-1">
+                Countries: <span className="text-primary-600 font-mono">{countryCount}</span>
+              </p>
+            )}
           </div>
         </div>
       </div>
@@ -248,7 +198,7 @@ export const DataSourceSelection: React.FC<DataSourceSelectionProps> = ({
 
         <button
           onClick={onNext}
-          disabled={!dataSource.mode || (dataSource.mode === 'existing' && !fileStats?.available)}
+          disabled={probing || countryCount === null}
           className="btn-primary flex items-center gap-2"
         >
           Continue to Data Collection

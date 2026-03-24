@@ -7,6 +7,7 @@ import {
   DataSourceConfig,
   SimilarityConfig,
   TreeNode,
+  BackendCompareResult,
 } from '../types';
 import { algorithms } from '../data/algorithms';
 import { countries } from '../data/countries';
@@ -36,6 +37,7 @@ export function useAppState() {
   const [similarityConfig, setSimilarityConfig] = useState<SimilarityConfig>(initialSimilarityConfig);
   const [simulation, setSimulation] = useState<SimulationState>(initialSimulation);
   const [loadedTrees, setLoadedTrees] = useState<Record<string, TreeNode>>({});
+  const [backendResults, setBackendResults] = useState<Record<string, BackendCompareResult>>({});
 
   const selectedAlgorithm = useMemo((): AlgorithmConfig | null => {
     if (similarityConfig.category !== 'ted') return null;
@@ -174,6 +176,7 @@ export function useAppState() {
     setSelectedCountries([]);
     setCountryPairs([]);
     setLoadedTrees({});
+    setBackendResults({});
     setDataSource(initialDataSource);
     setSimilarityConfig(initialSimilarityConfig);
     setComparisonModeState('pair');
@@ -198,6 +201,8 @@ export function useAppState() {
     setSimulation,
     loadedTrees,
     setLoadedTrees,
+    backendResults,
+    setBackendResults,
     nextPhase,
     prevPhase,
     goToPhase,

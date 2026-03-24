@@ -2,14 +2,12 @@ import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react'
 import { Play, Pause, SkipForward, RotateCcw, TreePine, FileJson, ArrowRight } from 'lucide-react';
 import { TreeNode, Country, CountryPair } from '../types';
 import { countries } from '../data/countries';
-import { sampleTreeLebanon, sampleTreeFrance } from '../data/sampleTrees';
 
 interface TreeBuildingProps {
   selectedCountries: Country[];
   comparisonMode: 'pair' | 'all';
   countryPairs: CountryPair[];
   loadedTrees: Record<string, TreeNode>;
-  selectedPairKey: string | null;
   onNext: () => void;
   onPrev: () => void;
 }
@@ -178,7 +176,6 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
   comparisonMode,
   countryPairs,
   loadedTrees,
-  selectedPairKey,
   onNext,
   onPrev,
 }) => {
@@ -195,24 +192,15 @@ export const TreeBuilding: React.FC<TreeBuildingProps> = ({
   const getCountryName = (code: string) =>
     countries.find(c => c.code === code)?.name ?? code;
 
-  const selectedIndexFromKey = useMemo(() => {
-    if (countryPairs.length === 0 || !selectedPairKey) return 0;
-    const idx = countryPairs.findIndex(pair => makePairKey(pair.country1, pair.country2) === selectedPairKey);
-    return idx >= 0 ? idx : 0;
-  }, [countryPairs, selectedPairKey]);
-
   useEffect(() => {
-    if (comparisonMode === 'all') {
-      setActivePairIndex(selectedIndexFromKey);
-    } else {
-      setActivePairIndex(selectedIndexFromKey);
-    }
-  }, [comparisonMode, selectedIndexFromKey]);
+    setActivePairIndex(0);
+  }, [comparisonMode]);
 
   const pair = countryPairs[activePairIndex];
 
-  const tree1 = (pair && loadedTrees[pair.country1]) ?? sampleTreeLebanon;
-  const tree2 = (pair && loadedTrees[pair.country2]) ?? sampleTreeFrance;
+  const emptyTree: TreeNode = { id: '0', label: 'empty', children: [], depth: 0 };
+  const tree1 = (pair && loadedTrees[pair.country1]) ?? emptyTree;
+  const tree2 = (pair && loadedTrees[pair.country2]) ?? emptyTree;
 
   const collectNodeIds = useCallback((node: TreeNode): string[] => {
     return [node.id, ...node.children.flatMap(c => collectNodeIds(c))];

@@ -20,13 +20,9 @@ import {
   EditOperation,
   SimilarityConfig,
   TreeNode,
+  BackendCompareResult,
 } from '../types';
 import { countries } from '../data/countries';
-import {
-  computeSimilarity,
-  computeEditScript,
-  countNodes,
-} from '../services/similarityService';
 import { filterTreeByMetrics } from '../services/dataService';
 
 interface ResultsViewProps {
@@ -36,6 +32,7 @@ interface ResultsViewProps {
   loadedTrees: Record<string, TreeNode>;
   similarityConfig: SimilarityConfig;
   selectedAlgorithm: AlgorithmConfig | null;
+  backendResults: Record<string, BackendCompareResult>;
   onNext: () => void;
   onPrev: () => void;
 }
@@ -137,6 +134,10 @@ function treeToXmlPreview(tree: TreeNode, maxFields = 10): string {
   return lines.join('\n');
 }
 
+function makePairKey(c1: string, c2: string): string {
+  return `${c1}__${c2}`;
+}
+
 export const ResultsView: React.FC<ResultsViewProps> = ({
   selectedCountries,
   comparisonMode,
@@ -144,6 +145,7 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
   loadedTrees,
   similarityConfig,
   selectedAlgorithm,
+  backendResults,
   onNext,
   onPrev,
 }) => {
@@ -164,39 +166,25 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
 
   const activePair: CountryPair | undefined = countryPairs[activePairIndex];
 
-  const rawT1 = activePair ? loadedTrees[activePair.country1] : undefined;
-  const rawT2 = activePair ? loadedTrees[activePair.country2] : undefined;
-  const selectedMetrics = activePair?.selectedMetrics ?? [];
+  const pairKey = activePair ? makePairKey(activePair.country1, activePair.country2) : '';
+  const backendResult = pairKey ? backendResults[pairKey] ?? null : null;
 
-  const t1 = useMemo(() => {
-    if (!rawT1) return undefined;
-    return selectedMetrics.length ? filterTreeByMetrics(rawT1, selectedMetrics) : rawT1;
-  }, [rawT1, selectedMetrics]);
-
-  const t2 = useMemo(() => {
-    if (!rawT2) return undefined;
-    return selectedMetrics.length ? filterTreeByMetrics(rawT2, selectedMetrics) : rawT2;
-  }, [rawT2, selectedMetrics]);
-
-  const simResult = useMemo(() => {
-    if (!t1 || !t2) return null;
-    return computeSimilarity(t1, t2, similarityConfig, selectedMetrics);
-  }, [t1, t2, similarityConfig, selectedMetrics]);
+  const t1 = backendResult?.tree_a ?? (activePair ? loadedTrees[activePair.country1] : undefined);
+  const t2 = backendResult?.tree_b ?? (activePair ? loadedTrees[activePair.country2] : undefined);
 
   const editOps = useMemo((): EditOperation[] => {
-    if (!t1 || !t2) return [];
-    return computeEditScript(t1, t2);
-  }, [t1, t2]);
+    return backendResult?.edit_script ?? [];
+  }, [backendResult]);
 
   const diffLines = useMemo((): DiffLine[] => {
     if (!t1 || !t2) return [];
     return buildDiffLines(t1, t2);
   }, [t1, t2]);
 
-  const nodes1 = useMemo(() => (t1 ? countNodes(t1) : 0), [t1]);
-  const nodes2 = useMemo(() => (t2 ? countNodes(t2) : 0), [t2]);
+  const nodes1 = backendResult?.tree_a_size ?? 0;
+  const nodes2 = backendResult?.tree_b_size ?? 0;
 
-  const simPct = (simResult?.sim ?? 0) * 100;
+  const simPct = (backendResult?.similarity ?? 0) * 100;
 
   useEffect(() => {
     setPatchStep(0);
@@ -242,20 +230,16 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
 
   const pairResults = useMemo(() => {
     return countryPairs.map(pair => {
-      const tt1 = loadedTrees[pair.country1];
-      const tt2 = loadedTrees[pair.country2];
-      if (!tt1 || !tt2) return null;
-
-      const ft1 = pair.selectedMetrics.length
-        ? filterTreeByMetrics(tt1, pair.selectedMetrics)
-        : tt1;
-      const ft2 = pair.selectedMetrics.length
-        ? filterTreeByMetrics(tt2, pair.selectedMetrics)
-        : tt2;
-
-      return computeSimilarity(ft1, ft2, similarityConfig, pair.selectedMetrics);
+      const key = makePairKey(pair.country1, pair.country2);
+      const br = backendResults[key];
+      if (!br) return null;
+      return {
+        sim: br.similarity,
+        ted: br.distance,
+        label: 'Zhang-Shasha TED',
+      };
     });
-  }, [countryPairs, loadedTrees, similarityConfig]);
+  }, [countryPairs, backendResults]);
 
   const rankedResults = useMemo(() => {
     return countryPairs
@@ -525,17 +509,22 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
                 </div>
 
                 <div className="mt-4 text-center">
-                  {simResult?.ted !== undefined && (
+                  {backendResult && (
                     <div className="text-lg font-semibold text-gray-900">
-                      TED: {simResult.ted}
+                      TED: {backendResult.distance.toFixed(2)}
                     </div>
                   )}
                   <div className="text-sm text-gray-500 mt-1">
                     {name1} vs {name2}
                   </div>
                   <div className="text-xs text-gray-600 mt-0.5">
-                    {selectedAlgorithm?.name ?? simResult?.label ?? 'Similarity'}
+                    {selectedAlgorithm?.name ?? 'Zhang-Shasha TED'}
                   </div>
+                  {backendResult && (
+                    <div className={`text-xs mt-1 ${backendResult.patch_verified ? 'text-green-600' : 'text-red-600'}`}>
+                      Patch: {backendResult.patch_verified ? 'Verified OK' : 'FAILED'}
+                    </div>
+                  )}
                 </div>
               </div>
 
@@ -572,7 +561,7 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
                     value={String(activePair?.selectedMetrics.length ?? 0)}
                     color="text-cyan-500"
                   />
-                  <StatCard label="Cost per Operation" value="1.0" color="text-gray-700" />
+                  <StatCard label="Patch Verified" value={backendResult?.patch_verified ? 'OK' : '—'} color={backendResult?.patch_verified ? 'text-green-500' : 'text-gray-500'} />
                 </div>
               </div>
             </div>
@@ -745,10 +734,14 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
                 </div>
 
                 {editOps.length > 0 && !isPatching && patchStep >= editOps.length - 1 && (
-                  <div className="mt-3 p-3 bg-accent-50 border border-accent-200 rounded-lg flex items-center gap-2">
-                    <CheckCircle2 size={16} className="text-accent-500" />
-                    <span className="text-sm text-accent-600">
-                      Patching complete! {name1} has been transformed to match {name2}.
+                  <div className={`mt-3 p-3 rounded-lg flex items-center gap-2 ${
+                    backendResult?.patch_verified
+                      ? 'bg-accent-50 border border-accent-200'
+                      : 'bg-red-50 border border-red-200'
+                  }`}>
+                    <CheckCircle2 size={16} className={backendResult?.patch_verified ? 'text-accent-500' : 'text-red-500'} />
+                    <span className={`text-sm ${backendResult?.patch_verified ? 'text-accent-600' : 'text-red-600'}`}>
+                      Patching complete! Verification: {backendResult?.patch_verified ? 'OK — patched tree matches target.' : 'FAILED'}
                     </span>
                   </div>
                 )}
@@ -846,53 +839,34 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
             <div className="flex gap-4">
               <div className="flex-1 glass-card p-4 flex flex-col">
                 <h3 className="text-sm font-semibold text-gray-500 mb-1">
-                  Post-Processing: Target Tree → Structured Output
+                  Post-Processing: Patched Output
                 </h3>
                 <p className="text-xs text-gray-400 mb-3">
-                  The target country&apos;s tree data extracted and formatted as a flat key-value document.
+                  {backendResult
+                    ? `Result of patching ${backendResult.country_a} → ${backendResult.country_b}. Patch verified: ${backendResult.patch_verified ? 'OK' : 'FAILED'}.`
+                    : 'No backend result available for this pair.'}
                 </p>
 
                 <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
                   <div className="flex flex-col">
                     <h4 className="text-xs text-primary-600 font-semibold mb-2">
-                      Tree Structure ({name2})
+                      Patched JSON Output
                     </h4>
                     <div className="max-h-[420px] bg-gray-100 rounded-lg p-3 font-mono text-[10px] overflow-auto">
-                      <pre className="text-gray-500">
-                        {t2 ? treeToXmlPreview(t2, 20) : '(no data)'}
+                      <pre className="text-gray-500 whitespace-pre-wrap break-words">
+                        {backendResult?.patched_json ?? '(no data)'}
                       </pre>
                     </div>
                   </div>
 
                   <div className="flex flex-col">
                     <h4 className="text-xs text-accent-600 font-semibold mb-2">
-                      Extracted Fields ({name2})
+                      Patched Infobox Text
                     </h4>
-                    <div className="max-h-[420px] overflow-auto space-y-2">
-                      {t2 ? (
-                        t2.children.map(cat => (
-                          <div key={cat.label} className="bg-gray-100 rounded-lg p-3">
-                            <div className="text-[10px] text-primary-600 font-semibold uppercase tracking-wider mb-1.5">
-                              {cat.label}
-                            </div>
-
-                            <div className="space-y-1">
-                              {cat.children.filter(f => f.value).map(field => (
-                                <div key={field.label} className="flex gap-2 text-[10px]">
-                                  <span className="text-gray-500 w-40 truncate shrink-0">
-                                    {field.label}
-                                  </span>
-                                  <span className="text-accent-600 font-mono truncate">
-                                    {field.value}
-                                  </span>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        ))
-                      ) : (
-                        <p className="text-gray-400 text-xs">No data loaded</p>
-                      )}
+                    <div className="max-h-[420px] bg-gray-100 rounded-lg p-3 font-mono text-[10px] overflow-auto">
+                      <pre className="text-gray-500 whitespace-pre-wrap break-words">
+                        {backendResult?.patched_infobox ?? '(no data)'}
+                      </pre>
                     </div>
                   </div>
                 </div>

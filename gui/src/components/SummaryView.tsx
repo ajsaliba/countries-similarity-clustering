@@ -19,26 +19,36 @@ import {
   CountryPair,
   SimilarityConfig,
   TreeNode,
+  DataSourceConfig,
+  BackendCompareResult,
 } from '../types';
 import { countries } from '../data/countries';
-import { computeSimilarity } from '../services/similarityService';
-import { filterTreeByMetrics } from '../services/dataService';
+
+function makePairKey(c1: string, c2: string): string {
+  return `${c1}__${c2}`;
+}
 
 interface SummaryViewProps {
   selectedCountries: Country[];
+  comparisonMode: 'pair' | 'all';
   countryPairs: CountryPair[];
   loadedTrees: Record<string, TreeNode>;
   similarityConfig: SimilarityConfig;
   selectedAlgorithm: AlgorithmConfig | null;
+  dataSource: DataSourceConfig;
+  backendResults: Record<string, BackendCompareResult>;
   onRestart: () => void;
 }
 
 export const SummaryView: React.FC<SummaryViewProps> = ({
   selectedCountries,
+  comparisonMode,
   countryPairs,
   loadedTrees,
   similarityConfig,
   selectedAlgorithm,
+  dataSource,
+  backendResults,
   onRestart,
 }) => {
   const [showComplexity, setShowComplexity] = useState(false);
@@ -49,20 +59,18 @@ export const SummaryView: React.FC<SummaryViewProps> = ({
   const pairResults = useMemo(
     () =>
       countryPairs.map(pair => {
-        const t1 = loadedTrees[pair.country1];
-        const t2 = loadedTrees[pair.country2];
-        if (!t1 || !t2) return null;
-
-        const ft1 = pair.selectedMetrics.length
-          ? filterTreeByMetrics(t1, pair.selectedMetrics)
-          : t1;
-        const ft2 = pair.selectedMetrics.length
-          ? filterTreeByMetrics(t2, pair.selectedMetrics)
-          : t2;
-
-        return computeSimilarity(ft1, ft2, similarityConfig, pair.selectedMetrics);
+        const key = makePairKey(pair.country1, pair.country2);
+        const br = backendResults[key];
+        if (!br) return null;
+        return {
+          sim: br.similarity,
+          ted: br.distance,
+          label: 'Zhang-Shasha TED',
+          totalOps: br.total_operations,
+          patchVerified: br.patch_verified,
+        };
       }),
-    [countryPairs, loadedTrees, similarityConfig],
+    [countryPairs, backendResults],
   );
 
   const rankedResults = useMemo(() => {
@@ -155,7 +163,10 @@ export const SummaryView: React.FC<SummaryViewProps> = ({
               <div>
                 <div className="text-[10px] text-gray-500 uppercase">Algorithm</div>
                 <div className="text-base font-bold text-gray-900 truncate">
-                  {selectedAlgorithm?.name ?? similarityConfig.category.toUpperCase()}
+                  {selectedAlgorithm?.name ?? 'Zhang-Shasha TED'}
+                </div>
+                <div className="text-[10px] text-gray-500 mt-0.5">
+                  Dataset: {dataSource.dataVariant} · Mode: {comparisonMode}
                 </div>
               </div>
             </div>
@@ -373,10 +384,10 @@ export const SummaryView: React.FC<SummaryViewProps> = ({
               <thead>
                 <tr className="border-b border-gray-300">
                   <th className="text-left py-2 text-gray-500 font-normal">Country Pair</th>
-                  <th className="text-center py-2 text-gray-500 font-normal">Fields</th>
                   <th className="text-center py-2 text-gray-500 font-normal">TED</th>
                   <th className="text-center py-2 text-gray-500 font-normal">Similarity</th>
-                  <th className="text-left py-2 text-gray-500 font-normal">Method</th>
+                  <th className="text-center py-2 text-gray-500 font-normal">Edit Ops</th>
+                  <th className="text-center py-2 text-gray-500 font-normal">Patch</th>
                 </tr>
               </thead>
               <tbody>
@@ -391,11 +402,8 @@ export const SummaryView: React.FC<SummaryViewProps> = ({
                         <span className="text-gray-400">vs</span>{' '}
                         {getCountryName(pair.country2)}
                       </td>
-                      <td className="py-2.5 text-center text-gray-500">
-                        {pair.selectedMetrics.length}
-                      </td>
                       <td className="py-2.5 text-center font-mono text-yellow-600">
-                        {result?.ted !== undefined ? result.ted : '—'}
+                        {result?.ted !== undefined ? result.ted.toFixed(2) : '—'}
                       </td>
                       <td className="py-2.5 text-center">
                         {simPct !== null ? (
@@ -414,8 +422,15 @@ export const SummaryView: React.FC<SummaryViewProps> = ({
                           <span className="text-gray-400 text-xs">no data</span>
                         )}
                       </td>
-                      <td className="py-2.5 text-gray-500 text-xs truncate max-w-[160px]">
-                        {result?.label ?? '—'}
+                      <td className="py-2.5 text-center text-gray-500 font-mono">
+                        {result?.totalOps ?? '—'}
+                      </td>
+                      <td className="py-2.5 text-center">
+                        {result?.patchVerified !== undefined ? (
+                          <span className={`text-xs font-semibold ${result.patchVerified ? 'text-green-600' : 'text-red-600'}`}>
+                            {result.patchVerified ? 'OK' : 'FAIL'}
+                          </span>
+                        ) : '—'}
                       </td>
                     </tr>
                   );

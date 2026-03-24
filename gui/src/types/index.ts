@@ -153,6 +153,27 @@ export interface SimilarityResult {
   label: string;
 }
 
+// ── Backend comparison result from ted_api.py ──────────────────
+export interface BackendCompareResult {
+  country_a: string;
+  country_b: string;
+  dataset: string;
+  method: string;
+  distance: number;
+  similarity: number;
+  tree_a_size: number;
+  tree_b_size: number;
+  tree_a: TreeNode;
+  tree_b: TreeNode;
+  edit_script: EditOperation[];
+  edit_script_summary: string;
+  operation_counts: { insert: number; delete: number; update: number };
+  total_operations: number;
+  patch_verified: boolean;
+  patched_json: string;
+  patched_infobox: string;
+}
+
 export interface AppState {
   currentPhase: number;
   selectedCountries: Country[];

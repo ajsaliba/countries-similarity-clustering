@@ -26,6 +26,8 @@ export default function App() {
     setDataSource,
     loadedTrees,
     setLoadedTrees,
+    backendResults,
+    setBackendResults,
     nextPhase,
     prevPhase,
     goToPhase,
@@ -137,6 +139,9 @@ export default function App() {
               comparisonMode={comparisonMode}
               countryPairs={countryPairs}
               loadedTrees={loadedTrees}
+              dataSource={dataSource}
+              backendResults={backendResults}
+              onSetBackendResults={setBackendResults}
               onNext={nextPhase}
               onPrev={prevPhase}
             />
@@ -150,6 +155,7 @@ export default function App() {
               loadedTrees={loadedTrees}
               similarityConfig={similarityConfig}
               selectedAlgorithm={selectedAlgorithm}
+              backendResults={backendResults}
               onNext={nextPhase}
               onPrev={prevPhase}
             />
@@ -163,6 +169,8 @@ export default function App() {
               loadedTrees={loadedTrees}
               similarityConfig={similarityConfig}
               selectedAlgorithm={selectedAlgorithm}
+              dataSource={dataSource}
+              backendResults={backendResults}
               onRestart={handleRestart}
             />
           )}

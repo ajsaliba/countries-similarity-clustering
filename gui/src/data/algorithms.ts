@@ -113,7 +113,7 @@ export const algorithms: AlgorithmConfig[] = [
   },
   {
     type: 'zhang-shasha',
-    name: 'Zhang & Shasha Algorithm',
+    name: 'Niermann & Jagadish Algorithm',
     description:
       'The classic O(n·m) tree edit distance algorithm (1989). Uses postorder traversal, leftmost-leaf descendants, and keyroots to decompose the TED problem into a series of forest-distance sub-problems solved by dynamic programming. Supports insert, delete, and relabel operations.',
     timeComplexity: 'O(n × m)',
@@ -128,7 +128,7 @@ export const algorithms: AlgorithmConfig[] = [
       'Backtrack TD to extract the minimum-cost edit script',
     ],
     pseudocode: [
-      { line: 1,  indent: 0, text: 'function ZHANG_SHASHA(T₁, T₂):' },
+      { line: 1,  indent: 0, text: 'function NIERMANN_JAGADISH(T₁, T₂):' },
       { line: 2,  indent: 1, text: '// ── Pre-computation ──' },
       { line: 3,  indent: 1, text: 'postorder₁ ← postorder_numbering(T₁)' },
       { line: 4,  indent: 1, text: 'postorder₂ ← postorder_numbering(T₂)' },

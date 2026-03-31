@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  KNIME Python Script (Legacy) node – Node 1
+  ==========================================
+  Factory : org.knime.python2.node.script.PythonScriptNodeFactory
+  Bundle  : org.knime.python2 (KNIME Python Integration)
+
+  This node has NO input table ports (it is a data SOURCE).
+  Output port 1 carries the cleaned countries table.
+
+  The embedded Python script:
+    1. Reads  JSON/all_countries.json
+    2. Normalises all fields (see helper functions)
+    3. Writes JSON/all_countries_clean.json  (side-effect)
+    4. Sets output_table_1 = pd.DataFrame(rows)  (KNIME table port)
+-->
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" key="settings.xml">
+
+  <entry key="node-name"                 type="xstring" value="Python Script"/>
+  <entry key="node-bundle-name"          type="xstring" value="KNIME Python Integration"/>
+  <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2"/>
+  <entry key="node-bundle-vendor"        type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+  <entry key="node-bundle-version"       type="xstring" value="4.7.0.202310260939"/>
+  <entry key="node-creation-date"        type="xstring" value="2024-01-01 00:00:00"/>
+
+  <config key="model">
+
+    <!-- ============================================================
+         Python source code (full cleaning script)
+         ============================================================ -->
+    <entry key="sourceCode" type="xstring" value="&quot;&quot;&quot;
+clean_countries.py
+==================
+Standalone cleaning script for JSON/all_countries.json.
+
+Normalises all 195 country entries so every country exposes the same
+flat set of fields with consistent types and value formats.
+
+Can also be pasted directly into KNIME's Python Script (Legacy) node:
+  - Set JSON_INPUT_PATH / CSV_OUTPUT_PATH to match your file system.
+  - The final two lines assign output_table_1 for the KNIME table port.
+&quot;&quot;&quot;
+
+import json
+import re
+import os
+import pandas as pd
+
+# ---------------------------------------------------------------
+# Paths  (edit if running standalone or inside KNIME)
+# ---------------------------------------------------------------
+# In KNIME: use flow_variables[&quot;knime.workflow.dir&quot;] to locate files
+_BASE = flow_variables.get(&quot;knime.workflow.dir&quot;, &quot;.&quot;)
+JSON_INPUT_PATH  = os.path.join(_BASE, &quot;..&quot;, &quot;..&quot;, &quot;JSON&quot;, &quot;all_countries.json&quot;)
+JSON_OUTPUT_PATH = os.path.join(_BASE, &quot;..&quot;, &quot;..&quot;, &quot;JSON&quot;, &quot;all_countries_clean.json&quot;)
+CSV_OUTPUT_PATH  = os.path.join(_BASE, &quot;..&quot;, &quot;..&quot;, &quot;JSON&quot;, &quot;all_countries_flat.csv&quot;)
+
+
+# ================================================================
+# Helper utilities
+# ================================================================
+
+def _first(d: dict, *keys):
+    &quot;&quot;&quot;Return the value of the first matching key found in *d*.&quot;&quot;&quot;
+    for k in keys:
+        if k in d:
+            return d[k]
+    return None
+
+
+def _first_by_prefix(d: dict, prefix: str):
+    &quot;&quot;&quot;Return the value of the first key in *d* that starts with *prefix*.&quot;&quot;&quot;
+    for k in d:
+        if k.startswith(prefix):
+            return d[k]
+    return None
+
+
+def _most_recent_by_prefix(d: dict, prefix: str):
+    &quot;&quot;&quot;
+    Among all keys starting with *prefix*, return the value whose key
+    contains the highest 4-digit year, falling back to any match.
+    &quot;&quot;&quot;
+    best_year, best_val = -1, None
+    any_val = None
+    for k, v in d.items():
+        if k == prefix or k.startswith(prefix):
+            any_val = v
+            m = re.search(r&quot;\b(\d{4})\b&quot;, k)
+            year = int(m.group(1)) if m else 0
+            if year &gt;= best_year:
+                best_year, best_val = year, v
+    return best_val if best_val is not None else any_val
+
+
+def extract_capital(raw) -&gt; str | None:
+    &quot;&quot;&quot;
+    Strip Wikipedia coordinate notation from a capital field.
+    e.g. &quot;Kabul 34°31′N 69°11′E ﻿ / …&quot;  →  &quot;Kabul&quot;
+    &quot;&quot;&quot;
+    if not raw or not isinstance(raw, str):
+        return None
+    # Split on first occurrence of a degree symbol or digit+° pattern
+    city = re.split(r&quot;\s+\d+[°º]&quot;, raw)[0].strip()
+    # Some entries include &quot;Country: …&quot; suffix
+    city = re.sub(r&quot;\s+Country:.*&quot;, &quot;&quot;, city).strip()
+    return city or None
+
+
+def extract_first_number(text: str, *, keep_decimal=True) -&gt; float | None:
+    &quot;&quot;&quot;Extract the first numeric value from an arbitrary string.&quot;&quot;&quot;
+    if not text or not isinstance(text, str):
+        return None
+    text = text.replace(&quot;,&quot;, &quot;&quot;)
+    pattern = r&quot;[\d]+(?:\.\d+)?&quot; if keep_decimal else r&quot;\d+&quot;
+    m = re.search(pattern, text)
+    return float(m.group()) if m else None
+
+
+def extract_world_rank(text: str) -&gt; int | None:
+    &quot;&quot;&quot;Extract world rank from strings like '( 40th )' or '(22nd)'.&quot;&quot;&quot;
+    if not text or not isinstance(text, str):
+        return None
+    m = re.search(r&quot;\(\s*(\d+)\s*(?:st|nd|rd|th)\s*\)&quot;, text)
+    return int(m.group(1)) if m else None
+
+
+def gdp_to_billions(text: str) -&gt; float | None:
+    &quot;&quot;&quot;
+    Convert GDP total strings to float billions USD.
+    Handles 'million', 'billion', 'trillion' suffixes.
+    Strips parenthetical rank and currency symbols.
+    &quot;&quot;&quot;
+    if not text or not isinstance(text, str):
+        return None
+    text = re.sub(r&quot;\s*\([^)]*\)&quot;, &quot;&quot;, text).strip()   # drop &quot;(22nd)&quot; etc.
+    m = re.match(r&quot;[^\d]*([\d,\.]+)\s*(trillion|billion|million)?&quot;,
+                 text, re.IGNORECASE)
+    if not m:
+        return None
+    value = float(m.group(1).replace(&quot;,&quot;, &quot;&quot;))
+    unit = (m.group(2) or &quot;billion&quot;).lower()
+    if unit == &quot;trillion&quot;:
+        value *= 1_000
+    elif unit == &quot;million&quot;:
+        value /= 1_000
+    return round(value, 3)
+
+
+def per_capita_usd(text: str) -&gt; int | None:
+    &quot;&quot;&quot;Extract per-capita GDP as integer USD (not billions).&quot;&quot;&quot;
+    if not text or not isinstance(text, str):
+        return None
+    text = re.sub(r&quot;\s*\([^)]*\)&quot;, &quot;&quot;, text)           # drop rank
+    text = re.sub(r&quot;[^\d]&quot;, &quot;&quot;, text)                  # keep digits only
+    return int(text) if text else None
+
+
+def normalize_timezone(text: str) -&gt; str | None:
+    &quot;&quot;&quot;
+    Normalise timezone strings to 'UTC±HH:MM'.
+    Multiple timezone countries (e.g. Australia) keep only the first.
+    Unicode minus/dash/plus-minus variants are handled.
+    &quot;&quot;&quot;
+    if not text or not isinstance(text, str):
+        return None
+    text = text.split(&quot;;&quot;)[0].strip()
+    # Unify Unicode variants: minus, en-dash, word-joiner, plus-minus
+    text = (text.replace(&quot;\u2212&quot;, &quot;-&quot;)
+                .replace(&quot;\u2013&quot;, &quot;-&quot;)
+                .replace(&quot;\u2060&quot;, &quot;&quot;)   # word joiner (e.g. Spain)
+                .replace(&quot;\u00b1&quot;, &quot;+&quot;)) # ±0 means UTC+00:00
+    m = re.search(r&quot;UTC\s*([+\-])\s*(\d{1,2})(?::(\d{2}))?&quot;, text, re.IGNORECASE)
+    if m:
+        sign  = m.group(1)
+        hours = int(m.group(2))
+        mins  = int(m.group(3) or 0)
+        return f&quot;UTC{sign}{hours:02d}:{mins:02d}&quot;
+    # &quot;UTC ( GMT )&quot; or bare &quot;UTC&quot; → UTC+00:00
+    if re.search(r&quot;\bUTC\b&quot;, text, re.IGNORECASE):
+        return &quot;UTC+00:00&quot;
+    return None
+
+
+def flatten_religion(religion_data) -&gt; dict:
+    &quot;&quot;&quot;
+    Flatten the two religion formats found in the data into
+    {religion_name: percentage_string}:
+      • Flat:   {&quot;Islam&quot;: &quot;99.9%&quot;, &quot;other&quot;: &quot;0.1%&quot;}
+      • Nested: {&quot;Islam&quot;: {&quot;percentage&quot;: &quot;99.9%&quot;, &quot;breakdown&quot;: {...}}}
+    &quot;&quot;&quot;
+    if not religion_data or not isinstance(religion_data, dict):
+        return {}
+    flat = {}
+    for rel, data in religion_data.items():
+        if isinstance(data, dict) and &quot;percentage&quot; in data:
+            flat[rel] = data[&quot;percentage&quot;]
+        elif isinstance(data, str):
+            flat[rel] = data
+        # Skip deeper nesting (e.g. Antigua's Rastafari sub-object)
+    return flat
+
+
+def top_religion(flat: dict) -&gt; tuple[str | None, float | None]:
+    &quot;&quot;&quot;Return (name, percentage_float) of the dominant religion.&quot;&quot;&quot;
+    best_name, best_pct = None, -1.0
+    for rel, pct_str in flat.items():
+        if isinstance(pct_str, str):
+            m = re.search(r&quot;([\d\.]+)&quot;, pct_str)
+            if m:
+                pct = float(m.group(1))
+                if pct &gt; best_pct:
+                    best_pct, best_name = pct, rel
+    return best_name, (best_pct if best_pct &gt;= 0 else None)
+
+
+def currency_code(text: str) -&gt; str | None:
+    &quot;&quot;&quot;
+    Extract the 3-letter ISO 4217 currency code from strings like
+    'Afghan afghani (AFN)' or 'Afghani ( افغانى ) ( AFN )'.
+    &quot;&quot;&quot;
+    if not text or not isinstance(text, str):
+        return None
+    # Prefer the last (outermost) 3-letter uppercase token in parens
+    # Spaces inside parens are common: &quot;( AFN )&quot;
+    hits = re.findall(r&quot;\(\s*([A-Z]{3})\s*\)&quot;, text)
+    return hits[-1] if hits else text.strip()
+
+
+def water_pct(text: str) -&gt; float:
+    &quot;&quot;&quot;Parse water percentage; 'negligible' → 0.0.&quot;&quot;&quot;
+    if not text or not isinstance(text, str):
+        return 0.0
+    if re.match(r&quot;negligible|none|n/?a&quot;, text.strip(), re.IGNORECASE):
+        return 0.0
+    n = extract_first_number(text)
+    return n if n is not None else 0.0
+
+
+_PURE_NUMBER = re.compile(r&quot;^-?\d+(\.\d+)?$&quot;)
+
+def _sort_and_coerce(record: dict) -&gt; dict:
+    &quot;&quot;&quot;
+    Return a new dict where:
+      • &quot;country&quot; is always the first key.
+      • All remaining keys are sorted alphabetically.
+      • String values that are pure integers or decimals (matching
+        matching r'^-?\\d+(\\.\\d+)?$') are coerced to int or float.
+        Strings with leading &quot;+&quot;, &quot;.&quot;, or letters are left as-is.
+    &quot;&quot;&quot;
+    def coerce(v):
+        if not isinstance(v, str):
+            return v
+        if _PURE_NUMBER.match(v):
+            return int(v) if &quot;.&quot; not in v else float(v)
+        return v
+
+    rest = {k: coerce(v) for k, v in record.items() if k != &quot;country&quot;}
+    return {&quot;country&quot;: record[&quot;country&quot;], **dict(sorted(rest.items()))}
+
+
+def ethnic_groups_string(raw) -&gt; str | None:
+    &quot;&quot;&quot;
+    Normalise ethnic groups to a human-readable
+    'Group1: XX%, Group2: YY%' string.
+    &quot;&quot;&quot;
+    if isinstance(raw, dict):
+        parts = []
+        for k, v in raw.items():
+            if isinstance(v, str):
+                parts.append(f&quot;{k}: {v}&quot;)
+        return &quot;; &quot;.join(parts) if parts else None
+    if isinstance(raw, str):
+        return raw
+    return None
+
+
+# ================================================================
+# Per-country extraction
+# ================================================================
+
+def clean_country(entry: dict) -&gt; dict:
+    name    = entry.get(&quot;country&quot;, &quot;&quot;)
+    url     = entry.get(&quot;url&quot;, &quot;&quot;)
+    ib      = entry.get(&quot;infobox&quot;, {})
+
+    general    = ib.get(&quot;General&quot;, {})
+    government = ib.get(&quot;Government&quot;, {})
+    area_sec   = ib.get(&quot;Area&quot;, {})
+    pop_sec    = ib.get(&quot;Population&quot;, {})
+    eco        = ib.get(&quot;Economy&quot;, {})
+    time_sec   = ib.get(&quot;Time&quot;, {})
+    codes_sec  = ib.get(&quot;Codes&quot;, {})
+
+    # ------------------------------------------------------------------
+    # General → Capital / Largest city
+    # ------------------------------------------------------------------
+    cap_raw = _first(general,
+                     &quot;Capital and largest city&quot;, &quot;Capital&quot;,
+                     &quot;Capital Administrative center&quot;,   # e.g. Palestine
+                     &quot;Administrative center&quot;, &quot;Administrative Centre&quot;,
+                     &quot;Administrative capital&quot;, &quot;Seat of government&quot;)
+    capital      = extract_capital(cap_raw)
+    lc_raw       = general.get(&quot;Largest city&quot;, cap_raw
+                               if &quot;Capital and largest city&quot; in general else None)
+    largest_city = extract_capital(lc_raw)
+
+    # ------------------------------------------------------------------
+    # General → Official language  (many key variants)
+    # ------------------------------------------------------------------
+    lang_raw = _first(general,
+                      &quot;Official languages&quot;, &quot;Official language&quot;,
+                      &quot;National language&quot;, &quot;National languages&quot;,
+                      &quot;Official language and national language&quot;,
+                      &quot;National language (official)&quot;,          # Malaysia
+                      &quot;Recognised national languages&quot;,         # Fiji
+                      &quot;Common languages&quot;,
+                      &quot;Official language (federal level)&quot;,
+                      &quot;Co-official languages&quot;,
+                      &quot;Spoken languages&quot;)
+    if isinstance(lang_raw, list):
+        lang_raw = &quot; &quot;.join(lang_raw)
+    elif isinstance(lang_raw, dict):
+        # e.g. Switzerland: {&quot;), French (&quot;: &quot;62%&quot;, &quot;), Italian (&quot;: &quot;23%&quot;, ...}
+        # Extract capitalised words (language names) from garbled markup keys
+        langs = []
+        for k in lang_raw:
+            words = re.findall(r&quot;\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\b&quot;, k)
+            langs.extend(words)
+        lang_raw = &quot; / &quot;.join(langs) if langs else None
+    official_language = lang_raw if isinstance(lang_raw, str) and lang_raw else None
+
+    # ------------------------------------------------------------------
+    # General → Demonym
+    # ------------------------------------------------------------------
+    demonym = _first(general, &quot;Demonym&quot;, &quot;Demonyms&quot;)
+    if isinstance(demonym, list):
+        demonym = demonym[0] if demonym else None
+
+    # ------------------------------------------------------------------
+    # General → Ethnic groups (any year variant)
+    # ------------------------------------------------------------------
+    ethnic_raw = _first_by_prefix(general, &quot;Ethnic groups&quot;) \
+              or _first_by_prefix(general, &quot;Ethnic&quot;)
+    ethnic_groups = ethnic_groups_string(ethnic_raw)
+
+    # ------------------------------------------------------------------
+    # General → Religion (most-recent year, flatten)
+    # ------------------------------------------------------------------
+    rel_raw  = _most_recent_by_prefix(general, &quot;Religion&quot;)
+    rel_flat = flatten_religion(rel_raw)
+    top_rel, top_rel_pct = top_religion(rel_flat)
+
+    # ------------------------------------------------------------------
+    # Area
+    # ------------------------------------------------------------------
+    # &quot;Total area&quot; (Canada, USA) or &quot;Total&quot; (most); Denmark uses country name as key
+    area_total_raw = area_sec.get(&quot;Total&quot;) \
+                  or area_sec.get(&quot;Total area&quot;) \
+                  or next((v for v in area_sec.values()
+                           if isinstance(v, str) and &quot;km&quot; in v), &quot;&quot;)
+    area_km2       = extract_first_number(area_total_raw)
+    area_rank      = extract_world_rank(area_total_raw)
+    water_percent  = water_pct(area_sec.get(&quot;Water (%)&quot;, &quot;0&quot;))
+
+    # ------------------------------------------------------------------
+    # Population (most recent year)
+    # ------------------------------------------------------------------
+    pop_val = pop_rank = pop_density = None
+    pop_year = None
+    best_pop_year = -1
+
+    for key, val in pop_sec.items():
+        if key in (&quot;Density&quot;, &quot;Date format&quot;) or not isinstance(val, str):
+            continue
+        m = re.search(r&quot;\b(20\d{2})\b&quot;, key)
+        if not m:
+            continue
+        yr = int(m.group(1))
+        if yr &lt; best_pop_year:
+            continue
+        best_pop_year = yr
+        pop_year = yr
+
+        # Handle range values like &quot;35–50 million&quot;
+        clean = re.sub(r&quot;\s*\([^)]*\)&quot;, &quot;&quot;, val).strip()
+        clean = clean.replace(&quot;,&quot;, &quot;&quot;).replace(&quot;\u2013&quot;, &quot;-&quot;).replace(&quot;\u2212&quot;, &quot;-&quot;)
+        range_m = re.match(r&quot;([\d]+)\s*[-]\s*([\d]+)\s*(million|billion)?&quot;,
+                           clean, re.IGNORECASE)
+        if range_m:
+            lo  = float(range_m.group(1))
+            hi  = float(range_m.group(2))
+            mul = 1_000_000 if (range_m.group(3) or &quot;&quot;).lower() == &quot;million&quot; else 1
+            pop_val = int((lo + hi) / 2 * mul)
+        else:
+            num_m = re.match(r&quot;(\d[\d]*)&quot;, clean.replace(&quot;,&quot;, &quot;&quot;))
+            pop_val = int(num_m.group(1)) if num_m else None
+
+        pop_rank = extract_world_rank(val)
+
+    density_raw = pop_sec.get(&quot;Density&quot;, &quot;&quot;)
+    if density_raw:
+        pop_density = extract_first_number(density_raw)
+
+    # ------------------------------------------------------------------
+    # Economy → GDP PPP
+    # ------------------------------------------------------------------
+    gdp_ppp = eco.get(&quot;GDP ( PPP )&quot;, {})
+    gdp_ppp_total_b = None
+    gdp_ppp_pc_usd  = None
+    if isinstance(gdp_ppp, dict):
+        gdp_ppp_total_b = gdp_to_billions(gdp_ppp.get(&quot;Total&quot;))
+        gdp_ppp_pc_usd  = per_capita_usd(gdp_ppp.get(&quot;Per capita&quot;))
+
+    # ------------------------------------------------------------------
+    # Economy → GDP Nominal
+    # ------------------------------------------------------------------
+    gdp_nom = eco.get(&quot;GDP (nominal)&quot;, {})
+    gdp_nom_total_b = None
+    gdp_nom_pc_usd  = None
+    if isinstance(gdp_nom, dict):
+        gdp_nom_total_b = gdp_to_billions(gdp_nom.get(&quot;Total&quot;))
+        gdp_nom_pc_usd  = per_capita_usd(gdp_nom.get(&quot;Per capita&quot;))
+
+    # ------------------------------------------------------------------
+    # Economy → HDI (prefer most recent year)
+    # ------------------------------------------------------------------
+    hdi = hdi_category = None
+    hdi_rank = hdi_year = None
+    for yr in (&quot;2024&quot;, &quot;2023&quot;, &quot;2022&quot;, &quot;2021&quot;):
+        raw_hdi = eco.get(f&quot;HDI ({yr})&quot;)
+        if raw_hdi:
+            m = re.match(r&quot;([\d\.]+)&quot;, raw_hdi)
+            hdi = float(m.group(1)) if m else None
+            cat = re.search(r&quot;(very high|high|medium|low)&quot;, raw_hdi, re.IGNORECASE)
+            hdi_category = cat.group(1).lower() if cat else None
+            hdi_rank = extract_world_rank(raw_hdi)
+            hdi_year = int(yr)
+            break
+
+    # ------------------------------------------------------------------
+    # Economy → Gini (most recent year)
+    # ------------------------------------------------------------------
+    gini = gini_category = gini_year = None
+    best_gini_yr = -1
+    for k, v in eco.items():
+        if not k.startswith(&quot;Gini&quot;):
+            continue
+        m = re.search(r&quot;\b(\d{4})\b&quot;, k)
+        yr = int(m.group(1)) if m else 0
+        if yr &gt;= best_gini_yr:
+            best_gini_yr = yr
+            nm = re.match(r&quot;([\d\.]+)&quot;, v) if isinstance(v, str) else None
+            gini = float(nm.group(1)) if nm else None
+            cat  = re.search(r&quot;(very high|high|medium|low)&quot;, v or &quot;&quot;,
+                             re.IGNORECASE)
+            gini_category = cat.group(1).lower() if cat else None
+            gini_year = yr if yr &gt; 0 else None
+
+    # ------------------------------------------------------------------
+    # Economy → Currency code
+    # ------------------------------------------------------------------
+    cur_code = currency_code(eco.get(&quot;Currency&quot;, &quot;&quot;))
+
+    # ------------------------------------------------------------------
+    # Government
+    # ------------------------------------------------------------------
+    government_type = government.get(&quot;Government&quot;)
+    legislature     = government.get(&quot;Legislature&quot;)
+
+    # ------------------------------------------------------------------
+    # Time zone
+    # ------------------------------------------------------------------
+    tz = normalize_timezone(time_sec.get(&quot;Time zone&quot;, &quot;&quot;))
+
+    # ------------------------------------------------------------------
+    # Codes
+    # Some countries (e.g. Denmark, Netherlands) prefix multi-entry
+    # calling/TLD fields with a count: &quot;3 codes +45 … +298 …&quot; or
+    # &quot;3 TLDs .dk … .fo …&quot;.  Extract the first real value in each case.
+    # ------------------------------------------------------------------
+    iso_code     = codes_sec.get(&quot;ISO 3166 code&quot;)
+
+    calling_raw  = codes_sec.get(&quot;Calling code&quot;, &quot;&quot;) or &quot;&quot;
+    # Real calling codes start with &quot;+&quot; – grab the first such token
+    cc_hits = re.findall(r&quot;\+[\d\s]+&quot;, calling_raw)
+    calling_code = cc_hits[0].strip() if cc_hits else (calling_raw.strip() or None)
+
+    tld_raw = codes_sec.get(&quot;Internet TLD&quot;, &quot;&quot;) or &quot;&quot;
+    # Real TLDs start with &quot;.&quot; – grab the first such token
+    tld_hits = re.findall(r&quot;\.\S+&quot;, tld_raw)
+    tld = tld_hits[0] if tld_hits else None
+
+    # ------------------------------------------------------------------
+    # Assemble flat record, then sort keys alphabetically
+    # (&quot;country&quot; is pinned first; all other keys sorted A→Z).
+    # String values that are pure integers or decimals are coerced to
+    # their numeric type (calling codes keep their leading &quot;+&quot; so they
+    # are not affected).
+    # ------------------------------------------------------------------
+    raw = {
+        &quot;country&quot;:                       name,
+        &quot;iso_3166_code&quot;:                 iso_code,
+        &quot;url&quot;:                           url,
+        &quot;capital&quot;:                       capital,
+        &quot;largest_city&quot;:                  largest_city,
+        &quot;official_language&quot;:             official_language,
+        &quot;demonym&quot;:                       demonym,
+        &quot;ethnic_groups&quot;:                 ethnic_groups,
+        &quot;top_religion&quot;:                  top_rel,
+        &quot;top_religion_pct&quot;:              top_rel_pct,
+        &quot;government_type&quot;:               government_type,
+        &quot;legislature&quot;:                   legislature,
+        &quot;area_km2&quot;:                      area_km2,
+        &quot;area_rank&quot;:                     area_rank,
+        &quot;water_pct&quot;:                     water_percent,
+        &quot;population&quot;:                    pop_val,
+        &quot;population_year&quot;:               pop_year,
+        &quot;population_rank&quot;:               pop_rank,
+        &quot;population_density_per_km2&quot;:    pop_density,
+        &quot;gdp_ppp_total_billion_usd&quot;:     gdp_ppp_total_b,
+        &quot;gdp_ppp_per_capita_usd&quot;:        gdp_ppp_pc_usd,
+        &quot;gdp_nominal_total_billion_usd&quot;: gdp_nom_total_b,
+        &quot;gdp_nominal_per_capita_usd&quot;:    gdp_nom_pc_usd,
+        &quot;hdi&quot;:                           hdi,
+        &quot;hdi_category&quot;:                  hdi_category,
+        &quot;hdi_rank&quot;:                      hdi_rank,
+        &quot;hdi_year&quot;:                      hdi_year,
+        &quot;gini&quot;:                          gini,
+        &quot;gini_category&quot;:                 gini_category,
+        &quot;gini_year&quot;:                     gini_year,
+        &quot;currency_code&quot;:                 cur_code,
+        &quot;timezone_utc&quot;:                  tz,
+        &quot;calling_code&quot;:                  calling_code,
+        &quot;internet_tld&quot;:                  tld,
+    }
+    return _sort_and_coerce(raw)
+
+
+# ================================================================
+# Main
+# ================================================================
+
+if __name__ == &quot;__main__&quot; or &quot;output_table_1&quot; not in dir():
+    with open(JSON_INPUT_PATH, encoding=&quot;utf-8&quot;) as f:
+        raw_data = json.load(f)
+
+    rows = []
+    errors = []
+    for entry in raw_data[&quot;countries&quot;]:
+        try:
+            rows.append(clean_country(entry))
+        except Exception as exc:
+            errors.append({&quot;country&quot;: entry.get(&quot;country&quot;, &quot;?&quot;), &quot;error&quot;: str(exc)})
+            rows.append({&quot;country&quot;: entry.get(&quot;country&quot;, &quot;?&quot;), &quot;error&quot;: str(exc)})
+
+    # Write flat JSON
+    with open(JSON_OUTPUT_PATH, &quot;w&quot;, encoding=&quot;utf-8&quot;) as f:
+        json.dump({&quot;countries&quot;: rows}, f, ensure_ascii=False, indent=2, default=str)
+
+    # Write flat CSV
+    df = pd.DataFrame(rows)
+    df.to_csv(CSV_OUTPUT_PATH, index=False, encoding=&quot;utf-8&quot;)
+
+    print(f&quot;Done. {len(rows) - len(errors)}/{len(rows)} countries cleaned.&quot;)
+    if errors:
+        print(f&quot;Errors ({len(errors)}):&quot;)
+        for e in errors:
+            print(f&quot;  {e['country']}: {e['error']}&quot;)
+    print(f&quot;  JSON -&gt; {JSON_OUTPUT_PATH}&quot;)
+    print(f&quot;  CSV  -&gt; {CSV_OUTPUT_PATH}&quot;)
+
+# ================================================================
+# KNIME Python Script (Legacy) output
+# (This line is ignored when running standalone)
+# ================================================================
+output_table_1 = pd.DataFrame(rows) if &quot;rows&quot; in dir() else pd.DataFrame()"/>
+
+    <!-- Python 3 environment -->
+    <entry key="pythonVersionOption"      type="xstring"  value="python3"/>
+
+    <!-- Missing-value sentinel (used for integer columns) -->
+    <entry key="sentinelOption"           type="xstring"  value="MIN_VAL"/>
+    <entry key="sentinelValue"            type="xint"     value="0"/>
+    <entry key="missingWarningMessage"    type="xstring"  value=""/>
+
+    <!-- Chunking (irrelevant for a source node, kept for compatibility) -->
+    <entry key="chunkSize"                type="xint"     value="1000"/>
+
+    <!-- Missing value conversion -->
+    <entry key="convertMissingToPython"   type="xboolean" value="true"/>
+    <entry key="convertMissingFromPython" type="xboolean" value="true"/>
+
+    <!-- Input tables: none (this is a source node) -->
+    <config key="inputTableKeys">
+      <entry key="array-size" type="xint" value="0"/>
+    </config>
+
+    <!-- Output tables: one table named output_table_1 -->
+    <config key="outputTableKeys">
+      <entry key="array-size" type="xint" value="1"/>
+      <entry key="0"          type="xstring" value="output_table_1"/>
+    </config>
+
+    <!-- No pickled input/output objects -->
+    <config key="inputObjectKeys">
+      <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="outputObjectKeys">
+      <entry key="array-size" type="xint" value="0"/>
+    </config>
+
+  </config><!-- /model -->
+
+</config>

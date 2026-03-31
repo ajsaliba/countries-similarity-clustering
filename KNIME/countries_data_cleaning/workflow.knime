@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        key="workflow.knime">
+
+  <entry key="version" type="xstring" value="4.7.0.202310260939"/>
+  <entry key="name"    type="xstring" value="Countries Data Cleaning"/>
+
+  <!-- ============================================================
+       NODES
+       ============================================================ -->
+  <config key="nodes">
+
+    <!-- Node 1 : Python Script (Legacy) – reads + cleans JSON, outputs DataFrame -->
+    <config key="node_1">
+      <entry key="id"                type="xint"     value="1"/>
+      <entry key="node_settings_file" type="xstring" value="Python Script (#1)/settings.xml"/>
+      <entry key="node_is_meta"      type="xboolean" value="false"/>
+      <entry key="node_type"         type="xstring"  value="NativeNode"/>
+      <entry key="ui_classname"      type="xstring"
+             value="org.knime.core.node.workflow.NodeUIInformation"/>
+      <config key="ui_settings">
+        <!-- x, y, width, height -->
+        <config key="extrainfo.node.bounds">
+          <entry key="array-size" type="xint" value="4"/>
+          <entry key="0" type="xint" value="120"/>
+          <entry key="1" type="xint" value="120"/>
+          <entry key="2" type="xint" value="105"/>
+          <entry key="3" type="xint" value="79"/>
+        </config>
+      </config>
+      <entry key="customDescription" type="xstring"
+             value="Reads JSON/all_countries.json, normalises all fields&#10;(capital, language, area, population, GDP, HDI, Gini,&#10;timezone, currency, etc.) and outputs a flat table.&#10;Also writes JSON/all_countries_clean.json as a side-effect."/>
+      <entry key="state" type="xstring" value="IDLE"/>
+    </config>
+
+    <!-- Node 2 : CSV Writer – persists the flat table -->
+    <config key="node_2">
+      <entry key="id"                type="xint"     value="2"/>
+      <entry key="node_settings_file" type="xstring" value="CSV Writer (#2)/settings.xml"/>
+      <entry key="node_is_meta"      type="xboolean" value="false"/>
+      <entry key="node_type"         type="xstring"  value="NativeNode"/>
+      <entry key="ui_classname"      type="xstring"
+             value="org.knime.core.node.workflow.NodeUIInformation"/>
+      <config key="ui_settings">
+        <config key="extrainfo.node.bounds">
+          <entry key="array-size" type="xint" value="4"/>
+          <entry key="0" type="xint" value="340"/>
+          <entry key="1" type="xint" value="120"/>
+          <entry key="2" type="xint" value="105"/>
+          <entry key="3" type="xint" value="79"/>
+        </config>
+      </config>
+      <entry key="customDescription" type="xstring"
+             value="Writes JSON/all_countries_flat.csv (UTF-8, comma-separated)."/>
+      <entry key="state" type="xstring" value="IDLE"/>
+    </config>
+
+  </config><!-- /nodes -->
+
+  <!-- ============================================================
+       CONNECTIONS
+       ============================================================ -->
+  <config key="connections">
+    <!-- Python Script outport 1 → CSV Writer inport 1 -->
+    <config key="connection_0">
+      <entry key="sourceID"   type="xint" value="1"/>
+      <entry key="destID"     type="xint" value="2"/>
+      <entry key="sourcePort" type="xint" value="1"/>
+      <entry key="destPort"   type="xint" value="1"/>
+      <entry key="isDeletable" type="xboolean" value="true"/>
+    </config>
+  </config><!-- /connections -->
+
+  <!-- ============================================================
+       Workflow meta-ports (none for a top-level workflow)
+       ============================================================ -->
+  <config key="meta_in_ports">
+    <entry key="array-size" type="xint" value="0"/>
+  </config>
+  <config key="meta_out_ports">
+    <entry key="array-size" type="xint" value="0"/>
+  </config>
+
+  <!-- ============================================================
+       Editor UI settings
+       ============================================================ -->
+  <config key="editorUIInfo">
+    <entry key="extrainfo.graph.zoomfactor"  type="xdouble"  value="1.0"/>
+    <entry key="extrainfo.graph.pinX"        type="xint"     value="0"/>
+    <entry key="extrainfo.graph.pinY"        type="xint"     value="0"/>
+    <entry key="extrainfo.graph.showgrid"    type="xboolean" value="false"/>
+    <entry key="extrainfo.graph.snapToGrid"  type="xboolean" value="false"/>
+    <entry key="extrainfo.graph.snapToNodes" type="xboolean" value="false"/>
+    <entry key="extrainfo.graph.gridSize"    type="xint"     value="10"/>
+  </config>
+
+</config>

@@ -1,0 +1,96 @@
+{
+  "country": "Fiji",
+  "area": {
+    "rank": 151,
+    "total_km2": 18274.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+679",
+    "internet_tld": ".fj",
+    "iso_3166_code": "FJ"
+  },
+  "economy": {
+    "currency_code": "FJD",
+    "gdp_nominal": {
+      "per_capita_usd": 6024,
+      "total_billion_usd": 5.511,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 16563,
+      "total_billion_usd": 15.152,
+      "year": 2023
+    },
+    "gini": {
+      "category": "medium",
+      "value": 30.7,
+      "year": 2019
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 111,
+      "value": 0.731,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Suva",
+    "demonym": "Fijian",
+    "ethnic_groups": {
+      "groups": {
+        "Indigenous Fijians": 56.8,
+        "Indo-Fijians": 37.5,
+        "Rotumans": 1.2,
+        "others": 4.5
+      },
+      "year": 2016
+    },
+    "largest_city": "Suva",
+    "national_language": "Fijian English Standard Hindi Fiji Hindi",
+    "official_language": "Fijian English Standard Hindi Fiji Hindi",
+    "recognized_regional_languages": "Rotuman",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Methodism": 34.6,
+            "other Christian": 29.8
+          },
+          "percentage": 64.4
+        },
+        "Hinduism": 27.9,
+        "Islam": 6.3,
+        "others / none": 1.4
+      },
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Salesi Temo",
+      "deputy_prime_minister": "Viliame Gavoka",
+      "parliament_speaker": "Filimone Jitoko",
+      "president": "Naiqama Lalabalavu",
+      "prime_minister": "Sitiveni Rabuka"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Current constitution": "6 September 2013",
+    "Independence": "10 October 1970",
+    "Republic": "6 October 1987"
+  },
+  "population": {
+    "density_per_km2": 46.4,
+    "total": 926276,
+    "year": 2018
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+12:00"
+  }
+}

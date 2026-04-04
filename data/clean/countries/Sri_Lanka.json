@@ -1,0 +1,101 @@
+{
+  "country": "Sri Lanka",
+  "area": {
+    "rank": 120,
+    "total_km2": 67240.0,
+    "water_pct": 4.4
+  },
+  "codes": {
+    "calling_code": "+94",
+    "internet_tld": ".lk",
+    "iso_3166_code": "LK"
+  },
+  "economy": {
+    "currency_code": "LKR",
+    "gdp_nominal": {
+      "per_capita_usd": 4516,
+      "total_billion_usd": 98.9,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 15632,
+      "total_billion_usd": 342.6,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 39.8,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 89,
+      "value": 0.776,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Sri Jayawardenepura Kotte (legislative) Colombo (executive and judicial)",
+    "demonym": "Sri Lankan",
+    "ethnic_groups": {
+      "groups": {
+        "Indian Tamils": 2.8,
+        "Sinhalese": 74.1,
+        "Sri Lankan Moors": 10.5,
+        "Sri Lankan Tamils": 12.3,
+        "other": 0.3
+      },
+      "year": 2024
+    },
+    "largest_city": "Colombo",
+    "official_language": "Sinhala Tamil",
+    "recognized_languages": "English",
+    "religion": {
+      "groups": {
+        "Buddhism ( official )": 69.8,
+        "Christianity": 6.9,
+        "Hinduism": 12.6,
+        "Islam": 10.7,
+        "other/none": 0.1
+      },
+      "year": 2024
+    },
+    "sinhala_": [
+      "Śrī Laṅkā Prajātāntrika Samājavādī Janarajaya",
+      "Śrī Laṅkā Prajātāntrika Samājavādī Janarajaya"
+    ],
+    "tamil_": "Ilaṅkai Caṉanāyaka Cōcalicak Kuṭiyaracu"
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Padman Surasena",
+      "president": "Anura Kumara Dissanayake",
+      "prime_minister": "Harini Amarasuriya",
+      "speaker_of_the_parliament": "Jagath Wickramaratne"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary semi-presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Anuradhapura period": "377 BCE – 1017 CE",
+    "British Ceylon period": "1815–1948",
+    "Current constitution": "7 September 1978",
+    "Independence": "4 February 1948",
+    "Kandyan period": "1592–1815",
+    "Polonnaruwa period": "1017–1232",
+    "Republic": "22 May 1972",
+    "Sinhala Kingdom established": "543 BCE",
+    "Transitional period": "1232–1592"
+  },
+  "population": {
+    "density_per_km2": 337.7,
+    "total": 23300000,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+05:30"
+  }
+}

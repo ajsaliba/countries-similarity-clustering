@@ -1,0 +1,85 @@
+{
+  "country": "Eritrea",
+  "area": {
+    "rank": 100,
+    "total_km2": 120000.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+291",
+    "internet_tld": ".er",
+    "iso_3166_code": "ER"
+  },
+  "economy": {
+    "currency_code": "ERN",
+    "gdp_nominal": {
+      "per_capita_usd": 567,
+      "total_billion_usd": 1.982,
+      "year": 2019
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 1821,
+      "total_billion_usd": 6.369,
+      "year": 2019
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 178,
+      "value": 0.503,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Asmara",
+    "demonym": "Eritrean",
+    "ethnic_groups": {
+      "groups": {
+        "Afar": 4.0,
+        "Beja": 2.0,
+        "Bilen": 3.0,
+        "Kunama": 4.0,
+        "Nara": 2.0,
+        "Rashaida": 1.0,
+        "Saho": 4.0,
+        "Tigre": 30.0,
+        "Tigrinya": 50.0
+      },
+      "year": 2021
+    },
+    "largest_city": "Asmara",
+    "national_language": "List Tigrinya Tigre Kunama Saho Afar Bilen Nara Beja Arabic",
+    "official_language": "None",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Isaias Afwerki"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary one-party presidential republic under a totalitarian dictatorship",
+    "upper_house": null
+  },
+  "history": {
+    "De facto": "24 May 1991",
+    "De jure": "24 May 1993",
+    "Eritrean War of Independence": "1 September 1961"
+  },
+  "population": {
+    "density_per_km2": 29.0,
+    "total": 3,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

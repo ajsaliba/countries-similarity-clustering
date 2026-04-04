@@ -1,0 +1,93 @@
+{
+  "country": "Sudan",
+  "area": {
+    "rank": 15,
+    "total_km2": 1886068.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+249",
+    "internet_tld": ".sd",
+    "iso_3166_code": "SD"
+  },
+  "economy": {
+    "currency_code": "SDG",
+    "gdp_nominal": {
+      "per_capita_usd": 624,
+      "total_billion_usd": 31.51,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 2034,
+      "total_billion_usd": 117.77,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 34.2,
+      "year": 2014
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 176,
+      "value": 0.511,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Khartoum",
+    "demonym": "Sudanese",
+    "ethnic_groups": {
+      "groups": {
+        "Beja": 5.9,
+        "Egyptian": 2.0,
+        "Fur": 2.0,
+        "Nuba": 2.5,
+        "Nubian": 1.3,
+        "Sudanese Arab": 70.0,
+        "others": 16.3
+      },
+      "year": null
+    },
+    "largest_city": "Khartoum",
+    "official_language": "Arabic English",
+    "religion": {
+      "groups": {
+        "Christianity": 3.0,
+        "Sunni Islam": 97.0
+      },
+      "year": 2022
+    }
+  },
+  "government": {
+    "leaders": {
+      "president_of_the_transitional_sovereignty_council": "Abdel Fattah al-Burhan",
+      "prime_minister": "Kamil Idris",
+      "vice_president_of_the_transitional_sovereignty_council": "Malik Agar"
+    },
+    "legislature": "Transitional Legislative Authority",
+    "lower_house": null,
+    "type": "Federal republic under a military junta",
+    "upper_house": null
+  },
+  "history": {
+    "2019 Draft Constitutional Declaration effective": "20 August 2019",
+    "Anglo-Egyptian Condominium": 1899,
+    "Democratic Republic of Sudan": "25 May 1969",
+    "Independence": "1 January 1956",
+    "Kingdom of Kerma": "2500 BC",
+    "Kingdom of Kush": "780 BC",
+    "Republic of Sudan (1985–2019)": "6 April 1985",
+    "Secession of South Sudan": "9 July 2011",
+    "Turco-Egyptian Sudan": 1820
+  },
+  "population": {
+    "density_per_km2": 21.3,
+    "total": 51767437,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+02:00"
+  }
+}

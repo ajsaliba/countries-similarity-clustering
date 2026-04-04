@@ -1,0 +1,92 @@
+{
+  "country": "Botswana",
+  "area": {
+    "rank": 47,
+    "total_km2": 581730.0,
+    "water_pct": 2.7
+  },
+  "codes": {
+    "calling_code": "+267",
+    "internet_tld": ".bw",
+    "iso_3166_code": "BW"
+  },
+  "economy": {
+    "currency_code": "BWP",
+    "gdp_nominal": {
+      "per_capita_usd": 7380,
+      "total_billion_usd": 20.71,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 19540,
+      "total_billion_usd": 54.82,
+      "year": 2026
+    },
+    "gini": {
+      "category": "medium",
+      "value": 45.5,
+      "year": 2016
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 111,
+      "value": 0.731,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Gaborone",
+    "demonym": "Batswana (plural) Motswana (singular)",
+    "ethnic_groups": {
+      "groups": {
+        "Kalanga": 11.0,
+        "San": 3.0,
+        "Tswana": 79.0,
+        "others": 7.0
+      },
+      "year": 2024
+    },
+    "largest_city": "Gaborone",
+    "national_language": "Tswana",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Badimo": 4.1,
+        "Christianity": {
+          "breakdown": {
+            "Protestantism": 70.2,
+            "other Christian": 8.9
+          },
+          "percentage": 79.1
+        },
+        "no religion": 15.2,
+        "others": 1.4,
+        "unspecified": 0.3
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "national_assembly_speaker": "Dithapelo Keorapetse",
+      "president": "Duma Boko",
+      "vice_president": "Ndaba Gaolathe"
+    },
+    "legislature": "Parliament ( National Assembly )",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic with an executive presidency",
+    "upper_house": null
+  },
+  "history": {
+    "Established ( Constitution )": "30 September 1966"
+  },
+  "population": {
+    "density_per_km2": 4.1,
+    "total": 2359609,
+    "year": 2022
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+02:00"
+  }
+}

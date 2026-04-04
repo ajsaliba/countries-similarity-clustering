@@ -1,0 +1,99 @@
+{
+  "country": "Ireland",
+  "area": {
+    "rank": 118,
+    "total_km2": 70273.0,
+    "water_pct": 2.0
+  },
+  "codes": {
+    "calling_code": "+353",
+    "internet_tld": ".ie",
+    "iso_3166_code": "IE"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 108920,
+      "total_billion_usd": 598.84,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 134000,
+      "total_billion_usd": 736.73,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 27.9,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 11,
+      "value": 0.949,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Dublin",
+    "demonym": "Irish",
+    "ethnic_groups": {
+      "groups": {
+        "Asian": 3.3,
+        "Black": 1.5,
+        "White Irish": 76.6,
+        "not stated": 6.2,
+        "other": 1.7,
+        "other White": 10.8
+      },
+      "year": 2022
+    },
+    "largest_city": "Dublin",
+    "official_language": "Irish English",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Anglicanism": 2.5,
+            "Catholicism": 69.1,
+            "other Christian": 4.1
+          },
+          "percentage": 75.7
+        },
+        "no religion": 14.5,
+        "not stated": 6.7,
+        "other": 3.1
+      },
+      "year": 2022
+    },
+    "taoiseach": "Micheál Martin",
+    "tánaiste": "Simon Harris"
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Donal O'Donnell",
+      "president": "Catherine Connolly"
+    },
+    "legislature": "Oireachtas",
+    "lower_house": "Dáil",
+    "type": "Unitary parliamentary republic",
+    "upper_house": "Seanad"
+  },
+  "history": {
+    "1922 constitution": "6 December 1922",
+    "1937 constitution": "29 December 1937",
+    "Anglo-Irish Treaty": "6 December 1921",
+    "Declaration": "21 January 1919",
+    "Proclamation": "24 April 1916",
+    "Republic Act": "18 April 1949"
+  },
+  "population": {
+    "density_per_km2": 76.6,
+    "total": 5458600,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC+01:00",
+    "timezone_utc": "UTC+00:00"
+  }
+}

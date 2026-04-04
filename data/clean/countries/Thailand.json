@@ -1,0 +1,94 @@
+{
+  "country": "Thailand",
+  "area": {
+    "rank": 50,
+    "total_km2": 513120.0,
+    "water_pct": 0.4
+  },
+  "codes": {
+    "calling_code": "+66",
+    "internet_tld": ".th",
+    "iso_3166_code": "TH"
+  },
+  "economy": {
+    "currency_code": "THB",
+    "gdp_nominal": {
+      "per_capita_usd": 7942,
+      "total_billion_usd": 558.573,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 26358,
+      "total_billion_usd": 1853.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 33.5,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 76,
+      "value": 0.798,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Bangkok",
+    "demonym": "Thai",
+    "ethnic_groups": {
+      "groups": {
+        "Central Thai": 37.0,
+        "Isan": 25.0,
+        "Northern Khmer": 4.0,
+        "Northern Thai": 8.0,
+        "Southern Thai": 8.0,
+        "Thai": 80.0,
+        "Thai Chinese": 12.0,
+        "Thai Malays": 4.0,
+        "Western Thai": 2.0
+      },
+      "year": null
+    },
+    "largest_city": "Bangkok",
+    "monarch": "Vajiralongkorn (Rama X)",
+    "official_language": "Thai",
+    "other_languages": "Isan Northern Thai Southern Thai Karen Pattani Malay Bangkok Malay Teochew Hokkien",
+    "religion": {
+      "groups": {
+        "Buddhism": 93.46,
+        "Christianity": 1.13,
+        "Islam": 5.37,
+        "other": 0.03
+      },
+      "year": 2018
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Anutin Charnvirakul"
+    },
+    "legislature": "National Assembly",
+    "lower_house": "House of Representatives",
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Ayutthaya Kingdom": "1351–1767",
+    "Constitutional monarchy": "24 June 1932",
+    "Current constitution": "6 April 2017",
+    "Rattanakosin Kingdom": "6 April 1782",
+    "Sukhothai Kingdom": "1238–1438",
+    "Thonburi Kingdom": "1767–1782"
+  },
+  "population": {
+    "density_per_km2": 132.1,
+    "total": 65975198,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+07:00"
+  }
+}

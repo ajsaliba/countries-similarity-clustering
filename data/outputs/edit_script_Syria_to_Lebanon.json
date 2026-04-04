@@ -1,0 +1,2155 @@
+[
+  {
+    "op": "update_node",
+    "path": "root/country[1]/#text[1]/syria[1]",
+    "from": {
+      "label": "syria",
+      "kind": "token"
+    },
+    "to": {
+      "label": "lebanon",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000004"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/water_pct[3]/#text[1]/1[2]",
+    "from": {
+      "label": "1",
+      "kind": "token"
+    },
+    "to": {
+      "label": "8",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000016"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/total_km2[2]/#text[1]/185180[1]",
+    "from": {
+      "label": "185180",
+      "kind": "token"
+    },
+    "to": {
+      "label": "10452",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000011"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/rank[1]/#text[1]/87[1]",
+    "from": {
+      "label": "87",
+      "kind": "token"
+    },
+    "to": {
+      "label": "161",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000008"
+  },
+  {
+    "op": "update_value",
+    "path": "root/codes[3]/iso_3166_code[3]",
+    "from": {
+      "label": "iso_3166_code",
+      "kind": "atomic_text",
+      "raw_value": "SY",
+      "norm_value": "sy"
+    },
+    "to": {
+      "label": "iso_3166_code",
+      "kind": "atomic_text",
+      "raw_value": "LB",
+      "norm_value": "lb"
+    },
+    "cost": 1.0,
+    "source_uid": "n000020"
+  },
+  {
+    "op": "update_value",
+    "path": "root/codes[3]/internet_tld[2]",
+    "from": {
+      "label": "internet_tld",
+      "kind": "atomic_text",
+      "raw_value": ".sy",
+      "norm_value": ".sy"
+    },
+    "to": {
+      "label": "internet_tld",
+      "kind": "atomic_text",
+      "raw_value": ".lb",
+      "norm_value": ".lb"
+    },
+    "cost": 1.0,
+    "source_uid": "n000019"
+  },
+  {
+    "op": "update_value",
+    "path": "root/codes[3]/calling_code[1]",
+    "from": {
+      "label": "calling_code",
+      "kind": "atomic_text",
+      "raw_value": "+963",
+      "norm_value": "+963"
+    },
+    "to": {
+      "label": "calling_code",
+      "kind": "atomic_text",
+      "raw_value": "+961",
+      "norm_value": "+961"
+    },
+    "cost": 1.0,
+    "source_uid": "n000018"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/hdi[5]/category[1]/#text[1]/null[1]",
+    "from": {
+      "label": "null",
+      "kind": "token"
+    },
+    "to": {
+      "label": "high",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000059"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/hdi[5]/rank[2]/#text[1]/null[1]",
+    "from": {
+      "label": "null",
+      "kind": "token"
+    },
+    "to": {
+      "label": "102",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000062"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/economy[4]/hdi[5]/value[3]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "0",
+      "kind": "token"
+    },
+    "parent_uid": "n000064"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/hdi[5]/value[3]/#text[1]/null[1]",
+    "from": {
+      "label": "null",
+      "kind": "token"
+    },
+    "to": {
+      "label": "752",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000065"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/hdi[5]/year[4]/#text[1]/null[1]",
+    "from": {
+      "label": "null",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2023",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000068"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gini[4]/category[1]/#text[1]/low[1]",
+    "from": {
+      "label": "low",
+      "kind": "token"
+    },
+    "to": {
+      "label": "medium",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000048"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gini[4]/value[2]/#text[1]/26[1]",
+    "from": {
+      "label": "26",
+      "kind": "token"
+    },
+    "to": {
+      "label": "31",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000051"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gini[4]/value[2]/#text[1]/6[2]",
+    "from": {
+      "label": "6",
+      "kind": "token"
+    },
+    "to": {
+      "label": "8",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000052"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gini[4]/year[3]/#text[1]/2022[1]",
+    "from": {
+      "label": "2022",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2011",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000055"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/per_capita_usd[1]/#text[1]/3300[1]",
+    "from": {
+      "label": "3300",
+      "kind": "token"
+    },
+    "to": {
+      "label": "11793",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000037"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/total_billion_usd[2]/#text[1]/50[1]",
+    "from": {
+      "label": "50",
+      "kind": "token"
+    },
+    "to": {
+      "label": "78",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000040"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/total_billion_usd[2]/#text[1]/28[2]",
+    "from": {
+      "label": "28",
+      "kind": "token"
+    },
+    "to": {
+      "label": "233",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000041"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/year[3]/#text[1]/2021[1]",
+    "from": {
+      "label": "2021",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2022",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000044"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/per_capita_usd[1]/#text[1]/800[1]",
+    "from": {
+      "label": "800",
+      "kind": "token"
+    },
+    "to": {
+      "label": "3283",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000026"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/total_billion_usd[2]/#text[1]/9[1]",
+    "from": {
+      "label": "9",
+      "kind": "token"
+    },
+    "to": {
+      "label": "21",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000029"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/total_billion_usd[2]/#text[1]/8[2]",
+    "from": {
+      "label": "8",
+      "kind": "token"
+    },
+    "to": {
+      "label": "78",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000030"
+  },
+  {
+    "op": "update_value",
+    "path": "root/economy[4]/currency_code[1]",
+    "from": {
+      "label": "currency_code",
+      "kind": "atomic_text",
+      "raw_value": "Syrian pound ( SYP/LS )",
+      "norm_value": "syrian pound ( syp/ls )"
+    },
+    "to": {
+      "label": "currency_code",
+      "kind": "atomic_text",
+      "raw_value": "LBP",
+      "norm_value": "lbp"
+    },
+    "cost": 1.0,
+    "source_uid": "n000022"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/spoken_languages[8]",
+    "from": {
+      "label": "spoken_languages",
+      "kind": "token_text_container",
+      "raw_value": "Predominantly Arabic List Kurdish Turkish Neo-Aramaic Syriac Circassian Chechen Armenian Greek Domari",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "predominantly",
+              "kind": "token"
+            },
+            {
+              "label": "arabic",
+              "kind": "token"
+            },
+            {
+              "label": "list",
+              "kind": "token"
+            },
+            {
+              "label": "kurdish",
+              "kind": "token"
+            },
+            {
+              "label": "turkish",
+              "kind": "token"
+            },
+            {
+              "label": "neo",
+              "kind": "token"
+            },
+            {
+              "label": "aramaic",
+              "kind": "token"
+            },
+            {
+              "label": "syriac",
+              "kind": "token"
+            },
+            {
+              "label": "circassian",
+              "kind": "token"
+            },
+            {
+              "label": "chechen",
+              "kind": "token"
+            },
+            {
+              "label": "armenian",
+              "kind": "token"
+            },
+            {
+              "label": "greek",
+              "kind": "token"
+            },
+            {
+              "label": "domari",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "vernacular_language",
+      "kind": "token_text_container",
+      "raw_value": "Lebanese Arabic",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "lebanese",
+              "kind": "token"
+            },
+            {
+              "label": "arabic",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000111"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/spoken_languages[8]/#text[1]/domari[13]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "domari",
+      "kind": "token"
+    },
+    "source_uid": "n000125"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/spoken_languages[8]/#text[1]/greek[12]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "greek",
+      "kind": "token"
+    },
+    "source_uid": "n000124"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/spoken_languages[8]/#text[1]/armenian[11]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "armenian",
+      "kind": "token"
+    },
+    "source_uid": "n000123"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/spoken_languages[8]/#text[1]/chechen[10]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "chechen",
+      "kind": "token"
+    },
+    "source_uid": "n000122"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/spoken_languages[8]/#text[1]/circassian[9]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "circassian",
+      "kind": "token"
+    },
+    "source_uid": "n000121"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/spoken_languages[8]/#text[1]/syriac[8]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "syriac",
+      "kind": "token"
+    },
+    "source_uid": "n000120"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/spoken_languages[8]/#text[1]/aramaic[7]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "aramaic",
+      "kind": "token"
+    },
+    "source_uid": "n000119"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/spoken_languages[8]/#text[1]/neo[6]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "neo",
+      "kind": "token"
+    },
+    "source_uid": "n000118"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/spoken_languages[8]/#text[1]/turkish[5]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "turkish",
+      "kind": "token"
+    },
+    "source_uid": "n000117"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/spoken_languages[8]/#text[1]/kurdish[4]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "kurdish",
+      "kind": "token"
+    },
+    "source_uid": "n000116"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/spoken_languages[8]/#text[1]/list[3]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "list",
+      "kind": "token"
+    },
+    "source_uid": "n000115"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/spoken_languages[8]/#text[1]/predominantly[1]",
+    "from": {
+      "label": "predominantly",
+      "kind": "token"
+    },
+    "to": {
+      "label": "lebanese",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000113"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/religion[7]/groups[1]/other[6]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "other",
+      "kind": "numeric",
+      "raw_value": "1.99",
+      "norm_value": "0.019900000000",
+      "norm_number": 0.0199,
+      "numeric_field": "percentage"
+    },
+    "source_uid": "n000109"
+  },
+  {
+    "op": "update_value",
+    "path": "root/general[5]/religion[7]/groups[1]/Sunni[5]",
+    "from": {
+      "label": "Sunni",
+      "kind": "numeric",
+      "raw_value": "79.19",
+      "norm_value": "0.791900000000",
+      "norm_number": 0.7918999999999999,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Sunni",
+      "kind": "numeric",
+      "raw_value": "26.55",
+      "norm_value": "0.265500000000",
+      "norm_number": 0.2655,
+      "numeric_field": "percentage"
+    },
+    "cost": 0.5264,
+    "source_uid": "n000108"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/religion[7]/groups[1]/Shia 10-[4]",
+    "from": {
+      "label": "Shia 10-",
+      "kind": "numeric",
+      "raw_value": "14.1",
+      "norm_value": "0.141000000000",
+      "norm_number": 0.141,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Shia",
+      "kind": "numeric",
+      "raw_value": "26.84",
+      "norm_value": "0.268400000000",
+      "norm_number": 0.26839999999999997,
+      "numeric_field": "percentage"
+    },
+    "cost": 1.1274,
+    "source_uid": "n000107"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[7]/groups[1]",
+    "index": 5,
+    "cost": 1.0,
+    "subtree": {
+      "label": "No religion",
+      "kind": "numeric",
+      "raw_value": "0.08",
+      "norm_value": "0.000800000000",
+      "norm_number": 0.0008,
+      "numeric_field": "percentage"
+    },
+    "parent_uid": "n000103"
+  },
+  {
+    "op": "update_value",
+    "path": "root/general[5]/religion[7]/groups[1]/Islam[3]",
+    "from": {
+      "label": "Islam",
+      "kind": "numeric",
+      "raw_value": "94.17",
+      "norm_value": "0.941700000000",
+      "norm_number": 0.9417,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Islam",
+      "kind": "numeric",
+      "raw_value": "53.31",
+      "norm_value": "0.533100000000",
+      "norm_number": 0.5331,
+      "numeric_field": "percentage"
+    },
+    "cost": 0.40859999999999996,
+    "source_uid": "n000106"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[7]/groups[1]",
+    "index": 3,
+    "cost": 1.0,
+    "subtree": {
+      "label": "Druze",
+      "kind": "numeric",
+      "raw_value": "5.21",
+      "norm_value": "0.052100000000",
+      "norm_number": 0.0521,
+      "numeric_field": "percentage"
+    },
+    "parent_uid": "n000103"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[7]/groups[1]/Christianity[2]",
+    "index": 1,
+    "cost": 6.0,
+    "subtree": {
+      "label": "breakdown",
+      "kind": "internal",
+      "children": [
+        {
+          "label": "Armenian Apostolic",
+          "kind": "numeric",
+          "raw_value": "2.92",
+          "norm_value": "0.029200000000",
+          "norm_number": 0.0292,
+          "numeric_field": "percentage"
+        },
+        {
+          "label": "Catholic",
+          "kind": "numeric",
+          "raw_value": "28.11",
+          "norm_value": "0.281100000000",
+          "norm_number": 0.2811,
+          "numeric_field": "percentage"
+        },
+        {
+          "label": "Orthodox",
+          "kind": "numeric",
+          "raw_value": "8.3",
+          "norm_value": "0.083000000000",
+          "norm_number": 0.083,
+          "numeric_field": "percentage"
+        },
+        {
+          "label": "Other Christians",
+          "kind": "numeric",
+          "raw_value": "1.64",
+          "norm_value": "0.016400000000",
+          "norm_number": 0.016399999999999998,
+          "numeric_field": "percentage"
+        },
+        {
+          "label": "Protestant",
+          "kind": "numeric",
+          "raw_value": "0.53",
+          "norm_value": "0.005300000000",
+          "norm_number": 0.0053,
+          "numeric_field": "percentage"
+        }
+      ]
+    },
+    "parent_uid": "n000105"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[7]/groups[1]/Christianity[2]",
+    "index": 2,
+    "cost": 1.0,
+    "subtree": {
+      "label": "percentage",
+      "kind": "numeric",
+      "raw_value": "41.4",
+      "norm_value": "0.414000000000",
+      "norm_number": 0.414,
+      "numeric_field": "percentage"
+    },
+    "parent_uid": "n000105"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/religion[7]/groups[1]/Alawites[1]",
+    "from": {
+      "label": "Alawites",
+      "kind": "numeric",
+      "raw_value": "13.0",
+      "norm_value": "0.130000000000",
+      "norm_number": 0.13,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Alawite",
+      "kind": "numeric",
+      "raw_value": "0.64",
+      "norm_value": "0.006400000000",
+      "norm_number": 0.0064,
+      "numeric_field": "percentage"
+    },
+    "cost": 1.1236,
+    "source_uid": "n000104"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/official_language[6]",
+    "from": {
+      "label": "official_language",
+      "kind": "token_text_container",
+      "raw_value": "Arabic",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "arabic",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "recognised_minority_language",
+      "kind": "token_text_container",
+      "raw_value": "French",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "french",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000099"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/official_language[6]/#text[1]/arabic[1]",
+    "from": {
+      "label": "arabic",
+      "kind": "token"
+    },
+    "to": {
+      "label": "french",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000101"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/national_language[5]",
+    "from": {
+      "label": "national_language",
+      "kind": "token_text_container",
+      "raw_value": "Kurdish",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "kurdish",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "official_language",
+      "kind": "token_text_container",
+      "raw_value": "Arabic",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "arabic",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000096"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/national_language[5]/#text[1]/kurdish[1]",
+    "from": {
+      "label": "kurdish",
+      "kind": "token"
+    },
+    "to": {
+      "label": "arabic",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000098"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/largest_city[4]/#text[1]/damascus[1]",
+    "from": {
+      "label": "damascus",
+      "kind": "token"
+    },
+    "to": {
+      "label": "beirut",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000095"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/others[3]/#text[1]/10[1]",
+    "from": {
+      "label": "10",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000088"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/Kurds 1-[2]",
+    "from": {
+      "label": "Kurds 1-",
+      "kind": "token_text_container",
+      "raw_value": "10.0",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "10",
+              "kind": "token"
+            },
+            {
+              "label": "0",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Armenian",
+      "kind": "token_text_container",
+      "raw_value": "4.0",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "4",
+              "kind": "token"
+            },
+            {
+              "label": "0",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000082"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/Kurds 1-[2]/#text[1]/10[1]",
+    "from": {
+      "label": "10",
+      "kind": "token"
+    },
+    "to": {
+      "label": "4",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000084"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/Arabs 9-[1]",
+    "from": {
+      "label": "Arabs 9-",
+      "kind": "token_text_container",
+      "raw_value": "90.0",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "90",
+              "kind": "token"
+            },
+            {
+              "label": "0",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Arab",
+      "kind": "token_text_container",
+      "raw_value": "95.0",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "95",
+              "kind": "token"
+            },
+            {
+              "label": "0",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000078"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/Arabs 9-[1]/#text[1]/90[1]",
+    "from": {
+      "label": "90",
+      "kind": "token"
+    },
+    "to": {
+      "label": "95",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000080"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/Demonyms[2]/#text[1]/syrian[1]",
+    "from": {
+      "label": "syrian",
+      "kind": "token"
+    },
+    "to": {
+      "label": "lebanese",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000075"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/capital[1]/#text[1]/damascus[1]",
+    "from": {
+      "label": "damascus",
+      "kind": "token"
+    },
+    "to": {
+      "label": "beirut",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000072"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/type[4]/#text[1]/government[7]",
+    "from": {
+      "label": "government",
+      "kind": "token"
+    },
+    "to": {
+      "label": "confessionalism",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000149"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/type[4]/#text[1]/provisional[6]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "provisional",
+      "kind": "token"
+    },
+    "source_uid": "n000148"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/type[4]/#text[1]/a[5]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "a",
+      "kind": "token"
+    },
+    "source_uid": "n000147"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/type[4]/#text[1]/presidential[2]",
+    "from": {
+      "label": "presidential",
+      "kind": "token"
+    },
+    "to": {
+      "label": "parliamentary",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000144"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/legislature[2]/#text[1]/assembly[3]",
+    "from": {
+      "label": "assembly",
+      "kind": "token"
+    },
+    "to": {
+      "label": "parliament",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000137"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/legislature[2]/#text[1]/s[2]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "s",
+      "kind": "token"
+    },
+    "source_uid": "n000136"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/legislature[2]/#text[1]/people[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "people",
+      "kind": "token"
+    },
+    "source_uid": "n000135"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/leaders[1]/president[1]/#text[1]/ahmed[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "ahmed",
+      "kind": "token"
+    },
+    "source_uid": "n000130"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/president[1]/#text[1]/al[2]",
+    "from": {
+      "label": "al",
+      "kind": "token"
+    },
+    "to": {
+      "label": "joseph",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000131"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/president[1]/#text[1]/sharaa[3]",
+    "from": {
+      "label": "sharaa",
+      "kind": "token"
+    },
+    "to": {
+      "label": "aoun",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000132"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/government[6]/leaders[1]",
+    "index": 2,
+    "cost": 4.0,
+    "subtree": {
+      "label": "prime_minister",
+      "kind": "token_text_container",
+      "raw_value": "Nawaf Salam",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "nawaf",
+              "kind": "token"
+            },
+            {
+              "label": "salam",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000127"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/government[6]/leaders[1]",
+    "index": 3,
+    "cost": 4.0,
+    "subtree": {
+      "label": "speaker_of_the_parliament",
+      "kind": "token_text_container",
+      "raw_value": "Nabih Berri",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "nabih",
+              "kind": "token"
+            },
+            {
+              "label": "berri",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000127"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/State of Syria under French mandate[7]",
+    "from": {
+      "label": "State of Syria under French mandate",
+      "kind": "token_text_container",
+      "raw_value": "1 December 1924",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1",
+              "kind": "token"
+            },
+            {
+              "label": "december",
+              "kind": "token"
+            },
+            {
+              "label": "1924",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Withdrawal of French forces",
+      "kind": "token_text_container",
+      "raw_value": "17 April 1946",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "17",
+              "kind": "token"
+            },
+            {
+              "label": "april",
+              "kind": "token"
+            },
+            {
+              "label": "1946",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000190"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/State of Syria under French mandate[7]/#text[1]/1924[3]",
+    "from": {
+      "label": "1924",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1946",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000194"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/State of Syria under French mandate[7]/#text[1]/december[2]",
+    "from": {
+      "label": "december",
+      "kind": "token"
+    },
+    "to": {
+      "label": "april",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000193"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/State of Syria under French mandate[7]/#text[1]/1[1]",
+    "from": {
+      "label": "1",
+      "kind": "token"
+    },
+    "to": {
+      "label": "17",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000192"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Part of the United Arab Republic[6]",
+    "from": {
+      "label": "Part of the United Arab Republic",
+      "kind": "token_text_container",
+      "raw_value": "22 February 1958 - 28 September 1961",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "22",
+              "kind": "token"
+            },
+            {
+              "label": "february",
+              "kind": "token"
+            },
+            {
+              "label": "1958",
+              "kind": "token"
+            },
+            {
+              "label": "28",
+              "kind": "token"
+            },
+            {
+              "label": "september",
+              "kind": "token"
+            },
+            {
+              "label": "1961",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Syrian troops withdrawn",
+      "kind": "token_text_container",
+      "raw_value": "30 April 2005",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "30",
+              "kind": "token"
+            },
+            {
+              "label": "april",
+              "kind": "token"
+            },
+            {
+              "label": "2005",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000182"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Part of the United Arab Republic[6]/#text[1]/1961[6]",
+    "from": {
+      "label": "1961",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2005",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000189"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Part of the United Arab Republic[6]/#text[1]/september[5]",
+    "from": {
+      "label": "september",
+      "kind": "token"
+    },
+    "to": {
+      "label": "april",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000188"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Part of the United Arab Republic[6]/#text[1]/28[4]",
+    "from": {
+      "label": "28",
+      "kind": "token"
+    },
+    "to": {
+      "label": "30",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000187"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Part of the United Arab Republic[6]/#text[1]/1958[3]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "1958",
+      "kind": "token"
+    },
+    "source_uid": "n000186"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Part of the United Arab Republic[6]/#text[1]/february[2]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "february",
+      "kind": "token"
+    },
+    "source_uid": "n000185"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Part of the United Arab Republic[6]/#text[1]/22[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "22",
+      "kind": "token"
+    },
+    "source_uid": "n000184"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 8,
+    "cost": 5.0,
+    "subtree": {
+      "label": "Mount Lebanon Mutasarrifate",
+      "kind": "token_text_container",
+      "raw_value": "9 June 1861",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "9",
+              "kind": "token"
+            },
+            {
+              "label": "june",
+              "kind": "token"
+            },
+            {
+              "label": "1861",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000153"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/First Syrian Republic[5]",
+    "from": {
+      "label": "First Syrian Republic",
+      "kind": "token_text_container",
+      "raw_value": "14 May 1930",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "14",
+              "kind": "token"
+            },
+            {
+              "label": "may",
+              "kind": "token"
+            },
+            {
+              "label": "1930",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Israeli troops withdrawn",
+      "kind": "token_text_container",
+      "raw_value": "24 May 2000",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "24",
+              "kind": "token"
+            },
+            {
+              "label": "may",
+              "kind": "token"
+            },
+            {
+              "label": "2000",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000177"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/First Syrian Republic[5]/#text[1]/1930[3]",
+    "from": {
+      "label": "1930",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2000",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000181"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/First Syrian Republic[5]/#text[1]/14[1]",
+    "from": {
+      "label": "14",
+      "kind": "token"
+    },
+    "to": {
+      "label": "24",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000179"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/End of the French mandate[4]",
+    "from": {
+      "label": "End of the French mandate",
+      "kind": "token_text_container",
+      "raw_value": "17 April 1946",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "17",
+              "kind": "token"
+            },
+            {
+              "label": "april",
+              "kind": "token"
+            },
+            {
+              "label": "1946",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Independence declared",
+      "kind": "token_text_container",
+      "raw_value": "22 November 1943",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "22",
+              "kind": "token"
+            },
+            {
+              "label": "november",
+              "kind": "token"
+            },
+            {
+              "label": "1943",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000172"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/End of the French mandate[4]/#text[1]/1946[3]",
+    "from": {
+      "label": "1946",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1943",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000176"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/End of the French mandate[4]/#text[1]/april[2]",
+    "from": {
+      "label": "april",
+      "kind": "token"
+    },
+    "to": {
+      "label": "november",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000175"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/End of the French mandate[4]/#text[1]/17[1]",
+    "from": {
+      "label": "17",
+      "kind": "token"
+    },
+    "to": {
+      "label": "22",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000174"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Current provisional government established[3]",
+    "from": {
+      "label": "Current provisional government established",
+      "kind": "token_text_container",
+      "raw_value": "29 March 2025",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "29",
+              "kind": "token"
+            },
+            {
+              "label": "march",
+              "kind": "token"
+            },
+            {
+              "label": "2025",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Greater Lebanon",
+      "kind": "token_text_container",
+      "raw_value": "1 September 1920",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1",
+              "kind": "token"
+            },
+            {
+              "label": "september",
+              "kind": "token"
+            },
+            {
+              "label": "1920",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000167"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Current provisional government established[3]/#text[1]/2025[3]",
+    "from": {
+      "label": "2025",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1920",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000171"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Current provisional government established[3]/#text[1]/march[2]",
+    "from": {
+      "label": "march",
+      "kind": "token"
+    },
+    "to": {
+      "label": "september",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000170"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Current provisional government established[3]/#text[1]/29[1]",
+    "from": {
+      "label": "29",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000169"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 4,
+    "cost": 5.0,
+    "subtree": {
+      "label": "French mandate ended",
+      "kind": "token_text_container",
+      "raw_value": "24 October 1945",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "24",
+              "kind": "token"
+            },
+            {
+              "label": "october",
+              "kind": "token"
+            },
+            {
+              "label": "1945",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000153"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 3,
+    "cost": 3.0,
+    "subtree": {
+      "label": "Emirate of Mount Lebanon",
+      "kind": "token_text_container",
+      "raw_value": "1516",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1516",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000153"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Ba'athist Syria[2]",
+    "from": {
+      "label": "Ba'athist Syria",
+      "kind": "token_text_container",
+      "raw_value": "8 March 1963 - 8 December 2024",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "8",
+              "kind": "token"
+            },
+            {
+              "label": "march",
+              "kind": "token"
+            },
+            {
+              "label": "1963",
+              "kind": "token"
+            },
+            {
+              "label": "8",
+              "kind": "token"
+            },
+            {
+              "label": "december",
+              "kind": "token"
+            },
+            {
+              "label": "2024",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Double Qaim-Maqamate of Mount Lebanon",
+      "kind": "token_text_container",
+      "raw_value": "1 December 1843",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1",
+              "kind": "token"
+            },
+            {
+              "label": "december",
+              "kind": "token"
+            },
+            {
+              "label": "1843",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000159"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Ba'athist Syria[2]/#text[1]/2024[6]",
+    "from": {
+      "label": "2024",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1843",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000166"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Ba'athist Syria[2]/#text[1]/8[4]",
+    "from": {
+      "label": "8",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000164"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Ba'athist Syria[2]/#text[1]/1963[3]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "1963",
+      "kind": "token"
+    },
+    "source_uid": "n000163"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Ba'athist Syria[2]/#text[1]/march[2]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "march",
+      "kind": "token"
+    },
+    "source_uid": "n000162"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Ba'athist Syria[2]/#text[1]/8[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "8",
+      "kind": "token"
+    },
+    "source_uid": "n000161"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Arab Kingdom of Syria[1]",
+    "from": {
+      "label": "Arab Kingdom of Syria",
+      "kind": "token_text_container",
+      "raw_value": "8 March 1920",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "8",
+              "kind": "token"
+            },
+            {
+              "label": "march",
+              "kind": "token"
+            },
+            {
+              "label": "1920",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Constitution",
+      "kind": "token_text_container",
+      "raw_value": "23 May 1926",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "23",
+              "kind": "token"
+            },
+            {
+              "label": "may",
+              "kind": "token"
+            },
+            {
+              "label": "1926",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000154"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Arab Kingdom of Syria[1]/#text[1]/1920[3]",
+    "from": {
+      "label": "1920",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1926",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000158"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Arab Kingdom of Syria[1]/#text[1]/march[2]",
+    "from": {
+      "label": "march",
+      "kind": "token"
+    },
+    "to": {
+      "label": "may",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000157"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Arab Kingdom of Syria[1]/#text[1]/8[1]",
+    "from": {
+      "label": "8",
+      "kind": "token"
+    },
+    "to": {
+      "label": "23",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000156"
+  },
+  {
+    "op": "update_node",
+    "path": "root/population[8]/year[3]/#text[1]/2025[1]",
+    "from": {
+      "label": "2025",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2024",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000200"
+  },
+  {
+    "op": "update_value",
+    "path": "root/population[8]/total[2]",
+    "from": {
+      "label": "total",
+      "kind": "numeric",
+      "raw_value": "26019711",
+      "norm_value": "0.796604087914",
+      "norm_number": 0.7966040879138603,
+      "numeric_field": "population"
+    },
+    "to": {
+      "label": "total",
+      "kind": "numeric",
+      "raw_value": "5364482",
+      "norm_value": "0.716423342885",
+      "norm_number": 0.7164233428851414,
+      "numeric_field": "population"
+    },
+    "cost": 0.08018074502871886,
+    "source_uid": "n000197"
+  },
+  {
+    "op": "update_value",
+    "path": "root/population[8]/density_per_km2[1]",
+    "from": {
+      "label": "density_per_km2",
+      "kind": "numeric",
+      "raw_value": "118.3",
+      "norm_value": "0.417027072063",
+      "norm_number": 0.4170270720625348,
+      "numeric_field": "density"
+    },
+    "to": {
+      "label": "density_per_km2",
+      "kind": "numeric",
+      "raw_value": "513.0",
+      "norm_value": "0.585937422212",
+      "norm_number": 0.5859374222118686,
+      "numeric_field": "density"
+    },
+    "cost": 0.1689103501493338,
+    "source_uid": "n000196"
+  },
+  {
+    "op": "update_value",
+    "path": "root/time[9]/timezone_utc[2]",
+    "from": {
+      "label": "timezone_utc",
+      "kind": "atomic_text",
+      "raw_value": "UTC+03:00",
+      "norm_value": "utc+03:00"
+    },
+    "to": {
+      "label": "timezone_utc",
+      "kind": "atomic_text",
+      "raw_value": "UTC+02:00",
+      "norm_value": "utc+02:00"
+    },
+    "cost": 1.0,
+    "source_uid": "n000203"
+  },
+  {
+    "op": "update_value",
+    "path": "root/time[9]/timezone_dst[1]",
+    "from": {
+      "label": "timezone_dst",
+      "kind": "atomic_text",
+      "raw_value": "null",
+      "norm_value": "null"
+    },
+    "to": {
+      "label": "timezone_dst",
+      "kind": "atomic_text",
+      "raw_value": "UTC+03:00",
+      "norm_value": "utc+03:00"
+    },
+    "cost": 1.0,
+    "source_uid": "n000202"
+  }
+]

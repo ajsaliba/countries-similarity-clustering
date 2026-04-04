@@ -1,0 +1,85 @@
+{
+  "country": "Tajikistan",
+  "area": {
+    "rank": 94,
+    "total_km2": 143100.0,
+    "water_pct": 1.8
+  },
+  "codes": {
+    "calling_code": "+992",
+    "internet_tld": ".tj",
+    "iso_3166_code": "TJ"
+  },
+  "economy": {
+    "currency_code": "TJS",
+    "gdp_nominal": {
+      "per_capita_usd": 1799,
+      "total_billion_usd": 18.94,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 6434,
+      "total_billion_usd": 67.75,
+      "year": 2026
+    },
+    "gini": {
+      "category": "medium",
+      "value": 34.0,
+      "year": 2015
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 128,
+      "value": 0.691,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Dushanbe",
+    "demonym": "Tajikistani Tajik",
+    "ethnic_groups": {
+      "groups": {
+        "Kyrgyz": 0.4,
+        "Russians": 0.3,
+        "Tajiks": 86.1,
+        "Uzbeks": 11.3,
+        "other": 1.9
+      },
+      "year": 2020
+    },
+    "largest_city": "Dushanbe",
+    "official_language": "Tajik Russian",
+    "recognized_languages": "26 December 1991",
+    "religion": {
+      "groups": {
+        "Christianity": 0.7,
+        "Islam": 97.5,
+        "irreligion": 1.7,
+        "others": 0.2
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Emomali Rahmon",
+      "prime_minister": "Kokhir Rasulzoda"
+    },
+    "legislature": "Supreme Assembly",
+    "lower_house": "Assembly of Representatives",
+    "type": "Unitary presidential republic under an authoritarian dictatorship",
+    "upper_house": "National Assembly"
+  },
+  "history": {
+    "Declared": "9 September 1991"
+  },
+  "population": {
+    "density_per_km2": 75.4,
+    "total": 10786734,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+05:00"
+  }
+}

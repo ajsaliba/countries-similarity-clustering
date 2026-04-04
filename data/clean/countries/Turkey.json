@@ -1,0 +1,82 @@
+{
+  "country": "Turkey",
+  "area": {
+    "rank": 36,
+    "total_km2": 783562.0,
+    "water_pct": 2.03
+  },
+  "codes": {
+    "calling_code": "+90",
+    "internet_tld": ".tr",
+    "iso_3166_code": "TR"
+  },
+  "economy": {
+    "currency_code": "TRY",
+    "gdp_nominal": {
+      "per_capita_usd": 18200,
+      "total_billion_usd": 1570.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 43790,
+      "total_billion_usd": 3770.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 44.5,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 51,
+      "value": 0.853,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Ankara",
+    "demonym": "Turkish Turk",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Istanbul",
+    "official_language": "Turkish",
+    "religion": {
+      "groups": null,
+      "year": null
+    },
+    "spoken_languages": "Predominantly Turkish List Kurdish Zaza Arabic Circassian Laz Greek Armenian Albanian Bosnian Bulgarian Other languages"
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Kadir Özkaya",
+      "president": "Recep Tayyip Erdoğan",
+      "speaker": "Numan Kurtulmuş",
+      "vice_president": "Cevdet Yılmaz"
+    },
+    "legislature": "Grand National Assembly",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Current constitution": "9 November 1982",
+    "Government of the Grand National Assembly": "23 April 1920",
+    "Ottoman Empire": "c. 1299",
+    "Republic declared": "29 October 1923",
+    "Sultanate abolished": "1 November 1922",
+    "Treaty of Lausanne": "24 July 1923",
+    "War of Independence": "19 May 1919"
+  },
+  "population": {
+    "density_per_km2": 112.0,
+    "total": 86092168,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

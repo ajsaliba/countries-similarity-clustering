@@ -1,0 +1,73 @@
+{
+  "country": "Japan",
+  "area": {
+    "rank": 62,
+    "total_km2": 377975.0,
+    "water_pct": 1.4
+  },
+  "codes": {
+    "calling_code": "+81",
+    "internet_tld": ".jp",
+    "iso_3166_code": "JP"
+  },
+  "economy": {
+    "currency_code": "Japanese yen ( ¥ )",
+    "gdp_nominal": {
+      "per_capita_usd": 34713,
+      "total_billion_usd": 4230.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 54815,
+      "total_billion_usd": 6758.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 32.3,
+      "year": 2020
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 23,
+      "value": 0.925,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Tokyo",
+    "demonym": "Japanese",
+    "emperor": "Naruhito",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Tokyo",
+    "national_language": "Japanese",
+    "official_language": "Japanese",
+    "regional_languages": "Ainu (recognized) Ryukyuan languages Hachijō",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Sanae Takaichi"
+    },
+    "legislature": "National Diet",
+    "lower_house": "House of Representatives",
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": "House of Councillors"
+  },
+  "history": {},
+  "population": {
+    "density_per_km2": 330.0,
+    "total": 122950000,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+09:00"
+  }
+}

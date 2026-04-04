@@ -1,0 +1,93 @@
+{
+  "country": "Luxembourg",
+  "area": {
+    "rank": 168,
+    "total_km2": 2586.4,
+    "water_pct": 0.23
+  },
+  "codes": {
+    "calling_code": "+352",
+    "internet_tld": ".lu",
+    "iso_3166_code": "LU"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 141079,
+      "total_billion_usd": 96.993,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 154914,
+      "total_billion_usd": 106.505,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 30.6,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 25,
+      "value": 0.922,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Luxembourg",
+    "demonym": "Luxembourger Luxembourgish",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "grand_duke": "Guillaume V",
+    "largest_city": "Luxembourg",
+    "nationality_2025": {
+      "French e": "7.2%",
+      "Italians e": "3.7%",
+      "Luxembourgers": "53%",
+      "Portuguese e": "13.2%",
+      "other e": "23%"
+    },
+    "official_language": "National language: Luxembourgish Administrative languages: Luxembourgish German French",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 46.0,
+            "other Christian": 7.0
+          },
+          "percentage": 53.0
+        },
+        "no religion": 38.0,
+        "other": 9.0
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Luc Frieden"
+    },
+    "legislature": "Chamber of Deputies",
+    "lower_house": null,
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "End of personal union with the Kingdom of the Netherlands": "23 November 1890",
+    "From the French Empire and elevation to Grand Duchy of Luxembourg": "9 June 1815",
+    "Independence in personal Union with the Netherlands ( Treaty of London )": "19 April 1839",
+    "Liberation from the Greater German Reich": "1944/1945"
+  },
+  "population": {
+    "density_per_km2": 264.0,
+    "total": 690947,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": null
+  }
+}

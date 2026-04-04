@@ -1,0 +1,91 @@
+{
+  "country": "Tanzania",
+  "area": {
+    "rank": 30,
+    "total_km2": 947303.0,
+    "water_pct": 6.4
+  },
+  "codes": {
+    "calling_code": "+255",
+    "internet_tld": ".tz",
+    "iso_3166_code": "TZ"
+  },
+  "economy": {
+    "currency_code": "TZS",
+    "gdp_nominal": {
+      "per_capita_usd": 1280,
+      "total_billion_usd": 88.98,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 4370,
+      "total_billion_usd": 293.59,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 40.5,
+      "year": 2017
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 165,
+      "value": 0.555,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Dodoma",
+    "demonym": "Tanzanian",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Dar es Salaam",
+    "national_language": "Swahili",
+    "official_language": "Swahili English",
+    "other_languages": "Over 100 languages , including (1m+): Shambala Sukuma Nyamwezi Chagga Ha Bena Gogo Haya Dholuo Iraqw Makonde Nyaturu Maasai Jita Pare",
+    "religion": {
+      "groups": {
+        "Christianity": 63.1,
+        "Islam": 34.1,
+        "no religion": {
+          "breakdown": {
+            "others": 0.1,
+            "traditional faiths": 1.2
+          },
+          "percentage": 1.5
+        }
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "George Mcheche Masaju",
+      "president": "Samia Suluhu Hassan",
+      "prime_minister": "Mwigulu Nchemba",
+      "speaker": "Mussa Zungu",
+      "vice_president": "Emmanuel Nchimbi"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary dominant-party presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Current constitution": "25 April 1977",
+    "Tanganyika": "9 December 1961",
+    "Unification of Tanganyika and Zanzibar": "26 April 1964",
+    "Zanzibar": "10 December 1963"
+  },
+  "population": {
+    "density_per_km2": 65.2,
+    "total": 67462121,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

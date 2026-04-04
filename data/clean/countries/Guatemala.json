@@ -1,0 +1,96 @@
+{
+  "country": "Guatemala",
+  "area": {
+    "rank": 105,
+    "total_km2": 108889.0,
+    "water_pct": 0.4
+  },
+  "codes": {
+    "calling_code": "+502",
+    "internet_tld": ".gt",
+    "iso_3166_code": "GT"
+  },
+  "economy": {
+    "currency_code": "GTQ",
+    "gdp_nominal": {
+      "per_capita_usd": 6682,
+      "total_billion_usd": 120.964,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 15386,
+      "total_billion_usd": 278.508,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 45.2,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 137,
+      "value": 0.662,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Guatemala City",
+    "demonym": "Guatemalan",
+    "ethnic_groups": {
+      "groups": {
+        "Black": 0.19,
+        "Garifuna": 0.13,
+        "Ladino (mixed)": 56.01,
+        "Maya": 41.66,
+        "Xinca": 1.77,
+        "other": 0.24
+      },
+      "year": 2018
+    },
+    "largest_city": "Guatemala City",
+    "national_language": "Mayan",
+    "official_language": "Spanish",
+    "recognized_regional_languages": "Garifuna Xinca",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 42.4,
+            "Protestantism": 45.7
+          },
+          "percentage": 88.1
+        },
+        "no religion": 11.0,
+        "other": 0.9
+      },
+      "year": 2023
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Bernardo Arévalo",
+      "president_of_the_congress": "Luis Contreras",
+      "vice_president": "Karin Herrera"
+    },
+    "legislature": "Congress of the Republic",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Current constitution": "17 November 1993",
+    "Declared from the Federal Republic of Central America": "17 April 1839",
+    "Declared from the First Mexican Empire": "1 July 1823",
+    "Declared from the Spanish Empire": "15 September 1821"
+  },
+  "population": {
+    "density_per_km2": 166.0,
+    "total": 18636532,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-06:00"
+  }
+}

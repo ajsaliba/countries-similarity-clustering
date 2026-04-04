@@ -1,0 +1,85 @@
+{
+  "country": "Central African Republic",
+  "area": {
+    "rank": 44,
+    "total_km2": 622984.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+236",
+    "internet_tld": ".cf",
+    "iso_3166_code": "CF"
+  },
+  "economy": {
+    "currency_code": "XAF",
+    "gdp_nominal": {
+      "per_capita_usd": 650,
+      "total_billion_usd": 3.71,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 1390,
+      "total_billion_usd": 7.94,
+      "year": 2026
+    },
+    "gini": {
+      "category": "medium",
+      "value": 43.0,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 191,
+      "value": 0.414,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Bangui",
+    "demonym": "Central African",
+    "ethnic_groups": {
+      "groups": null,
+      "note": "Baggara Arabs Baka Banda Bayaka Fula Gula Gbaya Kara Kresh Mbaka Mandja Ngbandi Runga Sara Vidiri Wodaabe Yakoma Yulu Kanuri Zande other",
+      "year": null
+    },
+    "largest_city": "Bangui",
+    "national_language": "Sango",
+    "official_language": "French Sango (co-official)",
+    "religion": {
+      "groups": {
+        "Christianity": 73.2,
+        "Islam": 13.9,
+        "other / none": 0.9,
+        "traditional faiths": 12.0
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Faustin-Archange Touadéra",
+      "president_of_the_national_assembly": "Simplice Sarandji",
+      "prime_minister": "Félix Moloua"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Bokassa I's overthrow and republic restored": "21 September 1979",
+    "Central African Empire established": "4 December 1976",
+    "Coronation of Bokassa I": "4 December 1977",
+    "Republic established": "1 December 1958",
+    "from France": "13 August 1960"
+  },
+  "population": {
+    "density_per_km2": 8.6,
+    "total": 5650957,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+01:00"
+  }
+}

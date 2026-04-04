@@ -1,0 +1,91 @@
+{
+  "country": "Guinea",
+  "area": {
+    "rank": 77,
+    "total_km2": 245857.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+224",
+    "internet_tld": ".gn",
+    "iso_3166_code": "GN"
+  },
+  "economy": {
+    "currency_code": "GNF",
+    "gdp_nominal": {
+      "per_capita_usd": 1670,
+      "total_billion_usd": 30.09,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 4075,
+      "total_billion_usd": 75.05,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 33.7,
+      "year": 2012
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 181,
+      "value": 0.5,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Conakry",
+    "demonym": "Guinean",
+    "ethnic_groups": {
+      "groups": {
+        "Fula": 33.4,
+        "Kissi": 6.2,
+        "Kpelle": 7.8,
+        "Loma": 1.6,
+        "Mandinka": 29.4,
+        "Susu": 21.2,
+        "others": 0.4
+      },
+      "year": 2018
+    },
+    "largest_city": "Conakry",
+    "official_language": "French",
+    "religion": {
+      "groups": {
+        "Christianity": 13.4,
+        "Islam": 85.2,
+        "animism": 0.2,
+        "none": 1.2
+      },
+      "year": 2022
+    },
+    "spoken_languages": "List: Guinea-Creole English French Arabic Portuguese Fula Malinké ( N'Ko ) Susu Kissi Kpelle Toma Badyara Baga Bambara Bassari Dan Dyula Landoma Limba Maninka Mano Pular Sua Wamey Yalunka Zialo"
+  },
+  "government": {
+    "leaders": {
+      "president": "Mamady Doumbouya",
+      "prime_minister": "Bah Oury"
+    },
+    "legislature": "National Council of the Transition",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "2021 Guinean coup d'état": "5 September 2021",
+    "4th constitution": "2 October 1958",
+    "Republic": "2 October 1958",
+    "Second Republic Day": "3 April 1984",
+    "from France": "2 October 1958"
+  },
+  "population": {
+    "density_per_km2": 40.9,
+    "total": 13986179,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+00:00"
+  }
+}

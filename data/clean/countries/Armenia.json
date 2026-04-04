@@ -1,0 +1,101 @@
+{
+  "country": "Armenia",
+  "area": {
+    "rank": 138,
+    "total_km2": 29743.0,
+    "water_pct": 4.71
+  },
+  "codes": {
+    "calling_code": "+374",
+    "internet_tld": ".am",
+    "iso_3166_code": "AM"
+  },
+  "economy": {
+    "currency_code": "AMD",
+    "gdp_nominal": {
+      "per_capita_usd": 8969,
+      "total_billion_usd": 27.859,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 23954,
+      "total_billion_usd": 74.407,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 27.9,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 69,
+      "value": 0.811,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Yerevan",
+    "demonym": "Armenian",
+    "ethnic_groups": {
+      "groups": {
+        "Armenians": 98.1,
+        "Yazidis": 1.1,
+        "other": 0.8
+      },
+      "year": 2022
+    },
+    "largest_city": "Yerevan",
+    "official_language": "Armenian",
+    "official_script": "Armenian alphabet",
+    "recognized_languages": "List : Assyrian German Greek Kurdish Russian Ukrainian",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Armenian Apostolic Church": 95.2,
+            "other Christian": 1.6
+          },
+          "percentage": 96.8
+        },
+        "no religion": 0.6,
+        "other": 0.9,
+        "unspecified": 1.7
+      },
+      "year": 2022
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Vahagn Khachaturyan",
+      "president_of_the_national_assembly": "Alen Simonyan",
+      "prime_minister": "Nikol Pashinyan"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Admission to the United Nations": "2 March 1992",
+    "Armenian Kingdom of Cilicia": "1198/99–1375",
+    "Armenian Soviet Socialist Republic": "29 November 1920",
+    "Bagratid Armenia": "880s–1045",
+    "CIS accession": "21 December 1991",
+    "Current constitution": "5 July 1995",
+    "First Republic of Armenia": "28 May 1918",
+    "Independence from the USSR": "23 September 1991",
+    "Kingdom of Armenia": "331 BC–428 AD",
+    "Urartu": "860 BC–547/90 BC",
+    "Zakarid Armenia": "1201–1350"
+  },
+  "population": {
+    "density_per_km2": 103.6,
+    "total": 3081100,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+04:00"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "country": "Italy",
+  "area": {
+    "rank": 71,
+    "total_km2": 301340.0,
+    "water_pct": 1.24
+  },
+  "codes": {
+    "calling_code": "+39",
+    "internet_tld": ".it",
+    "iso_3166_code": "IT"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 41091,
+      "total_billion_usd": 2423.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 63076,
+      "total_billion_usd": 3719.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 32.5,
+      "year": 2020
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 29,
+      "value": 0.915,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Rome",
+    "demonym": "Italian",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Rome",
+    "nationality_2021": {
+      "Italian": "91%",
+      "other": "9%"
+    },
+    "native_languages": "See main article",
+    "official_language": "Italian a",
+    "religion": {
+      "groups": {
+        "Christianity": 84.0,
+        "irreligion": 12.0,
+        "other": 4.0
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Sergio Mattarella",
+      "president_of_the_chamber_of_deputies": "Lorenzo Fontana",
+      "president_of_the_senate": "Ignazio La Russa",
+      "prime_minister": "Giorgia Meloni",
+      "roman_barbarian_kingdoms_byzantine_italy": "Early Middle Ages"
+    },
+    "legislature": "Parliament",
+    "lower_house": "Chamber of Deputies",
+    "type": "Unitary parliamentary republic",
+    "upper_house": "Senate of the Republic"
+  },
+  "history": {
+    "Ancient Rome Roman Italy": "753 BC–476 AD",
+    "Italian Empire": "1882–1960",
+    "Italian Republic": "2 June 1946 ; 79 years ago ( 1946-06-02 )",
+    "Italian city-states and regional polities": "Middle Ages and Modern period",
+    "Italic peoples": "Antiquity",
+    "Kingdom of Italy": "1861–1946 17 March 1861 ; 165 years ago ( 1861-03-17 )"
+  },
+  "population": {
+    "density_per_km2": 195.5,
+    "total": 58915561,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

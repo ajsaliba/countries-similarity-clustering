@@ -1,0 +1,92 @@
+{
+  "country": "China",
+  "area": {
+    "rank": null,
+    "total_km2": 9596961.0,
+    "water_pct": 2.8
+  },
+  "codes": {
+    "calling_code": "+86",
+    "internet_tld": ".cn",
+    "iso_3166_code": "CN"
+  },
+  "economy": {
+    "currency_code": "CNY",
+    "gdp_nominal": {
+      "per_capita_usd": 13806,
+      "total_billion_usd": 19399.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 29191,
+      "total_billion_usd": 41016.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 36.0,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 78,
+      "value": 0.797,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Beijing",
+    "congress_chairman": "Zhao Leji",
+    "cppcc_chairman": "Wang Huning",
+    "demonym": "Chinese",
+    "ethnic_groups": {
+      "groups": {
+        "Han Chinese": 91.11,
+        "Hui": 0.81,
+        "Manchu": 0.74,
+        "Miao": 0.79,
+        "Tibetan": 0.5,
+        "Tujia": 0.68,
+        "Uyghur": 0.84,
+        "Yi": 0.7,
+        "Zhuang": 1.39,
+        "others": 2.44
+      },
+      "year": 2020
+    },
+    "largest_city": "Beijing",
+    "official_language": "Standard Chinese (de facto)",
+    "official_script": "Simplified Chinese ( Mainland ), Traditional Chinese ( Hong Kong , Macau )",
+    "premier": "Li Qiang",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "ccp_general_secretary_and_president": "Xi Jinping",
+      "vice_president": "Han Zheng"
+    },
+    "legislature": "National People's Congress",
+    "lower_house": null,
+    "type": "Unitary communist state",
+    "upper_house": null
+  },
+  "history": {
+    "Current constitution": "4 December 1982",
+    "Establishment of the Republic of China": "1 January 1912",
+    "First imperial dynasty": "221 BCE",
+    "First pre-imperial dynasty": "c. 2070 BCE",
+    "Proclamation of the People's Republic": "1 October 1949"
+  },
+  "population": {
+    "density_per_km2": 146.0,
+    "total": 1404890000,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+08:00"
+  }
+}

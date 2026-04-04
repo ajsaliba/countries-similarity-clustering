@@ -1,0 +1,95 @@
+{
+  "country": "Latvia",
+  "area": {
+    "rank": 122,
+    "total_km2": 64589.0,
+    "water_pct": 2.09
+  },
+  "codes": {
+    "calling_code": "+371",
+    "internet_tld": ".lv",
+    "iso_3166_code": "LV"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 25630,
+      "total_billion_usd": 47.88,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 44110,
+      "total_billion_usd": 82.4,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 35.7,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 41,
+      "value": 0.889,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Riga",
+    "demonym": "Latvian",
+    "ethnic_groups": {
+      "groups": {
+        "Belarusians": 2.9,
+        "Latvians": 65.5,
+        "Lithuanians": 1.1,
+        "Poles": 1.9,
+        "Russians": 24.1,
+        "Ukrainians": 2.9,
+        "others": 1.6
+      },
+      "year": 2025
+    },
+    "largest_city": "Riga",
+    "official_language": "Latvian a",
+    "recognized_languages": "Livonian Latgalian",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 17.0,
+            "Lutheranism": 36.0,
+            "Orthodoxy": 9.0,
+            "other Christian": 2.0
+          },
+          "percentage": 64.0
+        },
+        "no religion": 35.0,
+        "others": 1.0
+      },
+      "year": 2018
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Edgars Rinkēvičs",
+      "prime_minister": "Evika Siliņa",
+      "speaker_of_the_saeima": "Daiga Mieriņa"
+    },
+    "legislature": "Saeima",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Declared": "18 November 1918"
+  },
+  "population": {
+    "density_per_km2": 29.6,
+    "total": 1842226,
+    "year": 2022
+  },
+  "time": {
+    "timezone_dst": "UTC+03:00",
+    "timezone_utc": "UTC+02:00"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "country": "Vanuatu",
+  "area": {
+    "rank": 157,
+    "total_km2": 12189.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+678",
+    "internet_tld": ".vu",
+    "iso_3166_code": "VU"
+  },
+  "economy": {
+    "currency_code": "VUV",
+    "gdp_nominal": {
+      "per_capita_usd": 3188,
+      "total_billion_usd": 1.064,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 3001,
+      "total_billion_usd": 1.002,
+      "year": 2023
+    },
+    "gini": {
+      "category": "medium",
+      "value": 32.3,
+      "year": 2019
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 146,
+      "value": 0.621,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Port Vila",
+    "demonym": "Ni-Vanuatu (or rarely: Vanuatuan )",
+    "ethnic_groups": {
+      "groups": {
+        "Ni-Vanuatu": 98.5,
+        "others": 1.5
+      },
+      "year": 2020
+    },
+    "largest_city": "Port Vila",
+    "official_language": "Bislama English French",
+    "religion": {
+      "groups": {
+        "Animism": 4.6,
+        "Baháʼí Faith": 1.4,
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 13.5,
+            "Protestantism": 75.1,
+            "other Christian": 4.8
+          },
+          "percentage": 93.4
+        },
+        "other / none": 0.6
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Nikenike Vurobaravu",
+      "prime_minister": "Jotham Napat"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "from the United Kingdom and France": "30 July 1980"
+  },
+  "population": {
+    "density_per_km2": 27.6,
+    "total": 335908,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+11:00"
+  }
+}

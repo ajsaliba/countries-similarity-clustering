@@ -1,0 +1,94 @@
+{
+  "country": "Sierra Leone",
+  "area": {
+    "rank": 117,
+    "total_km2": 73252.0,
+    "water_pct": 1.1
+  },
+  "codes": {
+    "calling_code": "+232",
+    "internet_tld": ".sl",
+    "iso_3166_code": "SL"
+  },
+  "economy": {
+    "currency_code": "SLE",
+    "gdp_nominal": {
+      "per_capita_usd": 915,
+      "total_billion_usd": 8.39,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 3550,
+      "total_billion_usd": 32.51,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 33.7,
+      "year": 2024
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 185,
+      "value": 0.467,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Freetown",
+    "chief_minister": "David Moinina Sengeh",
+    "demonym": "Sierra Leonean",
+    "ethnic_groups": {
+      "groups": {
+        "Fula": 3.4,
+        "Kono": 4.4,
+        "Koranko": 2.8,
+        "Krio": 1.3,
+        "Limba": 6.4,
+        "Loko": 2.9,
+        "Mandingo": 2.4,
+        "Mende": 33.2,
+        "Sherbro": 2.6,
+        "Susu": 2.9,
+        "Temne": 35.5
+      },
+      "year": 2015
+    },
+    "largest_city": "Freetown",
+    "national_language": "Krio",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Christianity": 21.0,
+        "Islam": 78.0,
+        "other": 1.0
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Osman Abdulai Turay",
+      "president": "Julius Maada Bio",
+      "speaker_of_parliament": "Segepoh Solomon Thomas",
+      "vice_president": "Mohamed Juldeh Jalloh"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Dominion": "27 April 1961",
+    "Republic": "19 April 1971"
+  },
+  "population": {
+    "density_per_km2": 124.0,
+    "total": 8460512,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+00:00"
+  }
+}

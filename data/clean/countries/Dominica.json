@@ -1,0 +1,87 @@
+{
+  "country": "Dominica",
+  "area": {
+    "rank": 174,
+    "total_km2": 750.0,
+    "water_pct": 1.6
+  },
+  "codes": {
+    "calling_code": "+1",
+    "internet_tld": ".dm",
+    "iso_3166_code": "DM"
+  },
+  "economy": {
+    "currency_code": "XCD",
+    "gdp_nominal": {
+      "per_capita_usd": 7860,
+      "total_billion_usd": 0.485,
+      "year": 2018
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 9726,
+      "total_billion_usd": 0.688,
+      "year": 2018
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 98,
+      "value": 0.761,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Roseau",
+    "demonym": "Dominican (pronounced / ˌ d ɒ m ɪ ˈ n iː k ə n / )",
+    "ethnic_groups": {
+      "groups": {
+        "African": 75.0,
+        "European or other": 0.8,
+        "Kalinago": 4.0,
+        "multiracial": 19.0,
+        "unspecified": 0.2
+      },
+      "year": 2014
+    },
+    "largest_city": "Roseau",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Christianity": 94.4,
+        "folk religions": 3.0,
+        "none": 0.9,
+        "other": 1.7
+      },
+      "year": 2020
+    },
+    "vernacular_language": "Dominican Creole French , Kokoy"
+  },
+  "government": {
+    "leaders": {
+      "president": "Sylvanie Burton",
+      "prime_minister": "Roosevelt Skerrit",
+      "speaker_of_the_house_of_assembly": "Joseph Isaac"
+    },
+    "legislature": "House of Assembly",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Sovereignty and constitution": "3 November 1978",
+    "West Indies Associated States": "1 March 1967"
+  },
+  "population": {
+    "density_per_km2": 105.0,
+    "total": 72412,
+    "year": 2021
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-04:00"
+  }
+}

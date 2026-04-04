@@ -1,0 +1,91 @@
+{
+  "country": "New Zealand",
+  "area": {
+    "rank": 75,
+    "total_km2": 263310.0,
+    "water_pct": 1.6
+  },
+  "codes": {
+    "calling_code": "+64",
+    "internet_tld": ".nz",
+    "iso_3166_code": "NZ"
+  },
+  "economy": {
+    "currency_code": "NZD",
+    "gdp_nominal": {
+      "per_capita_usd": 46013,
+      "total_billion_usd": 248.67,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 55450,
+      "total_billion_usd": 298.93,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 30.0,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 17,
+      "value": 0.938,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Wellington",
+    "demonym": "New Zealander Kiwi (colloquial)",
+    "ethnic_groups": {
+      "groups": {
+        "Asian": 17.3,
+        "European": 67.8,
+        "ME / LA / African": 1.9,
+        "Māori": 19.6,
+        "Pacific peoples": 8.9,
+        "other": 1.1
+      },
+      "year": 2023
+    },
+    "governor_general": "Cindy Kiro",
+    "largest_city": "Auckland",
+    "monarch": "Charles III",
+    "official_language": "English Māori NZ Sign Language",
+    "religion": {
+      "groups": {
+        "Christianity": 32.3,
+        "Hinduism": 2.9,
+        "no religion": 51.6,
+        "other": 6.3,
+        "undeclared": 6.9
+      },
+      "year": 2023
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Christopher Luxon"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "Constitution Act 1986": "1 January 1987",
+    "Dominion": "26 September 1907",
+    "Responsible government": "7 May 1856",
+    "Statute of Westminster Adoption Act": "25 November 1947",
+    "Treaty of Waitangi": "6 February 1840"
+  },
+  "population": {
+    "density_per_km2": 19.9,
+    "total": 5344470,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": "UTC+13:00",
+    "timezone_utc": "UTC+12:00"
+  }
+}

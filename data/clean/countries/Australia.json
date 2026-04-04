@@ -1,0 +1,86 @@
+{
+  "country": "Australia",
+  "area": {
+    "rank": 6,
+    "total_km2": 7688287.0,
+    "water_pct": 1.79
+  },
+  "codes": {
+    "calling_code": "+61",
+    "internet_tld": ".au",
+    "iso_3166_code": "AU"
+  },
+  "economy": {
+    "currency_code": "AUD",
+    "gdp_nominal": {
+      "per_capita_usd": 65946,
+      "total_billion_usd": 1830.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 71431,
+      "total_billion_usd": 1982.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 32.4,
+      "year": 2020
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 7,
+      "value": 0.958,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Canberra",
+    "demonym": "Australian Aussie (colloquial)",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "governor_general": "Sam Mostyn",
+    "largest_city": "Sydney (metropolitan) Melbourne (urban)",
+    "monarch": "Charles III",
+    "national_language": "English",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Buddhism": 2.4,
+        "Christianity": 43.9,
+        "Hinduism": 2.7,
+        "Islam": 3.2,
+        "no religion": 38.9,
+        "other": 1.7,
+        "unanswered": 7.2
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Anthony Albanese"
+    },
+    "legislature": "Parliament",
+    "lower_house": "House of Representatives",
+    "type": "Federal parliamentary constitutional monarchy",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Australia Acts": "3 March 1986",
+    "Balfour Declaration": "15 November 1926",
+    "Federation": "1 January 1901",
+    "Statute of Westminster Adoption Act": "9 October 1942"
+  },
+  "population": {
+    "density_per_km2": 3.7,
+    "total": 27840775,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": "UTC+10:00",
+    "timezone_utc": "UTC+08:00"
+  }
+}

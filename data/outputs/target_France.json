@@ -1,0 +1,79 @@
+{
+  "country": "france",
+  "area": {
+    "rank": "42",
+    "total_km2": "632702 3",
+    "water_pct": "0 86"
+  },
+  "codes": {
+    "calling_code": "+33",
+    "internet_tld": ".fr",
+    "iso_3166_code": "FR"
+  },
+  "economy": {
+    "currency_code": "XPF",
+    "gdp_nominal": {
+      "per_capita_usd": "46792",
+      "total_billion_usd": "3211 0",
+      "year": "2025"
+    },
+    "gdp_ppp": {
+      "per_capita_usd": "65626",
+      "total_billion_usd": "4504 0",
+      "year": "2025"
+    },
+    "gini": {
+      "category": "low",
+      "value": "29 8",
+      "year": "2022"
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": "26",
+      "value": "0 92",
+      "year": "2023"
+    }
+  },
+  "general": {
+    "capital": "paris",
+    "Demonyms": "french",
+    "ethnic_groups": {
+      "groups": "null",
+      "year": "null"
+    },
+    "largest_city": "paris",
+    "official_language": "french",
+    "regional_languages": "see languages of france",
+    "religion": {
+      "groups": {
+        "Christianity": "50.0",
+        "Islam": "4.0",
+        "irreligion": "33.0",
+        "other religions": "4.0"
+      },
+      "year": "2021"
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "emmanuel macron",
+      "president_of_the_national_assembly": "yaël braun pivet",
+      "president_of_the_senate": "gérard larcher",
+      "prime_minister": "sébastien lecornu"
+    },
+    "legislature": "parliament",
+    "lower_house": "national assembly",
+    "type": "unitary semi presidential republic",
+    "upper_house": "senate"
+  },
+  "history": null,
+  "population": {
+    "density_per_km2": "null",
+    "total": "66792845",
+    "year": "2026"
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

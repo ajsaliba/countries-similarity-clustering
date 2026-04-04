@@ -1,0 +1,84 @@
+{
+  "country": "Cyprus",
+  "area": {
+    "rank": 162,
+    "total_km2": 9251.0,
+    "water_pct": 0.11
+  },
+  "codes": {
+    "calling_code": "+357",
+    "internet_tld": ".cy",
+    "iso_3166_code": "CY"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 42413,
+      "total_billion_usd": 39.943,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 65304,
+      "total_billion_usd": 61.501,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 29.4,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 32,
+      "value": 0.913,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Nicosia",
+    "demonym": "Cypriot",
+    "ethnic_groups": {
+      "groups": null,
+      "note": "Greek Cypriots Turkish Cypriots Armenian Cypriots Maronite Cypriots",
+      "year": null
+    },
+    "largest_city": "Nicosia",
+    "minority_languages": "Armenian Cypriot Arabic",
+    "official_language": "Greek Turkish",
+    "religion": {
+      "groups": {
+        "Christianity": 72.3,
+        "Islam": 25.0,
+        "no religion": 1.9,
+        "other": 0.8
+      },
+      "year": 2020
+    },
+    "vernacular_language": "Cypriot Greek Cypriot Turkish"
+  },
+  "government": {
+    "leaders": {
+      "president": "Nikos Christodoulides",
+      "president_of_the_house_of_representatives": "Annita Demetriou",
+      "vice_president": "Vacant"
+    },
+    "legislature": "House of Representatives",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Independence Day": "1 October 1960",
+    "Independence proclaimed": "16 August 1960",
+    "London-Zürich Agreements": "19 February 1959"
+  },
+  "population": {
+    "density_per_km2": 123.4,
+    "total": 923272,
+    "year": 2021
+  },
+  "time": {
+    "timezone_dst": "UTC+03:00",
+    "timezone_utc": "UTC+02:00"
+  }
+}

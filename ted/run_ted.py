@@ -1,4 +1,3 @@
-
 from __future__ import annotations
 
 import argparse
@@ -19,8 +18,8 @@ if str(PARENT_DIR) not in sys.path:
 from ted import Node, build_country_tree, build_tree, ted_similarity, tree_size
 
 DATASET_FILES = {
-    "clean": ROOT_DIR / "all_countries_clean_final.json",
-    "raw": ROOT_DIR / "all_countries.json",
+    "clean": ROOT_DIR.parent / "data" / "clean" / "all_countries_clean.json",
+    "raw":   ROOT_DIR.parent / "data" / "raw"   / "all_countries.json",
 }
 
 MISSING_VALUE = -1.0

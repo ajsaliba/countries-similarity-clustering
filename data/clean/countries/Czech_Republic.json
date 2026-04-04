@@ -1,0 +1,95 @@
+{
+  "country": "Czech Republic",
+  "area": {
+    "rank": 115,
+    "total_km2": 78871.0,
+    "water_pct": 2.16
+  },
+  "codes": {
+    "calling_code": "+420",
+    "internet_tld": ".cz",
+    "iso_3166_code": "CZ"
+  },
+  "economy": {
+    "currency_code": "CZK",
+    "gdp_nominal": {
+      "per_capita_usd": 31365,
+      "total_billion_usd": 342.992,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 56686,
+      "total_billion_usd": 619.881,
+      "year": 2024
+    },
+    "gini": {
+      "category": "low",
+      "value": 24.4,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 29,
+      "value": 0.915,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Prague",
+    "demonym": "Czech",
+    "ethnic_groups": {
+      "groups": {
+        "Czechs": 89.0,
+        "Moravians": 3.3,
+        "Slovaks": 0.9,
+        "Ukrainians": 0.7,
+        "other": 2.1,
+        "two nationalities": 4.0
+      },
+      "year": 2021
+    },
+    "largest_city": "Prague",
+    "official_language": "Czech",
+    "recognized_minority_languages": "Belarusian Bulgarian Croatian German Greek Hungarian Polish Romani Russian Rusyn Serbian Slovak Ukrainian Vietnamese As of 2022",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 9.3,
+            "other Christian": 2.4
+          },
+          "percentage": 11.7
+        },
+        "no religion": 56.9,
+        "other": 1.2,
+        "unanswered": 30.1
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Petr Pavel",
+      "prime_minister": "Andrej Babiš"
+    },
+    "legislature": "Parliament",
+    "lower_house": "Chamber of Deputies",
+    "type": "Unitary parliamentary republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Czech Republic": "1 January 1993",
+    "Czechoslovakia": "28 October 1918",
+    "Duchy of Bohemia": "c. 870",
+    "Kingdom of Bohemia": 1198
+  },
+  "population": {
+    "density_per_km2": 133.0,
+    "total": 10900555,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

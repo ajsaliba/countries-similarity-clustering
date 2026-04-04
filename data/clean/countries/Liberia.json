@@ -1,0 +1,95 @@
+{
+  "country": "Liberia",
+  "area": {
+    "rank": 102,
+    "total_km2": 43000.0,
+    "water_pct": 13.514
+  },
+  "codes": {
+    "calling_code": "+231",
+    "internet_tld": ".lr",
+    "iso_3166_code": "LR"
+  },
+  "economy": {
+    "currency_code": "LRD",
+    "gdp_nominal": {
+      "per_capita_usd": 907,
+      "total_billion_usd": 5.17,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 2010,
+      "total_billion_usd": 11.42,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 35.3,
+      "year": 2016
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 177,
+      "value": 0.51,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Monrovia",
+    "demonym": "Liberian",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Monrovia",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 7.2,
+            "Protestantism": 76.3,
+            "other Christians": 1.6
+          },
+          "percentage": 85.1
+        },
+        "Islam": 12.2,
+        "no religion": {
+          "breakdown": {
+            "other": 1.3
+          },
+          "percentage": 1.4
+        }
+      },
+      "year": 2018
+    },
+    "vernacular_language": "Kpelle Bassa Vai Klao (Kru) Gio (Dan) Mano Krahn Loma Gola Kissi Grebo Dewoin Mende Mandingo Jabo Gbandi Kreyol"
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Sie-A-Nyene Yuoh",
+      "house_speaker": "Richard Koon",
+      "president": "Joseph Boakai",
+      "vice_president": "Jeremiah Koung"
+    },
+    "legislature": "Legislature of Liberia",
+    "lower_house": "House of Representatives",
+    "type": "Unitary presidential republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "American Colonization Society settlement": "January 7, 1822",
+    "Current constitution": "January 6, 1986",
+    "Independence declared": "July 26, 1847",
+    "Republic of Maryland annexed": "March 18, 1857"
+  },
+  "population": {
+    "density_per_km2": 92.0,
+    "total": 5437249,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+00:00"
+  }
+}

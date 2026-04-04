@@ -1,0 +1,99 @@
+{
+  "country": "Laos",
+  "area": {
+    "rank": 82,
+    "total_km2": 236800.0,
+    "water_pct": 2.0
+  },
+  "codes": {
+    "calling_code": "+856",
+    "internet_tld": ".la",
+    "iso_3166_code": "LA"
+  },
+  "economy": {
+    "currency_code": "LAK",
+    "gdp_nominal": {
+      "per_capita_usd": 2100,
+      "total_billion_usd": 16.32,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 10120,
+      "total_billion_usd": 78.85,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 36.4,
+      "year": 2012
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 147,
+      "value": 0.617,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Vientiane",
+    "demonym": "Laotian",
+    "ethnic_groups": {
+      "groups": {
+        "Akha": 1.8,
+        "Hmong": 9.2,
+        "Katang": 2.2,
+        "Khmu": 11.0,
+        "Lao": 53.2,
+        "Lue": 2.0,
+        "Makong": 2.5,
+        "Phu Thai": 3.4,
+        "Tai": 3.1,
+        "other": 11.6
+      },
+      "year": 2015
+    },
+    "largest_city": "Vientiane",
+    "official_language": "Lao",
+    "religion": {
+      "groups": {
+        "Buddhism": 66.0,
+        "Christianity": 1.5,
+        "Tai folk religion": 30.7,
+        "other / none": 1.8
+      },
+      "year": null
+    },
+    "spoken_languages": "Lao Khmu Hmong Phu Thai Tai"
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Viengthong Siphandone",
+      "general_secretary__and_president": "Thongloun Sisoulith",
+      "president_of_the_national_assembly": "Saysomphone Phomvihane",
+      "prime_minister": "Sonexay Siphandone",
+      "vice_president": "Bounthong Chitmany Pany Yathotou"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary communist state",
+    "upper_house": null
+  },
+  "history": {
+    "Communist state established": "2 December 1975",
+    "French protectorate": "1893–1953",
+    "Independence from France": "22 October 1953",
+    "Kingdom of Lan Xang": "1353–1707",
+    "Kingdoms of Luang Prabang , Vientiane and Champasak": "1707–1778",
+    "Unified kingdom": "11 May 1947",
+    "Vassals of Siam": "1778–1893"
+  },
+  "population": {
+    "density_per_km2": 33.21,
+    "total": 7953556,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+07:00"
+  }
+}

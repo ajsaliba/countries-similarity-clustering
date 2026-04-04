@@ -1,0 +1,100 @@
+{
+  "country": "Peru",
+  "area": {
+    "rank": 19,
+    "total_km2": 1285216.0,
+    "water_pct": 0.41
+  },
+  "codes": {
+    "calling_code": "+51",
+    "internet_tld": ".pe",
+    "iso_3166_code": "PE"
+  },
+  "economy": {
+    "currency_code": "PEN",
+    "gdp_nominal": {
+      "per_capita_usd": 9260,
+      "total_billion_usd": 318.48,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 18980,
+      "total_billion_usd": 653.09,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 40.2,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 79,
+      "value": 0.794,
+      "year": 2023
+    }
+  },
+  "general": {
+    "aymara_": "Piruwxa Ripuwlika",
+    "capital": "Lima",
+    "demonym": "Peruvian",
+    "ethnic_groups": {
+      "groups": {
+        "Black": 3.57,
+        "East Asian": 0.16,
+        "Mestizo": 60.2,
+        "Native": 25.75,
+        "White": 5.89,
+        "no answer": 3.32,
+        "other": 1.1
+      },
+      "year": 2017
+    },
+    "largest_city": "Lima",
+    "official_language": "Spanish",
+    "quechua_": [
+      "Piruw Ripuwlika",
+      "Piruw Ripuwlika"
+    ],
+    "recognized_languages": "14 August 1879",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 76.0,
+            "other Christian": 18.5
+          },
+          "percentage": 94.5
+        },
+        "no religion": 5.1,
+        "other": 0.4
+      },
+      "year": 2017
+    }
+  },
+  "government": {
+    "leaders": {
+      "first_vice_president": "Vacant",
+      "president": "José María Balcázar",
+      "president_of_congress": "Fernando Rospigliosi (acting)",
+      "prime_minister": "Luis Arroyo Sánchez"
+    },
+    "legislature": "Congress of the Republic",
+    "lower_house": null,
+    "type": "Unitary semi-presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Consolidated": "9 December 1824",
+    "Declared": "28 July 1821"
+  },
+  "population": {
+    "density_per_km2": 23.0,
+    "total": 34352720,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-05:00"
+  }
+}

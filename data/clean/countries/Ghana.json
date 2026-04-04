@@ -1,0 +1,94 @@
+{
+  "country": "Ghana",
+  "area": {
+    "rank": 80,
+    "total_km2": 240000.0,
+    "water_pct": 4.61
+  },
+  "codes": {
+    "calling_code": "+233",
+    "internet_tld": ".gh",
+    "iso_3166_code": "GH"
+  },
+  "economy": {
+    "currency_code": "GHS",
+    "gdp_nominal": {
+      "per_capita_usd": 2520,
+      "total_billion_usd": 88.033,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 8042,
+      "total_billion_usd": 295.12,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 44.0,
+      "year": 2024
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 143,
+      "value": 0.628,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Accra",
+    "demonym": "Ghanaian",
+    "ethnic_groups": {
+      "groups": {
+        "Akan": 45.7,
+        "Ewe": 12.8,
+        "Ga-Adangbe": 7.1,
+        "Guan": 3.2,
+        "Gurma": 6.4,
+        "Gurunsi": 2.7,
+        "Mande": 2.0,
+        "Mole-Dagbon": 18.5,
+        "other": 1.6
+      },
+      "year": 2021
+    },
+    "largest_city": "Accra",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Christianity": 71.3,
+        "Islam": 19.9,
+        "irreligion": 1.1,
+        "other": 4.5,
+        "traditional faiths": 3.2
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "government_sponsored_languages": "Twi Fante Ewe Dagaare Dagbanli Adangme Ga Gonja Kasem Nzema",
+    "leaders": {
+      "chief_justice": "Justice Paul Baffoe-Bonnie",
+      "president": "John Mahama",
+      "speaker_of_parliament": "Alban Bagbin",
+      "vice_president": "Jane Naana Opoku-Agyemang"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null,
+    "working_language": "English French Hindi Arabic Ghanaian English Ghanaian Pidgin English"
+  },
+  "history": {
+    "Dominion": "6 March 1957",
+    "Republic": "1 July 1960"
+  },
+  "population": {
+    "density_per_km2": 151.0,
+    "total": 35039451,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+00:00"
+  }
+}

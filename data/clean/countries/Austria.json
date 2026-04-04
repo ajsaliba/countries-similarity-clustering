@@ -1,0 +1,100 @@
+{
+  "country": "Austria",
+  "area": {
+    "rank": 113,
+    "total_km2": 83879.0,
+    "water_pct": 0.84
+  },
+  "codes": {
+    "calling_code": "+43",
+    "internet_tld": ".at",
+    "iso_3166_code": "AT"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 58190,
+      "total_billion_usd": 534.3,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 74370,
+      "total_billion_usd": 682.86,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 28.1,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 22,
+      "value": 0.93,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Vienna",
+    "chancellor": "Christian Stocker",
+    "demonym": "Austrian",
+    "ethnic_groups": {
+      "groups": {
+        "Austrians": 72.2,
+        "other": 27.8
+      },
+      "year": 2024
+    },
+    "largest_city": "Vienna",
+    "official_language": "German",
+    "official_regional_languages": "Hungarian Slovene Burgenland Croatian",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 55.2,
+            "Orthodoxy": 4.9,
+            "Protestantism": 3.8,
+            "other Christian": 4.3
+          },
+          "percentage": 68.2
+        },
+        "Islam": 8.3,
+        "no religion": 22.4,
+        "other": 1.1
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Alexander Van der Bellen"
+    },
+    "legislature": "Parliament",
+    "lower_house": "National Council",
+    "type": "Federal semi-presidential republic",
+    "upper_house": "Federal Council"
+  },
+  "history": {
+    "Anschluss": "13 March 1938",
+    "Archduchy": "6 January 1453",
+    "Austria-Hungary": "30 March 1867",
+    "Duchy": "17 September 1156",
+    "Empire": "11 August 1804",
+    "Federal State": "1 May 1934",
+    "First Republic": "10 September 1919",
+    "Imperial circle": 1512,
+    "Margraviate ( oldest naming )": "1 November 996",
+    "Second Republic": "27 April 1945",
+    "State Treaty": "27 July 1955"
+  },
+  "population": {
+    "density_per_km2": 107.6,
+    "total": 9110079,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

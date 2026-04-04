@@ -1,0 +1,81 @@
+{
+  "country": "São Tomé and Príncipe",
+  "area": {
+    "rank": 171,
+    "total_km2": 964.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+239",
+    "internet_tld": ".st",
+    "iso_3166_code": "ST"
+  },
+  "economy": {
+    "currency_code": "STN",
+    "gdp_nominal": {
+      "per_capita_usd": 3167,
+      "total_billion_usd": 0.751,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 4238,
+      "total_billion_usd": 1.0,
+      "year": 2024
+    },
+    "gini": {
+      "category": "medium",
+      "value": 40.7,
+      "year": 2017
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 141,
+      "value": 0.637,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "São Tomé",
+    "demonym": "São Toméan Santomean",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "São Tomé",
+    "official_language": "Portuguese",
+    "recognized_regional_languages": "Forro Creole Angolar Creole Principense Creole",
+    "religion": {
+      "groups": {
+        "Christianity": 81.1,
+        "folk religions": 3.1,
+        "no religion": 13.2,
+        "others": 2.4
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Carlos Vila Nova",
+      "prime_minister": "Américo Ramos"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary semi-presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Admitted to the United Nations": "16 September 1975",
+    "Constitutional reform": "22 August 1990",
+    "Granted": "12 July 1975"
+  },
+  "population": {
+    "density_per_km2": 199.7,
+    "total": 220372,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+00:00"
+  }
+}

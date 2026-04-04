@@ -1,0 +1,94 @@
+{
+  "country": "Libya",
+  "area": {
+    "rank": 16,
+    "total_km2": 1759541.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+218",
+    "internet_tld": ".ly",
+    "iso_3166_code": "LY"
+  },
+  "economy": {
+    "currency_code": "LYD",
+    "gdp_nominal": {
+      "per_capita_usd": 6800,
+      "total_billion_usd": 47.48,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 17760,
+      "total_billion_usd": 123.99,
+      "year": 2025
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 115,
+      "value": 0.721,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Tripoli",
+    "demonym": "Libyan",
+    "ethnic_groups": {
+      "groups": {
+        "Arabs": 92.0,
+        "Berbers": 5.0,
+        "others": 3.0
+      },
+      "year": 1999
+    },
+    "foreign_languages": "Italian and English",
+    "largest_city": "Tripoli",
+    "official_language": "Arabic",
+    "religion": {
+      "groups": {
+        "Christianity": 2.7,
+        "Islam ( official )": 96.6,
+        "others": 0.7
+      },
+      "year": 2020
+    },
+    "vernacular_language": "Libyan Arabic"
+  },
+  "government": {
+    "leaders": {
+      "chairman_of_the_presidential_council": "Mohamed al-Menfi",
+      "prime_minister": "Abdul Hamid Dbeibeh",
+      "speaker_of_the_house_of_representatives": "Aguila Saleh Issa",
+      "vice_chairman_of_the_presidential_council": "Musa Al-Koni"
+    },
+    "legislature": "High Council of State House of Representatives",
+    "lower_house": null,
+    "type": "Unitary republic under a provisional government ( GNU )",
+    "upper_house": null
+  },
+  "history": {
+    "Coup d'état by Muammar Gaddafi": "1 September 1969",
+    "End of Second Libyan Civil War": "23 October 2020",
+    "First Libyan Civil War": "17 February 2011",
+    "Great Socialist People's Libyan Arab Jamahiriya": "2 March 1977",
+    "Italian invasion of Libya": 1911,
+    "Kingdom of Libya": "24 December 1951",
+    "Libyan resistance movement": "1911–1951",
+    "NATO intervention in Libya": "19 March 2011",
+    "Ottoman Tripolitania": 1551,
+    "Tripolitanian Republic": "16 November 1918"
+  },
+  "population": {
+    "density_per_km2": 4.2,
+    "total": 7361263,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+02:00"
+  }
+}

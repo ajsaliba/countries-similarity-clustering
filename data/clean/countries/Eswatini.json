@@ -1,0 +1,94 @@
+{
+  "country": "Eswatini",
+  "area": {
+    "rank": 153,
+    "total_km2": 17364.0,
+    "water_pct": 0.9
+  },
+  "codes": {
+    "calling_code": "+268",
+    "internet_tld": ".sz",
+    "iso_3166_code": "SZ"
+  },
+  "economy": {
+    "currency_code": "ZAR",
+    "gdp_nominal": {
+      "per_capita_usd": 3995,
+      "total_billion_usd": 4.648,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 11858,
+      "total_billion_usd": 13.797,
+      "year": 2023
+    },
+    "gini": {
+      "category": "high",
+      "value": 54.6,
+      "year": 2016
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 126,
+      "value": 0.695,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Mbabane (executive) Lobamba (legislative)",
+    "demonym": "Swazi",
+    "ethnic_groups": {
+      "groups": {
+        "Swazi": 84.0,
+        "Zulu": 10.0,
+        "others": 6.0
+      },
+      "year": 2017
+    },
+    "largest_city": "Mbabane",
+    "official_language": "Swazi English",
+    "queen_mother": "Ntfombi",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Protestantism": 84.2,
+            "Roman Catholic": 3.7,
+            "other Christian": 1.4
+          },
+          "percentage": 89.3
+        },
+        "no religion": 7.4,
+        "others": 0.8,
+        "traditional faiths": 2.5
+      },
+      "year": 2017
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Bheki Maphalala",
+      "king": "Mswati III",
+      "prime_minister": "Russell Dlamini"
+    },
+    "legislature": "Parliament",
+    "lower_house": "House of Assembly",
+    "type": "Unitary diarchic absolute monarchy",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Current constitution": 2005,
+    "Independence granted": "6 September 1968",
+    "Renaming": "19 April 2018",
+    "United Nations membership": "24 September 1968"
+  },
+  "population": {
+    "density_per_km2": 66.8,
+    "total": 1236126,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+02:00"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "country": "Singapore",
+  "area": {
+    "rank": 176,
+    "total_km2": 744.3,
+    "water_pct": 1.43
+  },
+  "codes": {
+    "calling_code": "+65",
+    "internet_tld": ".sg",
+    "iso_3166_code": "SG"
+  },
+  "economy": {
+    "currency_code": "SGD",
+    "gdp_nominal": {
+      "per_capita_usd": 93956,
+      "total_billion_usd": 564.7,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 156755,
+      "total_billion_usd": 952.6,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 43.3,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 13,
+      "value": 0.946,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Singapore ( city-state )",
+    "demonym": "Singaporean",
+    "ethnic_groups": {
+      "groups": {
+        "Chinese": 74.3,
+        "Indian": 9.0,
+        "Malay": 13.5,
+        "Other": 3.2
+      },
+      "year": 2023
+    },
+    "largest_city": "Singapore ( city-state )",
+    "national_language": "Malay",
+    "official_language": "English Malay Mandarin Tamil",
+    "religion": {
+      "groups": {
+        "Buddhism": 31.1,
+        "Christianity": 18.9,
+        "Hinduism": 5.0,
+        "Islam": 15.6,
+        "No religion": 20.0,
+        "Other": 0.3,
+        "Sikhism": 0.3,
+        "Taoism": 8.8
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Tharman Shanmugaratnam",
+      "prime_minister": "Lawrence Wong"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Malaysia Agreement": "16 September 1963",
+    "Proclamation of Singapore": "9 August 1965",
+    "Self-governance": "3 June 1959"
+  },
+  "population": {
+    "density_per_km2": 8290.0,
+    "total": 6110200,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+08:00"
+  }
+}

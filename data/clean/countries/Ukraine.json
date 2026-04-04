@@ -1,0 +1,93 @@
+{
+  "country": "Ukraine",
+  "area": {
+    "rank": 45,
+    "total_km2": 603628.0,
+    "water_pct": 3.8
+  },
+  "codes": {
+    "calling_code": "+380",
+    "internet_tld": ".ua",
+    "iso_3166_code": "UA"
+  },
+  "economy": {
+    "currency_code": "UAH",
+    "gdp_nominal": {
+      "per_capita_usd": 6261,
+      "total_billion_usd": 205.742,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 20999,
+      "total_billion_usd": 690.059,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 25.6,
+      "year": 2020
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 87,
+      "value": 0.779,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Kyiv",
+    "demonym": "Ukrainian",
+    "ethnic_groups": {
+      "groups": {
+        "Russians": 17.0,
+        "Ukrainians": 78.0,
+        "other": 4.9
+      },
+      "year": 2001
+    },
+    "largest_city": "Kyiv",
+    "official_language": "Ukrainian",
+    "religion": {
+      "groups": {
+        "Christianity": 87.3,
+        "no religion": 11.0,
+        "other": 0.8
+      },
+      "year": 2018
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Volodymyr Zelenskyy",
+      "prime_minister": "Yulia Svyrydenko"
+    },
+    "legislature": "Verkhovna Rada",
+    "lower_house": null,
+    "type": "Unitary semi-presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Cossack Hetmanate": "18 August 1649",
+    "Current constitution": "28 June 1996",
+    "Galicia–Volhynia": 1199,
+    "Independence declared": "24 August 1991",
+    "Kievan Rus'": 882,
+    "People's republic": [
+      "20 November 1917",
+      "14 December 1918"
+    ],
+    "Second Hetmanate": "29 April 1918",
+    "Soviet republic": "10 March 1919",
+    "UN membership": "24 October 1945",
+    "Zaporozhian Sich": 1552
+  },
+  "population": {
+    "density_per_km2": 54.4,
+    "total": 32862000,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC+03:00",
+    "timezone_utc": "UTC+02:00"
+  }
+}

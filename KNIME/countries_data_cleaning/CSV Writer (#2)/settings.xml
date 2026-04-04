@@ -25,7 +25,7 @@
 
     <!-- Output file (relative to the project root via knime:// protocol) -->
     <entry key="filename"           type="xstring"
-           value="knime://knime.workflow/../../JSON/all_countries_flat.csv"/>
+           value="knime://knime.workflow/../../data/outputs/all_countries_flat.csv"/>
 
     <!-- CSV format -->
     <entry key="colSeparator"       type="xstring"  value=","/>

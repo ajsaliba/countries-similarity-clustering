@@ -1,0 +1,82 @@
+{
+  "country": "Bhutan",
+  "area": {
+    "rank": 133,
+    "total_km2": 38394.0,
+    "water_pct": 1.1
+  },
+  "codes": {
+    "calling_code": "+975",
+    "internet_tld": ".bt",
+    "iso_3166_code": "BT"
+  },
+  "economy": {
+    "currency_code": "BTN",
+    "gdp_nominal": {
+      "per_capita_usd": 4710,
+      "total_billion_usd": 3.771,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 19255,
+      "total_billion_usd": 15.415,
+      "year": 2026
+    },
+    "gini": {
+      "category": "low",
+      "value": 28.5,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 125,
+      "value": 0.698,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Thimphu",
+    "demonym": "Bhutanese",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Thimphu",
+    "official_language": "Dzongkha",
+    "religion": {
+      "groups": {
+        "Bon": 1.9,
+        "Buddhism": 74.7,
+        "Hinduism": 22.6,
+        "others": 0.8
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "dragon_king": "Jigme Khesar Namgyel Wangchuck",
+      "prime_minister": "Tshering Tobgay"
+    },
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "type": "Unitary parliamentary semi-constitutional monarchy",
+    "upper_house": "National Council"
+  },
+  "history": {
+    "Ascension of the Wangchuk dynasty": "17 December 1907",
+    "Bhutan–India treaty": "8 August 1949",
+    "Constitutional monarchy": "18 July 2008",
+    "Druk Desi period": "1650–1905",
+    "Unification": "1616–1634"
+  },
+  "population": {
+    "density_per_km2": 20.5,
+    "total": 727145,
+    "year": 2022
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+06:00"
+  }
+}

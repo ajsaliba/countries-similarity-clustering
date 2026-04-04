@@ -1,0 +1,92 @@
+{
+  "country": "Mongolia",
+  "area": {
+    "rank": 18,
+    "total_km2": 1564116.0,
+    "water_pct": 0.67
+  },
+  "codes": {
+    "calling_code": "+976",
+    "internet_tld": ".mn",
+    "iso_3166_code": "MN"
+  },
+  "economy": {
+    "currency_code": "MNT",
+    "gdp_nominal": {
+      "per_capita_usd": 7200,
+      "total_billion_usd": 25.8,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 20450,
+      "total_billion_usd": 73.28,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 32.7,
+      "year": 2018
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 104,
+      "value": 0.747,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Ulaanbaatar",
+    "chairman_of_the_state_great_khural": "Nyam-Osoryn Uchral",
+    "demonym": "Mongolian , Mongol",
+    "ethnic_groups": {
+      "groups": {
+        "Kazakhs": 3.8,
+        "Mongols": 95.6,
+        "other": 0.6
+      },
+      "year": 2020
+    },
+    "largest_city": "Ulaanbaatar",
+    "official_language": "Mongolian ( Buriat Khalkha Oirat )",
+    "official_script": "Mongolian Cyrillic",
+    "religion": {
+      "groups": {
+        "Buddhism": 51.7,
+        "Christianity": 1.3,
+        "Islam": 3.2,
+        "No religion": 40.6,
+        "Shamanism": 2.5,
+        "other": 0.7
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Ukhnaagiin Khürelsükh",
+      "prime_minister": "Gombojavyn Zandanshatar"
+    },
+    "legislature": "State Great Khural",
+    "lower_house": null,
+    "type": "Unitary semi-presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Bogd Khanate": "29 December 1911",
+    "Completion of Qing conquest": "1696, 1758",
+    "Current constitution": "12 February 1992",
+    "Mongol Empire": 1206,
+    "Mongolian People's Republic": "26 November 1924",
+    "Northern Yuan": 1368,
+    "Yuan Dynasty": 1260
+  },
+  "population": {
+    "density_per_km2": 2.24,
+    "total": 3504741,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+07:00"
+  }
+}

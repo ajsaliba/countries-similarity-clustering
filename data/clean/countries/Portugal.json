@@ -1,0 +1,85 @@
+{
+  "country": "Portugal",
+  "area": {
+    "rank": 92,
+    "total_km2": 156597.0,
+    "water_pct": 1.2
+  },
+  "codes": {
+    "calling_code": "+351",
+    "internet_tld": ".pt",
+    "iso_3166_code": "PT"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 33972,
+      "total_billion_usd": 364.527,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 51853,
+      "total_billion_usd": 556.383,
+      "year": 2026
+    },
+    "gini": {
+      "category": "medium",
+      "value": 31.9,
+      "year": 2024
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 40,
+      "value": 0.89,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Lisbon",
+    "demonym": "Portuguese",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Lisbon",
+    "national_language": "Portuguese Sign Language",
+    "official_language": "Portuguese",
+    "recognized_regional_languages": "Mirandese",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "António José Seguro",
+      "prime_minister": "Luís Montenegro",
+      "speaker": "José Pedro Aguiar-Branco"
+    },
+    "legislature": "Assembly of the Republic",
+    "lower_house": null,
+    "type": "Unitary semi-presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Battle of Ourique": "25 July 1139",
+    "Conference of Zamora": "4–5 October 1143",
+    "County": 868,
+    "Current constitution": "25 April 1976",
+    "Democratisation": "25 April 1974",
+    "First constitution": "23 September 1822",
+    "Manifestis Probatum": "23 May 1179",
+    "Republic": "5 October 1910",
+    "Restoration": "1 December 1640",
+    "Sovereignty": "24 June 1128"
+  },
+  "population": {
+    "density_per_km2": 116.6,
+    "total": 10749635,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": "UTC+01:00",
+    "timezone_utc": "UTC+00:00"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "country": "Djibouti",
+  "area": {
+    "rank": 146,
+    "total_km2": 23200.0,
+    "water_pct": 0.09
+  },
+  "codes": {
+    "calling_code": "+253",
+    "internet_tld": ".dj",
+    "iso_3166_code": "DJ"
+  },
+  "economy": {
+    "currency_code": "DJF",
+    "gdp_nominal": {
+      "per_capita_usd": 3761,
+      "total_billion_usd": 3.873,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 6985,
+      "total_billion_usd": 7.193,
+      "year": 2023
+    },
+    "gini": {
+      "category": "medium",
+      "value": 41.6,
+      "year": 2017
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 175,
+      "value": 0.513,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Djibouti City",
+    "demonym": "Djiboutian",
+    "ethnic_groups": {
+      "groups": {
+        "Afar": 60.0,
+        "Arabs": 35.0
+      },
+      "year": null
+    },
+    "largest_city": "Djibouti City",
+    "national_language": "Somali Afar",
+    "official_language": "Arabic French",
+    "religion": {
+      "groups": {
+        "Christianity": 6.0,
+        "Islam ( official )": 94.0,
+        "Non-denominational": 8.0,
+        "Other": 3.0,
+        "Shia": 2.0,
+        "Sunni": 87.0
+      },
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Ismaïl Omar Guelleh",
+      "prime_minister": "Abdoulkader Kamil Mohamed"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary dominant-party presidential republic under a hereditary dictatorship",
+    "upper_house": null
+  },
+  "history": {
+    "Current constitution": "4 September 1992",
+    "Independence from France": "27 June 1977"
+  },
+  "population": {
+    "density_per_km2": 46.0,
+    "total": 1066809,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

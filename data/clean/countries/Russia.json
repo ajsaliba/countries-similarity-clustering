@@ -1,0 +1,90 @@
+{
+  "country": "Russia",
+  "area": {
+    "rank": null,
+    "total_km2": 17098246.0,
+    "water_pct": 13.0
+  },
+  "codes": {
+    "calling_code": "+7",
+    "internet_tld": ".ru",
+    "iso_3166_code": "RU"
+  },
+  "economy": {
+    "currency_code": "RUB",
+    "gdp_nominal": {
+      "per_capita_usd": 17446,
+      "total_billion_usd": 2541.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 49049,
+      "total_billion_usd": 7143.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 36.0,
+      "year": 2020
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 64,
+      "value": 0.832,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Moscow",
+    "demonym": "Russian",
+    "ethnic_groups": {
+      "groups": {
+        "Bashkir": 1.1,
+        "Chechen": 1.1,
+        "Russian": 71.7,
+        "Tatar": 3.2,
+        "not reported": 11.6,
+        "other": 11.3
+      },
+      "year": 2021
+    },
+    "largest_city": "Moscow",
+    "official_language": "Russian",
+    "recognized_regional_languages": "35 regional official languages",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Vladimir Putin",
+      "prime_minister": "Mikhail Mishustin"
+    },
+    "legislature": "Federal Assembly",
+    "lower_house": "State Duma",
+    "type": "Federal semi-presidential republic under an authoritarian dictatorship",
+    "upper_house": "Federation Council"
+  },
+  "history": {
+    "Current constitution": "12 December 1993",
+    "Declaration of State Sovereignty": "12 June 1990",
+    "Kievan Rus'": 882,
+    "Monarchy abolished": "15 March 1917",
+    "Principality of Moscow": 1282,
+    "Russian Empire": "2 November 1721",
+    "Russian Federation": "12 December 1991",
+    "Soviet Union": "30 December 1922",
+    "Tsardom of Russia": "16 January 1547",
+    "Vladimir-Suzdal": 1157
+  },
+  "population": {
+    "density_per_km2": 8.4,
+    "total": 146028325,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+02:00"
+  }
+}

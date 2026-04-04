@@ -1,0 +1,111 @@
+{
+  "country": "Myanmar",
+  "area": {
+    "rank": 39,
+    "total_km2": 676579.0,
+    "water_pct": 3.06
+  },
+  "codes": {
+    "calling_code": "+95",
+    "internet_tld": ".mm",
+    "iso_3166_code": "MM"
+  },
+  "economy": {
+    "currency_code": "MMK",
+    "gdp_nominal": {
+      "per_capita_usd": 1110,
+      "total_billion_usd": 60.56,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 4950,
+      "total_billion_usd": 273.2,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 30.7,
+      "year": 2017
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 150,
+      "value": 0.609,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Naypyidaw",
+    "demonym": "Burmese Myanmar Myanma",
+    "ethnic_groups": {
+      "groups": {
+        "Bamar": 68.78,
+        "Chin": 2.09,
+        "Kachin": 1.5,
+        "Karen": 6.69,
+        "Karenni": 0.39,
+        "Mon": 2.19,
+        "Rakhine": 4.61,
+        "Shan": 4.51
+      },
+      "year": 2019
+    },
+    "largest_city": "Yangon",
+    "official_language": "Burmese",
+    "recognized_regional_languages": "Chin Kachin Karen Kayah Mon Rakhine Shan",
+    "religion": {
+      "groups": {
+        "Buddhism ( official )": 87.9,
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 1.29,
+            "Protestantism": 4.91
+          },
+          "percentage": 6.2
+        },
+        "Islam": 4.3,
+        "folk religion": {
+          "breakdown": {
+            "Hinduism": 0.5,
+            "no religion": 0.1
+          },
+          "percentage": 0.8
+        },
+        "other": 0.2
+      },
+      "year": 2014
+    },
+    "sspc_chairman": "Min Aung Hlaing",
+    "sspc_vice_chairman": "Soe Win"
+  },
+  "government": {
+    "leaders": {
+      "president": "Min Aung Hlaing (acting)",
+      "prime_minister": "Nyo Saw"
+    },
+    "legislature": "Pyidaungsu Hluttaw",
+    "lower_house": "Pyithu Hluttaw",
+    "type": "Unitary assembly-independent republic under a military junta",
+    "upper_house": "Amyotha Hluttaw"
+  },
+  "history": {
+    "1962 coup d'état": "2 March 1962",
+    "1988 coup d'état": "18 September 1988",
+    "2021 coup d'état": "1 February 2021",
+    "Colonial era": "1 January 1886",
+    "Current constitution": "29 May 2008",
+    "Independence from the United Kingdom": "4 January 1948",
+    "Konbaung era": "29 February 1752",
+    "Pagan era": "23 December 849",
+    "Taungoo era": "16 October 1510"
+  },
+  "population": {
+    "density_per_km2": 217.0,
+    "total": 55770232,
+    "year": 2022
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+06:30"
+  }
+}

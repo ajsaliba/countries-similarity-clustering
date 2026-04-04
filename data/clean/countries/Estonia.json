@@ -1,0 +1,93 @@
+{
+  "country": "Estonia",
+  "area": {
+    "rank": null,
+    "total_km2": 45335.0,
+    "water_pct": 4.6
+  },
+  "codes": {
+    "calling_code": "+372",
+    "internet_tld": ".ee",
+    "iso_3166_code": "EE"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 37195,
+      "total_billion_usd": 45.0,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 50758,
+      "total_billion_usd": 68.24,
+      "year": 2026
+    },
+    "gini": {
+      "category": "medium",
+      "value": 30.6,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 36,
+      "value": 0.905,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Tallinn",
+    "demonym": "Estonian",
+    "ethnic_groups": {
+      "groups": {
+        "Estonians": 68.5,
+        "Russians": 20.9,
+        "Ukrainians": 5.4,
+        "other": 4.6,
+        "undeclared": 0.6
+      },
+      "year": 2025
+    },
+    "largest_city": "Tallinn",
+    "official_language": "Estonian",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Eastern Orthodoxy": 16.3,
+            "Lutheranism": 7.7,
+            "other Christian": 2.7
+          },
+          "percentage": 26.7
+        },
+        "irreligion": 58.4,
+        "other": 2.1,
+        "undeclared": 12.7
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Alar Karis",
+      "prime_minister": "Kristen Michal"
+    },
+    "legislature": "Riigikogu",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Declaration of Independence": "24 February 1918",
+    "German and Soviet occupations": "1940–1991",
+    "Restoration of Independence": "20 August 1991"
+  },
+  "population": {
+    "density_per_km2": 30.3,
+    "total": 1362954,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": "UTC+03:00",
+    "timezone_utc": "UTC+02:00"
+  }
+}

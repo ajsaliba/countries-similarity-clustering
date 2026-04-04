@@ -1,0 +1,95 @@
+{
+  "country": "Poland",
+  "area": {
+    "rank": 69,
+    "total_km2": 312696.0,
+    "water_pct": 1.48
+  },
+  "codes": {
+    "calling_code": "+48",
+    "internet_tld": ".pl",
+    "iso_3166_code": "PL"
+  },
+  "economy": {
+    "currency_code": "PLN",
+    "gdp_nominal": {
+      "per_capita_usd": 28484,
+      "total_billion_usd": 1039.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 55340,
+      "total_billion_usd": 2019.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 26.3,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 35,
+      "value": 0.906,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Warsaw",
+    "demonym": "Polish Pole",
+    "ethnic_groups": {
+      "groups": {
+        "Polish": 98.8,
+        "Polish and others": 2.6,
+        "only Polish": 96.3,
+        "only non-Polish": 1.1
+      },
+      "year": 2021
+    },
+    "largest_city": "Warsaw",
+    "official_language": "Polish",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 71.3,
+            "other Christian": 1.1
+          },
+          "percentage": 72.4
+        },
+        "no religion": 6.9,
+        "other": 0.1,
+        "unanswered": 20.6
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Karol Nawrocki",
+      "prime_minister": "Donald Tusk"
+    },
+    "legislature": "Parliament",
+    "lower_house": "Sejm",
+    "type": "Unitary parliamentary republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Baptism of Poland": "14 April 966",
+    "Government-in-exile": "17 September 1939",
+    "Kingdom of Poland": "18 April 1025",
+    "People's Republic": "22 July 1944",
+    "Polish–Lithuanian Commonwealth": "1 July 1569",
+    "Second Republic": "11 November 1918",
+    "Third Republic": "31 December 1989"
+  },
+  "population": {
+    "density_per_km2": 126.0,
+    "total": 37893970,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

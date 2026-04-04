@@ -1,0 +1,92 @@
+{
+  "country": "Kazakhstan",
+  "area": {
+    "rank": 9,
+    "total_km2": 2724900.0,
+    "water_pct": 1.7
+  },
+  "codes": {
+    "calling_code": "+7",
+    "internet_tld": ".kz",
+    "iso_3166_code": "KZ"
+  },
+  "economy": {
+    "currency_code": "KZT",
+    "gdp_nominal": {
+      "per_capita_usd": 14770,
+      "total_billion_usd": 300.54,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 44450,
+      "total_billion_usd": 904.5,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 27.8,
+      "year": 2018
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 60,
+      "value": 0.837,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Astana",
+    "demonym": "Kazakh Kazakhstani",
+    "ethnic_groups": {
+      "groups": {
+        "German": 1.1,
+        "Kazakh": 71.3,
+        "Russian": 14.6,
+        "Tatar": 1.1,
+        "Ukrainian": 1.8,
+        "Uyghur": 1.5,
+        "Uzbek": 3.3,
+        "others": 5.3
+      },
+      "year": 2025
+    },
+    "largest_city": "Almaty",
+    "official_language": "Kazakh Russian",
+    "recognized_languages": "Details / Current",
+    "religion": {
+      "groups": {
+        "Christianity": 17.2,
+        "Islam": 69.3,
+        "no religion": 2.3,
+        "other": 0.2,
+        "unanswered": 11.0
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Kassym-Jomart Tokayev",
+      "prime_minister": "Oljas Bektenov"
+    },
+    "legislature": "Parliament",
+    "lower_house": "Mäjilis",
+    "type": "Unitary presidential republic under an authoritarian government",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Independence from the Soviet Union": "16 December 1991",
+    "Kazakh ASSR": "26 August 1920",
+    "Kazakh Khanate": "c. 1465",
+    "Kazakh SSR": "5 December 1936"
+  },
+  "population": {
+    "density_per_km2": 7.44,
+    "total": 20495975,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+05:00"
+  }
+}

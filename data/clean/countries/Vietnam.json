@@ -1,0 +1,107 @@
+{
+  "country": "Vietnam",
+  "area": {
+    "rank": 66,
+    "total_km2": 331344.82,
+    "water_pct": 6.38
+  },
+  "codes": {
+    "calling_code": "+84",
+    "internet_tld": ".vn",
+    "iso_3166_code": "VN"
+  },
+  "economy": {
+    "currency_code": "VND",
+    "gdp_nominal": {
+      "per_capita_usd": 4806,
+      "total_billion_usd": 490.97,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 17484,
+      "total_billion_usd": 1786.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 36.1,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 93,
+      "value": 0.766,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Hanoi",
+    "demonym": "Vietnamese Viet (colloquial)",
+    "ethnic_groups": {
+      "groups": {
+        "Kinh Vietnamese": 85.32,
+        "other": 14.68
+      },
+      "year": 2019
+    },
+    "general_secretary": "Tô Lâm",
+    "largest_city": "Hanoi",
+    "largest_city_by_municipal_boundary": "Da Nang 16°20′N 107°35′E ﻿ / ﻿ 16.333°N 107.583°E ﻿ / 16.333; 107.583",
+    "national_assembly_chairman": "Trần Thanh Mẫn",
+    "official_language": "Vietnamese",
+    "religion": {
+      "groups": {
+        "Catholicism": {
+          "breakdown": {
+            "Buddhism": 4.79,
+            "Hoahaoism": 1.02
+          },
+          "percentage": 6.1
+        },
+        "Protestantism": {
+          "breakdown": {
+            "Caodaism": 0.58,
+            "Islam": 0.07,
+            "other": 0.12
+          },
+          "percentage": 1.0
+        },
+        "no religion / folk": 86.32
+      },
+      "year": 2019
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Lương Cường",
+      "prime_minister": "Phạm Minh Chính"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary communist state",
+    "upper_house": null
+  },
+  "history": {
+    "Current constitution": "28 November 2013",
+    "Declaration of independence": "2 September 1945",
+    "End of Vietnam War": "30 April 1975",
+    "Han's annexation": "111 BC",
+    "Independence from China": 939,
+    "Nguyễn 's unification": 1802,
+    "North–South partition": "21 July 1954",
+    "Protectorate Treaty": "25 August 1883",
+    "Regaining independence": 1428,
+    "Reunification": "2 July 1976",
+    "Văn Lang": "7th century BC",
+    "Âu Lạc": "3rd century BC"
+  },
+  "population": {
+    "density_per_km2": 309.0,
+    "total": 102300000,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+07:00"
+  }
+}

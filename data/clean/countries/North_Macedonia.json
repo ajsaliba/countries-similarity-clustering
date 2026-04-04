@@ -1,0 +1,98 @@
+{
+  "country": "North Macedonia",
+  "area": {
+    "rank": 145,
+    "total_km2": 25436.0,
+    "water_pct": 1.1
+  },
+  "codes": {
+    "calling_code": "+389",
+    "internet_tld": ".mk",
+    "iso_3166_code": "MK"
+  },
+  "economy": {
+    "currency_code": "MKD",
+    "gdp_nominal": {
+      "per_capita_usd": 9882,
+      "total_billion_usd": 17.885,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 29475,
+      "total_billion_usd": 53.345,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 29.8,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 68,
+      "value": 0.815,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Skopje",
+    "chairman_of_the_assembly": "Afrim Gashi",
+    "demonym": "Macedonian",
+    "ethnic_groups": {
+      "groups": {
+        "Albanians": 24.3,
+        "Aromanians (including Megleno-Romanians )": 0.5,
+        "Bosniaks": 0.9,
+        "Macedonians": 58.4,
+        "Roma": 2.5,
+        "Serbs": 1.3,
+        "Turks": 3.9,
+        "other (including undeclared and unknown)": 1.0,
+        "persons for whom data are taken from administrative sources": 7.2
+      },
+      "year": 2021
+    },
+    "largest_city": "Skopje",
+    "official_language": "Macedonian Albanian",
+    "official_regional_languages": "Turkish Romani Serbian Bosnian Aromanian",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Eastern Orthodoxy": 46.1,
+            "other Christian": 14.3
+          },
+          "percentage": 60.4
+        },
+        "Islam": 32.2,
+        "data taken from administrative sources": 7.2,
+        "no religion": 0.1,
+        "other": 0.1
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Gordana Siljanovska-Davkova",
+      "prime_minister": "Hristijan Mickoski"
+    },
+    "legislature": "Assembly",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Independence referendum": "8 September 1991",
+    "Socialist Republic of Macedonia": "2 August 1944"
+  },
+  "population": {
+    "density_per_km2": 71.43,
+    "total": 1836713,
+    "year": 2021
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

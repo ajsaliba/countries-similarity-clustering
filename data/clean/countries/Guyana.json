@@ -1,0 +1,96 @@
+{
+  "country": "Guyana",
+  "area": {
+    "rank": 83,
+    "total_km2": 214969.0,
+    "water_pct": 8.4
+  },
+  "codes": {
+    "calling_code": "+592",
+    "internet_tld": ".gy",
+    "iso_3166_code": "GY"
+  },
+  "economy": {
+    "currency_code": "GYD",
+    "gdp_nominal": {
+      "per_capita_usd": 32326,
+      "total_billion_usd": 25.822,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 94258,
+      "total_billion_usd": 75.294,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 44.6,
+      "year": 2007
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 89,
+      "value": 0.776,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Georgetown",
+    "demonym": "Guyanese",
+    "ethnic_groups": {
+      "groups": {
+        "African": 32.3,
+        "Chinese": 0.2,
+        "European": 0.3,
+        "Indian": 44.4,
+        "Indigenous": 10.5,
+        "Mixed": 20.0
+      },
+      "year": 2024
+    },
+    "largest_city": "Georgetown",
+    "official_language": "English",
+    "other_languages": "6 languages Guyanese Hindustani Portuguese Dutch Spanish Chinese",
+    "recognized_regional_languages": "10 indigenous languages Akawaio Macushi Waiwai Arawak (Lokono) Patamona Warao Carib Wapishana Pemon (Arekuna) Mawayana",
+    "religion": {
+      "groups": {
+        "Christianity": 55.5,
+        "Hinduism": 31.0,
+        "Islam": 9.5,
+        "no religion": 4.2,
+        "others": 3.3
+      },
+      "year": 2024
+    },
+    "vernacular_language": "Guyanese Creole"
+  },
+  "government": {
+    "leaders": {
+      "acting_chief_justice": "Roxane George-Wiltshire",
+      "president": "Irfaan Ali",
+      "prime_minister__first_vice_president": "Mark Phillips",
+      "second_vice_president": "Bharrat Jagdeo",
+      "speaker_of_the_national_assembly": "Manzoor Nadir"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic with an executive presidency",
+    "upper_house": null
+  },
+  "history": {
+    "British Guiana": "1831–1966",
+    "Current constitution": "6 October 1980",
+    "Independence from the United Kingdom as Guyana": "26 May 1966",
+    "Joined CARICOM at the Treaty of Chaguaramas": "1 August 1973",
+    "Republic": "23 February 1970"
+  },
+  "population": {
+    "density_per_km2": 4.25,
+    "total": 950986,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-04:00"
+  }
+}

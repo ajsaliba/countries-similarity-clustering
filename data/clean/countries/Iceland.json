@@ -1,0 +1,100 @@
+{
+  "country": "Iceland",
+  "area": {
+    "rank": 106,
+    "total_km2": 103125.0,
+    "water_pct": 2.07
+  },
+  "codes": {
+    "calling_code": "+354",
+    "internet_tld": ".is",
+    "iso_3166_code": "IS"
+  },
+  "economy": {
+    "currency_code": "ISK",
+    "gdp_nominal": {
+      "per_capita_usd": 90280,
+      "total_billion_usd": 35.31,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 81220,
+      "total_billion_usd": 31.076,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 23.2,
+      "year": 2018
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 1,
+      "value": 0.972,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Reykjavík",
+    "demonym": "Icelander Icelandic",
+    "ethnic_groups": {
+      "groups": {
+        "Filipino": 0.8,
+        "Icelandic": 86.0,
+        "Lithuanian": 1.0,
+        "Polish": 6.0,
+        "other": 7.0
+      },
+      "year": 2021
+    },
+    "largest_city": "Reykjavík",
+    "official_language": "Icelandic",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Church of Iceland ( official )": 60.9,
+            "other Christian": 11.5
+          },
+          "percentage": 72.4
+        },
+        "no religion": 25.2,
+        "other": 0.9,
+        "Ásatrúarfélagið": 1.5
+      },
+      "year": 2022
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Halla Tómasdóttir",
+      "prime_minister": "Kristrún Frostadóttir",
+      "speaker_of_the_althing": "Þórunn Sveinbjarnardóttir"
+    },
+    "legislature": "Althing",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Ceded to Denmark": "14 January 1814",
+    "Commonwealth": "930–1262",
+    "Constitution and limited home rule": "5 January 1874",
+    "Denmark–Norway": "1523–1814",
+    "Extended home rule": "1 February 1904",
+    "Kalmar Union": "1397–1523",
+    "Republic": "17 June 1944 ; 81 years ago ( 17 June 1944 )",
+    "Settlement": "9th century",
+    "Sovereignty and personal union with Denmark": "1 December 1918",
+    "Union with Norway": "1262–1397"
+  },
+  "population": {
+    "density_per_km2": 3.78,
+    "total": 394530,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+00:00"
+  }
+}

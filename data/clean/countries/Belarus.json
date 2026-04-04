@@ -1,0 +1,97 @@
+{
+  "country": "Belarus",
+  "area": {
+    "rank": 84,
+    "total_km2": 207600.0,
+    "water_pct": 2.26
+  },
+  "codes": {
+    "calling_code": "+375",
+    "internet_tld": ".by",
+    "iso_3166_code": "BY"
+  },
+  "economy": {
+    "currency_code": "BYN",
+    "gdp_nominal": {
+      "per_capita_usd": 7477,
+      "total_billion_usd": 68.864,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 24016,
+      "total_billion_usd": 221.186,
+      "year": 2023
+    },
+    "gini": {
+      "category": "low",
+      "value": 25.3,
+      "year": 2019
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 65,
+      "value": 0.824,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Minsk",
+    "demonym": "Belarusian",
+    "ethnic_groups": {
+      "groups": {
+        "Belarusians": 84.9,
+        "Poles": 3.1,
+        "Russians": 7.5,
+        "Ukrainians": 1.7,
+        "other": 2.8
+      },
+      "year": 2019
+    },
+    "internationally_recognised__dissolution_of_the_soviet_union_": {
+      "Current constitution": "15 March 1994",
+      "Details": "26 December 1991"
+    },
+    "largest_city": "Minsk",
+    "official_language": "Belarusian Russian a",
+    "other_languages": "Polish Ukrainian Yiddish",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Eastern Orthodoxy": 83.3,
+            "other Christian": 7.7
+          },
+          "percentage": 91.0
+        },
+        "no religion": 7.8,
+        "other": 1.2
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Alexander Lukashenko",
+      "prime_minister": "Alexander Turchin"
+    },
+    "legislature": "National Assembly",
+    "lower_house": "House of Representatives",
+    "type": "Unitary semi-presidential republic under an authoritarian dictatorship",
+    "upper_house": "Council of the Republic"
+  },
+  "history": {
+    "Belarusian People's Republic": "25 March 1918",
+    "Byelorussian Soviet Socialist Republic": "31 July 1920",
+    "Declaration of Independence": "25 August 1991",
+    "Kievan Rus'": 882
+  },
+  "population": {
+    "density_per_km2": 43.9,
+    "total": 9109280,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

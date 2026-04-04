@@ -1,0 +1,101 @@
+{
+  "country": "Liechtenstein",
+  "area": {
+    "rank": 190,
+    "total_km2": 160.5,
+    "water_pct": 2.7
+  },
+  "codes": {
+    "calling_code": "+423",
+    "internet_tld": ".li",
+    "iso_3166_code": "LI"
+  },
+  "economy": {
+    "currency_code": "CHF",
+    "gdp_nominal": {
+      "per_capita_usd": 207974,
+      "total_billion_usd": 8.288,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 210600,
+      "total_billion_usd": 7.172,
+      "year": 2024
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 17,
+      "value": 0.938,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Vaduz",
+    "demonym": "Liechtensteiner",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Vaduz",
+    "largest_municipality": "Schaan 47°10′00″N 9°30′35″E ﻿ / ﻿ 47.16667°N 9.50972°E ﻿ / 47.16667; 9.50972",
+    "monarch": "Hans-Adam II",
+    "nationality_2017": {
+      "Albanians": "1.1%",
+      "Austrians": "5.8%",
+      "Germans": "4.2%",
+      "Italians": "3.1%",
+      "Liechtensteiners": "66.2%",
+      "Portuguese": "1.9%",
+      "Spaniards": "1%",
+      "Swiss": "9.5%",
+      "Turks": "1.6%",
+      "other": "5.6%"
+    },
+    "official_language": "German",
+    "regent_and_heir_apparent": "Alois",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism ( official )": 69.6,
+            "other Christian": 9.8
+          },
+          "percentage": 79.4
+        },
+        "Islam": 6.0,
+        "no religion": 9.6,
+        "other": 5.0
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "deputy_prime_minister": "Sabine Monauni",
+      "prime_minister": "Brigitte Haas"
+    },
+    "legislature": "Landtag",
+    "lower_house": null,
+    "type": "Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy",
+    "upper_house": null
+  },
+  "history": {
+    "Separation from German Confederation": "23 August 1866",
+    "Treaty of Pressburg": "12 July 1806",
+    "Union between Vaduz and Schellenberg": "23 January 1719"
+  },
+  "population": {
+    "density_per_km2": 249.0,
+    "total": 41232,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

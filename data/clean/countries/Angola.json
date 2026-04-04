@@ -1,0 +1,96 @@
+{
+  "country": "Angola",
+  "area": {
+    "rank": 22,
+    "total_km2": 1246700.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+244",
+    "internet_tld": ".ao",
+    "iso_3166_code": "AO"
+  },
+  "economy": {
+    "currency_code": "AOA",
+    "gdp_nominal": {
+      "per_capita_usd": 2880,
+      "total_billion_usd": 113.34,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 10230,
+      "total_billion_usd": 402.16,
+      "year": 2025
+    },
+    "gini": {
+      "category": "high",
+      "value": 51.3,
+      "year": 2018
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 148,
+      "value": 0.616,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Luanda",
+    "demonym": "Angolan",
+    "ethnic_groups": {
+      "groups": {
+        "Ambundu": 25.0,
+        "Asian": 2.0,
+        "Bakongo": 13.0,
+        "European": 1.0,
+        "Mestiço (mixed European and African)": 2.0,
+        "Ovimbundu": 37.0,
+        "other African": 21.0
+      },
+      "year": 2021
+    },
+    "largest_city": "Luanda",
+    "national_language": "Chokwe , Kimbundu , Kikongo , Oshiwambo , Luchazi , Umbundu",
+    "official_language": "Portuguese",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholic": 44.2,
+            "Protestant": 34.9
+          },
+          "percentage": 79.1
+        },
+        "no religion": 11.5,
+        "other": 9.4
+      },
+      "year": 2024
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Ademilson Loboto",
+      "president": "João Lourenço",
+      "president_of_the_national_assembly": "Adão Correia de Almeida",
+      "vice_president": "Esperança da Costa"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Current constitution": "21 January 2010",
+    "Granted": "11 November 1975",
+    "United Nations full membership": "22 November 1976"
+  },
+  "population": {
+    "density_per_km2": 29.4,
+    "total": 36604681,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+01:00"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "country": "Solomon Islands",
+  "area": {
+    "rank": 139,
+    "total_km2": 28896.0,
+    "water_pct": 3.2
+  },
+  "codes": {
+    "calling_code": "+677",
+    "internet_tld": ".sb",
+    "iso_3166_code": "SB"
+  },
+  "economy": {
+    "currency_code": "SBD",
+    "gdp_nominal": {
+      "per_capita_usd": 220525,
+      "total_billion_usd": 1.681,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 220525,
+      "total_billion_usd": 1.68,
+      "year": 2024
+    },
+    "gini": {
+      "category": "medium",
+      "value": 37.1,
+      "year": 2013
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 156,
+      "value": 0.584,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Honiara",
+    "demonym": "Solomon Islander Solomonese",
+    "ethnic_groups": {
+      "groups": {
+        "Melanesian": 95.3,
+        "Micronesian": 1.2,
+        "Polynesian": 3.1,
+        "others": 0.4
+      },
+      "year": 2016
+    },
+    "governor_general": "David Tiva Kapu",
+    "largest_city": "Honiara",
+    "lingua_franca": "Pijin",
+    "monarch": "Charles III",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Catholicism": 19.5,
+        "Christianity": 97.4,
+        "Protestantism": 78.6,
+        "folk religions": 1.2,
+        "other Christian": 1.9,
+        "others / none": 1.4
+      },
+      "year": 2016
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Jeremiah Manele"
+    },
+    "legislature": "National Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "from the United Kingdom": "7 July 1978"
+  },
+  "population": {
+    "density_per_km2": 24.2,
+    "total": 828857,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+11:00"
+  }
+}

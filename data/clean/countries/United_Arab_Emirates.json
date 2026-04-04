@@ -1,0 +1,101 @@
+{
+  "country": "United Arab Emirates",
+  "area": {
+    "rank": 114,
+    "total_km2": 83600.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+971",
+    "internet_tld": ".ae",
+    "iso_3166_code": "AE"
+  },
+  "economy": {
+    "currency_code": "AED",
+    "gdp_nominal": {
+      "per_capita_usd": 49550,
+      "total_billion_usd": 548.6,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 81680,
+      "total_billion_usd": 905.23,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 26.0,
+      "year": 2018
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 15,
+      "value": 0.94,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Abu Dhabi",
+    "demonym": "Emirati",
+    "ethnic_groups": {
+      "groups": {
+        "Bangladeshi": 9.5,
+        "Egyptian": 10.2,
+        "Emirati Arab": 12.0,
+        "Filipino": 6.1,
+        "Indian": 38.2,
+        "Pakistani": 9.4,
+        "South Asian": 59.4,
+        "other": 12.4
+      },
+      "year": 2015
+    },
+    "largest_city": "Dubai",
+    "official_language": "Arabic",
+    "religion": {
+      "groups": {
+        "Christianity": 12.9,
+        "Hinduism": {
+          "breakdown": {
+            "Buddhism": 3.2
+          },
+          "percentage": 6.2
+        },
+        "Islam ( official )": {
+          "breakdown": {
+            "Shia Islam": 6.7,
+            "Sunni Islam": 63.3,
+            "other": 4.4
+          },
+          "percentage": 74.5
+        }
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Mohamed bin Zayed Al Nahyan",
+      "prime_minister": "Mohammed bin Rashid Al Maktoum",
+      "vice_presidents": "Mohammed bin Rashid Al Maktoum Mansour bin Zayed Al Nahyan"
+    },
+    "legislature": "Federal Supreme Council",
+    "lower_house": null,
+    "type": "Federal semi-presidential elective semi-constitutional monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "Admission of Ras Al Khaimah": "10 February 1972",
+    "British protectorate as part of Trucial States": "1820 and 1892",
+    "Independence from the United Kingdom": "2 December 1971"
+  },
+  "population": {
+    "density_per_km2": 132.0,
+    "total": 11027129,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+04:00"
+  }
+}

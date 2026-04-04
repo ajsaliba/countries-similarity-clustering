@@ -1,0 +1,82 @@
+{
+  "country": "Egypt",
+  "area": {
+    "rank": 29,
+    "total_km2": 1010408.0,
+    "water_pct": 0.632
+  },
+  "codes": {
+    "calling_code": "+20",
+    "internet_tld": ".eg",
+    "iso_3166_code": "EG"
+  },
+  "economy": {
+    "currency_code": "EGP",
+    "gdp_nominal": {
+      "per_capita_usd": 3174,
+      "total_billion_usd": 347.342,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 21668,
+      "total_billion_usd": 2372.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 28.5,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 100,
+      "value": 0.754,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Cairo",
+    "demonym": "Egyptian",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Cairo",
+    "national_language": "Egyptian Arabic",
+    "official_language": "Arabic",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Abdel Fattah el-Sisi",
+      "prime_minister": "Mostafa Madbouly"
+    },
+    "legislature": "Parliament",
+    "lower_house": "House of Representatives",
+    "type": "Unitary semi-presidential republic under an authoritarian government",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Alawiyya dynasty inaugurated": "9 July 1805",
+    "Ayyubid dynasty inaugurated": "c. 1171",
+    "Current constitution": "18 January 2014",
+    "Declaration of Independence": "28 February 1922",
+    "Fatimid Caliphate": "c. 973",
+    "Mamluk Egypt": "c. 1261",
+    "Republic declared": "18 June 1953",
+    "Revolution Day": "23 July 1952",
+    "Unification of Upper and Lower Egypt": "c. 3150 BC"
+  },
+  "population": {
+    "density_per_km2": 106.8,
+    "total": 107868296,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC+03:00",
+    "timezone_utc": "UTC+02:00"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "country": "Mauritius",
+  "area": {
+    "rank": 169,
+    "total_km2": 2040.0,
+    "water_pct": 0.07
+  },
+  "codes": {
+    "calling_code": "+230",
+    "internet_tld": ".mu",
+    "iso_3166_code": "MU"
+  },
+  "economy": {
+    "currency_code": "MUR",
+    "gdp_nominal": {
+      "per_capita_usd": 13099,
+      "total_billion_usd": 16.515,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 33954,
+      "total_billion_usd": 42.81,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 36.8,
+      "year": 2017
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 73,
+      "value": 0.806,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Port Louis",
+    "demonym": "Mauritian",
+    "ethnic_groups": {
+      "groups": {
+        "Chinese": 3.0,
+        "Creole": 28.0,
+        "French": 2.0,
+        "Indian": 67.0
+      },
+      "year": null
+    },
+    "language_spoken_at_home_2022": {
+      "Bhojpuri": "5.1%",
+      "English": "0.6%",
+      "French": "4.4%",
+      "Mauritian Creole": "90%"
+    },
+    "largest_city": "Port Louis",
+    "official_language": "None ( de jure ) English French ( de facto )",
+    "religion": {
+      "groups": {
+        "Christianity": 32.3,
+        "Hinduism": 47.9,
+        "Islam": 18.2,
+        "others / none": 1.6
+      },
+      "year": 2022
+    }
+  },
+  "government": {
+    "leaders": {
+      "deputy_prime_minister": "Vacant",
+      "president": "Dharam Gokhool",
+      "prime_minister": "Navin Ramgoolam",
+      "speaker_of_the_national_assembly": "Shirin Aumeeruddy-Cziffra",
+      "vice_president": "Robert Hungley"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Constitution of Mauritius": "12 March 1968",
+    "Republic": "12 March 1992"
+  },
+  "population": {
+    "density_per_km2": 605.5,
+    "total": 1235260,
+    "year": 2022
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+04:00"
+  }
+}

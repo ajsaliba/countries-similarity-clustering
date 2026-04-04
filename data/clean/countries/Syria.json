@@ -1,0 +1,91 @@
+{
+  "country": "Syria",
+  "area": {
+    "rank": 87,
+    "total_km2": 185180.0,
+    "water_pct": 1.1
+  },
+  "codes": {
+    "calling_code": "+963",
+    "internet_tld": ".sy",
+    "iso_3166_code": "SY"
+  },
+  "economy": {
+    "currency_code": "Syrian pound ( SYP/LS )",
+    "gdp_nominal": {
+      "per_capita_usd": 800,
+      "total_billion_usd": 9.8,
+      "year": 2022
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 3300,
+      "total_billion_usd": 50.28,
+      "year": 2021
+    },
+    "gini": {
+      "category": "low",
+      "value": 26.6,
+      "year": 2022
+    },
+    "hdi": {
+      "category": null,
+      "rank": null,
+      "value": null,
+      "year": null
+    }
+  },
+  "general": {
+    "capital": "Damascus",
+    "demonym": "Syrian",
+    "ethnic_groups": {
+      "groups": {
+        "Arabs 9–": 90.0,
+        "Kurds 1–": 10.0,
+        "others": 10.0
+      },
+      "year": 2021
+    },
+    "largest_city": "Damascus",
+    "national_language": "Kurdish",
+    "official_language": "Arabic",
+    "religion": {
+      "groups": {
+        "Alawites": 13.0,
+        "Christianity": 3.84,
+        "Islam": 94.17,
+        "Shia 10–": 14.1,
+        "Sunni": 79.19,
+        "other": 1.99
+      },
+      "year": 2020
+    },
+    "spoken_languages": "Predominantly Arabic List Kurdish Turkish Neo-Aramaic Syriac Circassian Chechen Armenian Greek Domari"
+  },
+  "government": {
+    "leaders": {
+      "president": "Ahmed al-Sharaa"
+    },
+    "legislature": "People's Assembly",
+    "lower_house": null,
+    "type": "Unitary presidential republic under a provisional government",
+    "upper_house": null
+  },
+  "history": {
+    "Arab Kingdom of Syria": "8 March 1920",
+    "Ba'athist Syria": "8 March 1963 – 8 December 2024",
+    "Current provisional government established": "29 March 2025",
+    "End of the French mandate": "17 April 1946",
+    "First Syrian Republic": "14 May 1930",
+    "Part of the United Arab Republic": "22 February 1958 – 28 September 1961",
+    "State of Syria under French mandate": "1 December 1924"
+  },
+  "population": {
+    "density_per_km2": 118.3,
+    "total": 26019711,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

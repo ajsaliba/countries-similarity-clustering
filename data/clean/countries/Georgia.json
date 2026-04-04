@@ -1,0 +1,100 @@
+{
+  "country": "Georgia",
+  "area": {
+    "rank": 119,
+    "total_km2": 69700.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+995",
+    "internet_tld": ".ge",
+    "iso_3166_code": "GE"
+  },
+  "economy": {
+    "currency_code": "GEL",
+    "gdp_nominal": {
+      "per_capita_usd": 10886,
+      "total_billion_usd": 35.35,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 33340,
+      "total_billion_usd": 123049.0,
+      "year": 2026
+    },
+    "gini": {
+      "category": "medium",
+      "value": 34.2,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 57,
+      "value": 0.844,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Tbilisi",
+    "chairperson_of_the_parliament": "Shalva Papuashvili",
+    "demonym": "Georgian",
+    "ethnic_groups": {
+      "groups": {
+        "Armenians": 4.5,
+        "Azerbaijanis": 6.2,
+        "Georgians": 86.8,
+        "Russians": 0.7,
+        "other": 2.1
+      },
+      "year": 2014
+    },
+    "largest_city": "Tbilisi",
+    "official_language": "Georgian",
+    "recognized_regional_languages": "Abkhaz",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Georgian Orthodoxy": 83.4,
+            "other Christian": 3.9
+          },
+          "percentage": 87.3
+        },
+        "Islam": 10.7,
+        "other / none": 2.0
+      },
+      "year": 2014
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Mikheil Kavelashvili",
+      "prime_minister": "Irakli Kobakhidze"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Colchis and Iberia": "13th c. BC – AD 580 ( 580 )",
+    "Current constitution": "24 August 1995",
+    "Independence from Russia": "26 May 1918",
+    "Independence from the Soviet Union • Declared • Finalized": "9 April 1991 26 December 1991 ( 1991-12-26 )",
+    "Kingdom of Abkhazia and Kingdom of the Iberians": "786–1008",
+    "Russian annexation": "1801–1858",
+    "Russian invasion": "12 February 1921",
+    "Soviet annexation": "25 February 1921",
+    "The Tripartite division": "1463–1810",
+    "Unification of Georgia": 1008
+  },
+  "population": {
+    "density_per_km2": 56.3,
+    "total": 3657000,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+04:00"
+  }
+}

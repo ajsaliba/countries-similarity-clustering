@@ -1,0 +1,89 @@
+{
+  "country": "central african republic",
+  "area": {
+    "rank": "44",
+    "total_km2": "622984 0",
+    "water_pct": "0 0"
+  },
+  "codes": {
+    "calling_code": "+236",
+    "internet_tld": ".cf",
+    "iso_3166_code": "CF"
+  },
+  "economy": {
+    "currency_code": "XAF",
+    "gdp_nominal": {
+      "per_capita_usd": "650",
+      "total_billion_usd": "3 71",
+      "year": "2026"
+    },
+    "gdp_ppp": {
+      "per_capita_usd": "1390",
+      "total_billion_usd": "7 94",
+      "year": "2026"
+    },
+    "gini": {
+      "category": "medium",
+      "value": "43 0",
+      "year": "2021"
+    },
+    "hdi": {
+      "category": "low",
+      "rank": "191",
+      "value": "0 414",
+      "year": "2023"
+    }
+  },
+  "general": {
+    "capital": "bangui",
+    "Demonyms": "central african",
+    "ethnic_groups": {
+      "groups": {
+        "#text": {
+          "null": null
+        }
+      },
+      "note": "baggara arabs baka banda bayaka fula gula gbaya kara kresh mbaka mandja ngbandi runga sara vidiri wodaabe yakoma yulu kanuri zande other",
+      "year": "null"
+    },
+    "largest_city": "bangui",
+    "national_language": "sango",
+    "official_language": "french sango co official",
+    "religion": {
+      "groups": {
+        "Christianity": null,
+        "Islam": "13.9",
+        "other / none": "0.9",
+        "traditional faiths": "12.0"
+      },
+      "year": "2025"
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "faustin archange touadéra",
+      "president_of_the_national_assembly": "simplice sarandji",
+      "prime_minister": "félix moloua"
+    },
+    "legislature": "national assembly",
+    "lower_house": "null",
+    "type": "unitary presidential republic",
+    "upper_house": "null"
+  },
+  "history": {
+    "Bokassa I's overthrow and republic restored": "21 september 1979",
+    "Central African Empire established": "4 december 1976",
+    "Coronation of Bokassa I": "4 december 1977",
+    "Republic established": "1 december 1958",
+    "from France": "13 august 1960"
+  },
+  "population": {
+    "density_per_km2": "8.6",
+    "total": "5650957",
+    "year": "2024"
+  },
+  "time": {
+    "timezone_dst": "null",
+    "timezone_utc": "UTC+01:00"
+  }
+}

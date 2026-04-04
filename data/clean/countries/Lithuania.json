@@ -1,0 +1,100 @@
+{
+  "country": "Lithuania",
+  "area": {
+    "rank": 121,
+    "total_km2": 65300.0,
+    "water_pct": 1.98
+  },
+  "codes": {
+    "calling_code": "+370",
+    "internet_tld": ".lt",
+    "iso_3166_code": "LT"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 32982,
+      "total_billion_usd": 95.27,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 57201,
+      "total_billion_usd": 165.23,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 35.7,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 39,
+      "value": 0.895,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Vilnius",
+    "demonym": "Lithuanian",
+    "ethnic_groups": {
+      "groups": {
+        "Belarusians": 2.1,
+        "Lithuanians": 82.3,
+        "Poles": 6.2,
+        "Russians": 5.0,
+        "Ukrainians": 2.2,
+        "others": 2.2
+      },
+      "year": 2025
+    },
+    "largest_city": "Vilnius",
+    "official_language": "Lithuanian",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 74.2,
+            "other Christian": 5.2
+          },
+          "percentage": 79.4
+        },
+        "no answer": 13.7,
+        "no religion": 6.1,
+        "others": 0.8
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Gitanas Nausėda",
+      "prime_minister": "Inga Ruginienė",
+      "seimas_speaker": "Juozas Olekas"
+    },
+    "legislature": "Seimas",
+    "lower_house": null,
+    "type": "Unitary semi-presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Commonwealth created": "1 July 1569",
+    "Coronation of Mindaugas": "6 July 1253",
+    "First mentioned": "9 March 1009",
+    "Grand Duchy": 1236,
+    "Independence reinstated": "16 February 1918",
+    "Independence restored": "11 March 1990",
+    "Partitioned": "24 October 1795",
+    "Soviet occupation": "16 June 1940",
+    "Union with Poland": "2 February 1386"
+  },
+  "population": {
+    "density_per_km2": 46.0,
+    "total": 2897430,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC+03:00",
+    "timezone_utc": "UTC+02:00"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "country": "Belgium",
+  "area": {
+    "rank": 136,
+    "total_km2": 30689.0,
+    "water_pct": 0.64
+  },
+  "codes": {
+    "calling_code": "+32",
+    "internet_tld": ".be",
+    "iso_3166_code": "BE"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 58248,
+      "total_billion_usd": 689.364,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 75187,
+      "total_billion_usd": 889.833,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 24.9,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 10,
+      "value": 0.951,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "City of Brussels",
+    "demonym": "Belgian",
+    "ethnic_groups": {
+      "groups": {
+        "Belgian background": 64.0,
+        "Belgians": 86.1,
+        "foreign background": 22.1,
+        "non-Belgian": 13.8
+      },
+      "year": 2025
+    },
+    "largest_city": "Brussels-Capital Region",
+    "monarch": "Philippe",
+    "official_language": "Dutch French German",
+    "recognized_languages": "Details / Federal",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 31.0,
+            "other Christian": 3.0
+          },
+          "percentage": 34.0
+        },
+        "Islam": 6.0,
+        "no religion": 59.0,
+        "other": 1.0
+      },
+      "year": 2023
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Bart De Wever"
+    },
+    "legislature": "Federal Parliament",
+    "lower_house": "Chamber of Representatives",
+    "type": "Federal parliamentary constitutional monarchy",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Declared": "4 October 1830"
+  },
+  "population": {
+    "density_per_km2": 385.0,
+    "total": 11825551,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

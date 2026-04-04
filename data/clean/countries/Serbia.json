@@ -1,0 +1,102 @@
+{
+  "country": "Serbia",
+  "area": {
+    "rank": 111,
+    "total_km2": 88499.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+381",
+    "internet_tld": ".rs",
+    "iso_3166_code": "RS"
+  },
+  "economy": {
+    "currency_code": "RSD",
+    "gdp_nominal": {
+      "per_capita_usd": 17290,
+      "total_billion_usd": 112.11,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 34790,
+      "total_billion_usd": 225.55,
+      "year": 2026
+    },
+    "gini": {
+      "category": "medium",
+      "value": 31.9,
+      "year": 2024
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 62,
+      "value": 0.833,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Belgrade",
+    "demonym": "Serbian",
+    "ethnic_groups": {
+      "groups": {
+        "Bosniaks": 2.3,
+        "Hungarians": 2.8,
+        "Roma": 2.0,
+        "Serbs": 80.6,
+        "others": 5.4,
+        "undeclared/unknown": 6.9
+      },
+      "year": 2022
+    },
+    "largest_city": "Belgrade",
+    "official_language": "Serbian",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 3.9,
+            "Eastern Orthodoxy": 81.1,
+            "other": 1.7
+          },
+          "percentage": 86.6
+        },
+        "Islam": 4.2,
+        "no religion": 1.1,
+        "undeclared/unknown": 7.9
+      },
+      "year": 2022
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Aleksandar Vučić",
+      "president_of_the_national_assembly": "Ana Brnabić",
+      "prime_minister": "Đuro Macut"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Despotate": 1402,
+    "Empire": 1346,
+    "Kingdom": 1217,
+    "Kingdom of Serbia": 1882,
+    "Kingdom of Yugoslavia": 1918,
+    "Principality": "7th century",
+    "Principality of Serbia": 1815,
+    "Republic of Serbia": 2006,
+    "Serbia and Montenegro ( constituent state )": 1992,
+    "Socialist Yugoslavia ( constituent republic )": 1945
+  },
+  "population": {
+    "density_per_km2": 85.0,
+    "total": 6567783,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

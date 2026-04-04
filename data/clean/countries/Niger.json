@@ -1,0 +1,97 @@
+{
+  "country": "Niger",
+  "area": {
+    "rank": 21,
+    "total_km2": 1267000.0,
+    "water_pct": 0.02
+  },
+  "codes": {
+    "calling_code": "+227",
+    "internet_tld": ".ne",
+    "iso_3166_code": "NE"
+  },
+  "economy": {
+    "currency_code": "XOF",
+    "gdp_nominal": {
+      "per_capita_usd": 751,
+      "total_billion_usd": 21.87,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 2100,
+      "total_billion_usd": 61.04,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 32.9,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 188,
+      "value": 0.419,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Niamey",
+    "demonym": "Nigerien",
+    "ethnic_groups": {
+      "groups": {
+        "Arab": 0.4,
+        "Fulani": 6.5,
+        "Gurma": 0.8,
+        "Hausa": 53.1,
+        "Kanuri": 5.9,
+        "Toubou": 0.4,
+        "Tuareg": 11.0,
+        "Zarma and Songhay": 21.2,
+        "others": 0.9
+      },
+      "year": 2006
+    },
+    "largest_city": "Niamey",
+    "national_language": "Arabic Buduma Fulfulde Gourmanchéma Kanuri Songhai Tamasheq Tassawaq Tebu Zarma",
+    "official_language": "Hausa",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Animism": 0.2
+          },
+          "percentage": 0.3
+        },
+        "Islam": 99.3,
+        "irreligion": 0.1
+      },
+      "year": 2012
+    }
+  },
+  "government": {
+    "leaders": {
+      "president_and_president_of_the_national_council_for_the_safeguard_of_the_homeland": "Abdourahamane Tchiani",
+      "prime_minister": "Ali Lamine Zeine",
+      "vice_president_of_the_national_council_for_the_safeguard_of_the_homeland": "Salifou Modi"
+    },
+    "legislature": "National Council for the Safeguard of the Homeland",
+    "lower_house": null,
+    "type": "Unitary semi-presidential republic under a military junta",
+    "upper_house": null
+  },
+  "history": {
+    "2023 coup d'état": "26 July 2023",
+    "2025 transitional charter": "26 March 2025",
+    "Declared": "3 August 1960",
+    "Republic proclaimed": "18 December 1958"
+  },
+  "population": {
+    "density_per_km2": 21.0,
+    "total": 26342784,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+01:00"
+  }
+}

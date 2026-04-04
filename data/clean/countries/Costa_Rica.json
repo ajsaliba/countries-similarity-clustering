@@ -1,0 +1,96 @@
+{
+  "country": "Costa Rica",
+  "area": {
+    "rank": 126,
+    "total_km2": 51179.92,
+    "water_pct": 1.05
+  },
+  "codes": {
+    "calling_code": "+506",
+    "internet_tld": ".cr",
+    "iso_3166_code": "CR"
+  },
+  "economy": {
+    "currency_code": "CRC",
+    "gdp_nominal": {
+      "per_capita_usd": 19095,
+      "total_billion_usd": 102.591,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 31462,
+      "total_billion_usd": 169.034,
+      "year": 2025
+    },
+    "gini": {
+      "category": "high",
+      "value": 47.2,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 62,
+      "value": 0.833,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "San José",
+    "demonym": "Costa Rican Tico(a)",
+    "ethnic_groups": {
+      "groups": {
+        "Black": 1.1,
+        "Indigenous": 2.4,
+        "Mulatto (mixed Black and White )": 6.7,
+        "White or Mestizo": 83.6,
+        "others": 6.2
+      },
+      "year": 2021
+    },
+    "largest_city": "San José",
+    "official_language": "Spanish",
+    "recognized_by_spain": "10 May 1850",
+    "recognized_regional_languages": "Mekatelyu Bribri Patois",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism ( official )": 47.5,
+            "Protestantism": 22.5,
+            "other Christian": 2.6
+          },
+          "percentage": 72.6
+        },
+        "no religion": 27.0,
+        "others": 0.4
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "first_vice_president": "Mary Munive",
+      "president": "Rodrigo Chaves",
+      "second_vice_president": "Vacant"
+    },
+    "legislature": "Legislative Assembly",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Current constitution": "7 November 1949",
+    "from First Mexican Empire": "1 July 1823",
+    "from Spain": "15 September 1821",
+    "from the Federal Republic of Central America": "14 November 1838"
+  },
+  "population": {
+    "density_per_km2": 220.0,
+    "total": 5160700,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-06:00"
+  }
+}

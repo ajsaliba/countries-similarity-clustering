@@ -1,0 +1,94 @@
+{
+  "country": "Bangladesh",
+  "area": {
+    "rank": 93,
+    "total_km2": 148460.0,
+    "water_pct": 6.4
+  },
+  "codes": {
+    "calling_code": "+880",
+    "internet_tld": ".bd",
+    "iso_3166_code": "BD"
+  },
+  "economy": {
+    "currency_code": "BDT",
+    "gdp_nominal": {
+      "per_capita_usd": 2960,
+      "total_billion_usd": 519.29,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 10850,
+      "total_billion_usd": 1900.0,
+      "year": 2026
+    },
+    "gini": {
+      "category": "medium",
+      "value": 33.4,
+      "year": 2025
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 130,
+      "value": 0.685,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Dhaka",
+    "demonym": "Bangladeshi",
+    "ethnic_groups": {
+      "groups": {
+        "Bengali": 99.0,
+        "others Chakmas Garos Khasis Khumis Manipuris Marmas Mizos Arakanese Mrus Santals Tanchangyas Tripuris Bishnupriyas": 1.0
+      },
+      "year": 2022
+    },
+    "largest_city": "Dhaka",
+    "official_language": "Bengali",
+    "other_languages": "English",
+    "religion": {
+      "groups": {
+        "Buddhism": {
+          "breakdown": {
+            "Christianity": 0.3
+          },
+          "percentage": 0.6
+        },
+        "Hinduism": 7.94,
+        "Islam ( official )": 91.04,
+        "other": 0.12
+      },
+      "year": 2022
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Zubayer Rahman Chowdhury",
+      "president": "Mohammed Shahabuddin",
+      "prime_minister": "Tarique Rahman",
+      "speaker": "Hafiz Uddin Ahmad"
+    },
+    "legislature": "Jatiya Sangsad",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Current constitution": "16 December 1972",
+    "East Bengal": "15 August 1947",
+    "East Pakistan": "29 February 1956",
+    "Proclamation of independence": "26 March 1971",
+    "Provisional government": "10 April 1971",
+    "Victory in the Liberation War": "16 December 1971"
+  },
+  "population": {
+    "density_per_km2": 1165.0,
+    "total": 173562364,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+06:00"
+  }
+}

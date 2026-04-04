@@ -1,0 +1,107 @@
+{
+  "country": "Uganda",
+  "area": {
+    "rank": 79,
+    "total_km2": 241038.0,
+    "water_pct": 15.39
+  },
+  "codes": {
+    "calling_code": "+256",
+    "internet_tld": ".ug",
+    "iso_3166_code": "UG"
+  },
+  "economy": {
+    "currency_code": "UGX",
+    "gdp_nominal": {
+      "per_capita_usd": 1340,
+      "total_billion_usd": 64.28,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 3900,
+      "total_billion_usd": 187.11,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 42.0,
+      "year": 2016
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 157,
+      "value": 0.582,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Kampala",
+    "demonym": "Ugandan",
+    "dialect_of_english": "Uglish",
+    "ethnic_groups": {
+      "groups": {
+        "Acholi": 4.2,
+        "Baganda": 15.3,
+        "Bagisu": 4.5,
+        "Bakiga": 6.4,
+        "Banyankole": 9.1,
+        "Basoga": 8.1,
+        "Iteso": 6.8,
+        "Langi": 5.9,
+        "Lugbara": 2.6,
+        "others": 37.1
+      },
+      "year": 2024
+    },
+    "largest_city": "Kampala",
+    "luganda_": [
+      "Lipabuliika ya Uganda",
+      "Lipabuliika ya Uganda"
+    ],
+    "lumasaba_": "Linambo lya Uganda",
+    "lusoga_": "Uganda Eryetwala",
+    "official_language": "English Swahili",
+    "other_languages": "See Languages of Uganda",
+    "religion": {
+      "groups": {
+        "Christianity": 81.7,
+        "Roman Catholic": {
+          "breakdown": {
+            "Islam": 13.2,
+            "Protestant": 29.0
+          },
+          "percentage": 42.0
+        },
+        "no religion": 0.2,
+        "others": 1.6,
+        "unclassified": 3.3
+      },
+      "year": 2024
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Yoweri Museveni",
+      "prime_minister": "Robinah Nabbanja",
+      "vice_president": "Jessica Alupo"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary presidential republic under a dictatorship",
+    "upper_house": null
+  },
+  "history": {
+    "Current constitution": "8 October 1995",
+    "Dominion": "9 October 1962",
+    "Republic declared": "9 October 1963"
+  },
+  "population": {
+    "density_per_km2": 157.1,
+    "total": 45905417,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

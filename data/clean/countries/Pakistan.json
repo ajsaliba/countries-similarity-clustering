@@ -1,0 +1,86 @@
+{
+  "country": "Pakistan",
+  "area": {
+    "rank": 33,
+    "total_km2": 881913.0,
+    "water_pct": 2.86
+  },
+  "codes": {
+    "calling_code": "+92",
+    "internet_tld": ".pk",
+    "iso_3166_code": "PK"
+  },
+  "economy": {
+    "currency_code": "PKR",
+    "gdp_nominal": {
+      "per_capita_usd": 1710,
+      "total_billion_usd": 410.5,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 6950,
+      "total_billion_usd": 1670.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 29.6,
+      "year": 2018
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 168,
+      "value": 0.544,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Islamabad",
+    "demonym": "Pakistani",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Karachi",
+    "native_languages": "Over 77 languages",
+    "official_language": "Urdu English",
+    "recognized_dominion": {
+      "Current constitution": "14 August 1973",
+      "Details": "14 August 1947",
+      "Eastern territory withdrawn": "16 December 1971",
+      "Last territory's acquisition": "8 December 1958",
+      "Republic": "23 March 1956"
+    },
+    "religion": {
+      "groups": {
+        "Christianity": 1.4,
+        "Hinduism": 2.2,
+        "Islam ( official )": 96.3,
+        "other": 0.1
+      },
+      "year": 2023
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Asif Ali Zardari",
+      "prime_minister": "Shehbaz Sharif"
+    },
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "type": "Federal parliamentary Islamic republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Declaration": "23 March 1940"
+  },
+  "population": {
+    "density_per_km2": 273.8,
+    "total": 241499431,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+05:00"
+  }
+}

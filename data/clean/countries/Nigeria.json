@@ -1,0 +1,109 @@
+{
+  "country": "Nigeria",
+  "area": {
+    "rank": 31,
+    "total_km2": 923769.0,
+    "water_pct": 1.4
+  },
+  "codes": {
+    "calling_code": "+234",
+    "internet_tld": ".ng",
+    "iso_3166_code": "NG"
+  },
+  "economy": {
+    "currency_code": "NGN",
+    "gdp_nominal": {
+      "per_capita_usd": 1200,
+      "total_billion_usd": 285.003,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 9488,
+      "total_billion_usd": 2254.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 35.1,
+      "year": 2020
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 164,
+      "value": 0.56,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Abuja",
+    "demonym": "Nigerian",
+    "ethnic_groups": {
+      "groups": {
+        "Fulani": 6.0,
+        "Hausa": 30.0,
+        "Ibibio": 1.8,
+        "Igbo": 15.2,
+        "Ijaw": 1.8,
+        "Kanuri": 2.4,
+        "Tiv": 2.4,
+        "Yoruba": 15.5,
+        "other": 24.7
+      },
+      "year": 2018
+    },
+    "hausa_": [
+      "Jamhuriyar Tarayyar Najeriya",
+      "Jamhuriyar Tarayyar Najeriya"
+    ],
+    "igbo_": "Ọ̀hàńjíkọ̀ Ọ̀hànézè Naìjíríyà",
+    "largest_city": "Lagos",
+    "official_language": "English",
+    "recognized_languages": "List Hausa Yoruba Igbo",
+    "regional_languages": "Over 525 languages",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholics": 10.6,
+            "Protestants": 35.3
+          },
+          "percentage": 45.9
+        },
+        "Islam": 53.5,
+        "other": 0.6
+      },
+      "year": 2018
+    },
+    "yoruba_": "Orílẹ̀-èdè Olómìniira Àpapọ̀ Nàìjíríà"
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Kudirat Kekere-Ekun",
+      "house_speaker": "Tajudeen Abbas",
+      "president": "Bola Tinubu",
+      "senate_president": "Godswill Akpabio",
+      "vice_president": "Kashim Shettima"
+    },
+    "legislature": "National Assembly",
+    "lower_house": "House of Representatives",
+    "type": "Federal presidential republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Became a republic": "1 October 1963",
+    "Current constitution": "29 May 1999",
+    "Declared independent as a sovereign state": "1 October 1960",
+    "Northern Nigeria Protectorate": "1 January 1900",
+    "Southern Nigeria Protectorate": "1 January 1900",
+    "Unification of Nigeria": "1 January 1914"
+  },
+  "population": {
+    "density_per_km2": 249.8,
+    "total": 236747130,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+01:00"
+  }
+}

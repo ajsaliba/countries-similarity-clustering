@@ -1,0 +1,74 @@
+{
+  "country": "Nauru",
+  "area": {
+    "rank": 193,
+    "total_km2": 21.0,
+    "water_pct": 0.57
+  },
+  "codes": {
+    "calling_code": "+674",
+    "internet_tld": ".nr",
+    "iso_3166_code": "NR"
+  },
+  "economy": {
+    "currency_code": "AUD",
+    "gdp_nominal": {
+      "per_capita_usd": 14274,
+      "total_billion_usd": 0.172,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 10962,
+      "total_billion_usd": 0.132,
+      "year": 2025
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 124,
+      "value": 0.703,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Yaren ( de facto )",
+    "demonym": "Nauruan",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Denigomodu",
+    "official_language": "Nauruan English",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "minister_assisting_the_president": "Lionel Aingimea",
+      "president": "David Adeang",
+      "speaker_of_the_parliament": "Marcus Stephen"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic with an executive presidency under a non-partisan democracy",
+    "upper_house": null
+  },
+  "history": {
+    "Declaration of independence": "31 January 1968"
+  },
+  "population": {
+    "density_per_km2": 480.0,
+    "total": 12025,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+12:00"
+  }
+}

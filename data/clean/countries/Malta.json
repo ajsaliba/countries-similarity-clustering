@@ -1,0 +1,94 @@
+{
+  "country": "Malta",
+  "area": {
+    "rank": 187,
+    "total_km2": 316.0,
+    "water_pct": 0.001
+  },
+  "codes": {
+    "calling_code": "+356",
+    "internet_tld": ".mt",
+    "iso_3166_code": "MT"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 41738,
+      "total_billion_usd": 22.737,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 67682,
+      "total_billion_usd": 36.87,
+      "year": 2024
+    },
+    "gini": {
+      "category": "medium",
+      "value": 31.4,
+      "year": 2020
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 24,
+      "value": 0.924,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Valletta",
+    "demonym": "Maltese",
+    "ethnic_groups": {
+      "groups": {
+        "Maltese": 77.7,
+        "other ethnic groups": 22.3
+      },
+      "year": 2021
+    },
+    "largest_city": "Valletta",
+    "official_language": "Maltese English Maltese Sign Language",
+    "other_languages": "Italian",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism ( official )": 82.6,
+            "other Christian": 5.9
+          },
+          "percentage": 88.5
+        },
+        "no religion": {
+          "breakdown": {
+            "Hinduism": 1.4,
+            "Islam": 3.9
+          },
+          "percentage": 5.1
+        },
+        "other": 1.1
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Myriam Spiteri Debono",
+      "prime_minister": "Robert Abela"
+    },
+    "legislature": "Parliament of Malta",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Republic": "13 December 1974",
+    "State of Malta": "21 September 1964"
+  },
+  "population": {
+    "density_per_km2": 1649.0,
+    "total": 519562,
+    "year": 2021
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

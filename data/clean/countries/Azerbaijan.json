@@ -1,0 +1,88 @@
+{
+  "country": "Azerbaijan",
+  "area": {
+    "rank": 112,
+    "total_km2": 86600.0,
+    "water_pct": 1.6
+  },
+  "codes": {
+    "calling_code": "+994",
+    "internet_tld": ".az",
+    "iso_3166_code": "AZ"
+  },
+  "economy": {
+    "currency_code": "AZN",
+    "gdp_nominal": {
+      "per_capita_usd": 7604,
+      "total_billion_usd": 79.0,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 26235,
+      "total_billion_usd": 272.0,
+      "year": 2024
+    },
+    "gini": {
+      "category": "medium",
+      "value": 33.7,
+      "year": 2008
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 81,
+      "value": 0.789,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Baku",
+    "demonym": "Azerbaijani Azeri",
+    "ethnic_groups": {
+      "groups": {
+        "Azerbaijani": 94.8,
+        "Lezgin": 1.7,
+        "Russian": 0.7,
+        "Talysh": 0.9,
+        "others": 1.9
+      },
+      "year": 2019
+    },
+    "largest_city": "Baku",
+    "official_language": "Azerbaijani",
+    "religion": {
+      "groups": {
+        "Christianity <": 2.6,
+        "Islam": 97.3,
+        "other religion <": 0.1,
+        "unaffiliated": 0.1
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Ilham Aliyev",
+      "prime_minister": "Ali Asadov",
+      "vice_president": "Mehriban Aliyeva"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary semi-presidential republic under an authoritarian hereditary dictatorship",
+    "upper_house": null
+  },
+  "history": {
+    "Constitution adopted": "12 November 1995",
+    "Independence from the Soviet Union": "18 October 1991 (declared) 26 December 1991 (recognized)",
+    "People's Republic": "28 May 1918",
+    "Soviet Socialist Republic": "28 April 1920"
+  },
+  "population": {
+    "density_per_km2": 117.0,
+    "total": 10353296,
+    "year": 2022
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+04:00"
+  }
+}

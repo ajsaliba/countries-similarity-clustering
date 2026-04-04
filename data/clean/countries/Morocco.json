@@ -1,0 +1,108 @@
+{
+  "country": "Morocco",
+  "area": {
+    "rank": 57,
+    "total_km2": 446550.0,
+    "water_pct": 0.056
+  },
+  "codes": {
+    "calling_code": "+212",
+    "internet_tld": ".ma",
+    "iso_3166_code": "MA"
+  },
+  "economy": {
+    "currency_code": "MAD",
+    "gdp_nominal": {
+      "per_capita_usd": 4440,
+      "total_billion_usd": 165.84,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 11270,
+      "total_billion_usd": 424.87,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 40.3,
+      "year": 2015
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 120,
+      "value": 0.71,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Rabat",
+    "demonym": "Moroccan",
+    "ethnic_groups": {
+      "groups": null,
+      "note": "See Ethnic groups",
+      "year": null
+    },
+    "foreign_languages": "French English Spanish",
+    "largest_city": "Casablanca",
+    "official_language": "Arabic Tamazight",
+    "religion": {
+      "groups": {
+        "Baháʼís": {
+          "breakdown": {
+            "Christians": 0.09
+          },
+          "percentage": 0.1
+        },
+        "Islam ( official )": {
+          "breakdown": {
+            "Shia": 0.45,
+            "Sunni": 99.23
+          },
+          "percentage": 99.68
+        },
+        "Jews": 0.01,
+        "Others": {
+          "breakdown": {
+            "Agnostics": 0.13
+          },
+          "percentage": 0.3
+        }
+      },
+      "year": 2020
+    },
+    "spoken_languages_2024": {
+      "Arabic": "92.7%",
+      "Berber languages": "24.8%",
+      "Hassaniya Arabic": "0.8%",
+      "Moroccan Arabic": "91.9%",
+      "Tamazight": "7.4%",
+      "Tarifit": "3.2%",
+      "Tashelhit": "14.2%"
+    }
+  },
+  "government": {
+    "leaders": {
+      "king": "Mohammed VI",
+      "prime_minister": "Aziz Akhannouch"
+    },
+    "legislature": "Parliament",
+    "lower_house": "House of Representatives",
+    "type": "Unitary parliamentary semi-constitutional monarchy",
+    "upper_house": "House of Councillors"
+  },
+  "history": {
+    "' Alawi dynasty (current dynasty)": 1631,
+    "French protectorate": "30 March 1912",
+    "Idrisid dynasty": 788,
+    "Independence": "2 March 1956"
+  },
+  "population": {
+    "density_per_km2": 79.0,
+    "total": 36828330,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+01:00"
+  }
+}

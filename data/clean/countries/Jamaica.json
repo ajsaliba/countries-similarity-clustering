@@ -1,0 +1,94 @@
+{
+  "country": "Jamaica",
+  "area": {
+    "rank": 160,
+    "total_km2": 10991.0,
+    "water_pct": 1.5
+  },
+  "codes": {
+    "calling_code": "+1",
+    "internet_tld": ".jm",
+    "iso_3166_code": "JM"
+  },
+  "economy": {
+    "currency_code": "JMD",
+    "gdp_nominal": {
+      "per_capita_usd": 7487,
+      "total_billion_usd": 20.586,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 12283,
+      "total_billion_usd": 33.775,
+      "year": 2024
+    },
+    "gini": {
+      "category": "medium",
+      "value": 40.2,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 117,
+      "value": 0.72,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Kingston",
+    "demonym": "Jamaican",
+    "ethnic_groups": {
+      "groups": {
+        "African": 76.3,
+        "Chinese": 1.2,
+        "Indian": 3.4,
+        "Mixed": 15.1,
+        "White": 3.2,
+        "others": 0.8
+      },
+      "year": null
+    },
+    "governor_general": "Patrick Allen",
+    "largest_city": "Kingston",
+    "monarch": "Charles III",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Protestantism": 64.8,
+            "other Christian": 4.1
+          },
+          "percentage": 68.9
+        },
+        "Rastafari": 1.1,
+        "no religion": 21.3,
+        "other": 6.5,
+        "unanswered": 2.3
+      },
+      "year": null
+    },
+    "vernacular_language": "Jamaican Patois"
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Andrew Holness"
+    },
+    "legislature": "Parliament",
+    "lower_house": "House of Representatives",
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Granted": "6 August 1962"
+  },
+  "population": {
+    "density_per_km2": 266.0,
+    "total": 2824913,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-05:00"
+  }
+}

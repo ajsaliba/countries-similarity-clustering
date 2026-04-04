@@ -1,0 +1,94 @@
+{
+  "country": "Bosnia and Herzegovina",
+  "area": {
+    "rank": 125,
+    "total_km2": 51209.0,
+    "water_pct": 1.4
+  },
+  "codes": {
+    "calling_code": "+387",
+    "internet_tld": ".ba",
+    "iso_3166_code": "BA"
+  },
+  "economy": {
+    "currency_code": "BAM",
+    "gdp_nominal": {
+      "per_capita_usd": 10546,
+      "total_billion_usd": 36.24,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 23930,
+      "total_billion_usd": 82.23,
+      "year": 2026
+    },
+    "gini": {
+      "category": "low",
+      "value": 27.1,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 74,
+      "value": 0.804,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Sarajevo",
+    "chairman_of_the_presidency": "Denis Bećirović",
+    "chairwoman_of_the_council_of_ministers": "Borjana Krišto",
+    "demonym": "Bosnian Herzegovinian",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "high_representative": "Christian Schmidt",
+    "largest_city": "Sarajevo",
+    "members_of_the_presidency": "Željka Cvijanović Željko Komšić",
+    "official_language": "None",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 15.4,
+            "Eastern Orthodox": 30.7
+          },
+          "percentage": 46.1
+        },
+        "Islam": 51.3,
+        "Others": 2.6
+      },
+      "year": 2013
+    }
+  },
+  "government": {
+    "leaders": {},
+    "legislature": "Parliamentary Assembly",
+    "lower_house": "House of Representatives",
+    "type": "Federal parliamentary directorial republic",
+    "upper_house": "House of Peoples"
+  },
+  "history": {
+    "Austro-Hungarian conquest and 1908 annexation": 1878,
+    "Banate of Bosnia": 1154,
+    "Creation of Yugoslavia": "1 December 1918",
+    "Dayton Agreement": "14 December 1995",
+    "Early medieval Bosnia": "9th century",
+    "Independence from Yugoslavia": "3 March 1992",
+    "Kingdom of Bosnia": 1377,
+    "Ottoman conquest": 1463,
+    "SR Bosnia and Herzegovina within SFR Yugoslavia": "29 November 1945",
+    "Washington Agreement": "18 March 1994",
+    "ZAVNOBiH": "25 November 1943"
+  },
+  "population": {
+    "density_per_km2": 61.0,
+    "total": 2904256,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

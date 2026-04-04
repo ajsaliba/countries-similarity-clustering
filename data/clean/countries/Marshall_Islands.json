@@ -1,0 +1,90 @@
+{
+  "country": "Marshall Islands",
+  "area": {
+    "rank": 189,
+    "total_km2": 181.43,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+692",
+    "internet_tld": ".mh",
+    "iso_3166_code": "MH"
+  },
+  "economy": {
+    "currency_code": "United States dollar Sovereign",
+    "gdp_nominal": {
+      "per_capita_usd": 3866,
+      "total_billion_usd": 0.22,
+      "year": 2019
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 3789,
+      "total_billion_usd": 0.215,
+      "year": 2019
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 108,
+      "value": 0.733,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Majuro",
+    "demonym": "Marshallese",
+    "ethnic_groups": {
+      "groups": {
+        "Marshallese": 95.6,
+        "others": 4.4
+      },
+      "year": 2021
+    },
+    "largest_city": "Majuro",
+    "official_language": "Marshallese English",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 9.3,
+            "Protestantism": 79.9,
+            "other Christian": 7.0
+          },
+          "percentage": 96.2
+        },
+        "no religion": 1.1,
+        "others": 2.7
+      },
+      "year": 2026
+    },
+    "status": "UN member state under a Compact of Free Association with the United States"
+  },
+  "government": {
+    "leaders": {
+      "minister_in_assistance_to_the_president": "Bremity Lakjohn",
+      "president": "Hilda Heine",
+      "speaker": "Brenson S. Wase"
+    },
+    "legislature": "Nitijela",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic with an executive president",
+    "upper_house": null
+  },
+  "history": {
+    "Compact of Free Association": "October 21, 1986",
+    "Self-government": "May 1, 1979"
+  },
+  "population": {
+    "density_per_km2": 233.0,
+    "total": 42418,
+    "year": 2021
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+12:00"
+  }
+}

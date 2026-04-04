@@ -1,0 +1,97 @@
+{
+  "country": "Samoa",
+  "area": {
+    "rank": 167,
+    "total_km2": 2831.0,
+    "water_pct": 0.3
+  },
+  "codes": {
+    "calling_code": "+685",
+    "internet_tld": ".ws",
+    "iso_3166_code": "WS"
+  },
+  "economy": {
+    "currency_code": "WST",
+    "gdp_nominal": {
+      "per_capita_usd": 4420,
+      "total_billion_usd": 0.909,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 5962,
+      "total_billion_usd": 1.225,
+      "year": 2024
+    },
+    "gini": {
+      "category": "medium",
+      "value": 38.7,
+      "year": 2013
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 122,
+      "value": 0.708,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Apia",
+    "demonym": "Samoan",
+    "ethnic_groups": {
+      "groups": {
+        "Euronesians": 7.0,
+        "Europeans": 0.3,
+        "Samoans": 92.6,
+        "others": 0.1
+      },
+      "year": 2021
+    },
+    "largest_city": "Apia",
+    "o_le_ao_o_le_malo": "Tuimalealiʻifano Vaʻaletoʻa Sualauvi II",
+    "official_language": "Samoan , English",
+    "religion": {
+      "groups": {
+        "Christianity ( official )": {
+          "breakdown": {
+            "Catholicism": 18.8,
+            "Mormonism": 16.9,
+            "Protestantism": 54.9,
+            "other Christian": 7.3
+          },
+          "percentage": 97.9
+        },
+        "no religion": 1.7,
+        "others": 0.4
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "assembly_speaker": "Auapaʻau Mulipola Aloitafua",
+      "prime_minister": "Laʻauli Leuatea Schmidt"
+    },
+    "legislature": "Legislative Assembly",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Colonisation by Germany": "1 March 1900",
+    "League mandate": "17 December 1920",
+    "Occupied by New Zealand": "30 August 1914",
+    "Treaty of Berlin": "14 June 1889",
+    "Tripartite Convention": "16 February 1900",
+    "UN trusteeship": "13 December 1946",
+    "Western Samoa Act 1961": "1 January 1962"
+  },
+  "population": {
+    "density_per_km2": 70.0,
+    "total": 205557,
+    "year": 2021
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+13:00"
+  }
+}

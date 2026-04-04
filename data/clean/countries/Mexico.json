@@ -1,0 +1,89 @@
+{
+  "country": "Mexico",
+  "area": {
+    "rank": 13,
+    "total_km2": 1972550.0,
+    "water_pct": 1.58
+  },
+  "codes": {
+    "calling_code": "+52",
+    "internet_tld": ".mx",
+    "iso_3166_code": "MX"
+  },
+  "economy": {
+    "currency_code": "MXN",
+    "gdp_nominal": {
+      "per_capita_usd": 12692,
+      "total_billion_usd": 1693.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 25463,
+      "total_billion_usd": 3396.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 40.2,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 81,
+      "value": 0.789,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Mexico City",
+    "demonym": "Mexican",
+    "ethnic_groups": {
+      "groups": null,
+      "note": "See below",
+      "year": null
+    },
+    "largest_city": "Mexico City",
+    "official_language": "Spanish",
+    "recognized_languages": "Details / First / Second / Current",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 77.7,
+            "Protestantism": 11.2
+          },
+          "percentage": 88.9
+        },
+        "Irreligion": 8.1,
+        "other religion": 2.4,
+        "prefer not to say": 0.5
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Hugo Aguilar Ortiz",
+      "president": "Claudia Sheinbaum",
+      "president_of_the_chamber_of_deputies": "Kenia López Rabadán",
+      "president_of_the_senate": "Laura Itzel Castillo"
+    },
+    "legislature": "Congress",
+    "lower_house": "Chamber of Deputies",
+    "type": "Federal presidential republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Declared": "27 September 1821",
+    "Start of War of Independence": "16 September 1810"
+  },
+  "population": {
+    "density_per_km2": 61.0,
+    "total": 131946900,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC-07:00",
+    "timezone_utc": "UTC-08:00"
+  }
+}

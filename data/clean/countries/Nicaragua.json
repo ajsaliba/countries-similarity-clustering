@@ -1,0 +1,94 @@
+{
+  "country": "Nicaragua",
+  "area": {
+    "rank": 96,
+    "total_km2": 130375.0,
+    "water_pct": 7.14
+  },
+  "codes": {
+    "calling_code": "+505",
+    "internet_tld": ".ni",
+    "iso_3166_code": "NI"
+  },
+  "economy": {
+    "currency_code": "NIO",
+    "gdp_nominal": {
+      "per_capita_usd": 2673,
+      "total_billion_usd": 17.843,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 8492,
+      "total_billion_usd": 56.697,
+      "year": 2024
+    },
+    "gini": {
+      "category": "high",
+      "value": 46.2,
+      "year": 2014
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 123,
+      "value": 0.706,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Managua",
+    "demonym": "Nicaraguan Pinolero/Pinolera (colloquial)",
+    "ethnic_groups": {
+      "groups": {
+        "Black": 9.0,
+        "Indigenous": 5.0,
+        "Mestizo (mixed White and Indigenous )": 69.0,
+        "White": 17.0
+      },
+      "year": 2023
+    },
+    "largest_city": "Managua",
+    "official_language": "Spanish",
+    "recognized_languages": "Details / Nicaraguan Revolution / Current",
+    "recognized_regional_languages": "English Miskito Rama Sumo Moskitian Creole Garifuna Rama Cay Creole",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 55.0,
+            "Protestantism": 27.2,
+            "other Christian": 2.2
+          },
+          "percentage": 84.4
+        },
+        "no religion": 14.7,
+        "other": 0.9
+      },
+      "year": 2015
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Alba Luz Ramos",
+      "co_presidents": "Daniel Ortega Rosario Murillo",
+      "president_of_the_national_assembly": "Gustavo Porras Cortés"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary diarchic presidential socialist republic under an authoritarian dictatorship",
+    "upper_house": null
+  },
+  "history": {
+    "From New Spain": "15 September 1821",
+    "From the Federal Republic of Central America": "30 April 1838",
+    "From the First Mexican Empire": "1 July 1823"
+  },
+  "population": {
+    "density_per_km2": 51.0,
+    "total": 6676948,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-06:00"
+  }
+}

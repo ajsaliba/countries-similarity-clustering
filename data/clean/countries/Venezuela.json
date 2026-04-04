@@ -1,0 +1,93 @@
+{
+  "country": "Venezuela",
+  "area": {
+    "rank": 32,
+    "total_km2": 916445.0,
+    "water_pct": 3.2
+  },
+  "codes": {
+    "calling_code": "+58",
+    "internet_tld": ".ve",
+    "iso_3166_code": "VE"
+  },
+  "economy": {
+    "currency_code": "VED",
+    "gdp_nominal": {
+      "per_capita_usd": 3100,
+      "total_billion_usd": 82.77,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 8790,
+      "total_billion_usd": 234.34,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 44.8,
+      "year": 2013
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 121,
+      "value": 0.709,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Caracas",
+    "demonym": "Venezuelan",
+    "ethnic_groups": {
+      "groups": {
+        "Black": 3.6,
+        "Moreno": 51.6,
+        "White": 43.6,
+        "other": 1.2
+      },
+      "year": 2011
+    },
+    "largest_city": "Caracas",
+    "official_language": "Spanish",
+    "recognized_languages": "Details / Current",
+    "recognized_regional_languages": "26 languages Piapoco Baniwa Locono Wayúu Warao Pemón Panare Yek'uana Yukpa Carib Akawaio Japrería Mapoyo Yawarana Hodï Puinave Jivi Barí Uruak Sapé Pumé Piaroa Yanomamö Sanemá Yanam Yeral",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 80.5,
+            "Protestantism": 11.2,
+            "other Christian": 0.9
+          },
+          "percentage": 92.6
+        },
+        "Spiritism , Birongo": 1.1,
+        "no religion": 5.5,
+        "other": 0.8
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Delcy Rodríguez (acting) Nicolás Maduro (de jure)",
+      "vice_president": "Vacant"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Federal presidential republic under an authoritarian dictatorship",
+    "upper_house": null
+  },
+  "history": {
+    "Declared": "5 July 1811",
+    "from Gran Colombia": "13 January 1830"
+  },
+  "population": {
+    "density_per_km2": 32.0,
+    "total": 31800000,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-04:00"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "country": "Yemen",
+  "area": {
+    "rank": 54,
+    "total_km2": 455503.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+967",
+    "internet_tld": ".ye",
+    "iso_3166_code": "YE"
+  },
+  "economy": {
+    "currency_code": "YER",
+    "gdp_nominal": {
+      "per_capita_usd": 416,
+      "total_billion_usd": 17.4,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 1670,
+      "total_billion_usd": 69.96,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 36.7,
+      "year": 2014
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 184,
+      "value": 0.47,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Sanaa",
+    "demonym": "Yemeni Yemenite",
+    "ethnic_groups": {
+      "groups": {
+        "Afro-Arabs": 1.1,
+        "Arabs": 92.8,
+        "Indo - Pakistani": 1.0,
+        "Somalis": 3.7,
+        "other": 1.4
+      },
+      "year": 2000
+    },
+    "largest_city": "Sanaa",
+    "official_language": "Arabic",
+    "religion": {
+      "groups": {
+        "Islam ( official )": 99.1,
+        "Sunni": 65.0,
+        "Zaydi ~": 35.0,
+        "other": 0.9
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president_of_the_house_of_representatives": "Sultan al-Barakani",
+      "president_of_the_presidential_leadership_council": "Rashad al-Alimi",
+      "prime_minister": "Shaea al-Zindani",
+      "speaker_of_the_shura_council": "Ahmed Obaid Bin Dagher"
+    },
+    "legislature": "Parliament",
+    "lower_house": "House of Representatives",
+    "seat": "Aden",
+    "type": "Unitary semi-presidential republic under a provisional government",
+    "upper_house": "Shura Council"
+  },
+  "history": {
+    "Current constitution": "16 May 1991",
+    "Unification": "22 May 1990"
+  },
+  "population": {
+    "density_per_km2": 71.8,
+    "total": 32684503,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

@@ -1,0 +1,1529 @@
+[
+  {
+    "op": "update_node",
+    "path": "root/country[1]/#text[1]/greece[1]",
+    "from": {
+      "label": "greece",
+      "kind": "token"
+    },
+    "to": {
+      "label": "lebanon",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000004"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/water_pct[3]/#text[1]/51[2]",
+    "from": {
+      "label": "51",
+      "kind": "token"
+    },
+    "to": {
+      "label": "8",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000016"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/total_km2[2]/#text[1]/131957[1]",
+    "from": {
+      "label": "131957",
+      "kind": "token"
+    },
+    "to": {
+      "label": "10452",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000011"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/rank[1]/#text[1]/95[1]",
+    "from": {
+      "label": "95",
+      "kind": "token"
+    },
+    "to": {
+      "label": "161",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000008"
+  },
+  {
+    "op": "update_value",
+    "path": "root/codes[3]/iso_3166_code[3]",
+    "from": {
+      "label": "iso_3166_code",
+      "kind": "atomic_text",
+      "raw_value": "GR",
+      "norm_value": "gr"
+    },
+    "to": {
+      "label": "iso_3166_code",
+      "kind": "atomic_text",
+      "raw_value": "LB",
+      "norm_value": "lb"
+    },
+    "cost": 1.0,
+    "source_uid": "n000020"
+  },
+  {
+    "op": "update_value",
+    "path": "root/codes[3]/internet_tld[2]",
+    "from": {
+      "label": "internet_tld",
+      "kind": "atomic_text",
+      "raw_value": ".gr",
+      "norm_value": ".gr"
+    },
+    "to": {
+      "label": "internet_tld",
+      "kind": "atomic_text",
+      "raw_value": ".lb",
+      "norm_value": ".lb"
+    },
+    "cost": 1.0,
+    "source_uid": "n000019"
+  },
+  {
+    "op": "update_value",
+    "path": "root/codes[3]/calling_code[1]",
+    "from": {
+      "label": "calling_code",
+      "kind": "atomic_text",
+      "raw_value": "+30",
+      "norm_value": "+30"
+    },
+    "to": {
+      "label": "calling_code",
+      "kind": "atomic_text",
+      "raw_value": "+961",
+      "norm_value": "+961"
+    },
+    "cost": 1.0,
+    "source_uid": "n000018"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/economy[4]/hdi[5]/category[1]/#text[1]/very[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "very",
+      "kind": "token"
+    },
+    "source_uid": "n000059"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/hdi[5]/rank[2]/#text[1]/34[1]",
+    "from": {
+      "label": "34",
+      "kind": "token"
+    },
+    "to": {
+      "label": "102",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000063"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/hdi[5]/value[3]/#text[1]/908[2]",
+    "from": {
+      "label": "908",
+      "kind": "token"
+    },
+    "to": {
+      "label": "752",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000067"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gini[4]/year[3]/#text[1]/2024[1]",
+    "from": {
+      "label": "2024",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2011",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000055"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/per_capita_usd[1]/#text[1]/44985[1]",
+    "from": {
+      "label": "44985",
+      "kind": "token"
+    },
+    "to": {
+      "label": "11793",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000037"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/total_billion_usd[2]/#text[1]/466[1]",
+    "from": {
+      "label": "466",
+      "kind": "token"
+    },
+    "to": {
+      "label": "78",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000040"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/total_billion_usd[2]/#text[1]/945[2]",
+    "from": {
+      "label": "945",
+      "kind": "token"
+    },
+    "to": {
+      "label": "233",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000041"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/year[3]/#text[1]/2025[1]",
+    "from": {
+      "label": "2025",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2022",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000044"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/per_capita_usd[1]/#text[1]/27170[1]",
+    "from": {
+      "label": "27170",
+      "kind": "token"
+    },
+    "to": {
+      "label": "3283",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000026"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/total_billion_usd[2]/#text[1]/282[1]",
+    "from": {
+      "label": "282",
+      "kind": "token"
+    },
+    "to": {
+      "label": "21",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000029"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/total_billion_usd[2]/#text[1]/019[2]",
+    "from": {
+      "label": "019",
+      "kind": "token"
+    },
+    "to": {
+      "label": "78",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000030"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/year[3]/#text[1]/2025[1]",
+    "from": {
+      "label": "2025",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2022",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000033"
+  },
+  {
+    "op": "update_value",
+    "path": "root/economy[4]/currency_code[1]",
+    "from": {
+      "label": "currency_code",
+      "kind": "atomic_text",
+      "raw_value": "EUR",
+      "norm_value": "eur"
+    },
+    "to": {
+      "label": "currency_code",
+      "kind": "atomic_text",
+      "raw_value": "LBP",
+      "norm_value": "lbp"
+    },
+    "cost": 1.0,
+    "source_uid": "n000022"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]",
+    "index": 8,
+    "cost": 4.0,
+    "subtree": {
+      "label": "vernacular_language",
+      "kind": "token_text_container",
+      "raw_value": "Lebanese Arabic",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "lebanese",
+              "kind": "token"
+            },
+            {
+              "label": "arabic",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000071"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/religion[6]/groups[1]/Others[4]",
+    "from": {
+      "label": "Others",
+      "kind": "numeric",
+      "raw_value": "1.0",
+      "norm_value": "0.010000000000",
+      "norm_number": 0.01,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Sunni",
+      "kind": "numeric",
+      "raw_value": "26.55",
+      "norm_value": "0.265500000000",
+      "norm_number": 0.2655,
+      "numeric_field": "percentage"
+    },
+    "cost": 1.2555,
+    "source_uid": "n000101"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[6]/groups[1]",
+    "index": 6,
+    "cost": 1.0,
+    "subtree": {
+      "label": "Shia",
+      "kind": "numeric",
+      "raw_value": "26.84",
+      "norm_value": "0.268400000000",
+      "norm_number": 0.26839999999999997,
+      "numeric_field": "percentage"
+    },
+    "parent_uid": "n000093"
+  },
+  {
+    "op": "update_value",
+    "path": "root/general[5]/religion[6]/groups[1]/No religion[3]",
+    "from": {
+      "label": "No religion",
+      "kind": "numeric",
+      "raw_value": "4.0",
+      "norm_value": "0.040000000000",
+      "norm_number": 0.04,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "No religion",
+      "kind": "numeric",
+      "raw_value": "0.08",
+      "norm_value": "0.000800000000",
+      "norm_number": 0.0008,
+      "numeric_field": "percentage"
+    },
+    "cost": 0.0392,
+    "source_uid": "n000100"
+  },
+  {
+    "op": "update_value",
+    "path": "root/general[5]/religion[6]/groups[1]/Islam[2]",
+    "from": {
+      "label": "Islam",
+      "kind": "numeric",
+      "raw_value": "2.0",
+      "norm_value": "0.020000000000",
+      "norm_number": 0.02,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Islam",
+      "kind": "numeric",
+      "raw_value": "53.31",
+      "norm_value": "0.533100000000",
+      "norm_number": 0.5331,
+      "numeric_field": "percentage"
+    },
+    "cost": 0.5131,
+    "source_uid": "n000099"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[6]/groups[1]",
+    "index": 3,
+    "cost": 1.0,
+    "subtree": {
+      "label": "Druze",
+      "kind": "numeric",
+      "raw_value": "5.21",
+      "norm_value": "0.052100000000",
+      "norm_number": 0.0521,
+      "numeric_field": "percentage"
+    },
+    "parent_uid": "n000093"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[6]/groups[1]/Christianity[1]/breakdown[1]",
+    "index": 5,
+    "cost": 1.0,
+    "subtree": {
+      "label": "Protestant",
+      "kind": "numeric",
+      "raw_value": "0.53",
+      "norm_value": "0.005300000000",
+      "norm_number": 0.0053,
+      "numeric_field": "percentage"
+    },
+    "parent_uid": "n000095"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/religion[6]/groups[1]/Christianity[1]/breakdown[1]/other Christian[2]",
+    "from": {
+      "label": "other Christian",
+      "kind": "numeric",
+      "raw_value": "3.0",
+      "norm_value": "0.030000000000",
+      "norm_number": 0.03,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Other Christians",
+      "kind": "numeric",
+      "raw_value": "1.64",
+      "norm_value": "0.016400000000",
+      "norm_number": 0.016399999999999998,
+      "numeric_field": "percentage"
+    },
+    "cost": 1.0136,
+    "source_uid": "n000097"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[6]/groups[1]/Christianity[1]/breakdown[1]",
+    "index": 3,
+    "cost": 1.0,
+    "subtree": {
+      "label": "Orthodox",
+      "kind": "numeric",
+      "raw_value": "8.3",
+      "norm_value": "0.083000000000",
+      "norm_number": 0.083,
+      "numeric_field": "percentage"
+    },
+    "parent_uid": "n000095"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/religion[6]/groups[1]/Christianity[1]/breakdown[1]/Greek Orthodoxy ( official )[1]",
+    "from": {
+      "label": "Greek Orthodoxy ( official )",
+      "kind": "numeric",
+      "raw_value": "90.0",
+      "norm_value": "0.900000000000",
+      "norm_number": 0.9,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Catholic",
+      "kind": "numeric",
+      "raw_value": "28.11",
+      "norm_value": "0.281100000000",
+      "norm_number": 0.2811,
+      "numeric_field": "percentage"
+    },
+    "cost": 1.6189,
+    "source_uid": "n000096"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[6]/groups[1]/Christianity[1]/breakdown[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "Armenian Apostolic",
+      "kind": "numeric",
+      "raw_value": "2.92",
+      "norm_value": "0.029200000000",
+      "norm_number": 0.0292,
+      "numeric_field": "percentage"
+    },
+    "parent_uid": "n000095"
+  },
+  {
+    "op": "update_value",
+    "path": "root/general[5]/religion[6]/groups[1]/Christianity[1]/percentage[2]",
+    "from": {
+      "label": "percentage",
+      "kind": "numeric",
+      "raw_value": "93.0",
+      "norm_value": "0.930000000000",
+      "norm_number": 0.93,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "percentage",
+      "kind": "numeric",
+      "raw_value": "41.4",
+      "norm_value": "0.414000000000",
+      "norm_number": 0.414,
+      "numeric_field": "percentage"
+    },
+    "cost": 0.516,
+    "source_uid": "n000098"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[6]/groups[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "Alawite",
+      "kind": "numeric",
+      "raw_value": "0.64",
+      "norm_value": "0.006400000000",
+      "norm_number": 0.0064,
+      "numeric_field": "percentage"
+    },
+    "parent_uid": "n000093"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]",
+    "index": 6,
+    "cost": 3.0,
+    "subtree": {
+      "label": "recognised_minority_language",
+      "kind": "token_text_container",
+      "raw_value": "French",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "french",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000071"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/official_language[5]/#text[1]/greek[1]",
+    "from": {
+      "label": "greek",
+      "kind": "token"
+    },
+    "to": {
+      "label": "arabic",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000091"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/largest_city[4]/#text[1]/athens[1]",
+    "from": {
+      "label": "athens",
+      "kind": "token"
+    },
+    "to": {
+      "label": "beirut",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000088"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/#text[1]",
+    "from": {
+      "label": "#text",
+      "kind": "internal",
+      "children": [
+        {
+          "label": "null",
+          "kind": "token"
+        }
+      ]
+    },
+    "to": {
+      "label": "others",
+      "kind": "token_text_container",
+      "raw_value": "1.0",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1",
+              "kind": "token"
+            },
+            {
+              "label": "0",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000081"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/ethnic_groups[3]/groups[1]/#text[1]/null[1]",
+    "index": 2,
+    "cost": 1.0,
+    "subtree": {
+      "label": "0",
+      "kind": "token"
+    },
+    "parent_uid": "n000082"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/ethnic_groups[3]/groups[1]/#text[1]/null[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "1",
+      "kind": "token"
+    },
+    "parent_uid": "n000082"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/#text[1]/null[1]",
+    "from": {
+      "label": "null",
+      "kind": "token"
+    },
+    "to": {
+      "label": "#text",
+      "kind": "internal",
+      "children": [
+        {
+          "label": "1",
+          "kind": "token"
+        },
+        {
+          "label": "0",
+          "kind": "token"
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000082"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/ethnic_groups[3]/groups[1]",
+    "index": 2,
+    "cost": 4.0,
+    "subtree": {
+      "label": "Armenian",
+      "kind": "token_text_container",
+      "raw_value": "4.0",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "4",
+              "kind": "token"
+            },
+            {
+              "label": "0",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000080"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/ethnic_groups[3]/groups[1]",
+    "index": 1,
+    "cost": 4.0,
+    "subtree": {
+      "label": "Arab",
+      "kind": "token_text_container",
+      "raw_value": "95.0",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "95",
+              "kind": "token"
+            },
+            {
+              "label": "0",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000080"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/year[2]/#text[1]/null[1]",
+    "from": {
+      "label": "null",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2021",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000085"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/Demonyms[2]/#text[1]/hellene[2]",
+    "from": {
+      "label": "hellene",
+      "kind": "token"
+    },
+    "to": {
+      "label": "lebanese",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000078"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/Demonyms[2]/#text[1]/greek[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "greek",
+      "kind": "token"
+    },
+    "source_uid": "n000077"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/capital[1]/#text[1]/athens[1]",
+    "from": {
+      "label": "athens",
+      "kind": "token"
+    },
+    "to": {
+      "label": "beirut",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000074"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/government[6]/type[4]/#text[1]",
+    "index": 5,
+    "cost": 1.0,
+    "subtree": {
+      "label": "confessionalism",
+      "kind": "token"
+    },
+    "parent_uid": "n000125"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/government[6]/type[4]/#text[1]",
+    "index": 4,
+    "cost": 1.0,
+    "subtree": {
+      "label": "under",
+      "kind": "token"
+    },
+    "parent_uid": "n000125"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/legislature[2]/#text[1]/hellenic[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "hellenic",
+      "kind": "token"
+    },
+    "source_uid": "n000119"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/president[1]/#text[1]/konstantinos[1]",
+    "from": {
+      "label": "konstantinos",
+      "kind": "token"
+    },
+    "to": {
+      "label": "joseph",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000107"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/president[1]/#text[1]/tasoulas[2]",
+    "from": {
+      "label": "tasoulas",
+      "kind": "token"
+    },
+    "to": {
+      "label": "aoun",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000108"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/president_of_the_parliament[2]/#text[1]/nikitas[1]",
+    "from": {
+      "label": "nikitas",
+      "kind": "token"
+    },
+    "to": {
+      "label": "nawaf",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000111"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/president_of_the_parliament[2]/#text[1]/kaklamanis[2]",
+    "from": {
+      "label": "kaklamanis",
+      "kind": "token"
+    },
+    "to": {
+      "label": "salam",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000112"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/president_of_the_parliament[2]",
+    "from": {
+      "label": "president_of_the_parliament",
+      "kind": "token_text_container",
+      "raw_value": "Nikitas Kaklamanis",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "nikitas",
+              "kind": "token"
+            },
+            {
+              "label": "kaklamanis",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "prime_minister",
+      "kind": "token_text_container",
+      "raw_value": "Nawaf Salam",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "nawaf",
+              "kind": "token"
+            },
+            {
+              "label": "salam",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000109"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/prime_minister[3]/#text[1]/kyriakos[1]",
+    "from": {
+      "label": "kyriakos",
+      "kind": "token"
+    },
+    "to": {
+      "label": "nabih",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000115"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/prime_minister[3]/#text[1]/mitsotakis[2]",
+    "from": {
+      "label": "mitsotakis",
+      "kind": "token"
+    },
+    "to": {
+      "label": "berri",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000116"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/prime_minister[3]",
+    "from": {
+      "label": "prime_minister",
+      "kind": "token_text_container",
+      "raw_value": "Kyriakos Mitsotakis",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "kyriakos",
+              "kind": "token"
+            },
+            {
+              "label": "mitsotakis",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "speaker_of_the_parliament",
+      "kind": "token_text_container",
+      "raw_value": "Nabih Berri",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "nabih",
+              "kind": "token"
+            },
+            {
+              "label": "berri",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000113"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 10,
+    "cost": 5.0,
+    "subtree": {
+      "label": "Withdrawal of French forces",
+      "kind": "token_text_container",
+      "raw_value": "17 April 1946",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "17",
+              "kind": "token"
+            },
+            {
+              "label": "april",
+              "kind": "token"
+            },
+            {
+              "label": "1946",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000132"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 9,
+    "cost": 5.0,
+    "subtree": {
+      "label": "Syrian troops withdrawn",
+      "kind": "token_text_container",
+      "raw_value": "30 April 2005",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "30",
+              "kind": "token"
+            },
+            {
+              "label": "april",
+              "kind": "token"
+            },
+            {
+              "label": "2005",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000132"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 8,
+    "cost": 5.0,
+    "subtree": {
+      "label": "Mount Lebanon Mutasarrifate",
+      "kind": "token_text_container",
+      "raw_value": "9 June 1861",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "9",
+              "kind": "token"
+            },
+            {
+              "label": "june",
+              "kind": "token"
+            },
+            {
+              "label": "1861",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000132"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 7,
+    "cost": 5.0,
+    "subtree": {
+      "label": "Israeli troops withdrawn",
+      "kind": "token_text_container",
+      "raw_value": "24 May 2000",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "24",
+              "kind": "token"
+            },
+            {
+              "label": "may",
+              "kind": "token"
+            },
+            {
+              "label": "2000",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000132"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 6,
+    "cost": 5.0,
+    "subtree": {
+      "label": "Independence declared",
+      "kind": "token_text_container",
+      "raw_value": "22 November 1943",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "22",
+              "kind": "token"
+            },
+            {
+              "label": "november",
+              "kind": "token"
+            },
+            {
+              "label": "1943",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000132"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Official declaration[2]",
+    "from": {
+      "label": "Official declaration",
+      "kind": "token_text_container",
+      "raw_value": "1 January 1822",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1",
+              "kind": "token"
+            },
+            {
+              "label": "january",
+              "kind": "token"
+            },
+            {
+              "label": "1822",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Greater Lebanon",
+      "kind": "token_text_container",
+      "raw_value": "1 September 1920",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1",
+              "kind": "token"
+            },
+            {
+              "label": "september",
+              "kind": "token"
+            },
+            {
+              "label": "1920",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000141"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Official declaration[2]/#text[1]/1822[3]",
+    "from": {
+      "label": "1822",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1920",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000145"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Official declaration[2]/#text[1]/january[2]",
+    "from": {
+      "label": "january",
+      "kind": "token"
+    },
+    "to": {
+      "label": "september",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000144"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Greek War of Independence against the Ottoman Empire[1]",
+    "from": {
+      "label": "Greek War of Independence against the Ottoman Empire",
+      "kind": "token_text_container",
+      "raw_value": "25 March 1821 (traditional starting date)",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "25",
+              "kind": "token"
+            },
+            {
+              "label": "march",
+              "kind": "token"
+            },
+            {
+              "label": "1821",
+              "kind": "token"
+            },
+            {
+              "label": "traditional",
+              "kind": "token"
+            },
+            {
+              "label": "starting",
+              "kind": "token"
+            },
+            {
+              "label": "date",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "French mandate ended",
+      "kind": "token_text_container",
+      "raw_value": "24 October 1945",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "24",
+              "kind": "token"
+            },
+            {
+              "label": "october",
+              "kind": "token"
+            },
+            {
+              "label": "1945",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000133"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Greek War of Independence against the Ottoman Empire[1]/#text[1]/date[6]",
+    "from": {
+      "label": "date",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1945",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000140"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Greek War of Independence against the Ottoman Empire[1]/#text[1]/starting[5]",
+    "from": {
+      "label": "starting",
+      "kind": "token"
+    },
+    "to": {
+      "label": "october",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000139"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Greek War of Independence against the Ottoman Empire[1]/#text[1]/traditional[4]",
+    "from": {
+      "label": "traditional",
+      "kind": "token"
+    },
+    "to": {
+      "label": "24",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000138"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Greek War of Independence against the Ottoman Empire[1]/#text[1]/1821[3]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "1821",
+      "kind": "token"
+    },
+    "source_uid": "n000137"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Greek War of Independence against the Ottoman Empire[1]/#text[1]/march[2]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "march",
+      "kind": "token"
+    },
+    "source_uid": "n000136"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Greek War of Independence against the Ottoman Empire[1]/#text[1]/25[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "25",
+      "kind": "token"
+    },
+    "source_uid": "n000135"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 3,
+    "cost": 3.0,
+    "subtree": {
+      "label": "Emirate of Mount Lebanon",
+      "kind": "token_text_container",
+      "raw_value": "1516",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1516",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000132"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 2,
+    "cost": 5.0,
+    "subtree": {
+      "label": "Double Qaim-Maqamate of Mount Lebanon",
+      "kind": "token_text_container",
+      "raw_value": "1 December 1843",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1",
+              "kind": "token"
+            },
+            {
+              "label": "december",
+              "kind": "token"
+            },
+            {
+              "label": "1843",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000132"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 1,
+    "cost": 5.0,
+    "subtree": {
+      "label": "Constitution",
+      "kind": "token_text_container",
+      "raw_value": "23 May 1926",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "23",
+              "kind": "token"
+            },
+            {
+              "label": "may",
+              "kind": "token"
+            },
+            {
+              "label": "1926",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000132"
+  },
+  {
+    "op": "update_node",
+    "path": "root/population[8]/year[3]/#text[1]/2025[1]",
+    "from": {
+      "label": "2025",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2024",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000151"
+  },
+  {
+    "op": "update_value",
+    "path": "root/population[8]/total[2]",
+    "from": {
+      "label": "total",
+      "kind": "numeric",
+      "raw_value": "10372335",
+      "norm_value": "0.749903223858",
+      "norm_number": 0.749903223857722,
+      "numeric_field": "population"
+    },
+    "to": {
+      "label": "total",
+      "kind": "numeric",
+      "raw_value": "5364482",
+      "norm_value": "0.716423342885",
+      "norm_number": 0.7164233428851414,
+      "numeric_field": "population"
+    },
+    "cost": 0.03347988097258059,
+    "source_uid": "n000148"
+  },
+  {
+    "op": "update_value",
+    "path": "root/population[8]/density_per_km2[1]",
+    "from": {
+      "label": "density_per_km2",
+      "kind": "numeric",
+      "raw_value": "78.9",
+      "norm_value": "0.370668612955",
+      "norm_number": 0.3706686129547183,
+      "numeric_field": "density"
+    },
+    "to": {
+      "label": "density_per_km2",
+      "kind": "numeric",
+      "raw_value": "513.0",
+      "norm_value": "0.585937422212",
+      "norm_number": 0.5859374222118686,
+      "numeric_field": "density"
+    },
+    "cost": 0.2152688092571503,
+    "source_uid": "n000147"
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "country": "Algeria",
+  "area": {
+    "rank": 10,
+    "total_km2": 2381741.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+213",
+    "internet_tld": ".dz",
+    "iso_3166_code": "DZ"
+  },
+  "economy": {
+    "currency_code": "DZD",
+    "gdp_nominal": {
+      "per_capita_usd": 5690,
+      "total_billion_usd": 268.89,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 18530,
+      "total_billion_usd": 875.33,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 27.6,
+      "year": 2011
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 96,
+      "value": 0.763,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Algiers",
+    "demonym": "Algerian",
+    "ethnic_groups": {
+      "groups": null,
+      "note": "See Ethnic groups",
+      "year": null
+    },
+    "foreign_languages": "French English",
+    "largest_city": "Algiers",
+    "national_vernacular": "Algerian Arabic",
+    "official_language": "Arabic Berber",
+    "religion": {
+      "groups": {
+        "Sunni Islam ( official ) <": 99.0,
+        "others": 1.0
+      },
+      "year": 2012
+    }
+  },
+  "government": {
+    "leaders": {
+      "assembly_president": "Ibrahim Boughali",
+      "council_president": "Azouz Nasri",
+      "president": "Abdelmadjid Tebboune",
+      "prime_minister": "Sifi Ghrieb"
+    },
+    "legislature": "Parliament",
+    "lower_house": "People's National Assembly",
+    "type": "Unitary semi-presidential republic",
+    "upper_house": "Council of the Nation"
+  },
+  "history": {
+    "French Algeria": "5 July 1830",
+    "Independence": "5 July 1962",
+    "Numidia": "202 BC",
+    "Regency of Algiers": 1516
+  },
+  "population": {
+    "density_per_km2": 19.0,
+    "total": 47400000,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+01:00"
+  }
+}

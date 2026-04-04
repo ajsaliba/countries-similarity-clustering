@@ -1,0 +1,108 @@
+{
+  "country": "Zimbabwe",
+  "area": {
+    "rank": 60,
+    "total_km2": 390757.0,
+    "water_pct": 1.0
+  },
+  "codes": {
+    "calling_code": "+263",
+    "internet_tld": ".zw",
+    "iso_3166_code": "ZW"
+  },
+  "economy": {
+    "currency_code": "ZAR",
+    "gdp_nominal": {
+      "per_capita_usd": 3070,
+      "total_billion_usd": 53.31,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 5410,
+      "total_billion_usd": 93.87,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 45.5,
+      "year": 2019
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 153,
+      "value": 0.598,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Harare",
+    "chewa_": "Dziko la Zimbabwe",
+    "demonym": "Zimbabwean Zimbo (colloquial)",
+    "ethnic_groups": {
+      "groups": {
+        "Black African": 99.6,
+        "Coloured": 0.1,
+        "European": 0.2,
+        "other": 0.1
+      },
+      "year": 2022
+    },
+    "independence_recognised": {
+      "Current constitution": "15 May 2013",
+      "Details": "18 April 1980"
+    },
+    "largest_city": "Harare",
+    "ndau_": "Nyika yeZimbabwe",
+    "ndebele_": "Ilizwe laseZimbabwe",
+    "official_language": "16 languages : Chewa Chibarwe English Kalanga Khoisan Nambya Ndau Ndebele Shangani Shona Sotho Tonga Tswana Venda Xhosa Zimbabwean sign language",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Protestantism": 69.2,
+            "other Christian": 14.9
+          },
+          "percentage": 84.1
+        },
+        "no religion": 10.2,
+        "others": 1.2,
+        "traditional faiths": 4.5
+      },
+      "year": 2017
+    },
+    "shona_": [
+      "Nyika yeZimbabwe",
+      "Nyika yeZimbabwe"
+    ],
+    "sotho_": "Rephabliki ea Zimbabwe",
+    "tswana_": "Lefatshe la Zimbabwe",
+    "venda_": "Riphabuḽiki ya Zimbabwe",
+    "xhosa_": "IRiphabhulikhi yaseZimbabwe",
+    "xitsonga_": "Tiko ra Zimbabwe"
+  },
+  "government": {
+    "leaders": {
+      "first_vice_president": "Constantino Chiwenga",
+      "president": "Emmerson Mnangagwa",
+      "second_vice_president": "Kembo Mohadi"
+    },
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "type": "Unitary presidential republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Declared": "11 November 1965",
+    "Republic": "2 March 1970",
+    "Zimbabwe Rhodesia": "1 June 1979"
+  },
+  "population": {
+    "density_per_km2": 45.0,
+    "total": 17166852,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+02:00"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "country": "Tuvalu",
+  "area": {
+    "rank": 192,
+    "total_km2": 26.26,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+688",
+    "internet_tld": ".tv",
+    "iso_3166_code": "TV"
+  },
+  "economy": {
+    "currency_code": "AUD",
+    "gdp_nominal": {
+      "per_capita_usd": 6113,
+      "total_billion_usd": 0.063,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 6076,
+      "total_billion_usd": 0.069,
+      "year": 2023
+    },
+    "gini": {
+      "category": "medium",
+      "value": 39.0,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 129,
+      "value": 0.689,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Funafuti",
+    "demonym": "Tuvaluan",
+    "ethnic_groups": {
+      "groups": {
+        "Tuvaluans": 96.0,
+        "others": 4.0
+      },
+      "year": 2022
+    },
+    "governor_general": "Tofiga Vaevalu Falani",
+    "largest_city": "Funafuti",
+    "monarch": "Charles III",
+    "official_language": "Tuvaluan English",
+    "religion": {
+      "groups": {
+        "Baháʼí Faith": 1.0,
+        "Christianity": {
+          "breakdown": {
+            "Calvinism ( official )": 86.0,
+            "other Christian": 10.0
+          },
+          "percentage": 96.0
+        },
+        "Other religions or not stated": 3.0
+      },
+      "year": 2022
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Feleti Teo"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "from the United Kingdom": "1 October 1978"
+  },
+  "population": {
+    "density_per_km2": 423.0,
+    "total": 10643,
+    "year": 2022
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+12:00"
+  }
+}

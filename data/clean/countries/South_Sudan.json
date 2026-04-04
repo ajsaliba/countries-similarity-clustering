@@ -1,0 +1,82 @@
+{
+  "country": "South Sudan",
+  "area": {
+    "rank": 41,
+    "total_km2": 644329.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+211",
+    "internet_tld": ".ss",
+    "iso_3166_code": "SS"
+  },
+  "economy": {
+    "currency_code": "SSP",
+    "gdp_nominal": {
+      "per_capita_usd": 313,
+      "total_billion_usd": 4.98,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 953,
+      "total_billion_usd": 15.16,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 44.1,
+      "year": 2016
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 193,
+      "value": 0.388,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Juba",
+    "declared_and_recognised": "9 July 2011",
+    "demonym": "South Sudanese",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Juba",
+    "national_language": "Dinka Nuer Bari Murle Luo (Anyuak, Acholi, Shilluk, Pari, Jur-Luo, others) Ma'di Otuho Zande and around 60 other languages",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Christianity": 60.5,
+        "Islam": 6.2,
+        "others / none": 0.4,
+        "traditional faiths": 32.9
+      },
+      "year": 2020
+    },
+    "spoken_languages": "Dinka Bari Juba Arabic Nuer Zande Jur (Luo) Murle Shilluk various others"
+  },
+  "government": {
+    "leaders": {
+      "first_vice_president": "Riek Machar",
+      "president": "Salva Kiir Mayardit"
+    },
+    "legislature": "Transitional National Legislature",
+    "lower_house": null,
+    "type": "Federal presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "1st autonomous region": "28 February 1972",
+    "2nd autonomous region": "9 July 2005"
+  },
+  "population": {
+    "density_per_km2": 19.0,
+    "total": 12703714,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+02:00"
+  }
+}

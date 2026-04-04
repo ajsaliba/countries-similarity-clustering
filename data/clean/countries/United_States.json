@@ -1,0 +1,98 @@
+{
+  "country": "United States",
+  "area": {
+    "rank": 3,
+    "total_km2": 3796742.0,
+    "water_pct": 7.0
+  },
+  "codes": {
+    "calling_code": "+1",
+    "internet_tld": ".com",
+    "iso_3166_code": "US"
+  },
+  "economy": {
+    "currency_code": "USD",
+    "gdp_nominal": {
+      "per_capita_usd": 89599,
+      "total_billion_usd": 30616.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 89599,
+      "total_billion_usd": 30616.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 41.8,
+      "year": 2024
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 17,
+      "value": 0.938,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Washington, D.C.",
+    "demonym": "American",
+    "ethnic_groups": {
+      "groups": {
+        "Asian": 6.0,
+        "Black": 12.4,
+        "Hispanic or Latino": 18.7,
+        "Native American": 1.1,
+        "Pacific Islander": 0.2,
+        "White": 61.6,
+        "non- Hispanic or Latino": 81.3,
+        "other By origin:": 8.4,
+        "two or more races": 10.2
+      },
+      "year": 2020
+    },
+    "largest_city": "New York City",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Mormonism": 1.0,
+            "Protestantism": 32.0
+          },
+          "percentage": 65.0
+        },
+        "Judaism": 2.0,
+        "other religion": 6.0,
+        "unaffiliated": 24.0,
+        "unanswered": 3.0
+      },
+      "year": 2025
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "John Roberts",
+      "house_speaker": "Mike Johnson",
+      "president": "Donald Trump",
+      "vice_president": "JD Vance"
+    },
+    "legislature": "Congress",
+    "lower_house": "House of Representatives",
+    "type": "Federal presidential republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Confederation": "March 1, 1781 ( 1781-03-01 )",
+    "Declaration": "July 4, 1776 ; 249 years ago ( 1776-07-04 )"
+  },
+  "population": {
+    "density_per_km2": 96.8,
+    "total": 341784857,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC-04:00",
+    "timezone_utc": "UTC-04:00"
+  }
+}

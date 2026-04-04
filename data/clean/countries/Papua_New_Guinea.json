@@ -1,0 +1,87 @@
+{
+  "country": "Papua New Guinea",
+  "area": {
+    "rank": 54,
+    "total_km2": 462840.0,
+    "water_pct": 2.2
+  },
+  "codes": {
+    "calling_code": "+675",
+    "internet_tld": ".pg",
+    "iso_3166_code": "PG"
+  },
+  "economy": {
+    "currency_code": "PGK",
+    "gdp_nominal": {
+      "per_capita_usd": 2560,
+      "total_billion_usd": 32.84,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 3760,
+      "total_billion_usd": 41.81,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 41.9,
+      "year": 2009
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 160,
+      "value": 0.576,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Port Moresby",
+    "demonym": "Papua New Guinean",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "governor_general": "Bob Dadae",
+    "indigenous_languages": "839 languages",
+    "largest_city": "Port Moresby",
+    "monarch": "Charles III",
+    "official_language": "English Hiri Motu PNG Sign Language Tok Pisin",
+    "religion": {
+      "groups": {
+        "Christianity ( official )": {
+          "breakdown": {
+            "Catholicism": 26.0,
+            "Protestantism": 64.3,
+            "other Christian": 5.2
+          },
+          "percentage": 95.5
+        },
+        "others or none": 1.4,
+        "unspecified": 3.1
+      },
+      "year": 2011
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "James Marape"
+    },
+    "legislature": "National Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "Administrative union": "1 July 1949",
+    "Independence": "16 September 1975"
+  },
+  "population": {
+    "density_per_km2": 25.5,
+    "total": 10185363,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+10:00"
+  }
+}

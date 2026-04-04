@@ -1,0 +1,91 @@
+{
+  "country": "Oman",
+  "area": {
+    "rank": 69,
+    "total_km2": 315331.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+968",
+    "internet_tld": ".om",
+    "iso_3166_code": "OM"
+  },
+  "economy": {
+    "currency_code": "OMR",
+    "gdp_nominal": {
+      "per_capita_usd": 18097,
+      "total_billion_usd": 104.35,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 42010,
+      "total_billion_usd": 231.16,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 30.75,
+      "year": 2018
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 50,
+      "value": 0.858,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Muscat",
+    "crown_prince": "Theyazin bin Haitham",
+    "demonym": "Omani",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Muscat",
+    "official_language": "Arabic",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "others": 1.66
+          },
+          "percentage": 1.67
+        },
+        "Hinduism": 1.67,
+        "Islam ( official )": 95.0
+      },
+      "year": 2023
+    },
+    "sultan": "Haitham bin Tariq"
+  },
+  "government": {
+    "leaders": {},
+    "legislature": "Council of Oman",
+    "lower_house": "Consultative Assembly",
+    "type": "Unitary Islamic absolute monarchy",
+    "upper_house": "Council of State"
+  },
+  "history": {
+    "Al Bu Said dynasty": "20 November 1744",
+    "Azd tribe migration": 130,
+    "Basic Statute": "6 November 1996",
+    "Imamate established": 751,
+    "Magan Civilization": "3000 BCE",
+    "Muscat and Oman": "8 January 1856",
+    "Nabhani dynasty": 1154,
+    "Omani Empire": 1696,
+    "Portuguese rule": "1507–1656",
+    "Sultanate of Oman": "9 August 1970",
+    "Ya'rubi dynasty": 1624
+  },
+  "population": {
+    "density_per_km2": 15.0,
+    "total": 5494691,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+04:00"
+  }
+}

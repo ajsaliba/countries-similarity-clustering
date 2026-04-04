@@ -1,0 +1,84 @@
+{
+  "country": "Jordan",
+  "area": {
+    "rank": 110,
+    "total_km2": 89342.0,
+    "water_pct": 0.6
+  },
+  "codes": {
+    "calling_code": "+962",
+    "internet_tld": ".jo",
+    "iso_3166_code": "JO"
+  },
+  "economy": {
+    "currency_code": "JOD",
+    "gdp_nominal": {
+      "per_capita_usd": 4850,
+      "total_billion_usd": 50.022,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 12809,
+      "total_billion_usd": 132.092,
+      "year": 2023
+    },
+    "gini": {
+      "category": "medium",
+      "value": 35.4,
+      "year": 2011
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 100,
+      "value": 0.754,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Amman",
+    "demonym": "Jordanian",
+    "ethnic_groups": {
+      "groups": {
+        "Arab": 95.0,
+        "Armenian and others": 2.0,
+        "Circassian , Chechen": 3.0
+      },
+      "year": null
+    },
+    "largest_city": "Amman",
+    "monarch": "Abdullah II",
+    "official_language": "Arabic",
+    "religion": {
+      "groups": {
+        "Christianity": 3.0,
+        "Druze , Baháʼí": 1.0,
+        "Islam ( official )": 95.0,
+        "others": 1.0
+      },
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Jafar Hassan"
+    },
+    "legislature": "Parliament",
+    "lower_house": "House of Representatives",
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Current constitution": "11 January 1952",
+    "Emirate": "11 April 1921",
+    "Independence": "25 May 1946"
+  },
+  "population": {
+    "density_per_km2": 114.0,
+    "total": 11484805,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

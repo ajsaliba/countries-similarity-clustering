@@ -1,0 +1,81 @@
+{
+  "country": "Mauritania",
+  "area": {
+    "rank": 28,
+    "total_km2": 1030000.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+222",
+    "internet_tld": ".mr",
+    "iso_3166_code": "MR"
+  },
+  "economy": {
+    "currency_code": "MRU",
+    "gdp_nominal": {
+      "per_capita_usd": 2480,
+      "total_billion_usd": 11.47,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 8650,
+      "total_billion_usd": 40.06,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 32.6,
+      "year": 2014
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 163,
+      "value": 0.563,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Nouakchott",
+    "demonym": "Mauritanian",
+    "ethnic_groups": {
+      "groups": {
+        "Beidane": 30.0,
+        "Halpulaar , Fulani , Soninké , and Wolof": 30.0,
+        "Haratin": 40.0
+      },
+      "year": null
+    },
+    "largest_city": "Nouakchott",
+    "national_language": "Arabic Pulaar Soninke Wolof",
+    "official_language": "Arabic",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Mohamed Ould Ghazouani",
+      "president_of_the_national_assembly": "Mohamed Ould Meguett",
+      "prime_minister": "Mokhtar Ould Djay"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary semi-presidential Islamic republic",
+    "upper_house": null
+  },
+  "history": {
+    "Current constitution": "12 July 1991",
+    "Independence from France": "28 November 1960",
+    "Republic established": "28 November 1958"
+  },
+  "population": {
+    "density_per_km2": 3.4,
+    "total": 5461319,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+00:00"
+  }
+}

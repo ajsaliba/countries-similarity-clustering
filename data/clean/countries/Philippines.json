@@ -1,0 +1,101 @@
+{
+  "country": "Philippines",
+  "area": {
+    "rank": 72,
+    "total_km2": 300000.0,
+    "water_pct": 0.61
+  },
+  "codes": {
+    "calling_code": "+63",
+    "internet_tld": ".ph",
+    "iso_3166_code": "PH"
+  },
+  "economy": {
+    "currency_code": "PHP",
+    "gdp_nominal": {
+      "per_capita_usd": 4350,
+      "total_billion_usd": 497.05,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 12930,
+      "total_billion_usd": 1488.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 39.3,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 117,
+      "value": 0.72,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Manila ( de jure ) Metro Manila ( de facto )",
+    "demonym": "Filipino ( neutral ) Filipina ( feminine ) Pinoy ( colloquial neutral ) Pinay ( colloquial feminine ) Philippine ( adjective for certain common nouns )",
+    "ethnic_groups": {
+      "groups": {
+        "Bicolano": 6.5,
+        "Bisaya": 14.3,
+        "Cebuano": 8.0,
+        "Ilocano": 8.0,
+        "Ilonggo": 7.9,
+        "Tagalog": 26.0,
+        "other": 20.3
+      },
+      "year": 2020
+    },
+    "largest_city": "Quezon City",
+    "national_language": "Filipino",
+    "national_sign_language": "Filipino Sign Language",
+    "official_language": "Filipino English",
+    "other_recognized_languages": "Spanish and Arabic",
+    "recognized_languages": "Details / Constitution",
+    "recognized_regional_languages": "19 languages",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 78.8,
+            "other Christian": 6.5
+          },
+          "percentage": 85.3
+        },
+        "Islam": 6.4,
+        "other": 8.2
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Alexander Gesmundo",
+      "house_speaker": "Bojie Dy",
+      "president": "Bongbong Marcos",
+      "senate_president": "Tito Sotto",
+      "vice_president": "Sara Duterte"
+    },
+    "legislature": "Congress",
+    "lower_house": "House of Representatives",
+    "type": "Unitary presidential republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Cession": "April 11, 1899",
+    "Declaration": "June 12, 1898",
+    "Self-government": "November 15, 1935"
+  },
+  "population": {
+    "density_per_km2": 363.45,
+    "total": 112729484,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+08:00"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "country": "Chile",
+  "area": {
+    "rank": 37,
+    "total_km2": 756101.96,
+    "water_pct": 2.1
+  },
+  "codes": {
+    "calling_code": "+56",
+    "internet_tld": ".cl",
+    "iso_3166_code": "CL"
+  },
+  "economy": {
+    "currency_code": "CLP",
+    "gdp_nominal": {
+      "per_capita_usd": 17180,
+      "total_billion_usd": 347.17,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 35290,
+      "total_billion_usd": 713.03,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 44.8,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 45,
+      "value": 0.878,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Santiago",
+    "demonym": "Chilean",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Santiago",
+    "national_language": "Spanish",
+    "official_language": "Spanish",
+    "other_spoken_languages": "Aymara Kawésqar Mapudungun Quechua Rapa Nui",
+    "recognized_languages": "Details / Current",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 54.0,
+            "Protestantism": 16.0
+          },
+          "percentage": 70.0
+        },
+        "no religion": 26.0,
+        "other": 4.0
+      },
+      "year": 2024
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "José Antonio Kast",
+      "president_of_supreme_court": "Gloria Ana Chevesich",
+      "president_of_the_chamber_of_deputies": "Jorge Alessandri",
+      "president_of_the_senate": "Paulina Núñez"
+    },
+    "legislature": "National Congress",
+    "lower_house": "Chamber of Deputies",
+    "type": "Unitary presidential republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Declared": "12 February 1818",
+    "Government Junta": "18 September 1810"
+  },
+  "population": {
+    "density_per_km2": 24.0,
+    "total": 19629588,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": "UTC-03:00",
+    "timezone_utc": "UTC-03:00"
+  }
+}

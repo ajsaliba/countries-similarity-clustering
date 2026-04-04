@@ -1,0 +1,86 @@
+{
+  "country": "San Marino",
+  "area": {
+    "rank": 191,
+    "total_km2": 61.19,
+    "water_pct": 0.0059
+  },
+  "codes": {
+    "calling_code": "+378",
+    "internet_tld": ".sm",
+    "iso_3166_code": "SM"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 59405,
+      "total_billion_usd": 2.034,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 86989,
+      "total_billion_usd": 2.978,
+      "year": 2024
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 29,
+      "value": 0.915,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "City of San Marino",
+    "captains_regent": "Matteo Rossi Lorenzo Bugli",
+    "demonym": "Sammarinese",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "City of San Marino",
+    "largest_settlement": "Dogana 43°58′53″N 12°29′22″E ﻿ / ﻿ 43.98139°N 12.48944°E ﻿ / 43.98139; 12.48944",
+    "official_language": "Italian",
+    "other_languages": "Romagnol ( Sammarinese )",
+    "religion": {
+      "groups": {
+        "Catholicism (2022)": 90.3,
+        "Other Christian denominations (2022)": {
+          "breakdown": {
+            "Islam (2015)": 0.46,
+            "Judaism": 0.1
+          },
+          "percentage": 1.1
+        },
+        "no religion": 7.5
+      },
+      "year": null
+    },
+    "secretary_of_state_for_foreign_and_political_affairs": "Luca Beccari"
+  },
+  "government": {
+    "leaders": {},
+    "legislature": "Grand and General Council",
+    "lower_house": null,
+    "type": "Unitary parliamentary diarchic directorial republic",
+    "upper_house": null
+  },
+  "history": {
+    "Constitution": "8 October 1600 (Statutes) 8 July 1974 (Declaration of Citizen Rights)",
+    "From the Papal States": 1291,
+    "From the Roman Empire": "3 September 301 (traditional)"
+  },
+  "population": {
+    "density_per_km2": 579.0,
+    "total": 34172,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

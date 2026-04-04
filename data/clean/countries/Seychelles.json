@@ -1,0 +1,84 @@
+{
+  "country": "Seychelles",
+  "area": {
+    "rank": 181,
+    "total_km2": 457.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+248",
+    "internet_tld": ".sc",
+    "iso_3166_code": "SC"
+  },
+  "economy": {
+    "currency_code": "SCR",
+    "gdp_nominal": {
+      "per_capita_usd": 21940,
+      "total_billion_usd": 2.25,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 43850,
+      "total_billion_usd": 4.49,
+      "year": 2026
+    },
+    "gini": {
+      "category": "medium",
+      "value": 32.1,
+      "year": 2019
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 54,
+      "value": 0.848,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Victoria",
+    "demonym": "Seychellois Seychelloise Seselwa (Creole)",
+    "ethnic_groups": {
+      "groups": {
+        "Seychellois Creoles": 97.0,
+        "others": 3.0
+      },
+      "year": null
+    },
+    "largest_city": "Victoria",
+    "minority_language": "Tamil",
+    "official_language": "Seychellois Creole (national language) English French",
+    "religion": {
+      "groups": {
+        "Christianity": 74.9,
+        "Hinduism": 5.4,
+        "Islam": 2.4,
+        "others": 5.1,
+        "unanswered": 12.2
+      },
+      "year": 2022
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Patrick Herminie",
+      "speaker_of_the_national_assembly": "Azarel Ernesta",
+      "vice_president": "Sebastien Pillay"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Independence declared": "29 June 1976"
+  },
+  "population": {
+    "density_per_km2": 262.3,
+    "total": 121355,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+04:00"
+  }
+}

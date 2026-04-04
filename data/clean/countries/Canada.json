@@ -1,0 +1,77 @@
+{
+  "country": "Canada",
+  "area": {
+    "rank": 2,
+    "total_km2": 9984670.0,
+    "water_pct": 11.76
+  },
+  "codes": {
+    "calling_code": "+1",
+    "internet_tld": ".ca",
+    "iso_3166_code": "CA"
+  },
+  "economy": {
+    "currency_code": "CAD",
+    "gdp_nominal": {
+      "per_capita_usd": 54935,
+      "total_billion_usd": 2284.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 65500,
+      "total_billion_usd": 2723.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 29.2,
+      "year": 2024
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 16,
+      "value": 0.939,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Ottawa",
+    "demonym": "Canadian",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "governor_general": "Mary Simon",
+    "largest_city": "Toronto",
+    "monarch": "Charles III",
+    "official_language": "English French",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Mark Carney"
+    },
+    "legislature": "Parliament",
+    "lower_house": "House of Commons",
+    "type": "Federal parliamentary constitutional monarchy",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Balfour Declaration": "November 15, 1926",
+    "Confederation": "July 1, 1867",
+    "Patriation": "April 17, 1982",
+    "Statute of Westminster, 1931": "December 11, 1931"
+  },
+  "population": {
+    "density_per_km2": 4.2,
+    "total": 41575585,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC-02:00",
+    "timezone_utc": "UTC-03:00"
+  }
+}

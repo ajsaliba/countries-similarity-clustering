@@ -1,0 +1,93 @@
+{
+  "country": "Somalia",
+  "area": {
+    "rank": 43,
+    "total_km2": 637657.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+252",
+    "internet_tld": ".so",
+    "iso_3166_code": "SO"
+  },
+  "economy": {
+    "currency_code": "SOS",
+    "gdp_nominal": {
+      "per_capita_usd": 766,
+      "total_billion_usd": 12.99,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 1920,
+      "total_billion_usd": 32.5,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 35.2,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 192,
+      "value": 0.404,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Mogadishu",
+    "demonym": "Somali",
+    "ethnic_groups": {
+      "groups": {
+        "Somali": 85.0,
+        "other": 15.0
+      },
+      "year": 2021
+    },
+    "largest_city": "Mogadishu",
+    "official_language": "Somali",
+    "religion": {
+      "groups": null,
+      "year": null
+    },
+    "second_language": "Arabic"
+  },
+  "government": {
+    "leaders": {
+      "president": "Hassan Sheikh Mohamud",
+      "prime_minister": "Hamza Abdi Barre"
+    },
+    "legislature": "Federal Parliament",
+    "lower_house": "House of the People",
+    "type": "Federal parliamentary republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Adal Sultanate": "9th century",
+    "Ajuran Sultanate": "13th century",
+    "Barbaria": "100 BC",
+    "British Somaliland": "1884–1960",
+    "Current constitution": "1 August 2012",
+    "Geledi Sultanate": "1695–1911",
+    "Hiraab Imamate": "16th century",
+    "Independence of the State of Somaliland from the United Kingdom": "26 June 1960",
+    "Independence of the Trust Territory of Somaliland from Italy and union with the State of Somaliland to form the Somali Republic": "1 July 1960",
+    "Isaaq Sultanate": "1749–1884",
+    "Italian Somaliland": "1889–1941",
+    "Land of Punt": "2350 BC",
+    "Macrobia": "980 BC",
+    "Majeerteen Sultanate": "1648–1927",
+    "Mogadishu Sultanate": "10th century",
+    "Sultanate of Hobyo": "1878–1927",
+    "Sultanate of Ifat": "13th century"
+  },
+  "population": {
+    "density_per_km2": 27.2,
+    "total": 19280850,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

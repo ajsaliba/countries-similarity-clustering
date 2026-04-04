@@ -1,0 +1,87 @@
+{
+  "country": "Congo, Democratic Republic of the",
+  "area": {
+    "rank": 11,
+    "total_km2": 2345409.0,
+    "water_pct": 3.32
+  },
+  "codes": {
+    "calling_code": "+243",
+    "internet_tld": ".cd",
+    "iso_3166_code": "CD"
+  },
+  "economy": {
+    "currency_code": "CDF",
+    "gdp_nominal": {
+      "per_capita_usd": 742,
+      "total_billion_usd": 79.12,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 1881,
+      "total_billion_usd": 200.76,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 42.1,
+      "year": 2012
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 171,
+      "value": 0.522,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Kinshasa",
+    "demonym": "Congolese",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Kinshasa",
+    "national_language": "Kikongo ya leta Lingala Swahili Luba-Kasai",
+    "official_language": "French",
+    "religion": {
+      "groups": {
+        "Christianity": 95.4,
+        "Islam": 1.5,
+        "others / none": 0.5,
+        "traditional faiths": 2.6
+      },
+      "year": 2021
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Félix Tshisekedi",
+      "prime_minister": "Judith Suminwa"
+    },
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "type": "Unitary semi-presidential republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Admitted to the United Nations": "20 September 1960",
+    "Belgian Congo": "15 November 1908",
+    "Colonised by Leopold II of Belgium": "17 November 1879",
+    "Congo Free State": "1 July 1885",
+    "Current constitution": "18 February 2006",
+    "Democratic Republic": "1 August 1964",
+    "First Congo War": "17 May 1997",
+    "Independence from Belgium": "30 June 1960",
+    "Republic of Zaire": "27 October 1971"
+  },
+  "population": {
+    "density_per_km2": 48.0,
+    "total": 124388160,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+01:00"
+  }
+}

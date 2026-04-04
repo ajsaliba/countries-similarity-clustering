@@ -1,0 +1,86 @@
+{
+  "country": "Greece",
+  "area": {
+    "rank": 95,
+    "total_km2": 131957.0,
+    "water_pct": 1.51
+  },
+  "codes": {
+    "calling_code": "+30",
+    "internet_tld": ".gr",
+    "iso_3166_code": "GR"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 27170,
+      "total_billion_usd": 282.019,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 44985,
+      "total_billion_usd": 466.945,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 31.8,
+      "year": 2024
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 34,
+      "value": 0.908,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Athens",
+    "demonym": "Greek Hellene",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Athens",
+    "official_language": "Greek",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Greek Orthodoxy ( official )": 90.0,
+            "other Christian": 3.0
+          },
+          "percentage": 93.0
+        },
+        "Islam": 2.0,
+        "No religion": 4.0,
+        "Others": 1.0
+      },
+      "year": 2017
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Konstantinos Tasoulas",
+      "president_of_the_parliament": "Nikitas Kaklamanis",
+      "prime_minister": "Kyriakos Mitsotakis"
+    },
+    "legislature": "Hellenic Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Greek War of Independence against the Ottoman Empire": "25 March 1821 (traditional starting date)",
+    "Official declaration": "1 January 1822"
+  },
+  "population": {
+    "density_per_km2": 78.9,
+    "total": 10372335,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC+03:00",
+    "timezone_utc": "UTC+02:00"
+  }
+}

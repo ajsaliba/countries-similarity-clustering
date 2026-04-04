@@ -1,0 +1,103 @@
+{
+  "country": "Afghanistan",
+  "area": {
+    "rank": 40,
+    "total_km2": 652864.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": null,
+    "internet_tld": ".af",
+    "iso_3166_code": "AF"
+  },
+  "economy": {
+    "currency_code": "AFN",
+    "gdp_nominal": {
+      "per_capita_usd": 411,
+      "total_billion_usd": 17.329,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 2174,
+      "total_billion_usd": 91.668,
+      "year": 2023
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 181,
+      "value": 0.496,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Kabul",
+    "demonym": "Afghan",
+    "ethnic_groups": {
+      "groups": {
+        "Aimaq": 4.0,
+        "Baloch": 2.0,
+        "Hazara": 9.0,
+        "Pashtun": 42.0,
+        "Tajik": 27.0,
+        "Turkmen": 3.0,
+        "Uzbek": 9.0,
+        "other": 4.0
+      },
+      "year": 2010
+    },
+    "largest_city": "Kabul",
+    "official_language": "Pashto Dari",
+    "religion": {
+      "groups": {
+        "Islam": {
+          "breakdown": {
+            "Shia": 10.8,
+            "Sunni ( official )": 89.1
+          },
+          "percentage": 99.9
+        },
+        "other": 0.1
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Abdul Hakim Haqqani",
+      "prime_minister": "Hasan Akhund",
+      "supreme_leader": "Hibatullah Akhundzada"
+    },
+    "legislature": "None",
+    "lower_house": null,
+    "type": "Unitary totalitarian theocratic Islamic emirate",
+    "upper_house": null
+  },
+  "history": {
+    "Barakzai Emirate": 1823,
+    "Democratic Republic": "30 April 1978",
+    "Durrani Empire": "June 1747",
+    "Hotak Emirate": "21 April 1709",
+    "Independence": "19 August 1919",
+    "Islamic Emirate": "27 September 1996",
+    "Islamic Republic": "26 January 2004",
+    "Islamic State": "28 April 1992",
+    "Kingdom": "9 June 1926",
+    "Republic": "17 July 1973",
+    "Restoration of Islamic Emirate": "15 August 2021",
+    "Unification": "27 May 1863"
+  },
+  "population": {
+    "density_per_km2": 64.0,
+    "total": 42500000,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+04:30"
+  }
+}

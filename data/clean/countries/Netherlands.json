@@ -1,0 +1,86 @@
+{
+  "country": "Netherlands",
+  "area": {
+    "rank": 131,
+    "total_km2": 42531.0,
+    "water_pct": 18.96
+  },
+  "codes": {
+    "calling_code": "+31",
+    "internet_tld": ".nl",
+    "iso_3166_code": "NL"
+  },
+  "economy": {
+    "currency_code": "AWG",
+    "gdp_nominal": {
+      "per_capita_usd": 73091,
+      "total_billion_usd": 1326.0,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 87173,
+      "total_billion_usd": 1581.0,
+      "year": 2026
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": null,
+      "rank": null,
+      "value": null,
+      "year": null
+    }
+  },
+  "general": {
+    "capital": "Amsterdam",
+    "countries_nonsovereign_parts": "Netherlands Aruba Curaçao Sint Maarten",
+    "demonym": "Dutch",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Amsterdam",
+    "minister_plenipotentiary_of_aruba": "Ady Thijsen",
+    "minister_plenipotentiary_of_curaçao": "Carlson Manuel",
+    "minister_plenipotentiary_of_sint_maarten": "Rene Violenus",
+    "monarch": "Willem-Alexander",
+    "official_language": "Dutch",
+    "official_regional_languages": "English Papiamento West Frisian",
+    "recognized_languages": "Dutch Low Saxon Dutch Sign Language Limburgish Sinte Romani Yiddish",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Rob Jetten"
+    },
+    "legislature": null,
+    "lower_house": null,
+    "seat": "The Hague",
+    "type": "Devolved unitary parliamentary constitutional monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "Admitted to the United Nations": "24 October 1945",
+    "Annexation by First French Empire": "1 July 1810",
+    "Batavian Republic": "19 January 1795",
+    "Charter for the Kingdom ( colonial inclusion )": "15 December 1954",
+    "Kingdom of Holland": "5 June 1806",
+    "Kingdom of the Netherlands": "16 March 1815",
+    "Secession of Belgium": "4 October 1830 ( declared ) 19 April 1839 ( recognised )"
+  },
+  "population": {
+    "density_per_km2": 532.0,
+    "total": 18290379,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+01:00"
+  }
+}

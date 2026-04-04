@@ -1,0 +1,87 @@
+{
+  "country": "Cuba",
+  "area": {
+    "rank": 104,
+    "total_km2": 110860.0,
+    "water_pct": 0.94
+  },
+  "codes": {
+    "calling_code": "+53",
+    "internet_tld": ".cu",
+    "iso_3166_code": "CU"
+  },
+  "economy": {
+    "currency_code": "CUP",
+    "gdp_nominal": {
+      "per_capita_usd": 22957,
+      "total_billion_usd": 252.063,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 22237,
+      "total_billion_usd": 254.865,
+      "year": 2015
+    },
+    "gini": {
+      "category": "medium",
+      "value": 38.0,
+      "year": 2000
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 97,
+      "value": 0.762,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Havana",
+    "demonym": "Cuban",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Havana",
+    "official_language": "Spanish",
+    "recognized_sovereignty_relinquished_by_spain": {
+      "Cuban Revolution": "26 July 1953 – 1 January 1959",
+      "Current constitution": "10 April 2019",
+      "Details": "10 December 1898",
+      "Republic declared (end of United States occupation )": "20 May 1902"
+    },
+    "religion": {
+      "groups": {
+        "Christianity": 58.9,
+        "folk religions": 17.6,
+        "no religion": 23.2,
+        "other": 0.3
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "first_secretary_and_president": "Miguel Díaz-Canel",
+      "president_of_the_national_assembly": "Esteban Lazo Hernández",
+      "prime_minister": "Manuel Marrero Cruz",
+      "vice_president": "Salvador Valdés Mesa"
+    },
+    "legislature": "National Assembly of People's Power",
+    "lower_house": null,
+    "type": "Communist state",
+    "upper_house": null
+  },
+  "history": {
+    "Declaration of Independence": "10 October 1868",
+    "War of Independence": "24 February 1895"
+  },
+  "population": {
+    "density_per_km2": 89.8,
+    "total": 9748007,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": "UTC-04:00",
+    "timezone_utc": "UTC-05:00"
+  }
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  KNIME CSV Writer node – Node 2
+  ================================
+  Factory : org.knime.base.node.io.csvwriter.CSVWriterNodeFactory
+  Bundle  : org.knime.base (KNIME Base Nodes)
+
+  Input port 1  : flat countries table from the Python Script node
+  No output port.
+
+  Writes the cleaned table to JSON/all_countries_flat.csv.
+  The path uses the KNIME "knime://knime.workflow/../" protocol
+  so it resolves relative to wherever the workflow is saved.
+-->
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" key="settings.xml">
+
+  <entry key="node-name"                 type="xstring" value="CSV Writer"/>
+  <entry key="node-bundle-name"          type="xstring" value="KNIME Base Nodes"/>
+  <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+  <entry key="node-bundle-vendor"        type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+  <entry key="node-bundle-version"       type="xstring" value="4.7.0.202310260939"/>
+  <entry key="node-creation-date"        type="xstring" value="2024-01-01 00:00:00"/>
+
+  <config key="model">
+
+    <!-- Output file (relative to the project root via knime:// protocol) -->
+    <entry key="filename"           type="xstring"
+           value="knime://knime.workflow/../../data/outputs/all_countries_flat.csv"/>
+
+    <!-- CSV format -->
+    <entry key="colSeparator"       type="xstring"  value=","/>
+    <entry key="quoteChar"          type="xstring"  value="&quot;"/>
+    <entry key="decSeparator"       type="xstring"  value="."/>
+    <entry key="lineEnding"         type="xstring"  value="System default (CR+LF on Windows, LF on Linux/macOS)"/>
+
+    <!-- Header / row ID -->
+    <entry key="writeColumnHeader"  type="xboolean" value="true"/>
+    <entry key="writeRowID"         type="xboolean" value="false"/>
+
+    <!-- Missing values: write as empty string -->
+    <entry key="writeMissVal"       type="xboolean" value="false"/>
+    <entry key="missValuePattern"   type="xstring"  value=""/>
+
+    <!-- Quoting -->
+    <entry key="quoteAlways"        type="xboolean" value="false"/>
+    <entry key="quoteReplacement"   type="xstring"  value="replace_with_escape_sequence"/>
+    <entry key="separatorReplacement" type="xstring" value=""/>
+
+    <!-- Encoding / compression -->
+    <entry key="charSet"            type="xstring"  value="UTF-8"/>
+    <entry key="gzip"               type="xboolean" value="false"/>
+
+    <!-- Overwrite existing file -->
+    <entry key="overwriteOK"        type="xboolean" value="true"/>
+    <entry key="appendedColumns"    type="xboolean" value="false"/>
+
+    <!-- No comment header -->
+    <entry key="comment"            type="xstring"  value=""/>
+    <entry key="addTimestamp"       type="xboolean" value="false"/>
+
+  </config><!-- /model -->
+
+</config>

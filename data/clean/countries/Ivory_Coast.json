@@ -1,0 +1,93 @@
+{
+  "country": "Ivory Coast",
+  "area": {
+    "rank": 68,
+    "total_km2": 322462.0,
+    "water_pct": 1.4
+  },
+  "codes": {
+    "calling_code": "+225",
+    "internet_tld": ".ci",
+    "iso_3166_code": "CI"
+  },
+  "economy": {
+    "currency_code": "XOF",
+    "gdp_nominal": {
+      "per_capita_usd": 2728,
+      "total_billion_usd": 79.43,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 6960,
+      "total_billion_usd": 202.647,
+      "year": 2023
+    },
+    "gini": {
+      "category": "medium",
+      "value": 35.3,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 157,
+      "value": 0.582,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Yamoussoukro",
+    "demonym": "Ivorian Ivory Coasters",
+    "ethnic_groups": {
+      "groups": {
+        "Akan": 38.0,
+        "Ivorian": 78.0,
+        "Kru": 9.1,
+        "Naturalized Ivorian": 0.3,
+        "Northern Mande": 22.0,
+        "Southern Mande": 8.6,
+        "Voltaiques/Gur": 22.0,
+        "non-Ivorian a": 22.0
+      },
+      "year": 2021
+    },
+    "largest_city": "Abidjan",
+    "official_language": "French",
+    "religion": {
+      "groups": {
+        "Christianity": 39.8,
+        "Islam": 42.5,
+        "no religion": 12.6,
+        "other religions": 0.7,
+        "traditional faiths": 2.2,
+        "unanswered": 2.2
+      },
+      "year": 2021
+    },
+    "vernacular_language": "English French Arabic Bété Dyula Baoulé Abron Agni Senoufo others"
+  },
+  "government": {
+    "leaders": {
+      "deputy_vice_prime_minister": "Téné Birahima Ouattara",
+      "president": "Alassane Ouattara",
+      "prime_minister": "Robert Beugré Mambé",
+      "vice_president": "Tiémoko Meyliet Koné"
+    },
+    "legislature": "Parliament of Ivory Coast",
+    "lower_house": "National Assembly",
+    "type": "Unitary presidential republic under an authoritarian regime",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Independence from France": "7 August 1960",
+    "Republic established": "4 December 1958"
+  },
+  "population": {
+    "density_per_km2": 97.7,
+    "total": 31500000,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+00:00"
+  }
+}

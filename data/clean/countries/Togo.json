@@ -1,0 +1,96 @@
+{
+  "country": "Togo",
+  "area": {
+    "rank": 123,
+    "total_km2": 56785.0,
+    "water_pct": 4.2
+  },
+  "codes": {
+    "calling_code": "+228",
+    "internet_tld": ".tg",
+    "iso_3166_code": "TG"
+  },
+  "economy": {
+    "currency_code": "XOF",
+    "gdp_nominal": {
+      "per_capita_usd": 1050,
+      "total_billion_usd": 10.02,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 3470,
+      "total_billion_usd": 33.05,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 43.1,
+      "year": 2015
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 161,
+      "value": 0.571,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Lomé",
+    "demonym": "Togolese",
+    "ethnic_groups": {
+      "groups": {
+        ")": 5.6,
+        ") Aja , Ewe and Mina (": 94.4,
+        ") Akan and Gurma (": 25.9,
+        ") Ana-Ife (": 4.1,
+        ") Kabye and Tem (": 42.4,
+        ") Kposo and Akebu (": 17.1,
+        ") Other West African groups (": 3.2,
+        ") non-African (": 1.7
+      },
+      "year": null
+    },
+    "largest_city": "Lomé",
+    "official_language": "French",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Baháʼí faith": 1.0,
+            "Islam": 16.0,
+            "traditional faiths": 33.0
+          },
+          "percentage": 50.0
+        }
+      },
+      "year": 2025
+    },
+    "spoken_languages": "List: English French Ewe Gbe Gur Kwa Kabiye Talensi Wasa Aguna Aja Ngangam Ntcham Tammari Tem Ifè Yoruba"
+  },
+  "government": {
+    "leaders": {
+      "president": "Jean-Lucien Savi de Tové",
+      "prime_minister": "Faure Gnassingbé"
+    },
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "type": "Unitary parliamentary republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Admission to the UNO": "20 September 1960",
+    "Current constitution": "6 May 2024",
+    "French Togoland": "27 August 1914",
+    "German Togoland": "5 July 1884",
+    "Independence from France": "27 April 1960"
+  },
+  "population": {
+    "density_per_km2": 125.9,
+    "total": 9583381,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+00:00"
+  }
+}

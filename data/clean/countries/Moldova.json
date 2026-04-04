@@ -1,0 +1,102 @@
+{
+  "country": "Moldova",
+  "area": {
+    "rank": 135,
+    "total_km2": 33843.0,
+    "water_pct": 1.4
+  },
+  "codes": {
+    "calling_code": "+373",
+    "internet_tld": ".md",
+    "iso_3166_code": "MD"
+  },
+  "economy": {
+    "currency_code": "MDL",
+    "gdp_nominal": {
+      "per_capita_usd": 8984,
+      "total_billion_usd": 21.024,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 20731,
+      "total_billion_usd": 48.511,
+      "year": 2026
+    },
+    "gini": {
+      "category": "low",
+      "value": 25.7,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 86,
+      "value": 0.785,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Chișinău",
+    "demonym": "Moldovan",
+    "ethnic_groups": {
+      "groups": {
+        "Bulgarians": 1.6,
+        "Gagauz": 4.0,
+        "Moldovans": 76.7,
+        "Romanians": 8.0,
+        "Russians": 3.4,
+        "Ukrainians": 5.1,
+        "other": 1.1
+      },
+      "year": 2024
+    },
+    "largest_city": "Chișinău",
+    "official_language": "Romanian",
+    "recognized_minority_languages": "See list Belarusian Bulgarian Gagauz German Hebrew Polish Romani Russian Ukrainian",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Eastern Orthodoxy": 94.3,
+            "other Christian": 3.1
+          },
+          "percentage": 97.4
+        },
+        "no religion": 1.5,
+        "other": 0.3,
+        "unanswered": 0.8
+      },
+      "year": 2024
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Maia Sandu",
+      "president_of_the_parliament": "Igor Grosu",
+      "prime_minister": "Alexandru Munteanu"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Bessarabia Governorate": 1812,
+    "Constitution adopted": "29 July 1994",
+    "Independence from the Soviet Union": "27 August 1991 a",
+    "Moldavian ASSR": "12 October 1924",
+    "Moldavian Democratic Republic": "15 December 1917",
+    "Moldavian SSR": "2 August 1940",
+    "Principality of Moldavia": 1346,
+    "Transnistria War": "2 November 1990",
+    "Union with Romania": "9 April 1918"
+  },
+  "population": {
+    "density_per_km2": 78.5,
+    "total": 2381325,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC+03:00",
+    "timezone_utc": "UTC+02:00"
+  }
+}

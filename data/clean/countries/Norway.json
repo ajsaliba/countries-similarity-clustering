@@ -1,0 +1,104 @@
+{
+  "country": "Norway",
+  "area": {
+    "rank": null,
+    "total_km2": 385207.0,
+    "water_pct": 5.32
+  },
+  "codes": {
+    "calling_code": "+47",
+    "internet_tld": ".no",
+    "iso_3166_code": "NO"
+  },
+  "economy": {
+    "currency_code": "NOK",
+    "gdp_nominal": {
+      "per_capita_usd": 89690,
+      "total_billion_usd": 504.28,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 107890,
+      "total_billion_usd": 606.59,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 25.3,
+      "year": 2020
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 2,
+      "value": 0.97,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Oslo",
+    "demonym": "Norwegian",
+    "ethnic_groups": {
+      "groups": {
+        "Norwegian": 78.6,
+        "non-Norwegian": 21.4
+      },
+      "year": 2025
+    },
+    "kven_": "Norjan kuninkhaanvaltakunta",
+    "largest_city": "Oslo",
+    "lule_sami_": "Vuona gånågisrijkka",
+    "monarch": "Harald V",
+    "national_language": "Kven Romani Scandoromani Norwegian Sign Language",
+    "northern_sami_": [
+      "Norgga gonagasriika",
+      "Norgga gonagasriika"
+    ],
+    "official_language": "Norwegian Sámi",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Church of Norway": 61.7,
+            "other Christian": 6.8
+          },
+          "percentage": 68.5
+        },
+        "Islam": 3.4,
+        "no religion": 27.3,
+        "other": 0.8
+      },
+      "year": 2024
+    },
+    "southern_sami_": "Nöörjen gånkarïjhke"
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Toril Marie Øie",
+      "president_of_the_storting": "Masud Gharahkhani",
+      "prime_minister": "Jonas Gahr Støre"
+    },
+    "legislature": "Storting",
+    "lower_house": null,
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "Constitution": "17 May 1814",
+    "Denmark–Norway (real union)": 1524,
+    "Kalmar Union (personal union)": 1397,
+    "Kingdoms of Sweden–Norway (personal union)": "4 November 1814",
+    "Peak extent of the Old Kingdom": 1263,
+    "State established": 872,
+    "State re-established": "25 February 1814",
+    "Union dissolved": "7 June 1905"
+  },
+  "population": {
+    "density_per_km2": 14.6,
+    "total": 5627400,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

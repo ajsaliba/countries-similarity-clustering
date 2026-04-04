@@ -1,0 +1,88 @@
+{
+  "country": "Tunisia",
+  "area": {
+    "rank": 91,
+    "total_km2": 163610.0,
+    "water_pct": 5.04
+  },
+  "codes": {
+    "calling_code": "+216",
+    "internet_tld": ".tn",
+    "iso_3166_code": "TN"
+  },
+  "economy": {
+    "currency_code": "TND",
+    "gdp_nominal": {
+      "per_capita_usd": 4530,
+      "total_billion_usd": 56.29,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 14780,
+      "total_billion_usd": 183.73,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 33.7,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 105,
+      "value": 0.746,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Tunis",
+    "demonym": "Tunisian",
+    "ethnic_groups": {
+      "groups": {
+        "Arabs": 98.0,
+        "Berbers": 1.0,
+        "Jews and others": 1.0
+      },
+      "year": 2021
+    },
+    "foreign_languages": "French and English",
+    "largest_city": "Tunis",
+    "official_language": "Arabic",
+    "religion": {
+      "groups": {
+        "Sunni Islam": 99.0,
+        "others": 1.0
+      },
+      "year": null
+    },
+    "vernacular_language": "Tunisian Arabic"
+  },
+  "government": {
+    "leaders": {
+      "aghlabid_emirate": 800,
+      "president": "Kais Saied",
+      "prime_minister": "Sara Zaafarani"
+    },
+    "legislature": "Parliament",
+    "lower_house": "Assembly of the Representatives of the People",
+    "type": "Unitary presidential republic",
+    "upper_house": "National Council of Regions and Districts"
+  },
+  "history": {
+    "Ancient Carthage": "814 BC",
+    "Beylik of Tunis": "15 July 1705",
+    "French protectorate": "12 May 1881",
+    "Hafsid Sultanate": 1229,
+    "Independence and Kingdom": "20 March 1956",
+    "Republic declaration": "25 July 1957"
+  },
+  "population": {
+    "density_per_km2": 79.0,
+    "total": 11972169,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+01:00"
+  }
+}

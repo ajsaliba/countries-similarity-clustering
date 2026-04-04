@@ -1,0 +1,108 @@
+{
+  "country": "Madagascar",
+  "area": {
+    "rank": 46,
+    "total_km2": 592796.0,
+    "water_pct": 0.9
+  },
+  "codes": {
+    "calling_code": "+261",
+    "internet_tld": ".mg",
+    "iso_3166_code": "MG"
+  },
+  "economy": {
+    "currency_code": "MGA",
+    "gdp_nominal": {
+      "per_capita_usd": 652,
+      "total_billion_usd": 21.09,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 2110,
+      "total_billion_usd": 68.11,
+      "year": 2026
+    },
+    "gini": {
+      "category": "medium",
+      "value": 42.6,
+      "year": 2012
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 183,
+      "value": 0.487,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Antananarivo",
+    "demonym": "Malagasy",
+    "ethnic_groups": {
+      "groups": {
+        "Antaisaka": 5.0,
+        "Antandroy": 5.0,
+        "Betsileo": 12.0,
+        "Betsimisaraka": 15.0,
+        "Merina": 26.0,
+        "Sakalava": 6.0,
+        "Tsimihety": 7.0,
+        "others": 24.0
+      },
+      "year": 2017
+    },
+    "largest_city": "Antananarivo",
+    "official_language": "Malagasy French",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 38.1,
+            "Protestantism": 45.8,
+            "other Christian": 0.8
+          },
+          "percentage": 84.7
+        },
+        "Islam": 3.1,
+        "no religion": 7.3,
+        "others": 0.3,
+        "traditional faiths": 4.7
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Michael Randrianirina",
+      "prime_minister": "Mamitiana Rajaonarison"
+    },
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "type": "Unitary semi-presidential republic under a transitional government",
+    "upper_house": "Senate (suspended)"
+  },
+  "history": {
+    "2025 Malagasy protests": "25 September – 14 October 2025",
+    "Coup d'etat": "12–14 October 2025",
+    "Current constitution": "11 December 2010",
+    "Declaration of independence": "26 June 1960",
+    "French colony": "6 August 1896",
+    "French protectorate": "c. 1882",
+    "Kingdom": "c. 1540",
+    "Referendum": [
+      "21 December 1975",
+      "17 November 2010"
+    ],
+    "Republic proclaimed": "14 October 1958",
+    "Socialist state": "30 December 1975 – 12 January 1992",
+    "Third Republic": "12 January 1992 – 11 December 2010"
+  },
+  "population": {
+    "density_per_km2": 55.0,
+    "total": 31964956,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "country": "Kyrgyzstan",
+  "area": {
+    "rank": 85,
+    "total_km2": 200105.0,
+    "water_pct": 3.6
+  },
+  "codes": {
+    "calling_code": "+996",
+    "internet_tld": ".kg",
+    "iso_3166_code": "KG"
+  },
+  "economy": {
+    "currency_code": "KGS",
+    "gdp_nominal": {
+      "per_capita_usd": 3101,
+      "total_billion_usd": 22.587,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 8870,
+      "total_billion_usd": 64.11,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 26.4,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 117,
+      "value": 0.72,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Bishkek",
+    "chairman_of_the_cabinet_of_ministers": "Adylbek Kasymaliev",
+    "demonym": "Kyrgyz Kyrgyzstani",
+    "ethnic_groups": {
+      "groups": {
+        "Dungans": 1.0,
+        "Kyrgyz": 77.8,
+        "Others": 2.3,
+        "Russians": 3.7,
+        "Tajiks": 0.9,
+        "Uzbeks": 14.3
+      },
+      "year": 2025
+    },
+    "independence_recognized": {
+      "Current constitution": "11 April 2021",
+      "Details": "26 December 1991"
+    },
+    "largest_city": "Bishkek",
+    "official_language": "Kyrgyz (state) Russian (official)",
+    "official_script": "Cyrillic",
+    "religion": {
+      "groups": {
+        "Christianity": 8.0,
+        "Islam": 91.0,
+        "Others": 1.0
+      },
+      "year": 2026
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Sadyr Japarov",
+      "speaker_of_the_supreme_council": "Marlen Mamataliev"
+    },
+    "legislature": "Supreme Council",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Annexed by the Russian Empire": 1876,
+    "Independence declared from USSR": "31 August 1991",
+    "Kara-Kirghiz AO": "14 October 1924",
+    "Kara-Kyrgyz Khanate": "1842–1867",
+    "Kirghiz ASSR": "11 February 1926",
+    "Kirghiz SSR": "5 December 1936",
+    "Kyrgyz Khaganate": 840,
+    "Sovereignty declared": "30 December 1990"
+  },
+  "population": {
+    "density_per_km2": 37.0,
+    "total": 7,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+06:00"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "country": "Kiribati",
+  "area": {
+    "rank": 172,
+    "total_km2": 811.19,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+686",
+    "internet_tld": ".ki",
+    "iso_3166_code": "KI"
+  },
+  "economy": {
+    "currency_code": "AUD",
+    "gdp_nominal": {
+      "per_capita_usd": 1989,
+      "total_billion_usd": 0.248,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 2381,
+      "total_billion_usd": 0.297,
+      "year": 2023
+    },
+    "gini": {
+      "category": "low",
+      "value": 27.8,
+      "year": 2019
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 140,
+      "value": 0.644,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Tarawa",
+    "demonym": "I-Kiribati",
+    "ethnic_groups": {
+      "groups": {
+        "Gilbertese": 95.7,
+        "other": 4.3
+      },
+      "year": 2020
+    },
+    "largest_city": "Tarawa",
+    "official_language": "English Gilbertese",
+    "religion": {
+      "groups": {
+        "Bahá'í Faith": 2.1,
+        "Christianity": {
+          "breakdown": {
+            "Catholic Church": 58.9,
+            "Uniting Church": 21.2,
+            "other Christian": 16.1
+          },
+          "percentage": 96.2
+        },
+        "other / none": 1.7
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Taneti Maamau",
+      "speaker_of_the_house_of_assembly": "Willie Tokataake",
+      "vice_president": "Teuea Toatu"
+    },
+    "legislature": "House of Assembly",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic with an executive president",
+    "upper_house": null
+  },
+  "history": {
+    "Granted": "12 July 1979",
+    "Treaty of Tarawa": "20 September 1979"
+  },
+  "population": {
+    "density_per_km2": 149.64,
+    "total": 119438,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+12:00"
+  }
+}

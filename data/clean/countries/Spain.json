@@ -1,0 +1,103 @@
+{
+  "country": "Spain",
+  "area": {
+    "rank": 50,
+    "total_km2": 506030.0,
+    "water_pct": 0.89
+  },
+  "codes": {
+    "calling_code": "+34",
+    "internet_tld": ".es",
+    "iso_3166_code": "ES"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 38040,
+      "total_billion_usd": 1891.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 56888,
+      "total_billion_usd": 2829.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 31.2,
+      "year": 2024
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 28,
+      "value": 0.918,
+      "year": 2023
+    }
+  },
+  "general": {
+    "basque_": [
+      "Espainiako Erresuma",
+      "Espainiako Erresuma"
+    ],
+    "capital": "Madrid",
+    "catalan_valencian_": "Regne d'Espanya",
+    "demonym": "Spaniard Spanish",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "galician_": "Reino de España",
+    "largest_city": "Madrid",
+    "monarch": "Felipe VI",
+    "nationality_2026": {
+      "Spanish": "85.4%",
+      "foreigners": "14.6%"
+    },
+    "occitan_aranese_": "Reiaume d'Espanha",
+    "official_language": "Spanish",
+    "religion": {
+      "groups": {
+        "Roman Catholicism": {
+          "breakdown": {
+            "non-practicing Catholic": 40.0,
+            "practicing Catholic": 18.6
+          },
+          "percentage": 58.6
+        },
+        "agnostic": 11.1,
+        "atheist": 13.3,
+        "indifferent or irreligious": 11.7,
+        "other religion": 3.6,
+        "unanswered": 1.7
+      },
+      "year": 2025
+    }
+  },
+  "government": {
+    "leaders": {
+      "president_of_the_congress_of_deputies": "Francina Armengol",
+      "president_of_the_senate": "Pedro Rollán",
+      "prime_minister": "Pedro Sánchez"
+    },
+    "legislature": "Cortes Generales",
+    "lower_house": "Congress of Deputies",
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Centralised state": "9 June 1715",
+    "Current constitution": "29 December 1978",
+    "Dynastic union": "20 January 1479",
+    "First constitution": "19 March 1812",
+    "Sole sovereign": "14 March 1516"
+  },
+  "population": {
+    "density_per_km2": 98.0,
+    "total": 49570725,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": "UTC+01:00",
+    "timezone_utc": "UTC+00:00"
+  }
+}

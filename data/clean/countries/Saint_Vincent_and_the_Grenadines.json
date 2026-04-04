@@ -1,0 +1,101 @@
+{
+  "country": "Saint Vincent and the Grenadines",
+  "area": {
+    "rank": 184,
+    "total_km2": 389.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+1",
+    "internet_tld": ".vc",
+    "iso_3166_code": "VC"
+  },
+  "economy": {
+    "currency_code": "XCD",
+    "gdp_nominal": {
+      "per_capita_usd": 9360,
+      "total_billion_usd": 1.0,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 17840,
+      "total_billion_usd": 2.0,
+      "year": 2023
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 76,
+      "value": 0.798,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Kingstown",
+    "demonym": "Vincentian Grenadinian Saint Vincentian Vincy (colloquial)",
+    "ethnic_groups": {
+      "groups": {
+        "African": 66.0,
+        "European": 4.0,
+        "Indian": 6.0,
+        "Kalinago": 2.0,
+        "Mixed": 19.0,
+        "others": 3.0
+      },
+      "year": 2020
+    },
+    "governor_general": "Sir Stanley John",
+    "largest_city": "Kingstown",
+    "monarch": "Charles III",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Other Christian": 18.4,
+            "Protestantism": 70.2
+          },
+          "percentage": 88.6
+        },
+        "Hinduism": 3.4,
+        "Irreligion": 2.5,
+        "Islam": 1.5,
+        "Other": 0.5,
+        "Rastafari": {
+          "breakdown": {
+            "Baháʼí Faith": 1.6
+          },
+          "percentage": 1.8
+        }
+      },
+      "year": 2020
+    },
+    "vernacular_language": "Vincentian Creole"
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Godwin Friday"
+    },
+    "legislature": "House of Assembly",
+    "lower_house": null,
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "Associated State": "27 October 1969",
+    "from the United Kingdom": "27 October 1979"
+  },
+  "population": {
+    "density_per_km2": 307.0,
+    "total": 110872,
+    "year": 2022
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-04:00"
+  }
+}

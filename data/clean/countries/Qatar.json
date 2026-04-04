@@ -1,0 +1,90 @@
+{
+  "country": "Qatar",
+  "area": {
+    "rank": 158,
+    "total_km2": 11581.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+974",
+    "internet_tld": ".qa",
+    "iso_3166_code": "QA"
+  },
+  "economy": {
+    "currency_code": "QAR",
+    "gdp_nominal": {
+      "per_capita_usd": 71650,
+      "total_billion_usd": 222.78,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 121610,
+      "total_billion_usd": 378.08,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 35.1,
+      "year": 2017
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 43,
+      "value": 0.886,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Doha",
+    "demonym": "Qatari",
+    "ethnic_groups": {
+      "groups": {
+        "Arab": 49.0,
+        "Bangladeshi": 12.5,
+        "Indian": 21.8,
+        "Pakistani": 4.7,
+        "South Asian": 43.0,
+        "Sri Lankan": 4.35,
+        "other": 7.0
+      },
+      "year": 2019
+    },
+    "largest_city": "Doha",
+    "official_language": "Arabic",
+    "religion": {
+      "groups": {
+        "Buddhism": 3.3,
+        "Christianity": 14.2,
+        "Hinduism": 15.1,
+        "Islam ( official )": 65.5,
+        "other": 1.9
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "deputy_emir": "Abdullah bin Hamad",
+      "emir": "Tamim bin Hamad",
+      "prime_minister": "Mohammed bin Abdulrahman"
+    },
+    "legislature": "Consultative Assembly",
+    "lower_house": null,
+    "type": "Unitary authoritarian semi-constitutional monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "Declared independence": "1 September 1971",
+    "Independence from the United Kingdom": "3 September 1971",
+    "Qatar National Day": "18 December 1878"
+  },
+  "population": {
+    "density_per_km2": 264.0,
+    "total": 3214609,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

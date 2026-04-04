@@ -1,0 +1,80 @@
+{
+  "country": "Uruguay",
+  "area": {
+    "rank": 89,
+    "total_km2": 176215.0,
+    "water_pct": 1.5
+  },
+  "codes": {
+    "calling_code": "+598",
+    "internet_tld": ".uy",
+    "iso_3166_code": "UY"
+  },
+  "economy": {
+    "currency_code": "UYU",
+    "gdp_nominal": {
+      "per_capita_usd": 23088,
+      "total_billion_usd": 82.605,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 36014,
+      "total_billion_usd": 107.946,
+      "year": 2024
+    },
+    "gini": {
+      "category": "medium",
+      "value": 40.6,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 48,
+      "value": 0.862,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Montevideo",
+    "demonym": "Uruguayan",
+    "ethnic_groups": {
+      "groups": {
+        "Black": 10.4,
+        "East Asian": 0.7,
+        "Indigenous": 6.3,
+        "White": 86.0,
+        "other": 6.3
+      },
+      "year": 2023
+    },
+    "largest_city": "Montevideo",
+    "official_language": "Spanish Uruguayan Sign Language",
+    "recognized_languages": "Details / Current",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Yamandú Orsi",
+      "vice_president": "Carolina Cosse"
+    },
+    "legislature": "General Assembly",
+    "lower_house": "Chamber of Representatives",
+    "type": "Unitary presidential republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Declared": "25 August 1825"
+  },
+  "population": {
+    "density_per_km2": 19.5,
+    "total": 3499451,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-03:00"
+  }
+}

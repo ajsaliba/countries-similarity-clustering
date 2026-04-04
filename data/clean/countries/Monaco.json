@@ -1,0 +1,94 @@
+{
+  "country": "Monaco",
+  "area": {
+    "rank": 194,
+    "total_km2": 2.084,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+377",
+    "internet_tld": ".mc",
+    "iso_3166_code": "MC"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 315800,
+      "total_billion_usd": 10.434,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 270100,
+      "total_billion_usd": 8.924,
+      "year": 2024
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": null,
+      "rank": null,
+      "value": null,
+      "year": null
+    }
+  },
+  "general": {
+    "capital": "Monaco ( city-state )",
+    "demonym": "Monégasque",
+    "ethnic_groups": {
+      "groups": null,
+      "note": "Monégasques French Italians Occitans",
+      "year": null
+    },
+    "largest_city": "Monaco ( city-state )",
+    "largest_quarter": "Monte Carlo",
+    "minister_of_state": "Christophe Mirmand",
+    "monarch": "Albert II",
+    "official_language": "French ( Meridional )",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism ( official )": 80.9,
+            "other Christian": 5.1
+          },
+          "percentage": 86.0
+        },
+        "Islam": {
+          "breakdown": {
+            "other": 0.2
+          },
+          "percentage": 0.4
+        },
+        "Judaism": 1.7,
+        "no religion": 11.7
+      },
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {},
+    "legislature": "National Council",
+    "lower_house": null,
+    "type": "Unitary parliamentary semi- constitutional monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "Constitution": "5 January 1911",
+    "Franco-Monégasque Treaty": "11 February 1861",
+    "House of Grimaldi (under the sovereignty of the Republic of Genoa )": "8 January 1297",
+    "from occupation of the Sixth Coalition": "17 June 1814",
+    "from the French Empire": "17 May 1814"
+  },
+  "population": {
+    "density_per_km2": 18446.0,
+    "total": 38423,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

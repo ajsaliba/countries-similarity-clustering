@@ -1,0 +1,90 @@
+{
+  "country": "Senegal",
+  "area": {
+    "rank": 86,
+    "total_km2": 196722.0,
+    "water_pct": 2.1
+  },
+  "codes": {
+    "calling_code": "+221",
+    "internet_tld": ".sn",
+    "iso_3166_code": "SN"
+  },
+  "economy": {
+    "currency_code": "XOF",
+    "gdp_nominal": {
+      "per_capita_usd": 1811,
+      "total_billion_usd": 34.728,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 5498,
+      "total_billion_usd": 105.428,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 40.3,
+      "year": 2011
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 169,
+      "value": 0.53,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Dakar",
+    "demonym": "Senegalese",
+    "ethnic_groups": {
+      "groups": {
+        "Fula": 27.5,
+        "Jola": 4.2,
+        "Mandinka": 4.9,
+        "Serer": 16.0,
+        "Soninke": 2.4,
+        "Wolof": 39.7,
+        "others": 5.4
+      },
+      "year": 2019
+    },
+    "largest_city": "Dakar",
+    "national_language": "Wolof Serer Diola Pulaar Soninke Mandinka",
+    "official_language": "French",
+    "religion": {
+      "groups": {
+        "Christianity": 2.7,
+        "Islam": 97.2,
+        "other": 0.1
+      },
+      "year": 2019
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Bassirou Diomaye Faye",
+      "president_of_the_national_assembly": "Malick Ndiaye",
+      "prime_minister": "Ousmane Sonko"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Dissolution of the Senegambia Confederation": "30 September 1989",
+    "Independence from France": "20 June 1960",
+    "Republic established": "25 November 1958",
+    "Withdrawal from the Mali Federation": "20 August 1960"
+  },
+  "population": {
+    "density_per_km2": 96.0,
+    "total": 18847519,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+00:00"
+  }
+}

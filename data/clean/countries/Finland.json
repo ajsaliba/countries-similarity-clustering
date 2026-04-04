@@ -1,0 +1,91 @@
+{
+  "country": "Finland",
+  "area": {
+    "rank": 65,
+    "total_km2": 338455.0,
+    "water_pct": 9.71
+  },
+  "codes": {
+    "calling_code": "+358",
+    "internet_tld": ".fi",
+    "iso_3166_code": "FI"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 54160,
+      "total_billion_usd": 303.95,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 66500,
+      "total_billion_usd": 373.16,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 26.6,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 12,
+      "value": 0.948,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Helsinki",
+    "demonym": "Finnish Finn",
+    "ethnic_groups": {
+      "groups": {
+        "Finns": 88.9,
+        "others": 11.1
+      },
+      "year": 2024
+    },
+    "largest_city": "Helsinki",
+    "national_language": "Sámi Karelian Finnish Kalo Finnish Sign Language Finland-Swedish Sign Language",
+    "official_language": "Finnish Swedish",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Eastern Orthodoxy": 1.0,
+            "Lutheranism": 62.2,
+            "other Christian": 1.0
+          },
+          "percentage": 64.2
+        },
+        "no religion": 34.9,
+        "other": 2.0
+      },
+      "year": 2024
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Alexander Stubb",
+      "prime_minister": "Petteri Orpo",
+      "speaker_of_the_parliament": "Jussi Halla-aho"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Constitution established": "17 July 1919",
+    "Declaration of independence": "6 December 1917",
+    "Establishment of Grand Duchy of Finland": "29 March 1809 (from Sweden)"
+  },
+  "population": {
+    "density_per_km2": 18.4,
+    "total": 5635971,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": "UTC+03:00",
+    "timezone_utc": "UTC+02:00"
+  }
+}

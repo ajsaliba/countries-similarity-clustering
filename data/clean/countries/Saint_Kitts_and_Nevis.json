@@ -1,0 +1,97 @@
+{
+  "country": "Saint Kitts and Nevis",
+  "area": {
+    "rank": 188,
+    "total_km2": 261.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+1",
+    "internet_tld": ".kn",
+    "iso_3166_code": "KN"
+  },
+  "economy": {
+    "currency_code": "XCD",
+    "gdp_nominal": {
+      "per_capita_usd": 18158,
+      "total_billion_usd": 1.0,
+      "year": 2023
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 29893,
+      "total_billion_usd": 1.8,
+      "year": 2023
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 58,
+      "value": 0.84,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Basseterre",
+    "demonym": "Kittitian Nevisian",
+    "ethnic_groups": {
+      "groups": {
+        "African": 92.5,
+        "European": 2.1,
+        "Indian": 1.6,
+        "Mixed": 3.0,
+        "other": 0.5,
+        "unspecified": 0.3
+      },
+      "year": 2020
+    },
+    "governor_general": "Dame Marcella Liburd",
+    "largest_city": "Basseterre",
+    "monarch": "Charles III",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Protestantism": 81.3,
+            "other Christian": 13.3
+          },
+          "percentage": 94.6
+        },
+        "no religion": {
+          "breakdown": {
+            "Hinduism": 1.5
+          },
+          "percentage": 2.6
+        }
+      },
+      "year": 2020
+    },
+    "vernacular_language": "Saint Kitts Creole"
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Terrance Drew"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Federal parliamentary constitutional monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "Associated State": "27 February 1967",
+    "Independence declared": "19 September 1983"
+  },
+  "population": {
+    "density_per_km2": 164.0,
+    "total": 54338,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-04:00"
+  }
+}

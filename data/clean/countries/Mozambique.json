@@ -1,0 +1,91 @@
+{
+  "country": "Mozambique",
+  "area": {
+    "rank": 35,
+    "total_km2": 801590.0,
+    "water_pct": 2.2
+  },
+  "codes": {
+    "calling_code": "+258",
+    "internet_tld": ".mz",
+    "iso_3166_code": "MZ"
+  },
+  "economy": {
+    "currency_code": "MZN",
+    "gdp_nominal": {
+      "per_capita_usd": 663,
+      "total_billion_usd": 23.77,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 1730,
+      "total_billion_usd": 61.95,
+      "year": 2025
+    },
+    "gini": {
+      "category": "high",
+      "value": 50.4,
+      "year": 2019
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 183,
+      "value": 0.493,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Maputo",
+    "demonym": "Mozambican",
+    "ethnic_groups": {
+      "groups": {
+        "African": 99.0,
+        "Mestiço": 0.8,
+        "White": 0.1,
+        "other": 0.1
+      },
+      "year": 2017
+    },
+    "largest_city": "Maputo",
+    "official_language": "Portuguese",
+    "recognized_regional_languages": "Makhuwa , Sena , Tsonga , Lomwe , Swahili",
+    "religion": {
+      "groups": {
+        "Christianity": 62.0,
+        "Islam": {
+          "breakdown": {
+            "no religion": 13.5,
+            "other": 4.3,
+            "unknown": 1.2
+          },
+          "percentage": 19.1
+        }
+      },
+      "year": 2017
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Daniel Chapo",
+      "prime_minister": "Maria Benvinda Levy"
+    },
+    "legislature": "Assembly of the Republic",
+    "lower_house": null,
+    "type": "Unitary dominant-party semi-presidential republic under an authoritarian government",
+    "upper_house": null
+  },
+  "history": {
+    "Civil War": "1977–1992",
+    "Current constitution": "21 December 2004",
+    "Granted": "25 June 1975"
+  },
+  "population": {
+    "density_per_km2": 43.5,
+    "total": 34881007,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+02:00"
+  }
+}

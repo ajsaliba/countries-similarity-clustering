@@ -1,0 +1,86 @@
+{
+  "country": "North Korea",
+  "area": {
+    "rank": 98,
+    "total_km2": 120538.0,
+    "water_pct": 0.11
+  },
+  "codes": {
+    "calling_code": "+850",
+    "internet_tld": ".kp",
+    "iso_3166_code": "KP"
+  },
+  "economy": {
+    "currency_code": "KPW",
+    "gdp_nominal": {
+      "per_capita_usd": 1261,
+      "total_billion_usd": 32.036,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 600,
+      "total_billion_usd": 15.416,
+      "year": 2023
+    },
+    "gini": {
+      "category": "low",
+      "value": 16.6,
+      "year": 2020
+    },
+    "hdi": {
+      "category": null,
+      "rank": null,
+      "value": null,
+      "year": null
+    }
+  },
+  "general": {
+    "capital": "Pyongyang",
+    "demonym": "North Korean Korean",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Pyongyang",
+    "official_language": "Korean ( Munhwaŏ )",
+    "official_script": "Chosŏn'gŭl",
+    "premier": "Pak Thae-song",
+    "religion": {
+      "groups": {
+        "Buddhism": 1.5,
+        "Chondoism": 13.0,
+        "Shamanism": 12.0,
+        "no religion": 73.0,
+        "other": 0.5
+      },
+      "year": 2020
+    },
+    "spa_chairman": "Vacant",
+    "spa_standing_committee_chairman": "Choe Ryong-hae"
+  },
+  "government": {
+    "leaders": {
+      "wpk_general_secretary_and_sac_president": "Kim Jong Un"
+    },
+    "legislature": "Supreme People's Assembly",
+    "lower_house": null,
+    "type": "Unitary communist state",
+    "upper_house": null
+  },
+  "history": {
+    "1st provisional government": "8 February 1946",
+    "Current constitution": "27 December 1972",
+    "DPRK established": "10 July 1948",
+    "Soviet administration north of the 38th parallel": "3 October 1945",
+    "Surrender of Japan": "2 September 1945"
+  },
+  "population": {
+    "density_per_km2": 212.0,
+    "total": 26298666,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+09:00"
+  }
+}

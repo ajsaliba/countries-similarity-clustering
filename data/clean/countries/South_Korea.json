@@ -1,0 +1,94 @@
+{
+  "country": "South Korea",
+  "area": {
+    "rank": 107,
+    "total_km2": 100363.0,
+    "water_pct": 0.3
+  },
+  "codes": {
+    "calling_code": "+82",
+    "internet_tld": ".kr",
+    "iso_3166_code": "KR"
+  },
+  "economy": {
+    "currency_code": "KRW",
+    "gdp_nominal": {
+      "per_capita_usd": 35962,
+      "total_billion_usd": 1859.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 65080,
+      "total_billion_usd": 3363.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 33.3,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 20,
+      "value": 0.937,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Seoul",
+    "demonym": "South Korean Korean",
+    "ethnic_groups": {
+      "groups": {
+        "Korean": 94.8,
+        "other": 5.2
+      },
+      "year": 2024
+    },
+    "largest_city": "Seoul",
+    "official_language": "Korean Korean Sign Language",
+    "official_script": "Hangul",
+    "religion": {
+      "groups": {
+        "Buddhism": 17.0,
+        "Catholic": 11.0,
+        "No religion": {
+          "breakdown": {
+            "Christianity": 31.0,
+            "Protestant": 20.0
+          },
+          "percentage": 51.0
+        },
+        "other": 2.0
+      },
+      "year": 2024
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice_of_the_supreme_court": "Cho Hee-dae",
+      "president": "Lee Jae Myung",
+      "president_of_the_constitutional_court": "Kim Sanghwan",
+      "prime_minister": "Kim Min-seok",
+      "speaker_of_the_national_assembly": "Woo Won-shik"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "American administration south of the 38th parallel": "8 September 1945",
+    "Constitution adopted": "17 July 1948",
+    "Provisional Government in-exile": "11 April 1919",
+    "ROK established": "15 August 1948"
+  },
+  "population": {
+    "density_per_km2": 507.0,
+    "total": 52081799,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+09:00"
+  }
+}

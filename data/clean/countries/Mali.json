@@ -1,0 +1,102 @@
+{
+  "country": "Mali",
+  "area": {
+    "rank": 23,
+    "total_km2": 1240192.0,
+    "water_pct": 1.6
+  },
+  "codes": {
+    "calling_code": "+223",
+    "internet_tld": ".ml",
+    "iso_3166_code": "ML"
+  },
+  "economy": {
+    "currency_code": "XOF",
+    "gdp_nominal": {
+      "per_capita_usd": 936,
+      "total_billion_usd": 23.21,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 2930,
+      "total_billion_usd": 72.74,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 33.0,
+      "year": 2010
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 188,
+      "value": 0.419,
+      "year": 2023
+    }
+  },
+  "general": {
+    "bambara_": [
+      "Mali ka Fasojamana / ߡߊ߬ߟߌ ߞߊ ߝߊߛߏߖߊߡߊߣߊ",
+      "Mali ka Fasojamana / ߡߊ߬ߟߌ ߞߊ ߝߊߛߏߖߊߡߊߣߊ"
+    ],
+    "capital": "Bamako",
+    "demonym": "Malian",
+    "ethnic_groups": {
+      "groups": {
+        "Bambara": 33.3,
+        "Bobo": 2.1,
+        "Dogon": 8.7,
+        "Fula": 13.3,
+        "Malinke": 8.8,
+        "Senufo / Bwa": 9.6,
+        "Songhai": 5.9,
+        "Soninke": 9.6,
+        "Tuareg": 3.5,
+        "other": 4.5
+      },
+      "year": null
+    },
+    "fula_": "Republik bu Maali / 𞤈𞤫𞤨𞤵𞤦𞤤𞤭𞤳 𞤦𞤵 𞤃𞤢𞥄𞤤𞤭",
+    "hassaniya_": "جُمْهُورِيَّةْ مَالِي ( Jumhūriyet Māli )",
+    "largest_city": "Bamako",
+    "official_language": "13 national languages Bambara Bobo Hassaniya Arabic Bozo Dogon, Toro So Fula Kassonke Maninke Minyanka Senufo, Senara Songhay, Koyraboro Senni Soninke Tamasheq",
+    "religion": {
+      "groups": {
+        "Islam": 95.0,
+        "other": 5.0
+      },
+      "year": 2021
+    },
+    "songhay_": "Mali Laamaa",
+    "soninke_": "Mali Jamaane",
+    "spoken_languages": "Bambara Fula Arabic Soninke Songhay Mandinka Minyanka Tamasheq Senufo Bobo Bozo Kassonke Samogo Dafing Dogon",
+    "tamasheq_": "Tagduda n Mali / ⵜⴰⴳⴷⵓⴷⴰ ⵏ ⵎⴰⵍⵉ"
+  },
+  "government": {
+    "leaders": {
+      "president": "Assimi Goïta",
+      "prime_minister": "Abdoulaye Maïga (interim)"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary presidential republic under a military junta",
+    "upper_house": null,
+    "working_language": "French ( de facto )"
+  },
+  "history": {
+    "Declaration of the Republic of Mali": "22 September 1960",
+    "Dissolution of the Mali Federation": "20 August 1960",
+    "Establishment of the Sudanese Republic": "24 November 1958",
+    "Independence from France": "20 June 1960",
+    "Merger with Senegal to create the Mali Federation": "4 April 1959"
+  },
+  "population": {
+    "density_per_km2": 11.7,
+    "total": 21990607,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+00:00"
+  }
+}

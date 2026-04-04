@@ -1,0 +1,113 @@
+{
+  "country": "Ethiopia",
+  "area": {
+    "rank": 26,
+    "total_km2": 1104300.0,
+    "water_pct": 0.7
+  },
+  "codes": {
+    "calling_code": "+251",
+    "internet_tld": ".et",
+    "iso_3166_code": "ET"
+  },
+  "economy": {
+    "currency_code": "ETB",
+    "gdp_nominal": {
+      "per_capita_usd": 1350,
+      "total_billion_usd": 145.03,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 4050,
+      "total_billion_usd": 434.44,
+      "year": 2024
+    },
+    "gini": {
+      "category": "medium",
+      "value": 35.0,
+      "year": 2015
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 176,
+      "value": 0.492,
+      "year": 2022
+    }
+  },
+  "general": {
+    "afar_": [
+      "Itiyoppiya Federalih Demokrasih Ummuno",
+      "Itiyoppiya Federalih Demokrasih Ummuno"
+    ],
+    "arabic_": "جمهورية إثيوبيا الاتحادية الديمقراطية",
+    "capital": "Addis Ababa",
+    "demonym": "Ethiopian",
+    "ethnic_groups": {
+      "groups": {
+        "Afar": 1.7,
+        "Amhara": 26.9,
+        "Gamo": 1.5,
+        "Gurage": 2.5,
+        "Hadiya": 1.7,
+        "Oromo": 34.5,
+        "Sidama": 4.0,
+        "Somali": 6.2,
+        "Tigrayan": 6.1,
+        "Welayta": 2.3,
+        "others": 12.6
+      },
+      "year": 2007
+    },
+    "largest_city": "Addis Ababa",
+    "official_language": "Afar Amharic Oromo Somali Tigrinya",
+    "oromo_": "Rippabliikii Federaalawaa Dimokraatawaa Itoophiyaa",
+    "regional_languages": "Harari Sidama Languages of Ethiopia",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Ethiopian Orthodoxy": 43.8,
+            "P'ent'ay": 22.8,
+            "other Christian": 0.7
+          },
+          "percentage": 67.3
+        },
+        "Islam": 31.3,
+        "others / none": 0.8,
+        "traditional faiths": 0.6
+      },
+      "year": 2016
+    },
+    "somali_": "Jamhuuriyadda Dimuqraadiga Federaalka Itoobiya",
+    "tigrinya_": "ናይኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ"
+  },
+  "government": {
+    "leaders": {
+      "chief_justice_of_the_federal_supreme_court": "Tewodros Mihret",
+      "deputy_prime_ministers": "Temesgen Tiruneh Adem Farah",
+      "president": "Taye Atske Selassie",
+      "prime_minister": "Abiy Ahmed"
+    },
+    "legislature": "Federal Parliamentary Assembly",
+    "lower_house": "House of Peoples' Representatives",
+    "type": "Federal parliamentary republic under an authoritarian government",
+    "upper_house": "House of Federation"
+  },
+  "history": {
+    "Centralisation": 1904,
+    "Ethiopian Empire": 1270,
+    "Occupied and annexed into Italian East Africa": "9 May 1936",
+    "Re-establishment of independence": "31 January 1942",
+    "Reunification": "11 February 1855",
+    "Zemene Mesafint": "7 May 1769"
+  },
+  "population": {
+    "density_per_km2": 92.7,
+    "total": 135500000,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

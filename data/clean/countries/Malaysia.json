@@ -1,0 +1,90 @@
+{
+  "country": "Malaysia",
+  "area": {
+    "rank": 67,
+    "total_km2": 330803.0,
+    "water_pct": 0.3
+  },
+  "codes": {
+    "calling_code": "+60",
+    "internet_tld": ".my",
+    "iso_3166_code": "MY"
+  },
+  "economy": {
+    "currency_code": "MYR",
+    "gdp_nominal": {
+      "per_capita_usd": 13901,
+      "total_billion_usd": 470572.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 43665,
+      "total_billion_usd": 1478.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 39.0,
+      "year": 2024
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 67,
+      "value": 0.819,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Kuala Lumpur",
+    "demonym": "Malaysian",
+    "ethnic_groups": {
+      "groups": {
+        "Bumiputera": 70.5,
+        "Chinese": 22.9,
+        "Indian": 6.6,
+        "Malay": 57.3,
+        "indigenous groups of Sabah , Sarawak , Orang Asli and other": 13.2
+      },
+      "year": 2023
+    },
+    "largest_city": "Kuala Lumpur",
+    "monarch": "Ibrahim Iskandar",
+    "official_language": "Malay",
+    "recognized_languages": "English",
+    "religion": {
+      "groups": {
+        "Buddhism": 18.7,
+        "Christianity": 9.1,
+        "Hinduism": 6.1,
+        "Islam ( official )": 63.5,
+        "other": 0.9,
+        "unknown": 1.8
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Anwar Ibrahim"
+    },
+    "legislature": "Parliament",
+    "lower_house": "Dewan Rakyat",
+    "type": "Federal parliamentary constitutional elective monarchy",
+    "upper_house": "Dewan Negara"
+  },
+  "history": {
+    "Federation of Malaya": "31 August 1957",
+    "North Borneo self-governance": "31 August 1963",
+    "Proclamation of Malaysia": "16 September 1963",
+    "Sarawak self-governance": "22 July 1963"
+  },
+  "population": {
+    "density_per_km2": 101.0,
+    "total": 34564810,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+08:00"
+  }
+}

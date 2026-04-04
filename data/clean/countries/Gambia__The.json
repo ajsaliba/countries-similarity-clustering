@@ -1,0 +1,89 @@
+{
+  "country": "Gambia, The",
+  "area": {
+    "rank": 159,
+    "total_km2": 11300.0,
+    "water_pct": 11.5
+  },
+  "codes": {
+    "calling_code": "+220",
+    "internet_tld": ".gm",
+    "iso_3166_code": "GM"
+  },
+  "economy": {
+    "currency_code": "GMD",
+    "gdp_nominal": {
+      "per_capita_usd": 924,
+      "total_billion_usd": 2.67,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 3820,
+      "total_billion_usd": 11.05,
+      "year": 2026
+    },
+    "gini": {
+      "category": "medium",
+      "value": 35.9,
+      "year": 2015
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 170,
+      "value": 0.524,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Banjul",
+    "demonym": "Gambian",
+    "ethnic_groups": {
+      "groups": {
+        "Fula": 25.0,
+        "Jola": 9.5,
+        "Mandinka": 34.4,
+        "Serer": 2.9,
+        "Soninke": 8.2,
+        "Wolof": 15.4,
+        "other": 4.6
+      },
+      "year": 2024
+    },
+    "largest_city": "Banjul",
+    "national_language": "List: Mandinka Pulaar Wolof Serer Jola English Balanta Arabic Jola-Fonyi Mandjak Mankanya Noon Dyula Soninke Fula Karon Kassonke Cangin Gambian Sign Language",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Christianity": 4.2,
+        "Islam": 95.7,
+        "others": 0.1
+      },
+      "year": 2024
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Hassan Bubacar Jallow",
+      "president": "Adama Barrow",
+      "speaker_of_the_national_assembly": "Fabakary Tombong Jatta",
+      "vice_president": "Muhammad B. S. Jallow"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "dissolution of the Senegambia Confederation": "30 September 1989",
+    "from the United Kingdom": "18 February 1965"
+  },
+  "population": {
+    "density_per_km2": 227.0,
+    "total": 2422712,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+00:00"
+  }
+}

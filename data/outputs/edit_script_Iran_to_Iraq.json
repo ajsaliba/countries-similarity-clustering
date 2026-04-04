@@ -1,0 +1,2070 @@
+[
+  {
+    "op": "update_node",
+    "path": "root/country[1]/#text[1]/iran[1]",
+    "from": {
+      "label": "iran",
+      "kind": "token"
+    },
+    "to": {
+      "label": "iraq",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000004"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/water_pct[3]/#text[1]/63[2]",
+    "from": {
+      "label": "63",
+      "kind": "token"
+    },
+    "to": {
+      "label": "93",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000016"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/water_pct[3]/#text[1]/1[1]",
+    "from": {
+      "label": "1",
+      "kind": "token"
+    },
+    "to": {
+      "label": "4",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000015"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/total_km2[2]/#text[1]/1648195[1]",
+    "from": {
+      "label": "1648195",
+      "kind": "token"
+    },
+    "to": {
+      "label": "438317",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000011"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/rank[1]/#text[1]/17[1]",
+    "from": {
+      "label": "17",
+      "kind": "token"
+    },
+    "to": {
+      "label": "58",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000008"
+  },
+  {
+    "op": "update_value",
+    "path": "root/codes[3]/iso_3166_code[3]",
+    "from": {
+      "label": "iso_3166_code",
+      "kind": "atomic_text",
+      "raw_value": "IR",
+      "norm_value": "ir"
+    },
+    "to": {
+      "label": "iso_3166_code",
+      "kind": "atomic_text",
+      "raw_value": "IQ",
+      "norm_value": "iq"
+    },
+    "cost": 1.0,
+    "source_uid": "n000020"
+  },
+  {
+    "op": "update_value",
+    "path": "root/codes[3]/internet_tld[2]",
+    "from": {
+      "label": "internet_tld",
+      "kind": "atomic_text",
+      "raw_value": ".ir",
+      "norm_value": ".ir"
+    },
+    "to": {
+      "label": "internet_tld",
+      "kind": "atomic_text",
+      "raw_value": ".iq",
+      "norm_value": ".iq"
+    },
+    "cost": 1.0,
+    "source_uid": "n000019"
+  },
+  {
+    "op": "update_value",
+    "path": "root/codes[3]/calling_code[1]",
+    "from": {
+      "label": "calling_code",
+      "kind": "atomic_text",
+      "raw_value": "+98",
+      "norm_value": "+98"
+    },
+    "to": {
+      "label": "calling_code",
+      "kind": "atomic_text",
+      "raw_value": "+964",
+      "norm_value": "+964"
+    },
+    "cost": 1.0,
+    "source_uid": "n000018"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/hdi[5]/rank[2]/#text[1]/75[1]",
+    "from": {
+      "label": "75",
+      "kind": "token"
+    },
+    "to": {
+      "label": "122",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000062"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/hdi[5]/value[3]/#text[1]/799[2]",
+    "from": {
+      "label": "799",
+      "kind": "token"
+    },
+    "to": {
+      "label": "712",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000066"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/hdi[5]/year[4]/#text[1]/2023[1]",
+    "from": {
+      "label": "2023",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2024",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000069"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gini[4]/category[1]/#text[1]/medium[1]",
+    "from": {
+      "label": "medium",
+      "kind": "token"
+    },
+    "to": {
+      "label": "low",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000048"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gini[4]/value[2]/#text[1]/35[1]",
+    "from": {
+      "label": "35",
+      "kind": "token"
+    },
+    "to": {
+      "label": "29",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000051"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gini[4]/value[2]/#text[1]/9[2]",
+    "from": {
+      "label": "9",
+      "kind": "token"
+    },
+    "to": {
+      "label": "5",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000052"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gini[4]/year[3]/#text[1]/2023[1]",
+    "from": {
+      "label": "2023",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2012",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000055"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/per_capita_usd[1]/#text[1]/21473[1]",
+    "from": {
+      "label": "21473",
+      "kind": "token"
+    },
+    "to": {
+      "label": "15180",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000037"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/total_billion_usd[2]/#text[1]/1879[1]",
+    "from": {
+      "label": "1879",
+      "kind": "token"
+    },
+    "to": {
+      "label": "690",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000040"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/total_billion_usd[2]/#text[1]/0[2]",
+    "from": {
+      "label": "0",
+      "kind": "token"
+    },
+    "to": {
+      "label": "09",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000041"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/per_capita_usd[1]/#text[1]/4074[1]",
+    "from": {
+      "label": "4074",
+      "kind": "token"
+    },
+    "to": {
+      "label": "5670",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000026"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/total_billion_usd[2]/#text[1]/356[1]",
+    "from": {
+      "label": "356",
+      "kind": "token"
+    },
+    "to": {
+      "label": "258",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000029"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/total_billion_usd[2]/#text[1]/513[2]",
+    "from": {
+      "label": "513",
+      "kind": "token"
+    },
+    "to": {
+      "label": "02",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000030"
+  },
+  {
+    "op": "update_value",
+    "path": "root/economy[4]/currency_code[1]",
+    "from": {
+      "label": "currency_code",
+      "kind": "atomic_text",
+      "raw_value": "IRR",
+      "norm_value": "irr"
+    },
+    "to": {
+      "label": "currency_code",
+      "kind": "atomic_text",
+      "raw_value": "IQD",
+      "norm_value": "iqd"
+    },
+    "cost": 1.0,
+    "source_uid": "n000022"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/religion[6]/groups[1]/#text[1]",
+    "from": {
+      "label": "#text",
+      "kind": "internal",
+      "children": [
+        {
+          "label": "null",
+          "kind": "token"
+        }
+      ]
+    },
+    "to": {
+      "label": "Sunni 5-",
+      "kind": "numeric",
+      "raw_value": "35.0",
+      "norm_value": "0.350000000000",
+      "norm_number": 0.35,
+      "numeric_field": "percentage"
+    },
+    "cost": 1.0,
+    "source_uid": "n000092"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/religion[6]/groups[1]/#text[1]/null[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "null",
+      "kind": "token"
+    },
+    "source_uid": "n000093"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[6]/groups[1]",
+    "index": 3,
+    "cost": 1.0,
+    "subtree": {
+      "label": "Shia",
+      "kind": "numeric",
+      "raw_value": "61.0",
+      "norm_value": "0.610000000000",
+      "norm_number": 0.61,
+      "numeric_field": "percentage"
+    },
+    "parent_uid": "n000091"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[6]/groups[1]",
+    "index": 2,
+    "cost": 1.0,
+    "subtree": {
+      "label": "Islam ( official )",
+      "kind": "numeric",
+      "raw_value": "95.0",
+      "norm_value": "0.950000000000",
+      "norm_number": 0.95,
+      "numeric_field": "percentage"
+    },
+    "parent_uid": "n000091"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/religion[6]/groups[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "Christianity , Mandaeism , Yazidism , Judaism , Yarsanism , irreligion and others",
+      "kind": "numeric",
+      "raw_value": "10.0",
+      "norm_value": "0.100000000000",
+      "norm_number": 0.1,
+      "numeric_field": "percentage"
+    },
+    "parent_uid": "n000091"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/religion[6]/year[2]/#text[1]",
+    "cost": 2.0,
+    "subtree": {
+      "label": "#text",
+      "kind": "internal",
+      "children": [
+        {
+          "label": "null",
+          "kind": "token"
+        }
+      ]
+    },
+    "source_uid": "n000095"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]",
+    "index": 6,
+    "cost": 5.0,
+    "subtree": {
+      "label": "recognized_regional_languages",
+      "kind": "token_text_container",
+      "raw_value": "Assyrian Armenian Turkmen",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "assyrian",
+              "kind": "token"
+            },
+            {
+              "label": "armenian",
+              "kind": "token"
+            },
+            {
+              "label": "turkmen",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000070"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/official_language[5]/#text[1]/persian[1]",
+    "from": {
+      "label": "persian",
+      "kind": "token"
+    },
+    "to": {
+      "label": "kurdish",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000089"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/official_language[5]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "arabic",
+      "kind": "token"
+    },
+    "parent_uid": "n000088"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/largest_city[4]/#text[1]/tehran[1]",
+    "from": {
+      "label": "tehran",
+      "kind": "token"
+    },
+    "to": {
+      "label": "baghdad",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000086"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/#text[1]",
+    "from": {
+      "label": "#text",
+      "kind": "internal",
+      "children": [
+        {
+          "label": "null",
+          "kind": "token"
+        }
+      ]
+    },
+    "to": {
+      "label": "Kurds 5-",
+      "kind": "token_text_container",
+      "raw_value": "20.0",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "20",
+              "kind": "token"
+            },
+            {
+              "label": "0",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000079"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/ethnic_groups[3]/groups[1]/#text[1]/null[1]",
+    "index": 2,
+    "cost": 1.0,
+    "subtree": {
+      "label": "0",
+      "kind": "token"
+    },
+    "parent_uid": "n000080"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/ethnic_groups[3]/groups[1]/#text[1]/null[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "20",
+      "kind": "token"
+    },
+    "parent_uid": "n000080"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/#text[1]/null[1]",
+    "from": {
+      "label": "null",
+      "kind": "token"
+    },
+    "to": {
+      "label": "#text",
+      "kind": "internal",
+      "children": [
+        {
+          "label": "20",
+          "kind": "token"
+        },
+        {
+          "label": "0",
+          "kind": "token"
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000080"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/ethnic_groups[3]/groups[1]",
+    "index": 2,
+    "cost": 4.0,
+    "subtree": {
+      "label": "Assyrians , Turkmen , Jews , Persians , Yazidis , Mandaeans , and others",
+      "kind": "token_text_container",
+      "raw_value": "10.0",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "10",
+              "kind": "token"
+            },
+            {
+              "label": "0",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000078"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/ethnic_groups[3]/groups[1]",
+    "index": 1,
+    "cost": 4.0,
+    "subtree": {
+      "label": "Arabs 15-",
+      "kind": "token_text_container",
+      "raw_value": "80.0",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "80",
+              "kind": "token"
+            },
+            {
+              "label": "0",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000078"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/year[2]/#text[1]/null[1]",
+    "from": {
+      "label": "null",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1987",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000083"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/Demonyms[2]/#text[1]/iranian[1]",
+    "from": {
+      "label": "iranian",
+      "kind": "token"
+    },
+    "to": {
+      "label": "iraqi",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000076"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/capital[1]/#text[1]/tehran[1]",
+    "from": {
+      "label": "tehran",
+      "kind": "token"
+    },
+    "to": {
+      "label": "baghdad",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000073"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/upper_house[5]/#text[1]/null[1]",
+    "from": {
+      "label": "null",
+      "kind": "token"
+    },
+    "to": {
+      "label": "council",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000145"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/government[6]/upper_house[5]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "federation",
+      "kind": "token"
+    },
+    "parent_uid": "n000144"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/type[4]/#text[1]/dictatorship[9]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "dictatorship",
+      "kind": "token"
+    },
+    "source_uid": "n000142"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/type[4]/#text[1]/authoritarian[8]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "authoritarian",
+      "kind": "token"
+    },
+    "source_uid": "n000141"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/type[4]/#text[1]/an[7]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "an",
+      "kind": "token"
+    },
+    "source_uid": "n000140"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/type[4]/#text[1]/under[6]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "under",
+      "kind": "token"
+    },
+    "source_uid": "n000139"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/type[4]/#text[1]/islamic[4]",
+    "from": {
+      "label": "islamic",
+      "kind": "token"
+    },
+    "to": {
+      "label": "parliamentary",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000137"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/type[4]/#text[1]/theocratic[3]",
+    "from": {
+      "label": "theocratic",
+      "kind": "token"
+    },
+    "to": {
+      "label": "federal",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000136"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/type[4]/#text[1]/presidential[2]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "presidential",
+      "kind": "token"
+    },
+    "source_uid": "n000135"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/type[4]/#text[1]/unitary[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "unitary",
+      "kind": "token"
+    },
+    "source_uid": "n000134"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/lower_house[3]/#text[1]/null[1]",
+    "from": {
+      "label": "null",
+      "kind": "token"
+    },
+    "to": {
+      "label": "representatives",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000131"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/government[6]/lower_house[3]/#text[1]",
+    "index": 2,
+    "cost": 1.0,
+    "subtree": {
+      "label": "of",
+      "kind": "token"
+    },
+    "parent_uid": "n000130"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/government[6]/lower_house[3]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "council",
+      "kind": "token"
+    },
+    "parent_uid": "n000130"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/legislature[2]/#text[1]/assembly[3]",
+    "from": {
+      "label": "assembly",
+      "kind": "token"
+    },
+    "to": {
+      "label": "representatives",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000128"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/legislature[2]/#text[1]/consultative[2]",
+    "from": {
+      "label": "consultative",
+      "kind": "token"
+    },
+    "to": {
+      "label": "of",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000127"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/legislature[2]/#text[1]/islamic[1]",
+    "from": {
+      "label": "islamic",
+      "kind": "token"
+    },
+    "to": {
+      "label": "council",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000126"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/leaders[1]/chief_justice[1]",
+    "cost": 7.0,
+    "subtree": {
+      "label": "chief_justice",
+      "kind": "token_text_container",
+      "raw_value": "Gholam-Hossein Mohseni-Eje'i",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "gholam",
+              "kind": "token"
+            },
+            {
+              "label": "hossein",
+              "kind": "token"
+            },
+            {
+              "label": "mohseni",
+              "kind": "token"
+            },
+            {
+              "label": "eje",
+              "kind": "token"
+            },
+            {
+              "label": "i",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000099"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/government[6]/leaders[1]/president[2]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "abdul",
+      "kind": "token"
+    },
+    "parent_uid": "n000107"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/president[2]/#text[1]/masoud[1]",
+    "from": {
+      "label": "masoud",
+      "kind": "token"
+    },
+    "to": {
+      "label": "latif",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000108"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/president[2]/#text[1]/pezeshkian[2]",
+    "from": {
+      "label": "pezeshkian",
+      "kind": "token"
+    },
+    "to": {
+      "label": "rashid",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000109"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/government[6]/leaders[1]/speaker_of_the_assembly[3]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "mohammed",
+      "kind": "token"
+    },
+    "parent_uid": "n000111"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/speaker_of_the_assembly[3]/#text[1]/mohammad[1]",
+    "from": {
+      "label": "mohammad",
+      "kind": "token"
+    },
+    "to": {
+      "label": "shia",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000112"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/speaker_of_the_assembly[3]/#text[1]/bagher[2]",
+    "from": {
+      "label": "bagher",
+      "kind": "token"
+    },
+    "to": {
+      "label": "al",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000113"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/speaker_of_the_assembly[3]/#text[1]/ghalibaf[3]",
+    "from": {
+      "label": "ghalibaf",
+      "kind": "token"
+    },
+    "to": {
+      "label": "sudani",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000114"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/speaker_of_the_assembly[3]",
+    "from": {
+      "label": "speaker_of_the_assembly",
+      "kind": "token_text_container",
+      "raw_value": "Mohammad Bagher Ghalibaf",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "mohammad",
+              "kind": "token"
+            },
+            {
+              "label": "bagher",
+              "kind": "token"
+            },
+            {
+              "label": "ghalibaf",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "prime_minister",
+      "kind": "token_text_container",
+      "raw_value": "Mohammed Shia' al-Sudani",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "mohammed",
+              "kind": "token"
+            },
+            {
+              "label": "shia",
+              "kind": "token"
+            },
+            {
+              "label": "al",
+              "kind": "token"
+            },
+            {
+              "label": "sudani",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000110"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/leaders[1]/supreme_leader[4]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "supreme_leader",
+      "kind": "token_text_container",
+      "raw_value": "Mojtaba Khamenei",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "mojtaba",
+              "kind": "token"
+            },
+            {
+              "label": "khamenei",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000115"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/vice_president[5]/#text[1]/mohammad[1]",
+    "from": {
+      "label": "mohammad",
+      "kind": "token"
+    },
+    "to": {
+      "label": "haibat",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000121"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/vice_president[5]/#text[1]/reza[2]",
+    "from": {
+      "label": "reza",
+      "kind": "token"
+    },
+    "to": {
+      "label": "al",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000122"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/vice_president[5]/#text[1]/aref[3]",
+    "from": {
+      "label": "aref",
+      "kind": "token"
+    },
+    "to": {
+      "label": "halbousi",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000123"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/vice_president[5]",
+    "from": {
+      "label": "vice_president",
+      "kind": "token_text_container",
+      "raw_value": "Mohammad Reza Aref",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "mohammad",
+              "kind": "token"
+            },
+            {
+              "label": "reza",
+              "kind": "token"
+            },
+            {
+              "label": "aref",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "speaker",
+      "kind": "token_text_container",
+      "raw_value": "Haibat al-Halbousi",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "haibat",
+              "kind": "token"
+            },
+            {
+              "label": "al",
+              "kind": "token"
+            },
+            {
+              "label": "halbousi",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000119"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Zand Iran[15]",
+    "cost": 3.0,
+    "subtree": {
+      "label": "Zand Iran",
+      "kind": "token_text_container",
+      "raw_value": "1751",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1751",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000212"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Sasanian Empire[14]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "Sasanian Empire",
+      "kind": "token_text_container",
+      "raw_value": "224 AD",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "224",
+              "kind": "token"
+            },
+            {
+              "label": "ad",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000208"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Safavid Iran[13]",
+    "cost": 5.0,
+    "subtree": {
+      "label": "Safavid Iran",
+      "kind": "token_text_container",
+      "raw_value": "22 December 1501",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "22",
+              "kind": "token"
+            },
+            {
+              "label": "december",
+              "kind": "token"
+            },
+            {
+              "label": "1501",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000203"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Qajar Iran[12]",
+    "cost": 5.0,
+    "subtree": {
+      "label": "Qajar Iran",
+      "kind": "token_text_container",
+      "raw_value": "20 March 1794",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "20",
+              "kind": "token"
+            },
+            {
+              "label": "march",
+              "kind": "token"
+            },
+            {
+              "label": "1794",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000198"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Parthian Empire[11]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "Parthian Empire",
+      "kind": "token_text_container",
+      "raw_value": "247 BC",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "247",
+              "kind": "token"
+            },
+            {
+              "label": "bc",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000194"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Pahlavi Iran[10]",
+    "cost": 5.0,
+    "subtree": {
+      "label": "Pahlavi Iran",
+      "kind": "token_text_container",
+      "raw_value": "15 December 1925",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "15",
+              "kind": "token"
+            },
+            {
+              "label": "december",
+              "kind": "token"
+            },
+            {
+              "label": "1925",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000189"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Median kingdom[9]",
+    "from": {
+      "label": "Median kingdom",
+      "kind": "token_text_container",
+      "raw_value": "c. 678 BC",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "c",
+              "kind": "token"
+            },
+            {
+              "label": "678",
+              "kind": "token"
+            },
+            {
+              "label": "bc",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Sumer",
+      "kind": "token_text_container",
+      "raw_value": "c. 3300 BC",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "c",
+              "kind": "token"
+            },
+            {
+              "label": "3300",
+              "kind": "token"
+            },
+            {
+              "label": "bc",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000184"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Median kingdom[9]/#text[1]/678[2]",
+    "from": {
+      "label": "678",
+      "kind": "token"
+    },
+    "to": {
+      "label": "3300",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000187"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Islamic Republic established[8]",
+    "from": {
+      "label": "Islamic Republic established",
+      "kind": "token_text_container",
+      "raw_value": "1 April 1979",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1",
+              "kind": "token"
+            },
+            {
+              "label": "april",
+              "kind": "token"
+            },
+            {
+              "label": "1979",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Republic declared",
+      "kind": "token_text_container",
+      "raw_value": "14 July 1958",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "14",
+              "kind": "token"
+            },
+            {
+              "label": "july",
+              "kind": "token"
+            },
+            {
+              "label": "1958",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000179"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Islamic Republic established[8]/#text[1]/1979[3]",
+    "from": {
+      "label": "1979",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1958",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000183"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Islamic Republic established[8]/#text[1]/april[2]",
+    "from": {
+      "label": "april",
+      "kind": "token"
+    },
+    "to": {
+      "label": "july",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000182"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Islamic Republic established[8]/#text[1]/1[1]",
+    "from": {
+      "label": "1",
+      "kind": "token"
+    },
+    "to": {
+      "label": "14",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000181"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Iranian Revolution[7]",
+    "from": {
+      "label": "Iranian Revolution",
+      "kind": "token_text_container",
+      "raw_value": "11 February 1979",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "11",
+              "kind": "token"
+            },
+            {
+              "label": "february",
+              "kind": "token"
+            },
+            {
+              "label": "1979",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Independence declared",
+      "kind": "token_text_container",
+      "raw_value": "3 October 1932",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "3",
+              "kind": "token"
+            },
+            {
+              "label": "october",
+              "kind": "token"
+            },
+            {
+              "label": "1932",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000174"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Iranian Revolution[7]/#text[1]/1979[3]",
+    "from": {
+      "label": "1979",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1932",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000178"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Iranian Revolution[7]/#text[1]/february[2]",
+    "from": {
+      "label": "february",
+      "kind": "token"
+    },
+    "to": {
+      "label": "october",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000177"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Iranian Revolution[7]/#text[1]/11[1]",
+    "from": {
+      "label": "11",
+      "kind": "token"
+    },
+    "to": {
+      "label": "3",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000176"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Iranian Intermezzo[6]",
+    "cost": 3.0,
+    "subtree": {
+      "label": "Iranian Intermezzo",
+      "kind": "token_text_container",
+      "raw_value": "821",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "821",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000171"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Current constitution[5]/#text[1]/1979[3]",
+    "from": {
+      "label": "1979",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2005",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000170"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Current constitution[5]/#text[1]/december[2]",
+    "from": {
+      "label": "december",
+      "kind": "token"
+    },
+    "to": {
+      "label": "october",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000169"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Current constitution[5]/#text[1]/3[1]",
+    "from": {
+      "label": "3",
+      "kind": "token"
+    },
+    "to": {
+      "label": "15",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000168"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Constitutional amendment[4]",
+    "from": {
+      "label": "Constitutional amendment",
+      "kind": "token_text_container",
+      "raw_value": "28 July 1989",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "28",
+              "kind": "token"
+            },
+            {
+              "label": "july",
+              "kind": "token"
+            },
+            {
+              "label": "1989",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Babylonia",
+      "kind": "token_text_container",
+      "raw_value": "c. 1890 BC",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "c",
+              "kind": "token"
+            },
+            {
+              "label": "1890",
+              "kind": "token"
+            },
+            {
+              "label": "bc",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000161"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Constitutional amendment[4]/#text[1]/1989[3]",
+    "from": {
+      "label": "1989",
+      "kind": "token"
+    },
+    "to": {
+      "label": "bc",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000165"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Constitutional amendment[4]/#text[1]/july[2]",
+    "from": {
+      "label": "july",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1890",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000164"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Constitutional amendment[4]/#text[1]/28[1]",
+    "from": {
+      "label": "28",
+      "kind": "token"
+    },
+    "to": {
+      "label": "c",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000163"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Constitutional Revolution[3]",
+    "from": {
+      "label": "Constitutional Revolution",
+      "kind": "token_text_container",
+      "raw_value": "12 December 1905",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "12",
+              "kind": "token"
+            },
+            {
+              "label": "december",
+              "kind": "token"
+            },
+            {
+              "label": "1905",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Akkadian Empire",
+      "kind": "token_text_container",
+      "raw_value": "c. 2334 BC",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "c",
+              "kind": "token"
+            },
+            {
+              "label": "2334",
+              "kind": "token"
+            },
+            {
+              "label": "bc",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000156"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Constitutional Revolution[3]/#text[1]/1905[3]",
+    "from": {
+      "label": "1905",
+      "kind": "token"
+    },
+    "to": {
+      "label": "bc",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000160"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Constitutional Revolution[3]/#text[1]/december[2]",
+    "from": {
+      "label": "december",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2334",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000159"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Constitutional Revolution[3]/#text[1]/12[1]",
+    "from": {
+      "label": "12",
+      "kind": "token"
+    },
+    "to": {
+      "label": "c",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000158"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Afsharid Iran[2]",
+    "from": {
+      "label": "Afsharid Iran",
+      "kind": "token_text_container",
+      "raw_value": "22 January 1736",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "22",
+              "kind": "token"
+            },
+            {
+              "label": "january",
+              "kind": "token"
+            },
+            {
+              "label": "1736",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Abbasid Caliphate",
+      "kind": "token_text_container",
+      "raw_value": "750 AD",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "750",
+              "kind": "token"
+            },
+            {
+              "label": "ad",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000151"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Afsharid Iran[2]/#text[1]/1736[3]",
+    "from": {
+      "label": "1736",
+      "kind": "token"
+    },
+    "to": {
+      "label": "ad",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000155"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Afsharid Iran[2]/#text[1]/january[2]",
+    "from": {
+      "label": "january",
+      "kind": "token"
+    },
+    "to": {
+      "label": "750",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000154"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Afsharid Iran[2]/#text[1]/22[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "22",
+      "kind": "token"
+    },
+    "source_uid": "n000153"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Achaemenid Empire[1]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "Achaemenid Empire",
+      "kind": "token_text_container",
+      "raw_value": "550 BC",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "550",
+              "kind": "token"
+            },
+            {
+              "label": "bc",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000147"
+  },
+  {
+    "op": "update_node",
+    "path": "root/population[8]/year[3]/#text[1]/2025[1]",
+    "from": {
+      "label": "2025",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2024",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000220"
+  },
+  {
+    "op": "update_value",
+    "path": "root/population[8]/total[2]",
+    "from": {
+      "label": "total",
+      "kind": "numeric",
+      "raw_value": "92417681",
+      "norm_value": "0.860962986156",
+      "norm_number": 0.8609629861555168,
+      "numeric_field": "population"
+    },
+    "to": {
+      "label": "total",
+      "kind": "numeric",
+      "raw_value": "46118793",
+      "norm_value": "0.825667522131",
+      "norm_number": 0.8256675221309238,
+      "numeric_field": "population"
+    },
+    "cost": 0.03529546402459305,
+    "source_uid": "n000217"
+  },
+  {
+    "op": "update_value",
+    "path": "root/population[8]/density_per_km2[1]",
+    "from": {
+      "label": "density_per_km2",
+      "kind": "numeric",
+      "raw_value": "52.0",
+      "norm_value": "0.323197817802",
+      "norm_number": 0.32319781780196366,
+      "numeric_field": "density"
+    },
+    "to": {
+      "label": "density_per_km2",
+      "kind": "numeric",
+      "raw_value": "82.7",
+      "norm_value": "0.376041884026",
+      "norm_number": 0.37604188402613353,
+      "numeric_field": "density"
+    },
+    "cost": 0.05284406622416987,
+    "source_uid": "n000216"
+  },
+  {
+    "op": "update_value",
+    "path": "root/time[9]/timezone_utc[2]",
+    "from": {
+      "label": "timezone_utc",
+      "kind": "atomic_text",
+      "raw_value": "UTC+03:30",
+      "norm_value": "utc+03:30"
+    },
+    "to": {
+      "label": "timezone_utc",
+      "kind": "atomic_text",
+      "raw_value": "UTC+03:00",
+      "norm_value": "utc+03:00"
+    },
+    "cost": 1.0,
+    "source_uid": "n000223"
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "country": "Uzbekistan",
+  "area": {
+    "rank": 55,
+    "total_km2": 448978.0,
+    "water_pct": 4.9
+  },
+  "codes": {
+    "calling_code": "+998",
+    "internet_tld": ".uz",
+    "iso_3166_code": "UZ"
+  },
+  "economy": {
+    "currency_code": "UZS",
+    "gdp_nominal": {
+      "per_capita_usd": 3945,
+      "total_billion_usd": 140.48,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 12596,
+      "total_billion_usd": 507.8,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 31.2,
+      "year": 2022
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 107,
+      "value": 0.74,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Tashkent",
+    "demonym": "Uzbek • Uzbek",
+    "ethnic_groups": {
+      "groups": {
+        "Karakalpaks": 2.2,
+        "Kazakhs": 2.3,
+        "Russians": 2.1,
+        "Tajiks": 4.8,
+        "Uzbeks": 84.6,
+        "others": 4.0
+      },
+      "year": 2021
+    },
+    "largest_city": "Tashkent",
+    "official_language": "Uzbek",
+    "recognized_languages": "Karakalpak",
+    "religion": {
+      "groups": {
+        "Christianity": 1.04,
+        "Irreligion": 3.89,
+        "Islam": 94.78,
+        "other religions": 0.27
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Shavkat Mirziyoyev",
+      "prime_minister": "Abdulla Aripov"
+    },
+    "legislature": "Oliy Majlis",
+    "lower_house": "Legislative Chamber",
+    "type": "Unitary semi-presidential republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Current constitution": "8 December 1992",
+    "Republic": "1 September 1991",
+    "Turkestan ASSR": "30 April 1918",
+    "Uzbek SSR": "27 October 1924",
+    "Uzbek khanates": "1500–1920"
+  },
+  "population": {
+    "density_per_km2": 80.2,
+    "total": 38236704,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+05:00"
+  }
+}

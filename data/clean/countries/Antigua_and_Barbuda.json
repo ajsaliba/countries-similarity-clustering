@@ -1,0 +1,100 @@
+{
+  "country": "Antigua and Barbuda",
+  "area": {
+    "rank": 182,
+    "total_km2": 440.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+1",
+    "internet_tld": ".ag",
+    "iso_3166_code": "AG"
+  },
+  "economy": {
+    "currency_code": "XCD",
+    "gdp_nominal": {
+      "per_capita_usd": 22630,
+      "total_billion_usd": 2.37,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 31781,
+      "total_billion_usd": 3.3,
+      "year": 2025
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 53,
+      "value": 0.851,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "St. John's",
+    "demonym": "Antiguan and Barbudan",
+    "ethnic_groups": {
+      "groups": {
+        "African": 87.3,
+        "East Indian": 1.1,
+        "European": 1.7,
+        "Hispanic": 2.8,
+        "Multiracial": 4.7,
+        "Syrian or Lebanese": 0.7,
+        "other": 1.8
+      },
+      "year": 2011
+    },
+    "governor_general": "Sir Rodney Williams",
+    "largest_city": "St. John's",
+    "monarch": "Charles III",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Protestantism": 66.6,
+            "other Christian": 26.1
+          },
+          "percentage": 92.7
+        },
+        "Rastafari": {
+          "breakdown": {
+            "no religion": 1.9
+          },
+          "percentage": 3.6
+        }
+      },
+      "year": 2020
+    },
+    "vernacular_language": "Antiguan and Barbudan Creole"
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Gaston Browne"
+    },
+    "legislature": "Parliament",
+    "lower_house": "House of Representatives",
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Associated state": "27 February 1967",
+    "Independence": "1 November 1981",
+    "Redonda": "26 March 1872",
+    "Union": "1 August 1860"
+  },
+  "population": {
+    "density_per_km2": 186.0,
+    "total": 106365,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-04:00"
+  }
+}

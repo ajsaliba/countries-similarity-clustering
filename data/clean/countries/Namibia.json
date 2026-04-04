@@ -1,0 +1,107 @@
+{
+  "country": "Namibia",
+  "area": {
+    "rank": 34,
+    "total_km2": 825615.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+264",
+    "internet_tld": ".na",
+    "iso_3166_code": "NA"
+  },
+  "economy": {
+    "currency_code": "ZAR",
+    "gdp_nominal": {
+      "per_capita_usd": 4660,
+      "total_billion_usd": 14.21,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 12370,
+      "total_billion_usd": 37.73,
+      "year": 2025
+    },
+    "gini": {
+      "category": "high",
+      "value": 59.1,
+      "year": 2015
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 136,
+      "value": 0.665,
+      "year": 2023
+    }
+  },
+  "general": {
+    "afrikaans_": [
+      "Republiek van Namibië",
+      "Republiek van Namibië"
+    ],
+    "capital": "Windhoek",
+    "demonym": "Namibian",
+    "ethnic_groups": {
+      "groups": {
+        "Asian / other": 1.4,
+        "Coloured and Basters": 3.6,
+        "Indigenous African": 93.2,
+        "White": 1.8
+      },
+      "year": 2023
+    },
+    "german_": "Republik Namibia",
+    "khoekhoegowab_": "Republiki Namibiab dib",
+    "largest_city": "Windhoek",
+    "national_language": "Afrikaans German Khoekhoegowab Oshiwambo Otjiherero RuKwangali Setswana siLozi",
+    "official_language": "English",
+    "oshiwambo_": "Orepublika yaNamibia",
+    "otjiherero_": "Orepublika yaNamibia",
+    "recognized_regional_languages": "ǃKung Gciriku Thimbukushu",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Anglicanism": 17.0,
+            "Catholicism": 22.8,
+            "Lutheranism": 43.7,
+            "other Christian": 4.4
+          },
+          "percentage": 87.9
+        },
+        "no religion": 1.6,
+        "other": 10.5
+      },
+      "year": 2023
+    },
+    "rukwangali_": "Republika zaNamibia",
+    "setswana_": "Rephaboliki ya Namibia",
+    "silozi_": "Namibia ye Lukuluhile"
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Peter Shivute",
+      "deputy_prime_minister": "Vacant",
+      "president": "Netumbo Nandi-Ndaitwah",
+      "prime_minister": "Elijah Ngurare",
+      "vice_president": "Lucia Witbooi"
+    },
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "type": "Unitary semi-presidential republic",
+    "upper_house": "National Council"
+  },
+  "history": {
+    "Constitution": "9 February 1990",
+    "Independence": "21 March 1990"
+  },
+  "population": {
+    "density_per_km2": 3.7,
+    "total": 3022401,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+02:00"
+  }
+}

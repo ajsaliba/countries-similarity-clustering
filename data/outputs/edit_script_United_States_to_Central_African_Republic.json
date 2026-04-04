@@ -1,0 +1,1921 @@
+[
+  {
+    "op": "insert_tree",
+    "parent_path": "root/country[1]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "central",
+      "kind": "token"
+    },
+    "parent_uid": "n000003"
+  },
+  {
+    "op": "update_node",
+    "path": "root/country[1]/#text[1]/united[1]",
+    "from": {
+      "label": "united",
+      "kind": "token"
+    },
+    "to": {
+      "label": "african",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000004"
+  },
+  {
+    "op": "update_node",
+    "path": "root/country[1]/#text[1]/states[2]",
+    "from": {
+      "label": "states",
+      "kind": "token"
+    },
+    "to": {
+      "label": "republic",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000005"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/water_pct[3]/#text[1]/7[1]",
+    "from": {
+      "label": "7",
+      "kind": "token"
+    },
+    "to": {
+      "label": "0",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000016"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/total_km2[2]/#text[1]/3796742[1]",
+    "from": {
+      "label": "3796742",
+      "kind": "token"
+    },
+    "to": {
+      "label": "622984",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000012"
+  },
+  {
+    "op": "update_node",
+    "path": "root/area[2]/rank[1]/#text[1]/3[1]",
+    "from": {
+      "label": "3",
+      "kind": "token"
+    },
+    "to": {
+      "label": "44",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000009"
+  },
+  {
+    "op": "update_value",
+    "path": "root/codes[3]/iso_3166_code[3]",
+    "from": {
+      "label": "iso_3166_code",
+      "kind": "atomic_text",
+      "raw_value": "US",
+      "norm_value": "us"
+    },
+    "to": {
+      "label": "iso_3166_code",
+      "kind": "atomic_text",
+      "raw_value": "CF",
+      "norm_value": "cf"
+    },
+    "cost": 1.0,
+    "source_uid": "n000021"
+  },
+  {
+    "op": "update_value",
+    "path": "root/codes[3]/internet_tld[2]",
+    "from": {
+      "label": "internet_tld",
+      "kind": "atomic_text",
+      "raw_value": ".com",
+      "norm_value": ".com"
+    },
+    "to": {
+      "label": "internet_tld",
+      "kind": "atomic_text",
+      "raw_value": ".cf",
+      "norm_value": ".cf"
+    },
+    "cost": 1.0,
+    "source_uid": "n000020"
+  },
+  {
+    "op": "update_value",
+    "path": "root/codes[3]/calling_code[1]",
+    "from": {
+      "label": "calling_code",
+      "kind": "atomic_text",
+      "raw_value": "+1",
+      "norm_value": "+1"
+    },
+    "to": {
+      "label": "calling_code",
+      "kind": "atomic_text",
+      "raw_value": "+236",
+      "norm_value": "+236"
+    },
+    "cost": 1.0,
+    "source_uid": "n000019"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/economy[4]/hdi[5]/category[1]/#text[1]/very[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "very",
+      "kind": "token"
+    },
+    "source_uid": "n000060"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/hdi[5]/category[1]/#text[1]/high[2]",
+    "from": {
+      "label": "high",
+      "kind": "token"
+    },
+    "to": {
+      "label": "low",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000061"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/hdi[5]/rank[2]/#text[1]/17[1]",
+    "from": {
+      "label": "17",
+      "kind": "token"
+    },
+    "to": {
+      "label": "191",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000064"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/hdi[5]/value[3]/#text[1]/938[2]",
+    "from": {
+      "label": "938",
+      "kind": "token"
+    },
+    "to": {
+      "label": "414",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000068"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gini[4]/value[2]/#text[1]/41[1]",
+    "from": {
+      "label": "41",
+      "kind": "token"
+    },
+    "to": {
+      "label": "43",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000052"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gini[4]/value[2]/#text[1]/8[2]",
+    "from": {
+      "label": "8",
+      "kind": "token"
+    },
+    "to": {
+      "label": "0",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000053"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gini[4]/year[3]/#text[1]/2024[1]",
+    "from": {
+      "label": "2024",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2021",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000056"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/per_capita_usd[1]/#text[1]/89599[1]",
+    "from": {
+      "label": "89599",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1390",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000038"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/total_billion_usd[2]/#text[1]/30616[1]",
+    "from": {
+      "label": "30616",
+      "kind": "token"
+    },
+    "to": {
+      "label": "7",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000041"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/total_billion_usd[2]/#text[1]/0[2]",
+    "from": {
+      "label": "0",
+      "kind": "token"
+    },
+    "to": {
+      "label": "94",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000042"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_ppp[3]/year[3]/#text[1]/2025[1]",
+    "from": {
+      "label": "2025",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2026",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000045"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/per_capita_usd[1]/#text[1]/89599[1]",
+    "from": {
+      "label": "89599",
+      "kind": "token"
+    },
+    "to": {
+      "label": "650",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000027"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/total_billion_usd[2]/#text[1]/30616[1]",
+    "from": {
+      "label": "30616",
+      "kind": "token"
+    },
+    "to": {
+      "label": "3",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000030"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/total_billion_usd[2]/#text[1]/0[2]",
+    "from": {
+      "label": "0",
+      "kind": "token"
+    },
+    "to": {
+      "label": "71",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000031"
+  },
+  {
+    "op": "update_node",
+    "path": "root/economy[4]/gdp_nominal[2]/year[3]/#text[1]/2025[1]",
+    "from": {
+      "label": "2025",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2026",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000034"
+  },
+  {
+    "op": "update_value",
+    "path": "root/economy[4]/currency_code[1]",
+    "from": {
+      "label": "currency_code",
+      "kind": "atomic_text",
+      "raw_value": "USD",
+      "norm_value": "usd"
+    },
+    "to": {
+      "label": "currency_code",
+      "kind": "atomic_text",
+      "raw_value": "XAF",
+      "norm_value": "xaf"
+    },
+    "cost": 1.0,
+    "source_uid": "n000023"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/religion[6]/groups[1]/unanswered[5]",
+    "from": {
+      "label": "unanswered",
+      "kind": "numeric",
+      "raw_value": "3.0",
+      "norm_value": "0.030000000000",
+      "norm_number": 0.03,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "traditional faiths",
+      "kind": "numeric",
+      "raw_value": "12.0",
+      "norm_value": "0.120000000000",
+      "norm_number": 0.12,
+      "numeric_field": "percentage"
+    },
+    "cost": 1.09,
+    "source_uid": "n000140"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/religion[6]/groups[1]/unaffiliated[4]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "unaffiliated",
+      "kind": "numeric",
+      "raw_value": "24.0",
+      "norm_value": "0.240000000000",
+      "norm_number": 0.24,
+      "numeric_field": "percentage"
+    },
+    "source_uid": "n000139"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/religion[6]/groups[1]/other religion[3]",
+    "from": {
+      "label": "other religion",
+      "kind": "numeric",
+      "raw_value": "6.0",
+      "norm_value": "0.060000000000",
+      "norm_number": 0.06,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "other / none",
+      "kind": "numeric",
+      "raw_value": "0.9",
+      "norm_value": "0.009000000000",
+      "norm_number": 0.009000000000000001,
+      "numeric_field": "percentage"
+    },
+    "cost": 1.051,
+    "source_uid": "n000138"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/religion[6]/groups[1]/Judaism[2]",
+    "from": {
+      "label": "Judaism",
+      "kind": "numeric",
+      "raw_value": "2.0",
+      "norm_value": "0.020000000000",
+      "norm_number": 0.02,
+      "numeric_field": "percentage"
+    },
+    "to": {
+      "label": "Islam",
+      "kind": "numeric",
+      "raw_value": "13.9",
+      "norm_value": "0.139000000000",
+      "norm_number": 0.139,
+      "numeric_field": "percentage"
+    },
+    "cost": 1.119,
+    "source_uid": "n000137"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/religion[6]/groups[1]/Christianity[1]/breakdown[1]",
+    "cost": 3.0,
+    "subtree": {
+      "label": "breakdown",
+      "kind": "internal",
+      "children": [
+        {
+          "label": "Mormonism",
+          "kind": "numeric",
+          "raw_value": "1.0",
+          "norm_value": "0.010000000000",
+          "norm_number": 0.01,
+          "numeric_field": "percentage"
+        },
+        {
+          "label": "Protestantism",
+          "kind": "numeric",
+          "raw_value": "32.0",
+          "norm_value": "0.320000000000",
+          "norm_number": 0.32,
+          "numeric_field": "percentage"
+        }
+      ]
+    },
+    "source_uid": "n000133"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/religion[6]/groups[1]/Christianity[1]/percentage[2]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "percentage",
+      "kind": "numeric",
+      "raw_value": "65.0",
+      "norm_value": "0.650000000000",
+      "norm_number": 0.65,
+      "numeric_field": "percentage"
+    },
+    "source_uid": "n000136"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/official_language[5]/#text[1]/english[1]",
+    "from": {
+      "label": "english",
+      "kind": "token"
+    },
+    "to": {
+      "label": "official",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000129"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/official_language[5]/#text[1]",
+    "index": 3,
+    "cost": 1.0,
+    "subtree": {
+      "label": "co",
+      "kind": "token"
+    },
+    "parent_uid": "n000128"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/official_language[5]/#text[1]",
+    "index": 2,
+    "cost": 1.0,
+    "subtree": {
+      "label": "sango",
+      "kind": "token"
+    },
+    "parent_uid": "n000128"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/official_language[5]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "french",
+      "kind": "token"
+    },
+    "parent_uid": "n000128"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]",
+    "index": 5,
+    "cost": 3.0,
+    "subtree": {
+      "label": "national_language",
+      "kind": "token_text_container",
+      "raw_value": "Sango",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "sango",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000072"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/largest_city[4]/#text[1]/city[3]",
+    "from": {
+      "label": "city",
+      "kind": "token"
+    },
+    "to": {
+      "label": "bangui",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000126"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/largest_city[4]/#text[1]/york[2]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "york",
+      "kind": "token"
+    },
+    "source_uid": "n000125"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/largest_city[4]/#text[1]/new[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "new",
+      "kind": "token"
+    },
+    "source_uid": "n000124"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/two or more races[9]",
+    "from": {
+      "label": "two or more races",
+      "kind": "token_text_container",
+      "raw_value": "10.2",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "10",
+              "kind": "token"
+            },
+            {
+              "label": "2",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "#text",
+      "kind": "internal",
+      "children": [
+        {
+          "label": "null",
+          "kind": "token"
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000115"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/two or more races[9]/#text[1]/2[2]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "2",
+      "kind": "token"
+    },
+    "source_uid": "n000118"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/two or more races[9]/#text[1]/10[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "10",
+      "kind": "token"
+    },
+    "source_uid": "n000117"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/two or more races[9]/#text[1]",
+    "from": {
+      "label": "#text",
+      "kind": "internal",
+      "children": [
+        {
+          "label": "10",
+          "kind": "token"
+        },
+        {
+          "label": "2",
+          "kind": "token"
+        }
+      ]
+    },
+    "to": {
+      "label": "null",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000116"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/other By origin:[8]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "other By origin:",
+      "kind": "token_text_container",
+      "raw_value": "8.4",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "8",
+              "kind": "token"
+            },
+            {
+              "label": "4",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000111"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/non- Hispanic or Latino[7]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "non- Hispanic or Latino",
+      "kind": "token_text_container",
+      "raw_value": "81.3",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "81",
+              "kind": "token"
+            },
+            {
+              "label": "3",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000107"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/White[6]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "White",
+      "kind": "token_text_container",
+      "raw_value": "61.6",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "61",
+              "kind": "token"
+            },
+            {
+              "label": "6",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000103"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/Pacific Islander[5]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "Pacific Islander",
+      "kind": "token_text_container",
+      "raw_value": "0.2",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "0",
+              "kind": "token"
+            },
+            {
+              "label": "2",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000099"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/Native American[4]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "Native American",
+      "kind": "token_text_container",
+      "raw_value": "1.1",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1",
+              "kind": "token"
+            },
+            {
+              "label": "1",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000095"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/Hispanic or Latino[3]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "Hispanic or Latino",
+      "kind": "token_text_container",
+      "raw_value": "18.7",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "18",
+              "kind": "token"
+            },
+            {
+              "label": "7",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000091"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/Black[2]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "Black",
+      "kind": "token_text_container",
+      "raw_value": "12.4",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "12",
+              "kind": "token"
+            },
+            {
+              "label": "4",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000087"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/ethnic_groups[3]/groups[1]/Asian[1]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "Asian",
+      "kind": "token_text_container",
+      "raw_value": "6.0",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "6",
+              "kind": "token"
+            },
+            {
+              "label": "0",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000083"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/ethnic_groups[3]",
+    "index": 2,
+    "cost": 24.0,
+    "subtree": {
+      "label": "note",
+      "kind": "token_text_container",
+      "raw_value": "Baggara Arabs Baka Banda Bayaka Fula Gula Gbaya Kara Kresh Mbaka Mandja Ngbandi Runga Sara Vidiri Wodaabe Yakoma Yulu Kanuri Zande other",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "baggara",
+              "kind": "token"
+            },
+            {
+              "label": "arabs",
+              "kind": "token"
+            },
+            {
+              "label": "baka",
+              "kind": "token"
+            },
+            {
+              "label": "banda",
+              "kind": "token"
+            },
+            {
+              "label": "bayaka",
+              "kind": "token"
+            },
+            {
+              "label": "fula",
+              "kind": "token"
+            },
+            {
+              "label": "gula",
+              "kind": "token"
+            },
+            {
+              "label": "gbaya",
+              "kind": "token"
+            },
+            {
+              "label": "kara",
+              "kind": "token"
+            },
+            {
+              "label": "kresh",
+              "kind": "token"
+            },
+            {
+              "label": "mbaka",
+              "kind": "token"
+            },
+            {
+              "label": "mandja",
+              "kind": "token"
+            },
+            {
+              "label": "ngbandi",
+              "kind": "token"
+            },
+            {
+              "label": "runga",
+              "kind": "token"
+            },
+            {
+              "label": "sara",
+              "kind": "token"
+            },
+            {
+              "label": "vidiri",
+              "kind": "token"
+            },
+            {
+              "label": "wodaabe",
+              "kind": "token"
+            },
+            {
+              "label": "yakoma",
+              "kind": "token"
+            },
+            {
+              "label": "yulu",
+              "kind": "token"
+            },
+            {
+              "label": "kanuri",
+              "kind": "token"
+            },
+            {
+              "label": "zande",
+              "kind": "token"
+            },
+            {
+              "label": "other",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000081"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/ethnic_groups[3]/year[2]/#text[1]/2020[1]",
+    "from": {
+      "label": "2020",
+      "kind": "token"
+    },
+    "to": {
+      "label": "null",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000121"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/Demonyms[2]/#text[1]/american[1]",
+    "from": {
+      "label": "american",
+      "kind": "token"
+    },
+    "to": {
+      "label": "african",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000080"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/general[5]/Demonyms[2]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "central",
+      "kind": "token"
+    },
+    "parent_uid": "n000079"
+  },
+  {
+    "op": "update_node",
+    "path": "root/general[5]/capital[1]/#text[1]/c[3]",
+    "from": {
+      "label": "c",
+      "kind": "token"
+    },
+    "to": {
+      "label": "bangui",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000077"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/capital[1]/#text[1]/d[2]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "d",
+      "kind": "token"
+    },
+    "source_uid": "n000076"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/general[5]/capital[1]/#text[1]/washington[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "washington",
+      "kind": "token"
+    },
+    "source_uid": "n000075"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/upper_house[5]/#text[1]/senate[1]",
+    "from": {
+      "label": "senate",
+      "kind": "token"
+    },
+    "to": {
+      "label": "null",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000175"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/type[4]/#text[1]/federal[1]",
+    "from": {
+      "label": "federal",
+      "kind": "token"
+    },
+    "to": {
+      "label": "unitary",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000170"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/lower_house[3]/#text[1]/representatives[3]",
+    "from": {
+      "label": "representatives",
+      "kind": "token"
+    },
+    "to": {
+      "label": "null",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000167"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/lower_house[3]/#text[1]/of[2]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "of",
+      "kind": "token"
+    },
+    "source_uid": "n000166"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/lower_house[3]/#text[1]/house[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "house",
+      "kind": "token"
+    },
+    "source_uid": "n000165"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/legislature[2]/#text[1]/congress[1]",
+    "from": {
+      "label": "congress",
+      "kind": "token"
+    },
+    "to": {
+      "label": "assembly",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000162"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/government[6]/legislature[2]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "national",
+      "kind": "token"
+    },
+    "parent_uid": "n000161"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/government[6]/leaders[1]/chief_justice[1]",
+    "cost": 4.0,
+    "subtree": {
+      "label": "chief_justice",
+      "kind": "token_text_container",
+      "raw_value": "John Roberts",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "john",
+              "kind": "token"
+            },
+            {
+              "label": "roberts",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "source_uid": "n000144"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/government[6]/leaders[1]/house_speaker[2]/#text[1]",
+    "index": 1,
+    "cost": 1.0,
+    "subtree": {
+      "label": "faustin",
+      "kind": "token"
+    },
+    "parent_uid": "n000149"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/house_speaker[2]/#text[1]/mike[1]",
+    "from": {
+      "label": "mike",
+      "kind": "token"
+    },
+    "to": {
+      "label": "archange",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000150"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/house_speaker[2]/#text[1]/johnson[2]",
+    "from": {
+      "label": "johnson",
+      "kind": "token"
+    },
+    "to": {
+      "label": "touadéra",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000151"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/house_speaker[2]",
+    "from": {
+      "label": "house_speaker",
+      "kind": "token_text_container",
+      "raw_value": "Mike Johnson",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "mike",
+              "kind": "token"
+            },
+            {
+              "label": "johnson",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "president",
+      "kind": "token_text_container",
+      "raw_value": "Faustin-Archange Touadéra",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "faustin",
+              "kind": "token"
+            },
+            {
+              "label": "archange",
+              "kind": "token"
+            },
+            {
+              "label": "touadéra",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000148"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/president[3]/#text[1]/donald[1]",
+    "from": {
+      "label": "donald",
+      "kind": "token"
+    },
+    "to": {
+      "label": "simplice",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000154"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/president[3]/#text[1]/trump[2]",
+    "from": {
+      "label": "trump",
+      "kind": "token"
+    },
+    "to": {
+      "label": "sarandji",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000155"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/president[3]",
+    "from": {
+      "label": "president",
+      "kind": "token_text_container",
+      "raw_value": "Donald Trump",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "donald",
+              "kind": "token"
+            },
+            {
+              "label": "trump",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "president_of_the_national_assembly",
+      "kind": "token_text_container",
+      "raw_value": "Simplice Sarandji",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "simplice",
+              "kind": "token"
+            },
+            {
+              "label": "sarandji",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000152"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/vice_president[4]/#text[1]/jd[1]",
+    "from": {
+      "label": "jd",
+      "kind": "token"
+    },
+    "to": {
+      "label": "félix",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000158"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/vice_president[4]/#text[1]/vance[2]",
+    "from": {
+      "label": "vance",
+      "kind": "token"
+    },
+    "to": {
+      "label": "moloua",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000159"
+  },
+  {
+    "op": "update_node",
+    "path": "root/government[6]/leaders[1]/vice_president[4]",
+    "from": {
+      "label": "vice_president",
+      "kind": "token_text_container",
+      "raw_value": "JD Vance",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "jd",
+              "kind": "token"
+            },
+            {
+              "label": "vance",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "prime_minister",
+      "kind": "token_text_container",
+      "raw_value": "Félix Moloua",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "félix",
+              "kind": "token"
+            },
+            {
+              "label": "moloua",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000156"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Declaration[2]",
+    "from": {
+      "label": "Declaration",
+      "kind": "token_text_container",
+      "raw_value": "July 4, 1776 ; 249 years ago ( 1776-07-04 )",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "july",
+              "kind": "token"
+            },
+            {
+              "label": "4",
+              "kind": "token"
+            },
+            {
+              "label": "1776",
+              "kind": "token"
+            },
+            {
+              "label": "249",
+              "kind": "token"
+            },
+            {
+              "label": "years",
+              "kind": "token"
+            },
+            {
+              "label": "ago",
+              "kind": "token"
+            },
+            {
+              "label": "1776",
+              "kind": "token"
+            },
+            {
+              "label": "07",
+              "kind": "token"
+            },
+            {
+              "label": "04",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "from France",
+      "kind": "token_text_container",
+      "raw_value": "13 August 1960",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "13",
+              "kind": "token"
+            },
+            {
+              "label": "august",
+              "kind": "token"
+            },
+            {
+              "label": "1960",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000185"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Declaration[2]/#text[1]/04[9]",
+    "from": {
+      "label": "04",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1960",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000195"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Declaration[2]/#text[1]/07[8]",
+    "from": {
+      "label": "07",
+      "kind": "token"
+    },
+    "to": {
+      "label": "august",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000194"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Declaration[2]/#text[1]/1776[7]",
+    "from": {
+      "label": "1776",
+      "kind": "token"
+    },
+    "to": {
+      "label": "13",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000193"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Declaration[2]/#text[1]/ago[6]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "ago",
+      "kind": "token"
+    },
+    "source_uid": "n000192"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Declaration[2]/#text[1]/years[5]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "years",
+      "kind": "token"
+    },
+    "source_uid": "n000191"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Declaration[2]/#text[1]/249[4]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "249",
+      "kind": "token"
+    },
+    "source_uid": "n000190"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Declaration[2]/#text[1]/1776[3]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "1776",
+      "kind": "token"
+    },
+    "source_uid": "n000189"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Declaration[2]/#text[1]/4[2]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "4",
+      "kind": "token"
+    },
+    "source_uid": "n000188"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Declaration[2]/#text[1]/july[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "july",
+      "kind": "token"
+    },
+    "source_uid": "n000187"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Confederation[1]",
+    "from": {
+      "label": "Confederation",
+      "kind": "token_text_container",
+      "raw_value": "March 1, 1781 ( 1781-03-01 )",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "march",
+              "kind": "token"
+            },
+            {
+              "label": "1",
+              "kind": "token"
+            },
+            {
+              "label": "1781",
+              "kind": "token"
+            },
+            {
+              "label": "1781",
+              "kind": "token"
+            },
+            {
+              "label": "03",
+              "kind": "token"
+            },
+            {
+              "label": "01",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "to": {
+      "label": "Republic established",
+      "kind": "token_text_container",
+      "raw_value": "1 December 1958",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "1",
+              "kind": "token"
+            },
+            {
+              "label": "december",
+              "kind": "token"
+            },
+            {
+              "label": "1958",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "cost": 1.0,
+    "source_uid": "n000177"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Confederation[1]/#text[1]/01[6]",
+    "from": {
+      "label": "01",
+      "kind": "token"
+    },
+    "to": {
+      "label": "1958",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000184"
+  },
+  {
+    "op": "update_node",
+    "path": "root/history[7]/Confederation[1]/#text[1]/03[5]",
+    "from": {
+      "label": "03",
+      "kind": "token"
+    },
+    "to": {
+      "label": "december",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000183"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Confederation[1]/#text[1]/1781[4]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "1781",
+      "kind": "token"
+    },
+    "source_uid": "n000182"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Confederation[1]/#text[1]/1781[3]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "1781",
+      "kind": "token"
+    },
+    "source_uid": "n000181"
+  },
+  {
+    "op": "delete_tree",
+    "path": "root/history[7]/Confederation[1]/#text[1]/march[1]",
+    "cost": 1.0,
+    "subtree": {
+      "label": "march",
+      "kind": "token"
+    },
+    "source_uid": "n000179"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 3,
+    "cost": 5.0,
+    "subtree": {
+      "label": "Coronation of Bokassa I",
+      "kind": "token_text_container",
+      "raw_value": "4 December 1977",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "4",
+              "kind": "token"
+            },
+            {
+              "label": "december",
+              "kind": "token"
+            },
+            {
+              "label": "1977",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000176"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 2,
+    "cost": 5.0,
+    "subtree": {
+      "label": "Central African Empire established",
+      "kind": "token_text_container",
+      "raw_value": "4 December 1976",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "4",
+              "kind": "token"
+            },
+            {
+              "label": "december",
+              "kind": "token"
+            },
+            {
+              "label": "1976",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000176"
+  },
+  {
+    "op": "insert_tree",
+    "parent_path": "root/history[7]",
+    "index": 1,
+    "cost": 5.0,
+    "subtree": {
+      "label": "Bokassa I's overthrow and republic restored",
+      "kind": "token_text_container",
+      "raw_value": "21 September 1979",
+      "children": [
+        {
+          "label": "#text",
+          "kind": "internal",
+          "children": [
+            {
+              "label": "21",
+              "kind": "token"
+            },
+            {
+              "label": "september",
+              "kind": "token"
+            },
+            {
+              "label": "1979",
+              "kind": "token"
+            }
+          ]
+        }
+      ]
+    },
+    "parent_uid": "n000176"
+  },
+  {
+    "op": "update_node",
+    "path": "root/population[8]/year[3]/#text[1]/2025[1]",
+    "from": {
+      "label": "2025",
+      "kind": "token"
+    },
+    "to": {
+      "label": "2024",
+      "kind": "token"
+    },
+    "cost": 1.0,
+    "source_uid": "n000201"
+  },
+  {
+    "op": "update_value",
+    "path": "root/population[8]/total[2]",
+    "from": {
+      "label": "total",
+      "kind": "numeric",
+      "raw_value": "341784857",
+      "norm_value": "0.927373264014",
+      "norm_number": 0.9273732640142033,
+      "numeric_field": "population"
+    },
+    "to": {
+      "label": "total",
+      "kind": "numeric",
+      "raw_value": "5650957",
+      "norm_value": "0.719065056720",
+      "norm_number": 0.7190650567202258,
+      "numeric_field": "population"
+    },
+    "cost": 0.20830820729397748,
+    "source_uid": "n000198"
+  },
+  {
+    "op": "update_value",
+    "path": "root/population[8]/density_per_km2[1]",
+    "from": {
+      "label": "density_per_km2",
+      "kind": "numeric",
+      "raw_value": "96.8",
+      "norm_value": "0.394046289310",
+      "norm_number": 0.3940462893100339,
+      "numeric_field": "density"
+    },
+    "to": {
+      "label": "density_per_km2",
+      "kind": "numeric",
+      "raw_value": "8.6",
+      "norm_value": "0.125613421328",
+      "norm_number": 0.12561342132775122,
+      "numeric_field": "density"
+    },
+    "cost": 0.26843286798228266,
+    "source_uid": "n000197"
+  },
+  {
+    "op": "update_value",
+    "path": "root/time[9]/timezone_utc[2]",
+    "from": {
+      "label": "timezone_utc",
+      "kind": "atomic_text",
+      "raw_value": "UTC-04:00",
+      "norm_value": "utc-04:00"
+    },
+    "to": {
+      "label": "timezone_utc",
+      "kind": "atomic_text",
+      "raw_value": "UTC+01:00",
+      "norm_value": "utc+01:00"
+    },
+    "cost": 1.0,
+    "source_uid": "n000204"
+  },
+  {
+    "op": "update_value",
+    "path": "root/time[9]/timezone_dst[1]",
+    "from": {
+      "label": "timezone_dst",
+      "kind": "atomic_text",
+      "raw_value": "UTC-04:00",
+      "norm_value": "utc-04:00"
+    },
+    "to": {
+      "label": "timezone_dst",
+      "kind": "atomic_text",
+      "raw_value": "null",
+      "norm_value": "null"
+    },
+    "cost": 1.0,
+    "source_uid": "n000203"
+  }
+]

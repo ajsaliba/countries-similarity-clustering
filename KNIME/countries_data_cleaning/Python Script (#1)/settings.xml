@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  KNIME Python Script (Legacy) node – Node 1
+  ==========================================
+  Factory : org.knime.python2.node.script.PythonScriptNodeFactory
+  Bundle  : org.knime.python2 (KNIME Python Integration)
+
+  This node has NO input table ports (it is a data SOURCE).
+  Output port 1 carries the cleaned countries table.
+
+  The embedded Python script:
+    1. Reads  data/raw/all_countries.json
+    2. Normalises all fields (see helper functions)
+    3. Writes data/clean/all_countries_clean.json  (side-effect)
+    4. Sets output_table_1 = pd.DataFrame(rows)  (KNIME table port)
+-->
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" key="settings.xml">
+
+  <entry key="node-name"                 type="xstring" value="Python Script"/>
+  <entry key="node-bundle-name"          type="xstring" value="KNIME Python Integration"/>
+  <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2"/>
+  <entry key="node-bundle-vendor"        type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+  <entry key="node-bundle-version"       type="xstring" value="4.7.0.202310260939"/>
+  <entry key="node-creation-date"        type="xstring" value="2024-01-01 00:00:00"/>
+
+  <config key="model">
+
+    <!-- ============================================================
+         Python source code (full cleaning script)
+         ============================================================ -->
+    <entry key="sourceCode" type="xstring" value="&quot;&quot;&quot;
+clean_countries.py
+==================
+Full-fidelity cleaning of JSON/all_countries.json.
+
+Rules applied
+-------------
+• Every country produces the same top-level sections:
+    area | codes | economy | general | government | history | population | time | url
+  (&quot;country&quot; is always first; all other keys are sorted A→Z recursively.)
+• ALL original data is preserved — nothing is dropped.
+• Ethnic groups and religion are normalised to a consistent
+  {groups: {name: float}, year: int|null} hierarchy.
+• Government leaders are separated from structural fields and
+  historical-date entries; those dates flow into &quot;history&quot;.
+• All &quot;Independence from …&quot; and other auxiliary infobox sections
+  are merged into &quot;history&quot;.
+• Pure numeric strings (matching ^-?\\d+(\\.\\d+)?$) are coerced
+  to int/float throughout.
+• Calling codes keep their leading &quot;+&quot; and TLDs their leading &quot;.&quot;
+  (they are identifiers, not quantities).
+
+KNIME note
+----------
+Paste this file's content into a Python Script (Legacy) node.
+Replace JSON_INPUT_PATH / JSON_OUTPUT_PATH with absolute paths
+or use flow_variables[&quot;knime.workflow.dir&quot;].
+&quot;&quot;&quot;
+
+import json
+import os
+import re
+import pandas as pd
+
+# ── Paths ──────────────────────────────────────────────────────────────────────
+_BASE = flow_variables.get(&quot;knime.workflow.dir&quot;, &quot;.&quot;)
+JSON_INPUT_PATH  = os.path.join(_BASE, &quot;..&quot;, &quot;..&quot;, &quot;data&quot;, &quot;raw&quot;,     &quot;all_countries.json&quot;)
+JSON_OUTPUT_PATH = os.path.join(_BASE, &quot;..&quot;, &quot;..&quot;, &quot;data&quot;, &quot;clean&quot;,   &quot;all_countries_clean.json&quot;)
+CSV_OUTPUT_PATH  = os.path.join(_BASE, &quot;..&quot;, &quot;..&quot;, &quot;data&quot;, &quot;outputs&quot;, &quot;all_countries_flat.csv&quot;)
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Primitive helpers
+# ══════════════════════════════════════════════════════════════════════════════
+
+_PURE_NUM = re.compile(r&quot;^-?\d+(\.\d+)?$&quot;)
+
+
+def _coerce(v):
+    &quot;&quot;&quot;Recursively coerce pure-numeric strings to int/float; sort dict keys.&quot;&quot;&quot;
+    if isinstance(v, dict):
+        return {k: _coerce(vv) for k, vv in sorted(v.items())}
+    if isinstance(v, list):
+        return [_coerce(i) for i in v]
+    if isinstance(v, str) and _PURE_NUM.match(v.strip()):
+        s = v.strip()
+        return int(s) if &quot;.&quot; not in s else float(s)
+    return v
+
+
+def _sort(d: dict) -&gt; dict:
+    &quot;&quot;&quot;Return d with keys sorted; values recursively coerced.&quot;&quot;&quot;
+    return {k: _coerce(v) for k, vv in sorted(d.items()) for v in (vv,)}
+
+
+def to_snake(s: str) -&gt; str:
+    &quot;&quot;&quot;'Prime Minister' → 'prime_minister', 'Vice-President' → 'vice_president'.&quot;&quot;&quot;
+    s = re.sub(r&quot;[-\s/]+&quot;, &quot;_&quot;, s.strip())
+    s = re.sub(r&quot;[^\w]&quot;, &quot;&quot;, s)
+    return s.lower()
+
+
+def _pct_to_float(s) -&gt; float | None:
+    &quot;&quot;&quot;'42%' or '42.5' → 42.5; None on failure.&quot;&quot;&quot;
+    if s is None:
+        return None
+    if isinstance(s, (int, float)):
+        return float(s)
+    m = re.search(r&quot;-?([\d]+(?:\.[\d]+)?)&quot;, str(s))
+    return float(m.group(1)) if m else None
+
+
+def _year_from_key(key: str) -&gt; int | None:
+    m = re.search(r&quot;\b(\d{4})\b&quot;, key)
+    return int(m.group(1)) if m else None
+
+
+def _looks_like_date(v) -&gt; bool:
+    &quot;&quot;&quot;True if v is a historical date string or list of date strings.&quot;&quot;&quot;
+    if isinstance(v, list):
+        return bool(v) and all(_looks_like_date(i) for i in v)
+    if not isinstance(v, str):
+        return False
+    # Contains a 3-4 digit year, &quot;BC/AD/CE&quot;, century phrase, or decade
+    return bool(re.search(
+        r&quot;\b(\d{3,4}\s*(BC|AD|CE|BCE)\b|(?:1[0-9]{3}|20[0-2][0-9]))&quot;, v
+    ))
+
+
+def _extract_capital(raw: str | None) -&gt; str | None:
+    &quot;&quot;&quot;Strip Wikipedia coordinate notation: 'Kabul 34°31′N …' → 'Kabul'.&quot;&quot;&quot;
+    if not raw or not isinstance(raw, str):
+        return None
+    city = re.split(r&quot;\s+\d+[°º]&quot;, raw)[0].strip()
+    city = re.sub(r&quot;\s+Country:.*&quot;, &quot;&quot;, city).strip()
+    return city or None
+
+
+def _normalize_utc(text: str) -&gt; str | None:
+    if not isinstance(text, str):
+        return None
+    text = text.split(&quot;;&quot;)[0].strip()
+    text = (text.replace(&quot;\u2212&quot;, &quot;-&quot;).replace(&quot;\u2013&quot;, &quot;-&quot;)
+                .replace(&quot;\u2060&quot;, &quot;&quot;).replace(&quot;\u00b1&quot;, &quot;+&quot;))
+    m = re.search(r&quot;UTC\s*([+\-])\s*(\d{1,2})(?::(\d{2}))?&quot;, text, re.IGNORECASE)
+    if m:
+        return f&quot;UTC{m.group(1)}{int(m.group(2)):02d}:{int(m.group(3) or 0):02d}&quot;
+    if re.search(r&quot;\bUTC\b&quot;, text, re.IGNORECASE):
+        return &quot;UTC+00:00&quot;
+    return None
+
+
+def _gdp_to_billions(text: str) -&gt; float | None:
+    if not isinstance(text, str):
+        return None
+    text = re.sub(r&quot;\s*\([^)]*\)&quot;, &quot;&quot;, text).strip()
+    m = re.match(r&quot;[^\d]*([\d,\.]+)\s*(trillion|billion|million)?&quot;, text, re.IGNORECASE)
+    if not m:
+        return None
+    val  = float(m.group(1).replace(&quot;,&quot;, &quot;&quot;))
+    unit = (m.group(2) or &quot;billion&quot;).lower()
+    if unit == &quot;trillion&quot;:
+        val *= 1_000
+    elif unit == &quot;million&quot;:
+        val /= 1_000
+    return round(val, 3)
+
+
+def _per_capita(text: str) -&gt; int | None:
+    if not isinstance(text, str):
+        return None
+    text = re.sub(r&quot;\s*\([^)]*\)&quot;, &quot;&quot;, text)
+    text = re.sub(r&quot;[^\d]&quot;, &quot;&quot;, text)
+    return int(text) if text else None
+
+
+def _world_rank(text: str) -&gt; int | None:
+    if not isinstance(text, str):
+        return None
+    m = re.search(r&quot;\(\s*(\d+)\s*(?:st|nd|rd|th)\s*\)&quot;, text)
+    return int(m.group(1)) if m else None
+
+
+def _first_number(text: str) -&gt; float | None:
+    if not isinstance(text, str):
+        return None
+    m = re.search(r&quot;[\d]+(?:\.\d+)?&quot;, text.replace(&quot;,&quot;, &quot;&quot;))
+    return float(m.group()) if m else None
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Language key normalisation map
+# ══════════════════════════════════════════════════════════════════════════════
+
+_LANG_KEY_MAP = {
+    &quot;Official languages&quot;:                       &quot;official_language&quot;,
+    &quot;Official language&quot;:                        &quot;official_language&quot;,
+    &quot;Official language and national language&quot;:  &quot;official_language&quot;,
+    &quot;Official language (federal level)&quot;:        &quot;official_language&quot;,
+    &quot;Co-official languages&quot;:                    &quot;official_language&quot;,
+    &quot;Common languages&quot;:                         &quot;official_language&quot;,
+    &quot;National language&quot;:                                        &quot;national_language&quot;,
+    &quot;National languages&quot;:                                       &quot;national_language&quot;,
+    &quot;National language (official)&quot;:                             &quot;official_language&quot;,
+    &quot;Recognised national languages&quot;:                            &quot;national_language&quot;,
+    &quot;Recognized national languages&quot;:                            &quot;national_language&quot;,
+    &quot;Official languages and recognised national languages&quot;:     &quot;official_language&quot;,
+    &quot;Recognised language&quot;:                                      &quot;recognized_languages&quot;,
+    &quot;Recognised minority languages&quot;:                            &quot;recognized_minority_languages&quot;,
+    &quot;Officially recognized minority languages&quot;:                 &quot;recognized_minority_languages&quot;,
+    &quot;Recognized regional languages&quot;:            &quot;recognized_regional_languages&quot;,
+    &quot;Recognised regional languages&quot;:            &quot;recognized_regional_languages&quot;,
+    &quot;Official regional languages&quot;:              &quot;official_regional_languages&quot;,
+    &quot;Regional and minority languages&quot;:          &quot;regional_and_minority_languages&quot;,
+    &quot;Regional languages&quot;:                       &quot;regional_languages&quot;,
+    &quot;Foreign languages&quot;:                        &quot;foreign_languages&quot;,
+    &quot;Other languages&quot;:                          &quot;other_languages&quot;,
+    &quot;Other common language&quot;:                    &quot;other_languages&quot;,
+    &quot;Other languages and dialects&quot;:             &quot;other_languages&quot;,
+    &quot;Other spoken languages&quot;:                   &quot;other_spoken_languages&quot;,
+    &quot;Widely used minority languages&quot;:           &quot;other_languages&quot;,
+    &quot;Spoken languages&quot;:                         &quot;spoken_languages&quot;,
+    &quot;Native languages&quot;:                         &quot;native_languages&quot;,
+    &quot;Vernacular language&quot;:                      &quot;vernacular_language&quot;,
+    &quot;Vernacular languages&quot;:                     &quot;vernacular_language&quot;,
+    &quot;Vernaculars&quot;:                              &quot;vernacular_language&quot;,
+    &quot;Local vernacular&quot;:                         &quot;vernacular_language&quot;,
+    &quot;National vernacular&quot;:                      &quot;national_vernacular&quot;,
+    &quot;Minority languages&quot;:                       &quot;minority_languages&quot;,
+    &quot;Lingua franca&quot;:                            &quot;lingua_franca&quot;,
+    &quot;Indigenous languages&quot;:                     &quot;indigenous_languages&quot;,
+    &quot;Official script&quot;:                          &quot;official_script&quot;,
+    &quot;Official scripts&quot;:                         &quot;official_script&quot;,
+    &quot;Writing system&quot;:                           &quot;writing_system&quot;,
+    &quot;Recognized&quot;:                               &quot;recognized_languages&quot;,
+    &quot;Recognised&quot;:                               &quot;recognized_languages&quot;,
+    &quot;Recognized languages&quot;:                     &quot;recognized_languages&quot;,
+    &quot;Recognised languages&quot;:                     &quot;recognized_languages&quot;,
+}
+
+# Keys whose values hold the main language string but appear in odd positions
+_CAPITAL_KEYS = {
+    &quot;Capital and largest city&quot;, &quot;Capital&quot;,
+    &quot;Capital Administrative center&quot;,
+    &quot;Administrative center&quot;, &quot;Administrative Centre&quot;,
+    &quot;Administrative capital&quot;, &quot;Seat of government&quot;,
+}
+
+# Government keys that define structure (not leaders, not dates)
+_GOV_STRUCTURAL = {
+    &quot;Government&quot;:   &quot;type&quot;,
+    &quot;Legislature&quot;:  &quot;legislature&quot;,
+    &quot;Upper house&quot;:  &quot;upper_house&quot;,
+    &quot;Lower house&quot;:  &quot;lower_house&quot;,
+    &quot;Government seat&quot;: &quot;seat&quot;,
+    &quot;Working language&quot;:  &quot;working_language&quot;,
+    &quot;Working languages&quot;: &quot;working_language&quot;,
+    &quot;Government-sponsored languages&quot;: &quot;government_sponsored_languages&quot;,
+}
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Section cleaners
+# ══════════════════════════════════════════════════════════════════════════════
+
+def _normalize_lang_value(v):
+    &quot;&quot;&quot;Normalise a language field value to a plain string or dict.&quot;&quot;&quot;
+    if isinstance(v, str):
+        return v.strip() or None
+    if isinstance(v, list):
+        return &quot; &quot;.join(str(i) for i in v) or None
+    if isinstance(v, dict):
+        # e.g. Switzerland: {&quot;), French (&quot;: &quot;62%&quot;} → extract capitalised words
+        langs = []
+        for k in v:
+            words = re.findall(r&quot;\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\b&quot;, k)
+            langs.extend(words)
+        return &quot; / &quot;.join(langs) if langs else None
+    return None
+
+
+def _normalize_ethnic_groups(raw, year: int | None) -&gt; dict:
+    &quot;&quot;&quot;
+    Produce {groups: {Name: pct_float, …}, year: int|null}.
+    If raw is a non-parseable string (e.g. 'See Ethnic groups') the
+    groups key is null and a note key is added instead.
+    &quot;&quot;&quot;
+    base: dict = {&quot;groups&quot;: None, &quot;year&quot;: year}
+    if isinstance(raw, str):
+        base[&quot;note&quot;] = raw.strip()
+        return base
+    if not isinstance(raw, dict):
+        return base
+    groups = {}
+    for name, val in raw.items():
+        pct = _pct_to_float(val)
+        groups[name] = pct if pct is not None else val
+    base[&quot;groups&quot;] = _sort(groups) if groups else None
+    return base
+
+
+def _normalize_religion(raw, year: int | None) -&gt; dict:
+    &quot;&quot;&quot;
+    Produce {groups: {Name: {percentage: float, breakdown: {…}} | float}, year}.
+    Both flat ('43.9%') and nested ({percentage, breakdown}) source formats
+    are handled; percentage strings become floats throughout.
+    &quot;&quot;&quot;
+    base: dict = {&quot;groups&quot;: None, &quot;year&quot;: year}
+    if not isinstance(raw, dict):
+        return base
+    groups = {}
+    for rel, data in raw.items():
+        if isinstance(data, dict) and &quot;percentage&quot; in data:
+            entry: dict = {&quot;percentage&quot;: _pct_to_float(data[&quot;percentage&quot;])}
+            if &quot;breakdown&quot; in data and isinstance(data[&quot;breakdown&quot;], dict):
+                bd = {}
+                for sub, sub_pct in data[&quot;breakdown&quot;].items():
+                    # sub_pct may itself be nested (Antigua edge case)
+                    if isinstance(sub_pct, dict) and &quot;percentage&quot; in sub_pct:
+                        bd[sub] = _pct_to_float(sub_pct[&quot;percentage&quot;])
+                    else:
+                        bd[sub] = _pct_to_float(sub_pct)
+                entry[&quot;breakdown&quot;] = _sort(bd)
+            groups[rel] = entry
+        else:
+            pct = _pct_to_float(data)
+            groups[rel] = pct if pct is not None else data
+    base[&quot;groups&quot;] = _sort(groups) if groups else None
+    return base
+
+
+def clean_general(raw: dict) -&gt; dict:
+    &quot;&quot;&quot;Normalise the General infobox section.&quot;&quot;&quot;
+    out: dict = {}
+    capital_set = False
+
+    for rk, rv in raw.items():
+        # ── Capital ────────────────────────────────────────────────────────
+        if rk in _CAPITAL_KEYS:
+            if not capital_set:
+                out[&quot;capital&quot;] = _extract_capital(rv)
+                capital_set = True
+            if &quot;largest city&quot; in rk.lower():
+                out.setdefault(&quot;largest_city&quot;, _extract_capital(rv))
+
+        elif rk == &quot;Largest city&quot;:
+            out[&quot;largest_city&quot;] = _extract_capital(rv)
+
+        # ── Demonym ────────────────────────────────────────────────────────
+        elif rk in (&quot;Demonym&quot;, &quot;Demonyms&quot;):
+            val = rv[0] if isinstance(rv, list) else rv
+            out[&quot;demonym&quot;] = val
+
+        # ── Ethnic groups (any year variant) ──────────────────────────────
+        elif rk.startswith(&quot;Ethnic&quot;):
+            out[&quot;ethnic_groups&quot;] = _normalize_ethnic_groups(rv, _year_from_key(rk))
+
+        # ── Religion (most-recent year; prefix match) ─────────────────────
+        elif rk.startswith(&quot;Religion&quot;):
+            yr = _year_from_key(rk)
+            existing = out.get(&quot;religion&quot;)
+            if existing is None or (yr and (existing.get(&quot;year&quot;) or 0) &lt; yr):
+                out[&quot;religion&quot;] = _normalize_religion(rv, yr)
+
+        # ── Language keys ──────────────────────────────────────────────────
+        elif rk in _LANG_KEY_MAP:
+            ck = _LANG_KEY_MAP[rk]
+            # If the canonical key was already populated, keep the first value
+            out.setdefault(ck, _normalize_lang_value(rv))
+
+        # ── Everything else → snake_case ──────────────────────────────────
+        else:
+            ck = to_snake(rk)
+            if ck and ck not in out:
+                out[ck] = rv
+
+    # Ensure largest_city is present (falls back to capital for combined fields)
+    if &quot;largest_city&quot; not in out:
+        out[&quot;largest_city&quot;] = out.get(&quot;capital&quot;)
+
+    # Ensure these keys always exist for consistency
+    for k in (&quot;capital&quot;, &quot;demonym&quot;, &quot;ethnic_groups&quot;, &quot;largest_city&quot;,
+              &quot;official_language&quot;, &quot;religion&quot;):
+        out.setdefault(k, None)
+    if out[&quot;ethnic_groups&quot;] is None:
+        out[&quot;ethnic_groups&quot;] = {&quot;groups&quot;: None, &quot;year&quot;: None}
+    if out[&quot;religion&quot;] is None:
+        out[&quot;religion&quot;] = {&quot;groups&quot;: None, &quot;year&quot;: None}
+    # Fallback: promote national_language to official_language when not set
+    if out[&quot;official_language&quot;] is None and out.get(&quot;national_language&quot;):
+        out[&quot;official_language&quot;] = out[&quot;national_language&quot;]
+
+    return _sort(out)
+
+
+def clean_government(raw: dict) -&gt; tuple[dict, dict]:
+    &quot;&quot;&quot;
+    Returns (government_dict, historical_dates_dict).
+    Historical date entries found in the Government section are extracted
+    and returned separately so they can be merged into &quot;history&quot;.
+    &quot;&quot;&quot;
+    struct: dict  = {}
+    leaders: dict = {}
+    hist: dict    = {}
+
+    for rk, rv in raw.items():
+        # Structural fields
+        if rk in _GOV_STRUCTURAL:
+            struct[_GOV_STRUCTURAL[rk]] = rv
+        # Historical date entries
+        elif _looks_like_date(rv):
+            hist[rk] = rv
+        # Everything else → leader / official title
+        else:
+            leaders[to_snake(rk)] = rv
+
+    out: dict = {}
+    if struct.get(&quot;type&quot;):
+        out[&quot;type&quot;] = struct.pop(&quot;type&quot;)
+    out.update({k: v for k, v in struct.items() if v is not None})
+    if leaders:
+        out[&quot;leaders&quot;] = _sort(leaders)
+
+    # Guarantee presence of common fields
+    for k in (&quot;leaders&quot;, &quot;legislature&quot;, &quot;lower_house&quot;, &quot;type&quot;, &quot;upper_house&quot;):
+        out.setdefault(k, None)
+    if out[&quot;leaders&quot;] is None:
+        out[&quot;leaders&quot;] = {}
+
+    return _sort(out), hist
+
+
+def clean_history(*section_dicts) -&gt; dict:
+    &quot;&quot;&quot;
+    Merge any number of {event: date} dicts into one unified history dict,
+    sorted alphabetically by event name.
+    &quot;&quot;&quot;
+    merged: dict = {}
+    for sec in section_dicts:
+        if isinstance(sec, dict):
+            for k, v in sec.items():
+                merged.setdefault(k, v)     # first occurrence wins
+    return _sort(merged)
+
+
+def clean_area(raw: dict) -&gt; dict:
+    total_raw = (raw.get(&quot;Total&quot;)
+                 or raw.get(&quot;Total area&quot;)
+                 or next((v for v in raw.values()
+                          if isinstance(v, str) and &quot;km&quot; in v), None))
+    water_raw = raw.get(&quot;Water (%)&quot;, &quot;0&quot;)
+    water = 0.0 if (not water_raw or
+                    re.match(r&quot;negligible|none|n/?a&quot;, str(water_raw).strip(), re.IGNORECASE)
+                    ) else (_first_number(str(water_raw)) or 0.0)
+    return _sort({
+        &quot;rank&quot;:      _world_rank(total_raw or &quot;&quot;),
+        &quot;total_km2&quot;: _first_number(total_raw or &quot;&quot;),
+        &quot;water_pct&quot;: water,
+    })
+
+
+def clean_population(raw: dict) -&gt; dict:
+    total = density = None
+    year  = None
+    best  = -1
+
+    for k, v in raw.items():
+        if k in (&quot;Density&quot;, &quot;Date format&quot;) or not isinstance(v, str):
+            continue
+        m = re.search(r&quot;\b(20\d{2})\b&quot;, k)
+        if not m:
+            continue
+        yr = int(m.group(1))
+        if yr &lt; best:
+            continue
+        best = yr
+        year = yr
+        clean = re.sub(r&quot;\s*\([^)]*\)&quot;, &quot;&quot;, v).strip()
+        clean = clean.replace(&quot;,&quot;, &quot;&quot;).replace(&quot;\u2013&quot;, &quot;-&quot;).replace(&quot;\u2212&quot;, &quot;-&quot;)
+        rng = re.match(r&quot;(\d+)\s*-\s*(\d+)\s*(million|billion)?&quot;, clean, re.IGNORECASE)
+        if rng:
+            lo, hi = float(rng.group(1)), float(rng.group(2))
+            mul = 1_000_000 if (rng.group(3) or &quot;&quot;).lower() == &quot;million&quot; else 1
+            total = int((lo + hi) / 2 * mul)
+        else:
+            nm = re.search(r&quot;(\d[\d]*)&quot;, clean)   # search handles leading &quot;=&quot; etc.
+            total = int(nm.group(1)) if nm else None
+
+    density_raw = raw.get(&quot;Density&quot;, &quot;&quot;)
+    if density_raw:
+        density = _first_number(density_raw)
+
+    return _sort({&quot;density_per_km2&quot;: density, &quot;total&quot;: total, &quot;year&quot;: year})
+
+
+def clean_economy(raw: dict) -&gt; dict:
+    # GDP PPP
+    ppp = raw.get(&quot;GDP ( PPP )&quot;, {})
+    ppp_total = ppp_pc = ppp_year = None
+    if isinstance(ppp, dict):
+        ppp_total = _gdp_to_billions(ppp.get(&quot;Total&quot;))
+        ppp_pc    = _per_capita(ppp.get(&quot;Per capita&quot;))
+        ppp_year  = _year_from_key(ppp.get(&quot;Details&quot;, &quot;&quot;))
+
+    # GDP Nominal
+    nom = raw.get(&quot;GDP (nominal)&quot;, {})
+    nom_total = nom_pc = nom_year = None
+    if isinstance(nom, dict):
+        nom_total = _gdp_to_billions(nom.get(&quot;Total&quot;))
+        nom_pc    = _per_capita(nom.get(&quot;Per capita&quot;))
+        nom_year  = _year_from_key(nom.get(&quot;Details&quot;, &quot;&quot;))
+
+    # HDI – prefer most recent
+    hdi_val = hdi_cat = hdi_rank = hdi_year = None
+    for yr in (&quot;2024&quot;, &quot;2023&quot;, &quot;2022&quot;, &quot;2021&quot;):
+        raw_hdi = raw.get(f&quot;HDI ({yr})&quot;)
+        if raw_hdi:
+            m = re.match(r&quot;([\d\.]+)&quot;, raw_hdi)
+            hdi_val  = float(m.group(1)) if m else None
+            cat      = re.search(r&quot;(very high|high|medium|low)&quot;, raw_hdi, re.IGNORECASE)
+            hdi_cat  = cat.group(1).lower() if cat else None
+            hdi_rank = _world_rank(raw_hdi)
+            hdi_year = int(yr)
+            break
+
+    # Gini – most recent year
+    gini_val = gini_cat = gini_year = None
+    best_yr  = -1
+    for k, v in raw.items():
+        if not k.startswith(&quot;Gini&quot;) or not isinstance(v, str):
+            continue
+        m = re.search(r&quot;\b(\d{4})\b&quot;, k)
+        yr = int(m.group(1)) if m else 0
+        if yr &gt;= best_yr:
+            best_yr  = yr
+            nm       = re.match(r&quot;([\d\.]+)&quot;, v)
+            gini_val = float(nm.group(1)) if nm else None
+            cat      = re.search(r&quot;(very high|high|medium|low)&quot;, v, re.IGNORECASE)
+            gini_cat = cat.group(1).lower() if cat else None
+            gini_year = yr if yr &gt; 0 else None
+
+    # Currency code
+    cur_raw = raw.get(&quot;Currency&quot;, &quot;&quot;) or &quot;&quot;
+    hits    = re.findall(r&quot;\(\s*([A-Z]{3})\s*\)&quot;, cur_raw)
+    cur_code = hits[-1] if hits else (cur_raw.strip() or None)
+
+    return _sort({
+        &quot;currency_code&quot;: cur_code,
+        &quot;gdp_nominal&quot;: _sort({
+            &quot;per_capita_usd&quot;:   nom_pc,
+            &quot;total_billion_usd&quot;: nom_total,
+            &quot;year&quot;:             nom_year,
+        }),
+        &quot;gdp_ppp&quot;: _sort({
+            &quot;per_capita_usd&quot;:   ppp_pc,
+            &quot;total_billion_usd&quot;: ppp_total,
+            &quot;year&quot;:             ppp_year,
+        }),
+        &quot;gini&quot;: _sort({&quot;category&quot;: gini_cat, &quot;value&quot;: gini_val, &quot;year&quot;: gini_year}),
+        &quot;hdi&quot;:  _sort({&quot;category&quot;: hdi_cat,  &quot;rank&quot;: hdi_rank,
+                        &quot;value&quot;: hdi_val,     &quot;year&quot;: hdi_year}),
+    })
+
+
+def clean_time(raw: dict) -&gt; dict:
+    return _sort({
+        &quot;timezone_dst&quot;: _normalize_utc(raw.get(&quot;Summer ( DST )&quot;, &quot;&quot;)),
+        &quot;timezone_utc&quot;: _normalize_utc(raw.get(&quot;Time zone&quot;, &quot;&quot;)),
+    })
+
+
+def clean_codes(raw: dict) -&gt; dict:
+    cc_raw  = raw.get(&quot;Calling code&quot;, &quot;&quot;) or &quot;&quot;
+    tld_raw = raw.get(&quot;Internet TLD&quot;, &quot;&quot;) or &quot;&quot;
+    cc_hits  = re.findall(r&quot;\+[\d\s]+&quot;, cc_raw)
+    tld_hits = re.findall(r&quot;\.\S+&quot;, tld_raw)
+    return _sort({
+        &quot;calling_code&quot;:  cc_hits[0].strip() if cc_hits else (cc_raw.strip() or None),
+        &quot;internet_tld&quot;:  tld_hits[0] if tld_hits else None,
+        &quot;iso_3166_code&quot;: raw.get(&quot;ISO 3166 code&quot;),
+    })
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Master country cleaner
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Infobox sections that are purely historical (merged into &quot;history&quot;)
+_HISTORY_SECTIONS = {
+    &quot;History&quot;, &quot;Establishment&quot;, &quot;Independence&quot;,
+    &quot;Independence as principality&quot;,
+    &quot;Historical polities&quot;,
+    &quot;Unification of the petty kingdoms&quot;,
+}
+
+# Regex that matches government/leader title keywords
+_LEADER_KEY_RE = re.compile(
+    r&quot;president|prime.minister|minister|chancellor|king|queen|sultan|emir|sheikh|&quot;
+    r&quot;chief|vice|deputy|director|secretary|monarch|governor|commissioner|chairman|&quot;
+    r&quot;leader|captain|mayor|judge|justice|co.prince|representative|syndic|&quot;
+    r&quot;regent|premier|speaker|junta|general.secretary&quot;,
+    re.IGNORECASE,
+)
+
+
+def _extract_leaders_from_dict(d: dict) -&gt; dict:
+    &quot;&quot;&quot;
+    Pull any leader-like {title: name} pairs from an arbitrary dict
+    (used to rescue government data mis-placed in other infobox sections,
+    e.g. Andorra's Economy.Significant language).
+    Returns only entries whose KEY matches a leader-title pattern and
+    whose VALUE does not look like a date.
+    &quot;&quot;&quot;
+    found = {}
+    for k, v in d.items():
+        if _LEADER_KEY_RE.search(k) and not _looks_like_date(v):
+            found[to_snake(k)] = v
+    return found
+
+
+def clean_country(entry: dict) -&gt; dict:
+    ib  = entry.get(&quot;infobox&quot;, {})
+
+    # ── Standard sections ──────────────────────────────────────────────────
+    gov_dict, gov_hist = clean_government(ib.get(&quot;Government&quot;, {}))
+
+    # ── Rescue leaders buried in non-Government sections ──────────────────
+    # (e.g. Andorra stores Co-princes / Prime minister inside Economy)
+    extra_leaders: dict = {}
+    for sec_name, sec_data in ib.items():
+        if sec_name in (&quot;Government&quot;, &quot;General&quot;, &quot;History&quot;, &quot;Area&quot;,
+                        &quot;Population&quot;, &quot;Time&quot;, &quot;Codes&quot;):
+            continue
+        if isinstance(sec_data, dict):
+            for sub_val in sec_data.values():
+                if isinstance(sub_val, dict):
+                    extra_leaders.update(_extract_leaders_from_dict(sub_val))
+
+    if extra_leaders:
+        merged = {**extra_leaders, **(gov_dict.get(&quot;leaders&quot;) or {})}
+        gov_dict[&quot;leaders&quot;] = _sort(merged)
+
+    # ── Collect all historical date dicts ─────────────────────────────────
+    hist_parts = [gov_hist]
+    for sec_name, sec_data in ib.items():
+        if sec_name in _HISTORY_SECTIONS or sec_name.startswith(&quot;Independence&quot;):
+            if isinstance(sec_data, dict):
+                hist_parts.append(sec_data)
+        elif sec_name not in {
+            &quot;General&quot;, &quot;Government&quot;, &quot;Area&quot;, &quot;Population&quot;,
+            &quot;Economy&quot;, &quot;Time&quot;, &quot;Codes&quot;,
+        }:
+            if isinstance(sec_data, dict):
+                hist_parts.append(sec_data)
+
+    result = {
+        &quot;country&quot;:    entry[&quot;country&quot;],
+        &quot;area&quot;:       clean_area(ib.get(&quot;Area&quot;, {})),
+        &quot;codes&quot;:      clean_codes(ib.get(&quot;Codes&quot;, {})),
+        &quot;economy&quot;:    clean_economy(ib.get(&quot;Economy&quot;, {})),
+        &quot;general&quot;:    clean_general(ib.get(&quot;General&quot;, {})),
+        &quot;government&quot;: gov_dict,
+        &quot;history&quot;:    clean_history(*hist_parts),
+        &quot;population&quot;: clean_population(ib.get(&quot;Population&quot;, {})),
+        &quot;time&quot;:       clean_time(ib.get(&quot;Time&quot;, {})),
+        # url intentionally omitted
+    }
+    return result
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Main
+# ══════════════════════════════════════════════════════════════════════════════
+
+if __name__ == &quot;__main__&quot; or &quot;output_table_1&quot; not in dir():
+    with open(JSON_INPUT_PATH, encoding=&quot;utf-8&quot;) as f:
+        raw_data = json.load(f)
+
+    rows   = []
+    errors = []
+    for entry in raw_data[&quot;countries&quot;]:
+        try:
+            rows.append(clean_country(entry))
+        except Exception as exc:
+            errors.append({&quot;country&quot;: entry.get(&quot;country&quot;, &quot;?&quot;), &quot;error&quot;: str(exc)})
+            rows.append({&quot;country&quot;: entry.get(&quot;country&quot;, &quot;?&quot;), &quot;error&quot;: str(exc)})
+
+    with open(JSON_OUTPUT_PATH, &quot;w&quot;, encoding=&quot;utf-8&quot;) as f:
+        json.dump({&quot;countries&quot;: rows}, f, ensure_ascii=False, indent=2, default=str)
+
+    # Flat CSV (top-level scalar fields only)
+    flat_rows = []
+    for r in rows:
+        flat = {&quot;country&quot;: r[&quot;country&quot;]}
+        for sec in (&quot;area&quot;, &quot;codes&quot;, &quot;population&quot;, &quot;time&quot;):
+            for k, v in (r.get(sec) or {}).items():
+                if not isinstance(v, dict):
+                    flat[f&quot;{sec}_{k}&quot;] = v
+        eco = r.get(&quot;economy&quot;, {})
+        flat[&quot;currency_code&quot;] = eco.get(&quot;currency_code&quot;)
+        for sub in (&quot;gdp_ppp&quot;, &quot;gdp_nominal&quot;, &quot;hdi&quot;, &quot;gini&quot;):
+            for k, v in (eco.get(sub) or {}).items():
+                flat[f&quot;{sub}_{k}&quot;] = v
+        gen = r.get(&quot;general&quot;, {})
+        for k in (&quot;capital&quot;, &quot;demonym&quot;, &quot;largest_city&quot;, &quot;official_language&quot;):
+            flat[f&quot;general_{k}&quot;] = gen.get(k)
+        rel  = (gen.get(&quot;religion&quot;)  or {}).get(&quot;groups&quot;) or {}
+        eth  = (gen.get(&quot;ethnic_groups&quot;) or {}).get(&quot;groups&quot;) or {}
+        flat[&quot;top_religion&quot;] = max(
+            ((n, v) for n, v in rel.items() if isinstance(v, (int, float))),
+            key=lambda x: x[1], default=(None, None)
+        )[0]
+        gov = r.get(&quot;government&quot;, {})
+        flat[&quot;government_type&quot;] = gov.get(&quot;type&quot;)
+        flat[&quot;legislature&quot;]     = gov.get(&quot;legislature&quot;)
+        flat_rows.append(flat)
+
+    pd.DataFrame(flat_rows).to_csv(CSV_OUTPUT_PATH, index=False, encoding=&quot;utf-8&quot;)
+
+    print(f&quot;Done. {len(rows) - len(errors)}/{len(rows)} countries cleaned.&quot;)
+    if errors:
+        for e in errors:
+            print(f&quot;  ERROR: {e['country']}: {e['error']}&quot;)
+    print(f&quot;  JSON -&gt; {JSON_OUTPUT_PATH}&quot;)
+    print(f&quot;  CSV  -&gt; {CSV_OUTPUT_PATH}&quot;)
+
+# KNIME output
+output_table_1 = pd.DataFrame(flat_rows) if &quot;flat_rows&quot; in dir() else pd.DataFrame()"/>
+
+    <!-- Python 3 environment -->
+    <entry key="pythonVersionOption"      type="xstring"  value="python3"/>
+
+    <!-- Missing-value sentinel (used for integer columns) -->
+    <entry key="sentinelOption"           type="xstring"  value="MIN_VAL"/>
+    <entry key="sentinelValue"            type="xint"     value="0"/>
+    <entry key="missingWarningMessage"    type="xstring"  value=""/>
+
+    <!-- Chunking (irrelevant for a source node, kept for compatibility) -->
+    <entry key="chunkSize"                type="xint"     value="1000"/>
+
+    <!-- Missing value conversion -->
+    <entry key="convertMissingToPython"   type="xboolean" value="true"/>
+    <entry key="convertMissingFromPython" type="xboolean" value="true"/>
+
+    <!-- Input tables: none (this is a source node) -->
+    <config key="inputTableKeys">
+      <entry key="array-size" type="xint" value="0"/>
+    </config>
+
+    <!-- Output tables: one table named output_table_1 -->
+    <config key="outputTableKeys">
+      <entry key="array-size" type="xint" value="1"/>
+      <entry key="0"          type="xstring" value="output_table_1"/>
+    </config>
+
+    <!-- No pickled input/output objects -->
+    <config key="inputObjectKeys">
+      <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="outputObjectKeys">
+      <entry key="array-size" type="xint" value="0"/>
+    </config>
+
+  </config><!-- /model -->
+
+</config>

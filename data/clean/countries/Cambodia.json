@@ -1,0 +1,97 @@
+{
+  "country": "Cambodia",
+  "area": {
+    "rank": 88,
+    "total_km2": 181035.0,
+    "water_pct": 2.5
+  },
+  "codes": {
+    "calling_code": "+855",
+    "internet_tld": ".kh",
+    "iso_3166_code": "KH"
+  },
+  "economy": {
+    "currency_code": "Riel (៛) ( KHR ; de jure and de facto ) United States dollar ($) ( USD ; de facto )",
+    "gdp_nominal": {
+      "per_capita_usd": 2870,
+      "total_billion_usd": 49.8,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 8650,
+      "total_billion_usd": 150.05,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 23.6,
+      "year": 2024
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 151,
+      "value": 0.606,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Phnom Penh",
+    "demonym": "Cambodian",
+    "ethnic_groups": {
+      "groups": {
+        "Cham": 2.4,
+        "Chinese": 1.5,
+        "Khmer": 95.4,
+        "others": 0.8
+      },
+      "year": 2019
+    },
+    "largest_city": "Phnom Penh",
+    "monarch": "Norodom Sihamoni",
+    "official_language": "Khmer",
+    "official_script": "Khmer",
+    "religion": {
+      "groups": {
+        "Buddhism ( official )": 96.5,
+        "Christianity": 0.3,
+        "Islam": 2.6,
+        "others": 0.5
+      },
+      "year": 2024
+    }
+  },
+  "government": {
+    "leaders": {
+      "president_of_the_national_assembly": "Khuon Sodary",
+      "president_of_the_senate": "Hun Sen",
+      "prime_minister": "Hun Manet"
+    },
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "type": "Unitary parliamentary constitutional elective monarchy under a hereditary dictatorship",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Chenla": "550–802",
+    "Democratic Kampuchea": "5 January 1976",
+    "French protectorate": "11 August 1863",
+    "Funan": "68–550",
+    "Independence from France": "9 November 1953",
+    "Khmer Empire": "802–1431",
+    "Khmer Republic": "9 October 1970",
+    "Middle period": "1431–1863",
+    "Monarchy restored": "24 September 1993",
+    "People's Republic of Kampuchea": "8 January 1979",
+    "State of Cambodia": "30 April 1989",
+    "United Nations Administered Cambodia": "28 February 1992"
+  },
+  "population": {
+    "density_per_km2": 94.4,
+    "total": 17638801,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+07:00"
+  }
+}

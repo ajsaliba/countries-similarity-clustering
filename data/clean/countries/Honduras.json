@@ -1,0 +1,82 @@
+{
+  "country": "Honduras",
+  "area": {
+    "rank": 101,
+    "total_km2": 112492.0,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+504",
+    "internet_tld": ".hn",
+    "iso_3166_code": "HN"
+  },
+  "economy": {
+    "currency_code": "HNL",
+    "gdp_nominal": {
+      "per_capita_usd": 3640,
+      "total_billion_usd": 39.45,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 7960,
+      "total_billion_usd": 86.29,
+      "year": 2025
+    },
+    "gini": {
+      "category": "high",
+      "value": 52.1,
+      "year": 2018
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 139,
+      "value": 0.645,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Tegucigalpa",
+    "demonym": "Honduran Catracho",
+    "ethnic_groups": {
+      "groups": {
+        "Black": 1.39,
+        "Indigenous": 7.25,
+        "Mestizo": 82.93,
+        "White": 7.87,
+        "other": 0.55
+      },
+      "year": 2013
+    },
+    "largest_city": "Tegucigalpa",
+    "official_language": "Spanish",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Nasry Asfura",
+      "president_of_national_congress": "Tomás Zambrano",
+      "vice_presidents": "María Antonieta Mejía Carlos Flores Guifarro Diana Herrera"
+    },
+    "legislature": "National Congress",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Declared from Spain": "15 September 1821",
+    "Declared from the First Mexican Empire": "1 July 1823",
+    "Declared, as Honduras, from the Federal Republic of Central America": "5 November 1838"
+  },
+  "population": {
+    "density_per_km2": 85.0,
+    "total": 9571352,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-06:00"
+  }
+}

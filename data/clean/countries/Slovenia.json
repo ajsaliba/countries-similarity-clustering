@@ -1,0 +1,91 @@
+{
+  "country": "Slovenia",
+  "area": {
+    "rank": 150,
+    "total_km2": 20272.0,
+    "water_pct": 0.7
+  },
+  "codes": {
+    "calling_code": "+386",
+    "internet_tld": ".si",
+    "iso_3166_code": "SI"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 37178,
+      "total_billion_usd": 79222.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 57716,
+      "total_billion_usd": 122985.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 23.4,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 21,
+      "value": 0.931,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Ljubljana",
+    "demonym": "Slovene Slovenian",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Ljubljana",
+    "official_language": "Slovene",
+    "recognized_regional_languages": "Italian Hungarian",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 73.4,
+            "Orthodoxy": 3.7,
+            "other Christian": 0.7
+          },
+          "percentage": 77.9
+        },
+        "no religion": 18.3,
+        "other": 3.9
+      },
+      "year": 2018
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Nataša Pirc Musar",
+      "prime_minister": "Robert Golob"
+    },
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "type": "Unitary parliamentary republic",
+    "upper_house": "National Council"
+  },
+  "history": {
+    "Brioni Agreement signed": "7 July 1991",
+    "Current constitution": "24 December 1991",
+    "Independence from Yugoslavia": "25 June 1991",
+    "Kingdom of Serbs, Croats and Slovenes": "1 December 1918",
+    "Slovene National Liberation Committee": "19 February 1944",
+    "Socialist Federal Republic of Yugoslavia": "29 July 1944",
+    "State of Slovenes, Croats and Serbs": "29 October 1918"
+  },
+  "population": {
+    "density_per_km2": 103.0,
+    "total": 2130850,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

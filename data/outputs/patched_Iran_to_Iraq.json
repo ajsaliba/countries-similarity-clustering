@@ -1,0 +1,81 @@
+{
+  "country": "iraq",
+  "area": {
+    "rank": "58",
+    "total_km2": "438317 0",
+    "water_pct": "4 93"
+  },
+  "codes": {
+    "calling_code": "+964",
+    "internet_tld": ".iq",
+    "iso_3166_code": "IQ"
+  },
+  "economy": {
+    "currency_code": "IQD",
+    "gdp_nominal": {
+      "per_capita_usd": "5670",
+      "total_billion_usd": "258 02",
+      "year": "2025"
+    },
+    "gdp_ppp": {
+      "per_capita_usd": "15180",
+      "total_billion_usd": "690 09",
+      "year": "2025"
+    },
+    "gini": {
+      "category": "low",
+      "value": "29 5",
+      "year": "2012"
+    },
+    "hdi": {
+      "category": "high",
+      "rank": "122",
+      "value": "0 712",
+      "year": "2024"
+    }
+  },
+  "general": {
+    "capital": "baghdad",
+    "Demonyms": "iraqi",
+    "ethnic_groups": {
+      "groups": "",
+      "year": "1987"
+    },
+    "largest_city": "baghdad",
+    "official_language": "arabic kurdish",
+    "recognized_regional_languages": "assyrian armenian turkmen",
+    "religion": {
+      "groups": "",
+      "year": ""
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "abdul latif rashid",
+      "prime_minister": "mohammed shia al sudani",
+      "speaker": "haibat al halbousi"
+    },
+    "legislature": "council of representatives",
+    "lower_house": "council of representatives",
+    "type": "federal parliamentary republic",
+    "upper_house": "federation council"
+  },
+  "history": {
+    "Abbasid Caliphate": "750 ad",
+    "Akkadian Empire": "c 2334 bc",
+    "Babylonia": "c 1890 bc",
+    "Current constitution": "15 october 2005",
+    "Independence declared": "3 october 1932",
+    "Republic declared": "14 july 1958",
+    "Sumer": "c 3300 bc"
+  },
+  "population": {
+    "density_per_km2": "82.7",
+    "total": "46118793",
+    "year": "2024"
+  },
+  "time": {
+    "timezone_dst": "null",
+    "timezone_utc": "UTC+03:00"
+  }
+}

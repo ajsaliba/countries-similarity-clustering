@@ -1,0 +1,88 @@
+{
+  "country": "Brunei",
+  "area": {
+    "rank": 164,
+    "total_km2": 5765.0,
+    "water_pct": 8.6
+  },
+  "codes": {
+    "calling_code": "+673",
+    "internet_tld": ".bn",
+    "iso_3166_code": "BN"
+  },
+  "economy": {
+    "currency_code": "BND",
+    "gdp_nominal": {
+      "per_capita_usd": 34970,
+      "total_billion_usd": 16.01,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 95760,
+      "total_billion_usd": 43.83,
+      "year": 2025
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 60,
+      "value": 0.837,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Bandar Seri Begawan",
+    "crown_prince_and_senior_minister": "Al-Muhtadee Billah",
+    "demonym": "Bruneian",
+    "ethnic_groups": {
+      "groups": {
+        "Chinese": 9.6,
+        "Malay": 73.7,
+        "others": 16.6
+      },
+      "year": 2023
+    },
+    "largest_city": "Bandar Seri Begawan",
+    "official_language": "Malay",
+    "official_script": "Malay alphabet (Rumi) Jawi alphabet",
+    "other_languages": "Brunei Malay English Tutong Kedayan Belait Chinese ( Hokkien , Hakka Chinese , Standard Chinese and Cantonese ) Murut Dusun Brunei Bisaya",
+    "religion": {
+      "groups": {
+        "Buddhism": 7.8,
+        "Christianity": 10.7,
+        "Sunni Islam ( official )": 80.7,
+        "other (includes Indigenous beliefs )": 0.8
+      },
+      "year": 2023
+    }
+  },
+  "government": {
+    "leaders": {
+      "sultan_and_prime_minister": "Hassanal Bolkiah"
+    },
+    "legislature": "Legislative Council",
+    "lower_house": null,
+    "type": "Unitary Islamic absolute monarchy",
+    "upper_house": null
+  },
+  "history": {
+    "British protected state": "17 September 1888",
+    "Brunei Revolt": "8 December 1962",
+    "Constitution adopted and self-governance": "29 September 1959",
+    "Independence from United Kingdom": "1 January 1984",
+    "Sultanate established": "c. 1363 or 1368"
+  },
+  "population": {
+    "density_per_km2": 72.11,
+    "total": 466227,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+08:00"
+  }
+}

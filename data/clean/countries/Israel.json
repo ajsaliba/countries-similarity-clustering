@@ -1,0 +1,90 @@
+{
+  "country": "Israel",
+  "area": {
+    "rank": 148,
+    "total_km2": 22072.0,
+    "water_pct": 2.71
+  },
+  "codes": {
+    "calling_code": "+972",
+    "internet_tld": ".il",
+    "iso_3166_code": "IL"
+  },
+  "economy": {
+    "currency_code": "ILS",
+    "gdp_nominal": {
+      "per_capita_usd": 60010,
+      "total_billion_usd": 610.75,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 55770,
+      "total_billion_usd": 567.55,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 37.9,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 27,
+      "value": 0.919,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Jerusalem ( limited recognition )",
+    "demonym": "Israeli",
+    "ethnic_groups": {
+      "groups": {
+        "Arabs": 21.0,
+        "Jews": 71.9,
+        "others": 7.1
+      },
+      "year": 2025
+    },
+    "largest_city": "Jerusalem ( limited recognition )",
+    "official_language": "Hebrew",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Druze faith": 1.6
+          },
+          "percentage": 1.9
+        },
+        "Islam": 18.3,
+        "Judaism": 73.7,
+        "others": 4.5
+      },
+      "year": 2023
+    },
+    "special_status": "Arabic"
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Yitzhak Amit",
+      "knesset_speaker": "Amir Ohana",
+      "president": "Isaac Herzog",
+      "prime_minister": "Benjamin Netanyahu"
+    },
+    "legislature": "Knesset",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Declaration of independence": "14 May 1948"
+  },
+  "population": {
+    "density_per_km2": 462.0,
+    "total": 10147200,
+    "year": 2026
+  },
+  "time": {
+    "timezone_dst": "UTC+03:00",
+    "timezone_utc": "UTC+02:00"
+  }
+}

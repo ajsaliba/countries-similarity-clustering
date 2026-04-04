@@ -1,0 +1,90 @@
+{
+  "country": "Iraq",
+  "area": {
+    "rank": 58,
+    "total_km2": 438317.0,
+    "water_pct": 4.93
+  },
+  "codes": {
+    "calling_code": "+964",
+    "internet_tld": ".iq",
+    "iso_3166_code": "IQ"
+  },
+  "economy": {
+    "currency_code": "IQD",
+    "gdp_nominal": {
+      "per_capita_usd": 5670,
+      "total_billion_usd": 258.02,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 15180,
+      "total_billion_usd": 690.09,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 29.5,
+      "year": 2012
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 122,
+      "value": 0.712,
+      "year": 2024
+    }
+  },
+  "general": {
+    "capital": "Baghdad",
+    "demonym": "Iraqi",
+    "ethnic_groups": {
+      "groups": {
+        "Arabs 15–": 80.0,
+        "Assyrians , Turkmen , Jews , Persians , Yazidis , Mandaeans , and others": 10.0,
+        "Kurds 5–": 20.0
+      },
+      "year": 1987
+    },
+    "largest_city": "Baghdad",
+    "official_language": "Arabic Kurdish",
+    "recognized_regional_languages": "Assyrian Armenian Turkmen",
+    "religion": {
+      "groups": {
+        "Christianity , Mandaeism , Yazidism , Judaism , Yarsanism , irreligion and others": 10.0,
+        "Islam ( official )": 95.0,
+        "Shia": 61.0,
+        "Sunni 5–": 35.0
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Abdul Latif Rashid",
+      "prime_minister": "Mohammed Shia' al-Sudani",
+      "speaker": "Haibat al-Halbousi"
+    },
+    "legislature": "Council of Representatives",
+    "lower_house": "Council of Representatives",
+    "type": "Federal parliamentary republic",
+    "upper_house": "Federation Council"
+  },
+  "history": {
+    "Abbasid Caliphate": "750 AD",
+    "Akkadian Empire": "c. 2334 BC",
+    "Babylonia": "c. 1890 BC",
+    "Current constitution": "15 October 2005",
+    "Independence declared": "3 October 1932",
+    "Republic declared": "14 July 1958",
+    "Sumer": "c. 3300 BC"
+  },
+  "population": {
+    "density_per_km2": 82.7,
+    "total": 46118793,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

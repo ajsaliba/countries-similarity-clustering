@@ -1,0 +1,93 @@
+{
+  "country": "Congo, Republic of the",
+  "area": {
+    "rank": 64,
+    "total_km2": 342000.0,
+    "water_pct": 3.3
+  },
+  "codes": {
+    "calling_code": "+242",
+    "internet_tld": ".cg",
+    "iso_3166_code": "CG"
+  },
+  "economy": {
+    "currency_code": "XAF",
+    "gdp_nominal": {
+      "per_capita_usd": 2360,
+      "total_billion_usd": 15.281,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 6590,
+      "total_billion_usd": 42.76,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 40.2,
+      "year": 2011
+    },
+    "hdi": {
+      "category": "medium",
+      "rank": 138,
+      "value": 0.649,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Brazzaville",
+    "demonym": "Congolese Congo",
+    "ethnic_groups": {
+      "groups": {
+        "Bakongo": 41.0,
+        "Bateke": 16.9,
+        "Mbenga Pygmies and others": 2.0,
+        "Mbochi": 13.1,
+        "Sangha": 5.6
+      },
+      "year": null
+    },
+    "largest_city": "Brazzaville",
+    "national_language": "Kituba Lingala",
+    "official_language": "French",
+    "religion": {
+      "groups": {
+        "Christianity": 87.1,
+        "Islam": {
+          "breakdown": {
+            "others": 1.0
+          },
+          "percentage": 1.2
+        },
+        "no religion": 8.0,
+        "traditional faiths": 2.7
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Denis Sassou Nguesso",
+      "president_of_senate": "Pierre Ngolo",
+      "president_of_the_national_assembly": "Isidore Mvouba",
+      "prime_minister": "Anatole Collinet Makosso"
+    },
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "type": "Unitary semi-presidential republic under a dictatorship",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Republic established": "28 November 1958",
+    "from France": "15 August 1960"
+  },
+  "population": {
+    "density_per_km2": 19.0,
+    "total": 6142180,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+01:00"
+  }
+}

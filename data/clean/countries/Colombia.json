@@ -1,0 +1,89 @@
+{
+  "country": "Colombia",
+  "area": {
+    "rank": 25,
+    "total_km2": 1141748.0,
+    "water_pct": 2.1
+  },
+  "codes": {
+    "calling_code": "+57",
+    "internet_tld": ".co",
+    "iso_3166_code": "CO"
+  },
+  "economy": {
+    "currency_code": "COP",
+    "gdp_nominal": {
+      "per_capita_usd": 7327,
+      "total_billion_usd": 386.076,
+      "year": 2024
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 19770,
+      "total_billion_usd": 1042.0,
+      "year": 2024
+    },
+    "gini": {
+      "category": "high",
+      "value": 53.9,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 83,
+      "value": 0.788,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Bogotá",
+    "demonym": "Colombian",
+    "ethnic_groups": {
+      "groups": {
+        "Black": 9.34,
+        "Indigenous": 4.31,
+        "Mestizo - White": 84.99,
+        "Romanis": 0.01,
+        "not specified": 1.35
+      },
+      "year": 2018
+    },
+    "largest_city": "Bogotá",
+    "official_language": "Spanish",
+    "recognized_regional_languages": "Creole English (in San Andrés and Providencia ) 64 other languages",
+    "religion": {
+      "groups": {
+        "Catholicism": 70.0,
+        "no religion": 11.0,
+        "other": 1.9,
+        "other Christian": 17.0
+      },
+      "year": 2022
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Gustavo Petro",
+      "vice_president": "Francia Márquez"
+    },
+    "legislature": "Congress",
+    "lower_house": "Chamber of Representatives",
+    "type": "Unitary presidential republic",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Achieved": "7 August 1819",
+    "Autonomy": "20 July 1810",
+    "Current Constitution": "4 July 1991",
+    "Declared": "16 July 1813",
+    "Gran Colombia": "17 December 1819"
+  },
+  "population": {
+    "density_per_km2": 46.15,
+    "total": 52695952,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-05:00"
+  }
+}

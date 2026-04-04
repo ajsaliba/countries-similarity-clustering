@@ -1,0 +1,91 @@
+{
+  "country": "Benin",
+  "area": {
+    "rank": 100,
+    "total_km2": 114763.0,
+    "water_pct": 0.4
+  },
+  "codes": {
+    "calling_code": "+229",
+    "internet_tld": ".bj",
+    "iso_3166_code": "BJ"
+  },
+  "economy": {
+    "currency_code": "XOF",
+    "gdp_nominal": {
+      "per_capita_usd": 1790,
+      "total_billion_usd": 27.45,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 4980,
+      "total_billion_usd": 76.51,
+      "year": 2026
+    },
+    "gini": {
+      "category": "medium",
+      "value": 34.4,
+      "year": 2021
+    },
+    "hdi": {
+      "category": "low",
+      "rank": 173,
+      "value": 0.515,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Porto-Novo",
+    "demonym": "Beninese Beninoise",
+    "ethnic_groups": {
+      "groups": {
+        "Adja and Mina": 15.1,
+        "Bariba": 9.6,
+        "Dendi": 2.9,
+        "Fon": 38.4,
+        "Fula": 8.6,
+        "Ottamari": 6.1,
+        "Yoa-Lokpa": 4.3,
+        "Yoruba": 12.0,
+        "other": 2.8
+      },
+      "year": 2013
+    },
+    "largest_city": "Cotonou",
+    "national_language": "List: Arabic English Aguna Aja Alada Fon Gbe Gen Gun Pherá Phla Tofin Tɔli Waci Berba Kabye Lama Lukpa Mbelime Mossi Nateni Ngangam Tammari Tem Waama Yom Kwa Chakosi Foodo Ede Ifè Mokole Yoruba Yoruboid Bariba Dendi Fula Hausa",
+    "official_language": "French",
+    "religion": {
+      "groups": {
+        "Christianity": 52.2,
+        "Islam": 24.6,
+        "no religion": 5.2,
+        "other": 0.1,
+        "traditional faiths": 17.9
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Patrice Talon",
+      "vice_president": "Mariam Chabi Talata"
+    },
+    "legislature": "National Assembly",
+    "lower_house": null,
+    "type": "Unitary presidential republic",
+    "upper_house": null
+  },
+  "history": {
+    "Independence": "1 August 1960",
+    "Republic of Dahomey established within the French Community": "11 December 1958"
+  },
+  "population": {
+    "density_per_km2": 94.8,
+    "total": 13754688,
+    "year": 2022
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+01:00"
+  }
+}

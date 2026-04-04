@@ -1,0 +1,108 @@
+{
+  "country": "Montenegro",
+  "area": {
+    "rank": 156,
+    "total_km2": 13883.0,
+    "water_pct": 3.1
+  },
+  "codes": {
+    "calling_code": "+382",
+    "internet_tld": ".me",
+    "iso_3166_code": "ME"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_nominal": {
+      "per_capita_usd": 14990,
+      "total_billion_usd": 9.35,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 34410,
+      "total_billion_usd": 21.48,
+      "year": 2025
+    },
+    "gini": {
+      "category": "low",
+      "value": 29.4,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 48,
+      "value": 0.862,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Podgorica",
+    "demonym": "Montenegrin",
+    "ethnic_groups": {
+      "groups": {
+        "Albanians": 5.0,
+        "Bosniaks or Muslims": 11.1,
+        "Montenegrins": 41.1,
+        "Russians": 2.1,
+        "Serbs": 32.9,
+        "others or undeclared": 5.8
+      },
+      "year": 2023
+    },
+    "languages_in_official_use": "Albanian Bosnian Croatian Serbian",
+    "largest_city": "Podgorica",
+    "official_language": "Montenegrin",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 3.2,
+            "Eastern Orthodoxy": 71.1,
+            "other Christian": 0.6
+          },
+          "percentage": 74.9
+        },
+        "Islam": 19.9,
+        "no religion": {
+          "breakdown": {
+            "not stated": 2.2,
+            "other": 0.3
+          },
+          "percentage": 2.7
+        }
+      },
+      "year": 2023
+    }
+  },
+  "government": {
+    "leaders": {
+      "president": "Jakov Milatović",
+      "president_of_the_parliament": "Andrija Mandić",
+      "prime_minister": "Milojko Spajić"
+    },
+    "legislature": "Parliament",
+    "lower_house": null,
+    "type": "Unitary parliamentary republic",
+    "upper_house": null
+  },
+  "history": {
+    "Duklja": "10th century",
+    "Independence declared": "3 June 2006",
+    "Kingdom of Montenegro": "28 August 1910",
+    "Kingdom of Yugoslavia": "26 November 1918",
+    "Prince-Bishopric of Montenegro": 1516,
+    "Principality of Montenegro": "13 March 1852",
+    "SFR Yugoslavia": "29 November 1945",
+    "Serbia and Montenegro": "27 April 1992",
+    "Treaty of Berlin": "13 July 1878",
+    "Zeta": 1356
+  },
+  "population": {
+    "density_per_km2": 43.6,
+    "total": 623327,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "country": "Bahrain",
+  "area": {
+    "rank": 173,
+    "total_km2": 786.8,
+    "water_pct": 0.0
+  },
+  "codes": {
+    "calling_code": "+973",
+    "internet_tld": ".bh",
+    "iso_3166_code": "BH"
+  },
+  "economy": {
+    "currency_code": "BHD",
+    "gdp_nominal": {
+      "per_capita_usd": 29780,
+      "total_billion_usd": 49.19,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 71460,
+      "total_billion_usd": 118.06,
+      "year": 2026
+    },
+    "gini": {
+      "category": null,
+      "value": null,
+      "year": null
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 38,
+      "value": 0.899,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Manama",
+    "demonym": "Bahraini",
+    "ethnic_groups": {
+      "groups": {
+        "Africans": 1.4,
+        "Arabs": 53.2,
+        "North Americans": 1.1,
+        "South Asians": 43.4,
+        "others": 0.1
+      },
+      "year": 2020
+    },
+    "largest_city": "Manama",
+    "official_language": "Arabic",
+    "religion": {
+      "groups": {
+        "Islam ( official )": 74.0,
+        "non-Muslim": 26.0
+      },
+      "year": 2020
+    }
+  },
+  "government": {
+    "leaders": {
+      "crown_prince_and_prime_minister": "Salman bin Hamad Al Khalifa",
+      "king": "Hamad bin Isa Al Khalifa"
+    },
+    "legislature": "National Assembly",
+    "lower_house": "Council of Representatives",
+    "type": "Unitary semi-constitutional monarchy under an authoritarian government",
+    "upper_house": "Consultative Council"
+  },
+  "history": {
+    "Al Khalifa dynasty": 1783,
+    "Declared independence": "14 August 1971",
+    "Independence from United Kingdom": "15 August 1971",
+    "Kingdom of Bahrain": "14 February 2002"
+  },
+  "population": {
+    "density_per_km2": 1864.0,
+    "total": 1463265,
+    "year": 2021
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:00"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "country": "Iran",
+  "area": {
+    "rank": 17,
+    "total_km2": 1648195.0,
+    "water_pct": 1.63
+  },
+  "codes": {
+    "calling_code": "+98",
+    "internet_tld": ".ir",
+    "iso_3166_code": "IR"
+  },
+  "economy": {
+    "currency_code": "IRR",
+    "gdp_nominal": {
+      "per_capita_usd": 4074,
+      "total_billion_usd": 356.513,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 21473,
+      "total_billion_usd": 1879.0,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 35.9,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 75,
+      "value": 0.799,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Tehran",
+    "demonym": "Iranian",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "largest_city": "Tehran",
+    "official_language": "Persian",
+    "religion": {
+      "groups": null,
+      "year": null
+    }
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Gholam-Hossein Mohseni-Eje'i",
+      "president": "Masoud Pezeshkian",
+      "speaker_of_the_assembly": "Mohammad Bagher Ghalibaf",
+      "supreme_leader": "Mojtaba Khamenei",
+      "vice_president": "Mohammad Reza Aref"
+    },
+    "legislature": "Islamic Consultative Assembly",
+    "lower_house": null,
+    "type": "Unitary presidential theocratic Islamic republic under an authoritarian dictatorship",
+    "upper_house": null
+  },
+  "history": {
+    "Achaemenid Empire": "550 BC",
+    "Afsharid Iran": "22 January 1736",
+    "Constitutional Revolution": "12 December 1905",
+    "Constitutional amendment": "28 July 1989",
+    "Current constitution": "3 December 1979",
+    "Iranian Intermezzo": 821,
+    "Iranian Revolution": "11 February 1979",
+    "Islamic Republic established": "1 April 1979",
+    "Median kingdom": "c. 678 BC",
+    "Pahlavi Iran": "15 December 1925",
+    "Parthian Empire": "247 BC",
+    "Qajar Iran": "20 March 1794",
+    "Safavid Iran": "22 December 1501",
+    "Sasanian Empire": "224 AD",
+    "Zand Iran": 1751
+  },
+  "population": {
+    "density_per_km2": 52.0,
+    "total": 92417681,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+03:30"
+  }
+}

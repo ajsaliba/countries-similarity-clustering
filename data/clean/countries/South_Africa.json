@@ -1,0 +1,105 @@
+{
+  "country": "South Africa",
+  "area": {
+    "rank": 24,
+    "total_km2": 1221037.0,
+    "water_pct": 0.38
+  },
+  "codes": {
+    "calling_code": "+27",
+    "internet_tld": ".za",
+    "iso_3166_code": "ZA"
+  },
+  "economy": {
+    "currency_code": "ZAR",
+    "gdp_nominal": {
+      "per_capita_usd": 6830,
+      "total_billion_usd": 443.64,
+      "year": 2026
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 16280,
+      "total_billion_usd": 1060.0,
+      "year": 2026
+    },
+    "gini": {
+      "category": "very high",
+      "value": 63.0,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 106,
+      "value": 0.741,
+      "year": 2023
+    }
+  },
+  "general": {
+    "afrikaans_": [
+      "Republiek van Suid-Afrika",
+      "Republiek van Suid-Afrika"
+    ],
+    "capital": "Pretoria (executive) Cape Town (legislative) Bloemfontein (judicial)",
+    "chairperson_of_the_national_council_of_provinces": "Refilwe Mtsweni-Tsipane",
+    "demonym": "South African",
+    "ethnic_groups": {
+      "groups": {
+        "Black": 81.4,
+        "Coloured": 8.2,
+        "Indian or Asian": 2.7,
+        "White": 7.3,
+        "other": 0.4
+      },
+      "year": 2022
+    },
+    "largest_city": "Johannesburg",
+    "official_language": "12 languages Afrikaans English Ndebele Sepedi Sesotho Setswana South African Sign Language Swazi Tshivenda Xhosa Xitsonga Zulu Languages with special status Khoe languages Nama Khoisan languages German Greek Gujarati Hindi Portuguese Telugu Tamil Urdu Arabic Hebrew Sanskrit",
+    "pedi_": "Repabliki ya Afrika-Borwa",
+    "religion": {
+      "groups": {
+        "Christianity": 85.3,
+        "Hinduism": 1.1,
+        "Islam": 1.6,
+        "No religion": 3.1,
+        "Traditional faiths": 7.8,
+        "other": 1.1
+      },
+      "year": 2022
+    },
+    "southern_ndebele_": "iRiphabliki yeSewula Afrika",
+    "southern_sotho_": "Rephaboliki ya Afrika Borwa",
+    "swati_": "iRiphabhulikhi yaseNingizimu-Afrika",
+    "tsonga_": "Riphabliki ya Afrika Dzonga",
+    "tswana_": "Rephaboliki ya Aforika Borwa",
+    "venda_": "Riphabuḽiki ya Afurika Tshipembe",
+    "xhosa_": "iRiphabhlikhi yoMzantsi Afrika",
+    "zulu_": "iRiphabhuliki yaseNingizimu Afrika"
+  },
+  "government": {
+    "leaders": {
+      "chief_justice": "Mandisa Maya",
+      "deputy_president": "Paul Mashatile",
+      "president": "Cyril Ramaphosa",
+      "speaker_of_the_national_assembly": "Thoko Didiza"
+    },
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "type": "Unitary parliamentary republic with an executive presidency",
+    "upper_house": "National Council of Provinces"
+  },
+  "history": {
+    "Current constitution": "4 February 1997",
+    "Republic": "31 May 1961",
+    "Statute of Westminster": "11 December 1931",
+    "Union": "31 May 1910"
+  },
+  "population": {
+    "density_per_km2": 50.8,
+    "total": 63015904,
+    "year": 2024
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC+02:00"
+  }
+}

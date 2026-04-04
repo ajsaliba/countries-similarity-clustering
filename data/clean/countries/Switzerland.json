@@ -1,0 +1,103 @@
+{
+  "country": "Switzerland",
+  "area": {
+    "rank": 132,
+    "total_km2": 41291.0,
+    "water_pct": 4.0
+  },
+  "codes": {
+    "calling_code": "+41",
+    "internet_tld": ".ch",
+    "iso_3166_code": "CH"
+  },
+  "economy": {
+    "currency_code": "CHF",
+    "gdp_nominal": {
+      "per_capita_usd": 111047,
+      "total_billion_usd": 1003.0,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 97660,
+      "total_billion_usd": 881.083,
+      "year": 2025
+    },
+    "gini": {
+      "category": "medium",
+      "value": 31.5,
+      "year": 2023
+    },
+    "hdi": {
+      "category": "very high",
+      "rank": 2,
+      "value": 0.97,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Bern ( de facto )",
+    "demonym": "English: Swiss German: Schweizer/Schweizerin French: Suisse/Suissesse Italian : svizzero/svizzera or elvetico/elvetica Romansh : Svizzer/Svizra",
+    "ethnic_groups": {
+      "groups": null,
+      "year": null
+    },
+    "federal_chancellor": "Viktor Rossi",
+    "federal_city": "Bern",
+    "federal_council": "Guy Parmelin ( President ) Ignazio Cassis ( Vice president ) Karin Keller-Sutter Albert Rösti Élisabeth Baume-Schneider Beat Jans Martin Pfister",
+    "french_": "Confédération suisse",
+    "german_": [
+      "Schweizerische Eidgenossenschaft",
+      "Schweizerische Eidgenossenschaft"
+    ],
+    "italian_": "Confederazione Svizzera",
+    "largest_city": "Zurich",
+    "latin_": "Confoederatio helvetica (CH)",
+    "nationality_2024": {
+      "Swiss": "72.6%",
+      "foreign nationals": "27.4%"
+    },
+    "official_language": "French / Italian / Romansh",
+    "religion": {
+      "groups": {
+        "Christianity": {
+          "breakdown": {
+            "Catholicism": 30.0,
+            "Protestantism": 18.7,
+            "other Christian": 6.0
+          },
+          "percentage": 54.7
+        },
+        "Islam": 6.0,
+        "no religion": 36.8,
+        "other religions": 1.5,
+        "unanswered": 0.9
+      },
+      "year": 2024
+    },
+    "romansh_": "Confederaziun svizra",
+    "sovereignty_recognised__peace_of_westphalia_": {
+      "Details": "24 October 1648",
+      "Federal Treaty": "7 August 1815",
+      "Federal state": "12 September 1848"
+    }
+  },
+  "government": {
+    "leaders": {},
+    "legislature": "Federal Assembly",
+    "lower_house": "National Council",
+    "type": "Federal assembly-independent directorial republic",
+    "upper_house": "Council of States"
+  },
+  "history": {
+    "Founded": "1 August 1291"
+  },
+  "population": {
+    "density_per_km2": 207.0,
+    "total": 9060598,
+    "year": 2025
+  },
+  "time": {
+    "timezone_dst": "UTC+02:00",
+    "timezone_utc": "UTC+01:00"
+  }
+}

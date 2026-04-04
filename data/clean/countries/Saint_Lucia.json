@@ -1,0 +1,87 @@
+{
+  "country": "Saint Lucia",
+  "area": {
+    "rank": 178,
+    "total_km2": 617.0,
+    "water_pct": 1.6
+  },
+  "codes": {
+    "calling_code": "+1",
+    "internet_tld": ".lc",
+    "iso_3166_code": "LC"
+  },
+  "economy": {
+    "currency_code": "XCD",
+    "gdp_nominal": {
+      "per_capita_usd": 14647,
+      "total_billion_usd": 2.715,
+      "year": 2025
+    },
+    "gdp_ppp": {
+      "per_capita_usd": 29258,
+      "total_billion_usd": 3.769,
+      "year": 2025
+    },
+    "gini": {
+      "category": "high",
+      "value": 51.2,
+      "year": 2016
+    },
+    "hdi": {
+      "category": "high",
+      "rank": 103,
+      "value": 0.748,
+      "year": 2023
+    }
+  },
+  "general": {
+    "capital": "Castries",
+    "demonym": "Saint Lucian",
+    "ethnic_groups": {
+      "groups": {
+        "African": 85.3,
+        "Indian": 2.2,
+        "Mixed": 10.9,
+        "other/ unspecified": 1.6
+      },
+      "year": 2020
+    },
+    "governor_general": "Errol Charles",
+    "largest_city": "Castries",
+    "monarch": "Charles III",
+    "official_language": "English",
+    "religion": {
+      "groups": {
+        "Christianity": 77.4,
+        "Rastafari": 1.4,
+        "no religion": 14.4,
+        "not stated": 4.1,
+        "other": 2.7
+      },
+      "year": 2022
+    },
+    "vernacular_language": "Saint Lucian French Creole"
+  },
+  "government": {
+    "leaders": {
+      "prime_minister": "Philip J. Pierre"
+    },
+    "legislature": "Parliament",
+    "lower_house": "House of Assembly",
+    "type": "Unitary parliamentary constitutional monarchy",
+    "upper_house": "Senate"
+  },
+  "history": {
+    "Associated State": "1 March 1967",
+    "Independence from the United Kingdom": "22 February 1979"
+  },
+  "population": {
+    "density_per_km2": 298.0,
+    "total": 184100,
+    "year": 2023
+  },
+  "time": {
+    "timezone_dst": null,
+    "timezone_utc": "UTC-04:00"
+  }
+}

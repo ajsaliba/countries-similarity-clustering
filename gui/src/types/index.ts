@@ -174,6 +174,44 @@ export interface BackendCompareResult {
   patched_infobox: string;
 }
 
+// ── One-vs-All result types ──────────────────────────────────────────────────
+export interface OvaEntry {
+  country:    string;
+  similarity: number;
+  distance:   number;
+  rank:       number;
+}
+
+export interface OvaDistributionBucket {
+  range: string;
+  count: number;
+}
+
+export interface OvaStats {
+  mean_similarity:      number;
+  median_similarity:    number;
+  std_similarity:       number;
+  min_similarity:       number;
+  max_similarity:       number;
+  percentile_25:        number;
+  percentile_75:        number;
+  distribution_buckets: OvaDistributionBucket[];
+}
+
+export interface OvaResult {
+  base_country:    string;
+  dataset:         string;
+  method:          string;
+  total_compared:  number;
+  base_tree_size:  number;
+  base_tree:       TreeNode;
+  results:         OvaEntry[];
+  top_n:           OvaEntry[];
+  bottom_n:        OvaEntry[];
+  stats:           OvaStats;
+  elapsed_seconds: number;
+}
+
 export interface AppState {
   currentPhase: number;
   selectedCountries: Country[];

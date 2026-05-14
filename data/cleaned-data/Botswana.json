@@ -1,0 +1,51 @@
+{
+    "Country": "Botswana",
+    "Capital": "Gaborone",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Tswana": 79.0,
+        "Kalanga": 11.0,
+        "San": 3.0,
+        "others": 7.0
+    },
+    "Demonym": "Batswana",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": 70.2,
+            "other Christian": 8.9
+        },
+        "no religion": 15.2,
+        "Badimo": 4.1,
+        "others": 1.4,
+        "unspecified": 0.3
+    },
+    "Government type": "Unitary parliamentary republic with an executive presidency",
+    "Government structure": [
+        "President",
+        "Vice-President",
+        "National Assembly Speaker"
+    ],
+    "Legislature": "Parliament ( National Assembly )",
+    "Area": {
+        "total_km2": 581730.0,
+        "land_km2": 566023.29,
+        "water_km2": 15706.71
+    },
+    "Population": {
+        "total": 2359609,
+        "density_per_km2": 4.1
+    },
+    "GDP PPP": {
+        "total": 54820000000.0,
+        "per_capita": 19540.0
+    },
+    "GDP Nominal": {
+        "total": 20710000000.0,
+        "per_capita": 7380.0
+    },
+    "Gini": 45.5,
+    "HDI": 0.731,
+    "Currency": "Pula"
+}

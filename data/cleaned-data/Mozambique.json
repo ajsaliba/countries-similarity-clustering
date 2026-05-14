@@ -1,0 +1,48 @@
+{
+    "Country": "Mozambique",
+    "Capital": "Maputo",
+    "Official Languages": [
+        "Portuguese"
+    ],
+    "Ethnic Groups": {
+        "African": 99.0,
+        "Mestiço": 0.8,
+        "White": 0.1,
+        "other": 0.1
+    },
+    "Demonym": "Mozambican",
+    "Religions": {
+        "Christianity": 62.0,
+        "Islam": {
+            "no religion": 13.5,
+            "other": 4.3,
+            "unknown": 1.2
+        }
+    },
+    "Government type": "Unitary dominant-party semi-presidential republic under an authoritarian government",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Assembly of the Republic",
+    "Area": {
+        "total_km2": 801590.0,
+        "land_km2": 783955.02,
+        "water_km2": 17634.98
+    },
+    "Population": {
+        "total": 34881007,
+        "density_per_km2": 43.5
+    },
+    "GDP PPP": {
+        "total": 61950000000.0,
+        "per_capita": 1730.0
+    },
+    "GDP Nominal": {
+        "total": 23770000000.0,
+        "per_capita": 663.0
+    },
+    "Gini": 50.4,
+    "HDI": 0.493,
+    "Currency": "Metical"
+}

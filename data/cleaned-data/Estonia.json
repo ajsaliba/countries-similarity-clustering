@@ -1,0 +1,51 @@
+{
+    "Country": "Estonia",
+    "Capital": "Tallinn",
+    "Official Languages": [
+        "Estonian"
+    ],
+    "Ethnic Groups": {
+        "Estonians": 68.5,
+        "Russians": 20.9,
+        "Ukrainians": 5.4,
+        "other": 4.6,
+        "undeclared": 0.6
+    },
+    "Demonym": "Estonian",
+    "Religions": {
+        "irreligion": 58.4,
+        "Christianity": {
+            "Eastern Orthodoxy": 16.3,
+            "Lutheranism": 7.7,
+            "other Christian": 2.7
+        },
+        "undeclared": 12.7,
+        "other": 2.1
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Riigikogu",
+    "Area": {
+        "total_km2": 45335.0,
+        "land_km2": 43249.59,
+        "water_km2": 2085.41
+    },
+    "Population": {
+        "total": 1362954,
+        "density_per_km2": 30.3
+    },
+    "GDP PPP": {
+        "total": 68239999999.99999,
+        "per_capita": 50758.0
+    },
+    "GDP Nominal": {
+        "total": 45000000000.0,
+        "per_capita": 37195.0
+    },
+    "Gini": 30.6,
+    "HDI": 0.905,
+    "Currency": "Euro"
+}

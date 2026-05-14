@@ -1,0 +1,49 @@
+{
+    "Country": "Poland",
+    "Capital": "Warsaw",
+    "Official Languages": [
+        "Polish"
+    ],
+    "Ethnic Groups": {
+        "Polish": 98.8,
+        "only Polish": 96.3,
+        "Polish and others": 2.6,
+        "only non-Polish": 1.1
+    },
+    "Demonym": "Polish",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 71.3,
+            "other Christian": 1.1
+        },
+        "no religion": 6.9,
+        "other": 0.1,
+        "unanswered": 20.6
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 312696.0,
+        "land_km2": 308068.1,
+        "water_km2": 4627.9
+    },
+    "Population": {
+        "total": 37893970,
+        "density_per_km2": 126.0
+    },
+    "GDP PPP": {
+        "total": 2019000000000.0002,
+        "per_capita": 55340.0
+    },
+    "GDP Nominal": {
+        "total": 1038999999999.9999,
+        "per_capita": 28484.0
+    },
+    "Gini": 26.3,
+    "HDI": 0.906,
+    "Currency": "Złoty"
+}

@@ -1,0 +1,59 @@
+{
+    "Country": "United Arab Emirates",
+    "Capital": "Abu Dhabi",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "South Asian": 59.4,
+        "Indian": 38.2,
+        "Bangladeshi": 9.5,
+        "Pakistani": 9.4,
+        "other": 12.4,
+        "Emirati Arab": 12.0,
+        "Egyptian": 10.2,
+        "Filipino": 6.1
+    },
+    "Demonym": "Emirati",
+    "Religions": {
+        "Islam": {
+            "Sunni Islam": 63.3,
+            "Shia Islam": 6.7,
+            "other": 4.4
+        },
+        "Christianity": 12.9,
+        "Hinduism": {
+            "Buddhism": {
+                "Agnosticism": 1.3,
+                "other": 1.9
+            }
+        }
+    },
+    "Government type": "Federal semi-presidential elective semi-constitutional monarchy",
+    "Government structure": [
+        "President",
+        "Vice Presidents",
+        "Prime Minister"
+    ],
+    "Legislature": "Federal Supreme Council",
+    "Area": {
+        "total_km2": 83600.0,
+        "land_km2": 83600.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 11027129,
+        "density_per_km2": 132.0
+    },
+    "GDP PPP": {
+        "total": 905230000000.0,
+        "per_capita": 81680.0
+    },
+    "GDP Nominal": {
+        "total": 548600000000.0,
+        "per_capita": 49550.0
+    },
+    "Gini": 26.0,
+    "HDI": 0.94,
+    "Currency": "UAE dirham"
+}

@@ -1,0 +1,35 @@
+{
+    "Country": "Germany",
+    "Capital": "Berlin",
+    "Official Languages": [
+        "German"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "German",
+    "Religions": null,
+    "Government type": "Federal parliamentary republic",
+    "Government structure": [
+        "President"
+    ],
+    "Legislature": "Bundestag Bundesrat",
+    "Area": {
+        "total_km2": 357022.0,
+        "land_km2": 352487.82,
+        "water_km2": 4534.18
+    },
+    "Population": {
+        "total": 83497147,
+        "density_per_km2": 233.0
+    },
+    "GDP PPP": {
+        "total": 6154000000000.0,
+        "per_capita": 73553.0
+    },
+    "GDP Nominal": {
+        "total": 5014000000000.0,
+        "per_capita": 59925.0
+    },
+    "Gini": 29.4,
+    "HDI": 0.959,
+    "Currency": "Euro"
+}

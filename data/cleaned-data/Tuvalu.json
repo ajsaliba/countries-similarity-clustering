@@ -1,0 +1,46 @@
+{
+    "Country": "Tuvalu",
+    "Capital": "Funafuti",
+    "Official Languages": [
+        "Tuvaluan",
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Tuvaluans": 96.0,
+        "others": 4.0
+    },
+    "Demonym": "Tuvaluan",
+    "Religions": {
+        "Christianity": {
+            "Calvinism": 86.0,
+            "other Christian": 10.0
+        },
+        "Other religions or not stated": 3.0,
+        "Baháʼí Faith": 1.0
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 26.26,
+        "land_km2": 26.26,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 10643,
+        "density_per_km2": 423.0
+    },
+    "GDP PPP": {
+        "total": 68603000.0,
+        "per_capita": 6076.0
+    },
+    "GDP Nominal": {
+        "total": 63000000.0,
+        "per_capita": 6113.0
+    },
+    "Gini": 39.0,
+    "HDI": 0.689,
+    "Currency": "Tuvaluan dollar Australian dollar"
+}

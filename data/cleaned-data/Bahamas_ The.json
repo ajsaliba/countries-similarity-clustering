@@ -1,0 +1,49 @@
+{
+    "Country": "Bahamas, The",
+    "Capital": "Nassau",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "African": 90.6,
+        "White": 4.7,
+        "mixed": 2.1,
+        "other": 1.9,
+        "unspecified": 0.7
+    },
+    "Demonym": "Bahamian",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": 75.1,
+            "other Christian": 17.9
+        },
+        "no religion": 4.5,
+        "folk religions": 1.9,
+        "other": 0.6
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 13943.0,
+        "land_km2": 10038.96,
+        "water_km2": 3904.04
+    },
+    "Population": {
+        "total": 412628,
+        "density_per_km2": 25.21
+    },
+    "GDP PPP": {
+        "total": 18989000000.0,
+        "per_capita": 46524.0
+    },
+    "GDP Nominal": {
+        "total": 14390000000.0,
+        "per_capita": 35257.0
+    },
+    "Gini": null,
+    "HDI": 0.82,
+    "Currency": "Bahamian dollar"
+}

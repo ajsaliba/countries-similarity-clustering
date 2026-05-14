@@ -1,0 +1,48 @@
+{
+    "Country": "Liberia",
+    "Capital": "Monrovia",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Liberian",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": 76.3,
+            "Catholicism": 7.2,
+            "other Christians": 1.6
+        },
+        "Islam": 12.2,
+        "no religion": {
+            "other": 1.3
+        }
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "House Speaker",
+        "Chief Justice"
+    ],
+    "Legislature": "Legislature of Liberia",
+    "Area": {
+        "total_km2": 111370.0,
+        "land_km2": 96319.46,
+        "water_km2": 15050.54
+    },
+    "Population": {
+        "total": 5437249,
+        "density_per_km2": 35.5
+    },
+    "GDP PPP": {
+        "total": 11420000000.0,
+        "per_capita": 2010.0
+    },
+    "GDP Nominal": {
+        "total": 5170000000.0,
+        "per_capita": 907.0
+    },
+    "Gini": 35.3,
+    "HDI": 0.51,
+    "Currency": "United States dollar"
+}

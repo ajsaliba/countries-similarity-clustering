@@ -1,0 +1,57 @@
+{
+    "Country": "Fiji",
+    "Capital": "Suva",
+    "Official Languages": [
+        "Fijian",
+        "English",
+        "Standard",
+        "Hindi",
+        "Fiji",
+        "Hindi"
+    ],
+    "Ethnic Groups": {
+        "Indigenous Fijians": 56.8,
+        "Indo-Fijians": 37.5,
+        "Rotumans": 1.2,
+        "others": 4.5
+    },
+    "Demonym": "Fijian",
+    "Religions": {
+        "Christianity": {
+            "Methodism": 34.6,
+            "other Christian": 29.8
+        },
+        "Hinduism": 27.9,
+        "Islam": 6.3,
+        "others / none": 1.4
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Deputy Prime Minister",
+        "Parliament Speaker",
+        "Chief Justice"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 18274.0,
+        "land_km2": 18274.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 926276,
+        "density_per_km2": 46.4
+    },
+    "GDP PPP": {
+        "total": 15152000000.0,
+        "per_capita": 16563.0
+    },
+    "GDP Nominal": {
+        "total": 5511000000.0,
+        "per_capita": 6024.0
+    },
+    "Gini": 30.7,
+    "HDI": 0.731,
+    "Currency": "Fijian dollar"
+}

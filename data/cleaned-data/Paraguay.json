@@ -1,0 +1,47 @@
+{
+    "Country": "Paraguay",
+    "Capital": "Asunción",
+    "Official Languages": [
+        "Spanish",
+        "Guarani"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Paraguayan",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 87.4,
+            "other Christian": 8.1
+        },
+        "no religion": 4.1,
+        "other": 0.4
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "President of the Senate",
+        "President of the Chamber of Deputies",
+        "President of the Supreme Court"
+    ],
+    "Legislature": "Congress",
+    "Area": {
+        "total_km2": 406752.0,
+        "land_km2": 396176.45,
+        "water_km2": 10575.55
+    },
+    "Population": {
+        "total": 6413627,
+        "density_per_km2": 15.1
+    },
+    "GDP PPP": {
+        "total": 145110000000.0,
+        "per_capita": 22462.0
+    },
+    "GDP Nominal": {
+        "total": 51670000000.0,
+        "per_capita": 7990.0
+    },
+    "Gini": 44.4,
+    "HDI": 0.756,
+    "Currency": "Guaraní"
+}

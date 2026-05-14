@@ -1,0 +1,44 @@
+{
+    "Country": "Central African Republic",
+    "Capital": "Bangui",
+    "Official Languages": [
+        "French",
+        "Sango",
+        "(co-official)"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Central",
+    "Religions": {
+        "Christianity": 73.2,
+        "Islam": 13.9,
+        "traditional faiths": 12.0,
+        "other / none": 0.9
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "President of the National Assembly"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 622984.0,
+        "land_km2": null,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 5650957,
+        "density_per_km2": 8.6
+    },
+    "GDP PPP": {
+        "total": 7940000000.0,
+        "per_capita": 1390.0
+    },
+    "GDP Nominal": {
+        "total": 3710000000.0,
+        "per_capita": 650.0
+    },
+    "Gini": 43.0,
+    "HDI": 0.414,
+    "Currency": "Central African CFA franc"
+}

@@ -1,0 +1,51 @@
+{
+    "Country": "Czech Republic",
+    "Capital": "Prague",
+    "Official Languages": [
+        "Czech"
+    ],
+    "Ethnic Groups": {
+        "Czechs": 89.0,
+        "Moravians": 3.3,
+        "Slovaks": 0.9,
+        "Ukrainians": 0.7,
+        "other": 2.1,
+        "two nationalities": 4.0
+    },
+    "Demonym": "Czech",
+    "Religions": {
+        "no religion": 56.9,
+        "Christianity": {
+            "Catholicism": 9.3,
+            "other Christian": 2.4
+        },
+        "other": 1.2,
+        "unanswered": 30.1
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 78871.0,
+        "land_km2": 77167.39,
+        "water_km2": 1703.61
+    },
+    "Population": {
+        "total": 10900555,
+        "density_per_km2": 133.0
+    },
+    "GDP PPP": {
+        "total": 619881000000.0,
+        "per_capita": 56686.0
+    },
+    "GDP Nominal": {
+        "total": 342992000000.0,
+        "per_capita": 31365.0
+    },
+    "Gini": 24.4,
+    "HDI": 0.915,
+    "Currency": "Czech koruna"
+}

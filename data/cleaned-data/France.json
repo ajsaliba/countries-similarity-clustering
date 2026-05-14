@@ -1,0 +1,43 @@
+{
+    "Country": "France",
+    "Capital": "Paris",
+    "Official Languages": [
+        "French"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "French",
+    "Religions": {
+        "Christianity": 50.0,
+        "irreligion": 33.0,
+        "Islam": 4.0,
+        "other religions": 4.0
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "President of the Senate",
+        "President of the National Assembly"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 632702.3,
+        "land_km2": 627261.06,
+        "water_km2": 5441.24
+    },
+    "Population": {
+        "total": 69081996,
+        "density_per_km2": 109.0
+    },
+    "GDP PPP": {
+        "total": 4504000000000.0,
+        "per_capita": 65626.0
+    },
+    "GDP Nominal": {
+        "total": 3211000000000.0,
+        "per_capita": 46792.0
+    },
+    "Gini": 29.8,
+    "HDI": 0.92,
+    "Currency": "Euro"
+}

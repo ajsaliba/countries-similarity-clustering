@@ -1,0 +1,49 @@
+{
+    "Country": "India",
+    "Capital": "New Delhi",
+    "Official Languages": [
+        "Hindi",
+        "English"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Indian",
+    "Religions": {
+        "Hinduism": 79.8,
+        "Islam": 14.2,
+        "Christianity": {
+            "Sikhism": 1.7,
+            "Buddhism": 0.7
+        },
+        "Jainism": {
+            "unaffiliated": 0.23
+        },
+        "other": 0.65
+    },
+    "Government type": "Federal parliamentary republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 3287263.0,
+        "land_km2": 2971685.75,
+        "water_km2": 315577.25
+    },
+    "Population": {
+        "total": 1428627663,
+        "density_per_km2": 433.5
+    },
+    "GDP PPP": {
+        "total": 17647000000000.0,
+        "per_capita": 12132.0
+    },
+    "GDP Nominal": {
+        "total": 4187000000000.0005,
+        "per_capita": 2878.0
+    },
+    "Gini": 25.5,
+    "HDI": 0.685,
+    "Currency": "Indian rupee"
+}

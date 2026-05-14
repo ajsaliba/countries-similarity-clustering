@@ -1,0 +1,53 @@
+{
+    "Country": "Peru",
+    "Capital": "Lima",
+    "Official Languages": [
+        "Spanish"
+    ],
+    "Ethnic Groups": {
+        "Mestizo": 60.2,
+        "Native": 25.75,
+        "White": 5.89,
+        "Black": 3.57,
+        "East Asian": 0.16,
+        "other": 1.1,
+        "no answer": 3.32
+    },
+    "Demonym": "Peruvian",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 76.0,
+            "other Christian": 18.5
+        },
+        "no religion": 5.1,
+        "other": 0.4
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "First Vice President",
+        "Prime Minister",
+        "President of Congress"
+    ],
+    "Legislature": "Congress of the Republic",
+    "Area": {
+        "total_km2": 1285216.0,
+        "land_km2": 1279946.61,
+        "water_km2": 5269.39
+    },
+    "Population": {
+        "total": 34352720,
+        "density_per_km2": 23.0
+    },
+    "GDP PPP": {
+        "total": 653090000000.0,
+        "per_capita": 18980.0
+    },
+    "GDP Nominal": {
+        "total": 318480000000.0,
+        "per_capita": 9260.0
+    },
+    "Gini": 40.2,
+    "HDI": 0.794,
+    "Currency": "Peruvian sol"
+}

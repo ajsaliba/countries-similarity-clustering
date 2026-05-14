@@ -1,0 +1,49 @@
+{
+    "Country": "Guinea-Bissau",
+    "Capital": "Bissau",
+    "Official Languages": [
+        "Portuguese"
+    ],
+    "Ethnic Groups": {
+        "Balanta": 30.0,
+        "Fula": 30.0,
+        "Manjak": 14.0,
+        "Mandinka": 13.0,
+        "Papel": 7.0,
+        "other / unspecified": 6.0
+    },
+    "Demonym": "Guinean",
+    "Religions": {
+        "Islam": 46.1,
+        "Traditional": 30.6,
+        "Christianity": 18.9,
+        "No religion": 3.0,
+        "others": 1.0
+    },
+    "Government type": "Unitary semi-presidential republic under a military junta",
+    "Government structure": [
+        "Transitional President",
+        "Prime Minister"
+    ],
+    "Legislature": "National Transitional Council (transitional) National People's Assembly (suspended)",
+    "Area": {
+        "total_km2": 36125.0,
+        "land_km2": 28033.0,
+        "water_km2": 8092.0
+    },
+    "Population": {
+        "total": 2080000,
+        "density_per_km2": 47.0
+    },
+    "GDP PPP": {
+        "total": 6620000000.0,
+        "per_capita": 3280.0
+    },
+    "GDP Nominal": {
+        "total": 2270000000.0,
+        "per_capita": 1130.0
+    },
+    "Gini": 33.4,
+    "HDI": 0.514,
+    "Currency": "West African CFA franc"
+}

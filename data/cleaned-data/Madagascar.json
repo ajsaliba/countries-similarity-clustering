@@ -1,0 +1,57 @@
+{
+    "Country": "Madagascar",
+    "Capital": "Antananarivo",
+    "Official Languages": [
+        "Malagasy",
+        "French"
+    ],
+    "Ethnic Groups": {
+        "Merina": 26.0,
+        "Betsimisaraka": 15.0,
+        "Betsileo": 12.0,
+        "Tsimihety": 7.0,
+        "Sakalava": 6.0,
+        "Antaisaka": 5.0,
+        "Antandroy": 5.0,
+        "others": 24.0
+    },
+    "Demonym": "Malagasy",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": 45.8,
+            "Catholicism": 38.1,
+            "other Christian": 0.8
+        },
+        "no religion": 7.3,
+        "traditional faiths": 4.7,
+        "Islam": 3.1,
+        "others": 0.3
+    },
+    "Government type": "Unitary semi-presidential republic under a transitional government",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Kingdom"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 592796.0,
+        "land_km2": 563156.2,
+        "water_km2": 29639.8
+    },
+    "Population": {
+        "total": 31964956,
+        "density_per_km2": 55.0
+    },
+    "GDP PPP": {
+        "total": 68110000000.0,
+        "per_capita": 2110.0
+    },
+    "GDP Nominal": {
+        "total": 21090000000.0,
+        "per_capita": 652.0
+    },
+    "Gini": 42.6,
+    "HDI": 0.487,
+    "Currency": "Ariary"
+}

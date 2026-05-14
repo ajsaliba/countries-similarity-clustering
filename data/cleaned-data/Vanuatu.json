@@ -1,0 +1,50 @@
+{
+    "Country": "Vanuatu",
+    "Capital": "Port Vila",
+    "Official Languages": [
+        "Bislama",
+        "English",
+        "French"
+    ],
+    "Ethnic Groups": {
+        "Ni-Vanuatu": 98.5,
+        "others": 1.5
+    },
+    "Demonym": "Ni-Vanuatu",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": 75.1,
+            "Catholicism": 13.5,
+            "other Christian": 4.8
+        },
+        "Animism": 4.6,
+        "Baháʼí Faith": 1.4,
+        "other / none": 0.6
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 12189.0,
+        "land_km2": null,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 335908,
+        "density_per_km2": 27.6
+    },
+    "GDP PPP": {
+        "total": 1002000000.0,
+        "per_capita": 3001.0
+    },
+    "GDP Nominal": {
+        "total": 1064000000.0,
+        "per_capita": 3188.0
+    },
+    "Gini": 32.3,
+    "HDI": 0.621,
+    "Currency": "Vatu"
+}

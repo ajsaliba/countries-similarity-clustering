@@ -1,0 +1,52 @@
+{
+    "Country": "Kazakhstan",
+    "Capital": "Astana",
+    "Official Languages": [
+        "Kazakh",
+        "Russian"
+    ],
+    "Ethnic Groups": {
+        "Kazakh": 71.3,
+        "Russian": 14.6,
+        "Uzbek": 3.3,
+        "Ukrainian": 1.8,
+        "Uyghur": 1.5,
+        "German": 1.1,
+        "Tatar": 1.1,
+        "others": 5.3
+    },
+    "Demonym": "Kazakh",
+    "Religions": {
+        "Islam": 69.3,
+        "Christianity": 17.2,
+        "no religion": 2.3,
+        "other": 0.2,
+        "unanswered": 11.0
+    },
+    "Government type": "Unitary presidential republic under an authoritarian government",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 2724900.0,
+        "land_km2": 2678576.7,
+        "water_km2": 46323.3
+    },
+    "Population": {
+        "total": 20495975,
+        "density_per_km2": 7.44
+    },
+    "GDP PPP": {
+        "total": 904500000000.0,
+        "per_capita": 44450.0
+    },
+    "GDP Nominal": {
+        "total": 300540000000.0,
+        "per_capita": 14770.0
+    },
+    "Gini": 27.8,
+    "HDI": 0.837,
+    "Currency": "Tenge"
+}

@@ -1,0 +1,42 @@
+{
+    "Country": "Pakistan",
+    "Capital": "Islamabad",
+    "Official Languages": [
+        "Urdu",
+        "English"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Pakistani",
+    "Religions": {
+        "Islam": 96.3,
+        "Hinduism": 2.2,
+        "Christianity": 1.4,
+        "other": 0.1
+    },
+    "Government type": "Federal parliamentary Islamic republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 881913.0,
+        "land_km2": 856690.29,
+        "water_km2": 25222.71
+    },
+    "Population": {
+        "total": 241499431,
+        "density_per_km2": 273.8
+    },
+    "GDP PPP": {
+        "total": 1670000000000.0,
+        "per_capita": 6950.0
+    },
+    "GDP Nominal": {
+        "total": 410500000000.0,
+        "per_capita": 1710.0
+    },
+    "Gini": 29.6,
+    "HDI": 0.544,
+    "Currency": "Pakistani rupee"
+}

@@ -1,0 +1,42 @@
+{
+    "Country": "Algeria",
+    "Capital": "Algiers",
+    "Official Languages": [
+        "Arabic",
+        "Berber"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Algerian",
+    "Religions": {
+        "Sunni Islam<": 99.0,
+        "others": 1.0
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Council President",
+        "Assembly President"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 2381741.0,
+        "land_km2": null,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 47400000,
+        "density_per_km2": 19.0
+    },
+    "GDP PPP": {
+        "total": 875330000000.0,
+        "per_capita": 18530.0
+    },
+    "GDP Nominal": {
+        "total": 268890000000.0,
+        "per_capita": 5690.0
+    },
+    "Gini": 27.6,
+    "HDI": 0.763,
+    "Currency": "Algerian dinar"
+}

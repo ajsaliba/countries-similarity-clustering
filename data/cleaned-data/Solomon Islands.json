@@ -1,0 +1,47 @@
+{
+    "Country": "Solomon Islands",
+    "Capital": "Honiara",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Melanesian": 95.3,
+        "Polynesian": 3.1,
+        "Micronesian": 1.2,
+        "others": 0.4
+    },
+    "Demonym": "Solomon",
+    "Religions": {
+        "Christianity": 97.4,
+        "Protestantism": 78.6,
+        "Catholicism": 19.5,
+        "other Christian": 1.9,
+        "folk religions": 1.2,
+        "others / none": 1.4
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "National Parliament",
+    "Area": {
+        "total_km2": 28896.0,
+        "land_km2": 27971.33,
+        "water_km2": 924.67
+    },
+    "Population": {
+        "total": 828857,
+        "density_per_km2": 24.2
+    },
+    "GDP PPP": {
+        "total": 1680000000.0,
+        "per_capita": 2205.25
+    },
+    "GDP Nominal": {
+        "total": 1681000000.0,
+        "per_capita": 2205.25
+    },
+    "Gini": 37.1,
+    "HDI": 0.584,
+    "Currency": "Solomon Islands dollar"
+}

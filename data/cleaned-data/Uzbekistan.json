@@ -1,0 +1,48 @@
+{
+    "Country": "Uzbekistan",
+    "Capital": "Tashkent",
+    "Official Languages": [
+        "Uzbek"
+    ],
+    "Ethnic Groups": {
+        "Uzbeks": 84.6,
+        "Tajiks": 4.8,
+        "Kazakhs": 2.3,
+        "Karakalpaks": 2.2,
+        "Russians": 2.1,
+        "others": 4.0
+    },
+    "Demonym": "Uzbek",
+    "Religions": {
+        "Islam": 94.78,
+        "Irreligion": 3.89,
+        "Christianity": 1.04,
+        "other religions": 0.27
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Oliy Majlis",
+    "Area": {
+        "total_km2": 448978.0,
+        "land_km2": 426978.08,
+        "water_km2": 21999.92
+    },
+    "Population": {
+        "total": 38236704,
+        "density_per_km2": 80.2
+    },
+    "GDP PPP": {
+        "total": 507800000000.0,
+        "per_capita": 12596.0
+    },
+    "GDP Nominal": {
+        "total": 140480000000.0,
+        "per_capita": 3945.0
+    },
+    "Gini": 31.2,
+    "HDI": 0.74,
+    "Currency": "Uzbek sum"
+}

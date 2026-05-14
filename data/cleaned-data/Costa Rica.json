@@ -1,0 +1,51 @@
+{
+    "Country": "Costa Rica",
+    "Capital": "San José",
+    "Official Languages": [
+        "Spanish"
+    ],
+    "Ethnic Groups": {
+        "White or Mestizo": 83.6,
+        "Mulatto (mixed Black and White )": 6.7,
+        "Indigenous": 2.4,
+        "Black": 1.1,
+        "others": 6.2
+    },
+    "Demonym": "Costa",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 47.5,
+            "Protestantism": 22.5,
+            "other Christian": 2.6
+        },
+        "no religion": 27.0,
+        "others": 0.4
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "First Vice President",
+        "Second Vice President"
+    ],
+    "Legislature": "Legislative Assembly",
+    "Area": {
+        "total_km2": 51179.92,
+        "land_km2": 50642.53,
+        "water_km2": 537.39
+    },
+    "Population": {
+        "total": 5160700,
+        "density_per_km2": 84.9
+    },
+    "GDP PPP": {
+        "total": 169034000000.0,
+        "per_capita": 31462.0
+    },
+    "GDP Nominal": {
+        "total": 102591000000.0,
+        "per_capita": 19095.0
+    },
+    "Gini": 47.2,
+    "HDI": 0.833,
+    "Currency": "Costa Rican colón"
+}

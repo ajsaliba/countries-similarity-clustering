@@ -1,0 +1,55 @@
+{
+    "Country": "Latvia",
+    "Capital": "Riga",
+    "Official Languages": [
+        "Latvian",
+        "a"
+    ],
+    "Ethnic Groups": {
+        "Latvians": 65.5,
+        "Russians": 24.1,
+        "Belarusians": 2.9,
+        "Ukrainians": 2.9,
+        "Poles": 1.9,
+        "Lithuanians": 1.1,
+        "others": 1.6
+    },
+    "Demonym": "Latvian",
+    "Religions": {
+        "Christianity": {
+            "Lutheranism": 36.0,
+            "Catholicism": 17.0,
+            "Orthodoxy": 9.0,
+            "other Christian": 2.0
+        },
+        "no religion": 35.0,
+        "others": 1.0
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Speaker of the Saeima"
+    ],
+    "Legislature": "Saeima",
+    "Area": {
+        "total_km2": 64589.0,
+        "land_km2": 63239.09,
+        "water_km2": 1349.91
+    },
+    "Population": {
+        "total": 1842226,
+        "density_per_km2": 29.6
+    },
+    "GDP PPP": {
+        "total": 82400000000.0,
+        "per_capita": 44110.0
+    },
+    "GDP Nominal": {
+        "total": 47880000000.0,
+        "per_capita": 25630.0
+    },
+    "Gini": 35.7,
+    "HDI": 0.889,
+    "Currency": "Euro"
+}

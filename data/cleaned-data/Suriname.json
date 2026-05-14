@@ -1,0 +1,70 @@
+{
+    "Country": "Suriname",
+    "Capital": "Paramaribo",
+    "Official Languages": [
+        "Dutch"
+    ],
+    "Ethnic Groups": {
+        "Asian Surinamese": 42.6,
+        "Hindustani": 27.4,
+        "Javanese": 13.7,
+        "Chinese": 1.5,
+        "Afro-Surinamese": 37.4,
+        "Maroon": 21.7,
+        "Creole": 15.7,
+        "Multiracial": 13.4,
+        "Indigenous": 3.8,
+        "European": 0.3
+    },
+    "Demonym": "Surinamese",
+    "Religions": {
+        "Christianity 26.75 Protestantism": 48.4,
+        "Roman Catholicism": 21.65,
+        "Hinduism": {
+            "Sanātanī": 17.97,
+            "Arya Samaj": 3.08,
+            "Other Hindu": 1.23
+        },
+        "Islam": {
+            "Sunni": 3.91,
+            "Ahmadiyya": 2.61,
+            "Other Muslim": 7.34
+        },
+        "Winti": 1.8,
+        "Kejawèn": 0.8,
+        "Judaism": 0.03,
+        "no religion": 7.52,
+        "Not stated": {
+            "Don't know": {
+                "Others": 0.85
+            }
+        }
+    },
+    "Government type": "Unitary assembly-independent presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "High Court of Justice President"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 165940.0,
+        "land_km2": 164114.66,
+        "water_km2": 1825.34
+    },
+    "Population": {
+        "total": 632638,
+        "density_per_km2": 3.9
+    },
+    "GDP PPP": {
+        "total": 14743000000.0,
+        "per_capita": 22439.0
+    },
+    "GDP Nominal": {
+        "total": 4506000000.0,
+        "per_capita": 6858.0
+    },
+    "Gini": null,
+    "HDI": 0.722,
+    "Currency": "Surinamese dollar"
+}

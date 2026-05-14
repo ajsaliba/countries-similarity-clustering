@@ -1,0 +1,49 @@
+{
+    "Country": "Senegal",
+    "Capital": "Dakar",
+    "Official Languages": [
+        "French"
+    ],
+    "Ethnic Groups": {
+        "Wolof": 39.7,
+        "Fula": 27.5,
+        "Serer": 16.0,
+        "Mandinka": 4.9,
+        "Jola": 4.2,
+        "Soninke": 2.4,
+        "others": 5.4
+    },
+    "Demonym": "Senegalese",
+    "Religions": {
+        "Islam": 97.2,
+        "Christianity": 2.7,
+        "other": 0.1
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "President of the National Assembly"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 196722.0,
+        "land_km2": 192590.84,
+        "water_km2": 4131.16
+    },
+    "Population": {
+        "total": 18847519,
+        "density_per_km2": 96.0
+    },
+    "GDP PPP": {
+        "total": 105428000000.0,
+        "per_capita": 5498.0
+    },
+    "GDP Nominal": {
+        "total": 34728000000.0,
+        "per_capita": 1811.0
+    },
+    "Gini": 40.3,
+    "HDI": 0.53,
+    "Currency": "West African CFA franc"
+}

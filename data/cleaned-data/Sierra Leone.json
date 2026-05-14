@@ -1,0 +1,54 @@
+{
+    "Country": "Sierra Leone",
+    "Capital": "Freetown",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Temne": 35.5,
+        "Mende": 33.2,
+        "Limba": 6.4,
+        "Kono": 4.4,
+        "Fula": 3.4,
+        "Susu": 2.9,
+        "Loko": 2.9,
+        "Koranko": 2.8,
+        "Sherbro": 2.6,
+        "Mandingo": 2.4,
+        "Krio": 1.3
+    },
+    "Demonym": "Sierra",
+    "Religions": {
+        "Islam": 78.0,
+        "Christianity": 21.0,
+        "other": 1.0
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice-President",
+        "Speaker of Parliament",
+        "Chief Justice"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 73252.0,
+        "land_km2": 72446.23,
+        "water_km2": 805.77
+    },
+    "Population": {
+        "total": 8460512,
+        "density_per_km2": 124.0
+    },
+    "GDP PPP": {
+        "total": 32509999999.999996,
+        "per_capita": 3550.0
+    },
+    "GDP Nominal": {
+        "total": 8390000000.000001,
+        "per_capita": 915.0
+    },
+    "Gini": 33.7,
+    "HDI": 0.467,
+    "Currency": "Leone"
+}

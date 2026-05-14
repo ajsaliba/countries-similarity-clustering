@@ -1,0 +1,32 @@
+{
+    "Country": "Vatican City",
+    "Capital": "Vatican City ( city-state )",
+    "Official Languages": [
+        "Italian"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "None",
+    "Religions": null,
+    "Government type": "Theocratic elective absolute monarchy",
+    "Government structure": [
+        "President of the Governorate"
+    ],
+    "Legislature": "Pontifical Commission",
+    "Area": {
+        "total_km2": 0.49,
+        "land_km2": null,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 882,
+        "density_per_km2": 800.0
+    },
+    "GDP PPP": {
+        "total": 14859970.0,
+        "per_capita": 19450.22
+    },
+    "GDP Nominal": null,
+    "Gini": null,
+    "HDI": null,
+    "Currency": "Euro"
+}

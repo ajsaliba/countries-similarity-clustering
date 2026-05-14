@@ -1,0 +1,51 @@
+{
+    "Country": "Qatar",
+    "Capital": "Doha",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "Arab": 49.0,
+        "South Asian": 43.0,
+        "Indian": 21.8,
+        "Bangladeshi": 12.5,
+        "Pakistani": 4.7,
+        "Sri Lankan": 4.35,
+        "other": 7.0
+    },
+    "Demonym": "Qatari",
+    "Religions": {
+        "Islam": 65.5,
+        "Hinduism": 15.1,
+        "Christianity": 14.2,
+        "Buddhism": 3.3,
+        "other": 1.9
+    },
+    "Government type": "Unitary authoritarian semi-constitutional monarchy",
+    "Government structure": [
+        "Emir",
+        "Deputy Emir",
+        "Prime Minister"
+    ],
+    "Legislature": "Consultative Assembly",
+    "Area": {
+        "total_km2": 11581.0,
+        "land_km2": 11581.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 3214609,
+        "density_per_km2": 264.0
+    },
+    "GDP PPP": {
+        "total": 378080000000.0,
+        "per_capita": 121610.0
+    },
+    "GDP Nominal": {
+        "total": 222780000000.0,
+        "per_capita": 71650.0
+    },
+    "Gini": 35.1,
+    "HDI": 0.886,
+    "Currency": "Qatari riyal"
+}

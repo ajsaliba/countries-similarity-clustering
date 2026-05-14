@@ -1,0 +1,52 @@
+{
+    "Country": "Mongolia",
+    "Capital": "Ulaanbaatar",
+    "Official Languages": [
+        "Mongolian",
+        "(",
+        "Buriat",
+        "Khalkha",
+        "Oirat",
+        ")"
+    ],
+    "Ethnic Groups": {
+        "Mongols": 95.6,
+        "Kazakhs": 3.8,
+        "other": 0.6
+    },
+    "Demonym": "Mongolian",
+    "Religions": {
+        "Buddhism": 51.7,
+        "No religion": 40.6,
+        "Islam": 3.2,
+        "Shamanism": 2.5,
+        "Christianity": 1.3,
+        "other": 0.7
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "State Great Khural",
+    "Area": {
+        "total_km2": 1564116.0,
+        "land_km2": 1553636.42,
+        "water_km2": 10479.58
+    },
+    "Population": {
+        "total": 3504741,
+        "density_per_km2": 2.24
+    },
+    "GDP PPP": {
+        "total": 73280000000.0,
+        "per_capita": 20450.0
+    },
+    "GDP Nominal": {
+        "total": 25800000000.0,
+        "per_capita": 7200.0
+    },
+    "Gini": 32.7,
+    "HDI": 0.747,
+    "Currency": "Tögrög"
+}

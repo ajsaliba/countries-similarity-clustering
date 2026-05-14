@@ -1,0 +1,36 @@
+{
+    "Country": "Saudi Arabia",
+    "Capital": "Riyadh",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Saudi",
+    "Religions": null,
+    "Government type": "Unitary Islamic absolute monarchy",
+    "Government structure": [
+        "King",
+        "Crown Prince and Prime Minister"
+    ],
+    "Legislature": "Consultative Assembly",
+    "Area": {
+        "total_km2": 2149690.0,
+        "land_km2": 2134642.17,
+        "water_km2": 15047.83
+    },
+    "Population": {
+        "total": 33702731,
+        "density_per_km2": 15.0
+    },
+    "GDP PPP": {
+        "total": 2690000000000.0,
+        "per_capita": 74670.0
+    },
+    "GDP Nominal": {
+        "total": 1270000000000.0,
+        "per_capita": 35230.0
+    },
+    "Gini": 45.9,
+    "HDI": 0.9,
+    "Currency": "Saudi riyal"
+}

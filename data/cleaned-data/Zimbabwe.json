@@ -1,0 +1,70 @@
+{
+    "Country": "Zimbabwe",
+    "Capital": "Harare",
+    "Official Languages": [
+        "16",
+        "languages",
+        ":",
+        "Chewa",
+        "Chibarwe",
+        "English",
+        "Kalanga",
+        "Khoisan",
+        "Nambya",
+        "Ndau",
+        "Ndebele",
+        "Shangani",
+        "Shona",
+        "Sotho",
+        "Tonga",
+        "Tswana",
+        "Venda",
+        "Xhosa",
+        "Zimbabwean",
+        "sign",
+        "language"
+    ],
+    "Ethnic Groups": {
+        "Black African": 99.6,
+        "European": 0.2,
+        "Coloured": 0.1,
+        "other": 0.1
+    },
+    "Demonym": "Zimbabwean",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": 69.2,
+            "other Christian": 14.9
+        },
+        "no religion": 10.2,
+        "traditional faiths": 4.5,
+        "others": 1.2
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "First Vice-President",
+        "Second Vice-President"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 390757.0,
+        "land_km2": 386849.43,
+        "water_km2": 3907.57
+    },
+    "Population": {
+        "total": 17166852,
+        "density_per_km2": 45.0
+    },
+    "GDP PPP": {
+        "total": 93870000000.0,
+        "per_capita": 5410.0
+    },
+    "GDP Nominal": {
+        "total": 53310000000.0,
+        "per_capita": 3070.0
+    },
+    "Gini": 45.5,
+    "HDI": 0.598,
+    "Currency": "De jure : Zimbabwe Gold"
+}

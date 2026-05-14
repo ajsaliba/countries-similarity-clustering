@@ -1,0 +1,49 @@
+{
+    "Country": "Guinea",
+    "Capital": "Conakry",
+    "Official Languages": [
+        "French"
+    ],
+    "Ethnic Groups": {
+        "Fula": 33.4,
+        "Mandinka": 29.4,
+        "Susu": 21.2,
+        "Kpelle": 7.8,
+        "Kissi": 6.2,
+        "Loma": 1.6,
+        "others": 0.4
+    },
+    "Demonym": "Guinean",
+    "Religions": {
+        "Islam": 85.2,
+        "Christianity": 13.4,
+        "animism": 0.2,
+        "none": 1.2
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "National Council of the Transition",
+    "Area": {
+        "total_km2": 245857.0,
+        "land_km2": 245857.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 13986179,
+        "density_per_km2": 40.9
+    },
+    "GDP PPP": {
+        "total": 75050000000.0,
+        "per_capita": 4075.0
+    },
+    "GDP Nominal": {
+        "total": 30090000000.0,
+        "per_capita": 1670.0
+    },
+    "Gini": 33.7,
+    "HDI": 0.5,
+    "Currency": "Guinean franc"
+}

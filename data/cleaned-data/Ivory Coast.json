@@ -1,0 +1,54 @@
+{
+    "Country": "Ivory Coast",
+    "Capital": "Yamoussoukro",
+    "Official Languages": [
+        "French"
+    ],
+    "Ethnic Groups": {
+        "Ivorian": 78.0,
+        "Akan": 38.0,
+        "Northern Mande": 22.0,
+        "Voltaiques/Gur": 22.0,
+        "Kru": 9.1,
+        "Southern Mande": 8.6,
+        "Naturalized Ivorian": 0.3,
+        "non-Ivorian a": 22.0
+    },
+    "Demonym": "Ivorian",
+    "Religions": {
+        "Islam": 42.5,
+        "Christianity": 39.8,
+        "no religion": 12.6,
+        "traditional faiths": 2.2,
+        "unanswered": 2.2,
+        "other religions": 0.7
+    },
+    "Government type": "Unitary presidential republic under an authoritarian regime",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "Prime Minister",
+        "Deputy/Vice-Prime Minister"
+    ],
+    "Legislature": "Parliament of Ivory Coast",
+    "Area": {
+        "total_km2": 322462.0,
+        "land_km2": 317947.53,
+        "water_km2": 4514.47
+    },
+    "Population": {
+        "total": 31500000,
+        "density_per_km2": 97.7
+    },
+    "GDP PPP": {
+        "total": 202647000000.0,
+        "per_capita": 6960.0
+    },
+    "GDP Nominal": {
+        "total": 79430000000.0,
+        "per_capita": 2728.0
+    },
+    "Gini": 35.3,
+    "HDI": 0.582,
+    "Currency": "West African CFA franc"
+}

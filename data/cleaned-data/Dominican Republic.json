@@ -1,0 +1,52 @@
+{
+    "Country": "Dominican Republic",
+    "Capital": "Santo Domingo",
+    "Official Languages": [
+        "Spanish"
+    ],
+    "Ethnic Groups": {
+        "Mixed": 71.72,
+        "White": 18.7,
+        "Black": 7.45,
+        "East Asian": 0.33,
+        "other": 0.37,
+        "no answer": 1.43
+    },
+    "Demonym": "Dominican",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 52.5,
+            "Protestantism": 21.0,
+            "other Christian": 1.1
+        },
+        "no religion": 22.0,
+        "other": 1.4,
+        "unspecified": 2.0
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President"
+    ],
+    "Legislature": "Congress",
+    "Area": {
+        "total_km2": 48671.0,
+        "land_km2": 48330.3,
+        "water_km2": 340.7
+    },
+    "Population": {
+        "total": 11532151,
+        "density_per_km2": 220.0
+    },
+    "GDP PPP": {
+        "total": 334292000000.0,
+        "per_capita": 30710.0
+    },
+    "GDP Nominal": {
+        "total": 135544999999.99998,
+        "per_capita": 12452.0
+    },
+    "Gini": 39.0,
+    "HDI": 0.776,
+    "Currency": "Dominican peso"
+}

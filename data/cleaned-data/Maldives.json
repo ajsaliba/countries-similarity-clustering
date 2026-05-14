@@ -1,0 +1,38 @@
+{
+    "Country": "Maldives",
+    "Capital": "Malé",
+    "Official Languages": [
+        "Dhivehi"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Maldivian",
+    "Religions": null,
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "Speaker",
+        "Chief Justice"
+    ],
+    "Legislature": "People's Majlis",
+    "Area": {
+        "total_km2": 298.0,
+        "land_km2": null,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 601269,
+        "density_per_km2": 728.63
+    },
+    "GDP PPP": {
+        "total": 13867000000.0,
+        "per_capita": 34322.0
+    },
+    "GDP Nominal": {
+        "total": 6984000000.0,
+        "per_capita": 17287.0
+    },
+    "Gini": 31.3,
+    "HDI": 0.766,
+    "Currency": "Maldivian rufiyaa"
+}

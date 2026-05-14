@@ -1,0 +1,44 @@
+{
+    "Country": "Ukraine",
+    "Capital": "Kyiv",
+    "Official Languages": [
+        "Ukrainian"
+    ],
+    "Ethnic Groups": {
+        "Ukrainians": 78.0,
+        "Russians": 17.0,
+        "other": 4.9
+    },
+    "Demonym": "Ukrainian",
+    "Religions": {
+        "Christianity": 87.3,
+        "no religion": 11.0,
+        "other": 0.8
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Verkhovna Rada",
+    "Area": {
+        "total_km2": 603628.0,
+        "land_km2": 580690.14,
+        "water_km2": 22937.86
+    },
+    "Population": {
+        "total": 32862000,
+        "density_per_km2": 54.4
+    },
+    "GDP PPP": {
+        "total": 690059000000.0,
+        "per_capita": 20999.0
+    },
+    "GDP Nominal": {
+        "total": 205742000000.0,
+        "per_capita": 6261.0
+    },
+    "Gini": 25.6,
+    "HDI": 0.779,
+    "Currency": "Ukrainian hryvnia"
+}

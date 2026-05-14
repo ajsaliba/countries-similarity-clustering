@@ -1,0 +1,39 @@
+{
+    "Country": "Somalia",
+    "Capital": "Mogadishu",
+    "Official Languages": [
+        "Somali"
+    ],
+    "Ethnic Groups": {
+        "Somali": 85.0,
+        "other": 15.0
+    },
+    "Demonym": "Somali",
+    "Religions": null,
+    "Government type": "Federal parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Federal Parliament",
+    "Area": {
+        "total_km2": 637657.0,
+        "land_km2": null,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 19280850,
+        "density_per_km2": 27.2
+    },
+    "GDP PPP": {
+        "total": 32500000000.0,
+        "per_capita": 1920.0
+    },
+    "GDP Nominal": {
+        "total": 12990000000.0,
+        "per_capita": 766.0
+    },
+    "Gini": 35.2,
+    "HDI": 0.404,
+    "Currency": "Somali shilling"
+}

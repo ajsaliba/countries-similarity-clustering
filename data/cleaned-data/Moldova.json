@@ -1,0 +1,53 @@
+{
+    "Country": "Moldova",
+    "Capital": "Chișinău",
+    "Official Languages": [
+        "Romanian"
+    ],
+    "Ethnic Groups": {
+        "Moldovans": 76.7,
+        "Romanians": 8.0,
+        "Ukrainians": 5.1,
+        "Gagauz": 4.0,
+        "Russians": 3.4,
+        "Bulgarians": 1.6,
+        "other": 1.1
+    },
+    "Demonym": "Moldovan",
+    "Religions": {
+        "Christianity": {
+            "Eastern Orthodoxy": 94.3,
+            "other Christian": 3.1
+        },
+        "other": 0.3,
+        "no religion": 1.5,
+        "unanswered": 0.8
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "President of the Parliament"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 33843.0,
+        "land_km2": 33369.2,
+        "water_km2": 473.8
+    },
+    "Population": {
+        "total": 2381325,
+        "density_per_km2": 78.5
+    },
+    "GDP PPP": {
+        "total": 48511000000.0,
+        "per_capita": 20731.0
+    },
+    "GDP Nominal": {
+        "total": 21024000000.0,
+        "per_capita": 8984.0
+    },
+    "Gini": 25.7,
+    "HDI": 0.785,
+    "Currency": "Moldovan leu"
+}

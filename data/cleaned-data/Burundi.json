@@ -1,0 +1,54 @@
+{
+    "Country": "Burundi",
+    "Capital": "Gitega",
+    "Official Languages": [
+        "Kirundi",
+        "French",
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Barundi": 100.0,
+        "Hutu": 85.0,
+        "Tutsi": 14.0,
+        "Twa ~": 1.0,
+        "other": 1.0
+    },
+    "Demonym": "Burundian",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 63.7,
+            "Protestantism": 25.2,
+            "other Christian": 4.5
+        },
+        "traditional faiths": 4.3,
+        "Islam": 2.1,
+        "other / none": 0.2
+    },
+    "Government type": "Unitary dominant-party presidential republic under an authoritarian dictatorship",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Vice President"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 27834.0,
+        "land_km2": 25050.6,
+        "water_km2": 2783.4
+    },
+    "Population": {
+        "total": 14151540,
+        "density_per_km2": 565.0
+    },
+    "GDP PPP": {
+        "total": 13980000000.0,
+        "per_capita": 1020.0
+    },
+    "GDP Nominal": {
+        "total": 6750000000.0,
+        "per_capita": 489.0
+    },
+    "Gini": 37.5,
+    "HDI": 0.439,
+    "Currency": "Burundian franc"
+}

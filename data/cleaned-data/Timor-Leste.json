@@ -1,0 +1,45 @@
+{
+    "Country": "Timor-Leste",
+    "Capital": "Dili",
+    "Official Languages": [
+        "Portuguese",
+        "Tetum"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "East",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 97.57,
+            "Protestantism": 1.96
+        },
+        "Islam": {
+            "other": 0.23
+        }
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "National Parliament",
+    "Area": {
+        "total_km2": 15007.0,
+        "land_km2": 15007.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 1354662,
+        "density_per_km2": 94.0
+    },
+    "GDP PPP": {
+        "total": 6970000000.0,
+        "per_capita": 4920.0
+    },
+    "GDP Nominal": {
+        "total": 2120000000.0,
+        "per_capita": 1490.0
+    },
+    "Gini": 28.7,
+    "HDI": 0.634,
+    "Currency": "United States dollar Timor-Leste centavo"
+}

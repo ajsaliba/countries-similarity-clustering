@@ -1,0 +1,50 @@
+{
+    "Country": "Thailand",
+    "Capital": "Bangkok",
+    "Official Languages": [
+        "Thai"
+    ],
+    "Ethnic Groups": {
+        "Thai": 80.0,
+        "Central Thai": 37.0,
+        "Isan": 25.0,
+        "Northern Thai": 8.0,
+        "Southern Thai": 8.0,
+        "Western Thai": 2.0,
+        "Thai Chinese": 12.0,
+        "Northern Khmer": 4.0,
+        "Thai Malays": 4.0
+    },
+    "Demonym": "Thai",
+    "Religions": {
+        "Buddhism": 93.46,
+        "Islam": 5.37,
+        "Christianity": 1.13,
+        "other": 0.03
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 513120.0,
+        "land_km2": 511067.52,
+        "water_km2": 2052.48
+    },
+    "Population": {
+        "total": 65975198,
+        "density_per_km2": 132.1
+    },
+    "GDP PPP": {
+        "total": 1853000000000.0,
+        "per_capita": 26358.0
+    },
+    "GDP Nominal": {
+        "total": 558573000000.0,
+        "per_capita": 7942.0
+    },
+    "Gini": 33.5,
+    "HDI": 0.798,
+    "Currency": "Thai baht"
+}

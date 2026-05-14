@@ -1,0 +1,56 @@
+{
+    "Country": "Nigeria",
+    "Capital": "Abuja",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Hausa": 30.0,
+        "Yoruba": 15.5,
+        "Igbo": 15.2,
+        "Fulani": 6.0,
+        "Tiv": 2.4,
+        "Kanuri": 2.4,
+        "Ibibio": 1.8,
+        "Ijaw": 1.8,
+        "other": 24.7
+    },
+    "Demonym": "Nigerian",
+    "Religions": {
+        "Islam": 53.5,
+        "Christianity": {
+            "Protestants": 35.3,
+            "Catholics": 10.6
+        },
+        "other": 0.6
+    },
+    "Government type": "Federal presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "Senate President",
+        "House Speaker",
+        "Chief Justice"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 923769.0,
+        "land_km2": 910836.23,
+        "water_km2": 12932.77
+    },
+    "Population": {
+        "total": 236747130,
+        "density_per_km2": 249.8
+    },
+    "GDP PPP": {
+        "total": 2254000000000.0,
+        "per_capita": 9488.0
+    },
+    "GDP Nominal": {
+        "total": 285003000000.0,
+        "per_capita": 1200.0
+    },
+    "Gini": 35.1,
+    "HDI": 0.56,
+    "Currency": "Naira"
+}

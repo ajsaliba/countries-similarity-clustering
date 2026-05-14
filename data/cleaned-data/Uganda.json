@@ -1,0 +1,58 @@
+{
+    "Country": "Uganda",
+    "Capital": "Kampala",
+    "Official Languages": [
+        "English",
+        "Swahili"
+    ],
+    "Ethnic Groups": {
+        "Baganda": 15.3,
+        "Banyankole": 9.1,
+        "Basoga": 8.1,
+        "Bakiga": 6.4,
+        "Iteso": 6.8,
+        "Langi": 5.9,
+        "Bagisu": 4.5,
+        "Acholi": 4.2,
+        "Lugbara": 2.6,
+        "others": 37.1
+    },
+    "Demonym": "Ugandan",
+    "Religions": {
+        "Christianity": 81.7,
+        "Roman Catholic": {
+            "Protestant": 29.0,
+            "Islam": 13.2
+        },
+        "unclassified": 3.3,
+        "others": 1.6,
+        "no religion": 0.2
+    },
+    "Government type": "Unitary presidential republic under a dictatorship",
+    "Government structure": [
+        "President",
+        "Vice-President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 241038.0,
+        "land_km2": 203942.25,
+        "water_km2": 37095.75
+    },
+    "Population": {
+        "total": 45905417,
+        "density_per_km2": 157.1
+    },
+    "GDP PPP": {
+        "total": 187110000000.0,
+        "per_capita": 3900.0
+    },
+    "GDP Nominal": {
+        "total": 64280000000.0,
+        "per_capita": 1340.0
+    },
+    "Gini": 42.0,
+    "HDI": 0.582,
+    "Currency": "Ugandan shilling"
+}

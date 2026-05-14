@@ -1,0 +1,57 @@
+{
+    "Country": "Albania",
+    "Capital": "Tirana",
+    "Official Languages": [
+        "Albanian"
+    ],
+    "Ethnic Groups": {
+        "Albanian": 96.44,
+        "Greek": 1.04,
+        "Edgyptians": 0.55,
+        "other": 1.33,
+        "undeclared": 0.65
+    },
+    "Religions": {
+        "Islam": {
+            "Sunni": 45.86,
+            "Bektashism": 4.81
+        },
+        "Christianity": {
+            "Catholicism": 8.39,
+            "Orthodoxy": 7.23,
+            "Protestantism": 0.4
+        },
+        "Irreligion": {
+            "Believers without religion": 13.83,
+            "Atheism": 3.55
+        },
+        "Undeclared": 15.92
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Partliament Speaker"
+    ],
+    "Legislature": "Kuvendi",
+    "Area": {
+        "total_km2": 28748,
+        "land_km2": 27397,
+        "water_km2": 1351
+    },
+    "Population": {
+        "total": 2402113,
+        "density_per_km2": 83.6
+    },
+    "GDP PPP": {
+        "total": 67370000000,
+        "per_capita": 25250
+    },
+    "GDP Nominal": {
+        "total": 33330000000,
+        "per_capita": 12490
+    },
+    "Gini": 29.4,
+    "HDI": 0.81,
+    "Currency": "Lek"
+}

@@ -1,0 +1,50 @@
+{
+    "Country": "Kyrgyzstan",
+    "Capital": "Bishkek",
+    "Official Languages": [
+        "Kyrgyz",
+        "(state)",
+        "Russian",
+        "(official)"
+    ],
+    "Ethnic Groups": {
+        "Kyrgyz": 77.8,
+        "Uzbeks": 14.3,
+        "Russians": 3.7,
+        "Dungans": 1.0,
+        "Tajiks": 0.9,
+        "Others": 2.3
+    },
+    "Demonym": "Kyrgyz",
+    "Religions": {
+        "Islam": 91.0,
+        "Christianity": 8.0,
+        "Others": 1.0
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Speaker of the Supreme Council"
+    ],
+    "Legislature": "Supreme Council",
+    "Area": {
+        "total_km2": 200105.0,
+        "land_km2": 186097.65,
+        "water_km2": 14007.35
+    },
+    "Population": {
+        "total": 7400000,
+        "density_per_km2": 37.0
+    },
+    "GDP PPP": {
+        "total": 64110000000.0,
+        "per_capita": 8870.0
+    },
+    "GDP Nominal": {
+        "total": 22587000000.0,
+        "per_capita": 3101.0
+    },
+    "Gini": 26.4,
+    "HDI": 0.72,
+    "Currency": "Kyrgyzstani som"
+}

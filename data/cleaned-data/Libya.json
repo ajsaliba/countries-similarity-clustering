@@ -1,0 +1,46 @@
+{
+    "Country": "Libya",
+    "Capital": "Tripoli",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "Arabs": 92.0,
+        "Berbers": 5.0,
+        "others": 3.0
+    },
+    "Demonym": "Libyan",
+    "Religions": {
+        "Islam": 96.6,
+        "Christianity": 2.7,
+        "others": 0.7
+    },
+    "Government type": "Unitary republic under a provisional government ( GNU )",
+    "Government structure": [
+        "Chairman of the Presidential Council",
+        "Vice Chairman of the Presidential Council",
+        "Prime Minister",
+        "Speaker of the House of Representatives"
+    ],
+    "Legislature": "High Council of State House of Representatives",
+    "Area": {
+        "total_km2": 1759541.0,
+        "land_km2": null,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 7361263,
+        "density_per_km2": 4.2
+    },
+    "GDP PPP": {
+        "total": 123990000000.0,
+        "per_capita": 17760.0
+    },
+    "GDP Nominal": {
+        "total": 47480000000.0,
+        "per_capita": 6800.0
+    },
+    "Gini": null,
+    "HDI": 0.721,
+    "Currency": "Libyan dinar"
+}

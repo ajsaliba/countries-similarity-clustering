@@ -1,0 +1,56 @@
+{
+    "Country": "North Macedonia",
+    "Capital": "Skopje",
+    "Official Languages": [
+        "Macedonian",
+        "Albanian"
+    ],
+    "Ethnic Groups": {
+        "Macedonians": 58.4,
+        "Albanians": 24.3,
+        "Turks": 3.9,
+        "Roma": 2.5,
+        "Serbs": 1.3,
+        "Bosniaks": 0.9,
+        "Aromanians (including Megleno-Romanians )": 0.5,
+        "other (including undeclared and unknown)": 1.0,
+        "persons for whom data are taken from administrative sources": 7.2
+    },
+    "Demonym": "Macedonian",
+    "Religions": {
+        "Christianity": {
+            "Eastern Orthodoxy": 46.1,
+            "other Christian": 14.3
+        },
+        "Islam": 32.2,
+        "no religion": 0.1,
+        "other": 0.1,
+        "data taken from administrative sources": 7.2
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Assembly",
+    "Area": {
+        "total_km2": 25436.0,
+        "land_km2": 25156.2,
+        "water_km2": 279.8
+    },
+    "Population": {
+        "total": 1836713,
+        "density_per_km2": 71.43
+    },
+    "GDP PPP": {
+        "total": 53345000000.0,
+        "per_capita": 29475.0
+    },
+    "GDP Nominal": {
+        "total": 17885000000.0,
+        "per_capita": 9882.0
+    },
+    "Gini": 29.8,
+    "HDI": 0.815,
+    "Currency": "Macedonian denar"
+}

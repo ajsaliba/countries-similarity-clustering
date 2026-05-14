@@ -1,0 +1,51 @@
+{
+    "Country": "Bulgaria",
+    "Capital": "Sofia",
+    "Official Languages": [
+        "Bulgarian"
+    ],
+    "Ethnic Groups": {
+        "Bulgarians": 85.7,
+        "Turks": 8.5,
+        "Roma": 4.5,
+        "others": 1.3
+    },
+    "Demonym": "Bulgarian",
+    "Religions": {
+        "Christianity": {
+            "Bulgarian Orthodoxy": 62.7,
+            "other Christian": 2.0
+        },
+        "no religion": 15.9,
+        "Islam": {
+            "other": 0.1,
+            "unanswered": 9.5
+        }
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 110993.6,
+        "land_km2": 108596.14,
+        "water_km2": 2397.46
+    },
+    "Population": {
+        "total": 6437360,
+        "density_per_km2": 58.0
+    },
+    "GDP PPP": {
+        "total": 264699000000.0,
+        "per_capita": 41901.0
+    },
+    "GDP Nominal": {
+        "total": 117007000000.0,
+        "per_capita": 18522.0
+    },
+    "Gini": 37.2,
+    "HDI": 0.845,
+    "Currency": "Euro"
+}

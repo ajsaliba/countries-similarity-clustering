@@ -1,0 +1,51 @@
+{
+    "Country": "Rwanda",
+    "Capital": "Kigali",
+    "Official Languages": [
+        "Kinyarwanda",
+        "English",
+        "French",
+        "Swahili"
+    ],
+    "Ethnic Groups": {
+        "Banyarwanda": 100.0,
+        "Hutu": 85.0,
+        "Tutsi": 14.0,
+        "Twa": 1.0
+    },
+    "Demonym": "Rwandan",
+    "Religions": {
+        "Christianity": 93.8,
+        "no religion": {
+            "Islam": 2.2,
+            "other": 1.0
+        }
+    },
+    "Government type": "Unitary semi-presidential republic under an authoritarian dictatorship",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Speaker of the Chamber of Deputies"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 26338.0,
+        "land_km2": 24678.71,
+        "water_km2": 1659.29
+    },
+    "Population": {
+        "total": 14104969,
+        "density_per_km2": 578.0
+    },
+    "GDP PPP": {
+        "total": 58120000000.0,
+        "per_capita": 4100.0
+    },
+    "GDP Nominal": {
+        "total": 14789000000.0,
+        "per_capita": 1040.0
+    },
+    "Gini": 39.4,
+    "HDI": 0.578,
+    "Currency": "Rwandan franc"
+}

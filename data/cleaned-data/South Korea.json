@@ -1,0 +1,53 @@
+{
+    "Country": "South Korea",
+    "Capital": "Seoul",
+    "Official Languages": [
+        "Korean",
+        "Korean",
+        "Sign",
+        "Language"
+    ],
+    "Ethnic Groups": {
+        "Korean": 94.8,
+        "other": 5.2
+    },
+    "Demonym": "South",
+    "Religions": {
+        "No religion": {
+            "Christianity": 31.0,
+            "Protestant": 20.0
+        },
+        "Catholic": 11.0,
+        "Buddhism": 17.0,
+        "other": 2.0
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Speaker of the National Assembly",
+        "Chief Justice of the Supreme Court",
+        "President of the Constitutional Court"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 100363.0,
+        "land_km2": 100061.91,
+        "water_km2": 301.09
+    },
+    "Population": {
+        "total": 52081799,
+        "density_per_km2": 507.0
+    },
+    "GDP PPP": {
+        "total": 3363000000000.0,
+        "per_capita": 65080.0
+    },
+    "GDP Nominal": {
+        "total": 1859000000000.0,
+        "per_capita": 35962.0
+    },
+    "Gini": 33.3,
+    "HDI": 0.937,
+    "Currency": "Korean Republic won"
+}

@@ -1,0 +1,55 @@
+{
+    "Country": "Laos",
+    "Capital": "Vientiane",
+    "Official Languages": [
+        "Lao"
+    ],
+    "Ethnic Groups": {
+        "Lao": 53.2,
+        "Khmu": 11.0,
+        "Hmong": 9.2,
+        "Phu Thai": 3.4,
+        "Tai": 3.1,
+        "Makong": 2.5,
+        "Katang": 2.2,
+        "Lue": 2.0,
+        "Akha": 1.8,
+        "other": 11.6
+    },
+    "Demonym": "Laotian",
+    "Religions": {
+        "Buddhism": 66.0,
+        "Tai folk religion": 30.7,
+        "Christianity": 1.5,
+        "other / none": 1.8
+    },
+    "Government type": "Unitary communist state",
+    "Government structure": [
+        "General Secretary , and President",
+        "Prime Minister",
+        "Vice President",
+        "President of the National Assembly",
+        "Chief Justice"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 236800.0,
+        "land_km2": 232064.0,
+        "water_km2": 4736.0
+    },
+    "Population": {
+        "total": 7953556,
+        "density_per_km2": 33.21
+    },
+    "GDP PPP": {
+        "total": 78850000000.0,
+        "per_capita": 10120.0
+    },
+    "GDP Nominal": {
+        "total": 16320000000.0,
+        "per_capita": 2100.0
+    },
+    "Gini": 36.4,
+    "HDI": 0.617,
+    "Currency": "Kip"
+}

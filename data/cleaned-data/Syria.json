@@ -1,0 +1,46 @@
+{
+    "Country": "Syria",
+    "Capital": "Damascus",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "Arabs 9–": 90.0,
+        "Kurds 1–": 10.0,
+        "others": 10.0
+    },
+    "Demonym": "Syrian",
+    "Religions": {
+        "Islam": 94.17,
+        "Sunni": 79.19,
+        "Shia 10–": 14.1,
+        "Alawites": 13.0,
+        "Christianity": 3.84,
+        "other": 1.99
+    },
+    "Government type": "Unitary presidential republic under a provisional government",
+    "Government structure": [
+        "President"
+    ],
+    "Legislature": "People's Assembly",
+    "Area": {
+        "total_km2": 185180.0,
+        "land_km2": 183143.02,
+        "water_km2": 2036.98
+    },
+    "Population": {
+        "total": 26019711,
+        "density_per_km2": 118.3
+    },
+    "GDP PPP": {
+        "total": 50280000000.0,
+        "per_capita": 3300.0
+    },
+    "GDP Nominal": {
+        "total": 9800000000.0,
+        "per_capita": 800.0
+    },
+    "Gini": 26.6,
+    "HDI": null,
+    "Currency": "Syrian pound"
+}

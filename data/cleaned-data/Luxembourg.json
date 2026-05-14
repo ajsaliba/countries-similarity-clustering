@@ -1,0 +1,49 @@
+{
+    "Country": "Luxembourg",
+    "Capital": "Luxembourg",
+    "Official Languages": [
+        "National",
+        "language:",
+        "Luxembourgish",
+        "Administrative",
+        "languages:",
+        "Luxembourgish",
+        "German",
+        "French"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Luxembourger",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 46.0,
+            "other Christian": 7.0
+        },
+        "no religion": 38.0,
+        "other": 9.0
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "Chamber of Deputies",
+    "Area": {
+        "total_km2": 2586.4,
+        "land_km2": 2580.45,
+        "water_km2": 5.95
+    },
+    "Population": {
+        "total": 690947,
+        "density_per_km2": 264.0
+    },
+    "GDP PPP": {
+        "total": 106505000000.0,
+        "per_capita": 154914.0
+    },
+    "GDP Nominal": {
+        "total": 96993000000.0,
+        "per_capita": 141079.0
+    },
+    "Gini": 30.6,
+    "HDI": 0.922,
+    "Currency": "Euro"
+}

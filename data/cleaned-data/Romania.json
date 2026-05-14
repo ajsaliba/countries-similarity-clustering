@@ -1,0 +1,52 @@
+{
+    "Country": "Romania",
+    "Capital": "Bucharest",
+    "Official Languages": [
+        "Romanian"
+    ],
+    "Ethnic Groups": {
+        "Romanians": 89.3,
+        "Hungarians": 6.0,
+        "Roma": 3.4,
+        "others": 1.2
+    },
+    "Demonym": "Romanian",
+    "Religions": {
+        "Christianity": 84.7,
+        "Romanian Orthodoxy": 73.6,
+        "Protestantism": 6.4,
+        "Catholicism": 4.4,
+        "other Christian": 0.2,
+        "no religion": 0.8,
+        "other": 0.4,
+        "unanswered": 13.9
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "President of the Senate",
+        "President of the Chamber of Deputies"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 238397.0,
+        "land_km2": 231245.09,
+        "water_km2": 7151.91
+    },
+    "Population": {
+        "total": 19043151,
+        "density_per_km2": 83.0
+    },
+    "GDP PPP": {
+        "total": 949332000000.0,
+        "per_capita": 50726.0
+    },
+    "GDP Nominal": {
+        "total": 444807000000.0,
+        "per_capita": 23767.0
+    },
+    "Gini": 27.3,
+    "HDI": 0.845,
+    "Currency": "Romanian leu"
+}

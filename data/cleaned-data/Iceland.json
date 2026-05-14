@@ -1,0 +1,51 @@
+{
+    "Country": "Iceland",
+    "Capital": "Reykjavík",
+    "Official Languages": [
+        "Icelandic"
+    ],
+    "Ethnic Groups": {
+        "Icelandic": 86.0,
+        "Polish": 6.0,
+        "Lithuanian": 1.0,
+        "Filipino": 0.8,
+        "other": 7.0
+    },
+    "Demonym": "Icelander",
+    "Religions": {
+        "Christianity": {
+            "Church of Iceland": 60.9,
+            "other Christian": 11.5
+        },
+        "no religion": 25.2,
+        "Ásatrúarfélagið": 1.5,
+        "other": 0.9
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Speaker of the Althing"
+    ],
+    "Legislature": "Althing",
+    "Area": {
+        "total_km2": 103125.0,
+        "land_km2": 100990.31,
+        "water_km2": 2134.69
+    },
+    "Population": {
+        "total": 394530,
+        "density_per_km2": 3.78
+    },
+    "GDP PPP": {
+        "total": 31076000000.0,
+        "per_capita": 81220.0
+    },
+    "GDP Nominal": {
+        "total": 35310000000.0,
+        "per_capita": 90280.0
+    },
+    "Gini": 23.2,
+    "HDI": 0.972,
+    "Currency": "Icelandic króna"
+}

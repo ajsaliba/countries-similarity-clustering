@@ -1,0 +1,40 @@
+{
+    "Country": "Bosnia and Herzegovina",
+    "Capital": "Sarajevo",
+    "Official Languages": [
+        "None"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Bosnian",
+    "Religions": {
+        "Islam": 51.3,
+        "Christianity": {
+            "Eastern Orthodox": 30.7,
+            "Catholicism": 15.4
+        },
+        "Others": 2.6
+    },
+    "Government type": "Federal parliamentary directorial republic",
+    "Government structure": null,
+    "Legislature": "Parliamentary Assembly",
+    "Area": {
+        "total_km2": 51209.0,
+        "land_km2": 50492.07,
+        "water_km2": 716.93
+    },
+    "Population": {
+        "total": 2904256,
+        "density_per_km2": 61.0
+    },
+    "GDP PPP": {
+        "total": 82230000000.0,
+        "per_capita": 23930.0
+    },
+    "GDP Nominal": {
+        "total": 36240000000.0,
+        "per_capita": 10546.0
+    },
+    "Gini": 27.1,
+    "HDI": 0.804,
+    "Currency": "Convertible mark"
+}

@@ -1,0 +1,55 @@
+{
+    "Country": "Brazil",
+    "Capital": "Brasília",
+    "Official Languages": [
+        "Portuguese"
+    ],
+    "Ethnic Groups": {
+        "Pardo": 45.3,
+        "White": 43.5,
+        "Black": 10.2,
+        "Indigenous": 0.6,
+        "East Asian": 0.4
+    },
+    "Demonym": "Brazilian",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 56.75,
+            "Protestantism": 26.85
+        },
+        "no religion": 9.28,
+        "Spiritism": 1.84,
+        "Afro-Brazilian religions": 1.05,
+        "other": 4.07,
+        "not stated": 0.17
+    },
+    "Government type": "Federal presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "President of the Chamber of Deputies",
+        "President of the Federal Senate",
+        "President of the Supreme Federal Court"
+    ],
+    "Legislature": "National Congress",
+    "Area": {
+        "total_km2": 8515767.0,
+        "land_km2": 8460414.51,
+        "water_km2": 55352.49
+    },
+    "Population": {
+        "total": 213421037,
+        "density_per_km2": 23.8
+    },
+    "GDP PPP": {
+        "total": 5161000000000.0,
+        "per_capita": 24108.0
+    },
+    "GDP Nominal": {
+        "total": 2292000000000.0,
+        "per_capita": 10709.0
+    },
+    "Gini": 51.6,
+    "HDI": 0.786,
+    "Currency": "Real"
+}

@@ -1,0 +1,37 @@
+{
+    "Country": "Sweden",
+    "Capital": "Stockholm",
+    "Official Languages": [
+        "Swedish"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Swedish",
+    "Religions": null,
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Riksdag Speaker",
+        "Prime Minister",
+        "A unified Swedish kingdom established"
+    ],
+    "Legislature": "Riksdag",
+    "Area": {
+        "total_km2": 450295.0,
+        "land_km2": 409903.54,
+        "water_km2": 40391.46
+    },
+    "Population": {
+        "total": 10610485,
+        "density_per_km2": 25.0
+    },
+    "GDP PPP": {
+        "total": 799680000000.0,
+        "per_capita": 74900.0
+    },
+    "GDP Nominal": {
+        "total": 620300000000.0,
+        "per_capita": 58100.0
+    },
+    "Gini": 27.6,
+    "HDI": 0.959,
+    "Currency": "Swedish krona"
+}

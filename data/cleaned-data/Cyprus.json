@@ -1,0 +1,43 @@
+{
+    "Country": "Cyprus",
+    "Capital": "Nicosia",
+    "Official Languages": [
+        "Greek",
+        "Turkish"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Cypriot",
+    "Religions": {
+        "Christianity": 72.3,
+        "Islam": 25.0,
+        "no religion": 1.9,
+        "other": 0.8
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice-President",
+        "President of the House of Representatives"
+    ],
+    "Legislature": "House of Representatives",
+    "Area": {
+        "total_km2": 9251.0,
+        "land_km2": 9240.82,
+        "water_km2": 10.18
+    },
+    "Population": {
+        "total": 923272,
+        "density_per_km2": 123.4
+    },
+    "GDP PPP": {
+        "total": 61501000000.0,
+        "per_capita": 65304.0
+    },
+    "GDP Nominal": {
+        "total": 39943000000.0,
+        "per_capita": 42413.0
+    },
+    "Gini": 29.4,
+    "HDI": 0.913,
+    "Currency": "Euro"
+}

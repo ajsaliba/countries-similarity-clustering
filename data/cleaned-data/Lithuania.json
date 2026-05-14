@@ -1,0 +1,52 @@
+{
+    "Country": "Lithuania",
+    "Capital": "Vilnius",
+    "Official Languages": [
+        "Lithuanian"
+    ],
+    "Ethnic Groups": {
+        "Lithuanians": 82.3,
+        "Poles": 6.2,
+        "Russians": 5.0,
+        "Ukrainians": 2.2,
+        "Belarusians": 2.1,
+        "others": 2.2
+    },
+    "Demonym": "Lithuanian",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 74.2,
+            "other Christian": 5.2
+        },
+        "no religion": 6.1,
+        "others": 0.8,
+        "no answer": 13.7
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Seimas Speaker"
+    ],
+    "Legislature": "Seimas",
+    "Area": {
+        "total_km2": 65300.0,
+        "land_km2": 64007.06,
+        "water_km2": 1292.94
+    },
+    "Population": {
+        "total": 2897430,
+        "density_per_km2": 46.0
+    },
+    "GDP PPP": {
+        "total": 165230000000.0,
+        "per_capita": 57201.0
+    },
+    "GDP Nominal": {
+        "total": 95270000000.0,
+        "per_capita": 32982.0
+    },
+    "Gini": 35.7,
+    "HDI": 0.895,
+    "Currency": "Euro"
+}

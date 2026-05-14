@@ -1,0 +1,49 @@
+{
+    "Country": "Norway",
+    "Capital": "Oslo",
+    "Official Languages": [
+        "Norwegian",
+        "Sámi"
+    ],
+    "Ethnic Groups": {
+        "Norwegian": 78.6,
+        "non-Norwegian": 21.4
+    },
+    "Demonym": "Norwegian",
+    "Religions": {
+        "Christianity": {
+            "Church of Norway": 61.7,
+            "other Christian": 6.8
+        },
+        "no religion": 27.3,
+        "Islam": 3.4,
+        "other": 0.8
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister",
+        "President of the Storting",
+        "Chief Justice"
+    ],
+    "Legislature": "Storting",
+    "Area": {
+        "total_km2": 385207.0,
+        "land_km2": 364713.99,
+        "water_km2": 20493.01
+    },
+    "Population": {
+        "total": 5627400,
+        "density_per_km2": 14.6
+    },
+    "GDP PPP": {
+        "total": 606590000000.0,
+        "per_capita": 107890.0
+    },
+    "GDP Nominal": {
+        "total": 504280000000.0,
+        "per_capita": 89690.0
+    },
+    "Gini": 25.3,
+    "HDI": 0.97,
+    "Currency": "Norwegian krone"
+}

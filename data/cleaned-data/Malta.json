@@ -1,0 +1,53 @@
+{
+    "Country": "Malta",
+    "Capital": "Valletta",
+    "Official Languages": [
+        "Maltese",
+        "English",
+        "Maltese",
+        "Sign",
+        "Language"
+    ],
+    "Ethnic Groups": {
+        "Maltese": 77.7,
+        "other ethnic groups": 22.3
+    },
+    "Demonym": "Maltese",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 82.6,
+            "other Christian": 5.9
+        },
+        "no religion": {
+            "Islam": 3.9,
+            "Hinduism": 1.4
+        },
+        "other": 1.1
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament of Malta",
+    "Area": {
+        "total_km2": 316.0,
+        "land_km2": 316.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 519562,
+        "density_per_km2": 649.0
+    },
+    "GDP PPP": {
+        "total": 36870000000.0,
+        "per_capita": 67682.0
+    },
+    "GDP Nominal": {
+        "total": 22737000000.0,
+        "per_capita": 41738.0
+    },
+    "Gini": 31.4,
+    "HDI": 0.924,
+    "Currency": "Euro"
+}

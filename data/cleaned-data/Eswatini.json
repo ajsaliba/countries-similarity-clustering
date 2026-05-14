@@ -1,0 +1,51 @@
+{
+    "Country": "Eswatini",
+    "Capital": "Mbabane (executive) Lobamba (legislative)",
+    "Official Languages": [
+        "Swazi",
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Swazi": 84.0,
+        "Zulu": 10.0,
+        "others": 6.0
+    },
+    "Demonym": "Swazi",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": 84.2,
+            "Roman Catholic": 3.7,
+            "other Christian": 1.4
+        },
+        "no religion": 7.4,
+        "traditional faiths": 2.5,
+        "others": 0.8
+    },
+    "Government type": "Unitary diarchic absolute monarchy",
+    "Government structure": [
+        "King",
+        "Prime Minister",
+        "Chief Justice"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 17364.0,
+        "land_km2": 17207.72,
+        "water_km2": 156.28
+    },
+    "Population": {
+        "total": 1236126,
+        "density_per_km2": 66.8
+    },
+    "GDP PPP": {
+        "total": 13797000000.0,
+        "per_capita": 11858.0
+    },
+    "GDP Nominal": {
+        "total": 4648000000.0,
+        "per_capita": 3995.0
+    },
+    "Gini": 54.6,
+    "HDI": 0.695,
+    "Currency": "Lilangeni"
+}

@@ -1,0 +1,46 @@
+{
+    "Country": "Mexico",
+    "Capital": "Mexico City",
+    "Official Languages": [
+        "Spanish"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Mexican",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 77.7,
+            "Protestantism": 11.2
+        },
+        "Irreligion": 8.1,
+        "other religion": 2.4,
+        "prefer not to say": 0.5
+    },
+    "Government type": "Federal presidential republic",
+    "Government structure": [
+        "President",
+        "President of the Senate",
+        "President of the Chamber of Deputies",
+        "Chief Justice"
+    ],
+    "Legislature": "Congress",
+    "Area": {
+        "total_km2": 1972550.0,
+        "land_km2": 1941383.71,
+        "water_km2": 31166.29
+    },
+    "Population": {
+        "total": 131946900,
+        "density_per_km2": 61.0
+    },
+    "GDP PPP": {
+        "total": 3396000000000.0,
+        "per_capita": 25463.0
+    },
+    "GDP Nominal": {
+        "total": 1693000000000.0,
+        "per_capita": 12692.0
+    },
+    "Gini": 40.2,
+    "HDI": 0.789,
+    "Currency": "Mexican peso"
+}

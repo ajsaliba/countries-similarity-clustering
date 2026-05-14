@@ -1,0 +1,63 @@
+{
+    "Country": "Ethiopia",
+    "Capital": "Addis Ababa",
+    "Official Languages": [
+        "Afar",
+        "Amharic",
+        "Oromo",
+        "Somali",
+        "Tigrinya"
+    ],
+    "Ethnic Groups": {
+        "Oromo": 34.5,
+        "Amhara": 26.9,
+        "Somali": 6.2,
+        "Tigrayan": 6.1,
+        "Sidama": 4.0,
+        "Gurage": 2.5,
+        "Welayta": 2.3,
+        "Hadiya": 1.7,
+        "Afar": 1.7,
+        "Gamo": 1.5,
+        "others": 12.6
+    },
+    "Demonym": "Ethiopian",
+    "Religions": {
+        "Christianity": {
+            "Ethiopian Orthodoxy": 43.8,
+            "P'ent'ay": 22.8,
+            "other Christian": 0.7
+        },
+        "Islam": 31.3,
+        "traditional faiths": 0.6,
+        "others / none": 0.8
+    },
+    "Government type": "Federal parliamentary republic under an authoritarian government",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Deputy Prime Ministers",
+        "Chief Justice of the Federal Supreme Court"
+    ],
+    "Legislature": "Federal Parliamentary Assembly",
+    "Area": {
+        "total_km2": 1104300.0,
+        "land_km2": 1096569.9,
+        "water_km2": 7730.1
+    },
+    "Population": {
+        "total": 135500000,
+        "density_per_km2": 92.7
+    },
+    "GDP PPP": {
+        "total": 434440000000.0,
+        "per_capita": 4050.0
+    },
+    "GDP Nominal": {
+        "total": 145030000000.0,
+        "per_capita": 1350.0
+    },
+    "Gini": 35.0,
+    "HDI": 0.492,
+    "Currency": "Birr"
+}

@@ -1,0 +1,60 @@
+{
+    "Country": "United States",
+    "Capital": "Washington, D.C.",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "White": 61.6,
+        "Black": 12.4,
+        "Asian": 6.0,
+        "Native American": 1.1,
+        "Pacific Islander": 0.2,
+        "two or more races": 10.2,
+        "other By origin:": 8.4,
+        "non- Hispanic or Latino": 81.3,
+        "Hispanic or Latino": 18.7
+    },
+    "Demonym": "American",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": {
+                "Catholicism": 20.0,
+                "other Christian": 12.0
+            },
+            "Mormonism": 1.0
+        },
+        "unaffiliated": 24.0,
+        "Judaism": 2.0,
+        "other religion": 6.0,
+        "unanswered": 3.0
+    },
+    "Government type": "Federal presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "House Speaker",
+        "Chief Justice"
+    ],
+    "Legislature": "Congress",
+    "Area": {
+        "total_km2": 9833520.0,
+        "land_km2": 9147590.0,
+        "water_km2": 688346.4
+    },
+    "Population": {
+        "total": 341784857,
+        "density_per_km2": 37.4
+    },
+    "GDP PPP": {
+        "total": 30616000000000.0,
+        "per_capita": 89599.0
+    },
+    "GDP Nominal": {
+        "total": 30616000000000.0,
+        "per_capita": 89599.0
+    },
+    "Gini": 41.8,
+    "HDI": 0.938,
+    "Currency": "U.S. dollar"
+}

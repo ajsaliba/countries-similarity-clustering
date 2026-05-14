@@ -1,0 +1,49 @@
+{
+    "Country": "Barbados",
+    "Capital": "Bridgetown",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "African": 92.4,
+        "Mixed": 3.1,
+        "White": 2.7,
+        "Indian": 1.3,
+        "others": 0.3
+    },
+    "Demonym": "Barbadian",
+    "Religions": {
+        "Christianity": 75.6,
+        "No religion": 20.6,
+        "Baháʼí Faith": {
+            "Hinduism": 1.1,
+            "others": 0.7
+        }
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 439.0,
+        "land_km2": 439.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 281998,
+        "density_per_km2": 660.0
+    },
+    "GDP PPP": {
+        "total": 5436000000.0,
+        "per_capita": 18738.0
+    },
+    "GDP Nominal": {
+        "total": 6220000000.0,
+        "per_capita": 21442.0
+    },
+    "Gini": 34.1,
+    "HDI": 0.811,
+    "Currency": "Barbadian dollar"
+}

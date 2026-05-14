@@ -1,0 +1,41 @@
+{
+    "Country": "Congo, Democratic Republic of the",
+    "Capital": "Kinshasa",
+    "Official Languages": [
+        "French"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Congolese",
+    "Religions": {
+        "Christianity": 95.4,
+        "traditional faiths": 2.6,
+        "Islam": 1.5,
+        "others / none": 0.5
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 2345409.0,
+        "land_km2": 2267541.42,
+        "water_km2": 77867.58
+    },
+    "Population": {
+        "total": 124388160,
+        "density_per_km2": 48.0
+    },
+    "GDP PPP": {
+        "total": 200760000000.0,
+        "per_capita": 1881.0
+    },
+    "GDP Nominal": {
+        "total": 79120000000.0,
+        "per_capita": 742.0
+    },
+    "Gini": 42.1,
+    "HDI": 0.522,
+    "Currency": "Congolese franc"
+}

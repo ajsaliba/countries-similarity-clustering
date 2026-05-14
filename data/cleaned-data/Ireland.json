@@ -1,0 +1,53 @@
+{
+    "Country": "Ireland",
+    "Capital": "Dublin",
+    "Official Languages": [
+        "Irish",
+        "English"
+    ],
+    "Ethnic Groups": {
+        "White Irish": 76.6,
+        "other White": 10.8,
+        "Asian": 3.3,
+        "Black": 1.5,
+        "other": 1.7,
+        "not stated": 6.2
+    },
+    "Demonym": "Irish",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 69.1,
+            "Anglicanism": 2.5,
+            "other Christian": 4.1
+        },
+        "no religion": 14.5,
+        "other": 3.1,
+        "not stated": 6.7
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Chief Justice"
+    ],
+    "Legislature": "Oireachtas",
+    "Area": {
+        "total_km2": 70273.0,
+        "land_km2": 68867.54,
+        "water_km2": 1405.46
+    },
+    "Population": {
+        "total": 5458600,
+        "density_per_km2": 76.6
+    },
+    "GDP PPP": {
+        "total": 736730000000.0,
+        "per_capita": 134000.0
+    },
+    "GDP Nominal": {
+        "total": 598840000000.0,
+        "per_capita": 108920.0
+    },
+    "Gini": 27.9,
+    "HDI": 0.949,
+    "Currency": "Euro"
+}

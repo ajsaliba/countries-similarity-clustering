@@ -1,0 +1,45 @@
+{
+    "Country": "Chile",
+    "Capital": "Santiago",
+    "Official Languages": [
+        "Spanish"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Chilean",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 54.0,
+            "Protestantism": 16.0
+        },
+        "no religion": 26.0,
+        "other": 4.0
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "President of the Senate",
+        "President of the Chamber of Deputies",
+        "President of Supreme Court"
+    ],
+    "Legislature": "National Congress",
+    "Area": {
+        "total_km2": 756101.96,
+        "land_km2": 740223.82,
+        "water_km2": 15878.14
+    },
+    "Population": {
+        "total": 19629588,
+        "density_per_km2": 24.0
+    },
+    "GDP PPP": {
+        "total": 713030000000.0,
+        "per_capita": 35290.0
+    },
+    "GDP Nominal": {
+        "total": 347170000000.0,
+        "per_capita": 17180.0
+    },
+    "Gini": 44.8,
+    "HDI": 0.878,
+    "Currency": "Chilean peso"
+}

@@ -1,0 +1,41 @@
+{
+    "Country": "Bhutan",
+    "Capital": "Thimphu",
+    "Official Languages": [
+        "Dzongkha"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Bhutanese",
+    "Religions": {
+        "Buddhism": 74.7,
+        "Hinduism": 22.6,
+        "Bon": 1.9,
+        "others": 0.8
+    },
+    "Government type": "Unitary parliamentary semi-constitutional monarchy",
+    "Government structure": [
+        "Dragon King",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 38394.0,
+        "land_km2": 37971.67,
+        "water_km2": 422.33
+    },
+    "Population": {
+        "total": 777486,
+        "density_per_km2": 20.5
+    },
+    "GDP PPP": {
+        "total": 15415000000.0,
+        "per_capita": 19255.0
+    },
+    "GDP Nominal": {
+        "total": 3771000000.0,
+        "per_capita": 4710.0
+    },
+    "Gini": 28.5,
+    "HDI": 0.698,
+    "Currency": "Ngultrum"
+}

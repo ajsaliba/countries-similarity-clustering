@@ -1,0 +1,48 @@
+{
+    "Country": "Dominica",
+    "Capital": "Roseau",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "African": 75.0,
+        "multiracial": 19.0,
+        "Kalinago": 4.0,
+        "European or other": 0.8,
+        "unspecified": 0.2
+    },
+    "Demonym": "Dominican",
+    "Religions": {
+        "Christianity": 94.4,
+        "folk religions": 3.0,
+        "other": 1.7,
+        "none": 0.9
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Speaker of the House of Assembly"
+    ],
+    "Legislature": "House of Assembly",
+    "Area": {
+        "total_km2": 750.0,
+        "land_km2": 738.0,
+        "water_km2": 12.0
+    },
+    "Population": {
+        "total": 72412,
+        "density_per_km2": 105.0
+    },
+    "GDP PPP": {
+        "total": 688000000.0,
+        "per_capita": 9726.0
+    },
+    "GDP Nominal": {
+        "total": 485000000.0,
+        "per_capita": 7860.0
+    },
+    "Gini": null,
+    "HDI": 0.761,
+    "Currency": "East Caribbean dollar"
+}

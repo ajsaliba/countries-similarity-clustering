@@ -1,0 +1,55 @@
+{
+    "Country": "Philippines",
+    "Capital": "Manila ( de jure ) Metro Manila ( de facto )",
+    "Official Languages": [
+        "Filipino",
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Tagalog": 26.0,
+        "Bisaya": 14.3,
+        "Ilocano": 8.0,
+        "Cebuano": 8.0,
+        "Ilonggo": 7.9,
+        "Bicolano": 6.5,
+        "other": 20.3
+    },
+    "Demonym": "Filipino",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 78.8,
+            "other Christian": 6.5
+        },
+        "Islam": 6.4,
+        "other": 8.2
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "Senate President",
+        "House Speaker",
+        "Chief Justice"
+    ],
+    "Legislature": "Congress",
+    "Area": {
+        "total_km2": 300000.0,
+        "land_km2": 298170.0,
+        "water_km2": 1830.0
+    },
+    "Population": {
+        "total": 112729484,
+        "density_per_km2": 363.45
+    },
+    "GDP PPP": {
+        "total": 1488000000000.0,
+        "per_capita": 12930.0
+    },
+    "GDP Nominal": {
+        "total": 497050000000.0,
+        "per_capita": 4350.0
+    },
+    "Gini": 39.3,
+    "HDI": 0.72,
+    "Currency": "Philippine peso"
+}

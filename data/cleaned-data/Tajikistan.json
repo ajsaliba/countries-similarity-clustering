@@ -1,0 +1,48 @@
+{
+    "Country": "Tajikistan",
+    "Capital": "Dushanbe",
+    "Official Languages": [
+        "Tajik",
+        "Russian"
+    ],
+    "Ethnic Groups": {
+        "Tajiks": 86.1,
+        "Uzbeks": 11.3,
+        "Kyrgyz": 0.4,
+        "Russians": 0.3,
+        "other": 1.9
+    },
+    "Demonym": "Tajikistani",
+    "Religions": {
+        "Islam": 97.5,
+        "Christianity": 0.7,
+        "irreligion": 1.7,
+        "others": 0.2
+    },
+    "Government type": "Unitary presidential republic under an authoritarian dictatorship",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Supreme Assembly",
+    "Area": {
+        "total_km2": 143100.0,
+        "land_km2": 140238.0,
+        "water_km2": 2862.0
+    },
+    "Population": {
+        "total": 10786734,
+        "density_per_km2": 75.4
+    },
+    "GDP PPP": {
+        "total": 67750000000.0,
+        "per_capita": 6434.0
+    },
+    "GDP Nominal": {
+        "total": 18940000000.0,
+        "per_capita": 1799.0
+    },
+    "Gini": 34.0,
+    "HDI": 0.691,
+    "Currency": "Somoni"
+}

@@ -1,0 +1,41 @@
+{
+    "Country": "Denmark",
+    "Capital": "Copenhagen",
+    "Official Languages": [
+        "Danish",
+        ";",
+        "locally:",
+        "Faroese",
+        "Greenlandic"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Danish",
+    "Religions": null,
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister",
+        "Prime Minister of the Faroe Islands",
+        "Prime Minister of Greenland"
+    ],
+    "Legislature": "Folketing , with some authority devolved to Løgting ( Faroe Islands ) and Inatsisartut ( Greenland )",
+    "Area": {
+        "total_km2": 42926.0,
+        "land_km2": 1396.0,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 6049579,
+        "density_per_km2": null
+    },
+    "GDP PPP": {
+        "total": 380000000000.0,
+        "per_capita": 62814.0
+    },
+    "GDP Nominal": {
+        "total": 418659000000.0,
+        "per_capita": 69205.0
+    },
+    "Gini": null,
+    "HDI": 0.948,
+    "Currency": "Danish krone"
+}

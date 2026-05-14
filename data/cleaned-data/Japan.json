@@ -1,0 +1,35 @@
+{
+    "Country": "Japan",
+    "Capital": "Tokyo",
+    "Official Languages": [
+        "Japanese"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Japanese",
+    "Religions": null,
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "National Diet",
+    "Area": {
+        "total_km2": 377975.0,
+        "land_km2": 372683.35,
+        "water_km2": 5291.65
+    },
+    "Population": {
+        "total": 122950000,
+        "density_per_km2": 330.0
+    },
+    "GDP PPP": {
+        "total": 6758000000000.0,
+        "per_capita": 54815.0
+    },
+    "GDP Nominal": {
+        "total": 4230000000000.0005,
+        "per_capita": 34713.0
+    },
+    "Gini": 32.3,
+    "HDI": 0.925,
+    "Currency": "Japanese yen"
+}

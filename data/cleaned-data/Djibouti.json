@@ -1,0 +1,47 @@
+{
+    "Country": "Djibouti",
+    "Capital": "Djibouti City",
+    "Official Languages": [
+        "Arabic",
+        "French"
+    ],
+    "Ethnic Groups": {
+        "Afar": 60.0,
+        "Arabs": 35.0
+    },
+    "Demonym": "Djiboutian",
+    "Religions": {
+        "Islam": 94.0,
+        "Sunni": 87.0,
+        "Non-denominational": 8.0,
+        "Shia": 2.0,
+        "Other": 3.0,
+        "Christianity": 6.0
+    },
+    "Government type": "Unitary dominant-party presidential republic under a hereditary dictatorship",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 23200.0,
+        "land_km2": 23179.12,
+        "water_km2": 20.88
+    },
+    "Population": {
+        "total": 1066809,
+        "density_per_km2": 46.0
+    },
+    "GDP PPP": {
+        "total": 7193000000.0,
+        "per_capita": 6985.0
+    },
+    "GDP Nominal": {
+        "total": 3873000000.0,
+        "per_capita": 3761.0
+    },
+    "Gini": 41.6,
+    "HDI": 0.513,
+    "Currency": "Djiboutian franc"
+}

@@ -1,0 +1,42 @@
+{
+    "Country": "Comoros",
+    "Capital": "Moroni",
+    "Official Languages": [
+        "Comorian",
+        "French",
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "Comorians": 97.1,
+        "Makua": 1.6,
+        "Others": 1.3
+    },
+    "Demonym": "Comorian",
+    "Religions": null,
+    "Government type": "Federal presidential republic",
+    "Government structure": [
+        "President",
+        "President of the Assembly"
+    ],
+    "Legislature": "Assembly of the Union",
+    "Area": {
+        "total_km2": 2235.0,
+        "land_km2": 2235.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 883075,
+        "density_per_km2": 457.0
+    },
+    "GDP PPP": {
+        "total": 3432000000.0,
+        "per_capita": 3463.0
+    },
+    "GDP Nominal": {
+        "total": 1364000000.0,
+        "per_capita": 1377.0
+    },
+    "Gini": 45.3,
+    "HDI": 0.603,
+    "Currency": "Comorian franc"
+}

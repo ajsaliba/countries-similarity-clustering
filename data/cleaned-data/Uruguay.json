@@ -1,0 +1,45 @@
+{
+    "Country": "Uruguay",
+    "Capital": "Montevideo",
+    "Official Languages": [
+        "Spanish",
+        "Uruguayan",
+        "Sign",
+        "Language"
+    ],
+    "Ethnic Groups": {
+        "White": 86.0,
+        "Black": 10.4,
+        "Indigenous": 6.3,
+        "East Asian": 0.7,
+        "other": 6.3
+    },
+    "Demonym": "Uruguayan",
+    "Religions": null,
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President"
+    ],
+    "Legislature": "General Assembly",
+    "Area": {
+        "total_km2": 176215.0,
+        "land_km2": 173571.78,
+        "water_km2": 2643.22
+    },
+    "Population": {
+        "total": 3499451,
+        "density_per_km2": 19.5
+    },
+    "GDP PPP": {
+        "total": 107946000000.0,
+        "per_capita": 36014.0
+    },
+    "GDP Nominal": {
+        "total": 82605000000.0,
+        "per_capita": 23088.0
+    },
+    "Gini": 40.6,
+    "HDI": 0.862,
+    "Currency": "Uruguayan peso"
+}

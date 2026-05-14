@@ -1,0 +1,51 @@
+{
+    "Country": "Afghanistan",
+    "Capital": "Kabul",
+    "Official Languages": [
+        "Pashto",
+        "Dari"
+    ],
+    "Ethnic Groups": {
+        "Pashtun": 42,
+        "Tajik": 27,
+        "Hazara": 9,
+        "Uzbek": 9,
+        "Aimaq": 4,
+        "Baloch": 2,
+        "Turkmen": 3,
+        "other": 4
+    },
+    "Religions": {
+        "Islam": {
+            "Sunni": 89.1,
+            "Shia": 10.8
+        },
+        "other": 0.1
+    },
+    "Government Type": "Unitary totalitarian theocratic Islamic emirate",
+    "Government Structure": [
+        "Supreme Leader",
+        "Prime Minister",
+        "Chief Justice"
+    ],
+    "Legislature": null,
+    "Area": {
+        "total_km2": 652230,
+        "land_km2": 652230,
+        "water_km2": 0
+    },
+    "Population": {
+        "total": 45047000,
+        "density_per_km2": 64
+    },
+    "GDP PPP": {
+        "total": 91668000000,
+        "per_capita": 2174
+    },
+    "GDP Nominal": {
+        "total": 17329000000,
+        "per_capita": 411
+    },
+    "HDI": 0.496,
+    "Currency": "Afghani"
+}

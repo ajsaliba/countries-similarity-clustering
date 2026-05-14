@@ -1,0 +1,44 @@
+{
+    "Country": "Lesotho",
+    "Capital": "Maseru",
+    "Official Languages": [
+        "Sesotho",
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Basotho": 99.7,
+        "others": 0.3
+    },
+    "Demonym": "Mosotho",
+    "Religions": {
+        "Christianity": 92.1,
+        "traditional faiths": 6.6,
+        "no religion": 1.0,
+        "others": 0.3
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 30355.0,
+        "land_km2": 30355.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 2210646,
+        "density_per_km2": 68.1
+    },
+    "GDP PPP": {
+        "total": 6915000000.0,
+        "per_capita": 3234.0
+    },
+    "GDP Nominal": {
+        "total": 2373000000.0,
+        "per_capita": 1110.0
+    },
+    "Gini": 44.9,
+    "HDI": 0.55,
+    "Currency": "Lesotho loti"
+}

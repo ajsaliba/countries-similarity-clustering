@@ -1,0 +1,50 @@
+{
+    "Country": "Belize",
+    "Capital": "Belmopan",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Mestizo": 52.9,
+        "Creole": 25.9,
+        "Mayan": 11.3,
+        "Garifuna": 6.1,
+        "East Indian": 3.9,
+        "Mennonite": 3.6,
+        "White": 1.2,
+        "Asian": 1.0,
+        "Other": 1.2,
+        "Unknown": 0.3
+    },
+    "Demonym": "Belizean",
+    "Religions": {
+        "Christianity": 61.9,
+        "no religion": 31.8,
+        "other": 6.3
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 22966.0,
+        "land_km2": 22782.27,
+        "water_km2": 183.73
+    },
+    "Population": {
+        "total": 397483,
+        "density_per_km2": 17.31
+    },
+    "GDP PPP": {
+        "total": 6414000000.0,
+        "per_capita": 15363.0
+    },
+    "GDP Nominal": {
+        "total": 3488000000.0,
+        "per_capita": 8355.0
+    },
+    "Gini": 53.1,
+    "HDI": 0.721,
+    "Currency": "Belize dollar"
+}

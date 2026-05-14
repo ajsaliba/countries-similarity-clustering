@@ -1,0 +1,54 @@
+{
+    "Country": "Ghana",
+    "Capital": "Accra",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Akan": 45.7,
+        "Mole-Dagbon": 18.5,
+        "Ewe": 12.8,
+        "Ga-Adangbe": 7.1,
+        "Gurma": 6.4,
+        "Guan": 3.2,
+        "Gurunsi": 2.7,
+        "Mande": 2.0,
+        "other": 1.6
+    },
+    "Demonym": "Ghanaian",
+    "Religions": {
+        "Christianity": 71.3,
+        "Islam": 19.9,
+        "traditional faiths": 3.2,
+        "irreligion": 1.1,
+        "other": 4.5
+    },
+    "Government type": "Twi Fante Ewe Dagaare Dagbanli Adangme Ga Gonja Kasem Nzema",
+    "Government structure": [
+        "President",
+        "Vice-President",
+        "Speaker of Parliament",
+        "Chief Justice"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 240000.0,
+        "land_km2": 228936.0,
+        "water_km2": 11064.0
+    },
+    "Population": {
+        "total": 35039451,
+        "density_per_km2": 151.0
+    },
+    "GDP PPP": {
+        "total": 295120000000.0,
+        "per_capita": 8042.0
+    },
+    "GDP Nominal": {
+        "total": 88033000000.0,
+        "per_capita": 2520.0
+    },
+    "Gini": 44.0,
+    "HDI": 0.628,
+    "Currency": "Cedi"
+}

@@ -1,0 +1,59 @@
+{
+    "Country": "Cameroon",
+    "Capital": "Yaoundé",
+    "Official Languages": [
+        "French",
+        "•",
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Bamileke , Bamun": 22.2,
+        "Biu-Mandara": 16.4,
+        "Shuwa Arab , Hausa and Kanuri": 13.5,
+        "Beti - Bassa": 13.1,
+        "Fulani": 12.0,
+        "Tikar": 9.9,
+        "Adamawa-Ubangi ( Mbum - Gbaya )": 9.8,
+        "Sawa people": 4.6,
+        "Southwest Bantu": 4.3,
+        "Pygmy peoples": 2.3,
+        "others/foreigners": 3.8
+    },
+    "Demonym": "Cameroonian",
+    "Religions": {
+        "Christianity": 66.3,
+        "Islam": 30.6,
+        "traditional faiths": {
+            "no religion": 1.1
+        },
+        "others": 0.7
+    },
+    "Government type": "Unitary presidential republic under a dictatorship",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "President of Senate",
+        "President of National Assembly"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 475442.0,
+        "land_km2": 472731.98,
+        "water_km2": 2710.02
+    },
+    "Population": {
+        "total": 30987821,
+        "density_per_km2": 39.7
+    },
+    "GDP PPP": {
+        "total": 183320000000.0,
+        "per_capita": 5.96
+    },
+    "GDP Nominal": {
+        "total": 67519999999.99999,
+        "per_capita": 2200.0
+    },
+    "Gini": 42.2,
+    "HDI": 0.588,
+    "Currency": "Central African CFA franc"
+}

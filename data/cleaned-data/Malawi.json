@@ -1,0 +1,61 @@
+{
+    "Country": "Malawi",
+    "Capital": "Lilongwe",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Chewa": 25.2,
+        "Tumbuka": 20.4,
+        "Lomwe": 16.4,
+        "Yao": 15.3,
+        "Ngoni": 6.4,
+        "Sena": 5.9,
+        "Mang'anja": 3.8,
+        "Tonga": 1.8,
+        "Ngonde": 1.5,
+        "Lambya": 0.6,
+        "Sukwa": 0.5,
+        "other": 1.1
+    },
+    "Demonym": "Malawian",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": 58.5,
+            "Catholicism": 17.2,
+            "other Christian": 6.6
+        },
+        "Islam": 13.8,
+        "none": 2.1,
+        "traditional faiths": 1.2,
+        "other": 0.6
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice-President",
+        "House Speaker",
+        "Chief Justice"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 118484.0,
+        "land_km2": 94076.3,
+        "water_km2": 24407.7
+    },
+    "Population": {
+        "total": 21240689,
+        "density_per_km2": 153.1
+    },
+    "GDP PPP": {
+        "total": 37919000000.0,
+        "per_capita": 1668.0
+    },
+    "GDP Nominal": {
+        "total": 13176000000.0,
+        "per_capita": 579.0
+    },
+    "Gini": 44.7,
+    "HDI": 0.517,
+    "Currency": "Malawian kwacha"
+}

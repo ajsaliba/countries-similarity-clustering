@@ -1,0 +1,47 @@
+{
+    "Country": "Tanzania",
+    "Capital": "Dodoma",
+    "Official Languages": [
+        "Swahili",
+        "English"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Tanzanian",
+    "Religions": {
+        "Christianity": 63.1,
+        "Islam": 34.1,
+        "no religion": {
+            "traditional faiths": 1.2,
+            "others": 0.1
+        }
+    },
+    "Government type": "Unitary dominant-party presidential republic",
+    "Government structure": [
+        "President",
+        "Vice-President",
+        "Prime Minister",
+        "Speaker",
+        "Chief Justice"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 947303.0,
+        "land_km2": 886675.61,
+        "water_km2": 60627.39
+    },
+    "Population": {
+        "total": 67462121,
+        "density_per_km2": 65.2
+    },
+    "GDP PPP": {
+        "total": 293590000000.0,
+        "per_capita": 4370.0
+    },
+    "GDP Nominal": {
+        "total": 88980000000.0,
+        "per_capita": 1280.0
+    },
+    "Gini": 40.5,
+    "HDI": 0.555,
+    "Currency": "Tanzanian shilling"
+}

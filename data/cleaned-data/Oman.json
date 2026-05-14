@@ -1,0 +1,39 @@
+{
+    "Country": "Oman",
+    "Capital": "Muscat",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Omani",
+    "Religions": {
+        "Islam": 95.0,
+        "Hinduism": 1.67,
+        "Christianity": {
+            "others": 1.66
+        }
+    },
+    "Government type": "Unitary Islamic absolute monarchy",
+    "Government structure": null,
+    "Legislature": "Council of Oman",
+    "Area": {
+        "total_km2": 315331.0,
+        "land_km2": 315331.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 5494691,
+        "density_per_km2": 15.0
+    },
+    "GDP PPP": {
+        "total": 231160000000.0,
+        "per_capita": 42010.0
+    },
+    "GDP Nominal": {
+        "total": 104350000000.0,
+        "per_capita": 18097.0
+    },
+    "Gini": 30.75,
+    "HDI": 0.858,
+    "Currency": "Omani rial"
+}

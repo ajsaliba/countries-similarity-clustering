@@ -1,0 +1,50 @@
+{
+    "Country": "China",
+    "Capital": "Beijing",
+    "Official Languages": [
+        "Standard Chinese"
+    ],
+    "Ethnic Groups": {
+        "Han Chinese": 91.11,
+        "Zhuang": 1.39,
+        "Uyghur": 0.84,
+        "Hui": 0.81,
+        "Miao": 0.79,
+        "Manchu": 0.74,
+        "Yi": 0.7,
+        "Tujia": 0.68,
+        "Tibetan": 0.5,
+        "others": 2.44
+    },
+    "Demonym": "Chinese",
+    "Religions": null,
+    "Government type": "Unitary communist state",
+    "Government structure": [
+        "CCP General Secretary and President",
+        "Premier",
+        "Congress Chairman",
+        "CPPCC Chairman",
+        "Vice President"
+    ],
+    "Legislature": "National People's Congress",
+    "Area": {
+        "total_km2": 9596961,
+        "land_km2": 9328246,
+        "water_km2": 268715
+    },
+    "Population": {
+        "total": 1404890000,
+        "density_per_km2": 146
+    },
+    "GDP PPP": {
+        "total": 44295000000000,
+        "per_capita": 31596
+    },
+    "GDP Nominal": {
+        "total": 20852000000000,
+        "per_capita": 14874
+    },
+    "Gini": 36.0,
+    "HDI": 0.797,
+    "Currency": "Renminbi"
+}

@@ -1,0 +1,51 @@
+{
+    "Country": "Palestine",
+    "Capital": "Jerusalem ( limited recognition ) Ramallah ( de facto )",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "Palestinian Arabs": 91.2,
+        "Israeli Jews": 8.8
+    },
+    "Demonym": "Palestinian",
+    "Religions": {
+        "Islam": {
+            "Sunni": 71.21,
+            "Shia": 0.09,
+            "other": 9.42
+        },
+        "Judaism": 13.07,
+        "Christianity": 0.88,
+        "Baháʼí Faith": 0.05,
+        "irreligion": 5.27
+    },
+    "Government type": "Unitary provisional semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "Prime Minister",
+        "Speaker of the Parliament"
+    ],
+    "Legislature": "Legislative Council",
+    "Area": {
+        "total_km2": 6020.0,
+        "land_km2": 5809.3,
+        "water_km2": 210.7
+    },
+    "Population": {
+        "total": 5483450,
+        "density_per_km2": 731.0
+    },
+    "GDP PPP": {
+        "total": 36391000000.0,
+        "per_capita": 6642.0
+    },
+    "GDP Nominal": {
+        "total": 18109000000.0,
+        "per_capita": 3464.0
+    },
+    "Gini": 33.7,
+    "HDI": 0.674,
+    "Currency": "Israeli new shekel Jordanian dinar Egyptian pound"
+}

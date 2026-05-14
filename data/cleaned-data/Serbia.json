@@ -1,0 +1,53 @@
+{
+    "Country": "Serbia",
+    "Capital": "Belgrade",
+    "Official Languages": [
+        "Serbian"
+    ],
+    "Ethnic Groups": {
+        "Serbs": 80.6,
+        "Hungarians": 2.8,
+        "Bosniaks": 2.3,
+        "Roma": 2.0,
+        "others": 5.4,
+        "undeclared/unknown": 6.9
+    },
+    "Demonym": "Serbian",
+    "Religions": {
+        "Christianity": {
+            "Eastern Orthodoxy": 81.1,
+            "Catholicism": 3.9,
+            "other": 1.7
+        },
+        "Islam": 4.2,
+        "no religion": 1.1,
+        "undeclared/unknown": 7.9
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "President of the National Assembly"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 88499.0,
+        "land_km2": null,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 6567783,
+        "density_per_km2": 85.0
+    },
+    "GDP PPP": {
+        "total": 225550000000.0,
+        "per_capita": 34790.0
+    },
+    "GDP Nominal": {
+        "total": 112110000000.0,
+        "per_capita": 17290.0
+    },
+    "Gini": 31.9,
+    "HDI": 0.833,
+    "Currency": "Serbian dinar"
+}

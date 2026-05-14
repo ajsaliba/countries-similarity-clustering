@@ -1,0 +1,51 @@
+{
+    "Country": "Sri Lanka",
+    "Capital": "Sri Jayawardenepura Kotte (legislative) Colombo (executive and judicial)",
+    "Official Languages": [
+        "Sinhala",
+        "Tamil"
+    ],
+    "Ethnic Groups": {
+        "Sinhalese": 74.1,
+        "Sri Lankan Tamils": 12.3,
+        "Sri Lankan Moors": 10.5,
+        "Indian Tamils": 2.8,
+        "other": 0.3
+    },
+    "Demonym": "Sri",
+    "Religions": {
+        "Buddhism": 69.8,
+        "Hinduism": 12.6,
+        "Islam": 10.7,
+        "Christianity": 6.9,
+        "other/none": 0.1
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Speaker of the Parliament",
+        "Chief Justice"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 67240.0,
+        "land_km2": 64281.44,
+        "water_km2": 2958.56
+    },
+    "Population": {
+        "total": 23300000,
+        "density_per_km2": 337.7
+    },
+    "GDP PPP": {
+        "total": 342600000000.0,
+        "per_capita": 15632.0
+    },
+    "GDP Nominal": {
+        "total": 98900000000.0,
+        "per_capita": 4516.0
+    },
+    "Gini": 39.8,
+    "HDI": 0.776,
+    "Currency": "Sri Lankan rupee"
+}

@@ -1,0 +1,43 @@
+{
+    "Country": "Australia",
+    "Capital": "Canberra",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Australian",
+    "Religions": {
+        "Christianity": 43.9,
+        "no religion": 38.9,
+        "Islam": 3.2,
+        "Hinduism": 2.7,
+        "Buddhism": 2.4,
+        "other": 1.7,
+        "unanswered": 7.2
+    },
+    "Government type": "Federal parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 7688287.0,
+        "land_km2": 7550666.66,
+        "water_km2": 137620.34
+    },
+    "Population": {
+        "total": 27840775,
+        "density_per_km2": 3.7
+    },
+    "GDP PPP": {
+        "total": 1982000000000.0,
+        "per_capita": 71431.0
+    },
+    "GDP Nominal": {
+        "total": 1830000000000.0,
+        "per_capita": 65946.0
+    },
+    "Gini": 32.4,
+    "HDI": 0.958,
+    "Currency": "Australian dollar"
+}

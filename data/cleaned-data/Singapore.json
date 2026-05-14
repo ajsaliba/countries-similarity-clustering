@@ -1,0 +1,53 @@
+{
+    "Country": "Singapore",
+    "Capital": "Singapore ( city-state )",
+    "Official Languages": [
+        "English",
+        "Malay",
+        "Mandarin",
+        "Tamil"
+    ],
+    "Ethnic Groups": {
+        "Chinese": 74.3,
+        "Malay": 13.5,
+        "Indian": 9.0,
+        "Other": 3.2
+    },
+    "Demonym": "Singaporean",
+    "Religions": {
+        "Buddhism": 31.1,
+        "No religion": 20.0,
+        "Christianity": 18.9,
+        "Islam": 15.6,
+        "Taoism": 8.8,
+        "Hinduism": 5.0,
+        "Sikhism": 0.3,
+        "Other": 0.3
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 744.3,
+        "land_km2": 733.66,
+        "water_km2": 10.64
+    },
+    "Population": {
+        "total": 6110200,
+        "density_per_km2": 290.0
+    },
+    "GDP PPP": {
+        "total": 952600000000.0,
+        "per_capita": 156755.0
+    },
+    "GDP Nominal": {
+        "total": 564700000000.0,
+        "per_capita": 93956.0
+    },
+    "Gini": 43.3,
+    "HDI": 0.946,
+    "Currency": "Singapore dollar"
+}

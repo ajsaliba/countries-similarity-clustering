@@ -1,0 +1,43 @@
+{
+    "Country": "Russia",
+    "Capital": "Moscow",
+    "Official Languages": [
+        "Russian"
+    ],
+    "Ethnic Groups": {
+        "Russian": 71.7,
+        "Tatar": 3.2,
+        "Bashkir": 1.1,
+        "Chechen": 1.1,
+        "other": 11.3,
+        "not reported": 11.6
+    },
+    "Demonym": "Russian",
+    "Religions": null,
+    "Government type": "Federal semi-presidential republic under an authoritarian dictatorship",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Federal Assembly",
+    "Area": {
+        "total_km2": 17098246.0,
+        "land_km2": 14875474.02,
+        "water_km2": 2222771.98
+    },
+    "Population": {
+        "total": 146028325,
+        "density_per_km2": 8.4
+    },
+    "GDP PPP": {
+        "total": 7143000000000.0,
+        "per_capita": 49049.0
+    },
+    "GDP Nominal": {
+        "total": 2541000000000.0,
+        "per_capita": 17446.0
+    },
+    "Gini": 36.0,
+    "HDI": 0.832,
+    "Currency": "Russian ruble"
+}

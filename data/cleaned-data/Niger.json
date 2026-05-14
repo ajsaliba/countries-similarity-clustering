@@ -1,0 +1,53 @@
+{
+    "Country": "Niger",
+    "Capital": "Niamey",
+    "Official Languages": [
+        "Hausa"
+    ],
+    "Ethnic Groups": {
+        "Hausa": 53.1,
+        "Zarma and Songhay": 21.2,
+        "Tuareg": 11.0,
+        "Fulani": 6.5,
+        "Kanuri": 5.9,
+        "Gurma": 0.8,
+        "Toubou": 0.4,
+        "Arab": 0.4,
+        "others": 0.9
+    },
+    "Demonym": "Nigerien",
+    "Religions": {
+        "Islam": 99.3,
+        "Christianity": {
+            "Animism": 0.2
+        },
+        "irreligion": 0.1
+    },
+    "Government type": "Unitary semi-presidential republic under a military junta",
+    "Government structure": [
+        "President and President of the National Council for the Safeguard of the Homeland",
+        "Vice President of the National Council for the Safeguard of the Homeland",
+        "Prime Minister"
+    ],
+    "Legislature": "National Council for the Safeguard of the Homeland",
+    "Area": {
+        "total_km2": 1267000.0,
+        "land_km2": 1266746.6,
+        "water_km2": 253.4
+    },
+    "Population": {
+        "total": 26342784,
+        "density_per_km2": 21.0
+    },
+    "GDP PPP": {
+        "total": 61040000000.0,
+        "per_capita": 2100.0
+    },
+    "GDP Nominal": {
+        "total": 21870000000.0,
+        "per_capita": 751.0
+    },
+    "Gini": 32.9,
+    "HDI": 0.419,
+    "Currency": "West African CFA franc"
+}

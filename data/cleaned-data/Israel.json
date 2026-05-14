@@ -1,0 +1,49 @@
+{
+    "Country": "Israel",
+    "Capital": "Jerusalem ( limited recognition )",
+    "Official Languages": [
+        "Hebrew"
+    ],
+    "Ethnic Groups": {
+        "Jews": 71.9,
+        "Arabs": 21.0,
+        "others": 7.1
+    },
+    "Demonym": "Israeli",
+    "Religions": {
+        "Judaism": 73.7,
+        "Islam": 18.3,
+        "Christianity": {
+            "Druze faith": 1.6
+        },
+        "others": 4.5
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Knesset Speaker",
+        "Chief Justice"
+    ],
+    "Legislature": "Knesset",
+    "Area": {
+        "total_km2": 20770.0,
+        "land_km2": 20207.13,
+        "water_km2": 562.87
+    },
+    "Population": {
+        "total": 10147200,
+        "density_per_km2": 462.0
+    },
+    "GDP PPP": {
+        "total": 567550000000.0,
+        "per_capita": 55770.0
+    },
+    "GDP Nominal": {
+        "total": 610750000000.0,
+        "per_capita": 60010.0
+    },
+    "Gini": 37.9,
+    "HDI": 0.919,
+    "Currency": "New shekel"
+}

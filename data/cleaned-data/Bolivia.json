@@ -1,0 +1,51 @@
+{
+    "Country": "Bolivia",
+    "Capital": "Sucre",
+    "Official Languages": [
+        "Spanish",
+        "Quechua",
+        "Aymara",
+        "Guarani",
+        "Other",
+        "indigenous",
+        "languages"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Bolivian",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 81.4,
+            "other Christian": 11.4
+        },
+        "no religion": 6.5,
+        "other": 0.7
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "President of the Senate",
+        "President of the Chamber of Deputies"
+    ],
+    "Legislature": "Plurinational Legislative Assembly",
+    "Area": {
+        "total_km2": 1098581.0,
+        "land_km2": 1084409.31,
+        "water_km2": 14171.69
+    },
+    "Population": {
+        "total": 11365333,
+        "density_per_km2": 10.4
+    },
+    "GDP PPP": {
+        "total": 144098000000.0,
+        "per_capita": 11574.0
+    },
+    "GDP Nominal": {
+        "total": 56339000000.0,
+        "per_capita": 4525.0
+    },
+    "Gini": 40.9,
+    "HDI": 0.733,
+    "Currency": "Boliviano"
+}

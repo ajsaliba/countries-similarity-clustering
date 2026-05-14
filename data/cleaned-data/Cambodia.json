@@ -1,0 +1,47 @@
+{
+    "Country": "Cambodia",
+    "Capital": "Phnom Penh",
+    "Official Languages": [
+        "Khmer"
+    ],
+    "Ethnic Groups": {
+        "Khmer": 95.4,
+        "Cham": 2.4,
+        "Chinese": 1.5,
+        "others": 0.8
+    },
+    "Demonym": "Cambodian",
+    "Religions": {
+        "Buddhism": 96.5,
+        "Islam": 2.6,
+        "Christianity": 0.3,
+        "others": 0.5
+    },
+    "Government type": "Unitary parliamentary constitutional elective monarchy under a hereditary dictatorship",
+    "Government structure": [
+        "Prime Minister",
+        "President of the Senate",
+        "President of the National Assembly"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 181035.0,
+        "land_km2": 176509.12,
+        "water_km2": 4525.88
+    },
+    "Population": {
+        "total": 17638801,
+        "density_per_km2": 94.4
+    },
+    "GDP PPP": {
+        "total": 150050000000.0,
+        "per_capita": 8650.0
+    },
+    "GDP Nominal": {
+        "total": 49800000000.0,
+        "per_capita": 2870.0
+    },
+    "Gini": 23.6,
+    "HDI": 0.606,
+    "Currency": "Riel"
+}

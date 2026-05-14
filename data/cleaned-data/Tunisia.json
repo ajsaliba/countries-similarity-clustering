@@ -1,0 +1,43 @@
+{
+    "Country": "Tunisia",
+    "Capital": "Tunis",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "Arabs": 98.0,
+        "Berbers": 1.0,
+        "Jews and others": 1.0
+    },
+    "Demonym": "Tunisian",
+    "Religions": {
+        "Sunni Islam": 99.0,
+        "others": 1.0
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 163610.0,
+        "land_km2": 155364.06,
+        "water_km2": 8245.94
+    },
+    "Population": {
+        "total": 11972169,
+        "density_per_km2": 79.0
+    },
+    "GDP PPP": {
+        "total": 183730000000.0,
+        "per_capita": 14780.0
+    },
+    "GDP Nominal": {
+        "total": 56290000000.0,
+        "per_capita": 4530.0
+    },
+    "Gini": 33.7,
+    "HDI": 0.746,
+    "Currency": "Tunisian dinar"
+}

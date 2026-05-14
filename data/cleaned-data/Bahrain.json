@@ -1,0 +1,45 @@
+{
+    "Country": "Bahrain",
+    "Capital": "Manama",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "Arabs": 53.2,
+        "South Asians": 43.4,
+        "Africans": 1.4,
+        "North Americans": 1.1,
+        "others": 0.1
+    },
+    "Demonym": "Bahraini",
+    "Religions": {
+        "Islam": 74.0,
+        "non-Muslim": 26.0
+    },
+    "Government type": "Unitary semi-constitutional monarchy under an authoritarian government",
+    "Government structure": [
+        "King",
+        "Crown Prince and Prime Minister"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 786.8,
+        "land_km2": 786.8,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 1463265,
+        "density_per_km2": 864.0
+    },
+    "GDP PPP": {
+        "total": 118060000000.0,
+        "per_capita": 71460.0
+    },
+    "GDP Nominal": {
+        "total": 49190000000.0,
+        "per_capita": 29780.0
+    },
+    "Gini": null,
+    "HDI": 0.899,
+    "Currency": "Bahraini dinar"
+}

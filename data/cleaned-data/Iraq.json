@@ -1,0 +1,47 @@
+{
+    "Country": "Iraq",
+    "Capital": "Baghdad",
+    "Official Languages": [
+        "Arabic",
+        "Kurdish"
+    ],
+    "Ethnic Groups": {
+        "Arabs 15–": 80.0,
+        "Kurds 5–": 20.0,
+        "Assyrians , Turkmen , Jews , Persians , Yazidis , Mandaeans , and others": 10.0
+    },
+    "Demonym": "Iraqi",
+    "Religions": {
+        "Islam": 95.0,
+        "Shia": 61.0,
+        "Sunni 5–": 35.0,
+        "Christianity , Mandaeism , Yazidism , Judaism , Yarsanism , irreligion and others": 10.0
+    },
+    "Government type": "Federal parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Speaker"
+    ],
+    "Legislature": "Council of Representatives",
+    "Area": {
+        "total_km2": 438317.0,
+        "land_km2": 416707.97,
+        "water_km2": 21609.03
+    },
+    "Population": {
+        "total": 46118793,
+        "density_per_km2": 82.7
+    },
+    "GDP PPP": {
+        "total": 690090000000.0,
+        "per_capita": 15180.0
+    },
+    "GDP Nominal": {
+        "total": 258019999999.99997,
+        "per_capita": 5670.0
+    },
+    "Gini": 29.5,
+    "HDI": 0.712,
+    "Currency": "Iraqi dinar"
+}

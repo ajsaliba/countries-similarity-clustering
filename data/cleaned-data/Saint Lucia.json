@@ -1,0 +1,46 @@
+{
+    "Country": "Saint Lucia",
+    "Capital": "Castries",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "African": 85.3,
+        "Mixed": 10.9,
+        "Indian": 2.2,
+        "other/ unspecified": 1.6
+    },
+    "Demonym": "Saint",
+    "Religions": {
+        "Christianity": 77.4,
+        "no religion": 14.4,
+        "Rastafari": 1.4,
+        "other": 2.7,
+        "not stated": 4.1
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 617.0,
+        "land_km2": 607.13,
+        "water_km2": 9.87
+    },
+    "Population": {
+        "total": 184100,
+        "density_per_km2": 298.0
+    },
+    "GDP PPP": {
+        "total": 3769000000.0,
+        "per_capita": 29258.0
+    },
+    "GDP Nominal": {
+        "total": 2715000000.0,
+        "per_capita": 14647.0
+    },
+    "Gini": 51.2,
+    "HDI": 0.748,
+    "Currency": "East Caribbean dollar"
+}

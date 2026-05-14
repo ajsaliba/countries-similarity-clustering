@@ -1,0 +1,45 @@
+{
+    "Country": "Argentina",
+    "Capital": "Buenos Aires",
+    "Official Languages": [
+        "Spanish"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Argentine",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 62.9,
+            "other Christian": 15.3
+        },
+        "no religion": 20.5,
+        "other": 1.3
+    },
+    "Government type": "Federal presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "President of the Chamber of Deputies",
+        "President of Supreme Court"
+    ],
+    "Legislature": "National Congress",
+    "Area": {
+        "total_km2": 2780085.0,
+        "land_km2": 2736437.67,
+        "water_km2": 43647.33
+    },
+    "Population": {
+        "total": 46735004,
+        "density_per_km2": 16.8
+    },
+    "GDP PPP": {
+        "total": 1493000000000.0,
+        "per_capita": 31379.0
+    },
+    "GDP Nominal": {
+        "total": 683533000000.0,
+        "per_capita": 14362.0
+    },
+    "Gini": 40.7,
+    "HDI": 0.865,
+    "Currency": "Argentine peso"
+}

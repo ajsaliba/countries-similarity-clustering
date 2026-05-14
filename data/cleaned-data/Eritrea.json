@@ -1,0 +1,45 @@
+{
+    "Country": "Eritrea",
+    "Capital": "Asmara",
+    "Official Languages": [
+        "None"
+    ],
+    "Ethnic Groups": {
+        "Tigrinya": 50.0,
+        "Tigre": 30.0,
+        "Saho": 4.0,
+        "Afar": 4.0,
+        "Kunama": 4.0,
+        "Bilen": 3.0,
+        "Beja": 2.0,
+        "Nara": 2.0,
+        "Rashaida": 1.0
+    },
+    "Demonym": "Eritrean",
+    "Religions": null,
+    "Government type": "Unitary one-party presidential republic under a totalitarian dictatorship",
+    "Government structure": [
+        "President"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 120000.0,
+        "land_km2": 120000.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 3,
+        "density_per_km2": 29.0
+    },
+    "GDP PPP": {
+        "total": 6369000000.0,
+        "per_capita": 1821.0
+    },
+    "GDP Nominal": {
+        "total": 1982000000.0,
+        "per_capita": 567.0
+    },
+    "Gini": null,
+    "HDI": 0.503,
+    "Currency": "Nakfa"
+}

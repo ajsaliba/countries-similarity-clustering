@@ -1,0 +1,41 @@
+{
+    "Country": "Mauritania",
+    "Capital": "Nouakchott",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "Haratin": 40.0,
+        "Beidane": 30.0,
+        "Halpulaar , Fulani , Soninké , and Wolof": 30.0
+    },
+    "Demonym": "Mauritanian",
+    "Religions": null,
+    "Government type": "Unitary semi-presidential Islamic republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "President of the National Assembly"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 1030000.0,
+        "land_km2": null,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 5461319,
+        "density_per_km2": 3.4
+    },
+    "GDP PPP": {
+        "total": 40060000000.0,
+        "per_capita": 8650.0
+    },
+    "GDP Nominal": {
+        "total": 11470000000.0,
+        "per_capita": 2480.0
+    },
+    "Gini": 32.6,
+    "HDI": 0.563,
+    "Currency": "Ouguiya"
+}

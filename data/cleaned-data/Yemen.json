@@ -1,0 +1,49 @@
+{
+    "Country": "Yemen",
+    "Capital": "Sanaa",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "Arabs": 92.8,
+        "Somalis": 3.7,
+        "Afro-Arabs": 1.1,
+        "Indo - Pakistani": 1.0,
+        "other": 1.4
+    },
+    "Demonym": "Yemeni",
+    "Religions": {
+        "Islam": 99.1,
+        "Sunni": 65.0,
+        "Zaydi ~": 35.0,
+        "other": 0.9
+    },
+    "Government type": "Aden",
+    "Government structure": [
+        "President of the Presidential Leadership Council",
+        "Prime Minister",
+        "President of the House of Representatives",
+        "Speaker of the Shura Council"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 455503.0,
+        "land_km2": 455503.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 32684503,
+        "density_per_km2": 71.8
+    },
+    "GDP PPP": {
+        "total": 69960000000.0,
+        "per_capita": 1670.0
+    },
+    "GDP Nominal": {
+        "total": 17400000000.0,
+        "per_capita": 416.0
+    },
+    "Gini": 36.7,
+    "HDI": 0.47,
+    "Currency": "Yemeni rial"
+}

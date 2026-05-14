@@ -1,0 +1,52 @@
+{
+    "Country": "Indonesia",
+    "Capital": "Jakarta",
+    "Official Languages": [
+        "Indonesian"
+    ],
+    "Ethnic Groups": {
+        "Javanese": 40.2,
+        "Sundanese": 15.5,
+        "Malay": 3.7,
+        "Batak": 3.6,
+        "Madurese": 3.0,
+        "others ( 600+ ethnic groups )": 34.0
+    },
+    "Demonym": "Indonesian",
+    "Religions": {
+        "Islam": 87.1,
+        "Christianity": {
+            "Protestantism": 7.38,
+            "Catholicism": 3.07
+        },
+        "Hinduism": 1.7,
+        "Buddhism , Folk , Confucianism , and others": 0.8
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "House Speaker"
+    ],
+    "Legislature": "People's Consultative Assembly (MPR)",
+    "Area": {
+        "total_km2": 1904569.0,
+        "land_km2": 1812197.4,
+        "water_km2": 92371.6
+    },
+    "Population": {
+        "total": 288,
+        "density_per_km2": 143.0
+    },
+    "GDP PPP": {
+        "total": 5009000000000.0,
+        "per_capita": 17612.0
+    },
+    "GDP Nominal": {
+        "total": 1430000000000.0,
+        "per_capita": 5027.0
+    },
+    "Gini": 37.9,
+    "HDI": 0.728,
+    "Currency": "Indonesian rupiah"
+}

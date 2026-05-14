@@ -1,0 +1,43 @@
+{
+    "Country": "Cuba",
+    "Capital": "Havana",
+    "Official Languages": [
+        "Spanish"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Cuban",
+    "Religions": {
+        "Christianity": 58.9,
+        "no religion": 23.2,
+        "folk religions": 17.6,
+        "other": 0.3
+    },
+    "Government type": "Communist state",
+    "Government structure": [
+        "First Secretary and President",
+        "Vice President",
+        "Prime Minister",
+        "President of the National Assembly"
+    ],
+    "Legislature": "National Assembly of People's Power",
+    "Area": {
+        "total_km2": 110860.0,
+        "land_km2": 109817.92,
+        "water_km2": 1042.08
+    },
+    "Population": {
+        "total": 9748007,
+        "density_per_km2": 89.8
+    },
+    "GDP PPP": {
+        "total": 254865000000.0,
+        "per_capita": 22237.0
+    },
+    "GDP Nominal": {
+        "total": 252063000000.0,
+        "per_capita": 22957.0
+    },
+    "Gini": 38.0,
+    "HDI": 0.762,
+    "Currency": "Cuban peso"
+}

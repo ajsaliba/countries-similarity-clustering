@@ -1,0 +1,87 @@
+{
+    "Country": "South Africa",
+    "Capital": "Pretoria (executive) Cape Town (legislative) Bloemfontein (judicial)",
+    "Official Languages": [
+        "12",
+        "languages",
+        "Afrikaans",
+        "English",
+        "Ndebele",
+        "Sepedi",
+        "Sesotho",
+        "Setswana",
+        "South",
+        "African",
+        "Sign",
+        "Language",
+        "Swazi",
+        "Tshivenda",
+        "Xhosa",
+        "Xitsonga",
+        "Zulu",
+        "Languages",
+        "with",
+        "special",
+        "status",
+        "Khoe",
+        "languages",
+        "Nama",
+        "Khoisan",
+        "languages",
+        "German",
+        "Greek",
+        "Gujarati",
+        "Hindi",
+        "Portuguese",
+        "Telugu",
+        "Tamil",
+        "Urdu",
+        "Arabic",
+        "Hebrew",
+        "Sanskrit"
+    ],
+    "Ethnic Groups": {
+        "Black": 81.4,
+        "Coloured": 8.2,
+        "White": 7.3,
+        "Indian or Asian": 2.7,
+        "other": 0.4
+    },
+    "Demonym": "South",
+    "Religions": {
+        "Christianity": 85.3,
+        "Traditional faiths": 7.8,
+        "No religion": 3.1,
+        "Islam": 1.6,
+        "Hinduism": 1.1,
+        "other": 1.1
+    },
+    "Government type": "Unitary parliamentary republic with an executive presidency",
+    "Government structure": [
+        "President",
+        "Deputy President",
+        "Speaker of the National Assembly",
+        "Chief Justice"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 1221037.0,
+        "land_km2": 1216397.06,
+        "water_km2": 4639.94
+    },
+    "Population": {
+        "total": 63015904,
+        "density_per_km2": 50.8
+    },
+    "GDP PPP": {
+        "total": 1060000000000.0,
+        "per_capita": 16280.0
+    },
+    "GDP Nominal": {
+        "total": 443640000000.0,
+        "per_capita": 6830.0
+    },
+    "Gini": 63.0,
+    "HDI": 0.741,
+    "Currency": "South African rand"
+}

@@ -1,0 +1,42 @@
+{
+    "Country": "San Marino",
+    "Capital": "City of San Marino",
+    "Official Languages": [
+        "Italian"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Sammarinese",
+    "Religions": {
+        "Catholicism": 90.3,
+        "no religion": 7.5,
+        "Other Christian denominations": {
+            "Judaism": 0.1,
+            "Islam": {
+                "other": 0.34
+            }
+        }
+    },
+    "Government type": "Unitary parliamentary diarchic directorial republic",
+    "Government structure": null,
+    "Legislature": "Grand and General Council",
+    "Area": {
+        "total_km2": 61.19,
+        "land_km2": 61.19,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 34172,
+        "density_per_km2": 579.0
+    },
+    "GDP PPP": {
+        "total": 2978000000.0,
+        "per_capita": 86989.0
+    },
+    "GDP Nominal": {
+        "total": 2033999999.9999998,
+        "per_capita": 59405.0
+    },
+    "Gini": null,
+    "HDI": 0.915,
+    "Currency": "Euro"
+}

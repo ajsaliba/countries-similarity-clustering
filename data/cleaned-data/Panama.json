@@ -1,0 +1,50 @@
+{
+    "Country": "Panama",
+    "Capital": "Panama City",
+    "Official Languages": [
+        "Spanish"
+    ],
+    "Ethnic Groups": {
+        "Mestizo (mixed White and Indigenous )": 65.0,
+        "Indigenous": 12.3,
+        "Black": 9.2,
+        "Mulatto (mixed White and Black )": 6.8,
+        "White": 6.7
+    },
+    "Demonym": "Panamanian",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 63.2,
+            "Protestantism": 25.0,
+            "other Christian": 3.3
+        },
+        "no religion": 7.6,
+        "other": 0.9
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 75417.0,
+        "land_km2": 73229.91,
+        "water_km2": 2187.09
+    },
+    "Population": {
+        "total": 4337768,
+        "density_per_km2": 56.0
+    },
+    "GDP PPP": {
+        "total": 195279000000.0,
+        "per_capita": 42772.0
+    },
+    "GDP Nominal": {
+        "total": 91731000000.0,
+        "per_capita": 20092.0
+    },
+    "Gini": 48.9,
+    "HDI": 0.839,
+    "Currency": "Balboa"
+}

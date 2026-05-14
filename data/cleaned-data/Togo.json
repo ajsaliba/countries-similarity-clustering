@@ -1,0 +1,51 @@
+{
+    "Country": "Togo",
+    "Capital": "Lomé",
+    "Official Languages": [
+        "French"
+    ],
+    "Ethnic Groups": {
+        ") Aja , Ewe and Mina (": 94.4,
+        ") Kabye and Tem (": 42.4,
+        ") Akan and Gurma (": 25.9,
+        ") Kposo and Akebu (": 17.1,
+        ") Ana-Ife (": 4.1,
+        ") Other West African groups (": 3.2,
+        ") non-African (": 1.7,
+        ")": 5.6
+    },
+    "Demonym": "Togolese",
+    "Religions": {
+        "Christianity": {
+            "traditional faiths": 33.0,
+            "Islam": 16.0,
+            "Baháʼí faith": 1.0
+        }
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 56785.0,
+        "land_km2": 54400.03,
+        "water_km2": 2384.97
+    },
+    "Population": {
+        "total": 9583381,
+        "density_per_km2": 125.9
+    },
+    "GDP PPP": {
+        "total": 33049999999.999996,
+        "per_capita": 3470.0
+    },
+    "GDP Nominal": {
+        "total": 10020000000.0,
+        "per_capita": 1050.0
+    },
+    "Gini": 43.1,
+    "HDI": 0.571,
+    "Currency": "West African CFA franc"
+}

@@ -1,0 +1,50 @@
+{
+    "Country": "Gambia, The",
+    "Capital": "Banjul",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Mandinka": 34.4,
+        "Fula": 25.0,
+        "Wolof": 15.4,
+        "Jola": 9.5,
+        "Soninke": 8.2,
+        "Serer": 2.9,
+        "other": 4.6
+    },
+    "Demonym": "Gambian",
+    "Religions": {
+        "Islam": 95.7,
+        "Christianity": 4.2,
+        "others": 0.1
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "Speaker of the National Assembly",
+        "Chief Justice"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 11300.0,
+        "land_km2": 10000.5,
+        "water_km2": 1299.5
+    },
+    "Population": {
+        "total": 2422712,
+        "density_per_km2": 227.0
+    },
+    "GDP PPP": {
+        "total": 11050000000.0,
+        "per_capita": 3820.0
+    },
+    "GDP Nominal": {
+        "total": 2670000000.0,
+        "per_capita": 924.0
+    },
+    "Gini": 35.9,
+    "HDI": 0.524,
+    "Currency": "Gambian dalasi"
+}

@@ -1,0 +1,57 @@
+{
+    "Country": "Burkina Faso",
+    "Capital": "Ouagadougou",
+    "Official Languages": [
+        "Mooré",
+        "Dyula and Fula",
+        "alongside any other languages so recognized by law"
+    ],
+    "Ethnic Groups": {
+        "Mossi": 53.7,
+        "Fula": 6.8,
+        "Gurunsi": 5.9,
+        "or": 5.4,
+        "Bissa": 1.5,
+        "Gurma": 5.2,
+        "Bobo": 3.4,
+        "Senufo": 2.2,
+        "Lobi": 1.5,
+        "Tuareg and Bella": 0.1
+    },
+    "Demonym": "Burkinabé",
+    "Religions": {
+        "Islam": 63.8,
+        "Christianity": {
+            "Catholicism": 20.1,
+            "Protestantism": 6.2
+        },
+        "Animism": 9.0,
+        "irreligion": 0.7
+    },
+    "Government type": "Unitary semi-presidential republic under a military junta",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 274223.0,
+        "land_km2": 273817.15,
+        "water_km2": 405.85
+    },
+    "Population": {
+        "total": 22489126,
+        "density_per_km2": 86.0
+    },
+    "GDP PPP": {
+        "total": 72820000000.0,
+        "per_capita": 2980.0
+    },
+    "GDP Nominal": {
+        "total": 27060000000.0,
+        "per_capita": 1110.0
+    },
+    "Gini": 37.4,
+    "HDI": 0.459,
+    "Currency": "West African CFA franc"
+}

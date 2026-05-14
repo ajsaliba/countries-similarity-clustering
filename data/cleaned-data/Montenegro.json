@@ -1,0 +1,55 @@
+{
+    "Country": "Montenegro",
+    "Capital": "Podgorica",
+    "Official Languages": [
+        "Montenegrin"
+    ],
+    "Ethnic Groups": {
+        "Montenegrins": 41.1,
+        "Serbs": 32.9,
+        "Bosniaks or Muslims": 11.1,
+        "Albanians": 5.0,
+        "Russians": 2.1,
+        "others or undeclared": 5.8
+    },
+    "Demonym": "Montenegrin",
+    "Religions": {
+        "Christianity": {
+            "Eastern Orthodoxy": 71.1,
+            "Catholicism": 3.2,
+            "other Christian": 0.6
+        },
+        "Islam": 19.9,
+        "no religion": {
+            "other": 0.3,
+            "not stated": 2.2
+        }
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "President of the Parliament"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 13883.0,
+        "land_km2": 13452.63,
+        "water_km2": 430.37
+    },
+    "Population": {
+        "total": 623327,
+        "density_per_km2": 43.6
+    },
+    "GDP PPP": {
+        "total": 21480000000.0,
+        "per_capita": 34410.0
+    },
+    "GDP Nominal": {
+        "total": 9350000000.0,
+        "per_capita": 14990.0
+    },
+    "Gini": 29.4,
+    "HDI": 0.862,
+    "Currency": "Euro"
+}

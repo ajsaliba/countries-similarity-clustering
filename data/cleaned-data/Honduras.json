@@ -1,0 +1,43 @@
+{
+    "Country": "Honduras",
+    "Capital": "Tegucigalpa",
+    "Official Languages": [
+        "Spanish"
+    ],
+    "Ethnic Groups": {
+        "Mestizo": 82.93,
+        "White": 7.87,
+        "Indigenous": 7.25,
+        "Black": 1.39,
+        "other": 0.55
+    },
+    "Demonym": "Honduran",
+    "Religions": null,
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice Presidents",
+        "President of National Congress"
+    ],
+    "Legislature": "National Congress",
+    "Area": {
+        "total_km2": 112492.0,
+        "land_km2": null,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 9571352,
+        "density_per_km2": 85.0
+    },
+    "GDP PPP": {
+        "total": 86290000000.0,
+        "per_capita": 7960.0
+    },
+    "GDP Nominal": {
+        "total": 39450000000.0,
+        "per_capita": 3640.0
+    },
+    "Gini": 52.1,
+    "HDI": 0.645,
+    "Currency": "Lempira"
+}

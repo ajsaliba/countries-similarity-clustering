@@ -1,0 +1,40 @@
+{
+    "Country": "Iran",
+    "Capital": "Tehran",
+    "Official Languages": [
+        "Persian"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Iranian",
+    "Religions": null,
+    "Government type": "Unitary presidential theocratic Islamic republic under an authoritarian dictatorship",
+    "Government structure": [
+        "Supreme Leader",
+        "President",
+        "Vice President",
+        "Speaker of the Assembly",
+        "Chief Justice",
+        "Median kingdom"
+    ],
+    "Legislature": "Islamic Consultative Assembly",
+    "Area": {
+        "total_km2": 1648195.0,
+        "land_km2": 1621329.42,
+        "water_km2": 26865.58
+    },
+    "Population": {
+        "total": 92417681,
+        "density_per_km2": 52.0
+    },
+    "GDP PPP": {
+        "total": 1879000000000.0,
+        "per_capita": 21473.0
+    },
+    "GDP Nominal": {
+        "total": 356513000000.0,
+        "per_capita": 4074.0
+    },
+    "Gini": 35.9,
+    "HDI": 0.799,
+    "Currency": "Iranian rial"
+}

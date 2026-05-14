@@ -1,0 +1,53 @@
+{
+    "Country": "Angola",
+    "Capital": "Luanda",
+    "Official Languages": [
+        "Portuguese"
+    ],
+    "Ethnic Groups": {
+        "Ovimbundu": 37.0,
+        "Ambundu": 25.0,
+        "Bakongo": 13.0,
+        "other African": 21.0,
+        "Mestiço (mixed European and African)": 2.0,
+        "Asian": 2.0,
+        "European": 1.0
+    },
+    "Demonym": "Angolan",
+    "Religions": {
+        "Christianity": {
+            "Catholic": 44.2,
+            "Protestant": 34.9
+        },
+        "no religion": 11.5,
+        "other": 9.4
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "President of the National Assembly",
+        "Chief Justice"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 1246700.0,
+        "land_km2": 1246700.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 36604681,
+        "density_per_km2": 29.4
+    },
+    "GDP PPP": {
+        "total": 402160000000.0,
+        "per_capita": 10230.0
+    },
+    "GDP Nominal": {
+        "total": 113340000000.0,
+        "per_capita": 2880.0
+    },
+    "Gini": 51.3,
+    "HDI": 0.616,
+    "Currency": "Angolan kwanza"
+}

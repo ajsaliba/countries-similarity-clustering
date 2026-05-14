@@ -1,0 +1,48 @@
+{
+    "Country": "Austria",
+    "Capital": "Vienna",
+    "Official Languages": [
+        "German"
+    ],
+    "Ethnic Groups": {
+        "Austrians": 72.2,
+        "other": 27.8
+    },
+    "Demonym": "Austrian",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 55.2,
+            "Orthodoxy": 4.9,
+            "Protestantism": 3.8,
+            "other Christian": 4.3
+        },
+        "no religion": 22.4,
+        "Islam": 8.3,
+        "other": 1.1
+    },
+    "Government type": "Federal semi-presidential republic",
+    "Government structure": [
+        "President"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 83879.0,
+        "land_km2": 83174.42,
+        "water_km2": 704.58
+    },
+    "Population": {
+        "total": 9110079,
+        "density_per_km2": 107.6
+    },
+    "GDP PPP": {
+        "total": 682860000000.0,
+        "per_capita": 74370.0
+    },
+    "GDP Nominal": {
+        "total": 534299999999.99994,
+        "per_capita": 58190.0
+    },
+    "Gini": 28.1,
+    "HDI": 0.93,
+    "Currency": "Euro"
+}

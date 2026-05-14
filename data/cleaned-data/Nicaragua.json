@@ -1,0 +1,50 @@
+{
+    "Country": "Nicaragua",
+    "Capital": "Managua",
+    "Official Languages": [
+        "Spanish"
+    ],
+    "Ethnic Groups": {
+        "Mestizo (mixed White and Indigenous )": 69.0,
+        "White": 17.0,
+        "Black": 9.0,
+        "Indigenous": 5.0
+    },
+    "Demonym": "Nicaraguan",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 55.0,
+            "Protestantism": 27.2,
+            "other Christian": 2.2
+        },
+        "no religion": 14.7,
+        "other": 0.9
+    },
+    "Government type": "Unitary diarchic presidential socialist republic under an authoritarian dictatorship",
+    "Government structure": [
+        "Co-Presidents",
+        "President of the National Assembly",
+        "Chief Justice"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 130375.0,
+        "land_km2": 121066.23,
+        "water_km2": 9308.77
+    },
+    "Population": {
+        "total": 6676948,
+        "density_per_km2": 51.0
+    },
+    "GDP PPP": {
+        "total": 56697000000.0,
+        "per_capita": 8492.0
+    },
+    "GDP Nominal": {
+        "total": 17843000000.0,
+        "per_capita": 2673.0
+    },
+    "Gini": 46.2,
+    "HDI": 0.706,
+    "Currency": "Córdoba"
+}

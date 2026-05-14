@@ -1,0 +1,44 @@
+{
+    "Country": "Slovenia",
+    "Capital": "Ljubljana",
+    "Official Languages": [
+        "Slovene"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Slovene",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 73.4,
+            "Orthodoxy": 3.7,
+            "other Christian": 0.7
+        },
+        "no religion": 18.3,
+        "other": 3.9
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 20272.0,
+        "land_km2": 20130.1,
+        "water_km2": 141.9
+    },
+    "Population": {
+        "total": 2130850,
+        "density_per_km2": 103.0
+    },
+    "GDP PPP": {
+        "total": 122985000000000.0,
+        "per_capita": 57716.0
+    },
+    "GDP Nominal": {
+        "total": 79222000000000.0,
+        "per_capita": 37178.0
+    },
+    "Gini": 23.4,
+    "HDI": 0.931,
+    "Currency": "Euro"
+}

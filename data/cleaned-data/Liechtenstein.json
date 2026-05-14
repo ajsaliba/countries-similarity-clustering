@@ -1,0 +1,44 @@
+{
+    "Country": "Liechtenstein",
+    "Capital": "Vaduz",
+    "Official Languages": [
+        "German"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Liechtensteiner",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 69.6,
+            "other Christian": 9.8
+        },
+        "no religion": 9.6,
+        "Islam": 6.0,
+        "other": 5.0
+    },
+    "Government type": "Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy",
+    "Government structure": [
+        "Prime Minister",
+        "Deputy Prime Minister"
+    ],
+    "Legislature": "Landtag",
+    "Area": {
+        "total_km2": 160.5,
+        "land_km2": 156.17,
+        "water_km2": 4.33
+    },
+    "Population": {
+        "total": 41232,
+        "density_per_km2": 249.0
+    },
+    "GDP PPP": {
+        "total": 7172000000.0,
+        "per_capita": 210600.0
+    },
+    "GDP Nominal": {
+        "total": 8288000000.0,
+        "per_capita": 207974.0
+    },
+    "Gini": null,
+    "HDI": 0.938,
+    "Currency": "Swiss franc"
+}

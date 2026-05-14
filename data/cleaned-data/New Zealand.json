@@ -1,0 +1,52 @@
+{
+    "Country": "New Zealand",
+    "Capital": "Wellington",
+    "Official Languages": [
+        "English",
+        "Māori",
+        "NZ",
+        "Sign",
+        "Language"
+    ],
+    "Ethnic Groups": {
+        "European": 67.8,
+        "Māori": 19.6,
+        "Asian": 17.3,
+        "Pacific peoples": 8.9,
+        "ME / LA / African": 1.9,
+        "other": 1.1
+    },
+    "Demonym": "New",
+    "Religions": {
+        "no religion": 51.6,
+        "Christianity": 32.3,
+        "Hinduism": 2.9,
+        "other": 6.3,
+        "undeclared": 6.9
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 263310.0,
+        "land_km2": 259097.04,
+        "water_km2": 4212.96
+    },
+    "Population": {
+        "total": 5344470,
+        "density_per_km2": 19.9
+    },
+    "GDP PPP": {
+        "total": 298930000000.0,
+        "per_capita": 55450.0
+    },
+    "GDP Nominal": {
+        "total": 248670000000.0,
+        "per_capita": 46013.0
+    },
+    "Gini": 30.0,
+    "HDI": 0.938,
+    "Currency": "New Zealand dollar"
+}

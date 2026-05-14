@@ -1,0 +1,49 @@
+{
+    "Country": "Finland",
+    "Capital": "Helsinki",
+    "Official Languages": [
+        "Finnish",
+        "Swedish"
+    ],
+    "Ethnic Groups": {
+        "Finns": 88.9,
+        "others": 11.1
+    },
+    "Demonym": "Finnish",
+    "Religions": {
+        "Christianity": {
+            "Lutheranism": 62.2,
+            "Eastern Orthodoxy": 1.0,
+            "other Christian": 1.0
+        },
+        "no religion": 34.9,
+        "other": 2.0
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Speaker of the Parliament"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 338455.0,
+        "land_km2": 305591.02,
+        "water_km2": 32863.98
+    },
+    "Population": {
+        "total": 5635971,
+        "density_per_km2": 18.4
+    },
+    "GDP PPP": {
+        "total": 373160000000.0,
+        "per_capita": 66500.0
+    },
+    "GDP Nominal": {
+        "total": 303950000000.0,
+        "per_capita": 54160.0
+    },
+    "Gini": 26.6,
+    "HDI": 0.948,
+    "Currency": "Euro"
+}

@@ -1,0 +1,44 @@
+{
+    "Country": "Jordan",
+    "Capital": "Amman",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "Arab": 95.0,
+        "Circassian , Chechen": 3.0,
+        "Armenian and others": 2.0
+    },
+    "Demonym": "Jordanian",
+    "Religions": {
+        "Islam": 95.0,
+        "Christianity": 3.0,
+        "Druze , Baháʼí": 1.0,
+        "others": 1.0
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 89342.0,
+        "land_km2": 88805.95,
+        "water_km2": 536.05
+    },
+    "Population": {
+        "total": 11484805,
+        "density_per_km2": 114.0
+    },
+    "GDP PPP": {
+        "total": 132092000000.00002,
+        "per_capita": 12809.0
+    },
+    "GDP Nominal": {
+        "total": 50022000000.0,
+        "per_capita": 4850.0
+    },
+    "Gini": 35.4,
+    "HDI": 0.754,
+    "Currency": "Jordanian dinar"
+}

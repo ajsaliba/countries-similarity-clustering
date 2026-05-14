@@ -1,0 +1,49 @@
+{
+    "Country": "Sudan",
+    "Capital": "Khartoum",
+    "Official Languages": [
+        "Arabic",
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Sudanese Arab": 70.0,
+        "Beja": 5.9,
+        "Nuba": 2.5,
+        "Fur": 2.0,
+        "Egyptian": 2.0,
+        "Nubian": 1.3,
+        "others": 16.3
+    },
+    "Demonym": "Sudanese",
+    "Religions": {
+        "Sunni Islam": 97.0,
+        "Christianity": 3.0
+    },
+    "Government type": "Federal republic under a military junta",
+    "Government structure": [
+        "President of the Transitional Sovereignty Council",
+        "Vice-President of the Transitional Sovereignty Council",
+        "Prime Minister"
+    ],
+    "Legislature": "Transitional Legislative Authority",
+    "Area": {
+        "total_km2": 1886068.0,
+        "land_km2": null,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 51767437,
+        "density_per_km2": 21.3
+    },
+    "GDP PPP": {
+        "total": 117770000000.0,
+        "per_capita": 2034.0
+    },
+    "GDP Nominal": {
+        "total": 31510000000.0,
+        "per_capita": 624.0
+    },
+    "Gini": 34.2,
+    "HDI": null,
+    "Currency": "Sudanese pound"
+}

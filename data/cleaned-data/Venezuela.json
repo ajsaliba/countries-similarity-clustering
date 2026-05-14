@@ -1,0 +1,50 @@
+{
+    "Country": "Venezuela",
+    "Capital": "Caracas",
+    "Official Languages": [
+        "Spanish"
+    ],
+    "Ethnic Groups": {
+        "Moreno": 51.6,
+        "White": 43.6,
+        "Black": 3.6,
+        "other": 1.2
+    },
+    "Demonym": "Venezuelan",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 80.5,
+            "Protestantism": 11.2,
+            "other Christian": 0.9
+        },
+        "no religion": 5.5,
+        "Spiritism , Birongo": 1.1,
+        "other": 0.8
+    },
+    "Government type": "Federal presidential republic under an authoritarian dictatorship",
+    "Government structure": [
+        "President",
+        "Vice President"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 916445.0,
+        "land_km2": 887118.76,
+        "water_km2": 29326.24
+    },
+    "Population": {
+        "total": 31800000,
+        "density_per_km2": 32.0
+    },
+    "GDP PPP": {
+        "total": 234340000000.0,
+        "per_capita": 8790.0
+    },
+    "GDP Nominal": {
+        "total": 82770000000.0,
+        "per_capita": 3100.0
+    },
+    "Gini": 44.8,
+    "HDI": 0.709,
+    "Currency": "Venezuelan bolívar"
+}

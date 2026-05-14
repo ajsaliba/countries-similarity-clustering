@@ -1,0 +1,54 @@
+{
+    "Country": "Micronesia",
+    "Capital": "Palikir",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Chuukese": 48.8,
+        "Pohnpeian": 24.2,
+        "Kosraean": 6.2,
+        "Yapese": 5.2,
+        "Outer Yapese": 4.5,
+        "Asian": 1.8,
+        "Polynesian": 1.5,
+        "other": 6.4,
+        "unknown": 1.4
+    },
+    "Demonym": "Micronesian",
+    "Religions": {
+        "Christianity": {
+            "Roman Catholic": 52.6,
+            "Protestant": 41.7,
+            "other Christian": 1.0
+        },
+        "folk religions": 4.1,
+        "none / other": 0.6
+    },
+    "Government type": "Federal assembly-independent presidential republic under a non-partisan democracy",
+    "Government structure": [
+        "President",
+        "Vice President"
+    ],
+    "Legislature": "Congress",
+    "Area": {
+        "total_km2": 702.0,
+        "land_km2": 702.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 75817,
+        "density_per_km2": 150.4
+    },
+    "GDP PPP": {
+        "total": 451000000.0,
+        "per_capita": 4768.0
+    },
+    "GDP Nominal": {
+        "total": 500000000.0,
+        "per_capita": 5291.0
+    },
+    "Gini": 40.1,
+    "HDI": 0.634,
+    "Currency": "United States dollar"
+}

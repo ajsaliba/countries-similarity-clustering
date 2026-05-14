@@ -1,0 +1,45 @@
+{
+    "Country": "Cape Verde",
+    "Capital": "Praia",
+    "Official Languages": [
+        "Portuguese"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Cape",
+    "Religions": {
+        "Christianity": {
+            "Catholicism": 72.5,
+            "other Christian": 9.2
+        },
+        "no religion": 15.6,
+        "Islam": {
+            "others": 1.2
+        }
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 4033.0,
+        "land_km2": 4033.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 491233,
+        "density_per_km2": 130.0
+    },
+    "GDP PPP": {
+        "total": 5717000000.0,
+        "per_capita": 9909.0
+    },
+    "GDP Nominal": {
+        "total": 2598000000.0,
+        "per_capita": 4502.0
+    },
+    "Gini": 42.4,
+    "HDI": 0.668,
+    "Currency": "Cape Verdean escudo"
+}

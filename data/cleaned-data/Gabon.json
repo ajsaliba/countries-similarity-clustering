@@ -1,0 +1,43 @@
+{
+    "Country": "Gabon",
+    "Capital": "Libreville",
+    "Official Languages": [
+        "French"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Gabonese",
+    "Religions": {
+        "Christianity": 80.2,
+        "Islam": 10.8,
+        "no religion": 7.0,
+        "traditional faiths": {
+            "others": 0.9
+        }
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 267668.0,
+        "land_km2": 257603.68,
+        "water_km2": 10064.32
+    },
+    "Population": {
+        "total": 2397368,
+        "density_per_km2": 7.9
+    },
+    "GDP PPP": {
+        "total": 57054000000.0,
+        "per_capita": 24739.0
+    },
+    "GDP Nominal": {
+        "total": 21455000000.0,
+        "per_capita": 9303.0
+    },
+    "Gini": 38.0,
+    "HDI": 0.733,
+    "Currency": "Central African CFA franc"
+}

@@ -1,0 +1,53 @@
+{
+    "Country": "Equatorial Guinea",
+    "Capital": "Ciudad de la Paz",
+    "Official Languages": [
+        "Spanish",
+        "French",
+        "Portuguese"
+    ],
+    "Ethnic Groups": {
+        "Fang": 85.7,
+        "Bubi": 6.5,
+        "Ndowe": 3.6,
+        "Annobon": 1.6,
+        "Bujeba": 1.1,
+        "others": 1.1
+    },
+    "Demonym": "Equatoguinean",
+    "Religions": {
+        "Christianity": 88.7,
+        "no religion": 5.0,
+        "Islam": 4.0,
+        "traditional faiths": 1.7,
+        "others": 0.6
+    },
+    "Government type": "Unitary presidential republic under an authoritarian hereditary dictatorship",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "Prime Minister",
+        "Chief Justice"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 28050.0,
+        "land_km2": 28050.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 1795834,
+        "density_per_km2": 67.0
+    },
+    "GDP PPP": {
+        "total": 33000999999.999996,
+        "per_capita": 20017.0
+    },
+    "GDP Nominal": {
+        "total": 12680000000.0,
+        "per_capita": 7750.0
+    },
+    "Gini": null,
+    "HDI": 0.674,
+    "Currency": "Central African CFA franc"
+}

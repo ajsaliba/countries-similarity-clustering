@@ -1,0 +1,44 @@
+{
+    "Country": "Italy",
+    "Capital": "Rome",
+    "Official Languages": [
+        "Italian",
+        "a"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Italian",
+    "Religions": {
+        "Christianity": 84.0,
+        "irreligion": 12.0,
+        "other": 4.0
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "President of the Senate",
+        "President of the Chamber of Deputies",
+        "Roman-Barbarian kingdoms Byzantine Italy"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 301340.0,
+        "land_km2": 297603.38,
+        "water_km2": 3736.62
+    },
+    "Population": {
+        "total": 58915561,
+        "density_per_km2": 195.5
+    },
+    "GDP PPP": {
+        "total": 3719000000000.0,
+        "per_capita": 63076.0
+    },
+    "GDP Nominal": {
+        "total": 2423000000000.0,
+        "per_capita": 41091.0
+    },
+    "Gini": 32.5,
+    "HDI": 0.915,
+    "Currency": "Euro"
+}

@@ -1,0 +1,51 @@
+{
+    "Country": "Samoa",
+    "Capital": "Apia",
+    "Official Languages": [
+        "Samoan",
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Samoans": 92.6,
+        "Euronesians": 7.0,
+        "Europeans": 0.3,
+        "others": 0.1
+    },
+    "Demonym": "Samoan",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": 54.9,
+            "Catholicism": 18.8,
+            "Mormonism": 16.9,
+            "other Christian": 7.3
+        },
+        "no religion": 1.7,
+        "others": 0.4
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "Prime Minister",
+        "Assembly Speaker"
+    ],
+    "Legislature": "Legislative Assembly",
+    "Area": {
+        "total_km2": 2831.0,
+        "land_km2": 2822.51,
+        "water_km2": 8.49
+    },
+    "Population": {
+        "total": 205557,
+        "density_per_km2": 70.0
+    },
+    "GDP PPP": {
+        "total": 1225000000.0,
+        "per_capita": 5962.0
+    },
+    "GDP Nominal": {
+        "total": 908561000.0,
+        "per_capita": 4420.0
+    },
+    "Gini": 38.7,
+    "HDI": 0.708,
+    "Currency": "Tālā"
+}

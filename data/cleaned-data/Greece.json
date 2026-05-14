@@ -1,0 +1,45 @@
+{
+    "Country": "Greece",
+    "Capital": "Athens",
+    "Official Languages": [
+        "Greek"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Greek",
+    "Religions": {
+        "Christianity": {
+            "Greek Orthodoxy": 90.0,
+            "other Christian": 3.0
+        },
+        "No religion": 4.0,
+        "Islam": 2.0,
+        "Others": 1.0
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "President of the Parliament"
+    ],
+    "Legislature": "Hellenic Parliament",
+    "Area": {
+        "total_km2": 131957.0,
+        "land_km2": 129964.45,
+        "water_km2": 1992.55
+    },
+    "Population": {
+        "total": 10372335,
+        "density_per_km2": 78.9
+    },
+    "GDP PPP": {
+        "total": 466945000000.0,
+        "per_capita": 44985.0
+    },
+    "GDP Nominal": {
+        "total": 282019000000.0,
+        "per_capita": 27170.0
+    },
+    "Gini": 31.8,
+    "HDI": 0.908,
+    "Currency": "Euro"
+}

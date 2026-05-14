@@ -1,0 +1,49 @@
+{
+    "Country": "Marshall Islands",
+    "Capital": "Majuro",
+    "Official Languages": [
+        "Marshallese",
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Marshallese": 95.6,
+        "others": 4.4
+    },
+    "Demonym": "Marshallese",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": 79.9,
+            "Catholicism": 9.3,
+            "other Christian": 7.0
+        },
+        "no religion": 1.1,
+        "others": 2.7
+    },
+    "Government type": "Unitary parliamentary republic with an executive president",
+    "Government structure": [
+        "President",
+        "Speaker",
+        "Minister in Assistance to the President"
+    ],
+    "Legislature": "Nitijela",
+    "Area": {
+        "total_km2": 181.43,
+        "land_km2": 181.43,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 42418,
+        "density_per_km2": 233.0
+    },
+    "GDP PPP": {
+        "total": 215000000.0,
+        "per_capita": 3789.0
+    },
+    "GDP Nominal": {
+        "total": 220000000.0,
+        "per_capita": 3866.0
+    },
+    "Gini": null,
+    "HDI": 0.733,
+    "Currency": "United States dollar Sovereign"
+}

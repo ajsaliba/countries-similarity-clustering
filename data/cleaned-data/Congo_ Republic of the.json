@@ -1,0 +1,51 @@
+{
+    "Country": "Congo, Republic of the",
+    "Capital": "Brazzaville",
+    "Official Languages": [
+        "French"
+    ],
+    "Ethnic Groups": {
+        "Bakongo": 41.0,
+        "Bateke": 16.9,
+        "Mbochi": 13.1,
+        "Sangha": 5.6,
+        "Mbenga Pygmies and others": 2.0
+    },
+    "Demonym": "Congolese",
+    "Religions": {
+        "Christianity": 87.1,
+        "no religion": 8.0,
+        "traditional faiths": 2.7,
+        "Islam": {
+            "others": 1.0
+        }
+    },
+    "Government type": "Unitary semi-presidential republic under a dictatorship",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "President of Senate",
+        "President of the National Assembly"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 342000.0,
+        "land_km2": 330714.0,
+        "water_km2": 11286.0
+    },
+    "Population": {
+        "total": 6228784,
+        "density_per_km2": 19.0
+    },
+    "GDP PPP": {
+        "total": 42760000000.0,
+        "per_capita": 6590.0
+    },
+    "GDP Nominal": {
+        "total": 15281000000.0,
+        "per_capita": 2360.0
+    },
+    "Gini": 40.2,
+    "HDI": 0.649,
+    "Currency": "Central African CFA franc"
+}

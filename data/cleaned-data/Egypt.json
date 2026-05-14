@@ -1,0 +1,36 @@
+{
+    "Country": "Egypt",
+    "Capital": "Cairo",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Egyptian",
+    "Religions": null,
+    "Government type": "Unitary semi-presidential republic under an authoritarian government",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 1010408.0,
+        "land_km2": 1004022.22,
+        "water_km2": 6385.78
+    },
+    "Population": {
+        "total": 107868296,
+        "density_per_km2": 106.8
+    },
+    "GDP PPP": {
+        "total": 2372000000000.0,
+        "per_capita": 21668.0
+    },
+    "GDP Nominal": {
+        "total": 347342000000.0,
+        "per_capita": 3174.0
+    },
+    "Gini": 28.5,
+    "HDI": 0.754,
+    "Currency": "Egyptian pound"
+}

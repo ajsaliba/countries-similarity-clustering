@@ -1,0 +1,54 @@
+{
+    "Country": "Antigua and Barbuda",
+    "Capital": "St. John's",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "African": 87.3,
+        "Multiracial": 4.7,
+        "Hispanic": 2.8,
+        "European": 1.7,
+        "East Indian": 1.1,
+        "Syrian or Lebanese": 0.7,
+        "other": 1.8
+    },
+    "Demonym": "Antiguan",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": 66.6,
+            "other Christian": 26.1
+        },
+        "Rastafari": {
+            "no religion": {
+                "Baháʼí Faith": 1.1,
+                "other": 0.7
+            }
+        }
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 440.0,
+        "land_km2": 440.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 106365,
+        "density_per_km2": 186.0
+    },
+    "GDP PPP": {
+        "total": 3300000000.0,
+        "per_capita": 31781.0
+    },
+    "GDP Nominal": {
+        "total": 2370000000.0,
+        "per_capita": 22630.0
+    },
+    "Gini": null,
+    "HDI": 0.851,
+    "Currency": "Eastern Caribbean dollar"
+}

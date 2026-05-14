@@ -1,0 +1,41 @@
+{
+    "Country": "South Sudan",
+    "Capital": "Juba",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "South",
+    "Religions": {
+        "Christianity": 60.5,
+        "traditional faiths": 32.9,
+        "Islam": 6.2,
+        "others / none": 0.4
+    },
+    "Government type": "Federal presidential republic",
+    "Government structure": [
+        "President",
+        "First Vice-President"
+    ],
+    "Legislature": "Transitional National Legislature",
+    "Area": {
+        "total_km2": 644329.0,
+        "land_km2": null,
+        "water_km2": null
+    },
+    "Population": {
+        "total": 12703714,
+        "density_per_km2": 19.0
+    },
+    "GDP PPP": {
+        "total": 15160000000.0,
+        "per_capita": 953.0
+    },
+    "GDP Nominal": {
+        "total": 4980000000.0,
+        "per_capita": 313.0
+    },
+    "Gini": 44.1,
+    "HDI": 0.388,
+    "Currency": "South Sudanese pound"
+}

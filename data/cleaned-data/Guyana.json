@@ -1,0 +1,52 @@
+{
+    "Country": "Guyana",
+    "Capital": "Georgetown",
+    "Official Languages": [
+        "English"
+    ],
+    "Ethnic Groups": {
+        "Indian": 44.4,
+        "African": 32.3,
+        "Mixed": 20.0,
+        "Indigenous": 10.5,
+        "European": 0.3,
+        "Chinese": 0.2
+    },
+    "Demonym": "Guyanese",
+    "Religions": {
+        "Christianity": 55.5,
+        "Hinduism": 31.0,
+        "Islam": 9.5,
+        "no religion": 4.2,
+        "others": 3.3
+    },
+    "Government type": "Unitary parliamentary republic with an executive presidency",
+    "Government structure": [
+        "President",
+        "Prime Minister & First Vice President",
+        "Second Vice President",
+        "Speaker of the National Assembly",
+        "Acting Chief Justice"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 214969.0,
+        "land_km2": 196911.6,
+        "water_km2": 18057.4
+    },
+    "Population": {
+        "total": 950986,
+        "density_per_km2": 4.25
+    },
+    "GDP PPP": {
+        "total": 75294000000.0,
+        "per_capita": 94258.0
+    },
+    "GDP Nominal": {
+        "total": 25822000000.0,
+        "per_capita": 32326.0
+    },
+    "Gini": 44.6,
+    "HDI": 0.776,
+    "Currency": "Guyanese dollar"
+}

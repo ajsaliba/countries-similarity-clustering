@@ -1,0 +1,48 @@
+{
+    "Country": "Bangladesh",
+    "Capital": "Dhaka",
+    "Official Languages": [
+        "Bengali"
+    ],
+    "Ethnic Groups": {
+        "Bengali": 99.0,
+        "others Chakmas Garos Khasis Khumis Manipuris Marmas Mizos Arakanese Mrus Santals Tanchangyas Tripuris Bishnupriyas": 1.0
+    },
+    "Demonym": "Bangladeshi",
+    "Religions": {
+        "Islam": 91.04,
+        "Hinduism": 7.94,
+        "Buddhism": {
+            "Christianity": 0.3
+        },
+        "other": 0.12
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Speaker",
+        "Chief Justice"
+    ],
+    "Legislature": "Jatiya Sangsad",
+    "Area": {
+        "total_km2": 148460.0,
+        "land_km2": 130170.0,
+        "water_km2": 9501.44
+    },
+    "Population": {
+        "total": 173562364,
+        "density_per_km2": 165.0
+    },
+    "GDP PPP": {
+        "total": 1900000000000.0,
+        "per_capita": 10850.0
+    },
+    "GDP Nominal": {
+        "total": 519289999999.99994,
+        "per_capita": 2960.0
+    },
+    "Gini": 33.4,
+    "HDI": 0.685,
+    "Currency": "Taka"
+}

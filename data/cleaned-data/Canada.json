@@ -1,0 +1,36 @@
+{
+    "Country": "Canada",
+    "Capital": "Ottawa",
+    "Official Languages": [
+        "English",
+        "French"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Canadian",
+    "Religions": null,
+    "Government type": "Federal parliamentary constitutional monarchy",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 9984670.0,
+        "land_km2": 9093507.0,
+        "water_km2": 1174197.19
+    },
+    "Population": {
+        "total": 41575585,
+        "density_per_km2": 4.2
+    },
+    "GDP PPP": {
+        "total": 2723000000000.0,
+        "per_capita": 65500.0
+    },
+    "GDP Nominal": {
+        "total": 2284000000000.0,
+        "per_capita": 54935.0
+    },
+    "Gini": 29.2,
+    "HDI": 0.939,
+    "Currency": "Canadian dollar"
+}

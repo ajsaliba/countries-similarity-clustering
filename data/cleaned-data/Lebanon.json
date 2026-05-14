@@ -1,0 +1,55 @@
+{
+    "Country": "Lebanon",
+    "Capital": "Beirut",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "Arab": 95.0,
+        "Armenian": 4.0,
+        "others": 1.0
+    },
+    "Demonym": "Lebanese",
+    "Religions": {
+        "Islam": 53.31,
+        "Shia": 26.84,
+        "Alawite": 0.64,
+        "Sunni": 26.55,
+        "Christianity": {
+            "Catholic": 28.11,
+            "Orthodox": 8.3,
+            "Armenian Apostolic": 2.92,
+            "Protestant": 0.53,
+            "Other Christians": 1.64
+        },
+        "Druze": 5.21,
+        "No religion": 0.08
+    },
+    "Government type": "Unitary parliamentary republic under confessionalism",
+    "Government structure": [
+        "President",
+        "Prime Minister",
+        "Speaker of the Parliament"
+    ],
+    "Legislature": "Parliament",
+    "Area": {
+        "total_km2": 10452.0,
+        "land_km2": 10263.86,
+        "water_km2": 188.14
+    },
+    "Population": {
+        "total": 5364482,
+        "density_per_km2": 513.0
+    },
+    "GDP PPP": {
+        "total": 78233000000.0,
+        "per_capita": 11793.0
+    },
+    "GDP Nominal": {
+        "total": 21780000000.0,
+        "per_capita": 3283.0
+    },
+    "Gini": 31.8,
+    "HDI": 0.752,
+    "Currency": "Lebanese pound"
+}

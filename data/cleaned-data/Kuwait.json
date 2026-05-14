@@ -1,0 +1,45 @@
+{
+    "Country": "Kuwait",
+    "Capital": "Kuwait City",
+    "Official Languages": [
+        "Arabic"
+    ],
+    "Ethnic Groups": {
+        "Arab": 57.8,
+        "South Asian": 40.3,
+        "African": 1.0,
+        "other": 0.9
+    },
+    "Demonym": "Kuwaiti",
+    "Religions": {
+        "Islam": 74.6,
+        "Christianity": 18.2,
+        "other": 7.2
+    },
+    "Government type": "Unitary semi-constitutional monarchy",
+    "Government structure": [
+        "Emir",
+        "Prime Minister"
+    ],
+    "Legislature": "The National Assembly (suspended)",
+    "Area": {
+        "total_km2": 17818.0,
+        "land_km2": 17818.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 4985716,
+        "density_per_km2": 200.2
+    },
+    "GDP PPP": {
+        "total": 260500000000.0,
+        "per_capita": 50960.0
+    },
+    "GDP Nominal": {
+        "total": 153100000000.0,
+        "per_capita": 29950.0
+    },
+    "Gini": null,
+    "HDI": 0.852,
+    "Currency": "Kuwaiti dinar"
+}

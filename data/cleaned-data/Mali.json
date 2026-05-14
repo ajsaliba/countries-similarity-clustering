@@ -1,0 +1,53 @@
+{
+    "Country": "Mali",
+    "Capital": "Bamako",
+    "Official Languages": [
+        "13 national languages Bambara Bobo Hassaniya Arabic Bozo Dogon",
+        "Toro So Fula Kassonke Maninke Minyanka Senufo",
+        "Senara Songhay",
+        "Koyraboro Senni Soninke Tamasheq"
+    ],
+    "Ethnic Groups": {
+        "Bambara": 33.3,
+        "Fula": 13.3,
+        "Soninke": 9.6,
+        "Senufo / Bwa": 9.6,
+        "Malinke": 8.8,
+        "Dogon": 8.7,
+        "Songhai": 5.9,
+        "Tuareg": 3.5,
+        "Bobo": 2.1,
+        "other": 4.5
+    },
+    "Demonym": "Malian",
+    "Religions": {
+        "Islam": 95.0,
+        "other": 5.0
+    },
+    "Government type": "Unitary presidential republic under a military junta",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 1240192.0,
+        "land_km2": 1220348.93,
+        "water_km2": 19843.07
+    },
+    "Population": {
+        "total": 21990607,
+        "density_per_km2": 11.7
+    },
+    "GDP PPP": {
+        "total": 72740000000.0,
+        "per_capita": 2930.0
+    },
+    "GDP Nominal": {
+        "total": 23210000000.0,
+        "per_capita": 936.0
+    },
+    "Gini": 33.0,
+    "HDI": 0.419,
+    "Currency": "West African CFA franc"
+}

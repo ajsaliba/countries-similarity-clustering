@@ -1,0 +1,35 @@
+{
+    "Country": "Netherlands",
+    "Capital": "Amsterdam",
+    "Official Languages": [
+        "Dutch"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "Dutch",
+    "Religions": null,
+    "Government type": "The Hague",
+    "Government structure": [
+        "Prime Minister"
+    ],
+    "Legislature": null,
+    "Area": {
+        "total_km2": 42531.0,
+        "land_km2": 34467.12,
+        "water_km2": 8063.88
+    },
+    "Population": {
+        "total": 18290379,
+        "density_per_km2": 532.0
+    },
+    "GDP PPP": {
+        "total": 1581000000000.0,
+        "per_capita": 87173.0
+    },
+    "GDP Nominal": {
+        "total": 1326000000000.0,
+        "per_capita": 73091.0
+    },
+    "Gini": null,
+    "HDI": null,
+    "Currency": "4 currencies Euro"
+}

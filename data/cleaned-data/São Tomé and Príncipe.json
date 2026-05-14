@@ -1,0 +1,41 @@
+{
+    "Country": "São Tomé and Príncipe",
+    "Capital": "São Tomé",
+    "Official Languages": [
+        "Portuguese"
+    ],
+    "Ethnic Groups": null,
+    "Demonym": "São",
+    "Religions": {
+        "Christianity": 81.1,
+        "no religion": 13.2,
+        "folk religions": 3.1,
+        "others": 2.4
+    },
+    "Government type": "Unitary semi-presidential republic",
+    "Government structure": [
+        "President",
+        "Prime Minister"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 964.0,
+        "land_km2": 964.0,
+        "water_km2": 0.0
+    },
+    "Population": {
+        "total": 220372,
+        "density_per_km2": 199.7
+    },
+    "GDP PPP": {
+        "total": 1000000000.0,
+        "per_capita": 4238.0
+    },
+    "GDP Nominal": {
+        "total": 751000000.0,
+        "per_capita": 3167.0
+    },
+    "Gini": 40.7,
+    "HDI": 0.637,
+    "Currency": "Dobra"
+}

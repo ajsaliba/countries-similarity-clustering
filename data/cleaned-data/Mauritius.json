@@ -1,0 +1,59 @@
+{
+    "Country": "Mauritius",
+    "Capital": "Port Louis",
+    "Official Languages": [
+        "None",
+        "(",
+        "de",
+        "jure",
+        ")",
+        "English",
+        "French",
+        "(",
+        "de",
+        "facto",
+        ")"
+    ],
+    "Ethnic Groups": {
+        "Indian": 67.0,
+        "Creole": 28.0,
+        "Chinese": 3.0,
+        "French": 2.0
+    },
+    "Demonym": "Mauritian",
+    "Religions": {
+        "Hinduism": 47.9,
+        "Christianity": 32.3,
+        "Islam": 18.2,
+        "others / none": 1.6
+    },
+    "Government type": "Unitary parliamentary republic",
+    "Government structure": [
+        "President",
+        "Vice-President",
+        "Prime Minister",
+        "Deputy Prime Minister",
+        "Speaker of the National Assembly"
+    ],
+    "Legislature": "National Assembly",
+    "Area": {
+        "total_km2": 2040.0,
+        "land_km2": 2038.57,
+        "water_km2": 1.43
+    },
+    "Population": {
+        "total": 1235260,
+        "density_per_km2": 605.5
+    },
+    "GDP PPP": {
+        "total": 42810000000.0,
+        "per_capita": 33954.0
+    },
+    "GDP Nominal": {
+        "total": 16515000000.0,
+        "per_capita": 13099.0
+    },
+    "Gini": 36.8,
+    "HDI": 0.806,
+    "Currency": "Mauritian rupee"
+}

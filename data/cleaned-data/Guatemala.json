@@ -1,0 +1,51 @@
+{
+    "Country": "Guatemala",
+    "Capital": "Guatemala City",
+    "Official Languages": [
+        "Spanish"
+    ],
+    "Ethnic Groups": {
+        "Ladino (mixed)": 56.01,
+        "Maya": 41.66,
+        "Xinca": 1.77,
+        "Black": 0.19,
+        "Garifuna": 0.13,
+        "other": 0.24
+    },
+    "Demonym": "Guatemalan",
+    "Religions": {
+        "Christianity": {
+            "Protestantism": 45.7,
+            "Catholicism": 42.4
+        },
+        "no religion": 11.0,
+        "other": 0.9
+    },
+    "Government type": "Unitary presidential republic",
+    "Government structure": [
+        "President",
+        "Vice President",
+        "President of the Congress"
+    ],
+    "Legislature": "Congress of the Republic",
+    "Area": {
+        "total_km2": 108889.0,
+        "land_km2": 108453.44,
+        "water_km2": 435.56
+    },
+    "Population": {
+        "total": 18636532,
+        "density_per_km2": 166.0
+    },
+    "GDP PPP": {
+        "total": 278508000000.0,
+        "per_capita": 15386.0
+    },
+    "GDP Nominal": {
+        "total": 120964000000.0,
+        "per_capita": 6682.0
+    },
+    "Gini": 45.2,
+    "HDI": 0.662,
+    "Currency": "Quetzal"
+}

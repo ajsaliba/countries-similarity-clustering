@@ -66,26 +66,6 @@ class TreeNode:
 
 
 
-@dataclass(frozen=True)
-class PreprocessProfile:
-    name: str
-    normalize_numbers: bool = True
-    keep_raw_metadata: bool = True
-
-
-RAW_PROFILE = PreprocessProfile(name="raw", normalize_numbers=True, keep_raw_metadata=True)
-CLEAN_PROFILE = PreprocessProfile(name="clean", normalize_numbers=True, keep_raw_metadata=True)
-
-
-def get_profile(mode: str) -> PreprocessProfile:
-    mode = mode.strip().lower()
-    if mode == "raw":
-        return RAW_PROFILE
-    if mode == "clean":
-        return CLEAN_PROFILE
-    raise ValueError(f"Unsupported mode: {mode}")
-
-
 DETAIL_LABELS_CLEAN = {
     "Federal city",
     "Largest city",
@@ -448,7 +428,7 @@ def normalize_religion_composition(source: Any) -> Dict[str, Any]:
     return out
 
 
-def maybe_normalize_schema(obj: Any, path: Tuple[str, ...], profile: PreprocessProfile) -> Any:
+def maybe_normalize_schema(obj: Any, path: Tuple[str, ...]) -> Any:
     """
     Path-aware schema normalization before generic recursion.
     """
@@ -480,8 +460,7 @@ def maybe_normalize_schema(obj: Any, path: Tuple[str, ...], profile: PreprocessP
         for raw_key, raw_val in obj.items():
             key = canonicalize_key(raw_key)
 
-            if profile.name == "clean" and key in DETAIL_LABELS_CLEAN:
-                
+            if key in DETAIL_LABELS_CLEAN:
                 continue
 
             if key in {
@@ -495,7 +474,7 @@ def maybe_normalize_schema(obj: Any, path: Tuple[str, ...], profile: PreprocessP
                 language_bucket[key] = raw_val
                 continue
 
-            if profile.name == "clean" and key in {"Population composition", "Religion"}:
+            if key in {"Population composition", "Religion"}:
                 demographic_bucket[key] = raw_val
                 continue
 
@@ -682,12 +661,11 @@ class DatasetNumericNormalizer:
         self.stats = stats
 
     @classmethod
-    def fit(cls, dataset: List[Dict[str, Any]], mode: str) -> "DatasetNumericNormalizer":
-        profile = get_profile(mode)
+    def fit(cls, dataset: List[Dict[str, Any]]) -> "DatasetNumericNormalizer":
         buckets: Dict[str, List[float]] = {}
 
         for country_doc in dataset:
-            cls._collect_from_obj(country_doc, profile, (), buckets)
+            cls._collect_from_obj(country_doc, (), buckets)
 
         stats: Dict[str, NumericStats] = {}
         for field_name, values in buckets.items():
@@ -701,21 +679,20 @@ class DatasetNumericNormalizer:
     def _collect_from_obj(
         cls,
         obj: Any,
-        profile: PreprocessProfile,
         path: Tuple[str, ...],
         buckets: Dict[str, List[float]],
     ) -> None:
-        obj = maybe_normalize_schema(obj, path, profile)
+        obj = maybe_normalize_schema(obj, path)
 
         if isinstance(obj, dict):
             for raw_key, raw_value in obj.items():
                 key = canonicalize_key(raw_key)
-                cls._collect_from_obj(raw_value, profile, path + (key,), buckets)
+                cls._collect_from_obj(raw_value, path + (key,), buckets)
             return
 
         if isinstance(obj, list):
             for item in obj:
-                cls._collect_from_obj(item, profile, path + ("item",), buckets)
+                cls._collect_from_obj(item, path + ("item",), buckets)
             return
 
         raw_text = scalar_to_raw_text(obj)
@@ -788,18 +765,17 @@ def is_code_like(path: Sequence[str], text: str) -> bool:
 
 def normalize_document(
     obj: Any,
-    profile: PreprocessProfile,
     numeric_normalizer: DatasetNumericNormalizer,
     path: Tuple[str, ...] = (),
 ) -> Any:
-    obj = maybe_normalize_schema(obj, path, profile)
+    obj = maybe_normalize_schema(obj, path)
 
     if isinstance(obj, dict):
         out: Dict[str, Any] = {}
         for raw_key, raw_value in obj.items():
             key = canonicalize_key(raw_key)
             child_path = path + (key,)
-            value = normalize_document(raw_value, profile, numeric_normalizer, child_path)
+            value = normalize_document(raw_value, numeric_normalizer, child_path)
             if key in out:
                 out[key] = merge_values(out[key], value)
             else:
@@ -807,10 +783,10 @@ def normalize_document(
         return out
 
     if isinstance(obj, list):
-        return [normalize_document(x, profile, numeric_normalizer, path + ("item",)) for x in obj]
+        return [normalize_document(x, numeric_normalizer, path + ("item",)) for x in obj]
 
     raw_text = scalar_to_raw_text(obj)
-    info = detect_numeric_field(path, raw_text) if profile.normalize_numbers else None
+    info = detect_numeric_field(path, raw_text)
 
     if info is not None:
         norm_number = numeric_normalizer.normalize(info.field_name, info.raw_number)
@@ -913,11 +889,9 @@ def build_subtree(label: str, value: Any, top_section: Optional[str] = None) -> 
 
 def build_tree_from_country_json(
     country_doc: Dict[str, Any],
-    mode: str,
     numeric_normalizer: DatasetNumericNormalizer,
 ) -> TreeNode:
-    profile = get_profile(mode)
-    normalized = normalize_document(country_doc, profile, numeric_normalizer)
+    normalized = normalize_document(country_doc, numeric_normalizer)
 
     root = TreeNode(label="country_document", kind="internal", top_section=None)
     for k, v in normalized.items():
@@ -1536,7 +1510,20 @@ def verify_patch(patched_tree: TreeNode, target_tree: TreeNode) -> Dict[str, Any
 
 
 def load_dataset(path: str) -> List[Dict[str, Any]]:
-    with open(path, "r", encoding="utf-8") as f:
+    p = Path(path)
+
+    if p.is_dir():
+        dataset: List[Dict[str, Any]] = []
+        for file_path in sorted(p.glob("*.json")):
+            with open(file_path, "r", encoding="utf-8-sig") as f:
+                doc = json.load(f)
+            if isinstance(doc, dict):
+                if "Country" not in doc and "country" not in doc:
+                    doc["Country"] = file_path.stem
+                dataset.append(doc)
+        return dataset
+
+    with open(p, "r", encoding="utf-8-sig") as f:
         data = json.load(f)
 
     if isinstance(data, dict) and "countries" in data:
@@ -1545,26 +1532,27 @@ def load_dataset(path: str) -> List[Dict[str, Any]]:
     if isinstance(data, list):
         return data
 
-    raise ValueError("Unsupported dataset format. Expected a list or a dict with a 'countries' key.")
+    raise ValueError("Unsupported dataset format. Expected a directory of JSON files, a list, or a dict with a 'countries' key.")
 
 
 def get_country_doc(dataset: List[Dict[str, Any]], country_name: str) -> Dict[str, Any]:
     wanted = country_name.casefold().strip()
     for item in dataset:
-        if str(item.get("country", "")).casefold().strip() == wanted:
+        name = item.get("Country", item.get("country", ""))
+        if str(name).casefold().strip() == wanted:
             return item
     raise KeyError(f"Country not found: {country_name}")
 
 
-def compare_countries(dataset_path: str, country_a: str, country_b: str, mode: str) -> Dict[str, Any]:
+def compare_countries(dataset_path: str, country_a: str, country_b: str) -> Dict[str, Any]:
     dataset = load_dataset(dataset_path)
-    numeric_normalizer = DatasetNumericNormalizer.fit(dataset, mode)
+    numeric_normalizer = DatasetNumericNormalizer.fit(dataset)
 
     doc_a = get_country_doc(dataset, country_a)
     doc_b = get_country_doc(dataset, country_b)
 
-    tree_a = build_tree_from_country_json(doc_a, mode, numeric_normalizer)
-    tree_b = build_tree_from_country_json(doc_b, mode, numeric_normalizer)
+    tree_a = build_tree_from_country_json(doc_a, numeric_normalizer)
+    tree_b = build_tree_from_country_json(doc_b, numeric_normalizer)
     _assign_patch_ids(tree_a)
 
     memo: Dict[Tuple[int, int], float] = {}
@@ -1575,7 +1563,6 @@ def compare_countries(dataset_path: str, country_a: str, country_b: str, mode: s
     script = recover_edit_script(tree_a, tree_b, "root", memo, contain_memo)
 
     return {
-        "mode": mode,
         "dataset_path": dataset_path,
         "country_a": country_a,
         "country_b": country_b,
@@ -1595,16 +1582,13 @@ def compare_countries(dataset_path: str, country_a: str, country_b: str, mode: s
 
 
 
-def default_dataset_for_mode(base_dir: Path, mode: str) -> Path:
-    if mode == "clean":
-        return base_dir / "all_countries_clean_final.json"
-    return base_dir / "all_countries.json"
+def default_dataset_dir(base_dir: Path) -> Path:
+    return base_dir.parent / "data" / "cleaned-data"
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Nierman & Jagadish-style TED for country infobox JSON")
-    parser.add_argument("--mode", choices=["raw", "clean"], required=True)
-    parser.add_argument("--dataset", default=None, help="Optional custom dataset path")
+    parser.add_argument("--dataset", default=None, help="Optional custom dataset path (file or directory). Defaults to data/cleaned-data.")
     parser.add_argument("--a", required=True, help="Source country")
     parser.add_argument("--b", required=True, help="Target country")
     parser.add_argument("--ops", type=int, default=20, help="How many edit operations to print")
@@ -1613,7 +1597,7 @@ def main() -> None:
     args = parser.parse_args()
 
     base_dir = Path(__file__).resolve().parent
-    dataset_path = Path(args.dataset) if args.dataset else default_dataset_for_mode(base_dir, args.mode)
+    dataset_path = Path(args.dataset) if args.dataset else default_dataset_dir(base_dir)
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -1621,7 +1605,6 @@ def main() -> None:
         dataset_path=str(dataset_path),
         country_a=args.a,
         country_b=args.b,
-        mode=args.mode,
     )
 
     patched_tree = apply_edit_script_to_tree(result["tree_a"], result["edit_script"])
@@ -1645,7 +1628,6 @@ def main() -> None:
     save_tree_as_json(result["tree_b"], str(target_json_path), prefer="raw")
 
     print(f"Dataset: {dataset_path}")
-    print(f"Mode: {result['mode']}")
     print(f"Source country (A): {result['country_a']}")
     print(f"Target country (B): {result['country_b']}")
     print(f"Distance: {result['distance']:.6f}")

@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Saint Vincent and the Grenadines",
     "Capital": "Kingstown",
     "Official Languages": [
@@ -12,7 +12,6 @@
         "Kalinago": 2.0,
         "others": 3.0
     },
-    "Demonym": "Vincentian",
     "Religions": {
         "Christianity": {
             "Protestantism": 70.2,
@@ -20,15 +19,15 @@
         },
         "Hinduism": 3.4,
         "Irreligion": 2.5,
-        "Rastafari": {
-            "Baháʼí Faith": 1.6
-        },
+        "Rastafari": 1.8,
+            "Baháʼí Faith": 1.6,
+        
         "Islam": 1.5,
         "Other": 0.5
     },
     "Government type": "Unitary parliamentary constitutional monarchy",
     "Government structure": [
-        "Prime Minister"
+        "Prime Minister","Monarch","Governor-General"
     ],
     "Legislature": "House of Assembly",
     "Area": {
@@ -48,7 +47,7 @@
         "total": 1000000000.0,
         "per_capita": 9360.0
     },
-    "Gini": null,
+   
     "HDI": 0.798,
     "Currency": "East Caribbean dollar"
 }

@@ -1,12 +1,10 @@
-{
+﻿{
     "Country": "New Zealand",
     "Capital": "Wellington",
     "Official Languages": [
         "English",
         "Māori",
-        "NZ",
-        "Sign",
-        "Language"
+        "New Zealand Sign Language"
     ],
     "Ethnic Groups": {
         "European": 67.8,
@@ -16,7 +14,6 @@
         "ME / LA / African": 1.9,
         "other": 1.1
     },
-    "Demonym": "New",
     "Religions": {
         "no religion": 51.6,
         "Christianity": 32.3,
@@ -39,12 +36,12 @@
         "density_per_km2": 19.9
     },
     "GDP PPP": {
-        "total": 298930000000.0,
-        "per_capita": 55450.0
+        "total": 312297000000.0,
+        "per_capita": 58308.0
     },
     "GDP Nominal": {
-        "total": 248670000000.0,
-        "per_capita": 46013.0
+        "total": 278636000000.0,
+        "per_capita": 52023.0
     },
     "Gini": 30.0,
     "HDI": 0.938,

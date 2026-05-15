@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Saint Kitts and Nevis",
     "Capital": "Basseterre",
     "Official Languages": [
@@ -12,21 +12,20 @@
         "other": 0.5,
         "unspecified": 0.3
     },
-    "Demonym": "Kittitian",
     "Religions": {
         "Christianity": {
             "Protestantism": 81.3,
             "other Christian": 13.3
         },
-        "no religion": {
-            "Hinduism": {
+        "no religion": 2.6,
+            "Hinduism": 1.5,
                 "other": 1.3
-            }
-        }
+            
+        
     },
     "Government type": "Federal parliamentary constitutional monarchy",
     "Government structure": [
-        "Prime Minister"
+        "Prime Minister","Monarch","Governor-General"
     ],
     "Legislature": "National Assembly",
     "Area": {
@@ -46,7 +45,7 @@
         "total": 1000000000.0,
         "per_capita": 18158.0
     },
-    "Gini": null,
+    
     "HDI": 0.84,
     "Currency": "East Caribbean dollar"
 }

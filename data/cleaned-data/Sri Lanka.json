@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Sri Lanka",
     "Capital": "Sri Jayawardenepura Kotte (legislative) Colombo (executive and judicial)",
     "Official Languages": [
@@ -12,7 +12,6 @@
         "Indian Tamils": 2.8,
         "other": 0.3
     },
-    "Demonym": "Sri",
     "Religions": {
         "Buddhism": 69.8,
         "Hinduism": 12.6,
@@ -34,16 +33,16 @@
         "water_km2": 2958.56
     },
     "Population": {
-        "total": 23300000,
+        "total": 21756000.0,
         "density_per_km2": 337.7
     },
     "GDP PPP": {
-        "total": 342600000000.0,
+        "total": 343000000000.0,
         "per_capita": 15632.0
     },
     "GDP Nominal": {
-        "total": 98900000000.0,
-        "per_capita": 4516.0
+        "total": 108800000000.0,
+        "per_capita": 5003.0
     },
     "Gini": 39.8,
     "HDI": 0.776,

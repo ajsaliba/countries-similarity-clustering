@@ -1,11 +1,8 @@
-{
+﻿{
     "Country": "Seychelles",
     "Capital": "Victoria",
     "Official Languages": [
-        "Seychellois",
         "Creole",
-        "(national",
-        "language)",
         "English",
         "French"
     ],
@@ -13,7 +10,6 @@
         "Seychellois Creoles": 97.0,
         "others": 3.0
     },
-    "Demonym": "Seychellois",
     "Religions": {
         "Christianity": 74.9,
         "Hinduism": 5.4,

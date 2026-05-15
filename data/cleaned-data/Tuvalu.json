@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Tuvalu",
     "Capital": "Funafuti",
     "Official Languages": [
@@ -9,7 +9,6 @@
         "Tuvaluans": 96.0,
         "others": 4.0
     },
-    "Demonym": "Tuvaluan",
     "Religions": {
         "Christianity": {
             "Calvinism": 86.0,
@@ -20,7 +19,9 @@
     },
     "Government type": "Unitary parliamentary constitutional monarchy",
     "Government structure": [
-        "Prime Minister"
+        "Monarch",
+        "Prime Minister",
+        "Governor-General"
     ],
     "Legislature": "Parliament",
     "Area": {

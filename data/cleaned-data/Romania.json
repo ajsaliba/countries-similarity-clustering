@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Romania",
     "Capital": "Bucharest",
     "Official Languages": [
@@ -10,13 +10,12 @@
         "Roma": 3.4,
         "others": 1.2
     },
-    "Demonym": "Romanian",
     "Religions": {
-        "Christianity": 84.7,
+        "Christianity":{
         "Romanian Orthodoxy": 73.6,
         "Protestantism": 6.4,
         "Catholicism": 4.4,
-        "other Christian": 0.2,
+        "other Christian": 0.2},
         "no religion": 0.8,
         "other": 0.4,
         "unanswered": 13.9

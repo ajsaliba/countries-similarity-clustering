@@ -1,11 +1,10 @@
-{
+﻿{
     "Country": "São Tomé and Príncipe",
     "Capital": "São Tomé",
     "Official Languages": [
         "Portuguese"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "São",
+   
     "Religions": {
         "Christianity": 81.1,
         "no religion": 13.2,

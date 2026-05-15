@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "United States",
     "Capital": "Washington, D.C.",
     "Official Languages": [
@@ -11,17 +11,14 @@
         "Native American": 1.1,
         "Pacific Islander": 0.2,
         "two or more races": 10.2,
-        "other By origin:": 8.4,
-        "non- Hispanic or Latino": 81.3,
-        "Hispanic or Latino": 18.7
+        "other": 8.4
     },
-    "Demonym": "American",
     "Religions": {
         "Christianity": {
-            "Protestantism": {
+            "Protestantism":32.0, 
                 "Catholicism": 20.0,
-                "other Christian": 12.0
-            },
+                "other Christian": 12.0,
+            
             "Mormonism": 1.0
         },
         "unaffiliated": 24.0,
@@ -47,12 +44,12 @@
         "density_per_km2": 37.4
     },
     "GDP PPP": {
-        "total": 30616000000000.0,
-        "per_capita": 89599.0
+        "total": 32384000000000.0,
+        "per_capita": 94430.0
     },
     "GDP Nominal": {
-        "total": 30616000000000.0,
-        "per_capita": 89599.0
+        "total": 32384000000000.0,
+        "per_capita": 94430.0
     },
     "Gini": 41.8,
     "HDI": 0.938,

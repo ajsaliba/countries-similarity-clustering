@@ -1,10 +1,8 @@
-{
+﻿{
     "Country": "Zimbabwe",
     "Capital": "Harare",
     "Official Languages": [
-        "16",
-        "languages",
-        ":",
+        
         "Chewa",
         "Chibarwe",
         "English",
@@ -20,9 +18,7 @@
         "Tswana",
         "Venda",
         "Xhosa",
-        "Zimbabwean",
-        "sign",
-        "language"
+        "Zimbabwean sign language"
     ],
     "Ethnic Groups": {
         "Black African": 99.6,
@@ -30,7 +26,6 @@
         "Coloured": 0.1,
         "other": 0.1
     },
-    "Demonym": "Zimbabwean",
     "Religions": {
         "Christianity": {
             "Protestantism": 69.2,

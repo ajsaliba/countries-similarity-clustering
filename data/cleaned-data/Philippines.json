@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Philippines",
     "Capital": "Manila ( de jure ) Metro Manila ( de facto )",
     "Official Languages": [
@@ -14,7 +14,6 @@
         "Bicolano": 6.5,
         "other": 20.3
     },
-    "Demonym": "Filipino",
     "Religions": {
         "Christianity": {
             "Catholicism": 78.8,

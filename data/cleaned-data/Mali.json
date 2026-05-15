@@ -2,10 +2,10 @@
     "Country": "Mali",
     "Capital": "Bamako",
     "Official Languages": [
-        "13 national languages Bambara Bobo Hassaniya Arabic Bozo Dogon",
-        "Toro So Fula Kassonke Maninke Minyanka Senufo",
-        "Senara Songhay",
-        "Koyraboro Senni Soninke Tamasheq"
+        " Bambara", "Bobo", "Hassaniya", "Arabic", "Bozo", "Dogon",
+        "Toro", "So", "Fula", "Kassonke", "Maninke", "Minyanka", "Senufo",
+        "Senara", "Songhay",
+        "Koyraboro", "Senni", "Soninke", "Tamasheq"
     ],
     "Ethnic Groups": {
         "Bambara": 33.3,
@@ -19,17 +19,19 @@
         "Bobo": 2.1,
         "other": 4.5
     },
-    "Demonym": "Malian",
-    "Religions": {
-        "Islam": 95.0,
-        "other": 5.0
+    
+    "Religion": {
+        "Islam": 90.0,
+        "Christianity": 8.0,
+        "Traditional faiths":1.0,
+        "Other religions":1.0
     },
     "Government type": "Unitary presidential republic under a military junta",
     "Government structure": [
         "President",
         "Prime Minister"
     ],
-    "Legislature": "National Assembly",
+    "Legislature": "National Assembly Council",
     "Area": {
         "total_km2": 1240192.0,
         "land_km2": 1220348.93,

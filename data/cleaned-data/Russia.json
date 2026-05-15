@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Russia",
     "Capital": "Moscow",
     "Official Languages": [
@@ -12,9 +12,17 @@
         "other": 11.3,
         "not reported": 11.6
     },
-    "Demonym": "Russian",
-    "Religions": null,
-    "Government type": "Federal semi-presidential republic under an authoritarian dictatorship",
+    "Religions":{
+        "Christianity":{
+            "Eastern Orthodoxy": 61.0,
+            "other Christian": 2.0
+        },
+        "no religion":23.0,
+        "Islam":8.0,
+        "other religion":2.0,
+        "not answered": 5.0
+    },
+    "Government type": "Federal semi-presidential republic under an authoritarian government",
     "Government structure": [
         "President",
         "Prime Minister"

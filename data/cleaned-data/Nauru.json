@@ -1,18 +1,16 @@
-{
+﻿{
     "Country": "Nauru",
     "Capital": "Yaren ( de facto )",
     "Official Languages": [
         "Nauruan",
         "English"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Nauruan",
-    "Religions": null,
+    
     "Government type": "Unitary parliamentary republic with an executive presidency under a non-partisan democracy",
     "Government structure": [
         "President",
-        "Speaker of the Parliament",
-        "Minister Assisting the President"
+        "Vice President",
+        "Speaker of the Parliament"
     ],
     "Legislature": "Parliament",
     "Area": {
@@ -32,7 +30,7 @@
         "total": 172000000.0,
         "per_capita": 14274.0
     },
-    "Gini": null,
+    
     "HDI": 0.703,
     "Currency": "Australian dollar"
 }

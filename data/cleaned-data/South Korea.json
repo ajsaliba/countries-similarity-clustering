@@ -1,23 +1,20 @@
-{
+﻿{
     "Country": "South Korea",
     "Capital": "Seoul",
     "Official Languages": [
         "Korean",
-        "Korean",
-        "Sign",
-        "Language"
+        "Korean SignLanguage"
     ],
     "Ethnic Groups": {
         "Korean": 94.8,
         "other": 5.2
     },
-    "Demonym": "South",
     "Religions": {
-        "No religion": {
-            "Christianity": 31.0,
-            "Protestant": 20.0
-        },
-        "Catholic": 11.0,
+        "No religion":51.0,
+            "Christianity":{ 
+            "Protestant": 20.0,
+        
+        "Catholic": 11.0},
         "Buddhism": 17.0,
         "other": 2.0
     },
@@ -36,16 +33,16 @@
         "water_km2": 301.09
     },
     "Population": {
-        "total": 52081799,
-        "density_per_km2": 507.0
+        "total": 51106229.0,
+        "density_per_km2": 509.0
     },
     "GDP PPP": {
-        "total": 3363000000000.0,
-        "per_capita": 65080.0
+        "total": 3542000000000.0,
+        "per_capita": 68624.0
     },
     "GDP Nominal": {
-        "total": 1859000000000.0,
-        "per_capita": 35962.0
+        "total": 1931000000000.0,
+        "per_capita": 37412.0
     },
     "Gini": 33.3,
     "HDI": 0.937,

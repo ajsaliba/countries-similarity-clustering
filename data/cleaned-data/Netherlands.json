@@ -1,17 +1,35 @@
-{
+﻿{
     "Country": "Netherlands",
     "Capital": "Amsterdam",
     "Official Languages": [
         "Dutch"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Dutch",
-    "Religions": null,
-    "Government type": "The Hague",
+    "Ethnic Groups": {
+        "Dutch": 72.0,
+        "other European": 9.2,
+        "Dutch Caribbean":1.1,
+        "Indonesian": 2.0,
+        "Turkish": 2.5,
+        "Moroccan": 2.3,
+        "Surinamese": 2.0,
+        "other": 8.9
+
+    },
+    "Religions":{
+        "no religion":56.0,
+        "Christianity": {
+            "Catholicism": 17.0,
+            "Protestantism": 15.0
+        },
+        "Islam": 6.0,
+        "other":7
+    },
+    "Government type": "Unitary parliamentary constitutional monarchy",
     "Government structure": [
+        "Monarch",
         "Prime Minister"
     ],
-    "Legislature": null,
+    "Legislature": "States General",
     "Area": {
         "total_km2": 42531.0,
         "land_km2": 34467.12,
@@ -22,14 +40,14 @@
         "density_per_km2": 532.0
     },
     "GDP PPP": {
-        "total": 1581000000000.0,
-        "per_capita": 87173.0
+        "total": 1592000000000.0,
+        "per_capita": 87773.0
     },
     "GDP Nominal": {
-        "total": 1326000000000.0,
-        "per_capita": 73091.0
+        "total": 1450000000000.0,
+        "per_capita": 79918.0
     },
-    "Gini": null,
-    "HDI": null,
-    "Currency": "4 currencies Euro"
+    "Gini": 26.4,
+    "HDI": 0.955,
+    "Currency":["Euro","United States dollar"]
 }

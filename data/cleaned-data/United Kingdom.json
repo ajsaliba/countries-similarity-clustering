@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "United Kingdom",
     "Capital": "London",
     "Official Languages": [
@@ -11,40 +11,38 @@
         "Mixed": 2.7,
         "other": 2.0
     },
-    "Demonym": "British",
     "Religions": {
-        "Christianity": {
+        "Christianity": 46.6,
             "no religion": 37.8,
             "Islam": 6.0,
             "Hinduism": 1.6,
-            "Sikhism": 0.8,
-            "Buddhism": 0.4
-        },
-        "Judaism": 0.4,
-        "other": 0.6,
+           
+        
+        
+        "other": 2.2,
         "not stated": 5.9
     },
     "Government type": "Unitary parliamentary constitutional monarchy",
     "Government structure": [
-        "Prime Minister"
+        "Monarch","Prime Minister"
     ],
     "Legislature": "Parliament",
     "Area": {
         "total_km2": 244376.0,
-        "land_km2": 242741.0,
-        "water_km2": null
+        "land_km2": 242741.0
+        
     },
     "Population": {
         "total": 69281437,
         "density_per_km2": 285.0
     },
     "GDP PPP": {
-        "total": 4455000000000.0,
-        "per_capita": 63759.0
+        "total": 4721000000000.0,
+        "per_capita": 67585.0
     },
     "GDP Nominal": {
-        "total": 3959000000000.0,
-        "per_capita": 56661.0
+        "total": 4265000000000.0,
+        "per_capita": 61056.0
     },
     "Gini": 35.4,
     "HDI": 0.946,

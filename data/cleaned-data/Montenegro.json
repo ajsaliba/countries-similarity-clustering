@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Montenegro",
     "Capital": "Podgorica",
     "Official Languages": [
@@ -12,7 +12,6 @@
         "Russians": 2.1,
         "others or undeclared": 5.8
     },
-    "Demonym": "Montenegrin",
     "Religions": {
         "Christianity": {
             "Eastern Orthodoxy": 71.1,
@@ -20,10 +19,9 @@
             "other Christian": 0.6
         },
         "Islam": 19.9,
-        "no religion": {
-            "other": 0.3,
-            "not stated": 2.2
-        }
+        "no religion":2.7,
+        "other":0.3,
+        "not stated": 2.2
     },
     "Government type": "Unitary parliamentary republic",
     "Government structure": [

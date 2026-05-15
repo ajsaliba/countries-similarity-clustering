@@ -15,27 +15,15 @@
         "Antandroy": 5.0,
         "others": 24.0
     },
-    "Demonym": "Malagasy",
-    "Religions": {
-        "Christianity": {
-            "Protestantism": 45.8,
-            "Catholicism": 38.1,
-            "other Christian": 0.8
-        },
-        "no religion": 7.3,
-        "traditional faiths": 4.7,
-        "Islam": 3.1,
-        "others": 0.3
-    },
+    
     "Government type": "Unitary semi-presidential republic under a transitional government",
     "Government structure": [
         "President",
-        "Prime Minister",
-        "Kingdom"
+        "Prime Minister"
     ],
     "Legislature": "Parliament",
     "Area": {
-        "total_km2": 592796.0,
+         "total_km2": 592796.0,
         "land_km2": 563156.2,
         "water_km2": 29639.8
     },

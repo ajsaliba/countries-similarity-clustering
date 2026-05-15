@@ -1,18 +1,9 @@
-{
+﻿{
     "Country": "Mauritius",
     "Capital": "Port Louis",
     "Official Languages": [
-        "None",
-        "(",
-        "de",
-        "jure",
-        ")",
         "English",
-        "French",
-        "(",
-        "de",
-        "facto",
-        ")"
+        "French"
     ],
     "Ethnic Groups": {
         "Indian": 67.0,
@@ -20,7 +11,6 @@
         "Chinese": 3.0,
         "French": 2.0
     },
-    "Demonym": "Mauritian",
     "Religions": {
         "Hinduism": 47.9,
         "Christianity": 32.3,
@@ -46,8 +36,8 @@
         "density_per_km2": 605.5
     },
     "GDP PPP": {
-        "total": 42810000000.0,
-        "per_capita": 33954.0
+        "total": 43676000000.0,
+        "per_capita": 34830.0
     },
     "GDP Nominal": {
         "total": 16515000000.0,

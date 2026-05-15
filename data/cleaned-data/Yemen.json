@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Yemen",
     "Capital": "Sanaa",
     "Official Languages": [
@@ -11,14 +11,13 @@
         "Indo - Pakistani": 1.0,
         "other": 1.4
     },
-    "Demonym": "Yemeni",
     "Religions": {
-        "Islam": 99.1,
+        "Islam": {
         "Sunni": 65.0,
-        "Zaydi ~": 35.0,
+        "Zaydi ": 35.0},
         "other": 0.9
     },
-    "Government type": "Aden",
+    "Government type": "Unitary semi-presidential republic under a provisional government",
     "Government structure": [
         "President of the Presidential Leadership Council",
         "Prime Minister",

@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Niger",
     "Capital": "Niamey",
     "Official Languages": [
@@ -15,12 +15,10 @@
         "Arab": 0.4,
         "others": 0.9
     },
-    "Demonym": "Nigerien",
     "Religions": {
         "Islam": 99.3,
-        "Christianity": {
-            "Animism": 0.2
-        },
+        "Christianity":0.3,
+        "Animism":0.2,
         "irreligion": 0.1
     },
     "Government type": "Unitary semi-presidential republic under a military junta",

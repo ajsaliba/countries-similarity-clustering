@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Rwanda",
     "Capital": "Kigali",
     "Official Languages": [
@@ -8,18 +8,17 @@
         "Swahili"
     ],
     "Ethnic Groups": {
-        "Banyarwanda": 100.0,
+        "Banyarwanda":{
         "Hutu": 85.0,
         "Tutsi": 14.0,
-        "Twa": 1.0
+        "Twa": 1.0}
     },
-    "Demonym": "Rwandan",
     "Religions": {
         "Christianity": 93.8,
-        "no religion": {
+        "no religion":3.0,
             "Islam": 2.2,
             "other": 1.0
-        }
+        
     },
     "Government type": "Unitary semi-presidential republic under an authoritarian dictatorship",
     "Government structure": [

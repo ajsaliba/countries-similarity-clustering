@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Somalia",
     "Capital": "Mogadishu",
     "Official Languages": [
@@ -8,8 +8,7 @@
         "Somali": 85.0,
         "other": 15.0
     },
-    "Demonym": "Somali",
-    "Religions": null,
+    "Religions": "Sunni Islam",
     "Government type": "Federal parliamentary republic",
     "Government structure": [
         "President",
@@ -17,9 +16,8 @@
     ],
     "Legislature": "Federal Parliament",
     "Area": {
-        "total_km2": 637657.0,
-        "land_km2": null,
-        "water_km2": null
+        "total_km2": 637657.0
+        
     },
     "Population": {
         "total": 19280850,

@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "North Macedonia",
     "Capital": "Skopje",
     "Official Languages": [
@@ -16,7 +16,6 @@
         "other (including undeclared and unknown)": 1.0,
         "persons for whom data are taken from administrative sources": 7.2
     },
-    "Demonym": "Macedonian",
     "Religions": {
         "Christianity": {
             "Eastern Orthodoxy": 46.1,
@@ -30,7 +29,8 @@
     "Government type": "Unitary parliamentary republic",
     "Government structure": [
         "President",
-        "Prime Minister"
+        "Prime Minister",
+        "Chairman of the Assembly"
     ],
     "Legislature": "Assembly",
     "Area": {

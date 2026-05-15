@@ -1,11 +1,10 @@
-{
+﻿{
     "Country": "Oman",
     "Capital": "Muscat",
     "Official Languages": [
         "Arabic"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Omani",
+   
     "Religions": {
         "Islam": 95.0,
         "Hinduism": 1.67,
@@ -14,7 +13,10 @@
         }
     },
     "Government type": "Unitary Islamic absolute monarchy",
-    "Government structure": null,
+    "Government structure": [
+        "Sultan",
+        "Crown Prince"
+    ],
     "Legislature": "Council of Oman",
     "Area": {
         "total_km2": 315331.0,

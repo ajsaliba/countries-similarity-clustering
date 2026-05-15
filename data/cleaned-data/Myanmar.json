@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Myanmar",
     "Capital": "Naypyidaw",
     "Official Languages": [
@@ -14,7 +14,6 @@
         "Kachin": 1.5,
         "Karenni": 0.39
     },
-    "Demonym": "Burmese",
     "Religions": {
         "Buddhism": 87.9,
         "Christianity": {
@@ -22,16 +21,16 @@
             "Catholicism": 1.29
         },
         "Islam": 4.3,
-        "folk religion": {
-            "Hinduism": 0.5,
-            "no religion": 0.1
-        },
+        "folk religion": 0.8,
+        "Hinduism": 0.5,
+        "no religion": 0.1,
         "other": 0.2
     },
-    "Government type": "Unitary assembly-independent republic under a military junta",
+    "Government type": "Unitary assembly-independent republic",
     "Government structure": [
         "President",
-        "Prime Minister"
+        "First Vice President",
+        "Second Vice President"
     ],
     "Legislature": "Pyidaungsu Hluttaw",
     "Area": {

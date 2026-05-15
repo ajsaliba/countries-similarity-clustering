@@ -1,14 +1,8 @@
-{
+﻿{
     "Country": "North Korea",
     "Capital": "Pyongyang",
-    "Official Languages": [
-        "Korean",
-        "(",
-        "Munhwaŏ",
-        ")"
-    ],
-    "Ethnic Groups": null,
-    "Demonym": "North",
+    "Official Languages": "Korean(Munhwaŏ)",
+   
     "Religions": {
         "no religion": 73.0,
         "Chondoism": 13.0,
@@ -18,7 +12,9 @@
     },
     "Government type": "Unitary communist state",
     "Government structure": [
-        "WPK General Secretary and SAC President"
+        "WPK General Secretary and SAC President",
+        "Premier",
+        "Assembly President"
     ],
     "Legislature": "Supreme People's Assembly",
     "Area": {
@@ -39,6 +35,6 @@
         "per_capita": 1261.0
     },
     "Gini": 16.6,
-    "HDI": null,
+    
     "Currency": "Korean People's won"
 }

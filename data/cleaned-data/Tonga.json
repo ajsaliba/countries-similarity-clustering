@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Tonga",
     "Capital": "Nukuʻalofa",
     "Official Languages": [
@@ -9,11 +9,10 @@
         "Tongan": 96.5,
         "others": 3.5
     },
-    "Demonym": "Tongan",
     "Religions": {
-        "Christianity —": {
-            "Protestantism —": 64.1,
-            "Mormonism —": 18.6,
+        "Christianity ": {
+            "Protestantism ": 64.1,
+            "Mormonism ": 18.6,
             "Catholicism": 14.2
         },
         "no religion": 0.5,
@@ -22,6 +21,7 @@
     },
     "Government type": "Unitary parliamentary semi-constitutional monarchy",
     "Government structure": [
+        "Monarch",
         "Prime Minister",
         "Assembly Speaker"
     ],
@@ -32,7 +32,7 @@
         "water_km2": 29.92
     },
     "Population": {
-        "total": 100209,
+        "total": 100179,
         "density_per_km2": 139.0
     },
     "GDP PPP": {

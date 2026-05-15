@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Palestine",
     "Capital": "Jerusalem ( limited recognition ) Ramallah ( de facto )",
     "Official Languages": [
@@ -8,7 +8,6 @@
         "Palestinian Arabs": 91.2,
         "Israeli Jews": 8.8
     },
-    "Demonym": "Palestinian",
     "Religions": {
         "Islam": {
             "Sunni": 71.21,
@@ -47,5 +46,9 @@
     },
     "Gini": 33.7,
     "HDI": 0.674,
-    "Currency": "Israeli new shekel Jordanian dinar Egyptian pound"
+    "Currency":[
+        "Israeli new shekel",
+        "Jordanian dinar",
+        "Egyptian pound"
+    ]
 }

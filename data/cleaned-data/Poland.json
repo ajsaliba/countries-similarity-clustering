@@ -1,16 +1,18 @@
-{
+﻿{
     "Country": "Poland",
     "Capital": "Warsaw",
     "Official Languages": [
         "Polish"
     ],
     "Ethnic Groups": {
-        "Polish": 98.8,
-        "only Polish": 96.3,
-        "Polish and others": 2.6,
-        "only non-Polish": 1.1
+        "Polish":{
+             "only Polish": 96.3,
+             "Polish and others": 2.6
+           
+        },
+       
+        "non-Polish": 1.1
     },
-    "Demonym": "Polish",
     "Religions": {
         "Christianity": {
             "Catholicism": 71.3,
@@ -36,14 +38,14 @@
         "density_per_km2": 126.0
     },
     "GDP PPP": {
-        "total": 2019000000000.0002,
-        "per_capita": 55340.0
+        "total": 2164000000000.0,
+        "per_capita": 59792.0
     },
     "GDP Nominal": {
-        "total": 1038999999999.9999,
-        "per_capita": 28484.0
+        "total": 1134000000000.0,
+        "per_capita": 31336.0
     },
-    "Gini": 26.3,
+    "Gini": 24.9,
     "HDI": 0.906,
     "Currency": "Złoty"
 }

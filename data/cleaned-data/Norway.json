@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Norway",
     "Capital": "Oslo",
     "Official Languages": [
@@ -9,7 +9,6 @@
         "Norwegian": 78.6,
         "non-Norwegian": 21.4
     },
-    "Demonym": "Norwegian",
     "Religions": {
         "Christianity": {
             "Church of Norway": 61.7,
@@ -36,12 +35,12 @@
         "density_per_km2": 14.6
     },
     "GDP PPP": {
-        "total": 606590000000.0,
-        "per_capita": 107890.0
+        "total": 654160000000.0,
+        "per_capita": 115548.0
     },
     "GDP Nominal": {
-        "total": 504280000000.0,
-        "per_capita": 89690.0
+        "total": 599406000000.0,
+        "per_capita": 105877.0
     },
     "Gini": 25.3,
     "HDI": 0.97,

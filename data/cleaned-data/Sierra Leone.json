@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Sierra Leone",
     "Capital": "Freetown",
     "Official Languages": [
@@ -17,7 +17,6 @@
         "Mandingo": 2.4,
         "Krio": 1.3
     },
-    "Demonym": "Sierra",
     "Religions": {
         "Islam": 78.0,
         "Christianity": 21.0,

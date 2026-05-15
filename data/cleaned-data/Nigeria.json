@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Nigeria",
     "Capital": "Abuja",
     "Official Languages": [
@@ -15,7 +15,6 @@
         "Ijaw": 1.8,
         "other": 24.7
     },
-    "Demonym": "Nigerian",
     "Religions": {
         "Islam": 53.5,
         "Christianity": {

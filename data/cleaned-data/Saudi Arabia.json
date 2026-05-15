@@ -1,12 +1,11 @@
-{
+﻿{
     "Country": "Saudi Arabia",
     "Capital": "Riyadh",
     "Official Languages": [
         "Arabic"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Saudi",
-    "Religions": null,
+   
+    "Religions": "Sunni Islam",
     "Government type": "Unitary Islamic absolute monarchy",
     "Government structure": [
         "King",

@@ -1,11 +1,10 @@
-{
+﻿{
     "Country": "Mexico",
     "Capital": "Mexico City",
     "Official Languages": [
         "Spanish"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Mexican",
+    
     "Religions": {
         "Christianity": {
             "Catholicism": 77.7,
@@ -33,12 +32,12 @@
         "density_per_km2": 61.0
     },
     "GDP PPP": {
-        "total": 3396000000000.0,
-        "per_capita": 25463.0
+        "total": 3581000000000.0,
+        "per_capita": 26643.0
     },
     "GDP Nominal": {
-        "total": 1693000000000.0,
-        "per_capita": 12692.0
+        "total": 2121000000000.0,
+        "per_capita": 15779.0
     },
     "Gini": 40.2,
     "HDI": 0.789,

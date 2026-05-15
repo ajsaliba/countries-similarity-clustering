@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Palau",
     "Capital": "Ngerulmud",
     "Official Languages": [
@@ -12,14 +12,11 @@
         "European": 1.0,
         "other": 0.9
     },
-    "Demonym": "Palauan",
     "Religions": {
         "Christianity": 78.7,
-        "no religion": {
-            "Modekngei": {
-                "Islam": 4.9
-            }
-        },
+       "no religion":10.1,
+       "Modekngei": 5.1,
+       "Islam":4.9,
         "other": 1.2
     },
     "Government type": "Unitary presidential republic under a non-partisan democracy",
@@ -45,7 +42,7 @@
         "total": 322000000.0,
         "per_capita": 17448.0
     },
-    "Gini": null,
+    
     "HDI": 0.786,
     "Currency": "United States dollar"
 }

@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Papua New Guinea",
     "Capital": "Port Moresby",
     "Official Languages": [
@@ -11,8 +11,7 @@
         "Tok",
         "Pisin"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Papua",
+    
     "Religions": {
         "Christianity": {
             "Protestantism": 64.3,
@@ -24,7 +23,7 @@
     },
     "Government type": "Unitary parliamentary constitutional monarchy",
     "Government structure": [
-        "Prime Minister"
+        "Monarch","Governor-General","Prime Minister"
     ],
     "Legislature": "National Parliament",
     "Area": {

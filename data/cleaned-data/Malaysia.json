@@ -5,13 +5,14 @@
         "Malay"
     ],
     "Ethnic Groups": {
-        "Bumiputera": 70.5,
+        "Bumiputera":{
         "Malay": 57.3,
-        "indigenous groups of Sabah , Sarawak , Orang Asli and other": 13.2,
+        "indigenous groups of Sabah , Sarawak , Orang Asli and other": 13.2
+        },
         "Chinese": 22.9,
         "Indian": 6.6
     },
-    "Demonym": "Malaysian",
+    
     "Religions": {
         "Islam": 63.5,
         "Buddhism": 18.7,
@@ -22,11 +23,12 @@
     },
     "Government type": "Federal parliamentary constitutional elective monarchy",
     "Government structure": [
+        "Monarch",
         "Prime Minister"
     ],
     "Legislature": "Parliament",
     "Area": {
-        "total_km2": 330803.0,
+       "total_km2": 330803.0,
         "land_km2": 329810.59,
         "water_km2": 992.41
     },
@@ -35,12 +37,12 @@
         "density_per_km2": 101.0
     },
     "GDP PPP": {
-        "total": 1478000000000.0,
-        "per_capita": 43665.0
+        "total": 1609000000000.0,
+        "per_capita": 46986.0
     },
     "GDP Nominal": {
-        "total": 470572000000000.0,
-        "per_capita": 13901.0
+        "total":516428000000.0,
+        "per_capita": 15085.0
     },
     "Gini": 39.0,
     "HDI": 0.819,

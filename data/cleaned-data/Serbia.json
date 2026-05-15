@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Serbia",
     "Capital": "Belgrade",
     "Official Languages": [
@@ -12,7 +12,6 @@
         "others": 5.4,
         "undeclared/unknown": 6.9
     },
-    "Demonym": "Serbian",
     "Religions": {
         "Christianity": {
             "Eastern Orthodoxy": 81.1,
@@ -31,9 +30,7 @@
     ],
     "Legislature": "National Assembly",
     "Area": {
-        "total_km2": 88499.0,
-        "land_km2": null,
-        "water_km2": null
+        "total_km2": 88499.0
     },
     "Population": {
         "total": 6567783,
@@ -47,7 +44,7 @@
         "total": 112110000000.0,
         "per_capita": 17290.0
     },
-    "Gini": 31.9,
+    "Gini": 32.0,
     "HDI": 0.833,
     "Currency": "Serbian dinar"
 }

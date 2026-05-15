@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Slovakia",
     "Capital": "Bratislava",
     "Official Languages": [
@@ -10,7 +10,6 @@
         "Romani": 1.3,
         "others": 1.9
     },
-    "Demonym": "Slovak",
     "Religions": {
         "Christianity": {
             "Catholicism": 59.8,
@@ -38,12 +37,12 @@
         "density_per_km2": 110.0
     },
     "GDP PPP": {
-        "total": 256709999999.99997,
-        "per_capita": 47440.0
+        "total": 266932000000.0,
+        "per_capita": 49376.0
     },
     "GDP Nominal": {
-        "total": 152480000000.0,
-        "per_capita": 28180.0
+        "total": 167730000000.0,
+        "per_capita": 31026.0
     },
     "Gini": 21.2,
     "HDI": 0.88,

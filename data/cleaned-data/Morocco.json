@@ -1,12 +1,11 @@
-{
+﻿{
     "Country": "Morocco",
     "Capital": "Rabat",
     "Official Languages": [
         "Arabic",
         "Tamazight"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Moroccan",
+    
     "Religions": {
         "Islam": {
             "Sunni": 99.23,
@@ -32,7 +31,7 @@
         "water_km2": 250.07
     },
     "Population": {
-        "total": 37493183,
+        "total": 36828330,
         "density_per_km2": 79.0
     },
     "GDP PPP": {

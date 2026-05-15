@@ -1,44 +1,21 @@
-{
+﻿{
     "Country": "South Africa",
     "Capital": "Pretoria (executive) Cape Town (legislative) Bloemfontein (judicial)",
     "Official Languages": [
-        "12",
-        "languages",
+        
         "Afrikaans",
         "English",
         "Ndebele",
         "Sepedi",
         "Sesotho",
         "Setswana",
-        "South",
-        "African",
-        "Sign",
-        "Language",
+        "South African Sign Language",
         "Swazi",
         "Tshivenda",
         "Xhosa",
         "Xitsonga",
-        "Zulu",
-        "Languages",
-        "with",
-        "special",
-        "status",
-        "Khoe",
-        "languages",
-        "Nama",
-        "Khoisan",
-        "languages",
-        "German",
-        "Greek",
-        "Gujarati",
-        "Hindi",
-        "Portuguese",
-        "Telugu",
-        "Tamil",
-        "Urdu",
-        "Arabic",
-        "Hebrew",
-        "Sanskrit"
+        "Zulu"
+        
     ],
     "Ethnic Groups": {
         "Black": 81.4,
@@ -47,7 +24,6 @@
         "Indian or Asian": 2.7,
         "other": 0.4
     },
-    "Demonym": "South",
     "Religions": {
         "Christianity": 85.3,
         "Traditional faiths": 7.8,
@@ -74,12 +50,12 @@
         "density_per_km2": 50.8
     },
     "GDP PPP": {
-        "total": 1060000000000.0,
-        "per_capita": 16280.0
+        "total": 1071000000000.0,
+        "per_capita": 16740.0
     },
     "GDP Nominal": {
-        "total": 443640000000.0,
-        "per_capita": 6830.0
+        "total": 479964000000.0,
+        "per_capita": 7503.0
     },
     "Gini": 63.0,
     "HDI": 0.741,

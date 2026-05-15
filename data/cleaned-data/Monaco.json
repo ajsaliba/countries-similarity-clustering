@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Monaco",
     "Capital": "Monaco ( city-state )",
     "Official Languages": [
@@ -7,8 +7,7 @@
         "Meridional",
         ")"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Monégasque",
+    "Ethnic Groups": ["Monégasque", "French", "Italian", "Occitans"],
     "Religions": {
         "Christianity": {
             "Catholicism": 80.9,
@@ -16,12 +15,11 @@
         },
         "no religion": 11.7,
         "Judaism": 1.7,
-        "Islam": {
-            "other": 0.2
-        }
+        "Islam":0.4,
+        "Other":0.2
     },
     "Government type": "Unitary parliamentary semi- constitutional monarchy",
-    "Government structure": null,
+    "Government structure": ["Monarch", "Minister of State"],
     "Legislature": "National Council",
     "Area": {
         "total_km2": 2.084,
@@ -29,8 +27,8 @@
         "water_km2": 0.0
     },
     "Population": {
-        "total": 38423,
-        "density_per_km2": 446.0
+        "total": 38857,
+        "density_per_km2": 18446
     },
     "GDP PPP": {
         "total": 8924000000.0,
@@ -40,7 +38,6 @@
         "total": 10434000000.0,
         "per_capita": 315800.0
     },
-    "Gini": null,
-    "HDI": null,
+    
     "Currency": "Euro"
 }

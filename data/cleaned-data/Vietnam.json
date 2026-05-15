@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Vietnam",
     "Capital": "Hanoi",
     "Official Languages": [
@@ -8,18 +8,17 @@
         "Kinh Vietnamese": 85.32,
         "other": 14.68
     },
-    "Demonym": "Vietnamese",
     "Religions": {
         "no religion / folk": 86.32,
-        "Catholicism": {
+        "Catholicism":6.1,
             "Buddhism": 4.79,
-            "Hoahaoism": 1.02
-        },
-        "Protestantism": {
+            "Hoahaoism": 1.02,
+        
+        "Protestantism": 1.0,
             "Caodaism": 0.58,
             "Islam": 0.07,
             "other": 0.12
-        }
+        
     },
     "Government type": "Unitary communist state",
     "Government structure": [
@@ -37,12 +36,12 @@
         "density_per_km2": 309.0
     },
     "GDP PPP": {
-        "total": 1786000000000.0,
-        "per_capita": 17484.0
+        "total": 2025000000000.0,
+        "per_capita": 19649.0
     },
     "GDP Nominal": {
-        "total": 490970000000.0,
-        "per_capita": 4806.0
+        "total": 527266000000.0,
+        "per_capita": 5115.0
     },
     "Gini": 36.1,
     "HDI": 0.766,

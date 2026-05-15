@@ -1,20 +1,19 @@
-{
+﻿{
     "Country": "Timor-Leste",
     "Capital": "Dili",
     "Official Languages": [
         "Portuguese",
         "Tetum"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "East",
+    
     "Religions": {
         "Christianity": {
             "Catholicism": 97.57,
             "Protestantism": 1.96
         },
-        "Islam": {
+        "Islam":0.24,
             "other": 0.23
-        }
+        
     },
     "Government type": "Unitary semi-presidential republic",
     "Government structure": [

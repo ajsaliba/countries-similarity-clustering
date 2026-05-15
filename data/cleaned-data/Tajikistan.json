@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Tajikistan",
     "Capital": "Dushanbe",
     "Official Languages": [
@@ -12,7 +12,6 @@
         "Russians": 0.3,
         "other": 1.9
     },
-    "Demonym": "Tajikistani",
     "Religions": {
         "Islam": 97.5,
         "Christianity": 0.7,

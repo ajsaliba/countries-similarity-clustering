@@ -1,17 +1,13 @@
-{
+﻿{
     "Country": "Switzerland",
-    "Capital": "Bern ( de facto )",
+    "Capital": "Bern",
     "Official Languages": [
-        "{')",
-        "French (': '62%'",
-        "')",
-        "Italian (': '23%'",
-        "')",
-        "Romansh (': '8%'",
-        "')': '0.5%'}"
+        "German",
+        "French",
+        "Italian",
+        "Romansh"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "English:",
+    
     "Religions": {
         "Christianity": {
             "Catholicism": 30.0,
@@ -24,7 +20,7 @@
         "unanswered": 0.9
     },
     "Government type": "Federal assembly-independent directorial republic",
-    "Government structure": null,
+    "Government structure": ["Federal Councillors","Federal Chancellor"],
     "Legislature": "Federal Assembly",
     "Area": {
         "total_km2": 41291.0,
@@ -36,12 +32,12 @@
         "density_per_km2": 207.0
     },
     "GDP PPP": {
-        "total": 881083000000.0,
-        "per_capita": 97660.0
+        "total": 960599000000.0,
+        "per_capita": 105680.0
     },
     "GDP Nominal": {
-        "total": 1002999999999.9999,
-        "per_capita": 111047.0
+        "total": 1147000000000.9999,
+        "per_capita": 126177.0
     },
     "Gini": 31.5,
     "HDI": 0.97,

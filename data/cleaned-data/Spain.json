@@ -1,15 +1,14 @@
-{
+﻿{
     "Country": "Spain",
     "Capital": "Madrid",
     "Official Languages": [
         "Spanish"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Spaniard",
+    
     "Religions": {
-        "Roman Catholicism": {
-            "non-practicing Catholic": 40.0,
-            "practicing Catholic": 18.6
+        "Roman Catholicism":{
+            "practicing Catholic": 18.2,
+            "non-practicing Catholic": 36.3
         },
         "atheist": 13.3,
         "indifferent or irreligious": 11.7,
@@ -30,16 +29,16 @@
         "water_km2": 4503.67
     },
     "Population": {
-        "total": 49570725,
+        "total": 49687120.0,
         "density_per_km2": 98.0
     },
     "GDP PPP": {
-        "total": 2829000000000.0,
-        "per_capita": 56888.0
+        "total": 2978000000000.0,
+        "per_capita": 59187.0
     },
     "GDP Nominal": {
-        "total": 1891000000000.0,
-        "per_capita": 38040.0
+        "total": 2091000000000.0,
+        "per_capita": 41563.0
     },
     "Gini": 31.2,
     "HDI": 0.918,

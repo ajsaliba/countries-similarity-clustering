@@ -1,11 +1,9 @@
-{
+﻿{
     "Country": "Uruguay",
     "Capital": "Montevideo",
     "Official Languages": [
         "Spanish",
-        "Uruguayan",
-        "Sign",
-        "Language"
+        "UruguayanSign Language"
     ],
     "Ethnic Groups": {
         "White": 86.0,
@@ -14,8 +12,7 @@
         "East Asian": 0.7,
         "other": 6.3
     },
-    "Demonym": "Uruguayan",
-    "Religions": null,
+   
     "Government type": "Unitary presidential republic",
     "Government structure": [
         "President",
@@ -32,12 +29,12 @@
         "density_per_km2": 19.5
     },
     "GDP PPP": {
-        "total": 107946000000.0,
-        "per_capita": 36014.0
+        "total": 135800000000.0,
+        "per_capita": 39030.0
     },
     "GDP Nominal": {
-        "total": 82605000000.0,
-        "per_capita": 23088.0
+        "total": 96100000000.0,
+        "per_capita": 27608.0
     },
     "Gini": 40.6,
     "HDI": 0.862,

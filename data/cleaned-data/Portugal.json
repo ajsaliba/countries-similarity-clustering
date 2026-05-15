@@ -1,12 +1,10 @@
-{
+﻿{
     "Country": "Portugal",
     "Capital": "Lisbon",
     "Official Languages": [
         "Portuguese"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Portuguese",
-    "Religions": null,
+    
     "Government type": "Unitary semi-presidential republic",
     "Government structure": [
         "President",
@@ -17,21 +15,21 @@
     "Area": {
         "total_km2": 156597.0,
         "land_km2": 92225.0,
-        "water_km2": 100222.08
+        "water_km2": 64372.0
     },
     "Population": {
         "total": 10749635,
         "density_per_km2": 116.6
     },
     "GDP PPP": {
-        "total": 556383000000.0,
-        "per_capita": 51853.0
+        "total": 567632000000.0,
+        "per_capita": 52841.0
     },
     "GDP Nominal": {
-        "total": 364527000000.0,
-        "per_capita": 33972.0
+        "total": 380637000000.0,
+        "per_capita": 35434.0
     },
-    "Gini": 31.9,
+    "Gini": 30.9,
     "HDI": 0.89,
     "Currency": "Euro"
 }

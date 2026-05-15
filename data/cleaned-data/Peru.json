@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Peru",
     "Capital": "Lima",
     "Official Languages": [
@@ -13,7 +13,6 @@
         "other": 1.1,
         "no answer": 3.32
     },
-    "Demonym": "Peruvian",
     "Religions": {
         "Christianity": {
             "Catholicism": 76.0,

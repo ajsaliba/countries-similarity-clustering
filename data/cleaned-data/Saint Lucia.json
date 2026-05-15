@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Saint Lucia",
     "Capital": "Castries",
     "Official Languages": [
@@ -10,7 +10,6 @@
         "Indian": 2.2,
         "other/ unspecified": 1.6
     },
-    "Demonym": "Saint",
     "Religions": {
         "Christianity": 77.4,
         "no religion": 14.4,
@@ -20,7 +19,7 @@
     },
     "Government type": "Unitary parliamentary constitutional monarchy",
     "Government structure": [
-        "Prime Minister"
+        "Prime Minister","Monarch","Governor-General"
     ],
     "Legislature": "Parliament",
     "Area": {

@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Tunisia",
     "Capital": "Tunis",
     "Official Languages": [
@@ -9,7 +9,6 @@
         "Berbers": 1.0,
         "Jews and others": 1.0
     },
-    "Demonym": "Tunisian",
     "Religions": {
         "Sunni Islam": 99.0,
         "others": 1.0

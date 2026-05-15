@@ -1,11 +1,10 @@
-{
+﻿{
     "Country": "Slovenia",
     "Capital": "Ljubljana",
     "Official Languages": [
         "Slovene"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Slovene",
+    
     "Religions": {
         "Christianity": {
             "Catholicism": 73.4,
@@ -31,12 +30,12 @@
         "density_per_km2": 103.0
     },
     "GDP PPP": {
-        "total": 122985000000000.0,
+        "total": 129498000000.0,
         "per_capita": 57716.0
     },
     "GDP Nominal": {
-        "total": 79222000000000.0,
-        "per_capita": 37178.0
+        "total": 86722000000.0,
+        "per_capita": 60663.0
     },
     "Gini": 23.4,
     "HDI": 0.931,

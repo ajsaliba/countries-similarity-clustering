@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Venezuela",
     "Capital": "Caracas",
     "Official Languages": [
@@ -10,7 +10,6 @@
         "Black": 3.6,
         "other": 1.2
     },
-    "Demonym": "Venezuelan",
     "Religions": {
         "Christianity": {
             "Catholicism": 80.5,

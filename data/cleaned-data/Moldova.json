@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Moldova",
     "Capital": "Chișinău",
     "Official Languages": [
@@ -13,7 +13,6 @@
         "Bulgarians": 1.6,
         "other": 1.1
     },
-    "Demonym": "Moldovan",
     "Religions": {
         "Christianity": {
             "Eastern Orthodoxy": 94.3,
@@ -41,11 +40,11 @@
     },
     "GDP PPP": {
         "total": 48511000000.0,
-        "per_capita": 20731.0
+        "per_capita": 21170.0
     },
     "GDP Nominal": {
-        "total": 21024000000.0,
-        "per_capita": 8984.0
+        "total": 21889000000.0,
+        "per_capita": 9354.0
     },
     "Gini": 25.7,
     "HDI": 0.785,

@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Senegal",
     "Capital": "Dakar",
     "Official Languages": [
@@ -13,11 +13,10 @@
         "Soninke": 2.4,
         "others": 5.4
     },
-    "Demonym": "Senegalese",
     "Religions": {
-        "Islam": 97.2,
-        "Christianity": 2.7,
-        "other": 0.1
+        "Islam": 89.0,
+        "Christianity": 10.0,
+        "Traditional faiths": 1.0
     },
     "Government type": "Unitary presidential republic",
     "Government structure": [

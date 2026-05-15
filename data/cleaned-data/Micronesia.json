@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Micronesia",
     "Capital": "Palikir",
     "Official Languages": [
@@ -15,7 +15,6 @@
         "other": 6.4,
         "unknown": 1.4
     },
-    "Demonym": "Micronesian",
     "Religions": {
         "Christianity": {
             "Roman Catholic": 52.6,
@@ -49,6 +48,6 @@
         "per_capita": 5291.0
     },
     "Gini": 40.1,
-    "HDI": 0.634,
+    "HDI": 0.615,
     "Currency": "United States dollar"
 }

@@ -1,12 +1,15 @@
-{
+﻿{
     "Country": "Turkey",
     "Capital": "Ankara",
     "Official Languages": [
         "Turkish"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Turkish",
-    "Religions": null,
+    "Ethnic Groups": {
+        "Turkish": 75.0,
+        "Kurdish": 19.0,
+        "other minorities": 6.0
+    },
+    
     "Government type": "Unitary presidential republic",
     "Government structure": [
         "President",
@@ -25,14 +28,14 @@
         "density_per_km2": 112.0
     },
     "GDP PPP": {
-        "total": 3770000000000.0,
-        "per_capita": 43790.0
+        "total": 4025000000000.0,
+        "per_capita": 46672.0
     },
     "GDP Nominal": {
-        "total": 1570000000000.0,
-        "per_capita": 18200.0
+        "total": 1640000000000.0,
+        "per_capita": 19018.0
     },
-    "Gini": 44.5,
+    "Gini": 43.7,
     "HDI": 0.853,
     "Currency": "Turkish lira"
 }

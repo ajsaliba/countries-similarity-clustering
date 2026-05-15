@@ -1,12 +1,11 @@
-{
+﻿{
     "Country": "Paraguay",
     "Capital": "Asunción",
     "Official Languages": [
         "Spanish",
         "Guarani"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Paraguayan",
+    
     "Religions": {
         "Christianity": {
             "Catholicism": 87.4,

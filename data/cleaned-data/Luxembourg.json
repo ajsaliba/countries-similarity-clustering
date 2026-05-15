@@ -11,8 +11,7 @@
         "German",
         "French"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Luxembourger",
+   
     "Religions": {
         "Christianity": {
             "Catholicism": 46.0,
@@ -28,7 +27,6 @@
     "Legislature": "Chamber of Deputies",
     "Area": {
         "total_km2": 2586.4,
-        "land_km2": 2580.45,
         "water_km2": 5.95
     },
     "Population": {

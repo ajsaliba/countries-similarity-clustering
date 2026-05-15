@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Vanuatu",
     "Capital": "Port Vila",
     "Official Languages": [
@@ -10,7 +10,6 @@
         "Ni-Vanuatu": 98.5,
         "others": 1.5
     },
-    "Demonym": "Ni-Vanuatu",
     "Religions": {
         "Christianity": {
             "Protestantism": 75.1,
@@ -28,9 +27,8 @@
     ],
     "Legislature": "Parliament",
     "Area": {
-        "total_km2": 12189.0,
-        "land_km2": null,
-        "water_km2": null
+        "total_km2": 12189.0
+        
     },
     "Population": {
         "total": 335908,

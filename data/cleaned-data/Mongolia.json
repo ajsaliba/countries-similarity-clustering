@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Mongolia",
     "Capital": "Ulaanbaatar",
     "Official Languages": [
@@ -14,7 +14,6 @@
         "Kazakhs": 3.8,
         "other": 0.6
     },
-    "Demonym": "Mongolian",
     "Religions": {
         "Buddhism": 51.7,
         "No religion": 40.6,
@@ -26,7 +25,8 @@
     "Government type": "Unitary semi-presidential republic",
     "Government structure": [
         "President",
-        "Prime Minister"
+        "Prime Minister",
+        "Chairman of the State Great Khural"
     ],
     "Legislature": "State Great Khural",
     "Area": {

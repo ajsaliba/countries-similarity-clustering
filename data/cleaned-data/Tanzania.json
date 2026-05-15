@@ -1,19 +1,18 @@
-{
+﻿{
     "Country": "Tanzania",
     "Capital": "Dodoma",
     "Official Languages": [
         "Swahili",
         "English"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Tanzanian",
+   
     "Religions": {
         "Christianity": 63.1,
         "Islam": 34.1,
-        "no religion": {
+        "no religion":1.5,
             "traditional faiths": 1.2,
             "others": 0.1
-        }
+        
     },
     "Government type": "Unitary dominant-party presidential republic",
     "Government structure": [

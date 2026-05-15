@@ -1,11 +1,10 @@
-{
+﻿{
     "Country": "South Sudan",
     "Capital": "Juba",
     "Official Languages": [
         "English"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "South",
+    
     "Religions": {
         "Christianity": 60.5,
         "traditional faiths": 32.9,
@@ -19,12 +18,11 @@
     ],
     "Legislature": "Transitional National Legislature",
     "Area": {
-        "total_km2": 644329.0,
-        "land_km2": null,
-        "water_km2": null
+        "total_km2": 644329.0
+        
     },
     "Population": {
-        "total": 12703714,
+        "total": 12703714.0,
         "density_per_km2": 19.0
     },
     "GDP PPP": {

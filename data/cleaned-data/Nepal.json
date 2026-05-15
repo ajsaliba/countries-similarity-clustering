@@ -1,11 +1,11 @@
-{
+﻿{
     "Country": "Nepal",
     "Capital": "Kathmandu",
     "Official Languages": [
         "Nepali"
     ],
     "Ethnic Groups": {
-        "Janajati": 35.0,
+        "Janajati":{
         "Magar": 6.9,
         "Tharu": 6.2,
         "Tamang": 5.6,
@@ -13,38 +13,43 @@
         "Rai": 2.2,
         "Gurung": 1.8,
         "Limbu": 1.5,
-        "other": 5.6,
-        "Khas Arya": 30.0,
+        "other": 6.2},
+
+        "Khas Arya":{
         "Chhetri": 16.4,
         "Bahun": 11.2,
         "Thakuri": 1.7,
-        "Madheshi": 16.0,
+        "other":0.7},
+        "Madheshi":{
         "Yadav": 4.2,
         "Teli": 1.4,
         "Chamar": 1.3,
         "Kushwaha": 1.2,
-        "Dalit": 14.0,
+        "other":8.5},
+
+        "Dalit":{
         "Kami": 5.0,
         "Damai": 1.9,
         "Sarki": 1.5,
+        "other":5.6},
         "Musalman": 5.0
     },
-    "Demonym": "Nepali",
     "Religions": {
         "Hinduism": 81.0,
-        "Buddhism": {
-            "Islam": 5.0,
-            "Kirat": 3.0
-        },
+        "Buddhism":8,
+        "Islam": 5.0,
+        "Kirat": 3.0,
+        
         "Christianity": 2.0,
         "other": 1.0
     },
-    "Government type": "Federal parliamentary republic under an interim government",
+    "Government type": "Federal parliamentary republic",
     "Government structure": [
         "President",
         "Vice President",
         "Prime Minister",
-        "Chief Justice"
+        "Chief Justice",
+        "Speaker"
     ],
     "Legislature": "Federal Parliament",
     "Area": {

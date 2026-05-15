@@ -1,20 +1,19 @@
-{
+﻿{
     "Country": "Syria",
     "Capital": "Damascus",
     "Official Languages": [
         "Arabic"
     ],
     "Ethnic Groups": {
-        "Arabs 9–": 90.0,
-        "Kurds 1–": 10.0,
+        "Arabs ": 90.0,
+        "Kurds ": 10.0,
         "others": 10.0
     },
-    "Demonym": "Syrian",
     "Religions": {
-        "Islam": 94.17,
+        "Islam":{
         "Sunni": 79.19,
-        "Shia 10–": 14.1,
-        "Alawites": 13.0,
+        "Shia ": 14.1,
+        "Alawites": 13.0},
         "Christianity": 3.84,
         "other": 1.99
     },
@@ -41,6 +40,6 @@
         "per_capita": 800.0
     },
     "Gini": 26.6,
-    "HDI": null,
+    
     "Currency": "Syrian pound"
 }

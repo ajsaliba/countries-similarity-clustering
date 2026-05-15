@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Singapore",
     "Capital": "Singapore ( city-state )",
     "Official Languages": [
@@ -13,7 +13,6 @@
         "Indian": 9.0,
         "Other": 3.2
     },
-    "Demonym": "Singaporean",
     "Religions": {
         "Buddhism": 31.1,
         "No religion": 20.0,
@@ -40,12 +39,12 @@
         "density_per_km2": 290.0
     },
     "GDP PPP": {
-        "total": 952600000000.0,
+        "total": 1063000000000.0,
         "per_capita": 156755.0
     },
     "GDP Nominal": {
-        "total": 564700000000.0,
-        "per_capita": 93956.0
+        "total": 659572000000.0,
+        "per_capita": 107758.0
     },
     "Gini": 43.3,
     "HDI": 0.946,

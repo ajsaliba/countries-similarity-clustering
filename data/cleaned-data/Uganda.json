@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Uganda",
     "Capital": "Kampala",
     "Official Languages": [
@@ -17,13 +17,13 @@
         "Lugbara": 2.6,
         "others": 37.1
     },
-    "Demonym": "Ugandan",
     "Religions": {
-        "Christianity": 81.7,
-        "Roman Catholic": {
-            "Protestant": 29.0,
-            "Islam": 13.2
+        "Christianity": {
+            "Roman Catholic": 42.0,
+            "Protestant": 29.0
+            
         },
+        "Islam":13.2,
         "unclassified": 3.3,
         "others": 1.6,
         "no religion": 0.2

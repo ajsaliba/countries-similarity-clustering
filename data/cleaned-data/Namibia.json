@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Namibia",
     "Capital": "Windhoek",
     "Official Languages": [
@@ -10,7 +10,6 @@
         "White": 1.8,
         "Asian / other": 1.4
     },
-    "Demonym": "Namibian",
     "Religions": {
         "Christianity": {
             "Lutheranism": 43.7,

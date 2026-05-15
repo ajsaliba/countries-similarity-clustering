@@ -6,14 +6,14 @@
     ],
     "Ethnic Groups": {
         "Arab": 49.0,
-        "South Asian": 43.0,
+        "South Asian":{
         "Indian": 21.8,
         "Bangladeshi": 12.5,
         "Pakistani": 4.7,
-        "Sri Lankan": 4.35,
+        "Sri Lankan": 4.35},
         "other": 7.0
     },
-    "Demonym": "Qatari",
+    
     "Religions": {
         "Islam": 65.5,
         "Hinduism": 15.1,

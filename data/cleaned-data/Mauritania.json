@@ -1,4 +1,4 @@
-{
+﻿{
     "Country": "Mauritania",
     "Capital": "Nouakchott",
     "Official Languages": [
@@ -9,8 +9,7 @@
         "Beidane": 30.0,
         "Halpulaar , Fulani , Soninké , and Wolof": 30.0
     },
-    "Demonym": "Mauritanian",
-    "Religions": null,
+    "Religions": "Sunni",
     "Government type": "Unitary semi-presidential Islamic republic",
     "Government structure": [
         "President",
@@ -19,9 +18,8 @@
     ],
     "Legislature": "National Assembly",
     "Area": {
-        "total_km2": 1030000.0,
-        "land_km2": null,
-        "water_km2": null
+        "total_km2": 1030000.0
+        
     },
     "Population": {
         "total": 5461319,

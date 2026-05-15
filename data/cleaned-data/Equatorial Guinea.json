@@ -14,7 +14,10 @@
         "Bujeba": 1.1,
         "others": 1.1
     },
-    "Demonym": "Equatoguinean",
+    "Demonym": [
+        "Equatoguinean",
+        "Equatorial Guinean"
+    ],
     "Religions": {
         "Christianity": 88.7,
         "no religion": 5.0,
@@ -47,7 +50,6 @@
         "total": 12680000000.0,
         "per_capita": 7750.0
     },
-    "Gini": null,
     "HDI": 0.674,
     "Currency": "Central African CFA franc"
 }

@@ -3,16 +3,14 @@
     "Capital": "Bangui",
     "Official Languages": [
         "French",
-        "Sango",
-        "(co-official)"
+        "Sango"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Central",
+    "Demonym": "Central African",
     "Religions": {
         "Christianity": 73.2,
         "Islam": 13.9,
         "traditional faiths": 12.0,
-        "other / none": 0.9
+        "other": 0.9
     },
     "Government type": "Unitary presidential republic",
     "Government structure": [

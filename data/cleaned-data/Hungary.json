@@ -13,8 +13,8 @@
     "Demonym": "Hungarian",
     "Religions": {
         "Christianity": {
-            "Catholicism": 27.5,
-            "other Christian": 15.0
+            "Catholicism": 29.2,
+            "other Christian": 13.3
         },
         "no answer": 40.1,
         "irreligion": 16.1,
@@ -24,7 +24,7 @@
     "Government structure": [
         "President",
         "Prime Minister",
-        "Speaker"
+        "Speaker of the National Assembly"
     ],
     "Legislature": "National Assembly",
     "Area": {

@@ -4,17 +4,31 @@
     "Official Languages": [
         "Persian"
     ],
-    "Ethnic Groups": null,
+    "Ethnic Groups": {
+        "Persian": 61.0,
+        "Azeri": 16.0,
+        "Kurd": 10.0,
+        "Lur": 6.0,
+        "Baloch": 2.0,
+        "Arab": 2.0,
+        "Turkmen and Turkic tribes": 2.0,
+        "other": 1.0
+    },
     "Demonym": "Iranian",
-    "Religions": null,
+    "Religions": {
+        "Islam": {
+            "Shia": 90.0,
+            "Sunni": 9.0
+        },
+        "other": 1.0
+    },
     "Government type": "Unitary presidential theocratic Islamic republic under an authoritarian dictatorship",
     "Government structure": [
         "Supreme Leader",
         "President",
-        "Vice President",
+        "First Vice President",
         "Speaker of the Assembly",
-        "Chief Justice",
-        "Median kingdom"
+        "Chief Justice"
     ],
     "Legislature": "Islamic Consultative Assembly",
     "Area": {

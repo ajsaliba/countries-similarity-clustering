@@ -15,7 +15,10 @@
         "Dendi": 2.9,
         "other": 2.8
     },
-    "Demonym": "Beninese",
+    "Demonym": [
+        "Beninese",
+        "Beninois"
+    ],
     "Religions": {
         "Christianity": 52.2,
         "Islam": 24.6,

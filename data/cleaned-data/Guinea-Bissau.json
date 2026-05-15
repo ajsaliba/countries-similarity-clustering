@@ -10,9 +10,12 @@
         "Manjak": 14.0,
         "Mandinka": 13.0,
         "Papel": 7.0,
-        "other / unspecified": 6.0
+        "other": 6.0
     },
-    "Demonym": "Guinean",
+    "Demonym": [
+        "Guinean",
+        "Bissau-Guinean"
+    ],
     "Religions": {
         "Islam": 46.1,
         "Traditional": 30.6,
@@ -22,6 +25,7 @@
     },
     "Government type": "Unitary semi-presidential republic under a military junta",
     "Government structure": [
+        "Chief of the High Command",
         "Transitional President",
         "Prime Minister"
     ],

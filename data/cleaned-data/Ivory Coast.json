@@ -5,19 +5,23 @@
         "French"
     ],
     "Ethnic Groups": {
-        "Ivorian": 78.0,
-        "Akan": 38.0,
-        "Northern Mande": 22.0,
-        "Voltaiques/Gur": 22.0,
-        "Kru": 9.1,
-        "Southern Mande": 8.6,
-        "Naturalized Ivorian": 0.3,
-        "non-Ivorian a": 22.0
+        "Ivorian": {
+            "Akan": 38.0,
+            "Northern Mande": 22.0,
+            "Voltaiques/Gur": 22.0,
+            "Kru": 9.1,
+            "Southern Mande": 8.6,
+            "Naturalized Ivorian": 0.3
+        },
+        "non-Ivorian": 22.0
     },
     "Demonym": "Ivorian",
     "Religions": {
         "Islam": 42.5,
-        "Christianity": 39.8,
+        "Christianity": {
+            "Catholic": 17,
+            "Other Christian": 22.8
+        },
         "no religion": 12.6,
         "traditional faiths": 2.2,
         "unanswered": 2.2,

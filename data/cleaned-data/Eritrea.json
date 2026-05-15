@@ -1,9 +1,6 @@
 {
     "Country": "Eritrea",
     "Capital": "Asmara",
-    "Official Languages": [
-        "None"
-    ],
     "Ethnic Groups": {
         "Tigrinya": 50.0,
         "Tigre": 30.0,
@@ -16,7 +13,18 @@
         "Rashaida": 1.0
     },
     "Demonym": "Eritrean",
-    "Religions": null,
+    "Religions": {
+        "Islam": {
+            "Sunni": 52,
+            "Shia": 1
+        },
+        "Christianity": {
+            "Orthodox": 39,
+            "Catholic": 5,
+            "Protestant": 2
+        },
+        "other": 1
+    },
     "Government type": "Unitary one-party presidential republic under a totalitarian dictatorship",
     "Government structure": [
         "President"
@@ -39,7 +47,6 @@
         "total": 1982000000.0,
         "per_capita": 567.0
     },
-    "Gini": null,
     "HDI": 0.503,
     "Currency": "Nakfa"
 }

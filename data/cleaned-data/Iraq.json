@@ -6,16 +6,17 @@
         "Kurdish"
     ],
     "Ethnic Groups": {
-        "Arabs 15–": 80.0,
-        "Kurds 5–": 20.0,
-        "Assyrians , Turkmen , Jews , Persians , Yazidis , Mandaeans , and others": 10.0
+        "Arabs": 80.0,
+        "Kurds": 15.0,
+        "others": 5.0
     },
     "Demonym": "Iraqi",
     "Religions": {
-        "Islam": 95.0,
-        "Shia": 61.0,
-        "Sunni 5–": 35.0,
-        "Christianity , Mandaeism , Yazidism , Judaism , Yarsanism , irreligion and others": 10.0
+        "Islam": {
+            "Shia": 61.0,
+            "Sunni": 36.0
+        },
+        "others": 4.0
     },
     "Government type": "Federal parliamentary republic",
     "Government structure": [

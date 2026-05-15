@@ -7,10 +7,8 @@
         "English"
     ],
     "Ethnic Groups": {
-        "Barundi": 100.0,
         "Hutu": 85.0,
         "Tutsi": 14.0,
-        "Twa ~": 1.0,
         "other": 1.0
     },
     "Demonym": "Burundian",
@@ -22,7 +20,7 @@
         },
         "traditional faiths": 4.3,
         "Islam": 2.1,
-        "other / none": 0.2
+        "other": 0.2
     },
     "Government type": "Unitary dominant-party presidential republic under an authoritarian dictatorship",
     "Government structure": [

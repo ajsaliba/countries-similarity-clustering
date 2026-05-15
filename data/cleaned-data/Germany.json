@@ -4,14 +4,16 @@
     "Official Languages": [
         "German"
     ],
-    "Ethnic Groups": null,
     "Demonym": "German",
-    "Religions": null,
     "Government type": "Federal parliamentary republic",
     "Government structure": [
-        "President"
+        "President",
+        "Chancellor"
     ],
-    "Legislature": "Bundestag Bundesrat",
+    "Legislature": [
+        "Bundestag",
+        "Bundesrat"
+    ],
     "Area": {
         "total_km2": 357022.0,
         "land_km2": 352487.82,

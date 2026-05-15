@@ -11,14 +11,16 @@
         "Sangha": 5.6,
         "Mbenga Pygmies and others": 2.0
     },
-    "Demonym": "Congolese",
+    "Demonym": [
+        "Congolese",
+        "Congo"
+    ],
     "Religions": {
         "Christianity": 87.1,
         "no religion": 8.0,
         "traditional faiths": 2.7,
-        "Islam": {
-            "others": 1.0
-        }
+        "Islam": 1.2,
+        "other": 1.0
     },
     "Government type": "Unitary semi-presidential republic under a dictatorship",
     "Government structure": [

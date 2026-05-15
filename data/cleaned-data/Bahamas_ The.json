@@ -15,14 +15,17 @@
     "Religions": {
         "Christianity": {
             "Protestantism": 75.1,
-            "other Christian": 17.9
+            "Roman Catholic": 8.7,
+            "other Christian": 1.2
         },
-        "no religion": 4.5,
-        "folk religions": 1.9,
-        "other": 0.6
+        "no religion": 6.3,
+        "other": 1.0,
+        "undeclared": 4.8
     },
     "Government type": "Unitary parliamentary constitutional monarchy",
     "Government structure": [
+        "Monarch",
+        "Governor-General",
         "Prime Minister"
     ],
     "Legislature": "Parliament",
@@ -43,7 +46,6 @@
         "total": 14390000000.0,
         "per_capita": 35257.0
     },
-    "Gini": null,
     "HDI": 0.82,
     "Currency": "Bahamian dollar"
 }

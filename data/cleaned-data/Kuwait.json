@@ -19,6 +19,7 @@
     "Government type": "Unitary semi-constitutional monarchy",
     "Government structure": [
         "Emir",
+        "Crown Prince",
         "Prime Minister"
     ],
     "Legislature": "The National Assembly (suspended)",
@@ -39,7 +40,6 @@
         "total": 153100000000.0,
         "per_capita": 29950.0
     },
-    "Gini": null,
     "HDI": 0.852,
     "Currency": "Kuwaiti dinar"
 }

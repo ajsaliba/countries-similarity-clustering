@@ -3,9 +3,7 @@
     "Capital": "Bishkek",
     "Official Languages": [
         "Kyrgyz",
-        "(state)",
-        "Russian",
-        "(official)"
+        "Russian"
     ],
     "Ethnic Groups": {
         "Kyrgyz": 77.8,
@@ -24,6 +22,7 @@
     "Government type": "Unitary presidential republic",
     "Government structure": [
         "President",
+        "Chairman of the Cabinet of Ministers",
         "Speaker of the Supreme Council"
     ],
     "Legislature": "Supreme Council",

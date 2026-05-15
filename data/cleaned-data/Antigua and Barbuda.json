@@ -13,21 +13,26 @@
         "Syrian or Lebanese": 0.7,
         "other": 1.8
     },
-    "Demonym": "Antiguan",
+    "Demonym": [
+        "Antiguan",
+        "Barbudan"
+    ],
     "Religions": {
         "Christianity": {
-            "Protestantism": 66.6,
-            "other Christian": 26.1
+            "Protestantism": 71.26,
+            "other Christian": 22.1
         },
-        "Rastafari": {
-            "no religion": {
-                "Baháʼí Faith": 1.1,
-                "other": 0.7
-            }
-        }
+        "Spiritism": 3.72,
+        "No religion": 1.36,
+        "Baháʼí Faith": 1.1,
+        "Islam": 0.77,
+        "Hinduism": 0.44,
+        "other": 0.1
     },
     "Government type": "Unitary parliamentary constitutional monarchy",
     "Government structure": [
+        "Monarch",
+        "Governor-General",
         "Prime Minister"
     ],
     "Legislature": "Parliament",
@@ -48,7 +53,6 @@
         "total": 2370000000.0,
         "per_capita": 22630.0
     },
-    "Gini": null,
     "HDI": 0.851,
     "Currency": "Eastern Caribbean dollar"
 }

@@ -1,6 +1,9 @@
 {
     "Country": "Eswatini",
-    "Capital": "Mbabane (executive) Lobamba (legislative)",
+    "Capital": [
+        "Mbabane",
+        "Lobamba"
+    ],
     "Official Languages": [
         "Swazi",
         "English"
@@ -24,6 +27,7 @@
     "Government type": "Unitary diarchic absolute monarchy",
     "Government structure": [
         "King",
+        "Queen Mother",
         "Prime Minister",
         "Chief Justice"
     ],

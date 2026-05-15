@@ -5,8 +5,8 @@
         "Spanish"
     ],
     "Ethnic Groups": {
-        "Mestizo (mixed White & Indigenous )": 77.47,
-        "Montubio (coastal Mestizo )": 7.7,
+        "Mestizo": 77.47,
+        "Montubio": 7.7,
         "Indigenous": 7.69,
         "Black": 4.81,
         "White": 2.21,
@@ -31,8 +31,7 @@
     "Legislature": "National Assembly",
     "Area": {
         "total_km2": 283561.0,
-        "land_km2": 276841.0,
-        "water_km2": null
+        "land_km2": 276841.0
     },
     "Population": {
         "total": 17483326,
@@ -48,5 +47,5 @@
     },
     "Gini": 45.2,
     "HDI": 0.777,
-    "Currency": "United States dollar a"
+    "Currency": "United States dollar"
 }

@@ -4,7 +4,18 @@
     "Official Languages": [
         "German"
     ],
-    "Ethnic Groups": null,
+    "Ethnic Groups": {
+        "Liechtensteiners": 66.2,
+        "Swiss": 9.5,
+        "Austrians": 5.8,
+        "Germans": 4.2,
+        "Italians": 3.1,
+        "Portuguese": 1.9,
+        "Turks": 1.6,
+        "Albanians": 1.1,
+        "Spaniards": 1.0,
+        "other": 5.6
+    },
     "Demonym": "Liechtensteiner",
     "Religions": {
         "Christianity": {
@@ -17,6 +28,8 @@
     },
     "Government type": "Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy",
     "Government structure": [
+        "Monarch",
+        "Regent",
         "Prime Minister",
         "Deputy Prime Minister"
     ],
@@ -38,7 +51,6 @@
         "total": 8288000000.0,
         "per_capita": 207974.0
     },
-    "Gini": null,
     "HDI": 0.938,
     "Currency": "Swiss franc"
 }

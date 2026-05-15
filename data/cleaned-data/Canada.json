@@ -5,11 +5,11 @@
         "English",
         "French"
     ],
-    "Ethnic Groups": null,
     "Demonym": "Canadian",
-    "Religions": null,
     "Government type": "Federal parliamentary constitutional monarchy",
     "Government structure": [
+        "Monarch",
+        "Governor General",
         "Prime Minister"
     ],
     "Legislature": "Parliament",

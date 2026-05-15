@@ -19,14 +19,14 @@
             "other Christian": 8.6
         },
         "Hinduism": 1.3,
-        "no religion": {
-            "Rastafari": {
-                "other": 0.4
-            }
-        }
+        "no religion": 1.0,
+        "Rastafari": 0.7,
+        "other": 0.4
     },
     "Government type": "Unitary parliamentary constitutional monarchy",
     "Government structure": [
+        "Monarch",
+        "Governor-General",
         "Prime Minister"
     ],
     "Legislature": "Parliament",

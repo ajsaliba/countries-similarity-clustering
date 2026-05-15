@@ -6,16 +6,18 @@
         "French"
     ],
     "Ethnic Groups": {
-        "Afar": 60.0,
-        "Arabs": 35.0
+        "Somalis": 60.0,
+        "Afar": 35.0,
+        "Arabs": 5
     },
     "Demonym": "Djiboutian",
     "Religions": {
-        "Islam": 94.0,
-        "Sunni": 87.0,
-        "Non-denominational": 8.0,
-        "Shia": 2.0,
-        "Other": 3.0,
+        "Islam": {
+            "Sunni": 87,
+            "Non-denominational": 8,
+            "Shia": 2,
+            "other": 3
+        },
         "Christianity": 6.0
     },
     "Government type": "Unitary dominant-party presidential republic under a hereditary dictatorship",

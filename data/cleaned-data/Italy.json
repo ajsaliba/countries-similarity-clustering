@@ -2,10 +2,8 @@
     "Country": "Italy",
     "Capital": "Rome",
     "Official Languages": [
-        "Italian",
-        "a"
+        "Italian"
     ],
-    "Ethnic Groups": null,
     "Demonym": "Italian",
     "Religions": {
         "Christianity": 84.0,
@@ -17,8 +15,7 @@
         "President",
         "Prime Minister",
         "President of the Senate",
-        "President of the Chamber of Deputies",
-        "Roman-Barbarian kingdoms Byzantine Italy"
+        "President of the Chamber of Deputies"
     ],
     "Legislature": "Parliament",
     "Area": {

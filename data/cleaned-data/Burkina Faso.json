@@ -3,8 +3,8 @@
     "Capital": "Ouagadougou",
     "Official Languages": [
         "Mooré",
-        "Dyula and Fula",
-        "alongside any other languages so recognized by law"
+        "Dyula",
+        "Fula"
     ],
     "Ethnic Groups": {
         "Mossi": 53.7,
@@ -30,6 +30,7 @@
     },
     "Government type": "Unitary semi-presidential republic under a military junta",
     "Government structure": [
+        "President of the Patriotic Movement for Safeguard and Restoration",
         "President",
         "Prime Minister"
     ],

@@ -5,12 +5,12 @@
         "Indonesian"
     ],
     "Ethnic Groups": {
-        "Javanese": 40.2,
-        "Sundanese": 15.5,
+        "Javanese": 41,
+        "Sundanese": 17.4,
         "Malay": 3.7,
         "Batak": 3.6,
         "Madurese": 3.0,
-        "others ( 600+ ethnic groups )": 34.0
+        "others": 31.3
     },
     "Demonym": "Indonesian",
     "Religions": {
@@ -20,15 +20,17 @@
             "Catholicism": 3.07
         },
         "Hinduism": 1.7,
-        "Buddhism , Folk , Confucianism , and others": 0.8
+        "other": 0.8
     },
     "Government type": "Unitary presidential republic",
     "Government structure": [
         "President",
         "Vice President",
-        "House Speaker"
+        "House Speaker",
+        "Chief Justice of the Supreme Court",
+        "Chief Justice of the Constitutional Court"
     ],
-    "Legislature": "People's Consultative Assembly (MPR)",
+    "Legislature": "People's Consultative Assembly",
     "Area": {
         "total_km2": 1904569.0,
         "land_km2": 1812197.4,

@@ -5,19 +5,29 @@
         "Spanish"
     ],
     "Ethnic Groups": null,
-    "Demonym": "Argentine",
+    "Demonym": [
+        "Argentine",
+        "Argentinian"
+    ],
     "Religions": {
         "Christianity": {
             "Catholicism": 62.9,
-            "other Christian": 15.3
+            "Evanlegism": 15.3,
+            "Other Christian": 1.4
         },
-        "no religion": 20.5,
-        "other": 1.3
+        "no religion": {
+            "None": 9.7,
+            "Atheism": 6,
+            "Agnosticism": 3.2
+        },
+        "Other religion": 1.3,
+        "Unspecified": 0.3
     },
     "Government type": "Federal presidential republic",
     "Government structure": [
         "President",
         "Vice President",
+        "Chief of Cabinet of Ministers",
         "President of the Chamber of Deputies",
         "President of Supreme Court"
     ],

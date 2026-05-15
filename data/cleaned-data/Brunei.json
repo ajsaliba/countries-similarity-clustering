@@ -18,7 +18,10 @@
     },
     "Government type": "Unitary Islamic absolute monarchy",
     "Government structure": [
-        "Sultan and Prime Minister"
+        "Sultan",
+        "Prime Minister",
+        "Crown Prince",
+        "Senior Minister"
     ],
     "Legislature": "Legislative Council",
     "Area": {
@@ -38,7 +41,6 @@
         "total": 16010000000.000002,
         "per_capita": 34970.0
     },
-    "Gini": null,
     "HDI": 0.837,
     "Currency": "Brunei dollar"
 }

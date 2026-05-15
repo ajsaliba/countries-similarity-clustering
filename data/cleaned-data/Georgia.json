@@ -18,18 +18,17 @@
             "other Christian": 3.9
         },
         "Islam": 10.7,
-        "other / none": 2.0
+        "other": 2.0
     },
     "Government type": "Unitary parliamentary republic",
     "Government structure": [
         "President",
-        "Prime Minister"
+        "Prime Minister",
+        "Chairperson of Parliament"
     ],
     "Legislature": "Parliament",
     "Area": {
-        "total_km2": 69700.0,
-        "land_km2": null,
-        "water_km2": null
+        "total_km2": 69700.0
     },
     "Population": {
         "total": 3657000,

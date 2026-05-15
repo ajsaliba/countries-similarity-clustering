@@ -2,8 +2,7 @@
     "Country": "Haiti",
     "Capital": "Port-au-Prince",
     "Official Languages": [
-        "Haitian",
-        "Creole",
+        "Haitian Creole",
         "French"
     ],
     "Ethnic Groups": {
@@ -22,7 +21,7 @@
         "President",
         "Prime Minister"
     ],
-    "Legislature": "National Assembly (vacant)",
+    "Legislature": "National Assembly",
     "Area": {
         "total_km2": 27700.0,
         "land_km2": 27506.1,

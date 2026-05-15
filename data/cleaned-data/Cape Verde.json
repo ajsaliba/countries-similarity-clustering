@@ -4,17 +4,16 @@
     "Official Languages": [
         "Portuguese"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Cape",
+    "Demonym": "Cape Verdean",
     "Religions": {
         "Christianity": {
             "Catholicism": 72.5,
-            "other Christian": 9.2
+            "other Christian": 6.8,
+            "Protenstant": 3.6
         },
         "no religion": 15.6,
-        "Islam": {
-            "others": 1.2
-        }
+        "Islam": 1.3,
+        "other": 1.2
     },
     "Government type": "Unitary semi-presidential republic",
     "Government structure": [

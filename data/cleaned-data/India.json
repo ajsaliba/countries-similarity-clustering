@@ -5,19 +5,15 @@
         "Hindi",
         "English"
     ],
-    "Ethnic Groups": null,
     "Demonym": "Indian",
     "Religions": {
         "Hinduism": 79.8,
         "Islam": 14.2,
-        "Christianity": {
-            "Sikhism": 1.7,
-            "Buddhism": 0.7
-        },
-        "Jainism": {
-            "unaffiliated": 0.23
-        },
-        "other": 0.65
+        "Christianity": 2.3,
+        "Sikhism": 1.7,
+        "Buddhism": 0.7,
+        "Jainism": 0.4,
+        "other": 0.9
     },
     "Government type": "Federal parliamentary republic",
     "Government structure": [

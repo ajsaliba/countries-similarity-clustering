@@ -6,15 +6,14 @@
     ],
     "Ethnic Groups": {
         "Bengali": 99.0,
-        "others Chakmas Garos Khasis Khumis Manipuris Marmas Mizos Arakanese Mrus Santals Tanchangyas Tripuris Bishnupriyas": 1.0
+        "other": 1.0
     },
     "Demonym": "Bangladeshi",
     "Religions": {
         "Islam": 91.04,
         "Hinduism": 7.94,
-        "Buddhism": {
-            "Christianity": 0.3
-        },
+        "Buddhism": 0.6,
+        "Christianity": 0.3,
         "other": 0.12
     },
     "Government type": "Unitary parliamentary republic",
@@ -42,7 +41,7 @@
         "total": 519289999999.99994,
         "per_capita": 2960.0
     },
-    "Gini": 33.4,
+    "Gini": 30.9,
     "HDI": 0.685,
     "Currency": "Taka"
 }

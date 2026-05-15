@@ -2,8 +2,7 @@
     "Country": "Andorra",
     "Capital": "Andorra la Vella",
     "Official Languages": [
-        "Catalan",
-        "44.1%"
+        "Catalan"
     ],
     "Ethnic Groups": {
         "Spaniards": 34.3,
@@ -22,7 +21,12 @@
         "others": 2.3
     },
     "Government type": "Unitary parliamentary constitutional co-principality",
-    "Government structure": null,
+    "Government structure": [
+        "Co-Princes",
+        "Prime Minister",
+        "General Syndic",
+        "Representatives"
+    ],
     "Legislature": "General Council",
     "Area": {
         "total_km2": 467.63,

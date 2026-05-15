@@ -17,15 +17,15 @@
             "other Christian": 2.0
         },
         "no religion": 15.9,
-        "Islam": {
-            "other": 0.1,
-            "unanswered": 9.5
-        }
+        "Islam": 9.8,
+        "other": 0.1,
+        "unanswered": 9.5
     },
     "Government type": "Unitary parliamentary republic",
     "Government structure": [
         "President",
-        "Prime Minister"
+        "Prime Minister",
+        "Chairman of the National Assembly"
     ],
     "Legislature": "National Assembly",
     "Area": {

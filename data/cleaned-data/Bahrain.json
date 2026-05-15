@@ -19,7 +19,8 @@
     "Government type": "Unitary semi-constitutional monarchy under an authoritarian government",
     "Government structure": [
         "King",
-        "Crown Prince and Prime Minister"
+        "Crown Prince",
+        "Prime Minister"
     ],
     "Legislature": "National Assembly",
     "Area": {
@@ -39,7 +40,6 @@
         "total": 49190000000.0,
         "per_capita": 29780.0
     },
-    "Gini": null,
     "HDI": 0.899,
     "Currency": "Bahraini dinar"
 }

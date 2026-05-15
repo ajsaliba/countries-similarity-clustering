@@ -4,7 +4,6 @@
     "Official Languages": [
         "English"
     ],
-    "Ethnic Groups": null,
     "Demonym": "Liberian",
     "Religions": {
         "Christianity": {
@@ -13,9 +12,8 @@
             "other Christians": 1.6
         },
         "Islam": 12.2,
-        "no religion": {
-            "other": 1.3
-        }
+        "no religion": 1.4,
+        "other": 1.3
     },
     "Government type": "Unitary presidential republic",
     "Government structure": [

@@ -11,8 +11,10 @@
         "Makua": 1.6,
         "Others": 1.3
     },
-    "Demonym": "Comorian",
-    "Religions": null,
+    "Demonym": [
+        "Comorian",
+        "Comorese"
+    ],
     "Government type": "Federal presidential republic",
     "Government structure": [
         "President",

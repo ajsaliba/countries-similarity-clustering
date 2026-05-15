@@ -11,15 +11,16 @@
         "Filipino": 0.8,
         "other": 7.0
     },
-    "Demonym": "Icelander",
+    "Demonym": [
+        "Icelander",
+        "Icelandic"
+    ],
     "Religions": {
         "Christianity": {
-            "Church of Iceland": 60.9,
-            "other Christian": 11.5
+            "Church of Iceland": 56.3,
+            "other Christian": 10.9
         },
-        "no religion": 25.2,
-        "Ásatrúarfélagið": 1.5,
-        "other": 0.9
+        "other": 32.8
     },
     "Government type": "Unitary parliamentary republic",
     "Government structure": [

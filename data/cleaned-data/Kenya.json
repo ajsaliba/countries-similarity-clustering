@@ -19,7 +19,12 @@
     },
     "Demonym": "Kenyan",
     "Religions": {
-        "Christianity": 85.5,
+        "Christianity": {
+            "Protestant": 53.86,
+            "Catholic": 20.60,
+            "African": 6.97,
+            "Other Christian": 4.10
+        },
         "Islam": 10.9,
         "no religion": 1.5,
         "traditional faiths": 0.7,

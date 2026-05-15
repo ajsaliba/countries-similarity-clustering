@@ -11,11 +11,14 @@
         "Russian": 0.7,
         "others": 1.9
     },
-    "Demonym": "Azerbaijani",
+    "Demonym": [
+        "Azerbaijani",
+        "Azeri"
+    ],
     "Religions": {
         "Islam": 97.3,
-        "Christianity <": 2.6,
-        "other religion <": 0.1,
+        "Christianity": 2.6,
+        "other religion": 0.1,
         "unaffiliated": 0.1
     },
     "Government type": "Unitary semi-presidential republic under an authoritarian hereditary dictatorship",

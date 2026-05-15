@@ -7,10 +7,11 @@
         "German"
     ],
     "Ethnic Groups": {
-        "Belgians": 86.1,
-        "Belgian background": 64.0,
-        "foreign background": 22.1,
-        "non-Belgian": 13.8
+        "Belgians": {
+            "Belguan background": 64,
+            "foreign background": 22.1
+        },
+        "other": 13.8
     },
     "Demonym": "Belgian",
     "Religions": {
@@ -24,6 +25,7 @@
     },
     "Government type": "Federal parliamentary constitutional monarchy",
     "Government structure": [
+        "Monarch",
         "Prime Minister"
     ],
     "Legislature": "Federal Parliament",

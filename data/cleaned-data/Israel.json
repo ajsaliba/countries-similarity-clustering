@@ -1,6 +1,6 @@
 {
     "Country": "Israel",
-    "Capital": "Jerusalem ( limited recognition )",
+    "Capital": "Jerusalem",
     "Official Languages": [
         "Hebrew"
     ],
@@ -13,17 +13,14 @@
     "Religions": {
         "Judaism": 73.7,
         "Islam": 18.3,
-        "Christianity": {
-            "Druze faith": 1.6
-        },
+        "Christianity": 1.9,
+        "Druze faith": 1.6,
         "others": 4.5
     },
     "Government type": "Unitary parliamentary republic",
     "Government structure": [
         "President",
-        "Prime Minister",
-        "Knesset Speaker",
-        "Chief Justice"
+        "Prime Minister"
     ],
     "Legislature": "Knesset",
     "Area": {

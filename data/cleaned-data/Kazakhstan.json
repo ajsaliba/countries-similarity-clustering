@@ -15,7 +15,10 @@
         "Tatar": 1.1,
         "others": 5.3
     },
-    "Demonym": "Kazakh",
+    "Demonym": [
+        "Kazakh",
+        "Kazakhstani"
+    ],
     "Religions": {
         "Islam": 69.3,
         "Christianity": 17.2,

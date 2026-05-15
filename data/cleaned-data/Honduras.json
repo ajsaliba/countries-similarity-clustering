@@ -12,7 +12,6 @@
         "other": 0.55
     },
     "Demonym": "Honduran",
-    "Religions": null,
     "Government type": "Unitary presidential republic",
     "Government structure": [
         "President",
@@ -21,9 +20,7 @@
     ],
     "Legislature": "National Congress",
     "Area": {
-        "total_km2": 112492.0,
-        "land_km2": null,
-        "water_km2": null
+        "total_km2": 112492.0
     },
     "Population": {
         "total": 9571352,

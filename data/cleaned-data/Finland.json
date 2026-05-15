@@ -9,21 +9,23 @@
         "Finns": 88.9,
         "others": 11.1
     },
-    "Demonym": "Finnish",
+    "Demonym": [
+        "Finnish",
+        "Finn"
+    ],
     "Religions": {
         "Christianity": {
-            "Lutheranism": 62.2,
+            "Lutheranism": 61.2,
             "Eastern Orthodoxy": 1.0,
             "other Christian": 1.0
         },
-        "no religion": 34.9,
-        "other": 2.0
+        "no religion": 35.9,
+        "other": 0.9
     },
     "Government type": "Unitary parliamentary republic",
     "Government structure": [
         "President",
-        "Prime Minister",
-        "Speaker of the Parliament"
+        "Prime Minister"
     ],
     "Legislature": "Parliament",
     "Area": {

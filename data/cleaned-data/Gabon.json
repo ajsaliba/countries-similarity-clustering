@@ -4,20 +4,19 @@
     "Official Languages": [
         "French"
     ],
-    "Ethnic Groups": null,
     "Demonym": "Gabonese",
     "Religions": {
         "Christianity": 80.2,
         "Islam": 10.8,
         "no religion": 7.0,
-        "traditional faiths": {
-            "others": 0.9
-        }
+        "traditional faiths": 1.1,
+        "others": 0.9
     },
     "Government type": "Unitary presidential republic",
     "Government structure": [
         "President",
-        "Vice President"
+        "Vice President",
+        "Vice President of the Government"
     ],
     "Legislature": "Parliament",
     "Area": {

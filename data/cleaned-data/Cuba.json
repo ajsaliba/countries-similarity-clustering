@@ -4,7 +4,6 @@
     "Official Languages": [
         "Spanish"
     ],
-    "Ethnic Groups": null,
     "Demonym": "Cuban",
     "Religions": {
         "Christianity": 58.9,
@@ -14,7 +13,8 @@
     },
     "Government type": "Communist state",
     "Government structure": [
-        "First Secretary and President",
+        "First Secretary",
+        "President",
         "Vice President",
         "Prime Minister",
         "President of the National Assembly"

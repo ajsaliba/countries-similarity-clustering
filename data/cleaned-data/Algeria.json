@@ -5,10 +5,15 @@
         "Arabic",
         "Berber"
     ],
-    "Ethnic Groups": null,
+    "Ethnic Groups": {
+        "Arabs": 80,
+        "Berbers": 20
+    },
     "Demonym": "Algerian",
     "Religions": {
-        "Sunni Islam<": 99.0,
+        "Islam": {
+            "Sunni": 99.0
+        },
         "others": 1.0
     },
     "Government type": "Unitary semi-presidential republic",

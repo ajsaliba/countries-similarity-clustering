@@ -21,11 +21,12 @@
         "Buddhism": 66.0,
         "Tai folk religion": 30.7,
         "Christianity": 1.5,
-        "other / none": 1.8
+        "other": 1.8
     },
     "Government type": "Unitary communist state",
     "Government structure": [
-        "General Secretary , and President",
+        "General Secretary",
+        "President",
         "Prime Minister",
         "Vice President",
         "President of the National Assembly",

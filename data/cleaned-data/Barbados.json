@@ -11,14 +11,16 @@
         "Indian": 1.3,
         "others": 0.3
     },
-    "Demonym": "Barbadian",
+    "Demonym": [
+        "Barbadian",
+        "Bajan"
+    ],
     "Religions": {
         "Christianity": 75.6,
         "No religion": 20.6,
-        "Baháʼí Faith": {
-            "Hinduism": 1.1,
-            "others": 0.7
-        }
+        "Baháʼí Faith": 2.0,
+        "Islam": 1.3,
+        "other": 0.5
     },
     "Government type": "Unitary parliamentary republic",
     "Government structure": [

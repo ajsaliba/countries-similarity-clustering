@@ -1,11 +1,10 @@
 {
     "Country": "Bosnia and Herzegovina",
     "Capital": "Sarajevo",
-    "Official Languages": [
-        "None"
+    "Demonym": [
+        "Bosnian",
+        "Herzegovinian"
     ],
-    "Ethnic Groups": null,
-    "Demonym": "Bosnian",
     "Religions": {
         "Islam": 51.3,
         "Christianity": {
@@ -15,7 +14,11 @@
         "Others": 2.6
     },
     "Government type": "Federal parliamentary directorial republic",
-    "Government structure": null,
+    "Government structure": [
+        "High Representative",
+        "Members of the Presidency",
+        "Chairwoman of the Council of Ministers"
+    ],
     "Legislature": "Parliamentary Assembly",
     "Area": {
         "total_km2": 51209.0,

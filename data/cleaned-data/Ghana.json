@@ -17,7 +17,11 @@
     },
     "Demonym": "Ghanaian",
     "Religions": {
-        "Christianity": 71.3,
+        "Christianity": {
+            "Protestant": 49,
+            "Catholic": 10,
+            "other Christian": 12.3
+        },
         "Islam": 19.9,
         "traditional faiths": 3.2,
         "irreligion": 1.1,

@@ -11,10 +11,11 @@
     },
     "Demonym": "Lebanese",
     "Religions": {
-        "Islam": 53.31,
-        "Shia": 26.84,
-        "Alawite": 0.64,
-        "Sunni": 26.55,
+        "Islam": {
+            "Shia": 26.84,
+            "Alawite": 0.64,
+            "Sunni": 26.55
+        },
         "Christianity": {
             "Catholic": 28.11,
             "Orthodox": 8.3,

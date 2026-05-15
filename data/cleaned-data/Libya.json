@@ -15,7 +15,7 @@
         "Christianity": 2.7,
         "others": 0.7
     },
-    "Government type": "Unitary republic under a provisional government ( GNU )",
+    "Government type": "Unitary republic under a provisional government",
     "Government structure": [
         "Chairman of the Presidential Council",
         "Vice Chairman of the Presidential Council",
@@ -24,9 +24,7 @@
     ],
     "Legislature": "High Council of State House of Representatives",
     "Area": {
-        "total_km2": 1759541.0,
-        "land_km2": null,
-        "water_km2": null
+        "total_km2": 1759541.0
     },
     "Population": {
         "total": 7361263,
@@ -40,7 +38,6 @@
         "total": 47480000000.0,
         "per_capita": 6800.0
     },
-    "Gini": null,
     "HDI": 0.721,
     "Currency": "Libyan dinar"
 }

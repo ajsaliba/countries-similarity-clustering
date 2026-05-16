@@ -1,0 +1,3087 @@
+Lebanese American University
+www.lau.edu.lb
+www.lau.edu.lb/ece
+School of Engineering
+Department of Electrical &
+Computer Engineering
+Chartered in the State of New York
+Intelligent Data Processing and Applications
+Joe M. Tekli, PhD
+Computer Software Engineering
+Chapter 10 - Data Clustering
+COE 543/743
+
+
+===PAGE BREAK===
+
+Engineering
+2/26/2026
+2
+J. Tekli – joe.tekli@lau.edu.lb
+Chapter Contents
+1. Introduction
+2. Machine Learning Paradigms
+3. Notion of Cluster
+4. Ingredients of Clustering
+5. Clustering Algorithms
+5.1 Partitional
+5.2 Hierarchical
+5.3 Others
+6. Clustering Evaluation 
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+What is clustering?
+– Organizing data into so-called clusters such that there is: 
+• High intra-cluster similarity
+• Low inter-cluster similarity
+•
+In other words, finding groups of data objects such that
+– Objects in a group will be similar (or related) to one another
+– And different from (or unrelated to) objects from other groups
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+3
+J. TEKLI – joe.tekli@lau.edu.lb
+Finding natural groupings among objects
+Informally
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+What is clustering?
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+4
+J. TEKLI – joe.tekli@lau.edu.lb
+Why would we want to cluster?
+Any real applications?
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+Clustering is useful in many application scenarios
+1. Pattern detection: reflecting internal and hidden structure of data
+- E.g., Clustering genes: studying their properties in different conditions
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Acquiring genes
+Describing genes
+Clustering genes
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+Clustering is useful in many application scenarios
+1. Pattern detection: reflecting internal and hidden structure of data
+• A pattern can be
+•
+A textual expression 
+•
+An audio signal
+•
+A still image
+•
+A moving image
+•
+A radio-wave
+•
+A sound-wave
+•
+A part of speech
+•
+…
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Star configuration patterns
+Hand writing patterns
+Repeating visual patterns
+Ratio wave patterns
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+Clustering is useful in many application scenarios
+2.  Knowledge discovery: topics, relationships, connections between data
+•
+Useful in data search, organization, and integration
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Example: 
+Clusty search engine
+Grouping results 
+related to search 
+request in 
+coherent topics
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+Clustering is useful in many application scenarios
+3. Pre-processing: Preparing for other AI techniques
+- Useful for pattern recognition: e.g., deciphering alien alphabet
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Cluster 1
+Cluster 2
+Cluster 4
+Cluster 3
+Cluster 5
+Cluster 6
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+Clustering is useful in many application scenarios
+3. Pre-processing: Preparing for other AI or computation techniques
+-
+Useful in NLP, e.g., text summarization, indexing, and semantic disambiguation
+-
+Mining social media: Facebook, Twitter, Instagram, You Tube, etc.
+-
+For commercial, business, and security purposes
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Emails
+News articles
+Scientific papers 
+Websites
+Books
+2/26/2026
+9
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+Time
+7/4 00:00
+7/11 23:30
+soccer
+World
+Cup
+final
+Espanol
+news
+volcano
+disaster
+…
+race
+F1
+Soccer start
+Final game
+WorldCup
+WorldCup
+Soccer game
+Espanol won
+Soccer news
+Soccer game
+Espanol soccer
+World Cup
+Soccer start !
+Car accident news
+Soccer news
+Disaster news
+EU volcano
+Disaster …
+EU volcano
+EU volcano
+EU volcano
+News …
+Watch F1 race
+F1 started
+Play race game
+F1 game
+F1 game
+Watch race
+Race start
+The number of posts
+Example: Twittter message cluster-based mining
+Cluster 1
+Cluster 2
+Cluster 3
+
+
+===PAGE BREAK===
+
+Engineering
+2. Machine Learning Paradigms
+•
+Machine learning is the science of getting computers to act without being 
+explicitly programmed
+•
+In the past decade, machine learning has given us:
+•
+Self-driving cars, practical speech recognition, effective web search, among other 
+applications, as well as a vastly improved understanding of the human genome…
+•
+Machine learning techniques fall within two main categories:
+•
+Supervised learning                          
+•
+Unsupervised learning
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+11
+J. TEKLI – joe.tekli@lau.edu.lb
+Key to making progress towards human-level AI
+
+
+===PAGE BREAK===
+
+Engineering
+2. Machine Learning Paradigms
+2.1. Supervised Learning
+•
+Main premise: Identifying an output measure based on input data
+–
+By mapping inputs to desired output
+- Using sample input/output data provided by experts: training data
+•
+Training data provided in the form of examples (X1, y1), …, (Xm, ym)
+–
+where X is a vector of x1, …, xk input values
+–
+And y is the output  generate by unknown/desired activation function f
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+12
+J. TEKLI – joe.tekli@lau.edu.lb
+Discover a function h that approximates 
+the desired activation function f
+- Approach known as classification
+
+
+===PAGE BREAK===
+
+Engineering
+2. Machine Learning Paradigms
+2.1. Supervised Learning
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+13
+J. TEKLI – joe.tekli@lau.edu.lb
+(1) Data collection
+
+
+===PAGE BREAK===
+
+Engineering
+2. Machine Learning Paradigms
+2.1. Supervised Learning
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+14
+J. TEKLI – joe.tekli@lau.edu.lb
+Cat. 1
+Cat. 2
+Cat. 3
+Cat. 4
+Cat. 5
+(2) Known categories
+(1) Data collection
+
+
+===PAGE BREAK===
+
+Engineering
+2. Machine Learning Paradigms
+2.1. Supervised Learning
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+15
+J. TEKLI – joe.tekli@lau.edu.lb
+Cat. 1
+Cat. 2
+Cat. 3
+Cat. 4
+Cat. 5
+(2) Known categories
+(1) Data collection
+(3) Compare
+with
+category
+descriptions
+
+
+===PAGE BREAK===
+
+Engineering
+2. Machine Learning Paradigms
+2.1. Supervised Learning
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+16
+J. TEKLI – joe.tekli@lau.edu.lb
+Cat. 1
+Cat. 2
+Cat. 3
+Cat. 4
+Cat. 5
+(2) Known categories
+(4) Identifying classes of objects
+(1) Data collection
+(3) Compare
+with
+category
+descriptions
+
+
+===PAGE BREAK===
+
+Engineering
+2. Machine Learning Paradigms
+2.1. Supervised Learning
+– Different classification algorithms exist in the literature
+• E.g., Instance-based, Support Vector Machines, and Artificial Neural Networks
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+17
+J. TEKLI – joe.tekli@lau.edu.lb
+f1, 1
+f1, 1
+f1, 1
+x1
+x2
+xI
+z1
+z2
+zL
+>
+>
+w11
+w12
+w1L
+wI1
+wI2
+wIL
+f2, 2
+f2, 2
+f2, 2
+y1
+y2
+yJ
+v11
+v12
+v1J
+vJ1
+vJ2
+vLJ
+Two-layer
+feed-forward
+neural network, 
+known as
+perceptron
+Inspired by biological brain: ideal learning/recognition system 
+
+
+===PAGE BREAK===
+
+Engineering
+2. Machine Learning Paradigms
+2.1. Supervised Learning
+•
+When the output of classifier  is a numerical value (e.g., temperature degree)
+–
+The learning problem is called regression analysis
+•
+We can approximate f with different hypotheses, e.g., h, h, and h
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+f(x)
+x
+f(x)
+x
+f(x)
+x
+h(x)
+h(x)
+h(x)
+We usually choose the simplest  (following Ockham’s razor)
+- Major category of techniques allowing predictability
+* Methodological principle by W. Ockham (1287-1347): “The simplest explanation tends to be the right one”
+
+
+===PAGE BREAK===
+
+Engineering
+2. Machine Learning Paradigms
+2.2. Unsupervised Learning
+•
+Main premise: Finding a hidden pattern/structure in unlabeled data
+–
+Absence of an expert/knowledge about expected outputs for inputs
+Lack of training data:
+•
+Typical approach: clustering
+•
+Other approaches:
+–
+Feature extraction techniques
+- Identifying most important features in describing the data
+E.g., identifying most important terms in describing (a) document(s)
+–
+Dimension transformation and reduction techniques
+- Such as: Principal Component Analysis (PCA) and Initial Component Analysis (ICA)
+- Useful in textual data processing and retrieval
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Learning without external intervention
+2/26/2026
+19
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Machine Learning Paradigms
+2.2. Unsupervised Learning
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+(1) Input unlabeled data
+Without any
+previous knowledge 
+about data organization
+No predefined categories
+Example: Web Image Clustering
+2/26/2026
+20
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Machine Learning Paradigms
+2.2. Unsupervised Learning
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+(3) Data clustered in 5 groups
+Identifying 5 clusters of similar images
+(2) 
+Comparing 
+images
+against  
+each other
+(1) Input unlabeled data
+Without any
+previous knowledge 
+about data organization
+No predefined categories
+Example: Web Image Clustering
+
+
+===PAGE BREAK===
+
+Engineering
+3. Notion of Cluster
+•
+The notion of cluster can be ambiguous
+–
+Consider the following dots representing objects in a 2D space
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+22
+J. TEKLI – joe.tekli@lau.edu.lb
+How many clusters can we identify?
+Two clusters?
+Four clusters?
+Maybe six clusters?
+
+
+===PAGE BREAK===
+
+Engineering
+3. Notion of Cluster
+•
+Clusters can be of different types:
+– Well separated
+– Center based
+– Contiguous
+– Density based
+– Property based (or conceptual)
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+23
+J. TEKLI – joe.tekli@lau.edu.lb
+???
+
+
+===PAGE BREAK===
+
+Engineering
+3. Notion of Cluster
+3.1. Well Separated Clusters
+•
+A cluster is a set of objects such that any object in the cluster is 
+closer (more similar) to every other object in the same cluster
+–
+Than to any other object outside of the cluster
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+24
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 2
+Cluster 1
+Cluster 3
+
+
+===PAGE BREAK===
+
+Engineering
+3. Notion of Cluster
+3.2. Center-based Clusters
+•
+A cluster is a set of objects such that any object in the cluster is 
+closer (more similar) to the “center” of the cluster
+–
+Than to the center of every other cluster
+-
+The center of a cluster can be:
+-
+A centroid: average of all objects in the cluster
+-
+A medoid: the most “representative” object in the cluster
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+25
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 2
+Cluster 1
+Cluster 4
+Center 1
+Center 2
+Center 4
+Center 3
+Cluster 3
+
+
+===PAGE BREAK===
+
+Engineering
+3. Notion of Cluster
+3.3. Contiguous Clusters
+•
+A cluster is a set of objects such that any object in the cluster is 
+closer (more similar) to one or more other objects in the cluster
+–
+Than to any object outside of the cluster
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+26
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 2
+Cluster 1
+Cluster 3
+
+
+===PAGE BREAK===
+
+Engineering
+3. Notion of Cluster
+3.4. Density-based Clusters
+•
+A cluster is a dense region of objects, separated by low density 
+regions, from other regions of high density
+–
+Useful when clusters are irregular or intertwined
+–
+And when noise and outliers are present
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+27
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 1
+Cluster 4
+Cluster 3
+Cluster 2
+Cluster 5
+
+
+===PAGE BREAK===
+
+Engineering
+3. Notion of Cluster
+3.5. Shared Property Clusters
+•
+Or conceptual clusters: clusters that share common or similar 
+properties to describe a certain concept
+–
+Example: grouping objects based on geometric shape property
+-
+Cluster 1: circles
+-
+Cluster 2: squares
+-
+Cluster 3: triangles
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+28
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 3
+Cluster 2
+Cluster 1
+
+
+===PAGE BREAK===
+
+Engineering
+4. Ingredients of Clustering
+•
+Clustering requires two basic ingredients
+•
+*
+– Similarity (distance) computation
+• Necessary to compare data objects being clustered
+– Clustering algorithm
+• Algorithmic process to perform the clustering task
+•
+Clustering also requires a pre-processing phase
+– Feature selection, extraction, and normalization
+• Based on which similarity computation will be performed
+– E.g., with XML: ROLT representation, LD-pair sequence, content vector, etc.
+– E.g. with images: dominant color, color histogram, shape histogram, surrounding text, etc. 
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+29
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Ingredients of Clustering
+•
+For instance: what is a natural grouping of the these objects?
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+30
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Ingredients of Clustering
+•
+It is first and fore-most feature-dependent:
+– Clustering based on gender feature:
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+31
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 2
+Cluster 1
+
+
+===PAGE BREAK===
+
+Engineering
+4. Ingredients of Clustering
+•
+It is first and fore-most feature-dependent:
+– Clustering based on family ties feature:
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+32
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 1
+Cluster 2
+
+
+===PAGE BREAK===
+
+Engineering
+4. Ingredients of Clustering
+•
+Actually, similarity is feature dependent:
+– And it affects clustering accordingly:
+– It not only depends on the similarity measure that we adopt
+• But most importantly: the features that we target in our similarity computation
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+33
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Ingredients of Clustering
+•
+NOTE: It is advised to adopt the formal definition of similarity
+– Inverse of a metric distance function
+• For the clustering to work properly: to be (partly) traceable/verifiable 
+•
+Similarity metric: function verifying the metric properties, namely:
+–
+Sim(O1, O2) ≤ Sim(O1, O1)   Minimality
+–
+Sim(O1, O2) = Sim(O2, O1)   Symetricity
+–
+Sim(O1, O3) ≥ Sim(O1, O2) × Sim(O2, O3)  Triangular inequality
+•
+Dist(O1, O3)  ≤  Dist(O1, O2) + Dist(O2, O3)
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+34
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+•
+Different clustering strategies exist, categorized in three main groups:
+– Partitional: dividing of data objects into non-overlapping sub-sets, i.e., the clusters, 
+such that each data object is in exactly one cluster
+– Hierarchical: generating a set of nested clusters organized in a hierarchy of clusters, 
+called dendrogram
+– Others: different hybrid techniques
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+35
+J. TEKLI – joe.tekli@lau.edu.lb
+Partitional
+Hierarchical
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+How to choose adapted clustering algorithm?
+• Based on the user’s desirable properties
+– Scalability (in terms of both time and space)
+– Ability to deal with different data types
+– Minimal requirements for domain knowledge to determine input parameters
+– Insensitive to order of input records
+– Interpretability and usability
+– Able to deal with noise and outliers
+– Incorporation of user-specified constraints
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+36
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering
+•
+Partitional clustering: dividing of data objects into non-overlapping sub-sets, i.e., 
+the clusters, such that each data object is in exactly one cluster
+– Also known as non-hierarchical algorithms
+•
+We will describe one typical partitioning algorithm: K-means
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+37
+J. TEKLI – joe.tekli@lau.edu.lb
+Hierarchical clustering
+Partitional (or non-Hierarchical) clustering
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+K-means is one of the most popular partitional clustering algorithms
+– Requires the number of clusters k to be specified by the user
+•
+Main process:
+1. Initialization: Select k data objects (points) as the initial centroids
+2. Repeat
+3. Assignment: Form k clusters by assigning objects to the closest centroids
+4. Update: Re-compute the centroid for each cluster
+5. Until reaching convergence
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+38
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Centroid: computed as the mean of all data objects in the cluster
+•
+Initial centroids are chosen randomly: typically among the available data objects
+•
+Closeness to centroid: evaluated using a similarity (distance) measure
+– E.g., using XML similarity when clustering XML documents
+•
+Convergence: is reached when few (or no) data objects change clusters
+– Between the previous iteration and the current one
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+39
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Mathematically:
+•
+Initialization: Given k chosen by user
+- Randomly choose initial k centroids (means) at iteration t0:
+•
+Assignment: Given the k centroids at iteration t
+- Compare every object xp with every centroid mi
+- And assign xp to cluster Ci corresponding to most similar centroid mi
+•
+Update: Re-computing centroids as means of data objects in every cluster
+- To be used as new centroids in the following iteration
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+40
+,...,
+0
+0
+(t )
+(t )
+1
+k
+m
+m
+
+
+) 
+
+
+Sim
+Sim
+(t)
+(t)
+(t)
+i
+p
+p
+i
+p
+j
+C
+= x / 
+(x , m
+,
+(x , m )   j, 1
+j
+k
+
+ 
+1
+
+(t)
+p
+i
+(t+1)
+i
+p
+(t)
+x
+C
+i
+m
+=
+x
+C
+
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Mathematically:
+•
+Convergence: Can be evaluated in different ways:
+1. Verifying that no (or few) object(s) in iteration t have changed clusters in iteration t+1
+- The user can choose the maximum number of changes allowed: threshold number
+2. Verifying that clusters at iteration t have higher (or close enough) intra-cluster  
+similarity than clusters at iteration t+1
+- Usually evaluated as Sum of Squared Error (or SSE)
+where Dist is the inverse function of Sim
+Higher intra-cluster similarity means lower SSE
+- User can also choose allowed SSE difference threshold
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+41
+ 
+2
+1
+)
+k
+i
+
+
+(t)
+p
+i
+(t)
+(t)
+p
+i
+x
+C
+SSE
+=
+(x , m
+Dist
+
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Example: K-means clustering
+•
+Clustering a set of data objects represented as points in a 2D space
+•
+The user chooses k = 3, i.e., needs to produce three clusters
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+42
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+(1) Set of points
+(2) Initialize k centroids (randomly)
+(3) Assign points to the nearest cenroid,
+then update (compute new) centroids
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Example: K-means clustering (cont’d 2)
+•
+Start of Iteration 2:
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+43
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+(4) After updating centroids, re-
+assign points to new centroids
+(5) The update (compute new) 
+centroids
+(5) No objects changed membership
+Convergence reached
+DONE!
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Pros of k-means:
+• Intuitive objective function: optimizing intra-cluster similarity 
+• Easy to implement and debug
+• Relatively efficient: of average O(nki) time and O(n) space complexity, where n is # of 
+objects, k is # of clusters, and i is # of iterations
+•
+Cons of k-means:
+• Need to specify k, the number of clusters, in advance
+• Applicable only when mean can be defined: what about categorical (or set) data?
+• Results depend on the initial centroids: often terminating at local optima
+• Not suitable to identify clusters with different sizes and densities
+•
+Also has problems when clusters have non-convex (non-globular) shapes
+• Unable to handle noise or outliers
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+44
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Discussion: Dependency on initial centroids
+• Consider the following set of points 
+•
+Different possible clustering solutions can be obtained with every run of k-means
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+45
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Original set of points
+(shapes of points represent desired clusters)
+Possible solution 1: Optimal
+Possible solution 2: Sub-Optimal
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Discussion: Dependency on initial centroids - Possible solution 1
+46
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Discussion: Dependency on initial centroids - Possible solution 2
+47
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Discussion: Difficult to produce clusters with different sizes
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Original set of points
+(colors of points represent desired clusters)
+Expected k-means result with k=3
+48
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Discussion: Difficult to produce clusters with different densities
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Original set of points
+(colors of points represent desired clusters)
+Expected k-means result with k=3
+49
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Discussion: Difficult to produce clusters with non-convex (non-globular) shapes 
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Original set of points
+(colors of points represent desired clusters)
+Expected k-means result with k=3
+50
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Possible solutions to overcome some of k-means’ problems
+1. Execute multiple runs of the algorithm
+•
+Downside: increase clustering time
+2. Select more then the user desired k centroids
+•
+Then post-process result by eliminating small clusters that might represent outliers
+•
+Merge clusters that are close and that have relatively low SSE
+•
+And maybe split “loose” clusters: with relatively high SSE 
+3. Filter out outliers, i.e., pre-processing before running clustering algorithm
+- Using filter (similarity/distance) function
+4. Informed (or heuristic) selection of initial k centroids
+•
+Instead of random selection
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+51
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Possible solutions to overcome some of k-means’ problems
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Original set of points
+(colors of points represent desired clusters)
+Selecting more than k=3 clusters
+(producing smaller clusters, which can then be 
+merged into bigger ones: post-processing)
+52
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Possible solutions to overcome some of k-means’ problems
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Original set of points
+(colors of points represent desired clusters)
+Selecting more than k=3 clusters
+(producing smaller clusters, which can then be 
+merged into bigger ones: post-processing)
+53
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Possible solutions to overcome some of k-means’ problems
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Original set of points
+(colors of points represent desired clusters)
+Selecting more than k=3 clusters
+(producing smaller clusters, which can then be 
+merged into bigger ones: post-processing)
+54
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.1. Partitional Clustering: K-means
+•
+Possible solutions to overcome some of k-means’ problems
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Original set of points
+Filter out outliers
+(pre-processing step)
+Running k-means with k=3
+55
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering
+•
+Hierarchical clustering: builds a hierarchy of clusters, known as a dendrogram
+– The root node of the dendrogram represents the whole data set and each leaf node
+represents a data object
+The dendrogram gives a description and visualization of the clustering process
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Individual documents
+Normalized distance
+0
+1
+Data set
+Agglomerative
+(Aggregational)
+Divisive
+(Segregational)
+56
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering
+•
+To better appreciate and evaluate hierarchical clustering results
+– Let us first introduce the notion of dendrogram
+•
+Dendrogram: hierarchical tree structure where:
+– Leaf nodes represent data objects
+– Internal nodes represent clusters of objects
+– Similarity between objects is represented 
+as the height of their lowest internal node
+The more similar, the lesser the height
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+57
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Root
+Terminal 
+branch
+Leaf
+node
+Internal
+node
+Internal
+branch
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering
+•
+Note that hierarchies are commonly used to organize information
+–
+E.g., Web portals (e.g., Yahoo), semantic taxonomies (e.g., WordNet), etc.
+- NOTE: While the latter hierarchies are manually created
+- Dendrograms are automatically created during clustering
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+58
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering
+•
+Hierarchical clustering consists in producing a set of nested clusters
+– Organized as a hierarchical tree: represented as a dendrogram
+• Recording the sequences of cluster merges and splits 
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+59
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+1
+2
+3
+4
+5
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering
+•
+We distinguish between two types of hierarchical clustering:
+1. Agglomerative (Buttom-Up): Starting with each object in its own cluster
+• Find the best pair to merge into a new cluster
+• Recursively repeat until all clusters are fused together
+2. Divisive (Top-Down): Starting with all the data objects in a single cluster
+• Consider the best way to divide the cluster into two
+• Recursively repeat on both sides until all clusters are split into objects
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+60
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Agglomerative
+•
+Agglomerative clustering’s main process:
+1. Initialization: Compute inter-cluster similarity matrix
+2. Let each data object be a cluster
+3. Repeat
+4. Grouping: Merge the two clusters with maximum similarity
+5. Update: Re-compute the similarity matrix considering new clusters
+6. Until verifying stopping rule
+NOTE: If no stopping rule is defined
+Algorithm continues until one single cluster remains
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+61
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Agglomerative
+•
+Example: Consider the following dataset of the Simpson family
+– That we wish to cluster using agglomerative clustering
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+62
+J. TEKLI – joe.tekli@lau.edu.lb
+???
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Agglomerative
+•
+Example (cont’d): We start by computing the similarity matrix
+– Storing the similarities (distances) 
+between every pair of data objects 
+– Example:
+Sim(       ,      ) = 1 (maximum)
+Sim(        ,       )  = 0.2 (low)
+Sim(        ,         ) = 0.9  (high)
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+1
+0.2
+0.2
+0.3
+0.3
+0.2
+1
+0.8
+0.6
+0.6
+0.2
+0.8
+1
+0.7
+0.7
+0.3
+0.6
+0.7
+1
+0.9
+0.3
+0.6
+0.7
+0.9
+1
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Agglomerative
+•
+Example (cont’d): We consider all possible merges and execute the best one
+– Merging the closest clusters
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+…
+0.2
+0.9
+0.2
+0.9
+0.3
+0.9
+Consider all 
+Possible merges
+based on 
+similarity matrix
+Choose 
+the best
+Iteration #1
+64
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Agglomerative
+•
+Example (cont’d): Computing 2nd iteration similarity matrix
+– For instance:
+Sim(       ,      ) = 1 (maximum)
+Sim(        ,                  )  = 0.3 (low)
+Sim(        ,            ) = 0.7  (high)
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+1
+0.2
+0.2
+0.3
+0.2
+1
+0.8
+0.6
+0.2
+0.8
+1
+0.7
+0.3
+0.6
+0.7
+1
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Agglomerative
+•
+Example (cont’d):
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+…
+0.2
+0.9
+0.2
+0.9
+0.3
+0.9
+Consider all 
+Possible merges
+based on  1st iteration
+similarity matrix
+Choose 
+the best
+Iteration #1
+0.2
+0.3
+Consider all 
+Possible merges
+based on 2nd iteration
+similarity matrix
+Iteration #2
+…
+0.9
+Choose 
+the best
+0.7
+0.8
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Agglomerative
+•
+Example (cont’d): Computing 3rd iteration similarity matrix
+– For instance:
+Sim(       ,      ) = 1 (maximum)
+Sim(        ,                  )  = 0.3 (low)
+Sim(               ,            ) = 0.65  
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+1
+0.2
+0.3
+0.2
+1
+0.65
+0.3
+0.65
+1
+
+
+===PAGE BREAK===
+
+Engineering
+…
+0.2
+0.9
+0.2
+0.9
+0.3
+0.9
+Consider all 
+Possible merges
+based on  1st iteration
+similarity matrix
+Choose 
+the best
+Iteration #1
+0.2
+0.3
+Consider all 
+Possible merges
+based on 2nd iteration
+similarity matrix
+Iteration #2
+…
+0.9
+Choose 
+the best
+0.7
+0.8
+Consider all 
+Possible merges
+based on 3rd iteration
+similarity matrix
+Iteration #3
+…
+0.3
+0.65
+0.65
+Choose 
+the best
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Agglomerative
+•
+Example (cont’d): 
+Computing 4th iteration similarity matrix
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+1
+0.25
+0.25
+1
+2/26/2026
+
+
+===PAGE BREAK===
+
+Engineering
+…
+0.2
+0.9
+0.9
+0.3
+0.9
+Consider all 
+Possible merges
+based on  1st iteration
+similarity matrix
+Choose 
+the best
+Iteration #1
+0.2
+0.3
+Consider all 
+Possible merges
+based on 2nd iteration
+similarity matrix
+Iteration #2
+…
+0.9
+Choose 
+the best
+0.8
+Consider all 
+Possible merges
+based on 3rd iteration
+similarity matrix
+Iteration #3
+…
+0.3
+0.65
+0.65
+Choose 
+the best
+0.2
+0.7
+0.25
+One possible merge is left between the last two remaining clusters,
+considering the 4rd iteration similarity matrix
+Iteration #4
+End of clustering process: DONE!
+- No stopping rule was defined here
+- Hence process stops when merging all objects into one  cluster
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Dendrogram
+•
+Why is the dendrogram appealing in hierarchical clustering?
+1. It provides a description of 
+the clustering process
+- Closest objects
+- Farthest objects
+- How they were grouped
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+71
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+0.25
+0.9
+0.8
+0.65
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Dendrogram
+•
+Why is the dendrogram appealing in hierarchical clustering?
+2. It can be used to detect outliers
+- The most isolated branch(es) 
+is (are) suggestive of (a) data point(s)
+that is (are) different from all others
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+72
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+0.25
+0.9
+0.8
+0.65
+Isolated 
+branch
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Dendrogram
+•
+Why is the dendrogram appealing in hierarchical clustering?
+3. It can be used to define a stopping rule
+in order to determine the best set
+of output clusters
+• Highly separated and low-height 
+sub-trees are  highly suggestive 
+of good clusters
+• High separation reflects
+low inter-cluster similarity
+• Low height reflects
+high intra-cluster similarity
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+73
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+0.25
+0.9
+0.8
+0.65
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Stopping Rule
+•
+Example (cont’d): Final result of running agglomerative clustering
+– Ordered (optional) following intra-cluster and inter-cluster similarity
+– The clusters with highest intra-cluster similarity  (most coherent)
+– and the lowest average inter-cluster similarity with all other clusters (most distinct)
+comes first 
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+74
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 1 
+Cluster 2
+Cluster 3
+(outlier)
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Intra & Inter Cluster Similarity
+Different formulas exist to evaluate intra and inter-cluster similarity, e.g.:
+•
+Intra-cluster similarity (1)
+- Usually evaluated as Sum of Squared Error (or SSE, cf. k-means)
+where Dist is the inverse function of Sim
+-
+k is the number of clusters at the designate hierarchical level (iteration)
+-
+mi is the centroid of cluster Ci
+-
+Computed as the mean of data objects in Ci
+Lower SSE means higher intra-cluster similarity!
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+75
+ 
+2
+1
+)
+k
+i
+
+
+p
+i
+p
+i
+x
+C
+SSE =
+(x , m
+Dist
+ 
+1
+
+p
+i
+i
+p
+x
+C
+i
+m =
+x
+C
+
+
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Intra & Inter Cluster Similarity
+Different formulas exist to evaluate intra and inter-cluster similarity, e.g.:
+•
+Intra-cluster similarity (2)
+- Another measure is Pair Group Method Average (or PGMA):
+-
+Where k is the number of clusters at the designate hierarchical level (iteration)
+-
+Ni is the number of pair-wise comparison operations within cluster Ci
+Higher PGAM means higher intra-cluster similarity!
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+76
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+ 
+ 
+/
+1
+)
+k
+i
+
+
+
+
+
+
+
+p
+i
+q
+i
+p
+q
+x
+C x
+C
+p q
+i
+(x , x
+PGMA =
+N
+Sim
+
+
+
+
+|
+|
+|
+|
+
+i
+i
+i
+-1
+2
+C
+C
+N =
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Intra & Inter Cluster Similarity
+Different formulas exist to evaluate intra and inter-cluster similarity, e.g.:
+•
+Intra-cluster similarity:
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+77
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+SSE
+PGMA
+centroid
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Intra & Inter Cluster Similarity
+Different formulas exist to evaluate intra and inter-cluster similarity, e.g.:
+•
+Similarly, inter-cluster similarity
+–
+Can be evaluated in different ways:
+•
+Single Link (Max)
+•
+Complete Link (Min)
+•
+Average Link (Avg)
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+78
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 1
+Cluster 2
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Intra & Inter Cluster Similarity
+Different formulas exist to evaluate intra and inter-cluster similarity, e.g.:
+•
+Inter-cluster similarity (1)
+–
+Using Single Link method
+•
+Cluster similarity = similarity of two most similar cluster objects
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+79
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 1
+Cluster 2
+(-)
+Produces 
+potentially 
+long and skinny
+clusters
+(+)
+Can handle 
+Non-globular
+shapes
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Intra & Inter Cluster Similarity
+Different formulas exist to evaluate intra and inter-cluster similarity, e.g.:
+•
+Inter-cluster similarity (2)
+–
+Using Complete Link method
+•
+Cluster similarity = similarity of two least similar cluster objects
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+80
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 1
+Cluster 2
+(+)
+Produces 
+potentially 
+compact
+clusters
+(-)
+Tends to 
+break large 
+clusters
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Intra & Inter Cluster Similarity
+Different formulas exist to evaluate intra and inter-cluster similarity, e.g.:
+•
+Inter-cluster similarity (3)
+–
+Using Average Link method
+•
+Cluster similarity = average similarity of all pairs of objects from each cluster
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+81
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 1
+Cluster 2
+(+)
+Most  robust
+against noise,
+and most 
+widely used
+(-)
+Biased toward
+globular clusters
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Divisive
+•
+So far we have only looked at agglomerative (bottom-up) clustering
+– But a cluster hierarchy can also be generated top-down
+• Using so-called divisive clustering 
+•
+We start at the top with all documents in one cluster
+– The cluster is split using a flat clustering algorithm (e.g., k-means)
+• This procedure is applied recursively until each document is in its own 
+singleton cluster
+Top-down clustering is conceptually more complex than bottom-up!
+- Since we need a second, flat clustering algorithm as a ``subroutine''
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+82
+2/26/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Divisive
+•
+Divisive clustering’s main process:
+1. Initialization: Compute intra-cluster similarity matrix
+2. Let all data object in dataset be one single cluster
+3. Repeat
+4. Dividing: Bisect the cluster with lowest intra-cluster similarity
+5. Update: Re-compute the similarity matrix considering new clusters
+6. Until verifying stopping rule
+NOTE:  1. Bisection is done using a flat clustering sub-routine (e.g., k-means with k = 2)
+2. If no stopping rule is defined, algorithm continues until 
+each data object forms an individual cluster
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering: Divisive
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Agglomerative:
+Divisive:
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.2. Hierarchical Clustering
+•
+Pros of hierarchical clustering:
+• No need to specify number of clusters in advance
+• Hierarchical structure (dendrogram) maps nicely onto human intuition
+•
+Cons of hierarchical clustering:
+• Does not scale well: of at least O(n2 log(n)) time and O(n2) space complexity, where             
+n is # of objects
+• Once a decision is made to combine two clusters: it cannot be undone
+• Different schemes have different issues:
+• Can be biased toward non-globular clusters
+• Can be sensitive to noise
+• Might tend to break large clusters
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+85
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+86
+J. TEKLI – joe.tekli@lau.edu.lb
+Hierarchical algorithms
+Partitional algorithms
+More complex: O(n2log(n)) time, 
+and O(n2) space
+Less complex: O(kni) time,
+and O(n) space
+Do not usually require any input
+Usually require input: number of 
+initial clusters or initial centroids
+Provides description of clustering 
+process in the form of a 
+dendrogram
+No description of clustering 
+process
+Generally produce 
+higher quality clusters
+Lower quality clusters in 
+comparison with hierarchical 
+methods
+Comparing hierarchical with partitional clustering:
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches
+•
+Incremental clustering
+•
+Constrained agglomerative clustering
+•
+Density-based clustering
+•
+Spectral clustering
+•
+Fuzzy clustering
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+87
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Incremental Clustering
+•
+Incremental clustering: Considering a stream of data objects (e.g., XML documents, 
+fragments, or elements)
+–
+Each data object has to be processed one at a time 
+• And assigned to existing clusters
+•
+Overall process:
+1. The first data object is assigned to an original cluster
+2. The following object is either: 
+2.1. Assigned to one of the existing clusters
+– Based on the highest similarity between the object and existing clusters
+2.2. Assigned to a new cluster
+– If similarity with all clusters is below a certain threshold
+3. Repeat step 2 until all data objects are assigned to specific clusters
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Incremental Clustering
+•
+Example:
+1st incoming object
+is assigned to 
+original cluster
+Original
+Cluster
+Formed at t1
+Iteration #1
+t1
+t2
+t3
+t4
+t5
+t6
+t7
+Stream of incoming objects
+Clustering object
+in most similar 
+cluster
+Similarity
+below threshold,
+so object forms 
+new cluster
+2nd incoming object
+is assigned to 
+most similar cluster
+Iteration #2
+t2
+t3
+t4
+t5
+t6
+t7
+3rd incoming object
+is assigned to 
+most similar cluster
+Iteration #3
+t3
+t4
+t5
+t6
+t7
+And so on…
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Incremental Clustering
+•
+Incremental clustering algorithms are non-iterative
+– Pros: 
+– Intuitive and easy to implement
+– They do not require to compute the similarity between each pair of objects
+Faster than typical approaches, requires average O(n) time  
+– Cons: 
+– Yet they usually produce a lower quality solution
+– Depending on the order following which data objects are being 
+received/clustered
+– They share mostly the same limitations of partitional approaches
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+90
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Constrainted Agglomerative
+•
+Constrained agglomerative: trade-off between hierarchical and non-
+hierarchical
+•
+Overall process:
+1. Using partitional clustering to constrain the initial objects data set
+2. Each of the produced clusters is treated as a separate set
+- Referred to as constrained clusters
+- Objects are only allowed to merge with others that are part of the same set
+1. An agglomerative algorithm is used to build a dendrogram tree for each set
+2. Finally, the different dendrogram trees can be combined into a single tree 
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+91
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+•
+Example: 
+Cluster 2
+Cluster 1
+Using partitional
+clustering to
+constrain initial 
+data set 
+Step 1
+Original data set
+An agglomerative 
+clustering is used
+to produce 
+dedrograms for every 
+constrained set
+Step 2
+Merging dendrograms
+Step 3
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Constrained Agglomerative
+•
+Constrained agglomerative: trade-off between hierarchical and
+•
+Pros:     - Considering user(environment)-specific constraints to start with
+- Computational complexity can be reduced to O(n2)
+•
+Cons:    - Depends on input constraints (which might not be available)
+- Cluster quality depends on the choice of user constraints
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+93
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Spectral Clustering
+•
+Spectral clustering: using the spectrum (eigen values) of the similarity matrix 
+of the data set to perform dimension reduction
+– Before clustering in reduced (and maybe more descriptive) dimensions
+•
+Overall process
+1. Compute similarity matrix S between each pair of data objects
+2. Performing Latent Semantic processing (e.g., singular value decomposition            
+or principal component analysis)
+- S = UVT where designates reduced feature space dimensions
+3. Clustering is performed in the reduced feature space
+- Using an existing clustering approach
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+94
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Spectral Clustering
+•
+Main concept of dimension transformation/reduction techniques:
+– Such as singular value decomposition (SVD), principal component analysis (PCA),       
+or initial component analysis (ICA)
+- Transform object/object similarity matrix into object/concept matrix
+- where concepts represent new (latent semantic) dimensions
+Then clustering is performed on object/concept matrix
+- Representing transformed (semantic) object space
+2/26/2026
+95
+J. TEKLI – joe.tekli@lau.edu.lb
+o
+o[   ]
+c
+o[   ]
+c
+c[   ]
+o
+c[   ]
+=
+
+
+Co-variance 
+matrix
+Object/object
+similarity matrix
+Object/concept 
+matrix
+Concept/object
+matrix
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Spectral Clustering
+•
+Spectral clustering will share some of the same pros and cons 
+– of the algorithm adopted to perform the clustering in the reduced feature space
+In addition:
+•
+Pros: - Transformed feature space can be more descriptive of data objects
+Producing higher quality results
+- Reduced feature space
+Allowing more efficient similarity computations
+•
+Cons: - Semantic feature space produced with latent semantic processing is not related 
+to user’s perception of semantics
+–
+Implicit semantic dimensions
+Result might not meet the user’s needs
+- Difficult for the user to decide on the parameters and dimensionality of the 
+latent semantic representation
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Density-based Clustering
+•
+Density-based clustering groups objects that are closely packed together 
+– I.e., objects with many nearby neighbors
+• And marks as outliers objects that lie alone in low-density regions
+•
+DBSCAN is the main density-based algorithm used in the literature
+– It accepts as input: 
+1. A neighborhood radius: ɛ
+2. A minimum number of  points necessary to form a cluster: minPts
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+97
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Density-based Clustering
+•
+Using ɛ and minPts, DBSCAN categorizes objects into:
+1. Core Points: A data point p is a core point if its ɛ-neighborhood N(p) contains at 
+least minPts: | N(p) | >= minPts, including the point p itself
+2. Border Points: A data point q is a border point if N(q) contains less than minPts
+data points, but q is reachable from some core point p
+- A point q is reachable from p if there is a path p1, ..., pn with p1 = p and pn = q, 
+where each pi+1 is directly reachable from pi
+- A point p is directly reachable from q if it is in q’s neighborhood (or vice versa)
+3. Outliers: A data point o is an outlier if it is neither a core point nor a border point
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+98
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Density-based Clustering
+•
+DBSCAN’s main process:
+1. Pick a data point at random 
+- That has not been assigned to a cluster or been designated as an outlier
+2. Compute its neighborhood to determine if it’s a core point
+- If yes, start a cluster around this point. If no, label the point as an outlier
+3.   Expand clusters by adding all reachable points to the cluster
+4.   Repeat step 3 until all points are either:
+- Assigned to a cluster or
+- Designated as outliers
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+99
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Density-based Clustering
+•
+Example:
+–
+ɛ with MinPts = 3
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+100
+J. TEKLI – joe.tekli@lau.edu.lb
+ɛ
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Density-based Clustering
+•
+Example:
+–
+ɛ with MinPts = 3
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+101
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Density-based Clustering
+•
+Example:
+–
+ɛ with MinPts = 3
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+102
+J. TEKLI – joe.tekli@lau.edu.lb
+Cluster 1
+Cluster 2
+Outliers
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Density-based Clustering
+•
+Density-based clustering handles some of the problems of previous approaches
+•
+Pros:  - Does not require a user-defined number of clusters
+- Can effectively detect non-globular shaped clusters
+- Can effectively handle noise and outliers
+•
+Cons: - User needs to define input parameters: neighborhood radius ɛ and 
+minimum size of neighborhood minPts
+Which might affect the quality of the clustering result
+- Not efficient computationally:  of O(n2) time and space
+- Tends to disregard low-density regions all together which might include 
+relevant data partitions to be considered in the clustering result
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Fuzzy Clustering
+•
+Using typical clustering algorithms: output clusters are hard
+– A hard partition of the data into separate (orthogonal) groups (clusters)
+•
+Fuzzy (or soft) clustering: producing fuzzy/soft clusters 
+– Soft partitions of the data where each data entity (e.g., XML document, fragment, 
+element) has a variable degree of membership in each of the output clusters
+•
+Main algorithm:  Fuzzy C-Means 
+– Adaptation of the k-means partitional algorithm
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+104
+J. TEKLI – joe.tekli@lau.edu.lb
+???
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Fuzzy Clustering
+•
+C-means is one of the most popular fuzzy clustering algorithms
+– Requires the number of clusters k to be specified by the user
+•
+Main process:
+1. Initialization: Select k data objects (points) as the initial centroids
+2. Repeat
+3. Membership: Compute membership degree of every objects w.r.t. k centroids
+- Membership degree is usually evaluated as similarity 
+1. Update: Re-compute the centroids based on membership degrees
+2. Until reaching convergence
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+105
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Fuzzy Clustering
+•
+Mathematically:
+•
+Initialization: Given k chosen by user
+- Randomly choose initial k centroids (means) at iteration t0:
+•
+Membership: Given the k centroids at iteration t
+- Compare every object xp with every centroid mi
+- Compute membership of xp with respect to every centroid mi, noted w(xp, mi)
+•
+Update: Re-computing centroids as means of all data objects
+- Weighted via their membership degrees w.r.t. the centroid at hand
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+106
+,...,
+0
+0
+(t )
+(t )
+1
+k
+m
+m
+)
+)
+(t)
+(t)
+p
+i
+p
+i
+w(x , m
+=
+(x , m
+Sim
+
+, yet other formulas can also be used
+ 
+ 
+1
+)
+)
+
+
+
+p
+p
+(t+1)
+(t)
+i
+p
+i
+p
+(t)
+all  x
+p
+i
+all  x
+m
+=
+w(x , m
+x
+w(x , m
+
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Fuzzy Clustering
+•
+Mathematically:
+•
+Convergence: can be evaluated in different ways
+1. Verifying that object membership degrees in iteration t did not change in iteration t+1
+- More that a certain pre-defined threshold 
+2. Verifying that fuzzy clusters at iteration t have higher (or close enough) intra-cluster  
+similarity than fuzzy clusters at iteration t+1
+- Can be evaluated as Sum of Squared Error (or SSE)
+where Dist is the inverse function of Sim
+Higher intra-cluster similarity means lower SSE
+- User can also choose allowed SSE difference threshold
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+1
+)
+)  
+ 
+k
+i
+
+
+
+p
+(t+1)
+(t)
+p
+i
+p
+i
+all  x
+w(x , m
+w(x , m
+
+2
+1
+)
+k
+i
+p
+(t)
+(t)
+p
+i
+all  x
+SSE
+=
+(x , m
+Dist
+
+
+===PAGE BREAK===
+
+Engineering
+5. Clustering Algorithms
+5.3. Other Approaches: Fuzzy Clustering
+•
+NOTE: Notion of cluster does not truly exist with fuzzy clustering
+•
+We only manipulate centroids and membership degrees
+•
+Fuzzy algorithms are typically partitional
+and thus carry corresponding pros and cons
+•
+A fuzzy clustering can be converted to a hard clustering 
+•
+By exclusively assigning data to the centroid
+•
+with the largest membership degree
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+108
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+6. Clustering Evaluation
+•
+Cluster evaluation (of validation) can be done in two ways:
+– Internal: evaluation based on the data that was clustered itself
+• Objective with these measures is to detect:
+– High similarity within a cluster (intra-cluster)
+– and low similarity between clusters (inter-cluster)
+– External: evaluation based on labeled (expert) data
+• Provided as reference: to be compared with the machine produced clusters
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+109
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+6. Clustering Evaluation
+•
+Internal evaluating measures:
+– Davies–Bouldin index:
+• Where i is the average distance of all data objects in cluster Ci w.r.t. centroid mi
+Smallest DB index designates best clustering
+– Dunn index:
+Identifying dense and well-separated clusters
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+110
+J. TEKLI – joe.tekli@lau.edu.lb
+1
+ 
+ 
+k
+i
+j
+i
+
+
+
+
+
+
+
+
+
+
+
+i
+j
+i
+j
+σ +σ
+1
+DB =
+max
+k
+(m ,m )
+Dist
+ 
+
+p
+i
+i
+p
+j
+x
+ C
+σ = arg  
+(x ,m )
+Dist
+
+1
+1
+ 
+ 
+i
+j k
+r k
+
+
+i
+j
+r
+min
+(C ,C )
+Dunn =
+max
+(C )
+InterDist
+IntraDist
+
+
+===PAGE BREAK===
+
+Engineering
+6. Clustering Evaluation
+•
+External evaluating measures:
+– Precision and Recall: percentage of relevant documents correctly
+clustered by the system with respect to user defined clusters
+– For every produced cluster Ci, consider:
+• ai : # of data objects in Ci that indeed correspond to  Ci (correctly clustered)
+• bi : # of data objects in Ci that do not correspond to Ci (miss-clustered)
+• ci : # of data objects not in Ci , although they correspond to Ci (documents that 
+should have been clustered in Ci)
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+111
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+6. Clustering Evaluation
+•
+External evaluating measures:
+– Precision:
+• High precision denotes that the clustering task achieved high accuracy
+– Grouping together objects that should actually be grouped together
+– Recall:
+• High recall means that very few objects are not in the appropriate cluster
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+112
+J. TEKLI – joe.tekli@lau.edu.lb
+ 
+
+
+
+
+
+n
+i
+i=1
+n
+n
+i
+i
+i=1
+i=1
+a
+PR
+[0,1]
+a  + 
+b
+ 
+
+
+
+
+
+n
+i
+i=1
+n
+n
+i
+i
+i=1
+i=1
+a
+R
+[0,1]
+a  + 
+c
+
+
+===PAGE BREAK===
+
+Engineering
+6. Clustering Evaluation
+•
+External evaluating measures:
+•
+In addition to comparing one approach’s precision with another’s recall
+– It is a common practice to consider the F-value
+• which represents the harmonic mean of precision and recall
+F-value: 
+•
+High precision and recall, and thus high F-value indicate high clustering quality
+•
+NOTE: clustering quality depends not only on the clustering algorithm
+– But also (and sometimes mostly) on the features and the similarity measure used
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+113
+J. TEKLI – joe.tekli@lau.edu.lb
+ 
+2×PR×R
+F- value =
+   
+[0,1]
+PR + R
+
+
+===PAGE BREAK===
+
+Engineering
+Wrapping up
+•
+Clustering consists in finding groups of data objects such that
+– Objects in a group will be similar (or related) to one another
+– And different from (or unrelated to) objects from other groups
+•
+Clustering is also known as un-supervised learning
+– Versus supervised learning where the groups of data are known
+•
+Various clustering approaches and algorithms exist
+– Partitional, hierarchical, incremental, constrained agglomerative, spectral, density-
+based, and fuzzy clustering, among others
+– Each with its pros and cons
+•
+Various measures also exist for evaluating clustering quality
+– Internal such as the Dunn index, and external such as Precision and Recall
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+2/26/2026
+114
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2/26/2026
+115
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+Questions?
+
+
+===PAGE BREAK===
+
+Engineering
+Exercises and Tutorials
+•
+Provided by the instructor during lecture sessions
+2/26/2026
+116
+J. TEKLI – joe.tekli@lau.edu.lb
+2nd project assignment
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering
+
+
+===PAGE BREAK===
+
+Engineering
+Main References
+•
+Algergawy A. et al., XML Data Clustering: An Overview. ACM Computing Survey 2011. 43(4):25.
+•
+Jayant Mishra, Vivek Agarwal, Megha Sharma, and J.K Srivastava, Clustering Algorithms - Brief Overview in 
+Bioinformatics, International Journal of Science and Research (IJSR) , 2319-7064, 2015
+•
+Candillier L.; Tellier I.; and Torre F., Transforming XML Trees for Efficient Classification and Clustering. Proc. of the 
+Workshop of the Initiative for the Evaluation of XML Retrieval (INEX), 2005, 469-480
+•
+Dalamagas T. et al., A Methodology for Clustering XML Documents by Structure. Information Systems, 2006. 
+31(3):187-228.
+•
+I. Davidson and S.S. Ravi, Agglomerative Hierarchical Clustering with Constraints: Theoretical and Empirical Results,
+PKDD 2005, LNAI 3721, pp. 59–70, 2005.
+•
+I. Guyon et al., Clustering: Science or Art? Journal of Machine Learning Research, 2009, pp. 1-11
+•
+A.K. Jain, M.N. Murty, and P.J. Flynn, Data Clustering: A Review, ACM Computing Surveys, Vol. 31, No. 3, Sep. 1999
+•
+Henri Lin, Eamonn Keogh, Ziv Bar-Joseph, and Andrew Moore, 15-381 Artificial Intelligence: Representation and 
+Problem Solving, Carnegie Mellon University, USA, 2008
+•
+Lian W. et al., An Efficient and Scalable Algorithm for Clustering XML Documents by Structure. IEEE TKDE, 2004, 
+16(1):82-96.
+•
+Liang W. and Yokota H., SLAX: An Improved Leaf-Clustering Based Approximate XML Join Algorithm for Integrating 
+XML Data at Subtree Classes. Trans. of Information Processing Society of Japan, 2006. (47):47-57.
+•
+M. Omran, A. Engelbrecht, and A.A. Salman, An Overview of Clustering Methods, Intelligent Data Analysis, 2007
+•
+Pablo Matteo, Clustering (lecture slides), National Research Council (CNR), Italy , and Max Plank Institute of 
+Molecular Genetics, Germany
+•
+Joe Tekli and Richard Chbeir; A Novel XML Structure Comparison Framework based on Sub-tree Commonalities and 
+Label Semantics, Elsevier Journal of Web Semantics (JWS), 11: 14-40, 2012
+Intelligent Data Processing and Applications 
+Ch. 10 – Data Clustering

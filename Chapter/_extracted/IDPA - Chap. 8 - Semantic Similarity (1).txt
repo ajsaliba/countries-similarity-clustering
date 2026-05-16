@@ -1,0 +1,1752 @@
+Lebanese American University
+www.lau.edu.lb
+www.lau.edu.lb/ece
+School of Engineering
+Department of Electrical &
+Computer Engineering
+Chartered in the State of New York
+Intelligent Data Processing and Applications
+Joe M. TEKLI, PhD
+Computer Software Engineering
+Chapter 8 - Semantic Similarity Evaluation
+ 
+Measures and Applications
+COE 543/743
+
+
+===PAGE BREAK===
+
+Engineering
+Overview
+Introduction
+Corpus-based Semantic Analysis
+Knowledge-based Semantic Analysis
+Applications
+Conclusion
+-2-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge
+-based
+Applications
+Conclusion
+Overview
+Engineering
+Introduction and motivation
+Information needs are increasing exponentially
+Digital information becomes pervasive with continuous exposure to the Web
+Promised land: Semantic Web
+Extending the Web by assigning information well defined meaning
+Render the Web machine-readable and easier to process
+– Effective data search and automated management
+Problem
+How to handle the huge amounts of  information
+?
+The value of  information depends on how easy it is to search and manage…
+Automatic extraction of  Semantic Meaning becomes crucial
+-3-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge
+-based
+Applications
+Conclusion
+Overview
+Engineering
+Introduction and motivation
+Semantic Web requires:
+Computation of semantic meaning
+Semantic reference sources
+Methods of semantic similarity
+Corpus-based
+Knowledge-based
+Semantic Analysis
+Learning in Large 
+corpora
+Ready-made 
+knowledge 
+bases
+-4-
+
+
+===PAGE BREAK===
+
+Engineering
+Overview
+Introduction
+Corpus-based Semantic Analysis
+Knowledge-based Semantic Analysis
+Applications
+Conclusion
+-5-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge
+-based
+Applications
+Conclusion
+Overview
+Engineering
+Corpus-Based Semantic Analysis
+Semantics identified based on word distribution in text corpus
+Main Premise
+Semantically similar words have similar 
+syntactic distributions in a corpus
+Syntactic 
+Mining
+Statistical 
+Analysis
+Machine
+Learning
+- Co-occurrence
+- Contextual
+- Lexical patterns
+- Variance
+- Correlation
+- Regression analysis
+- Bayesian networks
+- Support vector machines
+- Decision trees
+-6-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge
+-based
+Applications
+Conclusion
+Overview
+Engineering
+Corpus-Based Semantic Analysis
+Main idea: context-based similarity
+Step 1: Syntactic measures define individual word descriptions
+Step 2: Statistical analysis normalizes word descriptions over corpus
+Step 3: Learning considers human perception of semantics
+Limiting the effects of lexico-syntactic and stylistic dependency of words
+– To go beyond the surface of appearance of words
+Ｗ１
+5 words
+5 words
+W1 ={2, 1, …, 4}
+Context feature vector
+Lexical Context
+-7-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge
+-based
+Applications
+Conclusion
+Overview
+Engineering
+Corpus-Based Semantic Analysis
+Main idea: co-occurrence similarity
+Step 1: Create textual windows of a certain number of words or 
+sentences
+Step 2: Count number of occurrence of every target words in textual 
+windows
+Step 3: Count number of co-occurrence of target words in textual 
+windows
+Underlining how often the words occur together
+Window 1
+Window 2
+Window 3
+)
+(
+)
+(
+)
+,
+(
+log
+)
+,
+(
+2
+1
+2
+1
+2
+1
+w
+Count
+w
+Count
+w
+w
+Count
+w
+w
+sim
+
+=
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge
+-based
+Applications
+Conclusion
+Overview
+Engineering
+Corpus-Based Semantic Analysis
+Corpus-based methods have been popular
+Yet have suffered from various limitations:
+Improvements using:
+Labeled corpora
+Bootstrapping
+Syntactic 
+Mining
+Statistical 
+Analysis
+Machine
+Learning
+1. Dependence on 
+Lexico-Syntactic 
+properties
+3. Requires training 
+data
+4. Time consuming 
+training phase
+2. Requires large 
+corpora
+-9-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge
+-based
+Applications
+Conclusion
+Overview
+Engineering
+poverty
+Country
+Country
+Country
+Country
+Country
+Country
+Org
+Date
+
+
+===PAGE BREAK===
+
+Engineering
+Overview
+Introduction
+Corpus-based Semantic Analysis
+Knowledge-based Semantic Analysis
+Applications
+Conclusion
+-11-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Knowledge-based Semantic Analysis
+Relies on predefined structured sense inventories
+Building blocks:
+Machine-readable lexical knowledge bases
+Ready-made sources of information about word senses
+Semantic similarity measures in knowledge bases
+Evaluating relatedness between word senses
+Main premise
+Predefined semantic knowledge is required 
+to identify semantic meaning
+-12-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Knowledge-based Semantic Analysis
+Knowledge base
+Controlled vocabulary
+A list of ordered words with explicit semantic meanings
+– Machine-readable dictionary
+Taxonomy
+A controlled vocabulary organized in a structural hierarchy
+– Using specialization (Is-A ) links and containment (Part-Of) links
+Thesaurus
+A taxonomy enriched with non-hierarchical relations
+– Associative relations: Related-To,  Attribute-Of, See-Also, etc.
+Ontology
+Taxonomy/Thesaurus with an explicit formalization of relations
+– Using dedicated grammar rules
+-13-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Knowledge-based Semantic Analysis
+Is-A
+-14-
+Animal
+Vertebrate
+Invertebrate
+Mammal
+Fish
+Bird
+Reptile
+Feline
+Elephant
+Whale
+Taxonomy
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Related-To
+Knowledge-based Semantic Analysis
+Is-A
+-15-
+Animal
+Vertebrate
+Invertebrate
+Mammal
+Fish
+Bird
+Reptile
+Feline
+Elephant
+Whale
+Thesaurus
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Knowledge-based Semantic Analysis
+Semantic similarity measures
+Automatically identify semantically related concepts
+Rank semantically related concepts following their degrees of 
+similarity 
+Challenge
+How to exploit knowledge bases in computing 
+semantic meaning ?
+Semantic Concept Matching
+-16-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Knowledge-based Semantic Analysis
+Main approach
+Hierarchical knowledge base (Taxonomy)
+Modeled as a Semantic Network
+– Concepts connected via (hierarchical) relations
+Each concept underlines a set of synonymous words
+Words having the same semantic meaning
+– Each concept is associated a textual definition: Gloss
+-17-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Knowledge-based Semantic Analysis
+Main approach
+Hierarchical knowledge base (Taxonomy)
+Modeled as a Semantic Network
+– Concepts connected via (hierarchical) relations
+Car
+Car
+Auto
+Automobile
+Motorcar
+Cab
+Hack
+Taxi
+Taxicab
+Cab
+Engine
+Engine
+The engine that 
+propels an 
+automobile
+A motor vehicle with four wheels
+A car driven by a 
+person whose job is to 
+is to take passengers 
+where they want to go 
+in exchange for money
+Is-A
+Part-Of
+-18-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Knowledge-based Semantic Analysis
+Main Approach
+A word may correspond to different concepts
+Multiple senses
+– Homonymy (Polysemy)
+Automobile
+Cable car
+Car
+Railcar
+-19-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Knowledge-based Semantic Analysis
+Main Approach
+The semantic similarity between words
+Similarity between corresponding concepts in the semantic network
+Semantic similarity between concepts depends on the amount of 
+information they share in common
+Taxonomy: the Lowest Common Ancestor
+Machine
+c2
+c3
+c5
+Auto
+Motorcycle
+Computer
+Vehicle
+c4
+-20-
+
+
+===PAGE BREAK===
+
+Engineering
+Introduction
+Corpus-based Semantic Analysis
+Knowledge-based Semantic Analysis
+Applications
+Conclusion
+-21-
+
+
+===PAGE BREAK===
+
+Engineering
+Introduction
+Corpus-based Semantic Analysis
+Knowledge-based Semantic Analysis
+Edge-based similarity
+Node-based similarity
+Gloss-based similarity
+Applications
+Conclusion
+-22-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Edge-based Approach
+Premise
+Semantic similarity between two concepts c1 and c2
+Minimum distance (in number of links) in semantic network
+– Identifying, in a roundabout way, the Lowest Common Ancestor
+Basic mathematical formula:
+SimEdge(c1, c2)   =
+Knowledge-based Semantic Similarity
+Minimizing Distance
+Maximizes Similarity
+2 × MaxDepth(SN)
+MinPath(c1, c2, SN)
+Rada R et al.., Development and Application of a Metric on Semantic Nets. IEEE Transactions on Systems, Man, and Cybernetics, 1989, 19(1):17-30.
+Leacock C. and Chodorow M., Combining Local Context and WordNet Similarity for Word Sense Identification. The MIT Press, 1998,  pp. 265-283.
+1 - 
+-23-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Example
+SimEdge(c1, c2)   =                                        =                = 0.375           
+SimEdge(c1, c3)   =                                        =               =    0.5
+Edge-based Approach
+MaxDepth = 4
+c2
+c3
+c1
+2 × MaxDepth
+MinPath(c1, c2)
+5
+8
+2 × MaxDepth
+MinPath(c1, c3)
+4
+8
+1 - 
+1 - 
+1 - 
+1 - 
+-24-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Advantage
+Simple and intuitive approach
+Main limitation
+Links underline uniform distances
+Which is not always semantically accurate
+In real semantic networks, link distance may vary following:
+Network density
+Edge-based Approach
+-25-
+…
+Plant
+Indian 
+Elephant
+African 
+Elephant
+Mammoth
+Elephant
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Advantage
+Simple and intuitive approach
+Main limitation
+Links underline uniform distances
+Which is not always semantically accurate
+In real semantic networks, link distance may vary following:
+Network density
+Network depth
+Edge-based Approach
+-26-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Network depth
+Edge-based Approach
+-27-
+Elephant
+Mammal
+Vertebrate
+Animal
+Invertebrate
+Feline
+Whale
+Fish
+Bird
+Reptile
+Depth
+Information Specificity
+Indian 
+Elephant
+African 
+ Elephant
+Mammoth
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+In real semantic networks, link distance may vary following:
+Network density
+Network depth
+User perception of semantic meaning 
+Edge-based Approach
+-28-
+Machine
+Auto
+Bicycle
+Automobiles are more 
+mechanized than bicycles
+Seems more intuitive 
+to have d1 < d2
+d1
+d2
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+In real semantic networks, link distance may vary following:
+Network density
+Network depth
+User perception of semantic meaning 
+Link Type
+Edge-based Approach
+-29-
+Auto
+Cab
+Engine
+Is-A
+Part-Of
+Gear
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+In real semantic networks, link distance may vary following:
+Network density
+Network depth
+User perception of semantic meaning 
+Link Type
+Link direction
+Edge-based Approach
+-30-
+Auto
+Engine
+Part-Of
+Gear
+Has-Part
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Knowledge-based Semantic Similarity
+Edge-based Approach
+Some approaches have suggested weighting links
+To consider varying semantic distances
+Sample mathematical formula:
+How to weight different linking factors ?
+Jiang J. and Conrath D., Semantic Similarity based on Corpus Statistics and Lexical Taxonomy. Inter. Conf. on Research in Computational Linguistics, 1997.
+Richardson R. and Smeaton A., Using WordNet in a Knowledge-based approach to information retrieval. BCS-IRSG Colloquium on Information Retrieval, 1995.
+-31-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Knowledge-based Semantic Similarity
+Edge-based Approach
+Advantage
+Simple and intuitive
+Limitations
+Uniform link distances versus Varying link distances
+Concept Depth
+Network Density
+Link Type
+Link Direction
+User perception
+How to combine different link weighting factors
+-32-
+
+
+===PAGE BREAK===
+
+Engineering
+Overview
+Introduction
+Corpus-based Semantic Analysis
+Knowledge-based Semantic Analysis
+Edge-based similarity
+Node-based similarity
+Gloss-based similarity
+Applications
+Conclusion
+-33-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Knowledge-based Semantic Analysis
+Node-based Approach
+Premise
+Augment information in Semantic Network
+Integrating corpus-based statistics 
+Similarity is evaluated based on Information Content
+Function of the occurrence probability of concepts in a text corpus
+IC(c1) = - log (p(c1))
+Get round the problem of  varying link distances
+Resnik P., Using Information Content to Evaluate Semantic Similarity in a Taxonomy. Inter. Joint Conference on Artificial Intelligence (IJCA), 1995, (1):448-453.
+-34-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Main idea:
+Augment the taxonomy with a probability function P
+P : Taxonomy → [0, 1]
+p(c) = occurrence probability of concept c
+p(c) =                 
+– freq(c) =          Count(w)
+– N = total number of words in text corpus
+Similarity between concepts c1 and c2
+SimNode (c1, c2) =   max [- log p(c) ]        
+ with S(c1, c2) = set of common ancestors of c1 et c2
+Node-based Approach
+freq(c)
+N
+∑
+For all words w Є concept c
+c Є S(c1, c2)
+-35-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Node-based Approach
+Example
+freq(c12) = 0
+freq(c8) =  0
+freq(c4) =  0
+freq(c2) =  0 
+freq(c1) =  0
+…
+N = 0
+For each  concept  c1 ancestor of c2,  freq(c1)  ≥  freq(c2) 
+p(c1)  ≥  p(c2)
+- log (p(c1))  ≤  - log (p(c2))
+c4
+c2
+c1
+c8
+c12
+c13
+c3
+c5
+c6
+c7
+c9
+c10
+c11
+c14
+c15
++1
++1
++1
++1
++1
++1
++1
++1
++1
++1+1
+Ancestors are less informative than descendents
+-36-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Node-based Approach
+Similarity between concepts c12 and c13
+SimNode (c12, c13) =   max    [- log p(c) ]
+  
+                 =   - log p(c8) 
+c Є S(c12, c13)
+c4
+c2
+c1
+c8
+c12
+c13
+c3
+c5
+c6
+c7
+c9
+c10
+c11
+c14
+c15
+LCA maximizes Information Content
+-37-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Problem with basic method
+Does not discriminate between concepts having the same LCA
+Explanation: 
+Considers the account of commonality shared between concepts
+But does not consider their differences
+Node-based Approach
+c2
+c1
+c3
+SimNote(c1, c2) = SimNode(c1, c3)
+?
+c
+-log(p(c))
+-38-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Improved measure
+Follows basic assumptions:
+Similarity between concepts depends on their commonality
+Similarity between concepts depends on their difference
+Similarity is maximum when concepts are identical
+Mathematical formula [1]:
+SimNode+(c1, c2) = 
+c is lowest common ancestor of c1 and c2
+Node-based Approach
+2 log P(c)
+log P(c1) + log P(c2)
+[1] Lin D., An Information-Theoretic Definition of Similarity. Proceedings of the International. Inter. Conf. on Machine Learning (ICML), 1998, pp. 296-304.
+-39-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Node-based Approach
+Improved measure
+Considers information content of LCA and own concepts
+Empirical results show improved results in comparison with
+Basic node-based measure
+Edge-based measures 
+c2
+c1
+c3
+SimNode+(c1, c2) ≤ SimNode+(c1, c3)
+IC(c)
+-40-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Knowledge-based Semantic Similarity
+Node-based Approach
+Advantages
+Getting round the varying link distance problem
+Integrating corpus-based statistics
+Adapting the knowledge based to specific corpora
+Empirical results show improved quality in comparison with edge-
+based methods
+Limitations
+Requires an input text corpus
+Requires additional computation time to compute corpus-statistics
+Corpus-statistics can be computed offline
+-41-
+
+
+===PAGE BREAK===
+
+Overview
+-42-
+Introduction
+Corpus-based Semantic Analysis
+Knowledge-based Semantic Analysis
+Edge-based similarity
+Node-based similarity
+Gloss-based similarity
+Applications
+Conclusion
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Gloss-based Approach
+Premise
+Evaluate the word overlap between the glosses of concepts
+A gloss underlining the textual definition describing a concept
+E.g., the gloss of the 1st sense of word car in WordNet is “A motor 
+vehicle with four wheels” (cf. slide 15)
+Basic mathematical formula: original method
+SimGloss(c1, c2)   =
+Other set-based or vector-based similarity measures can be used
+– Jaccard, Dice, Cosine, etc. (cf. Chapter 4)
+Knowledge-based Semantic Similarity
+Lesk M., Automatic Sense Disambiguation using Machine Readable Dictionaries: How to tell a Pine Cone from an Ice Cream Cone. Inter. SIGDOC'86 Conf., 1986.
+-43-
+|gloss(c1) gloss (c2)|
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Gloss-based Approach
+Problem: The original gloss-based measure compares glosses by 
+counting the number of words that are shared between them
+It does not differentiate between single word and phrasal overlaps
+Treating each gloss as a bag of words 
+Improvement: based on Zipfian [1] relationship between phrases
+The longer the phrase, the less likely it is to occur multiple times in a given corpus
+An n-word overlap is much rarer than a single word overlap
+– Assigning an n-word overlap the score of n2
+• Giving it a score higher than the sum of the scores assigned to 
+those n words when they occur separately
+Knowledge-based Semantic Similarity
+-44-
+[1] G. Zipf. The Psycho-Biology of Language. Houghton Mifflin, Boston, MA, 1935
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Gloss-based Approach
+Improved method:
+SimGloss+(c1, c2)   = |gloss(c1) LCS gloss (c2)|
+Overlap operator defined based on Longest Common Sequence
+Of one or more consecutive words that occurs in both glosses 
+Overall process: given two strings:
+1. The LCS between them is detected and removed
+– A unique marker is placed in its place in each of the two input strings
+2. The two strings thus obtained are then again checked for overlaps 
+– The process is repeated until there are no longer any overlaps
+3. The sizes of the overlaps thus found are squared and added together to 
+    compute the similarity score
+Knowledge-based Semantic Similarity
+-45-
+Banerjee S. and Pedersen T., An adapted Lesk algorithm for word sense disambiguation using WordNet. Proc. of 3rd CICLing Inter. Conf., 2002, pp. 136-145
+Banerjee S. and Pedersen T., Extended Gloss Overlaps as a Measure of Semantic Relatedness. Inter. IJCAI'03 Conf., 2003. p. 805-810
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Gloss-based Approach
+Example: Considering concepts drawing paper and decal
+gloss(drawing paper) = paper that is specially prepared for use in drafting
+gloss (decal)  = art of transferring designs from specially prepared paper to a wood or glass or 
+metal surface. 
+Using original measure:
+SimGloss(drawing paper, decal)  = 3
+ There are three words that overlap: paper, specially and prepared
+Using improved measure:
+SimGloss+(drawing paper, decal)  = 5 = 4 + 1
+- Score = 22 for the the overlap of the 2-word phrase specially prepared
+ - Score = 1 for the the overlap of single word paper
+Knowledge-based Semantic Similarity
+-46-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Gloss-based Approach
+Limitation with both original and improved methods:
+They do not consider semantic relationships between concepts
+Extended method:
+SimGloss++(c1, c2)   = |ext_gloss(c1) LCS ext_gloss (c2)|    where:
+   - ext_gloss(c) = gloss(c)   syn(c)  gloss(rel(c))  
+   - Syn(c) is concept c’s set of synonyms
+   - Rel(c) is the set of concepts collected with c using semantic relationship rel 
+  
+- Rel can stand for hypernymy, hyponymy, meronymy, etc. 
+Knowledge-based Semantic Similarity
+-47-
+Banerjee S. and Pedersen T., An adapted Lesk algorithm for word sense disambiguation using WordNet. Proc. of 3rd CICLing Inter. Conf., 2002, pp. 136-145
+Banerjee S. and Pedersen T., Extended Gloss Overlaps as a Measure of Semantic Relatedness. Inter. IJCAI'03 Conf., 2003. p. 805-810
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Gloss-based Approach
+Advantages:
+Considering concept glosses which were dismissed with edge and node-
+based measures
+Empirical results show improved quality in comparison with edge-based 
+and, sometimes, node-based methods 
+Namely when applied in: word sense disambiguation (WSD)
+Limitations:
+Original/improved methods do not consider semantic network structure
+In the extended method: it is not clear how to choose which semantic 
+relations to utilize in producing extended glosses
+Knowledge-based Semantic Similarity
+-48-
+
+
+===PAGE BREAK===
+
+Engineering
+Overview
+Introduction
+Corpus-based Semantic Analysis
+Knowledge-based Semantic Analysis
+Edge-based similarity
+Node-based similarity
+Gloss-based similarity
+Mathematical properties
+Applications
+Conclusion
+-49-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Mathematical Properties
+Formal definition of similarity
+Inverse of a metric distance function
+Metric properties
+Sim(c1, c2) ≤ Sim(c1, c1)     Minimality
+Sim(c1, c2) = Sim(c2, c1)     Symetricity
+Sim(c1, c3) ≥ Sim(c1, c2) × Sim(c2, c3)    Triangular inequality
+Dist(c1, c3)  ≤  Dist(c1, c2) + Dist(c2, c3)
+Generalized Metric
+A distance (similarity) function that does not satisfy all metric axioms
+-50-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Most semantic similarity measures are generalized metrics
+Semi-metrics
+Do not satisfy triangular inequality 
+That is due to the nature of semantic information
+Rather than the similarity measures
+Famous example by Tversky [1]:
+Mathematical Properties
+[1] Tversky A., Features of Similarity. Psychological Review, 1977, 84(4):327-352.
+Jamaica 
+Cuba
+Russia
+Geographic 
+distance
+Political 
+affinity
+Not similar
+-51-
+
+
+===PAGE BREAK===
+
+Engineering
+Overview
+Introduction
+Corpus-based Semantic Analysis
+Knowledge-based Semantic Analysis
+Applications
+Conclusion
+-52-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Applications
+Semantic Web Vision
+Introduced by Tim Berners-Lee:
+–
+Extending the Web by associating data with well-defined semantics
+  Better enabling computers and people to interact and work in cooperation
+Building blocks
+-53-
+Addressing
+Syntax
+Semantics
+XML
+RDF
+- XML: Extensible Markup Language
+- RDF: Resource Description Framework
+- RDFS: RDF Schema
+- OWL: Ontology Web Language
+- SPARQL: RDF/OWL query language
+SW standards to describe 
+data and semantics:
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Applications
+Semantic Web Vision
+XML/JSON add structure, yet they lack formal semantics
+-54-
+<Department DeptId="15" DeptName="Sales">
+      <Employee>
+             <EmpNo>10</EmpNo>
+             <FirstName>CHRISTINE>/FirstName>
+             <LastName>SMITH</LastName>
+              <Phone>408-463-4963</Phone>
+             <Salary>52750.00</Salary>
+     </Employee>
+     <Employee>
+             <EmpNo>27</EmpNo>
+             <FirstName>MICHAEL>/FisrtName>
+             <LastName>THOMPSON</LastName>
+             <Phone>408-463-1234</Phone>
+             <Salary>41250.00</Salary>
+     </Employee>
+</Department>
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Applications
+Semantic Web Vision
+SW standards are dedicated to represent formal semantics  knowledge
+With RDF for instance, resources are represented by statements
+In the form of subject-predicate-object expressions: triples
+-55-
+Subject
+Predicate
+Object
+DeptId
+Has
+DeptName
+DeptId
+HasDept
+15
+Sales
+IsA
+DeptName
+Sales
+HasDeptId
+15
+Emp
+Has
+DeptId
+Emp
+HasEmpNo
+27
+Emp
+HasEmpNo
+10
+…
+…
+…
+Sample RDF statements extracted form
+ the Document tree in the previous slide
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Semantic Web Vision
+Generating and RDF graph
+  A Semantic Network
+           
+Applications
+-56-
+DepId
+DeptName
+Sales
+Emp
+Has
+HasDept
+IsA
+HasEmpNo
+15
+Has
+HasEmpNo
+27
+10
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Applications
+Semantic Web Vision
+Data (information) is usually coded in semi-structured syntax
+Knowledge is usually represented in SW standards
+RDF, RDFS, and OWL
+           
+NOTE: There is a fine line between:
+Coding  syntax (tagging, syntactic properties, etc.)
+Representation model  formalism (tree-based, graph-based, network-based, etc.)
+Semi-structured tree-based model is good for data (information), yet it is not 
+expressive enough for knowledge!
+  Hence the introduction of RDF and OWL graph-based models
+-57-
+Also represented based on semi-structured document syntax
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Applications
+Semantic Web Applications
+Information retrieval
+Lack of explicit semantics in state-of-the-art search engines
+Semantic document indexing
+Semantic query analysis
+– Pruning documents which may be syntactically similar , yet 
+underline non-relevant meanings
+• Precision
+– Retrieving documents which may be syntactically different, 
+yet share similar semantics
+• Recall
+-58-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Applications
+Semantic Web Applications
+Information extraction
+Extracting semantically related concepts form a corpus
+Part-of-Speech tagging
+Text categorization
+Machine translation
+The automatic identification of the correct translation of a word
+Requires semantic evaluation
+– Helps the system choose better candidates
+Live speech translation techniques
+-59-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Applications
+Semantic Web Applications
+Content analysis
+Classification of blogs
+Identifying relevant topics
+Organizing blogs following semantic categories
+– Identifying those most interesting to user requests 
+Social network analysis
+Discovering semantic connections
+Entity disambiguation
+Lexicography
+Creating domain specific dictionaries
+Mutual benefit
+-60-
+
+
+===PAGE BREAK===
+
+Engineering
+Introduction
+Corpus-based Semantic Analysis
+Knowledge-based Semantic Analysis
+Applications
+Conclusion
+Overview
+-61-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Conclusion
+Web information is becoming pervasive
+Promised land: Semantic Web
+Extending the Web by assigning information well defined meaning
+Effective data search and automated management
+The value of  information depends on how easy it is to search and manage…
+We are drowning in data, yet we starve of  information!
+Computation of  semantic meaning requires
+Semantic similarity evaluation
+-62-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Conclusion
+Corpus-based
+Knowledge-based
+Semantic Analysis
+Learning in Large 
+corpora
+Ready-made 
+knowledge 
+sources
+Edge-based
+Node-based
+Similarity measures
+Based on node links
+Based on information 
+content statistics
+-63-
+Gloss-based
+Using glosses 
+of concepts
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Conclusion
+Edge-based semantic similarity
+Pro: Intuitive
+Con: Depends on varying link distances
+Node-based semantic similarity
+Pro: Gets round varying link distances 
+Con: Requires corpus-based statistics
+Gloss-based semantic similarity
+Pro: Makes use of additional information in glosses
+Con: Limited use of semantic relations between concepts
+Empirical results usually show that node-based and integrated 
+methods are generally better predictors of semantic similarity
+-64-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Conclusion
+Applications and active research areas
+Information retrieval
+Document and query analysis
+Information extraction
+Text categorization
+Content analysis
+Blog classification and social networks
+Machine translation
+Live translation
+Lexicography
+Dictionary creation
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Conclusion
+Open problems and future directions
+Performance
+Generalization capability
+Dimension of reference knowledge base
+Granularity of senses
+– Automatic Creation of new word senses
+– Automatic Merging of word senses
+• Association rules
+• Lexico-syntactic analysis and parsing
+• Statistical models
+• Learning techniques
+Human language is subject to 
+change and interpretation
+-66-
+
+
+===PAGE BREAK===
+
+Introduction
+Corpus-based
+Knowledge-
+based
+Applications
+Conclusion
+Overview
+Engineering
+Conclusion
+Open problems and future directions
+Automatic knowledge base construction
+For domain specific applications
+Integration between knowledge bases
+Between various domain specific sources
+Domain specific semantic similarity measures
+Unconventional: using Wikipedia, google, flikr, etc.
+-67-
+
+
+===PAGE BREAK===
+
+Engineering
+Thank you!
+Questions …
+joe.tekli@lau.edu.lb
+-68-
+Semantic Similarity Evaluation
+
+
+===PAGE BREAK===
+
+Engineering
+Personal Assignments
+Manipulating the WorldNet lexical library and related tools, available at 
+http://wordnet.princeton.edu/
+Manipulating RDF parsers: 
+Java-based Jena RDF, available at http://jena.apache.org/ 
+C-based Raptor RDF, available at http://librdf.org/raptor/
+Manipulating the Protégé ontology editor tool, available at 
+http://protege.stanford.edu/
+Semantic Similarity Evaluation
+-69-
+
+
+===PAGE BREAK===
+
+Engineering
+Main References
+M. KrishnaSiva Prasad, Poonam Sharma: Similarity of Sentences With 
+Contradiction Using Semantic Similarity Measures. Computing Journal, 65(3): 701-
+717 (2022)
+Jorge Martínez Gil: An overview of textual semantic similarity measures based on 
+web intelligence. Artificial Intelligence Review, 42(4): 935-943 (2014)
+B. Sathiya, T. V. Geetha: A review on semantic similarity measures for ontology. J. 
+Intelligent Fuzzy Systems, 36(4): 3045-3059 (2019)
+Alexander Budanitsky and Graeme Hirst: Evaluating WordNet-based Measures of 
+Lexical Semantic Relatedness. Computational Linguistics 32(1): 13-47, 2006.
+Roberto Navigli: Word sense disambiguation: A survey. ACM Computing Surveys 
+41(2), 2009.
+Various other scientific papers and publications…
+Semantic Similarity Evaluation
+-70-

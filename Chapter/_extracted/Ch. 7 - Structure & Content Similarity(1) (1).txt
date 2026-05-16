@@ -1,0 +1,3314 @@
+Lebanese American University
+www.lau.edu.lb
+www.lau.edu.lb/ece
+School of Engineering
+Department of Electrical &
+Computer Engineering
+Chartered in the State of New York
+Intelligent Data Processing and Applications
+Joe M. TEKLI, PhD
+Computer Software Engineering
+Chapter 7 - Structure and Content Similarity
+COE 543/743
+
+
+===PAGE BREAK===
+
+Engineering
+Chapter Contents
+1. Introduction
+2. Traditional Information Retrieval (IR)
+-      Feature Representation
+-      IR Data Model
+-
+Term Indexing
+-
+Relevance Ranking
+-
+Data Selection Operators
+3. Extending IR Techniques to Semi-structured Data
+-
+Node Indexing
+-
+Base Vector Indexing
+-
+Augmented Vector Indexing
+-
+Single & Multiple Category Retrieval
+-
+Term-in-Context Indexing
+-
+Matrix Model
+4. Underlying Indexing Techniques
+2
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+Semi-structured data similarity is one of the central topics in the Information Retrieval 
+(IR) field
+•
+While TED (Tree Edit Distance)-based  approaches for comparing semi-structured data:
+– Are designed to handle rigorously structured (data-centric) data
+– Are fine-grained, and thus require sophisticated processing and time to execute
+– Main target: data structure
+– Applications: Data warehousing, data integration, and structural 
+clustering/classification
+•
+IR-based methods for comparing semi-structured data:
+– Are designed to handle loosely structured (document-centric) data
+– Are coarse-grained, and thus require less processing time to execute
+– Mainly target: data structure and content
+– Application: ranked querying
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+3
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+Documents with traditional IR consist of free (flat) text
+  Traditional IR methods are not adequate for handling semi-structured data
+•
+Several attempts have been made to extend IR methods
+– Toward semi-structured data processing 
+• Research area titled: Semi-structured IR
+•
+Objectives of this chapter:
+– Describe basic concepts of traditional IR
+– Introduce main semi-structured IR techniques
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+4
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+•
+IR is a branch of informatics that deals with the acquisition, organization, 
+storage, search and retrieval of loosely structured/unstructured information
+•
+In essence, the goal of IR is to efficiently identify/retrieve, in a data collection, 
+information that is relevant w.r.t. the user’s needs 
+•
+The notion of relevance in IR is broad and imprecise
+  Generally concretized by the notion of similarity
+ 
+ - Comparing a user query with a set of documents
+ 
+- Comparing documents together
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+5
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+•
+Comparing IR and DB (Database) technologies
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+IR
+DB
+Loosely 
+structured/unstructured
+Data model
+Rigorously structured
+Natural language 
+(e.g., keywords)
+Query model
+Structured (e.g., SQL)
+Probabilistic
+Search model
+Deterministic
+Approximate (Partial)
+Matching Process
+Exact (total)
+Ranked based on their 
+relevance
+Query results
+Unordered (arbitrary)
+Non-expert
+User expertise
+Proficiency in querying 
+formalism
+Not needed
+User knowledge 
+Need for DB schema
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.1. Feature Representation
+– Free-form text
+• No predefined structure
+• Very difficult to search and manage
+– Semi-structured data
+• Free-form text that is marked up with elements
+• Relatively easier to search and manage
+– Structured data
+• The data is strictly tagged 
+• Easiest to search and manage
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+7
+J. TEKLI – joe.tekli@lau.edu.lb
+XML, JSON, 
+and RDF-based
+e.g., SBML, ProML, 
+CDA, LexRDF, Bio2RDF,
+Formats
+txt, doc, docx, pdf 
+Usually adopted on the Web
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.1. Feature Representation
+– Free-form text
+• n-gram based features: character-based, term-based
+• Word-based features: syntactic, POS, semantic
+– Semi-structured (and structured) text
+• Structure-only: tag-based, edge-based, path-based, tree-based
+• Structure-and-content: augmented vector, context vector
+• Content-only: same as free-form text features
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+8
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.1. Feature Representation
+2.1.1. N-Gram
+– n-gram: a contiguous sequence of n items from a given text
+• 1-gram is a unigram, 2-gram is a bigram, 3-gram is a trigram, etc.
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+9
+J. TEKLI – joe.tekli@lau.edu.lb
+Examples
+Unit
+Sample sequence
+1-gram sequence
+2-gram sequence
+3-gram sequence
+Natural 
+language
+Term-based
+my name is John
+<my, name, is, john> <my name, name is, is John>
+<my name is, name is 
+John>
+Natural 
+language
+Character-based
+my_name_is_John
+<m, y, _, n, a, m, e,
+_, i, s, _, J, o, h, n>
+<my, y_, _n, na, am, me, 
+e_, _i, is, s_, _J, Jo, oh, hn>
+my_, y_n, _na, nam, 
+ame, me_, e_i, _is, is_, 
+s_J, _Jo, Joh, ohn
+Protein 
+sequence
+Amino acid
+(term-based)
+Cys-Gly-Leu-Ser-Trp 
+<Cys, Gly, Leu, Ser, 
+Trp>
+<Cys-Gly, Gly-Leu, Leu-Ser, 
+Ser-Trp>
+<Cys-Gly-Leu, Gly-Leu-
+Ser, Leu-Ser-Trp>
+DNA 
+sequence
+Base pair
+(character-based)
+AGCTTCG
+<A, G, C, T, T, C, G>
+<AG, GC, CT, TT, TC, CG>
+<AGC, GCT, CTT, TTC, 
+TCG>
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.1. Feature Representation
+2.1.1. N-Gram
+– n-gram: a contiguous sequence of n items from a given text
+• 1-gram is a unigram, 2-gram is a bigram, 3-gram is a trigram, etc.
+– n-grams are processed in their original sequence form if order is relevant
+• Or can be represented as un-ordered vectors
+• For instance:
+– 1-gram <A, G, C, T, T, C, G> represented as a vector:
+– 3-gram  <AGC, GCT, CTT, TTC, TCG> 
+ 
+represented as a vector:
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+10
+J. TEKLI – joe.tekli@lau.edu.lb
+A
+G
+C
+T
+1
+2
+2
+2
+AGC
+GCT
+CTT
+TTC
+TCG
+1
+1
+1
+1
+1
+Feature vectors
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.1. Feature Representation
+2.1.2. Word-based - Syntactic
+– Word-based: syntactic
+• Processing words occurrences in a sentence
+– Process: Tokenization, stop-word removal, stemming
+– Example: let’s say we want to encode two sentences
+• S1= A Byblos driver is frequently aggressive
+• S2 = Byblos players frequently shoot from three-points
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+11
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.1. Feature Representation
+2.1.2. Word-based - Syntactic
+Example:
+1. Tokenization: identifying the separate tokens in an input sentence
+• S1= <A, Byblos, driver, is, frequently, a, little, aggressive>
+• S2 = <Byblos, players, frequently, shoot, from, three, points>
+2.  Stop-word removal: removing prepositions and meaningless words, e.g., the, a, of, to, 
+• S1= <A, Byblos, driver, is, frequently, a, little, aggressive>
+• S2 = <Byblos, players, frequently, shoot, from, three, points>
+3.  Stemming: reducing inflected or derived words to their original form (stem)
+• S1= <Byblos, driver, be, frequent, little, aggressive>
+• S2 = <Byblos, player, frequent, shoot, three, point>
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+12
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.1. Feature Representation
+2.1.2 Word-based - Syntactic
+– Word-based: syntactic
+• Sentences are processed in their original sequence form if order is relevant
+– Or can be represented as un-ordered vectors
+• S1= <Byblos, driver, be, frequent, aggressive>
+• S2 = <Byblos, player, frequent, shoot, three, point>
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+13
+J. TEKLI – joe.tekli@lau.edu.lb
+Byblos
+driver
+be
+frequent
+little
+aggressive
+1
+1
+1
+1
+1
+1
+Byblos
+player
+frequent
+shoot
+three
+point
+1
+1
+1
+1
+1
+1
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.1. Feature Representation
+2.1.2 Word-based - POS
+– Word-based: POS (part of speech)
+• It allows to distinguish words based on their grammar groups
+• Such as: nouns (NN), proper nouns (NNP), verbs (VB), adjectives (JJ) , 
+adverbs (RB), and determinants (DT)
+– For instance, considering  S1 = A Byblos driver is frequently aggressive
+– Its POS tagging becomes: A  Byblos  driver  is  frequently  aggressive
+– Usually represented as:  A[DT] Byblos[NNP] driver [NN] is [VBZ] frequently[RB] 
+aggressive[JJ]
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+14
+J. TEKLI – joe.tekli@lau.edu.lb
+DT
+NNP NN
+VBZ
+RB
+JJ
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.1. Feature Representation
+2.1.2 Word-based - POS
+– Word-based: POS (part of speech)
+– A richer representation of a POS tagged sentence is the parse tree
+– Highlighting the grammar structure of the sentence
+       
+             A        Byblos   driver      is     frequently     aggressive
+NP: Noun phrase, VP: verb phrase, JP: Gerund phrase
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+15
+J. TEKLI – joe.tekli@lau.edu.lb
+DT
+NNP
+NN
+VBZ
+RB
+JJ
+NP
+JP
+VP
+S
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.1. Feature Representation
+2.1.2 Word-based - Semantic
+– Word-based: Semantic
+• Allows describing the meanings of words given their semantic definitions and 
+relationships in a reference lexical knowledge base (dictionary, cf. Chapter 8)
+ like WordNet (for general texts) or UMLS (for medical texts)
+– For instance:
+• S1= A Byblos driver is frequently aggressive
+• S2 = Byblos players frequently shoot from three-points
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+16
+J. TEKLI – joe.tekli@lau.edu.lb
+City of Byblos
+Byblos basket ball team
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.1. Feature Representation
+2.1.2 Word-based - Semantic
+– Every word can have multiple possible meanings
+– Word-based semantic representation consists of associating every word with it 
+proper meaning in its textual context
+– Through a process dubbed: word sense disambiguation (cf. Chapter 9)
+• For instance:   A Byblos driver is frequently aggressive
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+17
+J. TEKLI – joe.tekli@lau.edu.lb
+1. City of Byblos
+2. Byblos basket ball team
+1. Operator of a motor vehicle
+2. Someone who drives animals
+3. Golfer
+1. Showing determination
+2. Fast-growing
+3. Belligerent, eager to fight
+4. Computer program
+✓
+✓
+✓
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.2. IR Data Model
+•
+Documents and user queries in IR usually consist of sets of keywords
+•
+Identifying documents that are relevant (similar) to a query comes down to:
+– Comparing the keywords of each document, in the document collection, to those 
+of the query
+– Ranking the documents, w.r.t. their keyword similarities, with the query 
+• Document selection is undertaken using dedicated selection strategies
+– Defining a certain threshold
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+18
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.2. IR Data Model
+•
+Various IR models have been proposed in the literature:
+– Set-theoretic models:
+• Boolean model [1]
+• Fuzzy Retrieval model [2]
+– Algebraic models:
+• Vector Space Model (VSM) [3]
+• Generalized (topic-based) VSM (GVSM) [4]
+• Latent Semantic Indexing (LSI) model [5]
+– Probabilistic models:
+• Probabilistic relevance model [6]
+• Divergence From Randomness (DFR) model [7]
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+We restrict ourselves to VSM
+- Most commonly used
+- High performance
+4/7/2026
+19
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.2. IR Data Model
+•
+Following the Vector Space Model (VSM):
+– A document D and user queries Q are both represented as vectors 
+and    
+• Vector dimensions represent each an indexing unit 
+– An indexing unit stands for a single term
+- A term is a lexical word/expression
+– The coordinate of a given document D in vector       on dimension ti, is noted wD(ti) 
+• It stands for the weight of ti in document D within a document collection
+– The relevance (similarity) of a doc D to a query Q is evaluated as Sim(      ,      )
+• Using a measure of similarity between vectors, e.g., cosine, Pearson correlation, etc.,
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+D
+V
+Q
+V
+D
+V
+D
+V
+Q
+V
+4/7/2026
+20
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.3. Term Indexing
+•
+Weight wD(ti) is usually computed using a TF-IDF score [8]
+– Which considers both document and collection statistics
+• With different mathematical variations
+•
+The TF-IDF score comprises of two factors: 
+– TF: Term Frequency 
+– IDF: Inverse Document Frequency
+• Where: ti is a term, D is a document, and C is the document collection
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+21
+J. TEKLI – joe.tekli@lau.edu.lb
+wD(ti)  =  TF(ti, D)    IDF(ti, C)
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.3. Term Indexing
+•
+The TF (Term Frequency) factor designates the number of times a term ti 
+occurs in document D (document statistics)
+– The underlying idea is that the importance of a given term ti in describing a 
+document D increases with the frequent use of ti in D
+•
+The IDF (Inverse Document Frequency) factor indicates the fraction of 
+documents that contain term ti (collection statistics)
+• The underlying idea is that the importance of a given term ti in describing a 
+document D decreases with the frequent use of ti in the document collection C
+– A term appearing in more documents becomes less distinctive/descriptive of a 
+specific document
+   IDF estimates the rarity of ti in the document collection C
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+22
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.3. Term Indexing
+•
+The TF (Term Frequency) factor designates the number of times a term ti 
+occurs in document D (document statistics)
+– Formally: TF(ti, D) =  FreqD(ti)       [0, |D|]
+•
+The IDF (Inverse Document Frequency) factor indicates the fraction of 
+documents that contain term ti (collection statistics)
+– Formally: IDF(ti, C) =                                    [0,  [
+• Where: N is the number of documents in C, i.e., N = |C|
+                   DF(ti, C) is the number of docs in C containing at least one occurrence of term ti
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+23
+J. TEKLI – joe.tekli@lau.edu.lb
+i
+N
+log DF(t ,C)
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.3. Term Indexing
+•
+Example: Consider documents D1, D2, and D3. Compute TF-IDF vector weights 
+considering the underlined terms as vector dimensions.
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+LAU is an American university located
+in Lebanon. It is one of the leading 
+American universities in Lebanon.
+USJ is a French university founded
+in Lebanon. It is a leading 
+university in Lebanon.  
+LMA: the Lebanese military 
+academy is the only military 
+university in Lebanon.
+D1
+D2
+D3
+D1
+V
+D2
+V
+D3
+V
+LAU
+American
+University
+Leading
+Lebanon
+1    log(3/1)
+2    log(3/1)
+2   log(3/3)
+1   log(3/2)
+2   log(3/3)
+USJ
+French
+University
+Leading
+Lebanon
+1   log(3/1)
+1   log(3/1)
+2    log(3/3)
+1   log(3/2)
+2   log(3/3)
+LAM
+Lebanon
+Military
+Academy
+University
+1   log(3/1)
+2   log(3/3)
+2   log(3/1)
+1   log(3/1)
+1   log(3/3)
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.3. Term Indexing
+•
+Various mathematical formulations exist for TF-IDF computations:
+TF(ti, D) 
+IDF(ti, C)
+Explanation
+FreqD(ti)       [0, |D|]
+  [0,  [
+wD(ti) is of null value when: TF=0 or 
+IDF=0 and increases accordingly
+                       [0, 1]
+                                     0
+wD(ti) is of null value only when TF=0
+(IDF is always >0). Also, TF [0, 1]
+log (TF(ti, D) + 1)     0
+|-log(DF(ti, C)|   [0,  [
+wD(ti) is of null value when: TF=0 and 
+IDF=0, and increases accordingly. Yet,
+TF increases logarithmically
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+wD(ti)  =  TF(ti, D)    IDF(ti, C)
+i
+N
+log DF(t ,C)
+i
+TF(t ,D)
+(TF(D))
+max
+1
+
++
+
+
+
+
+i
+N
+log DF(t ,C)
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.4. Relevance Ranking
+•
+The relevance of a doc D to a query Q is evaluated by computing the similarity 
+between corresponding document vectors
+– Formally: Sim(      ,      )
+• Using a measure of similarity between vectors
+– Cosine
+– Pearson correlation coefficient (PCC)
+– Dice
+– etc.
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+D
+V
+Q
+V
+Refer to Chapter 6
+4/7/2026
+26
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.5. Data Selection Operators
+•
+Term weights reflect the impact of keywords in documents/queries
+– Document/query weight vectors are then compared to evaluate relevance
+ Results (documents) are ranked following their relevance w.r.t. the query
+•
+Two main strategies exist for selecting ranked results
+– Range query operator
+– KNN (K- Nearest Neighbor) operator
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+27
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.5. Data Selection Operators
+•
+Range Query operator:
+– A range query operator θR returns the set of documents {Di} located within a 
+certain range ε from query Q using a distance function d (inverse of similarity)
+• Any user specified document Dj can be used as the range center instead of Q
+– Formally:   (Q, θR, ε) = { Vi / d(Di, Q) ≤ ε / ε ∈ dom(d)}
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+D1
+D2
+D3
+D4
+D5
+D1
+D2
+D3
+D4
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.5. Data Selection Operators
+•
+KNN operator:
+– A K-Nearest Neighborhood (KNN) operator θKNN returns the set of k neighboring 
+documents located nearest to a query Q using a distance function d
+– Formally:     (Q, θKNN, k) = { Di=1…k / d(Di, Q) ≤ d(Di, Dm) }
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+29
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.5. Data Selection Operators
+•
+Combined range and KNN operator:
+– A combined range and KNN operator θR-KNN returns the k nearest neighbors 
+located within a certain range ε from a query Q using a distance function d
+– Formally:     (Q, θR-KNN, ε, k) = { Vi=1…k   /   d(Di, Q) ≤ d(Di, Vm) 
+ 
+ 
+ 
+ 
+                       d(Di, Q) ≤ ε / ε ∈ dom(d)}
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.6. Evaluation
+•
+Every DB-style query exactly defines a set of rows to be retrieved
+– Every row is an exact/complete match of the query: and thus a correct answer 
+ 
+  There is never a bad hit for a DB-style query
+•
+An IR-style query can return bad hits
+– Documents in the hit list only approximately/partially match the query 
+• The query does not provide a complete specification of the user's intention
+– Every query has an implied intention that cannot be described fully in the 
+query and hence is not available to the retrieval engine
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+31
+J. TEKLI – joe.tekli@lau.edu.lb
+In IR, there is no general way to write a better query
+ that returns only relevant documents
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.6. Evaluation
+•
+Need for IR evaluation measures
+– Based on the idea of benefit/cost of a retrieved document to the user
+• A good (relevant) hit has a certain benefit to the user
+• A bad (non-relevant) hit has a certain cost to the user: time spent reading it, cost of 
+getting the document translated, edited, and so on
+•
+Main measures used:
+– Precision: percentage of relevant documents correctly retrieved by the system 
+with respect to all documents retrieved by the system
+– Recall:  percentage of relevant documents correctly retrieved by the system with 
+respect to all documents relevant for the user
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+32
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.6. Evaluation
+•
+More formally:
+•
+Precision:  PR =                             
+•
+Recall:  R = 
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+33
+J. TEKLI – joe.tekli@lau.edu.lb
+Retrieved
+Not Retrieved
+Relevant
+TP (True Positives)
+FN (False Negatives)
+Non-relevant
+FP (False Positives)
+TN (True Negatives)
+Query result visualization
+
+
+  
+ 0,1
+
+TP
+ TP+FP
+
+
+  
+ 0,1
+
+TP
+ TP+FN
+High precision denotes that the search engine 
+achieved high accuracy, selecting documents 
+that are relevant to the query
+High recall means that very few relevant documents 
+were  not retrieved by the search engine
+
+
+===PAGE BREAK===
+
+Engineering
+Retrieved
+Not Retrieved
+Relevant
+2
+2
+Non-relevant
+1
+Don’t care…
+Retrieved
+Not Retrieved
+Relevant
+4
+0
+Non-relevant
+3
+Don’t care…
+2. Traditional IR Techniques
+2.6. Evaluation
+•
+For instance, consider query q producing where the expected result  is {a, b, c, d}
+– If the search engine returns actual results: {a, x, b}
+                Precision:  PR =                           Recall:  R = 
+– If the search engine returns actual results: {a, x, y, z, b, c, d}
+                Precision:  PR =                           Recall:  R =     =1
+– If the search engine returns actual results: {a}
+                Precision:  PR =     =1                 Recall:  R = 
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+2
+ 
+3
+2
+ 
+4
+4
+ 
+7
+4
+ 
+4
+Retrieved
+Not Retrieved
+Relevant
+1
+3
+Non-relevant
+0
+Don’t care…
+1
+ 
+1
+1
+ 
+4
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.6. Evaluation
+•
+Trying to increase recall typically introduces more bad hits into the hit list
+–
+Thereby reducing precision (i.e., moving to the right along the PR-R curve)
+•
+Trying to increase precision removes some good hits from the hit list
+– Thereby reducing recall (i.e., moving left along the PR-R curve)
+•
+Goal of a retrieval engine:  to increase both precision and recall 
+•
+In addition to comparing precision and recall, it is a common practice to consider 
+the F-value measure, as the harmonic mean of precision and recall:
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+
+
+    
+0,1
+
+
+
+2 PR R
+ F- value  = PR+R
+High/low F-value means high/low retrieval quality
+4/7/2026
+35
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.6. Evaluation
+•
+Precision-Recall graph:
+– Evaluating the ranking of relevant results w.r.t. non-relevant ones in the query 
+result list
+– Depicting the degradation of precision at n 
+ 
+as one traverses the hit list by plotting 
+ 
+interpolated precision numbers 
+ 
+against percentage recall
+• A percentage recall of say 50% 
+ 
+is the position in the hit list at 
+ 
+which 50% of the relevant 
+ 
+documents in the collection 
+ 
+(i.e., 0.5 * R) have been retrieved
+It is a measure of the number of hits you have to read 
+before you see a certain percentage of relevant documents
+4/7/2026
+36
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.6. Evaluation
+•
+Example: Consider a certain query Q applied on a given dataset C = {a, b, c, d, x, y} , 
+where the query’s expected results = {a, b, c, d}.
+Consider three different search engines producing the below search results:
+•
+Generated ResultsSys1= < a,    b,   x,    c,   y,     d >   PR= 4/6   R = 4/4=1  
+•
+Generated ResultsSys2= < x,    y,    a,    b,   c,    d >   PR = 4/6  R =4/4=1 
+•
+Generated ResultsSys3= < a,    b,   c,    d,   x,     y >   PR = 4/6  R =4/4=1 
+Recall
+Precision
+0
+1
+1
+0
+Sys1
+Sys2
+Recall
+Precision
+0
+1
+1
+0
+Sys3
+Recall
+Precision
+0
+1
+1
+0
+4/7/2026
+37
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.6. Evaluation
+•
+For instance, consider query q producing where the expected result  is <a, b, c, d>
+–
+Here, we take into account the order of the elements in the hit list
+– If the search engine returns actual results: <a, x, b>
+At hit #1:  PR = 1                          Recall:  R = 0.25
+At hit #2:  PR =  0.5                      Recall:  R = 0.25
+At hit #3:  PR = 0.667                  Recall:  R = 0.5
+–
+If the search engine returns actual results: {a, x, y, z, b, c, d}
+              At hit #1:  PR =  1                         Recall:  R = 0.25
+At hit #2:  PR =   0.5                     Recall:  R = 0.25
+…
+At hit #7:  PR =  0.571                 Recall:  R = 1
+4/7/2026
+38
+J. TEKLI – joe.tekli@lau.edu.lb
+PR
+R
+1
+0
+0
+1
+0.25
+0.5
+0.667
+0.5
+PR
+R
+1
+0
+0
+1
+0.25
+0.5
+0.571
+0.5
+0.334
+0.25
+0.75
+The best precision-recall graph curve moves
+ up and out to the right so that both recall and 
+precision are higher at every point along the curve
+
+
+===PAGE BREAK===
+
+Engineering
+2. Traditional IR Techniques
+2.6. Evaluation
+•
+Mean Average Precision (MAP): a single measure to evaluate the ranking of relevant 
+results w.r.t. non-relevant ones in the query result list
+•
+Instead of analyzing PR/R graphs
+–
+n be the number of query hits, and PR[j] is precision at hit j 
+–
+rel[j] is equal to 1 if the jth data point in the result list is relevant and 0 otherwise
+–
+N = TP+FN is the total number of relevant data points in the data collection
+•
+MAP = 1 when the system retrieves all relevant data points (recall=1) and ranks 
+them perfectly: 
+•
+All of them appearing before non-relevant data points in the query list (PR at Nth hit =1)
+• It decreases as more non-relevant data points are introduced before relevant ones 
+in the result list
+1..
+(
+[ ]
+[ ])
+   
+j
+n
+j
+rel j
+=
+
+=
+
+
+[0,1
+N
+]
+PR
+MAP
+4/7/2026
+39
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+•
+Documents are flat (unstructured) with conventional information retrieval
+ Traditional IR methods are not adequate with semi-structured data
+•
+Motivation 1: 
+– Semi-structured content is distributed at different structural levels of the 
+document tree 
+• Information placed near the root node of an XML document tends to be more 
+important than information further down in the hierarchy
+• Intuitively, as one descends in the document tree hierarchy
+– Information becomes increasingly specific, consisting of finer and finer details
+– Its effect on the meaning of the whole document tree decreases accordingly
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+40
+J. TEKLI – joe.tekli@lau.edu.lb
+This is orthogonal to traditional flat documents where info
+ is placed at one single level and is of the same relevance
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+41
+J. TEKLI – joe.tekli@lau.edu.lb
+Example: 
+Student
+Faculty
+Laboratory
+Mark
+Cramer
+Student
+Professor
+John
+Cramer
+John
+Takagi
+Document tree D1
+TF weights
+With traditional IR:
+D1
+V
+LAU
+University
+ECE
+Department
+LAU
+ECE
+John
+Cramer
+Takagi
+Mark
+1
+1
+2
+2
+1
+1
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+•
+Documents are flat (unstructured) with conventional information retrieval
+ Traditional IR methods are not adequate with semi-structured data
+•
+Motivation 2: 
+– Users in turn would like to refer to document structure when searching for 
+relevant information in semi-structured documents
+• They pose so called content-and-structure queries, in comparison with the 
+content-only queries in conventional IR
+– By restricting the context of interest to some elements in the documents 
+being searched
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+42
+J. TEKLI – joe.tekli@lau.edu.lb
+Extending IR methods to account for the structure of 
+Semi-structuted documents in the similarity/comparison process
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.1. Indexing Nodes
+•
+A semi-structured document is generally processed as a number of indexing 
+nodes [9]
+– Atomic units in the document, i.e., elements (attributes), which encompass disjoint 
+sub-trees
+• Each indexing node underlines a distinct indexing context
+– Such that TF-IDF weights can be computed locally, instead of being 
+evaluated w.r.t. to the whole document
+– The weights would then be augmented, down-weighting the TF-IDF scores 
+when the terms are propagated upwards in the document tree
+ Thus taking into account the hierarchical aspect of semi-structured data
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+43
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.1. Indexing Nodes
+•
+How to identify indexing nodes?
+1. Automatically by the system, following some criteria
+• For instance, all leaf nodes (or all element nodes containing data values) could be 
+considered indexing nodes
+2. By the user (administrator), following a dedicated grammar definition (in which 
+indexing nodes are designated) corresponding to the semi-structured document
+• E.g., hypothetical DTD element declaration <!ELEMENT Professor (#INDEX)> could 
+designate that Professor elements in the document are indexing nodes
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+44
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.1. Indexing Nodes
+•
+Base vectors: vectors associated to each of the indexing nodes
+– Vector dimensions: represent the indexing units of the vector
+– Indexing units: are the distinct terms in the node’s textual value
+– Weights: represent the TF-IEF scores of terms within the node’s textual value
+ 
+ 
+Formally:
+ 
+    - Where: E is an element corresponding to an index node in document tree D
+             
+              TF(ti, E) =  FreqE(ti)       [0, |E|]           // |E| is the number of terms in E’s textual content
+               
+               IEF(ti, D) =                            [0,  [      // Inverse Element Frequency
+        
+        - Where: N is the number of indexing nodes in D, i.e., N = |D|
+                   EF(ti, D) is the number of indexing node elements in D containing ti
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+wE(ti)  =  TF(ti, E)    IEF(ti, D)
+i
+N
+log EF(t ,D)
+Other adapted TF-IEF formulas can be used (cf. Section 2.2) 
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Example: Consider indexing nodes to be:
+    
+    - All element nodes containing values
+Student
+Faculty
+Laboratory
+Mark
+Cramer
+Student
+Professor
+John
+Cramer
+John
+Takagi
+Document tree D1
+Uni
+V
+LAU
+University
+ECE
+Department
+LAU
+ECE
+John
+Cramer
+Takagi
+Mark
+1
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+1
+1
+0
+0
+0
+0
+1
+0
+1
+0
+0
+0
+0
+1
+0
+1
+Dept
+V
+Prof
+V
+Stud1
+V
+Stud2
+V
+We use TF-only weights
+in the following 
+examples for ease 
+of  presentation
+All base vector dimensions:
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Example: Indexing nodes
+    
+    - All element nodes containing values
+Student
+Faculty
+Laboratory
+Mark
+Cramer
+Student
+Professor
+John
+Cramer
+John
+Takagi
+Document tree D1
+Uni
+V
+LAU
+University
+ECE
+Department
+LAU
+ECE
+John
+Cramer
+Takagi
+Mark
+1  log(5/1)
+0
+0
+0
+0
+0
+0
+1 log(5/1)
+0
+0
+0
+0
+0
+0
+1 log(5/2)
+1 log(5/2)
+0
+0
+0
+0
+1 log(5/2)
+0
+1 log(5/1)
+0
+0
+0
+0
+1 log(5/2)
+0
+1 log(5/1)
+Dept
+V
+Prof
+V
+Stud1
+V
+Stud2
+V
+Combining TF and IEF 
+weights
+All base vector dimensions:
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.2. Augmented Vectors
+•
+Augmented vectors are computed for the ancestors of indexing nodes
+– By down-weighting the TF-IEF scores when the terms are propagated upwards in 
+the document tree
+            Thus taking into account the hierarchical aspect of semi-structured data
+•
+Main premise: The larger the distance between a node and its ancestor, the lesser the 
+node contributes to the relevance of its ancestor’s content
+•
+Practically, we associate structural weights to node edges: i
+j 
+–
+i
+j   is the structural weight of the edge linking nodes Ei and Ej
+- Can be defined randomly/automatically by the system, following some criteria
+   (e.g., following the semantic similarity of node labels)
+       - Or can be chosen by domain experts
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+i
+j  is usually defined as the inverse of a distance
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.2. Augmented Vectors
+•
+Computing augmented vector weights:
+•
+Given i
+j  [0, 1] representing a similarity (inverse of distance) function
+–
+We can define the weight of an element E in the augmented vector:
+ 
+        
+      
+        - where                underlines the product of structural weights of all edges  Path(Ei, Ej)
+       
+                       Ej is an indexing node, and Ei one of its ancestor element nodes 
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+49
+J. TEKLI – joe.tekli@lau.edu.lb
+ 
+
+i
+i
+j
+r
+i
+E
+r
+j
+r
+Path(E , E )
+t
+×
+w (t )
+(w )
+ w (t ) 
+π
+=
+j
+E
+ 
+i
+j
+i
+j
+Path(E , E )
+(w )
+π
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Example: Augmented vectors
+    
+    - Considering structural weights
+Student
+Faculty
+Laboratory
+Mark
+Cramer
+Student
+Professor
+John
+Cramer
+John
+Takagi
+Document tree D1
+Uni
+V
+LAU
+University
+ECE
+Department
+LAU
+ECE
+John
+Cramer
+Takagi
+Mark
+0
+0
+0
+wCramer
+2  0.4
+0
+wMark  0.4
+0
+wECE
+wJohn1  0.6
++ wjohn2  0.5 
+wCramer1  0.6
+wTakagi  0.5
+0
+0
+wECE  0.4
+wJohn1  0.6  0.4
++ wjohn2  0.5  0.4 
+wCramer1  0.6  0.4
++ wCramer2  0.4  0.7
+wTakagi  0.5  
+0.4
+wMark  0.4  0.7
+wLAU
+wECE  0.4  0.3 
+wJohn1  0.6  0.4  0.3
++  wJohn2  0.5  0.4  0.3  
+wCramer1  0.6  0.4  0.3
++ wCramer2
+  0.4  0.7  0.3 
+wTakagi  0.5  
+0.4  0.3 
+wMark  0.4  0.7 
+ 0.3
+Fac
+V
+Considering the
+ base vectors
+computed in the
+ previous slides, 
+with base TF-IEF 
+Weights: wE
+0.3
+0.4
+0.5
+0.6
+0.4
+Lab
+V
+0.7
+Dept
+V
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.3. Single/Multi-category Weighting
+•
+Users may want to refer to a given part (category) of the semi-structured document
+– Requesting only content that is relevant to that category
+Single category retrieval
+       - The category is a sub-tree rooted at a certain document tree node
+•
+Example: The user is interested in students who only work in laboratories
+– Thus, only the contents of nodes Student corresponding to category Laboratory 
+should be considered when computing term statistics
+• The score for term “Cramer” – corresponding to student Mark Cramer – should not be 
+affected by occurrences of “Cramer” in elements outside the category Laboratory
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+51
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.3. Single/Multi-category Weighting
+•
+Users may request information from several categories
+– Or they do not care to which category the requested content belongs
+Multi-category retrieval 
+•
+Example: The user is interested in all students 
+– Terms statistics should be computed taking into account all categories
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+52
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.3. Single/Multi-category Weighting
+•
+Solution: Pre-compute weights for indexing nodes 
+– Then derive augmented weights on-the-fly, i.e. at query runtime [10]
+• Taking into account user preferences/query scope
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+53
+J. TEKLI – joe.tekli@lau.edu.lb
+Flexible retrieval
+- Augmented vectors are generated on-the-fly 
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.3. Single/Multi-category Weighting
+•
+Single category augmented weights:
+– Formally: 
+ 
+          - where IEFCat(ti, D) = 
+•
+Multi-category augmented weights:
+– Formally: 
+ 
+          
+         - where IEFMCat(ti, D) = 
+Considering all categories comes down to computing typical TF-IEF weights
+- Considering all indexing nodes in the document as a whole
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+wE(ti)  =  TF(ti, E)    IEFCat(ti, D)
+  
+
+
+
+
+Cat
+Cat
+i
+N
+log 
+EF (t ,C)
+Cat
+M
+Cat  M
+wE(ti)  =  TF(ti, E)    IEFMCat(ti, D)
+Cat
+Cat
+i
+N
+log EF (t ,C)
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Example: Single category
+    
+Student
+Faculty
+Laboratory
+Mark
+Cramer
+Student
+Professor
+John
+Cramer
+John
+Takagi
+Document tree D1
+LAU
+University
+ECE
+Department
+User is interested 
+in professors and students
+in academic departments:
+
+Category: sub-tree 
+rooted at Department
+0.3
+0.4
+0.5
+0.6
+0.4
+Prof
+V
+0.7
+John
+Cramer
+Takagi
+1  log(3/2)
+1  log(3/1)
+0
+1  log(3/2)
+0
+1  log(3/1)
+1
+Stud
+V
+Base vectors:
+NOTE: If only leaf nodes were considered as indexing nodes
+               Term “John” would have been useless in indexing nodes of category Department
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Example: Multi-category
+    
+Student
+Faculty
+Laboratory
+Mark
+Cramer
+Student
+Professor
+John
+Cramer
+John
+Takagi
+Document tree D1
+LAU
+University
+ECE
+Department
+User is interested 
+In professors and students
+in departments
+ and laboratories
+
+Categories: sub-trees 
+rooted at Department
+and Laboratory
+0.3
+0.4
+0.5
+0.6
+0.4
+Prof
+V
+0.7
+John
+Cramer
+Takagi
+Mark
+1  log(4/2)
+1  log(4/2)
+0
+0
+1  log(4/2)
+0
+1  log(4/1)
+0
+0
+1  log(4/2)
+0
+1  log(4/1)
+1
+Stud
+V
+Base vectors:
+2
+Stud
+V
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.4. Term Context Model
+•
+Extending the vector space model by:
+•
+Replacing the basic indexing units, i.e. terms ti, by pairs of the form (ti, ci) 
+•
+Where each term ti is qualified by the context ci in which it appears [11]
+•
+The context ci of appearance of a term ti is the root path of ti 
+•
+Path for navigating the hierarchical structure of the document from the reference 
+(root) node to the node in which term ti occurs
+•
+Weights are computed for each (ti, ci) pair, of the form wD(ti, ci) 
+–
+Performing TF-IDF computations accordingly 
+Processing is done at the document level
+ 
+- Not at the element level, in contrast with previous semi-structured approaches
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+57
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Example: Term context model
+    
+Student
+Department
+Cramer
+Takagi
+Student
+Professor
+John
+Cramer
+John
+Takagi
+Department
+(John, Dept/Prof)
+(Cramer, Dept/Prof)
+(John, Dept/Stud)
+(Takagi, Dept/Stud)
+(Cramer, Dept/Stud)
+1  log(2/1)
+1  log(2/1)
+1  log(2/1)
+1  log(2/2)
+0
+0
+0
+0
+1  log(2/2)
+1  log(2/1)
+D2
+V
+D1
+V
+Consider two document trees:
+D1
+D2
+4/7/2026
+58
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.4. Term Context Model
+•
+In addition to the term/context representation
+– The authors extend the term/context weighting scheme 
+• By accounting not only for exact term in context matching
+• But also for context resemblance
+– Where SimED(ci, cj) measures the similarity between context paths ci and cj
+• Computed based on string edit distance  (ED, cf. Ch. 3)
+– Where paths ci and cj are represented as strings of node labels
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+(
+)
+( ,
+)
+i
+j
+t c
+D
+
+
+=
+i
+i
+i
+i
+D
+i
+j
+ED
+i
+j
+ w(t , c ) = 0
+w(t , c )
+w (t , c )×Sim (c , c )
+extended 
+,  
+Max
+4/7/2026
+59
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Example: Term context model
+    
+Student
+Department
+John
+Takagi
+Student
+Professor
+John
+Cramer
+John
+Takagi
+Department
+Consider three document trees:
+D1
+D2
+D3
+Dud
+(John, Dept/Prof)
+(Cramer, Dept/Prof)
+(John, Dept/Stud)
+(Takagi, Dept/Stud)
+1  log(3/1)
+1  log(3/1)
+1  log(3/2)
+1  log(3/2)
+D1
+V
+(John, Dept/Stud)
+(Takagi, Dept/Stud)
+1  log(3/2)
+1  log(3/2)
+D2
+V
+(dummy, Dud)
+1  log(3/1)
+dummy
+D3
+V
+Only added to obtain
+ non-null IDF scores
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+(John, Dept/Prof)
+(Cramer, Dept/Prof)
+(John, Dept/Stud)
+(Takagi, Dept/Stud)
+1  log(3/1)
+1  log(3/1)
+1  log(3/2)
+1  log(3/2)
+0
+0
+1  log(3/2)
+1  log(3/2)
+D2
+V
+D1
+V
+  
+ 
+=
+ED
+i
+k
+i
+k
+1
+Sim (c ,c )
+ 
+1+ED(c ,c )
+Given  
+using (Wagner-Fisher, 1974)’s ED algorithm
+to compare contexts represented as strings
+When comparing         and        :
+D1
+V
+D2
+V
+Considering term: ti = John  in context ci = Dept/Prof:
+For instance: ED(Dept/Prof, Dept/Stud) = 1, the cost of updating Prof into Stud
+     
+ SimED(Dept/Prof, Dept/) = 0.5  
+(
+)
+(
+)
+(
+)
+( ,
+)
+( ,
+)
+             = 
+ 
+i
+j
+i
+j
+t c
+D
+t c
+D
+
+
+=
+
+
+=
+
+
+
+
+
+
+i
+i
+D
+i
+j
+ED
+i
+j
+ED
+ED
+w(t , c )
+w (t , c )× Sim (c , c )
+0× Sim (
+,  
+)  
+log(3/2)× 0.5
+log(3/2)× Sim (
+,  
+)
+Dept/Prof Dept/Prof
+,
+Dept/Prof Dept/Stud
+Max
+Max
+Updating weights of      : 
+D2
+V
+No need to update weights of       since all weights are  0 
+D1
+V
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+Considering term: ti = Cramer  in context Dept/Prof:
+Updating weights of      : 
+D2
+V
+(
+)
+(
+)
+( ,
+)
+i
+j
+t c
+D
+
+=
+=
+i
+i
+ED
+w(t , c )
+0×Sim (
+,  
+)
+0
+Dept/Prof Dept/Prof
+Max
+(John, Dept/Prof)
+(Cramer, Dept/Prof)
+(John, Dept/Stud)
+(Takagi, Dept/Stud)
+1  log(3/1)
+1  log(3/1)
+1  log(3/2)
+1  log(3/2)
+0
+0
+1  log(3/2)
+1  log(3/2)
+D2
+V
+D1
+V
+When comparing         and        :
+D1
+V
+D2
+V
+(John, Dept/Prof)
+(Cramer, Dept/Prof)
+(John, Dept/Stud)
+(Takagi, Dept/Stud)
+1  log(3/1)
+1  log(3/1)
+1  log(3/2)
+1  log(3/2)
+log(3/2)  0.5
+0
+1  log(3/2)
+1  log(3/2)
+D2
+V
+D1
+V
+Updated vectors:
+4/7/2026
+62
+J. TEKLI – joe.tekli@lau.edu.lb
+- No need to update remaining weights since they have non-null values 
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+ 
+ 
+|
+|
+|
+|
++
+=
+
+2
+ECosine
+D1
+D2
+D1
+D2
+log(3)×log(3 / 2)× 0.5
+2×log(3 / 2)
+Sim
+(V ,V )
+V
+V
+(John, Dept/Prof)
+(Cramer, Dept/Prof)
+(John, Dept/Stud)
+(Takagi, Dept/Stud)
+1  log(3/1)
+1  log(3/1)
+1  log(3/2)
+1  log(3/2)
+log(3/2)  0.5
+0
+1  log(3/2)
+1  log(3/2)
+D2
+V
+D1
+V
+Student
+Department
+John
+Takagi
+Student
+Professor
+John
+Cramer
+John
+Takagi
+Department
+D1
+D2
+D3
+Dud
+dummy
+Only added to obtain
+ non-null IDF scores
+As a result:
+Yet, traditional cosine would have produced: 
+ 
+ 
+|
+|
+|
+|
+=
+
+2
+ECosine
+D1
+D2
+D1
+D2
+2×log(3 / 2)
+Sim
+(V ,V )
+V
+V
+ Missing inter-context similarities with term John
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.5. Matrix Model
+•
+Extending/transforming term/context vector representation model
+– To matrix representation model [12]
+•
+In the vector space model, a weight wD(ti) is expressed by a real number (e.g. TF-IDF 
+score) specifying the distribution of a term ti for the entire document
+– In the matrix model, the weight of a term is expressed by a vector 
+• Reflecting the distribution of the term ti in the document paths
+– W.r.t. to each path occurring in the document collection
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+D
+i
+w (t )
+4/7/2026
+64
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Example: Matrix representation model
+    
+Student
+Department
+John
+Takagi
+Student
+Professor
+John
+Cramer
+John
+Takagi
+Department
+D1
+D2
+john
+Cramer
+Takagi
+Dept/Prof
+1  log(3/1)
+1  log(3/1)
+0
+Dept/Stud
+1  log(3/2)
+0
+1  log(3/2)
+D1
+M
+D3
+Dud
+dummy
+Only added to obtain
+ non-null IDF scores
+John
+Takagi
+Dept/Stud
+1  log(3/2)
+1  log(3/2)
+D2
+M
+D1
+w (
+)
+John
+D1
+w (
+)
+Cramer
+D1
+w (
+)
+Takagi
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+3.5. Matrix Model
+•
+Comparing two documents comes down to 
+•
+Comparing corresponding matrices
+• Using matrix similarity measures, e.g., extended cosine matrix similarity
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+66
+J. TEKLI – joe.tekli@lau.edu.lb
+1...
+1...
+1...
+1...
+1...
+1...
+1...
+1...
+ 
+|
+|
+|
+|
+                            =
+      
+[-1, 1]
+i
+U j
+V
+i
+U j
+V
+i
+N j
+V
+i
+N j
+V
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+
+
+
+
+
+
+Q
+i
+j
+D
+i
+j
+Cosine
+Q
+D
+Q
+D
+Q
+i
+j
+D
+i
+j
+2
+2
+Q
+i
+j
+D
+i
+j
+w (t , p )× w (t , p )
+Sim
+(M ,M )
+M
+M
+w (t , p )× w (t , p )
+w (t , p )
+w (t , p )
+
+
+===PAGE BREAK===
+
+Engineering
+3. Extending IR Techniques to Semi-structured Data
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Example: 
+    
+john
+Cramer
+Takagi
+1  log(3/1)
+1  log(3/1)
+0
+Dept/Prof
+1  log(3/2)
+0
+1  log(3/2)
+Dept/Stud
+D1
+M
+john
+Cramer
+Takagi
+0
+0
+0
+Dept/Prof
+1  log(3/2)
+0
+1  log(3/2)
+Dept/Stud
+D2
+M
+ 
+ = 
+[-1, 1]
+|
+|
+|
+|
+|
+|
+|
+|
+=
+
+
+
+2
+Cosine
+D1
+D2
+Q
+D
+Q
+D
+log(3 / 2)×log(3 / 2)+log(3 / 2)×log(3 / 2)
+2×log(3 / 2)
+Sim
+(M ,M )
+M
+M
+M
+M
+4/7/2026
+67
+J. TEKLI – joe.tekli@lau.edu.lb
+ Comes down to the same result obtained with term/content model
+        - When using traditional cosine vector similarity measure 
+
+
+===PAGE BREAK===
+
+Engineering
+4. Underlying Indexing Techniques
+•
+Processing keyword-based queries is a fundamental problem in IR 
+– Main premise of keyword-based querying:
+1. The user issues a keyword query containing a bunch of terms
+2. Then, documents containing the query terms are retrieved
+• Ranked following their relevance (similarity) w.r.t. the query
+•
+The brute force approach is to sequentially scan documents
+– Searching for terms that map to the query keywords
+• Problem: Very inefficient for big document collections
+•
+Solution: Use some sort of indexing to speed up the search process
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+68
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Underlying Indexing Techniques
+•
+The foremost index structure used with text search is: inverted index
+– Associating terms in text with a list of pointers to the documents containing the 
+terms: a list of (term, docIDs[])
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+69
+J. TEKLI – joe.tekli@lau.edu.lb
+ID
+Textual description (in IR/vector representation)
+D1
+When a Stranger Calls (2006): A young high school 
+student babysits for a very rich family with a car…
+D2
+Days of Thunder (1990): Cole Trickle is a young 
+racer from California with years of experience in 
+open-wheel racing winning championships in 
+Sprint car racing…
+D3
+Sound of Music, The (1965): Maria had longed to 
+be a nun since she was a young girl…
+…
+…
+Term
+Doc IDs
+Car
+D1, D2
+Call
+D1
+Day
+D2
+Sound
+D3
+Music
+D3
+…
+…
+Inverted index
+
+
+===PAGE BREAK===
+
+Engineering
+4. Underlying Indexing Techniques
+•
+The inverted index is queried with every term within the user query
+– Identifying documents that contain the query terms in one search
+• Using either intersection (contains all terms) or union (contains any term) operators 
+•
+For instance, given keyword query q = "sound of music”
+– The index would return document  D3 as a an answer
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+ID
+Textual description (in IR/vector representation)
+D1
+When a Stranger Calls (2006): A young high school 
+student babysits for a very rich family with a car…
+D2
+Days of Thunder (1990): Cole Trickle is a young 
+racer from California with years of experience in 
+open-wheel racing winning championships in 
+Sprint car racing…
+D3
+Sound of Music, The (1965): Maria had longed to 
+be a nun since she was a young girl…
+…
+…
+Term
+Doc IDs
+Car
+D1, D2
+Call
+D1
+Day
+D2
+Sound
+D3
+Music
+D3
+…
+…
+70
+
+
+===PAGE BREAK===
+
+Engineering
+4. Underlying Indexing Techniques
+•
+The inverted index can be augmented to include term weights 
+•
+The index structure is straightforwardly extended to include, with each docID, the 
+corresponding term weight: (term, docIDs_termWeights[])
+• For instance, wD1(“car”)  =  TF(ti, D1)    IDF(ti, C) = 1  log(3/2) = log(3/2)
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+ID
+Textual description (in IR/vector representation)
+D1
+When a Stranger Calls (2006): A young high school 
+student babysits for a very rich family with a car…
+D2
+Days of Thunder (1990): Cole Trickle is a young 
+racer from California with years of experience in 
+open-wheel racing winning championships in 
+Sprint car racing…
+D3
+Sound of Music, The (1965): Maria had longed to 
+be a nun since she was a young girl…
+…
+…
+Term
+DocIDs_Term
+Weights
+Car
+(D1, log(3/2), 
+(D2, log(3/2)
+Call
+(D1, log(3/1)
+Day
+(D2, log(3/1)
+Sound
+(D3, log(3/1)
+Music
+(D3, log(3/1)
+…
+…
+
+
+===PAGE BREAK===
+
+Engineering
+4. Underlying Indexing Techniques
+•
+The inverted index can be augmented to include term weights 
+•
+As a result, queries can be executed using similarity-based operators
+•
+For instance, given keyword query q = “Sound of music”
+•
+SimCos(q, D3)       >      both SimCos(q, D1) = SimCos(q, D2) = 0
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Car
+Call
+Day
+Sound
+Music
+D1
+Log(3/2)
+Log(1/2)
+0
+0
+0
+D2
+Log(3/2)
+0
+Log(3/1)
+0
+0
+D3
+0
+0
+0
+Log(3/1)
+Log(3/1)
+Car
+Call
+Day
+Sound
+Music
+q
+0
+0
+0
+1
+1
+Term
+DocIDs_TermWeights
+Car
+(D1, log(3/2), (D2, 
+log(3/2)
+Call
+(D1, log(3/1)
+Day
+(D2, log(3/1)
+Sound
+(D3, log(3/1)
+Music
+(D3, log(3/1)
+…
+…
+
+
+===PAGE BREAK===
+
+Engineering
+4. Underlying Indexing Techniques
+•
+The inverted index can be augmented to include term weights 
+•
+As a result, queries can be executed using similarity-based operators
+•
+For instance, given keyword query q2 = “Call for car”
+•
+SimCos(q2, D1) 
+>     SimCos(q2, D2)      >     SimCos(q2, D3)=0
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Term
+DocIDs_TermWeights
+Car
+(D1, log(3/2), (D2, 
+log(3/2)
+Call
+(D1, log(3/1)
+Day
+(D2, log(3/1)
+Sound
+(D3, log(3/1)
+Music
+(D3, log(3/1)
+…
+…
+Car
+Call
+Day
+Sound
+Music
+D1
+Log(3/2)
+Log(1/2)
+0
+0
+0
+D2
+Log(3/2)
+0
+Log(3/1)
+0
+0
+D3
+0
+0
+Log(3/1)
+Log(3/1)
+Car
+Call
+Day
+Sound
+Music
+q2
+1
+1
+0
+0
+0
+
+
+===PAGE BREAK===
+
+Engineering
+4. Underlying Indexing Techniques
+Extending inverted index model to consider multi-attribute data records
+– Collection of data organized as a set of data records (e.g., a table in RDBs)
+• Each data record consists of a set of values for a set of attributes
+– Extended inverted indexes to process multi-attribute records:
+ 
+ 1. List of (term, (recordID, attribute)[])
+        2. List of ((term, attribute), recordID[])
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+ID
+Title
+Date
+Plot
+O1
+When a Stranger Calls
+2006
+A young high school student babysits for a 
+very rich family…
+O2
+Days of Thunder
+1990
+Cole Trickle is a young racer from California 
+with years of experience…
+O3
+Sound of Music, The
+1965
+Maria had longed to be a nun since she was a 
+young girl, yet when…
+…
+…
+
+
+===PAGE BREAK===
+
+Engineering
+4. Underlying Indexing Techniques
+Index 2: ((term, attribute), recordID[])
+Index 1: (term, (recordID, att)[])
+Term
+(RecordID, Attribute) []
+“Car”
+(D1, Plot), (D2, Plot)
+“Zen”
+(D1, Plot)
+“Light”
+(D1, Plot)
+“Sound
+”
+(D1, Plot), (D3, Title), 
+(D3, Plot), 
+…
+…
+ID
+Title
+Date
+Plot
+D1
+When a Stranger Calls
+2006
+A young high school student babysits for a 
+very rich family…
+D2
+Days of Thunder
+1990
+Cole Trickle is a young racer from California 
+with years of experience…
+D3
+Sound of Music, The
+1965
+Maria had longed to be a nun since she was a 
+young girl, yet when…
+…
+…
+(term, attribute)
+recordID[]
+(“Car”, Title)
+-
+(“Car”, Plot) 
+D1, D2
+(“Sound”, Title)
+D3
+(“Sound”, Plot)
+D1, D3
+…
+…
+4/7/2026
+75
+J. TEKLI – joe.tekli@lau.edu.lb
+Multi-attribute text data collection
+
+
+===PAGE BREAK===
+
+Engineering
+4. Underlying Indexing Techniques
+Extending inverted index model to consider semi-structured data
+– Same models adopted with multi-attribute records
+• Replacing attributes with element identifiers:
+ 
+            1. List of (term, (docID, elementID)[])
+                 2. List of ((term, elementID), docID[])
+• Element can be identified in different ways, e.g.:
+– Root paths contexts
+– Dewey numbers
+– Pre/post-order numbers
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Student
+Professor
+FN
+LN
+FN
+LN
+Department
+0.0.0
+0.1.1
+0.0
+0
+0.0.1
+0.1
+0.1.0
+4/7/2026
+76
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Underlying Indexing Techniques
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Index 2: ((term, eleID), docID[])
+Index 1: (term, (docID, eleID)[])
+Term
+(docID, EleID) []
+“John”
+(D1, 0.0), (D1, 0.1), (D2, 0.0)
+“Cramer”
+(D1, 0.0)
+“Takagi”
+(D1, 0.1), (D2, 0.0)
+(term, eleID)
+docID[]
+(“John”, Dept/Prof)
+D1
+(“John”, Dept/Stud)
+D1, D2
+(“Cramer”, Dept/Prof) 
+D1
+(“Takagi”, Dept/Stud)
+D1, D2
+Student
+Department
+John
+Takagi
+D1
+D2
+Student
+Professor
+Department
+0.0
+0
+0.1
+0.0
+0
+John
+Cramer
+John
+Takagi
+Using Dewey numbers for eleIDs
+Using root paths for eleIDs
+
+
+===PAGE BREAK===
+
+Engineering
+4. Underlying Indexing Techniques
+In addition, the inverted index itself is indexed using typical techniques
+E.g., Binary tree, B-Tree,  B+ tree, 2-3 tree, etc.
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Inverted Index: (term, (docID, eleID)[])
+Term
+(docID, EleID) []
+“Cramer”
+(D1, 0.0)
+“John”
+(D1, 0.0), (D1, 0.1), (D2, 0.0)
+“Takagi”
+(D1, 0.1), (D2, 0.0)
+Using Dewey numbers for eleIDs
+Binary tree index
+IR (VSM)
+Model
+4/7/2026
+78
+J. TEKLI – joe.tekli@lau.edu.lb
+John
+Cran
+Tako
+Cramer
+Crank
+Takagi
+Takos
+
+
+===PAGE BREAK===
+
+Engineering
+5. From IR to AI-enabled RAG
+•
+Traditional Information Retrieval (IR)
+– Indexing, ranking, querying using VSM, TF-IDF, context paths, etc.
+– Returns documents that are relevant w.r.t. a user query
+•
+Large Language Models (LLMs)
+– Provide fluent natural language answers
+ 
+– But rely on learned, static internal parameters
+ 
+ 
+→ Prone to hallucinations, outdated knowledge 
+•
+Motivation for Retrieval Augmented Generation (RAG)
+– Combine IR precision + LLM generation
+– Ensure answers are grounded in retrieved and relevant content
+– Leverage semi-structured data, structured metadata, or raw text
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Retrieval provides content, generation provides language
+
+
+===PAGE BREAK===
+
+Engineering
+5. From IR to AI-enabled RAG
+RAG Pipeline Overview
+1. Query Processing
+•
+User issues a natural-language question
+•
+The system encodes it into a vector representation (similar to VSM)
+2. Retrieval Component (IR)
+•
+Searches in an inverted index or semi-structured index
+•
+Uses similarity search (cosine / ANN / semantic similarity)
+•
+Retrieves top-k relevant chunks / nodes / passages
+3. Augmentation Step
+•
+Retrieved content is injected into the LLM prompt
+–
+Functions similarly to context weighting, category restriction, or term-in-context indexing
+4. Generation
+•
+LLM generates an answer grounded in the retrieved evidence
+–
+Reduces hallucination; increases domain-specific accuracy
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+5. From IR to AI-enabled RAG
+RAG Pipeline Overview
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+81
+J. TEKLI – joe.tekli@lau.edu.lb
+RAG = Retrieval + Augmented Prompt + Guided Generation
+Retrieval
+Augmented 
+ Prompt
+Guided 
+Generation
+
+
+===PAGE BREAK===
+
+Engineering
+5. From IR to AI-enabled RAG
+RAG on Semi-Structured Data
+•
+Semi-structured data in RAG
+– XML/JSON/RDF trees can be indexed as granular “knowledge chunks”
+– Category-based retrieval aligns with retrieval filters (facets, metadata)
+– Context-aware similarity improves retrieval quality for LLMs
+– Matrix/path models parallel modern graph-based RAG extensions
+•
+RAG is a natural evolution of IR applied to generative models
+–
+Building on structural & content similarity…
+•
+Benefits of integrating Semi-structured IR with RAG
+– Precise, structure-aware selection of relevant content
+– Higher factual accuracy in generated outputs
+– Support for domain-specific ontologies and controlled vocabularies
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+82
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+Wrapping up
+•
+Information retrieval (IR) is a branch of informatics concerned with the acquisition, 
+organization, storage, search and selection of unstructured information 
+– In comparison with database systems which handle structured information
+•
+IR techniques have been extended to handle semi-structured data
+– Introducing dedicated representation models
+– Indexing nodes
+– Structural weights
+– Augmented vectors
+– Single/multi-category retrieval
+– Context paths
+– Matrix model
+•
+Underlying indexing techniques
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+4/7/2026
+83
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4/7/2026
+84
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+Questions?
+
+
+===PAGE BREAK===
+
+Engineering
+Existing IR Open Source Platforms
+•
+ElasticSearch, https://www.elastic.co/elasticsearch
+•
+Apache Solr, https://lucene.apache.org/solr/
+•
+Apache Leucene Library, https://lucene.apache.org/
+Exercises and Tutorials
+•
+Provided by the instructor during lecture sessions
+4/7/2026
+85
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+Main References
+1.
+Stefanie Nadig, Martin Braschler, Kurt Stockinger: Database Search vs. Information Retrieval: A Novel 
+Method for Studying Natural Language Querying of Semi-Structured Data. LREC 2020: 1772-1779
+2.
+Liang Zhang, Bingpeng Ma, Guorong Li, Qingming Huang, Qi Tian: Generalized Semi-supervised and 
+Structured Subspace Learning for Cross-Modal Retrieval. IEEE Trans. Multim. 20(1): 128-141 (2018)
+3.
+Adilbek O. Erkimbaev, Vladimir Y. Zitserman, Georgii A. Kobzev, Andrey V. Kosinov: Standardization of 
+Storage and Retrieval of Semi-structured Thermophysical Data in JSON-documents Associated with the 
+Ontology. DAMDID/RCDL 2017: 219-224
+4.
+Sana Fakhfakh, Mohamed Tmar, Walid Mahdi: Multimedia Retrieval based on Geometric Distance in 
+Semi-structured Document. WEBIST (1) 2014: 220-225
+5.
+G. Salton and M.J. Mcgill. Introduction to Modern Information Retrieval, McGraw-Hill, Tokio, 1983.
+6.
+Tsatsaronis, George; Vicky Panagiotopoulou (2009-04-02), A Generalized Vector Space Model for Text 
+Retrieval Based on Semantic Relatedness , ACM EACL.
+7.
+S. Deerwester, S. Dumais, G. Furnas, T. Landauer and R. Harshman. Indexing by Latent Semantic 
+Analysis. Journal of the American Society for Information Science, 41(6), (1990) pp. 391–407.
+8.
+N. Fuhr. Probabilistic models in information retrieval. The Computer Journal 35, 3, (1992) pp. 243-255.
+9.
+Gianni Amati,  Cornelis Joost Van Rijsbergen, Probabilistic models of information retrieval based on 
+measuring the divergence from randomness, ACM Transactions on Information Systems (TOIS) Volume 
+20 Issue 4, October 2002 Pages 357-389 
+10. N. Fuhr and K. Großjohann. XIRQL: A Query Language for Information Retrieval. In: Proceedings of ACM-
+SIGIR, New Orleans, (2001) pp. 172-180.
+Intelligent Data Processing and Applications 
+Ch. 7. Structure and Content Similarity

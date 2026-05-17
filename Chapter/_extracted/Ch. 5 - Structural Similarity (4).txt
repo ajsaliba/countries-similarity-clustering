@@ -1,0 +1,3530 @@
+Lebanese American University
+www.lau.edu.lb
+www.lau.edu.lb/ece
+School of Engineering
+Department of Electrical &
+Computer Engineering
+Chartered in the State of New York
+Intelligent Data Processing and Applications
+Joe M. TEKLI, PhD
+Computer Software Engineering
+Chapter 5 ‐ Structural Similarity
+COE 543/743
+
+
+===PAGE BREAK===
+
+Engineering
+Chapter Contents
+1. Introduction
+2. String Edit Distance
+‐ Basic Concepts
+‐ Main algorithm (Wagner and Fisher 1974)
+3. Tree Edit Distance (TED)
+‐ Basic Approach (Chawathe, 1999)
+‐ Sub‐tree Similarity Approach (Niermand and Jagadish, 2002)
+4. Applications of TED‐based Similarity 
+‐ Data Warehousing and Version Control
+‐ Document Classification and Clustering
+‐ Data Integration
+‐ Ranked Approximate Querying
+7/11/2023
+2
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+Dynamic programming: is a method for solving complex problems in an iterative or 
+recursive manner, by breaking them down into simpler sub‐problems, such as solving 
+the sub‐problems comes down to solving the initial problem
+•
+Applicable to problems having overlapping sub‐problems and optimal sub‐structure properties
+• Overlapping sub‐problems: If the main problem can be broken down into sub‐problems 
+• Optimal sub‐structure: The main problem’s optimal solution can be constructed efficiently 
+from optimal solutions to its sub‐problems
+• Dynamic programming is called divide and conquer techniques when the 
+overlapping problems are much smaller than the original problem
+•
+Examples: 
+•
+Dijkstra’s OSPF algorithm: using in network routing and graph‐based applications  
+•
+Fibonacci sequence: using in mathematical‐based simulation problems
+•
+Sequence alignment and tree alignment (using edit distance)
+•
+…
+7/11/2023
+3
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+• With dynamic programming
+• The final solution is guaranteed to be the best solution: optimal solution
+Since it takes into account all possibilities/all possible solutions
+‐ And then identifies the best one 
+• In contrast with greedy algorithms
+• Similar to dynamic programming, yet consist in making the locally optimal choice at 
+each stage with the hope of finding the global optimum (which is not guarantied)
+• Applicable to problems exhibiting the property of overlapping sub‐problems
+• Examples: 
+•
+Activity selection problem: selecting activities that do not clash
+•
+Matching pursuit algorithm: used in signal approximation
+•
+Decision tree learning algorithms
+•
+...
+7/11/2023
+4
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+Making use of the dynamic programming techniques for finding the Edit Distance 
+between semi‐structured document trees
+–
+Tree alignment developed in Combinatorial Pattern Matching
+• Rigorously structured (data‐centric) data
+• Fine‐grained
+• Main target: data structure
+7/11/2023
+5
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+Finding the cheapest sequence of edit operations that can 
+transform one tree into another
+What is edit distance? How does it work? 
+How is it applied to document trees?
+Let’s start by covering the original string edit distance problem…
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+•
+Also known as string alignment problem
+–
+Given two strings as input: A = “Hi there” and B= “Hithor”
+• It computes the cost of the cheapest sequence of operations that can 
+transform one string into another
+•
+Edit script: a sequence of edit operations on the source string, to produce the 
+destination string: ES(A, B) = < op1, op2, …, opk>
+–
+Where opi is an edit operation
+•
+By assigning costs to edit operations, we can compute the total edit script cost:
+•
+Objective of string edit distance: identifying the minimum 
+7/11/2023
+6
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+ES(A,B)
+Cost
+=
+i
+|
+E
+S
+(
+A
+,
+ 
+B
+)
+|
+O
+p
+i
+=
+1
+C
+o
+s
+t
+ES(A,B)
+Cost
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.1. Wagner & Fisher Approach
+•
+It is the cornerstone in string edit distance computations
+–
+Developed by R. A. Wagner and M. J. Fisher in 1974
+– Simple algorithm using three basic edit operations: 
+• Character insertion, noted: Ins(c) where c is a character
+• Character deletion, noted: Del(c)
+• Character update: noted Upd(c1, c2) where c1 and c2 are characters
+– It takes as input: two strings of characters A and B
+– It produces as output: a string edit distance value Dist(A, B)
+• NOTE: We can also identify the minimum cost edit script(s): ES(A, B) 
+– Using a dedicated post‐processing algorithm
+7/11/2023
+7
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.1. Wagner & Fisher Approach
+•
+Overall activity diagram:
+ES(A, B)
+Minimum cost 
+edit script(s)
+7/11/2023
+8
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+ED calculation
+EOC calculation
+String A
+String B
+ES Identification
+EOC
+Sim(A, B)
+Dist[][]
+Similarity 
+(computed based 
+on edit distance)
+Edit operations cost
+scheme
+Edit distance algorithm
+Edit script identification
+algorithm
+Edit distance
+matrix
+
+
+===PAGE BREAK===
+
+Engineering
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+W&F’s main edit distance algorithm, 1974
+ED
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.1. Wagner & Fisher Approach
+•
+Example: Consider input strings A = “Hi there” and B= “Hithor”
+‐ Having |A| = 8  and |B| = 6,
+we draw the following 
+edit distance matrix
+‐ Rows designate the costs
+of deleting characters 
+from the source string A
+‐ Columns designate the 
+costs of inserting characters 
+into the destination string B
+‐ Diagonals represent the costs
+of updating characters from A
+into characters from B
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+‘H’
+‘i’
+‘t’
+‘h’
+‘o’
+‘r’
+0
+1
+2
+3
+4
+5
+6
+0
+‘H’
+1
+‘i’
+2
+3
+‘t’
+4
+‘h’
+5
+‘e’
+6
+‘r’
+7
+‘e’
+8
+B 
+A 
+
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.2. Edit Operations
+•
+Formal edit operations syntax:
+– Character insertion: Let c be a character to be inserted into a string S =S1, S2, …, 
+Sm, Ins(c, i) is a character insertion operation applied to S, inserting c as the ith
+character of S, transforming S into S’ = S’1, S’2, …, S’i‐1, c, S’i+1, …, Sm+1 
+• Simplified syntax: Ins(c) will be used in the remainder to simplify presentation
+– Character deletion: Let c be a character in S, Del(c) is a node deletion operation 
+applied on S that removes c from S, producing S’= S’1, S’2, …, S’i‐1, S’i+1, …, Sm 
+– Character update: Given a character c1 in S, and another character c2, Upd(c1, c2) is 
+a character update operation applied to c1 resulting in a string S’ which is identical 
+to S except that in S’, c1 is replaced with c2.
+7/11/2023
+11
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.3. Edit Operations Costs
+•
+Different edit operation costs schemes can be used
+– Intuitive cost model:
+• CostIns(c) = CostDel(c) = 1
+– Unit cost
+• CostUpd(c1, c2) =         1 if c1 ≠ c2
+0 otherwise
+– NOTE: Different edit operation cost models can be chosen by the system designer
+• Based on the application domain, given theoretical/experimental foundations
+– For instance: we would consider the cost of updating a lower case letter into its upper 
+case form to cost less than a normal update operation, etc.
+7/11/2023
+12
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.3. Edit Operations Costs
+•
+Example: Consider input strings A = “Hi there” and B= “Hithor”
+– The maximum edit script cost possible is: 8 + 6 =  14
+– Cost of deleting all characters from the source string A
+– Plus the cost of inserting all characters from the destination string B
+EDMax(A, B) = Max(CostES(A, B) )= 
+• NOTE: Following the general concept edit distance, the maximum edit script 
+cost could reach infinity: 
+– The cost of applying two inverse operations an infinite number of times
+‐
+Inserting and then deleting the same character
+‐
+Updating in one direction, followed by an update in the  opposite direction
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+|A|
+|B|
+Del
+i
+Ins
+j
+i=1
+j=1
+Cost
+Cost
+(A ) +
+(A )
+7/11/2023
+13
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.4. Computing Edit Distance
+•
+Example: Consider input strings A = “Hi there” and B= “Hithor”
+‐ Running the edit distance
+algorithm populates 
+the edit distance matrix
+as follows: 
+‐ The highlighted cell
+designates the minimum
+edit distance
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+‘H’
+‘i’
+‘t’
+‘h’
+‘o’
+‘r’
+0
+1
+2
+3
+4
+5
+6
+0
+0
+1
+2
+3
+4
+5
+6
+‘H’
+1
+1
+0
+1
+2
+3
+4
+5
+‘i’
+2
+2
+1
+0
+1
+2
+3
+4
+3
+3
+2
+1
+1
+2
+3
+4
+‘t’
+4
+4
+3
+2
+1
+2
+3
+4
+‘h’
+5
+5
+4
+3
+2
+1
+2
+3
+‘e’
+6
+6
+5
+4
+3
+2
+2
+3
+‘r’
+7
+7
+6
+5
+4
+3
+3
+2
+‘e’
+8
+8
+7
+6
+5
+4
+4
+3
+B 
+A 
+
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.4. Computing Edit Distance
+•
+Example: Consider input strings A = “Hi there” and B= “Hithor”
+– Given the edit distance matrix in the previous slide
+• The minimum edit script cost is: 3
+ED(A, B) = Min(CostES(A, B) )= Dist[|A|, |B|] = Dist[8, 6] = 3
+‐ The cost of edit operations necessary to transform string A to B
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+How to identify these operations?
+By post‐processing the edit distance matrix…
+7/11/2023
+15
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.5. Edit Script Identification
+•
+Example: Consider input strings A = “Hi there” and B= “Hithor”
+–
+We post‐process
+the populated 
+edit distance matrix
+in order to identify the 
+minimum cost edit
+script(s) shown here
+ashighlighted cells
+–
+There could be more
+than one minimum
+cost ES!
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+‘H’
+‘i’
+‘t’
+‘h’
+‘o’
+‘r’
+0
+1
+2
+3
+4
+5
+6
+0
+0
+1
+2
+3
+4
+5
+6
+‘H’
+1
+1
+0
+1
+2
+3
+4
+5
+‘i’
+2
+2
+1
+0
+1
+2
+3
+4
+3
+3
+2
+1
+1
+2
+3
+4
+‘t’
+4
+4
+3
+2
+1
+2
+3
+4
+‘h’
+5
+5
+4
+3
+2
+1
+2
+3
+‘e’
+6
+6
+5
+4
+3
+2
+2
+3
+‘r’
+7
+7
+6
+5
+4
+3
+3
+2
+‘e’
+8
+8
+7
+6
+5
+4
+4
+3
+B 
+A 
+
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.5. Edit Script Identification
+•
+Example: Consider input strings A = “Hi there” and B= “Hithor”
+– In this example, we identify only one minimum cost edit script:
+• Raw edit script: obtained by navigating the ED matrix from Dist[|A|, |B|] to Dist[0, 0]
+ES(A, B) = < Del(A8), Upd(A7, B6), Upd(A6, B5), Upd(A5, B4), Upd(A4, B3),
+Del(A3), Upd(A2, B2), Upd(A1, B1) >
+• Final edit script: obtained after
+– Eliminating costless (useless) edit operations
+– Inversing the order of edit operations
+ES(A, B) = < Del(A3), Upd(A6, B5), Del(A8)>
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+17
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.5. Edit Script Identification
+•
+Example: Consider input strings A = “Hi there” and B= “Hithor”
+– If we compute Dist(B, A), we get the same edit distance value: ED(B, A) = 3
+• Since the intuitive edit operations cost model we adopted is symmetric
+– Given that W&F’s algorithm produces a symmetric distance
+• The corresponding edit script is also “symmetric”:
+ES(B, A) = < Ins(A3), Upd(B5, A6), Ins(A8)>
+Using the simplified syntax of the character insertion operation
+‐ More formally: ES(B, A) = < Ins(A3, 3), Upd(B5, A6), Ins(A8, 7)>
+Including positions at which characters should be inserted in the source string
+•
+NOTE:  The ES Identification algorithm will not be provided in class
+–
+Writing the algorithm and coding it is part of the students’ projects
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.6. Similarity Computation
+•
+Different formulas can be used to compute similarity based on edit distance
+•
+Following the formal definition of similarity as the inverse of a distance function
+•
+Given two input strings A and B
+•
+Formula 1:     Sim(A, B) = 
+• Typically used with unbounded distance functions, i.e., Dist(A, B) [0, [
+•
+Formula 2:    Sim(A, B) =
+• Where distance is bounded, i.e., ED(A, B) [0, (|A|+ |B|)]
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+19
+J. TEKLI – joe.tekli@lau.edu.lb
+]
+
+1
+    
+1 + ED(A,B)
+0, 1]
+[0, 1]
+
+  
+ED(A, B)
+1 ‐
+  
+| A |+ |B |
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.6. Similarity Computation
+•
+Note that both similarity functions (1 and 2) are consistent with the formal definition of 
+similarity, and come down to metrics
+•
+Verifying all metric properties, e.g.: reflexivity, symmetricity, and triangular inequality (Ch. 2)
+•
+Given two input strings A = “Hi there” and B= “Hithor”
+•
+Formula 1:    Sim(A, B) = 
+•
+Formula 2:    Sim(A, B) =
+•
+NOTE: Comparing similarity functions, to decide which one to use, is covered in Ch. 4
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+1
+= 0.25
+1 + 3
+1
+1 + ED(A,B)
+ 
+8
+6
+
+
+
+3
+1 ‐
+  
+0.7857
+ED(A, B)
+1 ‐
+  
+| A | + |B |
+7/11/2023
+20
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. String Edit Distance
+2.7. Complexity Analysis
+•
+The time complexity of W&F’s algorithm is O(|A||B|)
+– Where |A| and |B| designate the cardinalities (in number of characters) of the 
+strings being compared
+– Which amounts to O(N2)
+• With N = max{|A|,|B|}
+•
+The space complexity of W&F’s algorithm is also O(|A||B|)
+–
+Which corresponds to the memory size required to store the edit distance matrix
+•
+The algorithm is of quadratic time & space complexity with respect to string size
+–
+It is linearly dependent on the size of each string
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+21
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+•
+Semi‐structured documents represent hierarchically structured information 
+•
+Can be modeled as Rooted Ordered Labeled Trees (ROLTs) following DOM1
+•
+Comparing semi‐structured documents comes down to comparing their trees
+•
+Central solution to compare rigorously structured data: Tree Edit Distance
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+1 Document Object Model, http://www.w3.org/DOM
+Director
+name
+Department
+ECE
+John
+Cramer
+Faculty
+<?XML?>
+<Faculty>
+<Department name = “ECE”>
+<Director>John Cramer</Director>
+</Department>
+</Faculty>
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.1. Document Tree Representation
+•
+Rooted Ordered Labeled Tree (ROLT): It is a rooted tree in which the nodes are labeled 
+and ordered. We denote by T[i] the ith node of T in preorder traversal, T[i].its label, 
+and T[i].d its depth. R(T)=T[0] designates the root node of tree T
+•
+Semi‐structured Document Tree: It is represented as a ROLT with a node corresponding 
+to each element and attribute
+–
+Element nodes are labeled with element tag names
+–
+Attribute nodes appear as children of their encompassing element nodes, labeled and sorted 
+by attribute name, and appearing before all sub‐element siblings
+–
+Element/attribute values can be considered or disregarded following the application at hand
+• Values are disregarded when studying the structural properties of semi‐structured 
+documents            
+Structure‐only similarity evaluation
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+23
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.1. Document Tree Representation
+•
+Tree ordering: we distinguish three main kinds of tree node traversal
+1. Pre‐order traversal
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+24
+J. TEKLI – joe.tekli@lau.edu.lb
+Director
+name
+Department
+ECE
+John
+Cramer
+Faculty
+Root
+Left 
+child
+Right
+sibling
+1
+2
+3
+4
+5
+6
+7
+Natural order of appearance of elements/attributes in 
+the semi‐structured document
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.1. Document Tree Representation
+•
+Tree ordering: we distinguish three main kinds of tree node traversal
+2. Post‐order traversal
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+25
+J. TEKLI – joe.tekli@lau.edu.lb
+Director
+name
+Department
+ECE
+John
+Cramer
+Faculty
+Root
+Left 
+child
+Right
+sibling
+7
+6
+2
+1
+5
+3
+4
+Traversing document tree from innermost to outermost 
+(root) element
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.1. Document Tree Representation
+•
+Tree ordering: we distinguish three main kinds of tree node traversal
+3. Level‐order traversal
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+26
+J. TEKLI – joe.tekli@lau.edu.lb
+Director
+name
+Department
+ECE
+John
+Cramer
+Faculty
+Left 
+node
+Right
+node
+1
+2
+3
+5
+4
+6
+7
+Traversing document tree left‐to‐right 
+per hierarchical level
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+•
+Basic tree edit distance algorithm
+–
+Developed by S.S. Chawathe in 1999
+•
+Direct application of the famous W&F algorithm
+– Which was proven optimal in a wide variety of applications
+•
+Main procedure:
+1. Transforming semi‐structured documents into special strings
+‐ Made of sequences of special characters
+2. Comparing the strings using an adaptation of the W&F algorithm
+‐ Using dedicated tree edit operations
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+27
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.1. Overall activity diagram
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+28
+J. TEKLI – joe.tekli@lau.edu.lb
+ES(A, B)
+Minimum cost 
+edit script(s)
+TED calculation
+TOC
+calculation
+A*
+B*
+ES Identification
+TOC
+Sim(A, B)
+Dist[][]
+Tree edit operations 
+cost scheme
+Tree edit distance algorithm
+Edit script 
+identification
+algorithm
+Tree edit 
+distance matrix
+Doc tree A
+Doc tree B 
+LD‐pair
+parsing
+LD‐pair strings
+Similarity 
+(computed based 
+on edit distance)
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.2. LD‐pair Representation
+•
+Main concept:
+– Transforming a ROLT into a sequence of LD‐pair characters 
+– Where each character is made of a node label/depth doublet
+•
+LD‐pair doublet: It is defined, as the pair (, d) where and d are respectively the 
+node’s label and depth in the tree. We use p.and p.d to refer to the label and the 
+depth of an ld‐pair node p respectively
+•
+LD‐pair representation of a tree: It is the list of the ld‐pair doublets corresponding to 
+each of the tree nodes, ordered in pre‐order traversal
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+29
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.2. LD‐pair Representation
+•
+Example: Considering the sample semi‐structured document tree A
+LD‐pair(A) = 
+<(“Faculty”, 0), (“Department”, 1), 
+(“name”, 2), (“ECE”, 3),
+(“Director”, 2), (“John”, 3), 
+(“Cramer”, 3)>
+•
+We note A* = LD‐pair(A)
+–
+Character        in string A* represents
+node A[i] in corresponding tree A
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+30
+J. TEKLI – joe.tekli@lau.edu.lb
+Director
+name
+Department
+ECE
+John
+Cramer
+Faculty
+1
+2
+3
+4
+5
+6
+7
+Doc tree A
+Depth = 0
+Depth = 1
+Depth = 2
+Depth = 3
+*
+i
+A
+
+
+===PAGE BREAK===
+
+Engineering
+Chawathe’s main tree edit distance algorithm, 1999
+, TED(A*, B*)
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.3. Chawathe’s TED Conditions
+•
+Condition 1:
+–
+It allows updating one node into another only when the concerned nodes are at the same depth
+•
+Condition 2:
+–
+It allows deleting a node from the source tree if its depth is greater or equal to the depth of the 
+corresponding node in the destination tree
+•
+Intuitively implies that, in order to delete an internal node, all corresponding descendent 
+nodes must be first deleted
+•
+Condition 3:
+–
+It allows inserting a node from the destination tree if its depth is greater or equal to the depth of 
+the corresponding node in the source tree
+•
+Intuitively implies that a node must be inserted before inserting any of its descendants
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+32
+J. TEKLI – joe.tekli@lau.edu.lb
+*
+*
+i
+j
+A
+B
+ j = |B*|
+.d   
+.d   or   
+
+*
+*
+i
+j
+A
+B
+ i = | A*|
+.d   
+.d   or   
+
+*
+*
+i
+j
+A
+B
+.d   
+.d
+
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.3. Chawathe’s TED Conditions
+•
+The conditions do not guaranty optimal results!
+– Certain tree structural similarities might be overlooked…
+•
+The conditions underline heuristics
+– Producing a result which is close to optimal under certain conditions 
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+33
+J. TEKLI – joe.tekli@lau.edu.lb
+NOTE:     Chawathe’s algorithm is not heuristic
+But the conditions are heuristic…
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+Example: Consider document trees A and B:
+•
+Step1: Producing LD‐pair representations
+–
+LD‐pair(A) = A* = (“a”, 0), (“b”, 1), (“c”, 2), (“d”, 2)
+–
+LD‐pair(B) = B* = (“a”, 0), (“x”, 1), (“b”, 2), (“e”, 2), (“f”, 3)
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+34
+J. TEKLI – joe.tekli@lau.edu.lb
+b
+c
+d
+Doc tree A
+a
+b
+a
+x
+e
+f
+Doc tree B
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+Example: Consider document trees A and B resulting in LD‐pair strings A* and B*
+‐ Having |A*| = 4 and |B*| = 5,
+we draw the following 
+edit distance matrix
+‐ Rows designate the costs
+of deleting LD‐pairs (nodes)
+from the LD‐pair representation
+A* of the source tree A
+‐ Columns designate the costs
+of inserting LD‐pairs (nodes)
+into the LD‐pair representation
+B* of the destination tree B
+‐ Diagonals represent the costs of updating LD‐pairs (nodes) from A* (of tree A) into those in B* (of tree B) 
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+(“a”, 0)
+(“x”, 1)
+(“b”, 2)
+(“e”, 2)
+(“f”, 3)
+0
+1
+2
+3
+4
+5
+0
+(“a”, 0)
+1
+(“b”, 1)
+2
+(“c”, 2)
+3
+(“d”, 2)
+4
+B* 
+A* 
+
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.4. Tree Edit Operations
+•
+Formal edit operations syntax:
+– Leaf node insertion: Let T be a ROLT with a node p having first level sub‐trees P1, …, Pm
+(i.e., sub‐trees rooted at the children nodes of p). Given a node x not belonging to T, 
+Ins(x , p, i) is a node insertion applied to T, inserting x as the ith child of p, yielding T’ 
+where p has first level sub‐trees P1, … , Pi‐1, x, Pi+1, … , Pm+1
+• Simplified syntax: Ins(x) will be used in the remainder to simplify presentation
+– Leaf node deletion: Given a leaf node x in ROLT T, x having parent node p with first level 
+sub‐trees P1, …, Pm, Del(x) is a node deletion operation applied on T that removes x from 
+T, yielding T’ where p has first level sub‐trees P1, … , Pi‐1, Pi+1, … , Pm
+– Node update: Given a node x in ROLT T, and a label , Upd(x, ) is a node update 
+operation applied to x resulting in T’ which is identical to T except that in T’, x bears as 
+its label. The update operation could be also formulated as follows: Upd(x, y) where y. 
+denotes the new label to be assumed by x 
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.5. Tree Edit Operations Costs
+•
+Different edit operation costs schemes can be used
+– Intuitive cost model:
+• CostIns(n) = CostDel(n) = 1
+– Unit cost
+• CostUpd(n1, n2) =         1 if n1 ≠ n2
+0 otherwise
+– NOTE: Different edit operation cost models can be chosen by the system designer
+• Based on the application domain, given theoretical/experimental foundations
+– For instance: we would consider the syntactic and/or semantic similarity between node 
+labels and/or values, or node depth, etc.
+7/11/2023
+37
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.6. Computing Tree Edit Distance
+Example: Consider document trees A and B resulting in LD‐pair strings A* and B*
+‐ Running the edit distance
+algorithm populates 
+the edit distance matrix
+as follows: 
+‐ The highlighted cell
+designates the minimum
+edit distance
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+(“a”, 0)
+(“x”, 1)
+(“b”, 2)
+(“e”, 2)
+(“f”, 3)
+0
+1
+2
+3
+4
+5
+0
+0
+1
+2
+3
+4
+5
+(“a”, 0)
+1
+1
+0
+1
+2
+3
+4
+(“b”, 1)
+2
+2
+1
+1
+2
+3
+4
+(“c”, 2)
+3
+3
+2
+2
+2
+3
+4
+(“d”, 2)
+4
+4
+3
+3
+3
+3
+4
+B* 
+A* 
+
+7/11/2023
+38
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.6. Computing Tree Edit Distance
+Example: Consider document trees A and B resulting in LD‐pair strings A* and B*
+– Given the edit distance matrix in the previous slide
+• The minimum edit script cost is: 4
+TED(A*, B*) = Min(CostES(A*, B*) )= Dist[|A*|, |B*|] = Dist[4, 5] = 4
+‐ The cost of edit operations necessary to transform string A* to B*
+‐ Which represent the edit operations needed to transform trees A to B
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+How to identify these operations?
+7/11/2023
+39
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.7. Edit Script Identification
+Example: Consider document trees A and B resulting in LD‐pair strings A* and B*
+–
+We post‐process
+the populated 
+edit distance matrix
+in order to identify the 
+minimum cost edit
+script(s) shown here
+ashighlighted cells
+–
+There could be more
+than one minimum
+cost ES!
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+(“a”, 0)
+(“x”, 1)
+(“b”, 2)
+(“e”, 2)
+(“f”, 3)
+0
+1
+2
+3
+4
+5
+0
+0
+1
+2
+3
+4
+5
+(“a”, 0)
+1
+1
+0
+1
+2
+3
+4
+(“b”, 1)
+2
+2
+1
+1
+2
+3
+4
+(“c”, 2)
+3
+3
+2
+2
+2
+3
+4
+(“d”, 2)
+4
+4
+3
+3
+3
+3
+4
+B* 
+A* 
+
+7/11/2023
+40
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.7. Edit Script Identification
+Example: Consider document trees A and B resulting in LD‐pair strings A* and B*
+– In this example, we identify only one minimum cost edit script:
+• Raw edit script: navigating the ED matrix from Dist[|A*|, |B*|] to Dist[0, 0]
+ES(A*, B*) = < Ins(B*5), Upd(A*4, B*4), Upd(A*3, B*3), Upd(A*2, B*2), Upd(A*1, B*1) >
+• Final edit script: obtained after i) eliminating costless (useless) edit operations, and ii) 
+inversing the order of edit operations
+ES(A*, B*) = < Upd(A*2, B*2), Upd(A*3, B*3), Upd(A*4, B*4), Ins(B*5) >
+Using the simplified syntax of the leaf node insertion operation
+Formally: ES(A*, B*) = <Upd(A*2, B*2), Upd(A*3, B*3), Upd(A*4, B*4), Ins(B*5, A*4, 1)>
+Including parent node and sibling position at which the node should be inserted
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.7. Edit Script Identification
+Example: Consider document trees A and B resulting in LD‐pair strings A* and B*
+– If we compute TED(B*, A*), we get the same edit distance value: TED(B*, A*) = 4
+• Since the intuitive edit operations cost model we adopted is symmetric
+– Given that the Chawathe’s algorithm produces a symmetric distance
+• The corresponding edit script is also “symmetric”:
+ES(B*, A*) = < Upd(B*2, A*2,), Upd(B*3, A*3), Upd(B*4, A*4), Del(B*5) >
+•
+NOTE:  The ES Identification algorithm will not be provided in class
+–
+Writing the algorithm and coding it is part of the students’ projects
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+42
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.8. Similarity Computation
+•
+Different formulas can be used to compute similarity based on edit distance
+•
+Following the formal definition of similarity as the inverse of a distance function
+•
+Given two input document trees A and B:
+•
+Formula 1:     Sim(A, B) = 
+• Typically used with unbounded distance functions, i.e., TED(A, B) [0, [
+•
+Formula 2:    Sim(A, B) =
+• Where distance is bounded, i.e., TED(A, B) [0, (|A|+ |B|)]
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+43
+J. TEKLI – joe.tekli@lau.edu.lb
+]
+
+1
+    
+1 + TED(A,B)
+0, 1]
+[0, 1]
+
+TED(A, B)
+1 ‐
+  
+| A | + |B |   
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.8. Similarity Computation
+•
+Note that following Chawathe’s approach: Sim(A, B) = Sim(A*, B*)
+•
+Which is computed based on TED between LD‐pair strings: TED(A*, B*)
+• Where A* and B* are the LD‐pair representations of trees A and B respectively
+•
+Given two input document trees considered in our running example:
+•
+Formula 1:    Sim(A, B) = Sim(A*, B*) =  
+•
+Formula 2:    Sim(A, B) = Sim(A*, B*) = 
+•
+NOTE: Comparing similarity functions, to decide which one to use, is covered in Ch. 4
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+1
+1 + TED(A*,B*)
+1
+= 0.2
+1 + 4
+ 
+4
+5
+
+
+
+TED(A*, B*)
+1 ‐
+  
+| A*| + |B*|
+4
+1 ‐
+  
+0.5556
+7/11/2023
+44
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.9. Complexity Analysis
+•
+The time complexity of Chawathe’s algorithm is O(|A| + |B|+|A||B|) = O(|A||B|) 
+–
+Where O(|A| + |B|) designates the complexity of producing LD‐pair strings
+–
+|A| and |B| designate the cardinalities (in number of nodes) of the trees being compared, 
+which are equivalent to the cardinalities of LD‐pair strings |A*| and |B*| respectively
+– Hence, complexity simplifies to O(N2)
+• With N = max{|A|,|B|}
+•
+The space complexity of Chawathe’s algorithm is also O(|A||B|)
+–
+Which corresponds to the memory size required to store the edit distance matrix
+•
+The algorithm is of quadratic complexity with respect to tree size
+–
+It is linearly dependent on the size of each tree
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+45
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.10. Limitations of Chawathe’s approach
+•
+Consider for instance document trees C, D, and E
+•
+TEDChawathe(C*, D*) = 3, having ES(C*, D*) = <(Ins(D*5), Ins(D*6), Ins(D*7)) >
+•
+TEDChawathe(C*, E*) = 3, having ES(C*, E*) = <(Ins(E*5), Ins(E*6), Ins(E*7)) >
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+46
+J. TEKLI – joe.tekli@lau.edu.lb
+a
+b
+c
+d
+a
+b
+c
+d
+a
+b
+c
+d
+e
+f
+g
+Doc tree C
+Doc tree D
+Doc tree E
+b
+c
+d
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.10. Limitations of Chawathe’s approach
+•
+Consider for instance document trees C, D, and E
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+a
+b
+c
+d
+a
+b
+c
+d
+a
+b
+c
+d
+d
+e
+f
+Doc tree C
+Doc tree D
+Doc tree E
+b
+c
+d
+b
+c
+d
+b
+c
+d
+C1
+D1
+D2
+E1
+E2
+SimChawathe(C, D) = 1/1+TEDChawathe(C*, D*)= 0.25 = SimChawathe(C, E)
+Repetition of similar sub‐trees not detected…  
+?
+47
+7/11/2023
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.10. Limitations of Chawathe’s approach
+•
+Consider for instance document trees S and T:
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+a
+b
+Doc tree S
+Doc tree T
+TEDChawathe(S*, T*)= 1  
+which does not make sense
+Producing inaccurate results due to
+processing the trees as strings 
+using heuristic conditions…
+?
+48
+7/11/2023
+c
+d
+a
+b
+c
+d
+x
+It should be equal to 2
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.2. Chawathe’s TED Approach
+3.2.10. Limitations of Chawathe’s approach
+•
+The reason sub‐tree similarities go undetected and results are sometimes inaccurate:
+–
+Node insertion/deletion operations are executed by partially considering tree structure
+• Analyzing adjacent nodes (LD‐pairs), and not the tree structure as a whole
+– Using heuristic conditions
+•
+Despite the fact that Chawathe’s algorithm is considered as a reference for modern TED 
+algorithms, and despite that it remains one of the fastest TED approaches (due to its 
+intuitive and straightforward adaptation of the W&F algorithm)
+– Yet, it does not guaranty optimal results
+• It does not fully process the structural properties of semi‐structured document trees
+– By handling them as special strings 
+Thus totally disregarding sub‐tree similarities
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+49
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+•
+TED solution specifically tailored to consider sub‐tree similarities 
+–
+Developed by A. Neirman and H.V. Jagadish in 2002
+•
+Motivation: Identifying sub‐tree structural similarities is central 
+–
+Frequent presence of repeated and optional elements in document trees
+–
+Repeating elements induce multiple occurrences of similar element/attribute sub‐trees 
+• Presence of optional elements/attributes or identical sub‐trees in the same document
+Refer to sample document trees C, D, and F in the previous slide
+•
+Inspired by Chawathe’s approach, introducing an adapted algorithm:
+–
+Adding two new edit operations: insert tree and delete tree
+–
+Processing trees in their native structural form
+• Rather than converting them to special LD‐pair strings
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.1. Preliminaries
+•
+Sub‐tree: Given two trees T and T’, T’ is a sub‐tree of T if all nodes of T’ occur in T, 
+with the same parent/child edge relationship and node order, such that no additional 
+nodes occur in the embedding of T’
+–
+The sub‐trees of E are: E1, E11, E12, E2, E21, and E22
+•
+First level sub‐tree: Given a tree T
+with root r of degree k, the first 
+level sub‐trees FLS(T)= T1, …, Tk
+of T are the sub‐trees rooted at 
+the children nodes of r: r1, …, rk
+–
+FLS(E) = E1, E2
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+51
+J. TEKLI – joe.tekli@lau.edu.lb
+a
+b
+c
+d
+e
+f
+g
+Doc tree E
+E1
+E2
+E11
+E12
+E21
+E22
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.2. Tree Edit Operations
+•
+It uses three atomic node operations
+–
+An atomic operation is an edit operation applied on a single tree node
+• Leaf node insertion, noted: Ins(n) where n is a leaf node
+• Leaf node deletion, noted: Del(n), where n is a leaf node
+• Node update: noted Upd(n1, n2) where n1 and n2 are inner/leaf nodes
+•
+As well as two complex tree operations
+–
+A tree operation is applied on a tree (or sub‐tree)
+• Tree insertion, noted: InsTree(SbT) where SbT is a tree/sub‐tree
+• Tree deletion, noted: DelTree(SbT) where SbT is a tree/sub‐tree
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+Similar to Chawathe’s operations
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.2. Tree Edit Operations
+•
+Formal edit operations syntax:
+– Refer to Chawathe’s approach for formal leaf node insertion, leaf node deletion and 
+node update operation syntaxes
+– Tree Insertion: Given a tree A and a tree T with an inner node p having first level
+sub‐trees P1, P2, …, Pm,  InsTree(A, p, i) is a tree insertion applied to T, inserting A
+as the ith sub‐tree of p, thus yielding T’ with first level sub‐trees T1, …, Ti‐1, A, Ti+1, 
+…, Tm+1 .
+– Tree deletion: Given a tree A and a tree T with an inner node p, A being the ith sub‐
+tree of p, DelTree(A) is a tree deletion operation applied to T that yields T’ with
+first level sub‐trees T1, … , Ti‐1, Ti+1, … , Tm
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+53
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.3. Tree Edit Operations Costs
+•
+Different edit operation costs schemes can be used
+– Intuitive cost model for atomic edit operations:
+• CostIns(n) = CostDel(n) = 1
+– Unit cost
+• CostUpd(n1, n2) =         1 if n1 ≠ n2
+0 otherwise
+– NOTE: Different edit operation cost models can be chosen by the system designer
+• Based on the application domain, given theoretical/experimental foundations
+– For instance: we would consider the syntactic and/or semantic similarity between node 
+labels and/or values, or node depth, etc.
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.3. Tree Edit Operations Costs
+•
+Given two trees A (source tree) and B (destination tree) being compared
+– Intuitive cost model for complex tree operations:
+• CostInsTree(SbT) =             1     if SbT is contained‐in the source tree A
+otherwise
+• CostDelTree(SbT) = 
+1     if SbT is contained‐in the destination tree B
+otherwise
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+Ins
+Cost
+(n)
+n   SbT
+
+Del
+Cost
+(n)
+n   SbT
+7/11/2023
+55
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.4. Tree Contained‐In Relation
+•
+A tree patter T1 is said to be contained‐in a tree T2 if all nodes of T1 occur in T2, with 
+the same parent/child edge relationship and relative node order
+•
+Additional nodes can appear in T2
+•
+Example:
+•
+Tree X is contained‐in tree T
+•
+Tree Y is not contained‐in tree T 
+•
+Since nodes of labels “d” and “e” have different relative node order in Y and T
+•
+Tree Z is contained‐in tree T 
+•
+Additional nodes may appear in T, even as children of nodes mapped to Z
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+a
+b
+c
+e
+Doc tree T
+d
+b
+c
+d
+Doc tree X
+b
+d
+e
+Doc tree Y
+b
+d
+Doc tree Z
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.5. Overall Activity Diagram
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+ES(A, B)
+Minimum cost 
+edit script(s)
+TED calculation
+TOC
+calculation
+ES Identification
+TOC
+Sim(A, B)
+Dist[][]
+Tree edit operations 
+cost scheme
+Tree edit distance algorithm
+Edit script 
+identification
+algorithm
+Tree edit 
+distance matrix
+Doc tree A
+Doc tree B 
+Similarity 
+(computed based 
+on edit distance)
+7/11/2023
+57
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+Nierman & Jagadish’s main tree edit distance algorithm, 2002
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+)
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.6. Computing Tree Edit Distance
+Example: Consider document trees C, D, and E
+•
+The tree will be processed in their native form
+–
+As nested sets of first level sub‐trees
+Multiple nested edit distance matrixes will be recursively produced and processed
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+59
+J. TEKLI – joe.tekli@lau.edu.lb
+a
+b
+c
+d
+a
+b
+c
+d
+a
+b
+c
+d
+e
+f
+g
+Doc tree C
+Doc tree D
+Doc tree E
+b
+c
+d
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.6. Computing Tree Edit Distance
+Example: Comparing document trees C (source tree) and D (destination tree)
+•
+Step 1: Computing tree edit operations costs
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+60
+J. TEKLI – joe.tekli@lau.edu.lb
+a
+b
+c
+d
+a
+b
+c
+d
+Doc tree C
+Doc tree D
+b
+c
+d
+C11
+C12
+D21
+D22
+C1
+D1
+D2
+D11
+D11
+CostDelTree(C1) = 1 since C1 contained‐in D
+CostDelTree(C11) = CostDelTree(C12) = 1
+CostInsTree(D1) = CostInsTree(D2) = 1 since D1 and D2 are contained‐in C
+CostInsTree(D11) = CostInsTree(C12) = CostInsTree(C22) = CostInsTree(C22) = 1
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.6. Computing Tree Edit Distance
+Example: Comparing document trees C (source tree) and D (destination tree)
+•
+Step 2: Producing the first (main) edit distance matrix
+‐ Having degree(C) = 1  and degree(D) = 2, we draw the following edit distance matrix
+‐ Rows designate the costs of deleting first level sub‐trees from the source tree C
+‐ Columns designate the costs
+of inserting first level sub‐trees
+into the destination tree D
+‐ Diagonals represent the costs of updating
+the labels of the root nodes of sub‐trees
+being compared 
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+R(D)
+D1
+D2
+R(C)
+C1
+D
+C 
+
+7/11/2023
+61
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.6. Computing Tree Edit Distance
+Example: Comparing document trees C (source tree) and D (destination tree)
+•
+Step 3: Populating the first (main) edit distance matrix
+‐ Running the edit distance
+algorithm populates 
+the edit distance matrix
+as follows: 
+‐ A recursive call for the 
+algorithm is launched
+when processing 
+sub‐trees C1 and D2
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+R(D)
+D1
+D2
+R(C)
+0
+1
+2
+C1
+1
+???
+???
+D
+C 
+
+7/11/2023
+62
+J. TEKLI – joe.tekli@lau.edu.lb
+Recursive call for 
+TED(C1, D2)
+Recursive call for 
+TED(C1, D2)
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+Example: Comparing document trees C (source tree) and D (destination tree)
+•
+Step 4: Generating and populating recursive edit distance matrixes
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+R(D)
+D1
+D2
+R(C)
+0
+1
+2
+C1
+1
+???
+???
+Recursive call for 
+TED(C1, D1)
+R(D1)
+D11
+D12
+R(C1)
+0
+1
+2
+C11
+1
+???
+???
+C12
+2
+???
+???
+R(D11)
+R(C11)
+0
+R(D12)
+R(C11)
+1
+R(D12)
+R(C12)
+0
+R(D11)
+R(C12)
+1
+Recursive calls for 
+TED(C11, D11)
+Recursive calls for 
+TED(C11, D12)
+Recursive calls for 
+TED(C12, D12)
+Recursive calls for 
+TED(C12, D11)
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+Example: Comparing document trees C (source tree) and D (destination tree)
+•
+Step 4: Generating recursive edit distance matrixes
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+R(D)
+D1
+D2
+R(C)
+0
+1
+2
+C1
+1
+0
+???
+TED(C1, D2)
+R(D1)
+D11
+D12
+R(C1)
+0
+1
+2
+C11
+1
+0
+1
+C12
+2
+1
+0
+TED(C1, D1)
+R(D2)
+D21
+D22
+R(C1)
+0
+1
+2
+C11
+1
+???
+???
+C12
+2
+???
+???
+R(D21)
+R(C11)
+0
+R(D22)
+R(C11)
+1
+R(D22)
+R(C12)
+0
+R(D21)
+R(C12)
+1
+TED(C11, D21)
+TED(C12, D21)
+TED(C12, D22)
+TED(C11, D22)
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+Example: Comparing document trees C (source tree) and D (destination tree)
+•
+Step 4: Generating and populating recursive edit distance matrixes
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+R(D)
+D1
+D2
+R(C)
+0
+1
+2
+C1
+1
+0
+1
+TED(C1, D2)
+R(D1)
+D11
+D12
+R(C1)
+0
+1
+2
+C11
+1
+0
+1
+C12
+2
+1
+0
+TED(C1, D1)
+R(D2)
+D21
+D22
+R(C1)
+0
+1
+2
+C11
+1
+0
+1
+C12
+2
+1
+0
+The results of recursive 
+TED algorithm calls 
+allow populating the main 
+edit distance matrix
+7/11/2023
+65
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.6. Computing Tree Edit Distance
+Example: Comparing document trees C (source tree) and D (destination tree)
+– Given the main edit distance matrix in the previous slide
+• The minimum edit script cost is: 1
+TED(C, D) = Min(CostES(C, D))= Dist[degree(C), degree(D)] = Dist[1, 2] = 1
+‐ The cost of edit operations necessary to transform tree C to D
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+How to identify these operations?
+7/11/2023
+66
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.7. Edit Script Identification
+Example: Comparing document trees C (source tree) and D (destination tree)
+–
+We post‐process
+the populated 
+edit distance matrixes,
+going from the main 
+matrix to the recursive
+ones, to identify the 
+minimum cost edit
+script(s) shown here
+as highlighted cells
+–
+In this figure, we do not show 
+single cell matrixes for ease of 
+presentation
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+R(D)
+D1
+D2
+R(C)
+0
+1
+2
+C1
+1
+0
+1
+TED(C1, D2)
+R(D1)
+D11
+D12
+R(C1)
+0
+1
+2
+C11
+1
+0
+1
+C12
+2
+1
+0
+TED(C1, D1)
+R(D2)
+D21
+D22
+R(C1)
+0
+1
+2
+C11
+1
+0
+1
+C12
+2
+1
+0
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.7. Edit Script Identification
+Example: Comparing document trees C (source tree) and D (destination tree)
+– In this example, we identify two minimum cost edit scripts:
+• Scrip #1: 
+– Raw edit script: navigating from the main ED matrix to recursive ones
+ES1 (C, D) = < InsTree(D2), TED(C1, D1) >
+ES1 (C, D) = < InsTree(D2), Upd (R(C12), R(D12)), Upd (R(C11), R(D11)), Upd(R(C1), R(D1)) >
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+ES(C1, D1) = < TED(C12, D12), TED(C11, D11), Upd(R(C1), R(D1)) >
+ES(C12, D12) = < Upd (R(C12), R(D12)) >
+ES(C11, D11) = < Upd (R(C11), R(D11)) >
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.7. Edit Script Identification
+Example: Comparing document trees C (source tree) and D (destination tree)
+– Scrip #1:
+• Raw edit script: navigating from the main ED matrix to recursive ones
+ES1 (C, D) = < InsTree(D2), Upd (R(C12), R(D12)), Upd (R(C11), R(D11)), Upd(R(C1), R(D1)) >
+• Final edit script: obtained after i) eliminating costless (useless) edit operations, and ii) 
+inversing the order of edit operations
+ES1(C, D) = < InsTree(D2)>
+Using the simplified syntax of the tree insertion operation
+Formally: ES1 (C, D) = < InsTree(D2, R(C), 2)>  where R(C) represents root node C[0] in tree C
+Including parent node and sibling position at which the sub‐tree should be inserted
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.7. Edit Script Identification
+Example: Comparing document trees C (source tree) and D (destination tree)
+– Scrip #2: we follow the same process used in identifying the first script
+• Raw edit script: navigating from the main ED matrix to recursive ones
+ES2(C, D) = < TED(C1, D2), InsTree(D1) >
+ES2(C, D) = < Upd (R(C12), R(D22)), Upd (R(C11), R(D21)), Upd(R(C1), R(D2)), InsTree(D1) >
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+ES(C1, D2) = < TED(C12, D22), TED(C11, D21), Upd(R(C1), R(D2)) >
+ES(C12, D22) = < Upd (R(C12), R(D22)) >
+ES(C11, D21) = < Upd (R(C11), R(D21)) >
+7/11/2023
+70
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.7. Edit Script Identification
+Example: Comparing document trees C (source tree) and D (destination tree)
+– Scrip #2: we follow the same process used to identifying the first script
+• Raw edit script: navigating from the main ED matrix to recursive ones
+ES2(C, D) = < Upd (R(C12), R(D22)), Upd (R(C11), R(D21)), Upd(R(C1), R(D2)), InsTree(D1) >
+• Final edit script: obtained after i) eliminating costless (useless) edit operations, and ii) 
+inversing the order of edit operations
+ES2(C, D) = < InsTree(D1)>
+Using the simplified syntax of the tree insertion operation
+Formally: ES2 (C, D) = < InsTree(D1, R(C), 1)>  where R(C) represents root node C[0] in tree C
+Including parent node and sibling position at which the sub‐tree should be inserted
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.8. Similarity Computation
+•
+We note N&J ’s similarity as SimN&J(A, B) to distinguish it from SimChawathe(A, B)
+•
+Which is computed based on TEDN&J(A, B)
+• Where A and B are two document trees being compared
+•
+Given input document trees C and D considered in our running example:
+•
+Formula 1:    SimN&J(C, D) =  
+•
+Formula 2:    SimN&J(C, D) =  
+•
+NOTE: Comparing similarity functions, to decide which one to use, is covered in Ch. 4
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+N& J
+1
+1 + TED
+(C, D)
+1
+= 0.5
+1 + 1
+ 
+4
+7
+
+
+
+N& J
+TED
+(C, D)
+1 ‐
+  
+| C | + |D |
+1
+ 
+1 ‐
+  
+0.9091
+7/11/2023
+72
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+Example: Considering document trees C, D, and E
+• SimN&J(C, D) = 0.5 having TEDN&J(C, D) = 1 and using similarity Formula 1
+•
+Cost of ES1(C, D) = <InsTree(D2)> or ES2(C, D) = <InsTree(D1)> 
+• SimN&J(C, E) = 0.25 having TEDN&J(C, E) = 3 and using similarity Formula 1
+•
+Cost of ES(C, E) = <InsTree(E2)>
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+a
+b
+c
+d
+a
+b
+c
+d
+a
+b
+c
+d
+e
+f
+g
+Doc tree C
+Doc tree D
+Doc tree E
+b
+c
+d
+D1
+D2
+E1
+E2
+SimN&J(C, D) > SimN&J (C, E)
+Sub‐tree similarities effectively detected…
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+•
+Consider for instance document document trees S and T:
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+a
+b
+Doc tree S
+Doc tree T
+TEDN&J(S, T)= 2  
+Producing accurate results due to
+processing the trees as trees
+considering their structural properties
+74
+7/11/2023
+c
+d
+a
+b
+c
+d
+x
+ES1(S, T) = <InsTree(T11), Upd(R(S11))> 
+or ES2(S, T) = <Upd(R(S11)), InsTree(T11)> 
+S1
+S11
+S111
+T1
+T11
+T12
+T121
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.9. Complexity Analysis
+•
+The time complexity of N&J ’s algorithm is :
+O(degree(A) + degree(B) + degree(A) degree(B) O(TEDRec))
+–
+Where O(TEDRec) represents the complexity of the algorithm’s recursive calls
+– Which simplifies to O(|A| |B|) since the algorithm will be recursively called once 
+for each pair of vertices at the same depth in the input trees A and B
+Overall algorithm complexity simplifies to O(N2)
+• With N = max{|A|,|B|}
+•
+The space complexity of N&J’s algorithm is also O(|A||B|)
+–
+Which corresponds to the memory size required to store all edit distance matrixes
+•
+The algorithm is of quadratic complexity with respect to tree size
+–
+It is linearly dependent on the size of each tree
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.9. Complexity Analysis
+•
+Note that while both N&J and Chawathe’s approaches have the same complexity levels
+– Nonetheless, N&J’s process induces additional overhead due to:
+•
+N&J’s recursive  calls for every 
+pair of nodes at the same level 
+in the trees 
+•
+Computing tree edit operations 
+costs and evaluating the contained‐in 
+relation for every sub‐tree 
+in the source and destination
+trees being compared
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+Time experiments reported from [1] 
+[1] Tekli et al., A Novel XML Structure Comparison Framework based on Sub‐tree Commonalities and Label Semantics, 
+Elsevier Journal of Web Semantics (JWS): Science, Services, and Agents on the World Wide Web, 11: 14‐40, 2012.
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.10. Discussion
+•
+N&J allows detecting structural similarities between document trees
+•
+Which were previously missed by Chawathe’s approach
+•
+N&J allows preserving structural properties of document trees during comparison
+•
+Which were partially disregarded by Chawathe’s approach
+•
+N&J shares the same complexity levels with Chawathe’s approach
+•
+Yet induces a significant time overhead
+•
+Certain tree structural similarities remain undetected using N&J’s method
+–
+Repetitions of structurally similar sub‐trees
+–
+Repetitions of leaf node sub‐trees, among other cases…
+As briefly described in the following examples 
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+77
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.10. Discussion
+Case 1: Considering document trees C, D, and E
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+a
+b
+c
+d
+a
+b
+c
+d
+a
+Doc tree C
+Doc tree F
+Doc tree G
+h
+e
+f
+g
+h
+b
+c
+d
+h
+b
+c
+d
+h
+b
+c
+d
+b
+c
+d
+A1
+D1
+D2
+E1
+E2
+The contained‐in relations are not fulfilled! 
+TEDN&J(C, F) = TEDN&J(C, G) = 5
+7/11/2023
+78
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Tree Edit Distance
+3.3. Nierman & Jagadish Approach
+3.3.10. Discussion
+Case 2: Considering document trees M, N, and P
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+a
+c
+d
+Doc tree M
+b
+c
+Unable to detect leaf node repetitions…
+TEDN&J(M, N) = TEDN&J(M, P) = 4
+a
+c
+d
+b
+c
+c
+d
+b
+c
+c
+d
+b
+c
+Doc tree N
+a
+c
+d
+b
+c
+c
+d
+d
+e
+c
+d
+f
+g
+Doc tree P
+Undetected similarities are addressed in subsequent solutions, namely [1]
+[1] Tekli et al., A Novel XML Structure Comparison Framework based on Sub‐tree Commonalities and Label Semantics, 
+Elsevier Journal of Web Semantics (JWS): Science, Services, and Agents on the World Wide Web, 11: 14‐40, 2012.
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+•
+The use of semi‐structured similarity ranges over a wide spectrum of applications :
+– Semi‐structured data versioning and data warehousing
+• Querying the past,  querying and monitoring changes, archiving and mirroring
+– Semi‐structured data classification
+– Semi‐structured data clustering
+– Semi‐structured data integration
+– Approximate semi‐structured data querying
+– Selective dissemination of semi‐structured data
+– Alert filtering in intrusion detection systems
+– Web Service matching and SOAP/REST processing
+– …
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+80
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.1. Data Versioning and Data Warehousing
+•
+Data warehouse: central repository of integrated data from one or more disparate data 
+sources (e.g., databases)
+–
+It stores current and historical data  for trend reporting and data analysis 
+•
+XML versioning: storing different versions of the semi‐structured data [1]
+–
+Support for the control of changes in a warehouse of semi‐structured documents
+•
+Main requirement: a TED‐based measure
+– Which is also identified here as a differencing algorithm, or diff
+• A similarity measure that provides edit scripts, also identified here as deltas or diffs
+•
+Deltas/Diffs offer means for change detection and representation between documents
+–
+Resembling traditional logs in database systems
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+[1] Marian A.; Abiteboul S. and Mignet L., Change‐Centric Management of Versions in an XML Warehouse. Proceedings 
+of the International Conference on Very Large Data Bases (VLDB), pp. 581‐590, 2001.
+
+
+===PAGE BREAK===
+
+Engineering
+Doc0
+Doc1
+Doc2
+Docn
+t0
+t1
+tn
+t2
+Doc0
+t0
+t1
+Diff01
+Diff12
+t2
+Diffn-1, n
+tn
+Diff23
+t3
+Doc0
+t0
+t1
+Diff01
+Diff02
+t2
+Diff03
+t3
+Diff0, n
+tn
+Doc2
+t3
+…
+…
+…
+
+
+===PAGE BREAK===
+
+Engineering
+Doc0
+Doc1
+Doc2
+Docn
+t0
+t1
+tn
+t2
+t0
+t1
+t2
+tn
+t3
+t0
+t1
+t2
+t3
+tn
+Diff10
+Diff21
+Docn
+Diff32
+Diff43
+Diffn, n-1
+Diffn0
+Docn
+Diffn1
+Diffn2
+Diffn3
+Diffn, n-1
+Doc2
+t3
+…
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.1. Data Versioning and Data Warehousing
+•
+Data versioning: storing different versions of the data generated at different times
+1. Basic approach: storing different versions of a semi‐structured document (grammar)
+–
+Given document D created at time t0, which we designate as version V0
+•
+Pro: Easy access to versions produced at any time interval
+•
+Cons:   ‐ Need for huge storage capacity
+‐ Data redundancy, which can slow down data access
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+84
+J. TEKLI – joe.tekli@lau.edu.lb
+V1
+V2
+Vn
+tn
+t2
+t1
+Time
+Versions
+V0
+t0
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.1. Data Versioning and Data Warehousing
+•
+There exist different strategies to perform differencing:
+2. Storing the original (oldest) version of the document, with subsequent deltas
+‐ The delta between versions Vi and Vj, Diff(Vi, Vj), is noted Diffi‐j
+– Patching is applied to produce version Vi based on original version V0
+• By composing corresponding deltas, i.e., Diff0‐i = Diff0‐1 Diff1‐2 … Diffi‐1 ‐ i
+•
+Pro: Intuitive straightforward solution based on TED logic
+•
+Cons:  ‐ Additional processing required to patch original version with deltas
+‐ Additional processing required to compose deltas
+Impeding both data production and access time
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+Diff0‐1
+Diffn‐1 ‐ n
+tn
+t2
+t1
+V0
+t0
+Diff1‐2
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.1. Data Versioning and Data Warehousing
+•
+Differencing approach: using a TED‐based solution, following different strategies:
+3. Storing the latest (newest) version of the document, with previous deltas
+‐ The delta between versions Vi and Vj, Diff(Vi, Vj), is noted Diffi‐j
+•
+Pros:   ‐ Direct access to latest version of the data (needed most frequently)
+‐ Less time to compute deltas (no need for unnecessary patching)
+•
+Con: Accessing earlier versions requires computing the inverse of the delta, which:
+– Requires additional processing time
+– Is not straightforward since it involves a risk of information loss
+Bi‐directional deltas are required 
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+Diff0‐1
+tn
+t2
+t1
+Diff1‐2
+Vn
+t0
+‐
+Diffn‐2 – n‐1
+tn‐1
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.1. Data Versioning and Data Warehousing
+•
+Differencing approach: using a TED‐based solution, following different strategies:
+–
+Other strategies can be considered, e.g.:
+4. Storing the initial version and composite deltas
+5. Storing the latest version with backward deltas
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+Diff0‐1
+Diff0‐ n
+tn
+t2
+t1
+V0
+t0
+Diff0‐2
+Diff2‐1
+tn
+t2
+t1
+Diff3‐2
+Vn
+t0
+Diffn‐1 – n
+tn‐1
+Diff1‐0
+7/11/2023
+87
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.1. Data Versioning and Data Warehousing
+4.1.1 Temporal Querying
+•
+One may want to view or access a particular version of a document 
+– Which was available at a particular time
+• For instance, an earlier version of a web page
+•
+Standard use of versions, namely recording history 
+– Obtain an old version of a document, by asking a query about the past 
+Ask for the value of some semi‐structured data element at some previous time
+•
+The deltas can be stored as semi‐structured documents
+Temporal queries become regular queries over documents
+‐ Different semi‐structured diff output formats exist: DeltaXML, XyDiff, and SDL [1]
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+[1]  Tekli J., Damiani E., and Chbeir R., Using XML‐Based Multicasting to Improve Web Service Scalability.
+International Journal on Web Service Research, 9(1): 1‐29 (2012)
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.1. Data Versioning and Data Warehousing
+4.1.2 Querying and Monitoring Changes
+•
+One may want to query changes applied to the document 
+– E.g., ask for the list of items recently introduced in a document
+Querying the deltas themselves 
+•
+Detecting changes of interest in semi‐structured documents
+–
+E.g., that an element has been added to a document, or has been deleted
+– At the time the delta is computed, the system verifies for each atomic change 
+whether this change is monitored by some subscription
+• E.g., the insertion of a new item in the document, a deletion of a given item, etc. 
+Basis for query subscription and notification systems [1]
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+[1]  Nguyen B.; Abiteboul S.; Cobena G. and Preda M., Monitoring XML Data on the Web. Proceedings
+of the ACM International  Conference on Management of Data (SIGMOD), 2001. pp. 437‐448.
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.1. Data Versioning and Data Warehousing
+4.1.3 Mirroring and Archiving
+•
+Popular Web and FTP servers often have dozens of mirror sites around the world
+– Changes made to the master server need to be propagated to the mirror sites
+– Basic approach: users or programs making changes keep a record of updated data
+Need for diff algorithms that compute and propagate only the difference 
+between the data version at the server and that at a mirror site
+‐ Reduce the amount of data transmitted over a network
+•
+Archiving using TED approaches means storing the sequence of deltas before a certain 
+date to archive corresponding semi‐structured data
+Saving storage space
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+90
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.2. Classification
+•
+Classification, a.k.a categorization or labeling: identifying an output value based on 
+input data, by mapping inputs to desired outputs (categories or labels)
+– Determining what class (category or label) an entity belongs to
+• Usually after analyzing a number of (pre‐classified) examples
+•
+Scenario:  consider a number of heterogeneous databases that exchange semi‐
+structured documents with each other on the Web
+– Each database representing and indexing the local documents according to a set of 
+predefined grammars
+• Documents exchanged/introduced in a given database are matched, via structural 
+similarity 
+– Against the local  grammars in the database
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+91
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.2. Classification
+Main process: 
+•
+Compare an input document with each class, which can be described using:
+–
+A representative semi‐structured document
+–
+A representative document grammar
+–
+A group of semi‐structured docs/grammars
+•
+The match resulting in the highest similarity value is considered as: best match
+–
+The input document is then added to the corresponding class
+•
+Considering a similarity threshold: ThreshSim
+–
+If  Sim(Doc, Classi) < ThreshSim , then a new class is created, made of the input document
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+Class 1
+Class 2
+Class n
+…
+Doc
+Input
+document
+Pre‐defined
+classes
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.2. Classification
+•
+Different classification algorithms exist in the literature [1]
+–
+A.k.a. supervised learning algorithms
+‐ Instance‐based learning (involving similarity computation)
+‐ E.g., k nearest neighbor (kNN) algorithm
+‐ Decision Lists and Trees
+‐ Support Vector Machines
+‐ Bayesian networks
+‐ Neural networks
+‐ Ensemble methods
+‐ Combining multiple (weak) classifiers to form a more sophisticated one
+‐ E.g., majority voting, probability mixture, rank‐based combination
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+[1] Kotsiantis S.B., Supervised Machine Learning: A Review of Classification Techniques. Informatica, 31(3): 249‐268, 2007
+Covered in more detail in 
+Intelligent Engineering Algorithms 
+course (COE 544/744)
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.3. Clustering
+•
+Clustering, a.k.a. unsupervised learning: discovering and describing the organization    
+of input data with no a priori information on the output
+–
+It can be viewed as classification with no pre‐defined categories
+•
+Scenario: Organizing a repository of heterogeneous semi‐structured documents 
+(grammars) into sub‐groups, i.e., clusters, having similar characteristics 
+– Grouping similar documents together can improve data storage indexing
+• And thus positively affect the retrieval process
+– If two documents/elements are similar, it is likely that they both either satisfy or 
+not a given query
+– Therefore, when grouped together, similar documents/elements would be much 
+easier to retrieve than when scattered at different locations in the storage device
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+94
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.3. Clustering
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+95
+J. TEKLI – joe.tekli@lau.edu.lb
+Why would we want to cluster?
+Any real applications?
+
+
+===PAGE BREAK===
+
+Engineering
+4.3. Clustering
+•
+Example: Image clustering
+–
+Based on low‐level features such as: color, texture, and shape
+96
+J. Tekli – joe.tekli@lau.edu.lb
+7/11/2023
+Input unlabeled data
+Data clustered in 5 groups
+Identifying 5 clusters of similar images
+Without any
+previous knowledge 
+about data organization
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.4. Data Integration
+•
+Semi‐structured documents from different data sources might contain nearly or exactly 
+the same information but might be constructed using different structures
+– Even if two documents express similar contents, each of them may have some extra 
+information w.r.t. to the other
+Need for an effective similarity measure to integrate such data sources
+– So that the user can easily access and acquire more complete information
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+Merging
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.4. Data Integration
+•
+Data integration task consists of two main steps:
+1. Similarity evaluation: performing an approximate join between data
+• Given two data sources, S1 and S2, a similarity threshold ThreshSim, and a similarity function 
+Sim(d1, d2) between two documents d1 (from S1) and d2 (from S2)
+• Output mapping between all pairs of documents (d1, d2) such that Sim(d1, d2) ThreshSim
+2. Data merging: Paired documents are merged together to form unified views
+• Differencing (TED) techniques are particularly useful here
+– Processing the edit script (diff/delta) to identify commonalities and differences 
+between the paired documents
+– These provide a mapping between document trees used to perform merging
+‐ Given predefined merging rules (e.g., given two identical nodes, eliminate one 
+and preserve the other)
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+7/11/2023
+98
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+Example: Producing mapping based on edit script (diff/delta)
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+Paper
+Author
+FirstName
+LastName
+Author
+First
+Last
+Editor
+Affiliation
+Name
+Publication
+Tree D
+Tree T
+Upd(D[0], T[0])
+Initial match
+Upd(D4], T3])
+Upd(D[2], T[2])
+InsTree(T2)
+D1
+T2
+T1
+LastName
+Middle
+
+
+===PAGE BREAK===
+
+Engineering
+Example: Sample merging rules
+•
+R1: Given matching nodes with identical labels, preserve one and eliminate the other
+•
+R2: Given matching nodes with different labels, and given that one label is syntactically 
+included in another, preserve the encompassing label and eliminate the included one
+•
+R3: Given matching nodes with different labels, and given that the semantic meaning of one 
+label encompasses (is more general than) the semantic meaning  of the other, preserve the 
+more general label and eliminate the more specific one
+•
+…
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+Paper (D):Publication (T)
+Author
+FirstName
+LastName
+Editor
+Affiliation
+Name
+Merged tree
+Middle
+7/11/2023
+100
+J. TEKLI – joe.tekli@lau.edu.lb
+Based on
+previous
+mapping
+
+
+===PAGE BREAK===
+
+Engineering
+4. Applications of TED‐based Similarity
+4.5. Approximate Querying
+•
+Efficient retrieval of semi‐structured documents becomes more and more important
+–
+With the increasing use of semi‐structured data, specifically on the Web
+•
+The DB community has proposed several languages for querying semi‐structured data
+–
+Including XML‐QL, XQL and XQuery
+Based on exact matching and do not support ranked queries
+•
+Several attempts have been made to extend these query languages, using similarity‐
+based processing, in order to allow ranked results
+1.
+Comparing query data (documents/fragments/elements) with  document collection
+2.
+Returning data which similarity with query data is above user chosen ThreshSim
+3.
+Results are ranked based on similarity
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+Covered in more detail in Chapter 5
+
+
+===PAGE BREAK===
+
+Engineering
+7/11/2023
+102
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+Questions?
+
+
+===PAGE BREAK===
+
+Engineering
+Exercises and Tutorials
+•
+Provided by the instructor during lecture sessions
+7/11/2023
+103
+J. TEKLI – joe.tekli@lau.edu.lb
+1st project assignment
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity
+
+
+===PAGE BREAK===
+
+Engineering
+Main References
+•
+Algergawy A.S., Nayak R., and Mesiti M., XML data clustering: An overview. ACM Computing 
+Surveys (CSUR), 43(4), 2011
+•
+Marian A.; Abiteboul S. and Mignet L., Change‐Centric Management of Versions in an XML 
+Warehouse. Proceedings of the International Conference on Very Large Data Bases (VLDB), pp. 
+581‐590, 2001
+•
+Nguyen B.; Abiteboul S.; Cobena G. and Preda M., Monitoring XML Data on the Web. Proceedings 
+of the ACM International  Conference on Management of Data (SIGMOD), 2001. pp. 437‐448
+•
+Tekli J.; Chbeir R.; and Yetongnon K., An Overview of XML Similarity: Background, Current Trends 
+and Future Directions. Elsevier Computer Science Review, 3(3):151‐173, 2009
+•
+Tekli et al., A Novel XML Structure Comparison Framework based on Sub‐tree Commonalities and 
+Label Semantics, Elsevier Journal of Web Semantics (JWS): Science, Services, and Agents on the 
+World Wide Web, 11: 14‐40, 2012.
+•
+Tekli J., Chbeir R., Minimizing user effort in XML grammar matching. Elsevier Information 
+Sciences Journal, 210: 1‐40, 2012
+•
+Tekli J., Damiani E., and Chbeir R., Using XML‐Based Multicasting to Improve Web Service 
+Scalability. International Journal on Web Service Research, 9(1): 1‐29, 2012
+Intelligent Data Processing and Applications 
+Ch. 5 ‐ Structural Similarity

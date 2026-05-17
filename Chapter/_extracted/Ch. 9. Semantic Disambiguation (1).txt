@@ -1,0 +1,1806 @@
+Lebanese American University
+www.lau.edu.lb
+www.lau.edu.lb/ece
+School of Engineering
+Department of Electrical &
+Computer Engineering
+Chartered in the State of New York
+Intelligent Data Processing and Applications
+Joe M. Tekli, PhD
+Computer Software Engineering
+Chapter 9 -  Semantic Disambiguation
+COE 543/743
+
+
+===PAGE BREAK===
+
+Engineering
+4/14/2026
+2
+J. Tekli – joe.tekli@lau.edu.lb
+Chapter Contents
+1. Introduction
+2. Brief History
+3. Applications
+4. Traditional WSD
+5. WSD for Semi-structured Data
+6. Challenges and Ongoing Directions
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+Word Sense Disambiguation(WSD) is the task of assigning the correct meaning 
+to a word given its context
+–
+Since a word can have multiple meanings: polysemy
+•
+Example:
+– The word date can be assigned different meanings:
+1. Larry took Daisy out on a date 
+2. Larry’s favorite fruit to eat is a date
+• In the first sentence, the meaning of the word date is a social engagement 
+• In the second sentence,  the word date is a fruit 
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+3
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+Humans are quite good when it comes to WSD, ranking above 90% accuracy
+– Machine WSD accuracy remains lower than human WSD accuracy
+•
+Replicating this human ability using algorithms can be quite a demanding and 
+difficult task
+•
+Solving this problem benefits many computer-related applications 
+–
+Such as improving search engine relevance, speech recognition, and language translations 
+ 
+ 
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+4
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Brief History
+•
+WSD is one of the oldest problems in computation linguistics that dates back 
+to the 40s
+•
+Introduced by Warren Weaver, a pioneer of the 
+machine translation 
+•
+WSD was believed, by early researchers, 
+to be unsolvable by electronic computers 
+due to the necessity of having to model 
+all knowledge 
+•
+In the 1970, WSD systems were still very primitive as they were:
+– Hand coded
+– Rule based (if-then statements)
+ 
+ 
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+5
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Brief History
+•
+In the 1980s, the emergence of large-scale lexical resources enabled the 
+switch from hand-coded knowledge to automatic knowledge extraction 
+from these resources
+•
+In the 1990s, knowledge-based solutions helped improve of WSD
+– Corpus-based techniques were picking up
+•
+In the 2000s, knowledge-based and supervised learning solutions reached 
+human-like accuracy levels, and other methods emerged such as domain 
+adaptation, semi-supervised, and unsupervised word embedding solutions
+•
+Hybrid systems are currently trending, combining knowledge-based and 
+corpus-based techniques
+ 
+ 
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+6
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Applications
+•
+WSD is not a standalone application
+– It is an intermediate task which is not an end in itself
+• Necessary to accomplish most NLP tasks
+– Machine translation
+– Information retrieval
+– Content and thematic analysis
+– Grammatical analysis
+– Named entity resolution
+– Text classification
+– …
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+7
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Applications
+•
+Machine Translation: Words that have different translations for 
+different senses
+– Example: Translate the French word “grille”
+• In English, it can be: railings, gate, bar, grid, scale, schedule, etc.
+– Example: Translate the English word “change”
+• In French, it can be: changement ('transformation') or monnaie ('pocket
+money')
+– Example: Translate the Italian word “penna”
+• In English, it can be: feather, pen or author
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+8
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Applications
+•
+Information Retrieval:  The need to eliminate occurrences in 
+documents where the words are used in an inappropriate sense
+•
+Example: Find all Web Pages about “depression”
+• The illness, weather systems, or economics!?
+•
+Example: Find all Web Pages about “cricket”
+• The sport or the insect?
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+9
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Applications
+•
+Named entity resolution: the classification of target textual items into 
+predefined categories
+– Using a predefined set of parts of speech classes
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+10
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Applications
+•
+Text categorization: the assignment of predefined labels to target texts
+– Using a predefined set of parts of text categories
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+11
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+•
+WSD usually targets flat text
+– Underlines the process of computationally identifying the senses (i.e., 
+semantic concepts designating the meanings) of words in context
+• To discover the author’s intended meaning 
+•
+Aims at identifying the semantic meaning of data formulated with 
+(possibly) different wordings and syntactic styles
+– Different from traditional text mining techniques (e.g., lexical pattern 
+discovery, syntactic dependency, co-occurrence) which mainly capture 
+the lexico-syntactic nature of text
+• They barely go beyond the surface appearance of words
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+12
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+•
+The general WSD task consists of the following main elements:
+1.
+Selecting words for disambiguation
+2.
+Identifying and representing word contexts 
+3.
+Using reference knowledge sources 
+4.
+Associating senses with words
+5.
+Evaluating semantic similarity between senses
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+13
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.1. Selecting Words for Disambiguation
+•
+Two methods to select target words for disambiguation:
+– All-words: the system is expected to disambiguate all words in a (flat) 
+textual document
+• Although considered as a complete and exhaustive approach, yet the all-
+words approach remains extremely time-consuming
+– Lexical-sample: specific target words are selected for disambiguation 
+(usually one word per sentence) 
+• Often the most ambiguous words, chosen using supervised learning 
+methods trained to recognize salient words in sentences
+– More useful and efficient in practice 
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+14
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.2. Identifying and Representing Context
+•
+WSD relies on the notion of context such that words that appear together 
+in the same context usually have related meanings
+•
+The context of a word in traditional flat textual data usually consists of the 
+set of terms in the word’s vicinity
+– Terms occurring to the left and right of the considered word, within a certain 
+predefined window size
+•
+Other features can also be used to describe context, such as information 
+resulting from linguistic pre-processing:
+–
+Part-of-speech tags (e.g., verb, subject, etc.), grammatical relationships (e.g., verb-
+subject, verb-object, etc.) 
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+15
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.2. Identifying and Representing Context
+•
+Once the context has been identified, it has to be effectively represented 
+to perform disambiguation computations
+•
+The traditional bag-of-words paradigm is broadly adopted with flat textual data
+–
+Where the context is processed as a set of terms surrounding the word to disambiguate
+–
+A vector representation considering the number of occurrences of words in context can also be used
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+16
+J. TEKLI – joe.tekli@lau.edu.lb
+Ｗ１
+5 words
+5 words
+W1 ={2, 1, …, 4}
+Context feature vector
+Lexical Context
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.3. Using Reference Knowledge Sources
+•
+External knowledge is essential to perform WSD
+– We distinguish between corpus-based and knowledge-based
+– Corpus-based: 
+• Data-driven, involving information about words previously disambiguated
+• Requires supervised learning from sense-tagged corpora (e.g., SemCor 
+[124] and OntoNotes [143])
+– Where words/expressions have been associated with explicit semantic 
+meaning, to enable predictions for new words
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+17
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.3. Using Reference Knowledge Sources
+•
+External knowledge is essential to perform WSD
+– We distinguish between corpus-based and knowledge-based
+– Corpus-based: 
+• Data-driven, involving information about words previously disambiguated
+• Requires supervised learning from sense-tagged corpora (e.g., SemCor1 
+and OntoNotes2)
+– Where words/expressions have been associated with explicit semantic 
+meaning, to enable predictions for new words
+– A sense here underlines a labeled semantic category to be used in supervised 
+learning
+-  It could be a formal semantic concept defined in a knowledge base (KB)
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+18
+1 https://www.gabormelli.com/RKB/SemCor_Corpus
+2 https://catalog.ldc.upenn.edu/LDC2013T19
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.3. Using Reference Knowledge Sources
+•
+External knowledge is essential to perform WSD
+– We distinguish between corpus-based and knowledge-based
+– Corpus-based: 
+• A more restrictive view of corpus-based methods is as word sense 
+induction
+– It seeks to automatically identify so-called implicit senses, i.e., unlabeled semantic 
+categories (designating the uses) of target words in a raw (unlabeled) corpus (e.g., the 
+Brown corpus 1
+– Methods in this category rely exclusively on corpus data where word relationships are 
+derived from their contextualization and co-occurrence in the corpus itself
+– They cluster words with similar corpus statistics, producing an implicit sense inventory 
+made of unlabeled word categories (clusters), where each category is an implicit sense 
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+1 https://www1.essex.ac.uk/linguistics/external/clmt/w3c/corpus_ling/content/corpora/list/private/brown/brown.html
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.3. Using Reference Knowledge Sources
+•
+External knowledge is essential to perform WSD
+– We distinguish between corpus-based and knowledge-based
+– Corpus-based: 
+• While corpus-based methods have been popular in recent years, yet:
+– They are generally data hungry 
+– They require extensive training
+– They require  huge text corpora, or considerable amount of manual effort to 
+produce a relevant sense-annotated corpus
+-  Which are not always available or feasible in practice!
+• In addition, with corpus-based statistical approaches, the “true” 
+understanding of words is hardly obtainable
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+1 https://www1.essex.ac.uk/linguistics/external/clmt/w3c/corpus_ling/content/corpora/list/private/brown/brown.html
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.3. Using Reference Knowledge Sources
+•
+External knowledge is essential to perform WSD:
+– Knowledge-based:
+• Knowledge-driven, handling a structured (and explicit) sense inventory 
+• Machine-readable KBs (dictionaries, thesauri, and/or lexical ontologies, e.g., 
+WordNet1, and Yago2) provide ready-made sources for knowledge-based 
+WSD
+– Since words are evaluated according to their statistical distribution in a corpus, 
+often capturing syntactic or stylistic factors instead of semantic meaning
+• Therefore, knowledge-based methods have been receiving more attention 
+lately, and include most semi-structured disambiguation solutions
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+21
+1 https://wordnet.princeton.edu/
+2 https://yago-knowledge.org/
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.4. Associating Senses with Words
+•
+The culminating step in WSD is to associate senses with words
+– This is usually viewed as a word-sense classification task
+• We distinguish between supervised or unsupervised
+– Supervised methods:
+• Involve the use of machine-learning techniques
+– A human expert manually annotates examples of words with the intended sense 
+in context, where each sense underlines a labeled semantic category
+» Provided as training data for a learning algorithm
+– The algorithm induces rules for assigning meanings to the words
+» External knowledge (mainly corpus-based) is used
+» Combined with the human experts’ own knowledge of word senses when 
+manually tagging the training examples
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+22
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.4. Associating Senses with Words
+•
+The culminating step in WSD is to associate senses with words
+– This is usually viewed as a word-sense classification task
+• We distinguish between supervised or unsupervised
+– Unsupervised methods:
+• Usually fully automated and do not require human intervention or training
+• Make use of a machine-readable knowledge bases (KBs, e.g., WordNet) 
+• Identify the semantic concept (word sense), in the reference KB, that best 
+matches the semantic concepts (word senses) of terms appearing in the 
+context of the target word
+– Semantic concept matching is usually performed using a measure of 
+semantic similarity between concepts in the reference semantic network
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+23
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.4. Associating Senses with Words
+•
+While supervised methods are effective, yet they require
+– A learning phase which is highly time-consuming
+– A reliable training dataset with a wide coverage 
+• Which is  not always available!
+– Refer to corpus-based approaches in Section 4.3
+•
+In the following, we will mainly focus on:
+– Unsupervised and knowledge-based approaches
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+24
+4/14/2026
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.4. Associating Senses with Words
+•
+Lesk’s algorithm 
+o Created by Michael Lesk in 1986
+o Choose the word sense whose definition has maximum overlap with the 
+definitions of  each of the context words
+•
+Example: Need to disambiguate keyword query  pine cone
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+25
+2 word senses for pine
+#1  kinds of evergreen tree
+with needle-shaped leaves
+#2  waste away through sorrow or illness
+3 word senses of cone
+#1  solid body which narrows to a point
+#2  something of this shape whether solid or hollow
+#3  fruit of a certain evergreen tree
+Sense inventory contains
+2 word senses for pine and
+3 word senses for cone
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.4. Associating Senses with Words
+•
+Example: Need to disambiguate keyword query  pine cone
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+26
+2 word senses for pine
+#1  kinds of evergreen tree
+with needle-shaped leaves
+#2  waste away through sorrow or illness
+3 word senses of cone
+#1  solid body which narrows to a point
+#2  something of this shape whether solid 
+or hollow
+#3  fruit of a certain evergreen tree
+Using gloss-based overlap similarity:
+-
+overlap(pine#1, cone#1)= overlap(pine#2, cone#1)= overlap(pine#1, cone#2) = 0
+-
+overlap(pine#2, cone#2) = overlap(pine#2, cone#3) = 0
+-     overlap(pine#1, cone#3) = {evergreen + tree} = 2
+ pine#1 and cone#3 are selected!
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+2 × 3
+similarities
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.4. Associating Senses with Words
+o Problem with Lesk’s algorithm:
+o Combinatorial explosion of possible word sense combinations when more 
+than two/three-word sentences are considered
+o
+Example: "I saw a man who is 98 years old and can walk and tell jokes.“
+–  Several possible senses for ambiguous words: see(26), man(11), year(4), 
+old(8), can(5), still(4), walk(10), tell(8), joke(3)
+ 
+ 
+ 
+ 
+ 
+ 
+   43,929,600 sense combinations !!
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+27
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Led to Simplified Lesk algorithm
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.4. Associating Senses with Words
+o Simplified Lesk algorithm
+o Disambiguating target ambiguous words in the input text 
+o Regardless of the meaning of the other words occurring in the same context
+o No need to perform disambiguation of all text!
+o Correct meaning of each word is determined by finding the sense that 
+leads to the highest overlap between:
+o Its dictionary definition and
+o The current context of the word in text
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+28
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.4. Associating Senses with Words
+o Simplified Lesk algorithm
+Example: The  bank  profits from the difference between the level of interest it 
+pays for deposits, and the level of interest it charges in its lending activities.
+   
+    - Target word: bank
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+29
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+2 word senses for bank
+#1 
+sloping land (especially the 
+slope beside a body of water)
+#2  a financial institution that accepts 
+deposits and channels the money into 
+lending activities
+Using gloss-overlap similarity:
+•
+overlap(bank#1, context) = 0
+•
+overlap(bank#2, context) = {deposits + 
+lending + activities} = 3
+ bank#2 is selected!
+2 × 1
+similarities
+
+
+===PAGE BREAK===
+
+Engineering
+4. Traditional WSD
+4.4. Associating Senses with Words
+o Simplified Lesk algorithm
+Example: The  bank  profits from the difference between the level of interest it 
+pays for deposits, and the level of interest it charges in its lending activities.
+   
+    - Target word: bank
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+30
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+2 word senses for bank
+#1 
+sloping land (especially the 
+slope beside a body of water)
+#2  a financial institution that accepts 
+deposits and channels the money into 
+lending activities
+Using gloss-overlap similarity:
+•
+overlap(bank#1, context) = 0
+•
+overlap(bank#2, context) = {deposits + 
+lending + activities} = 3
+ bank#2 is selected!
+2 × 1
+similarities
+
+
+===PAGE BREAK===
+
+Engineering
+5. WSD of Semi-structured Data
+•
+Main challenges of semi-structured data processing:
+– Document element/attribute tag names and values are 
+ 
+subjectively defined
+– Heterogeneous data sources could represent similar data
+– The same real world entity can be described using different structures 
+and/or tagging
+ 
+ 
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+31
+J. TEKLI – joe.tekli@lau.edu.lb
+Need to consider structural & lexical properties
+ Semi-structured Semantic Ambiguity
+
+
+===PAGE BREAK===
+
+Engineering
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+32
+J. TEKLI – joe.tekli@lau.edu.lb
+Celestial body?
+Champion?
+Plane figure with 5 points?
+Lead actor?
+Star network topology?
+<star>
+<first_name> James </firstName>
+<last_name> Stewart </last_name>
+<star>
+ Different possible meanings/senses exist
+- Following a lexical reference such as WordNet 
+≠ senses
+Need for context information!
+Example 1: Ambiguity of tags
+
+
+===PAGE BREAK===
+
+Engineering
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+33
+J. TEKLI – joe.tekli@lau.edu.lb
+Example 2: How to process context?
+<?xml version=“1.0”?>
+<films>
+    <picture id=“301”>
+        <title> Rear Windom </title>
+        <director> 
+              <first_name> Alfred </firstName>
+<last_name> Hitchkock </last_name>
+</director>
+        <year> 1964 </year>
+        <cast>
+              <star> 
+<first_name> James </firstName>
+<last_name> Stewart </last_name>
+ 
+     </star>
+              <star> 
+                  <first_name> Grace </firstName>
+<last_name> Kelly </last_name>
+</star>
+        </cast>
+    </picture>
+</films>
+Lead actor
+
+
+===PAGE BREAK===
+
+Engineering
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+34
+J. TEKLI – joe.tekli@lau.edu.lb
+Example 3: Different tags and structures describing the same information…
+<?xml version=“1.0”?>
+<films>
+  <picture id=“301”>
+    <title> Rear Windom </title>
+    <director> 
+       <first_name> Alfred </firstName>
+<last_name> Hitchkock </last_name>
+    <year> 1964 </year>
+    <genre> Thriller </genre>
+    <cast>
+      <star> 
+<first_name> James </firstName>
+<last_name> Stewart </last_name>
+     </star>
+      <star> 
+         <first_name> Grace </firstName>
+<last_name> Kelly </last_name>
+</star>
+    </cast>
+  </picture>
+</films>
+<?xml version=“1.0”?>
+<Movies>
+  <Movie year= “1954”>
+   <Name> Rear Window </Name>
+   <Directed_By>Hitchcock</Directed_By>
+   <Actors>
+     <Actor>                            
+        <FirstName>Grace</FirstName>
+        <LastName>Kelly</LastName>
+      </Actor>
+      <Actor>
+        <FirstName>James</FirstName>
+        <LastName>Stewart</LastName>
+   
+</Actor>
+   </Actors> 
+ </Movie>                         
+</Movies>
+≠ ?
+
+
+===PAGE BREAK===
+
+Engineering
+5. WSD of Semi-structured Data
+•
+Core problem
+• Synonymy: several terms have the same meaning
+• Hyponymy: a term has several meanings
+• Metonymy: a term implies others
+• Hypernymy: a term inherits the meaning of another
+• Derivation: a term is derived from another 
+• Etc.
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+35
+How to resolve semi-structured semantic ambiguity
+- Semi-structured element/attribute tag names and values
+How to process semi-structured context
+- Considering document structure
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. WSD of Semi-structured Data
+•
+Goal: Performing semi-structured semantic analysis and disambiguation
+•
+Main objectives:
+– Augmenting semi-structured syntactic information 
+• With a semantic description from a lexical reference
+– I.e., Wordnet commonly used for WSD
+– Taking into account the structural properties of the data
+– Allowing the user to fine-tune the process
+• Following her needs
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+36
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. WSD of Semi-structured Data
+5.1. Limitations of Traditional Solutions
+•
+Few approaches target semi-structured semantic-aware analysis
+– Extended from traditional flat text WSD
+•
+Motivation 1: Ignoring semantic ambiguity
+– Running disambiguation on all semi-structured nodes (all-words)
+ Time consuming and needless
+– Rather than only processing those nodes which are most ambiguous 
+(lexical-sample)
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+37
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+•
+Motivation 2: Partially considering structure
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+38
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+<?xml version=“1.0”?>
+<films>
+    <picture id=“301”>
+        <title> Rear Windom </title>
+        <director> 
+              <first_name> Alfred </firstName>
+<last_name> Hitchkock </last_name>
+</director>
+<year> 1964 </year>
+        <genre> Thriller </genre>
+        <cast>
+              <star> 
+<first_name> James </firstName>
+<last_name> Stewart </last_name>
+ 
+     </star>
+        </cast>
+    </picture>
+</films>
+.
+Context?
+
+
+===PAGE BREAK===
+
+Engineering
+•
+Motivation 2: Partially considering structure
+– Different context models have been considered:
+• Parent node context  [1, 2]
+• Root-path context [3, 4]
+• Sub-tree context [5]
+• Versatile structure context [6]
+– Identifying crossable edges using a Gaussian decay function
+Convoluted and intricate mathematical model
+    - Designed for general structured data
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+39
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Limited coverage
+
+
+===PAGE BREAK===
+
+Engineering
+•
+Motivation 3: Neglecting structure in processing context
+– Using the bag-of-words paradigm 
+• Which considers a set of equivalent context nodes
+– Yet, structure affects the impact of context nodes
+- Based on their position in the document tree
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+40
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+cast
+picture
+star
+star
+films
+Stewart
+Kelly
+plot
+…
+cast
+DOM tree
+representation
+
+
+===PAGE BREAK===
+
+Engineering
+5. WSD of Semi-structured Data
+5.1. Limitations of Traditional Solutions
+•
+Motivation 4: Existing methods are mostly static
+– Adopting a fixed context size (e.g., parent node, or root path)
+– Using preselected semantic similarity measures (e.g., edge-based 
+measure, or gloss-based measure)
+ User involvement/system adaptability is minimal
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+41
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. WSD of Semi-structured Data
+5.2. Proposed Solution
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+42
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Query
+Processing
+Syntactic
+Doc Tree
+Doc Tree
+Semantic
+Doc Tree
+Semi-structured 
+Semantic Disambiguation
+Document Tree Parsing
+
+
+===PAGE BREAK===
+
+Engineering
+5. WSD of Semi-structured Data
+5.2. Proposed Solution
+5.2.1. Linguistic Pre-processing
+•
+General process: i) tokenization, ii) stop word removal, iii) stemming
+•
+We consider 3 possible inputs:
+– Element/attribute tag names consisting of individual words
+– Element/attribute tag names consisting of compound words
+• Usually made of two individual terms (t1 and t2)
+– Element/attribute text values
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+picture
+title
+Rear
+Window
+director
+Alfred
+Hitchcock
+first name
+last name
+4/14/2026
+
+
+===PAGE BREAK===
+
+Engineering
+5.2.2. Node Selection of Disambiguation
+- Quantifying the notion of semi-structured node ambiguity degree:
+– Based on a set of assumptions:
+• Polysemy: Nodes having labels with multiple senses (in WordNet) are 
+considered ambiguous
+• Depth: Nodes closer to the root usually refer to general concepts, and 
+can thus be considered ambiguous
+• Fan-out: Nodes with few number of distinct children node labels are 
+considered ambiguous
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+picture
+title
+title
+title
+title
+picture
+title
+director
+cast
+plot
+Motion picture
+???
+
+
+===PAGE BREAK===
+
+Engineering
+5.2.2. Node Selection of Disambiguation
+- Defining an ambiguity degree measure of a semi-structured node:
+– Combination of three factors:
+Polysemy:
+Depth:
+Fan-out:
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+
+
+(x. ) - 1
+Amb
+(x. , SN)  = 
+ 
+0,1    
+Max(
+(SN)) - 1
+Polysemy
+senses
+senses
+
+l
+l
+
+
+x.d
+Amb
+(x, T)  = 1 - 
+ 
+0,1    
+Max(
+(T))
+Depth
+depth
+
+
+
+x.f
+Amb
+(x, T)  = 1 - 
+ 
+0,1    
+Max(
+-
+(T))
+Density
+fan out
+
+
+
+Polysemy
+Depth
+Density
+w
+ Amb
+(x. , SN)
+Amb_Deg(x, T, SN)  = 
+ 
+0,1
+w
+(1 Amb
+(x, T))
+w
+(1 Amb
+(x, T)) 1
+Polysemy
+Depth
+Density
+
+
+
+−
++
+
+−
++
+l
+45
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5.2.3. Context Definition and Representation
+5.2.3.1. Introducing the sphere neighborhood context model
+–
+Inspired from the sphere-search paradigm in semi-structured IR [7]
+–
+Considering the whole structural surrounding of a node
+-  Including ancestors, descendants, and siblings
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+cast
+picture
+star
+star
+films
+Stewart
+Kelly
+plot
+…
+cast
+Rd (x) = {xi  T | Dist(x, xi) = d}
+Sd(x) = {xi  T  |  xi                dj ≤ d} 
+( )
+j
+d
+R
+x
+Semi-structured ring at distance d
+Semi-structured sphere at distance d
+46
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5.2.3. Context Definition and Representation
+5.2.3.2. Producing context vector representation
+ - Evaluate the impact of each of the context nodes
+–
+In performing semantic disambiguation 
+- In contrast with bag-of-words paradigm
+ - Quantified based on 2 assumptions:
+–
+Closeness: semi-structured context nodes closer to the target node 
+should better influence the latter’s disambiguation
+–
+Frequency: Nodes with identical labels, occurring multiple times in the 
+context of a target node, should better influence the latter’s 
+disambiguation
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+47
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5.2.3. Context Definition and Representation
+5.2.3.2. Producing context vector representation
+ - Defining a context vector weights
+–
+Combination of two factors:
+Closeness:
+Frequency:
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+48
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+ 
+( )(
+)
+d
+r
+V
+x
+w
+l
+(
+)
+
+
+d
+Freq
+Freq
+,S (x)  
+0,1
+Max
+r
+=
+
+l
+(
+)
+(
+)
+d
+d
+i
+d
+ 
+( ) / 
+.  = 
+x
+r
+i
+i
+S
+x
+x
+ 
+Freq
+,S (x)
+Struct x ,S (x)
+r
+
+=
+
+l
+l
+l
+(
+)
+i
+i
+d
+Dist(x,x )
+Struct x ,S (x)  
+ 1
+d
+1
+=
+−
++
+
+
+===PAGE BREAK===
+
+Engineering
+5.2.3. Context Definition and Representation
+5.2.3.2. Producing context vector representation
+ 
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+49
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+cast
+picture
+star
+star
+films
+Stewart
+Kelly
+plot
+…
+cast
+0.167
+0.334
+0.334
+0.084
+0.084
+0.084
+0.084
+]
+( [2 )
+2 T
+V
+0.25
+Cast Picture
+Star
+Films
+Stewart
+Kelly
+Plot
+0.25
+0.1667
+0.3334
+0.0835
+0.0835
+0.0835
+0.0835
+
+
+===PAGE BREAK===
+
+Engineering
+5.2.4. Semi-structured Semantic Disambiguation
+- Combining two approaches: concept-based and context-based
+- Concept-based
+- Comparing the target node senses with context nodes senses
+– Using a combination of semantic similarity measures
+» Applied on the reference semantic network (WordNet)
+» Edge-based, Node-based, and Goss-based
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+50
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+(
+)
+
+
+ 
+i
+d
+i
+j
+i
+d
+i
+p
+j
+i
+V (x)
+ 
+ 
+.
+d
+  S ( )
+s
+x
+x
+x
+Max
+Sim s
+s
+x .
+0,1
+S
+x
+, 
+)
+(
+)
+ 
+|
+( ) |
+SN
+w
+→
+
+
+
+
+ 
+(
+,
+l
+l
+Concept_Score(sp, Sd(x), SN ) =
+
+
+===PAGE BREAK===
+
+Engineering
+5.2.4. Semi-structured Semantic Disambiguation
+- Combining two approaches: concept-based and context-based
+- Concept-based
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+51
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+S1: mold
+S2: plaster cast
+S3: cast of characters
+…
+cast
+picture
+star
+star
+…
+cast
+0.167
+0.334
+0.334
+0.25
+c2
+c1
+c
+-log(p(c))
+Reference semantic 
+network (WordNet)
+S1: Celestial body
+S2: Champion
+S3: Lead actor
+…
+S1: icon
+S2: painting
+S3: movie…
+Doc tree
+
+
+===PAGE BREAK===
+
+Engineering
+5.2.4. Semi-structured Semantic Disambiguation
+- Combining two approaches: concept-based and context-based
+- Context-based 
+- Comparing the target node sphere neighborhood in the doc tree
+– With each of its sense (concept) sphere neighborhoods in the 
+reference semantic network (WordNet)
+» Using vector comparison measures, e.g., cosine 
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+52
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+Context_Score(sp, Sd(x), SN) = cos(           ,             )  [0, 1]
+( )
+d x
+V
+(
+)
+p
+d s
+V
+( )
+d x
+V
+(
+)
+p
+d s
+V
+: Sphere context vector of node in doc tree
+: Sphere context vector of sense sp of node in SN
+
+
+===PAGE BREAK===
+
+Engineering
+5.2.4. Semi-structured Semantic Disambiguation
+- Context-based 
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+S1: mold
+S2: plaster cast
+S3: cast of characters
+…
+cast
+picture
+star
+star
+…
+cast
+0.167
+0.334
+0.334
+0.25
+c2
+c1
+c3
+Reference semantic 
+Network (WordNet)
+Doc tree
+Cast
+Picture
+Star
+…
+0.25
+0.1667
+0.3334
+…
+Cast
+Mold
+Stamp
+…
+0.25
+0.1544
+0.1544
+…
+Cast
+Gathering
+Ensemble
+…
+0.25
+0.1566
+0.1032
+…
+Cast
+Bandage
+Patch
+…
+0.25
+0.1232
+0.2233
+…
+( )
+d x
+V
+(
+)
+1
+d s
+V
+(
+)
+2
+d s
+V
+(
+)
+3
+d s
+V
+53
+4/14/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+5. WSD of Semi-structured Data
+5.2. Proposed Solution
+     5.2.4. Semi-structured Semantic Disambiguation
+– Complexity of concept-based approach:
+– Complexity of context-based approach
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+54
+4/14/2026
+O(|senses(x. )|  |Sd(x)|  |senses(xi. )|  |SN|)
+O(|senses(x. )|  (|Sd(x)| + |Sd(sp)|)
+Cosine similarity
+executed in 
+average linear time
+  More efficient
+
+
+===PAGE BREAK===
+
+Engineering
+5. WSD of Semi-structured Data
+5.2. Proposed Solution
+     5.2.4. Semi-structured Semantic Disambiguation
+      - Combining concept-based and context-based approaches
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+55
+4/14/2026
+Concept_Score(sp, Sd(x), )  =
+wConcept Concept_Score(sp, Sd(x), SN) 
++
+wContext  Context_Score(sp, Sd(x), SN)
+User can fine-tune disambiguation process
+- Considering the nature of semi-structured data being processed
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+6. Challenges and Ongoing Directions
+6.1. Using collaborative knowledge sources
+– Conventional KBs also show many limitations:
+• Need for significant human effort to create and maintain
+• Need for wide coverage which is difficult to achieve manually from experts
+• Need to update information in the KB in a timely manner which cannot always be 
+achieved by experts
+– Increasing need to consider non-conventional sources such as Wikipedia, 
+Google, Yahoo, and Flikr, which are collaboratively built
+• Where content can be efficiently created and updated by non-experts from 
+different domains, and then the produced content is simply vetted by experts 
+• This requires significantly less effort than manually creating the information from 
+scratch, and allows for a wider coverage and faster update
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+56
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+6. Challenges and Ongoing Directions
+6.1. Using collaborative knowledge sources
+– While, such sources are semi-structured in nature, nonetheless 
+information is not fully formalized or disambiguated
+• For instance, Wikipedia’s text corpus is partially structured in pages (articles) 
+and info-boxes , with various relationships among pages, e.g.:
+– redirection pages, internal hyperlinks, inter-language links, as well as category pages
+• Yet, Wikipedia pages also contain vast amounts of unstructured text with no 
+linkage to any pages or other terms (i.e., with no semantic mean-ing)
+• Thus, dedicated additional processing is required, e.g.:
+– mapping ambiguous/related terms/pages together and identifying missing relationships 
+between terms/pages, in order to perform WSD
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+57
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+6. Challenges and Ongoing Directions
+6.1. Using collaborative knowledge sources
+– Expanding/integrating semi-structured sources such as Wikipedia, with 
+structured KBs such as WordNet, to fill-in the semantic knowledge gap, has 
+been a promising research direction
+• with successful projects such as Yago and DBPedia
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+58
+
+
+===PAGE BREAK===
+
+Engineering
+6. Challenges and Ongoing Directions
+6.2. Using social knowledge sources
+– Another form of collaboratively built knowledge sources has emerged in the Social 
+Semantic Web, known as folksonomies
+– A folksonomy is basically a 3-dimensional data structure (usually represented as a 3-
+uniform graph) whose dimensions are represented by users, tags, and resources
+• users assign tags to Web resources, without a reference KB
+• Then a post-processing, organization, and mining of the tags and their relationships with 
+users and resources would identify user vocabularies describing the resources
+–  Such vocabularies are commonly referred to as emergent semantics
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+59
+a (bottom-up) complement to the more formalized (top-down) 
+knowledge organization in conventional KBs
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+6. Challenges and Ongoing Directions
+6.2. Using social knowledge sources
+– Producing useful folksonomies requires dedicated processing to map the semi-
+structured and ambiguous tags in the folksonomy with concepts in the KB
+• Extending the KB with new concepts/relationships highlighting the users’ semantics
+• Then, either the user vocabulary or the extended KB can be used (with corpus-based 
+and/or knowledge-based analysis) to achieve quality WSD
+– NOTE: processes originally developed for semi-structured disambiguation can 
+be utilized to handle collaboratively built semi-structured sources
+• and vice versa: techniques devised to disambiguate concepts and identify relationships in 
+semi-structured knowledge sources like Wikipedia or folksonomies could inspire the 
+development of new XML disambiguation techniques
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+60
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+6. Challenges and Ongoing Directions
+6.3. Using Implicit Semantics
+– Another direction to improve XML semantic analysis and disambiguation is to 
+incorporate implicit semantics (a.k.a. latent semantics) inferred from the statistical 
+analysis of XML element tag names/text values
+• following the basic idea that: documents which have many node labels in common are 
+semantically closer than ones with fewer node labels in common
+– Implicit concepts are synthetic concepts generated by extracting latent 
+relationships between terms in a document (or a document collection)
+• or by calculating probabilities of encountering terms
+– generated concepts do not necessarily align with any human-interpretable concept
+• This is different from conventional concept-based semantic analysis, which utilizes explicit 
+concepts representing real-life entities/notions defined following human perception
+– concepts defined within a KB such as WordNet or Wikipedia
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+61
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+6. Challenges and Ongoing Directions
+6.3. Using Implicit Semantics
+•
+Yet, existing implicit semantic analysis methods suffer from various limitations:
+– implicit concepts are difficult to understand and evaluate by human users
+– the number of generated implicit concepts depends on statistical/algebraic 
+analysis rather than the actual meaning of the data
+– existing methods are relatively complex and do not scale well
+• to be further explored toward handling semi-structured data…
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation
+4/14/2026
+62
+J. TEKLI – joe.tekli@lau.edu.lb
+Deep Language Models are providing promising solutions…
+
+
+===PAGE BREAK===
+
+Engineering
+Main References
+1.
+Taha K. and Elmasri R., CXLEngine: A Comprehensive XML Loosely Structured Search Engine. Proc. of the EDBT 
+DataX'08, 2008, 37-42.
+2.
+Taha K. and Elmasri R., XCDSearch: An XML Context-Driven Search Engine. IEEE TKDE, 2010. 22(12):1781-1796.
+3.
+Tagarelli A. and Greco S., Semantic Clustering of XML Documents. ACM Transactions on Information Systems (TOIS), 
+2010. 28(1):3.
+4.
+Tagarelli A. et al., Word Sense Disambiguation for XML Structure Feature Generation. In Proc. of ESWC, 2009, pp. 
+143–157.
+5.
+Theobald M. et al., Exploiting Structure, Annotation, and Ontological Knowledge for Automatic Classification of XML 
+Data. WebDB, 2003, pp. 1-6.
+6.
+Mandreoli F. et al., Versatile Structural Disambiguation for Semantic-Aware Applications. In Proc. of Inter. CIKM Conf., 
+2005. pp. 209-216.
+7.
+Graupmann J. et al., The SphereSearch Engine for Unified Ranked Retrieval of Heterogeneous XML and Web 
+Documents. VLDB, 2005, 529-540.
+8.
+Joe Tekli, An Overview on XML Semantic Disambiguation from Unstructured Text to Semi-Structured Data: 
+Background, Applications, and Ongoing Challenges. IEEE Trans. Knowl. Data Eng. 28(6): 1383-1407 (2016)
+9.
+Joe Tekli, Nathalie Charbel, Richard Chbeir, Building semantic trees from XML documents. J. Web Semant. 37-38: 1-
+24 (2016)
+10.
+Tommaso Pasini, Alessandro Raganato, Roberto Navigli, XL-WSD: An Extra-Large and Cross-Lingual Evaluation 
+Framework for Word Sense Disambiguation. AAAI 2021: 13648-13656
+11.
+Tommaso Pasini, Roberto Navigli, Train-O-Matic: Supervised Word Sense Disambiguation with no (manual) effort. 
+Artif. Intell. 279 (2020)
+12.
+Bianca Scarlini, Tommaso Pasini, Roberto Navigli, With More Contexts Comes Better Performance: Contextualized 
+Sense Embeddings for All-Round Word Sense Disambiguation. EMNLP (1) 2020: 3528-3539
+Intelligent Data Processing and Applications 
+Ch. 9 – Semantic Disambiguation

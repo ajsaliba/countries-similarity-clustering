@@ -1,0 +1,1671 @@
+Lebanese American University
+www.lau.edu.lb
+www.lau.edu.lb/ece
+School of Engineering
+Department of Electrical &
+Computer Engineering
+Chartered in the State of New York
+Intelligent Data Processing and Applications
+Joe M. TEKLI, PhD
+Computer Software Engineering
+Chapter 6 -  Structural Similarity Approximation Methods
+COE 543/743
+
+
+===PAGE BREAK===
+
+Engineering
+Chapter Contents
+1. Introduction
+2. Prerequisites
+- Set-based Similarity
+- Vector-based Similarity
+3. Semi-structured Data Similarity Methods
+- Tag-based
+- Edge-based
+- Path-based
+- Fast Fourier Transform
+1/21/2026
+2
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+• In certain similarity-based applications, users might want to speed-up the process
+• Typical in data search and querying applications
+• Filter-Refinement architecture in query processing:
+1. Run a filter step, using a fast approximation, e.g., SimFilter, of the main similarity 
+measure, e.g., SimTED 
+• To compare a sample (query) document to those kept in the collection
+2. Only those document trees in the data collection which 
+ 
+are most similar (following SimFilter) to the sample (query) 
+ 
+document are run through the main measure SimTED
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+3
+J. TEKLI – joe.tekli@lau.edu.lb
+Reducing query processing time
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+• Filter-Refinement architecture in query processing:
+• Formally:
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+Filter
+TED
+Sample
+Doc Tree
+Document
+Collection
+SimFilter
+SimTED
+The query answer is a sequence of 
+documents Di most similar to S following 
+a certain similarity threshold ThreshSim 
+ranked using similarity SimTED(S, Di)
+Filter = { Di  C   |   SimFilter(S, Di) ≥ ThreshSim 
+ 
+                 ˄
+                Dj  C, SimFilter(S, Di) ≥ SimFilter(S , Dj)     }
+SimTED(S, Di)
+S
+C
+Ans(S, ThreshSim) = 
+<D1, …, Dn>
+1/21/2026
+4
+J. TEKLI – joe.tekli@lau.edu.lb
+CFilter
+S
+Selection
+Ordering
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+• Filter-Refinement can be used with most similarity-based applications, e.g.:
+• Clustering:
+1.
+Apply clustering using approximation similarity method
+–
+Producing an initial set of clusters
+2.
+Apply the main (TED-based) similarity measure on each cluster of the initial set
+• Data integration:
+1.
+Given two data collections C1 and C2 to integrate, compute pair-wise similarity 
+between documents Di
+1 and Dj
+2 from C1 and C2 using approximate measure
+–
+Disregarding non-similar documents and producing filtered collections C1’ and C2’
+2.
+Apply the main (TED-based) similarity measure on pair-wise documents of the 
+filtered collections to identify most similar ones for merging
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+5
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+•
+Filter properties:
+• Considerably easier to process than  the main (TED-based) function
+• Filters out a substantial part of the documents
+• Verifies the completeness property w.r.t. the main (TED-based) function
+• Filter must not allow any false drop-outs 
+  All document trees in the collection,  Di ∈ C, which are deemed similar 
+to the sample document S w.r.t. the main similarity measure SimTED, 
+should be included in the filtered set, Di ∈ CFilter
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+6
+J. TEKLI – joe.tekli@lau.edu.lb
+Upper bound of TED
+ SimFilter ≥ SimTED
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+7
+J. TEKLI – joe.tekli@lau.edu.lb
+SimTED
+ThreshSim
+query
+1
+0
+DistTED
+0
+
+b
+a
+c
+d
+SimFilter
+1
+0
+query
+ab
+c
+d
+ef
+ SimFilter ≥ SimTED
+ThreshSim
+e
+f
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+• More formally:
+– Filter Completeness: Given a similarity measure SimTED and a filter characterized by 
+similarity measure SimFilter, the filter is said to be complete w.r.t. SimTED if SimFilter is 
+an upper bound of SimTED
+– Upper Bound Function: Let C be a collection of documents, a similarity function 
+Sim’ is an upper bound of function Sim, if: ∀ Di, Dj ∈ C , Sim’(Di, Dj) ≥ Sim (Di, Dj)
+•
+With an upper bound similarity measure, it is possible to safely filter out all documents 
+trees that have a filter similarity SimFilter less than the minimum acceptable similarity 
+degree, i.e., eliminating all Di / SimFilter(S, Di) < ThreshSim
+ Eliminating candidate document trees which are outside the minimum relevant (user-
+chosen) similarity range
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+8
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+1. Introduction
+• Approximate similarity functions could also be useful in producing applications 
+that run faster without taking the time to do accurate similarity computations
+• Without any refinement step
+• For instance, designing faster clustering, classification, or querying approaches 
+• Which might not be very accurate
+• But which can get the job done in lesser time
+• With acceptable quality levels
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+9
+J. TEKLI – joe.tekli@lau.edu.lb
+Need for structural similarity 
+approximation measures
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.1. Set-based Similarity
+Various measures exist for evaluating similarity between sets of elements
+1. Intersection: Given two sets A and B
+   SimIntersection(A, B) = |A   B|     [0, min(|A|, |B|)]
+• Minimum similarity = 0  and maximum similarity = min(|A|,|B|)
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+10
+J. TEKLI – joe.tekli@lau.edu.lb
+Not normalized
+- Since values are not comprised in the [0, 1] interval 
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.1. Set-based Similarity
+Various measures exist for evaluating similarity between sets of elements
+2. Jaccard Coefficient: Given two sets A and B
+• Normalized measure
+• More accurate than intersection similarity since it considers both: 
+– The commonality between the sets
+– The differences between the sets
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+11
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+
+
+
+Jaccard
+|A
+B|
+|A
+B|
+Sim
+=
+ =
+   
+|A
+B|
+|A| + |B| - |A
+B|
+   
+  [0, 1]
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.1. Set-based Similarity
+Various measures exist for evaluating similarity between sets of elements
+3. Dice Coefficient: Given two sets A and B
+• Normalized measure
+• Alternative to Jaccard used in certain applications
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+12
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+
+Dice
+2 |A
+B|
+Sim
+=
+ 
+|A|+|B|      [0, 1]
+Dice distance does not verify Triangular Inequality
+- Qualifies as a semi-metric
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.2. Multi-Set based Similarity
+• A multi-set is a generalization of the concept of a set
+• Unlike a set, it allows multiple instances of the same element
+• Multiplicity of an element: number of  occurrences of the element in the multi-set
+• For example: 
+– {a, b, c} contains only elements a, b, and c each having multiplicity 1
+  Traditional set, also called: unique set
+– {a, a, b, c, c, c}, is a multi-set where a, b, and c have multiplicities 2, 1, and 3 respectively
+• It is usually represented as a unique set of doublets: (e, mult(e))
+– Where e designates an element and mult(e) its multiplicity value
+ 
+       {a, a, b, c, c, c}    {(a, 2), (b, 1), (c, 3)}
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+13
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.2. Multi-Set based Similarity
+Measures for comparing unique sets can be extended for comparing multi-sets
+1. Intersection: Given two multi-sets A and B
+   SimIntersection(A, B) = |A  B| 
+ 
+= 
+• Minimum similarity = 0  and maximum similarity = 
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+14
+J. TEKLI – joe.tekli@lau.edu.lb
+ 
+i
+i
+
+
+
+
+Min mult
+mult
+i
+i
+i
+i
+/ A = B
+(
+(A ), 
+(B ))
+i 
+i
+i
+[0, min(
+(A ),
+(B ))]
+mult
+mult
+i
+i
+
+
+i
+i
+ min(
+(A ) ,  
+(B ))
+mult
+mult
+Not normalized
+- Since values are not comprised in the [0, 1] interval 
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.2. Multi-Set based Similarity
+Measures for comparing unique sets can be extended for comparing multi-sets
+2. Jaccard Coefficient: Given two multi-sets A and B
+• Normalized measure
+• More accurate than intersection similarity since it considers both:
+• The commonality and the differences between the multi-sets
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+ +
+
+
+
+
+ 
+= 
+Min mult
+mult
+mult
+mult
+Min mult
+mult
+i
+i
+i
+i
+i
+i
+/ A = B
+i
+i
+i
+i
+/ A = B
+(
+(A ), 
+(B ))
+(A )
+(B )  -
+(
+(A ), 
+(B ))
+i 
+i
+i
+i
+
+
+
+
+
+Jaccard
+|A
+B|
+|A
+B|
+Sim
+=
+ =
+   
+|A
+B|
+|A| + |B| - |A
+B|
+   
+  [0, 1]
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.2. Multi-Set based Similarity
+Measures for comparing unique sets can be extended for comparing multi-sets
+3. Dice Coefficient: Given two sets A and B
+• Normalized measure
+• Alternative to Jaccard used in certain applications
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+16
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+Dice
+2 |A
+B|
+Sim
+=
+ 
+|A|+|B|
+    
+ 
+
++
+
+
+
+ 
+[0, 1]
+= 
+i
+i
+i
+i
+/ A = B
+i
+i
+2×
+(
+(A ), 
+(B ))
+(A )
+(B )
+Min mult
+mult
+mult
+mult
+i 
+i
+i
+Dice distance does not verify Triangular Inequality
+- Qualifies as a semi-metric
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.3. Vector-based Similarity
+•
+Various measures exist for evaluating similarity between vectors in an N-
+dimensional vector space
+– We can organize them in two main groups
+• Correlation measures, evaluating dependence between vector shapes, 
+such as:
+– Cosine
+– Pearson Correlation Confident (PCC)
+• Distance measures, evaluating separation between vectors, such as:
+– Euclidian distance
+– Manhattan distance
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+17
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.3. Vector-based Similarity
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+18
+J. TEKLI – joe.tekli@lau.edu.lb
+A
+B
+
+HumanJoe= { (Height, 80), (Weight, 180), …, …, .., … }
+HumanMohamad= {(Height, 90), (Weight, 170) , …., …., …, …, }
+height
+weight
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.3. Vector-based Similarity
+Correlation Measures:
+ 
+1. Cosine measure: Given two vectors      and      in an N-dimensional space
+• Computed based on the scalar product: 
+  Takes into account the angle between two vectors, not their modules
+• Measure produces values comprised in [-1, 1] instead of [0, 1]
+– Linear correlation measure:  1 represents maximum correlation
+                                                       
+0 represents no correlation
+                                                        -1 represents negative correlation
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1...
+1...
+1...
+    
+i
+N
+i
+N
+i
+N
+=
+=
+=
+=
+
+
+
+
+
+[-1, 1]
+i
+i
+Cosine
+2
+2
+i
+i
+A ×B
+Sim
+(A,B)
+A
+B
+ . 
+( )
+
+=
+A B  |A|×|B|× cos
+B
+A
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.3. Vector-based Similarity
+Correlation Measures:
+ 
+2. Pearson Correlation Coeficient: Given two vectors      and
+•       and       represent the average of the values of vectors       and       respectively
+• Comparable to cosine except that individual vector coordinates are centered
+• Measure produces values comprised in [-1, 1] instead of [0, 1]
+– Linear correlation measure:  1 represents maximum correlation
+                                       
+0 represents no correlation
+                                                  
+-1 represents negative correlation
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1...
+1...
+1...
+    
+i
+N
+i
+N
+i
+N
+=
+=
+=
+=
+
+
+
+
+i
+i
+PCC
+2
+2
+i
+i
+(A - A)×(B -B)
+Sim
+(A,B)
+(A - A)   
+(B -B)
+
+[-1, 1]
+B
+A
+B
+A
+B
+A
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.3. Vector-based Similarity
+Correlation Measures:
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+Dimension #
+Dimension #
+Coordinate value
+Coordinate value
+Positive correlation
+Negative correlation
+1/21/2026
+21
+J. TEKLI – joe.tekli@lau.edu.lb
+We can use
+ absolute 
+correlation 
+to capture 
+both positive 
+and negative
+ correlation
+Vector 1
+Vector 2
+Vector 1
+Vector 2
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.3. Vector-based Similarity
+Distance Measures:
+ 
+3. Euclidian Distance: Given two vectors      and       in N-dimensional space
+• Considers the distance between two vector, taking into account their modules  
+]
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1...
+    
+i
+N
+=
+
+=
+
+
+
+having
+[0, +
+[
+2
+Euclid
+i
+i
+    Dist
+(A,B)
+(A -B )
+B
+A
+1
+    
+ ] 1
+1
+=
+
++
+Euclid
+Euclid
+Sim
+(A,B)
+Dist
+(A,B)
+0, ]
+1/21/2026
+22
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.3. Vector-based Similarity
+Distance Measures:
+ 
+4. Manhattan Distance: Given two vectors      and       in N-dimensional space
+• Taxicab geometry in which the distance between two points is the sum of the 
+absolute differences of their Cartesian coordinate
+  Lower bound for Euclidian distance and for typical edit distance functions
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1...
+|
+|    
+i
+N
+=
+
+=
+
+
+
+having
+[0, +
+[
+Manh
+i
+i
+    Dist
+(A,B)
+A -B
+B
+A
+1
+    
+ ] 1
+1
+=
+
++
+Manh
+Manh
+Sim
+(A,B)
+Dist
+(A,B)
+0, ]
+1/21/2026
+23
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.3. Vector-based Similarity
+Distance Measures:
+ 
+5. Tanimoto Distance: Given two vectors      and       in N-dimensional space
+• When applied on positive weighted vectors, the Tanimoto distance comes   
+down to Jaccard distance, measuring the dissimilarity between vectors
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1
+    
+1]
+
+= −
+
+Tanimoto
+Tanimoto
+    Dist
+(A,B)
+Sim
+(A,B)
+having
+[0, 
+2
+2
+    
+ [ 1
+
+=
+
++
+−
+
+Tanimoto
+A B
+Sim
+(A,B)
+A
+B
+A B
+0, ]
+1/21/2026
+24
+J. TEKLI – joe.tekli@lau.edu.lb
+B
+A
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.3. Vector-based Similarity
+Distance Measures:
+ 
+5. Dice Distance: Given two vectors      and       in N-dimensional space
+• While comparable to Tanimoto (Jaccard) distance, yet the Dice distance does 
+not qualify as a metric since it does not verify the Triangular Inequality
+– It is a semi-metric
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1
+    
+1]
+
+= −
+
+Dice
+Dice
+    Dist
+(A,B)
+Sim
+(A,B)
+having
+[0, 
+2
+2
+2
+    
+ [ 1
+
+
+=
+
++
+Dice
+A B
+Sim
+(A,B)
+A
+B
+0, ]
+1/21/2026
+25
+J. TEKLI – joe.tekli@lau.edu.lb
+B
+A
+
+
+===PAGE BREAK===
+
+Engineering
+2. Prerequisites
+2.3. Vector-based Similarity
+Distance Measures:
+ 
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+Coordinate value
+Vector 1
+Vector 2
+Vector 1
+Vector 2
+Vector 3
+Coordinate value
+Dimension #
+SimCosine(V1, V2) = 1,
+Yet SimEuclid(V1, V2) is much less 
+SimCosine(V1, V2) = 1 > SimCosine(V1, V3) 
+Yet SimEuclid(V1, V2) < SimEuclid(V1, V3) 
+Dimension #
+1/21/2026
+26
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.1. Tag-based Similarity
+• Transforming a semi-structured document tree into a tag-based representation [1, 2]
+• A tag usually represents an element/attribute name (label)
+• A tag can also represent an element/attribute value when content is considered
+•
+Content can be considered in one single element (as one tag)
+•
+Content can be tokenized into multiple elements (multiple tags)
+•
+Refer to document tree representation in Ch. 2
+• Different tag-based representations can be used:
+• Set-based
+• Multi-set based
+• Vector-based
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+Exploiting corresponding similarity measures
+[1]  L. Candillier, I. Tellier and F. Torre. Transforming XML Trees for Efficient Classification and Clustering. 
+       Proceedings of the Workshop of the Initiative for the Evaluation of XML Retrieval (INEX’05), (2005) pp. 469-480
+[2]  L. Candillier, I. Tellier. F. Torre and O. Bouquet. SSC: Statistical Clustering. In Perner P. and Imiya A.  eds.: 4th Inter. Conf.    
+       on Machine Learning and Data Mining in Pattern Recognition,  (2005) pp. 100-109.
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.1. Tag-based Similarity
+3.1.1. Set-based Approach
+• Consider document trees A and B
+• Set-based representations of A and B:
+• Aset = {‘a’, ‘b’, ‘c’, ‘d’}
+• Bset = {‘a’, ‘b’, ‘e’}
+• Complexity: average linear, i.e., O(k  N) where N = number of distinct tags labels in A 
+and B, and k is a variable factor usually equivalent to a small multiple of N
+c
+d
+d
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+28
+J. TEKLI – joe.tekli@lau.edu.lb
+b
+Doc tree A
+a
+Doc tree B
+a
+b
+e
+e
+Compared using any set-based similarity measure
+ Same tag occurrences are not taken into account!
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.1. Tag-based Similarity
+3.1.2. Multi-set Approach
+• Consider document trees A and B
+• Multi-set based representations of A and B:
+• Amulti-set = {(‘a’, 1),  (‘b’, 1),  (‘c’, 1),  (‘d’, 2)}
+• Bmulti-set = {(‘a’, 1), (‘b’, 1), (‘e’, 2)}
+• Complexity: O(k  N) where N = number of distinct tag labels in A and B, and k is a variable factor
+c
+d
+d
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+29
+J. TEKLI – joe.tekli@lau.edu.lb
+b
+Doc tree A
+a
+Doc tree B
+a
+b
+e
+e
+Compared using any multi-set similarity measure
+ Taking into account the number of tag occurrences (multiplicity)
+-  More accurate than set-based approach
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.1. Tag-based Similarity
+3.1.3. Vector-based Approach
+• Consider document trees A and B
+• Vector-based representations of A and B:
+• Complexity: O(k  N) where N = number of distinct tag labels in A and B and k is a variable
+c
+d
+d
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+b
+Doc tree A
+a
+Doc tree B
+a
+b
+e
+e
+‘a’     ‘b’    ‘c’    ‘d’
+(  1 ,    1,     1,     2  )
+Avector = 
+‘a’     ‘b’    ‘é’ 
+(  1 ,    1,     2  )
+Bvector = 
+- Vector dimensions represent distinct tag labels
+- Vector weights represent tag occurrence frequencies
+Compared using any vector-based similarity measure
+1/21/2026
+30
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.1. Tag-based Similarity
+3.1.3. Vector-based Approach
+• NOTE: When comparing two vectors of different dimensions
+• They have to be represented in a common (same) dimensional space
+• In order to apply vector-based similarity measures
+• Intuitive approach: combining dimensions
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+‘a’     ‘b’    ‘c’    ‘d’   ‘e’
+(  1 ,    1,     1,     2,    0  )
+Avector = 
+(  1 ,    1,     0,     0,    2  )
+Bvector = 
+1/21/2026
+31
+J. TEKLI – joe.tekli@lau.edu.lb
+Simple, yet the number of dimensions can uselessly explode
+ Also known as dimensionality problem
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.1. Tag-based Similarity
+3.1.3. Vector-based Approach
+• More sophisticated approaches to handle the dimensionality problem:
+• Dimension selection
+• Classification (supervised learning)  methods can be used to select the set of 
+dimensions which are most useful in describing the document trees at hand
+• E.g., Correlation-based Feature Selection (CFS) which studies correlations 
+between dimensions to disregard redundant (useless) ones
+•
+0
+• Dimension reduction
+• Transforming original dimensions into a new set of reduced dimensions which are 
+(hypothetically) more descriptive of original ones
+• E.g., Principal Component Analysis (PCA) producing new dimensions ranked 
+based on their descriptive power
+          Latent semantic processing (unsupervised learning) techniques
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.2. Edge-based Similarity
+• Transforming a semi-structured document tree into an edge-based representation [1]
+• An edge is an ordered doublet of tree nodes (n1, n2), represented as n1/n2 where:
+• n1 is the parent node of n2 in the document tree
+• Nodes have as labels corresponding node tag names
+• Different tag-based representations can be used:
+• Set-based
+• Multi-set based
+• Vector-based
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+Exploiting corresponding similarity measures
+[1]  H.P. Kriegel and S. Schönauer. Similarity Search in Structured Data. In Proceedings of the 5th International
+       Conference on Data Warehousing and Knowledge Discovery (DaWaK 03), Czech Republic, (2003) pp. 309-319.
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.2. Edge-based Similarity
+3.2.1. Set-based Approach
+• Consider document trees A and B
+• Set-based representations of A and B:
+• Aset = {‘a’/’b’, ‘b’/’c’, ‘b’/’d’}
+• Bset = {‘a’/’b’, ‘b’/’e’}
+• Complexity: average linear, i.e., O(k  N) where N = number of distinct edges in A and B, 
+and k is a variable factor
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+34
+J. TEKLI – joe.tekli@lau.edu.lb
+c
+d
+d
+b
+Doc tree A
+a
+Doc tree B
+a
+b
+e
+e
+Compared using any set-based similarity measure
+ Same edge occurrences are not taken into account!
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.2. Edge-based Similarity
+3.2.2. Multi-set Approach
+• Consider document trees A and B
+• Multi-set-based representations of A and B:
+• Aset = {(‘a’/’b’, 1), (‘b’/’c’, 1), (‘b’/’d’, 2)}
+• Bset = {(‘a’/’b’, 1), (‘b’/’e’, 2)}
+• Complexity: O(k  N) where N = number of distinct edges in A and B, and k is a variable
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+35
+J. TEKLI – joe.tekli@lau.edu.lb
+c
+d
+d
+b
+Doc tree A
+a
+Doc tree B
+a
+b
+e
+e
+Compared using any multi-set similarity measure
+ Taking into account the number of edge occurrences (multiplicity)
+-  More accurate than set-based approach
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.2. Edge-based Similarity
+3.2.3. Vector-based Approach
+• Consider document trees A and B
+• Vector-based representations of A and B:
+• Complexity: O(k  N) where N = number of distinct edges in A and B and k is a variable
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+36
+J. TEKLI – joe.tekli@lau.edu.lb
+c
+d
+d
+b
+Doc tree A
+a
+Doc tree B
+a
+b
+e
+e
+‘a’/’b’   ‘b’/’c’  ‘b’/’d’
+(    1 ,         1,         2  )
+Avector = 
+‘a’/’b’   ‘b’/’e’
+(     1 ,         2  )
+Bvector = 
+- Vector dimensions represent distinct tree edges
+- Vector weights represent edge occurrence frequencies
+Compared using any vector-based similarity measure
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.2. Edge-based Similarity
+• NOTE:
+• Edge-based approaches detect more structural clues than tag-based methods
+• Taking into account parent/child structural relations
+• Yet they might miss certain tag-based similarities
+• Even if these are not structurally coherent, yet they might be deemed valuable in       
+certain applications…
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+37
+J. TEKLI – joe.tekli@lau.edu.lb
+Increasing structural precision
+Decreasing overall recall
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.3. Path-based Similarity
+• Transforming a semi-structured document tree into a path-based representation [1, 2]
+• An path is an sequence of tree nodes <n1, n2, …, np>, noted n1/ n2 /…/np where
+• ni is the parent node of ni+1 in the document tree
+• Nodes have as labels corresponding node tag names
+• Different variations of path-based representations exit:
+• Root Paths, All Paths, and XPaths
+• Each can be represented following different mathematical models:
+•
+Set-based
+•
+Multi-set based
+•
+Vector-based
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+Exploiting corresponding similarity measures
+[1]  D. Buttler. A Short Survey of Document Structure Similarity Algorithms. In Proceedings of the 5th International
+       Conference on internet Computing, USA, (2004) pp. 3-9.
+[2]  D. Rafiei, D. Moise and D. Sun. Finding Syntactic Similarities between XML Documents. In Proceedings of  
+       the 17th International Conference on Database and Expert Systems Applications (DEXA), (2006) pp. 512-516.
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.3. Path-based Similarity
+3.3.1. Root Path Approach
+• Root path: a path starting at the root and ending
+  
+       at the a leaf in the document tree 
+• Consider document trees A and B
+• Considering the vector-based model
+• Complexity: O(k  N) where N = number of distinct root paths in A and B, and k is a variable factor
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+39
+J. TEKLI – joe.tekli@lau.edu.lb
+c
+d
+d
+b
+Doc tree A
+a
+Doc tree B
+a
+b
+e
+e
+‘a’/’b’/’c’   ‘a’/’b’/’d’ 
+(       1 ,              2      )
+Avector = 
+‘a’/’b’/’e’
+(        2       )
+Bvector = 
+Compared using any vector-based similarity measure
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.3. Path-based Similarity
+3.3.2. All Path Approach
+• Considering all paths in the document tree 
+• Consider document trees A and B
+• Considering the vector-based model
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+40
+J. TEKLI – joe.tekli@lau.edu.lb
+c
+d
+d
+b
+Doc tree A
+a
+Doc tree B
+a
+b
+e
+e
+‘a’     ‘b’    ‘c’    ‘d’    ‘a’/’b’    ‘b’/’c’    ‘b‘/’d’      a’/’b’/’c’      ‘a’/’b’/’d’ 
+(  1 ,     1      1      2         1            1           2                1                    2      )
+Avector = 
+‘a’     ‘b’     ‘e’      ‘a’/’b’     ‘b’/’e’    ‘a’/’b’/’e’
+(  1       1       2           1             2               2      )
+Bvector = 
+Compared using any vector-based similarity measure
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.3. Path-based Similarity
+3.3.2. All Path Approach
+• Considering all paths in the document tree 
+• Complexity: O(k  N) where N = number of distinct paths in A and B, and k is a variable
+– Comes down to O(k  N  l2)  where:
+• N is the number of distinct root paths
+• l is the maximum length of a root path
+• k is a variable factor
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+41
+J. TEKLI – joe.tekli@lau.edu.lb
+Close to TED-based polynomial complexity
+- Yet less precise in detecting structural clues
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.3. Path-based Similarity
+3.3.3. XPath Approach
+• Transforming the semi-structured document tree into an XPath-based representation [1]
+• Classic paths underline parent/child relationships in the document tree
+• Ignoring sibling information 
+• Yet, XPaths incorporate some sibling information
+• Underlining, for a given node, how many preceding siblings have the same label
+• It does not capture sibling information about nodes whose labels are different from 
+the given node
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+[1] S. Joshi, N. Agrawal, R. Krishnapuram and S. Negi. A Bag of Paths Model for Measuring Structural Similarity in Web    
+       Documents. ACM SIGKKD Conference on Knowledge Discovery and Data Mining, USA, (2003), pp. 577-582.
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.3. Path-based Similarity
+3.3.3. XPath Approach
+• Consider for instance document trees A and B
+• The corresponding XPath representations
+• Following root path and set-based models
+ 
+   Aset = { ‘a’[1]/’b’[1]/’c’[1],     ‘a’[1]/’b’[1]/’d’[1],      ‘a’[1]/’b’[1]/’d’[2] }
+        Bset = { ‘a’[1]/’b’[1]/’e’[1],     ‘a’[1]/’b’[1]/’e’[2] }
+• Complexity: O(k  N) where N = number of distinct root XPaths in A and B, and k is a variable factor
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+43
+J. TEKLI – joe.tekli@lau.edu.lb
+c
+d
+d
+b
+Doc tree A
+a
+Doc tree B
+a
+b
+e
+e
+Compared using any set-based similarity measure
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.3. Path-based Similarity
+3.3.3. XPath Approach
+• NOTE:
+• The multi-set and vector representations can also be utilized with the XPaths
+• Even though it was originally designed to improve the set-based model
+• XPaths detect more structural clues than traditional path-based methods
+• Taking into some sibling information in addition to hierarchical relations
+• Yet they might miss certain sibling  similarities
+• XPaths only take into account the number of siblings having the same label
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+Increasing structural precision
+Decreasing overall recall
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+• NOTE:
+• One can realize that complexity levels of tag, edge, and path-based approaches are 
+average linear in the number of tags/edges/paths in the document tree
+• In comparison with TED methods which are of average polynomial complexity
+• Also, transforming the document tree into the tag/edge/path based 
+representation(s) requires average linear O(N) time where N is the number of 
+tags/edges/paths
+• Yet, tag/edge/path methods are inherently less accurate than TED methods
+• Which are considered the optimal techniques for structure comparison
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+45
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.4. Fast Fourier Transform
+•
+An original semi-structured similarity approach [1], developed in the context 
+of document clustering, consists of:
+– Step 1: Transforming the semi-structured document into a time series
+– Step 2: Transforming the time series into a frequency spectrum
+– Step 3: Comparing the resulting spectrums to evaluate structure similarity
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+46
+J. TEKLI – joe.tekli@lau.edu.lb
+[1]  S. Flesca, G. Manco, E. Masciari, L. Pontieri and A. Pugliese. Detecting Structural Similarities Between XML
+       Documents. 5th International ACM SIGMOD Workshop on The Web and Databases (WebDB), (2002) pp. 55-60.
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.4. Fast Fourier Transform
+•
+Step 1:
+– Producing the skeleton of the XML document
+• Sequence of open and close tags
+– Ordered following the order of 
+ 
+traversal of the XML document
+ 
+ Pre-order
+– Considering XML document trees A and B
+  Skeleton(A) = <   <a>, <b>, <c>, </c>, <d>, </d>, <d>, </d>, </b>, </a>  >
+  Skeleton(B) = <   <a>, <b>, <e>, </e>, <e>, </e>, </b>, </a>  >
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+47
+J. TEKLI – joe.tekli@lau.edu.lb
+c
+d
+d
+b
+Doc tree A
+a
+Doc tree B
+a
+b
+e
+e
+Each skeleton is transformed into a time series…
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.4. Fast Fourier Transform
+•
+Step 1:
+– To produce a time series representation
+• Each distinct opening tag is assigned a distinct amplitude value
+– Same amplitudes are assigned to the same tags in different skeletons
+• Each closing tag is assigned the negative amplitude of its opening tag
+– Considering: Skeleton(A) and Skeleton(B), we produce corresponding time series:
+  
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+TS(A)
+<a> <b> <c>
+</c>
+<d>
+</d>
+</b> </a>
+TS(B)
+<a> <b> <e>
+</e>
+<e>
+</e> </b> </a>
+<d>
+</d>
+Amp
+Amp
+Time
+Time
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.4. Fast Fourier Transform
+•
+Step 2:
+– Transforming time series into frequency spectrums using Fast Fourier Transform
+• Since comparing frequency spectrums is more robust than comparing time series
+– More resistant to outliers and noise
+•
+Step 3:
+– Comparing frequency spectrums using any spectrum correlation measure
+• This can also be done using vector-based similarity measures
+– Since frequency spectrums can be represented as vectors where:
+ - Frequency values represent dimensions
+ - Frequency amplitudes represent vector weights
+  
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+49
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+3. Semi-structured Similarity Methods
+3.4. Fast Fourier Transform
+•
+Complexity: average logarithmic, e.g., O(N  log(N))
+–
+Where N represent the total number of opening and closing tags in the compared skeletons
+• Which simplifies to the total number of nodes in the compares XML trees
+•
+However an experimental critique of the FFT approach shows that:
+– While it is less complex than TED-based methods
+– Yet the FFT approach runs slower than typical TED algorithms
+– Also, clustering experiments show that the FFT method always yields the 
+highest error rates (largest number of mis-clustered documents)
+ Less accurate than certain edge-based and path-based variants
+  
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+50
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+Wrapping up
+•
+Various approximations of TED-based similarity approaches exist
+– Tag-based, Edge-based, Path-based, and others (e.g., FFT)
+•
+These can be used in a filter-refinement architecture with TED
+– Or as standalone measures in semi-structured data applications
+• In order to allow faster (even though less accurate) processing  
+•
+A major advantage of TED remains: producing an edit script
+– Central requirement in certain applications, e.g., data warehousing and integration
+– Provides a description of the similarity measures with tunable parameters (e.g., 
+edit operations costs)
+• Which can be adapted following the user’s needs
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+1/21/2026
+51
+J. TEKLI – joe.tekli@lau.edu.lb
+
+
+===PAGE BREAK===
+
+Engineering
+1/21/2026
+52
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 6. Structural Similarity Approximation
+Questions?
+
+
+===PAGE BREAK===
+
+Engineering
+Main References
+•
+Database Research Group, University of Salzburg, http://tree-edit-distance.dbresearch.uni-
+salzburg.at/
+•
+Florian Wetzels, Heike Leitte, Christoph Garth: Accelerating Computation of Stable Merge Tree 
+Edit Distances Using Parameterized Heuristics. IEEE Trans. Vis. Comput. Graph. 31(6): 3706-3718 
+(2025)
+•
+Son Le Thanh, Tino Weinkauf: A Comparative Study of Different Edit Distance-Based Methods for 
+Feature Tracking using Merge Trees on Time-Varying Scalar Fields. CoRR abs/2509.17974 (2025)
+•
+Dayi Fan, Rubao Lee, Xiaodong Zhang: X-TED: Massive Parallelization of Tree Edit Distance. Proc. 
+VLDB Endow. 17(7): 1683-1696 (2024)
+•
+Zhongxi Fang, Jianming Huang, Xun Su, Hiroyuki Kasai: Wasserstein Graph Distance Based on L1-
+Approximated Tree Edit Distance between Weisfeiler-Lehman Subtrees. AAAI 2023: 7539-7549
+•
+Masoud Seddighin, Saeed Seddighin 3+ε Approximation of Tree Edit Distance in Truly 
+Subquadratic Time. ITCS 2022: 115:1-115:22
+•
+S. Schwarz, M. Pawlik and N. Augsten. A New Perspective on the Tree Edit Distance. SISAP 
+International Conference, 2017
+•
+Joe Tekli, Gilbert Tekli, Richard Chbeir: Combining offline and on-the-fly disambiguation to 
+perform semantic-aware XML querying. Comput. Sci. Inf. Syst. 20(1): 423-457 (2023)
+Various other articles…
+Intelligent Data Processing and Applications 
+Ch. 5 - Structural Similarity

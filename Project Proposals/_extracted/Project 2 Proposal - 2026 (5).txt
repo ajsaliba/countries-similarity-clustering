@@ -1,0 +1,99 @@
+ 
+ 
+ 
+L E B A N E S E  A M E R I C A N  U N I V E R S I T Y  
+Department of Electrical and Computer Engineering 
+ 
+ 
+Intelligent Data Processing and Applications 
+ 
+COE 543/743 
+ 
+ 
+Spring 2026 
+Instructor: Joe Tekli 
+ 
+ 
+ 
+Project Proposal n#2 
+Wikipedia Semi-structured Infobox Document Clustering Tool 
+ 
+ 
+1. Title: Wikipedia Semi-structured Infobox Document Clustering Tool 
+ 
+2. Objective: The main objective of this project is to implement a semi-structured text document clustering 
+tool, which can accept as input a collection of Wikipedia infobox documents, and then group similar 
+documents together in coherent clusters, separating them from other less similar documents. In the context 
+of this specific project, clustering will allow us to identify similar countries and group them into relevant 
+clusters according to their similarities. For instance, Lebanon and Switzerland might be grouped together 
+due to their high similarity (competed in Project 1), compared with France and Germany which could be 
+part of another dedicated cluster.   
+ 
+3. Background and Motivations:  
+ 
+Clustering is the unsupervised classification of patterns (observations, data items, or feature vectors) into 
+groups (clusters). The clustering problem has been addressed in many contexts and by researchers in many 
+disciplines; this reflects its broad appeal and usefulness as one of the steps in exploratory data analysis. 
+However, clustering is a difficult problem combinatorially, and differences in assumptions and contexts in 
+different communities has made the transfer of useful generic concepts and methodologies slow to occur1. 
+Clustering is useful in several exploratory pattern-analysis, grouping, decision-making, and machine-
+learning situations, including data mining, document retrieval, image segmentation, and pattern 
+classification. However, in many such problems, there is little prior information (e.g., statistical models) 
+available about the data, and the decision-maker must make as few assumptions about the data as possible. 
+It is under these restrictions that clustering methodology is particularly appropriate for the exploration of 
+interrelationships among the text document to make an assessment of their structure. 
+Grouping similar documents together can improve their storage and indexing2, and thus positively 
+affect the retrieval process. For instance, if two documents are similar, it is likely that they both either 
+satisfy or not a given query. Therefore, when grouped together, similar documents would be much easier to 
+retrieve than when scattered at different locations in the storage device. Clustering can also be critical in 
+information extraction. It would be naturally much easier to identify and extract patterns from groups of 
+similar text documents, rather than identifying/extracting patterns from a huge repository of heterogeneous 
+documents. Current information extraction methods either implicitly or explicitly depend on clustering 
+solutions3. 
+ 
+5. Expected Results: The main objective of this project is to develop and implement two of the clustering 
+algorithms covered in class. Each student group is expected to build on the foundations set in Project 1 
+(Wikipedia Semi-structured Infobox Data Collection, Comparison, and Differencing), using/refining their 
+                                                          
+1 Algergawy A., Mesiti M., Nayak R., et al., XML Data Clustering: An Overview. ACM Computing Survey 2011. 43(4):25. 
+2 Jain A.K.; Murty M.N. and Flynn P.J., Data Clustering: A Review. ACM Computing Surveys, 1999. 31(3):264-323. 
+3 Tekli J., Chbeir R. and Yétongnon K., An Overview of XML Similarity: Background, Current Trends and Future Directions. Elsevier 
+Computer Science Review, 2009. 3(3):151-173. 
+
+
+===PAGE BREAK===
+
+implemented document similarity measures and indices in order to develop the clustering tool. The tool 
+should allow the user to set and fine-tune all parameters necessary to execute the implemented clustering 
+algorithms. Also, the tool should present the clustering results in a meaningful way than can be easily 
+understood by the user. Each group should implement two clustering algorithms (e.g., partitional, 
+hierarchical divisive, hierarchical agglomerative, spectral, etc.). 
+Groups wishing to go the extra mile can include: cluster visualization functionality (e.g., visual 
+representation of clusters, dendrograms, etc.), and cluster evaluation functionality (implementing cluster 
+evaluation metrics to be evaluated with respect to user chosen clustering algorithms and reference data).  
+In the context of this specific project, clustering will allow us to identify similar countries and group 
+them into relevant clusters according to their similarities. For instance, Lebanon and Switzerland might be 
+grouped together due to their high similarity (competed in Project 1), compared with France and Germany 
+which could be part of another dedicated cluster.   
+The choice of the programming environment (e.g., Java, C, C#, VB) is left to the students. Students 
+can go the extra mile and use a document centric NoSQL database to effectively and efficiently store and 
+access large numbers semi-structured documents. A technical report, of maximum 5 pages length, with 
+proper documentation describing the implementation process, design choices and techniques exploited in 
+developing the tool, is required per group of students. The report can include (but is not bound to) the 
+following sections: 
+ Introduction: topic, objective(s) of the project, and potential applications, 
+ Background: context, problem analysis, and existing solutions 
+ Proposal: conceptual modeling, software application design and  implementation, 
+ Experimental evaluation: test documents used, highlighting accuracy and execution speed of 
+clustering solutions 
+ Conclusion: synthesis, personal experience, project perspectives in terms of possible extensions, 
+improvements, and practical uses. 
+ 
+A project presentation/demonstration will also be conducted per group, of maximum 10 minutes 
+duration. Presentations/demos will be organized at the end of the semester (to be confirmed). Project 
+source codes and technical reports should be delivered to the instructor, in digital form, on the same day of 
+the presentation, as google drive or drop box attachments sent to: jtekli@gmail.com (please do not use the 
+instructor’s LAU email which often filters out source codes and programming files). 
+ 
+ 
+ 

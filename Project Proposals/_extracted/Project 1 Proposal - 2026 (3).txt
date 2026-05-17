@@ -1,0 +1,284 @@
+ 
+ 
+ 
+L E B A N E S E  A M E R I C A N  U N I V E R S I T Y  
+Department of Electrical and Computer Engineering 
+ 
+ 
+Intelligent Data Processing and Applications 
+ 
+COE 543/743 
+ 
+ 
+Spring 2026 
+Instructor: Joe Tekli 
+ 
+ 
+Project Proposal n#1 
+Wikipedia Semi-Structured Infobox Data Collection, Comparison, and Differencing 
+ 
+ 
+1. Title: Wikipedia Semi-Structured Infobox  Data Collection, Comparison, and Differencing 
+ 
+2. Objective: The main objective of this project is to implement a semi-structured document comparison 
+(tree edit distance) and differencing (patching) solution, which can be applied on different kinds of semi-
+structured documents consisting mainly of textual content. For the sake of the present project, we will 
+specifically focus on comparing data extracted from Wikipedia, more specifically country-related 
+infoboxes, for the purpose of comparing and differencing various countries against each other, attempting 
+to understand their similarities and differences.   
+ 
+ 
+ 
+a. Sample Wikipedia page describing the country of Lebanon 
+ 
+ 
+b. Semi-structured data content from Wikipedia infobox 
+ 
+Figure 1. Sample Wikipedia page 
+
+
+===PAGE BREAK===
+
+3. Background and Motivations: Semi-structured XML (and more recently JSON) based data is 
+increasingly available on the Web, due to the heterogeneity and diversity of data sources (e.g., scientific 
+communities, industries, social media sites, and healthcare institutions) and the un-normalized nature of the 
+data shared among those sources (e.g., publication records, reports, social and multimedia meta-data, and 
+electronic health records). For instance, the Brazilian National Research Council (CNPq) requires every 
+researcher to store their curricula in the Lattes platform1, using XML as the representation format. The city 
+of Baltimore in the USA annually publishes its financial, employment, security, healthcare, and other 
+various records on line, represented in XML and JSON formats. Also, the scientific community performs 
+regular data dumps regarding publications, authors, journals, and conferences 2. Similarly, Wikipedia 
+periodically generates dump files of the data it manages: articles, images, categories, constraints, and other 
+metadata3. For instance, an extract of a sample XML document describing scientific publications from the 
+Sigmod Record data repository3 is shown in Figure 1. 
+Owing to their increasing Web presence, semi-structured document comparison and differencing 
+becomes a central issue in the database and information retrieval communities, their applications ranging 
+from: change management and data warehousing, data integration, search and retrieval, clustering and 
+classification (cf. IDPA Ch. 4-5-6). In this context, Tree Edit Distance (TED, also known as tree 
+differencing, approximate tree matching, or tree-to-tree correction) methods have been widely utilized to 
+compare semi-structured data, and have been proven optimal w.r.t. less accurate structural comparison 
+methods (cf. IDPA Ch. 4). TED techniques produce i) a similarity (distance) value, quantifying the 
+resemblances/differences between two trees being compared, and ii) an edit script (also known as diff or 
+Delta), describing the minimum amount of changes needed to transform one tree into another. 
+Hence, in this project, we propose to exploit the well know techniques for finding the edit distance 
+between tree structures, to allow the comparison and differencing of semi-structured documents.  
+ 
+4. Project Description: The project can be divided in five main parts: i) data collection, ii) document pre-
+processing, iii) document tree comparison and differencing, iv) document tree patching, and v) document 
+tree post-processing. Each component is described in more detail in the below paragraphs.  
+ 
+4.1. Data Collection  
+ 
+For the sake of the project,  students are requested to build a special dataset: collecting data regarding 
+all countries recognized by the United Nations4, where each country is described using its own semi-
+structured document (cf. Figure 1.a). More specifically, country documents will be made of the semi-
+structured data contents collected from the right-hand side of the Wikipidia page describing the country (, 
+i.e., the Wikipedia infobox, cf. Figure 1.b). Downloading the semi-structured Wikipedia infobox data  can 
+be achieved using several methods, ranging from high-level Python libraries to direct API calls. The 
+infoboxes are usually formatted as HTML tables (class infobox), making them accessible for extraction. 
+Once extracted, the data should be properly formatted as XML of JSON, for subsequent processing for 
+TED computation and differencing. The collected data can be stored as native XML/JSON, or in dedicated 
+XML/JSON (NoSQL) database tools, according to the student team preferences. 
+ 
+4.2. Data Pre-Processing 
+ 
+First, the tool should accept as input two semi-structured Wikipedia infobox documents (represented as 
+XML/JSON, cf. Figure 2). It should then produce a rooted ordered labeled tree presentation of every 
+document, in which the nodes represent semi-structured elements/attributes, labeled following element/attribute 
+tag name. Element nodes are ordered following their order of appearance in the document. Attribute nodes appear 
+as children of their encompassing element nodes, sorted left-to-right by attribute name, and appearing before sub-
+element siblings. Note that the order of attributes (unlike elements) is irrelevant in native XM/JSON, yet in the 
+context of semi-structure comparison and processing, attribute nodes are usually ordered (as described above) so 
+as to reduce the complexity of the similarity evaluation process. In this project, we also consider 
+element/attribute values (structure-and-content) in the comparison process, where element/attribute values are 
+mapped to leaf nodes labeled with their respective textual content (we will only consider textual content in this 
+                                                          
+1 http://lattes.cnpq.br/ 
+2 https://dblp.uni-trier.de/xml/; http://www.dia.uniroma3.it/Araneus/Sigmod/; https://research.cs.wisc.edu/niagara/ 
+3 https://dumps.wikimedia.org/ 
+4 UN member states: https://en.wikipedia.org/wiki/Member_states_of_the_United_Nations 
+
+
+===PAGE BREAK===
+
+project, and disregarded other typed data like numbers, dates, Boolean, etc.). Textual values need to be 
+tokenized (parsing names into tokens based on punctuation and case, e.g., sentence: “I like data processing” 
+produces 4 tokens: ‘I’, ‘like’, ‘data’, and ‘processing’), to be represented either: as one single text node in 
+the document tree, or as separate nodes for every token, based on the students’ choice of preference. The 
+reason for making one choice or the other needs to be properly explained. Stop word removal and stemming 
+will not be required at this stage (cf. Figure 3.a). 
+ 
+ 
+<?xml version='1.0' encoding='ISO-8859-1' ?> 
+ 
+<country> 
+    <name>Lebanon</name> 
+    <official_name>Lebanese Republic</official_name> 
+     
+    <coordinates> 
+        <latitude>33°50′N</latitude> 
+        <longitude>35°50′E</longitude> 
+    </coordinates> 
+     
+    <capital>Beirut</capital> 
+    <largest_city>Beirut</largest_city> 
+ 
+    <demonym>Lebanese</demonym> 
+ 
+    <government> 
+        <type>Unitary parliamentary republic under confessionalism</type> 
+        <president>Joseph Aoun</president> 
+        <prime_minister>Nawaf Salam</prime_minister> 
+        <speaker_of_parliament>Nabih Berri</speaker_of_parliament> 
+    </government> 
+ 
+    <legislature>Parliament</legislature> 
+    <area> 
+        <total_km2>10452</total_km2> 
+        <water_percent>1.8</water_percent> 
+    </area> 
+ 
+    <population> 
+        <estimate_year>2024</estimate_year> 
+        <total>5364482</total> 
+        <density_per_km2>513</density_per_km2> 
+    </population> 
+ 
+  … 
+ 
+</country> 
+ 
+Figure 2. Simplified extract of sample XML document from the Sigmod Record repository 
+ 
+4.3. Document Tree Similarity and Differencing 
+ 
+On the one hand, the similarity between two infobox document tree structures provides a very 
+important piece of information in order to understand whether two countries are similar or different. A 
+typical question we can ask ourselves here is: How similar are Lebanon and Switzerland? To compute the 
+similarity between Lebanon and Switzerland infobox documents, tree edit distance (TED) has to be 
+computed between the corresponding document trees, by adapting a TED algorithm provided in the 
+literature (cf. IDPA, Ch. 5). The project should have a working implementation of the algorithm by 
+Chawathe5 or the algorithm by Nierman and Jagadish’s6, or another similar TED algorithm. Note that TED 
+computations need to distinguish between document structure (element/attribute names) and content 
+(element/attribute values). 
+On the other hand, the differencing between two infobox documents will describe how the two 
+countries being compared are similar or different. In other words, the question we can ask ourselves here is: 
+How are Lebanon and Switzerland similar? To identify the difference between two infobox documents, the 
+edit script or diff between the two compared trees needs to be computed. The diff computation process 
+consists of a backtracking of the TED computation described in the above paragraph, and will depend on 
+the nature of the TED algorithm adopted (cf. Figure 3.b).   
+ 
+                                                          
+5   Chawathe S., Comparing Hierarchical Data in External Memory. International Conference on Very Large Data Bases (VLDB), 1999. pp. 90-101. 
+6   Nierman A. and Jagadish H. V., Evaluating structural similarity in XML documents. Proceedings of the ACM SIGMOD International Workshop on 
+the Web and Databases (WebDB), 2002. pp. 61-66. 
+
+
+===PAGE BREAK===
+
+a. Text document pre-processing  
+b. Document tree differencing 
+ 
+ 
+ 
+ 
+c. Document tree patching 
+b. Document tree post-processing  
+ 
+Figure 3. Semi-structured document differencing and patching 
+ 
+Having identified the edit script, otherwise known as diff, describing the changes between two 
+document trees (T1 and T2) compared via the TED algorithm, the diff would have to be outputted in a useful 
+format to be efficiently exploited in the remainder of the study. For instance, an edit script ES(T1, T2) =  
+Ins(T1[2], 1, T2[2]), Upd(T1[3],‘G’)
+ should be transformed and represented in a readable way 
+(XML/JSON) to be stored in a separate document for later usage in patching. Here, the students can come 
+up with their own syntax to describe diffs, or they can adapt existing diff representations such as 
+DeltaXML7 [9] and XyDiff8 [10]. In the context of this project, the diff between two Wikipedia infobox 
+documents will describe the difference between the corresponding countries (e.g., difference between 
+Lebanon and Switzerland in geographic size, population size and diversity, GDP, etc.).  
+ 
+4.4. Document Tree Patching 
+ 
+After identifying the edit script (diff) transforming one document tree into another, a complementary 
+functionality would be to apply the diff to either one of the source trees, in order to obtain the other tree 
+(Figure 3.c). This action is known as patching. In the context of this specific project, patching will allow us 
+to understand what needs to be done to transform one country into the other. In other works, we ask 
+ourselves here: Given the similarity between Lebanon and Switzerland (established in the previous TED 
+step), what would it take to transform Lebanon into Switzerland if we wanted to? 
+While various tools have been developed for TED computations (differencing), very few 
+implementations enable patching. A main aspect here is the diff output format itself, and how formatted 
+diffs should be handled in order to re-integrate the changes in the original trees.  
+ 
+4.5. Document Tree Post-Processing 
+ 
+Finally, the resulting trees need to be post-processed (Figure 3.d) to be represented in their native 
+XML/JSON format and eventually in their original Wikipedia infobox format.  
+ 
+5. Expected Results: The main objective of this project is to develop and implement the Wikipedia semi-
+structured infoboxes document pre-processing, comparison, differencing, and patching modules described 
+above. Each student group is expected to conceive and implement:  
+ 
+1. A pre-processing module to transform input Wikipedia infoboxe documents into rooted ordered 
+labeled trees, 
+2. A TED algorithm, which takes as input two infobox trees, and outputs the distance (similarity) value, 
+3. An edit script extraction algorithm, which extract the edit script describing the transformation 
+operations between two infobox trees, based on their  computation, 
+4. A tree patching algorithm, which takes as input the document tree and edit script, and applies the edit 
+script to the input tree in order to obtain the other tree, 
+5. A post-processing tool to transform the document tree into its original Wikipedia infobox textual 
+form. 
+                                                          
+7 Monsell EDM ltd. DeltaXML. http://deltaxml.com 
+8 http://wwwrocq.inria.fr/˜cobena/XyDiffWeb/. 
+Doc. tree T1 
+Doc. tree T2 
+Document 
+Post-processing 
+Wiki doc.  D1 
+Wiki doc. D2 
+Patching 
+component 
+Doc tree T1 
+ES(T1, T2) 
+Doc tree T2 
+Patching 
+component 
+Doc. tree T2 
+ES(T1, T2) 
+Doc tree T1 
+Doc. tree T1 
+Differencing component 
+TED algorithm 
+Doc. tree T2 
+Sim(T1, T2) 
+ES(T1, T2) 
+ES Recovery 
+Wiki doc. D1 
+Wiki doc. D2
+ 
+Document 
+Pre-processing 
+Doc. tree T1 
+Doc. tree T2 
+
+
+===PAGE BREAK===
+
+ 
+While the solution should be generic and applicable to any semi-structured document, the main focus 
+of the implementation will be Wikipedia infobox documents describing the country states recognized by the 
+United Nations9. The choice of the programming environment (e.g., Java, C++, C#, Python) is left to the 
+students. A technical report, of maximum 5 pages length, with proper documentation describing the 
+implementation process, the design choices made by students, and the techniques exploited in developing 
+the tool, is required per group of students. A project presentation/demonstration will also be conducted 
+per group, of maximum 10 minutes duration. Presentations/demos will be organized on Tuesday March 
+24th 2026. Project source codes and technical reports should be delivered to the instructor, in digital form, 
+on the same day of the presentation, as google drive or drop box attachments sent to: jtekli@gmail (please 
+do not use the instructor’s LAU email which often filters out source codes and programming files). 
+ 
+ 
+ 
+ 
+                                                          
+9 https://en.wikipedia.org/wiki/Member_states_of_the_United_Nations 

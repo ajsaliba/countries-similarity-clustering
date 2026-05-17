@@ -1,0 +1,1284 @@
+Lebanese American University
+www.lau.edu.lb
+www.lau.edu.lb/ece
+School of Engineering
+Department of Electrical &
+Computer Engineering
+Chartered in the State of New York
+Intelligent Data Processing and Applications
+Joe M. TEKLI, PhD
+Computer Software Engineering
+Chapter 4 -  Overview of Similarity Processing
+COE 543/743
+
+
+===PAGE BREAK===
+
+Engineering
+•
+The semi-structured nature of data makes it ideal for representing heterogeneous data
+– Information to be broadcasted over the Web is described in semi-structured and 
+NoSQL data
+  To guarantee its interoperability!
+1/21/2026
+2
+J. TEKLI – joe.tekli@lau.edu.lb
+<Academy Name=‘Dijon’>
+<Department>
+   <Laboratory> 
+      <Professor>John Cramer</Professor>
+      <Student>John Takagi</Student>
+   </Laboratory>
+</Department>
+       </Academy>
+Eminent need in DB, IR, and DM
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+Need for semi-structured data similarity evaluation
+Toward Intelligent Data Processing on the Web
+
+
+===PAGE BREAK===
+
+Engineering
+Chapter Contents
+1. Motivations
+2. Formal Definition of Similarity
+3. Main Categories of Similarity Approaches
+4. Edit Distance (ED) based Approaches
+5. Information Retrieval (IR) based Approaches
+6. Other Approaches
+7. Current Issues
+8. Ongoing Solutions
+9. Toward an Intelligent Web
+1/21/2026
+3
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+1. Motivations
+1/21/2026
+4
+J. TEKLI – joe.tekli@lau.edu.lb
+High
+ Similarity
+Low 
+Similarity
+Pattern image
+Image search result
+(Google images)
+How to search for semantically
+Similar images?
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+1. Motivations
+1/21/2026
+5
+J. TEKLI – joe.tekli@lau.edu.lb
+How to merge 
+Web documents?
+High 
+Similarity
+Low 
+Similarity
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+1. Motivations
+1/21/2026
+6
+J. TEKLI – joe.tekli@lau.edu.lb
+LAU
+University  of Bourgogne
+University of Milan
+University of Shizuoka
+Data 
+warehouse
+How to exchange 
+and integrate 
+information 
+between DBs?
+XML/JSON
+XML/JSON
+XML/JSON
+XML/JSON
+XML/
+JSON
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+1. Motivations
+1/21/2026
+7
+J. TEKLI – joe.tekli@lau.edu.lb
+Web
+Web application
+Travel agency
+Hotel booking
+Insurance purchase
+Car rental
+Client
+Web 
+Services
+exchange
+XML/REST
+http request
+http response
+How to identify and compose 
+Web Services?
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+1. Motivations
+•
+Intelligent Web search and retrieval
+•
+Data integration
+•
+Service Composition
+•
+Service performance
+•
+Data warehousing
+•
+Change management
+•
+Storage and indexing
+•
+Message translation
+•
+…
+1/21/2026
+8
+J. TEKLI – joe.tekli@lau.edu.lb
+All these applications and others require some notion of 
+Semi-structured Similarity-based Processing
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+2. Formal Definition of Similarity
+•
+Inverse of a distance function (metric)
+–
+Sim(S1, S2)  [0, 1]
+–
+Sim(S1, S2) = 1  objects S1 and S2 are identical
+–
+Sim(S1, S2) = 0  S1 and S2 have has no common characteristics
+–
+Similarity increases with the commonality between S1 and S2, and decreases             
+with their difference
+–
+Similarity and distance are inverse to each other
+–
+Sim(S1, S1) = 1     Reflexivity
+–
+Sim(S1, S2) = Sim(S2, S1)     Symmetricity
+–
+Sim(S1, S3) ≥ Sim(S1, S2) × Sim(S2, S3)     Triangular inequality 
+•
+Dist(S1, S3) ≤ Dist(S1, S2) + Dist(S2, S3)
+1/21/2026
+9
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+3. Main Categories of Similarity Approaches
+1/21/2026
+10
+J. TEKLI – joe.tekli@lau.edu.lb
+Content
+only
+Content and 
+structure
+Structure 
+only
+Document/Document
+Grammar/Grammar
+Document/Grammar
+Main focus of study
+Semi-structured Similarity
+Kind of 
+Information
+Layer
+of 
+abstraction
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+3. Main Categories of Similarity Approaches
+•
+A range of algorithms for comparing semi-structured data have been proposed
+– Most of them exploit CPM and AI techniques
+• Rigorously structured data
+• Fine-grained
+• Main target: data structure
+– Others focus on extending conventional IR methods, e.g. the vector space model, 
+so as to provide semi-structured similarity assessment
+• Loosely structured data
+• Coarse-grained
+• Main target: data content
+– Other diverse methods
+• Edge/Path Similarity, Fast Fourier Transform, Entropy…
+• Usually approximate Tree Edit Distance
+1/21/2026
+11
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+4. Edit Distance based Approaches
+•
+Making use of dynamic programming techniques for finding the Edit Distance between 
+trees
+–
+Combinatorial Pattern Matching (CPM)
+• Rigorously structured (data-centric) data
+• Fine-grained
+• Main target: data structure
+• Applications: data warehousing and structural clustering
+1/21/2026
+12
+J. TEKLI – joe.tekli@lau.edu.lb
+Finding the cheapest sequence of edit operations that can 
+transform one tree into another
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+4. Edit Distance based Approaches
+•
+Algorithms can be distinguished following:
+–
+The set of edit operations allowed
+•
+Insert node: Insertion of inner/leaf nodes
+•
+Delete node: Deletion of inner/leaf nodes 
+•
+Update node: Relabelling nodes
+•
+Insert tree
+•
+Delete tree
+•
+Move tree
+– The overall complexity and performance
+• O(N2 D2)
+• O(N2)
+• O(N log(N))
+1/21/2026
+13
+J. TEKLI – joe.tekli@lau.edu.lb
+a
+b
+c
+d
+e
+z
+j
+h
+i
+z
+ya
+Sacrificing optimality
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+4. Edit Distance based Approaches
+1/21/2026
+14
+J. TEKLI – joe.tekli@lau.edu.lb
+Dist(A, B) = 3
+Sim(A, B) = 0.25
+Sim = 1 / 1 + Dist
+Del(A[5], A[3]) 
+Student
+Professor
+Academy
+Department
+Laboratory
+Lecturer
+College
+Department
+Laboratory
+Document tree A
+Document tree B
+College
+Lecturer
+1
+2
+3
+4
+5
+1
+2
+3
+4
+Upd(A[1], B[1]),
+Upd(A[4], B[4]),
+Edit script = 
+Simple Example:
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+5. Information Retrieval based Approaches
+•
+Documents are represented weighted vectors
+– Taking into account term occurrences and structure
+• Loosely structured (document-centric) data
+• Coarse-grained
+• Main target: data content
+• Application: Fast and simple data querying
+1/21/2026
+15
+J. TEKLI – joe.tekli@lau.edu.lb
+Comparing document vector representations 
+(cosine measure, Jaccard measure, Dice, …)
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+5. Information Retrieval based Approaches
+1/21/2026
+16
+J. TEKLI – joe.tekli@lau.edu.lb
+Simple Example:
+Student
+Academy
+Faculty
+Laboratory
+Mark
+Cramer
+Student
+Professor
+Department
+John
+Cramer
+John
+Takagi
+John    Cramer    Takagi     Mark
+(  2    ,
+2      ,
+1        ,
+1  )
+Document tree D1
+VD1 = 
+TF weights
+With traditional IR:
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+5. Information Retrieval based Approaches
+•
+Traditional IR methods are not adequate with semi-structured data!
+– With semi-structured data, content is distributed at different levels of the 
+document tree
+• It is to be treated differently w.r.t. flat content to improve retrieval precision
+– Down-weighting TF-IDF statistics w.r.t. structure
+– Users in turn want to refer to document structure when searching for relevant 
+information
+• Formulating Content-and-structure queries, in comparison with the content-only queries 
+in conventional IR
+• Specifying search context (query scope)
+1/21/2026
+17
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+5. Information Retrieval based Approaches
+1/21/2026
+18
+J. TEKLI – joe.tekli@lau.edu.lb
+Simple Example:
+With semi-structured IR:
+Student
+Academy
+Faculty
+Laboratory
+Mark
+Cramer
+Student
+Professor
+Department
+John
+Cramer
+John
+Takagi
+Student
+Student
+Professor
+0.6
+0.3
+0.6
+0.3
+0.5
+0.6
+John    Cramer    Takagi     Mark
+(  1    ,
+1      ,
+0        ,
+0   )
+VProfessor = 
+TF scores
+(  0.9    ,
+0.6    ,
+0.3     ,
+0   )
+VDepartment = 
+(  0.45    ,
+0.48  ,
+0.15   , 0.18 )
+VFaculty = 
+Down-weighted 
+TF scores
+}
+(  1    ,
+0      ,
+1        ,
+0   )
+VStudent1 = 
+Document tree D1
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+1
+2
+
+
+===PAGE BREAK===
+
+Engineering
+6. Other Approaches
+– Approximations of TED-based methods
+•
+Tag similarity [Buttler 04]
+•
+Edge similarity [Lian et al., 04]
+•
+Path similarity [Rafiei et al., 06]
+– Extensions of IR-based methods
+•
+Independent Component Analysis [Wang et al., 06]
+•
+Latent Semantic Kernel [Yang et al., 05] [Nayak et al. 08]
+– Others:
+•
+Fast Fourier Transform (FFT) [Flesca et al., 02]
+•
+Leaf node clustering [Liang and Yokota, 05]
+•
+Entropy [Helmer 07]
+•
+Bayesian Networks [Leitao et al., 07]
+•
+Global similarity function [Nayak et al., 08] [Hwang and Ryu, 10]
+1/21/2026
+19
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+7. Current Issues
+•
+Two main areas of study:
+• Enhancing structural similarity
+• Integrating semantic similarity evaluation
+1/21/2026
+20
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+7. Current Issues
+7.1. Enhancing Structural Similarity
+•
+Semi-structured documents tend to have many optional and repeated elements
+•
+Such elements induce recurring sub-trees of similar or identical structures
+1/21/2026
+21
+J. TEKLI – joe.tekli@lau.edu.lb
+Such repetitions/resemblances should be detected
+to efficiently assess structural similarity
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+7. Current Issues
+7.1. Enhancing Structural Similarity
+•
+Identifying certain cases where existing edit distance approaches are inaccurate:
+• Similarity between document trees A/B (sub-trees A1 and B1) w.r.t. A/C
+1/21/2026
+22
+J. TEKLI – joe.tekli@lau.edu.lb
+a
+b
+c
+d
+a
+b
+c
+d
+a
+b
+c
+d
+d
+e
+f
+Doc tree A
+Doc tree B
+Doc tree C
+Sim(A, B) = Sim(A, C) 
+b
+c
+d
+b
+c
+d
+b
+c
+d
+A1
+B1
+B2
+C1
+C2
+Repetition of similar sub-trees  
+?
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+7. Current Issues
+7.1. Enhancing Structural Similarity
+•
+Identifying certain cases where existing edit distance approaches are inaccurate:
+• Similarity between document trees F and G (sub-trees F1 and G2) w.r.t. F/H
+1/21/2026
+J. TEKLI – joe.tekli@lau.edu.lb
+23
+Sim(F, G) = Sim(F, H)
+Structural similarity between sub-trees of different depths  
+?
+a
+a
+Doc tree F
+Doc tree G
+Doc tree H
+m
+d
+a
+m
+b
+c
+d
+f
+g
+h
+i
+j
+d
+b
+c
+d
+e
+b
+c
+d
+b
+c
+d
+F1
+G1
+G2
+H1
+H2
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+7. Current Issues
+7.2. Integrating Semantic Similarity
+•
+Most algorithms for comparing semi-structured data:
+• Focus on the structure of documents
+• Ignore the semantics involved
+1/21/2026
+24
+J. TEKLI – joe.tekli@lau.edu.lb
+Student
+Professeur
+Academy
+Department
+Laboratory
+Lecturer
+College
+Department
+Laboratory
+Supervisor
+Factory
+Department
+Laboratory
+Document tree A
+Document tree C
+Document tree B
+College
+Lecturer
+Supervisor
+Factory
+Academy
+Student
+Professor
+Sim(A, B)   =   Sim(A, C)
+?
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+7. Current Issues
+•
+To sum up:
+1/21/2026
+25
+J. TEKLI – joe.tekli@lau.edu.lb
+Problems
+Detecting occurrences/repetitions of 
+structurally and semantically similar sub-trees
+Improve comparison accuracy
+Without drastically affecting complexity…
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+7. Current Issues
+•
+To sum up:
+1/21/2026
+26
+J. TEKLI – joe.tekli@lau.edu.lb
+Integrate semantic 
+similarity
+evaluation
+Hybrid 
+Comparison
+Approach 
+Amend structural 
+similarity
+evaluation
+Objective
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+8. On-going Solutions
+•
+Structural Similarity
+–
+Specialized Tree Edit Distance: Computing adapted operations costs
+1/21/2026
+27
+J. TEKLI – joe.tekli@lau.edu.lb
+Del(A[5], A[3]) 
+Student
+Professor
+Academy
+Department
+Laboratory
+Lecturer
+College
+Department
+Laboratory
+Document tree A
+Document tree B
+College
+Lecturer
+1
+2
+3
+4
+5
+1
+2
+3
+4
+Upd(A[1], B[1]),
+Upd(A[4], B[4]),
+Edit script = 
+Dist(A, B) = 3 ?
+Sim(A, B) = 0.25 
+Sim = 1 / 1 + Dist
+?
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+8. On-going Solutions
+•
+Semantic Similarity
+–
+Making use of semantic references
+• Dictionaries
+• Thesauri
+• Taxonomies
+• Ontologies 
+1/21/2026
+28
+J. TEKLI – joe.tekli@lau.edu.lb
+Extract of WordNet
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+     To put things back into perspective:
+1/21/2026
+29
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+Static pages
+HTML
+Web Applications
+Dynamic pages
+Web Services
+Dynamic data exchange
+Web 1.0
+Web of Documents
+Web 2.0
+Social Web
+Web 3.0
+Semantic Web
+Web 4.0
+Intelligent Web
+Digital Ecosystems
+Ubiquitous computing
+1989
+1995
+2000
+2005
+2010
+2020
+2025
+Recall Web technologies evolution (cf. Chapter 1):
+1st Generation
+2nd Generation
+3rd Generation
+4th Generation
+Web evolution states:
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.1. Web of Documents (Web 1.0)
+•
+Genesis of the Web
+•
+Users access information in the form of HTML pages
+•
+Web documents
+•
+Information in Web documents is static
+•
+Document contents can only be modified manually
+•
+Web document contents are created by experts
+•
+Typical (non-expert) users are mere consumers of information
+1/21/2026
+30
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+Web 1.0 is a mere forum for publishing static expert information 
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.2. Social Web (Web 2.0)
+•
+Also known as Collaborative Web
+– Many users produce and consume contents simultaneously
+• Blogs: time stamped data entries
+• Content communities: sharing media contents between users
+– YouTube, Flikr, BookCrossing, etc.
+• Social networking sites: users connect by creating personal profiles, inviting friends, and 
+sending e-mails and instant messages between each other 
+– Facebook, MySpace, etc.
+• Collaborative systems (Wikis)
+– Wiki is derived from Hawaiian word: Fast
+•
+E.g., Wikipedia: ever more popular for content management
+1/21/2026
+31
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.2. Social Web (Web 2.0)
+•
+Also known as Collaborative Web
+1/21/2026
+32
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+Web 1.0
+Web 2.0
+Personal Web pages
+      - Static contents
+Blogs and social network profiles
+        - Dynamic contents
+Encyclopedia Britannica Online
+       - Expert information only
+Wikis
+        - Expert and non-expert information
+Content Publishing
+        - Users are only consumers of information
+Collaborative projects
+        - Users create and consume information
+Web 2.0 is a medium for sharing dynamic user information 
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.3. Semantic Web (Web 3.0)
+•
+As the Web became increasingly interactive: Social Web (2.0) 
+–
+where users were publishing data and interacting with each other
+     Advent of a new era of distributed data management with double interaction: 
+i.
+Horizontal: user-user
+ii.
+Vertical: user-machine
+•
+Tim Berners-Lee introduces the vision of the Semantic Web:
+– Extending the Web by associating data with well-defined semantics (knowledge)
+  Better enabling computers and people to interact and work in cooperation
+1/21/2026
+33
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+Need for more effective user-machine interactions
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.3. Semantic Web (Web 3.0)
+•
+To answer the question, we need to cover some basic concepts:
+– Data: the lowest abstraction of data representation with no meaning 
+• Example: “2001” is considered as a number consisting of 4 digits
+– Information: The interpretation of the data by giving it well-defined meaning
+• Example “2001” is  “the year of announcement of the Semantic Web"
+– Meta-data:  A description about the data and/or information 
+• Such as who gave the data/information (e.g., Wikipedia), when was the data/ 
+information given (e.g., published in 2002, etc.) 
+1/21/2026
+34
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+What is data semantics? What is knowledge?
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.3. Semantic Web (Web 3.0)
+•
+Knowledge: The combination of all known data, information, and meta-data 
+concerning a given concept or fact, as well as the relations between them 
+–
+Example: like knowing that “the year of announcement of the Semantic Web" is “2001", 
+following Wikipedia in an article published in 2002
+•
+Data Semantics: The meaning of data, expressed in terms of its:
+–
+Information
+–
+Meta-data
+–
+Or at a higher level of abstraction and expressiveness: knowledge
+1/21/2026
+35
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+What is data semantics? What is knowledge?
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.3. Semantic Web (Web 3.0)
+•
+Building blocks
+1/21/2026
+36
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+Addressing
+Syntax
+Semantics
+XML
+RDF
+- XML: Extensible Markup Language
+- RDF: Resource Description Framework
+- RDFS: RDF Schema
+- OWL: Ontology Web Language
+- SPARQL: RDF/OWL query language
+SW standards to describe 
+data and semantics:
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.3. Semantic Web (Web 3.0)
+•
+To sum up, The Semantic Web vision promises to:
+– Give information well-defined meaning 
+ so that it becomes more easily accessible 
+• by human users and automated processes!
+•
+NOTE: We are currently in the Semantic Web era
+–
+Examples: Google, Facebook, Flikr, Wikis, etc. are all becoming semantically sensitive
+• Allowing semantic data annotations, search, and manipulation
+1/21/2026
+37
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+Web 3.0 is a platform for sharing knowledge 
+between humans and computers 
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.4. Intelligent Web (Web 4.0)
+•
+Intelligent Web (IW), also known as the Internet of Things (IoT) vision
+•
+Extension of the Semantic Web where:
+•
+Objects of the real world (with added digital components) 
+•
+Objects of the virtual world (software agents on the Web)
+ 
+            Are connected and interact at anytime/anyplace, using: 
+•
+Collective knowledge
+•
+Ubiquitous computing
+1/21/2026
+38
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+Semantic Web
+Mobile Internet
+Intelligent Web
+Sensor Networks
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.4. Intelligent Web (Web 4.0)
+•
+Collective knowledge: Knowledge acquired form a distributed pool of sources 
+–
+The combination of all known data, information, and meta-data concerning a given (set of) 
+concept(s), fact(s), user(s), or processes (s)
+–
+As well as the semantic relations between them
+•
+Challenges:
+–
+Knowledge Evaluation and Verification
+–
+Knowledge Versioning and Preservation
+–
+Knowledge Extrapolation
+1/21/2026
+39
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+Intelligent Web terminals are expected to automatically handle CK 
+To improve information management and services
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.4. Intelligent Web (Web 4.0)
+•
+Ubiquitous Connectivity: Always-on connectivity, based on:
+–
+Developments in network technologies:
+• RFID (Radio Frequency Identification)
+• Short-range wireless technologies (WI-FI)
+• Sensor networks
+–
+Enhancements in network addressing techniques:
+• IPv6 to expand address space
+• IRI (Internationalized Resource Identifier)
+1/21/2026
+40
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+Reaching more objects in the physical/virtual worlds
+Connecting them together through the Internet
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.4. Intelligent Web (Web 4.0)
+•
+Extending the concept of cooperation from:
+–
+User-User and User-Machine with the Semantic Web
+         To Machine-Machine interaction
+•
+Machines do not simply interact with humans
+•
+Machines interact with each other!
+•
+Interaction is not only based on a simple exchange of data
+•
+But rather on an exchange of semantically meaningful information 
+•
+Exchange of knowledge well understood by machines
+1/21/2026
+41
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+9. Toward an Intelligent Web
+9.4. Intelligent Web (Web 4.0)
+              Human and software agents collaborate, interact, compete, and evolve autonomously 
+          In order to automatically solve complex and dynamic problems
+•
+NOTE: We are not there yet! We are currently in the Semantic Web era
+– Very hot research topic!
+1/21/2026
+42
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+Web 4.0 promotes the concept of Digital Web Ecosystems 
+Building on Semi-structured, Semantic, and Linked data processing 
+
+
+===PAGE BREAK===
+
+Engineering
+1/21/2026
+43
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+Questions?
+
+
+===PAGE BREAK===
+
+Engineering
+Personal assignment
+•
+Learning to perform XML and JSON parsing:
+•
+SAX - Megginson D. et al. The Simple API for XML http://www.megginson.com/SAX/ 
+•
+Xerces XML Parser. Xerces Apache Foundation. Available from http://xerces.apache.org/
+•
+The Expat XML Parser. Expat SourceForge.NET. Available from 
+http://expat.sourceforge.net/ 
+•
+XBIS - SourceForge.NET. XML Binary Information Set (XBIS). Available from: 
+http://xbis.sourceforge.net/
+•
+https://www.geeksforgeeks.org/parse-json-java/
+•
+https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/how-
+to?pivots=dotnet-8-0
+•
+https://linuxhint.com/parse-json-data-cpp/
+•
+Many other XML/JSON parsers are embedded in programming environments...
+1/21/2026
+44
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+Exercises and Tutorials
+•
+Provided by the instructor during lecture sessions
+1/21/2026
+45
+J. TEKLI – joe.tekli@lau.edu.lb
+Presentation assignment
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing
+
+
+===PAGE BREAK===
+
+Engineering
+Main References
+•
+Joe Tekli, Gilbert Tekli, Richard Chbeir: Combining offline and on-the-fly disambiguation to 
+perform semantic-aware XML querying. Comput. Sci. Inf. Syst., 2023, 20(1): 423-457
+•
+Ali Hajjar, Joe Tekli: Unsupervised Extractive Text Summarization Using Frequency-Based 
+Sentence Clustering. ADBIS (Short Papers) 2022: 245-255
+•
+Sarkis Sarkissian, Joe Tekli: Unsupervised Topical Organization of Documents using Corpus-based 
+Text Analysis. MEDES 2021: 87-94, 2021
+•
+Joe Tekli, Richard Chbeir, Agma J. M. Traina, Caetano Traina Jr., Renato Fileto: Approximate XML 
+structure validation based on document-grammar tree similarity. Inf. Sci., 2015 295: 258-302
+•
+Joe Tekli; et al., Semantic to Intelligent Web Era: Building Blocks, Applications, and Current 
+Trends. In Proceedings of the International ACM Conference on Management of Emergent Digital 
+EcoSystems (ACM MEDES’13), Luxembourg, 2013.
+Various other scientific papers and publications…
+1/21/2026
+46
+J. TEKLI – joe.tekli@lau.edu.lb
+Intelligent Data Processing and Applications 
+Ch. 4 – Overview of Similarity Processing

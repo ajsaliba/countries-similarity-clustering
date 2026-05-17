@@ -20,9 +20,7 @@
     ],
     "Legislature": "National Assembly",
     "Area": {
-        "total_km2": 622984.0,
-        "land_km2": null,
-        "water_km2": null
+        "total_km2": 622984.0
     },
     "Population": {
         "total": 5650957,

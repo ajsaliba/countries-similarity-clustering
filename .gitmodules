@@ -1,0 +1,4 @@
+[submodule "FRONTEND"]
+	path = FRONTEND
+	url = https://github.com/ajsaliba/country-compass.git
+	branch = main

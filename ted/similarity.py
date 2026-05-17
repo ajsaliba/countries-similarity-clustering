@@ -4,11 +4,22 @@ Similarity conversion and pairwise matrix computation.
 Distance → Similarity methods
 ------------------------------
 "exp_size"  (default, recommended)
-    similarity = exp(−TED / avg_tree_size)
-    where avg_tree_size = (|T1| + |T2|) / 2  (total node count each tree).
-    Normalises by tree complexity so that the score is independent of how
-    many nodes each country's infobox happens to have.
-    Target ranges:  very similar > 0.7,  clearly different < 0.3.
+    similarity = exp(−TED / max_tree_size)   [Fix #1]
+    where max_tree_size = max(|T1|, |T2|)  (total node count each tree).
+
+    Grounding (PROJECT_NOTES §7.3 Fix #1):
+      Using the *average* size as denominator was too generous — the smaller
+      tree pulled the normaliser down and produced artificially high scores
+      between structurally incompatible trees (e.g. Vatican vs Russia 0.826).
+      Anchoring to the *larger* tree forces the score to reflect how much of
+      the larger context has to be discarded or inserted.
+
+    The raw exp score is then clamped by a hard size-ratio ceiling  [Fix #5]:
+      ceiling = min(|T1|, |T2|) / max(|T1|, |T2|)
+    A tree with 5 nodes cannot be more similar to one with 50 nodes than 10%,
+    regardless of how cheap the edit operations are.
+
+    Target ranges: very similar > 0.7, clearly different < 0.3.
 
 "norm"
     similarity = 1 − TED / max_cost
@@ -32,6 +43,9 @@ from .tree_builder import tree_size
 from .cost_functions import CostFunction
 from .zhang_shasha import zhang_shasha
 
+
+# ── internal helpers ──────────────────────────────────────────────────────────
+
 def _tree_delete_cost(root: Node, cost_fn: CostFunction) -> float:
     total = cost_fn.delete(root)
     for child in root.children:
@@ -49,6 +63,9 @@ def _tree_insert_cost(root: Node, cost_fn: CostFunction) -> float:
 def max_ted_cost(tree1: Node, tree2: Node, cost_fn: CostFunction) -> float:
     """Upper bound: cost of deleting all of T1 + inserting all of T2."""
     return _tree_delete_cost(tree1, cost_fn) + _tree_insert_cost(tree2, cost_fn)
+
+
+# ── public API ────────────────────────────────────────────────────────────────
 
 def ted_similarity(
     tree1: Node,
@@ -75,6 +92,27 @@ def ted_similarity(
     return dist, sim
 
 
+def _size_ratio_ceiling(tree1: Node, tree2: Node) -> float:
+    """
+    Hard upper bound on similarity from tree-size disparity.
+
+    Fix #5 (PROJECT_NOTES §7.3):
+      ceiling = min(|T1|, |T2|) / max(|T1|, |T2|)
+
+    A small tree can share at most ceiling-fraction of nodes with a large tree,
+    so similarity must respect this physical bound.
+
+    Returns 1.0 when both trees are the same size (no cap needed).
+    """
+    s1 = tree_size(tree1)
+    s2 = tree_size(tree2)
+    if s1 == 0 and s2 == 0:
+        return 1.0
+    if s1 == 0 or s2 == 0:
+        return 0.0
+    return min(s1, s2) / max(s1, s2)
+
+
 def _to_similarity(
     distance: float,
     tree1: Node,
@@ -82,18 +120,28 @@ def _to_similarity(
     cost_fn: CostFunction,
     method: str = "exp_size",
 ) -> float:
-    """Convert a non-negative TED distance to a similarity score."""
+    """Convert a non-negative TED distance to a similarity score in [0, 1]."""
+
     if method == "exp_size":
-        avg_size = (tree_size(tree1) + tree_size(tree2)) / 2.0
-        if avg_size == 0:
+        # Fix #1: anchor to max size, not average size
+        s1 = tree_size(tree1)
+        s2 = tree_size(tree2)
+        max_size = max(s1, s2)
+        if max_size == 0:
             return 1.0
-        return math.exp(-distance / avg_size)
+        raw = math.exp(-distance / max_size)
+        # Fix #5: clamp by size-ratio ceiling
+        ceiling = min(s1, s2) / max_size if max_size > 0 else 1.0
+        return min(raw, ceiling)
 
     if method == "norm":
         upper = max_ted_cost(tree1, tree2, cost_fn)
         if upper == 0.0:
             return 1.0
-        return max(0.0, 1.0 - distance / upper)
+        sim = max(0.0, 1.0 - distance / upper)
+        # Apply size-ratio ceiling here too for consistency
+        ceiling = _size_ratio_ceiling(tree1, tree2)
+        return min(sim, ceiling)
 
     if method == "exp":
         return math.exp(-distance)
@@ -104,6 +152,7 @@ def _to_similarity(
     raise ValueError(
         f"Unknown method: {method!r}. Choose 'exp_size', 'norm', 'exp', or 'inv'."
     )
+
 
 def compute_matrix(
     country_trees: Dict[str, Node],
@@ -157,6 +206,7 @@ def compute_matrix(
         print(f"  {done}/{total_pairs} pairs (100.0%)", flush=True)
 
     return dist_mat, sim_mat
+
 
 def top_similar(
     country: str,

@@ -112,6 +112,7 @@ DATA_DIR = BASE_DIR / "data" / "clean" / "countries"
 SEMANTIC_DATA_DIR = BASE_DIR / "data" / "cleaned-data"
 PATCH_OUTPUT_DIR = BASE_DIR / "outputs" / "patches"
 TED_MATRIX_FILE = BASE_DIR / "outputs" / "matrix.npz"
+MDS_COORDS_FILE = BASE_DIR / "outputs" / "mds_coords.npz"
 
 # Map every wizard "Select Labels" key to the corresponding top-level keys
 # in the cleaned-data schema, so the same UI filter can prune both
@@ -227,6 +228,11 @@ _JOBS: Dict[str, dict] = {}
 # (either loaded from outputs/matrix.npz or rebuilt). When present, every
 # clustering call slices a sub-matrix from it instead of computing TEDs live.
 _TED_MATRIX: Optional[Dict[str, Any]] = None      # {names, sim, dist, name_to_idx}
+
+# Persistent MDS coordinate atlas for the full corpus. Populated once at
+# startup (loaded from outputs/mds_coords.npz or computed + saved). Every
+# clustering call just indexes into this — no per-request MDS run.
+_MDS_ATLAS: Optional[Dict[str, Any]] = None       # {coords: 195x2 array, name_to_idx}
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -383,6 +389,76 @@ def load_or_build_ted_matrix() -> None:
         "dist":        dist,
         "name_to_idx": {nm: i for i, nm in enumerate(all_names)},
     }
+
+
+def load_or_build_mds_atlas() -> None:
+    """
+    Populate _MDS_ATLAS with a 2D MDS projection of the full corpus.
+
+    First run: ~3-5 seconds on a 195x195 distance matrix; result persisted
+    to outputs/mds_coords.npz. Subsequent server starts load it in
+    milliseconds. After loading, every clustering call indexes into this
+    atlas instead of running MDS — even on Select-All-195.
+    """
+    global _MDS_ATLAS
+    if _TED_MATRIX is None:
+        return
+
+    all_names = _TED_MATRIX["names"]
+    n = len(all_names)
+
+    if MDS_COORDS_FILE.exists():
+        try:
+            z = np.load(MDS_COORDS_FILE, allow_pickle=True)
+            cached_names = list(z["names"].tolist())
+            coords = z["coords"]
+            if (set(cached_names) == set(all_names)
+                    and coords.shape == (len(cached_names), 2)):
+                # Reorder cached coords to match the current corpus order.
+                idx_map = {nm: i for i, nm in enumerate(cached_names)}
+                ordered = np.array([coords[idx_map[nm]] for nm in all_names])
+                _MDS_ATLAS = {
+                    "coords":      ordered,
+                    "name_to_idx": {nm: i for i, nm in enumerate(all_names)},
+                }
+                print(f"[SIMILICA] Loaded cached MDS atlas ({n} points) "
+                      f"from {MDS_COORDS_FILE.relative_to(BASE_DIR)}", flush=True)
+                return
+            print("[SIMILICA] Cached MDS atlas ignored (names mismatch); rebuilding…",
+                  flush=True)
+        except Exception as e:
+            print(f"[SIMILICA] Cached MDS atlas unreadable ({e}); rebuilding…",
+                  flush=True)
+
+    print(f"[SIMILICA] Building MDS atlas for {n} points (one-time, ~5 s)…",
+          flush=True)
+    from sklearn.manifold import MDS
+    mds = MDS(n_components=2, dissimilarity="precomputed", random_state=42,
+              normalized_stress="auto", n_init=1, max_iter=300)
+    coords = mds.fit_transform(_TED_MATRIX["dist"])
+
+    MDS_COORDS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    np.savez(MDS_COORDS_FILE,
+             names=np.array(all_names, dtype=object),
+             coords=coords)
+    print(f"[SIMILICA] Saved MDS atlas to {MDS_COORDS_FILE.relative_to(BASE_DIR)}",
+          flush=True)
+
+    _MDS_ATLAS = {
+        "coords":      coords,
+        "name_to_idx": {nm: i for i, nm in enumerate(all_names)},
+    }
+
+
+def _mds_subset(names: List[str]) -> Optional[np.ndarray]:
+    """Return (len(names), 2) coords array from the atlas; None if any miss."""
+    if _MDS_ATLAS is None:
+        return None
+    try:
+        idx = [_MDS_ATLAS["name_to_idx"][nm] for nm in names]
+    except KeyError:
+        return None
+    return _MDS_ATLAS["coords"][idx]
 
 
 def _ted_submatrices(names: List[str]) -> Optional[Tuple[np.ndarray, np.ndarray]]:
@@ -953,8 +1029,10 @@ def build_dendrogram(dist_mat: np.ndarray, names: List[str], linkage_method: str
     """
     Build a binary tree suitable for the D3 dendrogram in clustering.js.
 
-    Internal nodes carry .left and .right (and also .children = [left, right]
-    so older code keeps working); leaf nodes carry .name.
+    Each internal node carries .left and .right; leaf nodes carry .name.
+    No redundant "children" array, no per-node "members" list — both used
+    to balloon the JSON to multiple GB on 195-leaf trees because JSON
+    serialisation duplicates referenced objects at every visit.
     """
     try:
         from scipy.cluster.hierarchy import linkage as sp_linkage, to_tree as sp_to_tree
@@ -967,31 +1045,28 @@ def build_dendrogram(dist_mat: np.ndarray, names: List[str], linkage_method: str
                     "id": f"leaf_{names[node.id]}",
                     "name": names[node.id],
                     "height": 0.0,
-                    "members": [names[node.id]],
                 }
-            left = convert(node.left)
-            right = convert(node.right)
             return {
                 "id": f"node_{node.id}",
                 "name": None,
                 "height": round(float(node.dist), 4),
-                "members": left["members"] + right["members"],
-                "left":  left,
-                "right": right,
-                "children": [left, right],
+                "left":  convert(node.left),
+                "right": convert(node.right),
             }
 
         return convert(root_node)
     except Exception:
-        leaves = [{"id": f"leaf_{n}", "name": n, "height": 0.0, "members": [n]}
-                  for n in names]
-        return {
-            "id": "root", "name": None, "height": 1.0,
-            "members": names,
-            "left":  leaves[0] if leaves else None,
-            "right": leaves[-1] if len(leaves) > 1 else None,
-            "children": leaves,
-        }
+        # Fallback when scipy linkage chokes on degenerate inputs: emit a
+        # right-leaning chain so the UI has something to draw.
+        def chain(i):
+            if i >= len(names) - 1:
+                return {"id": f"leaf_{names[i]}", "name": names[i], "height": 0.0}
+            return {
+                "id": f"node_{i}", "name": None, "height": 1.0,
+                "left":  {"id": f"leaf_{names[i]}", "name": names[i], "height": 0.0},
+                "right": chain(i + 1),
+            }
+        return chain(0) if names else {"id": "root", "name": None, "height": 0.0}
 
 
 def _derive_medoids(
@@ -1105,9 +1180,16 @@ def run_clustering_api(countries: List[str], basis: str, algorithm: str, params:
     else:
         raise ValueError(f"Unknown algorithm: {algorithm}")
 
-    mds = MDS(n_components=2, dissimilarity="precomputed", random_state=42,
-              normalized_stress="auto")
-    coords = mds.fit_transform(dist_mat)
+    # MDS is the slow step — on 195 points it dominates the entire clustering
+    # call. The full-corpus MDS projection is precomputed once at startup
+    # (load_or_build_mds_atlas → outputs/mds_coords.npz) and we just index
+    # into it. Falls back to per-request MDS only if a country isn't in the
+    # atlas (shouldn't happen in normal operation).
+    coords = _mds_subset(names)
+    if coords is None:
+        mds = MDS(n_components=2, dissimilarity="precomputed", random_state=42,
+                  normalized_stress="auto", n_init=1, max_iter=300)
+        coords = mds.fit_transform(dist_mat)
 
     # UI expects an array of [name, x, y] triples (clustering.js iterates this).
     mds_coords = [
@@ -1118,15 +1200,9 @@ def run_clustering_api(countries: List[str], basis: str, algorithm: str, params:
     ]
     positions = {names[i]: [mds_coords[i][1], mds_coords[i][2]] for i in range(n)}
 
-    edges = []
-    for i in range(n):
-        for j in range(i + 1, n):
-            edges.append({
-                "source": names[i],
-                "target": names[j],
-                "weight": round(float(sim_mat[i, j]), 4),
-            })
-
+    # Note: we used to emit a fully connected edges list (~18,915 entries
+    # for 195 countries) in the response. clustering.js builds its own
+    # edges client-side from cluster_members, so we drop it server-side.
     assignments = {names[i]: int(result.labels[i]) for i in range(n)}
     cluster_members = {str(k): v for k, v in result.cluster_members().items()}
 
@@ -1188,7 +1264,6 @@ def run_clustering_api(countries: List[str], basis: str, algorithm: str, params:
         "positions_2d":    positions,
         "country_coords":  country_coords,
         "dendrogram":      dendrogram,
-        "edges":           edges,
         "eval":            eval_metrics,
         "summary":         summary,
         "names":           names,
@@ -1528,6 +1603,7 @@ def api_job(job_id: str):
 load_countries()
 load_semantic_data()
 load_or_build_ted_matrix()
+load_or_build_mds_atlas()
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

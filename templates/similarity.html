@@ -396,44 +396,17 @@
       <div class="sim-step-panel" data-step="1">
         <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Similarity type</h2>
         <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:24px;">
-          Structural compares tree shape via Tree Edit Distance; semantic compares leaf-text tokens via Jaccard;
-          combined blends both with a tunable α.
+          This project uses the structural similarity (Tree Edit Distance via Zhang-Shasha) as its single
+          comparison method.
         </p>
-        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:900px;">
-          <div class="sim-card" data-sim-type="structural" onclick="simSelectType('structural')">
+        <div style="display:grid;grid-template-columns:1fr;gap:16px;max-width:520px;">
+          <div class="sim-card selected" data-sim-type="structural" onclick="simSelectType('structural')">
             <div style="font-size:28px;margin-bottom:12px;">🌲</div>
             <h3 style="font-size:15px;font-weight:700;margin-bottom:6px;">Structural</h3>
             <p style="font-size:12px;color:var(--muted-foreground);line-height:1.5;">
-              Zhang-Shasha Tree Edit Distance on the typed infobox tree.
+              Zhang-Shasha Tree Edit Distance on the typed infobox tree. Type-aware cost function with
+              per-section weights and an exp-size similarity converter.
             </p>
-          </div>
-          <div class="sim-card" data-sim-type="semantic" onclick="simSelectType('semantic')">
-            <div style="font-size:28px;margin-bottom:12px;">🔤</div>
-            <h3 style="font-size:15px;font-weight:700;margin-bottom:6px;">Semantic</h3>
-            <p style="font-size:12px;color:var(--muted-foreground);line-height:1.5;">
-              Jaccard token overlap across every leaf string value.
-            </p>
-          </div>
-          <div class="sim-card" data-sim-type="combined" onclick="simSelectType('combined')">
-            <div style="font-size:28px;margin-bottom:12px;">⚖️</div>
-            <h3 style="font-size:15px;font-weight:700;margin-bottom:6px;">Combined</h3>
-            <p style="font-size:12px;color:var(--muted-foreground);line-height:1.5;">
-              α · structural + (1−α) · semantic. Tune the slider below.
-            </p>
-          </div>
-        </div>
-
-        <div id="sim-alpha-row" style="display:none;margin-top:24px;max-width:520px;">
-          <div class="card glass" style="border-radius:1rem;">
-            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
-              <span style="font-size:13px;font-weight:600;">Blend weight (α)</span>
-              <span id="sim-alpha-val" style="font-family:'JetBrains Mono';color:var(--primary);font-size:13px;">0.50</span>
-            </div>
-            <input type="range" id="sim-alpha-slider" min="0" max="1" step="0.05" value="0.5"
-                   oninput="simUpdateAlpha(this.value)"/>
-            <div style="display:flex;justify-content:space-between;margin-top:4px;font-size:10px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
-              <span>← Semantic</span><span>Structural →</span>
-            </div>
           </div>
         </div>
       </div>
@@ -478,7 +451,7 @@
         <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:20px;">
           Choose which infobox <strong style="color:var(--foreground)">sections</strong> participate in the
           comparison. Click a section to drill into its individual fields. Anything unchecked is excluded
-          from both the TED tree and the Jaccard token set.
+          from the TED tree.
         </p>
 
         <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px;flex-wrap:wrap;">
@@ -491,7 +464,8 @@
           </span>
         </div>
 
-        <div id="sim-labels-panel" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;"></div>
+        <div id="sim-labels-panel"
+             style="display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start;"></div>
       </div>
 
       <!-- ─── Step 4: Document Review ────────────────────────── -->
@@ -516,8 +490,7 @@
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:13px;">
             <div><span style="color:var(--muted-foreground)">Mode:</span> <span id="sim-run-mode" style="font-weight:600;">—</span></div>
             <div><span style="color:var(--muted-foreground)">Type:</span> <span id="sim-run-type" style="font-weight:600;">—</span></div>
-            <div><span style="color:var(--muted-foreground)">Countries:</span> <span id="sim-run-countries" style="font-weight:600;color:var(--primary);">—</span></div>
-            <div><span style="color:var(--muted-foreground)">Alpha (α):</span> <span id="sim-run-alpha" style="font-weight:600;">—</span></div>
+            <div style="grid-column:1 / -1;"><span style="color:var(--muted-foreground)">Countries:</span> <span id="sim-run-countries" style="font-weight:600;color:var(--primary);">—</span></div>
           </div>
         </div>
 

@@ -1,0 +1,58 @@
+{
+  "area": {
+    "total_km2": 185180.0,
+    "water_pct": 1.1,
+    "rank": 87.0
+  },
+  "codes": {
+    "calling_code": "+963",
+    "internet_tld": ".sy",
+    "iso_3166_code": "SY"
+  },
+  "economy": {
+    "currency_code": "Syrian pound ( SYP/LS )",
+    "gdp_ppp": {
+      "total_billion_usd": 50.28,
+      "per_capita_usd": 3300.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 9.8,
+      "per_capita_usd": 800.0
+    },
+    "gini": 26.6,
+    "hdi": -1.0
+  },
+  "general": {
+    "capital": "Damascus",
+    "demonym": "Syrian",
+    "official_language": "Arabic",
+    "religion": {
+      "Alawites": 13.0,
+      "Christianity": 3.84,
+      "Islam": 94.17,
+      "Shia 10–": 14.1,
+      "Sunni": 79.19,
+      "other": 1.99
+    },
+    "ethnic_groups": {
+      "Arabs 9–": 90.0,
+      "Kurds 1–": 10.0,
+      "others": 10.0
+    }
+  },
+  "government": {
+    "type": "Unitary presidential republic under a provisional government",
+    "legislature": "People's Assembly",
+    "lower_house": "",
+    "upper_house": ""
+  },
+  "history": "Arab Kingdom of Syria | Ba'athist Syria | Current provisional government established | End of the French mandate | First Syrian Republic | Part of the United Arab Republic | State of Syria under French mandate",
+  "population": {
+    "total": 26019711.0,
+    "density_per_km2": 118.3
+  },
+  "time": {
+    "timezone_utc": "UTC+03:00",
+    "timezone_dst": ""
+  }
+}

@@ -1,0 +1,331 @@
+[
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "total_km2"
+    ],
+    "label": "total_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 10452.0,
+    "new_value": 274223.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "water_pct"
+    ],
+    "label": "water_pct",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 1.8,
+    "new_value": 0.148
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "rank"
+    ],
+    "label": "rank",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 161.0,
+    "new_value": 74.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "calling_code"
+    ],
+    "label": "calling_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "+961",
+    "new_value": "+226"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "internet_tld"
+    ],
+    "label": "internet_tld",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": ".lb",
+    "new_value": ".bf"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "iso_3166_code"
+    ],
+    "label": "iso_3166_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "LB",
+    "new_value": "BF"
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "currency_code"
+    ],
+    "label": "currency_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "LBP",
+    "new_value": "XOF"
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_ppp",
+      "total_billion_usd"
+    ],
+    "label": "total_billion_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 78.233,
+    "new_value": 72.82
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_ppp",
+      "per_capita_usd"
+    ],
+    "label": "per_capita_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 11793.0,
+    "new_value": 2980.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_nominal",
+      "total_billion_usd"
+    ],
+    "label": "total_billion_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 21.78,
+    "new_value": 27.06
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_nominal",
+      "per_capita_usd"
+    ],
+    "label": "per_capita_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 3283.0,
+    "new_value": 1110.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gini"
+    ],
+    "label": "gini",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 31.8,
+    "new_value": 37.4
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "hdi"
+    ],
+    "label": "hdi",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 0.752,
+    "new_value": 0.459
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "capital"
+    ],
+    "label": "capital",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Beirut",
+    "new_value": "Ouagadougou"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "demonym"
+    ],
+    "label": "demonym",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Lebanese",
+    "new_value": "Burkinabé"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "official_language"
+    ],
+    "label": "official_language",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Arabic",
+    "new_value": "Mooré , Dyula and Fula , alongside any other languages so recognized by law"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "religion"
+    ],
+    "label": "religion",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "Alawite": 0.64,
+      "Druze": 5.21,
+      "Islam": 53.31,
+      "No religion": 0.08,
+      "Shia": 26.84,
+      "Sunni": 26.55
+    },
+    "new_value": {
+      "Animism": 9.0,
+      "Islam": 63.8,
+      "irreligion": 0.7
+    }
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "ethnic_groups"
+    ],
+    "label": "ethnic_groups",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "Arab": 95.0,
+      "Armenian": 4.0,
+      "others": 1.0
+    },
+    "new_value": {
+      "Bissa": 1.5,
+      "Bobo": 3.4,
+      "Fula": 6.8,
+      "Gurma": 5.2,
+      "Gurunsi": 5.9,
+      "Lobi": 1.5,
+      "Mossi": 53.7,
+      "Senufo": 2.2,
+      "Tuareg and Bella": 0.1,
+      "or": 5.4
+    }
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "type"
+    ],
+    "label": "type",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Unitary parliamentary republic under confessionalism",
+    "new_value": "Unitary semi-presidential republic under a military junta"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "legislature"
+    ],
+    "label": "legislature",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Parliament",
+    "new_value": "National Assembly"
+  },
+  {
+    "op": "update",
+    "path": [
+      "history"
+    ],
+    "label": "history",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Constitution | Double Qaim-Maqamate of Mount Lebanon | Emirate of Mount Lebanon | French mandate ended | Greater Lebanon | Independence declared | Israeli troops withdrawn | Mount Lebanon Mutasarrifate | Syrian troops withdrawn | Withdrawal of French forces",
+    "new_value": "1966 Upper Voltan coup d'état | 2014 Burkina Faso uprising | Independence from France | Jan 2022 Burkina Faso coup d'état | Republic of Upper Volta proclaimed | Sep 2022 Burkina Faso coup d'état"
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "total"
+    ],
+    "label": "total",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 5364482.0,
+    "new_value": 22489126.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "density_per_km2"
+    ],
+    "label": "density_per_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 513.0,
+    "new_value": 86.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "time",
+      "timezone_utc"
+    ],
+    "label": "timezone_utc",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "UTC+02:00",
+    "new_value": "UTC+00:00"
+  },
+  {
+    "op": "update",
+    "path": [
+      "time",
+      "timezone_dst"
+    ],
+    "label": "timezone_dst",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "UTC+03:00",
+    "new_value": ""
+  }
+]

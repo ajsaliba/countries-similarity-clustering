@@ -1,0 +1,303 @@
+[
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "total_km2"
+    ],
+    "label": "total_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 3796742.0,
+    "new_value": 17098246.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "water_pct"
+    ],
+    "label": "water_pct",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 7.0,
+    "new_value": 13.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "rank"
+    ],
+    "label": "rank",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 3.0,
+    "new_value": -1.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "calling_code"
+    ],
+    "label": "calling_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "+1",
+    "new_value": "+7"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "internet_tld"
+    ],
+    "label": "internet_tld",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": ".com",
+    "new_value": ".ru"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "iso_3166_code"
+    ],
+    "label": "iso_3166_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "US",
+    "new_value": "RU"
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "currency_code"
+    ],
+    "label": "currency_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "USD",
+    "new_value": "RUB"
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_ppp",
+      "total_billion_usd"
+    ],
+    "label": "total_billion_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 30616.0,
+    "new_value": 7143.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_ppp",
+      "per_capita_usd"
+    ],
+    "label": "per_capita_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 89599.0,
+    "new_value": 49049.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_nominal",
+      "total_billion_usd"
+    ],
+    "label": "total_billion_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 30616.0,
+    "new_value": 2541.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_nominal",
+      "per_capita_usd"
+    ],
+    "label": "per_capita_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 89599.0,
+    "new_value": 17446.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gini"
+    ],
+    "label": "gini",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 41.8,
+    "new_value": 36.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "hdi"
+    ],
+    "label": "hdi",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 0.938,
+    "new_value": 0.832
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "capital"
+    ],
+    "label": "capital",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Washington, D.C.",
+    "new_value": "Moscow"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "demonym"
+    ],
+    "label": "demonym",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "American",
+    "new_value": "Russian"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "official_language"
+    ],
+    "label": "official_language",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "English",
+    "new_value": "Russian"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "religion"
+    ],
+    "label": "religion",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "Judaism": 2.0,
+      "other religion": 6.0,
+      "unaffiliated": 24.0,
+      "unanswered": 3.0
+    },
+    "new_value": {}
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "ethnic_groups"
+    ],
+    "label": "ethnic_groups",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "Asian": 6.0,
+      "Black": 12.4,
+      "Hispanic or Latino": 18.7,
+      "Native American": 1.1,
+      "Pacific Islander": 0.2,
+      "White": 61.6,
+      "non- Hispanic or Latino": 81.3,
+      "other By origin:": 8.4,
+      "two or more races": 10.2
+    },
+    "new_value": {
+      "Bashkir": 1.1,
+      "Chechen": 1.1,
+      "Russian": 71.7,
+      "Tatar": 3.2,
+      "not reported": 11.6,
+      "other": 11.3
+    }
+  },
+  {
+    "op": "update",
+    "path": [
+      "history"
+    ],
+    "label": "history",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Confederation | Declaration",
+    "new_value": "Current constitution | Declaration of State Sovereignty | Kievan Rus' | Monarchy abolished | Principality of Moscow | Russian Empire | Russian Federation | Soviet Union | Tsardom of Russia | Vladimir-Suzdal"
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "total"
+    ],
+    "label": "total",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 341784857.0,
+    "new_value": 146028325.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "density_per_km2"
+    ],
+    "label": "density_per_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 96.8,
+    "new_value": 8.4
+  },
+  {
+    "op": "update",
+    "path": [
+      "time",
+      "timezone_utc"
+    ],
+    "label": "timezone_utc",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "UTC-04:00",
+    "new_value": "UTC+02:00"
+  },
+  {
+    "op": "update",
+    "path": [
+      "time",
+      "timezone_dst"
+    ],
+    "label": "timezone_dst",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "UTC-04:00",
+    "new_value": ""
+  }
+]

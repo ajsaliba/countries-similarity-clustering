@@ -1,0 +1,48 @@
+{
+  "area": {
+    "total_km2": 17098246.0,
+    "water_pct": 13.0,
+    "rank": -1.0
+  },
+  "codes": {
+    "calling_code": "+7",
+    "internet_tld": ".ru",
+    "iso_3166_code": "RU"
+  },
+  "economy": {
+    "currency_code": "RUB",
+    "gdp_ppp": {
+      "total_billion_usd": 7143.0,
+      "per_capita_usd": 49049.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 2541.0,
+      "per_capita_usd": 17446.0
+    },
+    "gini": 36.0,
+    "hdi": 0.832
+  },
+  "general": {
+    "capital": "Moscow",
+    "demonym": "Russian",
+    "official_language": "Russian",
+    "religion": {},
+    "ethnic_groups": {
+      "Bashkir": 1.1,
+      "Chechen": 1.1,
+      "Russian": 71.7,
+      "Tatar": 3.2,
+      "not reported": 11.6,
+      "other": 11.3
+    }
+  },
+  "history": "Current constitution | Declaration of State Sovereignty | Kievan Rus' | Monarchy abolished | Principality of Moscow | Russian Empire | Russian Federation | Soviet Union | Tsardom of Russia | Vladimir-Suzdal",
+  "population": {
+    "total": 146028325.0,
+    "density_per_km2": 8.4
+  },
+  "time": {
+    "timezone_utc": "UTC+02:00",
+    "timezone_dst": ""
+  }
+}

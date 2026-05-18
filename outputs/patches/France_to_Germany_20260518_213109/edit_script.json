@@ -1,0 +1,182 @@
+[
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "total_km2"
+    ],
+    "label": "total_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 632702.3,
+    "new_value": 357022.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "water_pct"
+    ],
+    "label": "water_pct",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 0.86,
+    "new_value": 1.27
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "rank"
+    ],
+    "label": "rank",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 42.0,
+    "new_value": 63.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "calling_code"
+    ],
+    "label": "calling_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "+33",
+    "new_value": "+49"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "internet_tld"
+    ],
+    "label": "internet_tld",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": ".fr",
+    "new_value": ".de"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "iso_3166_code"
+    ],
+    "label": "iso_3166_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "FR",
+    "new_value": "DE"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "capital"
+    ],
+    "label": "capital",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Paris",
+    "new_value": "Berlin"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "demonym"
+    ],
+    "label": "demonym",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "French",
+    "new_value": "German"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "official_language"
+    ],
+    "label": "official_language",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "French",
+    "new_value": "German"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "type"
+    ],
+    "label": "type",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Unitary semi-presidential republic",
+    "new_value": "Federal parliamentary republic"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "legislature"
+    ],
+    "label": "legislature",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Parliament",
+    "new_value": "Bundestag Bundesrat"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "lower_house"
+    ],
+    "label": "lower_house",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "National Assembly",
+    "new_value": ""
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "upper_house"
+    ],
+    "label": "upper_house",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Senate",
+    "new_value": ""
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "total"
+    ],
+    "label": "total",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 66792845.0,
+    "new_value": 83497147.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "density_per_km2"
+    ],
+    "label": "density_per_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": -1.0,
+    "new_value": 233.0
+  }
+]

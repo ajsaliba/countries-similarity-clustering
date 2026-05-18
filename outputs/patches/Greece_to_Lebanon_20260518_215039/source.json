@@ -1,0 +1,51 @@
+{
+  "area": {
+    "total_km2": 131957.0,
+    "water_pct": 1.51,
+    "rank": 95.0
+  },
+  "codes": {
+    "calling_code": "+30",
+    "internet_tld": ".gr",
+    "iso_3166_code": "GR"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_ppp": {
+      "total_billion_usd": 466.945,
+      "per_capita_usd": 44985.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 282.019,
+      "per_capita_usd": 27170.0
+    },
+    "gini": 31.8,
+    "hdi": 0.908
+  },
+  "general": {
+    "capital": "Athens",
+    "demonym": "Greek Hellene",
+    "official_language": "Greek",
+    "religion": {
+      "Islam": 2.0,
+      "No religion": 4.0,
+      "Others": 1.0
+    },
+    "ethnic_groups": {}
+  },
+  "government": {
+    "type": "Unitary parliamentary republic",
+    "legislature": "Hellenic Parliament",
+    "lower_house": "",
+    "upper_house": ""
+  },
+  "history": "Greek War of Independence against the Ottoman Empire | Official declaration",
+  "population": {
+    "total": 10372335.0,
+    "density_per_km2": 78.9
+  },
+  "time": {
+    "timezone_utc": "UTC+02:00",
+    "timezone_dst": "UTC+03:00"
+  }
+}

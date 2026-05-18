@@ -1,0 +1,56 @@
+{
+  "area": {
+    "total_km2": 30689.0,
+    "water_pct": 0.64,
+    "rank": 136.0
+  },
+  "codes": {
+    "calling_code": "+32",
+    "internet_tld": ".be",
+    "iso_3166_code": "BE"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_ppp": {
+      "total_billion_usd": 889.833,
+      "per_capita_usd": 75187.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 689.364,
+      "per_capita_usd": 58248.0
+    },
+    "gini": 24.9,
+    "hdi": 0.951
+  },
+  "general": {
+    "capital": "City of Brussels",
+    "demonym": "Belgian",
+    "official_language": "Dutch French German",
+    "religion": {
+      "Islam": 6.0,
+      "no religion": 59.0,
+      "other": 1.0
+    },
+    "ethnic_groups": {
+      "Belgian background": 64.0,
+      "Belgians": 86.1,
+      "foreign background": 22.1,
+      "non-Belgian": 13.8
+    }
+  },
+  "government": {
+    "type": "Federal parliamentary constitutional monarchy",
+    "legislature": "Federal Parliament",
+    "lower_house": "Chamber of Representatives",
+    "upper_house": "Senate"
+  },
+  "history": "Declared",
+  "population": {
+    "total": 11825551.0,
+    "density_per_km2": 385.0
+  },
+  "time": {
+    "timezone_utc": "UTC+01:00",
+    "timezone_dst": "UTC+02:00"
+  }
+}

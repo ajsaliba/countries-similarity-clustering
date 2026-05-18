@@ -1,0 +1,47 @@
+{
+  "area": {
+    "total_km2": 0.49,
+    "water_pct": 0.0,
+    "rank": 195.0
+  },
+  "codes": {
+    "calling_code": "+379",
+    "internet_tld": ".va",
+    "iso_3166_code": "VA"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_ppp": {
+      "total_billion_usd": 14859970.0,
+      "per_capita_usd": 1945022.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": -1.0,
+      "per_capita_usd": -1.0
+    },
+    "gini": -1.0,
+    "hdi": -1.0
+  },
+  "general": {
+    "capital": "Vatican City ( city-state )",
+    "demonym": "None ( de jure ) Vatican ( de facto )",
+    "official_language": "Italian",
+    "religion": {},
+    "ethnic_groups": {}
+  },
+  "government": {
+    "type": "Theocratic elective absolute monarchy",
+    "legislature": "Pontifical Commission",
+    "lower_house": "",
+    "upper_house": ""
+  },
+  "history": "Lateran Treaty",
+  "population": {
+    "total": 882.0,
+    "density_per_km2": 1800.0
+  },
+  "time": {
+    "timezone_utc": "UTC+01:00",
+    "timezone_dst": "UTC+02:00"
+  }
+}

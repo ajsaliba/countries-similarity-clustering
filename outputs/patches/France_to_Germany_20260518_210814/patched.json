@@ -1,0 +1,17 @@
+{
+  "codes": {
+    "calling_code": "+49",
+    "internet_tld": ".de",
+    "iso_3166_code": "DE"
+  },
+  "government": {
+    "type": "Federal parliamentary republic",
+    "legislature": "Bundestag Bundesrat",
+    "lower_house": "",
+    "upper_house": ""
+  },
+  "population": {
+    "total": 83497147.0,
+    "density_per_km2": 233.0
+  }
+}

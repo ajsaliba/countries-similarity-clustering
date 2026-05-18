@@ -1,0 +1,30 @@
+{
+  "area": {
+    "total_km2": 185180.0,
+    "water_pct": 1.1,
+    "rank": 87.0
+  },
+  "codes": {
+    "calling_code": "+963",
+    "internet_tld": ".sy",
+    "iso_3166_code": "SY"
+  },
+  "economy": {
+    "currency_code": "Syrian pound ( SYP/LS )",
+    "gdp_ppp": {
+      "total_billion_usd": 50.28,
+      "per_capita_usd": 3300.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 9.8,
+      "per_capita_usd": 800.0
+    },
+    "gini": 26.6,
+    "hdi": -1.0
+  },
+  "history": "Arab Kingdom of Syria | Ba'athist Syria | Current provisional government established | End of the French mandate | First Syrian Republic | Part of the United Arab Republic | State of Syria under French mandate",
+  "time": {
+    "timezone_utc": "UTC+03:00",
+    "timezone_dst": ""
+  }
+}

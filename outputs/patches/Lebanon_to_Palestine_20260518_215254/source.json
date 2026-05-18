@@ -1,0 +1,58 @@
+{
+  "area": {
+    "total_km2": 10452.0,
+    "water_pct": 1.8,
+    "rank": 161.0
+  },
+  "codes": {
+    "calling_code": "+961",
+    "internet_tld": ".lb",
+    "iso_3166_code": "LB"
+  },
+  "economy": {
+    "currency_code": "LBP",
+    "gdp_ppp": {
+      "total_billion_usd": 78.233,
+      "per_capita_usd": 11793.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 21.78,
+      "per_capita_usd": 3283.0
+    },
+    "gini": 31.8,
+    "hdi": 0.752
+  },
+  "general": {
+    "capital": "Beirut",
+    "demonym": "Lebanese",
+    "official_language": "Arabic",
+    "religion": {
+      "Alawite": 0.64,
+      "Druze": 5.21,
+      "Islam": 53.31,
+      "No religion": 0.08,
+      "Shia": 26.84,
+      "Sunni": 26.55
+    },
+    "ethnic_groups": {
+      "Arab": 95.0,
+      "Armenian": 4.0,
+      "others": 1.0
+    }
+  },
+  "government": {
+    "type": "Unitary parliamentary republic under confessionalism",
+    "legislature": "Parliament",
+    "lower_house": "",
+    "upper_house": ""
+  },
+  "history": "Constitution | Double Qaim-Maqamate of Mount Lebanon | Emirate of Mount Lebanon | French mandate ended | Greater Lebanon | Independence declared | Israeli troops withdrawn | Mount Lebanon Mutasarrifate | Syrian troops withdrawn | Withdrawal of French forces",
+  "population": {
+    "total": 5364482.0,
+    "density_per_km2": 513.0
+  },
+  "time": {
+    "timezone_utc": "UTC+02:00",
+    "timezone_dst": "UTC+03:00"
+  }
+}

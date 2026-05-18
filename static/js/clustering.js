@@ -127,13 +127,13 @@ function clGoTo(n) {
   if (n >= 1) clUpdateSidebarSummary();
 
   // Step-specific
+  if (n === 0) clSelectBasis('structural'); // single option — auto-select on entry
   if (n === 1) clInitMap();
-  if (n === 3) clUpdateParamVisibility();
+  if (n === 3) { clUpdateParamVisibility(); clUpdateLinkageInfo(); }
   if (n === 4) clRenderRunSummary();
 }
 
 function clValidateStep(n) {
-  if (n === 0 && !CL.basis)  { showToast('Please select a basis', 'error'); return false; }
   if (n === 1 && CL.selected.length < 3) {
     const warn = document.getElementById('cl-min-warn');
     if (warn) warn.style.display = '';
@@ -145,12 +145,13 @@ function clValidateStep(n) {
 }
 
 /* ─────────────────────────────────────────────────────────────────
-   Step 0: Basis
+   Step 0: Basis (structural only)
 ───────────────────────────────────────────────────────────────── */
-function clSelectBasis(basis) {
-  CL.basis = basis;
+function clSelectBasis(_basis) {
+  // Only one option supported; ignore the arg and force structural.
+  CL.basis = 'structural';
   document.querySelectorAll('[data-basis]').forEach(el => {
-    el.classList.toggle('selected', el.dataset.basis === basis);
+    el.classList.toggle('selected', el.dataset.basis === 'structural');
   });
 }
 
@@ -313,27 +314,58 @@ function clSelectAlgo(algo) {
 /* ─────────────────────────────────────────────────────────────────
    Step 3: Parameters
 ───────────────────────────────────────────────────────────────── */
+/* Short description for each linkage method — refreshed when the user
+   changes the dropdown or enters the Parameters step. Grounded in Tekli
+   Ch. 10 §5.2 (Inter-Cluster Similarity). */
+const LINKAGE_DESCRIPTIONS = {
+  average:
+    "<strong>Average linkage (UPGMA)</strong> — cluster distance = average " +
+    "of all pair distances between the two clusters. " +
+    "Most robust against noise; the default for non-Euclidean data like TED.",
+  single:
+    "<strong>Single linkage (nearest)</strong> — cluster distance = " +
+    "<em>minimum</em> pair distance. Can chain through outliers, producing " +
+    "long, skinny clusters. Good at recovering non-globular shapes.",
+  complete:
+    "<strong>Complete linkage (farthest)</strong> — cluster distance = " +
+    "<em>maximum</em> pair distance. Produces tight, compact clusters but " +
+    "tends to break large ones; sensitive to outliers.",
+  ward:
+    "<strong>⚠ Ward linkage — disabled for this corpus.</strong> Ward " +
+    "minimises within-cluster variance, which is only defined in Euclidean " +
+    "geometry. Our TED distance is not Euclidean (it violates the parallelogram " +
+    "law), so cluster.py blocks Ward to avoid silently meaningless merges. " +
+    "Pick <em>Average</em>, <em>Single</em>, or <em>Complete</em> instead.",
+};
+
+function clUpdateLinkageInfo() {
+  const sel = document.getElementById('param-linkage');
+  const box = document.getElementById('param-linkage-info');
+  if (!sel || !box) return;
+  box.innerHTML = LINKAGE_DESCRIPTIONS[sel.value] || '';
+}
+
 function clUpdateParamVisibility() {
   const algo = CL.algo;
-  const show = (id, vis) => {
+  const hide = (id, gone) => {
     const el = document.getElementById(id);
-    if (el) el.style.display = vis ? '' : 'none';
-  };
-  const dim = (id, dimmed) => {
-    const el = document.getElementById(id);
-    if (el) el.style.opacity = dimmed ? '0.4' : '1';
+    if (el) el.style.display = gone ? 'none' : '';
   };
 
-  // k — agglomerative, spectral, kmedoids
-  const needsK = ['agglomerative','spectral','kmedoids'].includes(algo);
-  dim('param-k-row', !needsK);
+  // k — only spectral and kmedoids care. Agglomerative uses a distance
+  // threshold; dbscan uses eps/min_samples; so k is completely hidden for both.
+  const needsK = ['spectral', 'kmedoids'].includes(algo);
+  hide('param-k-row', !needsK);
 
-  // linkage — agglomerative only
-  dim('param-linkage-row', algo !== 'agglomerative');
+  // Distance threshold — agglomerative only.
+  hide('param-thresh-row', algo !== 'agglomerative');
 
-  // eps + minpts — dbscan only
-  dim('param-eps-row', algo !== 'dbscan');
-  dim('param-minpts-row', algo !== 'dbscan');
+  // Linkage — agglomerative only.
+  hide('param-linkage-row', algo !== 'agglomerative');
+
+  // eps + min_samples — DBSCAN only.
+  hide('param-eps-row',    algo !== 'dbscan');
+  hide('param-minpts-row', algo !== 'dbscan');
 }
 
 function clUpdateKMax() {
@@ -350,12 +382,16 @@ function clUpdateKMax() {
 }
 
 function clGetParams() {
-  const k        = parseInt(document.getElementById('param-k')?.value      || 5);
-  const linkage  = document.getElementById('param-linkage')?.value         || 'average';
-  const eps      = parseFloat(document.getElementById('param-eps')?.value  || 0.3);
+  const k        = parseInt(document.getElementById('param-k')?.value       || 5);
+  const linkage  = document.getElementById('param-linkage')?.value          || 'average';
+  const eps      = parseFloat(document.getElementById('param-eps')?.value   || 0.3);
   const minpts   = parseInt(document.getElementById('param-minpts')?.value  || 2);
-  const thresh   = parseFloat(document.getElementById('param-thresh')?.value || 0);
-  return { k, linkage, eps, min_samples: minpts, distance_threshold: thresh > 0 ? thresh : null };
+  const thresh   = parseFloat(document.getElementById('param-thresh')?.value || 0.5);
+  return {
+    k, linkage, eps,
+    min_samples:        minpts,
+    distance_threshold: thresh,
+  };
 }
 
 /* ─────────────────────────────────────────────────────────────────
@@ -370,9 +406,13 @@ function clRenderRunSummary() {
 
   // Params summary
   let paramStr = '';
-  if (['agglomerative','spectral','kmedoids'].includes(CL.algo)) paramStr += `k=${p.k}`;
-  if (CL.algo === 'agglomerative') paramStr += `, linkage=${p.linkage}`;
-  if (CL.algo === 'dbscan') paramStr = `ε=${p.eps.toFixed(2)}, min_samples=${p.min_samples}`;
+  if (CL.algo === 'agglomerative') {
+    paramStr = `threshold=${p.distance_threshold.toFixed(2)}, linkage=${p.linkage}`;
+  } else if (CL.algo === 'dbscan') {
+    paramStr = `ε=${p.eps.toFixed(2)}, min_samples=${p.min_samples}`;
+  } else if (['spectral', 'kmedoids'].includes(CL.algo)) {
+    paramStr = `k=${p.k}`;
+  }
   set('run-params', paramStr || '—');
 
   // Large dataset warning
@@ -511,11 +551,13 @@ function clRenderResults(data) {
 
   clRenderMetrics(data);
   clRenderSummary(data);
+  clRenderClusterExplainer(data);
   clRenderClusterCards(data);
   clRenderTable(data);
   clRenderScatter(data);
   clRenderForceGraph(data);
   clInitResultMap(data);
+  clRenderSimilarityMatrix(data);
 
   if (CL.algo === 'agglomerative' && data.dendrogram) {
     clRenderDendrogram(data.dendrogram, data.assignments || {});
@@ -526,25 +568,197 @@ function clRenderResults(data) {
     if (na) na.style.display = '';
   }
 
-  // Init result viz tabs
+  /* ── Per-algorithm default viz tab ──────────────────────────────────
+     Each algorithm has a "natural" visualisation. Activating the right
+     tab automatically saves the user a click and avoids the dendrogram
+     showing a "not available" message for non-agglomerative runs. */
+  const DEFAULT_TAB_BY_ALGO = {
+    agglomerative: 'cl-tab-dendro',
+    dbscan:        'cl-tab-scatter',  // density patterns + outliers read best in 2D
+    spectral:      'cl-tab-force',    // graph-Laplacian → graph view
+    kmedoids:      'cl-tab-table',    // medoid-centric → table
+  };
+
+  const ALL_TAB_IDS = ['cl-tab-dendro','cl-tab-matrix','cl-tab-scatter',
+                       'cl-tab-force','cl-tab-map','cl-tab-table'];
+
+  const setActiveTab = (tabId) => {
+    const tabList = document.getElementById('cl-viz-tabs');
+    if (!tabList) return;
+    tabList.querySelectorAll('.tab-trigger').forEach(x => x.classList.remove('active'));
+    ALL_TAB_IDS.forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.style.display = 'none';
+    });
+    const trigger = tabList.querySelector(`[data-tab="${tabId}"]`);
+    const content = document.getElementById(tabId);
+    if (trigger) trigger.classList.add('active');
+    // 'block' (not '') so the base.html `.tab-content { display: none; }`
+    // class rule doesn't re-win after clearing the inline override.
+    if (content) content.style.display = 'block';
+    if (tabId === 'cl-tab-map' && CL.resultMap) {
+      setTimeout(() => CL.resultMap.invalidateSize(), 100);
+    }
+  };
+
   const tabList = document.getElementById('cl-viz-tabs');
   if (tabList) {
     tabList.querySelectorAll('.tab-trigger').forEach(t => {
-      t.addEventListener('click', () => {
-        tabList.querySelectorAll('.tab-trigger').forEach(x => x.classList.remove('active'));
-        document.querySelectorAll('#cl-tab-dendro,#cl-tab-scatter,#cl-tab-force,#cl-tab-map,#cl-tab-table').forEach(x => x.style.display = 'none');
-        t.classList.add('active');
-        const target = document.getElementById(t.dataset.tab);
-        if (target) {
-          target.style.display = '';
-          // Refresh maps/SVGs on tab show
-          if (t.dataset.tab === 'cl-tab-map' && CL.resultMap) {
-            setTimeout(() => CL.resultMap.invalidateSize(), 100);
-          }
-        }
-      });
+      t.addEventListener('click', () => setActiveTab(t.dataset.tab));
     });
   }
+
+  setActiveTab(DEFAULT_TAB_BY_ALGO[CL.algo] || 'cl-tab-dendro');
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   Similarity Matrix — numeric table view.
+   Rows/cols are reordered by cluster so well-formed clusters cluster
+   visibly in the table; thicker borders mark cluster boundaries.
+   Each cell shows the pairwise similarity as an integer percentage.
+───────────────────────────────────────────────────────────────── */
+function clRenderSimilarityMatrix(data) {
+  const container = document.getElementById('cl-matrix-svg');
+  if (!container) return;
+  container.innerHTML = '';
+
+  const matrix      = data.matrix || {};
+  const assignments = data.assignments || {};
+  const names0      = Object.keys(matrix);
+  if (!names0.length) {
+    container.innerHTML = '<p style="color:var(--muted-foreground);font-size:13px;">No matrix data.</p>';
+    return;
+  }
+
+  // Sort by cluster (outliers last), then alphabetically — keeps cluster
+  // members adjacent so block structure is visible.
+  const names = names0.slice().sort((a, b) => {
+    const ca = assignments[a] ?? 999, cb = assignments[b] ?? 999;
+    const ka = ca === -1 ? 9999 : ca, kb = cb === -1 ? 9999 : cb;
+    if (ka !== kb) return ka - kb;
+    return a.localeCompare(b);
+  });
+
+  const n      = names.length;
+  const colorFor = name => {
+    const cid = assignments[name];
+    if (cid === -1 || cid === undefined) return 'oklch(0.7 0.25 320)';
+    return CL_PALETTE[cid % CL_PALETTE.length] || 'var(--muted-foreground)';
+  };
+  // Cell sizing scales with matrix dimension so values stay readable.
+  const cellPx  = n <= 15 ? 50 : n <= 30 ? 38 : n <= 60 ? 28 : 22;
+  const fontPx  = n <= 15 ? 12 : n <= 30 ? 11 : n <= 60 ? 10 : 9;
+  const labelPx = Math.max(80, Math.min(140, cellPx * 3));
+
+  // Boundary set — i is a boundary if its cluster differs from i-1.
+  const boundary = new Set();
+  for (let i = 1; i < n; i++) {
+    if ((assignments[names[i]] ?? -2) !== (assignments[names[i - 1]] ?? -2)) {
+      boundary.add(i);
+    }
+  }
+
+  // Build the table HTML once for speed (38k DOM cells if all 195 selected).
+  const rows = [];
+  // Header row
+  let header = `<tr><th class="cl-mat-corner"></th>`;
+  names.forEach((name, j) => {
+    const c = colorFor(name);
+    const cls = boundary.has(j) ? 'cl-mat-col-boundary' : '';
+    header += `<th class="cl-mat-colhead ${cls}" style="color:${c};"
+                    title="${escClHtml(name)}">${escClHtml(name)}</th>`;
+  });
+  header += `</tr>`;
+  rows.push(header);
+
+  // Body rows
+  for (let i = 0; i < n; i++) {
+    const rowCls = boundary.has(i) ? 'cl-mat-row-boundary' : '';
+    const rowName = names[i];
+    let row = `<tr class="${rowCls}">`;
+    row += `<th class="cl-mat-rowhead" style="color:${colorFor(rowName)};"
+                  title="${escClHtml(rowName)}">${escClHtml(rowName)}</th>`;
+    for (let j = 0; j < n; j++) {
+      const v = matrix[rowName]?.[names[j]];
+      const pct = (typeof v === 'number') ? Math.round(v * 100) : '';
+      const isDiag = i === j;
+      const cls = [
+        isDiag ? 'cl-mat-diag' : '',
+        boundary.has(j) ? 'cl-mat-col-boundary' : '',
+      ].filter(Boolean).join(' ');
+      const title = (typeof v === 'number')
+        ? `${rowName} ↔ ${names[j]}: ${(v * 100).toFixed(2)}%`
+        : '';
+      row += `<td class="${cls}" title="${title}">${pct}</td>`;
+    }
+    row += `</tr>`;
+    rows.push(row);
+  }
+
+  // Inject a one-off style block scoped to this matrix; cheaper than
+  // assigning style="..." on tens of thousands of cells.
+  container.innerHTML = `
+    <style>
+      .cl-mat-table {
+        border-collapse: collapse;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: ${fontPx}px;
+        background: var(--card);
+      }
+      .cl-mat-table th, .cl-mat-table td {
+        border: 1px solid var(--border);
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+      .cl-mat-table td {
+        width: ${cellPx}px;
+        height: ${cellPx}px;
+        color: var(--foreground);
+        font-variant-numeric: tabular-nums;
+      }
+      .cl-mat-table th.cl-mat-rowhead {
+        position: sticky; left: 0; z-index: 2;
+        background: var(--card);
+        max-width: ${labelPx}px;
+        padding: 0 8px;
+        text-align: right;
+        font-weight: 600;
+        overflow: hidden; text-overflow: ellipsis;
+      }
+      .cl-mat-table th.cl-mat-colhead {
+        position: sticky; top: 0; z-index: 2;
+        background: var(--card);
+        height: ${labelPx}px;
+        padding: 6px 0;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        font-weight: 600;
+        text-align: left;
+      }
+      .cl-mat-table th.cl-mat-corner {
+        position: sticky; top: 0; left: 0; z-index: 3;
+        background: var(--card);
+        width: ${labelPx}px;
+        height: ${labelPx}px;
+      }
+      .cl-mat-table td.cl-mat-diag {
+        background: oklch(0.78 0.18 200 / 0.18);
+        color: var(--primary);
+        font-weight: 700;
+      }
+      .cl-mat-table .cl-mat-row-boundary > * {
+        border-top: 2px solid var(--foreground) !important;
+      }
+      .cl-mat-table .cl-mat-col-boundary {
+        border-left: 2px solid var(--foreground) !important;
+      }
+      .cl-mat-table tr:hover > td:not(.cl-mat-diag) {
+        background: oklch(0.78 0.18 200 / 0.06);
+      }
+    </style>
+    <table class="cl-mat-table">${rows.join('')}</table>
+  `;
 }
 
 /* Metrics row */
@@ -663,6 +877,65 @@ function clPaletteFor(cid) {
   return CL_PALETTE[parseInt(cid) % CL_PALETTE.length] || CL_PALETTE[0];
 }
 
+/* "How to read the cluster cards" — algorithm-aware narrative with the
+   intra-cluster average similarity per cluster, sized from data.matrix. */
+function clRenderClusterExplainer(data) {
+  const el = document.getElementById('cl-cluster-explainer');
+  if (!el) return;
+
+  const members  = data.cluster_members || {};
+  const medoids  = data.medoids        || {};
+  const matrix   = data.matrix         || {};
+  const algoName = ({
+    agglomerative: 'agglomerative hierarchical clustering',
+    dbscan:        'DBSCAN (density-based)',
+    spectral:      'spectral graph-Laplacian clustering',
+    kmedoids:      'k-medoids (PAM)',
+  })[data.algorithm] || data.algorithm;
+
+  // Compute mean intra-cluster similarity for each non-outlier cluster.
+  const cohesion = {};
+  Object.entries(members).forEach(([cid, ms]) => {
+    if (cid === '-1' || ms.length < 2) { cohesion[cid] = null; return; }
+    let sum = 0, count = 0;
+    for (let i = 0; i < ms.length; i++) {
+      for (let j = i + 1; j < ms.length; j++) {
+        const v = matrix[ms[i]]?.[ms[j]];
+        if (typeof v === 'number') { sum += v; count++; }
+      }
+    }
+    cohesion[cid] = count > 0 ? sum / count : null;
+  });
+
+  const cohesionLine = Object.entries(cohesion)
+    .filter(([cid, v]) => cid !== '-1' && v !== null)
+    .map(([cid, v]) => `Cluster ${parseInt(cid) + 1}: <strong style="color:var(--foreground);">${(v * 100).toFixed(1)}%</strong>`)
+    .join(' · ');
+
+  let algoNote = '';
+  if (data.algorithm === 'dbscan') {
+    const outliers = (members['-1'] || []).length;
+    algoNote = outliers > 0
+      ? ` <strong style="color:var(--secondary);">${outliers} country${outliers === 1 ? '' : 'ies'}</strong> in the purple "Outliers" card sat in a low-density region (no ε-neighbourhood with min_samples neighbours) and so DBSCAN refused to assign them to any cluster.`
+      : ' DBSCAN found no outliers at the current ε / min_samples.';
+  } else if (data.algorithm === 'agglomerative') {
+    algoNote = ' Each card here is a subtree of the dendrogram below the chosen distance threshold cut.';
+  } else if (data.algorithm === 'kmedoids') {
+    algoNote = ' Each card shows the cluster\'s <em>medoid</em> — the country that minimises the total distance to every other member (the real-country analogue of a centroid).';
+  } else if (data.algorithm === 'spectral') {
+    algoNote = ' Clusters here are the partitions of the similarity graph found by the Laplacian eigen-decomposition; the medoid badge picks the most central country per cluster for labelling.';
+  }
+
+  el.innerHTML = `
+    <strong style="color:var(--foreground);">How to read this:</strong>
+    The cards below were produced by <strong style="color:var(--foreground);">${algoName}</strong>
+    on the structural similarity (TED) matrix. Each card lists the member countries of one cluster;
+    the highlighted badge marks the <em>medoid</em> — the country whose mean similarity to every other
+    member is highest, so it best represents the group.${algoNote}
+    ${cohesionLine ? `<br/><br/><strong style="color:var(--foreground);">Intra-cluster cohesion (mean pairwise similarity):</strong> ${cohesionLine}` : ''}
+  `;
+}
+
 /* Cluster summary cards */
 function clRenderClusterCards(data) {
   const el = document.getElementById('cl-cluster-cards');
@@ -734,30 +1007,10 @@ function clRenderDendrogram(dendroData, assignments) {
   if (!container || !dendroData) return;
   container.innerHTML = '';
 
-  const n = dendroData.leaves ? dendroData.leaves.length : 10;
-  const width  = Math.max(600, n * 30);
-  const height = 480;
-  const margin = { top: 20, right: 20, bottom: 80, left: 20 };
-
-  const svg = d3.select(container)
-    .append('svg')
-    .attr('width', width)
-    .attr('height', height)
-    .style('background', 'transparent');
-
-  const g = svg.append('g')
-    .attr('transform', `translate(${margin.left},${margin.top})`);
-
-  const innerW = width  - margin.left - margin.right;
-  const innerH = height - margin.top  - margin.bottom;
-
-  // Build d3 hierarchy from {id, left, right, height, name} structure
+  /* ── Build hierarchy from the backend's {name, left, right, height} ── */
   function buildHierarchy(node) {
     if (!node) return null;
-    if (node.name) {
-      // Leaf
-      return { name: node.name, children: [] };
-    }
+    if (node.name) return { name: node.name, height: 0, children: [] };
     const left  = buildHierarchy(node.left);
     const right = buildHierarchy(node.right);
     return {
@@ -766,54 +1019,132 @@ function clRenderDendrogram(dendroData, assignments) {
       children: [left, right].filter(Boolean),
     };
   }
-
   const hier = buildHierarchy(dendroData);
-  if (!hier) { container.innerHTML = '<p style="color:var(--muted-foreground);font-size:13px;">No dendrogram data.</p>'; return; }
+  if (!hier) {
+    container.innerHTML = '<p style="color:var(--muted-foreground);font-size:13px;">No dendrogram data.</p>';
+    return;
+  }
 
   const root = d3.hierarchy(hier)
     .sort((a, b) => d3.ascending(a.data.name, b.data.name));
+  const leaves = root.leaves();
+  const n = leaves.length;
 
-  const cluster = d3.cluster().size([innerW, innerH - 40]);
-  cluster(root);
+  /* ── Layout: HORIZONTAL — much more readable than vertical-with-rotated-text
+     for many leaves. Leaves on the right, names horizontal, root on the left. */
+  const ROW_H        = 18;            // vertical spacing per leaf
+  const NAME_PAD     = 180;           // px reserved for country names on the right
+  const margin       = { top: 24, right: NAME_PAD, bottom: 24, left: 12 };
+  const innerH       = Math.max(240, n * ROW_H);
+  const innerW       = Math.max(420, container.clientWidth - margin.left - margin.right - 40);
+  const totalW       = innerW + margin.left + margin.right;
+  const totalH       = innerH + margin.top  + margin.bottom;
 
-  // Links
+  const svg = d3.select(container)
+    .append('svg')
+    .attr('width',  totalW)
+    .attr('height', totalH)
+    .style('background', 'transparent');
+
+  const g = svg.append('g')
+    .attr('transform', `translate(${margin.left},${margin.top})`);
+
+  /* Position leaves evenly down the y axis; x is proportional to merge height. */
+  const maxHeight = d3.max(root.descendants(), d => d.data.height || 0) || 1;
+  const xScale    = d3.scaleLinear().domain([maxHeight, 0]).range([0, innerW]);
+
+  leaves.forEach((leaf, i) => { leaf.y = i * ROW_H + ROW_H / 2; });
+  // Internal nodes' y = mean of children's y; x = scaled by merge height
+  function assign(node) {
+    if (node.children && node.children.length) {
+      node.children.forEach(assign);
+      node.y = d3.mean(node.children, c => c.y);
+    }
+    node.x = xScale(node.data.height || 0);
+  }
+  assign(root);
+
+  /* ── x-axis ticks: distance threshold gridlines */
+  const ticks = xScale.ticks(6);
+  g.selectAll('.grid')
+    .data(ticks)
+    .enter().append('line')
+    .attr('x1', d => xScale(d)).attr('x2', d => xScale(d))
+    .attr('y1', 0).attr('y2', innerH)
+    .attr('stroke', 'var(--border)')
+    .attr('stroke-dasharray', '2,4')
+    .attr('opacity', 0.4);
+  g.selectAll('.grid-label')
+    .data(ticks)
+    .enter().append('text')
+    .attr('x', d => xScale(d))
+    .attr('y', -8)
+    .attr('text-anchor', 'middle')
+    .attr('font-family', "'JetBrains Mono'")
+    .attr('font-size', '9px')
+    .attr('fill', 'var(--muted-foreground)')
+    .text(d => d.toFixed(2));
+  g.append('text')
+    .attr('x', innerW / 2).attr('y', -20)
+    .attr('text-anchor', 'middle')
+    .attr('font-family', "'JetBrains Mono'")
+    .attr('font-size', '10px')
+    .attr('fill', 'var(--muted-foreground)')
+    .attr('letter-spacing', '0.08em')
+    .text('MERGE DISTANCE');
+
+  /* ── Links (right-angled): vertical segment between two children's y's,
+     horizontal segment from parent.x to child.x */
   g.selectAll('.dendro-link')
     .data(root.links())
     .enter().append('path')
-    .attr('class', 'dendro-link')
-    .attr('d', d => {
-      return `M${d.source.x},${d.source.y}` +
-             `V${d.target.y}` +
-             `H${d.target.x}`;
-    })
+    .attr('d', d =>
+      `M${d.source.x},${d.source.y}` +
+      `V${d.target.y}` +
+      `H${d.target.x}`)
     .attr('fill', 'none')
-    .attr('stroke', 'oklch(0.78 0.18 200 / 0.4)')
-    .attr('stroke-width', 1.2);
+    .attr('stroke', 'oklch(0.78 0.18 200 / 0.55)')
+    .attr('stroke-width', 1.1);
 
-  // Leaf nodes
-  const leaves = root.leaves();
+  /* ── Leaf markers + names ──────────────────────────────────────── */
   leaves.forEach(leaf => {
     const name    = leaf.data.name;
     const cid     = assignments[name] !== undefined ? String(assignments[name]) : null;
     const isOut   = cid === '-1';
-    const colorIdx = cid !== null && !isOut ? parseInt(cid) % CL_PALETTE.length : null;
-    const color   = isOut ? 'oklch(0.7 0.25 320)' : (colorIdx !== null ? CL_PALETTE[colorIdx] : 'var(--muted-foreground)');
+    const colorIdx = (cid !== null && !isOut) ? parseInt(cid) % CL_PALETTE.length : null;
+    const color   = isOut ? 'oklch(0.7 0.25 320)'
+                          : (colorIdx !== null ? CL_PALETTE[colorIdx] : 'var(--muted-foreground)');
 
     g.append('circle')
-      .attr('cx', leaf.x)
-      .attr('cy', leaf.y)
-      .attr('r', 3)
+      .attr('cx', leaf.x).attr('cy', leaf.y)
+      .attr('r', 3.5)
       .attr('fill', color);
 
     g.append('text')
-      .attr('x', leaf.x)
-      .attr('y', leaf.y + 14)
-      .attr('transform', `rotate(90,${leaf.x},${leaf.y + 14})`)
+      .attr('x', leaf.x + 8).attr('y', leaf.y + 3)
       .attr('text-anchor', 'start')
-      .attr('font-size', '10px')
+      .attr('font-family', "'Space Grotesk'")
+      .attr('font-size', '11px')
       .attr('fill', color)
       .text(name);
   });
+
+  /* ── Threshold-cut marker (agglomerative uses this height to cut) ── */
+  const thresh = parseFloat(document.getElementById('param-thresh')?.value);
+  if (thresh && thresh > 0 && thresh <= maxHeight) {
+    g.append('line')
+      .attr('x1', xScale(thresh)).attr('x2', xScale(thresh))
+      .attr('y1', 0).attr('y2', innerH)
+      .attr('stroke', 'var(--warning)')
+      .attr('stroke-width', 1.5)
+      .attr('stroke-dasharray', '4,3');
+    g.append('text')
+      .attr('x', xScale(thresh) + 4).attr('y', 12)
+      .attr('font-family', "'JetBrains Mono'")
+      .attr('font-size', '9px')
+      .attr('fill', 'var(--warning)')
+      .text(`cut @ ${thresh.toFixed(2)}`);
+  }
 }
 
 /* ─────────────────────────────────────────────────────────────────
@@ -918,6 +1249,17 @@ function clRenderForceGraph(data) {
   const svg = d3.select(svgEl)
     .attr('viewBox', `0 0 ${width} ${height}`);
 
+  // ── Zoom/pan: everything in `root` is transformed by the zoom behaviour;
+  //    the SVG itself stays put so the cursor / events still fire correctly.
+  const zoom = d3.zoom()
+    .scaleExtent([0.1, 8])
+    .on('zoom', e => root.attr('transform', e.transform));
+  svg.call(zoom).on('dblclick.zoom', null);   // disable double-click zoom; we use buttons
+  CL._forceZoom = zoom;
+  CL._forceSvg  = svg;
+
+  const root = svg.append('g').attr('class', 'cl-force-root');
+
   const nodes = names.map(name => ({
     id:  name,
     cid: String(assignments[name]),
@@ -941,15 +1283,16 @@ function clRenderForceGraph(data) {
     .force('charge', d3.forceManyBody().strength(-120))
     .force('center', d3.forceCenter(width/2, height/2))
     .force('collide', d3.forceCollide(14));
+  CL._forceSim = sim;
 
-  const link = svg.append('g')
+  const link = root.append('g')
     .selectAll('line')
     .data(links)
     .enter().append('line')
     .attr('stroke', 'oklch(0.78 0.18 200 / 0.2)')
     .attr('stroke-width', 1);
 
-  const node = svg.append('g')
+  const node = root.append('g')
     .selectAll('g')
     .data(nodes)
     .enter().append('g')
@@ -986,6 +1329,39 @@ function clRenderForceGraph(data) {
       .attr('y2', d => d.target.y);
     node.attr('transform', d => `translate(${d.x},${d.y})`);
   });
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   Force-graph zoom controls (wired to the buttons in clustering.html)
+───────────────────────────────────────────────────────────────── */
+function clForceZoom(factor) {
+  if (!CL._forceZoom || !CL._forceSvg) return;
+  CL._forceSvg.transition().duration(220).call(CL._forceZoom.scaleBy, factor);
+}
+
+function clForceZoomReset() {
+  if (!CL._forceZoom || !CL._forceSvg) return;
+  CL._forceSvg.transition().duration(280).call(CL._forceZoom.transform, d3.zoomIdentity);
+}
+
+/* Pan/zoom the view so every node fits comfortably inside the SVG. */
+function clForceZoomFit() {
+  if (!CL._forceZoom || !CL._forceSvg) return;
+  const svgEl = document.getElementById('cl-force-svg');
+  const root  = CL._forceSvg.select('g.cl-force-root').node();
+  if (!svgEl || !root) return;
+  // bbox is in the *transformed* coordinate space — undo the current zoom first
+  CL._forceSvg.call(CL._forceZoom.transform, d3.zoomIdentity);
+  const bbox = root.getBBox();
+  if (!bbox.width || !bbox.height) return;
+  const w = svgEl.clientWidth  || 700;
+  const h = svgEl.clientHeight || 500;
+  const PAD = 60;
+  const scale = Math.min((w - PAD) / bbox.width, (h - PAD) / bbox.height);
+  const tx = (w - bbox.width  * scale) / 2 - bbox.x * scale;
+  const ty = (h - bbox.height * scale) / 2 - bbox.y * scale;
+  CL._forceSvg.transition().duration(360)
+    .call(CL._forceZoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
 }
 
 /* ─────────────────────────────────────────────────────────────────
@@ -1094,7 +1470,7 @@ function clExportJSON() {
 
 function clNewClustering() {
   CL.step     = 0;
-  CL.basis    = null;
+  CL.basis    = 'structural';   // single option — re-apply default
   CL.algo     = null;
   CL.selected = [];
   CL.result   = null;
@@ -1102,7 +1478,9 @@ function clNewClustering() {
 
   clGoTo(0);
 
-  document.querySelectorAll('[data-basis],[data-algo]').forEach(el => el.classList.remove('selected'));
+  document.querySelectorAll('[data-algo]').forEach(el => el.classList.remove('selected'));
+  document.querySelectorAll('[data-basis]').forEach(el =>
+    el.classList.toggle('selected', el.dataset.basis === 'structural'));
   const search = document.getElementById('cl-country-search');
   if (search) search.value = '';
 

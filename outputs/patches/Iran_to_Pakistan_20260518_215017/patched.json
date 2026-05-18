@@ -1,0 +1,52 @@
+{
+  "area": {
+    "total_km2": 881913.0,
+    "water_pct": 2.86,
+    "rank": 33.0
+  },
+  "codes": {
+    "calling_code": "+92",
+    "internet_tld": ".pk",
+    "iso_3166_code": "PK"
+  },
+  "economy": {
+    "currency_code": "PKR",
+    "gdp_ppp": {
+      "total_billion_usd": 1670.0,
+      "per_capita_usd": 6950.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 410.5,
+      "per_capita_usd": 1710.0
+    },
+    "gini": 29.6,
+    "hdi": 0.544
+  },
+  "general": {
+    "capital": "Islamabad",
+    "demonym": "Pakistani",
+    "official_language": "Urdu English",
+    "religion": {
+      "Christianity": 1.4,
+      "Hinduism": 2.2,
+      "Islam ( official )": 96.3,
+      "other": 0.1
+    },
+    "ethnic_groups": {}
+  },
+  "government": {
+    "type": "Federal parliamentary Islamic republic",
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "upper_house": "Senate"
+  },
+  "history": "Declaration",
+  "population": {
+    "total": 241499431.0,
+    "density_per_km2": 273.8
+  },
+  "time": {
+    "timezone_utc": "UTC+05:00",
+    "timezone_dst": ""
+  }
+}

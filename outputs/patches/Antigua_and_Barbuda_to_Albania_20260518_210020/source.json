@@ -1,0 +1,55 @@
+{
+  "area": {
+    "total_km2": 440.0,
+    "water_pct": 0.0,
+    "rank": 182.0
+  },
+  "codes": {
+    "calling_code": "+1",
+    "internet_tld": ".ag",
+    "iso_3166_code": "AG"
+  },
+  "economy": {
+    "currency_code": "XCD",
+    "gdp_ppp": {
+      "total_billion_usd": 3.3,
+      "per_capita_usd": 31781.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 2.37,
+      "per_capita_usd": 22630.0
+    },
+    "gini": -1.0,
+    "hdi": 0.851
+  },
+  "general": {
+    "capital": "St. John's",
+    "demonym": "Antiguan and Barbudan",
+    "official_language": "English",
+    "religion": {},
+    "ethnic_groups": {
+      "African": 87.3,
+      "East Indian": 1.1,
+      "European": 1.7,
+      "Hispanic": 2.8,
+      "Multiracial": 4.7,
+      "Syrian or Lebanese": 0.7,
+      "other": 1.8
+    }
+  },
+  "government": {
+    "type": "Unitary parliamentary constitutional monarchy",
+    "legislature": "Parliament",
+    "lower_house": "House of Representatives",
+    "upper_house": "Senate"
+  },
+  "history": "Associated state | Independence | Redonda | Union",
+  "population": {
+    "total": 106365.0,
+    "density_per_km2": 186.0
+  },
+  "time": {
+    "timezone_utc": "UTC-04:00",
+    "timezone_dst": ""
+  }
+}

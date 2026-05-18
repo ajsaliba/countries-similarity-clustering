@@ -1,0 +1,26 @@
+[
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "type"
+    ],
+    "label": "type",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Unitary parliamentary republic under confessionalism",
+    "new_value": "Unitary presidential republic under a provisional government"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "legislature"
+    ],
+    "label": "legislature",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Parliament",
+    "new_value": "People's Assembly"
+  }
+]

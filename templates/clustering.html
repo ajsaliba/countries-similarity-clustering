@@ -398,17 +398,18 @@
 
       <!-- ─── Step 0: Basis ────────────────────────────────────── -->
       <div class="cl-step-panel active" data-step="0">
-        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Choose Similarity Basis</h2>
+        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Similarity basis</h2>
         <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:28px;">
-          Select whether to cluster countries by structural or semantic similarity.
+          This project clusters countries by structural similarity (Tree Edit Distance) only.
         </p>
 
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:700px;">
-          <div class="cl-select-card" data-basis="structural" id="cl-basis-structural" onclick="clSelectBasis('structural')">
+        <div style="display:grid;grid-template-columns:1fr;gap:20px;max-width:520px;">
+          <div class="cl-select-card selected" data-basis="structural" id="cl-basis-structural"
+               onclick="clSelectBasis('structural')">
             <div style="font-size:32px;margin-bottom:14px;">🌲</div>
             <h3 style="font-size:16px;font-weight:700;margin-bottom:8px;">Structural</h3>
             <p style="font-size:13px;color:var(--muted-foreground);line-height:1.55;">
-              Tree Edit Distance via Zhang-Shasha on the infobox tree. Measures how different the
+              Tree Edit Distance via Zhang-Shasha on the typed infobox tree. Measures how different the
               <em>shape</em> of each country's Wikipedia entry is.
             </p>
             <div style="margin-top:14px;">
@@ -417,27 +418,12 @@
               </span>
             </div>
           </div>
-
-          <div class="cl-select-card" data-basis="semantic" id="cl-basis-semantic" onclick="clSelectBasis('semantic')">
-            <div style="font-size:32px;margin-bottom:14px;">🔤</div>
-            <h3 style="font-size:16px;font-weight:700;margin-bottom:8px;">Semantic</h3>
-            <p style="font-size:13px;color:var(--muted-foreground);line-height:1.55;">
-              Jaccard coefficient over leaf text tokens — language, religion, government terminology,
-              and cultural vocabulary.
-            </p>
-            <div style="margin-top:14px;">
-              <span class="badge" style="background:oklch(0.7 0.25 320/0.15);color:var(--secondary);font-size:10px;border:none;">
-                Jaccard · Fast
-              </span>
-            </div>
-          </div>
         </div>
 
-        <div style="margin-top:24px;padding:16px;border-radius:0.75rem;background:oklch(0.78 0.18 200/0.06);border:1px solid oklch(0.78 0.18 200/0.12);max-width:700px;">
+        <div style="margin-top:24px;padding:16px;border-radius:0.75rem;background:oklch(0.78 0.18 200/0.06);border:1px solid oklch(0.78 0.18 200/0.12);max-width:520px;">
           <p style="font-size:13px;color:var(--muted-foreground);line-height:1.6;margin:0;">
             <strong style="color:var(--foreground);">Note:</strong>
             Structural clustering computes O(n²) TED pairs and may take several seconds for large datasets.
-            Semantic clustering uses pre-computed Jaccard scores and is near-instant.
           </p>
         </div>
       </div>
@@ -492,7 +478,7 @@
               order at every level. Requires k clusters.
             </p>
             <div style="font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
-              Params: k, linkage
+              Params: distance threshold, linkage
             </div>
           </div>
 
@@ -558,26 +544,32 @@
           <div class="param-row" id="param-linkage-row">
             <div class="param-label">
               <div>Linkage method</div>
-              <div class="param-desc">How clusters are merged</div>
+              <div class="param-desc">How inter-cluster distance is measured at each merge</div>
             </div>
-            <select class="input" id="param-linkage" style="flex:1;">
-              <option value="average">Average (UPGMA)</option>
+            <select class="input" id="param-linkage" style="flex:1;"
+                    onchange="clUpdateLinkageInfo()">
+              <option value="average">Average (UPGMA) — recommended</option>
               <option value="single">Single (nearest)</option>
               <option value="complete">Complete (farthest)</option>
-              <option value="ward">Ward</option>
             </select>
             <div class="param-value" style="min-width:0;"></div>
+          </div>
+          <div id="param-linkage-info"
+               style="margin:-8px 0 20px 178px;padding:10px 14px;
+                      border-radius:0.5rem;background:oklch(0.78 0.18 200 / 0.05);
+                      border-left:3px solid var(--primary);font-size:12px;
+                      color:var(--muted-foreground);line-height:1.55;max-width:540px;">
           </div>
 
           <!-- eps (DBSCAN only) -->
           <div class="param-row" id="param-eps-row">
             <div class="param-label">
               <div>ε (epsilon)</div>
-              <div class="param-desc">Neighbourhood radius [0–1]</div>
+              <div class="param-desc">Neighbourhood radius (distance = 1 − similarity) · useful range ~ 0.15–0.30</div>
             </div>
-            <input type="range" id="param-eps" min="0.01" max="1.0" step="0.01" value="0.3"
+            <input type="range" id="param-eps" min="0.05" max="2.0" step="0.01" value="0.20"
               oninput="document.getElementById('param-eps-val').textContent=parseFloat(this.value).toFixed(2)"/>
-            <div class="param-value" id="param-eps-val">0.30</div>
+            <div class="param-value" id="param-eps-val">0.20</div>
           </div>
 
           <!-- min_samples (DBSCAN only) -->
@@ -592,14 +584,14 @@
           </div>
 
           <!-- distance threshold (agglomerative only) -->
-          <div class="param-row" id="param-thresh-row" style="display:none;">
+          <div class="param-row" id="param-thresh-row">
             <div class="param-label">
               <div>Distance threshold</div>
-              <div class="param-desc">Cut dendrogram at height (0 = use k)</div>
+              <div class="param-desc">Dendrogram cut height — lower = more, tighter clusters</div>
             </div>
-            <input type="range" id="param-thresh" min="0" max="1.0" step="0.01" value="0"
+            <input type="range" id="param-thresh" min="0.05" max="1.0" step="0.05" value="0.5"
               oninput="document.getElementById('param-thresh-val').textContent=parseFloat(this.value).toFixed(2)"/>
-            <div class="param-value" id="param-thresh-val">0.00</div>
+            <div class="param-value" id="param-thresh-val">0.50</div>
           </div>
 
         </div>
@@ -665,6 +657,7 @@
         <!-- Viz tabs -->
         <div class="tabs-list" id="cl-viz-tabs" style="margin-bottom:20px;">
           <button class="tab-trigger active" data-tab="cl-tab-dendro">🌲 Dendrogram</button>
+          <button class="tab-trigger" data-tab="cl-tab-matrix">🔥 Similarity Matrix</button>
           <button class="tab-trigger" data-tab="cl-tab-scatter">⬡ 2D Scatter</button>
           <button class="tab-trigger" data-tab="cl-tab-force">◉ Force Graph</button>
           <button class="tab-trigger" data-tab="cl-tab-map">🗺 Map Overlay</button>
@@ -672,11 +665,24 @@
         </div>
 
         <div id="cl-tab-dendro" class="tab-content active" style="margin-bottom:24px;">
-          <div class="card glass" style="border-radius:1rem;padding:20px;overflow-x:auto;">
+          <div class="card glass" style="border-radius:1rem;padding:20px;overflow:auto;max-height:78vh;">
             <div id="cl-dendrogram-svg"></div>
             <div id="cl-dendro-na" style="display:none;text-align:center;padding:40px;color:var(--muted-foreground);font-size:13px;">
               Dendrogram is only available for Agglomerative clustering.
             </div>
+          </div>
+        </div>
+
+        <div id="cl-tab-matrix" class="tab-content" style="margin-bottom:24px;display:none;">
+          <div class="card glass" style="border-radius:1rem;padding:20px;">
+            <div style="font-size:12px;color:var(--muted-foreground);margin-bottom:12px;line-height:1.55;">
+              <strong style="color:var(--foreground);">How to read this:</strong>
+              Each cell is the pairwise structural similarity between two countries (TED-based).
+              Rows and columns are reordered so cluster members sit next to each other — well-formed
+              clusters appear as bright square blocks along the diagonal. Black gridlines mark cluster
+              boundaries. This is the same matrix the algorithm received as input.
+            </div>
+            <div id="cl-matrix-svg" style="overflow:auto;max-height:65vh;"></div>
           </div>
         </div>
 
@@ -687,7 +693,17 @@
         </div>
 
         <div id="cl-tab-force" class="tab-content" style="margin-bottom:24px;display:none;">
-          <div class="card glass" style="border-radius:1rem;padding:20px;overflow:hidden;">
+          <div class="card glass" style="border-radius:1rem;padding:20px;overflow:hidden;position:relative;">
+            <div style="display:flex;align-items:center;gap:6px;margin-bottom:10px;">
+              <span style="font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
+                Scroll to zoom · drag background to pan · drag nodes to pin
+              </span>
+              <div style="flex:1;"></div>
+              <button class="btn btn-sm btn-outline" onclick="clForceZoom(1.4)" title="Zoom in">＋</button>
+              <button class="btn btn-sm btn-outline" onclick="clForceZoom(1/1.4)" title="Zoom out">－</button>
+              <button class="btn btn-sm btn-outline" onclick="clForceZoomFit()" title="Fit to view">⤢ Fit</button>
+              <button class="btn btn-sm btn-outline" onclick="clForceZoomReset()" title="Reset">↺</button>
+            </div>
             <svg id="cl-force-svg"></svg>
           </div>
         </div>
@@ -713,7 +729,17 @@
 
         <!-- Cluster summary cards -->
         <div style="margin-top:8px;">
-          <div style="font-size:14px;font-weight:600;margin-bottom:14px;">Cluster Breakdown</div>
+          <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:8px;">
+            <div style="font-size:14px;font-weight:600;">Cluster Breakdown</div>
+            <span style="font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
+              one card per cluster · medoid badge = representative country
+            </span>
+          </div>
+          <div id="cl-cluster-explainer"
+               style="margin-bottom:14px;padding:10px 14px;border-radius:0.5rem;
+                      background:oklch(0.78 0.18 200 / 0.05);
+                      border-left:3px solid var(--primary);font-size:12px;
+                      color:var(--muted-foreground);line-height:1.6;"></div>
           <div id="cl-cluster-cards"></div>
         </div>
 

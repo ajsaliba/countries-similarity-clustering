@@ -1,0 +1,52 @@
+{
+  "area": {
+    "total_km2": 41291.0,
+    "water_pct": 4.0,
+    "rank": 132.0
+  },
+  "codes": {
+    "calling_code": "+41",
+    "internet_tld": ".ch",
+    "iso_3166_code": "CH"
+  },
+  "economy": {
+    "currency_code": "CHF",
+    "gdp_ppp": {
+      "total_billion_usd": 881.083,
+      "per_capita_usd": 97660.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 1003.0,
+      "per_capita_usd": 111047.0
+    },
+    "gini": 31.5,
+    "hdi": 0.97
+  },
+  "general": {
+    "capital": "Bern ( de facto )",
+    "demonym": "English: Swiss German: Schweizer/Schweizerin French: Suisse/Suissesse Italian : svizzero/svizzera or elvetico/elvetica Romansh : Svizzer/Svizra",
+    "official_language": "French / Italian / Romansh",
+    "religion": {
+      "Islam": 6.0,
+      "no religion": 36.8,
+      "other religions": 1.5,
+      "unanswered": 0.9
+    },
+    "ethnic_groups": {}
+  },
+  "government": {
+    "type": "Federal assembly-independent directorial republic",
+    "legislature": "Federal Assembly",
+    "lower_house": "National Council",
+    "upper_house": "Council of States"
+  },
+  "history": "Founded",
+  "population": {
+    "total": 9060598.0,
+    "density_per_km2": 207.0
+  },
+  "time": {
+    "timezone_utc": "UTC+01:00",
+    "timezone_dst": "UTC+02:00"
+  }
+}

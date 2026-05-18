@@ -152,6 +152,7 @@ function simGoTo(n) {
   }
 
   // Step-specific init
+  if (n === 1) simSelectType('structural');   // single option — auto-select on entry
   if (n === 2) simInitMap();
   if (n === 3) simRenderLabelsPanel();
   if (n === 4) simLoadDocReview();
@@ -200,20 +201,17 @@ function simSelectMode(mode) {
    Step 1: Type selection
 ───────────────────────────────────────────────────────────────── */
 function simSelectType(type) {
-  SIM.simType = type;
+  // Only structural is supported now — keep the function for the click
+  // handler in case the user clicks the single card, but force the value.
+  SIM.simType = 'structural';
   document.querySelectorAll('[data-sim-type]').forEach(el => {
-    el.classList.toggle('selected', el.dataset.simType === type);
+    el.classList.toggle('selected', el.dataset.simType === 'structural');
   });
-  // Show/hide alpha slider
-  const alphaRow = document.getElementById('sim-alpha-row');
-  if (alphaRow) alphaRow.style.display = (type === 'combined') ? '' : 'none';
 }
 
-function simUpdateAlpha(val) {
-  SIM.alpha = parseFloat(val);
-  const display = document.getElementById('sim-alpha-val');
-  if (display) display.textContent = SIM.alpha.toFixed(2);
-}
+// Alpha is no longer user-facing (no Combined option); kept as a stub so
+// any legacy call sites don't blow up.
+function simUpdateAlpha(_val) {}
 
 /* ─────────────────────────────────────────────────────────────────
    Step 2: Country selection
@@ -355,7 +353,157 @@ function simUpdateMapHighlights() {
 }
 
 /* ─────────────────────────────────────────────────────────────────
-   Step 3: Document review
+   Step 3: Select Labels
+───────────────────────────────────────────────────────────────── */
+
+/* Initialise SIM.labels from LABEL_SCHEMA with everything enabled. Called
+   the first time the user enters step 3 (or via simLabelsReset / new analysis). */
+function simInitLabels() {
+  const labels = {};
+  for (const section of LABEL_SECTIONS) {
+    const fields = {};
+    for (const f of LABEL_SCHEMA[section]) fields[f] = true;
+    labels[section] = { enabled: true, fields };
+  }
+  SIM.labels = labels;
+}
+
+/* Render the step-3 panel. Builds 8 cards (one per section) with a
+   master checkbox and a collapsible drill-in of leaf fields. */
+function simRenderLabelsPanel() {
+  if (!SIM.labels) simInitLabels();
+  const wrap = document.getElementById('sim-labels-panel');
+  if (!wrap) return;
+
+  wrap.innerHTML = LABEL_SECTIONS.map(section => {
+    const entry      = SIM.labels[section];
+    const fieldNames = LABEL_SCHEMA[section];
+    const onCount    = fieldNames.filter(f => entry.fields[f]).length;
+    const total      = fieldNames.length;
+
+    // Tri-state checkbox: on / off / indeterminate
+    let cbCls = 'sim-label-checkbox';
+    let cbMark = '';
+    if (entry.enabled && (total === 0 || onCount === total)) {
+      cbCls += ' on'; cbMark = '✓';
+    } else if (entry.enabled && onCount > 0) {
+      cbCls += ' indeterminate'; cbMark = '–';
+    }
+
+    const expanded = SIM.expandedLabelSections.has(section);
+    const cardCls  = `sim-label-card ${entry.enabled ? 'included' : 'excluded'}${expanded ? ' expanded' : ''}`;
+    const arrow    = total > 0 ? '▸' : '';
+    const count    = total > 0 ? `${onCount}/${total} fields` : '— no drill-in —';
+
+    const fieldsBlock = total > 0 ? `
+      <div class="sim-label-card-body">
+        ${fieldNames.map(f => {
+          const isOn = entry.enabled && entry.fields[f];
+          return `<div class="sim-label-leaf ${isOn ? '' : 'excluded'}"
+            onclick="event.stopPropagation();simLabelsToggleField('${section}','${f}')">
+            <span class="sim-label-checkbox ${isOn ? 'on' : ''}">${isOn ? '✓' : ''}</span>
+            <span class="sim-label-leaf-name">${f}</span>
+          </div>`;
+        }).join('')}
+      </div>` : '';
+
+    return `<div class="${cardCls}" data-section="${section}">
+      <div class="sim-label-card-head"
+           onclick="simLabelsToggleExpand('${section}')">
+        <span class="${cbCls}"
+              onclick="event.stopPropagation();simLabelsToggleSection('${section}')">${cbMark}</span>
+        <span class="sim-label-card-title">${section}</span>
+        <span class="sim-label-card-count">${count}</span>
+        ${arrow ? `<span class="sim-label-card-arrow">${arrow}</span>` : ''}
+      </div>
+      ${fieldsBlock}
+    </div>`;
+  }).join('');
+
+  simLabelsUpdateSummary();
+}
+
+function simLabelsUpdateSummary() {
+  const summary = document.getElementById('sim-label-summary');
+  if (!summary) return;
+  const onSections = LABEL_SECTIONS.filter(s => SIM.labels[s].enabled);
+  const totalFields = LABEL_SECTIONS.reduce((sum, s) => sum + LABEL_SCHEMA[s].length, 0);
+  const onFields = LABEL_SECTIONS.reduce((sum, s) => {
+    if (!SIM.labels[s].enabled) return sum;
+    return sum + LABEL_SCHEMA[s].filter(f => SIM.labels[s].fields[f]).length;
+  }, 0);
+  summary.textContent = `${onSections.length} / ${LABEL_SECTIONS.length} sections · ${onFields} / ${totalFields} fields`;
+}
+
+function simLabelsToggleExpand(section) {
+  if (LABEL_SCHEMA[section].length === 0) return;
+  if (SIM.expandedLabelSections.has(section)) SIM.expandedLabelSections.delete(section);
+  else SIM.expandedLabelSections.add(section);
+  simRenderLabelsPanel();
+}
+
+function simLabelsToggleSection(section) {
+  const entry = SIM.labels[section];
+  // If currently on (any state), flip everything off; if off, flip all fields on.
+  const newOn = !entry.enabled || LABEL_SCHEMA[section].some(f => !entry.fields[f]) === false
+                ? !entry.enabled
+                : true;
+  // Simplified: hard toggle — enabled controls everything, fields all match.
+  entry.enabled = !entry.enabled;
+  for (const f of LABEL_SCHEMA[section]) entry.fields[f] = entry.enabled;
+  simRenderLabelsPanel();
+}
+
+function simLabelsToggleField(section, field) {
+  const entry = SIM.labels[section];
+  entry.fields[field] = !entry.fields[field];
+  // Auto-update section enabled flag based on whether any field is on
+  entry.enabled = LABEL_SCHEMA[section].some(f => entry.fields[f]);
+  simRenderLabelsPanel();
+}
+
+function simLabelsSelectAll() {
+  for (const s of LABEL_SECTIONS) {
+    SIM.labels[s].enabled = true;
+    for (const f of LABEL_SCHEMA[s]) SIM.labels[s].fields[f] = true;
+  }
+  simRenderLabelsPanel();
+}
+
+function simLabelsClearAll() {
+  for (const s of LABEL_SECTIONS) {
+    SIM.labels[s].enabled = false;
+    for (const f of LABEL_SCHEMA[s]) SIM.labels[s].fields[f] = false;
+  }
+  simRenderLabelsPanel();
+}
+
+function simLabelsReset() {
+  simInitLabels();
+  SIM.expandedLabelSections.clear();
+  simRenderLabelsPanel();
+}
+
+/* Build the flat excluded-labels list that goes into the API payload. */
+function simBuildExcludedLabels() {
+  if (!SIM.labels) return [];
+  const excluded = [];
+  for (const section of LABEL_SECTIONS) {
+    const entry = SIM.labels[section];
+    if (!entry.enabled) {
+      // Whole section out — emit the section label.
+      excluded.push(section);
+      continue;
+    }
+    for (const f of LABEL_SCHEMA[section]) {
+      if (!entry.fields[f]) excluded.push(f);
+    }
+  }
+  return excluded;
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   Step 4: Document review
 ───────────────────────────────────────────────────────────────── */
 async function simLoadDocReview() {
   const panel = document.getElementById('sim-doc-review-area');
@@ -395,23 +543,36 @@ async function simLoadDocReview() {
 }
 
 function renderDocCard(doc, idx) {
-  const name   = doc.name || `Country ${idx + 1}`;
-  const json   = JSON.stringify(doc.data || {}, null, 2);
-  const treeHtml = renderTreeInspector(doc.data || {});
-  const cardId = `doc-card-${idx}`;
+  const name     = doc.name || `Country ${idx + 1}`;
+  const json     = JSON.stringify(doc.data || {}, null, 2);
+  const excluded = new Set(simBuildExcludedLabels());
+  const treeHtml = renderTreeInspector(doc.data || {}, excluded);
+  const cardId   = `doc-card-${idx}`;
+
+  // Show a tiny banner at the top of each card so the user can see which
+  // labels are currently excluded from the comparison.
+  const excludedBanner = excluded.size > 0
+    ? `<div style="margin-bottom:12px;padding:8px 12px;border-radius:0.5rem;
+          background:oklch(0.82 0.17 80 / 0.08);border:1px solid oklch(0.82 0.17 80 / 0.25);
+          font-size:11px;font-family:'JetBrains Mono';color:var(--muted-foreground);">
+        <span style="color:var(--warning);font-weight:700;">EXCLUDED:</span>
+        ${[...excluded].map(l => `<span style="text-decoration:line-through;margin:0 4px;">${escHtml(l)}</span>`).join('')}
+      </div>`
+    : '';
 
   return `<div class="doc-card-inner card glass" style="border-radius:1rem;margin-bottom:20px;padding:16px;" id="${cardId}">
     <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
       <span class="badge badge-primary">${escHtml(name)}</span>
       <span style="font-size:12px;color:var(--muted-foreground);">Tree nodes: ${doc.tree_size ?? '—'}</span>
     </div>
+    ${excludedBanner}
     <div class="tabs-list" style="margin-bottom:14px;">
       <button class="tab-trigger active" data-tab="doc-rendered-${idx}">Rendered</button>
       <button class="tab-trigger" data-tab="doc-json-${idx}">JSON</button>
       <button class="tab-trigger" data-tab="doc-tree-${idx}">Tree Inspector</button>
     </div>
     <div id="doc-rendered-${idx}" class="tab-content" style="display:block;">
-      ${renderInfoboxRendered(doc.data || {}, name)}
+      ${renderInfoboxRendered(doc.data || {}, name, excluded)}
     </div>
     <div id="doc-json-${idx}" class="tab-content" style="display:none;">
       <pre style="font-family:'JetBrains Mono';font-size:11px;color:var(--muted-foreground);
@@ -428,7 +589,7 @@ function renderDocCard(doc, idx) {
 /* ─────────────────────────────────────────────────────────────────
    Wikipedia-style infobox renderer
 ───────────────────────────────────────────────────────────────── */
-function renderInfoboxRendered(data, countryName) {
+function renderInfoboxRendered(data, countryName, excluded = new Set()) {
   if (!data || typeof data !== 'object')
     return '<p style="color:var(--muted-foreground)">No data</p>';
 
@@ -448,75 +609,75 @@ function renderInfoboxRendered(data, countryName) {
         0x1F1E6 + code.charCodeAt(1) - 65)
     : '🌐';
 
+  // Each section/row carries its label key so the renderer can match it
+  // against the excluded set and dim accordingly.
   const sections = [
-    {
-      title: 'General',
+    { title: 'General', key: 'general',
       rows: [
-        ['Capital',             fmt.txt(data.general?.capital)],
-        ['Largest city',        fmt.txt(data.general?.largest_city)],
-        ['Official language',   fmt.txt(data.general?.official_language)],
-        ['Regional languages',  fmt.txt(data.general?.regional_languages)],
-        ['Demonym',             fmt.txt(data.general?.demonym)],
+        ['Capital',            'capital',            fmt.txt(data.general?.capital)],
+        ['Largest city',       'largest_city',       fmt.txt(data.general?.largest_city)],
+        ['Official language',  'official_language',  fmt.txt(data.general?.official_language)],
+        ['Regional languages', 'regional_languages', fmt.txt(data.general?.regional_languages)],
+        ['Demonym',            'demonym',            fmt.txt(data.general?.demonym)],
       ],
     },
-    {
-      title: 'Codes',
+    { title: 'Codes', key: 'codes',
       rows: [
-        ['ISO 3166',     fmt.txt(data.codes?.iso_3166_code)],
-        ['Calling code', fmt.txt(data.codes?.calling_code)],
-        ['Internet TLD', fmt.txt(data.codes?.internet_tld)],
+        ['ISO 3166',     'iso_3166_code', fmt.txt(data.codes?.iso_3166_code)],
+        ['Calling code', 'calling_code',  fmt.txt(data.codes?.calling_code)],
+        ['Internet TLD', 'internet_tld',  fmt.txt(data.codes?.internet_tld)],
       ],
     },
-    {
-      title: 'Government',
+    { title: 'Government', key: 'government',
       rows: [
-        ['Type',        fmt.txt(data.government?.type)],
-        ['Legislature', fmt.txt(data.government?.legislature)],
-        ['Lower house', fmt.txt(data.government?.lower_house)],
-        ['Upper house', fmt.txt(data.government?.upper_house)],
+        ['Type',        'type',        fmt.txt(data.government?.type)],
+        ['Legislature', 'legislature', fmt.txt(data.government?.legislature)],
+        ['Lower house', 'lower_house', fmt.txt(data.government?.lower_house)],
+        ['Upper house', 'upper_house', fmt.txt(data.government?.upper_house)],
       ],
     },
-    {
-      title: 'Area',
+    { title: 'Area', key: 'area',
       rows: [
-        ['Total',     data.area?.total_km2 != null && data.area.total_km2 !== -1
-                       ? fmt.big(data.area.total_km2) + ' km²' : '—'],
-        ['Water',     data.area?.water_pct != null && data.area.water_pct !== -1
-                       ? fmt.pct(data.area.water_pct) : '—'],
-        ['Area rank', fmt.txt(data.area?.rank)],
+        ['Total',     'total_km2',
+          data.area?.total_km2 != null && data.area.total_km2 !== -1
+            ? fmt.big(data.area.total_km2) + ' km²' : '—'],
+        ['Water',     'water_pct',
+          data.area?.water_pct != null && data.area.water_pct !== -1
+            ? fmt.pct(data.area.water_pct) : '—'],
+        ['Area rank', 'rank', fmt.txt(data.area?.rank)],
       ],
     },
-    {
-      title: 'Economy',
+    { title: 'Economy', key: 'economy',
       rows: [
-        ['Currency',                fmt.txt(data.economy?.currency_code)],
-        ['GDP (PPP, total)',        fmt.moneyB(data.economy?.gdp_ppp?.total_billion_usd)],
-        ['GDP (PPP) per capita',    fmt.money(data.economy?.gdp_ppp?.per_capita_usd)],
-        ['GDP (nominal, total)',    fmt.moneyB(data.economy?.gdp_nominal?.total_billion_usd)],
-        ['GDP (nominal) per capita',fmt.money(data.economy?.gdp_nominal?.per_capita_usd)],
-        ['Gini index',              data.economy?.gini?.value != null
-                                      ? fmt.pct(data.economy.gini.value) +
-                                        (data.economy.gini.category ? ` (${data.economy.gini.category})` : '')
-                                      : '—'],
-        ['HDI',                     data.economy?.hdi?.value != null
-                                      ? fmt.dec3(data.economy.hdi.value) +
-                                        (data.economy.hdi.category ? ` (${data.economy.hdi.category})` : '')
-                                      : '—'],
+        ['Currency',                'currency_code', fmt.txt(data.economy?.currency_code)],
+        ['GDP (PPP, total)',        'gdp_ppp',       fmt.moneyB(data.economy?.gdp_ppp?.total_billion_usd)],
+        ['GDP (PPP) per capita',    'gdp_ppp',       fmt.money(data.economy?.gdp_ppp?.per_capita_usd)],
+        ['GDP (nominal, total)',    'gdp_nominal',   fmt.moneyB(data.economy?.gdp_nominal?.total_billion_usd)],
+        ['GDP (nominal) per capita','gdp_nominal',   fmt.money(data.economy?.gdp_nominal?.per_capita_usd)],
+        ['Gini index',              'gini',
+          data.economy?.gini?.value != null
+            ? fmt.pct(data.economy.gini.value) +
+              (data.economy.gini.category ? ` (${data.economy.gini.category})` : '')
+            : '—'],
+        ['HDI',                     'hdi',
+          data.economy?.hdi?.value != null
+            ? fmt.dec3(data.economy.hdi.value) +
+              (data.economy.hdi.category ? ` (${data.economy.hdi.category})` : '')
+            : '—'],
       ],
     },
-    {
-      title: 'Population',
+    { title: 'Population', key: 'population',
       rows: [
-        ['Total',   fmt.big(data.population?.total)],
-        ['Density', data.population?.density_per_km2 != null && data.population.density_per_km2 > 0
-                     ? fmt.big(data.population.density_per_km2) + ' / km²' : '—'],
+        ['Total',   'total', fmt.big(data.population?.total)],
+        ['Density', 'density_per_km2',
+          data.population?.density_per_km2 != null && data.population.density_per_km2 > 0
+            ? fmt.big(data.population.density_per_km2) + ' / km²' : '—'],
       ],
     },
-    {
-      title: 'Time',
+    { title: 'Time', key: 'time',
       rows: [
-        ['Timezone (UTC)', fmt.txt(data.time?.timezone_utc)],
-        ['Timezone (DST)', fmt.txt(data.time?.timezone_dst)],
+        ['Timezone (UTC)', 'timezone_utc', fmt.txt(data.time?.timezone_utc)],
+        ['Timezone (DST)', 'timezone_dst', fmt.txt(data.time?.timezone_dst)],
       ],
     },
   ];
@@ -541,35 +702,45 @@ function renderInfoboxRendered(data, countryName) {
       </div>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:0;">
-        ${sections.map((s, i) => renderInfoboxSection(s, i, sections.length)).join('')}
+        ${sections.map((s, i) => renderInfoboxSection(s, i, sections.length, excluded)).join('')}
       </div>
 
-      ${religionDist ? renderDistributionBlock('Religion', religionDist) : ''}
-      ${ethnicDist   ? renderDistributionBlock('Ethnic groups', ethnicDist) : ''}
+      ${religionDist ? renderDistributionBlock('Religion', religionDist, excluded.has('general') || excluded.has('religion')) : ''}
+      ${ethnicDist   ? renderDistributionBlock('Ethnic groups', ethnicDist, excluded.has('general') || excluded.has('ethnic_groups')) : ''}
     </div>
   `;
 }
 
-function renderInfoboxSection(section, i, total) {
+function renderInfoboxSection(section, i, total, excluded = new Set()) {
   if (!section.rows.length) return '';
-  // alternate left/right column borders so we get a 2-col grid look
-  const borderRight = (i % 2 === 0) ? '1px solid var(--border)' : 'none';
+  const sectionOff = excluded.has(section.key);
+  const borderRight  = (i % 2 === 0) ? '1px solid var(--border)' : 'none';
   const borderBottom = (i < total - 1 && i < total - 2) ? '1px solid var(--border)' : 'none';
+  const headerColor  = sectionOff ? 'var(--muted-foreground)' : 'var(--primary)';
+  const sectionStyle = sectionOff ? 'opacity:0.45;' : '';
+  const tag = sectionOff
+    ? `<span style="font-family:'Space Grotesk';font-size:9px;color:var(--warning);
+        background:oklch(0.82 0.17 80 / 0.15);padding:1px 5px;border-radius:3px;
+        margin-left:8px;letter-spacing:0.06em;">EXCLUDED</span>` : '';
+
   return `
-    <div style="padding:14px 16px;border-right:${borderRight};border-bottom:${borderBottom};">
+    <div style="padding:14px 16px;border-right:${borderRight};border-bottom:${borderBottom};${sectionStyle}">
       <div style="font-family:'JetBrains Mono';font-size:10px;font-weight:700;
-                  letter-spacing:0.1em;text-transform:uppercase;color:var(--primary);
-                  margin-bottom:10px;border-bottom:1px solid var(--border);padding-bottom:6px;">
-        ${escHtml(section.title)}
+                  letter-spacing:0.1em;text-transform:uppercase;color:${headerColor};
+                  margin-bottom:10px;border-bottom:1px solid var(--border);padding-bottom:6px;
+                  display:flex;align-items:center;">
+        <span style="${sectionOff ? 'text-decoration:line-through;' : ''}">${escHtml(section.title)}</span>${tag}
       </div>
       <table style="width:100%;border-collapse:collapse;font-size:12px;">
-        ${section.rows.map(([label, value]) => {
-          const isEmpty = value === '—';
-          const color = isEmpty ? 'var(--muted-foreground)' : 'var(--foreground)';
-          return `<tr>
+        ${section.rows.map(([label, fieldKey, value]) => {
+          const fieldOff = sectionOff || excluded.has(fieldKey);
+          const isEmpty  = value === '—';
+          const valColor = fieldOff ? 'var(--muted-foreground)' : (isEmpty ? 'var(--muted-foreground)' : 'var(--foreground)');
+          const rowStyle = fieldOff ? 'opacity:0.55;text-decoration:line-through;' : '';
+          return `<tr style="${rowStyle}">
             <td style="padding:3px 0;color:var(--muted-foreground);width:48%;vertical-align:top;
                        font-family:'JetBrains Mono';font-size:11px;">${escHtml(label)}</td>
-            <td style="padding:3px 0;color:${color};font-weight:500;vertical-align:top;
+            <td style="padding:3px 0;color:${valColor};font-weight:500;vertical-align:top;
                        word-break:break-word;">${escHtml(value)}</td>
           </tr>`;
         }).join('')}
@@ -578,7 +749,7 @@ function renderInfoboxSection(section, i, total) {
   `;
 }
 
-function renderDistributionBlock(title, groups) {
+function renderDistributionBlock(title, groups, isExcluded = false) {
   if (!groups || typeof groups !== 'object') return '';
   const entries = Object.entries(groups)
     .filter(([_, v]) => typeof v === 'number')
@@ -592,12 +763,20 @@ function renderDistributionBlock(title, groups) {
     'oklch(0.75 0.2 180)',  'oklch(0.8 0.25 340)',
   ];
 
+  const wrapStyle   = isExcluded ? 'opacity:0.5;' : '';
+  const headerColor = isExcluded ? 'var(--muted-foreground)' : 'var(--primary)';
+  const tag = isExcluded
+    ? `<span style="font-family:'Space Grotesk';font-size:9px;color:var(--warning);
+        background:oklch(0.82 0.17 80 / 0.15);padding:1px 5px;border-radius:3px;
+        margin-left:8px;letter-spacing:0.06em;">EXCLUDED</span>` : '';
+
   return `
-    <div style="padding:14px 16px;border-top:1px solid var(--border);">
+    <div style="padding:14px 16px;border-top:1px solid var(--border);${wrapStyle}">
       <div style="font-family:'JetBrains Mono';font-size:10px;font-weight:700;
-                  letter-spacing:0.1em;text-transform:uppercase;color:var(--primary);
-                  margin-bottom:10px;border-bottom:1px solid var(--border);padding-bottom:6px;">
-        ${escHtml(title)}
+                  letter-spacing:0.1em;text-transform:uppercase;color:${headerColor};
+                  margin-bottom:10px;border-bottom:1px solid var(--border);padding-bottom:6px;
+                  display:flex;align-items:center;">
+        <span style="${isExcluded ? 'text-decoration:line-through;' : ''}">${escHtml(title)}</span>${tag}
       </div>
       <div style="display:flex;flex-direction:column;gap:6px;">
         ${entries.map(([label, value], i) => {
@@ -617,22 +796,26 @@ function renderDistributionBlock(title, groups) {
   `;
 }
 
-function renderTreeInspector(data, depth = 0) {
+function renderTreeInspector(data, excluded = new Set(), depth = 0, ancestorExcluded = false) {
   if (typeof data !== 'object' || data === null) {
     return `<span style="color:oklch(0.75 0.22 130);">${escHtml(String(data))}</span>`;
   }
   const indent = '&nbsp;'.repeat(depth * 4);
   const entries = Object.entries(data);
   return entries.map(([k, v]) => {
-    const isLeaf = typeof v !== 'object' || v === null;
-    const icon   = isLeaf ? '◦' : '▸';
-    const color  = isLeaf ? 'var(--muted-foreground)' : 'var(--foreground)';
+    const isLeaf      = typeof v !== 'object' || v === null;
+    const icon        = isLeaf ? '◦' : '▸';
+    const isExcluded  = ancestorExcluded || excluded.has(k);
+    const strike      = isExcluded ? 'text-decoration:line-through;opacity:0.45;' : '';
+    const mark        = isExcluded ? '<span style="color:var(--warning);font-size:10px;margin-left:6px;">[excluded]</span>' : '';
+    const color       = isLeaf ? 'var(--muted-foreground)' : 'var(--foreground)';
+
     if (isLeaf) {
-      return `<div>${indent}<span style="color:${color}">${icon} ${escHtml(k)}</span>: <span style="color:oklch(0.75 0.22 130);">${escHtml(String(v))}</span></div>`;
+      return `<div style="${strike}">${indent}<span style="color:${color}">${icon} ${escHtml(k)}</span>: <span style="color:oklch(0.75 0.22 130);">${escHtml(String(v))}</span>${mark}</div>`;
     }
-    return `<details open>
-      <summary style="cursor:pointer;list-style:none;">${indent}<span style="color:var(--primary);">▸ ${escHtml(k)}</span></summary>
-      ${renderTreeInspector(v, depth + 1)}
+    return `<details ${isExcluded ? '' : 'open'} style="${strike}">
+      <summary style="cursor:pointer;list-style:none;">${indent}<span style="color:var(--primary);">▸ ${escHtml(k)}</span>${mark}</summary>
+      ${renderTreeInspector(v, excluded, depth + 1, isExcluded)}
     </details>`;
   }).join('');
 }
@@ -651,9 +834,25 @@ function escHtml(s) {
 function simRenderRunSummary() {
   const set = (id, val) => { const el = document.getElementById(id); if(el) el.textContent = val; };
   set('sim-run-mode',    SIM.mode === 'pairwise' ? '1 vs 1' : '1 vs All');
-  set('sim-run-type',    SIM.simType || '—');
-  set('sim-run-alpha',   SIM.simType === 'combined' ? SIM.alpha.toFixed(2) : 'N/A');
+  set('sim-run-type',    SIM.simType || 'structural');
   set('sim-run-countries', SIM.selected.join(' ↔ '));
+
+  // Surface a tiny label-filter blurb under the summary card so the user
+  // sees what got excluded right before pressing Run.
+  if (SIM.labels) {
+    const excluded = simBuildExcludedLabels();
+    const card = document.querySelector('.sim-step-panel[data-step="5"] .card.glass');
+    if (card) {
+      card.querySelector('.sim-run-labels-line')?.remove();
+      const line = document.createElement('div');
+      line.className = 'sim-run-labels-line';
+      line.style.cssText = 'margin-top:12px;font-size:11px;color:var(--muted-foreground);font-family:\'JetBrains Mono\';';
+      line.innerHTML = excluded.length
+        ? `Labels excluded (${excluded.length}): <span style="color:var(--foreground);">${excluded.join(', ')}</span>`
+        : `All ${LABEL_SECTIONS.length} sections included.`;
+      card.appendChild(line);
+    }
+  }
 }
 
 async function simRunSimilarity() {
@@ -668,6 +867,7 @@ async function simRunSimilarity() {
     type:    SIM.simType,
     alpha:   SIM.alpha,
     countries: SIM.selected,
+    excluded_labels: simBuildExcludedLabels(),
   };
 
   try {
@@ -690,7 +890,7 @@ async function simRunSimilarity() {
 
     setTimeout(() => {
       simShowProgress(false);
-      simGoTo(5);
+      simGoTo(6);
       simRenderResults(data);
       if (btn) { btn.disabled = false; btn.textContent = '▶ Run Similarity'; }
     }, 400);
@@ -1240,6 +1440,7 @@ async function simDrillIntoPair(targetName) {
         type:      SIM.simType,
         alpha:     SIM.alpha,
         countries: [source, targetName],
+        excluded_labels: simBuildExcludedLabels(),
       }),
     });
     if (!res.ok) {
@@ -1412,18 +1613,19 @@ function simNewAnalysis() {
   SIM.drillData   = null;
   document.getElementById('sim-back-to-leaderboard')?.remove();
 
+  // Reset the label picker to all-included defaults.
+  simInitLabels();
+  SIM.expandedLabelSections.clear();
+
   simGoTo(0);
 
   // ── Wipe lingering UI state from the previous run ───────────────
-  document.querySelectorAll('[data-mode],[data-sim-type]').forEach(el => el.classList.remove('selected'));
+  document.querySelectorAll('[data-mode]').forEach(el => el.classList.remove('selected'));
+  // Re-apply the structural-only auto-selection on the Type card
+  document.querySelectorAll('[data-sim-type]').forEach(el =>
+    el.classList.toggle('selected', el.dataset.simType === 'structural'));
   const search = document.getElementById('sim-country-search');
   if (search) search.value = '';
-  const alphaSlider = document.getElementById('sim-alpha-slider');
-  if (alphaSlider) alphaSlider.value = '0.5';
-  const alphaVal = document.getElementById('sim-alpha-val');
-  if (alphaVal) alphaVal.textContent = '0.50';
-  const alphaRow = document.getElementById('sim-alpha-row');
-  if (alphaRow) alphaRow.style.display = 'none';
 
   // Re-render the country list and the map so the checkmarks / pins
   // from the previous selection actually disappear.

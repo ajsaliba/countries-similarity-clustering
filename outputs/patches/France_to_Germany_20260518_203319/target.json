@@ -1,0 +1,29 @@
+{
+  "area": {
+    "total_km2": 357022.0,
+    "water_pct": 1.27,
+    "rank": 63.0
+  },
+  "codes": {
+    "calling_code": "+49",
+    "internet_tld": ".de",
+    "iso_3166_code": "DE"
+  },
+  "general": {
+    "capital": "Berlin",
+    "demonym": "German",
+    "official_language": "German",
+    "religion": {},
+    "ethnic_groups": {}
+  },
+  "government": {
+    "type": "Federal parliamentary republic",
+    "legislature": "Bundestag Bundesrat",
+    "lower_house": "",
+    "upper_house": ""
+  },
+  "population": {
+    "total": 83497147.0,
+    "density_per_km2": 233.0
+  }
+}

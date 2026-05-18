@@ -1,0 +1,55 @@
+{
+  "area": {
+    "total_km2": 6020.0,
+    "water_pct": 3.5,
+    "rank": 163.0
+  },
+  "codes": {
+    "calling_code": "+970",
+    "internet_tld": ".ps",
+    "iso_3166_code": "PS"
+  },
+  "economy": {
+    "currency_code": "Israeli new shekel Jordanian dinar Egyptian pound",
+    "gdp_ppp": {
+      "total_billion_usd": 36.391,
+      "per_capita_usd": 6642.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 18.109,
+      "per_capita_usd": 3464.0
+    },
+    "gini": 33.7,
+    "hdi": 0.674
+  },
+  "general": {
+    "capital": "Jerusalem ( limited recognition ) Ramallah ( de facto )",
+    "demonym": "Palestinian",
+    "official_language": "Arabic",
+    "religion": {
+      "Baháʼí Faith": 0.05,
+      "Christianity": 0.88,
+      "Judaism": 13.07,
+      "irreligion": 5.27
+    },
+    "ethnic_groups": {
+      "Israeli Jews": 8.8,
+      "Palestinian Arabs": 91.2
+    }
+  },
+  "government": {
+    "type": "Unitary provisional semi-presidential republic",
+    "legislature": "Legislative Council",
+    "lower_house": "",
+    "upper_house": ""
+  },
+  "history": "Declaration of Independence | Sovereignty dispute with Israel",
+  "population": {
+    "total": 5483450.0,
+    "density_per_km2": 731.0
+  },
+  "time": {
+    "timezone_utc": "UTC+02:00",
+    "timezone_dst": "UTC+03:00"
+  }
+}

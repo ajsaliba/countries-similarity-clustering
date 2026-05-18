@@ -109,7 +109,57 @@ REGION_MAP: Dict[str, str] = {
 }
 
 DATA_DIR = BASE_DIR / "data" / "clean" / "countries"
+SEMANTIC_DATA_DIR = BASE_DIR / "data" / "cleaned-data"
 PATCH_OUTPUT_DIR = BASE_DIR / "outputs" / "patches"
+TED_MATRIX_FILE = BASE_DIR / "outputs" / "matrix.npz"
+
+# Map every wizard "Select Labels" key to the corresponding top-level keys
+# in the cleaned-data schema, so the same UI filter can prune both
+# datasets even though their vocabularies differ.
+LABEL_TO_CLEANED_KEYS: Dict[str, List[str]] = {
+    # Sections (wizard "top-level") → cleaned-data keys they cover
+    "general":          ["Capital", "Official Languages", "Ethnic Groups", "Religions"],
+    "government":       ["Government Type", "Government Structure"],
+    "economy":          ["GDP PPP", "GDP Nominal", "HDI", "Currency"],
+    "population":       ["Population"],
+    "area":             ["Area"],
+    "codes":            [],  # cleaned-data has no codes section
+    "time":             [],
+    "history":          [],
+
+    # Leaf labels under General
+    "capital":           ["Capital"],
+    "official_language": ["Official Languages"],
+    "religion":          ["Religions"],
+    "ethnic_groups":     ["Ethnic Groups"],
+    "demonym":           [],
+
+    # Leaf labels under Government
+    "type":         ["Government Type"],
+    "legislature":  [],
+    "lower_house":  [],
+    "upper_house":  [],
+
+    # Leaf labels under Economy
+    "currency_code": ["Currency"],
+    "gdp_ppp":       ["GDP PPP"],
+    "gdp_nominal":   ["GDP Nominal"],
+    "hdi":           ["HDI"],
+    "gini":          [],
+
+    # Other leaves (mostly nested inside cleaned-data, so dropping at
+    # top-level only triggers when the whole section is excluded)
+    "total":           [],
+    "density_per_km2": [],
+    "total_km2":       [],
+    "water_pct":       [],
+    "rank":            [],
+    "calling_code":    [],
+    "internet_tld":    [],
+    "iso_3166_code":   [],
+    "timezone_utc":    [],
+    "timezone_dst":    [],
+}
 
 # ── ISO 3166 → approximate (lat, lng) country centroid for the map overlay ──
 COUNTRY_COORDS: Dict[str, Tuple[float, float]] = {
@@ -165,11 +215,18 @@ COUNTRY_COORDS: Dict[str, Tuple[float, float]] = {
 }
 
 # ── in-memory stores ──────────────────────────────────────────────────────────
-COUNTRY_DATA: Dict[str, dict] = {}
+COUNTRY_DATA: Dict[str, dict] = {}                # data/clean/countries — drives structural + UI
+SEMANTIC_DATA: Dict[str, dict] = {}               # data/cleaned-data    — drives the semantic Jaccard only
+_SEMANTIC_NORM_INDEX: Dict[str, str] = {}         # lower-cased name → SEMANTIC_DATA key, for fuzzy match
 COUNTRY_LIST: List[dict] = []
 _TREE_CACHE: Dict[str, Node] = {}
 _MATRIX_CACHE: Dict[str, Any] = {}
 _JOBS: Dict[str, dict] = {}
+
+# Precomputed full-corpus TED similarity matrix. Populated once at startup
+# (either loaded from outputs/matrix.npz or rebuilt). When present, every
+# clustering call slices a sub-matrix from it instead of computing TEDs live.
+_TED_MATRIX: Optional[Dict[str, Any]] = None      # {names, sim, dist, name_to_idx}
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -200,6 +257,170 @@ def load_countries() -> None:
             "lat":    lat,
             "lng":    lng,
         })
+
+
+def _norm_name(s: str) -> str:
+    """Loose key for matching country names across the two datasets."""
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+
+def load_semantic_data() -> None:
+    """
+    Load the data/cleaned-data corpus used by the semantic Jaccard.
+    Falls back gracefully if the folder is missing — semantic similarity
+    will then drop to comparing empty docs (score 1.0 for identical pair,
+    0.0 otherwise).
+    """
+    if not SEMANTIC_DATA_DIR.exists():
+        print(f"[SIMILICA] WARNING: {SEMANTIC_DATA_DIR} not found — semantic dataset unavailable",
+              flush=True)
+        return
+
+    for f in sorted(SEMANTIC_DATA_DIR.glob("*.json")):
+        try:
+            # utf-8-sig strips an optional BOM; ~half the cleaned-data files
+            # were exported with one and would otherwise fail to parse.
+            data = json.loads(f.read_text(encoding="utf-8-sig"))
+        except Exception as e:
+            print(f"[SIMILICA] skipped {f.name}: {e}", flush=True)
+            continue
+        # Prefer the "Country" field; fall back to filename.
+        name = data.get("Country") or f.stem.replace("_", " ")
+        SEMANTIC_DATA[name] = data
+        _SEMANTIC_NORM_INDEX[_norm_name(name)] = name
+
+    # Report any countries in COUNTRY_DATA that have no match in cleaned-data.
+    missing = [n for n in COUNTRY_DATA if _norm_name(n) not in _SEMANTIC_NORM_INDEX]
+    print(f"[SIMILICA] Loaded {len(SEMANTIC_DATA)} cleaned-data semantic documents"
+          f"{f' ({len(missing)} unmatched)' if missing else ''}", flush=True)
+
+
+def _semantic_data_for(name: str) -> dict:
+    """
+    Return the cleaned-data document for a country name, doing a loose
+    name match so 'Bahamas, The' / 'The Bahamas' / 'Bahamas' all resolve.
+    Returns an empty dict if there's truly no match.
+    """
+    if name in SEMANTIC_DATA:
+        return SEMANTIC_DATA[name]
+    key = _SEMANTIC_NORM_INDEX.get(_norm_name(name))
+    return SEMANTIC_DATA.get(key, {}) if key else {}
+
+
+def load_or_build_ted_matrix() -> None:
+    """
+    Populate _TED_MATRIX with the full-corpus pairwise TED similarity /
+    distance matrix.
+
+    Strategy:
+      1. Try outputs/matrix.npz; if its `names` array is exactly the set of
+         currently-loaded countries, accept the cached matrix and skip work.
+      2. Otherwise compute the matrix (Zhang-Shasha across every pair) and
+         persist it back to matrix.npz for next time. This is the slow path
+         — first run takes ~30-90s for 195 countries; subsequent starts are
+         instant.
+    """
+    global _TED_MATRIX
+
+    all_names = sorted(COUNTRY_DATA.keys())
+    n = len(all_names)
+
+    if TED_MATRIX_FILE.exists():
+        try:
+            z = np.load(TED_MATRIX_FILE, allow_pickle=True)
+            cached_names = list(z["names"].tolist())
+            sim = z["sim_array"]
+            # IMPORTANT: ignore any cached dist_array. Older versions of this
+            # file stored the *raw TED edit-cost* (values 3–30) rather than
+            # the similarity-derived distance (1 − similarity, in [0, 1]).
+            # Always recompute from sim_array so the clustering algorithms
+            # (especially DBSCAN's eps) see distances in the expected range.
+            dist = 1.0 - sim
+            np.fill_diagonal(dist, 0.0)
+            if set(cached_names) == set(all_names) and sim.shape == (len(cached_names), len(cached_names)):
+                _TED_MATRIX = {
+                    "names":       cached_names,
+                    "sim":         sim,
+                    "dist":        dist,
+                    "name_to_idx": {nm: i for i, nm in enumerate(cached_names)},
+                }
+                print(f"[SIMILICA] Loaded cached TED matrix ({len(cached_names)}×{len(cached_names)}) "
+                      f"from {TED_MATRIX_FILE.relative_to(BASE_DIR)}", flush=True)
+                return
+            print(f"[SIMILICA] Cached TED matrix ignored (names mismatch); rebuilding…", flush=True)
+        except Exception as e:
+            print(f"[SIMILICA] Cached TED matrix unreadable ({e}); rebuilding…", flush=True)
+
+    # ── Slow path: compute pairwise TED for every (i, j) ───────────────
+    print(f"[SIMILICA] Building TED matrix for {n} countries (this takes ~30-90s on first run)…",
+          flush=True)
+    trees = {name: build_country_tree(COUNTRY_DATA[name]) for name in all_names}
+    sim = np.zeros((n, n), dtype=np.float64)
+    total_pairs = n * (n - 1) // 2
+    done = 0
+    for i in range(n):
+        sim[i, i] = 1.0
+        for j in range(i + 1, n):
+            _, s = ted_similarity(trees[all_names[i]], trees[all_names[j]])
+            sim[i, j] = sim[j, i] = s
+            done += 1
+            if done % 1000 == 0:
+                print(f"  {done}/{total_pairs} pairs "
+                      f"({100.0 * done / total_pairs:.1f}%)", flush=True)
+    dist = 1.0 - sim
+    np.fill_diagonal(dist, 0.0)
+
+    TED_MATRIX_FILE.parent.mkdir(parents=True, exist_ok=True)
+    np.savez(TED_MATRIX_FILE,
+             names=np.array(all_names, dtype=object),
+             sim_array=sim,
+             dist_array=dist)
+    print(f"[SIMILICA] Saved TED matrix to {TED_MATRIX_FILE.relative_to(BASE_DIR)}", flush=True)
+
+    _TED_MATRIX = {
+        "names":       all_names,
+        "sim":         sim,
+        "dist":        dist,
+        "name_to_idx": {nm: i for i, nm in enumerate(all_names)},
+    }
+
+
+def _ted_submatrices(names: List[str]) -> Optional[Tuple[np.ndarray, np.ndarray]]:
+    """
+    Return (sim_sub, dist_sub) for the given country subset by slicing the
+    cached full matrix.  None if any country isn't in the cache (forces
+    the caller to fall back to live computation).
+    """
+    if _TED_MATRIX is None:
+        return None
+    name_to_idx = _TED_MATRIX["name_to_idx"]
+    try:
+        idx = [name_to_idx[nm] for nm in names]
+    except KeyError:
+        return None
+    idx_arr = np.array(idx)
+    sim_sub  = _TED_MATRIX["sim"][np.ix_(idx_arr, idx_arr)]
+    dist_sub = _TED_MATRIX["dist"][np.ix_(idx_arr, idx_arr)]
+    return sim_sub, dist_sub
+
+
+def _filter_cleaned_by_labels(data: dict, excluded_labels: set) -> dict:
+    """
+    Translate the wizard's flat excluded-label set to cleaned-data top-
+    level keys via LABEL_TO_CLEANED_KEYS, then drop those keys.
+
+    Only top-level keys are filtered; cleaned-data is shallow enough that
+    section-level pruning is sufficient.
+    """
+    if not excluded_labels:
+        return data
+    drop: set = set()
+    for label in excluded_labels:
+        for mapped in LABEL_TO_CLEANED_KEYS.get(label, []):
+            drop.add(mapped)
+    if not drop:
+        return data
+    return {k: v for k, v in data.items() if k not in drop}
 
     COUNTRY_LIST.sort(key=lambda x: x["name"])
     print(f"[SIMILICA] Loaded {len(COUNTRY_DATA)} countries", flush=True)
@@ -837,25 +1058,41 @@ def run_clustering_api(countries: List[str], basis: str, algorithm: str, params:
         raise ValueError("Need at least 2 valid countries")
 
     n = len(names)
-    sim_mat = np.zeros((n, n))
 
-    for i in range(n):
-        sim_mat[i, i] = 1.0
-        for j in range(i + 1, n):
-            if basis == "structural":
-                _, s = ted_similarity(get_tree(names[i]), get_tree(names[j]))
-            else:
-                s = semantic_similarity(COUNTRY_DATA[names[i]], COUNTRY_DATA[names[j]])
-            sim_mat[i, j] = sim_mat[j, i] = s
+    # Fast path: slice the precomputed full-corpus TED matrix instead of
+    # recomputing pairwise TEDs. Falls back to live computation if the
+    # cache isn't available (first run before the matrix has been built,
+    # or a country not in the cache).
+    sub = _ted_submatrices(names) if basis == "structural" else None
+    if sub is not None:
+        sim_mat, dist_mat = sub
+        # numpy returns views from np.ix_; copy so np.fill_diagonal below
+        # doesn't mutate the shared cache.
+        sim_mat  = sim_mat.copy()
+        dist_mat = dist_mat.copy()
+    else:
+        sim_mat = np.zeros((n, n))
+        for i in range(n):
+            sim_mat[i, i] = 1.0
+            for j in range(i + 1, n):
+                if basis == "structural":
+                    _, s = ted_similarity(get_tree(names[i]), get_tree(names[j]))
+                else:
+                    s = semantic_similarity(COUNTRY_DATA[names[i]], COUNTRY_DATA[names[j]])
+                sim_mat[i, j] = sim_mat[j, i] = s
+        dist_mat = 1.0 - sim_mat
 
-    dist_mat = 1.0 - sim_mat
     np.fill_diagonal(dist_mat, 0.0)
 
     k = int(params.get("k", 4))
     k = max(2, min(k, n - 1))
 
     if algorithm == "agglomerative":
-        result = agglomerative(dist_mat, names, n_clusters=k,
+        # Agglomerative uses a distance threshold (dendrogram cut height),
+        # not a fixed k — cluster count is inferred from the hierarchy.
+        thresh = float(params.get("distance_threshold", 0.5))
+        result = agglomerative(dist_mat, names,
+                               distance_threshold=thresh,
                                linkage=params.get("linkage", "average"))
     elif algorithm == "dbscan":
         result = dbscan(dist_mat, names,
@@ -1057,6 +1294,13 @@ def api_similarity():
                 return COUNTRY_DATA[name]
             return _filter_data_by_labels(COUNTRY_DATA[name], excluded_labels)
 
+        # Semantic similarity (and the semantic half of "combined") runs on
+        # the data/cleaned-data corpus, not data/clean. Structural / patching /
+        # field-scores / token-analysis all stay on COUNTRY_DATA.
+        def _semantic_for(name: str) -> dict:
+            doc = _semantic_data_for(name)
+            return _filter_cleaned_by_labels(doc, excluded_labels)
+
         # Accept {countries:[...]} (wizard) or {source, targets} (legacy)
         countries_list = body.get("countries", [])
         if countries_list:
@@ -1076,6 +1320,7 @@ def api_similarity():
 
         src_tree_filtered = _tree_for(source)
         src_data_filtered = _data_for(source)
+        src_semantic_doc  = _semantic_for(source)
 
         pairs = []
         for target in targets:
@@ -1094,7 +1339,8 @@ def api_similarity():
                 ted_dist   = round(ted_dist, 4)
 
             if sim_type in ("semantic", "combined"):
-                sem_sim = round(semantic_similarity(src_data_filtered, _data_for(target)), 4)
+                # Semantic Jaccard runs on data/cleaned-data via _semantic_for.
+                sem_sim = round(semantic_similarity(src_semantic_doc, _semantic_for(target)), 4)
 
             if sim_type == "structural":
                 combined = struct_sim
@@ -1157,9 +1403,11 @@ def api_similarity():
                 response["field_scores"]  = compute_field_scores(
                     src_data_filtered, tgt_data_filtered)
 
-                # UI-friendly token analysis keys (only_a / only_b)
+                # Token analysis is a viz of the semantic Jaccard, so run it
+                # on the cleaned-data corpus to stay consistent with the
+                # semantic score shown in the score panel.
                 tok = compute_token_analysis(
-                    src_data_filtered, tgt_data_filtered, source, target)
+                    src_semantic_doc, _semantic_for(target), source, target)
                 response["token_analysis"] = {
                     "shared":    tok["shared"],
                     "only_a":    tok["vocab_a"],
@@ -1239,31 +1487,18 @@ def api_patch():
 
 @app.route("/api/clustering", methods=["POST"])
 def api_clustering():
+    """
+    Synchronous clustering — the structural TED matrix is precomputed at
+    startup and cached in _TED_MATRIX, so even Select-All-195 clustering
+    runs in well under a second. The old n>20 background-job split is no
+    longer needed.
+    """
     try:
         body = request.get_json(force=True)
-        basis     = body.get("basis", "semantic")
+        basis     = body.get("basis", "structural")
         algorithm = body.get("algorithm", "agglomerative")
         countries = body.get("countries", [])
         params    = body.get("params", {})
-
-        n = len([c for c in countries if c in COUNTRY_DATA])
-
-        if basis == "structural" and n > 20:
-            job_id = str(uuid.uuid4())
-            _JOBS[job_id] = {"status": "running", "result": None, "error": None}
-
-            def worker():
-                try:
-                    result = run_clustering_api(countries, basis, algorithm, params)
-                    _JOBS[job_id]["result"] = result
-                    _JOBS[job_id]["status"] = "done"
-                except Exception as exc:
-                    _JOBS[job_id]["error"] = str(exc)
-                    _JOBS[job_id]["status"] = "error"
-
-            t = threading.Thread(target=worker, daemon=True)
-            t.start()
-            return jsonify({"job_id": job_id, "status": "running"})
 
         result = run_clustering_api(countries, basis, algorithm, params)
         return jsonify(result)
@@ -1291,6 +1526,8 @@ def api_job(job_id: str):
 # ─────────────────────────────────────────────────────────────────────────────
 
 load_countries()
+load_semantic_data()
+load_or_build_ted_matrix()
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

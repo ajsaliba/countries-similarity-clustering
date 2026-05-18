@@ -1,0 +1,58 @@
+{
+  "area": {
+    "total_km2": 9596961.0,
+    "water_pct": 2.8,
+    "rank": -1.0
+  },
+  "codes": {
+    "calling_code": "+86",
+    "internet_tld": ".cn",
+    "iso_3166_code": "CN"
+  },
+  "economy": {
+    "currency_code": "CNY",
+    "gdp_ppp": {
+      "total_billion_usd": 41016.0,
+      "per_capita_usd": 29191.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 19399.0,
+      "per_capita_usd": 13806.0
+    },
+    "gini": 36.0,
+    "hdi": 0.797
+  },
+  "general": {
+    "capital": "Beijing",
+    "demonym": "Chinese",
+    "official_language": "Standard Chinese (de facto)",
+    "religion": {},
+    "ethnic_groups": {
+      "Han Chinese": 91.11,
+      "Hui": 0.81,
+      "Manchu": 0.74,
+      "Miao": 0.79,
+      "Tibetan": 0.5,
+      "Tujia": 0.68,
+      "Uyghur": 0.84,
+      "Yi": 0.7,
+      "Zhuang": 1.39,
+      "others": 2.44
+    }
+  },
+  "government": {
+    "type": "Unitary communist state",
+    "legislature": "National People's Congress",
+    "lower_house": "",
+    "upper_house": ""
+  },
+  "history": "Current constitution | Establishment of the Republic of China | First imperial dynasty | First pre-imperial dynasty | Proclamation of the People's Republic",
+  "population": {
+    "total": 1404890000.0,
+    "density_per_km2": 146.0
+  },
+  "time": {
+    "timezone_utc": "UTC+08:00",
+    "timezone_dst": ""
+  }
+}

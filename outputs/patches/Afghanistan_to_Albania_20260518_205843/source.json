@@ -1,0 +1,58 @@
+{
+  "area": {
+    "total_km2": 652864.0,
+    "water_pct": 0.0,
+    "rank": 40.0
+  },
+  "codes": {
+    "calling_code": "",
+    "internet_tld": ".af",
+    "iso_3166_code": "AF"
+  },
+  "economy": {
+    "currency_code": "AFN",
+    "gdp_ppp": {
+      "total_billion_usd": 91.668,
+      "per_capita_usd": 2174.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 17.329,
+      "per_capita_usd": 411.0
+    },
+    "gini": -1.0,
+    "hdi": 0.496
+  },
+  "general": {
+    "capital": "Kabul",
+    "demonym": "Afghan",
+    "official_language": "Pashto Dari",
+    "religion": {
+      "other": 0.1
+    },
+    "ethnic_groups": {
+      "Aimaq": 4.0,
+      "Baloch": 2.0,
+      "Hazara": 9.0,
+      "Pashtun": 42.0,
+      "Tajik": 27.0,
+      "Turkmen": 3.0,
+      "Uzbek": 9.0,
+      "other": 4.0
+    }
+  },
+  "government": {
+    "type": "Unitary totalitarian theocratic Islamic emirate",
+    "legislature": "None",
+    "lower_house": "",
+    "upper_house": ""
+  },
+  "history": "Barakzai Emirate | Democratic Republic | Durrani Empire | Hotak Emirate | Independence | Islamic Emirate | Islamic Republic | Islamic State | Kingdom | Republic | Restoration of Islamic Emirate | Unification",
+  "population": {
+    "total": 42500000.0,
+    "density_per_km2": 64.0
+  },
+  "time": {
+    "timezone_utc": "UTC+04:30",
+    "timezone_dst": ""
+  }
+}

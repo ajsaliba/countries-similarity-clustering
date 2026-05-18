@@ -1,0 +1,56 @@
+{
+  "area": {
+    "total_km2": 438317.0,
+    "water_pct": 4.93,
+    "rank": 58.0
+  },
+  "codes": {
+    "calling_code": "+964",
+    "internet_tld": ".iq",
+    "iso_3166_code": "IQ"
+  },
+  "economy": {
+    "currency_code": "IQD",
+    "gdp_ppp": {
+      "total_billion_usd": 690.09,
+      "per_capita_usd": 15180.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 258.02,
+      "per_capita_usd": 5670.0
+    },
+    "gini": 29.5,
+    "hdi": 0.712
+  },
+  "general": {
+    "capital": "Baghdad",
+    "demonym": "Iraqi",
+    "official_language": "Arabic Kurdish",
+    "religion": {
+      "Christianity , Mandaeism , Yazidism , Judaism , Yarsanism , irreligion and others": 10.0,
+      "Islam ( official )": 95.0,
+      "Shia": 61.0,
+      "Sunni 5–": 35.0
+    },
+    "ethnic_groups": {
+      "Arabs 15–": 80.0,
+      "Assyrians , Turkmen , Jews , Persians , Yazidis , Mandaeans , and others": 10.0,
+      "Kurds 5–": 20.0
+    }
+  },
+  "government": {
+    "type": "Federal parliamentary republic",
+    "legislature": "Council of Representatives",
+    "lower_house": "Council of Representatives",
+    "upper_house": "Federation Council"
+  },
+  "history": "Abbasid Caliphate | Akkadian Empire | Babylonia | Current constitution | Independence declared | Republic declared | Sumer",
+  "population": {
+    "total": 46118793.0,
+    "density_per_km2": 82.7
+  },
+  "time": {
+    "timezone_utc": "UTC+03:00",
+    "timezone_dst": ""
+  }
+}

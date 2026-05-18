@@ -92,11 +92,16 @@ _BLOCKED_LINKAGE = {"ward"}
 def agglomerative(
     dist_array: np.ndarray,
     names: List[str],
-    n_clusters: int = 10,
+    distance_threshold: float = 0.5,
     linkage: str = "average",
 ) -> ClusterResult:
     """
     Hierarchical agglomerative clustering on a precomputed distance matrix.
+
+    Cluster count is determined automatically by cutting the dendrogram at
+    *distance_threshold* — pairs of clusters whose linkage distance exceeds
+    the threshold are not merged.  This is the natural hierarchical
+    parameter and avoids forcing an arbitrary *k*.
 
     Parameters
     ----------
@@ -105,8 +110,10 @@ def agglomerative(
         and 1 = maximally different.  Compute as ``1 − similarity_matrix``.
     names : list[str]
         Country names, parallel to the rows/columns of dist_array.
-    n_clusters : int
-        Target number of clusters.
+    distance_threshold : float
+        Height at which to cut the dendrogram.  Lower → more, tighter
+        clusters; higher → fewer, looser clusters.  Typical TED range:
+        ~0.1 (very tight) to ~0.7 (very loose).  Default 0.5.
     linkage : str
         Inter-cluster distance rule.  Must be one of:
         - "average"  (UPGMA) — recommended for non-Euclidean data.
@@ -117,6 +124,7 @@ def agglomerative(
     Returns
     -------
     ClusterResult
+        n_clusters_found is the auto-detected count after applying the cut.
     """
     _validate_square(dist_array, "dist_array")
 
@@ -132,7 +140,8 @@ def agglomerative(
         )
 
     model = AgglomerativeClustering(
-        n_clusters=n_clusters,
+        n_clusters=None,
+        distance_threshold=float(distance_threshold),
         metric="precomputed",
         linkage=linkage,
     )
@@ -142,7 +151,7 @@ def agglomerative(
         labels=labels.tolist(),
         names=list(names),
         method="agglomerative",
-        params={"n_clusters": n_clusters, "linkage": linkage},
+        params={"distance_threshold": float(distance_threshold), "linkage": linkage},
         n_clusters_found=_n_real_clusters(labels),
     )
 

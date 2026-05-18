@@ -1,0 +1,30 @@
+{
+  "area": {
+    "total_km2": 10452.0,
+    "water_pct": 1.8,
+    "rank": 161.0
+  },
+  "codes": {
+    "calling_code": "+961",
+    "internet_tld": ".lb",
+    "iso_3166_code": "LB"
+  },
+  "economy": {
+    "currency_code": "LBP",
+    "gdp_ppp": {
+      "total_billion_usd": 78.233,
+      "per_capita_usd": 11793.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 21.78,
+      "per_capita_usd": 3283.0
+    },
+    "gini": 31.8,
+    "hdi": 0.752
+  },
+  "history": "Constitution | Double Qaim-Maqamate of Mount Lebanon | Emirate of Mount Lebanon | French mandate ended | Greater Lebanon | Independence declared | Israeli troops withdrawn | Mount Lebanon Mutasarrifate | Syrian troops withdrawn | Withdrawal of French forces",
+  "time": {
+    "timezone_utc": "UTC+02:00",
+    "timezone_dst": "UTC+03:00"
+  }
+}

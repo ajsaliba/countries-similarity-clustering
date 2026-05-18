@@ -1,0 +1,46 @@
+{
+  "area": {
+    "total_km2": 25436.0,
+    "water_pct": 1.1,
+    "rank": 145.0
+  },
+  "economy": {
+    "currency_code": "MKD",
+    "gdp_ppp": {
+      "total_billion_usd": 53.345,
+      "per_capita_usd": 29475.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 17.885,
+      "per_capita_usd": 9882.0
+    },
+    "gini": 29.8,
+    "hdi": 0.815
+  },
+  "general": {
+    "capital": "Skopje",
+    "demonym": "Macedonian",
+    "official_language": "Macedonian Albanian",
+    "religion": {
+      "Islam": 32.2,
+      "data taken from administrative sources": 7.2,
+      "no religion": 0.1,
+      "other": 0.1
+    },
+    "ethnic_groups": {
+      "Albanians": 24.3,
+      "Aromanians (including Megleno-Romanians )": 0.5,
+      "Bosniaks": 0.9,
+      "Macedonians": 58.4,
+      "Roma": 2.5,
+      "Serbs": 1.3,
+      "Turks": 3.9,
+      "other (including undeclared and unknown)": 1.0,
+      "persons for whom data are taken from administrative sources": 7.2
+    }
+  },
+  "time": {
+    "timezone_utc": "UTC+01:00",
+    "timezone_dst": "UTC+02:00"
+  }
+}

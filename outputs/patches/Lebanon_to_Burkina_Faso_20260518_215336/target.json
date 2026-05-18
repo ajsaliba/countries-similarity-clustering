@@ -1,0 +1,62 @@
+{
+  "area": {
+    "total_km2": 274223.0,
+    "water_pct": 0.148,
+    "rank": 74.0
+  },
+  "codes": {
+    "calling_code": "+226",
+    "internet_tld": ".bf",
+    "iso_3166_code": "BF"
+  },
+  "economy": {
+    "currency_code": "XOF",
+    "gdp_ppp": {
+      "total_billion_usd": 72.82,
+      "per_capita_usd": 2980.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 27.06,
+      "per_capita_usd": 1110.0
+    },
+    "gini": 37.4,
+    "hdi": 0.459
+  },
+  "general": {
+    "capital": "Ouagadougou",
+    "demonym": "Burkinabé",
+    "official_language": "Mooré , Dyula and Fula , alongside any other languages so recognized by law",
+    "religion": {
+      "Animism": 9.0,
+      "Islam": 63.8,
+      "irreligion": 0.7
+    },
+    "ethnic_groups": {
+      "Bissa": 1.5,
+      "Bobo": 3.4,
+      "Fula": 6.8,
+      "Gurma": 5.2,
+      "Gurunsi": 5.9,
+      "Lobi": 1.5,
+      "Mossi": 53.7,
+      "Senufo": 2.2,
+      "Tuareg and Bella": 0.1,
+      "or": 5.4
+    }
+  },
+  "government": {
+    "type": "Unitary semi-presidential republic under a military junta",
+    "legislature": "National Assembly",
+    "lower_house": "",
+    "upper_house": ""
+  },
+  "history": "1966 Upper Voltan coup d'état | 2014 Burkina Faso uprising | Independence from France | Jan 2022 Burkina Faso coup d'état | Republic of Upper Volta proclaimed | Sep 2022 Burkina Faso coup d'état",
+  "population": {
+    "total": 22489126.0,
+    "density_per_km2": 86.0
+  },
+  "time": {
+    "timezone_utc": "UTC+00:00",
+    "timezone_dst": ""
+  }
+}

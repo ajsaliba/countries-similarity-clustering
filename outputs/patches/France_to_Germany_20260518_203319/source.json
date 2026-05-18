@@ -1,0 +1,34 @@
+{
+  "area": {
+    "total_km2": 632702.3,
+    "water_pct": 0.86,
+    "rank": 42.0
+  },
+  "codes": {
+    "calling_code": "+33",
+    "internet_tld": ".fr",
+    "iso_3166_code": "FR"
+  },
+  "general": {
+    "capital": "Paris",
+    "demonym": "French",
+    "official_language": "French",
+    "religion": {
+      "Christianity": 50.0,
+      "Islam": 4.0,
+      "irreligion": 33.0,
+      "other religions": 4.0
+    },
+    "ethnic_groups": {}
+  },
+  "government": {
+    "type": "Unitary semi-presidential republic",
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "upper_house": "Senate"
+  },
+  "population": {
+    "total": 66792845.0,
+    "density_per_km2": -1.0
+  }
+}

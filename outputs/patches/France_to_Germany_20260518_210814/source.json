@@ -1,0 +1,17 @@
+{
+  "codes": {
+    "calling_code": "+33",
+    "internet_tld": ".fr",
+    "iso_3166_code": "FR"
+  },
+  "government": {
+    "type": "Unitary semi-presidential republic",
+    "legislature": "Parliament",
+    "lower_house": "National Assembly",
+    "upper_house": "Senate"
+  },
+  "population": {
+    "total": 66792845.0,
+    "density_per_km2": -1.0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "area": {
+    "total_km2": 301340.0,
+    "water_pct": 1.24,
+    "rank": 71.0
+  },
+  "codes": {
+    "calling_code": "+39",
+    "internet_tld": ".it",
+    "iso_3166_code": "IT"
+  },
+  "economy": {
+    "currency_code": "EUR",
+    "gdp_ppp": {
+      "total_billion_usd": 3719.0,
+      "per_capita_usd": 63076.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 2423.0,
+      "per_capita_usd": 41091.0
+    },
+    "gini": 32.5,
+    "hdi": 0.915
+  },
+  "general": {
+    "capital": "Rome",
+    "demonym": "Italian",
+    "official_language": "Italian a",
+    "religion": {
+      "Christianity": 84.0,
+      "irreligion": 12.0,
+      "other": 4.0
+    },
+    "ethnic_groups": {}
+  },
+  "government": {
+    "type": "Unitary parliamentary republic",
+    "legislature": "Parliament",
+    "lower_house": "Chamber of Deputies",
+    "upper_house": "Senate of the Republic"
+  },
+  "history": "Ancient Rome Roman Italy | Italian Empire | Italian Republic | Italian city-states and regional polities | Italic peoples | Kingdom of Italy",
+  "population": {
+    "total": 58915561.0,
+    "density_per_km2": 195.5
+  },
+  "time": {
+    "timezone_utc": "UTC+01:00",
+    "timezone_dst": "UTC+02:00"
+  }
+}

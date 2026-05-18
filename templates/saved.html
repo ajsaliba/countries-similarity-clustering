@@ -34,24 +34,35 @@
 
     const list = document.getElementById('saved-list');
     list.innerHTML = saved.map((item, i) => `
-      <div class="card glass" style="border-radius:1rem;margin-bottom:16px;">
+      <div class="card glass" style="border-radius:1rem;margin-bottom:16px;cursor:pointer;"
+           onclick="openSaved(${i})">
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
           <div>
             <span class="badge badge-${item.type === 'similarity' ? 'primary' : 'secondary'}">${item.type === 'similarity' ? '⇄' : '◎'} ${item.type}</span>
             <span style="margin-left:10px;font-size:13px;font-weight:600;">${item.title}</span>
           </div>
-          <div style="display:flex;align-items:center;gap:8px;">
+          <div style="display:flex;align-items:center;gap:8px;" onclick="event.stopPropagation()">
             <span style="font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';">${new Date(item.timestamp).toLocaleString()}</span>
-            <button class="btn btn-sm btn-outline" onclick="deleteSaved(${i})">✕</button>
+            <button class="btn btn-sm btn-outline" onclick="event.stopPropagation();deleteSaved(${i})" title="Remove">✕</button>
           </div>
         </div>
         <p style="font-size:13px;color:var(--muted-foreground);">${item.summary || ''}</p>
-        <div style="margin-top:12px;">
-          <button class="btn btn-sm btn-outline" onclick="downloadSaved(${i})">⬇ Export JSON</button>
+        <div style="margin-top:12px;display:flex;gap:8px;" onclick="event.stopPropagation()">
+          <button class="btn btn-sm btn-primary" onclick="event.stopPropagation();openSaved(${i})">↗ Open Result</button>
+          <button class="btn btn-sm btn-outline" onclick="event.stopPropagation();downloadSaved(${i})">⬇ Export JSON</button>
         </div>
       </div>
     `).join('');
   });
+
+  function openSaved(idx) {
+    const saved = JSON.parse(localStorage.getItem('similica_saved') || '[]');
+    const item = saved[idx];
+    if (!item) return;
+    // Hand off via sessionStorage; the destination wizard restores state on load.
+    sessionStorage.setItem('similica_pending_view', JSON.stringify(item));
+    window.location.href = item.type === 'clustering' ? '/clustering' : '/similarity';
+  }
 
   function deleteSaved(idx) {
     const saved = JSON.parse(localStorage.getItem('similica_saved') || '[]');

@@ -32,8 +32,11 @@
     if (history.length === 0) return;
 
     const list = document.getElementById('results-list');
-    list.innerHTML = history.slice().reverse().map((item, i) => `
-      <div class="card glass" style="border-radius:1rem;margin-bottom:16px;">
+    list.innerHTML = history.slice().reverse().map((item, i) => {
+      const origIdx = history.length - 1 - i;
+      return `
+      <div class="card glass" style="border-radius:1rem;margin-bottom:16px;cursor:pointer;"
+           onclick="openResult(${origIdx})">
         <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:12px;">
           <div style="display:flex;align-items:center;gap:10px;">
             <span class="badge badge-${item.type === 'similarity' ? 'primary' : 'secondary'}">
@@ -46,13 +49,22 @@
           </span>
         </div>
         <p style="font-size:13px;color:var(--muted-foreground);margin-bottom:14px;">${item.summary}</p>
-        <div style="display:flex;gap:8px;">
-          <button class="btn btn-sm btn-outline" onclick="downloadResult(${history.length - 1 - i})">⬇ Export JSON</button>
-          <button class="btn btn-sm btn-outline" onclick="saveResult(${history.length - 1 - i})">🔖 Save</button>
+        <div style="display:flex;gap:8px;" onclick="event.stopPropagation()">
+          <button class="btn btn-sm btn-primary" onclick="event.stopPropagation();openResult(${origIdx})">↗ Open Result</button>
+          <button class="btn btn-sm btn-outline" onclick="event.stopPropagation();downloadResult(${origIdx})">⬇ Export JSON</button>
+          <button class="btn btn-sm btn-outline" onclick="event.stopPropagation();saveResult(${origIdx})">🔖 Save</button>
         </div>
-      </div>
-    `).join('');
+      </div>`;
+    }).join('');
   });
+
+  function openResult(idx) {
+    const history = JSON.parse(sessionStorage.getItem('similica_history') || '[]');
+    const item = history[idx];
+    if (!item) return;
+    sessionStorage.setItem('similica_pending_view', JSON.stringify(item));
+    window.location.href = item.type === 'clustering' ? '/clustering' : '/similarity';
+  }
 
   function downloadResult(idx) {
     const history = JSON.parse(sessionStorage.getItem('similica_history') || '[]');

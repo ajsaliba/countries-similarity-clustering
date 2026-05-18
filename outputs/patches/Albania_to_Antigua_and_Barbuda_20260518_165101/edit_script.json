@@ -1,0 +1,343 @@
+[
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "total_km2"
+    ],
+    "label": "total_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 28748.0,
+    "new_value": 440.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "water_pct"
+    ],
+    "label": "water_pct",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 4.7,
+    "new_value": 0.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "rank"
+    ],
+    "label": "rank",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 140.0,
+    "new_value": 182.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "calling_code"
+    ],
+    "label": "calling_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "+355",
+    "new_value": "+1"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "internet_tld"
+    ],
+    "label": "internet_tld",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": ".al",
+    "new_value": ".ag"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "iso_3166_code"
+    ],
+    "label": "iso_3166_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "AL",
+    "new_value": "AG"
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "currency_code"
+    ],
+    "label": "currency_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "ALL",
+    "new_value": "XCD"
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_ppp",
+      "total_billion_usd"
+    ],
+    "label": "total_billion_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 66.29,
+    "new_value": 3.3
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_ppp",
+      "per_capita_usd"
+    ],
+    "label": "per_capita_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 24840.0,
+    "new_value": 31781.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_nominal",
+      "total_billion_usd"
+    ],
+    "label": "total_billion_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 32.41,
+    "new_value": 2.37
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_nominal",
+      "per_capita_usd"
+    ],
+    "label": "per_capita_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 12150.0,
+    "new_value": 22630.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gini"
+    ],
+    "label": "gini",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 29.4,
+    "new_value": -1.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "hdi"
+    ],
+    "label": "hdi",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 0.81,
+    "new_value": 0.851
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "capital"
+    ],
+    "label": "capital",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Tirana",
+    "new_value": "St. John's"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "demonym"
+    ],
+    "label": "demonym",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Albanian",
+    "new_value": "Antiguan and Barbudan"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "official_language"
+    ],
+    "label": "official_language",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Albanian",
+    "new_value": "English"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "religion"
+    ],
+    "label": "religion",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "Undeclared": 15.92
+    },
+    "new_value": {}
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "ethnic_groups"
+    ],
+    "label": "ethnic_groups",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "Albanians": 97.7,
+      "Greeks": 1.0,
+      "others": 1.3
+    },
+    "new_value": {
+      "African": 87.3,
+      "East Indian": 1.1,
+      "European": 1.7,
+      "Hispanic": 2.8,
+      "Multiracial": 4.7,
+      "Syrian or Lebanese": 0.7,
+      "other": 1.8
+    }
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "type"
+    ],
+    "label": "type",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Unitary parliamentary republic",
+    "new_value": "Unitary parliamentary constitutional monarchy"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "legislature"
+    ],
+    "label": "legislature",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Kuvendi",
+    "new_value": "Parliament"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "lower_house"
+    ],
+    "label": "lower_house",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "",
+    "new_value": "House of Representatives"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "upper_house"
+    ],
+    "label": "upper_house",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "",
+    "new_value": "Senate"
+  },
+  {
+    "op": "update",
+    "path": [
+      "history"
+    ],
+    "label": "history",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "1st Republic of Albania | 2nd Republic of Albania | 3rd Republic of Albania | 4th Republic of Albania | Albanian principalities | Current constitution | Independent Albania | Kingdom of Albania | League of Lezhë | League of Prizren | Pashalik of Scutari / Janina / Berat | Principality of Albania | Principality of Arbanon",
+    "new_value": "Associated state | Independence | Redonda | Union"
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "total"
+    ],
+    "label": "total",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 2402113.0,
+    "new_value": 106365.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "density_per_km2"
+    ],
+    "label": "density_per_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 83.6,
+    "new_value": 186.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "time",
+      "timezone_utc"
+    ],
+    "label": "timezone_utc",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "UTC+01:00",
+    "new_value": "UTC-04:00"
+  },
+  {
+    "op": "update",
+    "path": [
+      "time",
+      "timezone_dst"
+    ],
+    "label": "timezone_dst",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "UTC+02:00",
+    "new_value": ""
+  }
+]

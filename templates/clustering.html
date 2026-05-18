@@ -154,6 +154,15 @@
     border: 1px solid var(--border);
     background: #0d1117;
   }
+  .cl-map-tooltip {
+    background: oklch(0.16 0.025 260 / 0.92) !important;
+    color: var(--foreground) !important;
+    border: 1px solid var(--primary) !important;
+    font-family: 'JetBrains Mono'; font-size: 10px !important;
+    padding: 2px 6px !important; border-radius: 4px !important;
+    box-shadow: 0 0 8px oklch(0.78 0.18 200 / 0.4) !important;
+  }
+  .cl-map-tooltip::before { display: none !important; }
   .cl-country-scroll {
     height: 220px;
     overflow-y: auto;

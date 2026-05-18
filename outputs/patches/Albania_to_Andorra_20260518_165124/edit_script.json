@@ -1,0 +1,296 @@
+[
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "total_km2"
+    ],
+    "label": "total_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 28748.0,
+    "new_value": 467.63
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "water_pct"
+    ],
+    "label": "water_pct",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 4.7,
+    "new_value": 0.26
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "rank"
+    ],
+    "label": "rank",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 140.0,
+    "new_value": 178.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "calling_code"
+    ],
+    "label": "calling_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "+355",
+    "new_value": "+376"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "internet_tld"
+    ],
+    "label": "internet_tld",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": ".al",
+    "new_value": ".ad"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "iso_3166_code"
+    ],
+    "label": "iso_3166_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "AL",
+    "new_value": "AD"
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "currency_code"
+    ],
+    "label": "currency_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "ALL",
+    "new_value": "EUR"
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_ppp",
+      "total_billion_usd"
+    ],
+    "label": "total_billion_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 66.29,
+    "new_value": 6.001
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_ppp",
+      "per_capita_usd"
+    ],
+    "label": "per_capita_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 24840.0,
+    "new_value": 69146.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_nominal",
+      "total_billion_usd"
+    ],
+    "label": "total_billion_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 32.41,
+    "new_value": 3.897
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_nominal",
+      "per_capita_usd"
+    ],
+    "label": "per_capita_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 12150.0,
+    "new_value": 44900.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gini"
+    ],
+    "label": "gini",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 29.4,
+    "new_value": 40.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "hdi"
+    ],
+    "label": "hdi",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 0.81,
+    "new_value": 0.913
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "capital"
+    ],
+    "label": "capital",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Tirana",
+    "new_value": "Andorra la Vella"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "demonym"
+    ],
+    "label": "demonym",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Albanian",
+    "new_value": "Andorran"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "official_language"
+    ],
+    "label": "official_language",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Albanian",
+    "new_value": "Catalan 44.1%"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "religion"
+    ],
+    "label": "religion",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "Undeclared": 15.92
+    },
+    "new_value": {
+      "no religion": 6.9,
+      "others": 2.3
+    }
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "ethnic_groups"
+    ],
+    "label": "ethnic_groups",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "Albanians": 97.7,
+      "Greeks": 1.0,
+      "others": 1.3
+    },
+    "new_value": {
+      "Andorrans": 32.1,
+      "French": 5.6,
+      "Portuguese": 10.0,
+      "Spaniards": 34.3,
+      "others": 18.0
+    }
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "type"
+    ],
+    "label": "type",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Unitary parliamentary republic",
+    "new_value": "Unitary parliamentary constitutional co-principality"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "legislature"
+    ],
+    "label": "legislature",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Kuvendi",
+    "new_value": "General Council"
+  },
+  {
+    "op": "update",
+    "path": [
+      "history"
+    ],
+    "label": "history",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "1st Republic of Albania | 2nd Republic of Albania | 3rd Republic of Albania | 4th Republic of Albania | Albanian principalities | Current constitution | Independent Albania | Kingdom of Albania | League of Lezhë | League of Prizren | Pashalik of Scutari / Janina / Berat | Principality of Albania | Principality of Arbanon",
+    "new_value": "Constitution | First Paréage | From the French Empire | From the Kingdom of France | From the Principality of Catalonia"
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "total"
+    ],
+    "label": "total",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 2402113.0,
+    "new_value": 89058.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "density_per_km2"
+    ],
+    "label": "density_per_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 83.6,
+    "new_value": 187.1
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "area": {
+    "total_km2": 446550.0,
+    "water_pct": 0.056,
+    "rank": 57.0
+  },
+  "codes": {
+    "calling_code": "+212",
+    "internet_tld": ".ma",
+    "iso_3166_code": "MA"
+  },
+  "economy": {
+    "currency_code": "MAD",
+    "gdp_ppp": {
+      "total_billion_usd": 424.87,
+      "per_capita_usd": 11270.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 165.84,
+      "per_capita_usd": 4440.0
+    },
+    "gini": 40.3,
+    "hdi": 0.71
+  },
+  "general": {
+    "capital": "Rabat",
+    "demonym": "Moroccan",
+    "official_language": "Arabic Tamazight",
+    "religion": {
+      "Jews": 0.01
+    },
+    "ethnic_groups": {}
+  },
+  "government": {
+    "type": "Unitary parliamentary semi-constitutional monarchy",
+    "legislature": "Parliament",
+    "lower_house": "House of Representatives",
+    "upper_house": "House of Councillors"
+  },
+  "history": "' Alawi dynasty (current dynasty) | French protectorate | Idrisid dynasty | Independence",
+  "population": {
+    "total": 36828330.0,
+    "density_per_km2": 79.0
+  },
+  "time": {
+    "timezone_utc": "UTC+01:00",
+    "timezone_dst": ""
+  }
+}

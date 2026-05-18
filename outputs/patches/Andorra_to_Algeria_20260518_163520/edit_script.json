@@ -1,0 +1,329 @@
+[
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "total_km2"
+    ],
+    "label": "total_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 467.63,
+    "new_value": 2381741.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "water_pct"
+    ],
+    "label": "water_pct",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 0.26,
+    "new_value": 0.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "rank"
+    ],
+    "label": "rank",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 178.0,
+    "new_value": 10.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "calling_code"
+    ],
+    "label": "calling_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "+376",
+    "new_value": "+213"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "internet_tld"
+    ],
+    "label": "internet_tld",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": ".ad",
+    "new_value": ".dz"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "iso_3166_code"
+    ],
+    "label": "iso_3166_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "AD",
+    "new_value": "DZ"
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "currency_code"
+    ],
+    "label": "currency_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "EUR",
+    "new_value": "DZD"
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_ppp",
+      "total_billion_usd"
+    ],
+    "label": "total_billion_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 6.001,
+    "new_value": 875.33
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_ppp",
+      "per_capita_usd"
+    ],
+    "label": "per_capita_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 69146.0,
+    "new_value": 18530.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_nominal",
+      "total_billion_usd"
+    ],
+    "label": "total_billion_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 3.897,
+    "new_value": 268.89
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_nominal",
+      "per_capita_usd"
+    ],
+    "label": "per_capita_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 44900.0,
+    "new_value": 5690.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gini"
+    ],
+    "label": "gini",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 40.0,
+    "new_value": 27.6
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "hdi"
+    ],
+    "label": "hdi",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 0.913,
+    "new_value": 0.763
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "capital"
+    ],
+    "label": "capital",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Andorra la Vella",
+    "new_value": "Algiers"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "demonym"
+    ],
+    "label": "demonym",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Andorran",
+    "new_value": "Algerian"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "official_language"
+    ],
+    "label": "official_language",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Catalan 44.1%",
+    "new_value": "Arabic Berber"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "religion"
+    ],
+    "label": "religion",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "no religion": 6.9,
+      "others": 2.3
+    },
+    "new_value": {
+      "Sunni Islam ( official ) <": 99.0,
+      "others": 1.0
+    }
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "ethnic_groups"
+    ],
+    "label": "ethnic_groups",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "Andorrans": 32.1,
+      "French": 5.6,
+      "Portuguese": 10.0,
+      "Spaniards": 34.3,
+      "others": 18.0
+    },
+    "new_value": {}
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "type"
+    ],
+    "label": "type",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Unitary parliamentary constitutional co-principality",
+    "new_value": "Unitary semi-presidential republic"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "legislature"
+    ],
+    "label": "legislature",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "General Council",
+    "new_value": "Parliament"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "lower_house"
+    ],
+    "label": "lower_house",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "",
+    "new_value": "People's National Assembly"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "upper_house"
+    ],
+    "label": "upper_house",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "",
+    "new_value": "Council of the Nation"
+  },
+  {
+    "op": "update",
+    "path": [
+      "history"
+    ],
+    "label": "history",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Constitution | First Paréage | From the French Empire | From the Kingdom of France | From the Principality of Catalonia",
+    "new_value": "French Algeria | Independence | Numidia | Regency of Algiers"
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "total"
+    ],
+    "label": "total",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 89058.0,
+    "new_value": 47400000.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "density_per_km2"
+    ],
+    "label": "density_per_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 187.1,
+    "new_value": 19.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "time",
+      "timezone_dst"
+    ],
+    "label": "timezone_dst",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "UTC+02:00",
+    "new_value": ""
+  }
+]

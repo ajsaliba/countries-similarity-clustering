@@ -14,6 +14,7 @@ import sys
 import threading
 import time
 import uuid
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -28,6 +29,14 @@ from ted.tree_builder import build_country_tree
 from ted.node import Node
 from ted.similarity import ted_similarity
 from ted.cost_functions import CostFunction
+from ted.run_ted import (
+    diff_trees,
+    apply_edit_script,
+    script_summary,
+    node_to_data,
+    clone_node,
+    verify_patch,
+)
 from clustering.cluster import agglomerative, dbscan, spectral, kmedoids
 
 app = Flask(__name__)
@@ -100,6 +109,60 @@ REGION_MAP: Dict[str, str] = {
 }
 
 DATA_DIR = BASE_DIR / "data" / "clean" / "countries"
+PATCH_OUTPUT_DIR = BASE_DIR / "outputs" / "patches"
+
+# ── ISO 3166 → approximate (lat, lng) country centroid for the map overlay ──
+COUNTRY_COORDS: Dict[str, Tuple[float, float]] = {
+    "AD": (42.5, 1.5), "AE": (24.0, 54.0), "AF": (33.0, 65.0), "AG": (17.05, -61.8),
+    "AL": (41.0, 20.0), "AM": (40.0, 45.0), "AO": (-12.5, 18.5), "AR": (-34.0, -64.0),
+    "AT": (47.3, 13.3), "AU": (-27.0, 133.0), "AZ": (40.5, 47.5), "BA": (44.0, 18.0),
+    "BB": (13.17, -59.5), "BD": (24.0, 90.0), "BE": (50.8, 4.0), "BF": (13.0, -2.0),
+    "BG": (43.0, 25.0), "BH": (26.0, 50.55), "BI": (-3.5, 30.0), "BJ": (9.5, 2.25),
+    "BN": (4.5, 114.7), "BO": (-17.0, -65.0), "BR": (-10.0, -55.0), "BS": (24.25, -76.0),
+    "BT": (27.5, 90.5), "BW": (-22.0, 24.0), "BY": (53.0, 28.0), "BZ": (17.25, -88.75),
+    "CA": (60.0, -95.0), "CD": (0.0, 25.0), "CF": (7.0, 21.0), "CG": (-1.0, 15.0),
+    "CH": (47.0, 8.0), "CI": (8.0, -5.0), "CL": (-30.0, -71.0), "CM": (6.0, 12.0),
+    "CN": (35.0, 105.0), "CO": (4.0, -72.0), "CR": (10.0, -84.0), "CU": (21.5, -80.0),
+    "CV": (16.0, -24.0), "CY": (35.0, 33.0), "CZ": (49.75, 15.5), "DE": (51.0, 9.0),
+    "DJ": (11.5, 43.0), "DK": (56.0, 10.0), "DM": (15.42, -61.33), "DO": (19.0, -70.7),
+    "DZ": (28.0, 3.0), "EC": (-2.0, -77.5), "EE": (59.0, 26.0), "EG": (27.0, 30.0),
+    "ER": (15.0, 39.0), "ES": (40.0, -4.0), "ET": (8.0, 38.0), "FI": (64.0, 26.0),
+    "FJ": (-18.0, 175.0), "FM": (6.92, 158.25), "FR": (46.0, 2.0), "GA": (-1.0, 11.75),
+    "GB": (54.0, -2.0), "GD": (12.12, -61.67), "GE": (42.0, 43.5), "GH": (8.0, -2.0),
+    "GM": (13.47, -16.57), "GN": (11.0, -10.0), "GQ": (2.0, 10.0), "GR": (39.0, 22.0),
+    "GT": (15.5, -90.25), "GW": (12.0, -15.0), "GY": (5.0, -59.0), "HN": (15.0, -86.5),
+    "HR": (45.17, 15.5), "HT": (19.0, -72.42), "HU": (47.0, 20.0), "ID": (-5.0, 120.0),
+    "IE": (53.0, -8.0), "IL": (31.5, 34.75), "IN": (20.0, 77.0), "IQ": (33.0, 44.0),
+    "IR": (32.0, 53.0), "IS": (65.0, -18.0), "IT": (42.83, 12.83), "JM": (18.25, -77.5),
+    "JO": (31.0, 36.0), "JP": (36.0, 138.0), "KE": (1.0, 38.0), "KG": (41.0, 75.0),
+    "KH": (13.0, 105.0), "KI": (1.42, 173.0), "KM": (-12.17, 44.25), "KN": (17.33, -62.75),
+    "KP": (40.0, 127.0), "KR": (37.0, 127.5), "KW": (29.5, 47.75), "KZ": (48.0, 68.0),
+    "LA": (18.0, 105.0), "LB": (33.83, 35.83), "LC": (13.88, -61.13), "LI": (47.27, 9.53),
+    "LK": (7.0, 81.0), "LR": (6.5, -9.5), "LS": (-29.5, 28.5), "LT": (56.0, 24.0),
+    "LU": (49.75, 6.17), "LV": (57.0, 25.0), "LY": (25.0, 17.0), "MA": (32.0, -5.0),
+    "MC": (43.73, 7.4), "MD": (47.0, 29.0), "ME": (42.5, 19.3), "MG": (-20.0, 47.0),
+    "MH": (9.0, 168.0), "MK": (41.83, 22.0), "ML": (17.0, -4.0), "MM": (22.0, 98.0),
+    "MN": (46.0, 105.0), "MR": (20.0, -12.0), "MT": (35.83, 14.58), "MU": (-20.28, 57.55),
+    "MV": (3.25, 73.0), "MW": (-13.5, 34.0), "MX": (23.0, -102.0), "MY": (2.5, 112.5),
+    "MZ": (-18.25, 35.0), "NA": (-22.0, 17.0), "NE": (16.0, 8.0), "NG": (10.0, 8.0),
+    "NI": (13.0, -85.0), "NL": (52.5, 5.75), "NO": (62.0, 10.0), "NP": (28.0, 84.0),
+    "NR": (-0.53, 166.92), "NZ": (-41.0, 174.0), "OM": (21.0, 57.0), "PA": (9.0, -80.0),
+    "PE": (-10.0, -76.0), "PG": (-6.0, 147.0), "PH": (13.0, 122.0), "PK": (30.0, 70.0),
+    "PL": (52.0, 20.0), "PT": (39.5, -8.0), "PW": (7.5, 134.5), "PY": (-23.0, -58.0),
+    "QA": (25.5, 51.25), "RO": (46.0, 25.0), "RS": (44.0, 21.0), "RU": (60.0, 100.0),
+    "RW": (-2.0, 30.0), "SA": (25.0, 45.0), "SB": (-8.0, 159.0), "SC": (-4.58, 55.67),
+    "SD": (15.0, 30.0), "SE": (62.0, 15.0), "SG": (1.37, 103.8), "SI": (46.0, 15.0),
+    "SK": (48.67, 19.5), "SL": (8.5, -11.5), "SM": (43.93, 12.42), "SN": (14.0, -14.0),
+    "SO": (10.0, 49.0), "SR": (4.0, -56.0), "SS": (8.0, 30.0), "ST": (1.0, 7.0),
+    "SV": (13.83, -88.92), "SY": (35.0, 38.0), "SZ": (-26.5, 31.5), "TD": (15.0, 19.0),
+    "TG": (8.0, 1.17), "TH": (15.0, 100.0), "TJ": (39.0, 71.0), "TL": (-8.83, 125.92),
+    "TM": (40.0, 60.0), "TN": (34.0, 9.0), "TO": (-20.0, -175.0), "TR": (39.0, 35.0),
+    "TT": (11.0, -61.0), "TV": (-8.0, 178.0), "TW": (23.5, 121.0), "TZ": (-6.0, 35.0),
+    "UA": (49.0, 32.0), "UG": (1.0, 32.0), "US": (38.0, -97.0), "UY": (-33.0, -56.0),
+    "UZ": (41.0, 64.0), "VA": (41.9, 12.45), "VC": (13.25, -61.2), "VE": (8.0, -66.0),
+    "VN": (16.17, 107.83), "VU": (-16.0, 167.0), "WS": (-13.58, -172.33), "XK": (42.67, 21.17),
+    "YE": (15.0, 48.0), "ZA": (-29.0, 24.0), "ZM": (-15.0, 30.0), "ZW": (-19.0, 30.0),
+}
 
 # ── in-memory stores ──────────────────────────────────────────────────────────
 COUNTRY_DATA: Dict[str, dict] = {}
@@ -129,10 +192,13 @@ def load_countries() -> None:
 
     for name, d in COUNTRY_DATA.items():
         code = d.get("codes", {}).get("iso_3166_code", "")
+        lat, lng = COUNTRY_COORDS.get(code, (None, None))
         COUNTRY_LIST.append({
-            "name": name,
-            "code": code,
+            "name":   name,
+            "code":   code,
             "region": _infer_region(code),
+            "lat":    lat,
+            "lng":    lng,
         })
 
     COUNTRY_LIST.sort(key=lambda x: x["name"])
@@ -147,6 +213,39 @@ def get_tree(name: str) -> Node:
     if name not in _TREE_CACHE:
         _TREE_CACHE[name] = build_country_tree(COUNTRY_DATA[name])
     return _TREE_CACHE[name]
+
+
+def _prune_tree_by_labels(root: Node, excluded: set) -> Optional[Node]:
+    """
+    Return a clone of *root* with every node whose label is in *excluded*
+    dropped, along with its entire subtree.
+
+    Returns None if the root itself was excluded (caller should treat as
+    "empty tree" — but the root label is always "infobox" which the UI
+    never lets the user exclude).
+    """
+    if root.label in excluded:
+        return None
+    new_node = Node(label=root.label, node_type=root.node_type, value=root.value)
+    for child in root.children:
+        pruned = _prune_tree_by_labels(child, excluded)
+        if pruned is not None:
+            new_node.add_child(pruned)
+    return new_node
+
+
+def _filter_data_by_labels(data: Any, excluded: set) -> Any:
+    """
+    Recursively drop dict keys whose name is in *excluded*.  Used to filter
+    the raw country JSON before computing the semantic Jaccard, so the
+    tokens reflect only the user-selected labels.
+    """
+    if isinstance(data, dict):
+        return {k: _filter_data_by_labels(v, excluded)
+                for k, v in data.items() if k not in excluded}
+    if isinstance(data, list):
+        return [_filter_data_by_labels(v, excluded) for v in data]
+    return data
 
 
 def _tree_stats(root: Node) -> dict:
@@ -362,14 +461,284 @@ def compute_token_analysis(a_data: dict, b_data: dict, a_name: str, b_name: str)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Patching pipeline — structural edit-script generation, replay, and on-disk
+# artifacts (so the user can open them directly in VSCode).
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── op-cost lookup used to enrich the script for the UI ──────────────────────
+_PATCH_COST_FN = CostFunction()
+
+
+def _safe_slug(name: str) -> str:
+    return re.sub(r"[^A-Za-z0-9]+", "_", name).strip("_") or "country"
+
+
+def _path_display(path: List[str]) -> str:
+    """Render an edit-script path as 'root/section/field'."""
+    return "root" + ("" if not path else "/" + "/".join(path))
+
+
+def _short(value: Any, limit: int = 80) -> str:
+    s = json.dumps(value, ensure_ascii=False) if not isinstance(value, str) else value
+    return s if len(s) <= limit else s[: limit - 1] + "…"
+
+
+def _ui_edit_script(script: List[dict]) -> List[dict]:
+    """
+    Adapt the structural diff_trees() output to the shape the UI consumes:
+
+        { op: "insert" | "delete" | "update",
+          path: "root/section/field",
+          node: "<label>",
+          from: "<short old value>",
+          to:   "<short new value>",
+          cost: <float, two decimals> }
+    """
+    ui: List[dict] = []
+    for op in script:
+        kind = op["op"]
+        label = op.get("label", "")
+        path_disp = _path_display(op.get("path", []))
+
+        if kind == "insert":
+            ui.append({
+                "op": "insert",
+                "path": path_disp,
+                "node": label,
+                "from": "",
+                "to": _short(op.get("value")),
+                "cost": 1.0,
+            })
+        elif kind == "delete":
+            ui.append({
+                "op": "delete",
+                "path": path_disp,
+                "node": label,
+                "from": _short(op.get("old_value")),
+                "to": "",
+                "cost": 1.0,
+            })
+        elif kind == "update":
+            ui.append({
+                "op": "update",
+                "path": path_disp,
+                "node": label,
+                "from": _short(op.get("old_value")),
+                "to":   _short(op.get("new_value")),
+                "cost": 1.0,
+            })
+    return ui
+
+
+def _build_patch_steps(source_tree: Node, script: List[dict]) -> List[dict]:
+    """
+    Apply the edit script one operation at a time, snapshotting the tree
+    state after each application.  Each step entry is:
+
+        { idx, op, label, path, summary, snapshot }
+
+    where snapshot is the full patched-document dict at that step.  The UI
+    plays these back to show the source → target transformation live.
+    """
+    steps: List[dict] = []
+
+    # Step 0 = original source, no op applied yet
+    working = clone_node(source_tree)
+    steps.append({
+        "idx": 0,
+        "op": "init",
+        "label": "source",
+        "path": "root",
+        "summary": "Initial state (source document)",
+        "snapshot": node_to_data(working),
+    })
+
+    for i, op in enumerate(script, start=1):
+        # Apply ops cumulatively: clone the original each iteration and apply
+        # operations [0..i] to keep the apply_edit_script invariants intact.
+        working = apply_edit_script(source_tree, script[:i])
+
+        path_disp = _path_display(op.get("path", []))
+        kind = op["op"]
+        if kind == "insert":
+            summary = f"INSERT {op.get('label')} at {path_disp}  ←  {_short(op.get('value'), 60)}"
+        elif kind == "delete":
+            summary = f"DELETE {op.get('label')} at {path_disp}"
+        else:
+            summary = (
+                f"UPDATE {op.get('label')} at {path_disp}: "
+                f"{_short(op.get('old_value'), 40)}  →  {_short(op.get('new_value'), 40)}"
+            )
+
+        steps.append({
+            "idx": i,
+            "op": kind,
+            "label": op.get("label", ""),
+            "path": path_disp,
+            "summary": summary,
+            "snapshot": node_to_data(working),
+        })
+
+    return steps
+
+
+def _write_patch_artifacts(
+    source_name: str,
+    target_name: str,
+    source_data: dict,
+    target_data: dict,
+    script: List[dict],
+    patched_data: dict,
+    patch_ok: bool,
+) -> dict:
+    """
+    Persist source, target, edit script (both JSON and TXT), and patched
+    document under outputs/patches/<source>_to_<target>_<timestamp>/.
+    Returns the paths so the UI can show them to the user.
+    """
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    folder_name = f"{_safe_slug(source_name)}_to_{_safe_slug(target_name)}_{timestamp}"
+    out_dir = PATCH_OUTPUT_DIR / folder_name
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    files = {
+        "source":      out_dir / "source.json",
+        "target":      out_dir / "target.json",
+        "script_json": out_dir / "edit_script.json",
+        "script_txt":  out_dir / "edit_script.txt",
+        "patched":     out_dir / "patched.json",
+        "summary":     out_dir / "summary.txt",
+    }
+
+    files["source"].write_text(
+        json.dumps(source_data, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+    files["target"].write_text(
+        json.dumps(target_data, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+    files["script_json"].write_text(
+        json.dumps(script, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+    files["script_txt"].write_text(
+        script_summary(script) or "(no edit operations — trees are identical)",
+        encoding="utf-8",
+    )
+    files["patched"].write_text(
+        json.dumps(patched_data, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+
+    op_counts = {"insert": 0, "delete": 0, "update": 0}
+    for op in script:
+        op_counts[op["op"]] = op_counts.get(op["op"], 0) + 1
+    files["summary"].write_text(
+        "\n".join([
+            f"Patching run · {timestamp}",
+            f"Source: {source_name}",
+            f"Target: {target_name}",
+            f"Operations: {len(script)}  "
+            f"(insert={op_counts['insert']}, "
+            f"delete={op_counts['delete']}, "
+            f"update={op_counts['update']})",
+            f"Verification (patched == target): {'OK' if patch_ok else 'FAILED'}",
+            "",
+            "Files in this folder:",
+            "  source.json       — original source country document",
+            "  target.json       — destination document",
+            "  edit_script.json  — machine-readable edit operations",
+            "  edit_script.txt   — human-readable edit script",
+            "  patched.json      — result of applying the script to source",
+            "  summary.txt       — this file",
+        ]),
+        encoding="utf-8",
+    )
+
+    # Return paths relative to BASE_DIR so the UI can display them cleanly.
+    return {
+        "folder": str(out_dir.relative_to(BASE_DIR)).replace("\\", "/"),
+        "files": {
+            key: str(path.relative_to(BASE_DIR)).replace("\\", "/")
+            for key, path in files.items()
+        },
+        "op_counts": op_counts,
+        "verification_ok": patch_ok,
+    }
+
+
+def _run_patching(source_name: str, target_name: str,
+                  excluded_labels: Optional[set] = None) -> dict:
+    """
+    Full patching pipeline for one (source, target) pair.
+
+    If *excluded_labels* is given, both trees are pruned to drop those nodes
+    before TED/patching runs — so the edit script reflects only the user-
+    selected labels.
+
+    Returns a dict containing:
+        ui_script        — adapted edit script for the UI table/diff view
+        raw_script       — original diff_trees output (also written to disk)
+        steps            — step-by-step snapshots for the playback UI
+        source_doc       — full source document
+        target_doc       — full target document
+        patched_doc      — final patched document
+        artifacts        — paths to files saved under outputs/patches/...
+        verification_ok  — True iff patched == target
+    """
+    excluded   = excluded_labels or set()
+    source_data = COUNTRY_DATA[source_name]
+    target_data = COUNTRY_DATA[target_name]
+
+    full_src_tree = build_country_tree(source_data)
+    full_tgt_tree = build_country_tree(target_data)
+
+    if excluded:
+        source_tree = _prune_tree_by_labels(full_src_tree, excluded) or full_src_tree
+        target_tree = _prune_tree_by_labels(full_tgt_tree, excluded) or full_tgt_tree
+    else:
+        source_tree = full_src_tree
+        target_tree = full_tgt_tree
+
+    raw_script = diff_trees(source_tree, target_tree)
+    patched_tree = apply_edit_script(source_tree, raw_script)
+    patch_ok = verify_patch(patched_tree, target_tree)
+
+    patched_data = node_to_data(patched_tree)
+    source_doc = node_to_data(source_tree)
+    target_doc = node_to_data(target_tree)
+
+    steps = _build_patch_steps(source_tree, raw_script)
+    artifacts = _write_patch_artifacts(
+        source_name, target_name,
+        source_doc, target_doc,
+        raw_script, patched_data, patch_ok,
+    )
+
+    return {
+        "ui_script":       _ui_edit_script(raw_script),
+        "raw_script":      raw_script,
+        "steps":           steps,
+        "source_doc":      source_doc,
+        "target_doc":      target_doc,
+        "patched_doc":     patched_data,
+        "artifacts":       artifacts,
+        "verification_ok": patch_ok,
+    }
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Dendrogram builder
 # ─────────────────────────────────────────────────────────────────────────────
 
 def build_dendrogram(dist_mat: np.ndarray, names: List[str], linkage_method: str = "average") -> dict:
+    """
+    Build a binary tree suitable for the D3 dendrogram in clustering.js.
+
+    Internal nodes carry .left and .right (and also .children = [left, right]
+    so older code keeps working); leaf nodes carry .name.
+    """
     try:
         from scipy.cluster.hierarchy import linkage as sp_linkage, to_tree as sp_to_tree
         Z = sp_linkage(dist_mat[np.triu_indices(len(names), k=1)], method=linkage_method)
-        root_node, node_list = sp_to_tree(Z, rd=True)
+        root_node, _ = sp_to_tree(Z, rd=True)
 
         def convert(node) -> dict:
             if node.is_leaf():
@@ -378,29 +747,81 @@ def build_dendrogram(dist_mat: np.ndarray, names: List[str], linkage_method: str
                     "name": names[node.id],
                     "height": 0.0,
                     "members": [names[node.id]],
-                    "children": None,
                 }
             left = convert(node.left)
             right = convert(node.right)
-            members = left["members"] + right["members"]
             return {
                 "id": f"node_{node.id}",
                 "name": None,
                 "height": round(float(node.dist), 4),
-                "members": members,
+                "members": left["members"] + right["members"],
+                "left":  left,
+                "right": right,
                 "children": [left, right],
             }
 
         return convert(root_node)
     except Exception:
+        leaves = [{"id": f"leaf_{n}", "name": n, "height": 0.0, "members": [n]}
+                  for n in names]
         return {
-            "id": "root",
-            "name": None,
-            "height": 1.0,
+            "id": "root", "name": None, "height": 1.0,
             "members": names,
-            "children": [{"id": f"leaf_{n}", "name": n, "height": 0.0,
-                          "members": [n], "children": None} for n in names],
+            "left":  leaves[0] if leaves else None,
+            "right": leaves[-1] if len(leaves) > 1 else None,
+            "children": leaves,
         }
+
+
+def _derive_medoids(
+    dist_mat: np.ndarray,
+    names: List[str],
+    labels: List[int],
+    explicit: Optional[List[str]] = None,
+) -> Dict[str, str]:
+    """
+    Return {cluster_id_str: country_name} mapping the cluster centre to a
+    real country.  For k-medoids the runner already supplies explicit medoid
+    names; for the other algorithms we pick the member with the lowest mean
+    intra-cluster distance.
+    """
+    medoids: Dict[str, str] = {}
+    label_arr = np.array(labels)
+
+    # Map explicit medoid names to their cluster id (k-medoids path).
+    if explicit:
+        name_to_idx = {n: i for i, n in enumerate(names)}
+        for med_name in explicit:
+            if med_name in name_to_idx:
+                cid = int(label_arr[name_to_idx[med_name]])
+                medoids[str(cid)] = med_name
+
+    for cid in sorted(set(labels)):
+        if cid == -1 or str(cid) in medoids:
+            continue
+        member_idx = np.where(label_arr == cid)[0]
+        if member_idx.size == 0:
+            continue
+        if member_idx.size == 1:
+            medoids[str(int(cid))] = names[int(member_idx[0])]
+            continue
+        sub = dist_mat[np.ix_(member_idx, member_idx)]
+        best_local = int(np.argmin(sub.sum(axis=1)))
+        medoids[str(int(cid))] = names[int(member_idx[best_local])]
+
+    return medoids
+
+
+def _country_coords_for(names: List[str]) -> Dict[str, List[float]]:
+    """Return {name: [lat, lng]} for every country we have a centroid for."""
+    coords: Dict[str, List[float]] = {}
+    for name in names:
+        data = COUNTRY_DATA.get(name, {})
+        code = data.get("codes", {}).get("iso_3166_code", "")
+        if code in COUNTRY_COORDS:
+            lat, lng = COUNTRY_COORDS[code]
+            coords[name] = [lat, lng]
+    return coords
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -450,8 +871,15 @@ def run_clustering_api(countries: List[str], basis: str, algorithm: str, params:
     mds = MDS(n_components=2, dissimilarity="precomputed", random_state=42,
               normalized_stress="auto")
     coords = mds.fit_transform(dist_mat)
-    positions = {names[i]: [round(float(coords[i, 0]), 4), round(float(coords[i, 1]), 4)]
-                 for i in range(n)}
+
+    # UI expects an array of [name, x, y] triples (clustering.js iterates this).
+    mds_coords = [
+        [names[i],
+         round(float(coords[i, 0]), 4),
+         round(float(coords[i, 1]), 4)]
+        for i in range(n)
+    ]
+    positions = {names[i]: [mds_coords[i][1], mds_coords[i][2]] for i in range(n)}
 
     edges = []
     for i in range(n):
@@ -465,7 +893,7 @@ def run_clustering_api(countries: List[str], basis: str, algorithm: str, params:
     assignments = {names[i]: int(result.labels[i]) for i in range(n)}
     cluster_members = {str(k): v for k, v in result.cluster_members().items()}
 
-    eval_metrics = {}
+    eval_metrics: Dict[str, float] = {}
     unique_labels = set(result.labels) - {-1}
     if len(unique_labels) >= 2 and n > len(unique_labels):
         try:
@@ -486,22 +914,47 @@ def run_clustering_api(countries: List[str], basis: str, algorithm: str, params:
         dendrogram = build_dendrogram(dist_mat, names,
                                       linkage_method=params.get("linkage", "average"))
 
+    # Identify a representative country (medoid) per cluster so the UI can
+    # label cards with "Cluster N · medoid: France".  k-medoids supplies the
+    # canonical medoid list directly via result.params.
+    explicit_meds = result.params.get("medoids") if algorithm == "kmedoids" else None
+    medoids = _derive_medoids(dist_mat, names, result.labels, explicit_meds)
+
+    country_coords = _country_coords_for(names)
+
     matrix_out = {
         names[i]: {names[j]: round(float(sim_mat[i, j]), 4) for j in range(n)}
         for i in range(n)
     }
 
+    n_outliers = int(sum(1 for lbl in result.labels if lbl == -1))
+    summary = {
+        "n_countries":  n,
+        "n_clusters":   result.n_clusters_found,
+        "n_outliers":   n_outliers,
+        "basis":        basis,
+        "algorithm":    algorithm,
+        "params":       result.params,
+        "silhouette":   eval_metrics.get("silhouette"),
+        "davies_bouldin": eval_metrics.get("davies_bouldin"),
+    }
+
     return {
-        "algorithm": algorithm,
-        "k_used": result.n_clusters_found,
-        "assignments": assignments,
+        "algorithm":       algorithm,
+        "basis":           basis,
+        "k_used":          result.n_clusters_found,
+        "assignments":     assignments,
         "cluster_members": cluster_members,
-        "matrix": matrix_out,
-        "positions_2d": positions,
-        "dendrogram": dendrogram,
-        "edges": edges,
-        "eval": eval_metrics,
-        "names": names,
+        "medoids":         medoids,
+        "matrix":          matrix_out,
+        "mds_coords":      mds_coords,
+        "positions_2d":    positions,
+        "country_coords":  country_coords,
+        "dendrogram":      dendrogram,
+        "edges":           edges,
+        "eval":            eval_metrics,
+        "summary":         summary,
+        "names":           names,
     }
 
 
@@ -559,12 +1012,14 @@ def api_country(name: str):
         stats = _tree_stats(tree)
         code = data.get("codes", {}).get("iso_3166_code", "")
         return jsonify({
-            "name": name,
-            "code": code,
-            "region": _infer_region(code),
-            "infobox": data,
-            "xml": xml,
+            "name":       name,
+            "code":       code,
+            "region":     _infer_region(code),
+            "infobox":    data,
+            "data":       data,                       # alias used by the doc-review UI
+            "xml":        xml,
             "tree_stats": stats,
+            "tree_size":  stats["node_count"],
         })
     except Exception as e:
         return jsonify({"error": str(e)}), 500
@@ -584,6 +1039,24 @@ def api_similarity():
         sim_type = body.get("type", "structural")
         alpha    = float(body.get("alpha", 0.5))
 
+        # Label filter from the wizard's "Select Labels" step. Anything in this
+        # set is dropped from the tree (and from the raw data, for semantic).
+        # "infobox" is sanitised out so the root is always kept.
+        excluded_labels = set(body.get("excluded_labels") or []) - {"infobox"}
+
+        # Closures that build the per-country tree / data, respecting the
+        # excluded-label filter when it's non-empty.
+        def _tree_for(name: str) -> Node:
+            if not excluded_labels:
+                return get_tree(name)
+            full = build_country_tree(COUNTRY_DATA[name])
+            return _prune_tree_by_labels(full, excluded_labels) or full
+
+        def _data_for(name: str) -> dict:
+            if not excluded_labels:
+                return COUNTRY_DATA[name]
+            return _filter_data_by_labels(COUNTRY_DATA[name], excluded_labels)
+
         # Accept {countries:[...]} (wizard) or {source, targets} (legacy)
         countries_list = body.get("countries", [])
         if countries_list:
@@ -601,6 +1074,9 @@ def api_similarity():
         if source not in COUNTRY_DATA:
             return jsonify({"error": f"Source country '{source}' not found"}), 400
 
+        src_tree_filtered = _tree_for(source)
+        src_data_filtered = _data_for(source)
+
         pairs = []
         for target in targets:
             if target not in COUNTRY_DATA:
@@ -611,14 +1087,14 @@ def api_similarity():
             ted_dist   = 0.0
 
             if sim_type in ("structural", "combined"):
-                t1 = get_tree(source)
-                t2 = get_tree(target)
+                t1 = src_tree_filtered
+                t2 = _tree_for(target)
                 ted_dist, struct_sim = ted_similarity(t1, t2)
                 struct_sim = round(struct_sim, 4)
                 ted_dist   = round(ted_dist, 4)
 
             if sim_type in ("semantic", "combined"):
-                sem_sim = round(semantic_similarity(COUNTRY_DATA[source], COUNTRY_DATA[target]), 4)
+                sem_sim = round(semantic_similarity(src_data_filtered, _data_for(target)), 4)
 
             if sim_type == "structural":
                 combined = struct_sim
@@ -627,13 +1103,17 @@ def api_similarity():
             else:
                 combined = round(alpha * struct_sim + (1 - alpha) * sem_sim, 4)
 
+            code = COUNTRY_DATA[target].get("codes", {}).get("iso_3166_code", "")
+            lat, lng = COUNTRY_COORDS.get(code, (None, None))
             pairs.append({
                 "name":         target,
-                "code":         COUNTRY_DATA[target].get("codes", {}).get("iso_3166_code", ""),
+                "code":         code,
                 "structural":   struct_sim,
                 "semantic":     sem_sim,
                 "combined":     combined,
                 "ted_distance": ted_dist,
+                "lat":          lat,
+                "lng":          lng,
             })
 
         if mode == "1vall":
@@ -665,15 +1145,91 @@ def api_similarity():
         if mode == "1v1" and targets:
             target = targets[0]
             if target in COUNTRY_DATA:
+                # Run the full patching pipeline: structural diff, on-disk
+                # artifacts, and step-by-step snapshots for the replay UI.
+                patch_bundle = _run_patching(source, target,
+                                             excluded_labels=excluded_labels)
+
+                tgt_data_filtered = _data_for(target)
+
                 response["edit_distance"] = pairs[0]["ted_distance"] if pairs else 0
-                response["edit_script"]   = generate_edit_script(
-                    COUNTRY_DATA[source], COUNTRY_DATA[target])
+                response["edit_script"]   = patch_bundle["ui_script"]
                 response["field_scores"]  = compute_field_scores(
-                    COUNTRY_DATA[source], COUNTRY_DATA[target])
-                response["token_analysis"] = compute_token_analysis(
-                    COUNTRY_DATA[source], COUNTRY_DATA[target], source, target)
+                    src_data_filtered, tgt_data_filtered)
+
+                # UI-friendly token analysis keys (only_a / only_b)
+                tok = compute_token_analysis(
+                    src_data_filtered, tgt_data_filtered, source, target)
+                response["token_analysis"] = {
+                    "shared":    tok["shared"],
+                    "only_a":    tok["vocab_a"],
+                    "only_b":    tok["vocab_b"],
+                    "jaccard":   tok["jaccard"],
+                    "total_a":   tok["total_a"],
+                    "total_b":   tok["total_b"],
+                    "per_field": tok["per_field"],
+                }
+
+                # Bundle for the patching tab: source doc, target doc, every
+                # intermediate snapshot, and links to the saved files.
+                response["patching"] = {
+                    "source_name":     source,
+                    "target_name":     target,
+                    "source_doc":      patch_bundle["source_doc"],
+                    "target_doc":      patch_bundle["target_doc"],
+                    "patched_doc":     patch_bundle["patched_doc"],
+                    "steps":           patch_bundle["steps"],
+                    "raw_script":      patch_bundle["raw_script"],
+                    "artifacts":       patch_bundle["artifacts"],
+                    "verification_ok": patch_bundle["verification_ok"],
+                }
 
         return jsonify(response)
+
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/patch", methods=["POST"])
+def api_patch():
+    """
+    Run the patching pipeline for an explicit (source, target) pair.
+
+    Body: { "source": "<country>", "target": "<country>" }
+
+    Returns the same bundle that /api/similarity puts under the "patching"
+    key — source doc, target doc, every intermediate snapshot, the UI-shaped
+    edit script, and the on-disk artifact paths.
+
+    This is the endpoint the UI calls when the user asks to patch a target
+    from inside a 1-vs-all result, or to re-patch with a different pair.
+    """
+    try:
+        body = request.get_json(force=True)
+        source = body.get("source", "")
+        target = body.get("target", "")
+
+        if source not in COUNTRY_DATA:
+            return jsonify({"error": f"Source country '{source}' not found"}), 400
+        if target not in COUNTRY_DATA:
+            return jsonify({"error": f"Target country '{target}' not found"}), 400
+
+        bundle = _run_patching(source, target)
+
+        return jsonify({
+            "source_name":     source,
+            "target_name":     target,
+            "edit_script":     bundle["ui_script"],
+            "raw_script":      bundle["raw_script"],
+            "source_doc":      bundle["source_doc"],
+            "target_doc":      bundle["target_doc"],
+            "patched_doc":     bundle["patched_doc"],
+            "steps":           bundle["steps"],
+            "artifacts":       bundle["artifacts"],
+            "verification_ok": bundle["verification_ok"],
+        })
 
     except Exception as e:
         import traceback

@@ -5,279 +5,605 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <style>
-    #sim-map { height: 340px; }
-    .leaflet-tile-pane { filter: brightness(0.85) saturate(1.1); }
-    .country-list-scroll { height: 320px; overflow-y: auto; }
-    .step-panel { display: none; }
-    .step-panel.active { display: block; }
-    .edit-op { display: flex; align-items: flex-start; gap: 10px; padding: 8px 12px; border-radius: 6px; margin-bottom: 4px; font-size: 12px; }
-    .edit-op.insert { background: oklch(0.75 0.18 155 / 0.08); border-left: 3px solid var(--success); }
-    .edit-op.delete { background: oklch(0.65 0.24 25 / 0.08); border-left: 3px solid var(--destructive); }
-    .edit-op.update { background: oklch(0.82 0.17 80 / 0.08); border-left: 3px solid var(--warning); }
-    .edit-op.match  { background: oklch(0.27 0.025 260 / 0.5); border-left: 3px solid var(--muted); }
-    .edit-path { font-family: 'JetBrains Mono'; color: var(--primary); font-size: 11px; }
-    .token-pill { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 999px; font-family: 'JetBrains Mono'; font-size: 10px; margin: 2px; }
-    .token-shared { background: oklch(0.78 0.18 200 / 0.15); color: var(--primary); }
-    .token-unique-a { background: oklch(0.7 0.25 320 / 0.12); color: var(--secondary); }
-    .token-unique-b { background: oklch(0.75 0.18 155 / 0.12); color: var(--success); }
-    .venn-box { border: 1px solid var(--border); border-radius: 10px; padding: 16px; text-align: center; }
+    /* ── wizard layout (mirrors clustering.html) ──────────────────── */
+    .sim-shell { display: flex; flex-direction: column; height: calc(100vh - 49px); overflow: hidden; }
+    .sim-topbar {
+      display: flex; align-items: center; gap: 16px;
+      padding: 14px 32px;
+      border-bottom: 1px solid var(--border);
+      background: var(--card);
+      flex-shrink: 0;
+    }
+    .sim-body { display: flex; flex: 1; overflow: hidden; }
+    .sim-sidebar {
+      width: 200px; flex-shrink: 0;
+      border-right: 1px solid var(--border);
+      padding: 24px 16px; overflow-y: auto;
+    }
+    .sim-content { flex: 1; overflow-y: auto; padding: 32px; }
+    .sim-footer {
+      padding: 16px 32px;
+      border-top: 1px solid var(--border);
+      background: var(--card);
+      display: flex; align-items: center; justify-content: space-between;
+      flex-shrink: 0;
+    }
+
+    /* ── sidebar stepper ─────────────────────────────────────────── */
+    .sim-step-item {
+      display: flex; align-items: center; gap: 10px;
+      padding: 8px 10px; border-radius: 8px;
+      margin-bottom: 4px;
+      transition: background 0.15s;
+    }
+    .sim-step-item.active { background: oklch(0.78 0.18 200 / 0.12); }
+    .sim-step-num {
+      width: 22px; height: 22px; border-radius: 50%;
+      border: 1.5px solid var(--muted-foreground);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-family: 'JetBrains Mono';
+      flex-shrink: 0; transition: all 0.2s;
+    }
+    .sim-step-item.active .sim-step-num {
+      border-color: var(--primary);
+      background: oklch(0.78 0.18 200 / 0.2);
+      color: var(--primary);
+    }
+    .sim-step-item.done .sim-step-num {
+      border-color: var(--primary);
+      background: var(--primary);
+      color: oklch(0.16 0.025 260);
+    }
+    .sim-step-label { font-size: 12px; color: var(--muted-foreground); line-height: 1.3; }
+    .sim-step-item.active .sim-step-label { color: var(--foreground); font-weight: 600; }
+
+    /* ── step panels ─────────────────────────────────────────────── */
+    .sim-step-panel { display: none; }
+    .sim-step-panel.active { display: block; }
+
+    /* ── select cards ───────────────────────────────────────────── */
+    .sim-card {
+      border: 1.5px solid var(--border);
+      border-radius: 1rem;
+      padding: 24px;
+      cursor: pointer;
+      transition: all 0.15s;
+      background: var(--card);
+      position: relative;
+    }
+    .sim-card:hover { border-color: oklch(0.78 0.18 200 / 0.5); }
+    .sim-card.selected {
+      border-color: var(--primary);
+      background: oklch(0.78 0.18 200 / 0.08);
+      box-shadow: 0 0 0 1px var(--primary);
+    }
+    .sim-card.selected::after {
+      content: '✓';
+      position: absolute; top: 12px; right: 14px;
+      color: var(--primary); font-size: 14px; font-weight: 700;
+    }
+
+    /* ── map / country list ─────────────────────────────────────── */
+    #sim-map {
+      height: 300px;
+      border-radius: 0.75rem; overflow: hidden;
+      border: 1px solid var(--border);
+      background: #0d1117;
+    }
+    .sim-map-tooltip {
+      background: oklch(0.16 0.025 260 / 0.92) !important;
+      color: var(--foreground) !important;
+      border: 1px solid var(--primary) !important;
+      font-family: 'JetBrains Mono'; font-size: 10px !important;
+      padding: 2px 6px !important; border-radius: 4px !important;
+      box-shadow: 0 0 8px oklch(0.78 0.18 200 / 0.4) !important;
+    }
+    .sim-map-tooltip::before { display: none !important; }
+    .sim-country-scroll {
+      height: 280px; overflow-y: auto;
+      border: 1px solid var(--border);
+      border-radius: 0.75rem; padding: 6px;
+      background: var(--card);
+    }
+    .country-item {
+      display: flex; align-items: center; gap: 10px;
+      padding: 7px 10px;
+      border-radius: 6px; cursor: pointer;
+      font-size: 13px; transition: background 0.1s;
+    }
+    .country-item:hover { background: oklch(0.78 0.18 200 / 0.06); }
+    .country-item.selected {
+      background: oklch(0.78 0.18 200 / 0.12);
+      color: var(--primary);
+    }
+    .sim-tag {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: oklch(0.78 0.18 200 / 0.15);
+      border: 1px solid oklch(0.78 0.18 200 / 0.3);
+      color: var(--primary);
+      font-size: 11px; font-weight: 600;
+    }
+    .sim-tag button {
+      background: none; border: none; cursor: pointer;
+      color: var(--muted-foreground); font-size: 13px; padding: 0;
+    }
+    .sim-tag button:hover { color: var(--foreground); }
+
+    /* ── results: edit script + tokens ──────────────────────────── */
+    .edit-op {
+      display: flex; align-items: flex-start; gap: 8px;
+      padding: 6px 10px; border-radius: 6px;
+      margin-bottom: 4px; font-size: 12px;
+      font-family: 'JetBrains Mono';
+    }
+    .edit-op[data-op="insert"] { background: oklch(0.75 0.18 155 / 0.08); border-left: 3px solid var(--success); }
+    .edit-op[data-op="delete"] { background: oklch(0.65 0.24 25 / 0.08); border-left: 3px solid var(--destructive); }
+    .edit-op[data-op="update"] { background: oklch(0.82 0.17 80 / 0.08); border-left: 3px solid var(--warning); }
+    .token-pill {
+      display: inline-flex; align-items: center;
+      padding: 2px 8px; border-radius: 999px;
+      font-family: 'JetBrains Mono'; font-size: 10px;
+      margin: 2px;
+    }
+    .token-pill.shared  { background: oklch(0.78 0.18 200 / 0.15); color: var(--primary); }
+    .token-pill.only-a  { background: oklch(0.7 0.25 320 / 0.12); color: var(--secondary); }
+    .token-pill.only-b  { background: oklch(0.75 0.18 155 / 0.12); color: var(--success); }
+
+    /* ── score bar fallback used inside cards ──────────────────── */
+    .score-bar-wrap {
+      height: 8px; background: var(--muted);
+      border-radius: 4px; overflow: hidden;
+    }
+    .score-bar-fill {
+      height: 100%; background: var(--gradient-primary);
+      border-radius: 4px; transition: width 0.6s ease;
+    }
+
+    /* ══ Patching tab ═══════════════════════════════════════════════ */
+    .patch-files-bar {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      padding: 12px 14px;
+      border-radius: 0.75rem;
+      background: oklch(0.78 0.18 200 / 0.06);
+      border: 1px solid oklch(0.78 0.18 200 / 0.2);
+      margin-bottom: 14px;
+      font-family: 'JetBrains Mono'; font-size: 11px;
+    }
+    .patch-files-bar .patch-files-title {
+      font-weight: 700; color: var(--primary);
+      text-transform: uppercase; letter-spacing: 0.06em;
+    }
+    .patch-file-pill {
+      padding: 2px 8px; border-radius: 4px;
+      background: var(--muted); color: var(--muted-foreground);
+      border: 1px solid var(--border);
+      font-size: 10px;
+    }
+    .patch-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+    .patch-pane {
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      background: var(--card);
+      overflow: hidden;
+      display: flex; flex-direction: column;
+    }
+    .patch-pane-header {
+      padding: 8px 12px;
+      font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      color: var(--muted-foreground);
+      border-bottom: 1px solid var(--border);
+      background: var(--muted);
+    }
+    .patch-pane.source  .patch-pane-header { color: var(--secondary); }
+    .patch-pane.current .patch-pane-header { color: var(--primary); }
+    .patch-pane.target  .patch-pane-header { color: var(--success); }
+    .patch-doc {
+      flex: 1; max-height: 380px; overflow: auto;
+      font-family: 'JetBrains Mono'; font-size: 11px;
+      line-height: 1.6;
+      padding: 12px 14px;
+      white-space: pre; color: var(--muted-foreground);
+      background: var(--card);
+      margin: 0; border: none;
+    }
+    .patch-doc .changed-line {
+      background: oklch(0.82 0.17 80 / 0.18);
+      color: var(--foreground);
+      padding: 0 4px; border-radius: 3px;
+    }
+    .patch-controls {
+      display: flex; align-items: center; gap: 10px;
+      flex-wrap: wrap;
+      padding: 12px 14px;
+      border-radius: 0.75rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      margin-bottom: 12px;
+    }
+    .patch-controls input[type="range"] { flex: 1; min-width: 160px; }
+    .patch-step-summary {
+      font-family: 'JetBrains Mono'; font-size: 12px;
+      padding: 10px 14px;
+      border-radius: 0.5rem;
+      background: oklch(0.82 0.17 80 / 0.08);
+      border-left: 3px solid var(--warning);
+      color: var(--foreground);
+      min-height: 36px;
+    }
+
+    /* ── doc review tabs ────────────────────────────────────────── */
+    .doc-card-inner { padding: 16px; }
+
+    /* ══ Labels step ════════════════════════════════════════════════ */
+    .sim-label-card {
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      background: var(--card);
+      overflow: hidden;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .sim-label-card.included { border-color: oklch(0.78 0.18 200 / 0.55); }
+    .sim-label-card.excluded { opacity: 0.55; }
+
+    .sim-label-card-head {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 14px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .sim-label-card-head:hover { background: oklch(0.78 0.18 200 / 0.06); }
+
+    .sim-label-checkbox {
+      width: 16px; height: 16px;
+      border: 1.5px solid var(--muted-foreground);
+      border-radius: 4px;
+      display: inline-flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      font-size: 11px; line-height: 1;
+      transition: all 0.15s;
+    }
+    .sim-label-checkbox.on {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: var(--background);
+    }
+    .sim-label-checkbox.indeterminate {
+      background: oklch(0.78 0.18 200 / 0.35);
+      border-color: var(--primary);
+      color: var(--foreground);
+    }
+
+    .sim-label-card-title {
+      font-size: 13px; font-weight: 600;
+      flex: 1;
+      text-transform: capitalize;
+    }
+    .sim-label-card-count {
+      font-size: 11px; color: var(--muted-foreground);
+      font-family: 'JetBrains Mono';
+    }
+    .sim-label-card-arrow {
+      font-size: 10px; color: var(--muted-foreground);
+      transition: transform 0.15s;
+    }
+    .sim-label-card.expanded .sim-label-card-arrow { transform: rotate(90deg); }
+
+    .sim-label-card-body {
+      padding: 4px 14px 12px;
+      border-top: 1px solid var(--border);
+      display: none;
+    }
+    .sim-label-card.expanded .sim-label-card-body { display: block; }
+
+    .sim-label-leaf {
+      display: flex; align-items: center; gap: 8px;
+      padding: 5px 6px; border-radius: 4px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .sim-label-leaf:hover { background: oklch(0.78 0.18 200 / 0.06); }
+    .sim-label-leaf.excluded { color: var(--muted-foreground); }
+    .sim-label-leaf-name { font-family: 'JetBrains Mono'; font-size: 11px; }
   </style>
 {% endblock %}
 
 {% block content %}
-<div style="padding: 32px;">
+<div class="sim-shell">
 
-  <div style="margin-bottom: 28px;">
-    <h1 style="font-size:1.6rem;font-weight:700;margin-bottom:6px;">Similarity Lab</h1>
-    <p style="color:var(--muted-foreground);font-size:14px;">Compare countries step by step using structural TED and semantic Jaccard similarity.</p>
+  <!-- ── Top bar ──────────────────────────────────────────────── -->
+  <div class="sim-topbar">
+    <span class="badge badge-primary" style="font-size:11px;">⇄ SIMILARITY</span>
+    <span style="font-size:13px;font-weight:600;" id="sim-step-title">Select Mode</span>
+    <div style="flex:1;"></div>
+    <span style="font-size:12px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
+      Step <span id="sim-step-cur">1</span> / 7
+    </span>
   </div>
 
-  <!-- ══ Stepper ═══════════════════════════════════════════════ -->
-  <div class="stepper" id="stepper">
-    <div class="step-item">
-      <button class="step-btn" onclick="simGoTo(0)">
-        <div class="step-circle active" id="sc0">1</div>
-        <span class="step-label">Mode</span>
-      </button>
-    </div>
-    <div class="step-connector" id="conn0"></div>
-    <div class="step-item">
-      <button class="step-btn" onclick="simGoTo(1)">
-        <div class="step-circle locked" id="sc1">2</div>
-        <span class="step-label">Type</span>
-      </button>
-    </div>
-    <div class="step-connector" id="conn1"></div>
-    <div class="step-item">
-      <button class="step-btn" onclick="simGoTo(2)">
-        <div class="step-circle locked" id="sc2">3</div>
-        <span class="step-label">Countries</span>
-      </button>
-    </div>
-    <div class="step-connector" id="conn2"></div>
-    <div class="step-item">
-      <button class="step-btn" onclick="simGoTo(3)">
-        <div class="step-circle locked" id="sc3">4</div>
-        <span class="step-label">Review</span>
-      </button>
-    </div>
-    <div class="step-connector" id="conn3"></div>
-    <div class="step-item">
-      <button class="step-btn" onclick="simGoTo(4)">
-        <div class="step-circle locked" id="sc4">5</div>
-        <span class="step-label">Compute</span>
-      </button>
-    </div>
-    <div class="step-connector" id="conn4"></div>
-    <div class="step-item">
-      <button class="step-btn" onclick="simGoTo(5)">
-        <div class="step-circle locked" id="sc5">6</div>
-        <span class="step-label">Results</span>
-      </button>
-    </div>
-  </div>
+  <!-- ── Body ────────────────────────────────────────────────── -->
+  <div class="sim-body">
 
-  <!-- ══ Step 0: Mode ══════════════════════════════════════════ -->
-  <div class="step-panel active" id="sim-step-0">
-    <h2 style="font-size:16px;font-weight:600;margin-bottom:20px;">Select comparison mode</h2>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:700px;">
-      <div class="select-card" id="mode-1v1" onclick="simSelectMode('1v1')">
-        <div class="select-card-icon">⇄</div>
-        <div class="select-card-title">1 vs 1</div>
-        <div class="select-card-desc">Compare two countries head-to-head with an edit script, side-by-side tree diff, and field-level analysis.</div>
+    <!-- Sidebar stepper -->
+    <div class="sim-sidebar">
+      <div class="sim-step-item active" data-step="0">
+        <div class="sim-step-num">1</div>
+        <div class="sim-step-label">Mode</div>
       </div>
-      <div class="select-card" id="mode-1vall" onclick="simSelectMode('1vall')">
-        <div class="select-card-icon">⇄⇄</div>
-        <div class="select-card-title">1 vs All</div>
-        <div class="select-card-desc">Compare a source country against many others. Get a ranked similarity table and geographic heatmap.</div>
+      <div class="sim-step-item" data-step="1">
+        <div class="sim-step-num">2</div>
+        <div class="sim-step-label">Type</div>
       </div>
-    </div>
-  </div>
-
-  <!-- ══ Step 1: Type ═══════════════════════════════════════════ -->
-  <div class="step-panel" id="sim-step-1">
-    <h2 style="font-size:16px;font-weight:600;margin-bottom:20px;">Select similarity type</h2>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:860px;">
-      <div class="select-card" id="type-structural" onclick="simSelectType('structural')">
-        <div class="select-card-icon">🌲</div>
-        <div class="select-card-title">Structural</div>
-        <div class="select-card-desc">TED on tag and attribute structure only — ignores leaf text values.</div>
+      <div class="sim-step-item" data-step="2">
+        <div class="sim-step-num">3</div>
+        <div class="sim-step-label">Countries</div>
       </div>
-      <div class="select-card" id="type-semantic" onclick="simSelectType('semantic')">
-        <div class="select-card-icon">🔤</div>
-        <div class="select-card-title">Semantic</div>
-        <div class="select-card-desc">Token overlap on leaf text values — ignores tag structure entirely.</div>
+      <div class="sim-step-item" data-step="3">
+        <div class="sim-step-num">4</div>
+        <div class="sim-step-label">Select Labels</div>
       </div>
-      <div class="select-card" id="type-combined" onclick="simSelectType('combined')">
-        <div class="select-card-icon">⚖️</div>
-        <div class="select-card-title">Combined</div>
-        <div class="select-card-desc">Weighted blend of structural and semantic. Tune α with the slider below.</div>
+      <div class="sim-step-item" data-step="4">
+        <div class="sim-step-num">5</div>
+        <div class="sim-step-label">Review Docs</div>
+      </div>
+      <div class="sim-step-item" data-step="5">
+        <div class="sim-step-num">6</div>
+        <div class="sim-step-label">Compute</div>
+      </div>
+      <div class="sim-step-item" data-step="6">
+        <div class="sim-step-num">7</div>
+        <div class="sim-step-label">Results</div>
       </div>
     </div>
-    <!-- Alpha slider (shown for combined) -->
-    <div id="alpha-row" style="display:none;margin-top:24px;max-width:500px;">
-      <div class="card glass" style="border-radius:1rem;">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
-          <span style="font-size:14px;font-weight:600;">Blend weight (α)</span>
-          <span id="alpha-display" style="font-family:'JetBrains Mono';font-size:13px;color:var(--primary);">Structure 50% | Semantic 50%</span>
-        </div>
-        <input type="range" id="alpha-slider" min="0" max="1" step="0.05" value="0.5"
-               oninput="simUpdateAlpha(this.value)">
-        <div style="display:flex;justify-content:space-between;margin-top:4px;font-size:10px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
-          <span>← Semantic</span><span>Structural →</span>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- ══ Step 2: Countries ══════════════════════════════════════ -->
-  <div class="step-panel" id="sim-step-2">
-    <h2 style="font-size:16px;font-weight:600;margin-bottom:8px;">Select countries</h2>
-    <p id="country-hint" style="color:var(--muted-foreground);font-size:13px;margin-bottom:16px;">Select source and target countries.</p>
+    <!-- Step content -->
+    <div class="sim-content">
 
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
-      <!-- Map -->
-      <div>
-        <div style="font-size:12px;color:var(--muted-foreground);margin-bottom:8px;font-family:'JetBrains Mono';text-transform:uppercase;letter-spacing:0.05em;">World Map — click to select</div>
-        <div class="map-container">
-          <div id="sim-map"></div>
+      <!-- ─── Step 0: Mode ────────────────────────────────────── -->
+      <div class="sim-step-panel active" data-step="0">
+        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Select comparison mode</h2>
+        <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:24px;">
+          Pairwise comparison runs the full patching pipeline; one-vs-all ranks all 195 countries against the source.
+        </p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:760px;">
+          <div class="sim-card" data-mode="pairwise" onclick="simSelectMode('pairwise')">
+            <div style="font-size:32px;margin-bottom:12px;">⇄</div>
+            <h3 style="font-size:16px;font-weight:700;margin-bottom:6px;">Pairwise (1 vs 1)</h3>
+            <p style="font-size:13px;color:var(--muted-foreground);line-height:1.5;">
+              Compare two countries head-to-head. Produces an edit script, step-by-step patching playback,
+              field-level breakdown, and token analysis.
+            </p>
+          </div>
+          <div class="sim-card" data-mode="one_vs_all" onclick="simSelectMode('one_vs_all')">
+            <div style="font-size:32px;margin-bottom:12px;">⇄⇄</div>
+            <h3 style="font-size:16px;font-weight:700;margin-bottom:6px;">One vs All</h3>
+            <p style="font-size:13px;color:var(--muted-foreground);line-height:1.5;">
+              Score a source country against every other country in the dataset.
+              Ranked list + geographic heatmap.
+            </p>
+          </div>
         </div>
       </div>
 
-      <!-- Country list -->
-      <div>
-        <div style="display:flex;gap:8px;margin-bottom:10px;align-items:center;">
-          <input class="input" id="sim-search" placeholder="Search countries…" oninput="simFilterCountries(this.value)" style="flex:1;">
-          <button class="btn btn-sm btn-outline" onclick="simSurprise()">🎲 Surprise</button>
-          <button class="btn btn-sm btn-outline" onclick="simClearSelection()">✕ Clear</button>
+      <!-- ─── Step 1: Type ───────────────────────────────────── -->
+      <div class="sim-step-panel" data-step="1">
+        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Similarity type</h2>
+        <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:24px;">
+          Structural compares tree shape via Tree Edit Distance; semantic compares leaf-text tokens via Jaccard;
+          combined blends both with a tunable α.
+        </p>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:900px;">
+          <div class="sim-card" data-sim-type="structural" onclick="simSelectType('structural')">
+            <div style="font-size:28px;margin-bottom:12px;">🌲</div>
+            <h3 style="font-size:15px;font-weight:700;margin-bottom:6px;">Structural</h3>
+            <p style="font-size:12px;color:var(--muted-foreground);line-height:1.5;">
+              Zhang-Shasha Tree Edit Distance on the typed infobox tree.
+            </p>
+          </div>
+          <div class="sim-card" data-sim-type="semantic" onclick="simSelectType('semantic')">
+            <div style="font-size:28px;margin-bottom:12px;">🔤</div>
+            <h3 style="font-size:15px;font-weight:700;margin-bottom:6px;">Semantic</h3>
+            <p style="font-size:12px;color:var(--muted-foreground);line-height:1.5;">
+              Jaccard token overlap across every leaf string value.
+            </p>
+          </div>
+          <div class="sim-card" data-sim-type="combined" onclick="simSelectType('combined')">
+            <div style="font-size:28px;margin-bottom:12px;">⚖️</div>
+            <h3 style="font-size:15px;font-weight:700;margin-bottom:6px;">Combined</h3>
+            <p style="font-size:12px;color:var(--muted-foreground);line-height:1.5;">
+              α · structural + (1−α) · semantic. Tune the slider below.
+            </p>
+          </div>
         </div>
-        <div id="sim-selection-tags" style="margin-bottom:8px;min-height:24px;display:flex;gap:6px;flex-wrap:wrap;"></div>
-        <div class="country-list-scroll card" style="padding:6px;" id="sim-country-list">
-          <div style="text-align:center;padding:40px;color:var(--muted-foreground);">Loading countries…</div>
-        </div>
-      </div>
-    </div>
 
-    <div style="margin-top:20px;display:flex;justify-content:flex-end;">
-      <button class="btn btn-primary" id="sim-next-2" onclick="simGoTo(3)" disabled>
-        Review Documents →
-      </button>
-    </div>
-  </div>
-
-  <!-- ══ Step 3: Document Review ════════════════════════════════ -->
-  <div class="step-panel" id="sim-step-3">
-    <h2 style="font-size:16px;font-weight:600;margin-bottom:20px;">Review country documents</h2>
-    <div id="sim-docs-container" style="display:grid;gap:20px;"></div>
-    <div style="margin-top:20px;display:flex;gap:12px;justify-content:flex-end;">
-      <button class="btn btn-outline" onclick="simGoTo(2)">← Back</button>
-      <button class="btn btn-primary" onclick="simMarkReviewed()">Mark as Reviewed →</button>
-    </div>
-  </div>
-
-  <!-- ══ Step 4: Compute ════════════════════════════════════════ -->
-  <div class="step-panel" id="sim-step-4">
-    <h2 style="font-size:16px;font-weight:600;margin-bottom:20px;">Run similarity computation</h2>
-
-    <div class="card glass" style="border-radius:1rem;max-width:580px;margin-bottom:24px;">
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
-        <div><span style="font-size:11px;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.06em;font-family:'JetBrains Mono';">Mode</span><br><span id="sum-mode" style="font-weight:600;">—</span></div>
-        <div><span style="font-size:11px;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.06em;font-family:'JetBrains Mono';">Type</span><br><span id="sum-type" style="font-weight:600;">—</span></div>
-        <div><span style="font-size:11px;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.06em;font-family:'JetBrains Mono';">Countries</span><br><span id="sum-countries" style="font-weight:600;">—</span></div>
-        <div><span style="font-size:11px;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.06em;font-family:'JetBrains Mono';">Alpha (α)</span><br><span id="sum-alpha" style="font-weight:600;">—</span></div>
-      </div>
-    </div>
-
-    <!-- Progress -->
-    <div id="sim-progress" style="display:none;max-width:580px;margin-bottom:24px;">
-      <div class="card glass" style="border-radius:1rem;">
-        <div style="margin-bottom:12px;font-size:13px;" id="sim-phase-label">Initialising…</div>
-        <div class="progress-track"><div class="progress-fill" id="sim-progress-bar" style="width:0%"></div></div>
-        <div style="margin-top:8px;font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';" id="sim-phase-detail"></div>
-      </div>
-    </div>
-
-    <div style="display:flex;gap:12px;align-items:center;">
-      <button class="btn btn-outline" onclick="simGoTo(3)">← Back</button>
-      <button class="btn btn-primary" id="sim-run-btn" onclick="runSimilarity()">
-        ▶ Run Similarity
-      </button>
-    </div>
-  </div>
-
-  <!-- ══ Step 5: Results ════════════════════════════════════════ -->
-  <div class="step-panel" id="sim-step-5">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:12px;">
-      <h2 style="font-size:16px;font-weight:600;">Results</h2>
-      <div style="display:flex;gap:8px;">
-        <button class="btn btn-sm btn-outline" onclick="simExportJSON()">⬇ Export JSON</button>
-        <button class="btn btn-sm btn-outline" onclick="simSaveResult()">🔖 Save</button>
-        <button class="btn btn-sm btn-primary" onclick="simGoTo(0);simReset()">↺ New Analysis</button>
-      </div>
-    </div>
-
-    <!-- 1v1 results -->
-    <div id="res-1v1" style="display:none;">
-      <div style="display:grid;grid-template-columns:280px 1fr;gap:20px;align-items:start;">
-        <!-- Score panel -->
-        <div class="card glass" style="border-radius:1rem;">
-          <div id="res-country-names" style="margin-bottom:20px;"></div>
-          <div id="res-score-bars" style="display:flex;flex-direction:column;gap:14px;"></div>
-        </div>
-        <!-- Tabs panel -->
-        <div>
-          <div id="res1v1-tabs" data-tab-group style="display:flex;flex-direction:column;gap:12px;">
-            <div class="tabs-list">
-              <button class="tab-trigger active" data-tab="diff">🌲 Tree Diff</button>
-              <button class="tab-trigger" data-tab="editscript">✏ Edit Script</button>
-              <button class="tab-trigger" data-tab="fields">📊 Field Level</button>
-              <button class="tab-trigger" data-tab="tokens">🔤 Tokens</button>
+        <div id="sim-alpha-row" style="display:none;margin-top:24px;max-width:520px;">
+          <div class="card glass" style="border-radius:1rem;">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+              <span style="font-size:13px;font-weight:600;">Blend weight (α)</span>
+              <span id="sim-alpha-val" style="font-family:'JetBrains Mono';color:var(--primary);font-size:13px;">0.50</span>
             </div>
-
-            <div data-tab-content="diff" class="tab-content active">
-              <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;" id="res-tree-diff"></div>
+            <input type="range" id="sim-alpha-slider" min="0" max="1" step="0.05" value="0.5"
+                   oninput="simUpdateAlpha(this.value)"/>
+            <div style="display:flex;justify-content:space-between;margin-top:4px;font-size:10px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
+              <span>← Semantic</span><span>Structural →</span>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <div data-tab-content="editscript" class="tab-content">
-              <div style="margin-bottom:10px;display:flex;gap:8px;flex-wrap:wrap;" id="res-edit-legend">
-                <span class="badge badge-success">insert</span>
-                <span class="badge badge-destructive">delete</span>
-                <span class="badge badge-warning">update</span>
-                <span class="badge badge-muted">match</span>
+      <!-- ─── Step 2: Countries ──────────────────────────────── -->
+      <div class="sim-step-panel" data-step="2">
+        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Select countries</h2>
+        <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:20px;">
+          Pairwise needs exactly 2 countries (source then target). One-vs-all needs 1 source country.
+        </p>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+          <div>
+            <div style="font-size:11px;color:var(--muted-foreground);margin-bottom:8px;font-family:'JetBrains Mono';text-transform:uppercase;letter-spacing:0.05em;">
+              World map
+            </div>
+            <div id="sim-map"></div>
+          </div>
+
+          <div>
+            <div style="display:flex;gap:8px;margin-bottom:10px;">
+              <input class="input" id="sim-country-search"
+                     placeholder="Search countries…" oninput="simFilterCountries()" style="flex:1;"/>
+            </div>
+            <div style="font-size:12px;color:var(--muted-foreground);margin-bottom:8px;">
+              Selected: <span id="sim-sel-count" style="color:var(--primary);font-weight:600;">0</span>
+            </div>
+            <div id="sim-selected-tags"
+                 style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;min-height:30px;"></div>
+            <div class="sim-country-scroll" id="sim-country-scroll">
+              <div style="text-align:center;padding:40px;color:var(--muted-foreground);font-size:13px;">
+                Loading countries…
               </div>
-              <div style="max-height:420px;overflow-y:auto;" id="res-edit-script"></div>
-            </div>
-
-            <div data-tab-content="fields" class="tab-content">
-              <div id="res-field-table"></div>
-            </div>
-
-            <div data-tab-content="tokens" class="tab-content">
-              <div id="res-token-analysis"></div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- 1-vs-all results -->
-    <div id="res-1vall" style="display:none;">
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
-        <div>
-          <div style="font-size:12px;color:var(--muted-foreground);margin-bottom:8px;font-family:'JetBrains Mono';text-transform:uppercase;letter-spacing:0.05em;">Geographic Heatmap</div>
-          <div class="map-container">
-            <div id="res-map" style="height:380px;"></div>
+      <!-- ─── Step 3: Select Labels ──────────────────────────── -->
+      <div class="sim-step-panel" data-step="3">
+        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Select labels to include</h2>
+        <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:20px;">
+          Choose which infobox <strong style="color:var(--foreground)">sections</strong> participate in the
+          comparison. Click a section to drill into its individual fields. Anything unchecked is excluded
+          from both the TED tree and the Jaccard token set.
+        </p>
+
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px;flex-wrap:wrap;">
+          <button class="btn btn-sm btn-outline" onclick="simLabelsSelectAll()">Select all</button>
+          <button class="btn btn-sm btn-outline" onclick="simLabelsClearAll()">Deselect all</button>
+          <button class="btn btn-sm btn-outline" onclick="simLabelsReset()">↺ Reset to defaults</button>
+          <div style="flex:1;"></div>
+          <span style="font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
+            <span id="sim-label-summary">8 / 8 sections selected</span>
+          </span>
+        </div>
+
+        <div id="sim-labels-panel" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;"></div>
+      </div>
+
+      <!-- ─── Step 4: Document Review ────────────────────────── -->
+      <div class="sim-step-panel" data-step="4">
+        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Review country documents</h2>
+        <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:20px;">
+          Inspect the typed tree and JSON of each selected country before running the comparison.
+        </p>
+        <div id="sim-doc-review-area"></div>
+      </div>
+
+      <!-- ─── Step 5: Compute ────────────────────────────────── -->
+      <div class="sim-step-panel" data-step="5">
+        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Run similarity</h2>
+        <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:24px;">
+          Review the configuration. For pairwise runs the patching pipeline writes artifacts to
+          <code style="font-family:'JetBrains Mono';font-size:11px;background:var(--muted);padding:1px 5px;border-radius:3px;">outputs/patches/</code>.
+        </p>
+
+        <div class="card glass" style="border-radius:1rem;max-width:620px;margin-bottom:20px;">
+          <div style="font-size:13px;font-weight:600;margin-bottom:14px;">Configuration</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:13px;">
+            <div><span style="color:var(--muted-foreground)">Mode:</span> <span id="sim-run-mode" style="font-weight:600;">—</span></div>
+            <div><span style="color:var(--muted-foreground)">Type:</span> <span id="sim-run-type" style="font-weight:600;">—</span></div>
+            <div><span style="color:var(--muted-foreground)">Countries:</span> <span id="sim-run-countries" style="font-weight:600;color:var(--primary);">—</span></div>
+            <div><span style="color:var(--muted-foreground)">Alpha (α):</span> <span id="sim-run-alpha" style="font-weight:600;">—</span></div>
           </div>
         </div>
-        <div class="card" style="border-radius:1rem;padding:16px;">
-          <div style="font-size:12px;color:var(--muted-foreground);margin-bottom:12px;font-family:'JetBrains Mono';text-transform:uppercase;letter-spacing:0.05em;">Ranked Results</div>
-          <div style="max-height:400px;overflow-y:auto;" id="res-ranked-list"></div>
+
+        <div id="sim-progress-wrap" style="display:none;margin-bottom:24px;max-width:620px;">
+          <div style="display:flex;justify-content:space-between;margin-bottom:8px;">
+            <span style="font-size:13px;font-weight:600;" id="sim-phase-label">Initialising…</span>
+            <span style="font-size:12px;font-family:'JetBrains Mono';color:var(--primary);" id="sim-pct-label">0%</span>
+          </div>
+          <div class="progress-track" style="height:8px;">
+            <div class="progress-fill" id="sim-progress-fill" style="width:0%;"></div>
+          </div>
+        </div>
+
+        <button class="btn btn-primary" id="sim-run-btn" onclick="simRunSimilarity()"
+                style="font-size:15px;padding:12px 32px;gap:10px;">
+          ▶ Run Similarity
+        </button>
+      </div>
+
+      <!-- ─── Step 6: Results ────────────────────────────────── -->
+      <div class="sim-step-panel" data-step="6">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:10px;">
+          <h2 style="font-size:18px;font-weight:700;">Results</h2>
+          <div style="display:flex;gap:8px;">
+            <button class="btn btn-sm btn-outline" onclick="simExportJSON()">⬇ Export JSON</button>
+            <button class="btn btn-sm btn-outline" onclick="simSaveResult()">🔖 Save</button>
+            <button class="btn btn-sm btn-primary" onclick="simNewAnalysis()">↺ New Analysis</button>
+          </div>
+        </div>
+
+        <!-- ── 1v1 pairwise ──────────────────────────────────── -->
+        <div id="sim-results-pairwise" style="display:none;">
+          <div style="display:grid;grid-template-columns:300px 1fr;gap:20px;align-items:start;">
+
+            <!-- Score panel -->
+            <div id="sim-score-panel" class="card glass" style="border-radius:1rem;"></div>
+
+            <!-- Tabs -->
+            <div data-tab-group id="sim-result-tabs">
+              <div class="tabs-list" style="margin-bottom:14px;">
+                <button class="tab-trigger active" data-tab="sim-tab-tree-diff">🌲 Tree Diff</button>
+                <button class="tab-trigger" data-tab="sim-tab-patching">🔁 Patching</button>
+                <button class="tab-trigger" data-tab="sim-tab-edit-script">✏ Edit Script</button>
+                <button class="tab-trigger" data-tab="sim-tab-field-level">📊 Field Scores</button>
+                <button class="tab-trigger" data-tab="sim-tab-tokens">🔤 Tokens</button>
+              </div>
+
+              <div id="sim-tab-tree-diff" class="tab-content active" data-tab-content="sim-tab-tree-diff"></div>
+              <div id="sim-tab-patching"  class="tab-content" data-tab-content="sim-tab-patching"></div>
+              <div id="sim-tab-edit-script" class="tab-content" data-tab-content="sim-tab-edit-script"></div>
+              <div id="sim-tab-field-level" class="tab-content" data-tab-content="sim-tab-field-level"></div>
+              <div id="sim-tab-tokens"      class="tab-content" data-tab-content="sim-tab-tokens"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── 1 vs all ──────────────────────────────────────── -->
+        <div id="sim-results-onevall" style="display:none;">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+            <div>
+              <div style="font-size:12px;color:var(--muted-foreground);margin-bottom:8px;font-family:'JetBrains Mono';text-transform:uppercase;letter-spacing:0.05em;">
+                Geographic heatmap
+              </div>
+              <div id="sim-result-map" style="height:380px;border-radius:0.75rem;overflow:hidden;border:1px solid var(--border);"></div>
+            </div>
+            <div class="card glass" style="border-radius:1rem;">
+              <div style="font-size:12px;color:var(--muted-foreground);margin-bottom:10px;font-family:'JetBrains Mono';text-transform:uppercase;letter-spacing:0.05em;">
+                Ranked results
+              </div>
+              <div id="sim-onevall-list" style="max-height:420px;overflow-y:auto;"></div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+
+    </div><!-- /sim-content -->
+  </div><!-- /sim-body -->
+
+  <!-- ── Footer nav ─────────────────────────────────────────── -->
+  <div class="sim-footer">
+    <button class="btn btn-outline" id="sim-btn-back" onclick="simBack()" style="display:none;">← Back</button>
+    <div style="flex:1;"></div>
+    <button class="btn btn-primary" id="sim-btn-next" onclick="simNext()">Next →</button>
   </div>
 
-</div><!-- /padding -->
+</div><!-- /sim-shell -->
 {% endblock %}
 
 {% block scripts %}

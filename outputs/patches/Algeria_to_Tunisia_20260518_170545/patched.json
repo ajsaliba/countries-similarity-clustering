@@ -1,0 +1,54 @@
+{
+  "area": {
+    "total_km2": 163610.0,
+    "water_pct": 5.04,
+    "rank": 91.0
+  },
+  "codes": {
+    "calling_code": "+216",
+    "internet_tld": ".tn",
+    "iso_3166_code": "TN"
+  },
+  "economy": {
+    "currency_code": "TND",
+    "gdp_ppp": {
+      "total_billion_usd": 183.73,
+      "per_capita_usd": 14780.0
+    },
+    "gdp_nominal": {
+      "total_billion_usd": 56.29,
+      "per_capita_usd": 4530.0
+    },
+    "gini": 33.7,
+    "hdi": 0.746
+  },
+  "general": {
+    "capital": "Tunis",
+    "demonym": "Tunisian",
+    "official_language": "Arabic",
+    "religion": {
+      "Sunni Islam": 99.0,
+      "others": 1.0
+    },
+    "ethnic_groups": {
+      "Arabs": 98.0,
+      "Berbers": 1.0,
+      "Jews and others": 1.0
+    }
+  },
+  "government": {
+    "type": "Unitary presidential republic",
+    "legislature": "Parliament",
+    "lower_house": "Assembly of the Representatives of the People",
+    "upper_house": "National Council of Regions and Districts"
+  },
+  "history": "Ancient Carthage | Beylik of Tunis | French protectorate | Hafsid Sultanate | Independence and Kingdom | Republic declaration",
+  "population": {
+    "total": 11972169.0,
+    "density_per_km2": 79.0
+  },
+  "time": {
+    "timezone_utc": "UTC+01:00",
+    "timezone_dst": ""
+  }
+}

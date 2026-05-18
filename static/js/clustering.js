@@ -13,7 +13,9 @@ const CL = {
   algo: null,        // 'agglomerative' | 'dbscan' | 'spectral' | 'kmedoids'
   params: {},
   allCountries: [],
+  coordLookup: {},   // {name: [lat, lng]} for the step-1 map markers
   map: null,
+  markers: [],       // Leaflet marker layer for selected countries on the step-1 map
   result: null,
   resultMap: null,
   jobId: null,
@@ -47,10 +49,36 @@ const CL_PALETTE = [
    Bootstrap
 ───────────────────────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
-  clGoTo(0);
   clLoadCountries();
   clUpdateParamVisibility();
+
+  if (clMaybeRestorePending()) return;
+  clGoTo(0);
 });
+
+/* If saved.html / results.html stashed a clustering result under
+   sessionStorage["similica_pending_view"], jump straight to step 5 with
+   it rendered. */
+function clMaybeRestorePending() {
+  let pending = null;
+  try { pending = JSON.parse(sessionStorage.getItem('similica_pending_view') || 'null'); }
+  catch (e) { pending = null; }
+  if (!pending || pending.type !== 'clustering' || !pending.data) return false;
+
+  sessionStorage.removeItem('similica_pending_view');
+  const data = pending.data;
+
+  CL.basis    = data.basis     || 'semantic';
+  CL.algo     = data.algorithm || 'agglomerative';
+  CL.selected = Array.isArray(data.names) ? data.names.slice()
+              : (data.assignments ? Object.keys(data.assignments) : []);
+  CL.result   = data;
+
+  clGoTo(5);
+  clRenderResults(data);
+  showToast('Restored saved result', 'success');
+  return true;
+}
 
 /* ─────────────────────────────────────────────────────────────────
    Navigation
@@ -133,7 +161,15 @@ async function clLoadCountries() {
   try {
     const res  = await fetch('/api/countries');
     const data = await res.json();
-    CL.allCountries = data.countries || [];
+    const raw  = data.countries || [];
+
+    CL.allCountries = raw.map(c => (typeof c === 'string' ? c : c.name));
+    CL.coordLookup  = {};
+    raw.forEach(c => {
+      if (typeof c === 'object' && c.lat != null && c.lng != null) {
+        CL.coordLookup[c.name] = [c.lat, c.lng];
+      }
+    });
     clRenderCountryList(CL.allCountries);
   } catch(e) {
     console.error('Failed to load countries', e);
@@ -165,6 +201,7 @@ function clToggleCountry(name) {
   clFilterCountries();
   clRenderSelectedTags();
   clUpdateKMax();
+  clUpdateMapHighlights();
   const warn = document.getElementById('cl-min-warn');
   if (warn) warn.style.display = CL.selected.length < 3 && CL.selected.length > 0 ? '' : 'none';
 }
@@ -174,6 +211,7 @@ function clSelectAll() {
   clRenderCountryList(CL.allCountries);
   clRenderSelectedTags();
   clUpdateKMax();
+  clUpdateMapHighlights();
 }
 
 function clClearAll() {
@@ -181,6 +219,7 @@ function clClearAll() {
   clRenderCountryList(CL.allCountries);
   clRenderSelectedTags();
   clUpdateKMax();
+  clUpdateMapHighlights();
 }
 
 function clRenderSelectedTags() {
@@ -203,12 +242,61 @@ function clRenderSelectedTags() {
 }
 
 function clInitMap() {
-  if (CL.map) return;
+  if (CL.map) {
+    setTimeout(() => CL.map.invalidateSize(), 60);
+    clUpdateMapHighlights();
+    return;
+  }
   CL.map = L.map('cl-map', { zoomControl: true }).setView([20, 0], 2);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution: '© OpenStreetMap contributors © CARTO',
     maxZoom: 19,
   }).addTo(CL.map);
+  setTimeout(() => CL.map.invalidateSize(), 60);
+  clUpdateMapHighlights();
+}
+
+/* Drop existing markers, then add a marker for every selected country with
+   known coords. For large selections (>30) tooltips are turned off so the
+   map stays readable; you still get a popup on click. */
+function clUpdateMapHighlights() {
+  if (!CL.map) return;
+
+  (CL.markers || []).forEach(m => CL.map.removeLayer(m));
+  CL.markers = [];
+
+  const pts  = [];
+  const many = CL.selected.length > 30;
+
+  CL.selected.forEach(name => {
+    const coord = CL.coordLookup[name];
+    if (!coord) return;
+    const [lat, lng] = coord;
+    pts.push([lat, lng]);
+
+    const marker = L.circleMarker([lat, lng], {
+      radius: many ? 5 : 7,
+      color: '#fff', weight: 1.2,
+      fillColor: '#22d3ee', fillOpacity: 0.85,
+    }).addTo(CL.map);
+
+    if (!many) {
+      marker.bindTooltip(name, {
+        permanent: true, direction: 'top', offset: [0, -8],
+        className: 'cl-map-tooltip',
+      });
+    }
+    marker.bindPopup(`<strong>${name}</strong>`);
+    marker.on('click', () => clToggleCountry(name));
+
+    CL.markers.push(marker);
+  });
+
+  if (pts.length >= 2) {
+    CL.map.fitBounds(L.latLngBounds(pts).pad(0.4));
+  } else if (pts.length === 1) {
+    CL.map.setView(pts[0], 4);
+  }
 }
 
 /* ─────────────────────────────────────────────────────────────────
@@ -422,6 +510,7 @@ function clRenderResults(data) {
   if (!data) return;
 
   clRenderMetrics(data);
+  clRenderSummary(data);
   clRenderClusterCards(data);
   clRenderTable(data);
   clRenderScatter(data);
@@ -468,21 +557,110 @@ function clRenderMetrics(data) {
   const clusterIds    = Object.keys(clusterMembers).filter(k => k !== '-1');
   const nClusters     = clusterIds.length;
   const outliers      = clusterMembers['-1']?.length || 0;
-  const medoids       = data.medoids || {};
-  const nMedoids      = Object.keys(medoids).length;
+  const evalMetrics   = data.eval || {};
 
-  el.innerHTML = [
+  const tiles = [
     { val: nCountries, name: 'Countries' },
     { val: nClusters,  name: 'Clusters' },
     { val: outliers,   name: 'Outliers' },
     { val: CL.algo || '—', name: 'Algorithm' },
     { val: CL.basis || '—', name: 'Basis' },
-  ].map(m => `
-    <div class="metric-cell">
+  ];
+
+  if (evalMetrics.silhouette !== undefined && evalMetrics.silhouette !== null) {
+    tiles.push({
+      val: evalMetrics.silhouette.toFixed(3),
+      name: 'Silhouette',
+      hint: 'Cluster separation quality. Range [-1,+1]; higher = better.',
+    });
+  }
+  if (evalMetrics.davies_bouldin !== undefined && evalMetrics.davies_bouldin !== null) {
+    tiles.push({
+      val: evalMetrics.davies_bouldin.toFixed(3),
+      name: 'Davies-Bouldin',
+      hint: 'Within-vs-between ratio. Lower = better.',
+    });
+  }
+
+  el.innerHTML = tiles.map(m => `
+    <div class="metric-cell" ${m.hint ? `title="${escClHtml(m.hint)}"` : ''}>
       <div class="metric-val">${escClHtml(String(m.val))}</div>
       <div class="metric-name">${m.name}</div>
     </div>
   `).join('');
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   "How to read this" workflow explainer
+───────────────────────────────────────────────────────────────── */
+function clRenderSummary(data) {
+  // Insert after the metrics row, before the viz tabs
+  const tabList = document.getElementById('cl-viz-tabs');
+  if (!tabList) return;
+  // Remove any old summary node
+  const existing = document.getElementById('cl-workflow-summary');
+  if (existing) existing.remove();
+
+  const wrap = document.createElement('div');
+  wrap.id = 'cl-workflow-summary';
+  wrap.className = 'card glass';
+  wrap.style.cssText = 'border-radius:1rem;margin-bottom:20px;padding:16px;';
+
+  const summary    = data.summary || {};
+  const algoLabel  = ({
+    agglomerative: 'Hierarchical agglomerative clustering (UPGMA)',
+    dbscan: 'DBSCAN density-based clustering',
+    spectral: 'Spectral graph-Laplacian clustering',
+    kmedoids: 'k-Medoids (PAM)',
+  })[summary.algorithm] || summary.algorithm;
+
+  const basisExplain = summary.basis === 'structural'
+    ? 'Each pair of countries was compared via <strong>Tree Edit Distance (Zhang-Shasha)</strong> on their typed infobox trees. Distance = 1 − similarity.'
+    : 'Each pair of countries was compared via <strong>Jaccard token overlap</strong> on every leaf-text token in their infoboxes. Distance = 1 − Jaccard.';
+
+  const medoids = data.medoids || {};
+  const medoidNote = Object.keys(medoids).length
+    ? `<div style="margin-top:10px;font-size:12px;color:var(--muted-foreground);">
+        <strong style="color:var(--foreground);">Cluster representatives (medoids):</strong>
+        ${Object.entries(medoids).filter(([k]) => k !== '-1')
+          .map(([cid, name]) => {
+            const c = clPaletteFor(cid);
+            return `<span class="badge" style="background:${c.replace(')','/0.15)')};border:none;color:${c};margin:0 4px 4px 0;">
+              Cluster ${parseInt(cid)+1}: ${escClHtml(name)}
+            </span>`;
+          }).join('')}
+      </div>` : '';
+
+  const evalText = (summary.silhouette !== undefined && summary.silhouette !== null)
+    ? `<div style="margin-top:10px;font-size:12px;color:var(--muted-foreground);">
+        Silhouette = <strong style="color:var(--foreground);">${summary.silhouette.toFixed(3)}</strong>
+        (closer to 1 means cleaner separation);
+        Davies-Bouldin = <strong style="color:var(--foreground);">${(summary.davies_bouldin ?? 0).toFixed(3)}</strong>
+        (lower = tighter clusters).
+       </div>` : '';
+
+  wrap.innerHTML = `
+    <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:8px;">
+      <span class="badge badge-primary" style="font-size:10px;">WORKFLOW</span>
+      <span style="font-size:14px;font-weight:600;">${escClHtml(algoLabel)} · ${escClHtml(summary.basis || '—')} basis</span>
+    </div>
+    <div style="font-size:13px;color:var(--muted-foreground);line-height:1.6;">
+      <strong style="color:var(--foreground);">Step 1.</strong> ${basisExplain}<br/>
+      <strong style="color:var(--foreground);">Step 2.</strong> The resulting ${summary.n_countries}×${summary.n_countries} distance matrix was given to <strong style="color:var(--foreground);">${algoLabel}</strong>,
+      which produced ${summary.n_clusters} cluster${summary.n_clusters === 1 ? '' : 's'}${summary.n_outliers ? ` plus ${summary.n_outliers} outlier${summary.n_outliers === 1 ? '' : 's'}` : ''}.<br/>
+      <strong style="color:var(--foreground);">Step 3.</strong> The same distance matrix was projected to 2D via <strong style="color:var(--foreground);">MDS</strong> for the scatter / force / map views below.
+    </div>
+    ${medoidNote}
+    ${evalText}
+  `;
+
+  // Insert right before the viz tabs
+  tabList.parentNode.insertBefore(wrap, tabList);
+}
+
+function clPaletteFor(cid) {
+  if (String(cid) === '-1') return 'oklch(0.7 0.25 320)';
+  return CL_PALETTE[parseInt(cid) % CL_PALETTE.length] || CL_PALETTE[0];
 }
 
 /* Cluster summary cards */
@@ -920,9 +1098,22 @@ function clNewClustering() {
   CL.algo     = null;
   CL.selected = [];
   CL.result   = null;
+  if (CL.pollTimer) { clearInterval(CL.pollTimer); CL.pollTimer = null; }
+
   clGoTo(0);
+
   document.querySelectorAll('[data-basis],[data-algo]').forEach(el => el.classList.remove('selected'));
+  const search = document.getElementById('cl-country-search');
+  if (search) search.value = '';
+
+  // Re-render so the checkmarks, sidebar counter, and map pins from the
+  // previous run all drop.
+  clRenderCountryList(CL.allCountries);
   clRenderSelectedTags();
+  clUpdateMapHighlights();
+  clUpdateKMax();
+  const warn = document.getElementById('cl-min-warn');
+  if (warn) warn.style.display = 'none';
 }
 
 /* ─────────────────────────────────────────────────────────────────

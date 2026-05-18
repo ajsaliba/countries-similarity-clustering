@@ -1,0 +1,303 @@
+[
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "total_km2"
+    ],
+    "label": "total_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 2381741.0,
+    "new_value": 163610.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "water_pct"
+    ],
+    "label": "water_pct",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 0.0,
+    "new_value": 5.04
+  },
+  {
+    "op": "update",
+    "path": [
+      "area",
+      "rank"
+    ],
+    "label": "rank",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 10.0,
+    "new_value": 91.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "calling_code"
+    ],
+    "label": "calling_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "+213",
+    "new_value": "+216"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "internet_tld"
+    ],
+    "label": "internet_tld",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": ".dz",
+    "new_value": ".tn"
+  },
+  {
+    "op": "update",
+    "path": [
+      "codes",
+      "iso_3166_code"
+    ],
+    "label": "iso_3166_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "DZ",
+    "new_value": "TN"
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "currency_code"
+    ],
+    "label": "currency_code",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "DZD",
+    "new_value": "TND"
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_ppp",
+      "total_billion_usd"
+    ],
+    "label": "total_billion_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 875.33,
+    "new_value": 183.73
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_ppp",
+      "per_capita_usd"
+    ],
+    "label": "per_capita_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 18530.0,
+    "new_value": 14780.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_nominal",
+      "total_billion_usd"
+    ],
+    "label": "total_billion_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 268.89,
+    "new_value": 56.29
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gdp_nominal",
+      "per_capita_usd"
+    ],
+    "label": "per_capita_usd",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 5690.0,
+    "new_value": 4530.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "gini"
+    ],
+    "label": "gini",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 27.6,
+    "new_value": 33.7
+  },
+  {
+    "op": "update",
+    "path": [
+      "economy",
+      "hdi"
+    ],
+    "label": "hdi",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 0.763,
+    "new_value": 0.746
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "capital"
+    ],
+    "label": "capital",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Algiers",
+    "new_value": "Tunis"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "demonym"
+    ],
+    "label": "demonym",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Algerian",
+    "new_value": "Tunisian"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "official_language"
+    ],
+    "label": "official_language",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Arabic Berber",
+    "new_value": "Arabic"
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "religion"
+    ],
+    "label": "religion",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {
+      "Sunni Islam ( official ) <": 99.0,
+      "others": 1.0
+    },
+    "new_value": {
+      "Sunni Islam": 99.0,
+      "others": 1.0
+    }
+  },
+  {
+    "op": "update",
+    "path": [
+      "general",
+      "ethnic_groups"
+    ],
+    "label": "ethnic_groups",
+    "old_type": "dist",
+    "new_type": "dist",
+    "old_value": {},
+    "new_value": {
+      "Arabs": 98.0,
+      "Berbers": 1.0,
+      "Jews and others": 1.0
+    }
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "type"
+    ],
+    "label": "type",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Unitary semi-presidential republic",
+    "new_value": "Unitary presidential republic"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "lower_house"
+    ],
+    "label": "lower_house",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "People's National Assembly",
+    "new_value": "Assembly of the Representatives of the People"
+  },
+  {
+    "op": "update",
+    "path": [
+      "government",
+      "upper_house"
+    ],
+    "label": "upper_house",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "Council of the Nation",
+    "new_value": "National Council of Regions and Districts"
+  },
+  {
+    "op": "update",
+    "path": [
+      "history"
+    ],
+    "label": "history",
+    "old_type": "str",
+    "new_type": "str",
+    "old_value": "French Algeria | Independence | Numidia | Regency of Algiers",
+    "new_value": "Ancient Carthage | Beylik of Tunis | French protectorate | Hafsid Sultanate | Independence and Kingdom | Republic declaration"
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "total"
+    ],
+    "label": "total",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 47400000.0,
+    "new_value": 11972169.0
+  },
+  {
+    "op": "update",
+    "path": [
+      "population",
+      "density_per_km2"
+    ],
+    "label": "density_per_km2",
+    "old_type": "num",
+    "new_type": "num",
+    "old_value": 19.0,
+    "new_value": 79.0
+  }
+]

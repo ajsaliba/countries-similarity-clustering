@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block title %}Results{% endblock %}
+{% block content %}
+<div style="padding:48px 32px;max-width:1000px;margin:0 auto;">
+  <div style="margin-bottom:32px;">
+    <span class="badge badge-primary" style="margin-bottom:14px;">🕐 Recent Results</span>
+    <h1 style="font-size:1.8rem;font-weight:700;margin-bottom:8px;">Session Results</h1>
+    <p style="color:var(--muted-foreground);font-size:14px;">
+      Results computed during this session are listed below. They are stored in your browser's session storage.
+    </p>
+  </div>
+
+  <div id="results-list">
+    <div class="card glass" style="border-radius:1rem;text-align:center;padding:60px 32px;">
+      <div style="font-size:40px;margin-bottom:16px;">🕐</div>
+      <h3 style="font-size:16px;font-weight:600;margin-bottom:8px;">No results yet this session</h3>
+      <p style="color:var(--muted-foreground);font-size:13px;margin-bottom:24px;">
+        Compute a similarity or clustering analysis to see results here.
+      </p>
+      <div style="display:flex;gap:12px;justify-content:center;">
+        <a href="/similarity" class="btn btn-primary">Run Similarity</a>
+        <a href="/clustering" class="btn btn-outline">Run Clustering</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% block scripts %}
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const history = JSON.parse(sessionStorage.getItem('similica_history') || '[]');
+    if (history.length === 0) return;
+
+    const list = document.getElementById('results-list');
+    list.innerHTML = history.slice().reverse().map((item, i) => `
+      <div class="card glass" style="border-radius:1rem;margin-bottom:16px;">
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:12px;">
+          <div style="display:flex;align-items:center;gap:10px;">
+            <span class="badge badge-${item.type === 'similarity' ? 'primary' : 'secondary'}">
+              ${item.type === 'similarity' ? '⇄' : '◎'} ${item.type.toUpperCase()}
+            </span>
+            <span style="font-size:14px;font-weight:600;">${item.title}</span>
+          </div>
+          <span style="font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
+            ${new Date(item.timestamp).toLocaleString()}
+          </span>
+        </div>
+        <p style="font-size:13px;color:var(--muted-foreground);margin-bottom:14px;">${item.summary}</p>
+        <div style="display:flex;gap:8px;">
+          <button class="btn btn-sm btn-outline" onclick="downloadResult(${history.length - 1 - i})">⬇ Export JSON</button>
+          <button class="btn btn-sm btn-outline" onclick="saveResult(${history.length - 1 - i})">🔖 Save</button>
+        </div>
+      </div>
+    `).join('');
+  });
+
+  function downloadResult(idx) {
+    const history = JSON.parse(sessionStorage.getItem('similica_history') || '[]');
+    const item = history[idx];
+    const blob = new Blob([JSON.stringify(item.data, null, 2)], {type: 'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a'); a.href = url;
+    a.download = `similica_result_${idx}.json`; a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  function saveResult(idx) {
+    const history = JSON.parse(sessionStorage.getItem('similica_history') || '[]');
+    const item = history[idx];
+    const saved = JSON.parse(localStorage.getItem('similica_saved') || '[]');
+    saved.push(item);
+    localStorage.setItem('similica_saved', JSON.stringify(saved));
+    showToast('Result saved to bookmarks!', 'success');
+  }
+</script>
+{% endblock %}
+{% endblock %}

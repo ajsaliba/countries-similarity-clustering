@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}About{% endblock %}
+{% block content %}
+<div style="max-width:860px;margin:0 auto;padding:48px 32px;">
+
+  <div style="margin-bottom:32px;">
+    <span class="badge badge-primary" style="margin-bottom:16px;">ℹ About SIMILICA</span>
+    <h1 style="font-size:2rem;font-weight:700;margin-bottom:12px;">
+      Wikipedia Infobox Similarity &amp; Clustering
+    </h1>
+    <p style="color:var(--muted-foreground);font-size:15px;line-height:1.65;">
+      A research tool for COE 543/743 — Spring 2026.
+    </p>
+  </div>
+
+  <div class="card glass" style="border-radius:1rem;margin-bottom:24px;">
+    <h2 style="font-size:16px;font-weight:700;margin-bottom:16px;color:var(--primary);">🔬 Methodology</h2>
+    <p style="font-size:14px;color:var(--muted-foreground);line-height:1.7;margin-bottom:12px;">
+      SIMILICA converts each country's Wikipedia infobox into a <strong style="color:var(--foreground)">rooted labeled tree</strong>
+      using a custom schema parser. The tree encodes structural relationships between infobox sections
+      (area, economy, government, population, etc.) and their leaf values.
+    </p>
+    <p style="font-size:14px;color:var(--muted-foreground);line-height:1.7;">
+      <strong style="color:var(--foreground)">Tree Edit Distance (TED)</strong> is computed using the
+      Zhang-Shasha algorithm — the classical O(n²m) dynamic programming approach that finds the minimum
+      cost sequence of node insertions, deletions, and substitutions to transform one tree into another.
+    </p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px;">
+    <div class="card glass" style="border-radius:1rem;">
+      <h3 style="font-size:14px;font-weight:700;margin-bottom:10px;">📐 Structural Similarity</h3>
+      <p style="font-size:13px;color:var(--muted-foreground);line-height:1.6;">
+        Uses TED on the tree structure alone, applying per-section cost weights.
+        The <code style="font-family:'JetBrains Mono';font-size:11px;background:var(--muted);padding:1px 5px;border-radius:3px;">exp_size</code>
+        method normalises by max tree size and applies a size-ratio ceiling (Fix #5).
+      </p>
+    </div>
+    <div class="card glass" style="border-radius:1rem;">
+      <h3 style="font-size:14px;font-weight:700;margin-bottom:10px;">🔤 Semantic Similarity</h3>
+      <p style="font-size:13px;color:var(--muted-foreground);line-height:1.6;">
+        Jaccard coefficient over the bag of text tokens extracted from all string leaf values.
+        Captures language, religion, government terminology, and cultural vocabulary overlap.
+      </p>
+    </div>
+    <div class="card glass" style="border-radius:1rem;">
+      <h3 style="font-size:14px;font-weight:700;margin-bottom:10px;">◎ Clustering Algorithms</h3>
+      <ul style="font-size:13px;color:var(--muted-foreground);line-height:1.8;padding-left:18px;">
+        <li><strong style="color:var(--foreground)">Agglomerative</strong> — UPGMA hierarchical</li>
+        <li><strong style="color:var(--foreground)">DBSCAN</strong> — density-based, flags outliers</li>
+        <li><strong style="color:var(--foreground)">Spectral</strong> — graph Laplacian partitioning</li>
+        <li><strong style="color:var(--foreground)">K-Medoids</strong> — PAM, centre = real country</li>
+      </ul>
+    </div>
+    <div class="card glass" style="border-radius:1rem;">
+      <h3 style="font-size:14px;font-weight:700;margin-bottom:10px;">📊 Visualisations</h3>
+      <ul style="font-size:13px;color:var(--muted-foreground);line-height:1.8;padding-left:18px;">
+        <li>D3.js dendrogram (hierarchical only)</li>
+        <li>2D MDS scatter plot</li>
+        <li>D3 force-directed graph</li>
+        <li>Leaflet choropleth map</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card glass" style="border-radius:1rem;margin-bottom:24px;">
+    <h2 style="font-size:16px;font-weight:700;margin-bottom:16px;color:var(--primary);">📦 Data</h2>
+    <p style="font-size:14px;color:var(--muted-foreground);line-height:1.7;">
+      195 countries scraped from Wikipedia infoboxes and cleaned into a canonical JSON schema with
+      sections: <code style="font-family:'JetBrains Mono';font-size:11px;background:var(--muted);padding:1px 5px;border-radius:3px;">area</code>,
+      <code style="font-family:'JetBrains Mono';font-size:11px;background:var(--muted);padding:1px 5px;border-radius:3px;">codes</code>,
+      <code style="font-family:'JetBrains Mono';font-size:11px;background:var(--muted);padding:1px 5px;border-radius:3px;">economy</code>,
+      <code style="font-family:'JetBrains Mono';font-size:11px;background:var(--muted);padding:1px 5px;border-radius:3px;">general</code>,
+      <code style="font-family:'JetBrains Mono';font-size:11px;background:var(--muted);padding:1px 5px;border-radius:3px;">government</code>,
+      <code style="font-family:'JetBrains Mono';font-size:11px;background:var(--muted);padding:1px 5px;border-radius:3px;">population</code>,
+      <code style="font-family:'JetBrains Mono';font-size:11px;background:var(--muted);padding:1px 5px;border-radius:3px;">time</code>.
+    </p>
+  </div>
+
+  <div style="display:flex;gap:12px;">
+    <a href="/similarity" class="btn btn-primary">Launch Similarity Lab</a>
+    <a href="/clustering" class="btn btn-outline">Open Clustering</a>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,736 @@
+{% extends "base.html" %}
+{% block title %}Clustering{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<style>
+  /* ── Wizard layout ─────────────────────────────────────────── */
+  .wizard-shell {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 57px);
+    overflow: hidden;
+  }
+  .wizard-topbar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 14px 32px;
+    border-bottom: 1px solid var(--border);
+    background: var(--card);
+    flex-shrink: 0;
+  }
+  .wizard-body {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+  .wizard-sidebar {
+    width: 200px;
+    flex-shrink: 0;
+    border-right: 1px solid var(--border);
+    padding: 24px 16px;
+    overflow-y: auto;
+  }
+  .wizard-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 32px;
+  }
+  .wizard-footer {
+    padding: 16px 32px;
+    border-top: 1px solid var(--border);
+    background: var(--card);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+
+  /* ── Stepper ───────────────────────────────────────────────── */
+  .cl-step-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    cursor: default;
+    transition: background 0.15s;
+    position: relative;
+  }
+  .cl-step-item.active { background: oklch(0.78 0.18 200 / 0.12); }
+  .cl-step-num {
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    border: 1.5px solid var(--muted-foreground);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-family: 'JetBrains Mono';
+    flex-shrink: 0;
+    transition: all 0.2s;
+  }
+  .cl-step-item.active .cl-step-num {
+    border-color: var(--primary);
+    background: oklch(0.78 0.18 200 / 0.2);
+    color: var(--primary);
+  }
+  .cl-step-item.done .cl-step-num {
+    border-color: var(--primary);
+    background: var(--primary);
+    color: oklch(0.16 0.025 260);
+  }
+  .cl-step-label {
+    font-size: 12px;
+    color: var(--muted-foreground);
+    line-height: 1.3;
+  }
+  .cl-step-item.active .cl-step-label { color: var(--foreground); font-weight: 600; }
+
+  /* ── Step panels ───────────────────────────────────────────── */
+  .cl-step-panel { display: none; }
+  .cl-step-panel.active { display: block; }
+
+  /* ── Select cards ──────────────────────────────────────────── */
+  .cl-select-card {
+    border: 1.5px solid var(--border);
+    border-radius: 1rem;
+    padding: 20px 24px;
+    cursor: pointer;
+    transition: all 0.15s;
+    background: var(--card);
+    position: relative;
+  }
+  .cl-select-card:hover { border-color: oklch(0.78 0.18 200 / 0.5); background: oklch(0.78 0.18 200 / 0.04); }
+  .cl-select-card.selected {
+    border-color: var(--primary);
+    background: oklch(0.78 0.18 200 / 0.08);
+    box-shadow: 0 0 0 1px var(--primary);
+  }
+  .cl-select-card.selected::after {
+    content: '✓';
+    position: absolute; top: 12px; right: 14px;
+    color: var(--primary); font-size: 13px; font-weight: 700;
+  }
+
+  /* ── Algorithm cards ───────────────────────────────────────── */
+  .algo-card {
+    border: 1.5px solid var(--border);
+    border-radius: 1rem;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.15s;
+    background: var(--card);
+    position: relative;
+  }
+  .algo-card:hover { border-color: oklch(0.78 0.18 200 / 0.5); }
+  .algo-card.selected {
+    border-color: var(--primary);
+    background: oklch(0.78 0.18 200 / 0.08);
+    box-shadow: 0 0 0 1px var(--primary);
+  }
+  .algo-card.selected::after {
+    content: '✓';
+    position: absolute; top: 12px; right: 14px;
+    color: var(--primary); font-size: 13px; font-weight: 700;
+  }
+  .algo-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-family: 'JetBrains Mono';
+    background: oklch(0.78 0.18 200 / 0.15);
+    color: var(--primary);
+    margin-bottom: 8px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+  }
+
+  /* ── Map / country list ────────────────────────────────────── */
+  #cl-map {
+    height: 300px;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: #0d1117;
+  }
+  .cl-country-scroll {
+    height: 220px;
+    overflow-y: auto;
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    padding: 6px;
+    background: var(--card);
+  }
+  .cl-country-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.1s;
+    font-size: 13px;
+  }
+  .cl-country-item:hover { background: oklch(0.78 0.18 200 / 0.08); }
+  .cl-country-item.selected { background: oklch(0.78 0.18 200 / 0.12); }
+  .cl-country-item input[type=checkbox] { accent-color: var(--primary); }
+  .cl-selected-tags {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    min-height: 32px;
+    padding: 6px 0;
+  }
+  .cl-tag {
+    display: flex; align-items: center; gap: 6px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: oklch(0.78 0.18 200 / 0.15);
+    border: 1px solid oklch(0.78 0.18 200 / 0.3);
+    color: var(--primary);
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .cl-tag button {
+    background: none; border: none; cursor: pointer;
+    color: var(--muted-foreground); font-size: 13px; padding: 0;
+    line-height: 1;
+  }
+  .cl-tag button:hover { color: var(--foreground); }
+
+  /* ── Parameters ────────────────────────────────────────────── */
+  .param-row {
+    display: flex; align-items: center; gap: 16px;
+    margin-bottom: 20px;
+  }
+  .param-label {
+    width: 160px;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .param-desc {
+    font-size: 11px;
+    color: var(--muted-foreground);
+    margin-top: 4px;
+  }
+  .param-value {
+    font-family: 'JetBrains Mono';
+    font-size: 13px;
+    color: var(--primary);
+    min-width: 36px;
+    text-align: right;
+  }
+  input[type=range] {
+    flex: 1;
+    accent-color: var(--primary);
+    cursor: pointer;
+  }
+
+  /* ── Run / progress ─────────────────────────────────────────── */
+  #cl-progress-wrap { display: none; }
+  .cl-phase-labels {
+    display: flex; justify-content: space-between;
+    font-size: 11px; color: var(--muted-foreground);
+    font-family: 'JetBrains Mono';
+    margin-top: 8px;
+  }
+
+  /* ── Results ────────────────────────────────────────────────── */
+  #cl-results-area { display: none; }
+  #cl-viz-tabs-content .tab-content { padding: 0; }
+
+  /* Dendrogram */
+  #cl-dendrogram-svg {
+    width: 100%;
+    overflow-x: auto;
+  }
+  #cl-dendrogram-svg svg text { font-family: 'JetBrains Mono'; font-size: 11px; }
+
+  /* Scatter */
+  #cl-scatter-svg { width: 100%; }
+
+  /* Force */
+  #cl-force-svg { width: 100%; height: 500px; }
+
+  /* Map overlay */
+  #cl-result-map {
+    height: 420px;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+
+  /* Cluster summary cards */
+  .cluster-card {
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+    background: var(--card);
+  }
+  .cluster-card-header {
+    display: flex; align-items: center; gap: 10px; margin-bottom: 10px;
+  }
+  .cluster-dot {
+    width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0;
+  }
+  .cluster-members {
+    display: flex; flex-wrap: wrap; gap: 5px;
+  }
+  .cluster-member-pill {
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    background: oklch(0.78 0.18 200 / 0.1);
+    border: 1px solid oklch(0.78 0.18 200 / 0.2);
+    color: var(--muted-foreground);
+  }
+  .outlier-pill {
+    background: oklch(0.7 0.25 320 / 0.1);
+    border-color: oklch(0.7 0.25 320 / 0.25);
+    color: oklch(0.7 0.25 320);
+  }
+
+  /* Metric grid */
+  .metric-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(130px,1fr));
+    gap: 12px; margin-bottom: 24px;
+  }
+  .metric-cell {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 0.6rem; padding: 12px 14px;
+  }
+  .metric-cell .metric-val {
+    font-size: 22px; font-weight: 700; font-family: 'JetBrains Mono';
+    color: var(--primary);
+  }
+  .metric-cell .metric-name {
+    font-size: 11px; color: var(--muted-foreground);
+    text-transform: uppercase; letter-spacing: 0.06em; margin-top: 2px;
+  }
+
+  /* Table */
+  .cl-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .cl-table th {
+    text-align: left; padding: 8px 12px;
+    font-size: 11px; font-weight: 600; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--muted-foreground);
+    border-bottom: 1px solid var(--border);
+    background: var(--muted);
+  }
+  .cl-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid oklch(0.78 0.18 200 / 0.06);
+  }
+  .cl-table tr:hover td { background: oklch(0.78 0.18 200 / 0.04); }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="wizard-shell">
+
+  <!-- ── Top bar ──────────────────────────────────────────────── -->
+  <div class="wizard-topbar">
+    <span class="badge badge-secondary" style="font-size:11px;">◎ CLUSTERING</span>
+    <span style="font-size:13px;font-weight:600;" id="cl-step-title">Select Basis</span>
+    <div style="flex:1;"></div>
+    <span style="font-size:12px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
+      Step <span id="cl-step-cur">1</span> / 6
+    </span>
+  </div>
+
+  <!-- ── Main ─────────────────────────────────────────────────── -->
+  <div class="wizard-body">
+
+    <!-- Sidebar stepper -->
+    <div class="wizard-sidebar">
+      <div id="cl-stepper">
+        <div class="cl-step-item active" data-step="0">
+          <div class="cl-step-num">1</div>
+          <div class="cl-step-label">Basis</div>
+        </div>
+        <div class="cl-step-item" data-step="1">
+          <div class="cl-step-num">2</div>
+          <div class="cl-step-label">Dataset</div>
+        </div>
+        <div class="cl-step-item" data-step="2">
+          <div class="cl-step-num">3</div>
+          <div class="cl-step-label">Algorithm</div>
+        </div>
+        <div class="cl-step-item" data-step="3">
+          <div class="cl-step-num">4</div>
+          <div class="cl-step-label">Parameters</div>
+        </div>
+        <div class="cl-step-item" data-step="4">
+          <div class="cl-step-num">5</div>
+          <div class="cl-step-label">Run</div>
+        </div>
+        <div class="cl-step-item" data-step="5">
+          <div class="cl-step-num">6</div>
+          <div class="cl-step-label">Results</div>
+        </div>
+      </div>
+
+      <!-- Summary sidebar info (shown during steps 1+) -->
+      <div id="cl-sidebar-summary" style="margin-top:24px;display:none;">
+        <div style="font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted-foreground);margin-bottom:10px;">Summary</div>
+        <div id="cl-sum-basis" style="font-size:12px;margin-bottom:6px;display:none;">
+          <span style="color:var(--muted-foreground)">Basis: </span><span id="cl-sum-basis-val" style="font-weight:600;"></span>
+        </div>
+        <div id="cl-sum-n" style="font-size:12px;margin-bottom:6px;display:none;">
+          <span style="color:var(--muted-foreground)">Countries: </span><span id="cl-sum-n-val" style="font-weight:600;color:var(--primary);"></span>
+        </div>
+        <div id="cl-sum-algo" style="font-size:12px;margin-bottom:6px;display:none;">
+          <span style="color:var(--muted-foreground)">Algorithm: </span><span id="cl-sum-algo-val" style="font-weight:600;"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step content -->
+    <div class="wizard-content">
+
+      <!-- ─── Step 0: Basis ────────────────────────────────────── -->
+      <div class="cl-step-panel active" data-step="0">
+        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Choose Similarity Basis</h2>
+        <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:28px;">
+          Select whether to cluster countries by structural or semantic similarity.
+        </p>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:700px;">
+          <div class="cl-select-card" data-basis="structural" id="cl-basis-structural" onclick="clSelectBasis('structural')">
+            <div style="font-size:32px;margin-bottom:14px;">🌲</div>
+            <h3 style="font-size:16px;font-weight:700;margin-bottom:8px;">Structural</h3>
+            <p style="font-size:13px;color:var(--muted-foreground);line-height:1.55;">
+              Tree Edit Distance via Zhang-Shasha on the infobox tree. Measures how different the
+              <em>shape</em> of each country's Wikipedia entry is.
+            </p>
+            <div style="margin-top:14px;">
+              <span class="badge" style="background:oklch(0.78 0.18 200/0.15);color:var(--primary);font-size:10px;border:none;">
+                O(n²m) · TED
+              </span>
+            </div>
+          </div>
+
+          <div class="cl-select-card" data-basis="semantic" id="cl-basis-semantic" onclick="clSelectBasis('semantic')">
+            <div style="font-size:32px;margin-bottom:14px;">🔤</div>
+            <h3 style="font-size:16px;font-weight:700;margin-bottom:8px;">Semantic</h3>
+            <p style="font-size:13px;color:var(--muted-foreground);line-height:1.55;">
+              Jaccard coefficient over leaf text tokens — language, religion, government terminology,
+              and cultural vocabulary.
+            </p>
+            <div style="margin-top:14px;">
+              <span class="badge" style="background:oklch(0.7 0.25 320/0.15);color:var(--secondary);font-size:10px;border:none;">
+                Jaccard · Fast
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:24px;padding:16px;border-radius:0.75rem;background:oklch(0.78 0.18 200/0.06);border:1px solid oklch(0.78 0.18 200/0.12);max-width:700px;">
+          <p style="font-size:13px;color:var(--muted-foreground);line-height:1.6;margin:0;">
+            <strong style="color:var(--foreground);">Note:</strong>
+            Structural clustering computes O(n²) TED pairs and may take several seconds for large datasets.
+            Semantic clustering uses pre-computed Jaccard scores and is near-instant.
+          </p>
+        </div>
+      </div>
+
+      <!-- ─── Step 1: Dataset ──────────────────────────────────── -->
+      <div class="cl-step-panel" data-step="1">
+        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Select Countries</h2>
+        <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:20px;">
+          Choose at least 3 countries to cluster. Use the map or search below.
+        </p>
+
+        <div style="display:flex;gap:10px;margin-bottom:12px;flex-wrap:wrap;">
+          <input class="input" id="cl-country-search" placeholder="Search countries…" style="flex:1;min-width:200px;max-width:320px;" oninput="clFilterCountries()"/>
+          <button class="btn btn-outline" onclick="clSelectAll()" style="font-size:12px;">Select All 195</button>
+          <button class="btn btn-outline" onclick="clClearAll()" style="font-size:12px;">Clear All</button>
+        </div>
+
+        <!-- Map -->
+        <div id="cl-map" style="margin-bottom:16px;"></div>
+
+        <!-- Country list -->
+        <div class="cl-country-scroll" id="cl-country-scroll">
+          <div style="text-align:center;padding:40px;color:var(--muted-foreground);font-size:13px;">
+            Loading countries…
+          </div>
+        </div>
+
+        <!-- Selection tags -->
+        <div style="margin-top:14px;">
+          <div style="font-size:12px;color:var(--muted-foreground);margin-bottom:8px;">
+            Selected: <span id="cl-sel-count" style="font-weight:600;color:var(--primary);">0</span> countries
+            <span id="cl-min-warn" style="color:oklch(0.7 0.25 320);font-size:11px;margin-left:8px;display:none;">⚠ Minimum 3 required</span>
+          </div>
+          <div class="cl-selected-tags" id="cl-selected-tags"></div>
+        </div>
+      </div>
+
+      <!-- ─── Step 2: Algorithm ────────────────────────────────── -->
+      <div class="cl-step-panel" data-step="2">
+        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Choose Clustering Algorithm</h2>
+        <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:24px;">
+          Each algorithm has different characteristics. K-Medoids and Agglomerative require a target k.
+        </p>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:800px;">
+
+          <div class="algo-card" data-algo="agglomerative" id="cl-algo-agglomerative" onclick="clSelectAlgo('agglomerative')">
+            <div class="algo-badge">HIERARCHICAL</div>
+            <h3 style="font-size:15px;font-weight:700;margin-bottom:6px;">Agglomerative</h3>
+            <p style="font-size:12px;color:var(--muted-foreground);line-height:1.55;margin-bottom:12px;">
+              Bottom-up UPGMA hierarchical clustering. Produces a full dendrogram showing the merge
+              order at every level. Requires k clusters.
+            </p>
+            <div style="font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
+              Params: k, linkage
+            </div>
+          </div>
+
+          <div class="algo-card" data-algo="dbscan" id="cl-algo-dbscan" onclick="clSelectAlgo('dbscan')">
+            <div class="algo-badge" style="background:oklch(0.7 0.25 320/0.15);color:var(--secondary);">DENSITY</div>
+            <h3 style="font-size:15px;font-weight:700;margin-bottom:6px;">DBSCAN</h3>
+            <p style="font-size:12px;color:var(--muted-foreground);line-height:1.55;margin-bottom:12px;">
+              Density-based clustering. Automatically detects outliers as noise (cluster −1). Good for
+              irregular cluster shapes. No k required.
+            </p>
+            <div style="font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
+              Params: eps, min_samples
+            </div>
+          </div>
+
+          <div class="algo-card" data-algo="spectral" id="cl-algo-spectral" onclick="clSelectAlgo('spectral')">
+            <div class="algo-badge" style="background:oklch(0.75 0.22 130/0.15);color:oklch(0.75 0.22 130);">GRAPH</div>
+            <h3 style="font-size:15px;font-weight:700;margin-bottom:6px;">Spectral</h3>
+            <p style="font-size:12px;color:var(--muted-foreground);line-height:1.55;margin-bottom:12px;">
+              Graph Laplacian partitioning on the similarity matrix. Excellent at finding non-convex
+              clusters. Requires k clusters.
+            </p>
+            <div style="font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
+              Params: k
+            </div>
+          </div>
+
+          <div class="algo-card" data-algo="kmedoids" id="cl-algo-kmedoids" onclick="clSelectAlgo('kmedoids')">
+            <div class="algo-badge" style="background:oklch(0.8 0.2 60/0.15);color:oklch(0.8 0.2 60);">PAM</div>
+            <h3 style="font-size:15px;font-weight:700;margin-bottom:6px;">K-Medoids</h3>
+            <p style="font-size:12px;color:var(--muted-foreground);line-height:1.55;margin-bottom:12px;">
+              PAM algorithm — cluster centre is always a real country (medoid). More robust to outliers
+              than K-Means. Requires k clusters.
+            </p>
+            <div style="font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
+              Params: k
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ─── Step 3: Parameters ───────────────────────────────── -->
+      <div class="cl-step-panel" data-step="3">
+        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Algorithm Parameters</h2>
+        <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:28px;">
+          Tune the algorithm settings below. Greyed parameters are not used by the selected algorithm.
+        </p>
+
+        <div style="max-width:600px;">
+
+          <!-- k clusters -->
+          <div class="param-row" id="param-k-row">
+            <div class="param-label">
+              <div>Number of clusters (k)</div>
+              <div class="param-desc">Target cluster count</div>
+            </div>
+            <input type="range" id="param-k" min="2" max="20" value="5" oninput="document.getElementById('param-k-val').textContent=this.value;clUpdateKMax()"/>
+            <div class="param-value" id="param-k-val">5</div>
+          </div>
+
+          <!-- Linkage (agglomerative only) -->
+          <div class="param-row" id="param-linkage-row">
+            <div class="param-label">
+              <div>Linkage method</div>
+              <div class="param-desc">How clusters are merged</div>
+            </div>
+            <select class="input" id="param-linkage" style="flex:1;">
+              <option value="average">Average (UPGMA)</option>
+              <option value="single">Single (nearest)</option>
+              <option value="complete">Complete (farthest)</option>
+              <option value="ward">Ward</option>
+            </select>
+            <div class="param-value" style="min-width:0;"></div>
+          </div>
+
+          <!-- eps (DBSCAN only) -->
+          <div class="param-row" id="param-eps-row">
+            <div class="param-label">
+              <div>ε (epsilon)</div>
+              <div class="param-desc">Neighbourhood radius [0–1]</div>
+            </div>
+            <input type="range" id="param-eps" min="0.01" max="1.0" step="0.01" value="0.3"
+              oninput="document.getElementById('param-eps-val').textContent=parseFloat(this.value).toFixed(2)"/>
+            <div class="param-value" id="param-eps-val">0.30</div>
+          </div>
+
+          <!-- min_samples (DBSCAN only) -->
+          <div class="param-row" id="param-minpts-row">
+            <div class="param-label">
+              <div>min_samples</div>
+              <div class="param-desc">Core point density</div>
+            </div>
+            <input type="range" id="param-minpts" min="1" max="10" value="2"
+              oninput="document.getElementById('param-minpts-val').textContent=this.value"/>
+            <div class="param-value" id="param-minpts-val">2</div>
+          </div>
+
+          <!-- distance threshold (agglomerative only) -->
+          <div class="param-row" id="param-thresh-row" style="display:none;">
+            <div class="param-label">
+              <div>Distance threshold</div>
+              <div class="param-desc">Cut dendrogram at height (0 = use k)</div>
+            </div>
+            <input type="range" id="param-thresh" min="0" max="1.0" step="0.01" value="0"
+              oninput="document.getElementById('param-thresh-val').textContent=parseFloat(this.value).toFixed(2)"/>
+            <div class="param-value" id="param-thresh-val">0.00</div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ─── Step 4: Run ──────────────────────────────────────── -->
+      <div class="cl-step-panel" data-step="4">
+        <h2 style="font-size:18px;font-weight:700;margin-bottom:8px;">Ready to Cluster</h2>
+        <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:28px;">
+          Review your configuration and start the clustering job.
+        </p>
+
+        <!-- Config summary -->
+        <div class="card glass" style="border-radius:1rem;margin-bottom:20px;max-width:620px;">
+          <div style="font-size:13px;font-weight:600;margin-bottom:14px;">Configuration</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:13px;">
+            <div><span style="color:var(--muted-foreground)">Basis:</span> <span id="run-basis" style="font-weight:600;">—</span></div>
+            <div><span style="color:var(--muted-foreground)">Algorithm:</span> <span id="run-algo" style="font-weight:600;">—</span></div>
+            <div><span style="color:var(--muted-foreground)">Countries:</span> <span id="run-n" style="font-weight:600;color:var(--primary);">—</span></div>
+            <div><span style="color:var(--muted-foreground)">Parameters:</span> <span id="run-params" style="font-weight:600;font-family:'JetBrains Mono';font-size:11px;">—</span></div>
+          </div>
+        </div>
+
+        <!-- Large dataset warning -->
+        <div id="cl-large-warn" style="display:none;margin-bottom:20px;padding:14px 16px;border-radius:0.75rem;background:oklch(0.7 0.25 320/0.08);border:1px solid oklch(0.7 0.25 320/0.2);max-width:620px;">
+          <div style="font-size:13px;font-weight:600;color:oklch(0.7 0.25 320);margin-bottom:4px;">⚠ Large Dataset</div>
+          <div style="font-size:12px;color:var(--muted-foreground);">
+            Structural clustering on <span id="cl-large-n"></span> countries requires computing
+            <span id="cl-large-pairs"></span> TED pairs. This will run in the background and may take
+            30–90 seconds.
+          </div>
+        </div>
+
+        <!-- Progress -->
+        <div id="cl-progress-wrap" style="margin-bottom:24px;max-width:620px;">
+          <div style="display:flex;justify-content:space-between;margin-bottom:8px;">
+            <span style="font-size:13px;font-weight:600;" id="cl-phase-label">Initialising…</span>
+            <span style="font-size:12px;font-family:'JetBrains Mono';color:var(--primary);" id="cl-pct-label">0%</span>
+          </div>
+          <div class="progress-track" style="height:8px;">
+            <div class="progress-fill" id="cl-progress-fill" style="width:0%;"></div>
+          </div>
+          <div class="cl-phase-labels">
+            <span>Building matrix</span>
+            <span>Running algorithm</span>
+            <span>MDS projection</span>
+            <span>Done</span>
+          </div>
+        </div>
+
+        <button class="btn btn-primary" id="cl-run-btn" onclick="clRunClustering()"
+          style="font-size:15px;padding:12px 32px;gap:10px;">
+          ◎ Run Clustering
+        </button>
+      </div>
+
+      <!-- ─── Step 5: Results ──────────────────────────────────── -->
+      <div class="cl-step-panel" data-step="5">
+
+        <!-- Metrics row -->
+        <div class="metric-grid" id="cl-metrics"></div>
+
+        <!-- Viz tabs -->
+        <div class="tabs-list" id="cl-viz-tabs" style="margin-bottom:20px;">
+          <button class="tab-trigger active" data-tab="cl-tab-dendro">🌲 Dendrogram</button>
+          <button class="tab-trigger" data-tab="cl-tab-scatter">⬡ 2D Scatter</button>
+          <button class="tab-trigger" data-tab="cl-tab-force">◉ Force Graph</button>
+          <button class="tab-trigger" data-tab="cl-tab-map">🗺 Map Overlay</button>
+          <button class="tab-trigger" data-tab="cl-tab-table">📋 Table</button>
+        </div>
+
+        <div id="cl-tab-dendro" class="tab-content active" style="margin-bottom:24px;">
+          <div class="card glass" style="border-radius:1rem;padding:20px;overflow-x:auto;">
+            <div id="cl-dendrogram-svg"></div>
+            <div id="cl-dendro-na" style="display:none;text-align:center;padding:40px;color:var(--muted-foreground);font-size:13px;">
+              Dendrogram is only available for Agglomerative clustering.
+            </div>
+          </div>
+        </div>
+
+        <div id="cl-tab-scatter" class="tab-content" style="margin-bottom:24px;display:none;">
+          <div class="card glass" style="border-radius:1rem;padding:20px;">
+            <div id="cl-scatter-svg"></div>
+          </div>
+        </div>
+
+        <div id="cl-tab-force" class="tab-content" style="margin-bottom:24px;display:none;">
+          <div class="card glass" style="border-radius:1rem;padding:20px;overflow:hidden;">
+            <svg id="cl-force-svg"></svg>
+          </div>
+        </div>
+
+        <div id="cl-tab-map" class="tab-content" style="margin-bottom:24px;display:none;">
+          <div id="cl-result-map"></div>
+        </div>
+
+        <div id="cl-tab-table" class="tab-content" style="margin-bottom:24px;display:none;">
+          <div class="card glass" style="border-radius:1rem;overflow:hidden;">
+            <table class="cl-table" id="cl-result-table">
+              <thead>
+                <tr>
+                  <th>Country</th>
+                  <th>Cluster</th>
+                  <th>Medoid</th>
+                </tr>
+              </thead>
+              <tbody id="cl-table-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Cluster summary cards -->
+        <div style="margin-top:8px;">
+          <div style="font-size:14px;font-weight:600;margin-bottom:14px;">Cluster Breakdown</div>
+          <div id="cl-cluster-cards"></div>
+        </div>
+
+        <!-- Actions -->
+        <div style="display:flex;gap:10px;margin-top:20px;flex-wrap:wrap;">
+          <button class="btn btn-primary" onclick="clSaveResult()">🔖 Save Result</button>
+          <button class="btn btn-outline" onclick="clExportJSON()">⬇ Export JSON</button>
+          <button class="btn btn-outline" onclick="clNewClustering()">+ New Clustering</button>
+        </div>
+
+      </div>
+    </div><!-- /.wizard-content -->
+  </div><!-- /.wizard-body -->
+
+  <!-- ── Footer nav ───────────────────────────────────────────── -->
+  <div class="wizard-footer">
+    <button class="btn btn-outline" id="cl-btn-back" onclick="clBack()" style="display:none;">← Back</button>
+    <div style="flex:1;"></div>
+    <button class="btn btn-primary" id="cl-btn-next" onclick="clNext()">Next →</button>
+  </div>
+
+</div><!-- /.wizard-shell -->
+{% endblock %}
+
+{% block scripts %}
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="/static/js/clustering.js"></script>
+{% endblock %}

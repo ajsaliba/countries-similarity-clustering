@@ -1,0 +1,147 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div style="padding: 0;">
+
+  <!-- ══ Hero ══════════════════════════════════════════════════ -->
+  <section style="position:relative; padding: 72px 48px 80px; overflow: hidden; border-bottom: 1px solid var(--border);">
+    <!-- Background glows -->
+    <div style="position:absolute;top:-80px;left:-80px;width:500px;height:500px;background:radial-gradient(circle,oklch(0.78 0.18 200 / 0.12),transparent 70%);pointer-events:none;"></div>
+    <div style="position:absolute;top:-60px;right:-60px;width:400px;height:400px;background:radial-gradient(circle,oklch(0.7 0.25 320 / 0.1),transparent 70%);pointer-events:none;"></div>
+
+    <div style="position:relative;max-width:800px;">
+      <div style="margin-bottom:20px;">
+        <span class="badge badge-primary">
+          <span>✦</span> COE 543/743 · Spring 2026
+        </span>
+      </div>
+
+      <h1 style="font-size:clamp(2rem,5vw,3.2rem);font-weight:700;line-height:1.15;margin-bottom:20px;letter-spacing:-0.02em;">
+        Compare countries by their<br>
+        <span class="text-gradient">structural</span> and <span class="text-gradient">semantic</span> DNA.
+      </h1>
+
+      <p style="font-size:16px;color:var(--muted-foreground);line-height:1.65;max-width:580px;margin-bottom:36px;">
+        SIMILICA uses <strong style="color:var(--foreground)">Tree Edit Distance</strong> and
+        <strong style="color:var(--foreground)">Jaccard token similarity</strong> to quantify how
+        similar any two Wikipedia country infoboxes are — structurally and semantically.
+      </p>
+
+      <div style="display:flex;gap:14px;flex-wrap:wrap;">
+        <a href="/similarity" class="btn btn-primary" style="font-size:15px;padding:11px 24px;">
+          ⇄ Launch Similarity Lab
+        </a>
+        <a href="/clustering" class="btn btn-outline" style="font-size:15px;padding:11px 24px;">
+          ◎ Open Clustering Workspace
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ Stats row ═════════════════════════════════════════════ -->
+  <section style="padding: 28px 48px; border-bottom: 1px solid var(--border); display:flex; gap:40px; flex-wrap:wrap;">
+    <div style="display:flex;flex-direction:column;gap:2px;">
+      <span style="font-size:28px;font-weight:700;font-family:'JetBrains Mono';" class="text-gradient">195</span>
+      <span style="font-size:12px;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.08em;">Countries</span>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:2px;">
+      <span style="font-size:28px;font-weight:700;font-family:'JetBrains Mono';" class="text-gradient">4</span>
+      <span style="font-size:12px;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.08em;">Algorithms</span>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:2px;">
+      <span style="font-size:28px;font-weight:700;font-family:'JetBrains Mono';" class="text-gradient">Zhang-Shasha</span>
+      <span style="font-size:12px;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.08em;">TED Engine</span>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:2px;">
+      <span style="font-size:28px;font-weight:700;font-family:'JetBrains Mono';" class="text-gradient">Real-time</span>
+      <span style="font-size:12px;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.08em;">Computation</span>
+    </div>
+  </section>
+
+  <!-- ══ Feature grid ══════════════════════════════════════════ -->
+  <section style="padding: 56px 48px;">
+    <h2 style="font-size:20px;font-weight:700;margin-bottom:8px;">What you can do</h2>
+    <p style="color:var(--muted-foreground);font-size:14px;margin-bottom:32px;">
+      Six integrated modules for country comparison and clustering analysis.
+    </p>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;">
+
+      <div class="card glass" style="border-radius:1rem;">
+        <div style="font-size:28px;margin-bottom:14px;">🌲</div>
+        <h3 style="font-size:16px;font-weight:700;margin-bottom:8px;">Tree Edit Distance</h3>
+        <p style="font-size:13px;color:var(--muted-foreground);line-height:1.55;">
+          Zhang-Shasha algorithm computes the minimum cost sequence of edits to transform one
+          country's infobox tree into another.
+        </p>
+      </div>
+
+      <div class="card glass" style="border-radius:1rem;">
+        <div style="font-size:28px;margin-bottom:14px;">🔤</div>
+        <h3 style="font-size:16px;font-weight:700;margin-bottom:8px;">Semantic Similarity</h3>
+        <p style="font-size:13px;color:var(--muted-foreground);line-height:1.55;">
+          Jaccard token overlap across all leaf text values — language, religion, government type,
+          capital city, and more.
+        </p>
+      </div>
+
+      <div class="card glass" style="border-radius:1rem;">
+        <div style="font-size:28px;margin-bottom:14px;">⚖️</div>
+        <h3 style="font-size:16px;font-weight:700;margin-bottom:8px;">Combined Scoring</h3>
+        <p style="font-size:13px;color:var(--muted-foreground);line-height:1.55;">
+          Tune α to blend structural and semantic scores. See exactly how the weighting
+          changes relative rankings.
+        </p>
+      </div>
+
+      <div class="card glass" style="border-radius:1rem;">
+        <div style="font-size:28px;margin-bottom:14px;">◎</div>
+        <h3 style="font-size:16px;font-weight:700;margin-bottom:8px;">4 Clustering Algorithms</h3>
+        <p style="font-size:13px;color:var(--muted-foreground);line-height:1.55;">
+          Agglomerative, DBSCAN, Spectral, and K-Medoids clustering on the pairwise similarity
+          matrix. Visualised as dendrogram, scatter, force graph, and map.
+        </p>
+      </div>
+
+      <div class="card glass" style="border-radius:1rem;">
+        <div style="font-size:28px;margin-bottom:14px;">🗺️</div>
+        <h3 style="font-size:16px;font-weight:700;margin-bottom:8px;">Interactive Maps</h3>
+        <p style="font-size:13px;color:var(--muted-foreground);line-height:1.55;">
+          Select countries by clicking directly on a dark Leaflet world map. Similarity results
+          overlay a geographic heat gradient.
+        </p>
+      </div>
+
+      <div class="card glass" style="border-radius:1rem;">
+        <div style="font-size:28px;margin-bottom:14px;">📄</div>
+        <h3 style="font-size:16px;font-weight:700;margin-bottom:8px;">Document Inspector</h3>
+        <p style="font-size:13px;color:var(--muted-foreground);line-height:1.55;">
+          Explore each country's infobox in Rendered, XML, JSON, and Tree view before
+          running any computation.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ Quick-start ═══════════════════════════════════════════ -->
+  <section style="padding: 0 48px 64px;">
+    <div class="card" style="border-radius:1.25rem;background:linear-gradient(135deg,oklch(0.21 0.03 260 / 0.9),oklch(0.18 0.03 260 / 0.6));border-color:oklch(0.78 0.18 200 / 0.2);">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;">
+        <div>
+          <h3 style="font-size:18px;font-weight:700;margin-bottom:6px;">Ready to explore?</h3>
+          <p style="color:var(--muted-foreground);font-size:14px;">
+            Compare France and Germany structurally, or cluster all 195 countries by semantic similarity.
+          </p>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="/similarity" class="btn btn-primary">Start Similarity Analysis →</a>
+          <a href="/about" class="btn btn-outline">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+{% endblock %}

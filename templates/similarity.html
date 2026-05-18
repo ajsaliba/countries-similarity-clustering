@@ -1,0 +1,285 @@
+{% extends "base.html" %}
+{% block title %}Similarity{% endblock %}
+
+{% block head %}
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    #sim-map { height: 340px; }
+    .leaflet-tile-pane { filter: brightness(0.85) saturate(1.1); }
+    .country-list-scroll { height: 320px; overflow-y: auto; }
+    .step-panel { display: none; }
+    .step-panel.active { display: block; }
+    .edit-op { display: flex; align-items: flex-start; gap: 10px; padding: 8px 12px; border-radius: 6px; margin-bottom: 4px; font-size: 12px; }
+    .edit-op.insert { background: oklch(0.75 0.18 155 / 0.08); border-left: 3px solid var(--success); }
+    .edit-op.delete { background: oklch(0.65 0.24 25 / 0.08); border-left: 3px solid var(--destructive); }
+    .edit-op.update { background: oklch(0.82 0.17 80 / 0.08); border-left: 3px solid var(--warning); }
+    .edit-op.match  { background: oklch(0.27 0.025 260 / 0.5); border-left: 3px solid var(--muted); }
+    .edit-path { font-family: 'JetBrains Mono'; color: var(--primary); font-size: 11px; }
+    .token-pill { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 999px; font-family: 'JetBrains Mono'; font-size: 10px; margin: 2px; }
+    .token-shared { background: oklch(0.78 0.18 200 / 0.15); color: var(--primary); }
+    .token-unique-a { background: oklch(0.7 0.25 320 / 0.12); color: var(--secondary); }
+    .token-unique-b { background: oklch(0.75 0.18 155 / 0.12); color: var(--success); }
+    .venn-box { border: 1px solid var(--border); border-radius: 10px; padding: 16px; text-align: center; }
+  </style>
+{% endblock %}
+
+{% block content %}
+<div style="padding: 32px;">
+
+  <div style="margin-bottom: 28px;">
+    <h1 style="font-size:1.6rem;font-weight:700;margin-bottom:6px;">Similarity Lab</h1>
+    <p style="color:var(--muted-foreground);font-size:14px;">Compare countries step by step using structural TED and semantic Jaccard similarity.</p>
+  </div>
+
+  <!-- ══ Stepper ═══════════════════════════════════════════════ -->
+  <div class="stepper" id="stepper">
+    <div class="step-item">
+      <button class="step-btn" onclick="simGoTo(0)">
+        <div class="step-circle active" id="sc0">1</div>
+        <span class="step-label">Mode</span>
+      </button>
+    </div>
+    <div class="step-connector" id="conn0"></div>
+    <div class="step-item">
+      <button class="step-btn" onclick="simGoTo(1)">
+        <div class="step-circle locked" id="sc1">2</div>
+        <span class="step-label">Type</span>
+      </button>
+    </div>
+    <div class="step-connector" id="conn1"></div>
+    <div class="step-item">
+      <button class="step-btn" onclick="simGoTo(2)">
+        <div class="step-circle locked" id="sc2">3</div>
+        <span class="step-label">Countries</span>
+      </button>
+    </div>
+    <div class="step-connector" id="conn2"></div>
+    <div class="step-item">
+      <button class="step-btn" onclick="simGoTo(3)">
+        <div class="step-circle locked" id="sc3">4</div>
+        <span class="step-label">Review</span>
+      </button>
+    </div>
+    <div class="step-connector" id="conn3"></div>
+    <div class="step-item">
+      <button class="step-btn" onclick="simGoTo(4)">
+        <div class="step-circle locked" id="sc4">5</div>
+        <span class="step-label">Compute</span>
+      </button>
+    </div>
+    <div class="step-connector" id="conn4"></div>
+    <div class="step-item">
+      <button class="step-btn" onclick="simGoTo(5)">
+        <div class="step-circle locked" id="sc5">6</div>
+        <span class="step-label">Results</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ══ Step 0: Mode ══════════════════════════════════════════ -->
+  <div class="step-panel active" id="sim-step-0">
+    <h2 style="font-size:16px;font-weight:600;margin-bottom:20px;">Select comparison mode</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:700px;">
+      <div class="select-card" id="mode-1v1" onclick="simSelectMode('1v1')">
+        <div class="select-card-icon">⇄</div>
+        <div class="select-card-title">1 vs 1</div>
+        <div class="select-card-desc">Compare two countries head-to-head with an edit script, side-by-side tree diff, and field-level analysis.</div>
+      </div>
+      <div class="select-card" id="mode-1vall" onclick="simSelectMode('1vall')">
+        <div class="select-card-icon">⇄⇄</div>
+        <div class="select-card-title">1 vs All</div>
+        <div class="select-card-desc">Compare a source country against many others. Get a ranked similarity table and geographic heatmap.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ Step 1: Type ═══════════════════════════════════════════ -->
+  <div class="step-panel" id="sim-step-1">
+    <h2 style="font-size:16px;font-weight:600;margin-bottom:20px;">Select similarity type</h2>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:860px;">
+      <div class="select-card" id="type-structural" onclick="simSelectType('structural')">
+        <div class="select-card-icon">🌲</div>
+        <div class="select-card-title">Structural</div>
+        <div class="select-card-desc">TED on tag and attribute structure only — ignores leaf text values.</div>
+      </div>
+      <div class="select-card" id="type-semantic" onclick="simSelectType('semantic')">
+        <div class="select-card-icon">🔤</div>
+        <div class="select-card-title">Semantic</div>
+        <div class="select-card-desc">Token overlap on leaf text values — ignores tag structure entirely.</div>
+      </div>
+      <div class="select-card" id="type-combined" onclick="simSelectType('combined')">
+        <div class="select-card-icon">⚖️</div>
+        <div class="select-card-title">Combined</div>
+        <div class="select-card-desc">Weighted blend of structural and semantic. Tune α with the slider below.</div>
+      </div>
+    </div>
+    <!-- Alpha slider (shown for combined) -->
+    <div id="alpha-row" style="display:none;margin-top:24px;max-width:500px;">
+      <div class="card glass" style="border-radius:1rem;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
+          <span style="font-size:14px;font-weight:600;">Blend weight (α)</span>
+          <span id="alpha-display" style="font-family:'JetBrains Mono';font-size:13px;color:var(--primary);">Structure 50% | Semantic 50%</span>
+        </div>
+        <input type="range" id="alpha-slider" min="0" max="1" step="0.05" value="0.5"
+               oninput="simUpdateAlpha(this.value)">
+        <div style="display:flex;justify-content:space-between;margin-top:4px;font-size:10px;color:var(--muted-foreground);font-family:'JetBrains Mono';">
+          <span>← Semantic</span><span>Structural →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ Step 2: Countries ══════════════════════════════════════ -->
+  <div class="step-panel" id="sim-step-2">
+    <h2 style="font-size:16px;font-weight:600;margin-bottom:8px;">Select countries</h2>
+    <p id="country-hint" style="color:var(--muted-foreground);font-size:13px;margin-bottom:16px;">Select source and target countries.</p>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+      <!-- Map -->
+      <div>
+        <div style="font-size:12px;color:var(--muted-foreground);margin-bottom:8px;font-family:'JetBrains Mono';text-transform:uppercase;letter-spacing:0.05em;">World Map — click to select</div>
+        <div class="map-container">
+          <div id="sim-map"></div>
+        </div>
+      </div>
+
+      <!-- Country list -->
+      <div>
+        <div style="display:flex;gap:8px;margin-bottom:10px;align-items:center;">
+          <input class="input" id="sim-search" placeholder="Search countries…" oninput="simFilterCountries(this.value)" style="flex:1;">
+          <button class="btn btn-sm btn-outline" onclick="simSurprise()">🎲 Surprise</button>
+          <button class="btn btn-sm btn-outline" onclick="simClearSelection()">✕ Clear</button>
+        </div>
+        <div id="sim-selection-tags" style="margin-bottom:8px;min-height:24px;display:flex;gap:6px;flex-wrap:wrap;"></div>
+        <div class="country-list-scroll card" style="padding:6px;" id="sim-country-list">
+          <div style="text-align:center;padding:40px;color:var(--muted-foreground);">Loading countries…</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px;display:flex;justify-content:flex-end;">
+      <button class="btn btn-primary" id="sim-next-2" onclick="simGoTo(3)" disabled>
+        Review Documents →
+      </button>
+    </div>
+  </div>
+
+  <!-- ══ Step 3: Document Review ════════════════════════════════ -->
+  <div class="step-panel" id="sim-step-3">
+    <h2 style="font-size:16px;font-weight:600;margin-bottom:20px;">Review country documents</h2>
+    <div id="sim-docs-container" style="display:grid;gap:20px;"></div>
+    <div style="margin-top:20px;display:flex;gap:12px;justify-content:flex-end;">
+      <button class="btn btn-outline" onclick="simGoTo(2)">← Back</button>
+      <button class="btn btn-primary" onclick="simMarkReviewed()">Mark as Reviewed →</button>
+    </div>
+  </div>
+
+  <!-- ══ Step 4: Compute ════════════════════════════════════════ -->
+  <div class="step-panel" id="sim-step-4">
+    <h2 style="font-size:16px;font-weight:600;margin-bottom:20px;">Run similarity computation</h2>
+
+    <div class="card glass" style="border-radius:1rem;max-width:580px;margin-bottom:24px;">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+        <div><span style="font-size:11px;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.06em;font-family:'JetBrains Mono';">Mode</span><br><span id="sum-mode" style="font-weight:600;">—</span></div>
+        <div><span style="font-size:11px;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.06em;font-family:'JetBrains Mono';">Type</span><br><span id="sum-type" style="font-weight:600;">—</span></div>
+        <div><span style="font-size:11px;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.06em;font-family:'JetBrains Mono';">Countries</span><br><span id="sum-countries" style="font-weight:600;">—</span></div>
+        <div><span style="font-size:11px;color:var(--muted-foreground);text-transform:uppercase;letter-spacing:0.06em;font-family:'JetBrains Mono';">Alpha (α)</span><br><span id="sum-alpha" style="font-weight:600;">—</span></div>
+      </div>
+    </div>
+
+    <!-- Progress -->
+    <div id="sim-progress" style="display:none;max-width:580px;margin-bottom:24px;">
+      <div class="card glass" style="border-radius:1rem;">
+        <div style="margin-bottom:12px;font-size:13px;" id="sim-phase-label">Initialising…</div>
+        <div class="progress-track"><div class="progress-fill" id="sim-progress-bar" style="width:0%"></div></div>
+        <div style="margin-top:8px;font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';" id="sim-phase-detail"></div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:12px;align-items:center;">
+      <button class="btn btn-outline" onclick="simGoTo(3)">← Back</button>
+      <button class="btn btn-primary" id="sim-run-btn" onclick="runSimilarity()">
+        ▶ Run Similarity
+      </button>
+    </div>
+  </div>
+
+  <!-- ══ Step 5: Results ════════════════════════════════════════ -->
+  <div class="step-panel" id="sim-step-5">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:12px;">
+      <h2 style="font-size:16px;font-weight:600;">Results</h2>
+      <div style="display:flex;gap:8px;">
+        <button class="btn btn-sm btn-outline" onclick="simExportJSON()">⬇ Export JSON</button>
+        <button class="btn btn-sm btn-outline" onclick="simSaveResult()">🔖 Save</button>
+        <button class="btn btn-sm btn-primary" onclick="simGoTo(0);simReset()">↺ New Analysis</button>
+      </div>
+    </div>
+
+    <!-- 1v1 results -->
+    <div id="res-1v1" style="display:none;">
+      <div style="display:grid;grid-template-columns:280px 1fr;gap:20px;align-items:start;">
+        <!-- Score panel -->
+        <div class="card glass" style="border-radius:1rem;">
+          <div id="res-country-names" style="margin-bottom:20px;"></div>
+          <div id="res-score-bars" style="display:flex;flex-direction:column;gap:14px;"></div>
+        </div>
+        <!-- Tabs panel -->
+        <div>
+          <div id="res1v1-tabs" data-tab-group style="display:flex;flex-direction:column;gap:12px;">
+            <div class="tabs-list">
+              <button class="tab-trigger active" data-tab="diff">🌲 Tree Diff</button>
+              <button class="tab-trigger" data-tab="editscript">✏ Edit Script</button>
+              <button class="tab-trigger" data-tab="fields">📊 Field Level</button>
+              <button class="tab-trigger" data-tab="tokens">🔤 Tokens</button>
+            </div>
+
+            <div data-tab-content="diff" class="tab-content active">
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;" id="res-tree-diff"></div>
+            </div>
+
+            <div data-tab-content="editscript" class="tab-content">
+              <div style="margin-bottom:10px;display:flex;gap:8px;flex-wrap:wrap;" id="res-edit-legend">
+                <span class="badge badge-success">insert</span>
+                <span class="badge badge-destructive">delete</span>
+                <span class="badge badge-warning">update</span>
+                <span class="badge badge-muted">match</span>
+              </div>
+              <div style="max-height:420px;overflow-y:auto;" id="res-edit-script"></div>
+            </div>
+
+            <div data-tab-content="fields" class="tab-content">
+              <div id="res-field-table"></div>
+            </div>
+
+            <div data-tab-content="tokens" class="tab-content">
+              <div id="res-token-analysis"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1-vs-all results -->
+    <div id="res-1vall" style="display:none;">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+        <div>
+          <div style="font-size:12px;color:var(--muted-foreground);margin-bottom:8px;font-family:'JetBrains Mono';text-transform:uppercase;letter-spacing:0.05em;">Geographic Heatmap</div>
+          <div class="map-container">
+            <div id="res-map" style="height:380px;"></div>
+          </div>
+        </div>
+        <div class="card" style="border-radius:1rem;padding:16px;">
+          <div style="font-size:12px;color:var(--muted-foreground);margin-bottom:12px;font-family:'JetBrains Mono';text-transform:uppercase;letter-spacing:0.05em;">Ranked Results</div>
+          <div style="max-height:400px;overflow-y:auto;" id="res-ranked-list"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /padding -->
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/similarity.js"></script>
+{% endblock %}

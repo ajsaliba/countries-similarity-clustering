@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block title %}Saved{% endblock %}
+{% block content %}
+<div style="padding:48px 32px;max-width:860px;margin:0 auto;">
+  <div style="margin-bottom:32px;">
+    <span class="badge badge-primary" style="margin-bottom:14px;">🔖 Saved Results</span>
+    <h1 style="font-size:1.8rem;font-weight:700;margin-bottom:8px;">Saved Analyses</h1>
+    <p style="color:var(--muted-foreground);font-size:14px;">
+      Your bookmarked similarity and clustering results are stored here.
+    </p>
+  </div>
+
+  <div id="saved-list">
+    <div class="card glass" style="border-radius:1rem;text-align:center;padding:60px 32px;">
+      <div style="font-size:40px;margin-bottom:16px;">🔖</div>
+      <h3 style="font-size:16px;font-weight:600;margin-bottom:8px;">No saved results yet</h3>
+      <p style="color:var(--muted-foreground);font-size:13px;margin-bottom:24px;">
+        Run a similarity analysis or clustering, then click "Save Result" to bookmark it here.
+      </p>
+      <div style="display:flex;gap:12px;justify-content:center;">
+        <a href="/similarity" class="btn btn-primary">Run Similarity</a>
+        <a href="/clustering" class="btn btn-outline">Run Clustering</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% block scripts %}
+<script>
+  // Load saved results from localStorage
+  document.addEventListener('DOMContentLoaded', () => {
+    const saved = JSON.parse(localStorage.getItem('similica_saved') || '[]');
+    if (saved.length === 0) return;
+
+    const list = document.getElementById('saved-list');
+    list.innerHTML = saved.map((item, i) => `
+      <div class="card glass" style="border-radius:1rem;margin-bottom:16px;">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+          <div>
+            <span class="badge badge-${item.type === 'similarity' ? 'primary' : 'secondary'}">${item.type === 'similarity' ? '⇄' : '◎'} ${item.type}</span>
+            <span style="margin-left:10px;font-size:13px;font-weight:600;">${item.title}</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <span style="font-size:11px;color:var(--muted-foreground);font-family:'JetBrains Mono';">${new Date(item.timestamp).toLocaleString()}</span>
+            <button class="btn btn-sm btn-outline" onclick="deleteSaved(${i})">✕</button>
+          </div>
+        </div>
+        <p style="font-size:13px;color:var(--muted-foreground);">${item.summary || ''}</p>
+        <div style="margin-top:12px;">
+          <button class="btn btn-sm btn-outline" onclick="downloadSaved(${i})">⬇ Export JSON</button>
+        </div>
+      </div>
+    `).join('');
+  });
+
+  function deleteSaved(idx) {
+    const saved = JSON.parse(localStorage.getItem('similica_saved') || '[]');
+    saved.splice(idx, 1);
+    localStorage.setItem('similica_saved', JSON.stringify(saved));
+    location.reload();
+  }
+
+  function downloadSaved(idx) {
+    const saved = JSON.parse(localStorage.getItem('similica_saved') || '[]');
+    const item = saved[idx];
+    const blob = new Blob([JSON.stringify(item.data, null, 2)], {type: 'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = `similica_${item.type}_${idx}.json`;
+    a.click(); URL.revokeObjectURL(url);
+  }
+</script>
+{% endblock %}
+{% endblock %}
